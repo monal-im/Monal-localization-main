@@ -14,7 +14,7 @@
 "Accounts" = "Accounts";
 "Accounts With Logs" = "Accounts With Logs";
 "Add %@ to your contacts?" = "Add %@ to your contacts?";
-"Add Contact" = "Add Contact";
+"TITLE_ADD_CONTACT" = "Add Contact";
 "Add New Account" = "Add New Account";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Add new contacts with the + button above. Your friends will pop up here when they can talk";
 "Advanced" = "Advanced";
@@ -62,12 +62,12 @@
 "Clear omemo session" = "Clear omemo session";
 /* DEBUG - XMPPEdit */
 "Clear own omemo session" = "Clear own omemo session";
-"Close" = "Close";
+"CLOSE" = "Close";
 "Connected since: %@" = "Connected since: %@";
 "Connection Details" = "Connection Details";
-"Contact Jid" = "Contact Jid";
+"PLACEHOLDER_CONTACT_JID" = "Contact Jid";
 "Contacts" = "Contacts";
-"Contacts are usually in the format: username@dom.ain" = "Contacts are usually in the format: username@dom.ain";
+"MESSAGE_JID_FORMAT_INFO" = "Contacts are usually in the format: username@dom.ain";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Could not access camera";
 "Could not change the password" = "Could not change the password";
@@ -108,7 +108,7 @@
 "Enter you password here" = "Enter you password here";
 "Enter you XMPP ID here" = "Enter you XMPP ID here";
 "Enter your new password. Passwords may not be empty. They may also be governed by server or company policies." = "Enter your new password. Passwords may not be empty. They may also be governed by server or company policies.";
-"Error" = "Error";
+"ERROR" = "Error";
 "Error decrypting message" = "Error decrypting message";
 "Error entering groupchat" = "Error entering groupchat";
 "Error registering push" = "Error registering push";
@@ -198,7 +198,7 @@
 "Mute" = "Mute";
 "My Encryption Keys" = "My Encryption Keys";
 "My Keys" = "My Keys";
-"Name can't be empty" = "Name can't be empty";
+"MESSAGE_NAME_EMPTY" = "Name can't be empty";
 "Name: " = "Name: ";
 "Neither can see keys." = "Neither can see keys.";
 "Never archive" = "Never archive";
@@ -206,7 +206,7 @@
 "New Message" = "New Message";
 "New Password" = "New Password";
 "No" = "No";
-"No connected accounts" = "No connected accounts";
+"TITLE_ACCOUNT_CONNECTION_INFORMATION" = "No connected accounts";
 "No Contact Selected" = "No Contact Selected";
 "No Empty Values" = "No Empty Values";
 "No enabled account found" = "No enabled account found";
@@ -236,14 +236,14 @@
 "Participants" = "Participants";
 "Password" = "Password";
 "Password cannot be empty" = "Password cannot be empty";
-"Permission Requested" = "Permission Requested";
+"TITLE_PERMISSION_REQUESTED" = "Permission Requested";
 "Photos" = "Photos";
 "Pin Chat" = "Pin Chat";
 "Play Sounds" = "Play Sounds";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Please add a new account under settings first. If you already added your account you may need to enable it under settings";
 "Please Allow Audio Access" = "Please Allow Audio Access";
 "Please enter a password." = "Please enter a password.";
-"Please make sure at least one account has connected before trying to add a contact." = "Please make sure at least one account has connected before trying to add a contact.";
+"TITLE_INFOTEXT_CONNECT_ACCOUNT_BEFORE_ADDING_USER" = "Please make sure at least one account has connected before trying to add a contact.";
 "Please make sure you are connected before changing your password." = "Please make sure you are connected before changing your password.";
 "Please make sure you have entered a username, password." = "Please make sure you have entered a username, password.";
 "Please open the app to retry" = "Please open the app to retry";
@@ -325,7 +325,7 @@
 "The account has been deleted" = "The account has been deleted";
 "The account has been saved" = "The account has been saved";
 "The chat history has been cleared" = "The chat history has been cleared";
-"The new contact will be added to your contacts list when the person you've added has approved your request." = "The new contact will be added to your contacts list when the person you've added has approved your request.";
+"MESSAGE_CONTACT_ADDED_WHEN_APPROVED" = "The new contact will be added to your contacts list when the person you've added has approved your request.";
 "The password has been changed" = "The password has been changed";
 "The server does not support blocking" = "The server does not support blocking";
 "The username does not need to have an @ symbol. Please try again." = "The username does not need to have an @ symbol. Please try again.";
@@ -366,7 +366,7 @@
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "user@example.org/resource";
 "Username missing" = "Username missing";
-"Using Account: %@" = "Using Account: %@";
+"LABEL_ACCOUNT_IN_USE" = "Using Account: %@";
 "Version" = "Version";
 "Version %@ (%@ %@ UTC)" = "Version %1$@ (%2$@ %3$@ UTC)";
 "Version: " = "Version: ";
