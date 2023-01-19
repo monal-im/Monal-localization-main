@@ -255,7 +255,7 @@
 "Failed to query new messages for Group/Channel %@" = "查询群组/频道 %@ 的新消息失败";
 "Failed to query new messages for groupchat %@" = "查询群聊 %@ 的新消息失败";
 "Failed to query newest stanzaid for account %@" = "查询帐号的最新stanzaid失败 %@";
-"Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
+"Failed to query newest stanzaid for Group/Channel %@" = "查询群组/频道 %@ 的最新节id失败";
 "Failed to query newest stanzaid for groupchat %@" = "查询群聊的最新stanzaid失败 %@";
 "Failed to remove bookmark for Group/Channel: %@" = "Failed to remove bookmark for Group/Channel: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Failed to save bookmark for Group/Channel: %@";
@@ -282,10 +282,10 @@
 "Group Password" = "群组密码";
 "Group requires a password" = "群组需要密码";
 "Group subject:" = "Group subject:";
-"Group/Channel error" = "Group/Channel error";
+"Group/Channel error" = "群组/频道错误";
 "Group/Channel error in %@" = "Group/Channel error in %@";
-"Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
-"Group/Channel not available anymore: %@" = "Group/Channel not available anymore: %@";
+"Group/Channel got destroyed: %@" = "群组/频道已被销毁: %@";
+"Group/Channel not available anymore: %@" = "群组/频道不再可用: %@";
 "Groupchat error" = "群聊错误";
 "Groupchat/channel details" = "群聊/频道详情";
 "Groupchat/channel details are currently not implemented in Monal." = "群聊/频道详细信息目前未在 Monal 中实现。";
@@ -364,7 +364,7 @@
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings.";
 "Logging in" = "登录中";
 "Login" = "Login";
-"Login error, account disabled: %@" = "Login error, account disabled: %@";
+"Login error, account disabled: %@" = "登录错误，帐号已禁用: %@";
 "Login with a QR-Code" = "二维码登录";
 "Manual input" = "Manual input";
 "Mark all messages as read" = "标记所有消息为已读";
@@ -384,7 +384,7 @@
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %d and that they have you as a contact." = "此设备未加密消息。请确保发送人信任装置 %d，并且他们已经添加您为联系人。";
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u.";
 "Messages never archived by default." = "默认情况下，消息从不存档。";
-"Method: %@" = "Method: %@";
+"Method: %@" = "方法: %@";
 "Migration Assistant" = "Migration Assistant";
 "Missing permission" = "缺少权限";
 "Monal" = "Monal";
@@ -429,12 +429,12 @@
 "No OMEMO keys found" = "没有找到 OMEMO 密钥";
 "No one is here" = "没有人在";
 "No search result." = "无搜索结果。";
-"No supported auth mechanism found, disabling account!" = "No supported auth mechanism found, disabling account!";
+"No supported auth mechanism found, disabling account!" = "没有找到支持的认证机制，正在禁用帐号！";
 "No supported auth mechanism found, disconnecting!" = "没有找到支持的身份验证机制，正在断开连接！";
 "no supported auth mechanism, disconnecting!" = "不支持身份验证机制，正在断开连接！";
 "No XMPP server!" = "No XMPP server!";
 "No, keep encryption activated" = "No, keep encryption activated";
-"None" = "None";
+"None" = "没有";
 "Not Authorized. Please check your credentials." = "未授权。请检查您的凭证。";
 "Nothing to see" = "没什么能看";
 "Notification" = "通知";
@@ -510,7 +510,7 @@
 "Rebuild Tokens" = "重置 Tokens";
 "Rebuilding is useful if you are experiencing problems. This will require an app restart to work." = "如果您遇到问题，请重置，并重新启动应用。";
 "Receive push notifications from via Apple even when disconnected. Vastly improves reliability." = "即使断开连接，也可以通过 Apple 接收推送通知。 大大提高了可靠性。";
-"Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "Receive push notifications via Apple even when disconnected. Vastly improves reliability.";
+"Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "即使断开连接，也可以通过Apple接收推送通知。大大提高了可靠性。";
 "Received" = "已收到";
 /* directory for downloaded audios */
 "Received Audios" = "接收的音频";
@@ -549,14 +549,14 @@
 "Retry" = "重试";
 "Retry sending message?" = "重发消息？";
 "Room" = "聊天室";
-"Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Salted Challenge Response Authentication Mechanism using the given Hash Method";
-"Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding";
+"Salted Challenge Response Authentication Mechanism using the given Hash Method" = "使用给定哈希方法的Salted Challenge Response认证机制";
+"Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "使用频道绑定额外保护的给定哈希方法的Salted Challenge Response认证机制";
 "SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "Saving changes to server" = "将更改保存到服务器";
 /* mac only string */
 "Scroll down to load more messages" = "向下滑以载入更多消息";
-"Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections.";
+"Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "为TLS1.3和一些TLS1.2连接定义的安全频道绑定。";
 "Select a Background" = "选择背景";
 "Select a background to display behind conversations" = "选择对话背景";
 "Select Action" = "选择动作";
@@ -572,7 +572,7 @@
 "Send message received state" = "发送消息接收状态";
 "Send Typing Notifications" = "发送打字通知";
 "Sending..." = "发送中...";
-"Sends password in cleartext (only encrypted by TLS), not very secure" = "Sends password in cleartext (only encrypted by TLS), not very secure";
+"Sends password in cleartext (only encrypted by TLS), not very secure" = "以明文形式发送密码（仅通过TLS加密），不太安全";
 "Sent" = "已发送";
 "Sent a File 📁" = "发送文件 📁";
 "Sent a Link 🔗" = "发送了链接 🔗";
@@ -590,9 +590,9 @@
 "Server" = "服务器";
 "Server does not support account removal" = "Server does not support account removal";
 "Server for domain '%@' not responding!" = "域服务器 '%@' 没有响应！";
-"Server implementation error: SASL2 tasks empty, account disabled!" = "Server implementation error: SASL2 tasks empty, account disabled!";
+"Server implementation error: SASL2 tasks empty, account disabled!" = "服务器实现错误：SASL2任务为空，帐号已禁用！";
 "Server returned invalid xml!" = "服务器返回无效的 xml!";
-"Server returned SASL2 error '%@'." = "Server returned SASL2 error '%@'.";
+"Server returned SASL2 error '%@'." = "服务器返回SASL2错误 '%@'.";
 "Server Support Details" = "服务器支持详情";
 "Server: %@" = "服务器: %@";
 "Set a nickname" = "设置昵称";
@@ -632,7 +632,7 @@
 "Tell my contacts if I've read a message" = "如果我已读消息，告诉我的联系人";
 "Tell my contacts if my device received a message" = "如果我的设备收到消息，请告诉我的联系人";
 "Tell my contacts when I'm typing" = "当我在输入的时候，让我的联系人知道";
-"Temporary failure to enter Group/Channel: %@" = "Temporary failure to enter Group/Channel: %@";
+"Temporary failure to enter Group/Channel: %@" = "暂时无法进入群组/频道: %@";
 "Temporary failure to enter groupchat: %@" = "Temporary failure to enter groupchat: %@";
 "Terms of use for %@" = "Terms of use for %@";
 "The account has been deleted" = "该帐号已被删除";
@@ -663,10 +663,10 @@
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "解密此加密消息时出错（信号错误）。 要解决此问题，请尝试向此人发送加密消息。 (%@)";
 "There was an error uploading the file to the server" = "文件上传服务器出错";
 "These are SRV resource records found for your domain" = "这些是您的域名找到的SRV资源记录";
-"These are SRV resource records found for your domain." = "These are SRV resource records found for your domain.";
-"These are the channel-binding types your server supports to detect attacks on the TLS layer." = "These are the channel-binding types your server supports to detect attacks on the TLS layer.";
+"These are SRV resource records found for your domain." = "在你的域里找到的SRV资源记录。";
+"These are the channel-binding types your server supports to detect attacks on the TLS layer." = "服务器支持的频道绑定类型，用于检测TLS层的攻击。";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "这些是在你登录后Monal在你的服务器上检测到的最新XMPP功能。";
-"These are the SASL2 methods your server supports." = "These are the SASL2 methods your server supports.";
+"These are the SASL2 methods your server supports." = "服务器支持的SASL2方法。";
 "These are the TLS versions supported by Monal, the one supported by your server will be green." = "These are the TLS versions supported by Monal, the one supported by your server will be green.";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "These are the TLS versions supported by Monal, the one used to connect to your server will be green.";
 "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it." = "这些是你的加密密钥。每个设备都是你登录的不同地方。你应该在验证过密钥后再信任它。";
@@ -690,9 +690,9 @@
 "This sender will be able to send you messages" = "此联系人能向你发消息";
 "This sender will no longer be able to contact you" = "此联系人无法再与你联系";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "此服务器似乎不支持 HTTP 文件上传 (XEP-0363)。请要求管理员启用它。";
-"This server does not have any SRV records in DNS." = "This server does not have any SRV records in DNS.";
-"This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer.";
-"This server does not support modern SASL2 authentication." = "This server does not support modern SASL2 authentication.";
+"This server does not have any SRV records in DNS." = "此服务器在DNS中没有任何SRV记录。";
+"This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "此服务器不支持任何新近的频道绑定，以防止TLS层上的MITM攻击。";
+"This server does not support modern SASL2 authentication." = "此服务器不支持新近的SASL2身份验证。";
 "This should never happen, please contact the developers and provide a logfile!" = "This should never happen, please contact the developers and provide a logfile!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "此规范定义了使用 XMPP 发布订阅协定广播与即时消息和存在帐户关联的状态更改事件的语义。";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";
@@ -717,7 +717,7 @@
 "Trusted but unverified key" = "Trusted but unverified key";
 /* Join GroupViewController - Join Group HUD */
 "Trying to join group" = "尝试加入群组";
-"Type: %@" = "Type: %@";
+"Type: %@" = "类型: %@";
 "Typing..." = "打字中...";
 "Unable to connect to server" = "无法连到服务器";
 "Unable to connect to server!" = "无法连接到服务器!";
@@ -730,8 +730,8 @@
 "Unexpected mam preferences result" = "无预期的 mam 偏好结果";
 "Unexpected server response: invalid PEP config form" = "意外的服务器响应：无效的 PEP 配置表单";
 "Unexpected server response: missing required fields in PEP config form" = "意外的服务器响应：PEP 配置表单中缺少必填字段";
-"Unknown authentication method" = "Unknown authentication method";
-"Unknown channel-binding type" = "Unknown channel-binding type";
+"Unknown authentication method" = "未知认证方式";
+"Unknown channel-binding type" = "未知频道绑定类型";
 "Unknown Subcription" = "未知订阅";
 "Unmute" = "未静音";
 "Unnamed" = "未命名";
@@ -748,7 +748,7 @@
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "user@example.org/resource";
 "Username missing" = "缺少用户名";
-"Uses TLS client certificates for authentication" = "Uses TLS client certificates for authentication";
+"Uses TLS client certificates for authentication" = "使用TLS客户端证书进行认证";
 "Using Account: %@" = "使用账号: %@";
 "Using server '%@' that was provided by the registration link you used." = "使用您使用的注册链接提供的服务器“%@”。";
 "Validate certificate" = "验证证书";
@@ -761,11 +761,11 @@
 "Waiting for GPS signal" = "等待GPS讯号";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "找不到与xmpp相关的二维码";
-"We don't support any task requested by the server, account disabled: %@" = "We don't support any task requested by the server, account disabled: %@";
-"We don't support the single task requested by the server, account disabled: %@" = "We don't support the single task requested by the server, account disabled: %@";
+"We don't support any task requested by the server, account disabled: %@" = "我们不支持服务器请求的任何任务，帐号已禁用: %@";
+"We don't support the single task requested by the server, account disabled: %@" = "我们不支持服务器请求的单个任务，帐号已禁用: %@";
 "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet." = "无法连线您的帐号。请检查您的证书，并确认已连线到网际网路。";
 "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "我们无法连接您的帐户。 请检查您的凭据并确保您已连接到互联网。\n\n技术错误信息: %@";
-"Weakest channel-binding type, not securing agains stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing agains stolen certs/keys, but detects wrongly issued certs.";
+"Weakest channel-binding type, not securing agains stolen certs/keys, but detects wrongly issued certs." = "最弱的频道绑定类型，不能防止被盗的证书/密钥，但检测错误颁发的证书。";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs.";
 "Welcome" = "Welcome";
 "Welcome to Monal" = "欢迎使用Monal";
