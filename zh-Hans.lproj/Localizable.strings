@@ -32,6 +32,8 @@
 "Add New Account" = "添加新账号";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "用上面的 + 按钮新增联系人。您的朋友在他们可以聊天的时候会出现在这";
 "Add to contacts" = "Add to contacts";
+"Adding MUC..." = "Adding MUC...";
+"Adding..." = "Adding...";
 "Advanced" = "高级";
 "Advanced Settings" = "高级设置";
 "All messages already present in local history!" = "所有的信息都已经存在于当地的历史中!";
@@ -77,6 +79,8 @@
 "Blocking not supported" = "不支持阻止";
 "Blocking/Unblocking Not Supported" = "Blocking/Unblocking Not Supported";
 "call screen did disappear" = "通话界面已取消";
+"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
+"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
 "Camera" = "摄像头";
 /* Camera permissions missing warning */
 "Camera permissions missing" = "缺少摄像头权限";
@@ -137,6 +141,7 @@
 "Could not get default capture device" = "无法获取默认视频捕获设备";
 /* QR-Code-Scanner */
 "Could not init video session" = "无法初始化视频会话";
+"Could not join group/channel '%@': timeout" = "Could not join group/channel '%@': timeout";
 "Could not load (all) old messages" = "无法加载（所有）旧信息";
 "Could not load (all) old messages from your server archive. Please try again later. %@" = "无法从服务器存档中加载(所有)之前的消息。请稍后再试。%@";
 "Could not read captcha!" = "无法读取验证码！";
@@ -145,6 +150,7 @@
 "Could not send" = "Could not send";
 "Could not synchronize" = "无法同步";
 "Could not upload file" = "无法上传文件";
+"Creating invitation..." = "Creating invitation...";
 "Current Password" = "当前密码";
 "Debug" = "调试";
 "Debugging" = "Debugging";
@@ -197,6 +203,7 @@
 /* Chat msg action */
 "Edit" = "编辑";
 "Email Support" = "联系电邮";
+"Enable encryption by default for new chats" = "Enable encryption by default for new chats";
 "Enable OMEMO per default" = "默认启用 OMEMO";
 "Enabled" = "已启用";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "加密消息以较旧的格式发送，Monal无法解密。请告诉对方更新客户端。 （GCM错误）";
@@ -214,6 +221,7 @@
 "Entry 2" = "Entry 2";
 "Entry 3" = "Entry 3";
 "Error" = "错误";
+"Error adding contact or channel" = "Error adding contact or channel";
 "Error authenticating server using SASL2, disconnecting!" = "使用SASL2验证服务器时出错，正在断开连接!";
 "Error decrypting message" = "解密消息发生错误";
 "Error entering groupchat" = "进入群聊时出错";
@@ -230,6 +238,7 @@
 "Escape The Garden" = "脱离范围";
 "Failed to block contact %@" = "无法阻止联系人 %@";
 "Failed to copy downloaded file into cache directory" = "未能将下载的文件复制到缓存目录";
+"Failed to create invitation, unknown error: %@" = "Failed to create invitation, unknown error: %@";
 "Failed to decode download link" = "解码下载链接失败";
 "Failed to decode encrypted link" = "解码加密的链接失败";
 "Failed to decrypt filetransfer" = "无法解密文件传输";
@@ -386,6 +395,7 @@
 "Messages never archived by default." = "默认情况下，消息从不存档。";
 "Method: %@" = "方法: %@";
 "Migration Assistant" = "Migration Assistant";
+"Missing Call Support" = "Missing Call Support";
 "Missing permission" = "缺少权限";
 "Monal" = "Monal";
 "Monal  uses your location when you send a location message in a conversation." = "当您在对话中发送位置信息时，Monal 会使用您的位置。";
@@ -417,6 +427,7 @@
 "Newest TLS version which is faster than TLS 1.2" = "Newest TLS version which is faster than TLS 1.2";
 "Nickname" = "昵称";
 "No" = "否";
+"No account available to handel 'xmpp:' URI!" = "No account available to handel 'xmpp:' URI!";
 "No accounts set up currently" = "No accounts set up currently";
 "No connected accounts" = "无已连线帐号";
 "No Contact Selected" = "未选择任何联系人";
@@ -436,6 +447,8 @@
 "No, keep encryption activated" = "No, keep encryption activated";
 "None" = "没有";
 "Not Authorized. Please check your credentials." = "未授权。请检查您的凭证。";
+"Notes to self" = "Notes to self";
+"Notes to self: %@" = "Notes to self: %@";
 "Nothing to see" = "没什么能看";
 "Notification" = "通知";
 "Notification Changes" = "通知变更";
@@ -546,6 +559,8 @@
 "Resource" = "资源";
 "Resources" = "资源";
 "Resume a stream when disconnected. Results in faster reconnect and saves battery life." = "断线时恢复串流。可以更快地重新连线并节省电池寿命。";
+/* Chat msg action */
+"Retract" = "Retract";
 "Retry" = "重试";
 "Retry sending message?" = "重发消息？";
 "Room" = "聊天室";
@@ -687,6 +702,7 @@
 "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key";
 "This message failed to send (%@): %@" = "此消息未能发出 (%1$@): %2$@";
 "This message failed to send." = "此消息发送失败。";
+"This message got retracted" = "This message got retracted";
 "This sender will be able to send you messages" = "此联系人能向你发消息";
 "This sender will no longer be able to contact you" = "此联系人无法再与你联系";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "此服务器似乎不支持 HTTP 文件上传 (XEP-0363)。请要求管理员启用它。";
@@ -715,6 +731,7 @@
 "Trusted but removed key" = "Trusted but removed key";
 "Trusted but unused key" = "Trusted but unused key";
 "Trusted but unverified key" = "Trusted but unverified key";
+"Try nevertheless" = "Try nevertheless";
 /* Join GroupViewController - Join Group HUD */
 "Trying to join group" = "尝试加入群组";
 "Type: %@" = "类型: %@";
@@ -730,6 +747,7 @@
 "Unexpected mam preferences result" = "无预期的 mam 偏好结果";
 "Unexpected server response: invalid PEP config form" = "意外的服务器响应：无效的 PEP 配置表单";
 "Unexpected server response: missing required fields in PEP config form" = "意外的服务器响应：PEP 配置表单中缺少必填字段";
+"unknown" = "unknown";
 "Unknown authentication method" = "未知认证方式";
 "Unknown channel-binding type" = "未知频道绑定类型";
 "Unknown Subcription" = "未知订阅";
@@ -787,6 +805,7 @@
 "XEP-0357: Push Notifications" = "XEP-0357: 推送通知";
 "XEP-0363: HTTP File Upload" = "XEP-0363: HTTP 文件上传";
 "XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379:预认证名单订阅";
+"XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: SASL SCRAM Downgrade Protection";
 "XEP-xxxx: SASL SCRAM Downgrade Protection" = "XEP-xxxx: SASL SCRAM Downgrade Protection";
 "XMPP" = "XMPP";
 "XMPP Account Info Error" = "XMPP 帐号信息错误";
@@ -827,6 +846,7 @@
 "Your account must be enabled and connected, to be removed from the server!" = "Your account must be enabled and connected, to be removed from the server!";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again.";
 "Your answer" = "你的回答";
+"Your contact may to not support Monal-Style calls. Your call might never reach its destination." = "Your contact may to not support Monal-Style calls. Your call might never reach its destination.";
 "Your entered XMPP ID is missing the domain" = "您输入的 XMPP ID 缺少域名";
 "Your entered XMPP ID is missing the username" = "您输入的 XMPP ID 缺少使用者名称";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "您的服务器不支持MAM (XEP-0313)。这意味着您可能会经常错过收到的消息!! 您应该切换服务器或与服务器管理员联系以启用此功能!";
@@ -836,8 +856,66 @@
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup.";
 "🎥 A Video" = "🎥 影片";
 "🎵 A Audiomessage" = "🎵 语音消息";
+"🎵 An Audiomessage" = "🎵 An Audiomessage";
 "📁 A File" = "📁文件";
 "📄 A Document" = "📄 文件";
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
+"%@" = "%@";
+"A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
+"Account Picker" = "Account Picker";
+"Add Group/Channel or Contact" = "Add Group/Channel or Contact";
+"Add scanned Group/Channel or Contact" = "Add scanned Group/Channel or Contact";
+"Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
+"Already present" = "Already present";
+"BODY" = "BODY";
+"Call ended for an unknown reason" = "Call ended for an unknown reason";
+"Call ended, duration: %@" = "Call ended, duration: %@";
+"Call ended: answered with other device" = "Call ended: answered with other device";
+"Call ended: connection failed" = "Call ended: connection failed";
+"Call ended: remote busy" = "Call ended: remote busy";
+"Call was not answered" = "Call was not answered";
+"Change Contact Background" = "Change Contact Background";
+"Clear scanned contact" = "Clear scanned contact";
+"Connected: %@" = "Connected: %@";
+"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Contact and Group/Channel Jids are usually in the format: name@domain.tld";
+"Contact Background" = "Contact Background";
+"Contact is muted" = "Contact is muted";
+"Contact is not muted" = "Contact is not muted";
+"Cool Title" = "Cool Title";
+"Copy link to clipboard" = "Copy link to clipboard";
+"Currently Online" = "Currently Online";
+"Default Background" = "Default Background";
+"Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list." = "Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list.";
+"Discovering devices..." = "Discovering devices...";
+"error" = "error";
+"Error entering MUC!" = "Error entering MUC!";
+"Failed to create invitation for %@" = "Failed to create invitation for %@";
+"Group/Channel is mention only" = "Group/Channel is mention only";
+"I already have an account:" = "I already have an account:";
+"I need an account:" = "I need an account:";
+"Import and trust OMEMO fingerprints from QR code" = "Import and trust OMEMO fingerprints from QR code";
+"Invitation for %@ created" = "Invitation for %@ created";
+"Messages are encrypted" = "Messages are encrypted";
+"Messages are NOT encrypted" = "Messages are NOT encrypted";
+"No pending requests" = "No pending requests";
+"Please make sure you have entered a valid jid." = "Please make sure you have entered a valid jid.";
+"Reconnecting..." = "Reconnecting...";
+"Register a new account" = "Register a new account";
+"Rich Text" = "Rich Text";
+"Ringing..." = "Ringing...";
+"Select a background to display behind conversations with %@" = "Select a background to display behind conversations with %@";
+"Select a default background to display behind conversations." = "Select a default background to display behind conversations.";
+"Select background image" = "Select background image";
+"Something went wrong while parsing the string..." = "Something went wrong while parsing the string...";
+"Successfully joined MUC %@!" = "Successfully joined MUC %@!";
+"The jid you want to add should be in in the format user@domain.tld." = "The jid you want to add should be in in the format user@domain.tld.";
+"The resource '%@' has the following capabilities:" = "The resource '%@' has the following capabilities:";
+"This contact is already in the contact list of the selected account" = "This contact is already in the contact list of the selected account";
+"This contact is already in your contact list" = "This contact is already in your contact list";
+"This invitation will expire on %@" = "This invitation will expire on %@";
+"Undefined error" = "Undefined error";
+"unsupported" = "unsupported";
+"XMPP Capabilities" = "XMPP Capabilities";
+"You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";

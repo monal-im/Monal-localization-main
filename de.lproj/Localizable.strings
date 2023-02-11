@@ -32,6 +32,8 @@
 "Add New Account" = "Neues Konto hinzufügen";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Füge neue Kontakte oben mit der Schaltfläche + hinzu. Deine Freunde werden hier erscheinen, wenn sie sich mit dir unterhalten wollen";
 "Add to contacts" = "Zu Kontakten hinzufügen";
+"Adding MUC..." = "Adding MUC...";
+"Adding..." = "Adding...";
 "Advanced" = "Erweitert";
 "Advanced Settings" = "Erweiterte Einstellungen";
 "All messages already present in local history!" = "Alle Nachrichten sind bereits in der lokalen Historie vorhanden!";
@@ -77,6 +79,8 @@
 "Blocking not supported" = "Blockieren wird nicht unterstützt";
 "Blocking/Unblocking Not Supported" = "Sperren/Entsperren nicht unterstützt";
 "call screen did disappear" = "Anrufbildschirm ist verschwunden";
+"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
+"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
 "Camera" = "Kamera";
 /* Camera permissions missing warning */
 "Camera permissions missing" = "Fehlende Kameraberechtigungen";
@@ -137,6 +141,7 @@
 "Could not get default capture device" = "Standardaufnahmegerät konnte nicht abgerufen werden";
 /* QR-Code-Scanner */
 "Could not init video session" = "Videositzung konnte nicht gestartet werden";
+"Could not join group/channel '%@': timeout" = "Could not join group/channel '%@': timeout";
 "Could not load (all) old messages" = "Konnte nicht (alle) alten Nachrichten laden";
 "Could not load (all) old messages from your server archive. Please try again later. %@" = "Konnte nicht (alle) alten Nachrichten aus deinem Serverarchiv laden. Bitte versuche es später noch einmal. %@";
 "Could not read captcha!" = "Konnte Captcha nicht lesen!";
@@ -145,6 +150,7 @@
 "Could not send" = "Konnte nicht gesendet werden";
 "Could not synchronize" = "Konnte nicht synchronisieren";
 "Could not upload file" = "Datei konnte nicht hochgeladen werden";
+"Creating invitation..." = "Creating invitation...";
 "Current Password" = "Aktuelles Passwort";
 "Debug" = "Fehlersuche";
 "Debugging" = "Fehlersuche";
@@ -197,6 +203,7 @@
 /* Chat msg action */
 "Edit" = "Bearbeiten";
 "Email Support" = "Hilfe per E-Mail";
+"Enable encryption by default for new chats" = "Enable encryption by default for new chats";
 "Enable OMEMO per default" = "OMEMO standardmäßig aktivieren";
 "Enabled" = "Aktiviert";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "Die verschlüsselte Nachricht wurde in einem älteren Format gesendet, das Monal nicht entschlüsseln kann. Bitte den Kontakt, ihren Client zu aktualisieren. (GCM-Fehler)";
@@ -214,6 +221,7 @@
 "Entry 2" = "Eintrag 2";
 "Entry 3" = "Eintrag 3";
 "Error" = "Fehler";
+"Error adding contact or channel" = "Error adding contact or channel";
 "Error authenticating server using SASL2, disconnecting!" = "Fehler beim Authentifizieren des Servers mit SASL2, Verbindung wird getrennt!";
 "Error decrypting message" = "Fehler beim Entschlüsseln der Nachricht";
 "Error entering groupchat" = "Fehler beim Beitreten des Gruppenchats";
@@ -230,6 +238,7 @@
 "Escape The Garden" = "Brich aus";
 "Failed to block contact %@" = "Kontakt %@ konnte nicht blockiert werden";
 "Failed to copy downloaded file into cache directory" = "Heruntergeladene Datei konnte nicht in das Cache-Verzeichnis kopiert werden";
+"Failed to create invitation, unknown error: %@" = "Failed to create invitation, unknown error: %@";
 "Failed to decode download link" = "Download-Link konnte nicht dekodiert werden";
 "Failed to decode encrypted link" = "Verschlüsselter Link konnte nicht entschlüsselt werden";
 "Failed to decrypt filetransfer" = "Entschlüsselung des Dateitransfers fehlgeschlagen";
@@ -386,6 +395,7 @@
 "Messages never archived by default." = "Nachrichten werden standardmäßig nicht archiviert.";
 "Method: %@" = "Methode: %@";
 "Migration Assistant" = "Migrationsassistent";
+"Missing Call Support" = "Missing Call Support";
 "Missing permission" = "Fehlende Berechtigung";
 "Monal" = "Monal";
 "Monal  uses your location when you send a location message in a conversation." = "Monal verwendet deinen Standort, wenn du in einer Unterhaltung eine Standortnachricht sendest.";
@@ -417,6 +427,7 @@
 "Newest TLS version which is faster than TLS 1.2" = "Die neueste TLS-Version, die schneller ist als TLS 1.2";
 "Nickname" = "Nickname";
 "No" = "Nein";
+"No account available to handel 'xmpp:' URI!" = "No account available to handel 'xmpp:' URI!";
 "No accounts set up currently" = "Derzeit sind keine Konten eingerichtet";
 "No connected accounts" = "Keine verbundenen Konten";
 "No Contact Selected" = "Kein Kontakt ausgewählt";
@@ -436,6 +447,8 @@
 "No, keep encryption activated" = "Nein, Verschlüsselung aktiviert lassen";
 "None" = "Keine";
 "Not Authorized. Please check your credentials." = "Nicht autorisiert. Bitte überprüfe deine Anmeldedaten.";
+"Notes to self" = "Notes to self";
+"Notes to self: %@" = "Notes to self: %@";
 "Nothing to see" = "Nichts zu sehen";
 "Notification" = "Benachrichtigung";
 "Notification Changes" = "Benachrichtigungsänderungen";
@@ -546,6 +559,8 @@
 "Resource" = "Ressource";
 "Resources" = "Ressourcen";
 "Resume a stream when disconnected. Results in faster reconnect and saves battery life." = "Wiederaufnahme eines Streams, wenn die Verbindung getrennt wird. Führt zu einer schnelleren Wiederaufnahme der Verbindung und spart Akkulaufzeit.";
+/* Chat msg action */
+"Retract" = "Retract";
 "Retry" = "Erneut versuchen";
 "Retry sending message?" = "Nachricht erneut senden?";
 "Room" = "Raum";
@@ -687,6 +702,7 @@
 "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "Dieser Schlüssel ist vertrauenswürdig, aber der Kontakt hat ihn seit langem nicht mehr verwendet. Prüfe, ob du diesem Schlüssel das Vertrauen entziehen möchtest.";
 "This message failed to send (%@): %@" = "Diese Nachricht konnte nicht gesendet werden (%1$@): %2$@";
 "This message failed to send." = "Diese Nachricht konnte nicht gesendet werden.";
+"This message got retracted" = "This message got retracted";
 "This sender will be able to send you messages" = "Dieser Absender wird dir Nachrichten senden können";
 "This sender will no longer be able to contact you" = "Dieser Absender wird dich nicht mehr kontaktieren können";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Dieser Server scheint HTTP-Datei-Uploads (XEP-0363) nicht zu unterstützen. Bitte den Administrator, dies zu aktivieren.";
@@ -715,6 +731,7 @@
 "Trusted but removed key" = "Vertrauenswürdiger, aber entfernter Schlüssel";
 "Trusted but unused key" = "Vertrauenswürdiger, aber nicht verwendeter Schlüssel";
 "Trusted but unverified key" = "Vertrauenswürdiger, aber nicht verifizierter Schlüssel";
+"Try nevertheless" = "Try nevertheless";
 /* Join GroupViewController - Join Group HUD */
 "Trying to join group" = "Versuchen, der Gruppe beizutreten";
 "Type: %@" = "Typ: %@";
@@ -730,6 +747,7 @@
 "Unexpected mam preferences result" = "Unerwartete MAM-Präferenzen erhalten";
 "Unexpected server response: invalid PEP config form" = "Unerwartete Serverantwort: ungültiges PEP-Konfigurationsformular";
 "Unexpected server response: missing required fields in PEP config form" = "Unerwartete Serverantwort: fehlende Pflichtfelder im PEP-Konfigurationsformular";
+"unknown" = "unknown";
 "Unknown authentication method" = "Unbekannte Authentifizierungsmethode";
 "Unknown channel-binding type" = "Unbekannter Kanalbindungstyp";
 "Unknown Subcription" = "Unbekanntes Abonnement";
@@ -787,6 +805,7 @@
 "XEP-0357: Push Notifications" = "XEP-0357: Push-Benachrichtigungen";
 "XEP-0363: HTTP File Upload" = "XEP-0363: HTTP-Dateitransfer";
 "XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379: Vorauthentifiziertes Kontaktlistenabonnement";
+"XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: SASL SCRAM Downgrade Protection";
 "XEP-xxxx: SASL SCRAM Downgrade Protection" = "XEP-xxxx: SASL SCRAM Downgrade-Schutz";
 "XMPP" = "XMPP";
 "XMPP Account Info Error" = "XMPP-Kontoinformationsfehler";
@@ -827,6 +846,7 @@
 "Your account must be enabled and connected, to be removed from the server!" = "Dein Konto muss aktiviert und verbunden sein, um vom Server gelöscht zu werden!";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Deine Konten wurden deaktiviert, weil du ein iCloud-Backup von Monal wiederhergestellt hast. Bitte gib deine Passwörter erneut ein, um sie wieder zu aktivieren.";
 "Your answer" = "Deine Antwort";
+"Your contact may to not support Monal-Style calls. Your call might never reach its destination." = "Your contact may to not support Monal-Style calls. Your call might never reach its destination.";
 "Your entered XMPP ID is missing the domain" = "Deiner eingegebenen XMPP-ID fehlt die Domain";
 "Your entered XMPP ID is missing the username" = "Deiner eingegebenen XMPP-ID fehlt der Benutzername";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Dein Server unterstützt kein MAM (XEP-0313). Das heißt, du kannst häufig eingehende Nachrichten verpassen!! Du solltest deinen Server wechseln oder mit dem Serveradministrator sprechen, um dies zu aktivieren!";
@@ -836,8 +856,66 @@
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Deine XMPP-JID sollte das Format user@domain.tld haben. Verwende für spezielle Konfigurationen die manuelle Einrichtung.";
 "🎥 A Video" = "🎥 Ein Video";
 "🎵 A Audiomessage" = "🎵 Eine Sprachnachricht";
+"🎵 An Audiomessage" = "🎵 An Audiomessage";
 "📁 A File" = "📁 Eine Datei";
 "📄 A Document" = "📄 Ein Dokument";
 "📍 A Location" = "📍 Ein Standort";
 "📷 An Image" = "📷 Ein Bild";
 "🔗 A Link" = "🔗 Ein Link";
+"%@" = "%@";
+"A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
+"Account Picker" = "Account Picker";
+"Add Group/Channel or Contact" = "Add Group/Channel or Contact";
+"Add scanned Group/Channel or Contact" = "Add scanned Group/Channel or Contact";
+"Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
+"Already present" = "Already present";
+"BODY" = "BODY";
+"Call ended for an unknown reason" = "Call ended for an unknown reason";
+"Call ended, duration: %@" = "Call ended, duration: %@";
+"Call ended: answered with other device" = "Call ended: answered with other device";
+"Call ended: connection failed" = "Call ended: connection failed";
+"Call ended: remote busy" = "Call ended: remote busy";
+"Call was not answered" = "Call was not answered";
+"Change Contact Background" = "Change Contact Background";
+"Clear scanned contact" = "Clear scanned contact";
+"Connected: %@" = "Connected: %@";
+"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Contact and Group/Channel Jids are usually in the format: name@domain.tld";
+"Contact Background" = "Contact Background";
+"Contact is muted" = "Contact is muted";
+"Contact is not muted" = "Contact is not muted";
+"Cool Title" = "Cool Title";
+"Copy link to clipboard" = "Copy link to clipboard";
+"Currently Online" = "Currently Online";
+"Default Background" = "Default Background";
+"Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list." = "Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list.";
+"Discovering devices..." = "Discovering devices...";
+"error" = "error";
+"Error entering MUC!" = "Error entering MUC!";
+"Failed to create invitation for %@" = "Failed to create invitation for %@";
+"Group/Channel is mention only" = "Group/Channel is mention only";
+"I already have an account:" = "I already have an account:";
+"I need an account:" = "I need an account:";
+"Import and trust OMEMO fingerprints from QR code" = "Import and trust OMEMO fingerprints from QR code";
+"Invitation for %@ created" = "Invitation for %@ created";
+"Messages are encrypted" = "Messages are encrypted";
+"Messages are NOT encrypted" = "Messages are NOT encrypted";
+"No pending requests" = "No pending requests";
+"Please make sure you have entered a valid jid." = "Please make sure you have entered a valid jid.";
+"Reconnecting..." = "Reconnecting...";
+"Register a new account" = "Register a new account";
+"Rich Text" = "Rich Text";
+"Ringing..." = "Ringing...";
+"Select a background to display behind conversations with %@" = "Select a background to display behind conversations with %@";
+"Select a default background to display behind conversations." = "Select a default background to display behind conversations.";
+"Select background image" = "Select background image";
+"Something went wrong while parsing the string..." = "Something went wrong while parsing the string...";
+"Successfully joined MUC %@!" = "Successfully joined MUC %@!";
+"The jid you want to add should be in in the format user@domain.tld." = "The jid you want to add should be in in the format user@domain.tld.";
+"The resource '%@' has the following capabilities:" = "The resource '%@' has the following capabilities:";
+"This contact is already in the contact list of the selected account" = "This contact is already in the contact list of the selected account";
+"This contact is already in your contact list" = "This contact is already in your contact list";
+"This invitation will expire on %@" = "This invitation will expire on %@";
+"Undefined error" = "Undefined error";
+"unsupported" = "unsupported";
+"XMPP Capabilities" = "XMPP Capabilities";
+"You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
