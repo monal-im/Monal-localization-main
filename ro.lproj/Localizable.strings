@@ -1,9 +1,11 @@
 "%02d:%02d (long press to abort)" = "%02d:%02d (long press to abort)";
+"%@" = "%@";
 "%@ (Pending Approval)" = "%@ (Aprobare în așteptare)";
 "%@ says:" = "%@ spune:";
 "%ld (This device)" = "%ld (Acest dispozitiv)";
 "(autojoin)" = "(autoconectare)";
 "[This message is OMEMO encrypted]" = "[Acest mesaj este criptat OMEMO]";
+"A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
 "Abort" = "Abort";
 "Aborted recording audio" = "Aborted recording audio";
 "About" = "Despre";
@@ -17,6 +19,7 @@
 "Account already configured in Monal!" = "Account already configured in Monal!";
 "Account disabled" = "Cont dezactivat";
 "Account Exists" = "Contul există";
+"Account Picker" = "Account Picker";
 "Account To Use" = "Cont de utilizat";
 "Account: %@" = "Cont: %@";
 "Accounts" = "Conturi";
@@ -29,8 +32,10 @@
 "Add Contact" = "Adaugă contact";
 "Add Contact or Channel" = "Adăugați un contact sau un canal";
 "Add Group to Favorites" = "Adăugați grupul la favorite";
+"Add Group/Channel or Contact" = "Add Group/Channel or Contact";
 "Add New Account" = "Adaugă un cont nou";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Adăugați noi contacte cu butonul + de mai sus. Prietenii tăi vor apărea aici când vor putea vorbi";
+"Add scanned Group/Channel or Contact" = "Add scanned Group/Channel or Contact";
 "Add to contacts" = "Add to contacts";
 "Adding MUC..." = "Adding MUC...";
 "Adding..." = "Adding...";
@@ -41,6 +46,8 @@
 "Allow" = "Permite";
 "Allow %@ to contact you?" = "Permiteți %@ să vă contacteze?";
 "Allowing someone to add you as a contact lets them see when you are online. It also allows you to send encrypted messages.  Tap to approve. Swipe to reject." = "Permițând cuiva să vă adauge drept contact, îi permiteți să vadă când sunteți conectați. De asemenea, vă permite să trimiteți mesaje criptate. Atingeți pentru a aproba. Glisați pentru a respinge.";
+"Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
+"Already present" = "Already present";
 "Already uploading this content, ignoring" = "Se încarcă deja acest conținut, ignorare";
 "Always archive" = "Arhivează întotdeauna";
 "Always use direct TLS, not STARTTLS" = "Utilizați întotdeauna Direct TLS, nu STARTTLS";
@@ -78,7 +85,14 @@
 "Blocking is not supported by the server" = "Blocarea nu este suportată de server";
 "Blocking not supported" = "Blocarea nu este suportată";
 "Blocking/Unblocking Not Supported" = "Blocking/Unblocking Not Supported";
+"BODY" = "BODY";
+"Call ended for an unknown reason" = "Call ended for an unknown reason";
+"Call ended, duration: %@" = "Call ended, duration: %@";
+"Call ended: answered with other device" = "Call ended: answered with other device";
+"Call ended: connection failed" = "Call ended: connection failed";
+"Call ended: remote busy" = "Call ended: remote busy";
 "call screen did disappear" = "ecranul de apel a dispărut";
+"Call was not answered" = "Call was not answered";
 "Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
 "Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
 "Camera" = "Aparat foto";
@@ -89,6 +103,7 @@
 "Can't convert the image to png file." = "Nu s-a putut converti imaginea în fișier PNG.";
 "Cancel" = "Anulează";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Cannot share something with disabled/deleted account, destination: %1$@, internal account id: %2$@";
+"Change Contact Background" = "Change Contact Background";
 "Change Password" = "Schimbare parolă";
 "Changing Password" = "Schimbare parolă";
 "Channel subject:" = "Channel subject:";
@@ -112,20 +127,29 @@
 "Clear OMEMO session" = "Ștergere sesiune OMEMO";
 /* DEBUG - XMPPEdit */
 "Clear own omemo session" = "Ștergeți propria sesiune OMEMO";
+"Clear scanned contact" = "Clear scanned contact";
 "Close" = "Închide";
 "Connected" = "Conectat";
 "Connected since: %@" = "Conectat de la: %@";
+"Connected: %@" = "Connected: %@";
 "Connecting..." = "Se conectează...";
 "Connection Details" = "Detalii conexiune";
 "Contact and Channel Jids  are usually in the format: name@domain.tld" = "Contact and Channel Jids  are usually in the format: name@domain.tld";
+"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Contact and Group/Channel Jids are usually in the format: name@domain.tld";
+"Contact Background" = "Contact Background";
+"Contact is muted" = "Contact is muted";
+"Contact is not muted" = "Contact is not muted";
 "Contact Jid" = "Adresa contact";
 "Contact Name" = "Nume contact";
+"Contact not found" = "Contact not found";
 "Contact or Channel Jid" = "Adresa XMPP pentru contact sau canal";
 "Contacts" = "Contacte";
 "Contacts are usually in the format: username@dom.ain" = "Persoanele de contact sunt, de obicei, în formatul: nume@domeniu.ceva";
 "Contacts are usually in the format: username@domain.something" = "Contactele sunt, de obicei, în formatul: nume@domeniu.ceva";
+"Cool Title" = "Cool Title";
 /* Chat msg action */
 "Copy" = "Copiere";
+"Copy link to clipboard" = "Copy link to clipboard";
 "Copy to clipboard" = "Copy to clipboard";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Nu s-a putut accesa camera";
@@ -152,9 +176,11 @@
 "Could not upload file" = "Nu s-a putut încărca fișierul";
 "Creating invitation..." = "Creating invitation...";
 "Current Password" = "Parola actuală";
+"Currently Online" = "Currently Online";
 "Debug" = "Depanare";
 "Debugging" = "Debugging";
 "Decline" = "Refuză";
+"Default Background" = "Default Background";
 "Default chat backgrounds are from the Ubuntu project." = "Fundalurile implicite sunt din proiectul Ubuntu.";
 "Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified.";
 "Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription." = "Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription.";
@@ -169,9 +195,11 @@
 "DeviceID: " = "DeviceID: ";
 "Devices of %@" = "Dispozitivele %@";
 "Direct TLS" = "Direct TLS";
+"Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list." = "Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list.";
 "Disable Encryption" = "Dezactivare criptare";
 "Disable encryption?" = "Disable encryption?";
 "Disconnected" = "Deconectat";
+"Discovering devices..." = "Discovering devices...";
 "Display" = "Afișare";
 "Display Name" = "Nume afișat";
 "Display Name And Message" = "Afișare nume și mesaj";
@@ -221,10 +249,12 @@
 "Entry 2" = "Entry 2";
 "Entry 3" = "Entry 3";
 "Error" = "Eroare";
+"error" = "error";
 "Error adding contact or channel" = "Error adding contact or channel";
 "Error authenticating server using SASL2, disconnecting!" = "Error authenticating server using SASL2, disconnecting!";
 "Error decrypting message" = "Eroare la decriptarea mesajului";
 "Error entering groupchat" = "Eroare la intrarea în discuția de grup";
+"Error entering MUC!" = "Error entering MUC!";
 "Error handling SASL challenge of server, disconnecting!" = "Error handling SASL challenge of server, disconnecting!";
 "Error registering push" = "Eroare la înregistrarea push";
 "Error Removing Account" = "Error Removing Account";
@@ -238,6 +268,7 @@
 "Escape The Garden" = "Scapă din grădină";
 "Failed to block contact %@" = "Nu s-a reușit blocarea contactului %@";
 "Failed to copy downloaded file into cache directory" = "Copierea fișierului descărcat în directorul cache nu a reușit";
+"Failed to create invitation for %@" = "Failed to create invitation for %@";
 "Failed to create invitation, unknown error: %@" = "Failed to create invitation, unknown error: %@";
 "Failed to decode download link" = "Decodarea linkului de descărcare nu a reușit";
 "Failed to decode encrypted link" = "Decodarea legăturii criptate nu a reușit";
@@ -294,6 +325,7 @@
 "Group/Channel error" = "Group/Channel error";
 "Group/Channel error in %@" = "Group/Channel error in %@";
 "Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
+"Group/Channel is mention only" = "Group/Channel is mention only";
 "Group/Channel not available anymore: %@" = "Group/Channel not available anymore: %@";
 "Groupchat error" = "Eroare la discuția de grup";
 "Groupchat/channel details" = "Detalii discuție de grup/canal";
@@ -302,6 +334,8 @@
 "Hardcoded Hostname" = "Nume de gazdă presetat";
 "Hide Chat" = "Ascunde discuție";
 "Hint" = "Indiciu";
+"I already have an account:" = "I already have an account:";
+"I need an account:" = "I need an account:";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission.  Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'. " = "Dacă Monal nu poate afișa notificări, nu veți vedea avertizări atunci când sosește un mesaj. Acest lucru se întâmplă dacă ați apăsat pe \"Refuz\" atunci când Monal a cerut pentru prima dată permisiunea.  Remediați mergând la Setări iOS -> Notificări Monal și selectați \"Permiteți notificări\". ";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'.";
 "If Monal push is off, your device could not talk to %@ through xmpp. This should also never be off. It requires Apple push service to work first." = "If Monal push is off, your device could not talk to %@ through xmpp. This should also never be off. It requires Apple push service to work first.";
@@ -315,6 +349,7 @@
 "Image Quality" = "Calitatea imaginii";
 "Image Quality: %.2f" = "Calitatea imaginii: %.2f";
 "Images" = "Imagini";
+"Import and trust OMEMO fingerprints from QR code" = "Import and trust OMEMO fingerprints from QR code";
 "Incoming audio call to %@ from %@ " = "Apel audio primit către %1$@ de la %2$@ ";
 "Incoming Call" = "Apel primit";
 "Indicate when a particular device is active or inactive. Saves battery." = "Indică atunci când un anumit dispozitiv este activ sau inactiv. Economisește bateria.";
@@ -327,6 +362,7 @@
 "Invalid State" = "Invalid State";
 "Invalid username" = "Nume de utilizator invalid";
 "Invalid Username!" = "Invalid Username!";
+"Invitation for %@ created" = "Invitation for %@ created";
 /* QR-Code-Scanner: Camera not found */
 "It does not seem as your device has a camera. Please use a device with a camera for scanning" = "Nu pare că dispozitivul dumneavoastră are o cameră. Vă rugăm să utilizați un dispozitiv cu cameră pentru scanare";
 "Jabber ID" = "Adresă XMPP";
@@ -392,6 +428,8 @@
 "Message was encrypted with OMEMO but could not be decrypted" = "Message was encrypted with OMEMO but could not be decrypted";
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %d and that they have you as a contact." = "Mesajul nu a fost criptat pentru acest dispozitiv. Asigurați-vă că expeditorul are încredere în dispozitivul cu ID %d și că vă are ca persoană de contact.";
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u.";
+"Messages are encrypted" = "Messages are encrypted";
+"Messages are NOT encrypted" = "Messages are NOT encrypted";
 "Messages never archived by default." = "Mesajele nu sunt niciodată arhivate în mod implicit.";
 "Method: %@" = "Method: %@";
 "Migration Assistant" = "Migration Assistant";
@@ -439,6 +477,7 @@
 "No groups yet" = "Nu există încă grupuri";
 "No OMEMO keys found" = "No OMEMO keys found";
 "No one is here" = "Nimeni nu este aici";
+"No pending requests" = "No pending requests";
 "No search result." = "Niciun rezultat al căutării.";
 "No supported auth mechanism found, disabling account!" = "No supported auth mechanism found, disabling account!";
 "No supported auth mechanism found, disconnecting!" = "Nu s-a găsit niciun mecanism de autentificare acceptat, deconectare!";
@@ -491,6 +530,7 @@
 "Please make sure you are connected before changing your password." = "Vă rugăm să vă asigurați că sunteți conectat(ă) înainte de a schimba parola.";
 "Please make sure you have entered a username and password." = "Please make sure you have entered a username and password.";
 "Please make sure you have entered a username, password." = "Vă rugăm să vă asigurați că ați introdus un nume de utilizator, o parolă.";
+"Please make sure you have entered a valid jid." = "Please make sure you have entered a valid jid.";
 "Please make sure you have entered the same password in both password fields." = "Please make sure you have entered the same password in both password fields.";
 "Please open the app to retry" = "Deschideți aplicația pentru a reîncerca";
 "Please provide a valid XMPP server domain or select one." = "Please provide a valid XMPP server domain or select one.";
@@ -542,9 +582,11 @@
 "Recode Fail:" = "Recodificare eșuată:";
 "Recode Success" = "Recodificare reușită";
 "Reconnecting" = "Reconectare";
+"Reconnecting..." = "Reconnecting...";
 "Recording audio" = "Înregistrare audio";
 "Refreshing..." = "Actualizare...";
 "Register" = "Register";
+"Register a new account" = "Register a new account";
 "Register with %@" = "Register with %@";
 "Registering account..." = "Registering account...";
 "Registration Error" = "Registration Error";
@@ -563,6 +605,8 @@
 "Retract" = "Retract";
 "Retry" = "Reîncercare";
 "Retry sending message?" = "Încercați din nou trimiterea mesajului?";
+"Rich Text" = "Rich Text";
+"Ringing..." = "Ringing...";
 "Room" = "Cameră";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Salted Challenge Response Authentication Mechanism using the given Hash Method";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding";
@@ -574,8 +618,11 @@
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections.";
 "Select a Background" = "Selectați un fundal";
 "Select a background to display behind conversations" = "Selectați un fundal pentru a fi afișat în spatele conversațiilor";
+"Select a background to display behind conversations with %@" = "Select a background to display behind conversations with %@";
+"Select a default background to display behind conversations." = "Select a default background to display behind conversations.";
 "Select Action" = "Selectare acțiune";
 "Select Background" = "Selectare fundal";
+"Select background image" = "Select background image";
 "Select File" = "Selectare fișier";
 "Select From Photos" = "Selectare din fotografii";
 "Select Message Archive Management (MAM) Preferences " = "Selectare preferințe gestionare arhivă mesaje (MAM) ";
@@ -623,6 +670,7 @@
 "Signing Up" = "Înscriere";
 "Skip" = "Omite";
 "Software Version" = "Versiune software";
+"Something went wrong while parsing the string..." = "Something went wrong while parsing the string...";
 "Sort By Status" = "Sortare după stare";
 "Sounds" = "Sunete";
 "Sounds courtesy Emrah" = "Sună prin amabilitatea lui Emrah";
@@ -641,6 +689,7 @@
 "Submit A Bug" = "Trimiteți o eroare";
 "Success" = "Succes";
 "Success!" = "Succes!";
+"Successfully joined MUC %@!" = "Successfully joined MUC %@!";
 "Support" = "Asistență tehnică";
 "Sync Read-Markers" = "Sincronizare marcatori de citire";
 "Synchronize your messages on all loggedin devices." = "Sincronizați mesajele pe toate dispozitivele conectate.";
@@ -658,6 +707,7 @@
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later. %@" = "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later. %@";
 "The current password is not correct." = "Parola curentă nu este corectă.";
 "The jid has to be in the form 'user@domain.tld' to be correct." = "The jid has to be in the form 'user@domain.tld' to be correct.";
+"The jid you want to add should be in in the format user@domain.tld." = "The jid you want to add should be in in the format user@domain.tld.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "Noua persoană de contact va fi adăugată în lista dumneavoastră atunci când persoana pe care ați adăugat-o vă aprobă solicitarea.";
 "The password has been changed" = "Parola a fost modificată";
@@ -665,6 +715,7 @@
 "The qrcode contains a jid. Rescan the qrcode in the add user menu" = "The qrcode contains a jid. Rescan the qrcode in the add user menu";
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for a acount. Go to settings and rescan the qrcode" = "The qrcode contains login credentials for a acount. Go to settings and rescan the qrcode";
+"The resource '%@' has the following capabilities:" = "The resource '%@' has the following capabilities:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only.";
 "The server does not support blocking" = "Serverul nu suportă blocarea";
 "The server does not support blocking (XEP-0191)." = "The server does not support blocking (XEP-0191).";
@@ -694,7 +745,10 @@
 "This account already exists on this instance." = "This account already exists on this instance.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!";
 "This contact does not appear to have any devices that support encryption." = "Această persoană de contact nu pare să aibă nici un dispozitiv care să suporte criptare.";
+"This contact is already in the contact list of the selected account" = "This contact is already in the contact list of the selected account";
+"This contact is already in your contact list" = "This contact is already in your contact list";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "This contact may not support OMEMO encrypted messages. Please try again in a few seconds.";
+"This invitation will expire on %@" = "This invitation will expire on %@";
 "This jid already exists on this instance." = "This jid already exists on this instance.";
 "This key belongs to this device and cannot be removed or disabled!" = "This key belongs to this device and cannot be removed or disabled!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element.";
@@ -741,6 +795,7 @@
 "Unblock Contact" = "Unblock Contact";
 "Unblock Sender" = "Deblocare expeditor";
 "Unclean appex shutown" = "Unclean appex shutown";
+"Undefined error" = "Undefined error";
 "Unexpected appex expiration" = "Unexpected appex expiration";
 "Unexpected error while checking type of jid, please try again" = "Unexpected error while checking type of jid, please try again";
 "Unexpected error while checking type of jid:" = "Eroare neașteptată la verificarea tipului de adresa XMPP:";
@@ -755,6 +810,7 @@
 "Unnamed" = "Fără nume";
 "Unpin Chat" = "Anulare fixare";
 "Unread Messages Below" = "Mesaje necitite mai jos";
+"unsupported" = "unsupported";
 "Untrusted key" = "Untrusted key";
 "Upload Error" = "Eroare de încărcare";
 "Upload Error: your account got disconnected while requesting upload slot" = "Upload Error: your account got disconnected while requesting upload slot";
@@ -810,6 +866,7 @@
 "XMPP" = "XMPP";
 "XMPP Account Info Error" = "Eroare informații cont XMPP";
 "XMPP Bind Error" = "Eroare bind XMPP";
+"XMPP Capabilities" = "XMPP Capabilities";
 "XMPP Disco Info Error" = "Eroare de informații Disco XMPP";
 "XMPP External Service Disco Error" = "XMPP External Service Disco Error";
 "XMPP ID" = "Adresa XMPP";
@@ -829,6 +886,7 @@
 "You are not trapped in a garden. Talk to anyone else without anyone tracking you." = "Nu sunteți prinși într-o grădină. Vorbiți cu oricine altcineva fără să fiți urmăriți de cineva.";
 "You are set up and connected." = "Sunteți configurați și conectați.";
 "You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
+"You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
 "You can see their keys. They can't see yours" = "Puteți să le vedeți cheile. Ei nu le pot vedea pe ale dumneavoastră";
 "You did not grant Monal to access your location." = "You did not grant Monal to access your location.";
 "You got banned from: %@" = "Ați fost excluși din: %@";
@@ -841,6 +899,7 @@
 "You need friends for this ride" = "Aveți nevoie de prieteni pentru această plimbare";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "You restored an iCloud backup of Monal, please open the app to reenable this account.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen." = "Ar trebui să aveți încredere într-o cheie atunci când ați verificat-o. Verificați comparând cheia de mai jos cu cea de pe ecranul persoanei de contact.";
+"You tried to call contact '%@' but this contact could not be found in your contact list." = "You tried to call contact '%@' but this contact could not be found in your contact list.";
 "You will no longer receive messages from this conversation" = "You will no longer receive messages from this conversation";
 "You will receive subsequent messages from this conversation" = "Veți primi mesaje ulterioare din această conversație";
 "Your account must be enabled and connected, to be removed from the server!" = "Your account must be enabled and connected, to be removed from the server!";
@@ -862,60 +921,5 @@
 "📍 A Location" = "📍 O locație";
 "📷 An Image" = "📷 O imagine";
 "🔗 A Link" = "🔗 O legătură";
-"%@" = "%@";
-"A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
-"Account Picker" = "Account Picker";
-"Add Group/Channel or Contact" = "Add Group/Channel or Contact";
-"Add scanned Group/Channel or Contact" = "Add scanned Group/Channel or Contact";
-"Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
-"Already present" = "Already present";
-"BODY" = "BODY";
-"Call ended for an unknown reason" = "Call ended for an unknown reason";
-"Call ended, duration: %@" = "Call ended, duration: %@";
-"Call ended: answered with other device" = "Call ended: answered with other device";
-"Call ended: connection failed" = "Call ended: connection failed";
-"Call ended: remote busy" = "Call ended: remote busy";
-"Call was not answered" = "Call was not answered";
-"Change Contact Background" = "Change Contact Background";
-"Clear scanned contact" = "Clear scanned contact";
-"Connected: %@" = "Connected: %@";
-"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Contact and Group/Channel Jids are usually in the format: name@domain.tld";
-"Contact Background" = "Contact Background";
-"Contact is muted" = "Contact is muted";
-"Contact is not muted" = "Contact is not muted";
-"Cool Title" = "Cool Title";
-"Copy link to clipboard" = "Copy link to clipboard";
-"Currently Online" = "Currently Online";
-"Default Background" = "Default Background";
-"Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list." = "Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list.";
-"Discovering devices..." = "Discovering devices...";
-"error" = "error";
-"Error entering MUC!" = "Error entering MUC!";
-"Failed to create invitation for %@" = "Failed to create invitation for %@";
-"Group/Channel is mention only" = "Group/Channel is mention only";
-"I already have an account:" = "I already have an account:";
-"I need an account:" = "I need an account:";
-"Import and trust OMEMO fingerprints from QR code" = "Import and trust OMEMO fingerprints from QR code";
-"Invitation for %@ created" = "Invitation for %@ created";
-"Messages are encrypted" = "Messages are encrypted";
-"Messages are NOT encrypted" = "Messages are NOT encrypted";
-"No pending requests" = "No pending requests";
-"Please make sure you have entered a valid jid." = "Please make sure you have entered a valid jid.";
-"Reconnecting..." = "Reconnecting...";
-"Register a new account" = "Register a new account";
-"Rich Text" = "Rich Text";
-"Ringing..." = "Ringing...";
-"Select a background to display behind conversations with %@" = "Select a background to display behind conversations with %@";
-"Select a default background to display behind conversations." = "Select a default background to display behind conversations.";
-"Select background image" = "Select background image";
-"Something went wrong while parsing the string..." = "Something went wrong while parsing the string...";
-"Successfully joined MUC %@!" = "Successfully joined MUC %@!";
-"The jid you want to add should be in in the format user@domain.tld." = "The jid you want to add should be in in the format user@domain.tld.";
-"The resource '%@' has the following capabilities:" = "The resource '%@' has the following capabilities:";
-"This contact is already in the contact list of the selected account" = "This contact is already in the contact list of the selected account";
-"This contact is already in your contact list" = "This contact is already in your contact list";
-"This invitation will expire on %@" = "This invitation will expire on %@";
-"Undefined error" = "Undefined error";
-"unsupported" = "unsupported";
-"XMPP Capabilities" = "XMPP Capabilities";
-"You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
+"Call ended: declined" = "Call ended: declined";
+"Call ended: hung up" = "Call ended: hung up";

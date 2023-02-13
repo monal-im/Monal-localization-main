@@ -1,9 +1,11 @@
 "%02d:%02d (long press to abort)" = "%02d:%02d (sakatu eta eutsi alboratzeko)";
+"%@" = "%@";
 "%@ (Pending Approval)" = "%@ (Onarpenaren zain)";
 "%@ says:" = "%@(e)k dio:";
 "%ld (This device)" = "%ld (Gailu hau)";
 "(autojoin)" = "(egin bat automatikoki)";
 "[This message is OMEMO encrypted]" = "[Mezu honek OMEMO zifraketa dauka]";
+"A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
 "Abort" = "Alboratu";
 "Aborted recording audio" = "Audio grabaketa alboratu da";
 "About" = "Honi buruz";
@@ -17,6 +19,7 @@
 "Account already configured in Monal!" = "Kontua lehendik ere ezarrita dago Monalen!";
 "Account disabled" = "Ezgaitutako kontua";
 "Account Exists" = "Kontua badago lehendik ere";
+"Account Picker" = "Account Picker";
 "Account To Use" = "Erabiliko den kontua";
 "Account: %@" = "Kontua: %@";
 "Accounts" = "Kontuak";
@@ -29,8 +32,10 @@
 "Add Contact" = "Gehitu kontaktua";
 "Add Contact or Channel" = "Gehitu kontua edo kanala";
 "Add Group to Favorites" = "Gehitu taldea gogokoetara";
+"Add Group/Channel or Contact" = "Add Group/Channel or Contact";
 "Add New Account" = "Gehitu kontu berria";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Gehitu kontaktu berriak goialdeko + botoia erabiliz. Zure lagunak hemen agertuko dira hitz egin dezaketenean";
+"Add scanned Group/Channel or Contact" = "Add scanned Group/Channel or Contact";
 "Add to contacts" = "Gehitu kontaktuetara";
 "Adding MUC..." = "Adding MUC...";
 "Adding..." = "Adding...";
@@ -41,6 +46,8 @@
 "Allow" = "Baimendu";
 "Allow %@ to contact you?" = "%@(e)k kontakta zaitzala baimendu nahi al duzu?";
 "Allowing someone to add you as a contact lets them see when you are online. It also allows you to send encrypted messages.  Tap to approve. Swipe to reject." = "Kontaktu bezala gehi zaitzatela baimentzen baduzu, linean noiz zauden ikus dezakete. Zifratutako mezuak bidaltzeko aukera ere eskaintzen du. Egin tap onartzeko. Pasa atzamarra baztertzeko.";
+"Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
+"Already present" = "Already present";
 "Already uploading this content, ignoring" = "Eduki hau igotzen ari da honezkero, muzin egiten";
 "Always archive" = "Artxibatu beti";
 "Always use direct TLS, not STARTTLS" = "Erabili direct TLS, ez STARTTLS";
@@ -78,7 +85,14 @@
 "Blocking is not supported by the server" = "Zerbitzariak ez du blokeatzen uzten";
 "Blocking not supported" = "Blokeatzeko aukera ez dago gaituta";
 "Blocking/Unblocking Not Supported" = "Blokeatzea / Desblokeatzea ez dago gaituta";
+"BODY" = "BODY";
+"Call ended for an unknown reason" = "Call ended for an unknown reason";
+"Call ended, duration: %@" = "Call ended, duration: %@";
+"Call ended: answered with other device" = "Call ended: answered with other device";
+"Call ended: connection failed" = "Call ended: connection failed";
+"Call ended: remote busy" = "Call ended: remote busy";
 "call screen did disappear" = "deiaren pantaila desagertu da";
+"Call was not answered" = "Call was not answered";
 "Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
 "Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
 "Camera" = "Egin eta bidali argazkia";
@@ -89,6 +103,7 @@
 "Can't convert the image to png file." = "Ezin da irudia PNGra bihurtu.";
 "Cancel" = "Utzi";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Ezin da ezer partekatu desgaitutako edo ezabatutako kontu batekin; helmuga: %1$@, barneko kontuaren IDa: %2$@";
+"Change Contact Background" = "Change Contact Background";
 "Change Password" = "Aldatu pasahitza";
 "Changing Password" = "Pasahitza aldatzen";
 "Channel subject:" = "Kanalaren gaia:";
@@ -112,20 +127,29 @@
 "Clear OMEMO session" = "Garbitu OMEMO saioa";
 /* DEBUG - XMPPEdit */
 "Clear own omemo session" = "Garbitu norberaren OMEMO saioa";
+"Clear scanned contact" = "Clear scanned contact";
 "Close" = "Itxi";
 "Connected" = "Konektatuta";
 "Connected since: %@" = "%@etatik konektatuta";
+"Connected: %@" = "Connected: %@";
 "Connecting..." = "Konektatzen…";
 "Connection Details" = "Konexioaren xehetasunak";
 "Contact and Channel Jids  are usually in the format: name@domain.tld" = "Kontaktuen eta kanalen JIDek  ondorengo formatua izan ohi dute: izena@domeinua.eus";
+"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Contact and Group/Channel Jids are usually in the format: name@domain.tld";
+"Contact Background" = "Contact Background";
+"Contact is muted" = "Contact is muted";
+"Contact is not muted" = "Contact is not muted";
 "Contact Jid" = "Kontaktuaren JIDa";
 "Contact Name" = "Kontaktuaren izena";
+"Contact not found" = "Contact not found";
 "Contact or Channel Jid" = "Kontaktu edo kanalaren JIDa";
 "Contacts" = "Kontaktuak";
 "Contacts are usually in the format: username@dom.ain" = "Kontaktuek ondorengo formatua izan ohi dute: erabiltzailea@domeinua.eus";
 "Contacts are usually in the format: username@domain.something" = "Kontaktuek honako formatua izan ohi dute: erabiltzailea@domeinua.eus";
+"Cool Title" = "Cool Title";
 /* Chat msg action */
 "Copy" = "Kopiatu";
+"Copy link to clipboard" = "Copy link to clipboard";
 "Copy to clipboard" = "Kopiatu arbelera";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Ezin izan da kamera atzitu";
@@ -152,9 +176,11 @@
 "Could not upload file" = "Ezin izan da fitxategia igo";
 "Creating invitation..." = "Creating invitation...";
 "Current Password" = "Uneko pasahitza";
+"Currently Online" = "Currently Online";
 "Debug" = "Araztu";
 "Debugging" = "Arazten";
 "Decline" = "Baztertu";
+"Default Background" = "Default Background";
 "Default chat backgrounds are from the Ubuntu project." = "Lehenetsitako txat hondoak Ubuntu proiektukoak dira.";
 "Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "XMPP zerrenden protokoloan proposatutako aldaketa bat zehazten du, zerrenden bertsionamendua ahalbidetzen duena, zerbitzariak ez dio bezeroari zerrenda bidaliko zerrenda aldatu ez bada.";
 "Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription." = "Protokolo bat eta URI eskema bat zehazten ditu aurrez baimendutako zerrenda-loturetarako, hirugarren batek erabiltzailearen identitate-harpidetza automatikoki lor dezan.";
@@ -169,9 +195,11 @@
 "DeviceID: " = "Gailuaren IDa: ";
 "Devices of %@" = "%@(r)en gailuak";
 "Direct TLS" = "Direct TLS";
+"Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list." = "Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list.";
 "Disable Encryption" = "Ezgaitu zifraketa";
 "Disable encryption?" = "Zifraketa ezgaitu?";
 "Disconnected" = "Deskonektatuta";
+"Discovering devices..." = "Discovering devices...";
 "Display" = "Pantaila";
 "Display Name" = "Pantaila-izena";
 "Display Name And Message" = "Erakutsi izena eta mezua";
@@ -221,10 +249,12 @@
 "Entry 2" = "2. sarrera";
 "Entry 3" = "3. sarrera";
 "Error" = "Errorea";
+"error" = "error";
 "Error adding contact or channel" = "Error adding contact or channel";
 "Error authenticating server using SASL2, disconnecting!" = "Errorea SASL2 bidez zerbitzaria autentifikatzean, deskonektatzen!";
 "Error decrypting message" = "Errorea mezua dezifratzerakoan";
 "Error entering groupchat" = "Errorea taldeko txatarekin bat egiterakoan";
+"Error entering MUC!" = "Error entering MUC!";
 "Error handling SASL challenge of server, disconnecting!" = "Errorea zerbitzariaren SASL erronka erabiltzerakoan, deskonektatzen!";
 "Error registering push" = "Errorea push-a erregistratzean";
 "Error Removing Account" = "Errorea kontua kentzerakoan";
@@ -238,6 +268,7 @@
 "Escape The Garden" = "Egin ihes lorategitik";
 "Failed to block contact %@" = "Ezin izan da %@ blokeatu";
 "Failed to copy downloaded file into cache directory" = "Ezin izan da deskargatutako fitxategia katxearen direktorioan gorde";
+"Failed to create invitation for %@" = "Failed to create invitation for %@";
 "Failed to create invitation, unknown error: %@" = "Failed to create invitation, unknown error: %@";
 "Failed to decode download link" = "Ezin izan da deskarga-esteka dekodetu";
 "Failed to decode encrypted link" = "Ezin izan da zifratutako esteka dekodetu";
@@ -294,6 +325,7 @@
 "Group/Channel error" = "Talde / kanal errorea";
 "Group/Channel error in %@" = "Talde/Kanal errorea %@(e)n";
 "Group/Channel got destroyed: %@" = "Taldea / kanala suntsitu da: %@";
+"Group/Channel is mention only" = "Group/Channel is mention only";
 "Group/Channel not available anymore: %@" = "Taldea / kanala ez dago erabilgarri honezkero: %@";
 "Groupchat error" = "Taldeko-txateko errorea";
 "Groupchat/channel details" = "Taldeko-txat edo kanalaren xehetasunak";
@@ -302,6 +334,8 @@
 "Hardcoded Hostname" = "Hardcoded Hostname";
 "Hide Chat" = "Ezkutatu txata";
 "Hint" = "Lagungarria";
+"I already have an account:" = "I already have an account:";
+"I need an account:" = "I need an account:";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission.  Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'. " = "Monalek jakinarazpenak erakutsi ezin baditu, ez duzu abisurik ikusiko mezuak jasotzerakoan. Monalek baimena eskatu zizunean ukatu zeniolako gertatzen da.  Konpon ezazu iOSen ezarpenetara joanez > Monal > Jakinarazpenak eta hautatu 'Baimendu jakinarazpenak'. ";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Monalek jakinarazpenak erakutsi ezin baditu, ez duzu abisurik jasoko mezuak iristerakoan. Hau gertatzen da 'Ukatu' aukeratu zenuelako Monalek baimena eskatu zizunean. Aldatu dezakezu iOSen ezarpenetara joanez eta > Monal > Jakinarazpenak atalean 'baimendu jakinarazpenak' hautatuz.";
 "If Monal push is off, your device could not talk to %@ through xmpp. This should also never be off. It requires Apple push service to work first." = "Monal Push itzalita badago gailua ezingo da XMPP bidez %@(r)ekin harremanetan jarri. Ez itzali inoiz. Apple Push Service behar du funtzionatzeko.";
@@ -315,6 +349,7 @@
 "Image Quality" = "Irudiaren kalitatea";
 "Image Quality: %.2f" = "Irudiaren kalitatea: %.2f";
 "Images" = "Irudiak";
+"Import and trust OMEMO fingerprints from QR code" = "Import and trust OMEMO fingerprints from QR code";
 "Incoming audio call to %@ from %@ " = "%1$@(r)i %2$@ deika ari zaio ";
 "Incoming Call" = "Deia jasotzen";
 "Indicate when a particular device is active or inactive. Saves battery." = "Erakutsi gailu bat aktibo edo inaktibo dagoenean. Bateria aurrezten du.";
@@ -327,6 +362,7 @@
 "Invalid State" = "Egoera baliogabea";
 "Invalid username" = "Erabiltzaile izena ez da baliozkoa";
 "Invalid Username!" = "Erabiltzaile-izen baliogabea!";
+"Invitation for %@ created" = "Invitation for %@ created";
 /* QR-Code-Scanner: Camera not found */
 "It does not seem as your device has a camera. Please use a device with a camera for scanning" = "Badirudi gailuak ez duela kamerarik. Erabili kamera duen gailu bat eskaneatu ahal izateko";
 "Jabber ID" = "Jabber IDa";
@@ -392,6 +428,8 @@
 "Message was encrypted with OMEMO but could not be decrypted" = "Mezua OMEMOrekin zifratu da baina ezin izan da dezifratu";
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %d and that they have you as a contact." = "Mezua ez da gailu honentzat zifratu. Egiaztatu igorlea deviceid %d-(e)z fio dela eta kontaktu gisa gehitu zaituela.";
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "Mezua ez da gailu honetarako zifratu. Egiaztatu igorlea %u gailuaz fio dela.";
+"Messages are encrypted" = "Messages are encrypted";
+"Messages are NOT encrypted" = "Messages are NOT encrypted";
 "Messages never archived by default." = "Mezuak ez dira inoiz artxibatzen defektuz.";
 "Method: %@" = "Metodoa: %@";
 "Migration Assistant" = "Migraziorako laguntzailea";
@@ -439,6 +477,7 @@
 "No groups yet" = "Ez dago talderik oraindik";
 "No OMEMO keys found" = "Ez da OMEMO gakorik aurkitu";
 "No one is here" = "Inor ere ez";
+"No pending requests" = "No pending requests";
 "No search result." = "Emaitzarik gabeko bilaketa.";
 "No supported auth mechanism found, disabling account!" = "Ez da autentikatzeko mekanismo bateragarririk aurkitu, kontua ezgaitzen!";
 "No supported auth mechanism found, disconnecting!" = "Ez da autentifikazio mekanismo bateragarririk aurkitu, deskonektatzen!";
@@ -491,6 +530,7 @@
 "Please make sure you are connected before changing your password." = "Egiaztatu konektatuta zaudela pasahitza aldatu baino lehen.";
 "Please make sure you have entered a username and password." = "Egiaztatu erabiltzaile-izen eta pasahitza sartu dituzula.";
 "Please make sure you have entered a username, password." = "Egiaztatu erabiltzaile-izena eta pasahitza idatzi dituzula.";
+"Please make sure you have entered a valid jid." = "Please make sure you have entered a valid jid.";
 "Please make sure you have entered the same password in both password fields." = "Egiaztatu pasahitz berbera sartu duzula bi eremuetan.";
 "Please open the app to retry" = "Ireki aplikazioa berriro saiatzeko";
 "Please provide a valid XMPP server domain or select one." = "Idatzi XMPP baliogarri bat edo hautatu bat.";
@@ -542,9 +582,11 @@
 "Recode Fail:" = "Rekodetzeak kale egin du:";
 "Recode Success" = "Rekodetzea behar bezala";
 "Reconnecting" = "Birkonektatzen";
+"Reconnecting..." = "Reconnecting...";
 "Recording audio" = "Audioa grabatzen";
 "Refreshing..." = "Freskatzen...";
 "Register" = "Erregistratu";
+"Register a new account" = "Register a new account";
 "Register with %@" = "Register with %@";
 "Registering account..." = "Kontuaren izena ematen...";
 "Registration Error" = "Registration Error";
@@ -563,6 +605,8 @@
 "Retract" = "Retract";
 "Retry" = "Saiatu berriro";
 "Retry sending message?" = "Saiatu mezua berriro bidaltzen?";
+"Rich Text" = "Rich Text";
+"Ringing..." = "Ringing...";
 "Room" = "Gela";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Salt erronkaren erantzuna emandako hash metodoaren autentifikazio-mekanismoaren bidez";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Salt erronkaren erantzuna emandako hash metodoaren autentifikazio-mekanismoaz gain kanal-loturaren bidez";
@@ -574,8 +618,11 @@
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Kanaleko-lotura TLS1.3 eta TLS1.2 konexio batzuetarako segurtatuz.";
 "Select a Background" = "Hautatu hondoa";
 "Select a background to display behind conversations" = "Hautatu elkarrizketaren atzealdean ikusiko den irudia";
+"Select a background to display behind conversations with %@" = "Select a background to display behind conversations with %@";
+"Select a default background to display behind conversations." = "Select a default background to display behind conversations.";
 "Select Action" = "Hautatu ekintza";
 "Select Background" = "Hautatu hondoa";
+"Select background image" = "Select background image";
 "Select File" = "Hautatu fitxategia";
 "Select From Photos" = "Hautatu argazkietatik";
 "Select Message Archive Management (MAM) Preferences " = "Aukeratu mezuak artxibatzeko kudeaketaren (MAM ingelesez) hobespenak ";
@@ -623,6 +670,7 @@
 "Signing Up" = "Izena ematen";
 "Skip" = "Gerorako utzi";
 "Software Version" = "Softwarearen bertsioa";
+"Something went wrong while parsing the string..." = "Something went wrong while parsing the string...";
 "Sort By Status" = "Sailkatu egoeraren arabera";
 "Sounds" = "Soinuak";
 "Sounds courtesy Emrah" = "Emrah-ren kortesia";
@@ -641,6 +689,7 @@
 "Submit A Bug" = "Eman errore baten berri";
 "Success" = "Primeran";
 "Success!" = "Primeran!";
+"Successfully joined MUC %@!" = "Successfully joined MUC %@!";
 "Support" = "Laguntza";
 "Sync Read-Markers" = "Sinkronizatu irakurketa-markagailuak";
 "Synchronize your messages on all loggedin devices." = "Sinkronizatu mezuak saioa hasita duten gailu guztietan.";
@@ -658,6 +707,7 @@
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later. %@" = "Zerbitzariarekin konexioak kale egin du eta ezin izan dira elkarrizketa honetako mezu zaharrak ekarri. Saiatu berriro geroago. %@";
 "The current password is not correct." = "Oraingo pasahitza ez da zuzena.";
 "The jid has to be in the form 'user@domain.tld' to be correct." = "JIDak 'erabiltzailea@domeinua.eus' formatua izan behar du zuzena izan dadin.";
+"The jid you want to add should be in in the format user@domain.tld." = "The jid you want to add should be in in the format user@domain.tld.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "Kontaktu berria zure kontaktuen zerrendan agertuko da gehitu duzun pertsonak zure eskaera onartzen badu.";
 "The password has been changed" = "Pasahitza aldatu da";
@@ -665,6 +715,7 @@
 "The qrcode contains a jid. Rescan the qrcode in the add user menu" = "QR kodeak JID bat dakar. Eskaneatu berriro QR kodea 'gehitu erabiltzailea' menuan";
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for a acount. Go to settings and rescan the qrcode" = "QR kodeak kontu batean saioa hasteko datuak dakartza. Zoaz ezarpenetara eta eskaneatu berriro QR kodea";
+"The resource '%@' has the following capabilities:" = "The resource '%@' has the following capabilities:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only.";
 "The server does not support blocking" = "Zerbitzariak ez du blokeatzen uzten";
 "The server does not support blocking (XEP-0191)." = "The server does not support blocking (XEP-0191).";
@@ -694,7 +745,10 @@
 "This account already exists on this instance." = "This account already exists on this instance.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Aplikazio hau zaharregia da eta segurtasun arazoak izan ditzake edo erabilgarri egoteari utzi. Eguneratu!";
 "This contact does not appear to have any devices that support encryption." = "Badirudi kontaktu honek ez duela zifraketarekin beteragarria den gailurik.";
+"This contact is already in the contact list of the selected account" = "This contact is already in the contact list of the selected account";
+"This contact is already in your contact list" = "This contact is already in your contact list";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Litekeena da kontaktu honek OMEMO zifratutako mezuak erabili ezin izatea. Saiatu berriro geroago.";
+"This invitation will expire on %@" = "This invitation will expire on %@";
 "This jid already exists on this instance." = "This jid already exists on this instance.";
 "This key belongs to this device and cannot be removed or disabled!" = "Gailu honen gakoa da hau eta ezin da kendu edo ezgaitu!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element.";
@@ -741,6 +795,7 @@
 "Unblock Contact" = "Desblokeatu kontaktua";
 "Unblock Sender" = "Desblokeatu igorlea";
 "Unclean appex shutown" = "Unclean appex shutown";
+"Undefined error" = "Undefined error";
 "Unexpected appex expiration" = "Unexpected appex expiration";
 "Unexpected error while checking type of jid, please try again" = "Espero ez zen errorea JID mota egiaztatzerakoan; saiatu berriro";
 "Unexpected error while checking type of jid:" = "Espero ez zen errorea gertatu da JID mota egiaztatzerakoan:";
@@ -755,6 +810,7 @@
 "Unnamed" = "Izenik gabekoa";
 "Unpin Chat" = "Kendu laster-marka";
 "Unread Messages Below" = "Markatu beheragoko mezuak ez irakurritzat";
+"unsupported" = "unsupported";
 "Untrusted key" = "Untrusted key";
 "Upload Error" = "Errorea igotzerakoan";
 "Upload Error: your account got disconnected while requesting upload slot" = "Errorea igotzerakoan: zure kontua deskonektatu da igotzeko eskaera egiten ari zela";
@@ -810,6 +866,7 @@
 "XMPP" = "XMPP";
 "XMPP Account Info Error" = "XMPP Account Info Error";
 "XMPP Bind Error" = "XMPP Bind Error";
+"XMPP Capabilities" = "XMPP Capabilities";
 "XMPP Disco Info Error" = "XMPP Disco Info Error";
 "XMPP External Service Disco Error" = "XMPP External Service Disco Error";
 "XMPP ID" = "XMPP IDa";
@@ -829,6 +886,7 @@
 "You are not trapped in a garden. Talk to anyone else without anyone tracking you." = "Ez zaude lorategi batean preso. Hitz egin nahi duzunarekin zelatatua izan gabe.";
 "You are set up and connected." = "Dena prest eta konektatuta.";
 "You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
+"You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
 "You can see their keys. They can't see yours" = "Beraien gakoak ikus ditzakezu; beraiek ezin dituzte zureak ikusi";
 "You did not grant Monal to access your location." = "Ez diozu Monali kokapena atzitzeko baimenik eman.";
 "You got banned from: %@" = "Debekua ezarri dizute: %@";
@@ -841,6 +899,7 @@
 "You need friends for this ride" = "Lagunak behar dituzu aberntura honetarako";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Monalen iCloud babeskopia bat lehengoratu duzu; ireki aplikazioa kontu hau birgaitzeko.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen." = "Egiaztatu duzunean fidatu zaitezke gakoaz. Egiaztatu beheko gakoa zure kontaktuaren pantailan ageri denarekin alderatuz.";
+"You tried to call contact '%@' but this contact could not be found in your contact list." = "You tried to call contact '%@' but this contact could not be found in your contact list.";
 "You will no longer receive messages from this conversation" = "Aurrerantzean ez duzu elkarrizketa honetako mezu gehiagorik jasoko";
 "You will receive subsequent messages from this conversation" = "Elkarrizketa honetako mezuak jasoko dituzu aurrerantzean";
 "Your account must be enabled and connected, to be removed from the server!" = "Zure kontua gaituta eta konektatuta egon behar da zerbitzaritik kendu ahal izateko!";
@@ -862,60 +921,5 @@
 "📍 A Location" = "📍 Kokapena";
 "📷 An Image" = "📷 Irudia";
 "🔗 A Link" = "🔗 Esteka";
-"%@" = "%@";
-"A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
-"Account Picker" = "Account Picker";
-"Add Group/Channel or Contact" = "Add Group/Channel or Contact";
-"Add scanned Group/Channel or Contact" = "Add scanned Group/Channel or Contact";
-"Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
-"Already present" = "Already present";
-"BODY" = "BODY";
-"Call ended for an unknown reason" = "Call ended for an unknown reason";
-"Call ended, duration: %@" = "Call ended, duration: %@";
-"Call ended: answered with other device" = "Call ended: answered with other device";
-"Call ended: connection failed" = "Call ended: connection failed";
-"Call ended: remote busy" = "Call ended: remote busy";
-"Call was not answered" = "Call was not answered";
-"Change Contact Background" = "Change Contact Background";
-"Clear scanned contact" = "Clear scanned contact";
-"Connected: %@" = "Connected: %@";
-"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Contact and Group/Channel Jids are usually in the format: name@domain.tld";
-"Contact Background" = "Contact Background";
-"Contact is muted" = "Contact is muted";
-"Contact is not muted" = "Contact is not muted";
-"Cool Title" = "Cool Title";
-"Copy link to clipboard" = "Copy link to clipboard";
-"Currently Online" = "Currently Online";
-"Default Background" = "Default Background";
-"Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list." = "Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list.";
-"Discovering devices..." = "Discovering devices...";
-"error" = "error";
-"Error entering MUC!" = "Error entering MUC!";
-"Failed to create invitation for %@" = "Failed to create invitation for %@";
-"Group/Channel is mention only" = "Group/Channel is mention only";
-"I already have an account:" = "I already have an account:";
-"I need an account:" = "I need an account:";
-"Import and trust OMEMO fingerprints from QR code" = "Import and trust OMEMO fingerprints from QR code";
-"Invitation for %@ created" = "Invitation for %@ created";
-"Messages are encrypted" = "Messages are encrypted";
-"Messages are NOT encrypted" = "Messages are NOT encrypted";
-"No pending requests" = "No pending requests";
-"Please make sure you have entered a valid jid." = "Please make sure you have entered a valid jid.";
-"Reconnecting..." = "Reconnecting...";
-"Register a new account" = "Register a new account";
-"Rich Text" = "Rich Text";
-"Ringing..." = "Ringing...";
-"Select a background to display behind conversations with %@" = "Select a background to display behind conversations with %@";
-"Select a default background to display behind conversations." = "Select a default background to display behind conversations.";
-"Select background image" = "Select background image";
-"Something went wrong while parsing the string..." = "Something went wrong while parsing the string...";
-"Successfully joined MUC %@!" = "Successfully joined MUC %@!";
-"The jid you want to add should be in in the format user@domain.tld." = "The jid you want to add should be in in the format user@domain.tld.";
-"The resource '%@' has the following capabilities:" = "The resource '%@' has the following capabilities:";
-"This contact is already in the contact list of the selected account" = "This contact is already in the contact list of the selected account";
-"This contact is already in your contact list" = "This contact is already in your contact list";
-"This invitation will expire on %@" = "This invitation will expire on %@";
-"Undefined error" = "Undefined error";
-"unsupported" = "unsupported";
-"XMPP Capabilities" = "XMPP Capabilities";
-"You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
+"Call ended: declined" = "Call ended: declined";
+"Call ended: hung up" = "Call ended: hung up";

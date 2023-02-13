@@ -1,9 +1,11 @@
 "%02d:%02d (long press to abort)" = "%02d:%02d (iptal etmek için uzun basın)";
+"%@" = "%@";
 "%@ (Pending Approval)" = "%@ (Onay Bekliyor)";
 "%@ says:" = "%@ diyor ki:";
 "%ld (This device)" = "%ld (Bu Cihaz)";
 "(autojoin)" = "(otomatik katıl)";
 "[This message is OMEMO encrypted]" = "[Bu mesaj OMEMO ile şifrelenmiştir]";
+"A contact was scanned through the QR code scanner" = "QR kod tarayıcısı aracılığıyla bir kişi tarandı";
 "Abort" = "İptal";
 "Aborted recording audio" = "İptal edilen ses kaydı";
 "About" = "Hakkında";
@@ -17,6 +19,7 @@
 "Account already configured in Monal!" = "Hesap Monal'da zaten yapılandırılmış!";
 "Account disabled" = "Hesap Devre Dışı";
 "Account Exists" = "Mevcut Hesaplar";
+"Account Picker" = "Hesap Seçicisi";
 "Account To Use" = "Kullanılacak Hesap";
 "Account: %@" = "Hesap: %@";
 "Accounts" = "Hesaplar";
@@ -29,8 +32,10 @@
 "Add Contact" = "Kişi Ekle";
 "Add Contact or Channel" = "Kişi veya Kanal Ekle";
 "Add Group to Favorites" = "Grubu Sık Kullanılanlara Ekle";
+"Add Group/Channel or Contact" = "Grup/Kanal veya Kişi Ekleme";
 "Add New Account" = "Yeni Hesap Ekle";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Yukarıdaki + düğmesine tıklayarak yeni kişiler ekleyin. Arkadaşların uygun olduklarında görüntülenmeye başlayacaklar";
+"Add scanned Group/Channel or Contact" = "Taranan Grup/Kanal veya Kişi Ekleme";
 "Add to contacts" = "Kişilere ekle";
 "Adding MUC..." = "Grup/Kanal ekleniyor...";
 "Adding..." = "Ekleniyor...";
@@ -41,6 +46,8 @@
 "Allow" = "İzin ver";
 "Allow %@ to contact you?" = "%@'nin sizinle iletişim kurmasına izin verilsin mi?";
 "Allowing someone to add you as a contact lets them see when you are online. It also allows you to send encrypted messages.  Tap to approve. Swipe to reject." = "Birinin sizi kişi olarak eklemesine izin vermek, çevrimiçi olduğunuzda görmesini sağlar. Ayrıca şifreli mesajlar göndermenizi sağlar.  Onaylamak için dokunun. Reddetmek için kaydırın.";
+"Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Birinin sizi kişi olarak eklemesine izin vermek, profil resminizi ve çevrimiçi olduğunuzda görmesini sağlar.";
+"Already present" = "Zaten mevcut";
 "Already uploading this content, ignoring" = "Bu içeriği zaten yüklüyor, yoksay";
 "Always archive" = "Her zaman arşivle";
 "Always use direct TLS, not STARTTLS" = "Her zaman doğrudan TLS kullanın, STARTTLS değil";
@@ -78,7 +85,14 @@
 "Blocking is not supported by the server" = "Engelleme sunucu tarafından desteklenmiyor";
 "Blocking not supported" = "Engelleme desteklenmiyor";
 "Blocking/Unblocking Not Supported" = "Engelleme/Engellemeyi Kaldırma Desteklenmiyor";
+"BODY" = "GÖVDE";
+"Call ended for an unknown reason" = "Arama bilinmeyen bir nedenle sona erdi";
+"Call ended, duration: %@" = "Arama sona erdi, süre: %@";
+"Call ended: answered with other device" = "Arama sonlandırıldı: diğer cihazla cevaplandı";
+"Call ended: connection failed" = "Arama sona erdi: bağlantı başarısız oldu";
+"Call ended: remote busy" = "Çağrı sonlandırıldı: karşı taraf meşgul";
 "call screen did disappear" = "arama ekranı kayboldu";
+"Call was not answered" = "Çağrı cevaplanmadı";
 "Calls: Allow P2P sessions" = "Çağrılar: P2P oturumlarına izin ver";
 "Calls: Allow TURN fallback to Monal-Servers" = "Çağrılar: Monal-Sunucusuna TURN geri dönüşüne izin ver";
 "Camera" = "Kamera";
@@ -89,6 +103,7 @@
 "Can't convert the image to png file." = "Görüntü png dosyasına dönüştürülemiyor.";
 "Cancel" = "İptal Et";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Devre dışı bırakılan/silinen hesapla bir şey paylaşılamıyor, hedef: %1$@, dahili hesap kimliği: %2$ @";
+"Change Contact Background" = "Kişi Arka Planını Değiştir";
 "Change Password" = "Parolayı Değiştir";
 "Changing Password" = "Parolayı Değiştir";
 "Channel subject:" = "Kanal konusu:";
@@ -112,20 +127,29 @@
 "Clear OMEMO session" = "OMEMO oturumunu temizle";
 /* DEBUG - XMPPEdit */
 "Clear own omemo session" = "Kendi omemo oturumunu temizle";
+"Clear scanned contact" = "Taranan kişiyi temizle";
 "Close" = "Kapat";
 "Connected" = "Bağlandı";
 "Connected since: %@" = "Şu zamandan beri bağlı: % @";
+"Connected: %@" = "Bağlandı: %@";
 "Connecting..." = "Bağlanıyor...";
 "Connection Details" = "Bağlantı Detayları";
 "Contact and Channel Jids  are usually in the format: name@domain.tld" = "İletişim ve Kanal Jid'leri  genellikle şu biçimdedir: kullanıcıadı@sunucu.tld";
+"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Kişi ve Grup/Kanal Jid'leri genellikle şu formattadır: name@domain.tld";
+"Contact Background" = "İletişim Geçmişi";
+"Contact is muted" = "Kişi sessize alındı";
+"Contact is not muted" = "Kişi sesi kapatılmamış";
 "Contact Jid" = "İletişim Jid";
 "Contact Name" = "Kişi Adı";
+"Contact not found" = "Contact not found";
 "Contact or Channel Jid" = "Kişi veya Kanal Jid";
 "Contacts" = "Rehber";
 "Contacts are usually in the format: username@dom.ain" = "Kişiler genellikle şu biçimdedir: kullanıcıadı@dom.ain";
 "Contacts are usually in the format: username@domain.something" = "Kişiler genellikle şu biçimdedir: kullanıcıadı@sunucu.com";
+"Cool Title" = "Havalı Başlık";
 /* Chat msg action */
 "Copy" = "Kopyala";
+"Copy link to clipboard" = "Bağlantıyı panoya kopyala";
 "Copy to clipboard" = "Panoya kopyala";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "kameraya erişilemedi";
@@ -152,9 +176,11 @@
 "Could not upload file" = "Dosya karşıya yüklenemedi";
 "Creating invitation..." = "Davetiye oluşturuluyor...";
 "Current Password" = "Mevcut Şifre";
+"Currently Online" = "Şu Anda Çevrimiçi";
 "Debug" = "Hata ayıklama";
 "Debugging" = "Hata Ayıklama";
 "Decline" = "Reddet";
+"Default Background" = "Varsayılan Arka Plan";
 "Default chat backgrounds are from the Ubuntu project." = "Varsayılan sohbet arka planları Ubuntu projesindendir.";
 "Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "XMPP liste protokolünde, kadro değiştirilmemişse sunucunun listeyi istemciye göndermemesi için kadroların sürümlendirilmesini sağlayan önerilen bir değişiklik tanımlar.";
 "Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription." = "Üçüncü bir tarafın kullanıcının iletişim durumu aboneliğini otomatik olarak almasına izin veren önceden doğrulanmış liste bağlantıları için bir protokol ve URI şeması tanımlar.";
@@ -169,9 +195,11 @@
 "DeviceID: " = "Cihaz Kimliği: ";
 "Devices of %@" = "%@ cihazları";
 "Direct TLS" = "Doğrudan TLS";
+"Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list." = "Bir xmpp istemcisinin nasıl kurulacağına ilişkin talimatlar için arkadaşınızı bu web sayfasına yönlendirin. Daha sonra otomatik olarak kişi listelerine ekleneceksiniz.";
 "Disable Encryption" = "Şifrelemeyi Devre Dışı Bırak";
 "Disable encryption?" = "Şifreleme devre dışı bırakılsın mı?";
 "Disconnected" = "Bağlantı kesildi";
+"Discovering devices..." = "Cihazlar keşfediliyor...";
 "Display" = "Görüntüle";
 "Display Name" = "Görünen Ad";
 "Display Name And Message" = "Görünen Ad ve İleti";
@@ -221,10 +249,12 @@
 "Entry 2" = "Girdi 2";
 "Entry 3" = "Girdi 3";
 "Error" = "Hata";
+"error" = "Hata";
 "Error adding contact or channel" = "Kişi veya kanal eklerken hata oluştu";
 "Error authenticating server using SASL2, disconnecting!" = "SASL2 kullanılarak sunucunun kimliği doğrulanamadı, bağlantı kesiliyor!";
 "Error decrypting message" = "Mesajın şifresi çözülürken hata oluştu";
 "Error entering groupchat" = "Grup sohbetine girerken hata";
+"Error entering MUC!" = "Grup/Kanal'a girerken hata oluştu!";
 "Error handling SASL challenge of server, disconnecting!" = "Sunucunun SASL sorgulaması işlenirken hata oluştu, bağlantı kesiliyor!";
 "Error registering push" = "Bildirimler kaydedilirken hata oluştu";
 "Error Removing Account" = "Hesap silinirken hata oluştu";
@@ -238,6 +268,7 @@
 "Escape The Garden" = "Çıkış";
 "Failed to block contact %@" = "%@ kişisi engellenemedi";
 "Failed to copy downloaded file into cache directory" = "İndirilen dosya önbellek dizinine kopyalanamadı";
+"Failed to create invitation for %@" = "%@ için davetiye oluşturulamadı";
 "Failed to create invitation, unknown error: %@" = "Davetiye oluşturulamadı, bilinmeyen hata: %@";
 "Failed to decode download link" = "İndirme bağlantısının kodu çözülemedi";
 "Failed to decode encrypted link" = "Şifreli bağlantının kodu çözülemedi";
@@ -294,6 +325,7 @@
 "Group/Channel error" = "Grup/Kanal hatası";
 "Group/Channel error in %@" = "%@ için Grup/Kanal hatası";
 "Group/Channel got destroyed: %@" = "Grup/Kanal yok edildi: %@";
+"Group/Channel is mention only" = "Grup/Kanal yalnızca etiket modunda";
 "Group/Channel not available anymore: %@" = "Grup/Kanal artık mevcut değil: %@";
 "Groupchat error" = "Grup sohbeti hatası";
 "Groupchat/channel details" = "Grup sohbeti/kanal detayları";
@@ -302,6 +334,8 @@
 "Hardcoded Hostname" = "Sabit kodlanmış Ana Bilgisayar Adı";
 "Hide Chat" = "Sohbeti Gizle";
 "Hint" = "İpucu";
+"I already have an account:" = "Zaten bir hesabım var:";
+"I need an account:" = "Bir hesaba ihtiyacım var:";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission.  Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'. " = "Monal bildirimleri gösteremezse, bir mesaj geldiğinde uyarıları görmezsiniz. Bu, Monal ilk izin istediğinde 'Reddet'e dokunmuşsanız olur.  iOS Ayarları -> Monal -> Bildirimleri'ne giderek düzeltin ve 'Bildirimlere İzin Ver'i seçin. ";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Monal bildirimleri gösteremezse, bir mesaj geldiğinde uyarı göremezsiniz. Monal ilk izin istediğinde 'Reddet' seçeneğine dokunursanız bu olur. iOS Ayarları -> Monal -> Bildirimler'e giderek ve 'Bildirimlere İzin Ver' seçeneğini seçerek bu sorunu düzeltin.";
 "If Monal push is off, your device could not talk to %@ through xmpp. This should also never be off. It requires Apple push service to work first." = "Monal bildirim hizmetleri kapalıysa, cihazınız %@ ile xmpp aracılığıyla konuşamaz. Bu da asla kapalı olmamalıdır. Önce Apple push servisinin çalışması gerekir.";
@@ -315,6 +349,7 @@
 "Image Quality" = "Görüntü Kalitesi";
 "Image Quality: %.2f" = "Görüntü Kalitesi: %.2f";
 "Images" = "Görüntüler";
+"Import and trust OMEMO fingerprints from QR code" = "QR kodundan OMEMO parmaklarını içe aktarın ve güvenin";
 "Incoming audio call to %@ from %@ " = "%2$@'dan %1$@'e gelen sesli arama ";
 "Incoming Call" = "Gelen çağrı";
 "Indicate when a particular device is active or inactive. Saves battery." = "Belirli bir cihazın ne zaman aktif veya pasif olduğunu belirtin. Pil tasarrufu sağlar.";
@@ -327,6 +362,7 @@
 "Invalid State" = "Geçersiz Durum";
 "Invalid username" = "Geçersiz kullanıcı adı";
 "Invalid Username!" = "Geçersiz Kullanıcı Adı!";
+"Invitation for %@ created" = "%@ için davetiye oluşturuldu";
 /* QR-Code-Scanner: Camera not found */
 "It does not seem as your device has a camera. Please use a device with a camera for scanning" = "Cihazınızda kamera yok gibi görünüyor. Tarama için lütfen kameralı bir cihaz kullanın";
 "Jabber ID" = "Jabber Kimliği";
@@ -392,6 +428,8 @@
 "Message was encrypted with OMEMO but could not be decrypted" = "İleti OMEMO ile şifrelendi, ancak şifresi çözülemedi";
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %d and that they have you as a contact." = "İleti bu aygıt için şifrelenmedi. Lütfen gönderenin %d aygıt kimliğine güvendiğinden ve sizi bir kişi olarak eklediklerinden emin olun.";
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "Mesaj bu cihaz için şifrelenmiş değildi. Lütfen göndericinin cihazından emin olun deviceid %u.";
+"Messages are encrypted" = "Mesajlar şifrelidir";
+"Messages are NOT encrypted" = "Mesajlar şifreli DEĞİLDİR";
 "Messages never archived by default." = "Mesajlar varsayılan olarak asla arşivlenmez.";
 "Method: %@" = "Methot: %@";
 "Migration Assistant" = "Geçiş Yardımcısı";
@@ -439,6 +477,7 @@
 "No groups yet" = "Henüz grup yok";
 "No OMEMO keys found" = "OMEMO anahtarı bulunamadı";
 "No one is here" = "Burada kimse yok";
+"No pending requests" = "Bekleyen istek yok";
 "No search result." = "Arama sonucu yok.";
 "No supported auth mechanism found, disabling account!" = "Desteklenen bir kimlik doğrulama mekanizması bulunamadı, hesap devre dışı bırakılıyor!";
 "No supported auth mechanism found, disconnecting!" = "Desteklenen bir kimlik doğrulama mekanizması bulunamadı, bağlantı kesiliyor!";
@@ -491,6 +530,7 @@
 "Please make sure you are connected before changing your password." = "Lütfen şifrenizi değiştirmeden önce internete bağlı olduğunuzdan emin olun.";
 "Please make sure you have entered a username and password." = "Lütfen bir kullanıcı adı ve şifre girdiğinizden emin olun.";
 "Please make sure you have entered a username, password." = "Lütfen bir kullanıcı adı ve şifre girdiğinize emin olun.";
+"Please make sure you have entered a valid jid." = "Lütfen geçerli bir jid girdiğinizden emin olun.";
 "Please make sure you have entered the same password in both password fields." = "Lütfen her iki şifre alanına da aynı şifreyi girdiğinizden emin olun.";
 "Please open the app to retry" = "Yeniden denemek için lütfen uygulamayı açın";
 "Please provide a valid XMPP server domain or select one." = "Lütfen geçerli bir XMPP sunucu etki alanı sağlayın veya bir tane seçin.";
@@ -542,9 +582,11 @@
 "Recode Fail:" = "Yeniden Kodlama Başarısız:";
 "Recode Success" = "Yeniden kodlama başarılı";
 "Reconnecting" = "Yeniden Bağlanıyor";
+"Reconnecting..." = "Yeniden bağlanıyor...";
 "Recording audio" = "Ses kaydet";
 "Refreshing..." = "Yenileniyor...";
 "Register" = "Kayıt Ol";
+"Register a new account" = "Yeni bir hesap açın";
 "Register with %@" = "@ ile kayıt olun";
 "Registering account..." = "Hesap kaydediliyor...";
 "Registration Error" = "Kayıt Hatası";
@@ -563,6 +605,8 @@
 "Retract" = "Geri Çekme";
 "Retry" = "Yeniden dene";
 "Retry sending message?" = "Mesaj gönderme yeniden denensin mi?";
+"Rich Text" = "Zengin Metin";
+"Ringing..." = "Çalıyor...";
 "Room" = "Oda";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Verilen Karma Yöntemini kullanan Salted Challenge Kimlik Doğrulama Mekanizması";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Verilen Hash Yöntemini kullanan ve ayrıca Channel-Binding ile güvence altına alınmış Salted Challenge Kimlik Doğrulama Mekanizması";
@@ -574,8 +618,11 @@
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "TLS1.3 ve bazı TLS1.2 bağlantıları için tanımlanmış güvenli channel-binding.";
 "Select a Background" = "Bir Arka Plan Seçin";
 "Select a background to display behind conversations" = "Konuşmaların arkasında görüntülenecek bir arka plan seçin";
+"Select a background to display behind conversations with %@" = "@ ile konuşmaların arkasında görüntülenecek bir arka plan seçin";
+"Select a default background to display behind conversations." = "Konuşmaların arkasında görüntülemek için varsayılan bir arka plan seçin.";
 "Select Action" = "Eylem Seç";
 "Select Background" = "Arka Plan Seç";
+"Select background image" = "Arka plan resmi seçin";
 "Select File" = "Dosya Seç";
 "Select From Photos" = "Fotoğraflardan Seç";
 "Select Message Archive Management (MAM) Preferences " = "Mesaj Arşiv Yönetimi (MAM) Tercihlerini Seçin ";
@@ -623,6 +670,7 @@
 "Signing Up" = "Kaydol";
 "Skip" = "Atla";
 "Software Version" = "Yazılım Sürümü";
+"Something went wrong while parsing the string..." = "Dizeyi ayrıştırırken bir şeyler yanlış gitti...";
 "Sort By Status" = "Durumuna Göre Sırala";
 "Sounds" = "Sesler";
 "Sounds courtesy Emrah" = "Kulağa nazik geliyor Emrah";
@@ -641,6 +689,7 @@
 "Submit A Bug" = "Hata Bildir";
 "Success" = "Başarılı";
 "Success!" = "Başarılı!";
+"Successfully joined MUC %@!" = "Grup/Kanal'a başarıyla katılındı %@!";
 "Support" = "Destek";
 "Sync Read-Markers" = "Okuma İşaretlerini Senkronize Et";
 "Synchronize your messages on all loggedin devices." = "Mesajlarınızı oturum açtığınız tüm cihazlarda senkronize edin.";
@@ -658,6 +707,7 @@
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later. %@" = "Sunucuyla bağlantı kesildi ve bu sohbet için eski iletiler getirilemedi. Lütfen daha sonra tekrar deneyiniz. %@";
 "The current password is not correct." = "Geçerli parola doğru değil.";
 "The jid has to be in the form 'user@domain.tld' to be correct." = "Jid'in doğru olması için 'kullanıcıadı@sunucu.tld' biçiminde olması gerekir.";
+"The jid you want to add should be in in the format user@domain.tld." = "Eklemek istediğiniz jid user@domain.tld biçiminde olmalıdır.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "Anahtar şu anda doğru şekilde işlenmeyen bir durumda. Bu uyarıyı görürseniz lütfen geliştiricilerle iletişime geçin.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "Eklediğiniz kişi isteğinizi onayladığında yeni kişi listenize eklenecektir.";
 "The password has been changed" = "Parola değiştirildi";
@@ -665,6 +715,7 @@
 "The qrcode contains a jid. Rescan the qrcode in the add user menu" = "Qrcode bir jid içerir. Kullanıcı ekle menüsünde qrcode'u yeniden tarayın";
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for a acount. Go to settings and rescan the qrcode" = "Qrcode, bir hesap için oturum açma kimlik bilgilerini içerir. Ayarlara gidin ve qrcode'u yeniden tarayın";
+"The resource '%@' has the following capabilities:" = "'%@' kaynağı aşağıdaki yeteneklere sahiptir:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "Seçilebilir XMPP sunucuları Monal'a bağlı olmayan genel sunuculardır. Bu kayıt sayfası sadece kolaylık sağlamak için verilmiştir.";
 "The server does not support blocking" = "Sunucu engellemeyi desteklemiyor";
 "The server does not support blocking (XEP-0191)." = "Sunucu engellemeyi desteklemiyor (XEP-0191).";
@@ -694,7 +745,10 @@
 "This account already exists on this instance." = "Bu hesap, bu örnekte zaten var.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Bu uygulama çok eski ve güvenlik açıkları içerebilir veya aniden çalışmayı durdurabilir. Lütfen güncelleyin!";
 "This contact does not appear to have any devices that support encryption." = "Bu kişinin şifrelemeyi destekleyen herhangi bir cihazı yok gibi görünüyor.";
+"This contact is already in the contact list of the selected account" = "Bu kişi zaten seçilen hesabın kişi listesinde yer alıyor";
+"This contact is already in your contact list" = "Bu kişi zaten kişi listenizde var";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Bu kişi OMEMO şifreli mesajları desteklemiyor olabilir. Lütfen birkaç saniye sonra tekrar deneyin.";
+"This invitation will expire on %@" = "Bu davet %@ de sona erecektir";
 "This jid already exists on this instance." = "Bu jid bu örnekte zaten mevcut.";
 "This key belongs to this device and cannot be removed or disabled!" = "Bu anahtar bu cihaza aittir ve kaldırılamaz veya devre dışı bırakılamaz!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Bu anahtara güvenilir ve parmak izleri manuel olarak karşılaştırılarak doğrulanır. Bu anahtara güvenmeyi durdurmak için geçiş yardımcısını kullanın.";
@@ -741,6 +795,7 @@
 "Unblock Contact" = "Kişi Engelini Kaldır";
 "Unblock Sender" = "Gönderenin Engelini Kaldır";
 "Unclean appex shutown" = "Temiz olmayan appex kapanması";
+"Undefined error" = "Tanımlanmamış hata";
 "Unexpected appex expiration" = "Beklenmedik appex sona ermesi";
 "Unexpected error while checking type of jid, please try again" = "Jid türünü kontrol ederken beklenmeyen hata, lütfen yeniden deneyin";
 "Unexpected error while checking type of jid:" = "Jid türü denetlenirken beklenmeyen hata:";
@@ -755,6 +810,7 @@
 "Unnamed" = "İsimsiz";
 "Unpin Chat" = "Sohbeti Sabitlemeyi Kaldır";
 "Unread Messages Below" = "Okunmamış İletiler Aşağıda";
+"unsupported" = "Desteklenmiyor";
 "Untrusted key" = "Güvenilmeyen anahtar";
 "Upload Error" = "Yükleme Hatası";
 "Upload Error: your account got disconnected while requesting upload slot" = "Yükleme Hatası: Yükleme yuvası istenirken hesabınızın bağlantısı kesildi";
@@ -810,6 +866,7 @@
 "XMPP" = "XMPP";
 "XMPP Account Info Error" = "XMPP Hesap Bilgisi Hatası";
 "XMPP Bind Error" = "XMPP Bağlama Hatası";
+"XMPP Capabilities" = "XMPP Yetenekleri";
 "XMPP Disco Info Error" = "XMPP Keşif Bilgisi Hatası";
 "XMPP External Service Disco Error" = "XMPP Harici Hizmet Disco Hatası";
 "XMPP ID" = "XMPP Kimliği";
@@ -829,6 +886,7 @@
 "You are not trapped in a garden. Talk to anyone else without anyone tracking you." = "Bahçede kapana kısılmış değilsin. Kimse seni izlemeden başkasıyla konuş.";
 "You are set up and connected." = "Kuruldu ve bağlandınız.";
 "You are set up and connected. People can message you at: %@@%@" = "Kuruldunuz ve bağlandınız. İnsanlar size şu adresten mesaj gönderebilir: %@@% @";
+"You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "'%@' jid'ini aramaya çalışıyorsunuz, ancak bu kişiye farklı hesaplar kullanılarak ulaşılabilir. Lütfen giden aramayı yapmak istediğiniz hesabı seçin.";
 "You can see their keys. They can't see yours" = "Anahtarlarını görebilirsiniz. Seninkini göremezler";
 "You did not grant Monal to access your location." = "Monal'ın konumunuza erişmesine izin vermediniz.";
 "You got banned from: %@" = "Şuradan yasaklandınız: %@";
@@ -841,6 +899,7 @@
 "You need friends for this ride" = "Bu yolculuk için arkadaşa ihtiyacın var";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Monal'ın bir iCloud yedeklemesini geri yüklediniz, lütfen bu hesabı yeniden etkinleştirmek için uygulamayı açın.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen." = "Doğruladığınızda bir anahtara güvenmelisiniz. Aşağıdaki anahtarı kişinizin ekranındaki ile karşılaştırarak doğrulayın.";
+"You tried to call contact '%@' but this contact could not be found in your contact list." = "You tried to call contact '%@' but this contact could not be found in your contact list.";
 "You will no longer receive messages from this conversation" = "Artık bu görüşmeden mesaj almayacaksınız";
 "You will receive subsequent messages from this conversation" = "Bu konuşmadan sonraki iletileri alacaksınız";
 "Your account must be enabled and connected, to be removed from the server!" = "Hesabınızın silinmesi için sunucuya bağlanmış ve aktif edilmiş olması gerekmektedir!";
@@ -862,60 +921,5 @@
 "📍 A Location" = "📍 Bir Konum";
 "📷 An Image" = "📷 Bir Resim";
 "🔗 A Link" = "🔗 Bir Bağlantı";
-"%@" = "%@";
-"A contact was scanned through the QR code scanner" = "QR kod tarayıcısı aracılığıyla bir kişi tarandı";
-"Account Picker" = "Hesap Seçicisi";
-"Add Group/Channel or Contact" = "Grup/Kanal veya Kişi Ekleme";
-"Add scanned Group/Channel or Contact" = "Taranan Grup/Kanal veya Kişi Ekleme";
-"Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Birinin sizi kişi olarak eklemesine izin vermek, profil resminizi ve çevrimiçi olduğunuzda görmesini sağlar.";
-"Already present" = "Zaten mevcut";
-"BODY" = "GÖVDE";
-"Call ended for an unknown reason" = "Arama bilinmeyen bir nedenle sona erdi";
-"Call ended, duration: %@" = "Arama sona erdi, süre: %@";
-"Call ended: answered with other device" = "Arama sonlandırıldı: diğer cihazla cevaplandı";
-"Call ended: connection failed" = "Arama sona erdi: bağlantı başarısız oldu";
-"Call ended: remote busy" = "Çağrı sonlandırıldı: karşı taraf meşgul";
-"Call was not answered" = "Çağrı cevaplanmadı";
-"Change Contact Background" = "Kişi Arka Planını Değiştir";
-"Clear scanned contact" = "Taranan kişiyi temizle";
-"Connected: %@" = "Bağlandı: %@";
-"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Kişi ve Grup/Kanal Jid'leri genellikle şu formattadır: name@domain.tld";
-"Contact Background" = "İletişim Geçmişi";
-"Contact is muted" = "Kişi sessize alındı";
-"Contact is not muted" = "Kişi sesi kapatılmamış";
-"Cool Title" = "Havalı Başlık";
-"Copy link to clipboard" = "Bağlantıyı panoya kopyala";
-"Currently Online" = "Şu Anda Çevrimiçi";
-"Default Background" = "Varsayılan Arka Plan";
-"Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list." = "Bir xmpp istemcisinin nasıl kurulacağına ilişkin talimatlar için arkadaşınızı bu web sayfasına yönlendirin. Daha sonra otomatik olarak kişi listelerine ekleneceksiniz.";
-"Discovering devices..." = "Cihazlar keşfediliyor...";
-"error" = "Hata";
-"Error entering MUC!" = "Grup/Kanal'a girerken hata oluştu!";
-"Failed to create invitation for %@" = "%@ için davetiye oluşturulamadı";
-"Group/Channel is mention only" = "Grup/Kanal yalnızca etiket modunda";
-"I already have an account:" = "Zaten bir hesabım var:";
-"I need an account:" = "Bir hesaba ihtiyacım var:";
-"Import and trust OMEMO fingerprints from QR code" = "QR kodundan OMEMO parmaklarını içe aktarın ve güvenin";
-"Invitation for %@ created" = "%@ için davetiye oluşturuldu";
-"Messages are encrypted" = "Mesajlar şifrelidir";
-"Messages are NOT encrypted" = "Mesajlar şifreli DEĞİLDİR";
-"No pending requests" = "Bekleyen istek yok";
-"Please make sure you have entered a valid jid." = "Lütfen geçerli bir jid girdiğinizden emin olun.";
-"Reconnecting..." = "Yeniden bağlanıyor...";
-"Register a new account" = "Yeni bir hesap açın";
-"Rich Text" = "Zengin Metin";
-"Ringing..." = "Çalıyor...";
-"Select a background to display behind conversations with %@" = "@ ile konuşmaların arkasında görüntülenecek bir arka plan seçin";
-"Select a default background to display behind conversations." = "Konuşmaların arkasında görüntülemek için varsayılan bir arka plan seçin.";
-"Select background image" = "Arka plan resmi seçin";
-"Something went wrong while parsing the string..." = "Dizeyi ayrıştırırken bir şeyler yanlış gitti...";
-"Successfully joined MUC %@!" = "Grup/Kanal'a başarıyla katılındı %@!";
-"The jid you want to add should be in in the format user@domain.tld." = "Eklemek istediğiniz jid user@domain.tld biçiminde olmalıdır.";
-"The resource '%@' has the following capabilities:" = "'%@' kaynağı aşağıdaki yeteneklere sahiptir:";
-"This contact is already in the contact list of the selected account" = "Bu kişi zaten seçilen hesabın kişi listesinde yer alıyor";
-"This contact is already in your contact list" = "Bu kişi zaten kişi listenizde var";
-"This invitation will expire on %@" = "Bu davet %@ de sona erecektir";
-"Undefined error" = "Tanımlanmamış hata";
-"unsupported" = "Desteklenmiyor";
-"XMPP Capabilities" = "XMPP Yetenekleri";
-"You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "'%@' jid'ini aramaya çalışıyorsunuz, ancak bu kişiye farklı hesaplar kullanılarak ulaşılabilir. Lütfen giden aramayı yapmak istediğiniz hesabı seçin.";
+"Call ended: declined" = "Call ended: declined";
+"Call ended: hung up" = "Call ended: hung up";
