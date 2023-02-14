@@ -1,4 +1,4 @@
-"%02d:%02d (long press to abort)" = "%02d:%02d (long press to abort)";
+"%02d:%02d (long press to abort)" = "%02d:%02d (pulsación larga para abortar)";
 "%@" = "%@";
 "%@ (Pending Approval)" = "%@ (Pendiente de aprobación)";
 "%@ says:" = "%@ says:";
@@ -6,8 +6,8 @@
 "(autojoin)" = "(autojoin)";
 "[This message is OMEMO encrypted]" = "[Este mensaje está encriptado por OMEMO]";
 "A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
-"Abort" = "Abort";
-"Aborted recording audio" = "Aborted recording audio";
+"Abort" = "Abortar";
+"Aborted recording audio" = "Grabación de audio abortada";
 "About" = "A cerca de";
 "Accept" = "Aceptar";
 "Access message archives on the server." = "Access message archives on the server.";
@@ -171,7 +171,7 @@
 "Could not read captcha!" = "Could not read captcha!";
 "Could not register your username. Please check your code or change the username and try again." = "Could not register your username. Please check your code or change the username and try again.";
 "Could not request registration form. Please check your internet connection and try again." = "Could not request registration form. Please check your internet connection and try again.";
-"Could not send" = "Could not send";
+"Could not send" = "No se pudo enviar";
 "Could not synchronize" = "Could not synchronize";
 "Could not upload file" = "Could not upload file";
 "Creating invitation..." = "Creating invitation...";
@@ -257,7 +257,7 @@
 "Error entering MUC!" = "Error entering MUC!";
 "Error handling SASL challenge of server, disconnecting!" = "Error handling SASL challenge of server, disconnecting!";
 "Error registering push" = "Error registering push";
-"Error Removing Account" = "Error Removing Account";
+"Error Removing Account" = "Error borrando cuenta";
 "Error while decrypting" = "Error while decrypting";
 "Error while decrypting: iv.length != 12" = "Error while decrypting: iv.length != 12";
 "Error: %@" = "Error: %@";
@@ -446,11 +446,11 @@
 "Monal Push Server" = "Monal Push Server";
 "Monal uses OMEMO encryption to protect your conversations" = "Monal uses OMEMO encryption to protect your conversations";
 "Monal uses your location when you send a location message in a conversation." = "Monal uses your location when you send a location message in a conversation.";
-"Monal was not able to send your attachment!" = "Monal was not able to send your attachment!";
-"Monal was not able to send your attachment: %@" = "Monal was not able to send your attachment: %@";
+"Monal was not able to send your attachment!" = "¡Monal no fue capaz de enviar tu adjunto!";
+"Monal was not able to send your attachment: %@" = "Monal no fue capaz de enviar tu adjunto: %@";
 "More info?" = "More info?";
-"Muc got destroyed: %@" = "Muc got destroyed: %@";
-"Muc not available anymore: %@" = "Muc not available anymore: %@";
+"Muc got destroyed: %@" = "Se destruyó la sala: %@";
+"Muc not available anymore: %@" = "Sala no disponible: %@";
 "Mute" = "Mute";
 "My Encryption Keys" = "My Encryption Keys";
 "My Keys" = "My Keys";
@@ -535,7 +535,7 @@
 "Please open the app to retry" = "Please open the app to retry";
 "Please provide a valid XMPP server domain or select one." = "Please provide a valid XMPP server domain or select one.";
 "Please select a XMPP server or provide one." = "Please select a XMPP server or provide one.";
-"Please update!" = "Please update!";
+"Please update!" = "¡Por favor actualiza!";
 "Port" = "Port";
 "Port: %@, Direct TLS: %@, Priority: %@" = "Port: %1$@, Direct TLS: %2$@, Priority: %3$@";
 "Port: %@, Is Secure: %@, Prio: %@" = "Port: %1$@, Is Secure: %2$@, Prio: %3$@";
@@ -591,7 +591,7 @@
 "Registering account..." = "Registering account...";
 "Registration Error" = "Registration Error";
 "Remove %@ from contacts?" = "Remove %@ from contacts?";
-"Remove Account from this Device" = "Remove Account from this Device";
+"Remove Account from this Device" = "Eliminar la cuenta de este dispositivo";
 "Remove Contact" = "Remove Contact";
 "Remove Conversation" = "Remove Conversation";
 "Remove from contacts" = "Remove from contacts";
@@ -650,7 +650,7 @@
 /* directory for downloaded videos */
 "Sent Videos" = "Sent Videos";
 "Server" = "Servidor";
-"Server does not support account removal" = "Server does not support account removal";
+"Server does not support account removal" = "El servidor no soporta la eliminación de cuentas";
 "Server for domain '%@' not responding!" = "Server for domain '%@' not responding!";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Server implementation error: SASL2 tasks empty, account disabled!";
 "Server returned invalid xml!" = "Server returned invalid xml!";
@@ -697,10 +697,10 @@
 "Tell my contacts if my device received a message" = "Tell my contacts if my device received a message";
 "Tell my contacts when I'm typing" = "Tell my contacts when I'm typing";
 "Temporary failure to enter Group/Channel: %@" = "Temporary failure to enter Group/Channel: %@";
-"Temporary failure to enter groupchat: %@" = "Temporary failure to enter groupchat: %@";
+"Temporary failure to enter groupchat: %@" = "Fallo temporal al entrar en el grupo: %@";
 "Terms of use for %@" = "Terms of use for %@";
 "The account has been deleted" = "The account has been deleted";
-"The account has been removed" = "The account has been removed";
+"The account has been removed" = "La cuenta ha sido borrada";
 "The account has been saved" = "The account has been saved";
 "The chat history has been cleared" = "The chat history has been cleared";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later.";
@@ -827,7 +827,7 @@
 "Using server '%@' that was provided by the registration link you used." = "Using server '%@' that was provided by the registration link you used.";
 "Validate certificate" = "Validate certificate";
 "Version" = "Versión";
-"Version %@ (%@ %@ UTC)" = "Version %1$@ (%2$@ %3$@ UTC)";
+"Version %@ (%@ %@ UTC)" = "Versión %1$@ (%2$@ %3$@ UTC)";
 "Version %@ (%@)" = "Version %1$@ (%2$@)";
 "Version: " = "Version: ";
 "Very old app version" = "Very old app version";
