@@ -172,7 +172,7 @@
 "Could not register your username. Please check your code or change the username and try again." = "Could not register your username. Please check your code or change the username and try again.";
 "Could not request registration form. Please check your internet connection and try again." = "Could not request registration form. Please check your internet connection and try again.";
 "Could not send" = "No se pudo enviar";
-"Could not synchronize" = "Could not synchronize";
+"Could not synchronize" = "No se ha podido sincronizar";
 "Could not upload file" = "Could not upload file";
 "Creating invitation..." = "Creating invitation...";
 "Current Password" = "Current Password";
@@ -397,7 +397,7 @@
 "Loading" = "Loading";
 "Loading contact list" = "Loading contact list";
 "Loading Data" = "Loading Data";
-"Loading more Messages from Server" = "Loading more Messages from Server";
+"Loading more Messages from Server" = "Cargando más mensajes desde el servidor";
 "Loading omemo bundles" = "Loading omemo bundles";
 "Loading omemo bundles: %@ / %@" = "Loading omemo bundles: %1$@ / %2$@";
 "Loading omemo bundles: 0 / 0" = "Loading omemo bundles: 0 / 0";
@@ -456,7 +456,7 @@
 "My Keys" = "Mis claves";
 "My Name/Nickname" = "My Name/Nickname";
 "Name can't be empty" = "Name can't be empty";
-"Name: " = "Name: ";
+"Name: " = "Nombre: ";
 "Neither can see keys." = "Neither can see keys.";
 "Never archive" = "Never archive";
 "New Account" = "New Account";
@@ -495,7 +495,7 @@
 "Notifications" = "Notificaciones";
 "Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old expereince back." = "Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old expereince back.";
 "Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old experience back." = "Notificaciones han cambiado en iOS 13 por algunos cambios de iOS. Por ahora sólo verás algo diciendo que hay un nuevo mensaje pero no el texto ni quién lo envió. He decidido hacer esto para que tengas una mensajería fiable mientras trabajo en la actualización de Monal para recuperar la antigua experiencia.";
-"now" = "now";
+"now" = "ahora";
 "Offline Contacts" = "Offline Contacts";
 "Ok" = "Ok";
 "OK" = "OK";
@@ -564,7 +564,7 @@
 "Rebuilding is useful if you are experiencing problems. This will require an app restart to work." = "Rebuilding is useful if you are experiencing problems. This will require an app restart to work.";
 "Receive push notifications from via Apple even when disconnected. Vastly improves reliability." = "Receive push notifications from via Apple even when disconnected. Vastly improves reliability.";
 "Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "Receive push notifications via Apple even when disconnected. Vastly improves reliability.";
-"Received" = "Received";
+"Received" = "Recibido";
 /* directory for downloaded audios */
 "Received Audios" = "Received Audios";
 /* directory for downloaded files */
@@ -614,7 +614,7 @@
 "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "Saving changes to server" = "Saving changes to server";
 /* mac only string */
-"Scroll down to load more messages" = "Scroll down to load more messages";
+"Scroll down to load more messages" = "Bajar para cargar más mensajes";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections.";
 "Select a Background" = "Select a Background";
 "Select a background to display behind conversations" = "Select a background to display behind conversations";
@@ -633,9 +633,9 @@
 "Send Location" = "Enviar ubicación";
 "Send message received state" = "Send message received state";
 "Send Typing Notifications" = "Enviar notificaciones de escritura";
-"Sending..." = "Sending...";
+"Sending..." = "Enviando…";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Sends password in cleartext (only encrypted by TLS), not very secure";
-"Sent" = "Sent";
+"Sent" = "Enviado";
 "Sent a File 📁" = "Sent a File 📁";
 "Sent a Link 🔗" = "Enlace enviado 🔗";
 "Sent a location 📍" = "Ubicación enviada 📍";
@@ -668,8 +668,8 @@
 "Show shared Media and Files" = "Show shared Media and Files";
 "Show URL previews" = "Show URL previews";
 "Signing Up" = "Signing Up";
-"Skip" = "Skip";
-"Software Version" = "Software Version";
+"Skip" = "Saltar";
+"Software Version" = "Versión de Software";
 "Something went wrong while parsing the string..." = "Something went wrong while parsing the string...";
 "Sort By Status" = "Ordenar por estado";
 "Sounds" = "Sonidos";
@@ -735,12 +735,12 @@
 "These are the SASL2 methods your server supports." = "These are the SASL2 methods your server supports.";
 "These are the TLS versions supported by Monal, the one supported by your server will be green." = "These are the TLS versions supported by Monal, the one supported by your server will be green.";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "These are the TLS versions supported by Monal, the one used to connect to your server will be green.";
-"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it." = "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it.";
-"They can see your keys. You can't see theirs" = "They can see your keys. You can't see theirs";
+"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it." = "Estas son tus claves de cifrado. Cada dispositivo es un lugar diferente desde donde has conectado. Deberías confiar en una clave cuando la hayas verificado.";
+"They can see your keys. You can't see theirs" = "Pueden ver tus claves. No puedes ver las suyas.";
 "They will no longer see when you are online. They may not be able to access your encryption keys." = "They will no longer see when you are online. They may not be able to access your encryption keys.";
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "They will no longer see when you are online. They may not be able to send you encrypted messages.";
 "They will see when you are online. They will be able to send you encrypted messages." = "They will see when you are online. They will be able to send you encrypted messages.";
-"This account already exists in Monal." = "This account already exists in Monal.";
+"This account already exists in Monal." = "Esta cuenta ya existe en Monal";
 "This account already exists on this instance" = "This account already exists on this instance";
 "This account already exists on this instance." = "This account already exists on this instance.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Esta aplicación es demasiado antigua y puede contener fallos de seguridad así como puede dejar de funcionar repentinamente.¡Por favor actualiza!";
@@ -789,11 +789,11 @@
 /* Join GroupViewController - Join Group HUD */
 "Trying to join group" = "Trying to join group";
 "Type: %@" = "Type: %@";
-"Typing..." = "Typing...";
+"Typing..." = "Escribiendo...";
 "Unable to connect to server" = "Unable to connect to server";
 "Unable to connect to server!" = "Unable to connect to server!";
 "Unblock Contact" = "Unblock Contact";
-"Unblock Sender" = "Unblock Sender";
+"Unblock Sender" = "Desbloquear remitente";
 "Unclean appex shutown" = "Unclean appex shutown";
 "Undefined error" = "Undefined error";
 "Unexpected appex expiration" = "Unexpected appex expiration";
@@ -805,7 +805,7 @@
 "unknown" = "unknown";
 "Unknown authentication method" = "Unknown authentication method";
 "Unknown channel-binding type" = "Unknown channel-binding type";
-"Unknown Subcription" = "Unknown Subcription";
+"Unknown Subcription" = "Suscripción desconocida";
 "Unmute" = "Unmute";
 "Unnamed" = "Unnamed";
 "Unpin Chat" = "Unpin Chat";
@@ -816,22 +816,22 @@
 "Upload Error: your account got disconnected while requesting upload slot" = "Upload Error: your account got disconnected while requesting upload slot";
 "Upload files to the server to share with others." = "Upload files to the server to share with others.";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)";
-"Uploading" = "Uploading";
-"Uploading file to server" = "Uploading file to server";
+"Uploading" = "Cargando";
+"Uploading file to server" = "Cargando fichero en el servidor";
 "Use your existing account or make a new one on the many servers around the world" = "Use your existing account or make a new one on the many servers around the world";
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "user@example.org/resource";
 "Username missing" = "Username missing";
 "Uses TLS client certificates for authentication" = "Uses TLS client certificates for authentication";
-"Using Account: %@" = "Using Account: %@";
+"Using Account: %@" = "Usando cuenta: %@";
 "Using server '%@' that was provided by the registration link you used." = "Using server '%@' that was provided by the registration link you used.";
 "Validate certificate" = "Validate certificate";
 "Version" = "Versión";
 "Version %@ (%@ %@ UTC)" = "Versión %1$@ (%2$@ %3$@ UTC)";
-"Version %@ (%@)" = "Version %1$@ (%2$@)";
-"Version: " = "Version: ";
+"Version %@ (%@)" = "Versión %1$@ (%2$@)";
+"Version: " = "Versión: ";
 "Very old app version" = "Versión muy antigua de la aplicación";
-"View Images Received" = "View Images Received";
+"View Images Received" = "Ver imágenes recibidas";
 "Waiting for GPS signal" = "Waiting for GPS signal";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "We could not find a xmpp related QR-Code";
@@ -887,7 +887,7 @@
 "You are set up and connected." = "You are set up and connected.";
 "You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
 "You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
-"You can see their keys. They can't see yours" = "You can see their keys. They can't see yours";
+"You can see their keys. They can't see yours" = "Puedes ver sus claves. No pueden ver las tuyas.";
 "You did not grant Monal to access your location." = "You did not grant Monal to access your location.";
 "You got banned from: %@" = "You got banned from: %@";
 "You got kicked from: %@" = "You got kicked from: %@";
@@ -918,8 +918,8 @@
 "🎵 An Audiomessage" = "🎵 An Audiomessage";
 "📁 A File" = "📁 A File";
 "📄 A Document" = "📄 A Document";
-"📍 A Location" = "📍 A Location";
-"📷 An Image" = "📷 An Image";
-"🔗 A Link" = "🔗 A Link";
+"📍 A Location" = "📍 Una ubicación";
+"📷 An Image" = "📷 Una imagen";
+"🔗 A Link" = "🔗 Un enlace";
 "Call ended: declined" = "Call ended: declined";
 "Call ended: hung up" = "Call ended: hung up";
