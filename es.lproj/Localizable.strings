@@ -14,7 +14,7 @@
 /* ShareViewController: Account */
 "Account" = "Cuenta";
 "Account %@" = "Account %@";
-"Account (%@)" = "Account (%@)";
+"Account (%@)" = "Cuenta (%@)";
 "Account (new)" = "Account (new)";
 "Account already configured in Monal!" = "Account already configured in Monal!";
 "Account disabled" = "Account disabled";
@@ -49,7 +49,7 @@
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
 "Already present" = "Already present";
 "Already uploading this content, ignoring" = "Already uploading this content, ignoring";
-"Always archive" = "Always archive";
+"Always archive" = "Archivar siempre";
 "Always use direct TLS, not STARTTLS" = "Always use direct TLS, not STARTTLS";
 "App" = "App";
 "Apple Push Service" = "Apple Push Service";
@@ -60,7 +60,7 @@
 "Appserver error" = "Appserver error";
 "Appserver returned invalid data" = "Appserver returned invalid data";
 "Archive chat" = "Archive chat";
-"Archive only if the contact is in contact list" = "Archive only if the contact is in contact list";
+"Archive only if the contact is in contact list" = "Archivar solo si el contacto está en la lista de contactos";
 "Archive only if the contact is in roster" = "Archivar solo si el contacto está en el roster";
 "Audio recoder init fail." = "Audio recoder init fail.";
 "Audio recoder prepareToRecord fail." = "Audio recoder prepareToRecord fail.";
@@ -229,7 +229,7 @@
 "Duplicate Account!" = "Duplicate Account!";
 "Duplicate jid!" = "Duplicate jid!";
 /* Chat msg action */
-"Edit" = "Edit";
+"Edit" = "Editar";
 "Email Support" = "Correo de soporte";
 "Enable encryption by default for new chats" = "Enable encryption by default for new chats";
 "Enable OMEMO per default" = "Enable OMEMO per default";
@@ -357,7 +357,7 @@
 "Invalid Credentials" = "Credenciales no válidas";
 "Invalid Credentials!" = "Invalid Credentials!";
 /* QR-Code-Scanner: invalid format */
-"Invalid format" = "Invalid format";
+"Invalid format" = "Formato no válido";
 "Invalid Password!" = "Invalid Password!";
 "Invalid State" = "Invalid State";
 "Invalid username" = "Nombre de usuario no válido";
@@ -413,7 +413,7 @@
 "Login with a QR-Code" = "Login with a QR-Code";
 "Manual input" = "Manual input";
 "Mark all messages as read" = "Marcar todos los mensajes como leídos";
-"Mark as read" = "Mark as read";
+"Mark as read" = "Marcar como leído";
 "Maximum File Transfer Size" = "Maximum File Transfer Size";
 "Me" = "Me";
 "Message" = "Mensaje";
@@ -458,9 +458,9 @@
 "Name can't be empty" = "Name can't be empty";
 "Name: " = "Nombre: ";
 "Neither can see keys." = "Neither can see keys.";
-"Never archive" = "Never archive";
+"Never archive" = "No archivar nunca";
 "New Account" = "New Account";
-"New Message" = "New Message";
+"New Message" = "Nuevo mensaje";
 "New Password" = "Nueva contraseña";
 "Newest TLS version which is faster than TLS 1.2" = "Newest TLS version which is faster than TLS 1.2";
 "Nickname" = "Alias";
@@ -489,7 +489,7 @@
 "Notes to self" = "Notes to self";
 "Notes to self: %@" = "Notes to self: %@";
 "Nothing to see" = "No hay nada que ver";
-"Notification" = "Notification";
+"Notification" = "Notificación";
 "Notification Changes" = "Notification Changes";
 "Notification Settings" = "Ajustes de notificaciones";
 "Notifications" = "Notificaciones";
@@ -502,7 +502,7 @@
 "Okay" = "Okay";
 "Older, slower, but still secure TLS version" = "Older, slower, but still secure TLS version";
 "Online" = "Online";
-"Only contacts" = "Only contacts";
+"Only contacts" = "Solo contactos";
 "Only shareable for now" = "Only shareable for now";
 "Open" = "Open";
 "Open app to see more" = "Open app to see more";
@@ -612,7 +612,7 @@
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding";
 "SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
-"Saving changes to server" = "Saving changes to server";
+"Saving changes to server" = "Guardando cambios en el servidor";
 /* mac only string */
 "Scroll down to load more messages" = "Bajar para cargar más mensajes";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections.";
@@ -627,7 +627,7 @@
 "Select From Photos" = "Select From Photos";
 "Select Message Archive Management (MAM) Preferences " = "Select Message Archive Management (MAM) Preferences ";
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Select sounds that are played with new message notifications. Default is Xylophone.";
-"Send" = "Send";
+"Send" = "Enviar";
 "Send A Message" = "Enviar un mensaje";
 "Send Last Interaction Time" = "Send Last Interaction Time";
 "Send Location" = "Enviar ubicación";
@@ -658,7 +658,7 @@
 "Server Support Details" = "Server Support Details";
 "Server: %@" = "Servidor: %@";
 "Set a nickname" = "Establecer un alias";
-"Set a nickname for this contact" = "Set a nickname for this contact";
+"Set a nickname for this contact" = "Establecer un alias para este contacto";
 "Set up account later" = "Set up account later";
 /* Camera permissions missing warning */
 "Settings" = "Settings";
@@ -869,7 +869,7 @@
 "XMPP Capabilities" = "XMPP Capabilities";
 "XMPP Disco Info Error" = "XMPP Disco Info Error";
 "XMPP External Service Disco Error" = "XMPP External Service Disco Error";
-"XMPP ID" = "XMPP ID";
+"XMPP ID" = "ID XMPP";
 "XMPP ID missing" = "XMPP ID missing";
 "XMPP mam preferences error" = "XMPP mam preferences error";
 "XMPP protocol extension for communications blocking." = "XMPP protocol extension for communications blocking.";
@@ -904,7 +904,7 @@
 "You will receive subsequent messages from this conversation" = "You will receive subsequent messages from this conversation";
 "Your account must be enabled and connected, to be removed from the server!" = "¡Tu cuenta debe estar habilitada y conectada para ser eliminada del servidor!";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again.";
-"Your answer" = "Your answer";
+"Your answer" = "Tu respuesta";
 "Your contact may to not support Monal-Style calls. Your call might never reach its destination." = "Your contact may to not support Monal-Style calls. Your call might never reach its destination.";
 "Your entered XMPP ID is missing the domain" = "Your entered XMPP ID is missing the domain";
 "Your entered XMPP ID is missing the username" = "Your entered XMPP ID is missing the username";
