@@ -74,13 +74,13 @@
 "Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
 "Automatic media download" = "Automatic media download";
 "Automatically fetch previews of received links" = "Automatically fetch previews of received links";
-"Automatically send when you were online" = "Automatically send when you were online";
+"Automatically send when you were online" = "Enviar automáticamente cuando estés en línea";
 "Away" = "Ausente";
 "Backgrounds" = "Backgrounds";
 "Block" = "Block";
 "Block %@ from contacting you?" = "Block %@ from contacting you?";
 "Block Contact" = "Bloquear contacto";
-"Block Sender" = "Block Sender";
+"Block Sender" = "Bloquear remitente";
 "Blocked Users" = "Blocked Users";
 "Blocking is not supported by the server" = "Blocking is not supported by the server";
 "Blocking not supported" = "Blocking not supported";
@@ -108,14 +108,14 @@
 "Changing Password" = "Changing Password";
 "Channel subject:" = "Asunto del canal:";
 "Chat Backgrounds" = "Chat Backgrounds";
-"Chat for free with your friends, colleagues and family!" = "Chat for free with your friends, colleagues and family!";
+"Chat for free with your friends, colleagues and family!" = "¡Chatea gratis con tus amigos, colegas y familiares!";
 "Chat Logs" = "Chat Logs";
 "Check type and size on " = "Check type and size on ";
 /* addContact - checking HUD */
 "Checking" = "Checking";
 /* addContact - checking HUD */
 "Checking if the jid you provided is correct" = "Checking if the jid you provided is correct";
-"Choices Galore" = "Choices Galore";
+"Choices Galore" = "Opciones en abundancia";
 "Clear Chat History" = "Clear Chat History";
 "Clear chat history for this contact" = "Clear chat history for this contact";
 "Clear chat history of this channel" = "Clear chat history of this channel";
@@ -181,7 +181,7 @@
 "Debugging" = "Depuración";
 "Decline" = "Declinar";
 "Default Background" = "Default Background";
-"Default chat backgrounds are from the Ubuntu project." = "Default chat backgrounds are from the Ubuntu project.";
+"Default chat backgrounds are from the Ubuntu project." = "Los fondos de chat por defecto son del proyecto Ubuntu.";
 "Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified.";
 "Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription." = "Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription.";
 /* Chat msg action */
@@ -221,7 +221,7 @@
 "Download" = "Download";
 "Download error" = "Download error";
 "Draft:" = "Draft:";
-"Draft: %@" = "Draft: %@";
+"Draft: %@" = "Borrador: %@";
 /* hello bartycrouch */
 "Dummy string for triggering bartycrouch" = "Dummy string for triggering bartycrouch";
 "Dummy string to test SwiftUI translation support." = "Dummy string to test SwiftUI translation support.";
@@ -314,8 +314,8 @@
 "General File Transfer Settings" = "General File Transfer Settings";
 "Got it!" = "¡Conseguido!";
 "GPS" = "GPS";
-"Group Chat" = "Group Chat";
-"Group Chat Invite" = "Group Chat Invite";
+"Group Chat" = "Chat en grupo";
+"Group Chat Invite" = "Invitar a grupo";
 "Group Information" = "Información del grupo";
 "Group Members" = "Miembros del grupo";
 /* MLJoinGroupViewController - Group Password Form */
@@ -341,7 +341,7 @@
 "If Monal push is off, your device could not talk to %@ through xmpp. This should also never be off. It requires Apple push service to work first." = "If Monal push is off, your device could not talk to %@ through xmpp. This should also never be off. It requires Apple push service to work first.";
 "If Monal push is off, your device could not talk to push.monal.im. This should also never be off. It requires Apple push service to work first. " = "If Monal push is off, your device could not talk to push.monal.im. This should also never be off. It requires Apple push service to work first. ";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357.";
-"If you like Monal, please let others know and leave a review" = "If you like Monal, please let others know and leave a review";
+"If you like Monal, please let others know and leave a review" = "Si te gusta Monal, házselo saber a otros y deja una reseña";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone.";
 "If you want to use VOIP you will need to allow access in Settings-> Privacy-> Microphone." = "If you want to use VOIP you will need to allow access in Settings-> Privacy-> Microphone.";
 "Ignore" = "Ignorar";
@@ -402,7 +402,7 @@
 "Loading omemo bundles: %@ / %@" = "Loading omemo bundles: %1$@ / %2$@";
 "Loading omemo bundles: 0 / 0" = "Loading omemo bundles: 0 / 0";
 "Loading registration form" = "Loading registration form";
-"Location Access Needed" = "Location Access Needed";
+"Location Access Needed" = "Necesario acceso a ubicación";
 "Log" = "Log";
 "Log Chats" = "Log Chats";
 "Log Date" = "Log Date";
@@ -419,9 +419,9 @@
 "Message" = "Mensaje";
 "Message Archive Pref" = "Preferencias de archivado de mensajes";
 "Message Archive Preferences" = "Message Archive Preferences";
-"Message can't be empty" = "Message can't be empty";
+"Message can't be empty" = "El mensaje no puede estar vacío";
 "Message from %@" = "Mensaje de %@";
-"Message Preview" = "Message Preview";
+"Message Preview" = "Previsualización de mensaje";
 "Message was encrypted with '%@' which isn't supported by Monal" = "Message was encrypted with '%@' which isn't supported by Monal";
 "Message was encrypted with omemo and can't be decrypted anymore" = "Message was encrypted with omemo and can't be decrypted anymore";
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "Message was encrypted with OMEMO and can't be decrypted anymore";
@@ -455,9 +455,9 @@
 "My Encryption Keys" = "Mis claves de cifrado";
 "My Keys" = "Mis claves";
 "My Name/Nickname" = "My Name/Nickname";
-"Name can't be empty" = "Name can't be empty";
+"Name can't be empty" = "EL nombre no puede estar vacío";
 "Name: " = "Nombre: ";
-"Neither can see keys." = "Neither can see keys.";
+"Neither can see keys." = "Ninguno puede ver las claves.";
 "Never archive" = "No archivar nunca";
 "New Account" = "New Account";
 "New Message" = "Nuevo mensaje";
@@ -467,7 +467,7 @@
 "No" = "No";
 "No account available to handel 'xmpp:' URI!" = "No account available to handel 'xmpp:' URI!";
 "No accounts set up currently" = "No accounts set up currently";
-"No connected accounts" = "No connected accounts";
+"No connected accounts" = "No hay cuentas conectadas";
 "No Contact Selected" = "No Contact Selected";
 "No Empty Values" = "No Empty Values";
 "No Empty Values!" = "No Empty Values!";
@@ -490,7 +490,7 @@
 "Notes to self: %@" = "Notes to self: %@";
 "Nothing to see" = "No hay nada que ver";
 "Notification" = "Notificación";
-"Notification Changes" = "Notification Changes";
+"Notification Changes" = "Cambios de notificación";
 "Notification Settings" = "Ajustes de notificaciones";
 "Notifications" = "Notificaciones";
 "Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old expereince back." = "Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old expereince back.";
@@ -513,7 +513,7 @@
 "Own device key" = "Clave del propio dispositivo";
 "Participants" = "Participantes";
 "Password" = "Contraseña";
-"Password cannot be empty" = "Password cannot be empty";
+"Password cannot be empty" = "La contraseña no puede estar vacía";
 "Password missing" = "Password missing";
 "Passwords don't match!" = "¡Las contraseñas no coinciden!";
 "Permission Requested" = "Permission Requested";
@@ -523,9 +523,9 @@
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Please add a new account under settings first. If you already added your account you may need to enable it under settings";
 "Please Allow Audio Access" = "Please Allow Audio Access";
 "Please enter a password below before activating this account." = "Please enter a password below before activating this account.";
-"Please enter a password." = "Please enter a password.";
+"Please enter a password." = "Por favor entrar una contraseña.";
 "Please make sure at least one account has connected before trying to add a contact or channel." = "Please make sure at least one account has connected before trying to add a contact or channel.";
-"Please make sure at least one account has connected before trying to add a contact." = "Please make sure at least one account has connected before trying to add a contact.";
+"Please make sure at least one account has connected before trying to add a contact." = "Por favor, asegúrate que al menos has conectado una cuenta antes de intentar añadir un contacto.";
 "Please make sure at least one account has connected before trying to message someone." = "Please make sure at least one account has connected before trying to message someone.";
 "Please make sure you are connected before changing your password." = "Please make sure you are connected before changing your password.";
 "Please make sure you have entered a username and password." = "Please make sure you have entered a username and password.";
@@ -538,7 +538,7 @@
 "Please update!" = "¡Por favor actualiza!";
 "Port" = "Puerto";
 "Port: %@, Direct TLS: %@, Priority: %@" = "Port: %1$@, Direct TLS: %2$@, Priority: %3$@";
-"Port: %@, Is Secure: %@, Prio: %@" = "Port: %1$@, Is Secure: %2$@, Prio: %3$@";
+"Port: %@, Is Secure: %@, Prio: %@" = "Puerto: %1$@, Es Seguro: %2$@, Prio: %3$@";
 "Presence" = "Presencia";
 "Privacy" = "Privacidad";
 "Privacy Settings" = "Ajustes de privacidad";
@@ -555,14 +555,14 @@
 /* QR-Code-Scanner */
 "QR-Code video error" = "QR-Code video error";
 "QR-Code: Fingerprints found" = "QR-Code: Fingerprints found";
-"Quick Setup" = "Quick Setup";
+"Quick Setup" = "Ajuste rápido";
 /* Chat msg action */
 "Quote" = "Quote";
 "Rate Monal" = "Rate Monal";
 "Read" = "Read";
 "Rebuild Tokens" = "Rebuild Tokens";
 "Rebuilding is useful if you are experiencing problems. This will require an app restart to work." = "Rebuilding is useful if you are experiencing problems. This will require an app restart to work.";
-"Receive push notifications from via Apple even when disconnected. Vastly improves reliability." = "Receive push notifications from via Apple even when disconnected. Vastly improves reliability.";
+"Receive push notifications from via Apple even when disconnected. Vastly improves reliability." = "Recibir notificaciones automáticas de Apple incluso cuando esté desconectado. Mejora enormemente la fiabilidad.";
 "Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "Receive push notifications via Apple even when disconnected. Vastly improves reliability.";
 "Received" = "Recibido";
 /* directory for downloaded audios */
@@ -595,7 +595,7 @@
 "Remove Contact" = "Borrar contacto";
 "Remove Conversation" = "Remove Conversation";
 "Remove from contacts" = "Remove from contacts";
-"Reply" = "Reply";
+"Reply" = "Responder";
 "ReplyButton" = "ReplyButton";
 "Reset OMEMO session" = "Reset OMEMO session";
 "Resource" = "Recurso";
@@ -604,7 +604,7 @@
 /* Chat msg action */
 "Retract" = "Retract";
 "Retry" = "Reintenta";
-"Retry sending message?" = "Retry sending message?";
+"Retry sending message?" = "¿Reintentar envío de mensaje?";
 "Rich Text" = "Rich Text";
 "Ringing..." = "Ringing...";
 "Room" = "Room";
@@ -620,12 +620,12 @@
 "Select a background to display behind conversations" = "Select a background to display behind conversations";
 "Select a background to display behind conversations with %@" = "Select a background to display behind conversations with %@";
 "Select a default background to display behind conversations." = "Select a default background to display behind conversations.";
-"Select Action" = "Select Action";
+"Select Action" = "Seleccionar acción";
 "Select Background" = "Select Background";
 "Select background image" = "Select background image";
 "Select File" = "Seleccionar fichero";
 "Select From Photos" = "Select From Photos";
-"Select Message Archive Management (MAM) Preferences " = "Select Message Archive Management (MAM) Preferences ";
+"Select Message Archive Management (MAM) Preferences " = "Seleccionar preferencias de gestión de archivo de mensajes (MAM) ";
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Select sounds that are played with new message notifications. Default is Xylophone.";
 "Send" = "Enviar";
 "Send A Message" = "Enviar un mensaje";
@@ -673,15 +673,15 @@
 "Something went wrong while parsing the string..." = "Something went wrong while parsing the string...";
 "Sort By Status" = "Ordenar por estado";
 "Sounds" = "Sonidos";
-"Sounds courtesy Emrah" = "Sounds courtesy Emrah";
-"Spread The Word" = "Spread The Word";
+"Sounds courtesy Emrah" = "Sonido por cortesía de Emrah";
+"Spread The Word" = "Difundir la palabra";
 "SRV entry prohibits XMPP connection" = "SRV entry prohibits XMPP connection";
 "SRV entry prohibits XMPP connection for domain %@" = "SRV entry prohibits XMPP connection for domain %@";
 "SRV entry prohibits XMPP connection for server %@" = "SRV entry prohibits XMPP connection for server %@";
-"SSL Error: Certificate chain is invalid" = "SSL Error: Certificate chain is invalid";
-"SSL Error: Certificate expired" = "SSL Error: Certificate expired";
+"SSL Error: Certificate chain is invalid" = "Error SSL: Cadena de certificados no válida";
+"SSL Error: Certificate expired" = "Error SSL: Certificado caducado";
 "SSL Error: Host name mismatch" = "SSL Error: Host name mismatch";
-"SSL Error: Unknown root certificate" = "SSL Error: Unknown root certificate";
+"SSL Error: Unknown root certificate" = "Error SSL: Certificado raíz desconocido";
 "Start Using Monal" = "Empezar a usar Monal";
 "Status" = "Estado";
 "Status Message" = "Mensaje de estado";
@@ -710,7 +710,7 @@
 "The jid you want to add should be in in the format user@domain.tld." = "The jid you want to add should be in in the format user@domain.tld.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "The new contact will be added to your contacts list when the person you've added has approved your request.";
-"The password has been changed" = "The password has been changed";
+"The password has been changed" = "La contraseña ha sido cambiada";
 /* QR-Code-Scanner: jid scan wrong menu */
 "The qrcode contains a jid. Rescan the qrcode in the add user menu" = "The qrcode contains a jid. Rescan the qrcode in the add user menu";
 /* QR-Code-Scanner: account scan wrong menu */
@@ -727,7 +727,7 @@
 "There was an error decrypting this encrypted KEY TRANSPORT message (Signal error). To resolve this, try sending an encrypted message to this person." = "There was an error decrypting this encrypted KEY TRANSPORT message (Signal error). To resolve this, try sending an encrypted message to this person.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)";
-"There was an error uploading the file to the server" = "There was an error uploading the file to the server";
+"There was an error uploading the file to the server" = "Ha habido un error cargando el fichero en el servidor";
 "These are SRV resource records found for your domain" = "These are SRV resource records found for your domain";
 "These are SRV resource records found for your domain." = "These are SRV resource records found for your domain.";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer." = "These are the channel-binding types your server supports to detect attacks on the TLS layer.";
