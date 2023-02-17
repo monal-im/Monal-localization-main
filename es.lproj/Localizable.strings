@@ -573,11 +573,11 @@
 "Received Images" = "Imágenes recibidas";
 /* directory for downloaded videos */
 "Received Videos" = "Vídeos recibidos";
-"Recently Seen" = "Recently Seen";
+"Recently Seen" = "Visto recientemente";
 /* shareViewController: recipient */
 "Recipient" = "Recipient";
-"Recipient Name" = "Recipient Name";
-"Recipient name can't be empty" = "Recipient name can't be empty";
+"Recipient Name" = "Nombre de destinatario";
+"Recipient name can't be empty" = "El nombre de destinatario no puede estar vacío";
 "Recipients are usually in the format: username@domain.something" = "Los destinatarios suelen tener el formato: usuario@dominio.algo";
 "Recode Fail:" = "Recode Fail:";
 "Recode Success" = "Recode Success";
@@ -600,14 +600,14 @@
 "Reset OMEMO session" = "Reset OMEMO session";
 "Resource" = "Recurso";
 "Resources" = "Recursos";
-"Resume a stream when disconnected. Results in faster reconnect and saves battery life." = "Resume a stream when disconnected. Results in faster reconnect and saves battery life.";
+"Resume a stream when disconnected. Results in faster reconnect and saves battery life." = "Reanudar una transmisión cuando esté desconectado. Da como resultado una reconexión más rápida y ahorra batería.";
 /* Chat msg action */
 "Retract" = "Retract";
 "Retry" = "Reintenta";
 "Retry sending message?" = "¿Reintentar envío de mensaje?";
 "Rich Text" = "Rich Text";
 "Ringing..." = "Ringing...";
-"Room" = "Room";
+"Room" = "Sala";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Salted Challenge Response Authentication Mechanism using the given Hash Method";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding";
 "SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
@@ -667,7 +667,7 @@
 "Show Inline Images" = "Show Inline Images";
 "Show shared Media and Files" = "Show shared Media and Files";
 "Show URL previews" = "Show URL previews";
-"Signing Up" = "Signing Up";
+"Signing Up" = "Registrarse";
 "Skip" = "Saltar";
 "Software Version" = "Versión de Software";
 "Something went wrong while parsing the string..." = "Something went wrong while parsing the string...";
@@ -686,7 +686,7 @@
 "Status" = "Estado";
 "Status Message" = "Mensaje de estado";
 "Status message:" = "Mensaje de estado:";
-"Submit A Bug" = "Submit A Bug";
+"Submit A Bug" = "Enviar un error";
 "Success" = "Éxito";
 "Success!" = "¡Éxito!";
 "Successfully joined MUC %@!" = "Successfully joined MUC %@!";
@@ -738,7 +738,7 @@
 "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it." = "Estas son tus claves de cifrado. Cada dispositivo es un lugar diferente desde donde has conectado. Deberías confiar en una clave cuando la hayas verificado.";
 "They can see your keys. You can't see theirs" = "Pueden ver tus claves. No puedes ver las suyas";
 "They will no longer see when you are online. They may not be able to access your encryption keys." = "Ya no verán cuando estés en línea. Es posible que no puedan acceder a tus claves de cifrado.";
-"They will no longer see when you are online. They may not be able to send you encrypted messages." = "They will no longer see when you are online. They may not be able to send you encrypted messages.";
+"They will no longer see when you are online. They may not be able to send you encrypted messages." = "Ya no verán cuando estés en línea. Es posible que no puedan enviarte mensajes cifrados.";
 "They will see when you are online. They will be able to send you encrypted messages." = "Ellos verán cuando estés en línea. Podrán enviarte mensajes cifrados.";
 "This account already exists in Monal." = "Esta cuenta ya existe en Monal.";
 "This account already exists on this instance" = "This account already exists on this instance";
@@ -755,10 +755,10 @@
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key.";
 "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key";
 "This message failed to send (%@): %@" = "This message failed to send (%1$@): %2$@";
-"This message failed to send." = "This message failed to send.";
+"This message failed to send." = "Este mensaje no pudo ser enviado.";
 "This message got retracted" = "This message got retracted";
 "This sender will be able to send you messages" = "Este remitente podrá enviarte mensajes";
-"This sender will no longer be able to contact you" = "This sender will no longer be able to contact you";
+"This sender will no longer be able to contact you" = "Este remitente ya no podrá ponerse en contacto contigo";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it.";
 "This server does not have any SRV records in DNS." = "This server does not have any SRV records in DNS.";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer.";
@@ -806,7 +806,7 @@
 "Unknown authentication method" = "Unknown authentication method";
 "Unknown channel-binding type" = "Unknown channel-binding type";
 "Unknown Subcription" = "Suscripción desconocida";
-"Unmute" = "Unmute";
+"Unmute" = "No silenciado";
 "Unnamed" = "Sin nombre";
 "Unpin Chat" = "Unpin Chat";
 "Unread Messages Below" = "Mensajes no leídos a continuación";
@@ -893,7 +893,7 @@
 "You got kicked from: %@" = "You got kicked from: %@";
 "You have been invited to a conversation %@?" = "You have been invited to a conversation %@?";
 "You have not entered your XMPP ID yet" = "You have not entered your XMPP ID yet";
-"You have not received any images in this conversation." = "You have not received any images in this conversation.";
+"You have not received any images in this conversation." = "No has recibido ninguna imagen en esta conversación.";
 /* OmemoQrCodeView */
 "You have to many enabled devices on this account. You need to remove some devices" = "You have to many enabled devices on this account. You need to remove some devices";
 "You need friends for this ride" = "Necesitas amigas para este viaje";
