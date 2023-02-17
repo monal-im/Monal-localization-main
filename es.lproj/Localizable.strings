@@ -377,7 +377,7 @@
 "Keys of %@" = "Claves de %@";
 "Kicked, because muc is now members-only: %@" = "Kicked, because muc is now members-only: %@";
 "Kicked, because of system shutdown: %@" = "Kicked, because of system shutdown: %@";
-"Last seen: %@" = "Last seen: %@";
+"Last seen: %@" = "Última vez visto: %@";
 "Last seen: %d days ago" = "Visto la última vez: hace %d días";
 "Last seen: %d hours ago" = "Visto la última vez: hace %d horas";
 "Last seen: %d minutes ago" = "Visto la última vez: hace %d minutos";
@@ -471,7 +471,7 @@
 "No Contact Selected" = "Ningún contacto seleccionado";
 "No Empty Values" = "Sin valores vacíos";
 "No Empty Values!" = "No Empty Values!";
-"No enabled account found" = "No enabled account found";
+"No enabled account found" = "No se encontró ninguna cuenta habilitada";
 "No further error description" = "No further error description";
 "No GPS location received" = "No se ha recibido ninguna ubicación GPS";
 "No groups yet" = "Aún no hay grupos";
@@ -518,7 +518,7 @@
 "Passwords don't match!" = "¡Las contraseñas no coinciden!";
 "Permission Requested" = "Permiso solicitado";
 "Photos" = "Fotos";
-"Pin Chat" = "Pin Chat";
+"Pin Chat" = "Anclar chat";
 "Play Sounds" = "Reproducir sonidos";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Please add a new account under settings first. If you already added your account you may need to enable it under settings";
 "Please Allow Audio Access" = "Por favor, permite acceso de audio";
@@ -532,7 +532,7 @@
 "Please make sure you have entered a username, password." = "Por favor, asegúrate de haber ingresado un nombre de usuario, contraseña.";
 "Please make sure you have entered a valid jid." = "Please make sure you have entered a valid jid.";
 "Please make sure you have entered the same password in both password fields." = "Please make sure you have entered the same password in both password fields.";
-"Please open the app to retry" = "Please open the app to retry";
+"Please open the app to retry" = "Abre la aplicación para volver a intentarlo";
 "Please provide a valid XMPP server domain or select one." = "Please provide a valid XMPP server domain or select one.";
 "Please select a XMPP server or provide one." = "Please select a XMPP server or provide one.";
 "Please update!" = "¡Por favor actualiza!";
@@ -629,7 +629,7 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Selecciona los sonidos que se reproducen con las notificaciones de mensajes nuevos. El valor predeterminado es Xilófono.";
 "Send" = "Enviar";
 "Send A Message" = "Enviar un mensaje";
-"Send Last Interaction Time" = "Send Last Interaction Time";
+"Send Last Interaction Time" = "Enviar hora de la última interacción";
 "Send Location" = "Enviar ubicación";
 "Send message received state" = "Send message received state";
 "Send Typing Notifications" = "Enviar notificaciones de escritura";
@@ -663,8 +663,8 @@
 /* Camera permissions missing warning */
 "Settings" = "Settings";
 "Sharing failed" = "Sharing failed";
-"Show Inline Geo Location" = "Show Inline Geo Location";
-"Show Inline Images" = "Show Inline Images";
+"Show Inline Geo Location" = "Mostrar ubicación geográfica en línea";
+"Show Inline Images" = "Mostrar imágenes en línea";
 "Show shared Media and Files" = "Show shared Media and Files";
 "Show URL previews" = "Show URL previews";
 "Signing Up" = "Registrarse";
@@ -675,7 +675,7 @@
 "Sounds" = "Sonidos";
 "Sounds courtesy Emrah" = "Sonido por cortesía de Emrah";
 "Spread The Word" = "Difundir la palabra";
-"SRV entry prohibits XMPP connection" = "SRV entry prohibits XMPP connection";
+"SRV entry prohibits XMPP connection" = "La entrada SRV prohíbe la conexión XMPP";
 "SRV entry prohibits XMPP connection for domain %@" = "SRV entry prohibits XMPP connection for domain %@";
 "SRV entry prohibits XMPP connection for server %@" = "SRV entry prohibits XMPP connection for server %@";
 "SSL Error: Certificate chain is invalid" = "Error SSL: Cadena de certificados no válida";
@@ -721,17 +721,17 @@
 "The server does not support blocking (XEP-0191)." = "The server does not support blocking (XEP-0191).";
 "The user %@ (%@) wants to add you to his contact list" = "The user %1$@ (%2$@) wants to add you to his contact list";
 "The user %@ (%@) wants to add you to their contact list" = "The user %1$@ (%2$@) wants to add you to their contact list";
-"The username does not need to have an @ symbol. Please try again." = "The username does not need to have an @ symbol. Please try again.";
-"There is no configured email account. Please email info@monal-im.org ." = "There is no configured email account. Please email info@monal-im.org .";
+"The username does not need to have an @ symbol. Please try again." = "El nombre de usuario no necesita tener un símbolo @. Inténtalo de nuevo.";
+"There is no configured email account. Please email info@monal-im.org ." = "No hay una cuenta de correo configurada. Envía un correo electrónico a info@monal-im.org.";
 "There was a SASL error on the server." = "Hubo un error SASL en el servidor.";
 "There was an error decrypting this encrypted KEY TRANSPORT message (Signal error). To resolve this, try sending an encrypted message to this person." = "There was an error decrypting this encrypted KEY TRANSPORT message (Signal error). To resolve this, try sending an encrypted message to this person.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "Hubo un error al descifrar este mensaje cifrado (error de Signal). Para resolver esto, intenta enviar un mensaje cifrado a esta persona.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)";
 "There was an error uploading the file to the server" = "Ha habido un error cargando el fichero en el servidor";
-"These are SRV resource records found for your domain" = "These are SRV resource records found for your domain";
+"These are SRV resource records found for your domain" = "Estos son registros de recursos SRV encontrados para tu dominio";
 "These are SRV resource records found for your domain." = "These are SRV resource records found for your domain.";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer." = "These are the channel-binding types your server supports to detect attacks on the TLS layer.";
-"These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "These are the modern XMPP capabilities Monal detected on your server after you have logged in.";
+"These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "Estas son las capacidades XMPP que Monal detectó en tu servidor después de que haya iniciado sesión.";
 "These are the SASL2 methods your server supports." = "These are the SASL2 methods your server supports.";
 "These are the TLS versions supported by Monal, the one supported by your server will be green." = "These are the TLS versions supported by Monal, the one supported by your server will be green.";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "These are the TLS versions supported by Monal, the one used to connect to your server will be green.";
@@ -759,7 +759,7 @@
 "This message got retracted" = "This message got retracted";
 "This sender will be able to send you messages" = "Este remitente podrá enviarte mensajes";
 "This sender will no longer be able to contact you" = "Este remitente ya no podrá ponerse en contacto contigo";
-"This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it.";
+"This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Este servidor no parece admitir la carga de archivos HTTP (XEP-0363). Pide al administrador que lo habilite.";
 "This server does not have any SRV records in DNS." = "This server does not have any SRV records in DNS.";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer.";
 "This server does not support modern SASL2 authentication." = "This server does not support modern SASL2 authentication.";
@@ -790,7 +790,7 @@
 "Trying to join group" = "Intentando unirse al grupo";
 "Type: %@" = "Tipo: %@";
 "Typing..." = "Escribiendo...";
-"Unable to connect to server" = "Unable to connect to server";
+"Unable to connect to server" = "No se puede conectar al servidor";
 "Unable to connect to server!" = "Unable to connect to server!";
 "Unblock Contact" = "Desbloquear contacto";
 "Unblock Sender" = "Desbloquear remitente";
@@ -808,17 +808,17 @@
 "Unknown Subcription" = "Suscripción desconocida";
 "Unmute" = "No silenciado";
 "Unnamed" = "Sin nombre";
-"Unpin Chat" = "Unpin Chat";
+"Unpin Chat" = "Desanclar chat";
 "Unread Messages Below" = "Mensajes no leídos a continuación";
 "unsupported" = "unsupported";
 "Untrusted key" = "Untrusted key";
 "Upload Error" = "Upload Error";
 "Upload Error: your account got disconnected while requesting upload slot" = "Upload Error: your account got disconnected while requesting upload slot";
-"Upload files to the server to share with others." = "Upload files to the server to share with others.";
+"Upload files to the server to share with others." = "Sube archivos al servidor para compartirlos con otros.";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)";
 "Uploading" = "Cargando";
 "Uploading file to server" = "Cargando fichero en el servidor";
-"Use your existing account or make a new one on the many servers around the world" = "Use your existing account or make a new one on the many servers around the world";
+"Use your existing account or make a new one on the many servers around the world" = "Usa tu cuenta existente o crea una nueva en uno de los muchos servidores de todo el mundo";
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "usuario@ejemplo.org/recurso";
 "Username missing" = "Username missing";
@@ -837,16 +837,16 @@
 "We could not find a xmpp related QR-Code" = "We could not find a xmpp related QR-Code";
 "We don't support any task requested by the server, account disabled: %@" = "We don't support any task requested by the server, account disabled: %@";
 "We don't support the single task requested by the server, account disabled: %@" = "We don't support the single task requested by the server, account disabled: %@";
-"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet." = "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.";
+"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet." = "No pudimos conectar tu cuenta. Verifica tus credenciales y asegúrate de estar conectado a Internet.";
 "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@";
 "Weakest channel-binding type, not securing agains stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing agains stolen certs/keys, but detects wrongly issued certs.";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs.";
 "Welcome" = "Bienvenido";
 "Welcome to Monal" = "Bienvenidos a Monal";
-"When you have some favorite groups, they will be here for you." = "When you have some favorite groups, they will be here for you.";
-"When you start talking to someone,\n they will show up here." = "When you start talking to someone,\n they will show up here.";
-"Will logout and reconnect any connected accounts." = "Will logout and reconnect any connected accounts.";
-"Will make a HTTP HEAD call on all links" = "Will make a HTTP HEAD call on all links";
+"When you have some favorite groups, they will be here for you." = "Cuando tengas algunos grupos favoritos, estarán aquí para ti.";
+"When you start talking to someone,\n they will show up here." = "Cuando empieces a hablar con alguien,\n aparecerán aquí.";
+"Will logout and reconnect any connected accounts." = "Se cerrará la sesión y volverá a conectar cualquier cuenta conectada.";
+"Will make a HTTP HEAD call on all links" = "Hará una llamada HTTP HEAD en todos los enlaces";
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
 "Wrong menu" = "Wrong menu";
@@ -884,14 +884,14 @@
 "Yes" = "Sí";
 "Yes, deactivate encryption" = "Sí, desactivar cifrado";
 "You are not trapped in a garden. Talk to anyone else without anyone tracking you." = "No estás atrapado en un jardín. Habla con cualquier otra persona sin que nadie te rastree.";
-"You are set up and connected." = "You are set up and connected.";
+"You are set up and connected." = "Estás configurado y conectado.";
 "You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
 "You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
 "You can see their keys. They can't see yours" = "Puedes ver sus claves. No pueden ver las tuyas";
 "You did not grant Monal to access your location." = "You did not grant Monal to access your location.";
 "You got banned from: %@" = "You got banned from: %@";
 "You got kicked from: %@" = "You got kicked from: %@";
-"You have been invited to a conversation %@?" = "You have been invited to a conversation %@?";
+"You have been invited to a conversation %@?" = "¿Te han invitado a una conversación %@?";
 "You have not entered your XMPP ID yet" = "You have not entered your XMPP ID yet";
 "You have not received any images in this conversation." = "No has recibido ninguna imagen en esta conversación.";
 /* OmemoQrCodeView */
@@ -911,7 +911,7 @@
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!";
 "Your status" = "Tu estado";
-"Your XMPP account should be in in the format user@domain. For special configurations, use manual setup." = "Your XMPP account should be in in the format user@domain. For special configurations, use manual setup.";
+"Your XMPP account should be in in the format user@domain. For special configurations, use manual setup." = "Tu cuenta XMPP debe tener el formato usuario@dominio. Para configuraciones especiales, usa la configuración manual.";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup.";
 "🎥 A Video" = "🎥 Un vídeo";
 "🎵 A Audiomessage" = "🎵 Un mensaje de audio";
