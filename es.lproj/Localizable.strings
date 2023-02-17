@@ -3,7 +3,7 @@
 "%@ (Pending Approval)" = "%@ (Pendiente de aprobación)";
 "%@ says:" = "%@ says:";
 "%ld (This device)" = "%ld (Este dispositivo)";
-"(autojoin)" = "(autojoin)";
+"(autojoin)" = "(auto unión)";
 "[This message is OMEMO encrypted]" = "[Este mensaje está encriptado por OMEMO]";
 "A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
 "Abort" = "Abortar";
@@ -24,7 +24,7 @@
 "Account: %@" = "Cuenta: %@";
 "Accounts" = "Cuentas";
 "Accounts With Logs" = "Cuentas con trazas";
-"Active chat but no messages found in history for %@." = "Active chat but no messages found in history for %@.";
+"Active chat but no messages found in history for %@." = "Chat activo pero se han encontrado mensaje en el historial para %@.";
 "Add %@ to your contacts?" = "¿Añadir a %@ a tus contactos?";
 "Add Account" = "Add Account";
 "Add Account (advanced)" = "Add Account (advanced)";
@@ -68,7 +68,7 @@
 "Audio recoder record fail." = "Audio recoder record fail.";
 "Audio Recoder set active error: %@" = "Audio Recoder set active error: %@";
 "Audio Recoder set category error: %@" = "Audio Recoder set category error: %@";
-"Auto Join" = "Auto Join";
+"Auto Join" = "Auto Unión";
 "Auto-Download Media" = "Auto-Download Media";
 "Auto-Download Media Settings" = "Auto-Download Media Settings";
 "Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
@@ -78,7 +78,7 @@
 "Away" = "Ausente";
 "Backgrounds" = "Fondos";
 "Block" = "Block";
-"Block %@ from contacting you?" = "Block %@ from contacting you?";
+"Block %@ from contacting you?" = "¿Bloquear %@ para que no te contacte?";
 "Block Contact" = "Bloquear contacto";
 "Block Sender" = "Bloquear remitente";
 "Blocked Users" = "Blocked Users";
@@ -91,7 +91,7 @@
 "Call ended: answered with other device" = "Call ended: answered with other device";
 "Call ended: connection failed" = "Call ended: connection failed";
 "Call ended: remote busy" = "Call ended: remote busy";
-"call screen did disappear" = "call screen did disappear";
+"call screen did disappear" = "la pantalla de llamada desapareció";
 "Call was not answered" = "Call was not answered";
 "Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
 "Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
@@ -169,8 +169,8 @@
 "Could not load (all) old messages" = "Could not load (all) old messages";
 "Could not load (all) old messages from your server archive. Please try again later. %@" = "Could not load (all) old messages from your server archive. Please try again later. %@";
 "Could not read captcha!" = "Could not read captcha!";
-"Could not register your username. Please check your code or change the username and try again." = "Could not register your username. Please check your code or change the username and try again.";
-"Could not request registration form. Please check your internet connection and try again." = "Could not request registration form. Please check your internet connection and try again.";
+"Could not register your username. Please check your code or change the username and try again." = "No se pudo registrar tu nombre de usuario. Verifica tu código o cambia el nombre de usuario y vuelve a intentarlo.";
+"Could not request registration form. Please check your internet connection and try again." = "No se pudo solicitar el formulario de registro. Comprueba tu conexión a Internet e inténtalo de nuevo.";
 "Could not send" = "No se pudo enviar";
 "Could not synchronize" = "No se ha podido sincronizar";
 "Could not upload file" = "Could not upload file";
@@ -200,7 +200,7 @@
 "Disable encryption?" = "¿Deshabilitar cifrado?";
 "Disconnected" = "Desconectado";
 "Discovering devices..." = "Descubriendo dispositivos...";
-"Display" = "Display";
+"Display" = "Pantalla";
 "Display Name" = "Display Name";
 "Display Name And Message" = "Display Name And Message";
 "Display Only Name" = "Display Only Name";
@@ -234,7 +234,7 @@
 "Enable encryption by default for new chats" = "Enable encryption by default for new chats";
 "Enable OMEMO per default" = "Habilitar OMEMO por defecto";
 "Enabled" = "Habilitado";
-"Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)";
+"Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "El mensaje cifrado se envió en un formato anterior que Monal no puede descifrar. Pídeles que actualicen su cliente. (Error de GCM)";
 "Encrypted session to this device broken beyond repair." = "Encrypted session to this device broken beyond repair.";
 "Encryption Keys" = "Claves de cifrado";
 "Encryption Keys (OMEMO)" = "Encryption Keys (OMEMO)";
@@ -242,7 +242,7 @@
 "Enter the jid that you want to block" = "Enter the jid that you want to block";
 "Enter you password here" = "Enter you password here";
 "Enter you XMPP ID here" = "Enter you XMPP ID here";
-"Enter your new password. Passwords may not be empty. They may also be governed by server or company policies." = "Enter your new password. Passwords may not be empty. They may also be governed by server or company policies.";
+"Enter your new password. Passwords may not be empty. They may also be governed by server or company policies." = "Introduce tu nueva contraseña. Las contraseñas no pueden estar vacías. También pueden regirse por las políticas del servidor o de la empresa.";
 "Enter your password here" = "Enter your password here";
 "Enter your XMPP ID here" = "Enter your XMPP ID here";
 "Entry 1" = "Entry 1";
@@ -350,7 +350,7 @@
 "Image Quality: %.2f" = "Image Quality: %.2f";
 "Images" = "Images";
 "Import and trust OMEMO fingerprints from QR code" = "Import and trust OMEMO fingerprints from QR code";
-"Incoming audio call to %@ from %@ " = "Incoming audio call to %1$@ from %2$@ ";
+"Incoming audio call to %@ from %@ " = "Llamada entrante de audio a %1$@ desde %2$@ ";
 "Incoming Call" = "Llamada entrante";
 "Indicate when a particular device is active or inactive. Saves battery." = "Indicar cuándo un dispositivo en particular está activo o inactivo. Ahorra batería.";
 "Input is not a valid jid" = "Input is not a valid jid";
@@ -430,7 +430,7 @@
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u.";
 "Messages are encrypted" = "Los mensajes están cifrados";
 "Messages are NOT encrypted" = "Los mensajes NO están cifrados";
-"Messages never archived by default." = "Messages never archived by default.";
+"Messages never archived by default." = "Mensajes nunca archivados por defecto.";
 "Method: %@" = "Método: %@";
 "Migration Assistant" = "Migration Assistant";
 "Missing Call Support" = "Missing Call Support";
@@ -438,8 +438,8 @@
 "Monal" = "Monal";
 "Monal  uses your location when you send a location message in a conversation." = "Monal  uses your location when you send a location message in a conversation.";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!";
-"Monal did not received a gps location. Please try again later." = "Monal did not received a gps location. Please try again later.";
-"Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal does not have access to your location. Please update the location access in your device's Privacy Settings.";
+"Monal did not received a gps location. Please try again later." = "Monal no recibió una ubicación gps. Por favor, inténtalo de nuevo más tarde.";
+"Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal no tiene acceso a tu ubicación. Actualiza el acceso a la ubicación en la configuración de privacidad de tu dispositivo.";
 "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key.";
 /* Camera permissions missing warning */
 "Monal is not allowed to access the camera" = "Monal is not allowed to access the camera";
@@ -473,7 +473,7 @@
 "No Empty Values!" = "No Empty Values!";
 "No enabled account found" = "No enabled account found";
 "No further error description" = "No further error description";
-"No GPS location received" = "No GPS location received";
+"No GPS location received" = "No se ha recibido ninguna ubicación GPS";
 "No groups yet" = "No groups yet";
 "No OMEMO keys found" = "No se han encontrado claves OMEMO";
 "No one is here" = "No hay nadie aquí";
@@ -501,7 +501,7 @@
 "OK" = "OK";
 "Okay" = "Okay";
 "Older, slower, but still secure TLS version" = "Older, slower, but still secure TLS version";
-"Online" = "Online";
+"Online" = "Conectado";
 "Only contacts" = "Solo contactos";
 "Only shareable for now" = "Only shareable for now";
 "Open" = "Open";
@@ -516,20 +516,20 @@
 "Password cannot be empty" = "La contraseña no puede estar vacía";
 "Password missing" = "Password missing";
 "Passwords don't match!" = "¡Las contraseñas no coinciden!";
-"Permission Requested" = "Permission Requested";
+"Permission Requested" = "Permiso solicitado";
 "Photos" = "Fotos";
 "Pin Chat" = "Pin Chat";
 "Play Sounds" = "Reproducir sonidos";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Please add a new account under settings first. If you already added your account you may need to enable it under settings";
-"Please Allow Audio Access" = "Please Allow Audio Access";
+"Please Allow Audio Access" = "Por favor, permite acceso de audio";
 "Please enter a password below before activating this account." = "Please enter a password below before activating this account.";
 "Please enter a password." = "Por favor entrar una contraseña.";
 "Please make sure at least one account has connected before trying to add a contact or channel." = "Please make sure at least one account has connected before trying to add a contact or channel.";
 "Please make sure at least one account has connected before trying to add a contact." = "Por favor, asegúrate que al menos has conectado una cuenta antes de intentar añadir un contacto.";
-"Please make sure at least one account has connected before trying to message someone." = "Please make sure at least one account has connected before trying to message someone.";
-"Please make sure you are connected before changing your password." = "Please make sure you are connected before changing your password.";
+"Please make sure at least one account has connected before trying to message someone." = "Por favor, Asegúrate de que al menos una cuenta se haya conectado antes de intentar enviar un mensaje a alguien.";
+"Please make sure you are connected before changing your password." = "Por favor, asegúrate de estar conectado antes de cambiar tu contraseña.";
 "Please make sure you have entered a username and password." = "Please make sure you have entered a username and password.";
-"Please make sure you have entered a username, password." = "Please make sure you have entered a username, password.";
+"Please make sure you have entered a username, password." = "Por favor, asegúrate de haber ingresado un nombre de usuario, contraseña.";
 "Please make sure you have entered a valid jid." = "Please make sure you have entered a valid jid.";
 "Please make sure you have entered the same password in both password fields." = "Please make sure you have entered the same password in both password fields.";
 "Please open the app to retry" = "Please open the app to retry";
@@ -578,7 +578,7 @@
 "Recipient" = "Recipient";
 "Recipient Name" = "Recipient Name";
 "Recipient name can't be empty" = "Recipient name can't be empty";
-"Recipients are usually in the format: username@domain.something" = "Recipients are usually in the format: username@domain.something";
+"Recipients are usually in the format: username@domain.something" = "Los destinatarios suelen tener el formato: usuario@dominio.algo";
 "Recode Fail:" = "Recode Fail:";
 "Recode Success" = "Recode Success";
 "Reconnecting" = "Reconectando";
@@ -616,17 +616,17 @@
 /* mac only string */
 "Scroll down to load more messages" = "Bajar para cargar más mensajes";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections.";
-"Select a Background" = "Select a Background";
-"Select a background to display behind conversations" = "Select a background to display behind conversations";
+"Select a Background" = "Seleccionar un fondo";
+"Select a background to display behind conversations" = "Seleccionar un fondo para mostrar detrás de las conversaciones";
 "Select a background to display behind conversations with %@" = "Select a background to display behind conversations with %@";
 "Select a default background to display behind conversations." = "Select a default background to display behind conversations.";
 "Select Action" = "Seleccionar acción";
-"Select Background" = "Select Background";
+"Select Background" = "Seleccionar fondo";
 "Select background image" = "Select background image";
 "Select File" = "Seleccionar fichero";
-"Select From Photos" = "Select From Photos";
+"Select From Photos" = "Seleccionar desde las Fotos";
 "Select Message Archive Management (MAM) Preferences " = "Seleccionar preferencias de gestión de archivo de mensajes (MAM) ";
-"Select sounds that are played with new message notifications. Default is Xylophone." = "Select sounds that are played with new message notifications. Default is Xylophone.";
+"Select sounds that are played with new message notifications. Default is Xylophone." = "Selecciona los sonidos que se reproducen con las notificaciones de mensajes nuevos. El valor predeterminado es Xilófono.";
 "Send" = "Enviar";
 "Send A Message" = "Enviar un mensaje";
 "Send Last Interaction Time" = "Send Last Interaction Time";
@@ -680,7 +680,7 @@
 "SRV entry prohibits XMPP connection for server %@" = "SRV entry prohibits XMPP connection for server %@";
 "SSL Error: Certificate chain is invalid" = "Error SSL: Cadena de certificados no válida";
 "SSL Error: Certificate expired" = "Error SSL: Certificado caducado";
-"SSL Error: Host name mismatch" = "SSL Error: Host name mismatch";
+"SSL Error: Host name mismatch" = "Error SSL: No coincide el nombre de host";
 "SSL Error: Unknown root certificate" = "Error SSL: Certificado raíz desconocido";
 "Start Using Monal" = "Empezar a usar Monal";
 "Status" = "Estado";
@@ -709,7 +709,7 @@
 "The jid has to be in the form 'user@domain.tld' to be correct." = "The jid has to be in the form 'user@domain.tld' to be correct.";
 "The jid you want to add should be in in the format user@domain.tld." = "The jid you want to add should be in in the format user@domain.tld.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt.";
-"The new contact will be added to your contacts list when the person you've added has approved your request." = "The new contact will be added to your contacts list when the person you've added has approved your request.";
+"The new contact will be added to your contacts list when the person you've added has approved your request." = "El nuevo contacto se agregará a tu lista de contactos cuando la persona que hayas agregado haya aprobado tu solicitud.";
 "The password has been changed" = "La contraseña ha sido cambiada";
 /* QR-Code-Scanner: jid scan wrong menu */
 "The qrcode contains a jid. Rescan the qrcode in the add user menu" = "The qrcode contains a jid. Rescan the qrcode in the add user menu";
@@ -725,7 +725,7 @@
 "There is no configured email account. Please email info@monal-im.org ." = "There is no configured email account. Please email info@monal-im.org .";
 "There was a SASL error on the server." = "There was a SASL error on the server.";
 "There was an error decrypting this encrypted KEY TRANSPORT message (Signal error). To resolve this, try sending an encrypted message to this person." = "There was an error decrypting this encrypted KEY TRANSPORT message (Signal error). To resolve this, try sending an encrypted message to this person.";
-"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person.";
+"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "Hubo un error al descifrar este mensaje cifrado (error de Signal). Para resolver esto, intenta enviar un mensaje cifrado a esta persona.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)";
 "There was an error uploading the file to the server" = "Ha habido un error cargando el fichero en el servidor";
 "These are SRV resource records found for your domain" = "These are SRV resource records found for your domain";
@@ -737,14 +737,14 @@
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "These are the TLS versions supported by Monal, the one used to connect to your server will be green.";
 "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it." = "Estas son tus claves de cifrado. Cada dispositivo es un lugar diferente desde donde has conectado. Deberías confiar en una clave cuando la hayas verificado.";
 "They can see your keys. You can't see theirs" = "Pueden ver tus claves. No puedes ver las suyas";
-"They will no longer see when you are online. They may not be able to access your encryption keys." = "They will no longer see when you are online. They may not be able to access your encryption keys.";
+"They will no longer see when you are online. They may not be able to access your encryption keys." = "Ya no verán cuando estés en línea. Es posible que no puedan acceder a tus claves de cifrado.";
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "They will no longer see when you are online. They may not be able to send you encrypted messages.";
-"They will see when you are online. They will be able to send you encrypted messages." = "They will see when you are online. They will be able to send you encrypted messages.";
+"They will see when you are online. They will be able to send you encrypted messages." = "Ellos verán cuando estés en línea. Podrán enviarte mensajes cifrados.";
 "This account already exists in Monal." = "Esta cuenta ya existe en Monal.";
 "This account already exists on this instance" = "This account already exists on this instance";
 "This account already exists on this instance." = "This account already exists on this instance.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Esta aplicación es demasiado antigua y puede contener fallos de seguridad así como puede dejar de funcionar repentinamente.¡Por favor actualiza!";
-"This contact does not appear to have any devices that support encryption." = "This contact does not appear to have any devices that support encryption.";
+"This contact does not appear to have any devices that support encryption." = "Este contacto no parece tener ningún dispositivo compatible con el cifrado.";
 "This contact is already in the contact list of the selected account" = "This contact is already in the contact list of the selected account";
 "This contact is already in your contact list" = "Este contacto ya está en tu lista de contactos";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "This contact may not support OMEMO encrypted messages. Please try again in a few seconds.";
