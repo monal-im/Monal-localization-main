@@ -60,7 +60,7 @@
 "Approve new contact" = "Aprobar nuevo contacto";
 "Appserver error" = "Appserver error";
 "Appserver returned invalid data" = "Appserver returned invalid data";
-"Archive chat" = "Archive chat";
+"Archive chat" = "Archivar chat";
 "Archive only if the contact is in contact list" = "Archivar solo si el contacto está en la lista de contactos";
 "Archive only if the contact is in roster" = "Archivar solo si el contacto está en el roster";
 "Audio recoder init fail." = "Audio recoder init fail.";
@@ -84,7 +84,7 @@
 "Block Sender" = "Bloquear remitente";
 "Blocked Users" = "Usuarios bloqueados";
 "Blocking is not supported by the server" = "Blocking is not supported by the server";
-"Blocking not supported" = "Blocking not supported";
+"Blocking not supported" = "Bloqueo no soportado";
 "Blocking/Unblocking Not Supported" = "Blocking/Unblocking Not Supported";
 "BODY" = "BODY";
 "Call ended for an unknown reason" = "Call ended for an unknown reason";
@@ -108,7 +108,7 @@
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Cannot share something with disabled/deleted account, destination: %1$@, internal account id: %2$@";
 "Change Contact Background" = "Change Contact Background";
 "Change Password" = "Cambiar la contraseña";
-"Changing Password" = "Changing Password";
+"Changing Password" = "Cambiando contraseña";
 "Channel subject:" = "Asunto del canal:";
 "Chat Backgrounds" = "Fondos de chat";
 "Chat for free with your friends, colleagues and family!" = "¡Chatea gratis con tus amigos, colegas y familiares!";
@@ -129,7 +129,7 @@
 "Clear omemo session" = "Borrar sesión omemo";
 "Clear OMEMO session" = "Clear OMEMO session";
 /* DEBUG - XMPPEdit */
-"Clear own omemo session" = "Clear own omemo session";
+"Clear own omemo session" = "Borrar sesión propia de omemo";
 "Clear scanned contact" = "Clear scanned contact";
 "Close" = "Cerrar";
 "Connected" = "Conectado";
@@ -167,7 +167,7 @@
 /* QR-Code-Scanner */
 "Could not get default capture device" = "Could not get default capture device";
 /* QR-Code-Scanner */
-"Could not init video session" = "Could not init video session";
+"Could not init video session" = "No se pudo iniciar la sesión de vídeo";
 "Could not join group/channel '%@': timeout" = "Could not join group/channel '%@': timeout";
 "Could not load (all) old messages" = "Could not load (all) old messages";
 "Could not load (all) old messages from your server archive. Please try again later. %@" = "Could not load (all) old messages from your server archive. Please try again later. %@";
@@ -176,7 +176,7 @@
 "Could not request registration form. Please check your internet connection and try again." = "No se pudo solicitar el formulario de registro. Comprueba tu conexión a Internet e inténtalo de nuevo.";
 "Could not send" = "No se pudo enviar";
 "Could not synchronize" = "No se ha podido sincronizar";
-"Could not upload file" = "Could not upload file";
+"Could not upload file" = "No se pudo cargar el fichero";
 "Creating invitation..." = "Creando invitación...";
 "Current Password" = "Contraseña actual";
 "Currently Online" = "Currently Online";
@@ -192,7 +192,7 @@
 "Delete Account" = "Borrar cuenta";
 "Delete Account on Server" = "Delete Account on Server";
 "Delete Key" = "Delete Key";
-"Delete Locally" = "Delete Locally";
+"Delete Locally" = "Borrar localmente";
 "Deny new contact" = "Denegar nuevo contacto";
 "Device ID: " = "Device ID: ";
 "DeviceID: " = "DeviceID: ";
@@ -217,7 +217,7 @@
 "Do you want to trust the scanned fingerprints from" = "Do you want to trust the scanned fingerprints from";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?";
 "Doing a lot of work..." = "Haciendo un montón de cosas...";
-"Domain missing" = "Domain missing";
+"Domain missing" = "falta el dominio";
 "Don't trust Key" = "Don't trust Key";
 "Done" = "Hecho";
 "Dont' trust Key" = "Dont' trust Key";
@@ -259,7 +259,7 @@
 "Error entering groupchat" = "Error entering groupchat";
 "Error entering MUC!" = "Error entering MUC!";
 "Error handling SASL challenge of server, disconnecting!" = "Error handling SASL challenge of server, disconnecting!";
-"Error registering push" = "Error registering push";
+"Error registering push" = "Error registrando push";
 "Error Removing Account" = "Error borrando cuenta";
 "Error while decrypting" = "Error mientras se descifraba";
 "Error while decrypting: iv.length != 12" = "Error while decrypting: iv.length != 12";
@@ -281,7 +281,7 @@
 "Failed to delete own nickname" = "Failed to delete own nickname";
 "Failed to download file" = "Failed to download file";
 "Failed to enable carbons for account %@" = "Failed to enable carbons for account %@";
-"Failed to encrypt file" = "Failed to encrypt file";
+"Failed to encrypt file" = "Fallo al cifrar fichero";
 "Failed to enter Group/Channel %@" = "Failed to enter Group/Channel %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Failed to enter Group/Channel %@: This is not a Group/Channel!";
 "Failed to enter groupchat %@" = "Failed to enter groupchat %@";
@@ -323,7 +323,7 @@
 "Group Members" = "Miembros del grupo";
 /* MLJoinGroupViewController - Group Password Form */
 "Group Password" = "Group Password";
-"Group requires a password" = "Group requires a password";
+"Group requires a password" = "El grupo requiere una contraseña";
 "Group subject:" = "Asunto del grupo:";
 "Group/Channel error" = "Group/Channel error";
 "Group/Channel error in %@" = "Group/Channel error in %@";
@@ -336,7 +336,7 @@
 "groupJoin Group" = "groupJoin Group";
 "Hardcoded Hostname" = "Nombre de host grabado";
 "Hide Chat" = "Ocultar Chat";
-"Hint" = "Hint";
+"Hint" = "Indicio";
 "I already have an account:" = "Ya tengo una cuenta:";
 "I need an account:" = "Necesito una cuenta:";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission.  Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'. " = "Si Monal no puede mostrar notificaciones, no verás alertas cuando llegue un mensaje. Esto sucede si tocaste 'Rechazar' cuando Monal pidió permiso por primera vez. Arréglalo yendo a Configuración de iOS -> Monal -> Notificaciones y selecciona 'Permitir notificaciones'. ";
@@ -348,7 +348,7 @@
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone.";
 "If you want to use VOIP you will need to allow access in Settings-> Privacy-> Microphone." = "Si quieres utilizar VOIP, deberás permitir el acceso en Configuración-> Privacidad-> Micrófono.";
 "Ignore" = "Ignorar";
-"Image encryption error" = "Image encryption error";
+"Image encryption error" = "Error de cifrado de imagen";
 "Image Quality" = "Calidad de imagen";
 "Image Quality: %.2f" = "Calidad de imagen: %.2f";
 "Images" = "Imágenes";
@@ -375,7 +375,7 @@
 "Join Channel" = "Join Channel";
 "Join Group" = "Join Group";
 /* Join GroupViewController - HUD */
-"Joining Group" = "Joining Group";
+"Joining Group" = "Uniéndose al grupo";
 "Just seen" = "Recién visto";
 "Keys of %@" = "Claves de %@";
 "Kicked, because muc is now members-only: %@" = "Kicked, because muc is now members-only: %@";
@@ -399,10 +399,10 @@
 "Load over WiFi upto: %.fMB" = "Load over WiFi upto: %.fMB";
 "Loading" = "Cargando";
 "Loading contact list" = "Loading contact list";
-"Loading Data" = "Loading Data";
+"Loading Data" = "Cargando datos";
 "Loading more Messages from Server" = "Cargando más mensajes desde el servidor";
-"Loading omemo bundles" = "Loading omemo bundles";
-"Loading omemo bundles: %@ / %@" = "Loading omemo bundles: %1$@ / %2$@";
+"Loading omemo bundles" = "Cargando paquetes omemo";
+"Loading omemo bundles: %@ / %@" = "Cargando paquetes omemo: %1$@ / %2$@";
 "Loading omemo bundles: 0 / 0" = "Loading omemo bundles: 0 / 0";
 "Loading registration form" = "Loading registration form";
 "Location Access Needed" = "Necesario acceso a ubicación";
@@ -426,7 +426,7 @@
 "Message from %@" = "Mensaje de %@";
 "Message Preview" = "Previsualización de mensaje";
 "Message was encrypted with '%@' which isn't supported by Monal" = "Message was encrypted with '%@' which isn't supported by Monal";
-"Message was encrypted with omemo and can't be decrypted anymore" = "Message was encrypted with omemo and can't be decrypted anymore";
+"Message was encrypted with omemo and can't be decrypted anymore" = "El mensaje se cifró con omemo y ya no se puede descifrar";
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "Message was encrypted with OMEMO and can't be decrypted anymore";
 "Message was encrypted with OMEMO but could not be decrypted" = "Message was encrypted with OMEMO but could not be decrypted";
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %d and that they have you as a contact." = "El mensaje no fue cifrado para este dispositivo. Asegúrate de que el remitente confíe en el ID de dispositivo %d y que lo tengas como contacto.";
@@ -457,7 +457,7 @@
 "Mute" = "Silenciar";
 "My Encryption Keys" = "Mis claves de cifrado";
 "My Keys" = "Mis claves";
-"My Name/Nickname" = "My Name/Nickname";
+"My Name/Nickname" = "Mi nombre/alias";
 "Name can't be empty" = "EL nombre no puede estar vacío";
 "Name: " = "Nombre: ";
 "Neither can see keys." = "Ninguno puede ver las claves.";
@@ -475,13 +475,13 @@
 "No Empty Values" = "Sin valores vacíos";
 "No Empty Values!" = "No Empty Values!";
 "No enabled account found" = "No se encontró ninguna cuenta habilitada";
-"No further error description" = "No further error description";
+"No further error description" = "No hay más descripción del error";
 "No GPS location received" = "No se ha recibido ninguna ubicación GPS";
 "No groups yet" = "Aún no hay grupos";
 "No OMEMO keys found" = "No se han encontrado claves OMEMO";
 "No one is here" = "No hay nadie aquí";
 "No pending requests" = "No hay peticiones pendientes";
-"No search result." = "No search result.";
+"No search result." = "Sin resultados de búsqueda.";
 "No supported auth mechanism found, disabling account!" = "No supported auth mechanism found, disabling account!";
 "No supported auth mechanism found, disconnecting!" = "No supported auth mechanism found, disconnecting!";
 "no supported auth mechanism, disconnecting!" = "no supported auth mechanism, disconnecting!";
@@ -508,7 +508,7 @@
 "Only contacts" = "Solo contactos";
 "Only shareable for now" = "Only shareable for now";
 "Open" = "Abrir";
-"Open app to see more" = "Open app to see more";
+"Open app to see more" = "Abrir la aplicación para ver más";
 "Open Source" = "Open Source";
 "Optional Hardcoded Hostname" = "Optional Hardcoded Hostname";
 "Optional Port" = "Optional Port";
@@ -550,13 +550,13 @@
 /* MLLoginView: QR-Code Button iOS12 only */
 "QR" = "QR";
 "QR code: Fingerprints found" = "QR code: Fingerprints found";
-"QR-Code Scanner" = "QR-Code Scanner";
+"QR-Code Scanner" = "Escáner de código QR";
 /* catalina warning */
 "QR-Code scanning is not supported on catalina" = "QR-Code scanning is not supported on catalina";
 /* catalina warning */
 "QR-Code scanning unsupported" = "QR-Code scanning unsupported";
 /* QR-Code-Scanner */
-"QR-Code video error" = "QR-Code video error";
+"QR-Code video error" = "Error de vídeo de código QR";
 "QR-Code: Fingerprints found" = "QR-Code: Fingerprints found";
 "Quick Setup" = "Ajuste rápido";
 /* Chat msg action */
@@ -578,7 +578,7 @@
 "Received Videos" = "Vídeos recibidos";
 "Recently Seen" = "Visto recientemente";
 /* shareViewController: recipient */
-"Recipient" = "Recipient";
+"Recipient" = "Destinatario";
 "Recipient Name" = "Nombre de destinatario";
 "Recipient name can't be empty" = "El nombre de destinatario no puede estar vacío";
 "Recipients are usually in the format: username@domain.something" = "Los destinatarios suelen tener el formato: usuario@dominio.algo";
@@ -656,7 +656,7 @@
 "Server does not support account removal" = "El servidor no soporta la eliminación de cuentas";
 "Server for domain '%@' not responding!" = "Server for domain '%@' not responding!";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Server implementation error: SASL2 tasks empty, account disabled!";
-"Server returned invalid xml!" = "Server returned invalid xml!";
+"Server returned invalid xml!" = "¡El servidor devolvió xml inválido!";
 "Server returned SASL2 error '%@'." = "Server returned SASL2 error '%@'.";
 "Server Support Details" = "Server Support Details";
 "Server: %@" = "Servidor: %@";
@@ -720,7 +720,7 @@
 "The qrcode contains login credentials for a acount. Go to settings and rescan the qrcode" = "The qrcode contains login credentials for a acount. Go to settings and rescan the qrcode";
 "The resource '%@' has the following capabilities:" = "The resource '%@' has the following capabilities:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only.";
-"The server does not support blocking" = "The server does not support blocking";
+"The server does not support blocking" = "El servidor no soporta bloqueo";
 "The server does not support blocking (XEP-0191)." = "The server does not support blocking (XEP-0191).";
 "The user %@ (%@) wants to add you to his contact list" = "The user %1$@ (%2$@) wants to add you to his contact list";
 "The user %@ (%@) wants to add you to their contact list" = "The user %1$@ (%2$@) wants to add you to their contact list";
@@ -769,7 +769,7 @@
 "This should never happen, please contact the developers and provide a logfile!" = "This should never happen, please contact the developers and provide a logfile!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";
-"This will clear the whole chat history of this account from this device." = "This will clear the whole chat history of this account from this device.";
+"This will clear the whole chat history of this account from this device." = "Esto borrará todo el historial de chat de esta cuenta desde este dispositivo.";
 "This will clear the your own omemo session for debugging purposes" = "This will clear the your own omemo session for debugging purposes";
 "This will clear your own omemo session for debugging purposes" = "This will clear your own omemo session for debugging purposes";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Esto borrará esta cuenta y los datos asociado del servidor y del dispositivo. Los datos podrían retenerse en otros dispositivos.";
@@ -794,7 +794,7 @@
 "Type: %@" = "Tipo: %@";
 "Typing..." = "Escribiendo...";
 "Unable to connect to server" = "No se puede conectar al servidor";
-"Unable to connect to server!" = "Unable to connect to server!";
+"Unable to connect to server!" = "¡No se puede conectar al servidor!";
 "Unblock Contact" = "Desbloquear contacto";
 "Unblock Sender" = "Desbloquear remitente";
 "Unclean appex shutown" = "Unclean appex shutown";
@@ -824,7 +824,7 @@
 "Use your existing account or make a new one on the many servers around the world" = "Usa tu cuenta existente o crea una nueva en uno de los muchos servidores de todo el mundo";
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "usuario@ejemplo.org/recurso";
-"Username missing" = "Username missing";
+"Username missing" = "Falta el nombre de usuario";
 "Uses TLS client certificates for authentication" = "Uses TLS client certificates for authentication";
 "Using Account: %@" = "Usando cuenta: %@";
 "Using server '%@' that was provided by the registration link you used." = "Using server '%@' that was provided by the registration link you used.";
@@ -868,20 +868,20 @@
 "XEP-xxxx: SASL SCRAM Downgrade Protection" = "XEP-xxxx: SASL SCRAM Downgrade Protection";
 "XMPP" = "XMPP";
 "XMPP Account Info Error" = "XMPP Account Info Error";
-"XMPP Bind Error" = "XMPP Bind Error";
+"XMPP Bind Error" = "Error de enlace XMPP";
 "XMPP Capabilities" = "Capacidades XMPP";
 "XMPP Disco Info Error" = "XMPP Disco Info Error";
 "XMPP External Service Disco Error" = "XMPP External Service Disco Error";
 "XMPP ID" = "ID XMPP";
-"XMPP ID missing" = "XMPP ID missing";
+"XMPP ID missing" = "Falta el ID de XMPP";
 "XMPP mam preferences error" = "XMPP mam preferences error";
 "XMPP protocol extension for communications blocking." = "XMPP protocol extension for communications blocking.";
 "XMPP protocol extension for sending application-level pings over XML streams." = "XMPP protocol extension for sending application-level pings over XML streams.";
-"XMPP Roster Error" = "XMPP Roster Error";
+"XMPP Roster Error" = "Error de lista XMPP";
 "XMPP server domain not valid!" = "XMPP server domain not valid!";
 "XMPP stream error %@: %@" = "XMPP stream error %1$@: %2$@";
 "XMPP stream error: %@" = "XMPP stream error: %@";
-"XMPP: QR-Code" = "XMPP: QR-Code";
+"XMPP: QR-Code" = "XMPP: Código QR";
 "XMPPServer" = "XMPPServer";
 "yax.im is a public server, not affiliated with Monal. This page is provided for convenience." = "yax.im is a public server, not affiliated with Monal. This page is provided for convenience.";
 "Yes" = "Sí";
@@ -898,7 +898,7 @@
 "You have not entered your XMPP ID yet" = "You have not entered your XMPP ID yet";
 "You have not received any images in this conversation." = "No has recibido ninguna imagen en esta conversación.";
 /* OmemoQrCodeView */
-"You have to many enabled devices on this account. You need to remove some devices" = "You have to many enabled devices on this account. You need to remove some devices";
+"You have to many enabled devices on this account. You need to remove some devices" = "Tienes muchos dispositivos habilitados en esta cuenta. Necesitas eliminar algunos dispositivos";
 "You need friends for this ride" = "Necesitas amigas para este viaje";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "You restored an iCloud backup of Monal, please open the app to reenable this account.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen." = "Debes confiar en una clave cuando la hayas verificado. Verifica comparando la clave a continuación con la que aparece en la pantalla de tu contacto.";
@@ -911,7 +911,7 @@
 "Your contact may to not support Monal-Style calls. Your call might never reach its destination." = "Your contact may to not support Monal-Style calls. Your call might never reach its destination.";
 "Your entered XMPP ID is missing the domain" = "Your entered XMPP ID is missing the domain";
 "Your entered XMPP ID is missing the username" = "Your entered XMPP ID is missing the username";
-"Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!";
+"Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Tu servidor no es compatible con MAM (XEP-0313). ¡¡Eso significa que con frecuencia podrías perder mensajes entrantes!! ¡Debes cambiar tu servidor o hablar con el administrador del servidor para habilitar esto!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!";
 "Your status" = "Tu estado";
 "Your XMPP account should be in in the format user@domain. For special configurations, use manual setup." = "Tu cuenta XMPP debe tener el formato usuario@dominio. Para configuraciones especiales, usa la configuración manual.";
