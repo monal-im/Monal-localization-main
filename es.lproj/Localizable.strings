@@ -73,7 +73,7 @@
 "Auto-Download Media" = "Auto-Download Media";
 "Auto-Download Media Settings" = "Auto-Download Media Settings";
 "Autodelete all messages after 3 days" = "Borrar automáticamente todos los mensajes después de 3 días";
-"Automatic media download" = "Automatic media download";
+"Automatic media download" = "Descarga automática de medio";
 "Automatically fetch previews of received links" = "Obtén automáticamente vistas previas de los enlaces recibidos";
 "Automatically send when you were online" = "Enviar automáticamente cuando estés en línea";
 "Away" = "Ausente";
@@ -284,8 +284,8 @@
 "Failed to encrypt file" = "Fallo al cifrar fichero";
 "Failed to enter Group/Channel %@" = "Failed to enter Group/Channel %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Failed to enter Group/Channel %@: This is not a Group/Channel!";
-"Failed to enter groupchat %@" = "Failed to enter groupchat %@";
-"Failed to enter groupchat %@: This is not a groupchat!" = "Failed to enter groupchat %@: This is not a groupchat!";
+"Failed to enter groupchat %@" = "Fallo al entrar al grupo %@";
+"Failed to enter groupchat %@: This is not a groupchat!" = "Fallo al entrar al grupo %@: ¡Esto no es un grupo!";
 "Failed to load blocklist" = "Failed to load blocklist";
 "Failed to parse URL returned by HTTP upload server" = "No se pudo analizar la URL devuelta por el servidor de carga HTTP";
 "Failed to publish avatar image for group/channel %@" = "Failed to publish avatar image for group/channel %@";
@@ -302,7 +302,7 @@
 "Failed to query newest stanzaid for groupchat %@" = "Failed to query newest stanzaid for groupchat %@";
 "Failed to remove bookmark for Group/Channel: %@" = "Failed to remove bookmark for Group/Channel: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Failed to save bookmark for Group/Channel: %@";
-"Failed to save groupchat bookmarks" = "Failed to save groupchat bookmarks";
+"Failed to save groupchat bookmarks" = "Fallo al guardar marcadores de grupo";
 "Failed to share file" = "Failed to share file";
 "Failed to upload file: account was removed" = "Failed to upload file: account was removed";
 "Failed to uploaded file to file cache directory" = "No se pudo cargar el fichero en el directorio de caché de ficheros";
@@ -540,7 +540,7 @@
 "Please select a XMPP server or provide one." = "Please select a XMPP server or provide one.";
 "Please update!" = "¡Por favor actualiza!";
 "Port" = "Puerto";
-"Port: %@, Direct TLS: %@, Priority: %@" = "Port: %1$@, Direct TLS: %2$@, Priority: %3$@";
+"Port: %@, Direct TLS: %@, Priority: %@" = "Puerto: %1$@, TLS directo: %2$@, Prioridad: %3$@";
 "Port: %@, Is Secure: %@, Prio: %@" = "Puerto: %1$@, Es Seguro: %2$@, Prio: %3$@";
 "Presence" = "Presencia";
 "Privacy" = "Privacidad";
@@ -566,7 +566,7 @@
 "Rebuild Tokens" = "Rebuild Tokens";
 "Rebuilding is useful if you are experiencing problems. This will require an app restart to work." = "La reconstrucción es útil si tienes problemas. Esto requerirá reiniciar la aplicación para que funcione.";
 "Receive push notifications from via Apple even when disconnected. Vastly improves reliability." = "Recibir notificaciones automáticas de Apple incluso cuando esté desconectado. Mejora enormemente la fiabilidad.";
-"Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "Receive push notifications via Apple even when disconnected. Vastly improves reliability.";
+"Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "Recibe notificaciones automáticas a través de Apple incluso cuando estés desconectado. Mejora enormemente la fiabilidad.";
 "Received" = "Recibido";
 /* directory for downloaded audios */
 "Received Audios" = "Audios recibidos";
@@ -722,7 +722,7 @@
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only.";
 "The server does not support blocking" = "El servidor no soporta bloqueo";
 "The server does not support blocking (XEP-0191)." = "El servidor no soporta bloqueo (XEP-0191).";
-"The user %@ (%@) wants to add you to his contact list" = "The user %1$@ (%2$@) wants to add you to his contact list";
+"The user %@ (%@) wants to add you to his contact list" = "El usuario %1$@ (%2$@) quiere añadirte a su lista de contactos";
 "The user %@ (%@) wants to add you to their contact list" = "El usuario %1$@ (%2$@) quiere añadirte a su lista de contactos";
 "The username does not need to have an @ symbol. Please try again." = "El nombre de usuario no necesita tener un símbolo @. Inténtalo de nuevo.";
 "There is no configured email account. Please email info@monal-im.org ." = "No hay una cuenta de correo configurada. Envía un correo electrónico a info@monal-im.org.";
@@ -732,7 +732,7 @@
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)";
 "There was an error uploading the file to the server" = "Ha habido un error cargando el fichero en el servidor";
 "These are SRV resource records found for your domain" = "Estos son registros de recursos SRV encontrados para tu dominio";
-"These are SRV resource records found for your domain." = "These are SRV resource records found for your domain.";
+"These are SRV resource records found for your domain." = "Estos son registros SRV encontrados para tu dominio.";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer." = "These are the channel-binding types your server supports to detect attacks on the TLS layer.";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "Estas son las capacidades XMPP que Monal detectó en tu servidor después de que haya iniciado sesión.";
 "These are the SASL2 methods your server supports." = "These are the SASL2 methods your server supports.";
@@ -875,7 +875,7 @@
 "XMPP ID" = "ID XMPP";
 "XMPP ID missing" = "Falta el ID de XMPP";
 "XMPP mam preferences error" = "Error de preferencias MAM";
-"XMPP protocol extension for communications blocking." = "XMPP protocol extension for communications blocking.";
+"XMPP protocol extension for communications blocking." = "Extensión de protocolo XMPP para bloqueo de comunicaciones.";
 "XMPP protocol extension for sending application-level pings over XML streams." = "Extensión del protocolo XMPP para enviar pings de nivel de aplicación a través de secuencias XML.";
 "XMPP Roster Error" = "Error de lista XMPP";
 "XMPP server domain not valid!" = "XMPP server domain not valid!";
@@ -904,7 +904,7 @@
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen." = "Debes confiar en una clave cuando la hayas verificado. Verifica comparando la clave a continuación con la que aparece en la pantalla de tu contacto.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "You tried to call contact '%@' but this contact could not be found in your contact list.";
 "You will no longer receive messages from this conversation" = "Ya no recibirás mensajes de esta conversación";
-"You will receive subsequent messages from this conversation" = "You will receive subsequent messages from this conversation";
+"You will receive subsequent messages from this conversation" = "Recibirás mensajes posteriores de esta conversación.";
 "Your account must be enabled and connected, to be removed from the server!" = "¡Tu cuenta debe estar habilitada y conectada para ser eliminada del servidor!";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again.";
 "Your answer" = "Tu respuesta";
