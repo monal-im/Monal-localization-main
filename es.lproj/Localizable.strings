@@ -85,7 +85,7 @@
 "Blocked Users" = "Usuarios bloqueados";
 "Blocking is not supported by the server" = "El bloqueo no es compatible con el servidor";
 "Blocking not supported" = "Bloqueo no soportado";
-"Blocking/Unblocking Not Supported" = "Blocking/Unblocking Not Supported";
+"Blocking/Unblocking Not Supported" = "Bloqueo/desbloqueo no soportado";
 "BODY" = "BODY";
 "Call ended for an unknown reason" = "Llamada finalizada por razón desconocida";
 "Call ended, duration: %@" = "Llamada finalizada, duración: %@";
@@ -137,7 +137,7 @@
 "Connected: %@" = "Conectado: %@";
 "Connecting..." = "Conectando…";
 "Connection Details" = "Detalles de conexión";
-"Contact and Channel Jids  are usually in the format: name@domain.tld" = "Contact and Channel Jids  are usually in the format: name@domain.tld";
+"Contact and Channel Jids  are usually in the format: name@domain.tld" = "Los Jid de contactos y canales  normalmente están en formato: nombre@dominio.tld";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Contact and Group/Channel Jids are usually in the format: name@domain.tld";
 "Contact Background" = "Fondo de contacto";
 "Contact is muted" = "El contacto está silenciado";
@@ -215,7 +215,7 @@
 "Do you really want to disable encryption for this contact?" = "¿Realmente quieres deshabilitar el cifrado para este contacto?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "¿Realmente quieres restablecer la sesión de OMEMO? ¡Solo debes restablecer la conexión si sabes lo que estás haciendo!";
 "Do you want to trust the scanned fingerprints from" = "¿Quieres confiar en las huellas escaneadas de";
-"Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?";
+"Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "¿Quieres confiar en las huellas dactilares escaneadas del contacto %@ cuando utilices tu cuenta %@?";
 "Doing a lot of work..." = "Haciendo un montón de cosas...";
 "Domain missing" = "falta el dominio";
 "Don't trust Key" = "Don't trust Key";
@@ -275,10 +275,10 @@
 "Failed to create invitation, unknown error: %@" = "Fallo al crear invitación, error desconocido: %@";
 "Failed to decode download link" = "No se pudo decodificar el enlace de descarga";
 "Failed to decode encrypted link" = "No se pudo decodificar el enlace cifrado";
-"Failed to decrypt filetransfer" = "Failed to decrypt filetransfer";
-"Failed to delete own avatar" = "Failed to delete own avatar";
+"Failed to decrypt filetransfer" = "No se pudo descifrar la transferencia de archivos";
+"Failed to delete own avatar" = "No se pudo eliminar el propio avatar";
 "Failed to delete own avatar on account %@" = "Fallo al borrar el propio avatar en la cuenta %@";
-"Failed to delete own nickname" = "Failed to delete own nickname";
+"Failed to delete own nickname" = "No se pudo eliminar el alias propio";
 "Failed to download file" = "Fallo al descargar fichero";
 "Failed to enable carbons for account %@" = "Failed to enable carbons for account %@";
 "Failed to encrypt file" = "Fallo al cifrar fichero";
@@ -286,13 +286,13 @@
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Failed to enter Group/Channel %@: This is not a Group/Channel!";
 "Failed to enter groupchat %@" = "Fallo al entrar al grupo %@";
 "Failed to enter groupchat %@: This is not a groupchat!" = "Fallo al entrar al grupo %@: ¡Esto no es un grupo!";
-"Failed to load blocklist" = "Failed to load blocklist";
+"Failed to load blocklist" = "Error al cargar la lista de bloqueo";
 "Failed to parse URL returned by HTTP upload server" = "No se pudo analizar la URL devuelta por el servidor de carga HTTP";
 "Failed to publish avatar image for group/channel %@" = "Failed to publish avatar image for group/channel %@";
-"Failed to publish avatar image for groupchat %@" = "Failed to publish avatar image for groupchat %@";
-"Failed to publish own avatar" = "Failed to publish own avatar";
+"Failed to publish avatar image for groupchat %@" = "No se pudo publicar la imagen del avatar para el grupo %@";
+"Failed to publish own avatar" = "No se pudo publicar el avatar propio";
 "Failed to publish own avatar on account %@" = "Fallo al publicar el propio avatar en la cuenta %@";
-"Failed to publish own nickname" = "Failed to publish own nickname";
+"Failed to publish own nickname" = "No se pudo publicar el alias propio";
 "Failed to publish own nickname on account %@" = "Fallo al publicar el propio alias en la cuenta %@";
 "Failed to query for new messages on account %@" = "Fallo al consultar nuevos mensajes en la cuenta %@";
 "Failed to query new messages for Group/Channel %@" = "Failed to query new messages for Group/Channel %@";
@@ -303,7 +303,7 @@
 "Failed to remove bookmark for Group/Channel: %@" = "Failed to remove bookmark for Group/Channel: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Failed to save bookmark for Group/Channel: %@";
 "Failed to save groupchat bookmarks" = "Fallo al guardar marcadores de grupo";
-"Failed to share file" = "Failed to share file";
+"Failed to share file" = "No se pudo compartir el fichero";
 "Failed to upload file: account was removed" = "Failed to upload file: account was removed";
 "Failed to uploaded file to file cache directory" = "No se pudo cargar el fichero en el directorio de caché de ficheros";
 "Failed to write decrypted download into cache directory" = "No se pudo escribir la descarga descifrada en el directorio de caché";
@@ -326,10 +326,10 @@
 "Group requires a password" = "El grupo requiere una contraseña";
 "Group subject:" = "Asunto del grupo:";
 "Group/Channel error" = "Error de grupo/canal";
-"Group/Channel error in %@" = "Group/Channel error in %@";
+"Group/Channel error in %@" = "Error de grupo/canal en %@";
 "Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
 "Group/Channel is mention only" = "Group/Channel is mention only";
-"Group/Channel not available anymore: %@" = "Group/Channel not available anymore: %@";
+"Group/Channel not available anymore: %@" = "El grupo/canal ya no está disponible: %@";
 "Groupchat error" = "Erro de grupo";
 "Groupchat/channel details" = "Detalles del grupo/canal";
 "Groupchat/channel details are currently not implemented in Monal." = "Los detalles de grupo/canal por ahora no están implementados en Monal.";
@@ -412,7 +412,7 @@
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings.";
 "Logging in" = "Iniciando sesión";
 "Login" = "Acceso";
-"Login error, account disabled: %@" = "Login error, account disabled: %@";
+"Login error, account disabled: %@" = "Error de inicio de sesión, cuenta deshabilitada: %@";
 "Login with a QR-Code" = "Iniciar sesión con código QR";
 "Manual input" = "Entrada manual";
 "Mark all messages as read" = "Marcar todos los mensajes como leídos";
@@ -510,7 +510,7 @@
 "Open" = "Abrir";
 "Open app to see more" = "Abrir la aplicación para ver más";
 "Open Source" = "Open Source";
-"Optional Hardcoded Hostname" = "Optional Hardcoded Hostname";
+"Optional Hardcoded Hostname" = "Nombre de host codificado opcional";
 "Optional Port" = "Puerto opcional";
 "Os: " = "Os: ";
 "Own device key" = "Clave del propio dispositivo";
@@ -699,7 +699,7 @@
 "Tell my contacts if I've read a message" = "Decir a mis contactos si he leído un mensaje";
 "Tell my contacts if my device received a message" = "Decir a mis contactos si mi dispositivo ha recibido un mensaje";
 "Tell my contacts when I'm typing" = "Notificar a mis contactos cuando esté escribiendo";
-"Temporary failure to enter Group/Channel: %@" = "Temporary failure to enter Group/Channel: %@";
+"Temporary failure to enter Group/Channel: %@" = "Error temporal al ingresar al grupo/canal: %@";
 "Temporary failure to enter groupchat: %@" = "Fallo temporal al entrar en el grupo: %@";
 "Terms of use for %@" = "Términos de uso para %@";
 "The account has been deleted" = "La cuenta ha sido borrada";
@@ -709,15 +709,15 @@
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later.";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later. %@" = "La conexión con el servidor se interrumpió y no se pudieron obtener mensajes antiguos para este chat. Por favor, inténtalo de nuevo más tarde. %@";
 "The current password is not correct." = "La contraseña actual no es correcta.";
-"The jid has to be in the form 'user@domain.tld' to be correct." = "The jid has to be in the form 'user@domain.tld' to be correct.";
+"The jid has to be in the form 'user@domain.tld' to be correct." = "El jid tiene que estar en formato 'usuario@dominio.tld' para ser correcto.";
 "The jid you want to add should be in in the format user@domain.tld." = "The jid you want to add should be in in the format user@domain.tld.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "El nuevo contacto se agregará a tu lista de contactos cuando la persona que hayas agregado haya aprobado tu solicitud.";
 "The password has been changed" = "La contraseña ha sido cambiada";
 /* QR-Code-Scanner: jid scan wrong menu */
-"The qrcode contains a jid. Rescan the qrcode in the add user menu" = "The qrcode contains a jid. Rescan the qrcode in the add user menu";
+"The qrcode contains a jid. Rescan the qrcode in the add user menu" = "El código QR contiene un jid. Reescanea el código en el menú de añadir usuario";
 /* QR-Code-Scanner: account scan wrong menu */
-"The qrcode contains login credentials for a acount. Go to settings and rescan the qrcode" = "The qrcode contains login credentials for a acount. Go to settings and rescan the qrcode";
+"The qrcode contains login credentials for a acount. Go to settings and rescan the qrcode" = "El código QR contiene credenciales para una cuenta. Ve a ajuste y reescanea el código";
 "The resource '%@' has the following capabilities:" = "The resource '%@' has the following capabilities:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "Los servidores XMPP seleccionables son servidores públicos que no están afiliados a Monal. Esta página de registro se proporciona únicamente para tu comodidad.";
 "The server does not support blocking" = "El servidor no soporta bloqueo";
@@ -752,7 +752,7 @@
 "This contact does not appear to have any devices that support encryption." = "Este contacto no parece tener ningún dispositivo compatible con el cifrado.";
 "This contact is already in the contact list of the selected account" = "Este contacto ya está en la lista de contactos de la cuenta seleccionada";
 "This contact is already in your contact list" = "Este contacto ya está en tu lista de contactos";
-"This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "This contact may not support OMEMO encrypted messages. Please try again in a few seconds.";
+"This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Es posible que este contacto no admita mensajes cifrados OMEMO. Vuelve a intentarlo en unos segundos.";
 "This invitation will expire on %@" = "Esta invitación expirará en %@";
 "This jid already exists on this instance." = "This jid already exists on this instance.";
 "This key belongs to this device and cannot be removed or disabled!" = "¡Esta clave pertenece a este dispositivo y no puede ser borrada o deshabilitada!";
@@ -772,8 +772,8 @@
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Esta especificación define semánticas para usar el protocolo de publicación-suscripción XMPP para transmitir eventos de cambio de estado asociados con una cuenta de presencia y mensajería instantánea.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";
 "This will clear the whole chat history of this account from this device." = "Esto borrará todo el historial de chat de esta cuenta desde este dispositivo.";
-"This will clear the your own omemo session for debugging purposes" = "This will clear the your own omemo session for debugging purposes";
-"This will clear your own omemo session for debugging purposes" = "This will clear your own omemo session for debugging purposes";
+"This will clear the your own omemo session for debugging purposes" = "Esto borrará tu propia sesión de omemo con fines de depuración";
+"This will clear your own omemo session for debugging purposes" = "Esto borrará tu propia sesión de omemo con fines de depuración";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Esto borrará esta cuenta y los datos asociado del servidor y del dispositivo. Los datos podrían retenerse en otros dispositivos.";
 "This will remove this account and the associated data from this device." = "Esto eliminará esta cuenta y los datos asociados de este dispositivo.";
 "Timeout Error" = "Error tiempo de espera";
@@ -802,11 +802,11 @@
 "Unclean appex shutown" = "Unclean appex shutown";
 "Undefined error" = "Error indefinido";
 "Unexpected appex expiration" = "Unexpected appex expiration";
-"Unexpected error while checking type of jid, please try again" = "Unexpected error while checking type of jid, please try again";
+"Unexpected error while checking type of jid, please try again" = "Error inesperado al verificar el tipo de jid, intenta nuevamente";
 "Unexpected error while checking type of jid:" = "Unexpected error while checking type of jid:";
 "Unexpected mam preferences result" = "Resultado inesperado de las preferencias mam";
-"Unexpected server response: invalid PEP config form" = "Unexpected server response: invalid PEP config form";
-"Unexpected server response: missing required fields in PEP config form" = "Unexpected server response: missing required fields in PEP config form";
+"Unexpected server response: invalid PEP config form" = "Respuesta inesperada del servidor: formulario de configuración de PEP no válido";
+"Unexpected server response: missing required fields in PEP config form" = "Respuesta inesperada del servidor: faltan campos obligatorios en el formulario de configuración de PEP";
 "unknown" = "desconocido";
 "Unknown authentication method" = "Método de autenticación desconocido";
 "Unknown channel-binding type" = "Unknown channel-binding type";
@@ -881,7 +881,7 @@
 "XMPP protocol extension for sending application-level pings over XML streams." = "Extensión del protocolo XMPP para enviar pings de nivel de aplicación a través de secuencias XML.";
 "XMPP Roster Error" = "Error de lista XMPP";
 "XMPP server domain not valid!" = "XMPP server domain not valid!";
-"XMPP stream error %@: %@" = "XMPP stream error %1$@: %2$@";
+"XMPP stream error %@: %@" = "Error de transmisión XMPP %1$@: %2$@";
 "XMPP stream error: %@" = "Error de transmisión XMPP: %@";
 "XMPP: QR-Code" = "XMPP: Código QR";
 "XMPPServer" = "XMPPServer";
@@ -902,7 +902,7 @@
 /* OmemoQrCodeView */
 "You have to many enabled devices on this account. You need to remove some devices" = "Tienes muchos dispositivos habilitados en esta cuenta. Necesitas eliminar algunos dispositivos";
 "You need friends for this ride" = "Necesitas amigas para este viaje";
-"You restored an iCloud backup of Monal, please open the app to reenable this account." = "You restored an iCloud backup of Monal, please open the app to reenable this account.";
+"You restored an iCloud backup of Monal, please open the app to reenable this account." = "Restauraste una copia de seguridad de Monal desde iCloud, abre la aplicación para volver a habilitar esta cuenta.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen." = "Debes confiar en una clave cuando la hayas verificado. Verifica comparando la clave a continuación con la que aparece en la pantalla de tu contacto.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "You tried to call contact '%@' but this contact could not be found in your contact list.";
 "You will no longer receive messages from this conversation" = "Ya no recibirás mensajes de esta conversación";
