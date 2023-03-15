@@ -105,7 +105,7 @@
 "Can't convert the image to jpeg format." = "No puedo convertir la imagen a formato jpeg.";
 "Can't convert the image to png file." = "No puedo convertir la imagen a png.";
 "Cancel" = "Cancelar";
-"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Cannot share something with disabled/deleted account, destination: %1$@, internal account id: %2$@";
+"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "No se puede compartir algo con la cuenta deshabilitada/eliminada, destino: %1$@, ID de cuenta interna: %2$@";
 "Change Contact Background" = "Change Contact Background";
 "Change Password" = "Cambiar la contraseña";
 "Changing Password" = "Cambiando contraseña";
@@ -230,7 +230,7 @@
 "Dummy string to test SwiftUI translation support." = "Dummy string to test SwiftUI translation support.";
 "Duplicate Account" = "Cuenta duplicada";
 "Duplicate Account!" = "¡Cuenta duplicada!";
-"Duplicate jid!" = "Duplicate jid!";
+"Duplicate jid!" = "¡Jid duplicado!";
 /* Chat msg action */
 "Edit" = "Editar";
 "Email Support" = "Correo de soporte";
@@ -282,7 +282,7 @@
 "Failed to download file" = "Fallo al descargar fichero";
 "Failed to enable carbons for account %@" = "Failed to enable carbons for account %@";
 "Failed to encrypt file" = "Fallo al cifrar fichero";
-"Failed to enter Group/Channel %@" = "Failed to enter Group/Channel %@";
+"Failed to enter Group/Channel %@" = "No se pudo ingresar al grupo/canal %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Failed to enter Group/Channel %@: This is not a Group/Channel!";
 "Failed to enter groupchat %@" = "Fallo al entrar al grupo %@";
 "Failed to enter groupchat %@: This is not a groupchat!" = "Fallo al entrar al grupo %@: ¡Esto no es un grupo!";
@@ -296,7 +296,7 @@
 "Failed to publish own nickname on account %@" = "Fallo al publicar el propio alias en la cuenta %@";
 "Failed to query for new messages on account %@" = "Fallo al consultar nuevos mensajes en la cuenta %@";
 "Failed to query new messages for Group/Channel %@" = "Failed to query new messages for Group/Channel %@";
-"Failed to query new messages for groupchat %@" = "Failed to query new messages for groupchat %@";
+"Failed to query new messages for groupchat %@" = "Error al consultar nuevos mensajes para grupo %@";
 "Failed to query newest stanzaid for account %@" = "Failed to query newest stanzaid for account %@";
 "Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
 "Failed to query newest stanzaid for groupchat %@" = "Failed to query newest stanzaid for groupchat %@";
@@ -304,7 +304,7 @@
 "Failed to save bookmark for Group/Channel: %@" = "Failed to save bookmark for Group/Channel: %@";
 "Failed to save groupchat bookmarks" = "Fallo al guardar marcadores de grupo";
 "Failed to share file" = "No se pudo compartir el fichero";
-"Failed to upload file: account was removed" = "Failed to upload file: account was removed";
+"Failed to upload file: account was removed" = "No se pudo cargar el archivo: se eliminó la cuenta";
 "Failed to uploaded file to file cache directory" = "No se pudo cargar el fichero en el directorio de caché de ficheros";
 "Failed to write decrypted download into cache directory" = "No se pudo escribir la descarga descifrada en el directorio de caché";
 "Favorite" = "Favorito";
@@ -327,7 +327,7 @@
 "Group subject:" = "Asunto del grupo:";
 "Group/Channel error" = "Error de grupo/canal";
 "Group/Channel error in %@" = "Error de grupo/canal en %@";
-"Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
+"Group/Channel got destroyed: %@" = "El grupo/canal fue destruido: %@";
 "Group/Channel is mention only" = "Group/Channel is mention only";
 "Group/Channel not available anymore: %@" = "El grupo/canal ya no está disponible: %@";
 "Groupchat error" = "Erro de grupo";
@@ -657,7 +657,7 @@
 "Server for domain '%@' not responding!" = "Server for domain '%@' not responding!";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Server implementation error: SASL2 tasks empty, account disabled!";
 "Server returned invalid xml!" = "¡El servidor devolvió xml inválido!";
-"Server returned SASL2 error '%@'." = "Server returned SASL2 error '%@'.";
+"Server returned SASL2 error '%@'." = "El servidor devolvió el error SASL2 '%@'.";
 "Server Support Details" = "Detalles de soporte del servidor";
 "Server: %@" = "Servidor: %@";
 "Set a nickname" = "Establecer un alias";
@@ -803,7 +803,7 @@
 "Undefined error" = "Error indefinido";
 "Unexpected appex expiration" = "Unexpected appex expiration";
 "Unexpected error while checking type of jid, please try again" = "Error inesperado al verificar el tipo de jid, intenta nuevamente";
-"Unexpected error while checking type of jid:" = "Unexpected error while checking type of jid:";
+"Unexpected error while checking type of jid:" = "Error inesperado comprobando el tipo de jid:";
 "Unexpected mam preferences result" = "Resultado inesperado de las preferencias mam";
 "Unexpected server response: invalid PEP config form" = "Respuesta inesperada del servidor: formulario de configuración de PEP no válido";
 "Unexpected server response: missing required fields in PEP config form" = "Respuesta inesperada del servidor: faltan campos obligatorios en el formulario de configuración de PEP";
@@ -818,7 +818,7 @@
 "unsupported" = "sin soporte";
 "Untrusted key" = "Clave no confiable";
 "Upload Error" = "Upload Error";
-"Upload Error: your account got disconnected while requesting upload slot" = "Upload Error: your account got disconnected while requesting upload slot";
+"Upload Error: your account got disconnected while requesting upload slot" = "Error de carga: tu cuenta se desconectó mientras solicitaba un espacio de carga";
 "Upload files to the server to share with others." = "Sube archivos al servidor para compartirlos con otros.";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)";
 "Uploading" = "Cargando";
