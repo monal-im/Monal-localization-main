@@ -614,7 +614,7 @@
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Meccanismo di autenticazione Salted Challenge Response con metodo Hash";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Meccanismo di autenticazione Salted Challenge Response con metodo Hash ulteriormente protetto tramite Channel-Binding";
 "SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Rilevato un attacco SASL downgrade tramite SSDP, annullo l'autenticazione e disabilito l'account per limitare i danni. Dovresti riabilitare l'account solo una volta connesso ad una rete sicura.";
-"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Rilevato un attacco SASL2 to SASL1 downgrade, annullo l'autenticazione e disabilito l'account per limitare i danni. Dovresti riabilitare l'account una volta connesso ad una rete sicura.";
+"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Rilevato un attacco SASL2 to SASL1 downgrade, annullo l'autenticazione e disabilito l'account per limitare i danni. Riabilita l'account una volta connesso ad una rete sicura.";
 "Saving changes to server" = "Salvataggio delle modifiche sul server";
 /* mac only string */
 "Scroll down to load more messages" = "Scorri in basso per caricare più messaggi";
@@ -733,10 +733,10 @@
 "There was an error uploading the file to the server" = "Si è verificato un errore durante il caricamento del file sul server";
 "These are SRV resource records found for your domain" = "Questi sono i record SRV trovati per il tuo dominio";
 "These are SRV resource records found for your domain." = "Questi sono i record SRV trovati per il tuo dominio.";
-"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in green, yellow ones unsupported by Monal)." = "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in green, yellow ones unsupported by Monal).";
+"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in green, yellow ones unsupported by Monal)." = "Queste sono le tipologie di Channel-Binding supportate dal server per identificare attacchi al layer TLS. (in verde quella in uso, in giallo quelle non supportate da Monal).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer." = "Queste sono le tipologie di Channel-Binding supportate dal server per identificare attacchi al layer TLS.";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "Queste sono le funzionalità XMPP che Monal ha rilevato su questo server dopo la connessione.";
-"These are the SASL2 methods your server supports (used one in green, yellow ones unsupported by Monal)." = "These are the SASL2 methods your server supports (used one in green, yellow ones unsupported by Monal).";
+"These are the SASL2 methods your server supports (used one in green, yellow ones unsupported by Monal)." = "Queste sono le funzioni SASL2 supportate dal server (in verde quella in uso, in giallo quelle non supportate da Monal).";
 "These are the SASL2 methods your server supports." = "Queste sono le funzioni SASL2 supportate dal server.";
 "These are the TLS versions supported by Monal, the one supported by your server will be green." = "Queste sono le versioni TLS supportate da Monal, quelle supportate dal server saranno evidenziate in verde.";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "Queste sono le versioni TLS supportate da Monal, quelle supportate dal server saranno evidenziate in verde.";
