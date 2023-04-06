@@ -32,10 +32,10 @@
 "Add Contact" = "Añadir contacto";
 "Add Contact or Channel" = "Añadir contacto o canal";
 "Add Group to Favorites" = "Añadir grupo a favoritos";
-"Add Group/Channel or Contact" = "Add Group/Channel or Contact";
+"Add Group/Channel or Contact" = "Añadir Grupo/Canal o Contacto";
 "Add New Account" = "Añadir nueva cuenta";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Añadir nuevos contactos con el botón +. Tus amigos aparecerán aquí cuando puedan hablar";
-"Add scanned Group/Channel or Contact" = "Add scanned Group/Channel or Contact";
+"Add scanned Group/Channel or Contact" = "Añadir Grupo/Canal o Contacto escaneados";
 "Add to contacts" = "Añadir contactos";
 "Adding MUC..." = "Añadiendo MUC...";
 "Adding..." = "Añadiendo...";
@@ -93,7 +93,7 @@
 "Call ended: connection failed" = "Llamada finalizada: conexión fallida";
 "Call ended: declined" = "Call ended: declined";
 "Call ended: hung up" = "Call ended: hung up";
-"Call ended: remote busy" = "Call ended: remote busy";
+"Call ended: remote busy" = "Llamada finalizada: remoto ocupado";
 "call screen did disappear" = "la pantalla de llamada desapareció";
 "Call was not answered" = "La llamada no fue contestada";
 "Calls: Allow P2P sessions" = "Llamadas: Permitir sesiones P2P";
@@ -162,7 +162,7 @@
 "Could not change password: your account is currently not connected" = "No se pudo cambiar la contraseña: tu cuenta no está conectada";
 "Could not change the password" = "No podía cambiar la contraseña";
 "Could not decrypt message" = "No pudo descifrar el mensaje";
-"Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@";
+"Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "No se pudieron obtener (todos) los mensajes antiguos para este chat desde archivo de tu servidor. Por favor, inténtalo de nuevo más tarde. %@";
 "Could not fetch messages" = "No se pudieron recuperar los mensajes";
 /* QR-Code-Scanner */
 "Could not get default capture device" = "No se pudo obtener el dispositivo de captura predeterminado";
@@ -179,7 +179,7 @@
 "Could not upload file" = "No se pudo cargar el fichero";
 "Creating invitation..." = "Creando invitación...";
 "Current Password" = "Contraseña actual";
-"Currently Online" = "Currently Online";
+"Currently Online" = "Actualmente en línea";
 "Debug" = "Depuración";
 "Debugging" = "Depuración";
 "Decline" = "Declinar";
@@ -210,7 +210,7 @@
 "Display Only Placeholder" = "Mostrar solo marcador de posición";
 "Display Settings" = "Ajustes de pantalla";
 "Do you really want to block this contact? You won't receive any messages from this contact." = "Do you really want to block this contact? You won't receive any messages from this contact.";
-"Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again.";
+"Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "¿Realmente deseas borrar todos los mensajes intercambiados en esta conversación? Si usas OMEMO, ni siquiera podrás volver a cargarlos desde tu servidor.";
 "Do you really want to delete this key?" = "¿Realmente quieres borrar esta clave?";
 "Do you really want to disable encryption for this contact?" = "¿Realmente quieres deshabilitar el cifrado para este contacto?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "¿Realmente quieres restablecer la sesión de OMEMO? ¡Solo debes restablecer la conexión si sabes lo que estás haciendo!";
@@ -271,7 +271,7 @@
 "Escape The Garden" = "Escapar del jardín";
 "Failed to block contact %@" = "Fallo al bloquear al contacto %@";
 "Failed to copy downloaded file into cache directory" = "Error al copiar el archivo descargado en el directorio de caché";
-"Failed to create invitation for %@" = "Failed to create invitation for %@";
+"Failed to create invitation for %@" = "Fallo al crear invitación para %@";
 "Failed to create invitation, unknown error: %@" = "Fallo al crear invitación, error desconocido: %@";
 "Failed to decode download link" = "No se pudo decodificar el enlace de descarga";
 "Failed to decode encrypted link" = "No se pudo decodificar el enlace cifrado";
@@ -469,7 +469,7 @@
 "Nickname" = "Alias";
 "No" = "No";
 "No account available to handel 'xmpp:' URI!" = "No account available to handel 'xmpp:' URI!";
-"No accounts set up currently" = "No accounts set up currently";
+"No accounts set up currently" = "No hay cuentas configuradas actualmente";
 "No connected accounts" = "No hay cuentas conectadas";
 "No Contact Selected" = "Ningún contacto seleccionado";
 "No Empty Values" = "Sin valores vacíos";
@@ -482,7 +482,7 @@
 "No one is here" = "No hay nadie aquí";
 "No pending requests" = "No hay peticiones pendientes";
 "No search result." = "Sin resultados de búsqueda.";
-"No supported auth mechanism found, disabling account!" = "No supported auth mechanism found, disabling account!";
+"No supported auth mechanism found, disabling account!" = "No se encontró ningún mecanismo de autenticación compatible, ¡deshabilitando la cuenta!";
 "No supported auth mechanism found, disconnecting!" = "No supported auth mechanism found, disconnecting!";
 "no supported auth mechanism, disconnecting!" = "no hay mecanismo de autenticación compatible, ¡desconectando!";
 "No XMPP server!" = "No XMPP server!";
@@ -525,7 +525,7 @@
 "Play Sounds" = "Reproducir sonidos";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Por favor, primero añade una nueva cuenta en la configuración. Si ya añadiste tu cuenta, es posible que debas habilitarla en la configuración";
 "Please Allow Audio Access" = "Por favor, permite acceso de audio";
-"Please enter a password below before activating this account." = "Please enter a password below before activating this account.";
+"Please enter a password below before activating this account." = "Introduce una contraseña a continuación antes de activar esta cuenta.";
 "Please enter a password." = "Por favor entrar una contraseña.";
 "Please make sure at least one account has connected before trying to add a contact or channel." = "Por favor, asegúrate de que al menos una cuenta se haya conectado antes de intentar agregar un contacto o canal.";
 "Please make sure at least one account has connected before trying to add a contact." = "Por favor, asegúrate que al menos has conectado una cuenta antes de intentar añadir un contacto.";
@@ -621,7 +621,7 @@
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections.";
 "Select a Background" = "Seleccionar un fondo";
 "Select a background to display behind conversations" = "Seleccionar un fondo para mostrar detrás de las conversaciones";
-"Select a background to display behind conversations with %@" = "Select a background to display behind conversations with %@";
+"Select a background to display behind conversations with %@" = "Seleccionar un fondo para mostrar detrás de lasconversaciones con %@";
 "Select a default background to display behind conversations." = "Selecciona un fondo predeterminado para mostrar detrás de las conversaciones.";
 "Select Action" = "Seleccionar acción";
 "Select Background" = "Seleccionar fondo";
@@ -654,7 +654,7 @@
 "Sent Videos" = "Vídeos enviados";
 "Server" = "Servidor";
 "Server does not support account removal" = "El servidor no soporta la eliminación de cuentas";
-"Server for domain '%@' not responding!" = "Server for domain '%@' not responding!";
+"Server for domain '%@' not responding!" = "¡El servidor para el dominio '%@' no responde!";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Server implementation error: SASL2 tasks empty, account disabled!";
 "Server returned invalid xml!" = "¡El servidor devolvió xml inválido!";
 "Server returned SASL2 error '%@'." = "El servidor devolvió el error SASL2 '%@'.";
@@ -706,7 +706,7 @@
 "The account has been removed" = "La cuenta ha sido borrada";
 "The account has been saved" = "La cuenta ha sido guardada";
 "The chat history has been cleared" = "El historial de chat ha sido borrado";
-"The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later.";
+"The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "La conexión con el servidor se interrumpió y no se pudieron obtener mensajes antiguos para este chat. Por favor, inténtalo de nuevo más tarde.";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later. %@" = "La conexión con el servidor se interrumpió y no se pudieron obtener mensajes antiguos para este chat. Por favor, inténtalo de nuevo más tarde. %@";
 "The current password is not correct." = "La contraseña actual no es correcta.";
 "The jid has to be in the form 'user@domain.tld' to be correct." = "El jid tiene que estar en formato 'usuario@dominio.tld' para ser correcto.";
@@ -729,7 +729,7 @@
 "There was a SASL error on the server." = "Hubo un error SASL en el servidor.";
 "There was an error decrypting this encrypted KEY TRANSPORT message (Signal error). To resolve this, try sending an encrypted message to this person." = "There was an error decrypting this encrypted KEY TRANSPORT message (Signal error). To resolve this, try sending an encrypted message to this person.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "Hubo un error al descifrar este mensaje cifrado (error de Signal). Para resolver esto, intenta enviar un mensaje cifrado a esta persona.";
-"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)";
+"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "Hubo un error al descifrar este mensaje cifrado (error de Signal). Para resolver esto, intenta enviar un mensaje encriptado a esta persona. (%@)";
 "There was an error uploading the file to the server" = "Ha habido un error cargando el fichero en el servidor";
 "These are SRV resource records found for your domain" = "Estos son registros de recursos SRV encontrados para tu dominio";
 "These are SRV resource records found for your domain." = "Estos son registros SRV encontrados para tu dominio.";
@@ -747,14 +747,14 @@
 "They will see when you are online. They will be able to send you encrypted messages." = "Ellos verán cuando estés en línea. Podrán enviarte mensajes cifrados.";
 "This account already exists in Monal." = "Esta cuenta ya existe en Monal.";
 "This account already exists on this instance" = "Esta cuenta ya existe en esta instancia";
-"This account already exists on this instance." = "This account already exists on this instance.";
+"This account already exists on this instance." = "Esta cuenta ya existe en esta instancia.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Esta aplicación es demasiado antigua y puede contener fallos de seguridad así como puede dejar de funcionar repentinamente.¡Por favor actualiza!";
 "This contact does not appear to have any devices that support encryption." = "Este contacto no parece tener ningún dispositivo compatible con el cifrado.";
 "This contact is already in the contact list of the selected account" = "Este contacto ya está en la lista de contactos de la cuenta seleccionada";
 "This contact is already in your contact list" = "Este contacto ya está en tu lista de contactos";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Es posible que este contacto no admita mensajes cifrados OMEMO. Vuelve a intentarlo en unos segundos.";
 "This invitation will expire on %@" = "Esta invitación expirará en %@";
-"This jid already exists on this instance." = "This jid already exists on this instance.";
+"This jid already exists on this instance." = "Este jid ya existe en esta instancia.";
 "This key belongs to this device and cannot be removed or disabled!" = "¡Esta clave pertenece a este dispositivo y no puede ser borrada o deshabilitada!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key.";
@@ -817,10 +817,10 @@
 "Unread Messages Below" = "Mensajes no leídos a continuación";
 "unsupported" = "sin soporte";
 "Untrusted key" = "Clave no confiable";
-"Upload Error" = "Upload Error";
+"Upload Error" = "Error al subir";
 "Upload Error: your account got disconnected while requesting upload slot" = "Error de carga: tu cuenta se desconectó mientras solicitaba un espacio de carga";
 "Upload files to the server to share with others." = "Sube archivos al servidor para compartirlos con otros.";
-"Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)";
+"Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Sube archivos al servidor para compartirlos con otros. (Tamaño máximo permitido informado por el servidor: %@)";
 "Uploading" = "Cargando";
 "Uploading file to server" = "Cargando fichero en el servidor";
 "Use your existing account or make a new one on the many servers around the world" = "Usa tu cuenta existente o crea una nueva en uno de los muchos servidores de todo el mundo";
@@ -840,8 +840,8 @@
 "Waiting for GPS signal" = "Esperando señal de GPS";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "No pudimos encontrar un código QR relacionado con xmpp";
-"We don't support any task requested by the server, account disabled: %@" = "We don't support any task requested by the server, account disabled: %@";
-"We don't support the single task requested by the server, account disabled: %@" = "We don't support the single task requested by the server, account disabled: %@";
+"We don't support any task requested by the server, account disabled: %@" = "No admitimos ninguna tarea solicitada por el servidor, cuenta deshabilitada: %@";
+"We don't support the single task requested by the server, account disabled: %@" = "No admitimos la tarea individual solicitada por el servidor, cuenta deshabilitada: %@";
 "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet." = "No pudimos conectar tu cuenta. Verifica tus credenciales y asegúrate de estar conectado a Internet.";
 "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@";
 "Weakest channel-binding type, not securing agains stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing agains stolen certs/keys, but detects wrongly issued certs.";
