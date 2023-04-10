@@ -36,7 +36,7 @@
 "Add New Account" = "Dodaj nowe konto";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Aby dodać nowe kontakty użyj \"+\" na górze. Twoi znajomi będą tu widoczni gdy będziecie mogli rozmawiać";
 "Add scanned Group/Channel or Contact" = "Add scanned Group/Channel or Contact";
-"Add to contacts" = "Add to contacts";
+"Add to contacts" = "Dodaj do kontaktów";
 "Adding MUC..." = "Adding MUC...";
 "Adding..." = "Adding...";
 "Advanced" = "Zaawansowane";
@@ -55,8 +55,8 @@
 "App" = "Aplikacja";
 "Apple Push Service" = "Usługa Apple Push";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Usługa Apple Push powinna być zawsze włączona. Jeśli jest wyłączona, twoje urządzenie nie będzie dostawać powiadomień.";
-"Apple Push Token" = "Apple Push Token";
-"Apple Push Token is not available!" = "Apple Push Token is not available!";
+"Apple Push Token" = "Token Apple Push";
+"Apple Push Token is not available!" = "Token Apple Push niedostępny!";
 "Approve new contact" = "Zatwierdź nowy kontakt";
 "Appserver error" = "Błąd serwera aplikacji";
 "Appserver returned invalid data" = "Server aplikacji zwrócił nieprawidłowe dane";
@@ -80,12 +80,12 @@
 "Backgrounds" = "Tła";
 "Block" = "Blokować";
 "Block %@ from contacting you?" = "Zablokować %@?";
-"Block Contact" = "Block Contact";
+"Block Contact" = "Zablokuj kontakt";
 "Block Sender" = "Zablokuj nadawcę";
 "Blocked Users" = "Zablokowani użytkownicy";
 "Blocking is not supported by the server" = "Blokowanie nie jest obsługiwane przez serwer";
 "Blocking not supported" = "Blokowanie nie jest obsługiwane";
-"Blocking/Unblocking Not Supported" = "Blocking/Unblocking Not Supported";
+"Blocking/Unblocking Not Supported" = "Blokowanie/Odblokowywanie nie wspierane";
 "BODY" = "BODY";
 "Call ended for an unknown reason" = "Call ended for an unknown reason";
 "Call ended, duration: %@" = "Call ended, duration: %@";
@@ -109,7 +109,7 @@
 "Change Contact Background" = "Change Contact Background";
 "Change Password" = "Zmień hasło";
 "Changing Password" = "Zmiana hasła";
-"Channel subject:" = "Channel subject:";
+"Channel subject:" = "Temat kanału:";
 "Chat Backgrounds" = "Tła rozmów";
 "Chat for free with your friends, colleagues and family!" = "Rozmawiaj ze znajomymi, współpracownikami i rodziną za darmo!";
 "Chat Logs" = "Rejestry rozmów";
@@ -153,7 +153,7 @@
 /* Chat msg action */
 "Copy" = "Kopiuj";
 "Copy link to clipboard" = "Copy link to clipboard";
-"Copy to clipboard" = "Copy to clipboard";
+"Copy to clipboard" = "Skopiuj do schowka";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Brak dostępu do kamery";
 "Could not access Finder item!" = "Nie można uzyskać dostępu do elementu Findera!";
@@ -181,7 +181,7 @@
 "Current Password" = "Aktualne hasło";
 "Currently Online" = "Currently Online";
 "Debug" = "Debugowanie";
-"Debugging" = "Debugging";
+"Debugging" = "Debugowanie";
 "Decline" = "Odrzuć";
 "Default Background" = "Default Background";
 "Default chat backgrounds are from the Ubuntu project." = "Domyślne tła rozmów pochodzą z projektu Ubuntu.";
@@ -191,10 +191,10 @@
 "Delete" = "Usuń";
 "Delete Account" = "Usuń konto";
 "Delete Account on Server" = "Usuń konto z serwera";
-"Delete Key" = "Delete Key";
+"Delete Key" = "Usuń klucz";
 "Delete Locally" = "Usuń lokalnie";
 "Deny new contact" = "Odrzuć nowy kontakt";
-"Device ID: " = "Device ID: ";
+"Device ID: " = "ID urządzenia: ";
 "DeviceID: " = "DeviceID: ";
 "Devices of %@" = "Urządzenia %@";
 "Direct TLS" = "Bezpośredni TLS";
@@ -211,7 +211,7 @@
 "Display Settings" = "Ustawienia wyświetlania";
 "Do you really want to block this contact? You won't receive any messages from this contact." = "Do you really want to block this contact? You won't receive any messages from this contact.";
 "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "Czy na pewno chcesz wyczyścić wszystkie wiadomości wymieniane w tej rozmowie? Jeśli korzystasz z OMEMO, nie będziesz w stanie ich ponownie załadować z serwera.";
-"Do you really want to delete this key?" = "Do you really want to delete this key?";
+"Do you really want to delete this key?" = "Na pewno usunąć ten klucz?";
 "Do you really want to disable encryption for this contact?" = "Czy na pewno chcesz wyłączyć szyfrowanie tego kontaktu?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Czy na pewno chcesz zresetować sesję OMEMO? Powinieneś zresetować połączenie tylko wtedy, gdy wiesz, co robisz!";
 "Do you want to trust the scanned fingerprints from" = "Czy chcesz zaufać zeskanowanym odciskom palców";
@@ -219,7 +219,7 @@
 "Doing a lot of work..." = "Doing a lot of work...";
 "Domain missing" = "Brak domeny";
 "Don't trust Key" = "Don't trust Key";
-"Done" = "Done";
+"Done" = "Gotowe";
 "Dont' trust Key" = "Dont' trust Key";
 "Download" = "Ściągnij";
 "Download error" = "Błąd pobierania";
@@ -286,7 +286,7 @@
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Nie udało się wprowadzić grupy/kanału %@: To nie jest grupa/kanał!";
 "Failed to enter groupchat %@" = "Nie udało się wejść do czatu grupowego %@";
 "Failed to enter groupchat %@: This is not a groupchat!" = "Nie udało się wejść do czatu grupowego %@: To nie jest czat grupowy!";
-"Failed to load blocklist" = "Failed to load blocklist";
+"Failed to load blocklist" = "Nie udało się wczytać listy blokad";
 "Failed to parse URL returned by HTTP upload server" = "Nie udało się przeanalizować adresu URL zwróconego przez serwer przesyłania HTTP";
 "Failed to publish avatar image for group/channel %@" = "Nie udało się opublikować obrazu awatara dla grupy/kanału %@";
 "Failed to publish avatar image for groupchat %@" = "Nie udało się opublikować obrazu awatara dla czatu grupowego %@";
@@ -326,7 +326,7 @@
 "Group requires a password" = "Grupa wymaga hasła";
 "Group subject:" = "Group subject:";
 "Group/Channel error" = "Błąd grupy/kanału";
-"Group/Channel error in %@" = "Group/Channel error in %@";
+"Group/Channel error in %@" = "Błąd Grupy/Kanału w %@";
 "Group/Channel got destroyed: %@" = "Grupa/kanał został zniszczony: %@";
 "Group/Channel is mention only" = "Group/Channel is mention only";
 "Group/Channel not available anymore: %@" = "Grupa/kanał nie jest już dostępny: %@";
@@ -403,7 +403,7 @@
 "Loading more Messages from Server" = "Ładowanie większej liczby wiadomości z serwera";
 "Loading omemo bundles" = "Ładowanie pakietów omemo";
 "Loading omemo bundles: %@ / %@" = "Ładowanie pakietów omemo: %1$@ / %2$@";
-"Loading omemo bundles: 0 / 0" = "Loading omemo bundles: 0 / 0";
+"Loading omemo bundles: 0 / 0" = "Wczytywanie OMEMO bundles: 0 / 0";
 "Loading registration form" = "Wczytuję formularz rejestracyjny";
 "Location Access Needed" = "Wymagany dostęp do usług lokalizacji";
 "Log" = "Rejestr";
@@ -546,7 +546,7 @@
 "Privacy" = "Prywatność";
 "Privacy Settings" = "Ustawienia prywatności";
 "Protocol support of your server (XEPs)" = "Informacje o serwerze";
-"Pushserver Region" = "Lokalizacja serwera push";
+"Pushserver Region" = "Lokalizacja serwera powiadomień";
 /* MLLoginView: QR-Code Button iOS12 only */
 "QR" = "QR";
 "QR code: Fingerprints found" = "QR code: Fingerprints found";
@@ -718,7 +718,7 @@
 "The qrcode contains a jid. Rescan the qrcode in the add user menu" = "Kod QR zawiera jid. Ponownie zeskanuj kod qr w menu dodawania użytkownika";
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for a acount. Go to settings and rescan the qrcode" = "Kod QR zawiera dane logowania do konta. Przejdź do ustawień i ponownie zeskanuj QRCode";
-"The resource '%@' has the following capabilities:" = "The resource '%@' has the following capabilities:";
+"The resource '%@' has the following capabilities:" = "Możliwości zasobu '%@':";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only.";
 "The server does not support blocking" = "Serwer nie obsługuje blokowania";
 "The server does not support blocking (XEP-0191)." = "Serwer nie wspiera funkcji XEP-0191: Blocking Command.";
@@ -873,7 +873,7 @@
 "XMPP Bind Error" = "Błąd powiązania XMPP";
 "XMPP Capabilities" = "XMPP Capabilities";
 "XMPP Disco Info Error" = "Błąd informacji o odkryciach XMPP";
-"XMPP External Service Disco Error" = "XMPP External Service Disco Error";
+"XMPP External Service Disco Error" = "Błąd XMPP External Service Disco";
 "XMPP ID" = "Identyfikator XMPP";
 "XMPP ID missing" = "Brak identyfikatora XMPP";
 "XMPP mam preferences error" = "Błąd preferencji mam XMPP";
