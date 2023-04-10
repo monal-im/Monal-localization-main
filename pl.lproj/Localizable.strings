@@ -51,18 +51,18 @@
 "Already present" = "Already present";
 "Already uploading this content, ignoring" = "Już przesyłam tę treść, ignoruję";
 "Always archive" = "Zawsze archiwizuj";
-"Always use direct TLS, not STARTTLS" = "Zawsze używaj bezpośredniego TLS, a nie STARTTLS";
+"Always use direct TLS, not STARTTLS" = "Wymuś bezpośrednie TLS, a nie STARTTLS";
 "App" = "Aplikacja";
-"Apple Push Service" = "Usługi Push Apple";
-"Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Usługi Push Apple powinny być zawsze włączone. Jeśli zostaną wyłączone, twoje urządzenie nie będzie mogło komunikować się z serwerami Apple.";
+"Apple Push Service" = "Usługa Apple Push";
+"Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Usługa Apple Push powinna być zawsze włączona. Jeśli jest wyłączona, twoje urządzenie nie będzie dostawać powiadomień.";
 "Apple Push Token" = "Apple Push Token";
 "Apple Push Token is not available!" = "Apple Push Token is not available!";
 "Approve new contact" = "Zatwierdź nowy kontakt";
 "Appserver error" = "Błąd serwera aplikacji";
 "Appserver returned invalid data" = "Server aplikacji zwrócił nieprawidłowe dane";
 "Archive chat" = "Archiwum czatu";
-"Archive only if the contact is in contact list" = "Archiwizuj tylko wtedy, gdy kontakt jest na liście kontaktó";
-"Archive only if the contact is in roster" = "Archiwizuj tylko wtedy, gdy kontakt jest w spisie";
+"Archive only if the contact is in contact list" = "Archiwizuj tylko jeśli kontakt jest na liście kontaktów";
+"Archive only if the contact is in roster" = "Archiwizuj tylko jeśli kontakt jest na liście kontaktów";
 "Audio recoder init fail." = "Błąd inicjowania rejestratora audio.";
 "Audio recoder prepareToRecord fail." = "Nie udało się przygotować rejestratora dźwięku do nagrywania.";
 "Audio Recoder recode fail" = "Nagrywanie rejestratora dźwięku nie powiodło się";
@@ -71,8 +71,8 @@
 "Audio Recoder set category error: %@" = "Błąd kategorii rejestratora dźwięku: %@";
 "Auto Join" = "Automatycznie dołączaj";
 "Auto-Download Media" = "Automatyczne pobieranie multimediów";
-"Auto-Download Media Settings" = "Ustawienia automatycznego pobierania multimediów";
-"Autodelete all messages after 3 days" = "Automatycznie usuń wszystkie wiadomości po 3 dniach";
+"Auto-Download Media Settings" = "Ustawienia multimediów";
+"Autodelete all messages after 3 days" = "Automatycznie usuwaj wszystkie wiadomości po 3 dniach";
 "Automatic media download" = "Automatyczne pobieranie multimediów";
 "Automatically fetch previews of received links" = "Automatycznie pobieraj podglądy otrzymanych linków";
 "Automatically send when you were online" = "Automatycznie wyślij gdy będziesz online";
@@ -119,7 +119,7 @@
 /* addContact - checking HUD */
 "Checking if the jid you provided is correct" = "Sprawdzanie, czy podany jid jest poprawny";
 "Choices Galore" = "Duży wybór";
-"Clear Chat History" = "Wyczyść historię rozmowy";
+"Clear Chat History" = "Usuń historię rozmów";
 "Clear chat history for this contact" = "Wyczyść historię czatu dla tego kontaktu";
 "Clear chat history of this channel" = "Clear chat history of this channel";
 "Clear chat history of this contact" = "Clear chat history of this contact";
@@ -190,7 +190,7 @@
 /* Chat msg action */
 "Delete" = "Usuń";
 "Delete Account" = "Usuń konto";
-"Delete Account on Server" = "Delete Account on Server";
+"Delete Account on Server" = "Usuń konto z serwera";
 "Delete Key" = "Delete Key";
 "Delete Locally" = "Usuń lokalnie";
 "Deny new contact" = "Odrzuć nowy kontakt";
@@ -205,8 +205,8 @@
 "Discovering devices..." = "Discovering devices...";
 "Display" = "Wyświetlanie";
 "Display Name" = "Wyświetlana nazwa";
-"Display Name And Message" = "Wyświetlaj nazwę i wiadomość";
-"Display Only Name" = "Wyświetlaj tylko nazwę";
+"Display Name And Message" = "Pokaż nazwę i wiadomość";
+"Display Only Name" = "Pokaż tylko nazwę";
 "Display Only Placeholder" = "Wyświetl tylko symbol zastępczy";
 "Display Settings" = "Ustawienia wyświetlania";
 "Do you really want to block this contact? You won't receive any messages from this contact." = "Do you really want to block this contact? You won't receive any messages from this contact.";
@@ -235,11 +235,11 @@
 "Edit" = "Edytować";
 "Email Support" = "Wsparcie e-mail";
 "Enable encryption by default for new chats" = "Enable encryption by default for new chats";
-"Enable OMEMO per default" = "Włącz OMEMO domyślnie";
+"Enable OMEMO per default" = "OMEMO domyślnie włączone";
 "Enabled" = "Włączone";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "Zaszyfrowna wiadomość została wysłana w starszym formacie, którego Monal nie wspiera. Poproś kontakt o aktualizację używanego klienta. (GCM error)";
 "Encrypted session to this device broken beyond repair." = "Encrypted session to this device broken beyond repair.";
-"Encryption Keys" = "Klucze szyfrowania";
+"Encryption Keys" = "Klucze szyfrujące";
 "Encryption Keys (OMEMO)" = "Klucze szyfrujące OMEMO";
 "Encryption Not Supported" = "Szyfrowanie nie wspierane";
 "Enter the jid that you want to block" = "Wpisz jid, który chcesz zablokować";
@@ -433,7 +433,7 @@
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u.";
 "Messages are encrypted" = "Messages are encrypted";
 "Messages are NOT encrypted" = "Messages are NOT encrypted";
-"Messages never archived by default." = "Domyślnie wiadomości nie są archiwozowane.";
+"Messages never archived by default." = "Domyślnie wiadomości nie są archiwizowane.";
 "Method: %@" = "Metoda: %@";
 "Migration Assistant" = "Migration Assistant";
 "Missing Call Support" = "Missing Call Support";
@@ -455,7 +455,7 @@
 "Muc got destroyed: %@" = "Muc został zniszczony: %@";
 "Muc not available anymore: %@" = "Muc niedostępny: %@";
 "Mute" = "Wycisz";
-"My Encryption Keys" = "Moje klucze szyfrowania";
+"My Encryption Keys" = "Moje klucze szyfrujące";
 "My Keys" = "Moje klucze";
 "My Name/Nickname" = "Moje imię/Pseudonim";
 "Name can't be empty" = "Nazwa nie moze być pusta";
@@ -492,7 +492,7 @@
 "Notes to self" = "Notes to self";
 "Notes to self: %@" = "Notes to self: %@";
 "Nothing to see" = "Nic tu nie ma";
-"Notification" = "Powiadomienie";
+"Notification" = "Powiadomienia";
 "Notification Changes" = "Zmiany powiadomień";
 "Notification Settings" = "Ustawienia powiadomień";
 "Notifications" = "Powiadomienia";
@@ -510,7 +510,7 @@
 "Open" = "Otwórz";
 "Open app to see more" = "Otwórz aplikację, aby zobaczyć więcej";
 "Open Source" = "Otwarty kod źródłowy";
-"Optional Hardcoded Hostname" = "Opcjonalna zakodowana nazwa hosta";
+"Optional Hardcoded Hostname" = "Opcjonalna hardkodowana nazwa hosta";
 "Optional Port" = "Opcjonalny port";
 "Os: " = "System operacyjny: ";
 "Own device key" = "Own device key";
@@ -546,7 +546,7 @@
 "Privacy" = "Prywatność";
 "Privacy Settings" = "Ustawienia prywatności";
 "Protocol support of your server (XEPs)" = "Informacje o serwerze";
-"Pushserver Region" = "Pushserver Region";
+"Pushserver Region" = "Lokalizacja serwera push";
 /* MLLoginView: QR-Code Button iOS12 only */
 "QR" = "QR";
 "QR code: Fingerprints found" = "QR code: Fingerprints found";
@@ -601,7 +601,7 @@
 "Reply" = "Odpowiedź";
 "ReplyButton" = "PrzyciskOdpowiedzi";
 "Reset OMEMO session" = "Zresetuj sesję OMEMO";
-"Resource" = "Zaplecze";
+"Resource" = "Zasób";
 "Resources" = "Zasoby";
 "Resume a stream when disconnected. Results in faster reconnect and saves battery life." = "Wznów transmisję po rozłączeniu. Powoduje szybsze ponowne łączenie i oszczędza żywotność baterii.";
 /* Chat msg action */
@@ -628,13 +628,13 @@
 "Select background image" = "Select background image";
 "Select File" = "Wybierz plik";
 "Select From Photos" = "Wybierz ze zdjęć";
-"Select Message Archive Management (MAM) Preferences " = "Wybierz Preferencje zarządzania archiwum wiadomości (MAM) ";
+"Select Message Archive Management (MAM) Preferences " = "Preferencje archiwizacji Message Archive Management (MAM) na serwerze ";
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Wybierz dźwięki odtwarzane z powiadomieniami o nowych wiadomościach. Domyślnie jest to Xylophone.";
 "Send" = "Wysłać";
 "Send A Message" = "Wysłać wiadomość";
-"Send Last Interaction Time" = "Wyślij czas ostatniej interakcji";
+"Send Last Interaction Time" = "Informuj o czasie ostatniej interakcji";
 "Send Location" = "Wyślij lokalizację";
-"Send message received state" = "Wyślij stan otrzymanej wiadomości";
+"Send message received state" = "Informuj o otrzymaniu wiadomości";
 "Send Typing Notifications" = "Wysyłaj powiadomienia o pisaniu";
 "Sending..." = "Wysyłanie...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Wysyła hasło w postaci zwykłego tekstu (tylko zaszyfrowane przez TLS), niezbyt bezpieczne";
@@ -686,7 +686,7 @@
 "SSL Error: Host name mismatch" = "Błąd SSL: niezgodność nazwy hosta";
 "SSL Error: Unknown root certificate" = "Błąd SSL: nieznany certyfikat główny";
 "Start Using Monal" = "Zacznij korzystać z Monala";
-"Status" = "Status";
+"Status" = "Stan";
 "Status Message" = "Status";
 "Status message:" = "Status:";
 "Submit A Bug" = "Zgłoś błąd";
@@ -694,7 +694,7 @@
 "Success!" = "Sukces!";
 "Successfully joined MUC %@!" = "Successfully joined MUC %@!";
 "Support" = "wsparcie";
-"Sync Read-Markers" = "Synchronizuj znaczniki odczytu";
+"Sync Read-Markers" = "Informuj o przeczytaniu wiadomości";
 "Synchronize your messages on all loggedin devices." = "Synchronizuj swoje wiadomości na wszystkich zalogowanych urządzeniach.";
 "Tell my contacts if I've read a message" = "Poinformuj moje kontakty, jeśli przeczytałem wiadomość";
 "Tell my contacts if my device received a message" = "Poinformuj moje kontakty, jeśli moje urządzenie otrzymało wiadomość";
@@ -721,7 +721,7 @@
 "The resource '%@' has the following capabilities:" = "The resource '%@' has the following capabilities:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only.";
 "The server does not support blocking" = "Serwer nie obsługuje blokowania";
-"The server does not support blocking (XEP-0191)." = "The server does not support blocking (XEP-0191).";
+"The server does not support blocking (XEP-0191)." = "Serwer nie wspiera funkcji XEP-0191: Blocking Command.";
 "The user %@ (%@) wants to add you to his contact list" = "Użytkownik %1$@ (%2$@) chce dodać Cię do swojej listy kontaktów";
 "The user %@ (%@) wants to add you to their contact list" = "The user %1$@ (%2$@) wants to add you to their contact list";
 "The username does not need to have an @ symbol. Please try again." = "Nazwa użytkownika nie musi zawierać symbolu @. Proszę spróbuj ponownie.";
@@ -740,7 +740,7 @@
 "These are the SASL2 methods your server supports." = "Oto metody SASL2 obsługiwane przez Twój serwer.";
 "These are the TLS versions supported by Monal, the one supported by your server will be green." = "Są to wersje TLS obsługiwane przez Monal, ta obsługiwana przez Twój serwer będzie zielona.";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "Są to wersje TLS obsługiwane przez Monal, ta używana do łączenia się z serwerem będzie zielona.";
-"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it." = "To są twoje klucze szyfrowania. Każde urządzenie to inne miejsce, w którym się zalogowałeś. Powinieneś zaufać kluczowi po jego zweryfikowaniu.";
+"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it." = "To są twoje klucze szyfrujące. Każde urządzenie to inne miejsce, w którym się zalogowałeś. Powinieneś zaufać kluczowi po jego zweryfikowaniu.";
 "They can see your keys. You can't see theirs" = "Widzą twoje klucze. Nie możesz zobaczyć ich";
 "They will no longer see when you are online. They may not be able to access your encryption keys." = "Nie będą już widzieć, kiedy jesteś online. Mogą nie mieć dostępu do kluczy szyfrowania.";
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "Nie będą już widzieć, kiedy jesteś online. Mogą nie być w stanie wysyłać Ci zaszyfrowanych wiadomości.";
@@ -764,7 +764,7 @@
 "This message got retracted" = "This message got retracted";
 "This sender will be able to send you messages" = "Ten nadawca będzie mógł wysyłać Ci wiadomości";
 "This sender will no longer be able to contact you" = "Ten nadawca nie będzie już mógł się z Tobą skontaktować";
-"This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Ten serwer nie obsługuje przesyłania plików HTTP (XEP-0363). Poproś administratora o jego włączenie.";
+"This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Ten serwer nie wspiera przesyłania plików metodą XEP-0363: HTTP File Upload. Poproś administratora o jej włączenie.";
 "This server does not have any SRV records in DNS." = "Ten serwer nie ma żadnych rekordów SRV w DNS.";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Ten serwer nie obsługuje żadnego nowoczesnego wiązania kanałów w celu zabezpieczenia przed atakami MITM na warstwę TLS.";
 "This server does not support modern SASL2 authentication." = "Ten serwer nie obsługuje nowoczesnego uwierzytelniania SASL2.";
@@ -855,19 +855,19 @@
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
 "Wrong menu" = "Złe menu";
-"XEP-0163 Personal Eventing Protocol" = "XEP-0163 Osobisty protokół zdarzeń";
-"XEP-0191: Blocking Command" = "XEP-0191: Polecenie blokowania";
-"XEP-0198: Stream Management" = "XEP-0198: Zarządzanie strumieniem";
-"XEP-0199: XMPP Ping" = "XEP-0199: Ping XMPP";
-"XEP-0237: Roster Versioning" = "XEP-0237: Wersje spisu";
-"XEP-0280: Message Carbons" = "XEP-0280: Wiadomości Carbons";
-"XEP-0313: Message Archive Management" = "XEP-0313: Zarządzanie archiwum wiadomości";
-"XEP-0352: Client State Indication" = "XEP-0352: Wskazanie stanu klienta";
-"XEP-0357: Push Notifications" = "XEP-0357: Powiadomienia push";
-"XEP-0363: HTTP File Upload" = "XEP-0363: Przesyłanie plików HTTP";
-"XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379: Wstępnie uwierzytelniona subskrypcja listy";
+"XEP-0163 Personal Eventing Protocol" = "XEP-0163 Personal Eventing Protocol";
+"XEP-0191: Blocking Command" = "XEP-0191: Blocking Command";
+"XEP-0198: Stream Management" = "XEP-0198: Stream Management";
+"XEP-0199: XMPP Ping" = "XEP-0199: XMPP Ping";
+"XEP-0237: Roster Versioning" = "XEP-0237: Roster Versioning";
+"XEP-0280: Message Carbons" = "XEP-0280: Message Carbons";
+"XEP-0313: Message Archive Management" = "XEP-0313: Message Archive Management";
+"XEP-0352: Client State Indication" = "XEP-0352: Client State Indication";
+"XEP-0357: Push Notifications" = "XEP-0357: Push Notifications";
+"XEP-0363: HTTP File Upload" = "XEP-0363: HTTP File Upload";
+"XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379: Pre-Authenticated Roster Subscription";
 "XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: SASL SCRAM Downgrade Protection";
-"XEP-xxxx: SASL SCRAM Downgrade Protection" = "XEP-xxxx: Ochrona SASL SCRAM przy zmianie wersji";
+"XEP-xxxx: SASL SCRAM Downgrade Protection" = "XEP-xxxx: SASL SCRAM Downgrade Protection";
 "XMPP" = "XMPP";
 "XMPP Account Info Error" = "Błąd informacji o koncie XMPP";
 "XMPP Bind Error" = "Błąd powiązania XMPP";
@@ -879,7 +879,7 @@
 "XMPP mam preferences error" = "Błąd preferencji mam XMPP";
 "XMPP protocol extension for communications blocking." = "Rozszerzenie protokołu XMPP do blokowania komunikacji.";
 "XMPP protocol extension for sending application-level pings over XML streams." = "Rozszerzenie protokołu XMPP do wysyłania pingów na poziomie aplikacji przez strumienie XML.";
-"XMPP Roster Error" = "Błąd spisu XMPP";
+"XMPP Roster Error" = "Błąd listy kontaktów XMPP";
 "XMPP server domain not valid!" = "XMPP server domain not valid!";
 "XMPP stream error %@: %@" = "Błąd strumienia XMPP %1$@: %2$@";
 "XMPP stream error: %@" = "Błąd strumienia XMPP: %@";
@@ -913,8 +913,8 @@
 "Your contact may to not support Monal-Style calls. Your call might never reach its destination." = "Your contact may to not support Monal-Style calls. Your call might never reach its destination.";
 "Your entered XMPP ID is missing the domain" = "W podanym identyfikatorze XMPP brakuje domeny";
 "Your entered XMPP ID is missing the username" = "W podanym identyfikatorze XMPP brakuje nazwy użytkownika";
-"Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Twój serwer nie obsługuje MAM (XEP-0313). Oznacza to, że możesz często przegapić przychodzące wiadomości !! Powinieneś zmienić serwer lub porozmawiać z administratorem serwera, aby to włączyć!";
-"Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Twój serwer nie obsługuje zarządzania strumieniami (XEP-0198). Oznacza to, że Twoje wychodzące wiadomości mogą się często gubić!! Powinieneś zmienić serwer lub porozmawiać z administratorem serwera, aby to włączyć!";
+"Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Twój serwer nie wspiera funkcji MAM (XEP-0313). Możesz przegapić przychodzące wiadomości. Zaleca się zmienić serwer XMPP lub poprosić administratora aktualnego serwera o włączenie funkcji XEP-0313!";
+"Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Twój serwer nie wspiera funkcji XEP-0198: Stream Management. Możesz przegapić przychodzące wiadomości. Zaleca się zmienić serwer XMPP lub poprosić administratora aktualnego serwera o włączenie funkcji XEP-0198!";
 "Your status" = "Twój status";
 "Your XMPP account should be in in the format user@domain. For special configurations, use manual setup." = "Twoje konto XMPP powinno mieć format użytkownik@domena. W przypadku specjalnych konfiguracji użyj ręcznej konfiguracji.";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup.";
