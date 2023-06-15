@@ -218,9 +218,9 @@
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "¿Quieres confiar en las huellas dactilares escaneadas del contacto %@ cuando utilices tu cuenta %@?";
 "Doing a lot of work..." = "Haciendo un montón de cosas...";
 "Domain missing" = "falta el dominio";
-"Don't trust Key" = "Don't trust Key";
+"Don't trust Key" = "No confíes en la clave";
 "Done" = "Hecho";
-"Dont' trust Key" = "Dont' trust Key";
+"Dont' trust Key" = "No confíes en Key";
 "Download" = "Descargar";
 "Download error" = "Error de descarga";
 "Draft:" = "Borrador:";
@@ -264,8 +264,8 @@
 "Error while decrypting" = "Error mientras se descifraba";
 "Error while decrypting: iv.length != 12" = "Error al descifrar: longitud iv != 12";
 "Error: %@" = "Error: %@";
-"Error: Account disabled, can not display keys!" = "Error: Account disabled, can not display keys!";
-"Error: No contacts to display keys for!" = "Error: No contacts to display keys for!";
+"Error: Account disabled, can not display keys!" = "Error: ¡Cuenta deshabilitada, no se pueden mostrar las claves!";
+"Error: No contacts to display keys for!" = "Error: ¡No hay contactos para mostrar claves!";
 "Error: Received message is empty" = "Error: El mensaje recibido está vacío";
 "Error: Received OMEMO message is empty" = "Error: El mensaje OMEMO recibido está vacío";
 "Escape The Garden" = "Escapar del jardín";
@@ -442,7 +442,7 @@
 "Missing permission" = "Falta permiso";
 "Monal" = "Monal";
 "Monal  uses your location when you send a location message in a conversation." = "Monal  usa tu ubicación cuando envías un mensaje de ubicación en una conversación.";
-"Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal confía en esta clave, pero aún no se compararon las huellas . Para aumentar la seguridad, confirma con el contacto que las huellas mostradas coinciden antes de confiar en esta clave.";
+"Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal confía en esta clave, pero aún no se compararon las huellas . ¡Para aumentar la seguridad, confirma con el contacto que las huellas mostradas coinciden antes de confiar en esta clave!";
 "Monal did not received a gps location. Please try again later." = "Monal no recibió una ubicación gps. Por favor, inténtalo de nuevo más tarde.";
 "Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal no tiene acceso a tu ubicación. Actualiza el acceso a la ubicación en la configuración de privacidad de tu dispositivo.";
 "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal no confía en esta clave. O se deshabilitó manualmente o no se verificó manualmente mientras se verifican otras claves de ese contacto. Puedes confiar en esta clave utilizando el elemento de alternar. Asegúrate con el contacto de que las huellas coincidan antes de confiar en esta clave.";
@@ -475,7 +475,7 @@
 "No connected accounts" = "No hay cuentas conectadas";
 "No Contact Selected" = "Ningún contacto seleccionado";
 "No Empty Values" = "Sin valores vacíos";
-"No Empty Values!" = "No Empty Values!";
+"No Empty Values!" = "¡Sin valores vacíos!";
 "No enabled account found" = "No se encontró ninguna cuenta habilitada";
 "No further error description" = "No hay más descripción del error";
 "No GPS location received" = "No se ha recibido ninguna ubicación GPS";
@@ -536,7 +536,7 @@
 "Please make sure you have entered a username and password." = "Por favor, asegúrate de que has entrado un usuario y una contraseña.";
 "Please make sure you have entered a username, password." = "Por favor, asegúrate de haber ingresado un nombre de usuario, contraseña.";
 "Please make sure you have entered a valid jid." = "Asegúrate de haber ingresado un jid válido.";
-"Please make sure you have entered the same password in both password fields." = "Please make sure you have entered the same password in both password fields.";
+"Please make sure you have entered the same password in both password fields." = "Asegúrate de haber ingresado la misma contraseña en ambos campos de contraseña.";
 "Please open the app to retry" = "Abre la aplicación para volver a intentarlo";
 "Please provide a valid XMPP server domain or select one." = "Proporciona un dominio de servidor XMPP válido o selecciona uno.";
 "Please select a XMPP server or provide one." = "Selecciona un servidor XMPP o proporciona uno.";
@@ -551,7 +551,7 @@
 "Pushserver Region" = "Región de Pushserver";
 /* MLLoginView: QR-Code Button iOS12 only */
 "QR" = "QR";
-"QR code: Fingerprints found" = "QR code: Fingerprints found";
+"QR code: Fingerprints found" = "Código QR: Huellas dactilares encontradas";
 "QR-Code Scanner" = "Escáner de código QR";
 /* catalina warning */
 "QR-Code scanning is not supported on catalina" = "El escaneo de código QR no es compatible con catalina";
@@ -615,8 +615,8 @@
 "Room" = "Sala";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Salted Challenge Response Authentication Mechanism using the given Hash Method";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding";
-"SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
-"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
+"SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Ataque de degradación de SASL detectado a través de SSDP, cancelando la autenticación y deshabilitando la cuenta para limitar el daño. Debes volver a habilitar tu cuenta una vez que estés nuevamente en un entorno de red limpio.";
+"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Se detectó un ataque de degradación de SASL2 a SASL1, cancelando la autenticación y deshabilitando la cuenta para limitar el daño. Debes volver a habilitar tu cuenta una vez que estés nuevamente en un entorno de red limpio.";
 "Saving changes to server" = "Guardando cambios en el servidor";
 /* mac only string */
 "Scroll down to load more messages" = "Bajar para cargar más mensajes";
@@ -657,7 +657,7 @@
 "Server" = "Servidor";
 "Server does not support account removal" = "El servidor no soporta la eliminación de cuentas";
 "Server for domain '%@' not responding!" = "¡El servidor para el dominio '%@' no responde!";
-"Server implementation error: SASL2 tasks empty, account disabled!" = "Server implementation error: SASL2 tasks empty, account disabled!";
+"Server implementation error: SASL2 tasks empty, account disabled!" = "Error de implementación del servidor: tareas SASL2 vacías, ¡cuenta deshabilitada.";
 "Server returned invalid xml!" = "¡El servidor devolvió xml inválido!";
 "Server returned SASL2 error '%@'." = "El servidor devolvió el error SASL2 '%@'.";
 "Server Support Details" = "Detalles de soporte del servidor";
@@ -772,7 +772,7 @@
 "This server does not support modern SASL2 authentication." = "Este servidor no soporta autenticación SASL2 moderna.";
 "This should never happen, please contact the developers and provide a logfile!" = "¡Esto nunca debería suceder, comunica con los desarrolladores y proporciona un archivo de registro!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Esta especificación define semánticas para usar el protocolo de publicación-suscripción XMPP para transmitir eventos de cambio de estado asociados con una cuenta de presencia y mensajería instantánea.";
-"This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";
+"This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Esta especificación proporciona una forma de proteger los protocolos de enlace SASL y SASL2 frente a degradaciones de métodos y vinculación de canales.";
 "This will clear the whole chat history of this account from this device." = "Esto borrará todo el historial de chat de esta cuenta desde este dispositivo.";
 "This will clear the your own omemo session for debugging purposes" = "Esto borrará tu propia sesión de omemo con fines de depuración";
 "This will clear your own omemo session for debugging purposes" = "Esto borrará tu propia sesión de omemo con fines de depuración";
