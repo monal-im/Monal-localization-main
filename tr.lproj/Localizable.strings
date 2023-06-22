@@ -178,7 +178,7 @@
 "Could not synchronize" = "Senkronize edilemedi";
 "Could not upload file" = "Dosya karşıya yüklenemedi";
 /* Crash reporting */
-"Crash Detected" = "Crash Detected";
+"Crash Detected" = "Çökme Algılandı";
 "Creating invitation..." = "Davetiye oluşturuluyor...";
 "Current Password" = "Mevcut Şifre";
 "Currently Online" = "Şu Anda Çevrimiçi";
@@ -234,11 +234,11 @@
 "Duplicate Account!" = "Yinelenen Hesap!";
 "Duplicate jid!" = "Yinelenen jid!";
 /* Crash report error dialog */
-"E-Mail not enabled on device" = "E-Mail not enabled on device";
+"E-Mail not enabled on device" = "E-posta aygıtta etkinleştirilmedi";
 /* Chat msg action */
 "Edit" = "Düzenle";
 /* Crash report error dialog */
-"Email Error" = "Email Error";
+"Email Error" = "E-posta Hatası";
 "Email Support" = "E-posta desteği";
 "Enable encryption by default for new chats" = "Yeni sohbetler için şifrelemeyi varsayılan olarak etkinleştirme";
 "Enable OMEMO per default" = "Varsayılan olarak OMEMO'yu etkinleştirin";
@@ -496,7 +496,7 @@
 "No XMPP server!" = "XMPP sunucusu yok!";
 "No, keep encryption activated" = "Hayır, şifrelemeyi etkin tutun";
 /* Crash reporting */
-"No, thanks" = "No, thanks";
+"No, thanks" = "Hayır, teşekkürler";
 "None" = "Hiçbiri";
 "Not Authorized. Please check your credentials." = "Yetkili değil. Lütfen kimlik bilgilerinizi kontrol edin.";
 "Notes to self" = "Kendime notlar";
@@ -506,8 +506,8 @@
 "Notification Changes" = "Bildirim Değişiklikleri";
 "Notification Settings" = "Bildirim Ayarları";
 "Notifications" = "Bildirimler";
-"Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old expereince back." = "Bazı iOS değişiklikleri nedeniyle iOS 13'te bildirimler değişti. Şimdilik, metin veya onu kimin gönderdiği değil, yeni bir mesaj olduğunu söyleyen bir şey göreceksiniz. Bunu, eski deneyimi geri almak için Monal'ı güncellemeye çalışırken güvenilir mesajlaşmaya sahip olmanız için yapmaya karar verdim.";
-"Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old experience back." = "Bazı iOS değişiklikleri nedeniyle iOS 13'te bildirimler değişti. Şimdilik, metin veya onu kimin gönderdiği değil, yeni bir mesaj olduğunu söyleyen bir şey göreceksiniz. Bunu, eski deneyimi geri almak için Monal'ı güncellemeye çalışırken güvenilir mesajlaşmaya sahip olmanız için yapmaya karar verdim.";
+"Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old expereince back." = "Bazı iOS değişiklikleri nedeniyle iOS 13'te bildirimler değişti. Şimdilik sadece yeni bir mesaj olduğunu söyleyen bir şey göreceksiniz, metni veya kimin gönderdiğini değil. Eski deneyimi geri getirmek için Monal'ı güncellemeye çalışırken güvenilir mesajlaşmaya sahip olmanız için bunu yapmaya karar verdim.";
+"Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old experience back." = "Bazı iOS değişiklikleri nedeniyle iOS 13'te bildirimler değişti. Şimdilik sadece yeni bir mesaj olduğunu söyleyen bir şey göreceksiniz, metni veya kimin gönderdiğini değil. Eski deneyimi geri kazanmak için Monal'ı güncellemeye çalışırken güvenilir mesajlaşmaya sahip olmanız için bunu yapmaya karar verdim.";
 "now" = "şimdi";
 "Offline Contacts" = "Çevrimdışı Kişiler";
 "Ok" = "Tamam";
@@ -576,7 +576,7 @@
 "Read" = "Oku";
 "Rebuild Tokens" = "Tokenleri yeniden oluştur";
 "Rebuilding is useful if you are experiencing problems. This will require an app restart to work." = "Sorun yaşıyorsanız yeniden oluşturma yararlıdır. Bu eylem uygulamanın yeniden başlatılmasını gerektirecektir.";
-"Receive push notifications from via Apple even when disconnected. Vastly improves reliability." = "Bağlantısı kesilse bile Apple üzerinden anında iletme bildirimleri alın. Bu bildirimlerin sürekliliğini büyük ölçüde artırır.";
+"Receive push notifications from via Apple even when disconnected. Vastly improves reliability." = "Receive push notifications from via Apple even when disconnected. Vastly improves reliability.";
 "Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "Bağlantısı kesilse bile Apple üzerinden anında iletme bildirimleri alın. Bu bildirimlerin sürekliliğini büyük ölçüde artırır.";
 "Received" = "Alınan";
 /* directory for downloaded audios */
@@ -706,7 +706,7 @@
 "Successfully joined MUC %@!" = "Grup/Kanal'a başarıyla katılındı %@!";
 "Support" = "Destek";
 /* Crash reporting */
-"Sure, send it!" = "Sure, send it!";
+"Sure, send it!" = "Tabii, gönder!";
 "Sync Read-Markers" = "Okuma İşaretlerini Senkronize Et";
 "Synchronize your messages on all loggedin devices." = "Mesajlarınızı oturum açtığınız tüm cihazlarda senkronize edin.";
 "Tell my contacts if I've read a message" = "Bir mesajı okuduysam kişilerime söyle";
@@ -719,7 +719,7 @@
 "The account has been removed" = "Bu hesap silindi";
 "The account has been saved" = "Hesap kaydedildi";
 /* Crash reporting */
-"The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!";
+"The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "Uygulama en son başlatıldığında çöktü. Çökme raporu göndereyim mi? Bu çökme raporu gizlilikle ilgili veriler içerecektir. Bunu yalnızca çökmenizde hata ayıklamak için kullanacağız ve daha sonra sileceğiz!";
 "The chat history has been cleared" = "Sohbet geçmişi temizlendi";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "Sunucuyla bağlantı kesildi ve bu sohbet için eski iletiler getirilemedi. Lütfen daha sonra tekrar deneyiniz.";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later. %@" = "Sunucuyla bağlantı kesildi ve bu sohbet için eski iletiler getirilemedi. Lütfen daha sonra tekrar deneyiniz. %@";
@@ -769,7 +769,7 @@
 "This contact is already in your contact list" = "Bu kişi zaten kişi listenizde var";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Bu kişi OMEMO şifreli mesajları desteklemiyor olabilir. Lütfen birkaç saniye sonra tekrar deneyin.";
 /* Crash report error dialog */
-"This device is not configured to send email." = "This device is not configured to send email.";
+"This device is not configured to send email." = "Bu cihaz e-posta göndermek için yapılandırılmamıştır.";
 "This invitation will expire on %@" = "Bu davet %@ de sona erecektir";
 "This jid already exists on this instance." = "Bu jid bu örnekte zaten mevcut.";
 "This key belongs to this device and cannot be removed or disabled!" = "Bu anahtar bu cihaza aittir ve kaldırılamaz veya devre dışı bırakılamaz!";
@@ -838,7 +838,7 @@
 "Upload Error: your account got disconnected while requesting upload slot" = "Yükleme Hatası: Yükleme yuvası istenirken hesabınızın bağlantısı kesildi";
 "Upload files to the server to share with others." = "Dosyaları başkalarıyla paylaşmak için sunucuya yükleyin.";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Dosyaları başkalarıyla paylaşmak için sunucuya yükleyin. (Sunucu tarafından bildirilen izin verilen maksimum dosya boyutu: %@)";
-"Uploading" = "Yükleniyor";
+"Uploading" = "Karşıya yükleniyor";
 "Uploading file to server" = "Dosya sunucuya yükleniyor";
 "Use your existing account or make a new one on the many servers around the world" = "Mevcut hesabınızı kullanın veya dünyadaki birçok sunucuda yeni bir hesap oluşturun";
 /* BlockUserTable - blockJidForm */
@@ -943,6 +943,6 @@
 "📍 A Location" = "📍 Bir Konum";
 "📷 An Image" = "📷 Bir Resim";
 "🔗 A Link" = "🔗 Bir Bağlantı";
-"Copied to clipboard" = "Copied to clipboard";
-"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard.";
-"You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard.";
+"Copied to clipboard" = "Panoya kopyalandı";
+"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "Bunlar şifreleme anahtarlarınızdır. Her cihaz giriş yaptığınız farklı bir yerdir. Bir anahtarı doğruladığınızda ona güvenmelisiniz. Panoya kopyalamak için bir parmak izine çift dokunun.";
+"You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "Bir anahtarı doğruladığınızda ona güvenmelisiniz. Aşağıdaki anahtarı kişinizin ekranındakiyle karşılaştırarak doğrulayın. Panoya kopyalamak için bir parmak izine çift dokunun.";
