@@ -177,6 +177,8 @@
 "Could not send" = "Could not send";
 "Could not synchronize" = "Kon niet synchroniseren";
 "Could not upload file" = "Kon bestand niet uploaden";
+/* Crash reporting */
+"Crash Detected" = "Crash Detected";
 "Creating invitation..." = "Creating invitation...";
 "Current Password" = "Huidig wachtwoord";
 "Currently Online" = "Currently Online";
@@ -231,8 +233,12 @@
 "Duplicate Account" = "Duplicate account";
 "Duplicate Account!" = "Duplicate Account!";
 "Duplicate jid!" = "Duplicate jid!";
+/* Crash report error dialog */
+"E-Mail not enabled on device" = "E-Mail not enabled on device";
 /* Chat msg action */
 "Edit" = "Bewerken";
+/* Crash report error dialog */
+"Email Error" = "Email Error";
 "Email Support" = "E-mailondersteuning";
 "Enable encryption by default for new chats" = "Enable encryption by default for new chats";
 "Enable OMEMO per default" = "OMEMO standaart aanzetten";
@@ -489,6 +495,8 @@
 "no supported auth mechanism, disconnecting!" = "Geen ondersteund authenticatiemechanisme, verbinding wordt verbroken!";
 "No XMPP server!" = "No XMPP server!";
 "No, keep encryption activated" = "No, keep encryption activated";
+/* Crash reporting */
+"No, thanks" = "No, thanks";
 "None" = "Geen";
 "Not Authorized. Please check your credentials." = "Niet geauthoriseerd. Gelieve je aanmeldgegevens te controleren.";
 "Notes to self" = "Notes to self";
@@ -503,6 +511,7 @@
 "now" = "nu";
 "Offline Contacts" = "Offline contactpersonen";
 "Ok" = "Ok";
+/* Crash report error dialog */
 "OK" = "OK";
 "Okay" = "Okay";
 "Older, slower, but still secure TLS version" = "Older, slower, but still secure TLS version";
@@ -696,6 +705,8 @@
 "Success!" = "Gelukt!";
 "Successfully joined MUC %@!" = "Successfully joined MUC %@!";
 "Support" = "Ondersteuning";
+/* Crash reporting */
+"Sure, send it!" = "Sure, send it!";
 "Sync Read-Markers" = "Gelezen-markeringen synchroniseren";
 "Synchronize your messages on all loggedin devices." = "Synchroniseer je berichten op alle ingelogde apparaten.";
 "Tell my contacts if I've read a message" = "Geef aan mijn contactpersonen aan of ik een bericht gelezen heb";
@@ -707,6 +718,8 @@
 "The account has been deleted" = "De account werd verwijderd";
 "The account has been removed" = "The account has been removed";
 "The account has been saved" = "De account werd opgeslagen";
+/* Crash reporting */
+"The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!";
 "The chat history has been cleared" = "Gespreksgeschiedenis gewist";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "De verbinding met de server werd onderbroken en oude berichten uit dit gesprek konden niet opgehaald worden. Gelieve later opnieuw te proberen.";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later. %@" = "De verbinding met de server werd onderbroken en oude berichten uit dit gesprek konden niet opgehaald worden. Gelieve later opnieuw te proberen. %@";
@@ -755,6 +768,8 @@
 "This contact is already in the contact list of the selected account" = "This contact is already in the contact list of the selected account";
 "This contact is already in your contact list" = "This contact is already in your contact list";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Deze contact ondersteund mogelijk geen OMEMO versleutelde berichten. Alsjeblieft probeer opnieuw in een aantal seconden.";
+/* Crash report error dialog */
+"This device is not configured to send email." = "This device is not configured to send email.";
 "This invitation will expire on %@" = "This invitation will expire on %@";
 "This jid already exists on this instance." = "This jid already exists on this instance.";
 "This key belongs to this device and cannot be removed or disabled!" = "This key belongs to this device and cannot be removed or disabled!";
@@ -928,3 +943,6 @@
 "📍 A Location" = "📍 Een locatie";
 "📷 An Image" = "📷 Een afbeelding";
 "🔗 A Link" = "🔗 Een link";
+"Copied to clipboard" = "Copied to clipboard";
+"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard.";
+"You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard.";
