@@ -87,7 +87,7 @@
 "Blocking not supported" = "Blokeatzeko aukera ez dago gaituta";
 "Blocking/Unblocking Not Supported" = "Blokeatzea / Desblokeatzea ez dago gaituta";
 "BODY" = "GORPUTZA";
-"Call ended for an unknown reason" = "Deia amaitu da arrazoi ezezagun bat dela-eta";
+"Call ended for an unknown reason" = "Deia arrazoi ezezagun bat dela-eta amaitu da";
 "Call ended, duration: %@" = "Deia amaitu da, iraupena: %@";
 "Call ended: answered with other device" = "Deia amaitu da: beste gailu batean erantzun diote";
 "Call ended: connection failed" = "Deia amaitu da: konexioak huts egin du";
@@ -97,7 +97,7 @@
 "call screen did disappear" = "deiaren pantaila desagertu da";
 "Call was not answered" = "Ez diote deiari erantzun";
 "Calls: Allow P2P sessions" = "Deiak: Baimendu P2P saioak";
-"Calls: Allow TURN fallback to Monal-Servers" = "Deiak: baimendu TURN fallback to Monal-Servers";
+"Calls: Allow TURN fallback to Monal-Servers" = "Deiak: baimendu Monal zerbitzariak TURN erabilgai ez dagoenean";
 "Camera" = "Egin eta bidali argazkia";
 /* Camera permissions missing warning */
 "Camera permissions missing" = "Kamera erabiltzeko baimena falta da";
@@ -149,7 +149,7 @@
 "Contacts" = "Kontaktuak";
 "Contacts are usually in the format: username@dom.ain" = "Kontaktuek ondorengo formatua izan ohi dute: erabiltzailea@domeinua.eus";
 "Contacts are usually in the format: username@domain.something" = "Kontaktuek honako formatua izan ohi dute: erabiltzailea@domeinua.eus";
-"Cool Title" = "Titulu moloia";
+"Cool Title" = "Titulu bikaina";
 "Copied to clipboard" = "Arbelera kopiatu da";
 /* Chat msg action */
 "Copy" = "Kopiatu";
@@ -179,7 +179,7 @@
 "Could not synchronize" = "Ezin izan da sinkronizatu";
 "Could not upload file" = "Ezin izan da fitxategia igo";
 /* Crash reporting */
-"Crash Detected" = "Crash Detected";
+"Crash Detected" = "Kraskatu dela antzeman da";
 "Creating invitation..." = "Gonbidapena prestatzen…";
 "Current Password" = "Uneko pasahitza";
 "Currently Online" = "Linean une honetan";
@@ -303,8 +303,8 @@
 "Failed to publish own nickname on account %@" = "Ezin izan da %@ kontuko ezizena publikatu";
 "Failed to query for new messages on account %@" = "Ezin izan dira %@ kontuko mezu berriak kontsultatu";
 "Failed to query new messages for Group/Channel %@" = "%@ talde / kanaleko mezu berrien kontsultak kale egin du";
-"Failed to query new messages for Group/Channel (catchup) %@" = "Failed to query new messages for Group/Channel (catchup) %@";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "Failed to query new messages for Group/Channel (stanzaid) %@";
+"Failed to query new messages for Group/Channel (catchup) %@" = "Ezin izan dira %@ talde / kanalaren mezu berriak lortu (catchup)";
+"Failed to query new messages for Group/Channel (stanzaid) %@" = "Ezin izan dira %@ talde / kanalaren mezu berriak lortu (stanzaid)";
 "Failed to query new messages for groupchat %@" = "Ezin izan dira %@ kontuko taldeko txateko mezu berriak kontsultatu";
 "Failed to query newest stanzaid for account %@" = "Ezin izan dira %@ kontuko stanzaid berrienak kontsultatu";
 "Failed to query newest stanzaid for Group/Channel %@" = "%@ talde / kanaleko stanzaid berrienen kontsultak kale egin du";
@@ -439,7 +439,7 @@
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "Mezua OMEMOrekin zifratu zen eta ezin da dezifratu honezkero";
 "Message was encrypted with OMEMO but could not be decrypted" = "Mezua OMEMOrekin zifratu da baina ezin izan da dezifratu";
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %d and that they have you as a contact." = "Mezua ez da gailu honentzat zifratu. Egiaztatu igorlea deviceid %d-(e)z fio dela eta kontaktu gisa gehitu zaituela.";
-"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "Mezua ez da gailu honetarako zifratu. Egiaztatu igorlea %u gailuaz fio dela.";
+"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "Mezua ez da gailu honetarako zifratu. Egiaztatu igorlea %u gailuaz fidatzen dela.";
 "Messages are encrypted" = "Mezuak zifratuta daude";
 "Messages are NOT encrypted" = "Mezuak EZ daude zifratuta";
 "Messages never archived by default." = "Mezuak ez dira inoiz artxibatzen defektuz.";
@@ -489,7 +489,7 @@
 "No groups yet" = "Ez dago talderik oraindik";
 "No OMEMO keys found" = "Ez da OMEMO gakorik aurkitu";
 "No one is here" = "Inor ere ez";
-"No pending requests" = "Ez dago eskaerarik";
+"No pending requests" = "Ez dago aztertu gabeko eskaerarik";
 "No search result." = "Emaitzarik gabeko bilaketa.";
 "No supported auth mechanism found, disabling account!" = "Ez da autentikatzeko mekanismo bateragarririk aurkitu, kontua ezgaitzen!";
 "No supported auth mechanism found, disconnecting!" = "Ez da autentifikazio mekanismo bateragarririk aurkitu, deskonektatzen!";
@@ -685,7 +685,7 @@
 "Signing Up" = "Izena ematen";
 "Skip" = "Gerorako utzi";
 "Software Version" = "Softwarearen bertsioa";
-"Something went wrong while parsing the string..." = "Zerbaitek kale egin du katea aztertzerakoan…";
+"Something went wrong while parsing the string..." = "Zerbaitek huts egin du katea aztertzerakoan…";
 "Sort By Status" = "Sailkatu egoeraren arabera";
 "Sounds" = "Soinuak";
 "Sounds courtesy Emrah" = "Emrah-ren kortesia";
@@ -720,7 +720,7 @@
 "The account has been removed" = "Kontua kendu da";
 "The account has been saved" = "Kontua gorde da";
 /* Crash reporting */
-"The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!";
+"The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "Programa abiarazi zen azken aldian kraskatu zen. Txostena bidali nahi al duzu? Txostenak pribatutasunarekin lotutako datuak izango ditu. Arazoa arazteko baino ez dugu erabiliko, eta ondoren ezabatuko dugu!";
 "The chat history has been cleared" = "Txat historia garbitu da";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "Zerbitzariarekin konexioak kale egin du eta ezin izan dira txat honetako mezu zaharrak ekarri. Saiatu berriro geroago.";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later. %@" = "Zerbitzariarekin konexioak kale egin du eta ezin izan dira elkarrizketa honetako mezu zaharrak ekarri. Saiatu berriro geroago. %@";
@@ -757,7 +757,7 @@
 "These are the TLS versions supported by Monal, the one supported by your server will be green." = "Hauek dira Monalekin bateragarriak diren TLS bertsioak; zerbitzariarekin bateragarriak direnak berdez agertuko dira.";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "Hauek dira Monalekin bateragarriak diren TLS bertsioak; zerbitzarira konektatzeko erabili direnak berdez agertuko dira.";
 "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it." = "Hauek dira zure zifraketa-gakoak. Gailu bakoitza saioa hasi duzun gailu bat da. Egiaztatu duzunean izan beharko zinateke gako batekin fio.";
-"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard.";
+"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "Honakoak zure zifratze gakoak dira. Gailu bakoitza saioa hasi duzun leku desberdin bat da. Egiaztatu dituzun gakoez baino ez zitez fidatu. Sakatu birritan hatz-marka gainean arbelera kopiatzeko.";
 "They can see your keys. You can't see theirs" = "Beraiek zure gakoak ikus ditzakete; zuk ezin dituzu beraienak ikus";
 "They will no longer see when you are online. They may not be able to access your encryption keys." = "Aurrerantzean ez dute ikusiko noiz zauden linean. Litekeena da beraiek zure zifraketa-gakoak ikusi ezin izatea.";
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "Aurrerantzean ez dute ikusiko noiz zauden linean. Litekeena da beraiek zuri mezu zifratuak bidali ezin izatea.";
@@ -780,7 +780,7 @@
 "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "Gako honetaz fio da baina kontaktuak ez du denbora luzean erabili. Gakoa baztertu beharko zenuke.";
 "This message failed to send (%@): %@" = "Ezin izan da mezua bidali (%1$@): %2$@";
 "This message failed to send." = "Ezin izan da mezua bidali.";
-"This message got retracted" = "Atzera bota du mezua";
+"This message got retracted" = "Mezua atzera bota da";
 "This sender will be able to send you messages" = "Igorle honek mezuak bidal diezazuke aurrerantzean";
 "This sender will no longer be able to contact you" = "Igorlea ezingo da aurrerantzean zurekin harremanetan jarri";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Badirudi zerbitzari honek ezin dituela fitxategiak HTTP bidez igo (XEP-0363). Eskatu administrariari aukera gaitu dezala.";
@@ -923,7 +923,7 @@
 "You need friends for this ride" = "Lagunak behar dituzu aberntura honetarako";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Monalen iCloud babeskopia bat lehengoratu duzu; ireki aplikazioa kontu hau birgaitzeko.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen." = "Egiaztatu duzunean fidatu zaitezke gakoaz. Egiaztatu beheko gakoa zure kontaktuaren pantailan ageri denarekin alderatuz.";
-"You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard.";
+"You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "Egiaztatu dituzun gakoez baino ez zitez fidatu. Egiaztatu beheko gakoa zure kontaktuaren pantailan agertzen denarekin alderatuz. Sakatu birritan hatz-marka gainean arbelera kopiatzeko.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "'%@'(r)i deitzen saiatu zara baina kontaktu hau ez da zure kontaktuen zerrendan aurkitu.";
 "You will no longer receive messages from this conversation" = "Aurrerantzean ez duzu elkarrizketa honetako mezu gehiagorik jasoko";
 "You will receive subsequent messages from this conversation" = "Elkarrizketa honetako mezuak jasoko dituzu aurrerantzean";
