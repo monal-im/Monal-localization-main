@@ -36,7 +36,7 @@
 "Add New Account" = "添加新账号";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "用上面的 + 按钮新增联系人。您的朋友在他们可以聊天的时候会出现在这";
 "Add scanned Group/Channel or Contact" = "Add scanned Group/Channel or Contact";
-"Add to contacts" = "Add to contacts";
+"Add to contacts" = "添加到通讯录";
 "Adding MUC..." = "Adding MUC...";
 "Adding..." = "Adding...";
 "Advanced" = "高级";
@@ -55,9 +55,9 @@
 "App" = "应用";
 "Apple Push Service" = "Apple 推送通知服务";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "需要打开Apple 推送通知服务。否则，您的设备将无法联系Apple服务器。";
-"Apple Push Token" = "Apple Push Token";
-"Apple Push Token is not available!" = "Apple Push Token is not available!";
-"Approve new contact" = "Approve new contact";
+"Apple Push Token" = "Apple推送令牌";
+"Apple Push Token is not available!" = "Apple 推送令牌 不可用!";
+"Approve new contact" = "批准新联系人";
 "Appserver error" = "App服务器错误";
 "Appserver returned invalid data" = "App服务器回传无效数据";
 "Archive chat" = "存档聊天";
@@ -80,12 +80,12 @@
 "Backgrounds" = "背景";
 "Block" = "阻止";
 "Block %@ from contacting you?" = "阻止 %@ 联系你？";
-"Block Contact" = "Block Contact";
+"Block Contact" = "拉黑联系人";
 "Block Sender" = "阻止联系人";
 "Blocked Users" = "被阻止的联系人";
 "Blocking is not supported by the server" = "服务器不支持阻止";
 "Blocking not supported" = "不支持阻止";
-"Blocking/Unblocking Not Supported" = "Blocking/Unblocking Not Supported";
+"Blocking/Unblocking Not Supported" = "不支持阻止/解除阻止";
 "BODY" = "BODY";
 "Call ended for an unknown reason" = "Call ended for an unknown reason";
 "Call ended, duration: %@" = "Call ended, duration: %@";
@@ -109,7 +109,7 @@
 "Change Contact Background" = "Change Contact Background";
 "Change Password" = "修改密码";
 "Changing Password" = "更改密码";
-"Channel subject:" = "Channel subject:";
+"Channel subject:" = "频道主题:";
 "Chat Backgrounds" = "对话背景";
 "Chat for free with your friends, colleagues and family!" = "免费与您的朋友，同事及家人聊天！";
 "Chat Logs" = "聊天记录";
@@ -121,9 +121,9 @@
 "Choices Galore" = "大量的选择";
 "Clear Chat History" = "清除聊天记录";
 "Clear chat history for this contact" = "清除此联系人的聊天记录";
-"Clear chat history of this channel" = "Clear chat history of this channel";
-"Clear chat history of this contact" = "Clear chat history of this contact";
-"Clear chat history of this group" = "Clear chat history of this group";
+"Clear chat history of this channel" = "清除该频道的聊天记录";
+"Clear chat history of this contact" = "清除该联系人的聊天记录";
+"Clear chat history of this group" = "清除该群的聊天记录";
 "Clear History" = "清除历史记录";
 /* DEBUG - ContactDetails */
 "Clear omemo session" = "清除omemo会话";
@@ -154,7 +154,7 @@
 /* Chat msg action */
 "Copy" = "复制";
 "Copy link to clipboard" = "Copy link to clipboard";
-"Copy to clipboard" = "Copy to clipboard";
+"Copy to clipboard" = "复制到剪贴板";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "无法连接到摄像头";
 "Could not access Finder item!" = "Could not access Finder item!";
@@ -184,7 +184,7 @@
 "Current Password" = "当前密码";
 "Currently Online" = "Currently Online";
 "Debug" = "调试";
-"Debugging" = "Debugging";
+"Debugging" = "调试中";
 "Decline" = "拒绝";
 "Default Background" = "Default Background";
 "Default chat backgrounds are from the Ubuntu project." = "预设的对话背景是从取自于Ubuntu 专案。";
@@ -194,16 +194,16 @@
 "Delete" = "删除";
 "Delete Account" = "删除账号";
 "Delete Account on Server" = "Delete Account on Server";
-"Delete Key" = "Delete Key";
+"Delete Key" = "删除密钥";
 "Delete Locally" = "本地删除";
-"Deny new contact" = "Deny new contact";
-"Device ID: " = "Device ID: ";
-"DeviceID: " = "DeviceID: ";
+"Deny new contact" = "拒绝新联系人";
+"Device ID: " = "设备 ID: ";
+"DeviceID: " = "设备ID: ";
 "Devices of %@" = "%@ 的设备";
 "Direct TLS" = "直接TLS";
 "Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list." = "Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list.";
 "Disable Encryption" = "停用加密";
-"Disable encryption?" = "Disable encryption?";
+"Disable encryption?" = "禁用加密?";
 "Disconnected" = "断开连接";
 "Discovering devices..." = "Discovering devices...";
 "Display" = "显示";
@@ -212,14 +212,14 @@
 "Display Only Name" = "仅显示名字";
 "Display Only Placeholder" = "仅显示提示消息";
 "Display Settings" = "显示设置";
-"Do you really want to block this contact? You won't receive any messages from this contact." = "Do you really want to block this contact? You won't receive any messages from this contact.";
+"Do you really want to block this contact? You won't receive any messages from this contact." = "您真的要阻止此联系人吗？ 您将不会收到来自该联系人的任何消息。";
 "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "您确定要清除此对话中的所有消息吗？ 如果已使用 OMEMO加密，您就无法再次从服务器加载它们。";
-"Do you really want to delete this key?" = "Do you really want to delete this key?";
-"Do you really want to disable encryption for this contact?" = "Do you really want to disable encryption for this contact?";
+"Do you really want to delete this key?" = "您确实要删除该密钥吗?";
+"Do you really want to disable encryption for this contact?" = "您确实要对此联系人禁用加密吗?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "您确定要重置 OMEMO 会话吗？ 如果您不确定，您就应该只重置连接！";
 "Do you want to trust the scanned fingerprints from" = "你确认扫描的指纹吗";
-"Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?";
-"Doing a lot of work..." = "Doing a lot of work...";
+"Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "使用您的帐户时是否信任联系人 %@ 的扫描指纹 %@?";
+"Doing a lot of work..." = "大量工作中...";
 "Domain missing" = "缺少域名";
 "Don't trust Key" = "Don't trust Key";
 "Done" = "Done";
@@ -293,7 +293,7 @@
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "无法进入群组/频道 %@: 这不是一个群组/频道！";
 "Failed to enter groupchat %@" = "无法进入群聊 %@";
 "Failed to enter groupchat %@: This is not a groupchat!" = "无法进入群聊 %@：这不是群聊！";
-"Failed to load blocklist" = "Failed to load blocklist";
+"Failed to load blocklist" = "加载阻止列表失败";
 "Failed to parse URL returned by HTTP upload server" = "解析HTTP上传服务器回应的网址失败";
 "Failed to publish avatar image for group/channel %@" = "发布群组/频道 %@ 的头像失败";
 "Failed to publish avatar image for groupchat %@" = "群聊 %@头像发布失败";
@@ -335,7 +335,7 @@
 "Group requires a password" = "群组需要密码";
 "Group subject:" = "Group subject:";
 "Group/Channel error" = "群组/频道错误";
-"Group/Channel error in %@" = "Group/Channel error in %@";
+"Group/Channel error in %@" = "组/频道错误 %@";
 "Group/Channel got destroyed: %@" = "群组/频道已被销毁: %@";
 "Group/Channel is mention only" = "Group/Channel is mention only";
 "Group/Channel not available anymore: %@" = "群组/频道不再可用: %@";
@@ -412,7 +412,7 @@
 "Loading more Messages from Server" = "从服务器载入更多消息";
 "Loading omemo bundles" = "载入omemo包";
 "Loading omemo bundles: %@ / %@" = "载入omemo包: %1$@ / %2$@";
-"Loading omemo bundles: 0 / 0" = "Loading omemo bundles: 0 / 0";
+"Loading omemo bundles: 0 / 0" = "加载 omemo 包: 0 / 0";
 "Loading registration form" = "正在加载注册表";
 "Location Access Needed" = "需要存取位置";
 "Log" = "记录";
@@ -474,7 +474,7 @@
 "New Account" = "新账号";
 "New Message" = "新消息";
 "New Password" = "新密码";
-"Newest TLS version which is faster than TLS 1.2" = "Newest TLS version which is faster than TLS 1.2";
+"Newest TLS version which is faster than TLS 1.2" = "比 TLS 1.2 更快的最新 TLS 版本";
 "Nickname" = "昵称";
 "No" = "否";
 "No account available to handel 'xmpp:' URI!" = "No account available to handel 'xmpp:' URI!";
@@ -495,7 +495,7 @@
 "No supported auth mechanism found, disconnecting!" = "没有找到支持的身份验证机制，正在断开连接！";
 "no supported auth mechanism, disconnecting!" = "不支持身份验证机制，正在断开连接！";
 "No XMPP server!" = "No XMPP server!";
-"No, keep encryption activated" = "No, keep encryption activated";
+"No, keep encryption activated" = "否，保持加密处于激活状态";
 /* Crash reporting */
 "No, thanks" = "No, thanks";
 "None" = "没有";
@@ -515,7 +515,7 @@
 "OK" = "OK";
 "Ok" = "好";
 "Okay" = "Okay";
-"Older, slower, but still secure TLS version" = "Older, slower, but still secure TLS version";
+"Older, slower, but still secure TLS version" = "较旧、较慢但仍然安全的 TLS 版本";
 "Online" = "在线";
 "Only contacts" = "仅联系人";
 "Only shareable for now" = "临时分享";
@@ -625,8 +625,8 @@
 "Room" = "聊天室";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "使用给定哈希方法的Salted Challenge Response认证机制";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "使用频道绑定额外保护的给定哈希方法的Salted Challenge Response认证机制";
-"SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
-"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
+"SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "通过 SSDP 检测到 SASL 降级攻击，中止身份验证并禁用帐户以限制损害。 一旦您再次处于干净的网络环境中，您应该重新启用您的帐户。";
+"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "检测到 SASL2 到 SASL1 降级攻击，中止身份验证并禁用帐户以限制损害。 一旦您再次处于干净的网络环境中，您应该重新启用您的帐户。";
 "Saving changes to server" = "将更改保存到服务器";
 /* mac only string */
 "Scroll down to load more messages" = "向下滑以载入更多消息";
@@ -738,7 +738,7 @@
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only.";
 "The server does not support blocking" = "服务器不支持阻止";
 "The server does not support blocking (XEP-0191)." = "The server does not support blocking (XEP-0191).";
-"The user %@ (%@) wants to add you to his contact list" = "The user %1$@ (%2$@) wants to add you to his contact list";
+"The user %@ (%@) wants to add you to his contact list" = "用户 %1$@ (%2$@) 想要将您添加到他的联系人列表中";
 "The user %@ (%@) wants to add you to their contact list" = "The user %1$@ (%2$@) wants to add you to their contact list";
 "The username does not need to have an @ symbol. Please try again." = "用户名不需要有 @ 符号。请重试。";
 "There is no configured email account. Please email info@monal-im.org ." = "没有已设定的电子邮件。请发送电子邮件至info@monal-im.org。";
@@ -754,8 +754,8 @@
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "这些是在你登录后Monal在你的服务器上检测到的最新XMPP功能。";
 "These are the SASL2 methods your server supports (used one in green, yellow ones unsupported by Monal)." = "These are the SASL2 methods your server supports (used one in green, yellow ones unsupported by Monal).";
 "These are the SASL2 methods your server supports." = "服务器支持的SASL2方法。";
-"These are the TLS versions supported by Monal, the one supported by your server will be green." = "These are the TLS versions supported by Monal, the one supported by your server will be green.";
-"These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "These are the TLS versions supported by Monal, the one used to connect to your server will be green.";
+"These are the TLS versions supported by Monal, the one supported by your server will be green." = "这些是 Monal 支持的 TLS 版本，您的服务器支持的版本将为绿色。";
+"These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "这些是 Monal 支持的 TLS 版本，用于连接到您的服务器的版本将为绿色。";
 "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it." = "这些是你的加密密钥。每个设备都是你登录的不同地方。你应该在验证过密钥后再信任它。";
 "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard.";
 "They can see your keys. You can't see theirs" = "他们可以看到你的密钥。你看不到他们的密钥";
@@ -789,7 +789,7 @@
 "This server does not support modern SASL2 authentication." = "此服务器不支持新近的SASL2身份验证。";
 "This should never happen, please contact the developers and provide a logfile!" = "This should never happen, please contact the developers and provide a logfile!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "此规范定义了使用 XMPP 发布订阅协定广播与即时消息和存在帐户关联的状态更改事件的语义。";
-"This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";
+"This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "该规范提供了一种保护 SASL 和 SASL2 握手免受方法和通道绑定降级的方法。";
 "This will clear the whole chat history of this account from this device." = "从此设备清除此帐户的全部聊天记录。";
 "This will clear the your own omemo session for debugging purposes" = "将清除您的 omemo 会话并进行调试";
 "This will clear your own omemo session for debugging purposes" = "这将清除您自己的OMEMO会话以进行调试";
@@ -864,7 +864,7 @@
 "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet." = "无法连线您的帐号。请检查您的证书，并确认已连线到网际网路。";
 "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "我们无法连接您的帐户。 请检查您的凭据并确保您已连接到互联网。\n\n技术错误信息: %@";
 "Weakest channel-binding type, not securing agains stolen certs/keys, but detects wrongly issued certs." = "最弱的频道绑定类型，不能防止被盗的证书/密钥，但检测错误颁发的证书。";
-"Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs.";
+"Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "最弱的通道绑定类型，不能防止证书/密钥被盗，但可以检测错误颁发的证书。";
 "Welcome" = "Welcome";
 "Welcome to Monal" = "欢迎使用Monal";
 "When you have some favorite groups, they will be here for you." = "当你有一些喜欢的聊天群组时，他们会出现在这里。";
@@ -886,13 +886,13 @@
 "XEP-0363: HTTP File Upload" = "XEP-0363: HTTP 文件上传";
 "XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379:预认证名单订阅";
 "XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: SASL SCRAM Downgrade Protection";
-"XEP-xxxx: SASL SCRAM Downgrade Protection" = "XEP-xxxx: SASL SCRAM Downgrade Protection";
+"XEP-xxxx: SASL SCRAM Downgrade Protection" = "XEP-xxxx: SASL SCRAM 降级保护";
 "XMPP" = "XMPP";
 "XMPP Account Info Error" = "XMPP 帐号信息错误";
 "XMPP Bind Error" = "XMPP 绑定错误";
 "XMPP Capabilities" = "XMPP Capabilities";
 "XMPP Disco Info Error" = "XMPP 搜索信息错误";
-"XMPP External Service Disco Error" = "XMPP External Service Disco Error";
+"XMPP External Service Disco Error" = "XMPP 外部服务Disco错误";
 "XMPP ID" = "XMPP 用户名";
 "XMPP ID missing" = "缺少 XMPP ID";
 "XMPP mam preferences error" = "XMPP mam 偏好设定错误";
@@ -906,7 +906,7 @@
 "XMPPServer" = "XMPPServer";
 "yax.im is a public server, not affiliated with Monal. This page is provided for convenience." = "yax.im 是一个公共服务器，不属于 Monal。 提供此页面是为了方便理解。";
 "Yes" = "是";
-"Yes, deactivate encryption" = "Yes, deactivate encryption";
+"Yes, deactivate encryption" = "是的，禁用加密";
 "You are not trapped in a garden. Talk to anyone else without anyone tracking you." = "您不在监视范围内。 您在没有任何人追踪的情况下与其他人交谈。";
 "You are set up and connected." = "您已设定好并且已连线。";
 "You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
