@@ -169,7 +169,7 @@
 "Could not get default capture device" = "No se pudo obtener el dispositivo de captura predeterminado";
 /* QR-Code-Scanner */
 "Could not init video session" = "No se pudo iniciar la sesión de vídeo";
-"Could not join group/channel '%@': timeout" = "Could not join group/channel '%@': timeout";
+"Could not join group/channel '%@': timeout" = "No se pudo unir al grupo/canal '%@': sin respuesta";
 "Could not load (all) old messages" = "No se pudieron cargar (todos) los mensajes antiguos";
 "Could not load (all) old messages from your server archive. Please try again later. %@" = "No se pudieron cargar (todos) los mensajes antiguos del archivo de su servidor. Por favor, inténtalo de nuevo más tarde. %@";
 "Could not read captcha!" = "¡No se puede leer el captcha!";
@@ -621,7 +621,7 @@
 "Retry" = "Reintenta";
 "Retry sending message?" = "¿Reintentar envío de mensaje?";
 "Rich Text" = "Rich Text";
-"Ringing..." = "Ringing...";
+"Ringing..." = "Llamando…";
 "Room" = "Sala";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Salted Challenge Response Authentication Mechanism using the given Hash Method";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding";
@@ -749,10 +749,10 @@
 "There was an error uploading the file to the server" = "Ha habido un error cargando el fichero en el servidor";
 "These are SRV resource records found for your domain" = "Estos son registros de recursos SRV encontrados para tu dominio";
 "These are SRV resource records found for your domain." = "Estos son registros SRV encontrados para tu dominio.";
-"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in green, yellow ones unsupported by Monal)." = "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in green, yellow ones unsupported by Monal).";
+"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in green, yellow ones unsupported by Monal)." = "Estos son los tipos de enlace de canales que admite tu servidor para detectar ataques en la capa TLS (se usa uno en verde, los amarillos no son compatibles con Monal).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer." = "Estos son los tipos de vinculación de canales que admite tu servidor para detectar ataques en la capa TLS.";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "Estas son las capacidades XMPP que Monal detectó en tu servidor después de que haya iniciado sesión.";
-"These are the SASL2 methods your server supports (used one in green, yellow ones unsupported by Monal)." = "These are the SASL2 methods your server supports (used one in green, yellow ones unsupported by Monal).";
+"These are the SASL2 methods your server supports (used one in green, yellow ones unsupported by Monal)." = "Estos son los métodos SASL2 que admite tu servidor (usado en verde, los amarillos no son compatibles con Monal).";
 "These are the SASL2 methods your server supports." = "Estos son los métodos SASL2 que soporta tu servidor.";
 "These are the TLS versions supported by Monal, the one supported by your server will be green." = "Estas son las versiones de TLS compatibles con Monal, la compatible con tu servidor será la verde.";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "Estas son las versiones de TLS compatibles con Monal, la utilizada para conectarse a su servidor será la verde.";
@@ -804,7 +804,7 @@
 "TLS Error: Unknown root certificate" = "Error TLS: Certificado raíz desconocido";
 /* OmemoQrCodeView */
 "To many device keys" = "Demasiadas claves de dispositivo";
-"Trust Key" = "Trust Key";
+"Trust Key" = "Clave de confianza";
 "Trusted and verified key" = "Clave confiable y verificada";
 "Trusted but removed key" = "Clave de confianza pero eliminada";
 "Trusted but unused key" = "Clave confiable pero no utilizada";
@@ -885,14 +885,14 @@
 "XEP-0357: Push Notifications" = "XEP-0357: Push Notifications";
 "XEP-0363: HTTP File Upload" = "XEP-0363: HTTP File Upload";
 "XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379: Pre-Authenticated Roster Subscription";
-"XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: SASL SCRAM Downgrade Protection";
-"XEP-xxxx: SASL SCRAM Downgrade Protection" = "XEP-xxxx: SASL SCRAM Downgrade Protection";
+"XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: Protección de degradación de SASL SCRAM";
+"XEP-xxxx: SASL SCRAM Downgrade Protection" = "XEP-xxxx: Protección de degradación de SASL SCRAM";
 "XMPP" = "XMPP";
 "XMPP Account Info Error" = "Error de información de cuenta XMPP";
 "XMPP Bind Error" = "Error de enlace XMPP";
 "XMPP Capabilities" = "Capacidades XMPP";
 "XMPP Disco Info Error" = "Error de información de descubrimiento XMPP";
-"XMPP External Service Disco Error" = "XMPP External Service Disco Error";
+"XMPP External Service Disco Error" = "Error de descubrimiento de servicio XMPP externo";
 "XMPP ID" = "ID XMPP";
 "XMPP ID missing" = "Falta el ID de XMPP";
 "XMPP mam preferences error" = "Error de preferencias MAM";
@@ -946,4 +946,4 @@
 "📍 A Location" = "📍 Una ubicación";
 "📷 An Image" = "📷 Una imagen";
 "🔗 A Link" = "🔗 Un enlace";
-"Call ended: application error" = "Call ended: application error";
+"Call ended: application error" = "Llamada finalizada: error de aplicación";
