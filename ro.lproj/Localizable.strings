@@ -90,6 +90,7 @@
 "Call ended for an unknown reason" = "Call ended for an unknown reason";
 "Call ended, duration: %@" = "Call ended, duration: %@";
 "Call ended: answered with other device" = "Call ended: answered with other device";
+"Call ended: application error" = "Call ended: application error";
 "Call ended: connection failed" = "Call ended: connection failed";
 "Call ended: declined" = "Call ended: declined";
 "Call ended: hung up" = "Call ended: hung up";
@@ -878,6 +879,7 @@
 "XEP-0191: Blocking Command" = "XEP-0191: Comandă de blocare";
 "XEP-0198: Stream Management" = "XEP-0198: Management flux";
 "XEP-0199: XMPP Ping" = "XEP-0199: XMPP Ping";
+"XEP-0215: External Service Discovery" = "XEP-0215: External Service Discovery";
 "XEP-0237: Roster Versioning" = "XEP-0237: Versiunea listei de contacte";
 "XEP-0280: Message Carbons" = "XEP-0280: Copii indigo mesaje";
 "XEP-0313: Message Archive Management" = "XEP-0313: Gestionarea arhivei de mesaje";
@@ -897,6 +899,7 @@
 "XMPP ID missing" = "Adresă XMPP lipsă";
 "XMPP mam preferences error" = "Eroare preferințe MAM XMPP";
 "XMPP protocol extension for communications blocking." = "Extensie a protocolului XMPP pentru blocarea comunicațiilor.";
+"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls.";
 "XMPP protocol extension for sending application-level pings over XML streams." = "XMPP protocol extension for sending application-level pings over XML streams.";
 "XMPP Roster Error" = "Eroare listă contacte XMPP";
 "XMPP server domain not valid!" = "XMPP server domain not valid!";
@@ -946,4 +949,12 @@
 "📍 A Location" = "📍 O locație";
 "📷 An Image" = "📷 O imagine";
 "🔗 A Link" = "🔗 O legătură";
-"Call ended: application error" = "Call ended: application error";
+"Call ended: couldn't establish encryption" = "Call ended: couldn't establish encryption";
+"Call security help" = "Call security help";
+"Green checkmark shield:" = "Green checkmark shield:";
+"Red x-mark shield:" = "Red x-mark shield:";
+"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you.";
+"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place.";
+"This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you.";
+"Yellow checkmark shield:" = "Yellow checkmark shield:";
+"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";

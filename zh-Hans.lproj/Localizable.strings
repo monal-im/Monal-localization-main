@@ -90,6 +90,7 @@
 "Call ended for an unknown reason" = "通话因未知原因结束";
 "Call ended, duration: %@" = "通话结束，持续时间: %@";
 "Call ended: answered with other device" = "通话结束：用其他设备接听";
+"Call ended: application error" = "Call ended: application error";
 "Call ended: connection failed" = "通话结束：连接失败";
 "Call ended: declined" = "通话结束：已拒绝";
 "Call ended: hung up" = "通话结束：挂断";
@@ -878,6 +879,7 @@
 "XEP-0191: Blocking Command" = "XEP-0191: 阻塞的命令";
 "XEP-0198: Stream Management" = "XEP-0198: 流管理";
 "XEP-0199: XMPP Ping" = "XEP-0199: XMPP Ping 命令";
+"XEP-0215: External Service Discovery" = "XEP-0215: External Service Discovery";
 "XEP-0237: Roster Versioning" = "XEP-0237:名单版本管理";
 "XEP-0280: Message Carbons" = "XEP-0280: 消息副本";
 "XEP-0313: Message Archive Management" = "XEP-0313: 消息档案管理";
@@ -897,6 +899,7 @@
 "XMPP ID missing" = "缺少 XMPP ID";
 "XMPP mam preferences error" = "XMPP mam 偏好设定错误";
 "XMPP protocol extension for communications blocking." = "XMPP 通信阻塞的协议扩展。";
+"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls.";
 "XMPP protocol extension for sending application-level pings over XML streams." = "XMPP协议扩展，用于通过XML流发送应用程序级ping。";
 "XMPP Roster Error" = "XMPP 名单错误";
 "XMPP server domain not valid!" = "XMPP 服务器域无效！";
@@ -946,4 +949,12 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
-"Call ended: application error" = "Call ended: application error";
+"Call ended: couldn't establish encryption" = "Call ended: couldn't establish encryption";
+"Call security help" = "Call security help";
+"Green checkmark shield:" = "Green checkmark shield:";
+"Red x-mark shield:" = "Red x-mark shield:";
+"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you.";
+"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place.";
+"This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you.";
+"Yellow checkmark shield:" = "Yellow checkmark shield:";
+"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
