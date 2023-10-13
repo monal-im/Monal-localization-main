@@ -37,6 +37,7 @@
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Ajoutez de nouveaux contacts avec le bouton + ci-dessus. Vos amis apparaîtront ici lorsqu'ils pourront parler";
 "Add scanned Group/Channel or Contact" = "Add scanned Group/Channel or Contact";
 "Add to contacts" = "Ajouter aux contacts";
+"Adding Group/Channel..." = "Adding Group/Channel...";
 "Adding MUC..." = "Ajout de la discussion multi-utilisateurs...";
 "Adding..." = "Ajout...";
 "Advanced" = "Avancé";
@@ -92,10 +93,12 @@
 "Call ended: answered with other device" = "Un autre appareil à répondu à l'appel";
 "Call ended: application error" = "Call ended: application error";
 "Call ended: connection failed" = "Appel terminé: échec de connexion";
+"Call ended: couldn't establish encryption" = "Call ended: couldn't establish encryption";
 "Call ended: declined" = "Fin de l'appel : appel refusé";
 "Call ended: hung up" = "Fin de l'appel: le correspondant a raccroché";
 "Call ended: remote busy" = "Appel terminé: correspondant occupé";
 "call screen did disappear" = "l'écran d'appel a disparu";
+"Call security help" = "Call security help";
 "Call was not answered" = "Votre correspondant n'a pas répondu";
 "Calls: Allow P2P sessions" = "Appels: Autoriser les sessions de pair à pair (P2P)";
 "Calls: Allow TURN fallback to Monal-Servers" = "Appels: Autoriser à utiliser les serveurs Monal au lieu de TURN";
@@ -327,6 +330,7 @@
 "General File Transfer Settings" = "Préférences générales de transfert de fichier";
 "Got it!" = "J'ai compris !";
 "GPS" = "GPS";
+"Green checkmark shield:" = "Green checkmark shield:";
 "Group Chat" = "Groupe de discussion";
 "Group Chat Invite" = "Invitation au groupe de discussion";
 "Group Information" = "Informations sur le groupe";
@@ -600,6 +604,7 @@
 "Reconnecting" = "Reconnexion";
 "Reconnecting..." = "Reconnexion en cours...";
 "Recording audio" = "Enregistrement audio";
+"Red x-mark shield:" = "Red x-mark shield:";
 "Refreshing..." = "Rafraichissement...";
 "Register" = "S'inscrire";
 "Register a new account" = "Enregistrer un nouveau compte";
@@ -735,6 +740,8 @@
 "The qrcode contains a jid. Rescan the qrcode in the add user menu" = "Ce QRCode contient un ID Jabber. Veuillez le re-scanner depuis le menu d'ajout d'utilisateur";
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for a acount. Go to settings and rescan the qrcode" = "Ce QRCode contient les informations de connexion d'un compte. Veuillez retourner dans les préférences pour scanner à nouveau un QRCode";
+/* QR-Code-Scanner: account scan wrong menu */
+"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode";
 "The resource '%@' has the following capabilities:" = "The resource '%@' has the following capabilities:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "Les serveurs XMPP sélectionnables sont des serveurs publics qui ne sont pas affiliés à Monal. Cette page d'inscription est fournie à titre indicatif seulement.";
 "The server does not support blocking" = "Le serveur ne prend pas en charge le blocage";
@@ -779,6 +786,9 @@
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Cette clé est fiable et vérifiée par comparaison manuelle des empreintes. Pour cesser de faire confiance à cette clé, utilisez le bouton poussoir.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "Cette clé est fiable, mais le contact ne l'utilise plus. Pensez à désactiver la confiance pour cette clé.";
 "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "Cette clé est fiable, mais le contact ne l'a pas utilisée depuis longtemps. Pensez à désactiver la confiance pour cette clé";
+"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you.";
+"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place.";
+"This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you.";
 "This message failed to send (%@): %@" = "Échec d'envoi pour ce message (%1$@) : %2$@";
 "This message failed to send." = "Ce message n'a pas pu être envoyé.";
 "This message got retracted" = "Ce message a été annulé";
@@ -908,6 +918,7 @@
 "XMPP: QR-Code" = "XMPP : QR-Code";
 "XMPPServer" = "Serveur XMPP";
 "yax.im is a public server, not affiliated with Monal. This page is provided for convenience." = "yax.im est un serveur public, non affilié avec Monal. Cette page est affiché pour information.";
+"Yellow checkmark shield:" = "Yellow checkmark shield:";
 "Yes" = "Oui";
 "Yes, deactivate encryption" = "Oui, désactiver le chiffrement";
 "You are not trapped in a garden. Talk to anyone else without anyone tracking you." = "Vous n'êtes pas pris au piège dans un jardin. Parlez à quelqu'un d'autre sans que personne ne vous suive.";
@@ -924,6 +935,7 @@
 /* OmemoQrCodeView */
 "You have to many enabled devices on this account. You need to remove some devices" = "Vous avez trop d'appareils sur ce compte. Vous devez en retirer quelques uns";
 "You need friends for this ride" = "Vous avez besoin d'amis pour vous lancer";
+"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Vous avez restauré une sauvegarde iCloud de Monal, veuillez ouvrir l'application pour réactiver ce compte.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen." = "Vous devez faire confiance à une clé une fois que vous l'avez vérifiée. Vérifiez-là en la comparant avec celle de l'écran de votre contact.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard.";
@@ -933,6 +945,7 @@
 "Your account must be enabled and connected, to be removed from the server!" = "Votre compte doit être activé et connecté pour le supprimer du serveur !";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Vos comptes ont été désactivés parce que vous avez restauré une sauvegarde iCloud de Monal. Veuillez réactiver vos mots de passe pour les activer à nouveau.";
 "Your answer" = "Votre réponse";
+"Your contact may not support calls. Your call might never reach its destination." = "Your contact may not support calls. Your call might never reach its destination.";
 "Your contact may to not support Monal-Style calls. Your call might never reach its destination." = "Il se peut que votre contact ne gère pas les appels tels que gérés par Monal. Votre appel pourrait ne pas aboutir.";
 "Your entered XMPP ID is missing the domain" = "Il manque le domaine à votre identifiant XMPP";
 "Your entered XMPP ID is missing the username" = "Il manque le nom d'utilisateur dans votre identifiant XMPP";
@@ -949,12 +962,8 @@
 "📍 A Location" = "📍 Une localisation";
 "📷 An Image" = "📷 Une image";
 "🔗 A Link" = "🔗 Un lien";
-"Call ended: couldn't establish encryption" = "Call ended: couldn't establish encryption";
-"Call security help" = "Call security help";
-"Green checkmark shield:" = "Green checkmark shield:";
-"Red x-mark shield:" = "Red x-mark shield:";
-"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you.";
-"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place.";
-"This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you.";
-"Yellow checkmark shield:" = "Yellow checkmark shield:";
-"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
+"Call ended" = "Call ended";
+"Call ended: connection failed\nDuration: %@" = "Call ended: connection failed\nDuration: %@";
+"Error entering group/channel!" = "Error entering group/channel!";
+"Own Encryption Keys" = "Own Encryption Keys";
+"Successfully joined group/channel %@!" = "Successfully joined group/channel %@!";

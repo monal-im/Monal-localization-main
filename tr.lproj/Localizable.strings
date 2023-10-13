@@ -37,6 +37,7 @@
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Yukarıdaki + düğmesine tıklayarak yeni kişiler ekleyin. Arkadaşların uygun olduklarında görüntülenmeye başlayacaklar";
 "Add scanned Group/Channel or Contact" = "Taranan Grup/Kanal veya Kişi Ekleme";
 "Add to contacts" = "Kişilere ekle";
+"Adding Group/Channel..." = "Adding Group/Channel...";
 "Adding MUC..." = "Grup/Kanal ekleniyor...";
 "Adding..." = "Ekleniyor...";
 "Advanced" = "Gelişmiş";
@@ -92,10 +93,12 @@
 "Call ended: answered with other device" = "Arama sonlandırıldı: diğer cihazla cevaplandı";
 "Call ended: application error" = "Çağrı sona erdi: uygulama hatası";
 "Call ended: connection failed" = "Arama sona erdi: bağlantı başarısız oldu";
+"Call ended: couldn't establish encryption" = "Arama sonlandırıldı: şifreleme kurulamadı";
 "Call ended: declined" = "Arama sona erdi: reddedildi";
 "Call ended: hung up" = "Arama sona erdi: telefonu kapattı";
 "Call ended: remote busy" = "Çağrı sonlandırıldı: karşı taraf meşgul";
 "call screen did disappear" = "arama ekranı kayboldu";
+"Call security help" = "Güvenlik yardımını arayın";
 "Call was not answered" = "Çağrı cevaplanmadı";
 "Calls: Allow P2P sessions" = "Çağrılar: P2P oturumlarına izin ver";
 "Calls: Allow TURN fallback to Monal-Servers" = "Çağrılar: Monal-Sunucusuna TURN geri dönüşüne izin ver";
@@ -327,6 +330,7 @@
 "General File Transfer Settings" = "Genel Dosya Aktarım Ayarları";
 "Got it!" = "Anlaşıldı!";
 "GPS" = "Küresel Konumlama Sistemi";
+"Green checkmark shield:" = "Yeşil onay işareti kalkanı:";
 "Group Chat" = "Grup Sohbeti";
 "Group Chat Invite" = "Grup Sohbet Daveti";
 "Group Information" = "Grup Bilgileri";
@@ -600,6 +604,7 @@
 "Reconnecting" = "Yeniden Bağlanıyor";
 "Reconnecting..." = "Yeniden bağlanıyor...";
 "Recording audio" = "Ses kaydet";
+"Red x-mark shield:" = "Kırmızı x işareti kalkanı:";
 "Refreshing..." = "Yenileniyor...";
 "Register" = "Kayıt Ol";
 "Register a new account" = "Yeni bir hesap açın";
@@ -735,6 +740,8 @@
 "The qrcode contains a jid. Rescan the qrcode in the add user menu" = "Qrcode bir jid içerir. Kullanıcı ekle menüsünde qrcode'u yeniden tarayın";
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for a acount. Go to settings and rescan the qrcode" = "Qrcode, bir hesap için oturum açma kimlik bilgilerini içerir. Ayarlara gidin ve qrcode'u yeniden tarayın";
+/* QR-Code-Scanner: account scan wrong menu */
+"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode";
 "The resource '%@' has the following capabilities:" = "'%@' kaynağı aşağıdaki yeteneklere sahiptir:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "Seçilebilir XMPP sunucuları Monal'a bağlı olmayan genel sunuculardır. Bu kayıt sayfası sadece kolaylık sağlamak için verilmiştir.";
 "The server does not support blocking" = "Sunucu engellemeyi desteklemiyor";
@@ -779,6 +786,9 @@
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Bu anahtara güvenilir ve parmak izleri manuel olarak karşılaştırılarak doğrulanır. Bu anahtara güvenmeyi durdurmak için geçiş yardımcısını kullanın.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "Bu anahtara güveniliyor, ancak kişi artık bu anahtarı kullanmıyor. Bu anahtar için güveni devre dışı bırakmayı düşünün.";
 "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "Bu anahtara güveniliyor, ancak kişi bu anahtarı uzun süredir kullanmıyor. Bu anahtar için güveni devre dışı bırakmayı düşünün";
+"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "Bu, aramanızın şifrelenmiş olduğu ve uzak tarafın OMEMO şifrelemesi kullanılarak doğrulandığı anlamına gelir.\nAncak arayan tarafın OMEMO parmak izlerini manuel olarak doğrulamadığınız için, sizin veya arayan tarafın XMPP sunucusu Man-In-The-Middle yapmak için kendi OMEMO anahtarlarını eklemiş olabilir.";
+"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "Bu, aramanızın şifrelendiği ve uzak tarafın OMEMO şifrelemesi kullanılarak doğrulandığı anlamına gelir.\nKullanılan OMEMO anahtarlarını manuel olarak doğruladınız ve Man-In-The-Middle gerçekleşemez.";
+"This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "Bu, aramanızın şifrelenmiş olduğu, ancak uzak tarafın OMEMO şifrelemesi kullanılarak doğrulanamadığı anlamına gelir.\nSizin veya arayanın XMPP sunucusu muhtemelen Man-In-The-Middle yapabilir.";
 "This message failed to send (%@): %@" = "Bu ileti gönderilemedi (%1$@): %2$@";
 "This message failed to send." = "Bu ileti gönderilemedi.";
 "This message got retracted" = "Bu mesaj geri çekildi";
@@ -908,6 +918,7 @@
 "XMPP: QR-Code" = "XMPP: QR Kodu";
 "XMPPServer" = "XMPPSunucusu";
 "yax.im is a public server, not affiliated with Monal. This page is provided for convenience." = "yax.im, Monal'a bağlı olmayan bir halk sunucusudur. Bu sayfa kolaylık sağlamak için paylaşılmaktadır.";
+"Yellow checkmark shield:" = "Sarı onay işareti kalkanı:";
 "Yes" = "Evet";
 "Yes, deactivate encryption" = "Evet, şifrelemeyi devre dışı bırak";
 "You are not trapped in a garden. Talk to anyone else without anyone tracking you." = "Bahçede kapana kısılmış değilsin. Kimse seni izlemeden başkasıyla konuş.";
@@ -924,6 +935,7 @@
 /* OmemoQrCodeView */
 "You have to many enabled devices on this account. You need to remove some devices" = "Bu hesaptaki birçok etkin cihaza sahipsiniz. Bazı cihazları kaldırmak gerekir";
 "You need friends for this ride" = "Bu yolculuk için arkadaşa ihtiyacın var";
+"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Başkalarının sizi duyabilmesini istiyorsanız, iOS Ayarları-> Gizlilik-> Mikrofon bölümünde mikrofon erişimine izin vermeniz gerekir.";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Monal'ın bir iCloud yedeklemesini geri yüklediniz, lütfen bu hesabı yeniden etkinleştirmek için uygulamayı açın.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen." = "Doğruladığınızda bir anahtara güvenmelisiniz. Aşağıdaki anahtarı kişinizin ekranındaki ile karşılaştırarak doğrulayın.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "Bir anahtarı doğruladığınızda ona güvenmelisiniz. Aşağıdaki anahtarı kişinizin ekranındakiyle karşılaştırarak doğrulayın. Panoya kopyalamak için bir parmak izine çift dokunun.";
@@ -933,6 +945,7 @@
 "Your account must be enabled and connected, to be removed from the server!" = "Hesabınızın silinmesi için sunucuya bağlanmış ve aktif edilmiş olması gerekmektedir!";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Monal'ın bir iCloud yedeğini geri yüklediğiniz için hesaplarınız devre dışı bırakıldı. Hesaplarınızı tekrar etkinleştirmek için lütfen şifrelerinizi yeniden girin.";
 "Your answer" = "Cevabınız";
+"Your contact may not support calls. Your call might never reach its destination." = "Your contact may not support calls. Your call might never reach its destination.";
 "Your contact may to not support Monal-Style calls. Your call might never reach its destination." = "Kişiniz Monal Stili aramaları desteklemiyor olabilir. Aramanız, hedefine asla ulaşamayabilir.";
 "Your entered XMPP ID is missing the domain" = "Girdiğiniz XMPP Kimliğinizde alan adı eksik";
 "Your entered XMPP ID is missing the username" = "Girdiğiniz XMPP kimliğinde kullanıcı adı eksik";
@@ -949,12 +962,8 @@
 "📍 A Location" = "📍 Bir Konum";
 "📷 An Image" = "📷 Bir Resim";
 "🔗 A Link" = "🔗 Bir Bağlantı";
-"Call ended: couldn't establish encryption" = "Arama sonlandırıldı: şifreleme kurulamadı";
-"Call security help" = "Güvenlik yardımını arayın";
-"Green checkmark shield:" = "Yeşil onay işareti kalkanı:";
-"Red x-mark shield:" = "Kırmızı x işareti kalkanı:";
-"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "Bu, aramanızın şifrelenmiş olduğu ve uzak tarafın OMEMO şifrelemesi kullanılarak doğrulandığı anlamına gelir.\nAncak arayan tarafın OMEMO parmak izlerini manuel olarak doğrulamadığınız için, sizin veya arayan tarafın XMPP sunucusu Man-In-The-Middle yapmak için kendi OMEMO anahtarlarını eklemiş olabilir.";
-"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "Bu, aramanızın şifrelendiği ve uzak tarafın OMEMO şifrelemesi kullanılarak doğrulandığı anlamına gelir.\nKullanılan OMEMO anahtarlarını manuel olarak doğruladınız ve Man-In-The-Middle gerçekleşemez.";
-"This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "Bu, aramanızın şifrelenmiş olduğu, ancak uzak tarafın OMEMO şifrelemesi kullanılarak doğrulanamadığı anlamına gelir.\nSizin veya arayanın XMPP sunucusu muhtemelen Man-In-The-Middle yapabilir.";
-"Yellow checkmark shield:" = "Sarı onay işareti kalkanı:";
-"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Başkalarının sizi duyabilmesini istiyorsanız, iOS Ayarları-> Gizlilik-> Mikrofon bölümünde mikrofon erişimine izin vermeniz gerekir.";
+"Call ended" = "Call ended";
+"Call ended: connection failed\nDuration: %@" = "Call ended: connection failed\nDuration: %@";
+"Error entering group/channel!" = "Error entering group/channel!";
+"Own Encryption Keys" = "Own Encryption Keys";
+"Successfully joined group/channel %@!" = "Successfully joined group/channel %@!";
