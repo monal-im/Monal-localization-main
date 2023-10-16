@@ -88,11 +88,13 @@
 "Blocking not supported" = "Blokowanie nie jest obsługiwane";
 "Blocking/Unblocking Not Supported" = "Blokowanie/Odblokowywanie nie wspierane";
 "BODY" = "CIAŁO";
+"Call ended" = "Call ended";
 "Call ended for an unknown reason" = "Rozmowa zakończona z nieznanego powodu";
 "Call ended, duration: %@" = "Rozmowa zakończona. Trwała: %@";
 "Call ended: answered with other device" = "Rozmowa zakończona: odebrana na innym urządzeniu";
 "Call ended: application error" = "Call ended: application error";
 "Call ended: connection failed" = "Rozmowa zakończona: połączenie się nie udało";
+"Call ended: connection failed\nDuration: %@" = "Call ended: connection failed\nDuration: %@";
 "Call ended: couldn't establish encryption" = "Call ended: couldn't establish encryption";
 "Call ended: declined" = "Rozmowa zakończona: odrzucono";
 "Call ended: hung up" = "Rozmowa zakończona: rozłączono";
@@ -267,6 +269,7 @@
 "Error adding contact or channel" = "Błąd dodawania kontaktu lub kanału";
 "Error authenticating server using SASL2, disconnecting!" = "Błąd podczas uwierzytelniania serwera za pomocą SASL2, rozłączanie!";
 "Error decrypting message" = "Bład w trakcie odszyfrowywania wiadomości";
+"Error entering group/channel!" = "Error entering group/channel!";
 "Error entering groupchat" = "Błąd podczas wchodzenia do czatu grupowego";
 "Error entering MUC!" = "Błąd dołączania do kanału!";
 "Error handling SASL challenge of server, disconnecting!" = "Błąd podczas obsługi wyzwania SASL serwera, rozłączanie!";
@@ -531,6 +534,7 @@
 "Optional Port" = "Opcjonalny port";
 "Os: " = "System operacyjny: ";
 "Own device key" = "Własny klucz";
+"Own Encryption Keys" = "Own Encryption Keys";
 "Participants" = "Członkowie";
 "Password" = "Hasło";
 "Password cannot be empty" = "Hasło nie może być puste";
@@ -710,6 +714,7 @@
 "Submit A Bug" = "Zgłoś błąd";
 "Success" = "Sukces";
 "Success!" = "Sukces!";
+"Successfully joined group/channel %@!" = "Successfully joined group/channel %@!";
 "Successfully joined MUC %@!" = "Dołączono do kanału %@!";
 "Support" = "wsparcie";
 /* Crash reporting */
@@ -962,8 +967,8 @@
 "📍 A Location" = "📍 Lokalizacja";
 "📷 An Image" = "📷 Obraz";
 "🔗 A Link" = "🔗 Link";
-"Call ended" = "Call ended";
-"Call ended: connection failed\nDuration: %@" = "Call ended: connection failed\nDuration: %@";
-"Error entering group/channel!" = "Error entering group/channel!";
-"Own Encryption Keys" = "Own Encryption Keys";
-"Successfully joined group/channel %@!" = "Successfully joined group/channel %@!";
+"Change Chat Background" = "Change Chat Background";
+"Chat Background" = "Chat Background";
+"Notifications disabled" = "Notifications disabled";
+"Notify on all messages" = "Notify on all messages";
+"Notify only when mentioned" = "Notify only when mentioned";

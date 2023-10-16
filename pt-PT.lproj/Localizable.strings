@@ -37,6 +37,7 @@
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Add new contacts with the + button above. Your friends will pop up here when they can talk";
 "Add scanned Group/Channel or Contact" = "Add scanned Group/Channel or Contact";
 "Add to contacts" = "Add to contacts";
+"Adding Group/Channel..." = "Adding Group/Channel...";
 "Adding MUC..." = "Adding MUC...";
 "Adding..." = "Adding...";
 "Advanced" = "Advanced";
@@ -87,11 +88,13 @@
 "Blocking not supported" = "Blocking not supported";
 "Blocking/Unblocking Not Supported" = "Blocking/Unblocking Not Supported";
 "BODY" = "BODY";
+"Call ended" = "Call ended";
 "Call ended for an unknown reason" = "Call ended for an unknown reason";
 "Call ended, duration: %@" = "Call ended, duration: %@";
 "Call ended: answered with other device" = "Call ended: answered with other device";
 "Call ended: application error" = "Call ended: application error";
 "Call ended: connection failed" = "Call ended: connection failed";
+"Call ended: connection failed\nDuration: %@" = "Call ended: connection failed\nDuration: %@";
 "Call ended: couldn't establish encryption" = "Call ended: couldn't establish encryption";
 "Call ended: declined" = "Call ended: declined";
 "Call ended: hung up" = "Call ended: hung up";
@@ -266,6 +269,7 @@
 "Error adding contact or channel" = "Error adding contact or channel";
 "Error authenticating server using SASL2, disconnecting!" = "Error authenticating server using SASL2, disconnecting!";
 "Error decrypting message" = "Error decrypting message";
+"Error entering group/channel!" = "Error entering group/channel!";
 "Error entering groupchat" = "Error entering groupchat";
 "Error entering MUC!" = "Error entering MUC!";
 "Error handling SASL challenge of server, disconnecting!" = "Error handling SASL challenge of server, disconnecting!";
@@ -529,6 +533,7 @@
 "Optional Port" = "Optional Port";
 "Os: " = "Os: ";
 "Own device key" = "Own device key";
+"Own Encryption Keys" = "Own Encryption Keys";
 "Participants" = "Participants";
 "Password" = "Password";
 "Password cannot be empty" = "Password cannot be empty";
@@ -708,6 +713,7 @@
 "Submit A Bug" = "Submit A Bug";
 "Success" = "Success";
 "Success!" = "Success!";
+"Successfully joined group/channel %@!" = "Successfully joined group/channel %@!";
 "Successfully joined MUC %@!" = "Successfully joined MUC %@!";
 "Support" = "Support";
 /* Crash reporting */
@@ -738,6 +744,8 @@
 "The qrcode contains a jid. Rescan the qrcode in the add user menu" = "The qrcode contains a jid. Rescan the qrcode in the add user menu";
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for a acount. Go to settings and rescan the qrcode" = "The qrcode contains login credentials for a acount. Go to settings and rescan the qrcode";
+/* QR-Code-Scanner: account scan wrong menu */
+"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode";
 "The resource '%@' has the following capabilities:" = "The resource '%@' has the following capabilities:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only.";
 "The server does not support blocking" = "The server does not support blocking";
@@ -941,6 +949,7 @@
 "Your account must be enabled and connected, to be removed from the server!" = "Your account must be enabled and connected, to be removed from the server!";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again.";
 "Your answer" = "Your answer";
+"Your contact may not support calls. Your call might never reach its destination." = "Your contact may not support calls. Your call might never reach its destination.";
 "Your contact may to not support Monal-Style calls. Your call might never reach its destination." = "Your contact may to not support Monal-Style calls. Your call might never reach its destination.";
 "Your entered XMPP ID is missing the domain" = "Your entered XMPP ID is missing the domain";
 "Your entered XMPP ID is missing the username" = "Your entered XMPP ID is missing the username";
@@ -957,12 +966,8 @@
 "📍 A Location" = "📍 A Location";
 "📷 An Image" = "📷 An Image";
 "🔗 A Link" = "🔗 A Link";
-"Adding Group/Channel..." = "Adding Group/Channel...";
-"Call ended" = "Call ended";
-"Call ended: connection failed\nDuration: %@" = "Call ended: connection failed\nDuration: %@";
-"Error entering group/channel!" = "Error entering group/channel!";
-"Own Encryption Keys" = "Own Encryption Keys";
-"Successfully joined group/channel %@!" = "Successfully joined group/channel %@!";
-/* QR-Code-Scanner: account scan wrong menu */
-"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode";
-"Your contact may not support calls. Your call might never reach its destination." = "Your contact may not support calls. Your call might never reach its destination.";
+"Change Chat Background" = "Change Chat Background";
+"Chat Background" = "Chat Background";
+"Notifications disabled" = "Notifications disabled";
+"Notify on all messages" = "Notify on all messages";
+"Notify only when mentioned" = "Notify only when mentioned";
