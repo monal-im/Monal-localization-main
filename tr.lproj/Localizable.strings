@@ -37,7 +37,7 @@
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Yukarıdaki + düğmesine tıklayarak yeni kişiler ekleyin. Arkadaşların uygun olduklarında görüntülenmeye başlayacaklar";
 "Add scanned Group/Channel or Contact" = "Taranan Grup/Kanal veya Kişi Ekleme";
 "Add to contacts" = "Kişilere ekle";
-"Adding Group/Channel..." = "Adding Group/Channel...";
+"Adding Group/Channel..." = "Grup/Kanal ekleyin...";
 "Adding MUC..." = "Grup/Kanal ekleniyor...";
 "Adding..." = "Ekleniyor...";
 "Advanced" = "Gelişmiş";
@@ -88,13 +88,13 @@
 "Blocking not supported" = "Engelleme desteklenmiyor";
 "Blocking/Unblocking Not Supported" = "Engelleme/Engellemeyi Kaldırma Desteklenmiyor";
 "BODY" = "BODY";
-"Call ended" = "Call ended";
+"Call ended" = "Çağrı sona erdi";
 "Call ended for an unknown reason" = "Arama bilinmeyen bir nedenle sona erdi";
 "Call ended, duration: %@" = "Arama sona erdi, süre: %@";
 "Call ended: answered with other device" = "Arama sonlandırıldı: diğer cihazla cevaplandı";
 "Call ended: application error" = "Çağrı sona erdi: uygulama hatası";
 "Call ended: connection failed" = "Arama sona erdi: bağlantı başarısız oldu";
-"Call ended: connection failed\nDuration: %@" = "Call ended: connection failed\nDuration: %@";
+"Call ended: connection failed\nDuration: %@" = "Çağrı sona erdi: bağlantı başarısız oldu\nSüre: %@";
 "Call ended: couldn't establish encryption" = "Arama sonlandırıldı: şifreleme kurulamadı";
 "Call ended: declined" = "Arama sona erdi: reddedildi";
 "Call ended: hung up" = "Arama sona erdi: telefonu kapattı";
@@ -269,7 +269,7 @@
 "Error adding contact or channel" = "Kişi veya kanal eklerken hata oluştu";
 "Error authenticating server using SASL2, disconnecting!" = "SASL2 kullanılarak sunucunun kimliği doğrulanamadı, bağlantı kesiliyor!";
 "Error decrypting message" = "Mesajın şifresi çözülürken hata oluştu";
-"Error entering group/channel!" = "Error entering group/channel!";
+"Error entering group/channel!" = "Grup/kanala girerken hata!";
 "Error entering groupchat" = "Grup sohbetine girerken hata";
 "Error entering MUC!" = "Grup/Kanal'a girerken hata oluştu!";
 "Error handling SASL challenge of server, disconnecting!" = "Sunucunun SASL sorgulaması işlenirken hata oluştu, bağlantı kesiliyor!";
@@ -534,7 +534,7 @@
 "Optional Port" = "İsteğe Bağlı Bağlantı Noktası";
 "Os: " = "İşletim sistemi: ";
 "Own device key" = "Kendi cihaz anahtarın";
-"Own Encryption Keys" = "Own Encryption Keys";
+"Own Encryption Keys" = "Kendi Şifreleme Anahtarlarım";
 "Participants" = "Katılımcılar";
 "Password" = "Parola";
 "Password cannot be empty" = "Şifre boş bırakılamaz";
@@ -714,7 +714,7 @@
 "Submit A Bug" = "Hata Bildir";
 "Success" = "Başarılı";
 "Success!" = "Başarılı!";
-"Successfully joined group/channel %@!" = "Successfully joined group/channel %@!";
+"Successfully joined group/channel %@!" = "Başarılı bir şekilde grup/kanal %@ katılındı!";
 "Successfully joined MUC %@!" = "Grup/Kanal'a başarıyla katılındı %@!";
 "Support" = "Destek";
 /* Crash reporting */
@@ -746,7 +746,7 @@
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for a acount. Go to settings and rescan the qrcode" = "Qrcode, bir hesap için oturum açma kimlik bilgilerini içerir. Ayarlara gidin ve qrcode'u yeniden tarayın";
 /* QR-Code-Scanner: account scan wrong menu */
-"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode";
+"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "Qrcode, hesap için oturum açma kimlik bilgilerini içerir. Ayarlara gidin ve Qrcode'u yeniden tarayın";
 "The resource '%@' has the following capabilities:" = "'%@' kaynağı aşağıdaki yeteneklere sahiptir:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "Seçilebilir XMPP sunucuları Monal'a bağlı olmayan genel sunuculardır. Bu kayıt sayfası sadece kolaylık sağlamak için verilmiştir.";
 "The server does not support blocking" = "Sunucu engellemeyi desteklemiyor";
@@ -950,7 +950,7 @@
 "Your account must be enabled and connected, to be removed from the server!" = "Hesabınızın silinmesi için sunucuya bağlanmış ve aktif edilmiş olması gerekmektedir!";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Monal'ın bir iCloud yedeğini geri yüklediğiniz için hesaplarınız devre dışı bırakıldı. Hesaplarınızı tekrar etkinleştirmek için lütfen şifrelerinizi yeniden girin.";
 "Your answer" = "Cevabınız";
-"Your contact may not support calls. Your call might never reach its destination." = "Your contact may not support calls. Your call might never reach its destination.";
+"Your contact may not support calls. Your call might never reach its destination." = "Kişiniz Monal tarzı aramaları desteklemiyor olabilir. Aramanız, hedefine asla ulaşamayabilir.";
 "Your contact may to not support Monal-Style calls. Your call might never reach its destination." = "Kişiniz Monal Stili aramaları desteklemiyor olabilir. Aramanız, hedefine asla ulaşamayabilir.";
 "Your entered XMPP ID is missing the domain" = "Girdiğiniz XMPP Kimliğinizde alan adı eksik";
 "Your entered XMPP ID is missing the username" = "Girdiğiniz XMPP kimliğinde kullanıcı adı eksik";
@@ -967,8 +967,8 @@
 "📍 A Location" = "📍 Bir Konum";
 "📷 An Image" = "📷 Bir Resim";
 "🔗 A Link" = "🔗 Bir Bağlantı";
-"Change Chat Background" = "Change Chat Background";
-"Chat Background" = "Chat Background";
-"Notifications disabled" = "Notifications disabled";
-"Notify on all messages" = "Notify on all messages";
-"Notify only when mentioned" = "Notify only when mentioned";
+"Change Chat Background" = "Konuşma Arka Planını Değiştir";
+"Chat Background" = "Chat arka planları";
+"Notifications disabled" = "Bildirimler engellendi";
+"Notify on all messages" = "Tüm mesajlarda uyar";
+"Notify only when mentioned" = "Sadece bahsedildiği zaman";
