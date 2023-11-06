@@ -112,10 +112,12 @@
 "Can't convert the image to png file." = "Nebylo možné zkonvertovat obrázek do formátu png.";
 "Cancel" = "Zrušit";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Cannot share something with disabled/deleted account, destination: %1$@, internal account id: %2$@";
+"Change Chat Background" = "Change Chat Background";
 "Change Contact Background" = "Change Contact Background";
 "Change Password" = "Změnit heslo";
 "Changing Password" = "Změna hesla";
 "Channel subject:" = "Channel subject:";
+"Chat Background" = "Chat Background";
 "Chat Backgrounds" = "Pozadí chatů";
 "Chat for free with your friends, colleagues and family!" = "Chatuje zdarma se svými přáteli, kolegy a rodinou!";
 "Chat Logs" = "Protokoly chatů";
@@ -203,6 +205,7 @@
 "Delete Key" = "Delete Key";
 "Delete Locally" = "Smazat lokálně";
 "Deny new contact" = "Deny new contact";
+"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "Device ID: ";
 "DeviceID: " = "DeviceID: ";
 "Devices of %@" = "Zařízení kontaktu %@";
@@ -272,6 +275,12 @@
 "Error entering group/channel!" = "Error entering group/channel!";
 "Error entering groupchat" = "Chyba při připojování ke skupině";
 "Error entering MUC!" = "Error entering MUC!";
+/* parenthesis should be verbatim */
+"Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error handling SASL challenge of server (iteration count too low), disconnecting!";
+/* parenthesis should be verbatim */
+"Error handling SASL challenge of server (m-attr error), disconnecting!" = "Error handling SASL challenge of server (m-attr error), disconnecting!";
+/* parenthesis should be verbatim */
+"Error handling SASL challenge of server (nonce error), disconnecting!" = "Error handling SASL challenge of server (nonce error), disconnecting!";
 "Error handling SASL challenge of server, disconnecting!" = "Error handling SASL challenge of server, disconnecting!";
 "Error registering push" = "Chyba při registraci push";
 "Error Removing Account" = "Error Removing Account";
@@ -515,8 +524,11 @@
 "Notification Changes" = "Změny oznámení";
 "Notification Settings" = "Nastavení oznámení";
 "Notifications" = "Oznámení";
+"Notifications disabled" = "Notifications disabled";
 "Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old expereince back." = "Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old expereince back.";
 "Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old experience back." = "Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old experience back.";
+"Notify on all messages" = "Notify on all messages";
+"Notify only when mentioned" = "Notify only when mentioned";
 "now" = "právě teď";
 "Offline Contacts" = "Kontakty offline";
 "Ok" = "OK";
@@ -638,6 +650,7 @@
 "SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "Saving changes to server" = "Ukládání nastavení na serveru";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 /* mac only string */
 "Scroll down to load more messages" = "Posunutím dolů načtete další zprávy";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections.";
@@ -695,6 +708,7 @@
 "Signing Up" = "Registrace";
 "Skip" = "Přeskočit";
 "Software Version" = "Verze softwaru";
+"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
 "Something went wrong while parsing the string..." = "Something went wrong while parsing the string...";
 "Sort By Status" = "Řadit podle stavu";
 "Sounds" = "Zvuky";
@@ -837,6 +851,7 @@
 "Unclean appex shutown" = "Unclean appex shutown";
 "Undefined error" = "Undefined error";
 "Unexpected appex expiration" = "Unexpected appex expiration";
+"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
 "Unexpected error while checking type of jid, please try again" = "Neočekávaná chyba při kontrole typu JID, zkuste to, prosím, znovu";
 "Unexpected error while checking type of jid:" = "Neočekávaná chyba při kontrole typu JID:";
 "Unexpected mam preferences result" = "Neočekávaný výsledek preferencí MAM";
@@ -967,8 +982,3 @@
 "📍 A Location" = "📍 Poloha";
 "📷 An Image" = "📷 Obrázek";
 "🔗 A Link" = "🔗 Odkaz";
-"Change Chat Background" = "Change Chat Background";
-"Chat Background" = "Chat Background";
-"Notifications disabled" = "Notifications disabled";
-"Notify on all messages" = "Notify on all messages";
-"Notify only when mentioned" = "Notify only when mentioned";

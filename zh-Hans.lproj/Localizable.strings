@@ -112,10 +112,12 @@
 "Can't convert the image to png file." = "无法将图像转换为png文件。";
 "Cancel" = "取消";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "无法与被禁用/删除的帐户共享某些内容，目标: %1$@, 内部帐户 id: %2$@";
+"Change Chat Background" = "Change Chat Background";
 "Change Contact Background" = "更改联系人背景";
 "Change Password" = "修改密码";
 "Changing Password" = "更改密码";
 "Channel subject:" = "频道主题:";
+"Chat Background" = "Chat Background";
 "Chat Backgrounds" = "对话背景";
 "Chat for free with your friends, colleagues and family!" = "免费与您的朋友，同事及家人聊天！";
 "Chat Logs" = "聊天记录";
@@ -203,6 +205,7 @@
 "Delete Key" = "删除密钥";
 "Delete Locally" = "本地删除";
 "Deny new contact" = "拒绝新联系人";
+"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "设备 ID: ";
 "DeviceID: " = "设备ID: ";
 "Devices of %@" = "%@ 的设备";
@@ -272,6 +275,12 @@
 "Error entering group/channel!" = "Error entering group/channel!";
 "Error entering groupchat" = "进入群聊时出错";
 "Error entering MUC!" = "进入 MUC 时出错！";
+/* parenthesis should be verbatim */
+"Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error handling SASL challenge of server (iteration count too low), disconnecting!";
+/* parenthesis should be verbatim */
+"Error handling SASL challenge of server (m-attr error), disconnecting!" = "Error handling SASL challenge of server (m-attr error), disconnecting!";
+/* parenthesis should be verbatim */
+"Error handling SASL challenge of server (nonce error), disconnecting!" = "Error handling SASL challenge of server (nonce error), disconnecting!";
 "Error handling SASL challenge of server, disconnecting!" = "处理服务器的SASL质询时出错，正在断开连接！";
 "Error registering push" = "注册推送错误";
 "Error Removing Account" = "删除帐户时出错";
@@ -515,8 +524,11 @@
 "Notification Changes" = "通知变更";
 "Notification Settings" = "通知设定";
 "Notifications" = "通知";
+"Notifications disabled" = "Notifications disabled";
 "Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old expereince back." = "由于iOS系统的一些改变，iOS 13的通知发生了变化。现在，你只会看到有一条新消息，而不是文字或谁发送的。我们决定这样做，这样你就有可靠的讯息传递，同时我努力更新Monal，让旧的体验回来。";
 "Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old experience back." = "由于iOS系统的一些改变，iOS 13的通知发生了变化。现在，你只会看到有一条新消息，而不是文字或谁发送的。我们决定这样做，这样你就有可靠的消息传递，同时我们努力更新Monal，让旧的体验回来。";
+"Notify on all messages" = "Notify on all messages";
+"Notify only when mentioned" = "Notify only when mentioned";
 "now" = "现在";
 "Offline Contacts" = "离线联系人";
 /* Crash report error dialog */
@@ -638,6 +650,7 @@
 "SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "通过 SSDP 检测到 SASL 降级攻击，中止身份验证并禁用帐户以限制损害。 一旦您再次处于干净的网络环境中，您应该重新启用您的帐户。";
 "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "检测到 SASL2 到 SASL1 降级攻击，中止身份验证并禁用帐户以限制损害。 一旦您再次处于干净的网络环境中，您应该重新启用您的帐户。";
 "Saving changes to server" = "将更改保存到服务器";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 /* mac only string */
 "Scroll down to load more messages" = "向下滑以载入更多消息";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "为TLS1.3和一些TLS1.2连接定义的安全频道绑定。";
@@ -695,6 +708,7 @@
 "Signing Up" = "注册帐号";
 "Skip" = "跳过";
 "Software Version" = "软件版本";
+"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
 "Something went wrong while parsing the string..." = "解析字符串时出现问题...";
 "Sort By Status" = "按状态排序";
 "Sounds" = "音效";
@@ -837,6 +851,7 @@
 "Unclean appex shutown" = "未清理附录关闭";
 "Undefined error" = "未定义的错误";
 "Unexpected appex expiration" = "意外的附录过期";
+"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
 "Unexpected error while checking type of jid, please try again" = "检查 jid 类型时出现意外错误，请重试";
 "Unexpected error while checking type of jid:" = "检查 jid 类型时出现意外错误：";
 "Unexpected mam preferences result" = "无预期的 mam 偏好结果";
@@ -967,8 +982,3 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
-"Change Chat Background" = "Change Chat Background";
-"Chat Background" = "Chat Background";
-"Notifications disabled" = "Notifications disabled";
-"Notify on all messages" = "Notify on all messages";
-"Notify only when mentioned" = "Notify only when mentioned";

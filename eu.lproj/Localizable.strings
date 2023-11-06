@@ -112,10 +112,12 @@
 "Can't convert the image to png file." = "Ezin da irudia PNGra bihurtu.";
 "Cancel" = "Utzi";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Ezin da ezer partekatu desgaitutako edo ezabatutako kontu batekin; helmuga: %1$@, barneko kontuaren IDa: %2$@";
+"Change Chat Background" = "Change Chat Background";
 "Change Contact Background" = "Aldatu kontaktuaren hondoa";
 "Change Password" = "Aldatu pasahitza";
 "Changing Password" = "Pasahitza aldatzen";
 "Channel subject:" = "Kanalaren gaia:";
+"Chat Background" = "Chat Background";
 "Chat Backgrounds" = "Txaten hondoak";
 "Chat for free with your friends, colleagues and family!" = "Txateatu debalde lagun, lankide eta senideekin!";
 "Chat Logs" = "Txaten erregistroa";
@@ -203,6 +205,7 @@
 "Delete Key" = "Ezabatu gakoa";
 "Delete Locally" = "Ezabatu lokalean";
 "Deny new contact" = "Baztertu kontaktu berria";
+"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "Gailuaren IDa: ";
 "DeviceID: " = "Gailuaren IDa: ";
 "Devices of %@" = "%@(r)en gailuak";
@@ -272,6 +275,12 @@
 "Error entering group/channel!" = "Error entering group/channel!";
 "Error entering groupchat" = "Errorea taldeko txatarekin bat egiterakoan";
 "Error entering MUC!" = "Errorea taldeko-txatera sartzerakoan!";
+/* parenthesis should be verbatim */
+"Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error handling SASL challenge of server (iteration count too low), disconnecting!";
+/* parenthesis should be verbatim */
+"Error handling SASL challenge of server (m-attr error), disconnecting!" = "Error handling SASL challenge of server (m-attr error), disconnecting!";
+/* parenthesis should be verbatim */
+"Error handling SASL challenge of server (nonce error), disconnecting!" = "Error handling SASL challenge of server (nonce error), disconnecting!";
 "Error handling SASL challenge of server, disconnecting!" = "Errorea zerbitzariaren SASL erronka erabiltzerakoan, deskonektatzen!";
 "Error registering push" = "Errorea push-a erregistratzean";
 "Error Removing Account" = "Errorea kontua kentzerakoan";
@@ -515,8 +524,11 @@
 "Notification Changes" = "Jakinarazpenen aldaketak";
 "Notification Settings" = "Jakinarazpen ezarpenak";
 "Notifications" = "Jakinarazpenak";
+"Notifications disabled" = "Notifications disabled";
 "Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old expereince back." = "iOSen aldaketak direla-eta, jakinarazpenak aldatu dira iOS 13n. Oraingoz zera bat ikusiko duzu mezu berri bat dagoela esanez, baina ez mezuaren edukia ezta igorlea ere. Horrela egitea erabaki dut momentuz, Monal eguneratu eta lehengo esperientzia berriro eskaini arte.";
 "Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old experience back." = "iOSen aldaketak direla-eta, jakinarazpenak aldatu dira iOS 13n. Oraingoz zera bat ikusiko duzu mezu berri bat dagoela esanez, baina ez mezuaren edukia ezta igorlea ere. Horrela egitea erabaki dut momentuz, Monal eguneratu eta lehengo esperientzia berriro eskaini arte.";
+"Notify on all messages" = "Notify on all messages";
+"Notify only when mentioned" = "Notify only when mentioned";
 "now" = "orain";
 "Offline Contacts" = "Lineaz kanpo dauden kontaktuak";
 "Ok" = "Ados";
@@ -638,6 +650,7 @@
 "SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL degradazio-erasoa antzeman da SSDPri esker; autentifikazioa baztertu eta kontua ezgaitu da kaltea mugatzeko. Gaitu kontua berriro sare seguru batean zaudenean.";
 "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL2tik SASL1erako degradazio-erasoa antzeman da; autentifikazioa baztertu eta kontua ezgaitu da kaltea mugatzeko. Gaitu kontua berriro sare seguru batean zaudenean.";
 "Saving changes to server" = "Aldaketak zerbitzarian gordetzen";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 /* mac only string */
 "Scroll down to load more messages" = "Tira behera mezu gehiago kargatzeko";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Kanaleko-lotura TLS1.3 eta TLS1.2 konexio batzuetarako segurtatuz.";
@@ -695,6 +708,7 @@
 "Signing Up" = "Izena ematen";
 "Skip" = "Gerorako utzi";
 "Software Version" = "Softwarearen bertsioa";
+"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
 "Something went wrong while parsing the string..." = "Zerbaitek kale egin du katea aztertzerakoan…";
 "Sort By Status" = "Sailkatu egoeraren arabera";
 "Sounds" = "Soinuak";
@@ -837,6 +851,7 @@
 "Unclean appex shutown" = "Appex (app extension) ez da garbi itxi";
 "Undefined error" = "Zehaztu gabeko errorea";
 "Unexpected appex expiration" = "Appex (app extension) ustekabean iraungi da";
+"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
 "Unexpected error while checking type of jid, please try again" = "Espero ez zen errorea JID mota egiaztatzerakoan; saiatu berriro";
 "Unexpected error while checking type of jid:" = "Espero ez zen errorea gertatu da JID mota egiaztatzerakoan:";
 "Unexpected mam preferences result" = "Mezuak artxibatzeko ezarpenek espero ez zen emaitza izan dute";
@@ -967,8 +982,3 @@
 "📍 A Location" = "📍 Kokapena";
 "📷 An Image" = "📷 Irudia";
 "🔗 A Link" = "🔗 Esteka";
-"Change Chat Background" = "Change Chat Background";
-"Chat Background" = "Chat Background";
-"Notifications disabled" = "Notifications disabled";
-"Notify on all messages" = "Notify on all messages";
-"Notify only when mentioned" = "Notify only when mentioned";

@@ -112,10 +112,12 @@
 "Can't convert the image to png file." = "Nie można przekonwertować obrazu do pliku png.";
 "Cancel" = "Anuluj";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Nie można udostępnić czegoś wyłączonemu/usuniętemu kontu, miejsce docelowe: %1$@, identyfikator konta wewnętrznego: %2$@";
+"Change Chat Background" = "Change Chat Background";
 "Change Contact Background" = "Zmiana Tła Kontaktu";
 "Change Password" = "Zmień hasło";
 "Changing Password" = "Zmiana hasła";
 "Channel subject:" = "Temat kanału:";
+"Chat Background" = "Chat Background";
 "Chat Backgrounds" = "Tła rozmów";
 "Chat for free with your friends, colleagues and family!" = "Rozmawiaj ze znajomymi, współpracownikami i rodziną za darmo!";
 "Chat Logs" = "Rejestry rozmów";
@@ -203,6 +205,7 @@
 "Delete Key" = "Usuń klucz";
 "Delete Locally" = "Usuń lokalnie";
 "Deny new contact" = "Odrzuć nowy kontakt";
+"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "ID urządzenia: ";
 "DeviceID: " = "IDurządzenia: ";
 "Devices of %@" = "Urządzenia %@";
@@ -272,6 +275,12 @@
 "Error entering group/channel!" = "Error entering group/channel!";
 "Error entering groupchat" = "Błąd podczas wchodzenia do czatu grupowego";
 "Error entering MUC!" = "Błąd dołączania do kanału!";
+/* parenthesis should be verbatim */
+"Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error handling SASL challenge of server (iteration count too low), disconnecting!";
+/* parenthesis should be verbatim */
+"Error handling SASL challenge of server (m-attr error), disconnecting!" = "Error handling SASL challenge of server (m-attr error), disconnecting!";
+/* parenthesis should be verbatim */
+"Error handling SASL challenge of server (nonce error), disconnecting!" = "Error handling SASL challenge of server (nonce error), disconnecting!";
 "Error handling SASL challenge of server, disconnecting!" = "Błąd podczas obsługi wyzwania SASL serwera, rozłączanie!";
 "Error registering push" = "Błąd rejestracji push";
 "Error Removing Account" = "Błąd podczas usuwania konta";
@@ -515,8 +524,11 @@
 "Notification Changes" = "Zmiany powiadomień";
 "Notification Settings" = "Ustawienia powiadomień";
 "Notifications" = "Powiadomienia";
+"Notifications disabled" = "Notifications disabled";
 "Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old expereince back." = "Powiadomienia zmieniły się w iOS 13 z powodu niektórych zmian w iOS. Na razie zobaczysz tylko informację, że jest nowa wiadomość, a nie tekst lub kto ją wysłał. Zdecydowałem się to zrobić, aby zapewnić niezawodne przesyłanie wiadomości, podczas gdy ja pracuję nad aktualizacją Monala, aby odzyskać stare doświadczenie.";
 "Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old experience back." = "Powiadomienia zmieniły się w iOS 13 z powodu niektórych zmian w iOS. Na razie zobaczysz tylko komunikat, że jest nowa wiadomość, a nie tekst lub kto ją wysłał. Zdecydowałem się to zrobić, aby zapewnić niezawodne przesyłanie wiadomości, podczas gdy ja pracuję nad aktualizacją Monala, aby przywrócić stare środowisko.";
+"Notify on all messages" = "Notify on all messages";
+"Notify only when mentioned" = "Notify only when mentioned";
 "now" = "teraz";
 "Offline Contacts" = "Kontakty offline";
 "Ok" = "Ok";
@@ -638,6 +650,7 @@
 "SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Atak SASL downgrade wykryty przez SSDP, przerywający uwierzytelnianie i wyłączający konto w celu ograniczenia szkód. Powinieneś ponownie włączyć swoje konto, gdy ponownie znajdziesz się w czystym środowisku sieciowym.";
 "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Wykryto atak z obniżeniem wersji SASL2 do SASL1, przerywający uwierzytelnianie i wyłączający konto w celu ograniczenia szkód. Powinieneś ponownie włączyć swoje konto, gdy ponownie znajdziesz się w czystym środowisku sieciowym.";
 "Saving changes to server" = "Zapisywanie zmian na serwerze";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 /* mac only string */
 "Scroll down to load more messages" = "Przewiń w dół, aby załadować więcej wiadomości";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Bezpieczne wiązanie kanałów zdefiniowane dla połączeń TLS1.3 i niektórych połączeń TLS1.2.";
@@ -695,6 +708,7 @@
 "Signing Up" = "Zapisanie się";
 "Skip" = "Pomijać";
 "Software Version" = "Wersja oprogramowania";
+"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
 "Something went wrong while parsing the string..." = "Coś poszło nie tak podczas parsowania tekstu...";
 "Sort By Status" = "Sortuj według statusu";
 "Sounds" = "Dźwięki";
@@ -837,6 +851,7 @@
 "Unclean appex shutown" = "Nieczyste zamknięcie appex";
 "Undefined error" = "Nieokreślony błąd";
 "Unexpected appex expiration" = "Niespodziane wygaśnięcie appex";
+"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
 "Unexpected error while checking type of jid, please try again" = "Nieoczekiwany błąd podczas sprawdzania typu jid, spróbuj ponownie";
 "Unexpected error while checking type of jid:" = "Nieoczekiwany błąd podczas sprawdzania typu jid:";
 "Unexpected mam preferences result" = "Nieoczekiwany wynik preferencji mam";
@@ -967,8 +982,3 @@
 "📍 A Location" = "📍 Lokalizacja";
 "📷 An Image" = "📷 Obraz";
 "🔗 A Link" = "🔗 Link";
-"Change Chat Background" = "Change Chat Background";
-"Chat Background" = "Chat Background";
-"Notifications disabled" = "Notifications disabled";
-"Notify on all messages" = "Notify on all messages";
-"Notify only when mentioned" = "Notify only when mentioned";

@@ -112,10 +112,12 @@
 "Can't convert the image to png file." = "Не вдається конвертувати зображення в png-файл.";
 "Cancel" = "Скасувати";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Неможливо поділитися чимось з вимкненим/видаленим акаунтом, адресат: %1$@, внутрішній ідентифікатор акаунта: %2$@";
+"Change Chat Background" = "Змінити фон чату";
 "Change Contact Background" = "Змінити фон контакту";
 "Change Password" = "Змінити пароль";
 "Changing Password" = "Зміна паролю";
 "Channel subject:" = "Тема каналу:";
+"Chat Background" = "Фон чату";
 "Chat Backgrounds" = "Фони чату";
 "Chat for free with your friends, colleagues and family!" = "Спілкуйтеся безкоштовно зі своїми друзями, колегами та родиною!";
 "Chat Logs" = "Логи чату";
@@ -203,6 +205,7 @@
 "Delete Key" = "Видалити ключ";
 "Delete Locally" = "Видалити локально";
 "Deny new contact" = "Відхилити новий контакт";
+"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "Device ID: ";
 "DeviceID: " = "DeviceID: ";
 "Devices of %@" = "Пристрої %@";
@@ -272,6 +275,12 @@
 "Error entering group/channel!" = "Помилка входу в групу/канал!";
 "Error entering groupchat" = "Помилка входу в груповий чат";
 "Error entering MUC!" = "Помилка при вході в MUC!";
+/* parenthesis should be verbatim */
+"Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error handling SASL challenge of server (iteration count too low), disconnecting!";
+/* parenthesis should be verbatim */
+"Error handling SASL challenge of server (m-attr error), disconnecting!" = "Error handling SASL challenge of server (m-attr error), disconnecting!";
+/* parenthesis should be verbatim */
+"Error handling SASL challenge of server (nonce error), disconnecting!" = "Error handling SASL challenge of server (nonce error), disconnecting!";
 "Error handling SASL challenge of server, disconnecting!" = "Помилка обробки SASL виклику сервера, відʼєднання!";
 "Error registering push" = "Помилка реєстрації push";
 "Error Removing Account" = "Помилка видалення облікового запису";
@@ -515,8 +524,11 @@
 "Notification Changes" = "Повідомлення про зміни";
 "Notification Settings" = "Налаштування сповіщень";
 "Notifications" = "Сповіщення";
+"Notifications disabled" = "Сповіщення вимкнені";
 "Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old expereince back." = "Сповіщення змінилися в iOS 13 через деякі зміни в iOS. Наразі ви бачитимете лише повідомлення про те, що є нове повідомлення, а не текст або хто його надіслав. Я вирішив зробити так, щоб ви мали надійний обмін повідомленнями, поки я працюю над оновленням Monal, щоб повернути стару версію.";
 "Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old experience back." = "Сповіщення змінилися в iOS 13 через деякі зміни в iOS. Наразі ви бачитимете лише повідомлення про те, що є нове повідомлення, а не текст або хто його надіслав. Я вирішив зробити так, щоб ви мали надійний обмін повідомленнями, поки я працюю над оновленням Monal, щоб повернути старий досвід.";
+"Notify on all messages" = "Сповіщати про всі повідомлення";
+"Notify only when mentioned" = "Повідомляти тільки тоді, коли згадується";
 "now" = "зараз";
 "Offline Contacts" = "Оффлайн контакти";
 "Ok" = "Ок";
@@ -638,6 +650,7 @@
 "SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Виявлено атаку на зниження рівня SASL через SSDP, яка перериває автентифікацію та вимикає обліковий запис, щоб обмежити пошкодження. Вам слід увімкнути обліковий запис, як тільки ви знову опинитеся в чистому мережевому середовищі.";
 "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Виявлено атаку на пониження рівня SASL2 до SASL1, яка перериває автентифікацію та вимикає обліковий запис, щоб обмежити пошкодження. Вам слід увімкнути обліковий запис, як тільки ви знову опинитеся в чистому мережевому середовищі.";
 "Saving changes to server" = "Збереження змін на сервері";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 /* mac only string */
 "Scroll down to load more messages" = "Прокрутіть униз, щоб завантажити більше повідомлень";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Безпечне прив'язування каналів, визначене для з'єднань TLS1.3 та деяких з'єднань TLS1.2.";
@@ -695,6 +708,7 @@
 "Signing Up" = "Реєстрація";
 "Skip" = "Пропустити";
 "Software Version" = "Версія ПЗ";
+"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
 "Something went wrong while parsing the string..." = "Під час розбору рядка щось пішло не так...";
 "Sort By Status" = "Сортувати за статусом";
 "Sounds" = "Звуки";
@@ -837,6 +851,7 @@
 "Unclean appex shutown" = "Вимкнення нечистого апекса";
 "Undefined error" = "Невизначена помилка";
 "Unexpected appex expiration" = "Несподіване закінчення терміну дії апексу";
+"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
 "Unexpected error while checking type of jid, please try again" = "Неочікувана помилка під час перевірки типу jid, спробуйте ще раз";
 "Unexpected error while checking type of jid:" = "Неочікувана помилка при перевірці типу jid:";
 "Unexpected mam preferences result" = "Несподіваний результат вподобань MAM";
@@ -967,8 +982,3 @@
 "📍 A Location" = "📍 Місцезнаходження";
 "📷 An Image" = "📷 Зображення";
 "🔗 A Link" = "🔗 Посилання";
-"Change Chat Background" = "Змінити фон чату";
-"Chat Background" = "Фон чату";
-"Notifications disabled" = "Сповіщення вимкнені";
-"Notify on all messages" = "Сповіщати про всі повідомлення";
-"Notify only when mentioned" = "Повідомляти тільки тоді, коли згадується";
