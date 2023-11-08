@@ -205,7 +205,7 @@
 "Delete Key" = "Anahtarı Sil";
 "Delete Locally" = "Yerel Olarak Sil";
 "Deny new contact" = "Yeni kişiyi reddet";
-"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
+"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SSDP aracılığıyla MITM saldırısı tespit edildi, kimlik doğrulama iptal edildi ve hasarı sınırlamak için hesap devre dışı bırakıldı. Tekrar temiz bir ağ ortamına girdiğinizde hesabınızı yeniden etkinleştirmelisiniz.";
 "Device ID: " = "Cihaz Kimliği: ";
 "DeviceID: " = "Cihaz Kimliği: ";
 "Devices of %@" = "%@ cihazları";
@@ -276,11 +276,11 @@
 "Error entering groupchat" = "Grup sohbetine girerken hata";
 "Error entering MUC!" = "Grup/Kanal'a girerken hata oluştu!";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error handling SASL challenge of server (iteration count too low), disconnecting!";
+"Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Sunucunun SASL Challenge'ı işlenirken hata oluştu (yineleme sayısı çok düşük), bağlantı kesiliyor!";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (m-attr error), disconnecting!" = "Error handling SASL challenge of server (m-attr error), disconnecting!";
+"Error handling SASL challenge of server (m-attr error), disconnecting!" = "Sunucunun SASL Challange'ı işlenirken hata (m-attr hatası) oluştu, bağlantı kesiliyor!";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (nonce error), disconnecting!" = "Error handling SASL challenge of server (nonce error), disconnecting!";
+"Error handling SASL challenge of server (nonce error), disconnecting!" = "Sunucunun SASL Challange'ı işlenirken hata (nonce hatası) oluştu, bağlantı kesiliyor!";
 "Error handling SASL challenge of server, disconnecting!" = "Sunucunun SASL sorgulaması işlenirken hata oluştu, bağlantı kesiliyor!";
 "Error registering push" = "Bildirimler kaydedilirken hata oluştu";
 "Error Removing Account" = "Hesap silinirken hata oluştu";
@@ -650,7 +650,7 @@
 "SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SSDP aracılığıyla SASL düşürme saldırısı tespit edildi, kimlik doğrulama iptal edildi ve hasarı sınırlamak için hesap devre dışı bırakıldı. Tekrar temiz bir ağ ortamına girdiğinizde hesabınızı yeniden etkinleştirmelisiniz.";
 "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL2'den SASL1'e düşürme saldırısı tespit edildi, kimlik doğrulama iptal edildi ve hasarı sınırlamak için hesap devre dışı bırakıldı. Tekrar temiz bir ağ ortamına girdiğinizde hesabınızı yeniden etkinleştirmelisiniz.";
 "Saving changes to server" = "Değişiklikleri sunucuya kaydetme";
-"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM sunucu kanıtı hatalı, büyük olasılıkla devam eden MITM saldırısı, kimlik doğrulamayı iptal ediliyor ve hasarı sınırlamak için hesabı devre dışı bırakılıyor. Tekrar temiz bir ağ ortamına girdiğinizde hesabınızı yeniden etkinleştirmelisiniz.";
 /* mac only string */
 "Scroll down to load more messages" = "Daha fazla ileti yüklemek için aşağı kaydırın";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "TLS1.3 ve bazı TLS1.2 bağlantıları için tanımlanmış güvenli channel-binding.";
@@ -708,7 +708,7 @@
 "Signing Up" = "Kaydol";
 "Skip" = "Atla";
 "Software Version" = "Yazılım Sürümü";
-"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
+"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Bazı mesajlar alınmak veya gönderilmek için bekleyebilir. Lütfen yeniden denemek için uygulamayı açın.";
 "Something went wrong while parsing the string..." = "Dizeyi ayrıştırırken bir şeyler yanlış gitti...";
 "Sort By Status" = "Durumuna Göre Sırala";
 "Sounds" = "Sesler";
@@ -851,7 +851,7 @@
 "Unclean appex shutown" = "Temiz olmayan appex kapanması";
 "Undefined error" = "Tanımlanmamış hata";
 "Unexpected appex expiration" = "Beklenmedik appex sona ermesi";
-"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
+"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "SASL2 kullanarak sunucu kimlik doğrulamasında beklenmeyen hata (sunucunuzda bir bug mı var?), bağlantı kesiliyor!";
 "Unexpected error while checking type of jid, please try again" = "Jid türünü kontrol ederken beklenmeyen hata, lütfen yeniden deneyin";
 "Unexpected error while checking type of jid:" = "Jid türü denetlenirken beklenmeyen hata:";
 "Unexpected mam preferences result" = "Beklenmeyen mesaj arşiv tercihleri sonucu";
