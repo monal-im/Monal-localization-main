@@ -37,7 +37,7 @@
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "用上面的 + 按钮新增联系人。您的朋友在他们可以聊天的时候会出现在这";
 "Add scanned Group/Channel or Contact" = "添加扫描的群/频道或联系人";
 "Add to contacts" = "添加到通讯录";
-"Adding Group/Channel..." = "Adding Group/Channel...";
+"Adding Group/Channel..." = "添加群组/频道...";
 "Adding MUC..." = "添加 MUC...";
 "Adding..." = "添加...";
 "Advanced" = "高级";
@@ -88,19 +88,19 @@
 "Blocking not supported" = "不支持阻止";
 "Blocking/Unblocking Not Supported" = "不支持阻止/解除阻止";
 "BODY" = "主体";
-"Call ended" = "Call ended";
+"Call ended" = "通话结束";
 "Call ended for an unknown reason" = "通话因未知原因结束";
 "Call ended, duration: %@" = "通话结束，持续时间: %@";
 "Call ended: answered with other device" = "通话结束：用其他设备接听";
-"Call ended: application error" = "Call ended: application error";
+"Call ended: application error" = "通话结束: 应用程序错误";
 "Call ended: connection failed" = "通话结束：连接失败";
-"Call ended: connection failed\nDuration: %@" = "Call ended: connection failed\nDuration: %@";
-"Call ended: couldn't establish encryption" = "Call ended: couldn't establish encryption";
+"Call ended: connection failed\nDuration: %@" = "通话结束：连接失败\n期间: %@";
+"Call ended: couldn't establish encryption" = "通话结束: 无法建立加密";
 "Call ended: declined" = "通话结束：已拒绝";
 "Call ended: hung up" = "通话结束：挂断";
 "Call ended: remote busy" = "通话结束：远程占线";
 "call screen did disappear" = "通话界面已取消";
-"Call security help" = "Call security help";
+"Call security help" = "呼叫安全帮助";
 "Call was not answered" = "通话未接听";
 "Calls: Allow P2P sessions" = "通话：允许 P2P 会话";
 "Calls: Allow TURN fallback to Monal-Servers" = "调用：允许 TURN 回退到 Monal 服务器";
@@ -112,12 +112,12 @@
 "Can't convert the image to png file." = "无法将图像转换为png文件。";
 "Cancel" = "取消";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "无法与被禁用/删除的帐户共享某些内容，目标: %1$@, 内部帐户 id: %2$@";
-"Change Chat Background" = "Change Chat Background";
+"Change Chat Background" = "更改聊天背景";
 "Change Contact Background" = "更改联系人背景";
 "Change Password" = "修改密码";
 "Changing Password" = "更改密码";
 "Channel subject:" = "频道主题:";
-"Chat Background" = "Chat Background";
+"Chat Background" = "聊天背景";
 "Chat Backgrounds" = "对话背景";
 "Chat for free with your friends, colleagues and family!" = "免费与您的朋友，同事及家人聊天！";
 "Chat Logs" = "聊天记录";
@@ -205,7 +205,7 @@
 "Delete Key" = "删除密钥";
 "Delete Locally" = "本地删除";
 "Deny new contact" = "拒绝新联系人";
-"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
+"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "通过 SSDP 检测到正在进行的 MITM 攻击，中止身份验证并禁用帐户以限制损害。 一旦您再次处于干净的网络环境中，您应该重新启用您的帐户。";
 "Device ID: " = "设备 ID: ";
 "DeviceID: " = "设备ID: ";
 "Devices of %@" = "%@ 的设备";
@@ -272,15 +272,15 @@
 "Error adding contact or channel" = "添加联系人或频道时出错";
 "Error authenticating server using SASL2, disconnecting!" = "使用SASL2验证服务器时出错，正在断开连接!";
 "Error decrypting message" = "解密消息发生错误";
-"Error entering group/channel!" = "Error entering group/channel!";
+"Error entering group/channel!" = "输入群组/频道时出错!";
 "Error entering groupchat" = "进入群聊时出错";
 "Error entering MUC!" = "进入 MUC 时出错！";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error handling SASL challenge of server (iteration count too low), disconnecting!";
+"Error handling SASL challenge of server (iteration count too low), disconnecting!" = "处理服务器的 SASL 挑战时出错（迭代计数太低），断开连接！";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (m-attr error), disconnecting!" = "Error handling SASL challenge of server (m-attr error), disconnecting!";
+"Error handling SASL challenge of server (m-attr error), disconnecting!" = "处理服务器的 SASL 挑战时出错（m-attr 错误），断开连接！";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (nonce error), disconnecting!" = "Error handling SASL challenge of server (nonce error), disconnecting!";
+"Error handling SASL challenge of server (nonce error), disconnecting!" = "处理服务器的 SASL 挑战时出错（随机数错误），断开连接！";
 "Error handling SASL challenge of server, disconnecting!" = "处理服务器的SASL质询时出错，正在断开连接！";
 "Error registering push" = "注册推送错误";
 "Error Removing Account" = "删除帐户时出错";
@@ -342,7 +342,7 @@
 "General File Transfer Settings" = "一般文件传输设置";
 "Got it!" = "了解！";
 "GPS" = "GPS";
-"Green checkmark shield:" = "Green checkmark shield:";
+"Green checkmark shield:" = "绿色复选标记盾牌:";
 "Group Chat" = "群聊";
 "Group Chat Invite" = "群聊邀请";
 "Group Information" = "群信息";
@@ -524,11 +524,11 @@
 "Notification Changes" = "通知变更";
 "Notification Settings" = "通知设定";
 "Notifications" = "通知";
-"Notifications disabled" = "Notifications disabled";
+"Notifications disabled" = "通知已禁用";
 "Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old expereince back." = "由于iOS系统的一些改变，iOS 13的通知发生了变化。现在，你只会看到有一条新消息，而不是文字或谁发送的。我们决定这样做，这样你就有可靠的讯息传递，同时我努力更新Monal，让旧的体验回来。";
 "Notifications have changed in iOS 13 because of some iOS changes. For now you will just see something saying there is a new message and not the text or who sent it. I have decided to do this so you have reliable messaging while I work to update Monal to get the old experience back." = "由于iOS系统的一些改变，iOS 13的通知发生了变化。现在，你只会看到有一条新消息，而不是文字或谁发送的。我们决定这样做，这样你就有可靠的消息传递，同时我们努力更新Monal，让旧的体验回来。";
-"Notify on all messages" = "Notify on all messages";
-"Notify only when mentioned" = "Notify only when mentioned";
+"Notify on all messages" = "通知所有消息";
+"Notify only when mentioned" = "仅在提及时通知";
 "now" = "现在";
 "Offline Contacts" = "离线联系人";
 /* Crash report error dialog */
@@ -546,7 +546,7 @@
 "Optional Port" = "可选端口";
 "Os: " = "操作系统: ";
 "Own device key" = "自己的设备密钥";
-"Own Encryption Keys" = "Own Encryption Keys";
+"Own Encryption Keys" = "自己的加密密钥";
 "Participants" = "参与者";
 "Password" = "密码";
 "Password cannot be empty" = "密码不能为空";
@@ -620,7 +620,7 @@
 "Reconnecting" = "正在重新连线";
 "Reconnecting..." = "正在重新连接...";
 "Recording audio" = "正在录音";
-"Red x-mark shield:" = "Red x-mark shield:";
+"Red x-mark shield:" = "红色x标记盾牌:";
 "Refreshing..." = "正在刷新...";
 "Register" = "注册";
 "Register a new account" = "注册新帐户";
@@ -650,7 +650,7 @@
 "SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "通过 SSDP 检测到 SASL 降级攻击，中止身份验证并禁用帐户以限制损害。 一旦您再次处于干净的网络环境中，您应该重新启用您的帐户。";
 "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "检测到 SASL2 到 SASL1 降级攻击，中止身份验证并禁用帐户以限制损害。 一旦您再次处于干净的网络环境中，您应该重新启用您的帐户。";
 "Saving changes to server" = "将更改保存到服务器";
-"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM 服务器证明错误，极有可能正在进行 MITM 攻击，中止身份验证并禁用帐户以限制损害。 一旦您再次处于干净的网络环境中，您应该重新启用您的帐户。";
 /* mac only string */
 "Scroll down to load more messages" = "向下滑以载入更多消息";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "为TLS1.3和一些TLS1.2连接定义的安全频道绑定。";
@@ -708,7 +708,7 @@
 "Signing Up" = "注册帐号";
 "Skip" = "跳过";
 "Software Version" = "软件版本";
-"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
+"Some messages might wait to be retrieved or sent. Please open the app to retry." = "某些消息可能等待检索或发送。 请打开应用程序重试。";
 "Something went wrong while parsing the string..." = "解析字符串时出现问题...";
 "Sort By Status" = "按状态排序";
 "Sounds" = "音效";
@@ -728,7 +728,7 @@
 "Submit A Bug" = "提交错误";
 "Success" = "成功";
 "Success!" = "成功！";
-"Successfully joined group/channel %@!" = "Successfully joined group/channel %@!";
+"Successfully joined group/channel %@!" = "已成功加入群组/频道 %@!";
 "Successfully joined MUC %@!" = "成功加入 MUC %@!";
 "Support" = "支持";
 /* Crash reporting */
@@ -760,7 +760,7 @@
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for a acount. Go to settings and rescan the qrcode" = "二维码包含帐户的登录凭据。 进入设置并重新扫描二维码";
 /* QR-Code-Scanner: account scan wrong menu */
-"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode";
+"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "二维码包含帐户的登录凭据。 进入设置 -> 新帐户并重新扫描二维码";
 "The resource '%@' has the following capabilities:" = "资源 '%@' 具有以下功能：";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "可选的 XMPP 服务器是不隶属于 Monal 的公共服务器。 提供此注册页面仅为了方便起见。";
 "The server does not support blocking" = "服务器不支持阻止";
@@ -805,9 +805,9 @@
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "该密钥是可信的，并通过手动比较指纹进行验证。 要停止信任此密钥，请使用切换元素。";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "此密钥受信任，但联系人不再使用它。 考虑禁用对此密钥的信任。";
 "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "该密钥是可信的，但联系人已经很长时间没有使用它了。 考虑禁用对此密钥的信任";
-"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you.";
-"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place.";
-"This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you.";
+"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "这意味着您的呼叫已加密，并且远程方已使用 OMEMO 加密进行验证。\n但由于您没有手动验证被叫方的 OMEMO 指纹，您或被叫方的 XMPP 服务器可能已向中间人插入了他们自己的 OMEMO 密钥。";
+"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "这意味着您的呼叫已加密，并且远程方已使用 OMEMO 加密进行验证。\n您手动验证了使用的 OMEMO 密钥，并且不会发生中间人攻击。";
+"This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "这意味着您的呼叫已加密，但无法使用 OMEMO 加密来验证远程方。\n您或被叫方的 XMPP 服务器可能是中间人。";
 "This message failed to send (%@): %@" = "此消息未能发出 (%1$@): %2$@";
 "This message failed to send." = "此消息发送失败。";
 "This message got retracted" = "此消息已被撤回";
@@ -909,7 +909,7 @@
 "XEP-0191: Blocking Command" = "XEP-0191: 阻塞的命令";
 "XEP-0198: Stream Management" = "XEP-0198: 流管理";
 "XEP-0199: XMPP Ping" = "XEP-0199: XMPP Ping 命令";
-"XEP-0215: External Service Discovery" = "XEP-0215: External Service Discovery";
+"XEP-0215: External Service Discovery" = "XEP-0215: 外部服务发现";
 "XEP-0237: Roster Versioning" = "XEP-0237:名单版本管理";
 "XEP-0280: Message Carbons" = "XEP-0280: 消息副本";
 "XEP-0313: Message Archive Management" = "XEP-0313: 消息档案管理";
@@ -929,7 +929,7 @@
 "XMPP ID missing" = "缺少 XMPP ID";
 "XMPP mam preferences error" = "XMPP mam 偏好设定错误";
 "XMPP protocol extension for communications blocking." = "XMPP 通信阻塞的协议扩展。";
-"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls.";
+"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP 协议扩展，用于发现 XMPP 网络外部的服务，例如 A/V 呼叫所需的 STUN 或 TURN 服务器。";
 "XMPP protocol extension for sending application-level pings over XML streams." = "XMPP协议扩展，用于通过XML流发送应用程序级ping。";
 "XMPP Roster Error" = "XMPP 名单错误";
 "XMPP server domain not valid!" = "XMPP 服务器域无效！";
@@ -938,7 +938,7 @@
 "XMPP: QR-Code" = "XMPP: 二维码";
 "XMPPServer" = "XMPP服务器";
 "yax.im is a public server, not affiliated with Monal. This page is provided for convenience." = "yax.im 是一个公共服务器，不属于 Monal。 提供此页面是为了方便理解。";
-"Yellow checkmark shield:" = "Yellow checkmark shield:";
+"Yellow checkmark shield:" = "黄色复选标记盾牌:";
 "Yes" = "是";
 "Yes, deactivate encryption" = "是的，禁用加密";
 "You are not trapped in a garden. Talk to anyone else without anyone tracking you." = "您不在监视范围内。 您在没有任何人追踪的情况下与其他人交谈。";
@@ -955,7 +955,7 @@
 /* OmemoQrCodeView */
 "You have to many enabled devices on this account. You need to remove some devices" = "您在此帐号上启用过多设备。您需要删除一些设备";
 "You need friends for this ride" = "你需要朋友来参加这次旅行";
-"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
+"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "如果您希望其他人可以听到您的声音，您需要在 iOS 设置 -> 隐私 -> 麦克风中授予麦克风访问权限。";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "您已恢复了 Monal 的 iCloud 备份，请重新打开应用并启用此帐户。";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen." = "您应该在验证过密钥后再信任它。将下面的密钥与您的联系人画面上的密钥进行比较来验证。";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "验证密钥后，您应该信任它。 通过将下面的密钥与您联系人屏幕上的密钥进行比较来进行验证。 双击指纹即可复制到剪贴板。";
@@ -965,7 +965,7 @@
 "Your account must be enabled and connected, to be removed from the server!" = "您的帐户必须启用并连接，才能从服务器中删除！";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "您的帐户已停用，因为您恢复了 Monal 的 iCloud 备份。 请重新输入您的密码以再次激活它们。";
 "Your answer" = "你的回答";
-"Your contact may not support calls. Your call might never reach its destination." = "Your contact may not support calls. Your call might never reach its destination.";
+"Your contact may not support calls. Your call might never reach its destination." = "您的联系人可能不支持通话。 您的呼叫可能永远不会接通。";
 "Your contact may to not support Monal-Style calls. Your call might never reach its destination." = "您的联系人可能不支持 Monal 方式呼叫。 您的呼叫可能无效。";
 "Your entered XMPP ID is missing the domain" = "您输入的 XMPP ID 缺少域名";
 "Your entered XMPP ID is missing the username" = "您输入的 XMPP ID 缺少使用者名称";
