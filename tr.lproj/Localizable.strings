@@ -235,7 +235,7 @@
 "Dont' trust Key" = "Anahtara güvenme";
 "Download" = "İndir";
 "Download error" = "Karşıdan yükleme hatası";
-"Download Settings" = "Download Settings";
+"Download Settings" = "Ayarları indir";
 "Draft:" = "Taslak:";
 "Draft: %@" = "Taslak: % @";
 /* hello bartycrouch */
@@ -378,8 +378,8 @@
 "Image encryption error" = "Görüntü şifreleme hatası";
 "Image Quality" = "Görüntü Kalitesi";
 "Image Quality: %.2f" = "Görüntü Kalitesi: %.2f";
-"Image Upload Quality" = "Image Upload Quality";
-"Image Upload Quality: %.2f" = "Image Upload Quality: %.2f";
+"Image Upload Quality" = "Görüntü Yükleme Kalitesi";
+"Image Upload Quality: %.2f" = "Görüntü Yükleme Kalitesi: %.2f";
 "Images" = "Görüntüler";
 "Import and trust OMEMO fingerprints from QR code" = "QR kodundan OMEMO parmaklarını içe aktarın ve güvenin";
 "Incoming audio call to %@ from %@ " = "%2$@'dan %1$@'e gelen sesli arama ";
@@ -448,7 +448,7 @@
 "Mark as read" = "Okundu olarak işaretle";
 "Maximum File Transfer Size" = "Maksimum Dosya Aktarım Boyutu";
 "Me" = "Beni";
-"Media Upload & Download Settings" = "Media Upload & Download Settings";
+"Media Upload & Download Settings" = "Medya Yükleme ve İndirme Ayarları";
 "Message" = "İleti";
 "Message Archive Pref" = "Mesaj Arşivi Tercihi";
 "Message Archive Preferences" = "Mesaj Arşivi Tercihleri";
@@ -780,12 +780,12 @@
 "There was an error uploading the file to the server" = "Dosya sunucuya yüklenirken bir hata oluştu";
 "These are SRV resource records found for your domain" = "Bunlar, alan adınız için bulunan SRV kaynak kayıtlarıdır";
 "These are SRV resource records found for your domain." = "Bunlar, etki alanınız için bulunan SRV kaynak kayıtlarıdır.";
-"These are STUN and TURN services announced by your server. (blue entries are used by monal)" = "These are STUN and TURN services announced by your server. (blue entries are used by monal)";
-"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal).";
+"These are STUN and TURN services announced by your server. (blue entries are used by monal)" = "Bunlar sunucunuz tarafından duyurulan STUN ve TURN hizmetleridir. (mavi girişler monal tarafından kullanılır)";
+"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "Bunlar, sunucunuzun TLS katmanındaki saldırıları tespit etmek için desteklediği kanal bağlama türleridir (mavi olan kullanılır, turuncu olanlar Monal tarafından desteklenmez).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in green, yellow ones unsupported by Monal)." = "Bunlar, sunucunuzun TLS katmanındaki saldırıları tespit etmek için desteklediği kanal bağlama türleridir (kullanılanlar yeşil, sarı olanlar ise Monal tarafından desteklenmez).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer." = "Bunlar, sunucunuzun TLS katmanındaki saldırıları tespit etmek için desteklediği channel-binding türleridir.";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "Bunlar, Monal'ın oturum açtıktan sonra sunucunuzda algılanan modern XMPP özellikleridir.";
-"These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal).";
+"These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "Bunlar sunucunuzun desteklediği SASL2 yöntemleridir (kullanılan mavi, turuncu olanlar Monal tarafından desteklenmez).";
 "These are the SASL2 methods your server supports (used one in green, yellow ones unsupported by Monal)." = "Bunlar sunucunuzun desteklediği SASL2 yöntemleridir (kullanılanlar yeşil, sarı olanlar ise Monal tarafından desteklenmez).";
 "These are the SASL2 methods your server supports." = "Bunlar sunucunuzun desteklediği SASL2 yöntemleridir.";
 "These are the TLS versions supported by Monal, the one supported by your server will be green." = "Bunlar Monal tarafından desteklenen TLS sürümleridir, sunucunuz tarafından desteklenen sürümler yeşil olacaktır.";
@@ -878,7 +878,7 @@
 "Upload Error: your account got disconnected while requesting upload slot" = "Yükleme Hatası: Yükleme yuvası istenirken hesabınızın bağlantısı kesildi";
 "Upload files to the server to share with others." = "Dosyaları başkalarıyla paylaşmak için sunucuya yükleyin.";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Dosyaları başkalarıyla paylaşmak için sunucuya yükleyin. (Sunucu tarafından bildirilen izin verilen maksimum dosya boyutu: %@)";
-"Upload Settings" = "Upload Settings";
+"Upload Settings" = "Yükleme Ayarları";
 "Uploading" = "Karşıya yükleniyor";
 "Uploading file to server" = "Dosya sunucuya yükleniyor";
 "Use your existing account or make a new one on the many servers around the world" = "Mevcut hesabınızı kullanın veya dünyadaki birçok sunucuda yeni bir hesap oluşturun";
@@ -990,6 +990,6 @@
 "📍 A Location" = "📍 Bir Konum";
 "📷 An Image" = "📷 Bir Resim";
 "🔗 A Link" = "🔗 Bir Bağlantı";
-"Create new group" = "Create new group";
-"No contacts to show :(" = "No contacts to show :(";
-"Please make sure at least one account has connected before trying to create new group." = "Please make sure at least one account has connected before trying to create new group.";
+"Create new group" = "Yeni grup oluştur";
+"No contacts to show :(" = "Gösterilecek kişi yok :(";
+"Please make sure at least one account has connected before trying to create new group." = "Lütfen yeni grup oluşturmayı denemeden önce en az bir hesabın bağlı olduğundan emin olun.";
