@@ -235,6 +235,7 @@
 "Dont' trust Key" = "Dont' trust Key";
 "Download" = "Скачать";
 "Download error" = "Download error";
+"Download Settings" = "Download Settings";
 "Draft:" = "Draft:";
 "Draft: %@" = "Черновик: %@";
 /* hello bartycrouch */
@@ -377,6 +378,8 @@
 "Image encryption error" = "Image encryption error";
 "Image Quality" = "Image Quality";
 "Image Quality: %.2f" = "Image Quality: %.2f";
+"Image Upload Quality" = "Image Upload Quality";
+"Image Upload Quality: %.2f" = "Image Upload Quality: %.2f";
 "Images" = "Images";
 "Import and trust OMEMO fingerprints from QR code" = "Import and trust OMEMO fingerprints from QR code";
 "Incoming audio call to %@ from %@ " = "Incoming audio call to %1$@ from %2$@ ";
@@ -445,6 +448,7 @@
 "Mark as read" = "Mark as read";
 "Maximum File Transfer Size" = "Maximum File Transfer Size";
 "Me" = "Me";
+"Media Upload & Download Settings" = "Media Upload & Download Settings";
 "Message" = "Сообщение";
 "Message Archive Pref" = "Message Archive Pref";
 "Message Archive Preferences" = "Настройки архивирования";
@@ -776,9 +780,12 @@
 "There was an error uploading the file to the server" = "There was an error uploading the file to the server";
 "These are SRV resource records found for your domain" = "These are SRV resource records found for your domain";
 "These are SRV resource records found for your domain." = "These are SRV resource records found for your domain.";
+"These are STUN and TURN services announced by your server. (blue entries are used by monal)" = "These are STUN and TURN services announced by your server. (blue entries are used by monal)";
+"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in green, yellow ones unsupported by Monal)." = "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in green, yellow ones unsupported by Monal).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer." = "These are the channel-binding types your server supports to detect attacks on the TLS layer.";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "These are the modern XMPP capabilities Monal detected on your server after you have logged in.";
+"These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal).";
 "These are the SASL2 methods your server supports (used one in green, yellow ones unsupported by Monal)." = "These are the SASL2 methods your server supports (used one in green, yellow ones unsupported by Monal).";
 "These are the SASL2 methods your server supports." = "These are the SASL2 methods your server supports.";
 "These are the TLS versions supported by Monal, the one supported by your server will be green." = "These are the TLS versions supported by Monal, the one supported by your server will be green.";
@@ -871,6 +878,7 @@
 "Upload Error: your account got disconnected while requesting upload slot" = "Upload Error: your account got disconnected while requesting upload slot";
 "Upload files to the server to share with others." = "Upload files to the server to share with others.";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)";
+"Upload Settings" = "Upload Settings";
 "Uploading" = "Uploading";
 "Uploading file to server" = "Uploading file to server";
 "Use your existing account or make a new one on the many servers around the world" = "Use your existing account or make a new one on the many servers around the world";
@@ -982,3 +990,6 @@
 "📍 A Location" = "📍 A Location";
 "📷 An Image" = "📷 An Image";
 "🔗 A Link" = "🔗 A Link";
+"Create new group" = "Create new group";
+"No contacts to show :(" = "No contacts to show :(";
+"Please make sure at least one account has connected before trying to create new group." = "Please make sure at least one account has connected before trying to create new group.";

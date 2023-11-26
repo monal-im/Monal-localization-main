@@ -235,6 +235,7 @@
 "Dont' trust Key" = "Schlüssel nicht vertrauen";
 "Download" = "Download";
 "Download error" = "Downloadfehler";
+"Download Settings" = "Download Settings";
 "Draft:" = "Entwurf:";
 "Draft: %@" = "Entwurf: %@";
 /* hello bartycrouch */
@@ -377,6 +378,8 @@
 "Image encryption error" = "Fehler bei der Bildverschlüsselung";
 "Image Quality" = "Bildqualität";
 "Image Quality: %.2f" = "Bildqualität: %.2f";
+"Image Upload Quality" = "Image Upload Quality";
+"Image Upload Quality: %.2f" = "Image Upload Quality: %.2f";
 "Images" = "Bilder";
 "Import and trust OMEMO fingerprints from QR code" = "OMEMO-Fingerabdrücke von QR-Codes importieren und vertrauen";
 "Incoming audio call to %@ from %@ " = "Eingehender Audioanruf an %1$@ von %2$@ ";
@@ -445,6 +448,7 @@
 "Mark as read" = "Als gelesen markieren";
 "Maximum File Transfer Size" = "Maximale Größe der Dateiübertragung";
 "Me" = "Ich";
+"Media Upload & Download Settings" = "Media Upload & Download Settings";
 "Message" = "Nachricht";
 "Message Archive Pref" = "Nachrichtenarchiv-Präferenz";
 "Message Archive Preferences" = "Nachrichtenarchivierung";
@@ -776,9 +780,12 @@
 "There was an error uploading the file to the server" = "Es gab einen Fehler beim Hochladen der Datei auf den Server";
 "These are SRV resource records found for your domain" = "Dies sind SRV-Ressourceneinträge, die für deine Domain gefunden wurden";
 "These are SRV resource records found for your domain." = "Dies sind SRV-Ressourceneinträge, die für deine Domäne gefunden wurden.";
+"These are STUN and TURN services announced by your server. (blue entries are used by monal)" = "These are STUN and TURN services announced by your server. (blue entries are used by monal)";
+"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in green, yellow ones unsupported by Monal)." = "Dies sind die Kanalbindungstypen, die dein Server unterstützt, um Angriffe auf die TLS-Schicht zu erkennen (die verwendeten in grün, die gelben werden von Monal nicht unterstützt).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer." = "Dies sind die Kanalbindungstypen, die dein Server unterstützt, um Angriffe auf die TLS-Schicht zu erkennen.";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "Dies sind die modernen XMPP-Fähigkeiten, die Monal auf deinem Server entdeckt hat, nachdem du dich eingeloggt hast.";
+"These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal).";
 "These are the SASL2 methods your server supports (used one in green, yellow ones unsupported by Monal)." = "Dies sind die SASL2-Methoden, die dein Server unterstützt (die verwendeten in grün, die gelben werden von Monal nicht unterstützt).";
 "These are the SASL2 methods your server supports." = "Dies sind die SASL2-Methoden, die dein Server unterstützt.";
 "These are the TLS versions supported by Monal, the one supported by your server will be green." = "Dies sind die von Monal unterstützten TLS-Versionen. Die von deinem Server unterstützte Version wird grün dargestellt.";
@@ -871,6 +878,7 @@
 "Upload Error: your account got disconnected while requesting upload slot" = "Upload-Fehler: dein Konto wurde während der Anforderung des Upload-Slots getrennt";
 "Upload files to the server to share with others." = "Lade Dateien auf den Server hoch, um sie mit anderen zu teilen.";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Dateien auf den Server hochladen, um diese mit anderen zu teilen. (Maximal vom Server erlaubte Dateigröße: %@)";
+"Upload Settings" = "Upload Settings";
 "Uploading" = "Hochladen";
 "Uploading file to server" = "Lade Datei auf den Server hoch";
 "Use your existing account or make a new one on the many servers around the world" = "Benutze dein bestehendes Konto oder erstelle ein neues auf den vielen Servern auf der ganzen Welt";
@@ -982,3 +990,6 @@
 "📍 A Location" = "📍 Ein Standort";
 "📷 An Image" = "📷 Ein Bild";
 "🔗 A Link" = "🔗 Ein Link";
+"Create new group" = "Create new group";
+"No contacts to show :(" = "No contacts to show :(";
+"Please make sure at least one account has connected before trying to create new group." = "Please make sure at least one account has connected before trying to create new group.";

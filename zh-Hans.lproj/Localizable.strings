@@ -235,6 +235,7 @@
 "Dont' trust Key" = "不信任密钥";
 "Download" = "下载";
 "Download error" = "下载错误";
+"Download Settings" = "Download Settings";
 "Draft:" = "草稿：";
 "Draft: %@" = "草稿: %@";
 /* hello bartycrouch */
@@ -377,6 +378,8 @@
 "Image encryption error" = "图片加密错误";
 "Image Quality" = "图像质量";
 "Image Quality: %.2f" = "图像质量: %.2f";
+"Image Upload Quality" = "Image Upload Quality";
+"Image Upload Quality: %.2f" = "Image Upload Quality: %.2f";
 "Images" = "图片";
 "Import and trust OMEMO fingerprints from QR code" = "从二维码导入并信任 OMEMO 指纹";
 "Incoming audio call to %@ from %@ " = "来自 %2$@ 打给 %1$@ 的来电 ";
@@ -445,6 +448,7 @@
 "Mark as read" = "标记为已读";
 "Maximum File Transfer Size" = "最大档案传输大小";
 "Me" = "我";
+"Media Upload & Download Settings" = "Media Upload & Download Settings";
 "Message" = "消息";
 "Message Archive Pref" = "消息存档选项";
 "Message Archive Preferences" = "消息存档首选项";
@@ -776,9 +780,12 @@
 "There was an error uploading the file to the server" = "文件上传服务器出错";
 "These are SRV resource records found for your domain" = "这些是您的域名找到的SRV资源记录";
 "These are SRV resource records found for your domain." = "在你的域里找到的SRV资源记录。";
+"These are STUN and TURN services announced by your server. (blue entries are used by monal)" = "These are STUN and TURN services announced by your server. (blue entries are used by monal)";
+"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in green, yellow ones unsupported by Monal)." = "这些是您的服务器支持的通道绑定类型，用于检测 TLS 层上的攻击（使用绿色的，Monal 不支持黄色的）。";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer." = "服务器支持的频道绑定类型，用于检测TLS层的攻击。";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "这些是在你登录后Monal在你的服务器上检测到的最新XMPP功能。";
+"These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal).";
 "These are the SASL2 methods your server supports (used one in green, yellow ones unsupported by Monal)." = "这些是您的服务器支持的 SASL2 方法（使用绿色的，Monal 不支持的黄色的）。";
 "These are the SASL2 methods your server supports." = "服务器支持的SASL2方法。";
 "These are the TLS versions supported by Monal, the one supported by your server will be green." = "这些是 Monal 支持的 TLS 版本，您的服务器支持的版本将为绿色。";
@@ -871,6 +878,7 @@
 "Upload Error: your account got disconnected while requesting upload slot" = "上传出错：您的帐户在请求上传插槽时断开连接";
 "Upload files to the server to share with others." = "将文件上传到服务器与他人共享。";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "将文件上传到服务器以与他人共享。 （服务器报告的最大允许文件大小：%@）";
+"Upload Settings" = "Upload Settings";
 "Uploading" = "正在上传";
 "Uploading file to server" = "将文件上传到服务器中";
 "Use your existing account or make a new one on the many servers around the world" = "使用现有帐号，或在世界各地的许多服务器上制作一个新帐号";
@@ -982,3 +990,6 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
+"Create new group" = "Create new group";
+"No contacts to show :(" = "No contacts to show :(";
+"Please make sure at least one account has connected before trying to create new group." = "Please make sure at least one account has connected before trying to create new group.";

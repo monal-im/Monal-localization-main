@@ -235,6 +235,7 @@
 "Dont' trust Key" = "Dont' trust Key";
 "Download" = "下載";
 "Download error" = "Download error";
+"Download Settings" = "Download Settings";
 "Draft:" = "Draft:";
 "Draft: %@" = "草稿: %@";
 /* hello bartycrouch */
@@ -377,6 +378,8 @@
 "Image encryption error" = "圖片加密錯誤";
 "Image Quality" = "Image Quality";
 "Image Quality: %.2f" = "Image Quality: %.2f";
+"Image Upload Quality" = "Image Upload Quality";
+"Image Upload Quality: %.2f" = "Image Upload Quality: %.2f";
 "Images" = "圖片";
 "Import and trust OMEMO fingerprints from QR code" = "Import and trust OMEMO fingerprints from QR code";
 "Incoming audio call to %@ from %@ " = "從%2$@ 到 %1$@ 的語音來電 ";
@@ -445,6 +448,7 @@
 "Mark as read" = "標記為已讀";
 "Maximum File Transfer Size" = "最大檔案傳輸大小";
 "Me" = "我";
+"Media Upload & Download Settings" = "Media Upload & Download Settings";
 "Message" = "訊息";
 "Message Archive Pref" = "訊息封存選項";
 "Message Archive Preferences" = "Message Archive Preferences";
@@ -776,9 +780,12 @@
 "There was an error uploading the file to the server" = "將檔案上傳到伺服器時出現錯誤";
 "These are SRV resource records found for your domain" = "這些是您的域名找到的SRV資源記錄。";
 "These are SRV resource records found for your domain." = "These are SRV resource records found for your domain.";
+"These are STUN and TURN services announced by your server. (blue entries are used by monal)" = "These are STUN and TURN services announced by your server. (blue entries are used by monal)";
+"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in green, yellow ones unsupported by Monal)." = "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in green, yellow ones unsupported by Monal).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer." = "These are the channel-binding types your server supports to detect attacks on the TLS layer.";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "這些是在你登錄後Monal在你的服務器上檢測到的最新XMPP功能。";
+"These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal).";
 "These are the SASL2 methods your server supports (used one in green, yellow ones unsupported by Monal)." = "These are the SASL2 methods your server supports (used one in green, yellow ones unsupported by Monal).";
 "These are the SASL2 methods your server supports." = "These are the SASL2 methods your server supports.";
 "These are the TLS versions supported by Monal, the one supported by your server will be green." = "These are the TLS versions supported by Monal, the one supported by your server will be green.";
@@ -871,6 +878,7 @@
 "Upload Error: your account got disconnected while requesting upload slot" = "Upload Error: your account got disconnected while requesting upload slot";
 "Upload files to the server to share with others." = "將檔案上傳到伺服器與他人共用。";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)";
+"Upload Settings" = "Upload Settings";
 "Uploading" = "正在上傳";
 "Uploading file to server" = "將檔案上傳到伺服器中";
 "Use your existing account or make a new one on the many servers around the world" = "使用現有帳號，或在世界各地的許多伺服器上製作一個新帳號";
@@ -982,3 +990,6 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 An Image";
 "🔗 A Link" = "🔗 A Link";
+"Create new group" = "Create new group";
+"No contacts to show :(" = "No contacts to show :(";
+"Please make sure at least one account has connected before trying to create new group." = "Please make sure at least one account has connected before trying to create new group.";
