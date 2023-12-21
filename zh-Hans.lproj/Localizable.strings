@@ -16,8 +16,8 @@
 "Account %@" = "账号 %@";
 "Account (%@)" = "账号 (%@)";
 "Account (new)" = "账号(新)";
-"Account already configured in Monal!" = "Monal 配置帐户完成！";
-"Account disabled" = "帐号已禁用";
+"Account already configured in Monal!" = "Monal 配置账号完成！";
+"Account disabled" = "账号已禁用";
 "Account Exists" = "账号已存在";
 "Account Picker" = "账号选择器";
 "Account To Use" = "要使用的账号";
@@ -111,7 +111,7 @@
 "Can't convert the image to jpeg format." = "无法将图片转换为jpeg格式。";
 "Can't convert the image to png file." = "无法将图像转换为png文件。";
 "Cancel" = "取消";
-"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "无法与被禁用/删除的帐户共享某些内容，目标: %1$@, 内部帐户 id: %2$@";
+"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "无法与被禁用/删除的账号共享某些内容，目标: %1$@, 内部账号 id: %2$@";
 "Change Chat Background" = "更改聊天背景";
 "Change Contact Background" = "更改联系人背景";
 "Change Password" = "修改密码";
@@ -167,8 +167,8 @@
 "Could not access camera" = "无法连接到摄像头";
 "Could not access Finder item!" = "无法访问 Finder 项目！";
 "Could not change password" = "无法更改密码";
-"Could not change password: your account is currently not conneced" = "无法更改密码：您的帐号当前未连接";
-"Could not change password: your account is currently not connected" = "无法更改密码：您的帐号当前未连接";
+"Could not change password: your account is currently not conneced" = "无法更改密码：您的账号当前未连接";
+"Could not change password: your account is currently not connected" = "无法更改密码：您的账号当前未连接";
 "Could not change the password" = "无法修改密码";
 "Could not decrypt message" = "无法解密消息";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "无法从您的服务器存档中获取此聊天的（所有）旧消息。 请稍后再试。 %@";
@@ -188,7 +188,7 @@
 "Could not upload file" = "无法上传文件";
 /* Crash reporting */
 "Crash Detected" = "检测到崩溃";
-"Create new group" = "Create new group";
+"Create new group" = "创建新群组";
 "Creating invitation..." = "创建邀请...";
 "Current Password" = "当前密码";
 "Currently Online" = "目前在线";
@@ -202,11 +202,11 @@
 /* Chat msg action */
 "Delete" = "删除";
 "Delete Account" = "删除账号";
-"Delete Account on Server" = "删除服务器上的帐户";
+"Delete Account on Server" = "删除服务器上的账号";
 "Delete Key" = "删除密钥";
 "Delete Locally" = "本地删除";
 "Deny new contact" = "拒绝新联系人";
-"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "通过 SSDP 检测到正在进行的 MITM 攻击，中止身份验证并禁用帐户以限制损害。 一旦您再次处于干净的网络环境中，您应该重新启用您的帐户。";
+"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "通过 SSDP 检测到正在进行的 MITM 攻击，中止身份验证并禁用账号以限制损害。 一旦您再次处于干净的网络环境中，您应该重新启用您的账号。";
 "Device ID: " = "设备 ID: ";
 "DeviceID: " = "设备ID: ";
 "Devices of %@" = "%@ 的设备";
@@ -228,7 +228,7 @@
 "Do you really want to disable encryption for this contact?" = "您确实要对此联系人禁用加密吗?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "您确定要重置 OMEMO 会话吗？ 如果您不确定，您就应该只重置连接！";
 "Do you want to trust the scanned fingerprints from" = "你确认扫描的指纹吗";
-"Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "使用您的帐户时是否信任联系人 %@ 的扫描指纹 %@?";
+"Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "使用您的账号时是否信任联系人 %@ 的扫描指纹 %@?";
 "Doing a lot of work..." = "大量工作中...";
 "Domain missing" = "缺少域名";
 "Don't trust Key" = "不信任密钥";
@@ -236,20 +236,20 @@
 "Dont' trust Key" = "不信任密钥";
 "Download" = "下载";
 "Download error" = "下载错误";
-"Download Settings" = "Download Settings";
+"Download Settings" = "下载设置";
 "Draft:" = "草稿：";
 "Draft: %@" = "草稿: %@";
 /* hello bartycrouch */
 "Dummy string for triggering bartycrouch" = "用于触发 bartycouch 的虚拟字符串";
 "Dummy string to test SwiftUI translation support." = "用于测试 SwiftUI 翻译支持的虚拟字符串。";
-"Duplicate Account" = "帐号重复";
-"Duplicate Account!" = "重复帐户!";
+"Duplicate Account" = "账号重复";
+"Duplicate Account!" = "重复账号!";
 "Duplicate jid!" = "重复的 jid!";
 /* Crash report error dialog */
 "E-Mail not enabled on device" = "设备上未启用电子邮件";
 /* Chat msg action */
 "Edit" = "编辑";
-"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now.";
+"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "这可能是一次中间人攻击，或者你所在的服务器既没有实现 XEP-0474，又没有完全实现 XEP-0440，XEP-0440 要求支持 tls-server-end-point 通道绑定。无论是哪种情况，你都应该立即通知你所在服务器的管理员！账号现已被禁用。";
 /* Crash report error dialog */
 "Email Error" = "电子邮件错误";
 "Email Support" = "联系电邮";
@@ -286,11 +286,11 @@
 "Error handling SASL challenge of server (nonce error), disconnecting!" = "处理服务器的 SASL 挑战时出错（随机数错误），断开连接！";
 "Error handling SASL challenge of server, disconnecting!" = "处理服务器的SASL质询时出错，正在断开连接！";
 "Error registering push" = "注册推送错误";
-"Error Removing Account" = "删除帐户时出错";
+"Error Removing Account" = "删除账号时出错";
 "Error while decrypting" = "解密出错";
 "Error while decrypting: iv.length != 12" = "解密出错 : iv.length != 12";
 "Error: %@" = "错误: %@";
-"Error: Account disabled, can not display keys!" = "错误：帐户已禁用，无法显示密钥!";
+"Error: Account disabled, can not display keys!" = "错误：账号已禁用，无法显示密钥!";
 "Error: No contacts to display keys for!" = "错误：没有可显示密钥的联系人!";
 "Error: Received message is empty" = "错误：收到的消息是空的";
 "Error: Received OMEMO message is empty" = "错误：收到的 OMEMO 消息为空";
@@ -303,7 +303,7 @@
 "Failed to decode encrypted link" = "解码加密的链接失败";
 "Failed to decrypt filetransfer" = "无法解密文件传输";
 "Failed to delete own avatar" = "删除自己的头像失败";
-"Failed to delete own avatar on account %@" = "无法删除帐号 %@ 自己的头像";
+"Failed to delete own avatar on account %@" = "无法删除账号 %@ 自己的头像";
 "Failed to delete own nickname" = "删除自己的昵称失败";
 "Failed to download file" = "下载文件失败";
 "Failed to enable carbons for account %@" = "无法启用账号副本 %@";
@@ -325,7 +325,7 @@
 "Failed to query new messages for Group/Channel (catchup) %@" = "无法查询群/频道的新消息（捉住）%@";
 "Failed to query new messages for Group/Channel (stanzaid) %@" = "无法查询组/频道的新消息（节编号）%@";
 "Failed to query new messages for groupchat %@" = "查询群聊 %@ 的新消息失败";
-"Failed to query newest stanzaid for account %@" = "查询帐号的最新节编号失败 %@";
+"Failed to query newest stanzaid for account %@" = "查询账号的最新节编号失败 %@";
 "Failed to query newest stanzaid for Group/Channel %@" = "查询群组/频道 %@ 的最新节编号失败";
 "Failed to query newest stanzaid for groupchat %@" = "查询群聊的最新节编号失败 %@";
 "Failed to remove bookmark for Group/Channel: %@" = "无法删除群/频道的书签: %@";
@@ -366,8 +366,8 @@
 "Hardcoded Hostname" = "硬编码主机名";
 "Hide Chat" = "隐藏对话";
 "Hint" = "提示";
-"I already have an account:" = "我已有帐户:";
-"I need an account:" = "我需要帐户:";
+"I already have an account:" = "我已有账号:";
+"I need an account:" = "我需要账号:";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission.  Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'. " = "当Monal无法显示通知时，您将会无法在消息到达时看到提醒。如果你在Monal第一次询问权限时点击了 \"拒绝\"，就会发生这种情况。通过进入iOS设定 -> Monal -> 通知，并选择 '允许通知'来解决。 ";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "如果 Monal 无法显示通知，则当消息到达时您将看不到提示。 如果您在 Monal 第一次请求许可时点击“拒绝”，就会发生这种情况。 通过转到 iOS 设置 -> Monal -> 通知并选择“允许通知”来修复它。";
 "If Monal push is off, your device could not talk to %@ through xmpp. This should also never be off. It requires Apple push service to work first." = "如果 Monal 的推送关闭，您的设备无法通过 xmpp 与 %@ 通信。请 不要关闭推送。 Monal 运行需要基于Apple推送服务。";
@@ -380,8 +380,8 @@
 "Image encryption error" = "图片加密错误";
 "Image Quality" = "图像质量";
 "Image Quality: %.2f" = "图像质量: %.2f";
-"Image Upload Quality" = "Image Upload Quality";
-"Image Upload Quality: %.2f" = "Image Upload Quality: %.2f";
+"Image Upload Quality" = "图像上传质量";
+"Image Upload Quality: %.2f" = "图像上传质量：%.2f";
 "Images" = "图片";
 "Import and trust OMEMO fingerprints from QR code" = "从二维码导入并信任 OMEMO 指纹";
 "Incoming audio call to %@ from %@ " = "来自 %2$@ 打给 %1$@ 的来电 ";
@@ -423,7 +423,7 @@
 "Leave Group" = "离开群组";
 "Leave this conversation" = "离开此对话";
 "Leave this converstion?" = "离开对话吗?";
-"Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "与电子邮件一样，您可以在许多网站上注册帐户并与任何人交谈。 您可以使用此页面向选定或提供的 XMPP 服务器注册帐户。 您还必须选择用户名和密码。";
+"Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "与电子邮件一样，您可以在许多网站上注册账号并与任何人交谈。 您可以使用此页面向选定或提供的 XMPP 服务器注册账号。 您还必须选择用户名和密码。";
 "Load over cellular upto" = "使用手机流量上限";
 "Load over cellular upto: %.fMB" = "使用手机流量上限 : %.fMB";
 "Load over WiFi upto" = "使用WiFi流量上限";
@@ -440,17 +440,17 @@
 "Log" = "记录";
 "Log Chats" = "聊天记录";
 "Log Date" = "记录日期";
-"Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "登录您现有的帐户或注册一个新帐户。 如果需要，您可以在 Monal 设置中找到更多高级选项。";
+"Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "登录您现有的账号或注册一个新账号。 如果需要，您可以在 Monal 设置中找到更多高级选项。";
 "Logging in" = "登录中";
 "Login" = "登录";
-"Login error, account disabled: %@" = "登录错误，帐号已禁用: %@";
+"Login error, account disabled: %@" = "登录错误，账号已禁用: %@";
 "Login with a QR-Code" = "二维码登录";
 "Manual input" = "手动输入";
 "Mark all messages as read" = "标记所有消息为已读";
 "Mark as read" = "标记为已读";
 "Maximum File Transfer Size" = "最大档案传输大小";
 "Me" = "我";
-"Media Upload & Download Settings" = "Media Upload & Download Settings";
+"Media Upload & Download Settings" = "媒体上传与下载设置";
 "Message" = "消息";
 "Message Archive Pref" = "消息存档选项";
 "Message Archive Preferences" = "消息存档首选项";
@@ -500,14 +500,14 @@
 "Newest TLS version which is faster than TLS 1.2" = "比 TLS 1.2 更快的最新 TLS 版本";
 "Nickname" = "昵称";
 "No" = "否";
-"No account available to handel 'xmpp:' URI!" = "没有帐户可用于处理 'xmpp:' URL！";
+"No account available to handel 'xmpp:' URI!" = "没有账号可用于处理 'xmpp:' URL！";
 "No accounts set up currently" = "账号目前没有设置";
-"No connected accounts" = "无已连线帐号";
+"No connected accounts" = "无已连接账号";
 "No Contact Selected" = "未选择任何联系人";
-"No contacts to show :(" = "No contacts to show :(";
+"No contacts to show :(" = "暂无联系人 :(";
 "No Empty Values" = "无空白值";
 "No Empty Values!" = "没有空值！";
-"No enabled account found" = "没有启用的帐号";
+"No enabled account found" = "没有启用的账号";
 "No further error description" = "无进一步的错误描述";
 "No GPS location received" = "无法接收到GPS位置";
 "No groups yet" = "目前还没有聊天群组";
@@ -515,7 +515,7 @@
 "No one is here" = "没有人在";
 "No pending requests" = "没有待处理的请求";
 "No search result." = "无搜索结果。";
-"No supported auth mechanism found, disabling account!" = "没有找到支持的认证机制，正在禁用帐号！";
+"No supported auth mechanism found, disabling account!" = "没有找到支持的认证机制，正在禁用账号！";
 "No supported auth mechanism found, disconnecting!" = "没有找到支持的身份验证机制，正在断开连接！";
 "no supported auth mechanism, disconnecting!" = "不支持身份验证机制，正在断开连接！";
 "No XMPP server!" = "没有 XMPP 服务器！";
@@ -563,15 +563,15 @@
 "Photos" = "照片";
 "Pin Chat" = "置顶聊天";
 "Play Sounds" = "播放声音";
-"Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "请先在设定下增加新帐号。如果您已经增加了您的帐号，您可能需要在设定下启用它";
+"Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "请先在设定下增加新账号。如果您已经增加了您的账号，您可能需要在设定下启用它";
 "Please Allow Audio Access" = "请允许音频访问";
-"Please enter a password below before activating this account." = "在激活此帐号之前，请在下面输入密码。";
+"Please enter a password below before activating this account." = "在激活此账号之前，请在下面输入密码。";
 "Please enter a password." = "请输入密码。";
-"Please make sure at least one account has connected before trying to add a contact or channel." = "请确保至少有一个帐号已连接，然后再尝试添加联系人或频道。";
-"Please make sure at least one account has connected before trying to add a contact." = "在尝试添加联系人之前，请确保至少有一个帐号已连线。";
-"Please make sure at least one account has connected before trying to create new group." = "Please make sure at least one account has connected before trying to create new group.";
-"Please make sure at least one account has connected before trying to message someone." = "在尝试向某人发送消息之前，请确认至少有一个帐号已连线。";
-"Please make sure you are connected before changing your password." = "在更改密码之前，请确认已连线。";
+"Please make sure at least one account has connected before trying to add a contact or channel." = "请确保至少有一个账号已连接，然后再尝试添加联系人或频道。";
+"Please make sure at least one account has connected before trying to add a contact." = "在尝试添加联系人之前，请确保至少有一个账号已连接。";
+"Please make sure at least one account has connected before trying to create new group." = "在尝试创建新群组之前，请确保至少有一个账号已连接。";
+"Please make sure at least one account has connected before trying to message someone." = "在尝试向某人发送消息之前，请确认至少有一个账号已连接。";
+"Please make sure you are connected before changing your password." = "在更改密码之前，请确认已连接。";
 "Please make sure you have entered a username and password." = "请确保您已输入用户名和密码。";
 "Please make sure you have entered a username, password." = "请确认您输入了用户名、密码。";
 "Please make sure you have entered a valid jid." = "请确保您输入了有效的 jid。";
@@ -625,18 +625,18 @@
 "Recipients are usually in the format: username@domain.something" = "接收人名称常用格式：username@domain.something";
 "Recode Fail:" = "重新编码失败：";
 "Recode Success" = "重新编码成功";
-"Reconnecting" = "正在重新连线";
+"Reconnecting" = "正在重新连接";
 "Reconnecting..." = "正在重新连接...";
 "Recording audio" = "正在录音";
 "Red x-mark shield:" = "红色x标记盾牌:";
 "Refreshing..." = "正在刷新...";
 "Register" = "注册";
-"Register a new account" = "注册新帐户";
+"Register a new account" = "注册新账号";
 "Register with %@" = "以 %@ 注册";
 "Registering account..." = "注册账号中...";
 "Registration Error" = "注册错误";
 "Remove %@ from contacts?" = "从联系人中删除 %@？";
-"Remove Account from this Device" = "从此设备中删除帐户";
+"Remove Account from this Device" = "从此设备中删除账号";
 "Remove Contact" = "删除联系人";
 "Remove Conversation" = "移除对话";
 "Remove from contacts" = "从通讯录中删除";
@@ -645,7 +645,7 @@
 "Reset OMEMO session" = "重置 OMEMO 会话";
 "Resource" = "资源";
 "Resources" = "资源";
-"Resume a stream when disconnected. Results in faster reconnect and saves battery life." = "断线时恢复串流。可以更快地重新连线并节省电池寿命。";
+"Resume a stream when disconnected. Results in faster reconnect and saves battery life." = "断线时恢复串流。可以更快地重新连接并节省电池寿命。";
 /* Chat msg action */
 "Retract" = "撤回";
 "Retry" = "重试";
@@ -655,10 +655,10 @@
 "Room" = "聊天室";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "使用给定哈希方法的Salted Challenge Response认证机制";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "使用频道绑定额外保护的给定哈希方法的Salted Challenge Response认证机制";
-"SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "通过 SSDP 检测到 SASL 降级攻击，中止身份验证并禁用帐户以限制损害。 一旦您再次处于干净的网络环境中，您应该重新启用您的帐户。";
-"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "检测到 SASL2 到 SASL1 降级攻击，中止身份验证并禁用帐户以限制损害。 一旦您再次处于干净的网络环境中，您应该重新启用您的帐户。";
+"SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "通过 SSDP 检测到 SASL 降级攻击，中止身份验证并禁用账号以限制损害。 一旦您再次处于干净的网络环境中，您应该重新启用您的账号。";
+"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "检测到 SASL2 到 SASL1 降级攻击，中止身份验证并禁用账号以限制损害。 一旦您再次处于干净的网络环境中，您应该重新启用您的账号。";
 "Saving changes to server" = "将更改保存到服务器";
-"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM 服务器证明错误，极有可能正在进行 MITM 攻击，中止身份验证并禁用帐户以限制损害。 一旦您再次处于干净的网络环境中，您应该重新启用您的帐户。";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM 服务器证明错误，极有可能正在进行 MITM 攻击，中止身份验证并禁用账号以限制损害。 一旦您再次处于干净的网络环境中，您应该重新启用您的账号。";
 /* mac only string */
 "Scroll down to load more messages" = "向下滑以载入更多消息";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "为TLS1.3和一些TLS1.2连接定义的安全频道绑定。";
@@ -698,14 +698,14 @@
 "Server" = "服务器";
 "Server does not support account removal" = "服务器不支持删除账号";
 "Server for domain '%@' not responding!" = "域服务器 '%@' 没有响应！";
-"Server implementation error: SASL2 tasks empty, account disabled!" = "服务器实现错误：SASL2任务为空，帐号已禁用！";
+"Server implementation error: SASL2 tasks empty, account disabled!" = "服务器实现错误：SASL2任务为空，账号已禁用！";
 "Server returned invalid xml!" = "服务器返回无效的 xml!";
 "Server returned SASL2 error '%@'." = "服务器返回SASL2错误 '%@'.";
 "Server Support Details" = "服务器支持详情";
 "Server: %@" = "服务器: %@";
 "Set a nickname" = "设置昵称";
 "Set a nickname for this contact" = "设置此联系人的昵称";
-"Set up account later" = "稍后设置帐户";
+"Set up account later" = "稍后设置账号";
 /* Camera permissions missing warning */
 "Settings" = "设置";
 "Sharing failed" = "分享失败";
@@ -713,7 +713,7 @@
 "Show Inline Images" = "显示内嵌图片";
 "Show shared Media and Files" = "显示共享的媒体和文件";
 "Show URL previews" = "显示URL预览";
-"Signing Up" = "注册帐号";
+"Signing Up" = "注册账号";
 "Skip" = "跳过";
 "Software Version" = "软件版本";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "某些消息可能等待检索或发送。 请打开应用程序重试。";
@@ -722,7 +722,7 @@
 "Sounds" = "音效";
 "Sounds courtesy Emrah" = "感谢 Emrah 提供音效";
 "Spread The Word" = "传播消息";
-"SRV entry prohibits XMPP connection" = "SRV 元件禁止 XMPP 连线";
+"SRV entry prohibits XMPP connection" = "SRV 元件禁止 XMPP 连接";
 "SRV entry prohibits XMPP connection for domain %@" = "SRV条目禁止域的XMPP连接 %@";
 "SRV entry prohibits XMPP connection for server %@" = "SRV 元件禁止 XMPP 连接服务器 %@";
 "SSL Error: Certificate chain is invalid" = "SSL 错误：证书链无效";
@@ -749,8 +749,8 @@
 "Temporary failure to enter Group/Channel: %@" = "暂时无法进入群组/频道: %@";
 "Temporary failure to enter groupchat: %@" = "暂时无法进入群聊: %@";
 "Terms of use for %@" = "%@ 的使用条款";
-"The account has been deleted" = "该帐号已被删除";
-"The account has been removed" = "该帐户已删除";
+"The account has been deleted" = "账号已删除";
+"The account has been removed" = "账号已删除";
 "The account has been saved" = "账号已保存";
 /* Crash reporting */
 "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "该应用程序上次启动时崩溃了。 发送崩溃报告？ 此崩溃报告将包含隐私相关数据。 我们只会用它来调试您的崩溃并随后将其删除！";
@@ -766,9 +766,9 @@
 /* QR-Code-Scanner: jid scan wrong menu */
 "The qrcode contains a jid. Rescan the qrcode in the add user menu" = "二维码包含一个 jid。 重新扫描添加用户菜单中的二维码";
 /* QR-Code-Scanner: account scan wrong menu */
-"The qrcode contains login credentials for a acount. Go to settings and rescan the qrcode" = "二维码包含帐户的登录凭据。 进入设置并重新扫描二维码";
+"The qrcode contains login credentials for a acount. Go to settings and rescan the qrcode" = "二维码包含账号的登录凭据。 进入设置并重新扫描二维码";
 /* QR-Code-Scanner: account scan wrong menu */
-"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "二维码包含帐户的登录凭据。 进入设置 -> 新帐户并重新扫描二维码";
+"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "二维码包含账号的登录凭据。 进入设置 -> 新账号并重新扫描二维码";
 "The resource '%@' has the following capabilities:" = "资源 '%@' 具有以下功能：";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "可选的 XMPP 服务器是不隶属于 Monal 的公共服务器。 提供此注册页面仅为了方便起见。";
 "The server does not support blocking" = "服务器不支持阻止";
@@ -784,13 +784,13 @@
 "There was an error uploading the file to the server" = "文件上传服务器出错";
 "These are SRV resource records found for your domain" = "这些是您的域名找到的SRV资源记录";
 "These are SRV resource records found for your domain." = "在你的域里找到的SRV资源记录。";
-"These are STUN and TURN services announced by your server. (blue entries are used by monal)" = "These are STUN and TURN services announced by your server. (blue entries are used by monal)";
-"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal).";
+"These are STUN and TURN services announced by your server. (blue entries are used by monal)" = "这些是你所在服务器公布的 STUN 和 TURN 服务。(monal 使用的是蓝色条目）";
+"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "这些是你所在服务器支持的用于检测 TLS 层攻击的通道绑定类型（monal 使用的是蓝色条目，不支持橙色条目）。";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in green, yellow ones unsupported by Monal)." = "这些是您的服务器支持的通道绑定类型，用于检测 TLS 层上的攻击（使用绿色的，Monal 不支持黄色的）。";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer." = "服务器支持的频道绑定类型，用于检测TLS层的攻击。";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "这些是在你登录后Monal在你的服务器上检测到的最新XMPP功能。";
-"These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal).";
-"These are the SASL2 methods your server supports (used one in green, yellow ones unsupported by Monal)." = "这些是您的服务器支持的 SASL2 方法（使用绿色的，Monal 不支持的黄色的）。";
+"These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "这些是你所在服务器支持的 SASL2 认证方式（monal 使用的是蓝色条目，不支持橙色条目）。";
+"These are the SASL2 methods your server supports (used one in green, yellow ones unsupported by Monal)." = "这些是你所在服务器支持的 SASL2 认证方式（monal 使用的是绿色条目，不支持黄色条目）。";
 "These are the SASL2 methods your server supports." = "服务器支持的SASL2方法。";
 "These are the TLS versions supported by Monal, the one supported by your server will be green." = "这些是 Monal 支持的 TLS 版本，您的服务器支持的版本将为绿色。";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "这些是 Monal 支持的 TLS 版本，用于连接到您的服务器的版本将为绿色。";
@@ -800,12 +800,12 @@
 "They will no longer see when you are online. They may not be able to access your encryption keys." = "当你在线时他们将不再看的到。他们可能无法存取您的加密密钥。";
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "当你在线时他们将不再看的到。他们可能无法向您传送加密消息。";
 "They will see when you are online. They will be able to send you encrypted messages." = "当你在线时他们可以看的到。他们可以向您传送加密消息。";
-"This account already exists in Monal." = "在Monal已经存在这个帐号。";
-"This account already exists on this instance" = "此帐号已存在于此实例中";
-"This account already exists on this instance." = "此帐户已存在于该实例上。";
+"This account already exists in Monal." = "在Monal已经存在这个账号。";
+"This account already exists on this instance" = "此账号已存在于此实例中";
+"This account already exists on this instance." = "此账号已存在于该实例上。";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "APP版本太旧了，包括很多安全问题而且可能突然关。请更新软件！";
 "This contact does not appear to have any devices that support encryption." = "此联系人似乎没有任何支持加密的设备。";
-"This contact is already in the contact list of the selected account" = "该联系人已在所选帐户的联系人列表中";
+"This contact is already in the contact list of the selected account" = "该联系人已在所选账号的联系人列表中";
 "This contact is already in your contact list" = "该联系人已在您的联系人列表中";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "此联系人可能不支持 OMEMO 加密消息。 请稍后再试。";
 /* Crash report error dialog */
@@ -829,13 +829,13 @@
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "此服务器不支持任何新近的频道绑定，以防止TLS层上的MITM攻击。";
 "This server does not support modern SASL2 authentication." = "此服务器不支持新近的SASL2身份验证。";
 "This should never happen, please contact the developers and provide a logfile!" = "这种情况不应该发生，请联系开发人员并提供日志文件！";
-"This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "此规范定义了使用 XMPP 发布订阅协定广播与即时消息和存在帐户关联的状态更改事件的语义。";
+"This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "此规范定义了使用 XMPP 发布订阅协定广播与即时消息和存在账号关联的状态更改事件的语义。";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "该规范提供了一种保护 SASL 和 SASL2 握手免受方法和通道绑定降级的方法。";
-"This will clear the whole chat history of this account from this device." = "从此设备清除此帐户的全部聊天记录。";
+"This will clear the whole chat history of this account from this device." = "从此设备清除此账号的全部聊天记录。";
 "This will clear the your own omemo session for debugging purposes" = "将清除您的 omemo 会话并进行调试";
 "This will clear your own omemo session for debugging purposes" = "这将清除您自己的OMEMO会话以进行调试";
-"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "这将从服务器和该设备中删除该帐户以及关联的数据。 不过，数据可能仍保留在其他设备上。";
-"This will remove this account and the associated data from this device." = "这将从此设备中删除此帐号和相关资料。";
+"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "这将从服务器和该设备中删除该账号以及关联的数据。 不过，数据可能仍保留在其他设备上。";
+"This will remove this account and the associated data from this device." = "这将从此设备中删除此账号和相关资料。";
 "Timeout Error" = "超时错误";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
@@ -879,13 +879,13 @@
 "unsupported" = "不支持";
 "Untrusted key" = "不信任的密钥";
 "Upload Error" = "上传出错";
-"Upload Error: your account got disconnected while requesting upload slot" = "上传出错：您的帐户在请求上传插槽时断开连接";
+"Upload Error: your account got disconnected while requesting upload slot" = "上传出错：您的账号在请求上传插槽时断开连接";
 "Upload files to the server to share with others." = "将文件上传到服务器与他人共享。";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "将文件上传到服务器以与他人共享。 （服务器报告的最大允许文件大小：%@）";
-"Upload Settings" = "Upload Settings";
+"Upload Settings" = "上传设置";
 "Uploading" = "正在上传";
 "Uploading file to server" = "将文件上传到服务器中";
-"Use your existing account or make a new one on the many servers around the world" = "使用现有帐号，或在世界各地的许多服务器上制作一个新帐号";
+"Use your existing account or make a new one on the many servers around the world" = "使用现有账号，或在世界各地的许多服务器上制作一个新账号";
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "user@example.org/resource";
 "Username missing" = "缺少用户名";
@@ -902,17 +902,17 @@
 "Waiting for GPS signal" = "等待GPS讯号";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "找不到与xmpp相关的二维码";
-"We don't support any task requested by the server, account disabled: %@" = "我们不支持服务器请求的任何任务，帐号已禁用: %@";
-"We don't support the single task requested by the server, account disabled: %@" = "我们不支持服务器请求的单个任务，帐号已禁用: %@";
-"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet." = "无法连线您的帐号。请检查您的证书，并确认已连线到网际网路。";
-"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "我们无法连接您的帐户。 请检查您的凭据并确保您已连接到互联网。\n\n技术错误信息: %@";
+"We don't support any task requested by the server, account disabled: %@" = "我们不支持服务器请求的任何任务，账号已禁用: %@";
+"We don't support the single task requested by the server, account disabled: %@" = "我们不支持服务器请求的单个任务，账号已禁用: %@";
+"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet." = "无法连接您的账号。请检查您的证书，并确认已连接到网际网路。";
+"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "我们无法连接您的账号。 请检查您的凭据并确保您已连接到互联网。\n\n技术错误信息: %@";
 "Weakest channel-binding type, not securing agains stolen certs/keys, but detects wrongly issued certs." = "最弱的频道绑定类型，不能防止被盗的证书/密钥，但检测错误颁发的证书。";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "最弱的通道绑定类型，不能防止证书/密钥被盗，但可以检测错误颁发的证书。";
 "Welcome" = "欢迎";
 "Welcome to Monal" = "欢迎使用Monal";
 "When you have some favorite groups, they will be here for you." = "当你有一些喜欢的聊天群组时，他们会出现在这里。";
 "When you start talking to someone,\n they will show up here." = "当你开始和某人聊天时, \n 他们就会出现在这里。";
-"Will logout and reconnect any connected accounts." = "将退出并重新连接任何已连线的帐号。";
+"Will logout and reconnect any connected accounts." = "将退出并重新连接任何已连接的账号。";
 "Will make a HTTP HEAD call on all links" = "将在所有链接上进行HTTP HEAD呼叫";
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
@@ -932,7 +932,7 @@
 "XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: SASL SCRAM 降级保护";
 "XEP-xxxx: SASL SCRAM Downgrade Protection" = "XEP-xxxx: SASL SCRAM 降级保护";
 "XMPP" = "XMPP";
-"XMPP Account Info Error" = "XMPP 帐号信息错误";
+"XMPP Account Info Error" = "XMPP 账号信息错误";
 "XMPP Bind Error" = "XMPP 绑定错误";
 "XMPP Capabilities" = "XMPP 功能";
 "XMPP Disco Info Error" = "XMPP 搜索信息错误";
@@ -954,9 +954,9 @@
 "Yes" = "是";
 "Yes, deactivate encryption" = "是的，禁用加密";
 "You are not trapped in a garden. Talk to anyone else without anyone tracking you." = "您不在监视范围内。 您在没有任何人追踪的情况下与其他人交谈。";
-"You are set up and connected." = "您已设定好并且已连线。";
+"You are set up and connected." = "您已设定好并且已连接。";
 "You are set up and connected. People can message you at: %@@%@" = "您已设置并连接。 别人可以通过以下方式向您发送消息: %@@%@";
-"You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "您正在尝试呼叫 jid '%@' ，但可以使用不同的帐户联系到此联系人。";
+"You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "您正在尝试呼叫 jid '%@' ，但可以使用不同的账号联系到此联系人。";
 "You can see their keys. They can't see yours" = "你可以看到他们的密钥。他们看不到你的";
 "You did not grant Monal to access your location." = "您没有授权 Monal 访问您的位置。";
 "You got banned from: %@" = "您被: %@ 禁止了";
@@ -965,17 +965,17 @@
 "You have not entered your XMPP ID yet" = "您尚未输入 XMPP ID";
 "You have not received any images in this conversation." = "您在此对话中尚未收到任何图片。";
 /* OmemoQrCodeView */
-"You have to many enabled devices on this account. You need to remove some devices" = "您在此帐号上启用过多设备。您需要删除一些设备";
+"You have to many enabled devices on this account. You need to remove some devices" = "您在此账号上启用过多设备。您需要删除一些设备";
 "You need friends for this ride" = "你需要朋友来参加这次旅行";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "如果您希望其他人可以听到您的声音，您需要在 iOS 设置 -> 隐私 -> 麦克风中授予麦克风访问权限。";
-"You restored an iCloud backup of Monal, please open the app to reenable this account." = "您已恢复了 Monal 的 iCloud 备份，请重新打开应用并启用此帐户。";
+"You restored an iCloud backup of Monal, please open the app to reenable this account." = "您已恢复了 Monal 的 iCloud 备份，请重新打开应用并启用此账号。";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen." = "您应该在验证过密钥后再信任它。将下面的密钥与您的联系人画面上的密钥进行比较来验证。";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "验证密钥后，您应该信任它。 通过将下面的密钥与您联系人屏幕上的密钥进行比较来进行验证。 双击指纹即可复制到剪贴板。";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "您尝试呼叫联系人 '%@' ，但在您的联系人列表中找不到该联系人。";
 "You will no longer receive messages from this conversation" = "您将不会再收到来自此对话的消息";
 "You will receive subsequent messages from this conversation" = "您将收到来自此对话的后续消息";
-"Your account must be enabled and connected, to be removed from the server!" = "您的帐户必须启用并连接，才能从服务器中删除！";
-"Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "您的帐户已停用，因为您恢复了 Monal 的 iCloud 备份。 请重新输入您的密码以再次激活它们。";
+"Your account must be enabled and connected, to be removed from the server!" = "您的账号必须启用并连接，才能从服务器中删除！";
+"Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "您的账号已停用，因为您恢复了 Monal 的 iCloud 备份。 请重新输入您的密码以再次激活它们。";
 "Your answer" = "你的回答";
 "Your contact may not support calls. Your call might never reach its destination." = "您的联系人可能不支持通话。 您的呼叫可能永远不会接通。";
 "Your contact may to not support Monal-Style calls. Your call might never reach its destination." = "您的联系人可能不支持 Monal 方式呼叫。 您的呼叫可能无效。";
@@ -984,7 +984,7 @@
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "您的服务器不支持MAM (XEP-0313)。这意味着您可能会经常错过收到的消息!! 您应该切换服务器或与服务器管理员联系以启用此功能!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "您的服务器不支持串流管理（XEP-0198)。这意味着您传出的消息可能会经常丢失！您应该切换服务器或与服务器管理员联系以启用此功能！";
 "Your status" = "您的状态";
-"Your XMPP account should be in in the format user@domain. For special configurations, use manual setup." = "您的 XMPP 帐号应使用格式 user@domain。对于特殊设定，请使用手动设置。";
+"Your XMPP account should be in in the format user@domain. For special configurations, use manual setup." = "您的 XMPP 账号应使用格式 user@domain。对于特殊设定，请使用手动设置。";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "您的 XMPP jid 的格式应为 user@domain.tld。 对于特殊配置，请使用手动设置。";
 "🎥 A Video" = "🎥 影片";
 "🎵 A Audiomessage" = "🎵 语音消息";
@@ -994,6 +994,6 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
-"Empty Values!" = "Empty Values!";
-"Please make sure you have entered both a username and password." = "Please make sure you have entered both a username and password.";
-"Selected Group Members" = "Selected Group Members";
+"Empty Values!" = "值为空！";
+"Please make sure you have entered both a username and password." = "请确保输入了用户名和密码。";
+"Selected Group Members" = "选定的群组成员";
