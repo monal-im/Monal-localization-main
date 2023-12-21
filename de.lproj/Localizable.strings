@@ -188,7 +188,7 @@
 "Could not upload file" = "Datei konnte nicht hochgeladen werden";
 /* Crash reporting */
 "Crash Detected" = "Absturz erkannt";
-"Create new group" = "Create new group";
+"Create new group" = "Neue Gruppe erstellen";
 "Creating invitation..." = "Einladung erstellen...";
 "Current Password" = "Aktuelles Passwort";
 "Currently Online" = "Aktuell online";
@@ -236,7 +236,7 @@
 "Dont' trust Key" = "Schlüssel nicht vertrauen";
 "Download" = "Download";
 "Download error" = "Downloadfehler";
-"Download Settings" = "Download Settings";
+"Download Settings" = "Download-Einstellungen";
 "Draft:" = "Entwurf:";
 "Draft: %@" = "Entwurf: %@";
 /* hello bartycrouch */
@@ -249,7 +249,7 @@
 "E-Mail not enabled on device" = "E-Mail auf dem Gerät nicht aktiviert";
 /* Chat msg action */
 "Edit" = "Bearbeiten";
-"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now.";
+"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "Entweder handelt es sich um einen Man-in-the-Middle-Angriff ODER dein Server implementiert weder XEP-0474 noch XEP-0440, das die Unterstützung für tls-server-end-point channel-binding vorschreibt. In jedem Fall solltest du deinen Server-Admin informieren! Konto jetzt deaktiviert.";
 /* Crash report error dialog */
 "Email Error" = "E-Mail-Fehler";
 "Email Support" = "Hilfe per E-Mail";
@@ -281,9 +281,9 @@
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Fehler bei der Behandlung der SASL-Abfrage des Servers (Iterationszahl zu niedrig), Verbindungsabbruch!";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (m-attr error), disconnecting!" = "Error handling SASL challenge of server (m-attr error), disconnecting!";
+"Error handling SASL challenge of server (m-attr error), disconnecting!" = "Fehler bei der SASL-Abfrage des Servers (m-attr-Fehler), Abbruch der Verbindung!";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (nonce error), disconnecting!" = "Error handling SASL challenge of server (nonce error), disconnecting!";
+"Error handling SASL challenge of server (nonce error), disconnecting!" = "Fehler bei der SASL-Abfrage des Servers (nonce-Fehler), Abbruch der Verbindung!";
 "Error handling SASL challenge of server, disconnecting!" = "Fehler bei der SASL-Abfrage des Servers, Verbindung wird getrennt!";
 "Error registering push" = "Fehler beim Registrieren von Push";
 "Error Removing Account" = "Fehler beim Löschen des Kontos";
@@ -380,8 +380,8 @@
 "Image encryption error" = "Fehler bei der Bildverschlüsselung";
 "Image Quality" = "Bildqualität";
 "Image Quality: %.2f" = "Bildqualität: %.2f";
-"Image Upload Quality" = "Image Upload Quality";
-"Image Upload Quality: %.2f" = "Image Upload Quality: %.2f";
+"Image Upload Quality" = "Qualität beim Hochladen von Bildern";
+"Image Upload Quality: %.2f" = "Qualität beim Hochladen von Bildern: %.2f";
 "Images" = "Bilder";
 "Import and trust OMEMO fingerprints from QR code" = "OMEMO-Fingerabdrücke von QR-Codes importieren und vertrauen";
 "Incoming audio call to %@ from %@ " = "Eingehender Audioanruf an %1$@ von %2$@ ";
@@ -450,7 +450,7 @@
 "Mark as read" = "Als gelesen markieren";
 "Maximum File Transfer Size" = "Maximale Größe der Dateiübertragung";
 "Me" = "Ich";
-"Media Upload & Download Settings" = "Media Upload & Download Settings";
+"Media Upload & Download Settings" = "Medien-Upload & Download-Einstellungen";
 "Message" = "Nachricht";
 "Message Archive Pref" = "Nachrichtenarchiv-Präferenz";
 "Message Archive Preferences" = "Nachrichtenarchivierung";
@@ -504,7 +504,7 @@
 "No accounts set up currently" = "Derzeit sind keine Konten eingerichtet";
 "No connected accounts" = "Keine verbundenen Konten";
 "No Contact Selected" = "Kein Kontakt ausgewählt";
-"No contacts to show :(" = "No contacts to show :(";
+"No contacts to show :(" = "Keine Kontakte anzuzeigen :(";
 "No Empty Values" = "Keine leeren Werte";
 "No Empty Values!" = "Keine leeren Werte!";
 "No enabled account found" = "Kein aktiviertes Konto gefunden";
@@ -569,7 +569,7 @@
 "Please enter a password." = "Bitte ein Passwort eingeben.";
 "Please make sure at least one account has connected before trying to add a contact or channel." = "Bitte stelle sicher, dass mindestens ein Konto verbunden ist, bevor du versuchst, einen Kontakt oder Channel hinzuzufügen.";
 "Please make sure at least one account has connected before trying to add a contact." = "Bitte stelle sicher, dass mindestens ein Konto eine Verbindung hergestellt hat, bevor du versuchst, einen Kontakt hinzuzufügen.";
-"Please make sure at least one account has connected before trying to create new group." = "Please make sure at least one account has connected before trying to create new group.";
+"Please make sure at least one account has connected before trying to create new group." = "Bitte stelle sicher, dass mindestens ein Konto verbunden ist, bevor du versuchst, eine neue Gruppe zu erstellen.";
 "Please make sure at least one account has connected before trying to message someone." = "Bitte stelle sicher, dass mindestens ein Konto eine Verbindung hergestellt hat, bevor du versuchst, jemandem eine Nachricht zu senden.";
 "Please make sure you are connected before changing your password." = "Bitte stelle sicher, dass du verbunden bist, bevor du dein Passwort änderst.";
 "Please make sure you have entered a username and password." = "Bitte vergewissere dich, dass du einen Benutzernamen und ein Passwort eingegeben hast.";
@@ -658,7 +658,7 @@
 "SASL downgrade attack detected via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL-Downgrade-Angriff über SSDP erkannt, Authentifizierung abgebrochen und Konto deaktiviert, um den Schaden zu begrenzen. Du solltest dein Konto wieder aktivieren, sobald du dich wieder in einer sauberen Netzwerkumgebung befindest.";
 "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL2 zu SASL1 Downgrade-Angriff erkannt, Authentifizierung abgebrochen und Konto deaktiviert, um den Schaden zu begrenzen. Du solltest dein Konto wieder aktivieren, sobald du dich wieder in einer sauberen Netzwerkumgebung befindest.";
 "Saving changes to server" = "Speichern von Änderungen auf dem Server";
-"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM-Serverbeweis falsch, laufender MITM-Angriff sehr wahrscheinlich, Abbruch der Authentifizierung und Deaktivierung des Kontos zur Schadensbegrenzung. Du solltest dein Konto wieder aktivieren, sobald du dich wieder in einer sicheren Netzwerkumgebung befindest.";
 /* mac only string */
 "Scroll down to load more messages" = "Scrolle nach unten, um weitere Nachrichten zu laden";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Sichere Kanalbindung definiert für TLS1.3 und einige TLS1.2-Verbindungen.";
@@ -784,12 +784,12 @@
 "There was an error uploading the file to the server" = "Es gab einen Fehler beim Hochladen der Datei auf den Server";
 "These are SRV resource records found for your domain" = "Dies sind SRV-Ressourceneinträge, die für deine Domain gefunden wurden";
 "These are SRV resource records found for your domain." = "Dies sind SRV-Ressourceneinträge, die für deine Domäne gefunden wurden.";
-"These are STUN and TURN services announced by your server. (blue entries are used by monal)" = "These are STUN and TURN services announced by your server. (blue entries are used by monal)";
-"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal).";
+"These are STUN and TURN services announced by your server. (blue entries are used by monal)" = "Dies sind die von deinem Server mitgeteilten STUN- und TURN-Dienste. (blaue Einträge werden von Monal verwendet)";
+"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "Dies sind die Kanalbindungsarten, die dein Server unterstützt, um Angriffe auf die TLS-Schicht zu erkennen (die verwendeten in blau, die orangefarbenen werden von Monal nicht unterstützt).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in green, yellow ones unsupported by Monal)." = "Dies sind die Kanalbindungstypen, die dein Server unterstützt, um Angriffe auf die TLS-Schicht zu erkennen (die verwendeten in grün, die gelben werden von Monal nicht unterstützt).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer." = "Dies sind die Kanalbindungstypen, die dein Server unterstützt, um Angriffe auf die TLS-Schicht zu erkennen.";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "Dies sind die modernen XMPP-Fähigkeiten, die Monal auf deinem Server entdeckt hat, nachdem du dich eingeloggt hast.";
-"These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal).";
+"These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "Dies sind die SASL2-Methoden, die dein Server unterstützt (die verwendeten in blau, die orangefarbenen werden von Monal nicht unterstützt).";
 "These are the SASL2 methods your server supports (used one in green, yellow ones unsupported by Monal)." = "Dies sind die SASL2-Methoden, die dein Server unterstützt (die verwendeten in grün, die gelben werden von Monal nicht unterstützt).";
 "These are the SASL2 methods your server supports." = "Dies sind die SASL2-Methoden, die dein Server unterstützt.";
 "These are the TLS versions supported by Monal, the one supported by your server will be green." = "Dies sind die von Monal unterstützten TLS-Versionen. Die von deinem Server unterstützte Version wird grün dargestellt.";
@@ -862,7 +862,7 @@
 "Unclean appex shutown" = "Unsaubere Appex-Abschaltung";
 "Undefined error" = "Undefinierter Fehler";
 "Unexpected appex expiration" = "Unerwarteter Appex-Ablauf";
-"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
+"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unerwarteter Fehler beim Authentifizieren des Servers mit SASL2 (Hat dein Server einen Fehler?), Verbindung wird getrennt!";
 "Unexpected error while checking type of jid, please try again" = "Unerwarteter Fehler bei der Überprüfung des Typs der JID, bitte versuche es erneut";
 "Unexpected error while checking type of jid:" = "Unerwarteter Fehler bei der Überprüfung des Typs der JID:";
 "Unexpected mam preferences result" = "Unerwartete MAM-Präferenzen erhalten";
@@ -882,7 +882,7 @@
 "Upload Error: your account got disconnected while requesting upload slot" = "Upload-Fehler: dein Konto wurde während der Anforderung des Upload-Slots getrennt";
 "Upload files to the server to share with others." = "Lade Dateien auf den Server hoch, um sie mit anderen zu teilen.";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Dateien auf den Server hochladen, um diese mit anderen zu teilen. (Maximal vom Server erlaubte Dateigröße: %@)";
-"Upload Settings" = "Upload Settings";
+"Upload Settings" = "Upload-Einstellungen";
 "Uploading" = "Hochladen";
 "Uploading file to server" = "Lade Datei auf den Server hoch";
 "Use your existing account or make a new one on the many servers around the world" = "Benutze dein bestehendes Konto oder erstelle ein neues auf den vielen Servern auf der ganzen Welt";
@@ -994,6 +994,6 @@
 "📍 A Location" = "📍 Ein Standort";
 "📷 An Image" = "📷 Ein Bild";
 "🔗 A Link" = "🔗 Ein Link";
-"Empty Values!" = "Empty Values!";
-"Please make sure you have entered both a username and password." = "Please make sure you have entered both a username and password.";
-"Selected Group Members" = "Selected Group Members";
+"Empty Values!" = "Leere Werte!";
+"Please make sure you have entered both a username and password." = "Bitte vergewissere dich, dass du sowohl einen Benutzernamen als auch ein Passwort eingegeben hast.";
+"Selected Group Members" = "Ausgewählte Gruppenmitglieder";
