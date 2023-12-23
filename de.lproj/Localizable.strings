@@ -79,7 +79,7 @@
 "Can Show Notifications" = "Darf Benachrichtigungen anzeigen";
 "Can't convert the image to jpeg format." = "Das Bild kann nicht in das JPEG-Format konvertiert werden.";
 "Cancel" = "Abbrechen";
-"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Kann etwas nicht mit deaktiviertem/gelöschtem Konto freigeben, Ziel: %1$@, interne Konto-ID: %2$@";
+"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Kann etwas nicht mit deaktiviertem/gelöschtem Konto teilen, Ziel: %@, interne Konto-ID: %@";
 "Change Chat Background" = "Chathintergrund ändern";
 "Change Password" = "Passwort ändern";
 "Changing Password" = "Ändern des Passworts";
@@ -304,7 +304,7 @@
 "Loading Data" = "Daten werden geladen";
 "Loading more Messages from Server" = "Mehr Nachrichten vom Server laden";
 "Loading omemo bundles" = "Lade OMEMO-Informationen";
-"Loading omemo bundles: %@ / %@" = "Lade OMEMO-Informationen: %1$@ / %2$@";
+"Loading omemo bundles: %@ / %@" = "Lade OMEMO-Informationen: %@ / %@";
 "Location Access Needed" = "Standortzugriff erforderlich";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Melde dich bei deinem bestehenden Konto an oder registriere ein neues. Bei Bedarf findest du erweiterte Optionen in den Monal-Einstellungen.";
 "Logging in" = "Anmelden";
@@ -381,7 +381,7 @@
 "Only shareable for now" = "Vorerst nur teilbar";
 "Open" = "Öffnen";
 "Open app to see more" = "App öffnen, um mehr zu sehen";
-"Open list of pending contact requests" = "Open list of pending contact requests";
+"Open list of pending contact requests" = "Liste der ausstehenden Kontaktanfragen öffnen";
 "Open Source" = "Quelloffen";
 "Optional Hardcoded Hostname" = "Optionaler hardcodierter Hostname";
 "Optional Port" = "Optionaler Port";
@@ -408,7 +408,7 @@
 "Please select a XMPP server or provide one." = "Bitte wähle einen XMPP-Server aus oder gib einen an.";
 "Please update!" = "Bitte aktualisieren!";
 "Port" = "Port";
-"Port: %@, Direct TLS: %@, Priority: %@" = "Port: %1$@, Direct TLS: %2$@, Priorität: %3$@";
+"Port: %@, Direct TLS: %@, Priority: %@" = "Port: %@, Direct TLS: %@, Priorität: %@";
 "Privacy" = "Datenschutz";
 "Privacy Settings" = "Datenschutzeinstellungen";
 "Protocol support of your server (XEPs)" = "Serverfeatures (XEPs)";
@@ -576,7 +576,7 @@
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "Das bedeutet, dass dein Anruf verschlüsselt ist und die Gegenstelle mit OMEMO-Verschlüsselung verifiziert wurde.\nDa du aber die OMEMO-Fingerabdrücke des Angerufenen nicht manuell verifiziert hast, könnte dein oder der XMPP-Server des Angerufenen möglicherweise seine eigenen OMEMO-Schlüssel eingefügt haben, um dich zu manipulieren (Man-In-The-Middle).";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "Das bedeutet, dass dein Anruf verschlüsselt ist und die Gegenstelle mit OMEMO-Verschlüsselung verifiziert wurde.\nDu hast die verwendeten OMEMO-Schlüssel manuell verifiziert und es kann kein Man-In-The-Middle stattfinden.";
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "Das bedeutet, dass dein Anruf verschlüsselt ist, aber die Gegenstelle nicht mit OMEMO-Verschlüsselung verifiziert werden konnte.\nDein oder der XMPP-Server des Angerufenen könnte möglicherweise Man-In-The-Middle mit dir betreiben.";
-"This message failed to send (%@): %@" = "Diese Nachricht konnte nicht gesendet werden (%1$@): %2$@";
+"This message failed to send (%@): %@" = "Diese Nachricht konnte nicht gesendet werden (%@): %@";
 "This message got retracted" = "Diese Nachricht wurde widerrufen";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Dieser Server scheint HTTP-Datei-Uploads (XEP-0363) nicht zu unterstützen. Bitte den Administrator, dies zu aktivieren.";
 "This server does not have any SRV records in DNS." = "Dieser Server hat keine SRV-Einträge im DNS.";
