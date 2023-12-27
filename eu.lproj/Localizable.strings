@@ -80,6 +80,8 @@
 "Can't convert the image to jpeg format." = "Ezin da irudia JPEGra bihurtu.";
 "Cancel" = "Utzi";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Ezin da ezer partekatu desgaitutako edo ezabatutako kontu batekin; helmuga: %1$@, barneko kontuaren IDa: %2$@";
+/* placeholder when creating account */
+"Captcha" = "Captcha";
 "Change Chat Background" = "Change Chat Background";
 "Change Password" = "Aldatu pasahitza";
 "Changing Password" = "Pasahitza aldatzen";
@@ -100,6 +102,8 @@
 "Contact is muted" = "Kontaktua mutututa dago";
 "Contact is not muted" = "Kontaktua ez dago mutututa";
 "Contact not found" = "Ez da kontaktua aurkitu";
+/* placeholder when adding jid */
+"Contact or Group/Channel Jid" = "Contact or Group/Channel Jid";
 "Contacts" = "Kontaktuak";
 "Cool Title" = "Titulu bikaina";
 "Copied to clipboard" = "Arbelera kopiatu da";
@@ -251,6 +255,8 @@
 "GPS" = "GPSa";
 "Green checkmark shield:" = "Green checkmark shield:";
 "Group Members" = "Taldeko kideak";
+/* placeholder when creating new group */
+"Group Name (optional)" = "Group Name (optional)";
 "Group subject:" = "Taldeko gaia:";
 "Group/Channel error in %@" = "Talde/Kanal errorea %@(e)n";
 "Group/Channel got destroyed: %@" = "Taldea / kanala suntsitu da: %@";
@@ -387,7 +393,12 @@
 "Optional Port" = "Aukerako ataka";
 "Own device key" = "Nire gailuko gakoa";
 "Own Encryption Keys" = "Own Encryption Keys";
+/* placeholder when adding account
+   placeholder when creating account
+   placeholder when migrating account */
 "Password" = "Pasahitza";
+/* placeholder when creating account */
+"Password (repeated)" = "Password (repeated)";
 "Password cannot be empty" = "Pasahitza ezin da hutsik utzi";
 "Password missing" = "Pasahitza falta da";
 "Passwords don't match!" = "Pasahitzak ez datoz bat!";
@@ -412,6 +423,8 @@
 "Privacy" = "Pribatutasuna";
 "Privacy Settings" = "Pribatutasun ezarpenak";
 "Protocol support of your server (XEPs)" = "Zerbitzariaren XEP ezaugarriak";
+/* placeholder when creating account */
+"Provide XMPP-Server" = "Provide XMPP-Server";
 "Pushserver Region" = "Push zerbitzariaren eremua";
 "QR code: Fingerprints found" = "QR kodea: hatz-markak topatu dira";
 "QR-Code Scanner" = "QR kode-eskaneatzailea";
@@ -447,6 +460,8 @@
 "Remove Contact" = "Kendu kontaktua";
 "Remove Conversation" = "Kendu elkarrizketa";
 "Remove from contacts" = "Kendu kontaktuetatik";
+/* placeholder text in contact details */
+"Rename Contact" = "Rename Contact";
 "Reply" = "Erantzun";
 "Reset OMEMO session" = "Berrezarri OMEMO saioa";
 "Resource" = "Gailua";
@@ -465,6 +480,8 @@
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 /* mac only string */
 "Scroll down to load more messages" = "Tira behera mezu gehiago kargatzeko";
+/* placeholder in contact picker */
+"Search contacts" = "Search contacts";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Kanaleko-lotura TLS1.3 eta TLS1.2 konexio batzuetarako segurtatuz.";
 "Select a background to display behind conversations with %@" = "Hautatu %@(r)en elkarrizketarako hondo bat";
 "Select a default background to display behind conversations." = "Hautatu defektuzko hondo bat elkarrizketetarako.";
@@ -626,8 +643,12 @@
 "Upload Settings" = "Upload Settings";
 "Uploading" = "Igotzen";
 "Uploading file to server" = "Fitxategia zerbitzarira igotzen";
+/* placeholder when adding account */
+"user@domain.tld" = "user@domain.tld";
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "erabiltzailea@domeinua.eus/resource";
+/* placeholder when creating account */
+"Username" = "Username";
 "Username missing" = "Erabiltzaile izena falta da";
 "Uses TLS client certificates for authentication" = "Bezeroen TLS ziurtagiriak erabiltzen ditu autentikatzeko";
 "Version" = "Bertsioa";

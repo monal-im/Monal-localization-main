@@ -80,6 +80,8 @@
 "Can't convert the image to jpeg format." = "无法将图片转换为 jpeg 格式。";
 "Cancel" = "取消";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "无法与被禁用/删除的账号共享某些内容，目标：%@，内部账号 id：%@";
+/* placeholder when creating account */
+"Captcha" = "Captcha";
 "Change Chat Background" = "更改聊天背景";
 "Change Password" = "修改密码";
 "Changing Password" = "更改密码";
@@ -100,6 +102,8 @@
 "Contact is muted" = "联系人已静音";
 "Contact is not muted" = "联系人未静音";
 "Contact not found" = "找不到联系人";
+/* placeholder when adding jid */
+"Contact or Group/Channel Jid" = "Contact or Group/Channel Jid";
 "Contacts" = "通讯录";
 "Cool Title" = "酷标题";
 "Copied to clipboard" = "已复制到剪贴板";
@@ -251,6 +255,8 @@
 "GPS" = "GPS";
 "Green checkmark shield:" = "绿色复选标记盾牌：";
 "Group Members" = "群组成员";
+/* placeholder when creating new group */
+"Group Name (optional)" = "Group Name (optional)";
 "Group subject:" = "群组主题：";
 "Group/Channel error in %@" = "群组/频道错误 %@";
 "Group/Channel got destroyed: %@" = "群组/频道已被销毁：%@";
@@ -387,7 +393,12 @@
 "Optional Port" = "可选端口";
 "Own device key" = "自己的设备密钥";
 "Own Encryption Keys" = "自己的加密密钥";
+/* placeholder when adding account
+   placeholder when creating account
+   placeholder when migrating account */
 "Password" = "密码";
+/* placeholder when creating account */
+"Password (repeated)" = "Password (repeated)";
 "Password cannot be empty" = "密码不能为空";
 "Password missing" = "密码丢失";
 "Passwords don't match!" = "密码不匹配！";
@@ -412,6 +423,8 @@
 "Privacy" = "隐私";
 "Privacy Settings" = "隐私设定";
 "Protocol support of your server (XEPs)" = "服务器支持的协议 (XEPs)";
+/* placeholder when creating account */
+"Provide XMPP-Server" = "Provide XMPP-Server";
 "Pushserver Region" = "推送服务器区域";
 "QR code: Fingerprints found" = "二维码：已找到指纹";
 "QR-Code Scanner" = "二维码扫描器";
@@ -447,6 +460,8 @@
 "Remove Contact" = "删除联系人";
 "Remove Conversation" = "移除对话";
 "Remove from contacts" = "从通讯录中删除";
+/* placeholder text in contact details */
+"Rename Contact" = "Rename Contact";
 "Reply" = "回复";
 "Reset OMEMO session" = "重置 OMEMO 会话";
 "Resource" = "资源";
@@ -465,6 +480,8 @@
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM 服务器证明错误，极有可能正在进行 MITM 攻击，中止身份验证并禁用账号以限制损害。一旦您再次处于安全的网络环境中，您应该重新启用您的账号。";
 /* mac only string */
 "Scroll down to load more messages" = "向下滑以载入更多消息";
+/* placeholder in contact picker */
+"Search contacts" = "Search contacts";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "为 TLS1.3 和一些 TLS1.2 连接定义的安全频道绑定。";
 "Select a background to display behind conversations with %@" = "选择在与 %@ 的对话后面显示的背景";
 "Select a default background to display behind conversations." = "选择在对话后面显示的默认背景。";
@@ -626,8 +643,12 @@
 "Upload Settings" = "上传设置";
 "Uploading" = "正在上传";
 "Uploading file to server" = "将文件上传到服务器中";
+/* placeholder when adding account */
+"user@domain.tld" = "user@domain.tld";
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "user@example.org/resource";
+/* placeholder when creating account */
+"Username" = "Username";
 "Username missing" = "缺少用户名";
 "Uses TLS client certificates for authentication" = "使用 TLS 客户端证书进行认证";
 "Version" = "版本";

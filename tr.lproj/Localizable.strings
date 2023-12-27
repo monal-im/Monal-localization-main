@@ -80,6 +80,8 @@
 "Can't convert the image to jpeg format." = "Görüntü jpeg biçimine dönüştürülemiyor.";
 "Cancel" = "İptal Et";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Devre dışı bırakılan/silinen hesapla bir şey paylaşılamıyor, hedef: %1$@, dahili hesap kimliği: %2$ @";
+/* placeholder when creating account */
+"Captcha" = "Captcha";
 "Change Chat Background" = "Konuşma Arka Planını Değiştir";
 "Change Password" = "Parolayı Değiştir";
 "Changing Password" = "Parolayı Değiştir";
@@ -100,6 +102,8 @@
 "Contact is muted" = "Kişi sessize alındı";
 "Contact is not muted" = "Kişi sesi kapatılmamış";
 "Contact not found" = "Kişi bulunamadı";
+/* placeholder when adding jid */
+"Contact or Group/Channel Jid" = "Contact or Group/Channel Jid";
 "Contacts" = "Rehber";
 "Cool Title" = "Havalı Başlık";
 "Copied to clipboard" = "Panoya kopyalandı";
@@ -251,6 +255,8 @@
 "GPS" = "Küresel Konumlama Sistemi";
 "Green checkmark shield:" = "Yeşil onay işareti kalkanı:";
 "Group Members" = "Grup Üyeleri";
+/* placeholder when creating new group */
+"Group Name (optional)" = "Group Name (optional)";
 "Group subject:" = "Grup konusu:";
 "Group/Channel error in %@" = "%@ için Grup/Kanal hatası";
 "Group/Channel got destroyed: %@" = "Grup/Kanal yok edildi: %@";
@@ -387,7 +393,12 @@
 "Optional Port" = "İsteğe Bağlı Bağlantı Noktası";
 "Own device key" = "Kendi cihaz anahtarın";
 "Own Encryption Keys" = "Kendi Şifreleme Anahtarlarım";
+/* placeholder when adding account
+   placeholder when creating account
+   placeholder when migrating account */
 "Password" = "Parola";
+/* placeholder when creating account */
+"Password (repeated)" = "Password (repeated)";
 "Password cannot be empty" = "Şifre boş bırakılamaz";
 "Password missing" = "Parola eksik";
 "Passwords don't match!" = "Şifreler eşleşmiyor!";
@@ -412,6 +423,8 @@
 "Privacy" = "Gizlilik";
 "Privacy Settings" = "Gizlilik Ayarları";
 "Protocol support of your server (XEPs)" = "Sunucunuzun desteklediği protokoller (XEP'ler)";
+/* placeholder when creating account */
+"Provide XMPP-Server" = "Provide XMPP-Server";
 "Pushserver Region" = "Pushserver Bölgesi";
 "QR code: Fingerprints found" = "QR kodu: Parmak izleri bulundu";
 "QR-Code Scanner" = "QR Kod Tarayıcı";
@@ -447,6 +460,8 @@
 "Remove Contact" = "Kişiyi Kaldır";
 "Remove Conversation" = "Konuşmayı Kaldır";
 "Remove from contacts" = "Kişilerden kaldır";
+/* placeholder text in contact details */
+"Rename Contact" = "Rename Contact";
 "Reply" = "Cevap ver";
 "Reset OMEMO session" = "OMEMO oturumunu sıfırla";
 "Resource" = "Kaynak";
@@ -465,6 +480,8 @@
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM sunucu kanıtı hatalı, büyük olasılıkla devam eden MITM saldırısı, kimlik doğrulamayı iptal ediliyor ve hasarı sınırlamak için hesabı devre dışı bırakılıyor. Tekrar temiz bir ağ ortamına girdiğinizde hesabınızı yeniden etkinleştirmelisiniz.";
 /* mac only string */
 "Scroll down to load more messages" = "Daha fazla ileti yüklemek için aşağı kaydırın";
+/* placeholder in contact picker */
+"Search contacts" = "Search contacts";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "TLS1.3 ve bazı TLS1.2 bağlantıları için tanımlanmış güvenli channel-binding.";
 "Select a background to display behind conversations with %@" = "@ ile konuşmaların arkasında görüntülenecek bir arka plan seçin";
 "Select a default background to display behind conversations." = "Konuşmaların arkasında görüntülemek için varsayılan bir arka plan seçin.";
@@ -626,8 +643,12 @@
 "Upload Settings" = "Yükleme Ayarları";
 "Uploading" = "Karşıya yükleniyor";
 "Uploading file to server" = "Dosya sunucuya yükleniyor";
+/* placeholder when adding account */
+"user@domain.tld" = "user@domain.tld";
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "kullanıcı@ornek.org/kaynaklar";
+/* placeholder when creating account */
+"Username" = "Username";
 "Username missing" = "Kullanıcı adı eksik";
 "Uses TLS client certificates for authentication" = "Kimlik doğrulaması için TLS istemci sertifikalarını kullanır";
 "Version" = "Sürüm";

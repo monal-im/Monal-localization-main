@@ -80,6 +80,8 @@
 "Can't convert the image to jpeg format." = "Échec de conversion de l'image au format jpeg.";
 "Cancel" = "Annuler";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Échec de partage avec un compte désactivé/supprimé, destination : %1$@, identifiant interne du compte : %2$@";
+/* placeholder when creating account */
+"Captcha" = "Captcha";
 "Change Chat Background" = "Change Chat Background";
 "Change Password" = "Modifier le mot de passe";
 "Changing Password" = "Changement du mot de passe";
@@ -100,6 +102,8 @@
 "Contact is muted" = "Contact is muted";
 "Contact is not muted" = "Contact is not muted";
 "Contact not found" = "Contact non trouvé";
+/* placeholder when adding jid */
+"Contact or Group/Channel Jid" = "Contact or Group/Channel Jid";
 "Contacts" = "Contacts";
 "Cool Title" = "Titre cool";
 "Copied to clipboard" = "Copied to clipboard";
@@ -251,6 +255,8 @@
 "GPS" = "GPS";
 "Green checkmark shield:" = "Green checkmark shield:";
 "Group Members" = "Membres du groupe";
+/* placeholder when creating new group */
+"Group Name (optional)" = "Group Name (optional)";
 "Group subject:" = "Sujet du groupe :";
 "Group/Channel error in %@" = "Erreur de Groupe/Canal dans %@";
 "Group/Channel got destroyed: %@" = "Le Groupe/Canal a été détruit : %@";
@@ -387,7 +393,12 @@
 "Optional Port" = "Port optionnel";
 "Own device key" = "Clé de cet appareil";
 "Own Encryption Keys" = "Own Encryption Keys";
+/* placeholder when adding account
+   placeholder when creating account
+   placeholder when migrating account */
 "Password" = "Mot de passe";
+/* placeholder when creating account */
+"Password (repeated)" = "Password (repeated)";
 "Password cannot be empty" = "Le mot de passe ne peut pas être vide";
 "Password missing" = "Mot de passe manquant";
 "Passwords don't match!" = "Les mots de passe ne correspondent pas !";
@@ -412,6 +423,8 @@
 "Privacy" = "Confidentialité";
 "Privacy Settings" = "Paramètres de confidentialité";
 "Protocol support of your server (XEPs)" = "Le support des protocoles sur votre serveur (XEPs)";
+/* placeholder when creating account */
+"Provide XMPP-Server" = "Provide XMPP-Server";
 "Pushserver Region" = "Région du serveur de notifications push";
 "QR code: Fingerprints found" = "Code QR : empreintes trouvées";
 "QR-Code Scanner" = "Scanneur de QR-Code";
@@ -447,6 +460,8 @@
 "Remove Contact" = "Supprimer le contact";
 "Remove Conversation" = "Retirer la conversation";
 "Remove from contacts" = "Supprimer des contacts";
+/* placeholder text in contact details */
+"Rename Contact" = "Rename Contact";
 "Reply" = "Répondre";
 "Reset OMEMO session" = "Rétablir la sessions OMEMO";
 "Resource" = "Ressource";
@@ -465,6 +480,8 @@
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 /* mac only string */
 "Scroll down to load more messages" = "Faites défiler vers le bas pour charger plus de messages";
+/* placeholder in contact picker */
+"Search contacts" = "Search contacts";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Channel-binding sécurisé défini pour TLS1.3 et quelques connexions TLS1.2.";
 "Select a background to display behind conversations with %@" = "Choisissez un arrière-plan pour les conversations avec %@";
 "Select a default background to display behind conversations." = "Choisissez un arrière-plan par défaut pour les conversations.";
@@ -626,8 +643,12 @@
 "Upload Settings" = "Upload Settings";
 "Uploading" = "Téléversement";
 "Uploading file to server" = "Téléversement du fichier vers le serveur";
+/* placeholder when adding account */
+"user@domain.tld" = "user@domain.tld";
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "utilisateur@exemple.org/ressource";
+/* placeholder when creating account */
+"Username" = "Username";
 "Username missing" = "Nom d'utilisateur manquant";
 "Uses TLS client certificates for authentication" = "Utilise les certificats TLS clients pour l'authentification";
 "Version" = "Version";

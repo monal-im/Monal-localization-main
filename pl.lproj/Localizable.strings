@@ -80,6 +80,8 @@
 "Can't convert the image to jpeg format." = "Nie można przekonwertować obrazu do formatu jpeg.";
 "Cancel" = "Anuluj";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Nie można udostępnić czegoś wyłączonemu/usuniętemu kontu, miejsce docelowe: %1$@, identyfikator konta wewnętrznego: %2$@";
+/* placeholder when creating account */
+"Captcha" = "Captcha";
 "Change Chat Background" = "Change Chat Background";
 "Change Password" = "Zmień hasło";
 "Changing Password" = "Zmiana hasła";
@@ -100,6 +102,8 @@
 "Contact is muted" = "Kontakt jest wyciszony";
 "Contact is not muted" = "Kontakt nie jest wyciszony";
 "Contact not found" = "Kontakt nie znaleziony";
+/* placeholder when adding jid */
+"Contact or Group/Channel Jid" = "Contact or Group/Channel Jid";
 "Contacts" = "Kontakty";
 "Cool Title" = "Świetny Tytuł";
 "Copied to clipboard" = "Copied to clipboard";
@@ -251,6 +255,8 @@
 "GPS" = "GPS";
 "Green checkmark shield:" = "Green checkmark shield:";
 "Group Members" = "Członkowie Grupy";
+/* placeholder when creating new group */
+"Group Name (optional)" = "Group Name (optional)";
 "Group subject:" = "Temat grupy:";
 "Group/Channel error in %@" = "Błąd Grupy/Kanału w %@";
 "Group/Channel got destroyed: %@" = "Grupa/kanał został zniszczony: %@";
@@ -387,7 +393,12 @@
 "Optional Port" = "Opcjonalny port";
 "Own device key" = "Własny klucz";
 "Own Encryption Keys" = "Own Encryption Keys";
+/* placeholder when adding account
+   placeholder when creating account
+   placeholder when migrating account */
 "Password" = "Hasło";
+/* placeholder when creating account */
+"Password (repeated)" = "Password (repeated)";
 "Password cannot be empty" = "Hasło nie może być puste";
 "Password missing" = "Brak hasła";
 "Passwords don't match!" = "Hasła nie pasują!";
@@ -412,6 +423,8 @@
 "Privacy" = "Prywatność";
 "Privacy Settings" = "Ustawienia prywatności";
 "Protocol support of your server (XEPs)" = "Informacje o serwerze";
+/* placeholder when creating account */
+"Provide XMPP-Server" = "Provide XMPP-Server";
 "Pushserver Region" = "Lokalizacja serwera powiadomień";
 "QR code: Fingerprints found" = "QR kod: Znaleziono odciski";
 "QR-Code Scanner" = "Skaner kodów QR";
@@ -447,6 +460,8 @@
 "Remove Contact" = "Usuń kontakt";
 "Remove Conversation" = "Usuń rozmowę";
 "Remove from contacts" = "Usuń z kontaktów";
+/* placeholder text in contact details */
+"Rename Contact" = "Rename Contact";
 "Reply" = "Odpowiedź";
 "Reset OMEMO session" = "Zresetuj sesję OMEMO";
 "Resource" = "Zasób";
@@ -465,6 +480,8 @@
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 /* mac only string */
 "Scroll down to load more messages" = "Przewiń w dół, aby załadować więcej wiadomości";
+/* placeholder in contact picker */
+"Search contacts" = "Search contacts";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Bezpieczne wiązanie kanałów zdefiniowane dla połączeń TLS1.3 i niektórych połączeń TLS1.2.";
 "Select a background to display behind conversations with %@" = "Wybierz tło do pokazania w rozmowie z %@";
 "Select a default background to display behind conversations." = "Wybierz tło domyślne do pokazania w rozmowach.";
@@ -626,8 +643,12 @@
 "Upload Settings" = "Upload Settings";
 "Uploading" = "Przesyłanie";
 "Uploading file to server" = "Przesyłanie pliku na serwer";
+/* placeholder when adding account */
+"user@domain.tld" = "user@domain.tld";
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "użytkownik@domena.org/zasób";
+/* placeholder when creating account */
+"Username" = "Username";
 "Username missing" = "Brak nazwy użytkownika";
 "Uses TLS client certificates for authentication" = "Używa certyfikatów klienta TLS do uwierzytelniania";
 "Version" = "Wersja";

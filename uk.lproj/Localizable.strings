@@ -80,6 +80,8 @@
 "Can't convert the image to jpeg format." = "Не вдається конвертувати зображення в jpeg формат.";
 "Cancel" = "Скасувати";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Неможливо поділитися чимось з вимкненим/видаленим акаунтом, адресат: %1$@, внутрішній ідентифікатор акаунта: %2$@";
+/* placeholder when creating account */
+"Captcha" = "Captcha";
 "Change Chat Background" = "Змінити фон чату";
 "Change Password" = "Змінити пароль";
 "Changing Password" = "Зміна паролю";
@@ -100,6 +102,8 @@
 "Contact is muted" = "Контакт приглушено";
 "Contact is not muted" = "Контакт не приглушується";
 "Contact not found" = "Контакт не знайдено";
+/* placeholder when adding jid */
+"Contact or Group/Channel Jid" = "Contact or Group/Channel Jid";
 "Contacts" = "Контакти";
 "Cool Title" = "Класна назва";
 "Copied to clipboard" = "Скопійовано в буфер обміну";
@@ -251,6 +255,8 @@
 "GPS" = "GPS";
 "Green checkmark shield:" = "Зелений щит з галочкою:";
 "Group Members" = "Члени групи";
+/* placeholder when creating new group */
+"Group Name (optional)" = "Group Name (optional)";
 "Group subject:" = "Тема групи:";
 "Group/Channel error in %@" = "Помилка групи/каналу в %@";
 "Group/Channel got destroyed: %@" = "Групу/канал було знищено: %@";
@@ -387,7 +393,12 @@
 "Optional Port" = "Додатковий порт";
 "Own device key" = "Власний ключ пристрою";
 "Own Encryption Keys" = "Власні ключі шифрування";
+/* placeholder when adding account
+   placeholder when creating account
+   placeholder when migrating account */
 "Password" = "Пароль";
+/* placeholder when creating account */
+"Password (repeated)" = "Password (repeated)";
 "Password cannot be empty" = "Пароль не може бути пустим";
 "Password missing" = "Відсутній пароль";
 "Passwords don't match!" = "Паролі не збігаються!";
@@ -412,6 +423,8 @@
 "Privacy" = "Конфіденційність";
 "Privacy Settings" = "Налаштування конфіденційності";
 "Protocol support of your server (XEPs)" = "Підтримка протоколів на вашому сервері (XEP)";
+/* placeholder when creating account */
+"Provide XMPP-Server" = "Provide XMPP-Server";
 "Pushserver Region" = "Регіон пуш-сервера";
 "QR code: Fingerprints found" = "QR-код: Знайдено відбитки пальців";
 "QR-Code Scanner" = "Сканер QR-коду";
@@ -447,6 +460,8 @@
 "Remove Contact" = "Видалити контакт";
 "Remove Conversation" = "Видалити розмову";
 "Remove from contacts" = "Видалити з контактів";
+/* placeholder text in contact details */
+"Rename Contact" = "Rename Contact";
 "Reply" = "Відповісти";
 "Reset OMEMO session" = "Скинути сесію OMEMO";
 "Resource" = "Ресурс";
@@ -465,6 +480,8 @@
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Підтвердження сервера SCRAM невірне, дуже ймовірно, що триває MITM-атака, переривання автентифікації та вимкнення облікового запису для зменшення шкоди. Вам слід увімкнути обліковий запис, як тільки ви знову опинитеся в чистому мережевому середовищі.";
 /* mac only string */
 "Scroll down to load more messages" = "Прокрутіть униз, щоб завантажити більше повідомлень";
+/* placeholder in contact picker */
+"Search contacts" = "Search contacts";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Безпечне прив'язування каналів, визначене для з'єднань TLS1.3 та деяких з'єднань TLS1.2.";
 "Select a background to display behind conversations with %@" = "Виберіть фон, який відображатиметься за розмовами з %@";
 "Select a default background to display behind conversations." = "Виберіть фон за замовчуванням для відображення за розмовами.";
@@ -626,8 +643,12 @@
 "Upload Settings" = "Налаштування завантаження";
 "Uploading" = "Завантаження";
 "Uploading file to server" = "Завантаження файлу на сервер";
+/* placeholder when adding account */
+"user@domain.tld" = "user@domain.tld";
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "user@example.org/resource";
+/* placeholder when creating account */
+"Username" = "Username";
 "Username missing" = "Імʼя користувача відсутнє";
 "Uses TLS client certificates for authentication" = "Використовує клієнтські сертифікати TLS для автентифікації";
 "Version" = "Версія";

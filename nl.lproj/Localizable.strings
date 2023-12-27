@@ -80,6 +80,8 @@
 "Can't convert the image to jpeg format." = "Kan afbeelding niet naar JPEG-formaat omzetten.";
 "Cancel" = "Annuleren";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Kan niet iets delen met uitgeschakelde/verwijderde accounts, bestemming: %1$@, interne account id: %2$@";
+/* placeholder when creating account */
+"Captcha" = "Captcha";
 "Change Chat Background" = "Change Chat Background";
 "Change Password" = "Wachtwoord wijzigen";
 "Changing Password" = "Wachtwoord wijzigen";
@@ -100,6 +102,8 @@
 "Contact is muted" = "Contact is muted";
 "Contact is not muted" = "Contact is not muted";
 "Contact not found" = "Contact not found";
+/* placeholder when adding jid */
+"Contact or Group/Channel Jid" = "Contact or Group/Channel Jid";
 "Contacts" = "Contactpersonen";
 "Cool Title" = "Cool Title";
 "Copied to clipboard" = "Copied to clipboard";
@@ -251,6 +255,8 @@
 "GPS" = "GPS";
 "Green checkmark shield:" = "Green checkmark shield:";
 "Group Members" = "Group Members";
+/* placeholder when creating new group */
+"Group Name (optional)" = "Group Name (optional)";
 "Group subject:" = "Group subject:";
 "Group/Channel error in %@" = "Group/Channel error in %@";
 "Group/Channel got destroyed: %@" = "Groep/Kanaal is verwijderd %@";
@@ -387,7 +393,12 @@
 "Optional Port" = "Optionele poort";
 "Own device key" = "Own device key";
 "Own Encryption Keys" = "Own Encryption Keys";
+/* placeholder when adding account
+   placeholder when creating account
+   placeholder when migrating account */
 "Password" = "Wachtwoord";
+/* placeholder when creating account */
+"Password (repeated)" = "Password (repeated)";
 "Password cannot be empty" = "Wachtwoord kan niet leeg zijn";
 "Password missing" = "Wachtwoord ontbreekt";
 "Passwords don't match!" = "Passwords don't match!";
@@ -412,6 +423,8 @@
 "Privacy" = "Privacy";
 "Privacy Settings" = "Privacy-instellingen";
 "Protocol support of your server (XEPs)" = "Protocolondersteuning op de server (XEPs)";
+/* placeholder when creating account */
+"Provide XMPP-Server" = "Provide XMPP-Server";
 "Pushserver Region" = "Pushserver Region";
 "QR code: Fingerprints found" = "QR code: Fingerprints found";
 "QR-Code Scanner" = "QR-code-scanner";
@@ -447,6 +460,8 @@
 "Remove Contact" = "Contactpersoon verwijderen";
 "Remove Conversation" = "Gesprek verwijderen";
 "Remove from contacts" = "Remove from contacts";
+/* placeholder text in contact details */
+"Rename Contact" = "Rename Contact";
 "Reply" = "Beantwoorden";
 "Reset OMEMO session" = "OMEMO-sessie opnieuw instellen";
 "Resource" = "Bron";
@@ -465,6 +480,8 @@
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 /* mac only string */
 "Scroll down to load more messages" = "Scroll omlaag om meer berichten te laden";
+/* placeholder in contact picker */
+"Search contacts" = "Search contacts";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Beveiligde kanaal-binding gedefenieerd voor TLS1.3 en bepaalde TLS1.2 connecties.";
 "Select a background to display behind conversations with %@" = "Select a background to display behind conversations with %@";
 "Select a default background to display behind conversations." = "Select a default background to display behind conversations.";
@@ -626,8 +643,12 @@
 "Upload Settings" = "Upload Settings";
 "Uploading" = "Aan het uploaden";
 "Uploading file to server" = "Bestand aan het uploaden naar server";
+/* placeholder when adding account */
+"user@domain.tld" = "user@domain.tld";
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "gebruiker@voorbeeld.org/bron";
+/* placeholder when creating account */
+"Username" = "Username";
 "Username missing" = "Gebruikersnaam ontbreekt";
 "Uses TLS client certificates for authentication" = "Gebruikt TLS client certificaat voor authenticatie";
 "Version" = "Versie";

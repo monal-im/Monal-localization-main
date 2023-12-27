@@ -80,6 +80,8 @@
 "Can't convert the image to jpeg format." = "Can't convert the image to jpeg format.";
 "Cancel" = "取消";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Cannot share something with disabled/deleted account, destination: %1$@, internal account id: %2$@";
+/* placeholder when creating account */
+"Captcha" = "Captcha";
 "Change Chat Background" = "Change Chat Background";
 "Change Password" = "修改密碼";
 "Changing Password" = "Changing Password";
@@ -100,6 +102,8 @@
 "Contact is muted" = "Contact is muted";
 "Contact is not muted" = "Contact is not muted";
 "Contact not found" = "Contact not found";
+/* placeholder when adding jid */
+"Contact or Group/Channel Jid" = "Contact or Group/Channel Jid";
 "Contacts" = "聯絡人";
 "Cool Title" = "Cool Title";
 "Copied to clipboard" = "Copied to clipboard";
@@ -251,6 +255,8 @@
 "GPS" = "GPS";
 "Green checkmark shield:" = "Green checkmark shield:";
 "Group Members" = "Group Members";
+/* placeholder when creating new group */
+"Group Name (optional)" = "Group Name (optional)";
 "Group subject:" = "Group subject:";
 "Group/Channel error in %@" = "Group/Channel error in %@";
 "Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
@@ -381,12 +387,18 @@
 "Only shareable for now" = "Only shareable for now";
 "Open" = "Open";
 "Open app to see more" = "Open app to see more";
+"Open list of pending contact requests" = "Open list of pending contact requests";
 "Open Source" = "Open Source";
 "Optional Hardcoded Hostname" = "Optional Hardcoded Hostname";
 "Optional Port" = "Optional Port";
 "Own device key" = "Own device key";
 "Own Encryption Keys" = "Own Encryption Keys";
+/* placeholder when adding account
+   placeholder when creating account
+   placeholder when migrating account */
 "Password" = "Password";
+/* placeholder when creating account */
+"Password (repeated)" = "Password (repeated)";
 "Password cannot be empty" = "Password cannot be empty";
 "Password missing" = "Password missing";
 "Passwords don't match!" = "Passwords don't match!";
@@ -411,6 +423,8 @@
 "Privacy" = "Privacy";
 "Privacy Settings" = "Privacy Settings";
 "Protocol support of your server (XEPs)" = "Protocol support of your server (XEPs)";
+/* placeholder when creating account */
+"Provide XMPP-Server" = "Provide XMPP-Server";
 "Pushserver Region" = "Pushserver Region";
 "QR code: Fingerprints found" = "QR code: Fingerprints found";
 "QR-Code Scanner" = "QR-Code Scanner";
@@ -446,6 +460,8 @@
 "Remove Contact" = "Remove Contact";
 "Remove Conversation" = "Remove Conversation";
 "Remove from contacts" = "Remove from contacts";
+/* placeholder text in contact details */
+"Rename Contact" = "Rename Contact";
 "Reply" = "Reply";
 "Reset OMEMO session" = "Reset OMEMO session";
 "Resource" = "Resource";
@@ -464,6 +480,8 @@
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 /* mac only string */
 "Scroll down to load more messages" = "Scroll down to load more messages";
+/* placeholder in contact picker */
+"Search contacts" = "Search contacts";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections.";
 "Select a background to display behind conversations with %@" = "Select a background to display behind conversations with %@";
 "Select a default background to display behind conversations." = "Select a default background to display behind conversations.";
@@ -625,8 +643,12 @@
 "Upload Settings" = "Upload Settings";
 "Uploading" = "Uploading";
 "Uploading file to server" = "Uploading file to server";
+/* placeholder when adding account */
+"user@domain.tld" = "user@domain.tld";
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "user@example.org/resource";
+/* placeholder when creating account */
+"Username" = "Username";
 "Username missing" = "Username missing";
 "Uses TLS client certificates for authentication" = "Uses TLS client certificates for authentication";
 "Version" = "Version";
@@ -708,4 +730,3 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 照片";
 "🔗 A Link" = "🔗 連結";
-"Open list of pending contact requests" = "Open list of pending contact requests";
