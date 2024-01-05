@@ -1,6 +1,12 @@
+/* server details */
+" running on %@" = " running on %@";
 "%02d:%02d (long press to abort)" = "%02d:%02d (tieni premuto per annullare)";
 "%@" = "%@";
 "%@ says:" = "%@ dice:";
+/* server details */
+"<unknown server>" = "<unknown server>";
+/* server details */
+"<unknown version>" = "<unknown version>";
 "A contact was scanned through the QR code scanner" = "Il contatto è stato scansionato tramite QR code";
 "Abort" = "Annulla";
 "Aborted recording audio" = "Registrazione audio annullata";
@@ -111,12 +117,17 @@
 "Copy" = "Copia";
 "Copy link to clipboard" = "Copia link negli appunti";
 "Copy to clipboard" = "Copia negli appunti";
+"Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
+"Could fetch room config form from '%@': timeout" = "Could fetch room config form from '%@': timeout";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Impossibile accedere alla fotocamera";
 "Could not access Finder item!" = "Impossibile accedere al Finder!";
 "Could not change password" = "Impossibile aggiornare la password";
 "Could not change password: your account is currently not connected" = "Impossibile aggiornare la password: l'account non è al momento connesso";
 "Could not change the password" = "Impossibile aggiornare la password";
+"Could not configure group '%@'" = "Could not configure group '%@'";
+"Could not configure group '%@': timeout" = "Could not configure group '%@': timeout";
+"Could not create group '%@': timeout" = "Could not create group '%@': timeout";
 "Could not decrypt message" = "Impossibile decifrare il messaggio";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "Impossibile recuperare (tutti) i vecchi messaggi di questa chat dall'archivio del server. Riprova più tardi. %@";
 "Could not fetch messages" = "Impossibile recuperare i messaggi";
@@ -218,6 +229,8 @@
 "Error: No contacts to display keys for!" = "Errore: nessun contatto da mostrare per le chiavi!";
 "Error: Received OMEMO message is empty" = "Errore: il messaggio ricevuto con OMEMO è vuoto";
 "Failed to block contact %@" = "Impossibile bloccare il contatto %@";
+"Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
+"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
 "Failed to copy downloaded file into cache directory" = "Impossibile copiare il file scaricato nella cartella della cache";
 "Failed to create invitation for %@" = "Impossibile creare un invito per %@";
 "Failed to create invitation, unknown error: %@" = "Impossibile creare l'invito, errore sconosciuto: %@";
@@ -231,6 +244,7 @@
 "Failed to encrypt file" = "Impossibile cifrare il file";
 "Failed to enter Group/Channel %@" = "Impossibile entrare nel gruppo o canale %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Impossibile entrare nel gruppo o canale %@: Questo non è né un gruppo né un canale!";
+"Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "Impossibile caricare la lista dei contatti bloccati";
 "Failed to parse URL returned by HTTP upload server" = "Impossibile analizzare l'URL restituito dal server di caricamento HTTP";
 "Failed to publish avatar image for group/channel %@" = "Impossibile pubblicare l'immagine dell'avatar per il gruppo o canale %@";
@@ -252,6 +266,7 @@
 "Files" = "Files";
 "General" = "Generale";
 "General File Transfer Settings" = "Impostazioni generali per il trasferimento";
+"Got empty room config form for '%@'" = "Got empty room config form for '%@'";
 "GPS" = "GPS";
 "Green checkmark shield:" = "Spunta verde:";
 "Group Members" = "Membri del gruppo";
@@ -586,6 +601,7 @@
 /* Crash report error dialog */
 "This device is not configured to send email." = "Questo dispositivo non è configurato per inviare E-mail.";
 "This invitation will expire on %@" = "Questo invito scadrà il %@";
+"This is the software running on your server." = "This is the software running on your server.";
 "This key belongs to this device and cannot be removed or disabled!" = "Questa chiave appartiene a questo dispositivo e non può essere rimossa o disabilitata!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Questa chiave è fidata e verificata comparando manualmente le impronte. Per smettere di fidarti, usa il pulsante.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "Questa chiave è fidata, ma il contatto non la usa più. Considera di interrompere la fiducia della chiave.";
@@ -652,6 +668,8 @@
 "Username missing" = "Nome utente mancante";
 "Uses TLS client certificates for authentication" = "Utilizza certificato TLS per l'autenticazione";
 "Version" = "Versione";
+/* server details */
+"version %@%@" = "version %1$@%2$@";
 "Very old app version" = "Versione dell'applicazione molto vecchia";
 "Waiting for GPS signal" = "In attesa del segnale GPS";
 /* QR-Code-Scanner: invalid format */

@@ -1,6 +1,12 @@
+/* server details */
+" running on %@" = " running on %@";
 "%02d:%02d (long press to abort)" = "%02d:%02d (тривале натискання для відміни)";
 "%@" = "%@";
 "%@ says:" = "%@ каже:";
+/* server details */
+"<unknown server>" = "<unknown server>";
+/* server details */
+"<unknown version>" = "<unknown version>";
 "A contact was scanned through the QR code scanner" = "Контакт було відскановано за допомогою сканера QR-коду";
 "Abort" = "Скасувати";
 "Aborted recording audio" = "Перервано запис аудіо";
@@ -111,12 +117,17 @@
 "Copy" = "Копіювати";
 "Copy link to clipboard" = "Скопіювати посилання в буфер обміну";
 "Copy to clipboard" = "Скопіювати в буфер обміну";
+"Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
+"Could fetch room config form from '%@': timeout" = "Could fetch room config form from '%@': timeout";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Не вдалося отримати доступ до камери";
 "Could not access Finder item!" = "Не вдалося отримати доступ до елемента Finder!";
 "Could not change password" = "Не вдалося змінити пароль";
 "Could not change password: your account is currently not connected" = "Не вдалося змінити пароль: ваш обліковий запис наразі не підключено";
 "Could not change the password" = "Не вдалося змінити пароль";
+"Could not configure group '%@'" = "Could not configure group '%@'";
+"Could not configure group '%@': timeout" = "Could not configure group '%@': timeout";
+"Could not create group '%@': timeout" = "Could not create group '%@': timeout";
 "Could not decrypt message" = "Не вдалося розшифрувати повідомлення";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "Не вдалося отримати (всі) старі повідомлення для цього чату з архіву вашого сервера. Будь ласка, спробуйте пізніше. %@";
 "Could not fetch messages" = "Не вдалося отримати повідомлення";
@@ -218,6 +229,8 @@
 "Error: No contacts to display keys for!" = "Помилка: Немає контактів для відображення ключів!";
 "Error: Received OMEMO message is empty" = "Помилка: Отримане повідомлення OMEMO є порожнім";
 "Failed to block contact %@" = "Не вдалося заблокувати контакт %@";
+"Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
+"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
 "Failed to copy downloaded file into cache directory" = "Не вдалося скопіювати завантажений файл у каталог кешу";
 "Failed to create invitation for %@" = "Не вдалося створити запрошення для %@";
 "Failed to create invitation, unknown error: %@" = "Не вдалося створити запрошення, невідома помилка: %@";
@@ -231,6 +244,7 @@
 "Failed to encrypt file" = "Не вдалося зашифрувати файл";
 "Failed to enter Group/Channel %@" = "Не вдалося увійти в групу/канал %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Не вдалося увійти до групи/каналу %@: Це не група/канал!";
+"Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "Не вдалося завантажити список блокування";
 "Failed to parse URL returned by HTTP upload server" = "Не вдалося розібрати URL-адресу, повернену сервером завантаження HTTP";
 "Failed to publish avatar image for group/channel %@" = "Не вдалося опублікувати зображення аватара для групи/каналу %@";
@@ -252,6 +266,7 @@
 "Files" = "Файли";
 "General" = "Головне";
 "General File Transfer Settings" = "Загальні налаштування передачі файлів";
+"Got empty room config form for '%@'" = "Got empty room config form for '%@'";
 "GPS" = "GPS";
 "Green checkmark shield:" = "Зелений щит з галочкою:";
 "Group Members" = "Члени групи";
@@ -586,6 +601,7 @@
 /* Crash report error dialog */
 "This device is not configured to send email." = "Цей пристрій не налаштовано на надсилання електронної пошти.";
 "This invitation will expire on %@" = "Термін дії цього запрошення закінчується %@";
+"This is the software running on your server." = "This is the software running on your server.";
 "This key belongs to this device and cannot be removed or disabled!" = "Цей ключ належить цьому пристрою і не може бути вилучений або вимкнений!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Цей ключ є надійним і перевіряється шляхом ручного порівняння відбитків пальців. Щоб припинити довіряти цьому ключу, скористайтеся перемикачем.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "Цьому ключу довіряють, але контакт більше не використовує його. Подумайте над тим, щоб вимкнути довіру для цього ключа.";
@@ -652,6 +668,8 @@
 "Username missing" = "Імʼя користувача відсутнє";
 "Uses TLS client certificates for authentication" = "Використовує клієнтські сертифікати TLS для автентифікації";
 "Version" = "Версія";
+/* server details */
+"version %@%@" = "version %1$@%2$@";
 "Very old app version" = "Дуже стара версія застосунку";
 "Waiting for GPS signal" = "Очікування сигналу GPS";
 /* QR-Code-Scanner: invalid format */

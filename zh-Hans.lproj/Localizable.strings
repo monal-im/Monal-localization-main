@@ -1,6 +1,12 @@
+/* server details */
+" running on %@" = " running on %@";
 "%02d:%02d (long press to abort)" = "%02d:%02d（长按中止）";
 "%@" = "%@";
 "%@ says:" = "%@ 说：";
+/* server details */
+"<unknown server>" = "<unknown server>";
+/* server details */
+"<unknown version>" = "<unknown version>";
 "A contact was scanned through the QR code scanner" = "通过二维码扫描了联系人";
 "Abort" = "中止";
 "Aborted recording audio" = "中止录制音频";
@@ -111,12 +117,17 @@
 "Copy" = "复制";
 "Copy link to clipboard" = "将链接复制到剪贴板";
 "Copy to clipboard" = "复制到剪贴板";
+"Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
+"Could fetch room config form from '%@': timeout" = "Could fetch room config form from '%@': timeout";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "无法连接到摄像头";
 "Could not access Finder item!" = "无法访问 Finder 项目！";
 "Could not change password" = "无法更改密码";
 "Could not change password: your account is currently not connected" = "无法更改密码：您的账号当前未连接";
 "Could not change the password" = "无法修改密码";
+"Could not configure group '%@'" = "Could not configure group '%@'";
+"Could not configure group '%@': timeout" = "Could not configure group '%@': timeout";
+"Could not create group '%@': timeout" = "Could not create group '%@': timeout";
 "Could not decrypt message" = "无法解密消息";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "无法从您所在服务器的存档中获取此聊天的（所有）旧消息。请稍后再试。 %@";
 "Could not fetch messages" = "无法获取消息";
@@ -218,6 +229,8 @@
 "Error: No contacts to display keys for!" = "错误：没有可显示密钥的联系人！";
 "Error: Received OMEMO message is empty" = "错误：收到的 OMEMO 消息为空";
 "Failed to block contact %@" = "无法屏蔽联系人 %@";
+"Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
+"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
 "Failed to copy downloaded file into cache directory" = "未能将下载的文件复制到缓存目录";
 "Failed to create invitation for %@" = "无法为 %@ 创建邀请";
 "Failed to create invitation, unknown error: %@" = "创建邀请失败，未知错误：%@";
@@ -231,6 +244,7 @@
 "Failed to encrypt file" = "加密文件失败";
 "Failed to enter Group/Channel %@" = "无法进入群组/频道 %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "无法进入群组/频道 %@：这不是一个群组/频道！";
+"Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "加载屏蔽列表失败";
 "Failed to parse URL returned by HTTP upload server" = "无法解析由 HTTP 上传服务器返回的 URL";
 "Failed to publish avatar image for group/channel %@" = "发布群组/频道 %@ 的头像失败";
@@ -252,6 +266,7 @@
 "Files" = "文件";
 "General" = "通用";
 "General File Transfer Settings" = "一般文件传输设置";
+"Got empty room config form for '%@'" = "Got empty room config form for '%@'";
 "GPS" = "GPS";
 "Green checkmark shield:" = "绿色复选标记盾牌：";
 "Group Members" = "群组成员";
@@ -586,6 +601,7 @@
 /* Crash report error dialog */
 "This device is not configured to send email." = "该设备未配置为发送电子邮件。";
 "This invitation will expire on %@" = "此邀请将于 %@ 到期";
+"This is the software running on your server." = "This is the software running on your server.";
 "This key belongs to this device and cannot be removed or disabled!" = "该密钥属于该设备，无法删除或禁用！";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "该密钥是可信的，并通过手动比较指纹进行验证。要停止信任此密钥，请使用切换元素。";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "此密钥受信任，但联系人不再使用它。考虑禁用对此密钥的信任。";
@@ -652,6 +668,8 @@
 "Username missing" = "缺少用户名";
 "Uses TLS client certificates for authentication" = "使用 TLS 客户端证书进行认证";
 "Version" = "版本";
+/* server details */
+"version %@%@" = "version %1$@%2$@";
 "Very old app version" = "APP 版本太旧了";
 "Waiting for GPS signal" = "等待 GPS 讯号";
 /* QR-Code-Scanner: invalid format */

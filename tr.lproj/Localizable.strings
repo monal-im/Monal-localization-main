@@ -1,6 +1,12 @@
+/* server details */
+" running on %@" = " running on %@";
 "%02d:%02d (long press to abort)" = "%02d:%02d (iptal etmek için uzun basın)";
 "%@" = "%@";
 "%@ says:" = "%@ diyor ki:";
+/* server details */
+"<unknown server>" = "<unknown server>";
+/* server details */
+"<unknown version>" = "<unknown version>";
 "A contact was scanned through the QR code scanner" = "QR kod tarayıcısı aracılığıyla bir kişi tarandı";
 "Abort" = "İptal";
 "Aborted recording audio" = "İptal edilen ses kaydı";
@@ -111,12 +117,17 @@
 "Copy" = "Kopyala";
 "Copy link to clipboard" = "Bağlantıyı panoya kopyala";
 "Copy to clipboard" = "Panoya kopyala";
+"Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
+"Could fetch room config form from '%@': timeout" = "Could fetch room config form from '%@': timeout";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "kameraya erişilemedi";
 "Could not access Finder item!" = "Finder öğesine erişilemiyor!";
 "Could not change password" = "Parola değiştirilemedi";
 "Could not change password: your account is currently not connected" = "Şifre değiştirilemedi: hesabınız şu anda bağlı değil";
 "Could not change the password" = "Parola değiştirilemedi";
+"Could not configure group '%@'" = "Could not configure group '%@'";
+"Could not configure group '%@': timeout" = "Could not configure group '%@': timeout";
+"Could not create group '%@': timeout" = "Could not create group '%@': timeout";
 "Could not decrypt message" = "Mesajın şifresi çözülemedi";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "Sunucu arşivinizden bu sohbet için (tümü) eski mesajlar getirilemedi. Lütfen daha sonra tekrar deneyiniz. %@";
 "Could not fetch messages" = "Mesajlar getirilemedi";
@@ -218,6 +229,8 @@
 "Error: No contacts to display keys for!" = "Hata: Anahtarları görüntülenecek kişi yok!";
 "Error: Received OMEMO message is empty" = "Hata: Alınan OMEMO iletisi boş";
 "Failed to block contact %@" = "%@ kişisi engellenemedi";
+"Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
+"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
 "Failed to copy downloaded file into cache directory" = "İndirilen dosya önbellek dizinine kopyalanamadı";
 "Failed to create invitation for %@" = "%@ için davetiye oluşturulamadı";
 "Failed to create invitation, unknown error: %@" = "Davetiye oluşturulamadı, bilinmeyen hata: %@";
@@ -231,6 +244,7 @@
 "Failed to encrypt file" = "Dosya şifrelenemedi";
 "Failed to enter Group/Channel %@" = "Grup/Kanal'ına girilemedi %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Grup/Kanal'a girilemedi %@: Bu bir Grup/Kanal değildir!";
+"Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "Engellenenler listesi yüklenemedi";
 "Failed to parse URL returned by HTTP upload server" = "HTTP karşıya yükleme sunucusu tarafından döndürülen URL ayrıştırılamadı";
 "Failed to publish avatar image for group/channel %@" = "%@ grubu/kanal'ı için avatar resmi yayınlanamadı";
@@ -252,6 +266,7 @@
 "Files" = "Dosyalar";
 "General" = "Genel";
 "General File Transfer Settings" = "Genel Dosya Aktarım Ayarları";
+"Got empty room config form for '%@'" = "Got empty room config form for '%@'";
 "GPS" = "Küresel Konumlama Sistemi";
 "Green checkmark shield:" = "Yeşil onay işareti kalkanı:";
 "Group Members" = "Grup Üyeleri";
@@ -586,6 +601,7 @@
 /* Crash report error dialog */
 "This device is not configured to send email." = "Bu cihaz e-posta göndermek için yapılandırılmamıştır.";
 "This invitation will expire on %@" = "Bu davet %@ de sona erecektir";
+"This is the software running on your server." = "This is the software running on your server.";
 "This key belongs to this device and cannot be removed or disabled!" = "Bu anahtar bu cihaza aittir ve kaldırılamaz veya devre dışı bırakılamaz!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Bu anahtara güvenilir ve parmak izleri manuel olarak karşılaştırılarak doğrulanır. Bu anahtara güvenmeyi durdurmak için geçiş yardımcısını kullanın.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "Bu anahtara güveniliyor, ancak kişi artık bu anahtarı kullanmıyor. Bu anahtar için güveni devre dışı bırakmayı düşünün.";
@@ -652,6 +668,8 @@
 "Username missing" = "Kullanıcı adı eksik";
 "Uses TLS client certificates for authentication" = "Kimlik doğrulaması için TLS istemci sertifikalarını kullanır";
 "Version" = "Sürüm";
+/* server details */
+"version %@%@" = "version %1$@%2$@";
 "Very old app version" = "Uygulamanın çok eski bir sürümü";
 "Waiting for GPS signal" = "GPS sinyali bekleniyor";
 /* QR-Code-Scanner: invalid format */

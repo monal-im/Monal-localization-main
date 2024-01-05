@@ -1,6 +1,12 @@
+/* server details */
+" running on %@" = " running on %@";
 "%02d:%02d (long press to abort)" = "%02d:%02d (sakatu eta eutsi alboratzeko)";
 "%@" = "%@";
 "%@ says:" = "%@(e)k dio:";
+/* server details */
+"<unknown server>" = "<unknown server>";
+/* server details */
+"<unknown version>" = "<unknown version>";
 "A contact was scanned through the QR code scanner" = "Kontaktu bat eskaneatu da QR kode-eskaneatzailearen bidez";
 "Abort" = "Alboratu";
 "Aborted recording audio" = "Audio grabaketa alboratu da";
@@ -111,12 +117,17 @@
 "Copy" = "Kopiatu";
 "Copy link to clipboard" = "Kopiatu esteka arbelera";
 "Copy to clipboard" = "Kopiatu arbelera";
+"Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
+"Could fetch room config form from '%@': timeout" = "Could fetch room config form from '%@': timeout";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Ezin izan da kamera atzitu";
 "Could not access Finder item!" = "Ezin izan da Finderreko elementua atzitu!";
 "Could not change password" = "Ezin izan da pasahitza aldatu";
 "Could not change password: your account is currently not connected" = "Ezin izan da pasahitza aldatu: unean zure kontua ez dago konektatuta";
 "Could not change the password" = "Ezin izan da pasahitza aldatu";
+"Could not configure group '%@'" = "Could not configure group '%@'";
+"Could not configure group '%@': timeout" = "Could not configure group '%@': timeout";
+"Could not create group '%@': timeout" = "Could not create group '%@': timeout";
 "Could not decrypt message" = "Ezin izan da mezua dezifratu";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "Ezin izan dira elkarrizketa honetako mezu zaharrak (guztiak) zerbitzariaren artxibotik eskuratu. Saiatu berriro geroago. %@";
 "Could not fetch messages" = "Ezin izan dira mezuak ekarri";
@@ -218,6 +229,8 @@
 "Error: No contacts to display keys for!" = "Errorea: Ez dago gakoak ikusteko kontakturik!";
 "Error: Received OMEMO message is empty" = "Errorea: jasotako OMEMO mezua hutsik dago";
 "Failed to block contact %@" = "Ezin izan da %@ blokeatu";
+"Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
+"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
 "Failed to copy downloaded file into cache directory" = "Ezin izan da deskargatutako fitxategia katxearen direktorioan gorde";
 "Failed to create invitation for %@" = "Ezin izan da %@(r)entzat gonbidapena sortu";
 "Failed to create invitation, unknown error: %@" = "Ezin izan da gonbidapena sortu, errore ezezaguna: %@";
@@ -231,6 +244,7 @@
 "Failed to encrypt file" = "Ezin izan da fitxategia zifratu";
 "Failed to enter Group/Channel %@" = "%@ taldearekin / kanalarekin bat egiteak kale egin du";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "%@ taldearekin / kanalarekin bat egiteak kale egin du: ez da talde / kanal bat!";
+"Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "Ezin izan da blokeatutakoen zerrenda kargatu";
 "Failed to parse URL returned by HTTP upload server" = "Ezin izan da HTTP igoera zerbitzariak itzuli duen URLa aztertu";
 "Failed to publish avatar image for group/channel %@" = "%@ taldeko / kanaleko abatarren publikazioak kale egin du";
@@ -252,6 +266,7 @@
 "Files" = "Fitxategiak";
 "General" = "Orokorra";
 "General File Transfer Settings" = "Fitxategiak partekatzeko ezarpen orokorrak";
+"Got empty room config form for '%@'" = "Got empty room config form for '%@'";
 "GPS" = "GPSa";
 "Green checkmark shield:" = "Ezkutu berdea:";
 "Group Members" = "Taldeko kideak";
@@ -586,6 +601,7 @@
 /* Crash report error dialog */
 "This device is not configured to send email." = "Gailu hau ez dago ezarrita ePosta bidali ahal izateko.";
 "This invitation will expire on %@" = "Gonbidapenaren iraungitzea: %@";
+"This is the software running on your server." = "This is the software running on your server.";
 "This key belongs to this device and cannot be removed or disabled!" = "Gailu honen gakoa da hau eta ezin da kendu edo ezgaitu!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Gako honetaz fio da eta hatzmarkak eskuz alderatuz egiaztatu da. Gakoaz fidatzeari uzteko, erabili botoi-etengailua.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "Gako honetaz fio da baina kontaktuak jadanik ez du erabiltzen. Gakoa baztertu beharko zenuke.";
@@ -652,6 +668,8 @@
 "Username missing" = "Erabiltzaile izena falta da";
 "Uses TLS client certificates for authentication" = "Bezeroen TLS ziurtagiriak erabiltzen ditu autentikatzeko";
 "Version" = "Bertsioa";
+/* server details */
+"version %@%@" = "version %1$@%2$@";
 "Very old app version" = "Aplikazio oso zahar baten bertsioa";
 "Waiting for GPS signal" = "GPSaren seinalearen zain";
 /* QR-Code-Scanner: invalid format */

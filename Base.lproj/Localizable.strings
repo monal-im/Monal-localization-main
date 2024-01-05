@@ -4,8 +4,14 @@
 "Unclean appex shutown" = "Unclean appex shutown";
 "Unexpected appex expiration" = "Unexpected appex expiration";
 "Very old app version" = "Very old app version";
+/* server details */
+" running on %@" = " running on %@";
 "%02d:%02d (long press to abort)" = "%02d:%02d (long press to abort)";
 "%@" = "%@";
+/* server details */
+"<unknown server>" = "<unknown server>";
+/* server details */
+"<unknown version>" = "<unknown version>";
 "A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
 "Abort" = "Abort";
 "About" = "About";
@@ -468,6 +474,7 @@
 /* Crash report error dialog */
 "This device is not configured to send email." = "This device is not configured to send email.";
 "This invitation will expire on %@" = "This invitation will expire on %@";
+"This is the software running on your server." = "This is the software running on your server.";
 "This key belongs to this device and cannot be removed or disabled!" = "This key belongs to this device and cannot be removed or disabled!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key.";
@@ -575,6 +582,8 @@
 "user@domain.tld" = "user@domain.tld";
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "user@example.org/resource";
+/* server details */
+"version %@%@" = "version %@%@";
 "🎥 A Video" = "🎥 A Video";
 "🎵 An Audiomessage" = "🎵 An Audiomessage";
 "📁 A File" = "📁 A File";
@@ -591,9 +600,14 @@
 "Audio recoder record fail." = "Audio recoder record fail.";
 "Audio Recoder set active error: %@" = "Audio Recoder set active error: %@";
 "Audio Recoder set category error: %@" = "Audio Recoder set category error: %@";
+"Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
+"Could fetch room config form from '%@': timeout" = "Could fetch room config form from '%@': timeout";
 "Could not access Finder item!" = "Could not access Finder item!";
 "Could not change password" = "Could not change password";
 "Could not change password: your account is currently not connected" = "Could not change password: your account is currently not connected";
+"Could not configure group '%@'" = "Could not configure group '%@'";
+"Could not configure group '%@': timeout" = "Could not configure group '%@': timeout";
+"Could not create group '%@': timeout" = "Could not create group '%@': timeout";
 "Could not decrypt message" = "Could not decrypt message";
 "Could not join group/channel '%@': timeout" = "Could not join group/channel '%@': timeout";
 "Could not synchronize" = "Could not synchronize";
@@ -613,6 +627,8 @@
 "Error while decrypting: iv.length != 12" = "Error while decrypting: iv.length != 12";
 "Error: Received OMEMO message is empty" = "Error: Received OMEMO message is empty";
 "Failed to block contact %@" = "Failed to block contact %@";
+"Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
+"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
 "Failed to copy downloaded file into cache directory" = "Failed to copy downloaded file into cache directory";
 "Failed to create invitation, unknown error: %@" = "Failed to create invitation, unknown error: %@";
 "Failed to decode download link" = "Failed to decode download link";
@@ -625,6 +641,7 @@
 "Failed to encrypt file" = "Failed to encrypt file";
 "Failed to enter Group/Channel %@" = "Failed to enter Group/Channel %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Failed to enter Group/Channel %@: This is not a Group/Channel!";
+"Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "Failed to load blocklist";
 "Failed to parse URL returned by HTTP upload server" = "Failed to parse URL returned by HTTP upload server";
 "Failed to publish avatar image for group/channel %@" = "Failed to publish avatar image for group/channel %@";
@@ -640,6 +657,7 @@
 "Failed to upload file: account was removed" = "Failed to upload file: account was removed";
 "Failed to uploaded file to file cache directory" = "Failed to uploaded file to file cache directory";
 "Failed to write decrypted download into cache directory" = "Failed to write decrypted download into cache directory";
+"Got empty room config form for '%@'" = "Got empty room config form for '%@'";
 "Group/Channel error in %@" = "Group/Channel error in %@";
 "Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
 "Group/Channel not available anymore: %@" = "Group/Channel not available anymore: %@";

@@ -1,6 +1,12 @@
+/* server details */
+" running on %@" = " running on %@";
 "%02d:%02d (long press to abort)" = "%02d:%02d (long press to abort)";
 "%@" = "%@";
 "%@ says:" = "%@ says:";
+/* server details */
+"<unknown server>" = "<unknown server>";
+/* server details */
+"<unknown version>" = "<unknown version>";
 "A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
 "Abort" = "Abort";
 "Aborted recording audio" = "Aborted recording audio";
@@ -111,12 +117,17 @@
 "Copy" = "Copy";
 "Copy link to clipboard" = "Copy link to clipboard";
 "Copy to clipboard" = "Copy to clipboard";
+"Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
+"Could fetch room config form from '%@': timeout" = "Could fetch room config form from '%@': timeout";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Could not access camera";
 "Could not access Finder item!" = "Could not access Finder item!";
 "Could not change password" = "Could not change password";
 "Could not change password: your account is currently not connected" = "Could not change password: your account is currently not connected";
 "Could not change the password" = "கடவுச்சொல்லை மாற்ற முடியவில்லை";
+"Could not configure group '%@'" = "Could not configure group '%@'";
+"Could not configure group '%@': timeout" = "Could not configure group '%@': timeout";
+"Could not create group '%@': timeout" = "Could not create group '%@': timeout";
 "Could not decrypt message" = "செய்தியை மறைகுறியாக்க முடியவில்லை";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@";
 "Could not fetch messages" = "Could not fetch messages";
@@ -218,6 +229,8 @@
 "Error: No contacts to display keys for!" = "Error: No contacts to display keys for!";
 "Error: Received OMEMO message is empty" = "Error: Received OMEMO message is empty";
 "Failed to block contact %@" = "Failed to block contact %@";
+"Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
+"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
 "Failed to copy downloaded file into cache directory" = "Failed to copy downloaded file into cache directory";
 "Failed to create invitation for %@" = "Failed to create invitation for %@";
 "Failed to create invitation, unknown error: %@" = "Failed to create invitation, unknown error: %@";
@@ -231,6 +244,7 @@
 "Failed to encrypt file" = "Failed to encrypt file";
 "Failed to enter Group/Channel %@" = "Failed to enter Group/Channel %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Failed to enter Group/Channel %@: This is not a Group/Channel!";
+"Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "Failed to load blocklist";
 "Failed to parse URL returned by HTTP upload server" = "Failed to parse URL returned by HTTP upload server";
 "Failed to publish avatar image for group/channel %@" = "Failed to publish avatar image for group/channel %@";
@@ -252,6 +266,7 @@
 "Files" = "Files";
 "General" = "பொதுவானது";
 "General File Transfer Settings" = "General File Transfer Settings";
+"Got empty room config form for '%@'" = "Got empty room config form for '%@'";
 "GPS" = "GPS";
 "Green checkmark shield:" = "Green checkmark shield:";
 "Group Members" = "Group Members";
@@ -586,6 +601,7 @@
 /* Crash report error dialog */
 "This device is not configured to send email." = "This device is not configured to send email.";
 "This invitation will expire on %@" = "This invitation will expire on %@";
+"This is the software running on your server." = "This is the software running on your server.";
 "This key belongs to this device and cannot be removed or disabled!" = "This key belongs to this device and cannot be removed or disabled!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key.";
@@ -652,6 +668,8 @@
 "Username missing" = "Username missing";
 "Uses TLS client certificates for authentication" = "Uses TLS client certificates for authentication";
 "Version" = "Version";
+/* server details */
+"version %@%@" = "version %1$@%2$@";
 "Very old app version" = "Very old app version";
 "Waiting for GPS signal" = "Waiting for GPS signal";
 /* QR-Code-Scanner: invalid format */
