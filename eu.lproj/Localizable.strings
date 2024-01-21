@@ -76,6 +76,7 @@
 "Call ended: hung up" = "Deia amaitu da: eseki dute";
 "Call ended: remote busy" = "Deia amaitu da: hartzailea ez dago eskuragai";
 "Call security help" = "Deien segurtasunari buruzko laguntza";
+"Call Type" = "Call Type";
 "Call was not answered" = "Ez diote deiari erantzun";
 "Calls: Allow P2P sessions" = "Deiak: Baimendu P2P saioak";
 "Calls: Allow TURN fallback to Monal-Servers" = "Deiak: baimendu Monal zerbitzariak TURN erabilgai ez dagoenean";
@@ -680,6 +681,7 @@
 "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Ezin izan dugu zure kontua konektatu. Egiaztatu sartutako datuak eta baieztatu internetera konektatuta zaudela. \n \nErrorearen mezu teknikoa: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Kanal-lotura mota ahulena, ez du ostutako ziurtagiri edo gakoetatik babesten, baina oker jaulkitako ziurtagiriak antzematen ditu.";
 "Welcome" = "Ongi etorri";
+"What call do you want to place?" = "What call do you want to place?";
 "When you start talking to someone,\n they will show up here." = "Norbaitekin hizketan hasiko zarenean, \n hemen agertuko dira.";
 "Will logout and reconnect any connected accounts." = "Saioa amaitu eta berriro konektatuko ditu konektatutako kontuak.";
 /* QR-Code-Scanner: account scan wrong menu
@@ -719,7 +721,6 @@
 "Yes, deactivate encryption" = "Bai, ezgaitu zifraketa";
 "You are set up and connected." = "Dena prest eta konektatuta.";
 "You are set up and connected. People can message you at: %@@%@" = "Kontua konfiguratuta eta konektatuta. Jendeak honako helbidera idatz diezazuke: %@@%@";
-"You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "'%@' JIDari dei egiten saiatzen ari zara baina kontu desberdinak erabiliz egin dezakezu. Hautatu zein konturekin egin nahi duzun deia.";
 "You did not grant Monal to access your location." = "Ez diozu Monali kokapena atzitzeko baimenik eman.";
 "You got banned from: %@" = "Debekua ezarri dizute: %@";
 "You got kicked from: %@" = "Kaleratu zaituzte: %@";
@@ -742,9 +743,14 @@
 "Your status" = "Zure egoera";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "XMPP JIDak honako formatua izan behar du: erabiltzailea@domeinua.eus. Ezarpen berezietarako eskuz konfiguratu.";
 "🎥 A Video" = "🎥 Bideoa";
+"🎥 Video" = "🎥 Video";
 "🎵 An Audiomessage" = "🎵 Audio mezua";
+"🎵 Audio" = "🎵 Audio";
 "📁 A File" = "📁 Fitxategia";
 "📄 A Document" = "📄 Dokumentua";
 "📍 A Location" = "📍 Kokapena";
 "📷 An Image" = "📷 Irudia";
 "🔗 A Link" = "🔗 Esteka";
+"Caps hash: %@" = "Caps hash: %@";
+"filename" = "filename";
+"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";

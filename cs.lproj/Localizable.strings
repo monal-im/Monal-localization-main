@@ -76,6 +76,7 @@
 "Call ended: hung up" = "Call ended: hung up";
 "Call ended: remote busy" = "Call ended: remote busy";
 "Call security help" = "Call security help";
+"Call Type" = "Call Type";
 "Call was not answered" = "Call was not answered";
 "Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
 "Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
@@ -680,6 +681,7 @@
 "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Nebylo možné se připojit k Vašemu účtu. Zkontrolujte, prosím, přihlašovací údaje a ujistěte se, že jste připojeni k Internetu.\n\nChybová zpráva: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs.";
 "Welcome" = "Welcome";
+"What call do you want to place?" = "What call do you want to place?";
 "When you start talking to someone,\n they will show up here." = "Jakmile začnete s někým mluvit,\n objeví se zde.";
 "Will logout and reconnect any connected accounts." = "Odhlásí se a znovu připojí všechny účty.";
 /* QR-Code-Scanner: account scan wrong menu
@@ -719,7 +721,6 @@
 "Yes, deactivate encryption" = "Yes, deactivate encryption";
 "You are set up and connected." = "Monal je nastaven a připojen.";
 "You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
-"You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
 "You did not grant Monal to access your location." = "Neposkytli jste Monalu přístup k Vaší poloze.";
 "You got banned from: %@" = "Dostali jste zákaz od: %@";
 "You got kicked from: %@" = "Byli jste vyloučeni od: %@";
@@ -742,9 +743,14 @@
 "Your status" = "Váš status";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup.";
 "🎥 A Video" = "🎥 Video";
+"🎥 Video" = "🎥 Video";
 "🎵 An Audiomessage" = "🎵 An Audiomessage";
+"🎵 Audio" = "🎵 Audio";
 "📁 A File" = "📁 Soubor";
 "📄 A Document" = "📄 Dokument";
 "📍 A Location" = "📍 Poloha";
 "📷 An Image" = "📷 Obrázek";
 "🔗 A Link" = "🔗 Odkaz";
+"Caps hash: %@" = "Caps hash: %@";
+"filename" = "filename";
+"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";

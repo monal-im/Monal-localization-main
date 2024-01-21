@@ -76,6 +76,7 @@
 "Call ended: hung up" = "Call ended: hung up";
 "Call ended: remote busy" = "Call ended: remote busy";
 "Call security help" = "Call security help";
+"Call Type" = "Call Type";
 "Call was not answered" = "Call was not answered";
 "Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
 "Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
@@ -680,6 +681,7 @@
 "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We waren niet in staat om je account te verbinden. Alsjeblieft check je gegevens en zorg dat je verbonden bent met het internet.\n\nTechnische error bericht: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Zwakste kanaalbindingstype, geen beveiliging tegen gestolen certificaten/sleutels, maar detecteert verkeerd uitgegeven certificaten.";
 "Welcome" = "Welcome";
+"What call do you want to place?" = "What call do you want to place?";
 "When you start talking to someone,\n they will show up here." = "Wanneer je een gesprek start met iemand,\n zal deze hier verschijnen.";
 "Will logout and reconnect any connected accounts." = "Meld je af en verbindt opnieuw met eventuele verbonden accounts.";
 /* QR-Code-Scanner: account scan wrong menu
@@ -719,7 +721,6 @@
 "Yes, deactivate encryption" = "Yes, deactivate encryption";
 "You are set up and connected." = "Je bent verbonden en klaar om te beginnen.";
 "You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
-"You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
 "You did not grant Monal to access your location." = "Je gaf Monal geen toelating om je locatie op te vragen.";
 "You got banned from: %@" = "Je werd verbannen uit: %@";
 "You got kicked from: %@" = "Je werd uit %@ geschopt";
@@ -742,9 +743,14 @@
 "Your status" = "Jouw status";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup.";
 "🎥 A Video" = "🎥 Een video";
+"🎥 Video" = "🎥 Video";
 "🎵 An Audiomessage" = "🎵 An Audiomessage";
+"🎵 Audio" = "🎵 Audio";
 "📁 A File" = "📁 Een bestand";
 "📄 A Document" = "📄 Een document";
 "📍 A Location" = "📍 Een locatie";
 "📷 An Image" = "📷 Een afbeelding";
 "🔗 A Link" = "🔗 Een link";
+"Caps hash: %@" = "Caps hash: %@";
+"filename" = "filename";
+"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";

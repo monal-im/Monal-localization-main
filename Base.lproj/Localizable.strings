@@ -61,6 +61,7 @@
 "Blocked Users" = "Blocked Users";
 "Blocking is not supported by the server" = "Blocking is not supported by the server";
 "Blocking/Unblocking Not Supported" = "Blocking/Unblocking Not Supported";
+"Call Type" = "Call Type";
 "Call ended" = "Call ended";
 "Call ended for an unknown reason" = "Call ended for an unknown reason";
 "Call ended, duration: %@" = "Call ended, duration: %@";
@@ -83,6 +84,7 @@
 "Can't convert the image to jpeg format." = "Can't convert the image to jpeg format.";
 "Cancel" = "Cancel";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@";
+"Caps hash: %@" = "Caps hash: %@";
 /* placeholder when creating account */
 "Captcha" = "Captcha";
 "Change Chat Background" = "Change Chat Background";
@@ -524,6 +526,7 @@
 "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs.";
 "Welcome" = "Welcome";
+"What call do you want to place?" = "What call do you want to place?";
 "When you start talking to someone,\n they will show up here." = "When you start talking to someone,\n they will show up here.";
 "Will logout and reconnect any connected accounts." = "Will logout and reconnect any connected accounts.";
 /* QR-Code-Scanner: account scan wrong menu */
@@ -554,7 +557,7 @@
 "Yes, deactivate encryption" = "Yes, deactivate encryption";
 "You are set up and connected." = "You are set up and connected.";
 "You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
-"You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call jid '%@', but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
+"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
 "You did not grant Monal to access your location." = "You did not grant Monal to access your location.";
 "You have not entered your XMPP ID yet" = "You have not entered your XMPP ID yet";
 "You need friends for this ride" = "You need friends for this ride";
@@ -574,6 +577,7 @@
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!";
 "Your status" = "Your status";
 "error" = "error";
+"filename" = "filename";
 "groupJoin Group" = "groupJoin Group";
 "now" = "now";
 "unknown" = "unknown";
@@ -585,7 +589,9 @@
 /* server details */
 "version %@%@" = "version %@%@";
 "🎥 A Video" = "🎥 A Video";
+"🎥 Video" = "🎥 Video";
 "🎵 An Audiomessage" = "🎵 An Audiomessage";
+"🎵 Audio" = "🎵 Audio";
 "📁 A File" = "📁 A File";
 "📄 A Document" = "📄 A Document";
 "📍 A Location" = "📍 A Location";
