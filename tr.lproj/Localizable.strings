@@ -1,12 +1,12 @@
 /* server details */
-" running on %@" = " running on %@";
+" running on %@" = " %@ üzerinde çalışıyor";
 "%02d:%02d (long press to abort)" = "%02d:%02d (iptal etmek için uzun basın)";
 "%@" = "%@";
 "%@ says:" = "%@ diyor ki:";
 /* server details */
-"<unknown server>" = "<unknown server>";
+"<unknown server>" = "<bilinmeyen sunucu>";
 /* server details */
-"<unknown version>" = "<unknown version>";
+"<unknown version>" = "<bilinmeyen sürüm>";
 "A contact was scanned through the QR code scanner" = "QR kod tarayıcısı aracılığıyla bir kişi tarandı";
 "Abort" = "İptal";
 "Aborted recording audio" = "İptal edilen ses kaydı";
@@ -76,7 +76,7 @@
 "Call ended: hung up" = "Arama sona erdi: telefonu kapattı";
 "Call ended: remote busy" = "Çağrı sonlandırıldı: karşı taraf meşgul";
 "Call security help" = "Güvenlik yardımını arayın";
-"Call Type" = "Call Type";
+"Call Type" = "Çağrı Türü";
 "Call was not answered" = "Çağrı cevaplanmadı";
 "Calls: Allow P2P sessions" = "Çağrılar: P2P oturumlarına izin ver";
 "Calls: Allow TURN fallback to Monal-Servers" = "Çağrılar: Monal-Sunucusuna TURN geri dönüşüne izin ver";
@@ -86,7 +86,7 @@
 "Can Show Notifications" = "Bildirim Gösterebilir";
 "Can't convert the image to jpeg format." = "Görüntü jpeg biçimine dönüştürülemiyor.";
 "Cancel" = "İptal Et";
-"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Devre dışı bırakılan/silinen hesapla bir şey paylaşılamıyor, hedef: %1$@, dahili hesap kimliği: %2$ @";
+"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Devre dışı bırakılan/silinen hesapla bir şey paylaşılamıyor, hedef: %@, dahili hesap kimliği: %@";
 "Caps hash: %@" = "Caps hash: %@";
 /* placeholder when creating account */
 "Captcha" = "Captcha";
@@ -111,7 +111,7 @@
 "Contact is not muted" = "Kişi sesi kapatılmamış";
 "Contact not found" = "Kişi bulunamadı";
 /* placeholder when adding jid */
-"Contact or Group/Channel Jid" = "Contact or Group/Channel Jid";
+"Contact or Group/Channel Jid" = "Kişi veya Grup/Kanal Kimliği";
 "Contacts" = "Rehber";
 "Cool Title" = "Havalı Başlık";
 "Copied to clipboard" = "Panoya kopyalandı";
@@ -119,17 +119,17 @@
 "Copy" = "Kopyala";
 "Copy link to clipboard" = "Bağlantıyı panoya kopyala";
 "Copy to clipboard" = "Panoya kopyala";
-"Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
-"Could fetch room config form from '%@': timeout" = "Could fetch room config form from '%@': timeout";
+"Could fetch room config form for '%@': timeout" = "'%@' için oda yapılandırma formu getirilemedi: zaman aşımı";
+"Could fetch room config form from '%@': timeout" = "Oda yapılandırma formu '%@'dan alınamadı: zaman aşımı";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "kameraya erişilemedi";
 "Could not access Finder item!" = "Finder öğesine erişilemiyor!";
 "Could not change password" = "Parola değiştirilemedi";
 "Could not change password: your account is currently not connected" = "Şifre değiştirilemedi: hesabınız şu anda bağlı değil";
 "Could not change the password" = "Parola değiştirilemedi";
-"Could not configure group '%@'" = "Could not configure group '%@'";
-"Could not configure group '%@': timeout" = "Could not configure group '%@': timeout";
-"Could not create group '%@': timeout" = "Could not create group '%@': timeout";
+"Could not configure group '%@'" = "'%@' grubu yapılandırılamadı";
+"Could not configure group '%@': timeout" = "'%@' grubu yapılandırılamadı: zaman aşımı";
+"Could not create group '%@': timeout" = "'%@' grubu oluşturulamadı: zaman aşımı";
 "Could not decrypt message" = "Mesajın şifresi çözülemedi";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "Sunucu arşivinizden bu sohbet için (tümü) eski mesajlar getirilemedi. Lütfen daha sonra tekrar deneyiniz. %@";
 "Could not fetch messages" = "Mesajlar getirilemedi";
@@ -160,7 +160,7 @@
 "Delete Account on Server" = "Sunucudaki hesabı sil";
 "Delete Key" = "Anahtarı Sil";
 "Deny new contact" = "Yeni kişiyi reddet";
-"Detected a new omemo device on your account: %@" = "Detected a new omemo device on your account: %@";
+"Detected a new omemo device on your account: %@" = "Hesabınızda yeni bir omemo cihazı algılandı: %@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SSDP aracılığıyla MITM saldırısı tespit edildi, kimlik doğrulama iptal edildi ve hasarı sınırlamak için hesap devre dışı bırakıldı. Tekrar temiz bir ağ ortamına girdiğinizde hesabınızı yeniden etkinleştirmelisiniz.";
 "Device ID: " = "Cihaz Kimliği: ";
 "DeviceID: " = "Cihaz Kimliği: ";
@@ -194,11 +194,11 @@
 "E-Mail not enabled on device" = "E-posta aygıtta etkinleştirilmedi";
 /* Chat msg action */
 "Edit" = "Düzenle";
-"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now.";
+"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "Ya bu bir ortadaki adam saldırısıdır YA DA sunucunuz ne XEP-0474'ü uygulamaktadır ne de tls-server-end-point kanal bağlama desteğini zorunlu kılan XEP-0440'ı tam olarak uygulamaktadır. Her iki durumda da sunucu yöneticinizi bilgilendirmelisiniz! Hesap şimdi devre dışı bırakıldı.";
 /* Crash report error dialog */
 "Email Error" = "E-posta Hatası";
 "Email Support" = "E-posta desteği";
-"Empty Values!" = "Empty Values!";
+"Empty Values!" = "Boş Değerler!";
 "Enable encryption by default for new chats" = "Yeni sohbetler için şifrelemeyi varsayılan olarak etkinleştirme";
 "Enabled" = "Etkin";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "Şifreli mesaj, Monal'ın şifresini çözemediği daha eski bir formatta gönderildi. Karşı taraftan uygulamasını güncellemesini isteyin. (GCM hatası)";
@@ -232,14 +232,14 @@
 "Error: No contacts to display keys for!" = "Hata: Anahtarları görüntülenecek kişi yok!";
 "Error: Received OMEMO message is empty" = "Hata: Alınan OMEMO iletisi boş";
 "Failed to block contact %@" = "%@ kişisi engellenemedi";
-"Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
-"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
+"Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@' içindeki '%1$@' üyeliği '%3$@' olarak değiştirilemedi";
+"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@' içindeki '%1$@' üyeliği '%3$@' olarak değiştirilemedi: zaman aşımı";
 "Failed to copy downloaded file into cache directory" = "İndirilen dosya önbellek dizinine kopyalanamadı";
 "Failed to create invitation for %@" = "%@ için davetiye oluşturulamadı";
 "Failed to create invitation, unknown error: %@" = "Davetiye oluşturulamadı, bilinmeyen hata: %@";
 "Failed to decode download link" = "İndirme bağlantısının kodu çözülemedi";
 "Failed to decode encrypted link" = "Şifreli bağlantının kodu çözülemedi";
-"Failed to decrypt download" = "Failed to decrypt download";
+"Failed to decrypt download" = "İndirme işleminin şifresi çözülemedi";
 "Failed to decrypt filetransfer" = "Dosya aktarımının şifresi çözülemedi";
 "Failed to delete own avatar" = "Mevcut avatarınız silinemedi";
 "Failed to delete own nickname" = "Mevcut takma adınız silinemedi";
@@ -248,7 +248,7 @@
 "Failed to encrypt file" = "Dosya şifrelenemedi";
 "Failed to enter Group/Channel %@" = "Grup/Kanal'ına girilemedi %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Grup/Kanal'a girilemedi %@: Bu bir Grup/Kanal değildir!";
-"Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
+"Failed to fetch room config form for '%@'" = "'%@' için oda yapılandırma formu getirilemedi";
 "Failed to load blocklist" = "Engellenenler listesi yüklenemedi";
 "Failed to parse URL returned by HTTP upload server" = "HTTP karşıya yükleme sunucusu tarafından döndürülen URL ayrıştırılamadı";
 "Failed to publish avatar image for group/channel %@" = "%@ grubu/kanal'ı için avatar resmi yayınlanamadı";
@@ -267,16 +267,16 @@
 "Failed to write decrypted download into cache directory" = "Şifresi çözülmüş indirme önbellek dizinine yazılamadı";
 "Fetching registration form..." = "Kayıt formu getiriliyor...";
 "File" = "Dosya";
-"filename" = "filename";
+"filename" = "Dosya adı";
 "Files" = "Dosyalar";
 "General" = "Genel";
 "General File Transfer Settings" = "Genel Dosya Aktarım Ayarları";
-"Got empty room config form for '%@'" = "Got empty room config form for '%@'";
+"Got empty room config form for '%@'" = "'%@' için boş oda yapılandırma formu var";
 "GPS" = "Küresel Konumlama Sistemi";
 "Green checkmark shield:" = "Yeşil onay işareti kalkanı:";
 "Group Members" = "Grup Üyeleri";
 /* placeholder when creating new group */
-"Group Name (optional)" = "Group Name (optional)";
+"Group Name (optional)" = "Grup Adı (opsiyonel)";
 "Group subject:" = "Grup konusu:";
 "Group/Channel got destroyed: %@" = "Grup/Kanal yok edildi: %@";
 "Group/Channel not available anymore: %@" = "Grup/Kanal artık mevcut değil: %@";
@@ -329,7 +329,7 @@
 "Loading Data" = "Veri yükleniyor";
 "Loading more Messages from Server" = "Sunucudan Daha Fazla İleti Yükleniyor";
 "Loading omemo bundles" = "Omemo paketleri yükleniyor";
-"Loading omemo bundles: %@ / %@" = "Omemo paketleri yükleniyor: %1$@ / %2$@";
+"Loading omemo bundles: %@ / %@" = "Omemo paketleri yükleniyor: %@ / %@";
 "Location Access Needed" = "Konum Erişimi İzni Gerekli";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Mevcut hesabınıza giriş yapın veya yeni bir hesap açın. Gerekirse Monal ayarlarında daha gelişmiş seçenekler bulacaksınız.";
 "Logging in" = "Oturum açma";
@@ -366,7 +366,7 @@
 "Never archive" = "Asla arşivleme";
 "New Account" = "Yeni Hesap";
 "New Message" = "Yeni Mesaj";
-"New omemo device" = "New omemo device";
+"New omemo device" = "Yeni omemo cihazı";
 "New Password" = "Yeni Parola";
 "Newest TLS version which is faster than TLS 1.2" = "TLS 1.2'den daha hızlı olan en yeni TLS versiyonu";
 "No" = "Hayır";
@@ -407,7 +407,7 @@
 "Only shareable for now" = "Şimdilik sadece paylaşılabilenler";
 "Open" = "Aç";
 "Open app to see more" = "Daha fazlasını görmek için uygulamayı açın";
-"Open list of pending contact requests" = "Open list of pending contact requests";
+"Open list of pending contact requests" = "Bekleyen iletişim taleplerinin açık listesi";
 "Open Source" = "Açık Kaynak";
 "Optional Hardcoded Hostname" = "İsteğe Bağlı Sabit Kodlu Ana Bilgisayar Adı";
 "Optional Port" = "İsteğe Bağlı Bağlantı Noktası";
@@ -418,7 +418,7 @@
    placeholder when migrating account */
 "Password" = "Parola";
 /* placeholder when creating account */
-"Password (repeated)" = "Password (repeated)";
+"Password (repeated)" = "Şifre (tekrar)";
 "Password cannot be empty" = "Şifre boş bırakılamaz";
 "Password missing" = "Parola eksik";
 "Passwords don't match!" = "Şifreler eşleşmiyor!";
@@ -433,18 +433,18 @@
 "Please make sure you are connected before changing your password." = "Lütfen şifrenizi değiştirmeden önce internete bağlı olduğunuzdan emin olun.";
 "Please make sure you have entered a username, password." = "Lütfen bir kullanıcı adı ve şifre girdiğinize emin olun.";
 "Please make sure you have entered a valid jid." = "Lütfen geçerli bir jid girdiğinizden emin olun.";
-"Please make sure you have entered both a username and password." = "Please make sure you have entered both a username and password.";
+"Please make sure you have entered both a username and password." = "Lütfen hem kullanıcı adı hem de şifre girdiğinizden emin olun.";
 "Please make sure you have entered the same password in both password fields." = "Lütfen her iki şifre alanına da aynı şifreyi girdiğinizden emin olun.";
 "Please provide a valid XMPP server domain or select one." = "Lütfen geçerli bir XMPP sunucu etki alanı sağlayın veya bir tane seçin.";
 "Please select a XMPP server or provide one." = "Lütfen bir XMPP sunucusu seçin veya bir tane sağlayın.";
 "Please update!" = "Lütfen güncelleyin!";
 "Port" = "Bağlantı Noktası";
-"Port: %@, Direct TLS: %@, Priority: %@" = "Bağlantı Noktası: %1$@, Doğrudan TLS: %2$@, Öncelik: %3$@";
+"Port: %@, Direct TLS: %@, Priority: %@" = "Bağlantı Noktası: %@, Doğrudan TLS: %@, Öncelik: %@";
 "Privacy" = "Gizlilik";
 "Privacy Settings" = "Gizlilik Ayarları";
 "Protocol support of your server (XEPs)" = "Sunucunuzun desteklediği protokoller (XEP'ler)";
 /* placeholder when creating account */
-"Provide XMPP-Server" = "Provide XMPP-Server";
+"Provide XMPP-Server" = "XMPP-Server sağlayın";
 "Pushserver Region" = "Pushserver Bölgesi";
 "QR code: Fingerprints found" = "QR kodu: Parmak izleri bulundu";
 "QR-Code Scanner" = "QR Kod Tarayıcı";
@@ -481,7 +481,7 @@
 "Remove Conversation" = "Konuşmayı Kaldır";
 "Remove from contacts" = "Kişilerden kaldır";
 /* placeholder text in contact details */
-"Rename Contact" = "Rename Contact";
+"Rename Contact" = "Kişiyi Yeniden Adlandır";
 "Reply" = "Cevap ver";
 "Reset OMEMO session" = "OMEMO oturumunu sıfırla";
 "Resource" = "Kaynak";
@@ -501,7 +501,7 @@
 /* mac only string */
 "Scroll down to load more messages" = "Daha fazla ileti yüklemek için aşağı kaydırın";
 /* placeholder in contact picker */
-"Search contacts" = "Search contacts";
+"Search contacts" = "Kişileri arayın";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "TLS1.3 ve bazı TLS1.2 bağlantıları için tanımlanmış güvenli channel-binding.";
 "Select a background to display behind conversations with %@" = "@ ile konuşmaların arkasında görüntülenecek bir arka plan seçin";
 "Select a default background to display behind conversations." = "Konuşmaların arkasında görüntülemek için varsayılan bir arka plan seçin.";
@@ -509,7 +509,7 @@
 "Select background image" = "Arka plan resmi seçin";
 "Select Message Archive Management (MAM) Preferences " = "Mesaj Arşiv Yönetimi (MAM) Tercihlerini Seçin ";
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Yeni mesaj bildirimleriyle çalınan sesleri seçin. Varsayılan Ksilofon'dur.";
-"Selected Group Members" = "Selected Group Members";
+"Selected Group Members" = "Seçilmiş Grup Üyeleri";
 "Send" = "Gönder";
 "Send Last Interaction Time" = "Son Etkileşim Zamanını Gönder";
 "Send Location" = "Konum Gönder";
@@ -606,7 +606,7 @@
 /* Crash report error dialog */
 "This device is not configured to send email." = "Bu cihaz e-posta göndermek için yapılandırılmamıştır.";
 "This invitation will expire on %@" = "Bu davet %@ de sona erecektir";
-"This is the software running on your server." = "This is the software running on your server.";
+"This is the software running on your server." = "Bu, sunucunuzda çalışan yazılımdır.";
 "This key belongs to this device and cannot be removed or disabled!" = "Bu anahtar bu cihaza aittir ve kaldırılamaz veya devre dışı bırakılamaz!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Bu anahtara güvenilir ve parmak izleri manuel olarak karşılaştırılarak doğrulanır. Bu anahtara güvenmeyi durdurmak için geçiş yardımcısını kullanın.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "Bu anahtara güveniliyor, ancak kişi artık bu anahtarı kullanmıyor. Bu anahtar için güveni devre dışı bırakmayı düşünün.";
@@ -614,7 +614,7 @@
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "Bu, aramanızın şifrelenmiş olduğu ve uzak tarafın OMEMO şifrelemesi kullanılarak doğrulandığı anlamına gelir.\nAncak arayan tarafın OMEMO parmak izlerini manuel olarak doğrulamadığınız için, sizin veya arayan tarafın XMPP sunucusu Man-In-The-Middle yapmak için kendi OMEMO anahtarlarını eklemiş olabilir.";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "Bu, aramanızın şifrelendiği ve uzak tarafın OMEMO şifrelemesi kullanılarak doğrulandığı anlamına gelir.\nKullanılan OMEMO anahtarlarını manuel olarak doğruladınız ve Man-In-The-Middle gerçekleşemez.";
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "Bu, aramanızın şifrelenmiş olduğu, ancak uzak tarafın OMEMO şifrelemesi kullanılarak doğrulanamadığı anlamına gelir.\nSizin veya arayanın XMPP sunucusu muhtemelen Man-In-The-Middle yapabilir.";
-"This message failed to send (%@): %@" = "Bu ileti gönderilemedi (%1$@): %2$@";
+"This message failed to send (%@): %@" = "Bu ileti gönderilemedi (%@): %@";
 "This message got retracted" = "Bu mesaj geri çekildi";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Bu sunucu HTTP dosya karşıya yüklemelerini (XEP-0363) desteklemiyor gibi görünüyor. Lütfen yöneticiden etkinleştirmesini isteyin.";
 "This server does not have any SRV records in DNS." = "Bu sunucunun DNS'de herhangi bir SRV kaydı yoktur.";
@@ -665,11 +665,11 @@
 "Uploading" = "Karşıya yükleniyor";
 "Uploading file to server" = "Dosya sunucuya yükleniyor";
 /* placeholder when adding account */
-"user@domain.tld" = "user@domain.tld";
+"user@domain.tld" = "kullanıcı@domain.tld";
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "kullanıcı@ornek.org/kaynaklar";
 /* placeholder when creating account */
-"Username" = "Username";
+"Username" = "Kullanıcı Adı";
 "Username missing" = "Kullanıcı adı eksik";
 "Uses TLS client certificates for authentication" = "Kimlik doğrulaması için TLS istemci sertifikalarını kullanır";
 "Version" = "Sürüm";
@@ -685,7 +685,7 @@
 "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Hesabınızı bağlayamadık. Lütfen kimlik bilgilerinizi kontrol edin ve internete bağlı olduğunuzdan emin olun.\n\nTeknik hata mesajı: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "En zayıf channel-binding tipidir, çalınan sertifikalara/anahtarlara karşı güvenlik sağlamaz, ancak yanlış verilen sertifikaları tespit eder.";
 "Welcome" = "Hoşgeldiniz";
-"What call do you want to place?" = "What call do you want to place?";
+"What call do you want to place?" = "Hangi çağrıyı yapmak istiyorsunuz?";
 "When you start talking to someone,\n they will show up here." = "Biriyle konuşmaya başladığınızda,\n burada görünecekler.";
 "Will logout and reconnect any connected accounts." = "Tüm bağlı hesaplardan çıkış yapacak ve yeniden bağlanacak.";
 /* QR-Code-Scanner: account scan wrong menu
@@ -725,7 +725,7 @@
 "Yes, deactivate encryption" = "Evet, şifrelemeyi devre dışı bırak";
 "You are set up and connected." = "Kuruldu ve bağlandınız.";
 "You are set up and connected. People can message you at: %@@%@" = "Kuruldunuz ve bağlandınız. İnsanlar size şu adresten mesaj gönderebilir: %@@% @";
-"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
+"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "'%@' (%@) numarasını aramaya çalışıyorsunuz, ancak bu kişiye farklı hesaplar kullanılarak ulaşılabilir. Lütfen giden aramayı yapmak istediğiniz hesabı seçin.";
 "You did not grant Monal to access your location." = "Monal'ın konumunuza erişmesine izin vermediniz.";
 "You got banned from: %@" = "Şuradan yasaklandınız: %@";
 "You got kicked from: %@" = "Şuradan atıldınız: %@";
@@ -750,7 +750,7 @@
 "🎥 A Video" = "🎥 Bir Video";
 "🎥 Video" = "🎥 Video";
 "🎵 An Audiomessage" = "🎵 Bir Sesli Mesaj";
-"🎵 Audio" = "🎵 Audio";
+"🎵 Audio" = "🎵 Ses";
 "📁 A File" = "📁 Bir Dosya";
 "📄 A Document" = "📄 Bir Belge";
 "📍 A Location" = "📍 Bir Konum";
