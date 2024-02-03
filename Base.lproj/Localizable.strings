@@ -617,6 +617,7 @@
 "Could not decrypt message" = "Could not decrypt message";
 "Could not join group/channel '%@': timeout" = "Could not join group/channel '%@': timeout";
 "Could not synchronize" = "Could not synchronize";
+"Detected a new omemo device on your account: %@" = "Detected a new omemo device on your account: %@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "Download error" = "Download error";
 "Duplicate Account" = "Duplicate Account";
@@ -665,7 +666,6 @@
 "Failed to uploaded file to file cache directory" = "Failed to uploaded file to file cache directory";
 "Failed to write decrypted download into cache directory" = "Failed to write decrypted download into cache directory";
 "Got empty room config form for '%@'" = "Got empty room config form for '%@'";
-"Group/Channel error in %@" = "Group/Channel error in %@";
 "Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
 "Group/Channel not available anymore: %@" = "Group/Channel not available anymore: %@";
 "Just seen" = "Just seen";
@@ -683,6 +683,7 @@
 "Message was encrypted with OMEMO but could not be decrypted" = "Message was encrypted with OMEMO but could not be decrypted";
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u.";
 "New Message" = "New Message";
+"New omemo device" = "New omemo device";
 "No further error description" = "No further error description";
 "No supported auth mechanism found, disabling account!" = "No supported auth mechanism found, disabling account!";
 "Not Authorized. Please check your credentials." = "Not Authorized. Please check your credentials.";

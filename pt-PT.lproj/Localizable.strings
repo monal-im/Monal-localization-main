@@ -238,6 +238,7 @@
 "Failed to create invitation, unknown error: %@" = "Failed to create invitation, unknown error: %@";
 "Failed to decode download link" = "Failed to decode download link";
 "Failed to decode encrypted link" = "Failed to decode encrypted link";
+"Failed to decrypt download" = "Failed to decrypt download";
 "Failed to decrypt filetransfer" = "Failed to decrypt filetransfer";
 "Failed to delete own avatar" = "Failed to delete own avatar";
 "Failed to delete own nickname" = "Failed to delete own nickname";
@@ -276,7 +277,6 @@
 /* placeholder when creating new group */
 "Group Name (optional)" = "Group Name (optional)";
 "Group subject:" = "Group subject:";
-"Group/Channel error in %@" = "Group/Channel error in %@";
 "Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
 "Group/Channel not available anymore: %@" = "Group/Channel not available anymore: %@";
 "groupJoin Group" = "groupJoin Group";
@@ -751,4 +751,5 @@
 "📍 A Location" = "📍 A Location";
 "📷 An Image" = "📷 An Image";
 "🔗 A Link" = "🔗 A Link";
-"Failed to decrypt download" = "Failed to decrypt download";
+"Detected a new omemo device on your account: %@" = "Detected a new omemo device on your account: %@";
+"New omemo device" = "New omemo device";
