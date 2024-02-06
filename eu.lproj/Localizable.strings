@@ -4,9 +4,9 @@
 "%@" = "%@";
 "%@ says:" = "%@(e)k dio:";
 /* server details */
-"<unknown server>" = "<unknown server>";
+"<unknown server>" = "<zerbitzari ezezaguna>";
 /* server details */
-"<unknown version>" = "<unknown version>";
+"<unknown version>" = "<bertsio ezezaguna>";
 "A contact was scanned through the QR code scanner" = "Kontaktu bat eskaneatu da QR kode-eskaneatzailearen bidez";
 "Abort" = "Alboratu";
 "Aborted recording audio" = "Audio grabaketa alboratu da";
@@ -76,7 +76,7 @@
 "Call ended: hung up" = "Deia amaitu da: eseki dute";
 "Call ended: remote busy" = "Deia amaitu da: hartzailea ez dago eskuragai";
 "Call security help" = "Deien segurtasunari buruzko laguntza";
-"Call Type" = "Call Type";
+"Call Type" = "Dei mota";
 "Call was not answered" = "Ez diote deiari erantzun";
 "Calls: Allow P2P sessions" = "Deiak: Baimendu P2P saioak";
 "Calls: Allow TURN fallback to Monal-Servers" = "Deiak: baimendu Monal zerbitzariak TURN erabilgai ez dagoenean";
@@ -127,9 +127,9 @@
 "Could not change password" = "Ezin izan da pasahitza aldatu";
 "Could not change password: your account is currently not connected" = "Ezin izan da pasahitza aldatu: unean zure kontua ez dago konektatuta";
 "Could not change the password" = "Ezin izan da pasahitza aldatu";
-"Could not configure group '%@'" = "Could not configure group '%@'";
-"Could not configure group '%@': timeout" = "Could not configure group '%@': timeout";
-"Could not create group '%@': timeout" = "Could not create group '%@': timeout";
+"Could not configure group '%@'" = "Ezin izan da '%@' taldea konfiguratu";
+"Could not configure group '%@': timeout" = "Ezin izan da '%@' taldea konfiguratu: denbora agortu da";
+"Could not create group '%@': timeout" = "Ezin izan da '%@' taldea sortu: denbora agortu da";
 "Could not decrypt message" = "Ezin izan da mezua dezifratu";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "Ezin izan dira elkarrizketa honetako mezu zaharrak (guztiak) zerbitzariaren artxibotik eskuratu. Saiatu berriro geroago. %@";
 "Could not fetch messages" = "Ezin izan dira mezuak ekarri";
@@ -160,7 +160,7 @@
 "Delete Account on Server" = "Ezabatu kontua zerbitzaritik";
 "Delete Key" = "Ezabatu gakoa";
 "Deny new contact" = "Baztertu kontaktu berria";
-"Detected a new omemo device on your account: %@" = "Detected a new omemo device on your account: %@";
+"Detected a new omemo device on your account: %@" = "OMEMO gailu berri bat antzeman da zure kontuan: %@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "Gailuaren IDa: ";
 "DeviceID: " = "Gailuaren IDa: ";
@@ -267,7 +267,7 @@
 "Failed to write decrypted download into cache directory" = "Ezin izan da deskargatu eta dezifratutakoa katxe direktorioan idatzi";
 "Fetching registration form..." = "Izena emateko formularioa ekartzen...";
 "File" = "Bidali fitxategia";
-"filename" = "filename";
+"filename" = "fitxategi-izena";
 "Files" = "Fitxategiak";
 "General" = "Orokorra";
 "General File Transfer Settings" = "Fitxategiak partekatzeko ezarpen orokorrak";
@@ -280,7 +280,7 @@
 "Group subject:" = "Taldeko gaia:";
 "Group/Channel got destroyed: %@" = "Taldea / kanala suntsitu da: %@";
 "Group/Channel not available anymore: %@" = "Taldea / kanala ez dago erabilgarri honezkero: %@";
-"groupJoin Group" = "Sartu taldera";
+"groupJoin Group" = "Sartu taldean";
 "Hint" = "Lagungarria";
 "I already have an account:" = "Badut kontu bat dagoeneko:";
 "I need an account:" = "Kontu bat behar dut:";
@@ -606,7 +606,7 @@
 /* Crash report error dialog */
 "This device is not configured to send email." = "Gailu hau ez dago ezarrita ePosta bidali ahal izateko.";
 "This invitation will expire on %@" = "Gonbidapenaren iraungitzea: %@";
-"This is the software running on your server." = "This is the software running on your server.";
+"This is the software running on your server." = "Hau da zure zerbitzariak darabilen softwarea:";
 "This key belongs to this device and cannot be removed or disabled!" = "Gailu honen gakoa da hau eta ezin da kendu edo ezgaitu!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Gako honetaz fio da eta hatzmarkak eskuz alderatuz egiaztatu da. Gakoaz fidatzeari uzteko, erabili botoi-etengailua.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "Gako honetaz fio da baina kontaktuak jadanik ez du erabiltzen. Gakoa baztertu beharko zenuke.";
@@ -685,7 +685,7 @@
 "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Ezin izan dugu zure kontua konektatu. Egiaztatu sartutako datuak eta baieztatu internetera konektatuta zaudela. \n \nErrorearen mezu teknikoa: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Kanal-lotura mota ahulena, ez du ostutako ziurtagiri edo gakoetatik babesten, baina oker jaulkitako ziurtagiriak antzematen ditu.";
 "Welcome" = "Ongi etorri";
-"What call do you want to place?" = "What call do you want to place?";
+"What call do you want to place?" = "Zer dei egin nahi duzu?";
 "When you start talking to someone,\n they will show up here." = "Norbaitekin hizketan hasiko zarenean, \n hemen agertuko dira.";
 "Will logout and reconnect any connected accounts." = "Saioa amaitu eta berriro konektatuko ditu konektatutako kontuak.";
 /* QR-Code-Scanner: account scan wrong menu
@@ -748,9 +748,9 @@
 "Your status" = "Zure egoera";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "XMPP JIDak honako formatua izan behar du: erabiltzailea@domeinua.eus. Ezarpen berezietarako eskuz konfiguratu.";
 "🎥 A Video" = "🎥 Bideoa";
-"🎥 Video" = "🎥 Video";
+"🎥 Video" = "🎥 Bideoa";
 "🎵 An Audiomessage" = "🎵 Audio mezua";
-"🎵 Audio" = "🎵 Audio";
+"🎵 Audio" = "🎵 Audioa";
 "📁 A File" = "📁 Fitxategia";
 "📄 A Document" = "📄 Dokumentua";
 "📍 A Location" = "📍 Kokapena";
