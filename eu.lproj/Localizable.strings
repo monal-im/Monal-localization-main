@@ -1,5 +1,5 @@
 /* server details */
-" running on %@" = " running on %@";
+" running on %@" = " %@(e)n exekutatzen";
 "%02d:%02d (long press to abort)" = "%02d:%02d (sakatu eta eutsi alboratzeko)";
 "%@" = "%@";
 "%@ says:" = "%@(e)k dio:";
@@ -119,8 +119,8 @@
 "Copy" = "Kopiatu";
 "Copy link to clipboard" = "Kopiatu esteka arbelera";
 "Copy to clipboard" = "Kopiatu arbelera";
-"Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
-"Could fetch room config form from '%@': timeout" = "Could fetch room config form from '%@': timeout";
+"Could fetch room config form for '%@': timeout" = "Ezin izan da '%@' gelaren konfigurazioa atzitu: denbora agortu da";
+"Could fetch room config form from '%@': timeout" = "Ezin izan da '%@' gelaren formularioa atzitu: denbora agortu da";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Ezin izan da kamera atzitu";
 "Could not access Finder item!" = "Ezin izan da Finderreko elementua atzitu!";
@@ -161,7 +161,7 @@
 "Delete Key" = "Ezabatu gakoa";
 "Deny new contact" = "Baztertu kontaktu berria";
 "Detected a new omemo device on your account: %@" = "OMEMO gailu berri bat antzeman da zure kontuan: %@";
-"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
+"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SSDP bidezko aribidean dagoen MITM erasoa antzeman da; autentifikazioa bertan behera utzi da eta kontua ezgaitu da kalteak txikitzeko. Gaitu berriro sare fidagarri batean zaudenean.";
 "Device ID: " = "Gailuaren IDa: ";
 "DeviceID: " = "Gailuaren IDa: ";
 "Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list." = "Bideratu zure laguna orrialde honetara XMPP bezeroa nola konfiguratu azaltzeko. Bere kontaktuen zerrendara gehituko zaitugu automatikoki.";
@@ -194,7 +194,7 @@
 "E-Mail not enabled on device" = "ePosta ez dago gailuan gaituta";
 /* Chat msg action */
 "Edit" = "Editatu";
-"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now.";
+"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "MITM eraso honek edo zure zerbitzariak ez du XEP-0474 inplementatzen, ezta XEP-0440 osorik ere, kanalari lotutako tls-server-end-point ahalbidetzen duena. Edonola ere jakinarazi zure zerbitzariaren administratzaileari. Kontua ezgaitu da.ow.";
 /* Crash report error dialog */
 "Email Error" = "ePosta errorea";
 "Email Support" = "Bidali laguntza eskaera";
@@ -219,11 +219,11 @@
 "Error decrypting message" = "Errorea mezua dezifratzerakoan";
 "Error entering group/channel!" = "Errorea taldera/kanalera sartzean!";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error handling SASL challenge of server (iteration count too low), disconnecting!";
+"Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Errorea zerbitzariaren SASL erronka maneiatzean (iteration count too low), deskonektatzen!";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (m-attr error), disconnecting!" = "Error handling SASL challenge of server (m-attr error), disconnecting!";
+"Error handling SASL challenge of server (m-attr error), disconnecting!" = "Errorea zerbitzariaren SASL erronka maneiatzean (m-attr error), deskonektatzen!";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (nonce error), disconnecting!" = "Error handling SASL challenge of server (nonce error), disconnecting!";
+"Error handling SASL challenge of server (nonce error), disconnecting!" = "Errorea zerbitzariaren SASL erronka maneiatzean (nonce error), deskonektatzen!";
 "Error registering push" = "Errorea push-a erregistratzean";
 "Error Removing Account" = "Errorea kontua kentzerakoan";
 "Error while decrypting: iv.length != 12" = "Errorea dezifratzerakoan: iv.length != 12";
@@ -232,14 +232,14 @@
 "Error: No contacts to display keys for!" = "Errorea: Ez dago gakoak ikusteko kontakturik!";
 "Error: Received OMEMO message is empty" = "Errorea: jasotako OMEMO mezua hutsik dago";
 "Failed to block contact %@" = "Ezin izan da %@ blokeatu";
-"Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
-"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
+"Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak huts egin du";
+"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak huts egin du: denbora agortu da";
 "Failed to copy downloaded file into cache directory" = "Ezin izan da deskargatutako fitxategia katxearen direktorioan gorde";
 "Failed to create invitation for %@" = "Ezin izan da %@(r)entzat gonbidapena sortu";
 "Failed to create invitation, unknown error: %@" = "Ezin izan da gonbidapena sortu, errore ezezaguna: %@";
 "Failed to decode download link" = "Ezin izan da deskarga-esteka dekodetu";
 "Failed to decode encrypted link" = "Ezin izan da zifratutako esteka dekodetu";
-"Failed to decrypt download" = "Failed to decrypt download";
+"Failed to decrypt download" = "Deskargaren deszifrateak huts egin du";
 "Failed to decrypt filetransfer" = "Partekatutako fitxategiaren dezifratzeak kale egin du";
 "Failed to delete own avatar" = "Ezin izan da abatarra ezabatu";
 "Failed to delete own nickname" = "Ezin izan da ezizena ezabatu";
@@ -248,7 +248,7 @@
 "Failed to encrypt file" = "Ezin izan da fitxategia zifratu";
 "Failed to enter Group/Channel %@" = "%@ taldearekin / kanalarekin bat egiteak kale egin du";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "%@ taldearekin / kanalarekin bat egiteak kale egin du: ez da talde / kanal bat!";
-"Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
+"Failed to fetch room config form for '%@'" = "'%@' gelaren konfigurazio-orria atzitzeak huts egin du";
 "Failed to load blocklist" = "Ezin izan da blokeatutakoen zerrenda kargatu";
 "Failed to parse URL returned by HTTP upload server" = "Ezin izan da HTTP igoera zerbitzariak itzuli duen URLa aztertu";
 "Failed to publish avatar image for group/channel %@" = "%@ taldeko / kanaleko abatarren publikazioak kale egin du";
@@ -271,7 +271,7 @@
 "Files" = "Fitxategiak";
 "General" = "Orokorra";
 "General File Transfer Settings" = "Fitxategiak partekatzeko ezarpen orokorrak";
-"Got empty room config form for '%@'" = "Got empty room config form for '%@'";
+"Got empty room config form for '%@'" = "Eskuratutako '%@' gelaren konfigurazio-orria hutsik dago";
 "GPS" = "GPSa";
 "Green checkmark shield:" = "Ezkutu berdea:";
 "Group Members" = "Taldeko kideak";
@@ -329,7 +329,7 @@
 "Loading Data" = "Datuak kargatzen";
 "Loading more Messages from Server" = "Zerbitzaritik mezu gehiago kargatzen";
 "Loading omemo bundles" = "OMEMO sortak kargatzen";
-"Loading omemo bundles: %@ / %@" = "OMEMO sortak kargatzen: %2$@tik %1$@";
+"Loading omemo bundles: %@ / %@" = "OMEMO sortak kargatzen: %@ (%@(e)tik)";
 "Location Access Needed" = "Kokapena atzitu behar da";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Hasi saioa zure kontuan edo eman izena kontu berri batean. Behar izanez gero, konfigurazio aurreratuagoa aurkituko duzu Monalen ezarpenetan.";
 "Logging in" = "Saioa hasten";
@@ -366,7 +366,7 @@
 "Never archive" = "Ez artxibatu inoiz";
 "New Account" = "Kontu berria";
 "New Message" = "Mezu berria";
-"New omemo device" = "New omemo device";
+"New omemo device" = "OMEMO gailu berria";
 "New Password" = "Pasahitz berria";
 "Newest TLS version which is faster than TLS 1.2" = "TLS bertsio berriena, TLS 1.2 baino azkarragoa dena";
 "No" = "Ez";
@@ -494,7 +494,7 @@
 "Rich Text" = "Testu aberatsa";
 "Ringing..." = "Deika…";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Salt erronkaren erantzuna emandako hash metodoaren autentifikazio-mekanismoaren bidez";
-"Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Salt erronkaren erantzuna emandako hash metodoaren autentifikazio-mekanismoaz gain kanal-loturaren bidez";
+"Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Salt erronkaren erantzuna emandako hash metodoaren autentifikazio-mekanismoaz gain channel-binding bidez";
 "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL2tik SASL1erako degradazio-erasoa antzeman da; autentifikazioa baztertu eta kontua ezgaitu da kaltea mugatzeko. Gaitu kontua berriro sare seguru batean zaudenean.";
 "Saving changes to server" = "Aldaketak zerbitzarian gordetzen";
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
@@ -502,7 +502,7 @@
 "Scroll down to load more messages" = "Tira behera mezu gehiago kargatzeko";
 /* placeholder in contact picker */
 "Search contacts" = "Bilatu kontaktua";
-"Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Kanaleko-lotura TLS1.3 eta TLS1.2 konexio batzuetarako segurtatuz.";
+"Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Channel-binding segurua TLS1.3 eta TLS1.2 konexio batzuetarako.";
 "Select a background to display behind conversations with %@" = "Hautatu %@(r)en elkarrizketarako hondo bat";
 "Select a default background to display behind conversations." = "Hautatu defektuzko hondo bat elkarrizketetarako.";
 "Select Action" = "Hautatu ekintza";
@@ -543,7 +543,7 @@
 "Show Inline Geo Location" = "Erakutsi kokapena mezuaren barruan";
 "Show shared Media and Files" = "Erakutsi partekatutako multimedia eta fitxategiak";
 "Show URL previews" = "Erakutsi URLen aurreikuspena";
-"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
+"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Mezu batzuk jasotzeko edo bidaltzeko zain daude. Ireki aplikazioa berriro saiatzeko.";
 "Something went wrong while parsing the string..." = "Zerbaitek kale egin du katea aztertzerakoan…";
 "Sounds" = "Soinuak";
 "Sounds courtesy Emrah" = "Emrah-ren kortesia";
@@ -618,7 +618,7 @@
 "This message got retracted" = "Mezua atzera bota da";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Badirudi zerbitzari honek ezin dituela fitxategiak HTTP bidez igo (XEP-0363). Eskatu administrariari aukera gaitu dezala.";
 "This server does not have any SRV records in DNS." = "Zerbitzari honek ez du SRV erregistrorik.";
-"This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Zerbitzari hau ez TLS geruzan MITM motako erasoen aurrean babesteko kanal-lotura modernoekin bateragarria.";
+"This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Zerbitzari hau ez TLS geruzan MITM motako erasoen aurrean babesteko channel-binding modernoekin bateragarria.";
 "This server does not support modern SASL2 authentication." = "Zerbitzari hau ez da SASL2 autentikazio modernoarekin bateragarria.";
 "This should never happen, please contact the developers and provide a logfile!" = "Hau ez litzateke inoiz gertatu beharko, jarri harremanetan garatzaileekin eta partekatu erregistro fitxategia!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Espezifikazio honek XMPPren argitalpen-harpidetza protokoloa erabiltzeko semantika definitzen du, berehalako mezularitza eta identitate-kontuarekin lotutako egoera-aldaketak igortzeko.";
@@ -646,7 +646,7 @@
 "Unclean appex shutown" = "Appex (app extension) ez da garbi itxi";
 "Undefined error" = "Zehaztu gabeko errorea";
 "Unexpected appex expiration" = "Appex (app extension) ustekabean iraungi da";
-"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
+"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Espero ez zen zerbitzariaren SASL2 autentikazio errorea (zure zerbitzariaren akatsa da?), deskonektatzen!";
 "Unexpected error while checking type of jid, please try again" = "Espero ez zen errorea JID mota egiaztatzerakoan; saiatu berriro";
 "Unexpected error while checking type of jid:" = "Espero ez zen errorea gertatu da JID mota egiaztatzerakoan:";
 "Unexpected mam preferences result" = "Mezuak artxibatzeko ezarpenek espero ez zen emaitza izan dute";
@@ -654,7 +654,7 @@
 "Unexpected server response: missing required fields in PEP config form" = "Espero ez zen zerbitzariaren erantzuna: PEP ezarpen-formularioan beharrezko eremuak falta dira";
 "unknown" = "ezezaguna";
 "Unknown authentication method" = "Ez da autentikazio metodoa ezagutzen";
-"Unknown channel-binding type" = "Kanal-lotura mota ezezaguna";
+"Unknown channel-binding type" = "Channel-binding mota ezezaguna";
 "Unread Messages Below" = "Markatu beheragoko mezuak ez irakurritzat";
 "unsupported" = "ez da bateragarria";
 "Untrusted key" = "Fidatu gabeko gakoa";
@@ -713,7 +713,7 @@
 "XMPP ID missing" = "XMPP IDa falta da";
 "XMPP mam preferences error" = "XMPP mam preferences error";
 "XMPP protocol extension for communications blocking." = "XMPP protokoloaren luzapena komunikazioak blokeatzeko.";
-"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls.";
+"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP protokoloaren hedapena XMPP sareaz kanpoko zerbitzuak aurkitzeko, STUN edo TURN zerbitzariak esaterako, audio edo bideo deietarako beharrezkoa.";
 "XMPP protocol extension for sending application-level pings over XML streams." = "XMPP protokoloaren luzapena XML jarioetan aplikazio-mailako ping-ak bidaltzeko.";
 "XMPP Roster Error" = "XMPP Roster Error";
 "XMPP server domain not valid!" = "XMPP zerbitzariaren domeinua ez da baliozkoa!";
@@ -725,13 +725,13 @@
 "Yes, deactivate encryption" = "Bai, ezgaitu zifraketa";
 "You are set up and connected." = "Dena prest eta konektatuta.";
 "You are set up and connected. People can message you at: %@@%@" = "Kontua konfiguratuta eta konektatuta. Jendeak honako helbidera idatz diezazuke: %@@%@";
-"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
+"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "'%@'(e)ri (%@) deitzen saiatzen ari zara, baina kontu desberdinak erabiliz dei diezaiokezu. Hautatu zein konturekin egin nahi diozun dei.";
 "You did not grant Monal to access your location." = "Ez diozu Monali kokapena atzitzeko baimenik eman.";
 "You got banned from: %@" = "Debekua ezarri dizute: %@";
 "You got kicked from: %@" = "Kaleratu zaituzte: %@";
 "You have not entered your XMPP ID yet" = "Oraindik ez duzu zure XMPP IDa sartu";
 "You need friends for this ride" = "Lagunak behar dituzu aberntura honetarako";
-"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
+"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Mikrofonoa atzitzea baimendu behar duzu iOSen: Ezarpenak-> Pribatutasuna-> Mikrofonoa, besteek entzun zaitzaten nahi baduzu.";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Monalen iCloud babeskopia bat lehengoratu duzu; ireki aplikazioa kontu hau birgaitzeko.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "Egiaztatu dituzun gakoez baino ez zitez fidatu. Egiaztatu beheko gakoa zure kontaktuaren pantailan agertzen denarekin alderatuz. Sakatu birritan hatz-marka gainean arbelera kopiatzeko.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "'%@'(r)i deitzen saiatu zara baina kontaktu hau ez da zure kontaktuen zerrendan aurkitu.";
