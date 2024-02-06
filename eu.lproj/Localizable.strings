@@ -119,8 +119,8 @@
 "Copy" = "Kopiatu";
 "Copy link to clipboard" = "Kopiatu esteka arbelera";
 "Copy to clipboard" = "Kopiatu arbelera";
-"Could fetch room config form for '%@': timeout" = "Ezin izan da '%@' gelaren konfigurazioa atzitu: denbora agortu da";
-"Could fetch room config form from '%@': timeout" = "Ezin izan da '%@' gelaren formularioa atzitu: denbora agortu da";
+"Could fetch room config form for '%@': timeout" = "Ezin izan da '%@' gelaren konfigurazio-orria atzitu: denbora agortu da";
+"Could fetch room config form from '%@': timeout" = "Ezin izan da '%@' gelaren konfigurazio-orria atzitu: denbora agortu da";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Ezin izan da kamera atzitu";
 "Could not access Finder item!" = "Ezin izan da Finderreko elementua atzitu!";
@@ -194,7 +194,7 @@
 "E-Mail not enabled on device" = "ePosta ez dago gailuan gaituta";
 /* Chat msg action */
 "Edit" = "Editatu";
-"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "MITM eraso honek edo zure zerbitzariak ez du XEP-0474 inplementatzen, ezta XEP-0440 osorik ere, kanalari lotutako tls-server-end-point ahalbidetzen duena. Edonola ere jakinarazi zure zerbitzariaren administratzaileari. Kontua ezgaitu da.ow.";
+"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "MITM eraso honek edo zure zerbitzariak ez du XEP-0474 inplementatzen, ezta XEP-0440 osorik ere, channel-binding tls-server-end-point ahalbidetzen duena. Jakinarazi zure zerbitzariaren administratzaileari. Kontua ezgaitu da.";
 /* Crash report error dialog */
 "Email Error" = "ePosta errorea";
 "Email Support" = "Bidali laguntza eskaera";
@@ -219,11 +219,11 @@
 "Error decrypting message" = "Errorea mezua dezifratzerakoan";
 "Error entering group/channel!" = "Errorea taldera/kanalera sartzean!";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Errorea zerbitzariaren SASL erronka maneiatzean (iteration count too low), deskonektatzen!";
+"Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Errorea zerbitzariaren SASL erronka kudeatzean (iteration count too low), deskonektatzen!";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (m-attr error), disconnecting!" = "Errorea zerbitzariaren SASL erronka maneiatzean (m-attr error), deskonektatzen!";
+"Error handling SASL challenge of server (m-attr error), disconnecting!" = "Errorea zerbitzariaren SASL erronka kudeatzean (m-attr error), deskonektatzen!";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (nonce error), disconnecting!" = "Errorea zerbitzariaren SASL erronka maneiatzean (nonce error), deskonektatzen!";
+"Error handling SASL challenge of server (nonce error), disconnecting!" = "Errorea zerbitzariaren SASL erronka kudeatzean (nonce error), deskonektatzen!";
 "Error registering push" = "Errorea push-a erregistratzean";
 "Error Removing Account" = "Errorea kontua kentzerakoan";
 "Error while decrypting: iv.length != 12" = "Errorea dezifratzerakoan: iv.length != 12";
@@ -273,7 +273,7 @@
 "General File Transfer Settings" = "Fitxategiak partekatzeko ezarpen orokorrak";
 "Got empty room config form for '%@'" = "Eskuratutako '%@' gelaren konfigurazio-orria hutsik dago";
 "GPS" = "GPSa";
-"Green checkmark shield:" = "Ezkutu berdea:";
+"Green checkmark shield:" = "Kontrol-marka berdea:";
 "Group Members" = "Taldeko kideak";
 /* placeholder when creating new group */
 "Group Name (optional)" = "Taldearen izena (aukerakoa)";
@@ -469,7 +469,7 @@
 "Reconnecting" = "Birkonektatzen";
 "Reconnecting..." = "Birkonektatzen...";
 "Recording audio" = "Audioa grabatzen";
-"Red x-mark shield:" = "Ezkutu gorria:";
+"Red x-mark shield:" = "Kontrol-marka gorria:";
 "Refreshing..." = "Freskatzen...";
 "Register a new account" = "Erregistratu kontu berri bat";
 "Register with %@" = "Erregistratu %@(r)ekin";
@@ -497,7 +497,7 @@
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Salt erronkaren erantzuna emandako hash metodoaren autentifikazio-mekanismoaz gain channel-binding bidez";
 "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL2tik SASL1erako degradazio-erasoa antzeman da; autentifikazioa baztertu eta kontua ezgaitu da kaltea mugatzeko. Gaitu kontua berriro sare seguru batean zaudenean.";
 "Saving changes to server" = "Aldaketak zerbitzarian gordetzen";
-"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Zerbitzariaren SCRAM frogagiri okerra, oso litekeena da MITM erasoa aribidean egotea; autentifikazioa baztertu eta kontua ezgaitu da kaltea mugatzeko. Gaitu kontua berriro sare seguru batean zaudenean.";
 /* mac only string */
 "Scroll down to load more messages" = "Tira behera mezu gehiago kargatzeko";
 /* placeholder in contact picker */
@@ -587,7 +587,7 @@
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "Errorea mezu zifratu hau dezifratzerakoan (Signal errorea). Konpontzeko saiatu zifratutako mezu bat bidaltzen pertsona honi. (%@)";
 "These are SRV resource records found for your domain." = "Hauek dira zure domeinurako aurkitu diren SRV resource erregistroak.";
 "These are STUN and TURN services announced by your server. (blue entries are used by monal)" = "Zure zerbitzariak iragartzen dituen STUN eta TURN zerbitzuak dira hauek. Urdinez daudenak Monalek erabiltzen dituenak dira.";
-"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal).";
+"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "Honakoak dira zure zerbitzariarekin bateragarriak diren channel-binding motak TLS geruzan erasoak antzemateko (erabilitakoak, urdinez; Monalekin bateragarriak ez direnak, laranjaz).";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "Hauek dira Monalek saioa hasi duzun zerbitzarian topatu dituen XMPP ezaugarri modernoak.";
 "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "Zure zerbitzariarekin bateragarriak diren SASL2 metodoak dira hauek. Urdinez daudenak Monalek erabiltzen dituenak dira, eta laranjaz Monalekin bateragarriak ez direnak dira.";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "Hauek dira Monalekin bateragarriak diren TLS bertsioak; zerbitzarira konektatzeko erabili direnak berdez agertuko dira.";
@@ -611,15 +611,15 @@
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Gako honetaz fio da eta hatzmarkak eskuz alderatuz egiaztatu da. Gakoaz fidatzeari uzteko, erabili botoi-etengailua.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "Gako honetaz fio da baina kontaktuak jadanik ez du erabiltzen. Gakoa baztertu beharko zenuke.";
 "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "Gako honetaz fio da baina kontaktuak ez du denbora luzean erabili. Gakoa baztertu beharko zenuke.";
-"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you.";
-"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place.";
-"This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you.";
+"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "Honek esan nahi du zure deia zifratuta dagoela eta urruneko kidea OMEMO zifraketaren bidez egiaztatu dela.\nBaina deitzailearen OMEMO hatz-markak eskuz egiaztatu ez zenituenez, zure edo deitzailearen XMPP zerbitzaria gai da beste OMEMO gako batzuk sartu eta zuen artean sartzeko (Man-In-The-Middle edo MITM erasoa).";
+"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "Honek esan nahi du zure deia zifratuta dagoela eta urruneko kidea OMEMO zifraketaren bidez egiaztatu dela.\nOMEMO hatz-markak eskuz egiaztatu zenituenez, ez dago MITM (Man-In-The-Middle) erasorako aukerarik.";
+"This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "Honek esan nahi du zure deia zifratuta dagoela baina ezin izan da urruneko kidea OMEMO zifraketaren bidez egiaztatu.\nZure edo deitzailearen XMPP zerbitzaria gai da beste OMEMO gako batzuk sartu eta zuen artean sartzeko (Man-In-The-Middle edo MITM erasoa).";
 "This message failed to send (%@): %@" = "Ezin izan da mezua bidali (%@): %@";
 "This message got retracted" = "Mezua atzera bota da";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Badirudi zerbitzari honek ezin dituela fitxategiak HTTP bidez igo (XEP-0363). Eskatu administrariari aukera gaitu dezala.";
 "This server does not have any SRV records in DNS." = "Zerbitzari honek ez du SRV erregistrorik.";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Zerbitzari hau ez TLS geruzan MITM motako erasoen aurrean babesteko channel-binding modernoekin bateragarria.";
-"This server does not support modern SASL2 authentication." = "Zerbitzari hau ez da SASL2 autentikazio modernoarekin bateragarria.";
+"This server does not support modern SASL2 authentication." = "Zerbitzari hau ez da SASL2 autentifikazio modernoarekin bateragarria.";
 "This should never happen, please contact the developers and provide a logfile!" = "Hau ez litzateke inoiz gertatu beharko, jarri harremanetan garatzaileekin eta partekatu erregistro fitxategia!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Espezifikazio honek XMPPren argitalpen-harpidetza protokoloa erabiltzeko semantika definitzen du, berehalako mezularitza eta identitate-kontuarekin lotutako egoera-aldaketak igortzeko.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Arau honek SASL eta SASL2 handshake-ak babesteko modua eskaintzen du, metodoen eta channel-binding-en mailen jaitsiera galaraziz.";
@@ -650,10 +650,10 @@
 "Unexpected error while checking type of jid, please try again" = "Espero ez zen errorea JID mota egiaztatzerakoan; saiatu berriro";
 "Unexpected error while checking type of jid:" = "Espero ez zen errorea gertatu da JID mota egiaztatzerakoan:";
 "Unexpected mam preferences result" = "Mezuak artxibatzeko ezarpenek espero ez zen emaitza izan dute";
-"Unexpected server response: invalid PEP config form" = "Espero ez zen zerbitzariaren erantzuna: PEP ezarpen-formularioa ez da baliozkoa";
-"Unexpected server response: missing required fields in PEP config form" = "Espero ez zen zerbitzariaren erantzuna: PEP ezarpen-formularioan beharrezko eremuak falta dira";
+"Unexpected server response: invalid PEP config form" = "Espero ez zen zerbitzariaren erantzuna: PEP konfigurazio-orria ez da baliozkoa";
+"Unexpected server response: missing required fields in PEP config form" = "Espero ez zen zerbitzariaren erantzuna: PEP konfigurazio-orrian beharrezko eremuak falta dira";
 "unknown" = "ezezaguna";
-"Unknown authentication method" = "Ez da autentikazio metodoa ezagutzen";
+"Unknown authentication method" = "Ez da autentifikazio metodoa ezagutzen";
 "Unknown channel-binding type" = "Channel-binding mota ezezaguna";
 "Unread Messages Below" = "Markatu beheragoko mezuak ez irakurritzat";
 "unsupported" = "ez da bateragarria";
@@ -671,7 +671,7 @@
 /* placeholder when creating account */
 "Username" = "Erabiltzaile-izena";
 "Username missing" = "Erabiltzaile izena falta da";
-"Uses TLS client certificates for authentication" = "Bezeroen TLS ziurtagiriak erabiltzen ditu autentikatzeko";
+"Uses TLS client certificates for authentication" = "Bezeroen TLS ziurtagiriak erabiltzen ditu autentifikatzeko";
 "Version" = "Bertsioa";
 /* server details */
 "version %@%@" = "version %1$@%2$@";
@@ -683,7 +683,7 @@
 "We don't support the single task requested by the server, account disabled: %@" = "Ez dugu zerbitzariak eskatutako zeregin bakarra onartzen, kontua ezgaituta: %@";
 "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet." = "Ezin izan dugu zure kontua konektatu. Egiaztatu sartutako datuak zuzenak direla eta internetera konektatuta zaudela.";
 "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Ezin izan dugu zure kontua konektatu. Egiaztatu sartutako datuak eta baieztatu internetera konektatuta zaudela. \n \nErrorearen mezu teknikoa: %@";
-"Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Kanal-lotura mota ahulena, ez du ostutako ziurtagiri edo gakoetatik babesten, baina oker jaulkitako ziurtagiriak antzematen ditu.";
+"Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Channel-binding mota ahulena, ez du ostutako ziurtagiri edo gakoetatik babesten, baina oker jaulkitako ziurtagiriak antzematen ditu.";
 "Welcome" = "Ongi etorri";
 "What call do you want to place?" = "Zer dei egin nahi duzu?";
 "When you start talking to someone,\n they will show up here." = "Norbaitekin hizketan hasiko zarenean, \n hemen agertuko dira.";
@@ -720,7 +720,7 @@
 "XMPP stream error %@: %@" = "XMPP stream error %1$@: %2$@";
 "XMPP stream error: %@" = "XMPP stream error: %@";
 "XMPPServer" = "XMPP zerbitzaria";
-"Yellow checkmark shield:" = "Ezkutu horia:";
+"Yellow checkmark shield:" = "Kontrol-marka horia:";
 "Yes" = "Bai";
 "Yes, deactivate encryption" = "Bai, ezgaitu zifraketa";
 "You are set up and connected." = "Dena prest eta konektatuta.";
@@ -731,7 +731,7 @@
 "You got kicked from: %@" = "Kaleratu zaituzte: %@";
 "You have not entered your XMPP ID yet" = "Oraindik ez duzu zure XMPP IDa sartu";
 "You need friends for this ride" = "Lagunak behar dituzu aberntura honetarako";
-"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Mikrofonoa atzitzea baimendu behar duzu iOSen: Ezarpenak-> Pribatutasuna-> Mikrofonoa, besteek entzun zaitzaten nahi baduzu.";
+"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Mikrofonoa atzitzeko baimena onartu behar duzu iOSen: Ezarpenak-> Pribatutasuna-> Mikrofonoa, besteek entzun zaitzaten nahi baduzu.";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Monalen iCloud babeskopia bat lehengoratu duzu; ireki aplikazioa kontu hau birgaitzeko.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "Egiaztatu dituzun gakoez baino ez zitez fidatu. Egiaztatu beheko gakoa zure kontaktuaren pantailan agertzen denarekin alderatuz. Sakatu birritan hatz-marka gainean arbelera kopiatzeko.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "'%@'(r)i deitzen saiatu zara baina kontaktu hau ez da zure kontaktuen zerrendan aurkitu.";
