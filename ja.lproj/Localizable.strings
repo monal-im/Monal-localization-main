@@ -233,7 +233,7 @@
 "Error: Received OMEMO message is empty" = "エラー: 受信した OMEMO メッセージは空です";
 "Failed to block contact %@" = "contact %@ のブロックに失敗しました";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
-"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
+"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@' の '%1$@' の分掌を '%3$@' に変更できませんでした: 時間切れ";
 "Failed to copy downloaded file into cache directory" = "ダウンロードしたファイルのキャッシュディレクトリへのコピーに失敗しました";
 "Failed to create invitation for %@" = "%@ の招待の作成に失敗しました";
 "Failed to create invitation, unknown error: %@" = "招待の作成に失敗しました。未知のエラー: %@";
@@ -279,7 +279,7 @@
 "Group Name (optional)" = "グループ名 (任意)";
 "Group subject:" = "Group subject:";
 "Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
-"Group/Channel not available anymore: %@" = "Group/Channel not available anymore: %@";
+"Group/Channel not available anymore: %@" = "グループ/チャンネルはもう利用できません: %@";
 "groupJoin Group" = "groupJoin Group";
 "Hint" = "ヒント";
 "I already have an account:" = "既にアカウントを持っています:";
@@ -307,7 +307,7 @@
 "Just seen" = "ちょうど今見ました";
 "Keys of %@" = "%@ の鍵";
 "Kicked, because muc is now members-only: %@" = "蹴り出されました。談話室が会員制となったため: %@";
-"Kicked, because of system shutdown: %@" = "Kicked, because of system shutdown: %@";
+"Kicked, because of system shutdown: %@" = "システムがシャットダウンしたため、蹴り出されました: %@";
 "Last seen: %@" = "最後に見たのは: %@";
 "Last seen: %d days ago" = "最後に見たのは: %d 日前";
 "Last seen: %d hours ago" = "最後に見たのは: %d 時間前";
@@ -342,7 +342,7 @@
 "Message Archive Preferences" = "メッセージ保管の設定";
 "Message from %@" = "%@ からメッセージ";
 "Message was encrypted with '%@' which isn't supported by Monal" = "Message was encrypted with '%@' which isn't supported by Monal";
-"Message was encrypted with OMEMO and can't be decrypted anymore" = "Message was encrypted with OMEMO and can't be decrypted anymore";
+"Message was encrypted with OMEMO and can't be decrypted anymore" = "メッセージは OMEMO で暗号化されており、もう復号できません";
 "Message was encrypted with OMEMO but could not be decrypted" = "メッセージは OMEMO で暗号化されましたが、復号できませんでした";
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "メッセージはこのデバイス向けに暗号化されていませんでした。送信者がデバイス ID %u を信用していることを確認してください。";
 "Messages are encrypted" = "メッセージは暗号化されます";
@@ -653,14 +653,14 @@
 "Unexpected server response: invalid PEP config form" = "Unexpected server response: invalid PEP config form";
 "Unexpected server response: missing required fields in PEP config form" = "Unexpected server response: missing required fields in PEP config form";
 "unknown" = "不明";
-"Unknown authentication method" = "Unknown authentication method";
+"Unknown authentication method" = "不明な認証方法";
 "Unknown channel-binding type" = "Unknown channel-binding type";
 "Unread Messages Below" = "Unread Messages Below";
 "unsupported" = "非対応";
 "Untrusted key" = "信用されていない鍵";
 "Upload Error" = "アップロードエラー";
 "Upload Error: your account got disconnected while requesting upload slot" = "Upload Error: your account got disconnected while requesting upload slot";
-"Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)";
+"Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "ファイルをサーバーにアップロードして他の人と共有します。 (サーバーによるファイルの最大許容サイズ: %@)";
 "Upload Settings" = "アップロード設定";
 "Uploading" = "アップロード";
 "Uploading file to server" = "ファイルをサーバーへアップロード";
