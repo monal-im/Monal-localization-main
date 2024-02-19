@@ -93,7 +93,7 @@
 "Change Chat Background" = "会話の背景を変更";
 "Change Password" = "パスワードを変更";
 "Changing Password" = "パスワードの変更";
-"Channel subject:" = "Channel subject:";
+"Channel subject:" = "チャンネルの題:";
 "Chat Background" = "会話の背景";
 "Check type and size on " = "Check type and size on ";
 "Clear Chat History" = "会話の履歴を消去";
@@ -104,7 +104,7 @@
 "Clear scanned contact" = "スキャンした相手先を消去";
 "Close" = "閉じる";
 "Connected since: %@" = "%@から接続しました";
-"Connected: %@" = "Connected: %@";
+"Connected: %@" = "接続済: %@";
 "Connecting..." = "接続中...";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "相手先とグループ/チャンネルの JID の形式は通常の場合 name@domain.tld です";
 "Contact is muted" = "相手先はミュートされています";
@@ -148,7 +148,7 @@
 "Create new group" = "新しいグループを作成";
 "Creating invitation..." = "招待を作成中...";
 "Current Password" = "現在のパスワード";
-"Currently Online" = "Currently Online";
+"Currently Online" = "現在オンライン中";
 "Debug" = "デバッグ";
 "Debugging" = "デバッグ";
 "Default Background" = "デフォルトの背景";
@@ -173,10 +173,10 @@
 "Display Only Name" = "名前のみ表示";
 "Display Only Placeholder" = "プレースホルダーのみ表示";
 "Do you really want to block this contact? You won't receive any messages from this contact." = "本当にこの相手先をブロックしますか ? この相手先からはメッセージが届きません。";
-"Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again.";
+"Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "この会話で交わされたすべてのメッセージを本当に消去しますか ? OMEMO を使用している場合、サーバーから再びロードすることさえできません。";
 "Do you really want to delete this key?" = "本当にこの鍵を削除してもいいですか ?";
 "Do you really want to disable encryption for this contact?" = "本当にこの相手先に対して暗号化を無効化してもいいですか ?";
-"Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!";
+"Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "本当に OMEMO セッションをリセットしますか ? 接続をリセットするのは、自分が何をしているのかわかっている場合にのみにしてください。";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?";
 "Doing a lot of work..." = "Doing a lot of work...";
 "Domain missing" = "ドメインがありません";
@@ -202,7 +202,7 @@
 "Enable encryption by default for new chats" = "新しい会話でデフォルトで暗号化を有効にする";
 "Enabled" = "有効";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "暗号化されたメッセージは、Monal が復号できない古い形式で送信されました。クライアントを更新するよう依頼してください。 (GCMエラー)";
-"Encrypted session to this device broken beyond repair." = "Encrypted session to this device broken beyond repair.";
+"Encrypted session to this device broken beyond repair." = "このデバイスへの暗号化されたセッションは修復不可能なほど壊れています。";
 "Encryption Keys" = "暗号化鍵";
 "Encryption Keys (OMEMO)" = "暗号化鍵 (OMEMO)";
 "Encryption Not Supported" = "暗号化に対応していません";
@@ -277,23 +277,23 @@
 "Group Members" = "グループのメンバー";
 /* placeholder when creating new group */
 "Group Name (optional)" = "グループ名 (任意)";
-"Group subject:" = "Group subject:";
+"Group subject:" = "グループの題:";
 "Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
 "Group/Channel not available anymore: %@" = "グループ/チャンネルはもう利用できません: %@";
 "groupJoin Group" = "groupJoin Group";
 "Hint" = "ヒント";
 "I already have an account:" = "すでにアカウントを持っています:";
 "I need an account:" = "アカウントが必要です:";
-"If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'.";
+"If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Monal が通知を表示できない場合、メッセージが到着してもアラートは表示されません。これは、Monal が最初に許可を求めたときに「拒否」をタップした場合に発生します。この問題を修正するには、iOS の 設定 -> Monal -> 通知 に移動し、「通知を許可」を選択します。";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "音声メッセージを使用したい場合は、[設定] -> [プライバシー] -> [マイク] でアクセスを許可する必要があります。";
-"Ignore" = "Ignore";
+"Ignore" = "無視";
 "Image Upload Quality" = "画像アップロードの品質";
 "Image Upload Quality: %.2f" = "画像アップロードの品質: %.2f";
 "Import and trust OMEMO fingerprints from QR code" = "QR コードから OMEMO 指紋を取り込み信用する";
 "Indicate when a particular device is active or inactive. Saves battery." = "特定のデバイスがいつアクティブであるか非アクティブであるかを示します。バッテリーを節約します。";
 "Input is not a valid jid" = "正しい JID ではありません";
-"Invalid Credentials!" = "Invalid Credentials!";
+"Invalid Credentials!" = "認証情報が正しくありません。";
 /* QR-Code-Scanner: invalid format */
 "Invalid format" = "形式が正しくありません";
 "Invalid Password!" = "パスワードが正しくありません。";
@@ -388,7 +388,7 @@
 /* Crash reporting */
 "No, thanks" = "いいえ、遠慮します";
 "None" = "なし";
-"Not Authorized. Please check your credentials." = "Not Authorized. Please check your credentials.";
+"Not Authorized. Please check your credentials." = "許可されませんでした。資格情報を確認してください。";
 "Notes to self" = "自分自身へのメモ";
 "Notes to self: %@" = "自分自身へのメモ: %@";
 "Notification" = "通知";
@@ -493,7 +493,7 @@
 "Retry sending message?" = "メッセージの送信を再度試みますか ?";
 "Rich Text" = "リッチテキスト";
 "Ringing..." = "Ringing...";
-"Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Salted Challenge Response Authentication Mechanism using the given Hash Method";
+"Salted Challenge Response Authentication Mechanism using the given Hash Method" = "指定されたハッシュ方式を使用したソルト付チャレンジレスポンス認証メカニズム";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding";
 "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "Saving changes to server" = "変更をサーバーに保存";
@@ -546,7 +546,7 @@
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "いくつかのメッセージが取得または送信を待機しているかもしれません。アプリを開いて再試行してください。";
 "Something went wrong while parsing the string..." = "Something went wrong while parsing the string...";
 "Sounds" = "サウンド";
-"Sounds courtesy Emrah" = "サウンドは Emrah さんのご厚意";
+"Sounds courtesy Emrah" = "通知音は Emrah さんのご厚意";
 "SRV entry prohibits XMPP connection for domain %@" = "SRV エントリーにより、ドメイン %@ の XMPP 接続が禁止されています";
 "Status" = "状況";
 "Status Message" = "状況メッセージ";
@@ -575,7 +575,7 @@
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "追加した人がリクエストを承認すると、新しい相手先が相手先一覧に追加されます。";
 "The password has been changed" = "パスワードは変更されました";
 /* QR-Code-Scanner: account scan wrong menu */
-"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode";
+"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "QR コードにはアカウントのログイン認証情報が含まれています。 「設定」->「新しいアカウント」に移動し、QR コードを再スキャンしてください";
 "The resource '%@' has the following capabilities:" = "リソース '%@' には次の機能があります:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "選択可能な XMPP サーバーは公開サーバーであり、Monal と提携しているものではありません。この登録ページは便宜のためにのみ提供されています。";
 "The server does not support blocking (XEP-0191)." = "サーバーはブロック (XEP-0191) に対応していません。";
@@ -682,7 +682,7 @@
 "We don't support any task requested by the server, account disabled: %@" = "We don't support any task requested by the server, account disabled: %@";
 "We don't support the single task requested by the server, account disabled: %@" = "We don't support the single task requested by the server, account disabled: %@";
 "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet." = "あなたのアカウントに接続できませんでした。証明書を確認し、インターネットに接続されていることを確認してください。";
-"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "あなたのアカウントに接続できませんでした。証明書を確認し、インターネットに接続されていることを確認してください。\n\n技術的エラーメッセージ: %@";
+"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "あなたのアカウントに接続できませんでした。認証情報を確認し、インターネットに接続されていることを確認してください。\n\n技術的エラーメッセージ: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs.";
 "Welcome" = "ようこそ";
 "What call do you want to place?" = "どのような通話をしたいですか ?";
