@@ -1,12 +1,12 @@
 /* server details */
-" running on %@" = " running on %@";
+" running on %@" = " działa na %@";
 "%02d:%02d (long press to abort)" = "%02d:%02d (długie naciśnięcie, aby przerwać)";
 "%@" = "%@";
 "%@ says:" = "%@ mówi:";
 /* server details */
-"<unknown server>" = "<unknown server>";
+"<unknown server>" = "<nieznany serwer>";
 /* server details */
-"<unknown version>" = "<unknown version>";
+"<unknown version>" = "<nieznana wersja>";
 "A contact was scanned through the QR code scanner" = "Kontakt został przeskanowany przez kod QR";
 "Abort" = "Anuluj";
 "Aborted recording audio" = "Przerwano nagrywanie dźwięku";
@@ -29,7 +29,7 @@
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Aby dodać nowe kontakty użyj \"+\" na górze. Twoi znajomi będą tu widoczni gdy będziecie mogli rozmawiać";
 "Add scanned Group/Channel or Contact" = "Dodaj przeskanowaną Grupę/Kanał lub Kontakt";
 "Add to contacts" = "Dodaj do kontaktów";
-"Adding Group/Channel..." = "Adding Group/Channel...";
+"Adding Group/Channel..." = "Dodaj Grupę/Kanał...";
 "Adding..." = "Dodawanie...";
 "Advanced Settings" = "Zaawansowane";
 "All messages already present in local history!" = "Wszystkie wiadomości już obecne w lokalnej historii!";
@@ -64,19 +64,19 @@
 "Blocking is not supported by the server" = "Blokowanie nie jest obsługiwane przez serwer";
 "Blocking/Unblocking Not Supported" = "Blokowanie/Odblokowywanie nie wspierane";
 "BODY" = "CIAŁO";
-"Call ended" = "Call ended";
+"Call ended" = "Rozmowa zakończona";
 "Call ended for an unknown reason" = "Rozmowa zakończona z nieznanego powodu";
 "Call ended, duration: %@" = "Rozmowa zakończona. Trwała: %@";
 "Call ended: answered with other device" = "Rozmowa zakończona: odebrana na innym urządzeniu";
-"Call ended: application error" = "Call ended: application error";
+"Call ended: application error" = "Rozmowa zakończona: błąd aplikacji";
 "Call ended: connection failed" = "Rozmowa zakończona: połączenie się nie udało";
-"Call ended: connection failed\nDuration: %@" = "Call ended: connection failed\nDuration: %@";
-"Call ended: couldn't establish encryption" = "Call ended: couldn't establish encryption";
+"Call ended: connection failed\nDuration: %@" = "Rozmowa zakończona: błąd połączenia\nCzas trwania: %@";
+"Call ended: couldn't establish encryption" = "Rozmowa zakończona: nie można włączyć szyfrowania";
 "Call ended: declined" = "Rozmowa zakończona: odrzucono";
 "Call ended: hung up" = "Rozmowa zakończona: rozłączono";
 "Call ended: remote busy" = "Rozmowa zakończona: zajęty";
-"Call security help" = "Call security help";
-"Call Type" = "Call Type";
+"Call security help" = "Pomoc bezpieczeństwa rozmowy";
+"Call Type" = "Typ Rozmowy";
 "Call was not answered" = "Rozmowa nie została odebrana";
 "Calls: Allow P2P sessions" = "Rozmowy: Pozwalaj na bezpośrednie połączenia P2P";
 "Calls: Allow TURN fallback to Monal-Servers" = "Rozmowy: Pozwalaj na serwer zapasowy TURN Monala";
@@ -87,14 +87,14 @@
 "Can't convert the image to jpeg format." = "Nie można przekonwertować obrazu do formatu jpeg.";
 "Cancel" = "Anuluj";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Nie można udostępnić czegoś wyłączonemu/usuniętemu kontu, miejsce docelowe: %1$@, identyfikator konta wewnętrznego: %2$@";
-"Caps hash: %@" = "Caps hash: %@";
+"Caps hash: %@" = "Skrót możliwości: %@";
 /* placeholder when creating account */
 "Captcha" = "Captcha";
-"Change Chat Background" = "Change Chat Background";
+"Change Chat Background" = "Zmień Tło Rozmowy";
 "Change Password" = "Zmień hasło";
 "Changing Password" = "Zmiana hasła";
 "Channel subject:" = "Temat kanału:";
-"Chat Background" = "Chat Background";
+"Chat Background" = "Tło Rozmowy";
 "Check type and size on " = "Sprawdź typ i rozmiar włączony ";
 "Clear Chat History" = "Usuń historię rozmów";
 "Clear chat history of this channel" = "Wyczyść historię rozmów w tym kanale";
@@ -111,10 +111,10 @@
 "Contact is not muted" = "Kontakt nie jest wyciszony";
 "Contact not found" = "Kontakt nie znaleziony";
 /* placeholder when adding jid */
-"Contact or Group/Channel Jid" = "Contact or Group/Channel Jid";
+"Contact or Group/Channel Jid" = "Jid Kontaktu, Grupy lub Kanału";
 "Contacts" = "Kontakty";
 "Cool Title" = "Świetny Tytuł";
-"Copied to clipboard" = "Copied to clipboard";
+"Copied to clipboard" = "Skopiowane do schowka";
 /* Chat msg action */
 "Copy" = "Kopiuj";
 "Copy link to clipboard" = "Skopiuj link do schowka";
@@ -144,8 +144,8 @@
 "Could not synchronize" = "Nie można zsynchronizować";
 "Could not upload file" = "Nie można przesłać pliku";
 /* Crash reporting */
-"Crash Detected" = "Crash Detected";
-"Create new group" = "Create new group";
+"Crash Detected" = "Wykryto Awarię";
+"Create new group" = "Stwórz nową grupę";
 "Creating invitation..." = "Tworzenie zaproszenia...";
 "Current Password" = "Aktualne hasło";
 "Currently Online" = "Obecnie Online";
@@ -185,20 +185,20 @@
 "Dont' trust Key" = "Nie ufaj kluczowi";
 "Download" = "Ściągnij";
 "Download error" = "Błąd pobierania";
-"Download Settings" = "Download Settings";
+"Download Settings" = "Ustawienia Pobierania";
 "Draft:" = "Projekt:";
 "Duplicate Account" = "Zduplikowane konto";
 "Duplicate Account!" = "To konto już istnieje!";
 "Duplicate jid!" = "Ten JID już istnieje!";
 /* Crash report error dialog */
-"E-Mail not enabled on device" = "E-Mail not enabled on device";
+"E-Mail not enabled on device" = "E-Mail nie jest włączony na tym urządzeniu";
 /* Chat msg action */
 "Edit" = "Edytować";
 "Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now.";
 /* Crash report error dialog */
-"Email Error" = "Email Error";
+"Email Error" = "Błąd Email";
 "Email Support" = "Wsparcie e-mail";
-"Empty Values!" = "Empty Values!";
+"Empty Values!" = "Puste Wartości!";
 "Enable encryption by default for new chats" = "Włącz szyfrowanie domyślnie dla nowych rozmów";
 "Enabled" = "Włączone";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "Zaszyfrowna wiadomość została wysłana w starszym formacie, którego Monal nie wspiera. Poproś kontakt o aktualizację używanego klienta. (GCM error)";
@@ -217,7 +217,7 @@
 "error" = "błąd";
 "Error adding contact or channel" = "Błąd dodawania kontaktu lub kanału";
 "Error decrypting message" = "Bład w trakcie odszyfrowywania wiadomości";
-"Error entering group/channel!" = "Error entering group/channel!";
+"Error entering group/channel!" = "Błąd dołączania do grupy/kanału!";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error handling SASL challenge of server (iteration count too low), disconnecting!";
 /* parenthesis should be verbatim */
@@ -273,10 +273,10 @@
 "General File Transfer Settings" = "Ogólne ustawienia przesyłania plików";
 "Got empty room config form for '%@'" = "Got empty room config form for '%@'";
 "GPS" = "GPS";
-"Green checkmark shield:" = "Green checkmark shield:";
+"Green checkmark shield:" = "Zielona tarcza:";
 "Group Members" = "Członkowie Grupy";
 /* placeholder when creating new group */
-"Group Name (optional)" = "Group Name (optional)";
+"Group Name (optional)" = "Nazwa Grupy (opcjonalnie)";
 "Group subject:" = "Temat grupy:";
 "Group/Channel got destroyed: %@" = "Grupa/kanał został zniszczony: %@";
 "Group/Channel not available anymore: %@" = "Grupa/kanał nie jest już dostępny: %@";
@@ -288,8 +288,8 @@
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Jeśli to jest wyłączone, Twoje urządzenie nie może aktywować push na serwerze xmpp, upewnij się, że skonfigurowałeś je do obsługi XEP-0357.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Jeśli chcesz używać wiadomości audio, musisz zezwolić na dostęp w Ustawienia-> Prywatność-> Mikrofon.";
 "Ignore" = "Ignoruj";
-"Image Upload Quality" = "Image Upload Quality";
-"Image Upload Quality: %.2f" = "Image Upload Quality: %.2f";
+"Image Upload Quality" = "Jakość Wysyłanych Obrazków";
+"Image Upload Quality: %.2f" = "Jakość Wysyłanych Obrazków: %.2f";
 "Import and trust OMEMO fingerprints from QR code" = "Zaimportuj i zaufaj odciskom OMEMO z kodu QR";
 "Indicate when a particular device is active or inactive. Saves battery." = "Pokazuj, gdy dane urządznie jest aktywne. Oszczędza baterię.";
 "Input is not a valid jid" = "Dane wejściowe nie są prawidłowym jid";
@@ -338,7 +338,7 @@
 "Manual input" = "Wprowadź ręcznie";
 "Mark as read" = "Oznacz jako przeczytane";
 "Me" = "Ja";
-"Media Upload & Download Settings" = "Media Upload & Download Settings";
+"Media Upload & Download Settings" = "Ustawienia Wysyłania & Pobierania Mediów";
 "Message Archive Preferences" = "Preferencje archiwizacji";
 "Message from %@" = "Wiadomość od %@";
 "Message was encrypted with '%@' which isn't supported by Monal" = "Wiadomość została zaszyfrowana za pomocą „%@”, co nie jest obsługiwane przez Monal";
@@ -373,7 +373,7 @@
 "No account available to handel 'xmpp:' URI!" = "Żadne konto nie wspiera łączy 'xmpp:'!";
 "No accounts set up currently" = "Nie ustawiono żadnych kont";
 "No connected accounts" = "Brak połączonych kont";
-"No contacts to show :(" = "No contacts to show :(";
+"No contacts to show :(" = "Nie masz kontaktów :(";
 "No Empty Values!" = "Bez Pustych Wartości!";
 "No enabled account found" = "Nie znaleziono aktywnego konta";
 "No further error description" = "Brak dalszych opisów błędów";
@@ -386,16 +386,16 @@
 "No XMPP server!" = "Brak serwera XMPP!";
 "No, keep encryption activated" = "Nie, zachowaj szyfrowanie włączone";
 /* Crash reporting */
-"No, thanks" = "No, thanks";
+"No, thanks" = "Nie, dzięki";
 "None" = "Nic";
 "Not Authorized. Please check your credentials." = "Nieautoryzowany. Sprawdź swoje dane uwierzytelniające.";
 "Notes to self" = "Notatki dla siebie";
 "Notes to self: %@" = "Notatki dla siebie: %@";
 "Notification" = "Powiadomienia";
 "Notifications" = "Powiadomienia";
-"Notifications disabled" = "Notifications disabled";
-"Notify on all messages" = "Notify on all messages";
-"Notify only when mentioned" = "Notify only when mentioned";
+"Notifications disabled" = "Powiadomienia wyłączone";
+"Notify on all messages" = "Powiadamiaj o wszystkich wiadomościach";
+"Notify only when mentioned" = "Powiadamiaj tylko przy wspomnieniach";
 "now" = "teraz";
 "Ok" = "Ok";
 /* Crash report error dialog */
@@ -407,18 +407,18 @@
 "Only shareable for now" = "Na razie można się tylko dzielić";
 "Open" = "Otwórz";
 "Open app to see more" = "Otwórz aplikację, aby zobaczyć więcej";
-"Open list of pending contact requests" = "Open list of pending contact requests";
+"Open list of pending contact requests" = "Otwórz listę oczekujących zapytań kontaktów";
 "Open Source" = "Otwarty kod źródłowy";
 "Optional Hardcoded Hostname" = "Opcjonalna hardkodowana nazwa hosta";
 "Optional Port" = "Opcjonalny port";
 "Own device key" = "Własny klucz";
-"Own Encryption Keys" = "Own Encryption Keys";
+"Own Encryption Keys" = "Własne Klucze Szyfrowania";
 /* placeholder when adding account
    placeholder when creating account
    placeholder when migrating account */
 "Password" = "Hasło";
 /* placeholder when creating account */
-"Password (repeated)" = "Password (repeated)";
+"Password (repeated)" = "Hasło (ponownie)";
 "Password cannot be empty" = "Hasło nie może być puste";
 "Password missing" = "Brak hasła";
 "Passwords don't match!" = "Hasła nie pasują!";
@@ -429,11 +429,11 @@
 "Please Allow Audio Access" = "Proszę udstępnić audio";
 "Please enter a password below before activating this account." = "Wprowadź poniżej hasło przed aktywacją tego konta.";
 "Please make sure at least one account has connected before trying to add a contact or channel." = "Upewnij się, że co najmniej jedno konto jest połączone, zanim spróbujesz dodać kontakt lub kanał.";
-"Please make sure at least one account has connected before trying to create new group." = "Please make sure at least one account has connected before trying to create new group.";
+"Please make sure at least one account has connected before trying to create new group." = "Proszę się upewnić, że chociaż jedno konto zostało połączone przed tworzeniem nowej grupy.";
 "Please make sure you are connected before changing your password." = "Upewnij się, że masz połączenie przed zmianą hasła.";
 "Please make sure you have entered a username, password." = "Upewnij się, że podałeś nazwę użytkownika i hasło.";
 "Please make sure you have entered a valid jid." = "Proszę upewnić się, że wpisano poprawny JID.";
-"Please make sure you have entered both a username and password." = "Please make sure you have entered both a username and password.";
+"Please make sure you have entered both a username and password." = "Proszę wpisać nazwę użytkownika oraz hasło.";
 "Please make sure you have entered the same password in both password fields." = "Proszę upewnić się, że wpisałeś to samo hasło w obydwu polach.";
 "Please provide a valid XMPP server domain or select one." = "Proszę wpisać poprawny serwer XMPP lub wybrać jakiś.";
 "Please select a XMPP server or provide one." = "Proszę wybrać serwer XMPP lub wpisać jakiś.";
@@ -444,7 +444,7 @@
 "Privacy Settings" = "Ustawienia prywatności";
 "Protocol support of your server (XEPs)" = "Informacje o serwerze";
 /* placeholder when creating account */
-"Provide XMPP-Server" = "Provide XMPP-Server";
+"Provide XMPP-Server" = "Podaj Serwer XMPP";
 "Pushserver Region" = "Lokalizacja serwera powiadomień";
 "QR code: Fingerprints found" = "QR kod: Znaleziono odciski";
 "QR-Code Scanner" = "Skaner kodów QR";
