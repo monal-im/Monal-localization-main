@@ -178,7 +178,7 @@
 "Do you really want to disable encryption for this contact?" = "本当にこの相手先に対して暗号化を無効化してもいいですか ?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "本当に OMEMO セッションをリセットしますか ? 接続をリセットするのは、自分が何をしているのかわかっている場合にのみにしてください。";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?";
-"Doing a lot of work..." = "Doing a lot of work...";
+"Doing a lot of work..." = "大量に処理中...";
 "Domain missing" = "ドメインがありません";
 "Don't trust Key" = "鍵を信用しない";
 "Done" = "完了";
@@ -328,8 +328,8 @@
 "Loading contact list" = "相手先一覧を読み込み中";
 "Loading Data" = "データを読み込み中";
 "Loading more Messages from Server" = "サーバーから追加のメッセージを読み込み中";
-"Loading omemo bundles" = "Loading omemo bundles";
-"Loading omemo bundles: %@ / %@" = "Loading omemo bundles: %1$@ / %2$@";
+"Loading omemo bundles" = "OMEMO 鍵束を読み込み中";
+"Loading omemo bundles: %@ / %@" = "OMEMO 鍵束を読み込み中: %1$@ / %2$@";
 "Location Access Needed" = "位置情報のアクセスが必要です";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "既存のアカウントにログインするか、新しいアカウントを登録します。必要に応じて、Monal の設定にさらに高度なオプションを見つけることができます。";
 "Logging in" = "ログイン中";
@@ -353,16 +353,16 @@
 "Missing Call Support" = "通話に対応していません";
 "Missing permission" = "権限がありません";
 "Monal" = "Monal";
-"Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!";
+"Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal は現在この鍵を信用していますが、指紋はまだ比較されていません。セキュリティを強化するため、この鍵を信頼する前に、表示された指紋が一致することを相手先に確認してください。";
 "Monal did not received a gps location. Please try again later." = "Monal は GPS 位置情報を受け取ることができませんでした。後でもう一度試してください。";
 "Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal は位置情報にアクセスできません。デバイスのプライバシー設定で、位置情報へのアクセスを更新してください。";
-"Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key.";
+"Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monalはこの鍵を信用していません。手動で無効にされたか、(その相手先の他の鍵は検証されているのにこの鍵は)手動で検証されなかったかのどちらかです。トグルスイッチでこの鍵を信用とすることができます。その前に、相手先と指紋が一致していることを確認してください。";
 /* Camera permissions missing warning */
 "Monal is not allowed to access the camera" = "Monal はカメラにアクセスする権限がありません";
 "Monal uses your location when you send a location message in a conversation." = "Monal は、会話中に位置メッセージを送信する際には、位置情報を使用します。";
 "Monal was not able to send your attachment!" = "Monal was not able to send your attachment!";
 "Monal was not able to send your attachment: %@" = "Monal was not able to send your attachment: %@";
-"More info?" = "More info?";
+"More info?" = "詳しい情報は";
 "Never archive" = "保管しない";
 "New Account" = "新しいアカウント";
 "New Message" = "新しいメッセージ";
