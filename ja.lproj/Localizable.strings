@@ -180,9 +180,9 @@
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?";
 "Doing a lot of work..." = "大量に処理中...";
 "Domain missing" = "ドメインがありません";
-"Don't trust Key" = "鍵を信用しない";
+"Don't trust Key" = "鍵を信頼しない";
 "Done" = "完了";
-"Dont' trust Key" = "鍵を信用しない";
+"Dont' trust Key" = "鍵を信頼しない";
 "Download" = "ダウンロード";
 "Download error" = "ダウンロードエラー";
 "Download Settings" = "ダウンロードの設定";
@@ -290,7 +290,7 @@
 "Ignore" = "無視";
 "Image Upload Quality" = "画像アップロードの品質";
 "Image Upload Quality: %.2f" = "画像アップロードの品質: %.2f";
-"Import and trust OMEMO fingerprints from QR code" = "QR コードから OMEMO 指紋を取り込み信用する";
+"Import and trust OMEMO fingerprints from QR code" = "QR コードから OMEMO 指紋を取り込み信頼する";
 "Indicate when a particular device is active or inactive. Saves battery." = "特定のデバイスがいつアクティブであるか非アクティブであるかを示します。バッテリーを節約します。";
 "Input is not a valid jid" = "正しい JID ではありません";
 "Invalid Credentials!" = "認証情報が正しくありません。";
@@ -344,7 +344,7 @@
 "Message was encrypted with '%@' which isn't supported by Monal" = "メッセージは Monal が対応していない '%@' で暗号化されました";
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "メッセージは OMEMO で暗号化されており、もう復号できません";
 "Message was encrypted with OMEMO but could not be decrypted" = "メッセージは OMEMO で暗号化されましたが、復号できませんでした";
-"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "メッセージはこのデバイス向けに暗号化されていませんでした。送信者がデバイス ID %u を信用していることを確認してください。";
+"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "メッセージはこのデバイス向けに暗号化されていませんでした。送信者がデバイス ID %u を信頼していることを確認してください。";
 "Messages are encrypted" = "メッセージは暗号化されます";
 "Messages are NOT encrypted" = "メッセージは暗号化されません";
 "Messages never archived by default." = "デフォルトでメッセージは保管されません。";
@@ -353,10 +353,10 @@
 "Missing Call Support" = "通話に対応していません";
 "Missing permission" = "権限がありません";
 "Monal" = "Monal";
-"Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal は現在この鍵を信用していますが、指紋はまだ比較されていません。セキュリティを強化するため、この鍵を信頼する前に、表示された指紋が一致することを相手先に確認してください。";
+"Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal は現在この鍵を信頼していますが、指紋はまだ比較されていません。セキュリティを強化するため、この鍵を信頼する前に、表示された指紋が一致することを相手先に確認してください。";
 "Monal did not received a gps location. Please try again later." = "Monal は GPS 位置情報を受け取ることができませんでした。後でもう一度試してください。";
 "Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal は位置情報にアクセスできません。デバイスのプライバシー設定で、位置情報へのアクセスを更新してください。";
-"Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monalはこの鍵を信用していません。手動で無効にされたか、(その相手先の他の鍵は検証されているのにこの鍵は)手動で検証されなかったかのどちらかです。トグルスイッチでこの鍵を信用とすることができます。その前に、相手先と指紋が一致していることを確認してください。";
+"Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monalはこの鍵を信頼していません。手動で無効にされたか、(その相手先の他の鍵は検証されているのにこの鍵は)手動で検証されなかったかのどちらかです。トグルスイッチでこの鍵を信頼とすることができます。その前に、相手先と指紋が一致していることを確認してください。";
 /* Camera permissions missing warning */
 "Monal is not allowed to access the camera" = "Monal はカメラにアクセスする権限がありません";
 "Monal uses your location when you send a location message in a conversation." = "Monal は、会話中に位置メッセージを送信する際には、位置情報を使用します。";
@@ -591,7 +591,7 @@
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "これらはログイン後に Monal がサーバーで検出した現代的な XMPP の機能です。";
 "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "これらは、サーバーが対応している SASL2 方式です (青色の欄は使用されるもの、オレンジ色の欄は Monal では非対応です)。";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "これらは、 Monal で対応している TLS バージョンです。サーバーへの接続に使用されるものは緑色になります。";
-"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "これらは暗号化鍵です。各デバイスはログインした場所が異なります。鍵を検証して、その鍵を信用する必要があります。指紋をダブルタップしてクリップボードにコピーします。";
+"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "これらは暗号化鍵です。各デバイスはログインした場所が異なります。鍵を検証して、その鍵を信頼する必要があります。指紋をダブルタップしてクリップボードにコピーします。";
 "They will no longer see when you are online. They may not be able to access your encryption keys." = "あなたがオンラインでも、他人には見えません。他人はあなたの暗号化鍵にアクセスできない可能性があります。";
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "あなたがオンラインでも、他人には見えません。他人は暗号化されたメッセージを送信できない場合があります。";
 "They will see when you are online. They will be able to send you encrypted messages." = "They will see when you are online. They will be able to send you encrypted messages.あなたがオンラインのとき、他人に見えます。他人は暗号化されたメッセージを送信できます。";
@@ -608,9 +608,9 @@
 "This invitation will expire on %@" = "この招待は %@ に期限切れになります";
 "This is the software running on your server." = "これはサーバーで実行されているソフトウェアです。";
 "This key belongs to this device and cannot be removed or disabled!" = "この鍵はこのデバイスに属しており、除去したり無効にしたりすることはできません。";
-"This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "この鍵は信用されており、手動で指紋を比較することにより検証されています。この鍵の信用を止めるには、トグルスイッチを使用します。";
-"This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "この鍵は信用されていますが、相手先はすでにこれを使用していません。この鍵の信用を無効にすることを検討してください。";
-"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "この鍵は信用されていますが、相手先は長い間これを使用していません。この鍵の信用を無効にすることを検討してください。";
+"This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "この鍵は信頼されており、手動で指紋を比較することにより検証されています。この鍵の信頼を止めるには、トグルスイッチを使用します。";
+"This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "この鍵は信頼されていますが、相手先はすでにこれを使用していません。この鍵の信頼を無効にすることを検討してください。";
+"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "この鍵は信頼されていますが、相手先は長い間これを使用していません。この鍵の信頼を無効にすることを検討してください。";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "これは、OMEMO 暗号化を使って、通話が暗号化され相手が検証されたことを意味します。\nしかし着信側の OMEMO 指紋を手動で検証していないため、自分または着信側の XMPP サーバーは中間者攻撃の OMEMO 鍵を挿入された可能性があります。";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "これは、OMEMO 暗号化を使って、通話が暗号化され相手が検証されたことを意味します。\n使用された OMEMO 鍵を手動で検証したため、中間者攻撃が行われることはありません。";
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you.";
@@ -634,10 +634,10 @@
 "TLS Error: Host name mismatch" = "TLS エラー: ホスト名の不一致";
 "TLS Error: Unknown root certificate" = "TLS エラー: 不明なルート証明書";
 "Trust Key" = "Trust Key";
-"Trusted and verified key" = "信用され検証された鍵";
-"Trusted but removed key" = "信用されているが除去された鍵";
-"Trusted but unused key" = "信用されているが未使用の鍵";
-"Trusted but unverified key" = "信用されているが未検証の鍵";
+"Trusted and verified key" = "信頼され検証された鍵";
+"Trusted but removed key" = "信頼されているが除去された鍵";
+"Trusted but unused key" = "信頼されているが未使用の鍵";
+"Trusted but unverified key" = "信頼されているが未検証の鍵";
 "Try nevertheless" = "あえて試みる";
 "Type: %@" = "タイプ: %@";
 "Typing..." = "タイプ中...";
@@ -657,7 +657,7 @@
 "Unknown channel-binding type" = "不明なチャネルバインディングのタイプ";
 "Unread Messages Below" = "以下の未読メッセージ";
 "unsupported" = "非対応";
-"Untrusted key" = "信用されていない鍵";
+"Untrusted key" = "信頼されていない鍵";
 "Upload Error" = "アップロードエラー";
 "Upload Error: your account got disconnected while requesting upload slot" = "Upload Error: your account got disconnected while requesting upload slot";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "ファイルをサーバーにアップロードして他の人と共有します。 (サーバーによるファイルの最大許容サイズ: %@)";
@@ -733,7 +733,7 @@
 "You need friends for this ride" = "You need friends for this ride";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "他の人に自分の声を聞いてもらいたい場合、iOS の [設定] -> [プライバシー] -> [マイク] でマイクへのアクセスを許可する必要があります。";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Monal の iCloud バックアップを復元しました。アプリを開いてこのアカウントをもう一度有効にしてください。";
-"You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "鍵を検証して、その鍵を信用する必要があります。以下の鍵と相手先の画面上の鍵を比較して検証してください。指紋をダブルタップしてクリップボードにコピーします。";
+"You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "鍵を検証して、その鍵を信頼する必要があります。以下の鍵と相手先の画面上の鍵を比較して検証してください。指紋をダブルタップしてクリップボードにコピーします。";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "相手先 '%@' に電話をかけようとしましたが、この相手先が相手先一覧に見つかりませんでした。";
 "You will no longer receive messages from this conversation" = "今後この会話からのメッセージは受け取りません";
 "You will receive subsequent messages from this conversation" = "この会話から後続のメッセージを受け取ります";
