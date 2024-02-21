@@ -232,12 +232,12 @@
 "Error: No contacts to display keys for!" = "エラー: 鍵を表示する相手先がありません。";
 "Error: Received OMEMO message is empty" = "エラー: 受信した OMEMO メッセージは空です";
 "Failed to block contact %@" = "contact %@ のブロックに失敗しました";
-"Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
-"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@' の '%1$@' の分掌を '%3$@' に変更できませんでした: 時間切れ";
+"Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@' での '%1$@' の分掌を '%3$@' に変更できませんでした";
+"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@' での '%1$@' の分掌を '%3$@' に変更できませんでした: 時間切れ";
 "Failed to copy downloaded file into cache directory" = "ダウンロードしたファイルのキャッシュディレクトリへのコピーに失敗しました";
 "Failed to create invitation for %@" = "%@ の招待の作成に失敗しました";
 "Failed to create invitation, unknown error: %@" = "招待の作成に失敗しました。未知のエラー: %@";
-"Failed to decode download link" = "Failed to decode download link";
+"Failed to decode download link" = "ダウンロードリンクのデコードに失敗しました";
 "Failed to decode encrypted link" = "暗号化されたリンクのデコードに失敗しました";
 "Failed to decrypt download" = "ダウンロードの復号に失敗しました";
 "Failed to decrypt filetransfer" = "ファイル転送の復号に失敗しました";
@@ -250,11 +250,11 @@
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "グループ/チャンネル %@ への参加に失敗しました: これはグループ/チャンネルではありません。";
 "Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "ブロック一覧の読み込みに失敗しました";
-"Failed to parse URL returned by HTTP upload server" = "Failed to parse URL returned by HTTP upload server";
+"Failed to parse URL returned by HTTP upload server" = "HTTP アップロードサーバーから返された URL の解析に失敗しました";
 "Failed to publish avatar image for group/channel %@" = "グループ/チャンネル %@ のアバター画像の公開に失敗しました";
 "Failed to publish own avatar" = "自身のアバターの公開に失敗しました";
 "Failed to publish own nickname" = "自身のニックネームの公開に失敗しました";
-"Failed to query for new messages on account %@" = "Failed to query for new messages on account %@";
+"Failed to query for new messages on account %@" = "account %@ の新しいメッセージへのクエリに失敗しました。";
 "Failed to query new messages for Group/Channel (catchup) %@" = "Failed to query new messages for Group/Channel (catchup) %@";
 "Failed to query new messages for Group/Channel (stanzaid) %@" = "Failed to query new messages for Group/Channel (stanzaid) %@";
 "Failed to query newest stanzaid for account %@" = "Failed to query newest stanzaid for account %@";
@@ -382,7 +382,7 @@
 "No one is here" = "ここには誰もいません";
 "No pending requests" = "保留中のリクエストはありません";
 "No search result." = "検索結果がありません。";
-"No supported auth mechanism found, disabling account!" = "No supported auth mechanism found, disabling account!";
+"No supported auth mechanism found, disabling account!" = "対応している認証メカニズムが見つかりません。アカウントを無効にします。";
 "No XMPP server!" = "XMPP サーバーがありません。";
 "No, keep encryption activated" = "いいえ、暗号化を有効のままにします";
 /* Crash reporting */
@@ -439,7 +439,7 @@
 "Please select a XMPP server or provide one." = "XMPP サーバーを選択するか、指定してください。";
 "Please update!" = "更新してください !";
 "Port" = "ポート";
-"Port: %@, Direct TLS: %@, Priority: %@" = "Port: %1$@, Direct TLS: %2$@, Priority: %3$@";
+"Port: %@, Direct TLS: %@, Priority: %@" = "ポート: %1$@, Direct TLS: %2$@, 優先度: %3$@";
 "Privacy" = "プライバシー";
 "Privacy Settings" = "プライバシー設定";
 "Protocol support of your server (XEPs)" = "サーバーが対応しているプロトコル (XEP)";
@@ -494,7 +494,7 @@
 "Rich Text" = "リッチテキスト";
 "Ringing..." = "Ringing...";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "指定されたハッシュ方式を使用したソルト付チャレンジレスポンス認証メカニズム";
-"Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding";
+"Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "チャネルバインディングによって追加的に保護された、指定されたハッシュ方式を使用したソルト付チャレンジレスポンス認証メカニズム";
 "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "Saving changes to server" = "変更をサーバーに保存";
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
@@ -502,7 +502,7 @@
 "Scroll down to load more messages" = "スクロールダウンして追加のメッセージを読み込む";
 /* placeholder in contact picker */
 "Search contacts" = "相手先を検索";
-"Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections.";
+"Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "TLS1.3 と一部の TLS1.2 接続に対して定義された安全なチャネルバインディング。";
 "Select a background to display behind conversations with %@" = "%@ との会話の背後に表示する背景を選択してください";
 "Select a default background to display behind conversations." = "会話の背後に表示するデフォルトの背景を選択してください。";
 "Select Action" = "所作を選択";
@@ -511,7 +511,7 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "新しいメッセージの通知で再生されるサウンドを選択してください。デフォルトは Xylophone です。";
 "Selected Group Members" = "選択されたグループメンバー";
 "Send" = "送信";
-"Send Last Interaction Time" = "Send Last Interaction Time";
+"Send Last Interaction Time" = "最終の交流の時間を送信";
 "Send Location" = "位置情報を送信";
 "Send message received state" = "メッセージ受領を送信";
 "Send Typing Notifications" = "タイピング通知を送信";
@@ -544,7 +544,7 @@
 "Show shared Media and Files" = "共有メディアとファイルを表示";
 "Show URL previews" = "URL プレビューを表示";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "いくつかのメッセージが取得または送信を待機しているかもしれません。アプリを開いて再試行してください。";
-"Something went wrong while parsing the string..." = "Something went wrong while parsing the string...";
+"Something went wrong while parsing the string..." = "文字列の解析中に問題が発生しました...";
 "Sounds" = "サウンド";
 "Sounds courtesy Emrah" = "通知音は Emrah さんのご厚意";
 "SRV entry prohibits XMPP connection for domain %@" = "SRV エントリーにより、ドメイン %@ の XMPP 接続が禁止されています";
@@ -605,20 +605,20 @@
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "この相手先は OMEMO 暗号化メッセージに対応していない可能性があります。数秒後にもう一度試してください。";
 /* Crash report error dialog */
 "This device is not configured to send email." = "このデバイスは電子メールを送信するように調整されていません。";
-"This invitation will expire on %@" = "This invitation will expire on %@";
+"This invitation will expire on %@" = "この招待は %@ に期限切れになります";
 "This is the software running on your server." = "これはサーバーで実行されているソフトウェアです。";
 "This key belongs to this device and cannot be removed or disabled!" = "この鍵はこのデバイスに属しており、除去したり無効にしたりすることはできません。";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "この鍵は信用されており、手動で指紋を比較することにより検証されています。この鍵の信用を止めるには、トグルスイッチを使用します。";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "この鍵は信用されていますが、相手先はすでにこれを使用していません。この鍵の信用を無効にすることを検討してください。";
 "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "この鍵は信用されていますが、相手先は長い間これを使用していません。この鍵の信用を無効にすることを検討してください。";
-"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you.";
-"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place.";
+"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "これは、OMEMO 暗号化を使って、通話が暗号化され相手が検証されたことを意味します。\nしかし着信側の OMEMO 指紋を手動で検証していないため、自分または着信側の XMPP サーバーは中間者攻撃の OMEMO 鍵を挿入された可能性があります。";
+"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "これは、OMEMO 暗号化を使って、通話が暗号化され相手が検証されたことを意味します。\n使用された OMEMO 鍵を手動で検証したため、中間者攻撃が行われることはありません。";
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you.";
 "This message failed to send (%@): %@" = "このメッセージは送信に失敗しました (%1$@): %2$@";
 "This message got retracted" = "このメッセージは撤回されました";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "このサーバーは HTTP ファイルのアップロード (XEP-0363) に対応していないようです。管理者に有効化を依頼してください。";
 "This server does not have any SRV records in DNS." = "このサーバーは DNS に SRV レコードがありません。";
-"This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer.";
+"This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "このサーバーは、TLS 層での MITM 攻撃から保護するための最近のチャネルバインディングに対応していません。";
 "This server does not support modern SASL2 authentication." = "このサーバーは現代的な SASL2 認証に対応していません。";
 "This should never happen, please contact the developers and provide a logfile!" = "このようなことは決して起こらないはずです。開発者に連絡してログファイルを提供してください。";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account.";
@@ -639,7 +639,7 @@
 "Trusted but unused key" = "信用されているが未使用の鍵";
 "Trusted but unverified key" = "信用されているが未検証の鍵";
 "Try nevertheless" = "あえて試みる";
-"Type: %@" = "Type: %@";
+"Type: %@" = "タイプ: %@";
 "Typing..." = "タイプ中...";
 "Unable to connect to server!" = "サーバーに接続できません。";
 "Unblock Contact" = "相手先をブロック解除";
@@ -654,8 +654,8 @@
 "Unexpected server response: missing required fields in PEP config form" = "Unexpected server response: missing required fields in PEP config form";
 "unknown" = "不明";
 "Unknown authentication method" = "不明な認証方法";
-"Unknown channel-binding type" = "Unknown channel-binding type";
-"Unread Messages Below" = "Unread Messages Below";
+"Unknown channel-binding type" = "不明なチャネルバインディングのタイプ";
+"Unread Messages Below" = "以下の未読メッセージ";
 "unsupported" = "非対応";
 "Untrusted key" = "信用されていない鍵";
 "Upload Error" = "アップロードエラー";
