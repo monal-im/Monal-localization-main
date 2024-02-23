@@ -7,7 +7,7 @@
 "<unknown server>" = "<Unbekannter Server>";
 /* server details */
 "<unknown version>" = "<Unbekannte Version>";
-"<unknown>" = "<unknown>";
+"<unknown>" = "<Unbekannt>";
 "A contact was scanned through the QR code scanner" = "Ein Kontakt wurde mit dem QR-Code Scanner gescannt";
 "Abort" = "Abbrechen";
 "Aborted recording audio" = "Sprachaufnahme abgebrochen";
@@ -32,19 +32,19 @@
 "Add to contacts" = "Zu Kontakten hinzufügen";
 "Adding Group/Channel..." = "Hinzufügen von Gruppenchat/Channel...";
 "Adding..." = "Hinzufügen...";
-"Admin" = "Admin";
+"Admin" = "Administrator";
 "Advanced Settings" = "Erweiterte Einstellungen";
 "All messages are archived by default." = "Alle Nachrichten werden standardmäßig archiviert.";
-"All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
+"All messages fetched successfully, there are no more left on the server!" = "Alle Nachrichten wurden erfolgreich abgerufen, es befinden sich keine mehr auf dem Server!";
 "Allow" = "Erlauben";
 "Allow approved contacts to query my Monal and iOS version" = "Abfrage meiner Monal- und iOS-Version durch genehmigte Kontakte zulassen";
-"Allow contacts not in my Contact list to contact me" = "Allow contacts not in my Contact list to contact me";
+"Allow contacts not in my Contact list to contact me" = "Kontakte, die nicht in meiner Kontaktliste enthalten sind, können mich kontaktieren";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Wenn du jemandem erlaubst, dich als Kontakt hinzuzufügen, kann er dein Profilbild sehen und weiß, wann du online bist.";
 "Already present" = "Bereits vorhanden";
 "Already uploading this content, ignoring" = "Dieser Inhalt wird bereits hochgeladen, ignorieren";
 "Always archive" = "Immer archivieren";
 "Always use direct TLS, not STARTTLS" = "Immer Direct TLS verwenden";
-"App" = "Anwendung";
+"App" = "App";
 "Apple Push Service" = "Apple Push-Dienst";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Apple Push-Dienst sollte immer aktiviert sein. Wenn er deaktiviert ist, kann dein Gerät nicht mit den Apple-Servern sprechen.";
 "Apple Push Token" = "Apple Push-Token";
@@ -147,7 +147,7 @@
 /* Crash reporting */
 "Crash Detected" = "Absturz erkannt";
 "Create new group" = "Neue Gruppe erstellen";
-"Creating Group" = "Creating Group";
+"Creating Group" = "Gruppe wird erstellt";
 "Creating invitation..." = "Einladung erstellen...";
 "Current Password" = "Aktuelles Passwort";
 "Currently Online" = "Aktuell online";
@@ -270,7 +270,7 @@
 "File" = "Datei";
 "filename" = "Dateiname";
 "Files" = "Dateien";
-"Finished fetching messages" = "Finished fetching messages";
+"Finished fetching messages" = "Abruf der Nachrichten beendet";
 "General" = "Allgemein";
 "General File Transfer Settings" = "Allgemeine Dateiübertragungseinstellungen";
 "Got empty room config form for '%@'" = "Leere Raumkonfiguration für '%@' erhalten";
@@ -308,8 +308,8 @@
 "Join Group" = "Gruppe beitreten";
 "Just seen" = "Gerade gesehen";
 "Keys of %@" = "Schlüssel von %@";
-"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
-"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
+"Kicked from group/channel, because of system shutdown: %@" = "Aus der Gruppe/dem Channel geworfen, weil das System heruntergefahren wurde: %@";
+"Kicked, because group/channel is now members-only: %@" = "Rausgeworfen, weil die Gruppe/Channel jetzt nur noch für Mitglieder zugänglich ist: %@";
 "Last seen: %@" = "Zuletzt gesehen: %@";
 "Last seen: %d days ago" = "Zuletzt gesehen: vor %d Tagen";
 "Last seen: %d hours ago" = "Zuletzt gesehen: vor %d Stunden";
@@ -341,7 +341,7 @@
 "Mark as read" = "Als gelesen markieren";
 "Me" = "Ich";
 "Media Upload & Download Settings" = "Medien-Upload & Download-Einstellungen";
-"Member" = "Member";
+"Member" = "Mitglied";
 "Message Archive Preferences" = "Nachrichtenarchivierung";
 "Message from %@" = "Nachricht von %@";
 "Message was encrypted with '%@' which isn't supported by Monal" = "Nachricht wurde mit '%@' verschlüsselt, was von Monal nicht unterstützt wird";
@@ -410,15 +410,15 @@
 "Only shareable for now" = "Vorerst nur teilbar";
 "Open" = "Öffnen";
 "Open app to see more" = "App öffnen, um mehr zu sehen";
-"Open contact list" = "Open contact list";
+"Open contact list" = "Kontaktliste öffnen";
 "Open list of pending contact requests" = "Liste der ausstehenden Kontaktanfragen öffnen";
 "Open Source" = "Quelloffen";
 "Optional Hardcoded Hostname" = "Optionaler hardcodierter Hostname";
 "Optional Port" = "Optionaler Port";
-"Outcast" = "Outcast";
+"Outcast" = "Ausgeschlossen";
 "Own device key" = "Eigener Geräteschlüssel";
 "Own Encryption Keys" = "Eigene Schlüssel";
-"Owner" = "Owner";
+"Owner" = "Eigentümer";
 /* placeholder when adding account
    placeholder when creating account
    placeholder when migrating account */
@@ -661,7 +661,7 @@
 "unknown" = "Unbekannt";
 "Unknown authentication method" = "Unbekannte Authentifizierungsmethode";
 "Unknown channel-binding type" = "Unbekannter Kanalbindungstyp";
-"Unknown error!" = "Unknown error!";
+"Unknown error!" = "Unbekannter Fehler!";
 "Unread Messages Below" = "Ungelesene Nachrichten unten";
 "unsupported" = "Nicht unterstützt";
 "Untrusted key" = "Nicht vertrauenswürdiger Schlüssel";
@@ -734,9 +734,9 @@
 "You are set up and connected. People can message you at: %@@%@" = "Du hast alles eingerichtet und bist verbunden. Man kann dir eine Nachricht senden an: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "Du versuchst, '%@' (%@) anzurufen, aber dieser Kontakt kann über verschiedene Konten erreicht werden. Bitte wähle das Konto aus, über das du den ausgehenden Anruf tätigen möchtest.";
 "You did not grant Monal to access your location." = "Du hast Monal nicht erlaubt, auf deinen Standort zuzugreifen.";
-"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
-"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
-"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
+"You got banned from group/channel: %@" = "Du wurdest aus der Gruppe/Channel ausgeschlossen: %@";
+"You got kicked from group/channel: %@" = "Du wurdest aus der Gruppe/Channel geworfen: %@";
+"You got removed from group/channel: %@" = "Du wurdest aus der Gruppe/Channel entfernt: %@";
 "You have not entered your XMPP ID yet" = "Du hast deine XMPP-ID noch nicht eingegeben";
 "You need friends for this ride" = "Du brauchst Freunde für diese Tour";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Wenn du möchtest, dass andere dich hören können, musst du den Mikrofonzugriff unter iOS Einstellungen > Datenschutz > Mikrofon erlauben.";
@@ -764,7 +764,7 @@
 "📍 A Location" = "📍 Ein Standort";
 "📷 An Image" = "📷 Ein Bild";
 "🔗 A Link" = "🔗 Ein Link";
-"Change Group Members" = "Change Group Members";
-"Channel Members" = "Channel Members";
-"Copy invitation link to clipboard" = "Copy invitation link to clipboard";
-"Error creating group!" = "Error creating group!";
+"Change Group Members" = "Gruppenmitglieder ändern";
+"Channel Members" = "Channel-Mitglieder";
+"Copy invitation link to clipboard" = "Einladungslink in die Zwischenablage kopieren";
+"Error creating group!" = "Fehler beim Erstellen der Gruppe!";
