@@ -12,6 +12,7 @@
 "<unknown server>" = "<unknown server>";
 /* server details */
 "<unknown version>" = "<unknown version>";
+"<unknown>" = "<unknown>";
 "A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
 "Abort" = "Abort";
 "About" = "About";
@@ -35,11 +36,13 @@
 "Add to contacts" = "Add to contacts";
 "Adding Group/Channel..." = "Adding Group/Channel...";
 "Adding..." = "Adding...";
+"Admin" = "Admin";
 "Advanced Settings" = "Advanced Settings";
-"All messages already present in local history!" = "All messages already present in local history!";
 "All messages are archived by default." = "All messages are archived by default.";
+"All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
 "Allow" = "Allow";
 "Allow approved contacts to query my Monal and iOS version" = "Allow approved contacts to query my Monal and iOS version";
+"Allow contacts not in my Contact list to contact me" = "Allow contacts not in my Contact list to contact me";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
 "Already present" = "Already present";
 "Always archive" = "Always archive";
@@ -88,8 +91,10 @@
 /* placeholder when creating account */
 "Captcha" = "Captcha";
 "Change Chat Background" = "Change Chat Background";
+"Change Group Members" = "Change Group Members";
 "Change Password" = "Change Password";
 "Changing Password" = "Changing Password";
+"Channel Members" = "Channel Members";
 "Channel subject:" = "Channel subject:";
 "Chat Background" = "Chat Background";
 "Check type and size on " = "Check type and size on ";
@@ -114,7 +119,7 @@
 "Copied to clipboard" = "Copied to clipboard";
 /* Chat msg action */
 "Copy" = "Copy";
-"Copy link to clipboard" = "Copy link to clipboard";
+"Copy invitation link to clipboard" = "Copy invitation link to clipboard";
 "Copy to clipboard" = "Copy to clipboard";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Could not access camera";
@@ -132,6 +137,7 @@
 /* Crash reporting */
 "Crash Detected" = "Crash Detected";
 "Create new group" = "Create new group";
+"Creating Group" = "Creating Group";
 "Creating invitation..." = "Creating invitation...";
 "Current Password" = "Current Password";
 "Currently Online" = "Currently Online";
@@ -148,7 +154,6 @@
 "Deny new contact" = "Deny new contact";
 "Device ID: " = "Device ID: ";
 "DeviceID: " = "DeviceID: ";
-"Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list." = "Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list.";
 "Disable Encryption" = "Disable Encryption";
 "Disable encryption?" = "Disable encryption?";
 "Discovering devices..." = "Discovering devices...";
@@ -196,6 +201,7 @@
 "Error" = "Error";
 "Error Removing Account" = "Error Removing Account";
 "Error adding contact or channel" = "Error adding contact or channel";
+"Error creating group!" = "Error creating group!";
 "Error entering group/channel!" = "Error entering group/channel!";
 "Error: %@" = "Error: %@";
 "Error: Account disabled, can not display keys!" = "Error: Account disabled, can not display keys!";
@@ -205,6 +211,7 @@
 "Fetching registration form..." = "Fetching registration form...";
 "File" = "File";
 "Files" = "Files";
+"Finished fetching messages" = "Finished fetching messages";
 "GPS" = "GPS";
 "General" = "General";
 "General File Transfer Settings" = "General File Transfer Settings";
@@ -261,6 +268,7 @@
 "Mark as read" = "Mark as read";
 "Me" = "Me";
 "Media Upload & Download Settings" = "Media Upload & Download Settings";
+"Member" = "Member";
 "Message Archive Preferences" = "Message Archive Preferences";
 "Message from %@" = "Message from %@";
 "Messages are NOT encrypted" = "Messages are NOT encrypted";
@@ -316,11 +324,14 @@
 "Only shareable for now" = "Only shareable for now";
 "Open" = "Open";
 "Open Source" = "Open Source";
+"Open contact list" = "Open contact list";
 "Open list of pending contact requests" = "Open list of pending contact requests";
 "Optional Hardcoded Hostname" = "Optional Hardcoded Hostname";
 "Optional Port" = "Optional Port";
+"Outcast" = "Outcast";
 "Own Encryption Keys" = "Own Encryption Keys";
 "Own device key" = "Own device key";
+"Owner" = "Owner";
 /* placeholder when adding account\n   placeholder when creating account\n   placeholder when migrating account */
 "Password" = "Password";
 /* placeholder when creating account */
@@ -508,6 +519,7 @@
 "Undefined error" = "Undefined error";
 "Unknown authentication method" = "Unknown authentication method";
 "Unknown channel-binding type" = "Unknown channel-binding type";
+"Unknown error!" = "Unknown error!";
 "Unread Messages Below" = "Unread Messages Below";
 "Untrusted key" = "Untrusted key";
 "Upload Settings" = "Upload Settings";
@@ -607,7 +619,6 @@
 "Audio Recoder set active error: %@" = "Audio Recoder set active error: %@";
 "Audio Recoder set category error: %@" = "Audio Recoder set category error: %@";
 "Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
-"Could fetch room config form from '%@': timeout" = "Could fetch room config form from '%@': timeout";
 "Could not access Finder item!" = "Could not access Finder item!";
 "Could not change password" = "Could not change password";
 "Could not change password: your account is currently not connected" = "Could not change password: your account is currently not connected";
@@ -669,8 +680,8 @@
 "Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
 "Group/Channel not available anymore: %@" = "Group/Channel not available anymore: %@";
 "Just seen" = "Just seen";
-"Kicked, because muc is now members-only: %@" = "Kicked, because muc is now members-only: %@";
-"Kicked, because of system shutdown: %@" = "Kicked, because of system shutdown: %@";
+"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
+"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
 "Last seen: %d days ago" = "Last seen: %d days ago";
 "Last seen: %d hours ago" = "Last seen: %d hours ago";
 "Last seen: %d minutes ago" = "Last seen: %d minutes ago";
@@ -750,6 +761,7 @@
 "XMPP Roster Error" = "XMPP Roster Error";
 "XMPP stream error %@: %@" = "XMPP stream error %1$@: %2$@";
 "XMPP stream error: %@" = "XMPP stream error: %@";
-"You got banned from: %@" = "You got banned from: %@";
-"You got kicked from: %@" = "You got kicked from: %@";
+"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
+"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
+"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "You restored an iCloud backup of Monal, please open the app to reenable this account.";

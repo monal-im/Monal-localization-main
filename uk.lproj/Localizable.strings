@@ -7,6 +7,7 @@
 "<unknown server>" = "<невідомий сервер>";
 /* server details */
 "<unknown version>" = "<невідома версія>";
+"<unknown>" = "<unknown>";
 "A contact was scanned through the QR code scanner" = "Контакт було відскановано за допомогою сканера QR-коду";
 "Abort" = "Скасувати";
 "Aborted recording audio" = "Перервано запис аудіо";
@@ -31,11 +32,13 @@
 "Add to contacts" = "Додати в контакти";
 "Adding Group/Channel..." = "Додавання групи/каналу...";
 "Adding..." = "Додавання...";
+"Admin" = "Admin";
 "Advanced Settings" = "Розширені налаштування";
-"All messages already present in local history!" = "Всі повідомлення вже присутні в локальній історії!";
 "All messages are archived by default." = "Всі повідомлення архівуються за замовчуванням.";
+"All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
 "Allow" = "Дозволити";
 "Allow approved contacts to query my Monal and iOS version" = "Дозволити затвердженим контактам запитувати мою та iOS версію Monal";
+"Allow contacts not in my Contact list to contact me" = "Allow contacts not in my Contact list to contact me";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Дозволивши комусь додати вас до контактів, вони зможуть бачити зображення вашого профілю і те, коли ви перебуваєте в мережі.";
 "Already present" = "Вже присутні";
 "Already uploading this content, ignoring" = "Вже завантажую цей контент, ігнорую";
@@ -117,10 +120,8 @@
 "Copied to clipboard" = "Скопійовано в буфер обміну";
 /* Chat msg action */
 "Copy" = "Копіювати";
-"Copy link to clipboard" = "Скопіювати посилання в буфер обміну";
 "Copy to clipboard" = "Скопіювати в буфер обміну";
 "Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
-"Could fetch room config form from '%@': timeout" = "Could fetch room config form from '%@': timeout";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Не вдалося отримати доступ до камери";
 "Could not access Finder item!" = "Не вдалося отримати доступ до елемента Finder!";
@@ -146,6 +147,7 @@
 /* Crash reporting */
 "Crash Detected" = "Виявлено збій";
 "Create new group" = "Створити нову групу";
+"Creating Group" = "Creating Group";
 "Creating invitation..." = "Створення запрошення...";
 "Current Password" = "Поточний пароль";
 "Currently Online" = "Наразі онлайн";
@@ -164,7 +166,6 @@
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Виявлено триваючу MITM-атаку через SSDP, перервано автентифікацію та вимкнено обліковий запис, щоб обмежити шкоду. Вам слід увімкнути обліковий запис, як тільки ви знову опинитеся в чистому мережевому середовищі.";
 "Device ID: " = "Device ID: ";
 "DeviceID: " = "DeviceID: ";
-"Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list." = "Перенаправте вашого друга на цю веб-сторінку, щоб отримати інструкції з налаштування xmpp-клієнта. Після цього вас буде автоматично додано до його списку контактів.";
 "Disable Encryption" = "Вимкнути шифрування";
 "Disable encryption?" = "Вимкнути шифрування?";
 "Discovering devices..." = "Виявлення пристроїв...";
@@ -269,6 +270,7 @@
 "File" = "Файл";
 "filename" = "filename";
 "Files" = "Файли";
+"Finished fetching messages" = "Finished fetching messages";
 "General" = "Головне";
 "General File Transfer Settings" = "Загальні налаштування передачі файлів";
 "Got empty room config form for '%@'" = "Got empty room config form for '%@'";
@@ -306,8 +308,8 @@
 "Join Group" = "Приєднатися до групи";
 "Just seen" = "Щойно заходив";
 "Keys of %@" = "Ключі %@";
-"Kicked, because muc is now members-only: %@" = "Викинуто, тому що MUC тепер доступний лише для учасників: %@";
-"Kicked, because of system shutdown: %@" = "Викинуто, через вимкнення системи: %@";
+"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
+"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
 "Last seen: %@" = "В останнє заходив(-ла): %@";
 "Last seen: %d days ago" = "В останнє заходив(-ла): %d днів тому";
 "Last seen: %d hours ago" = "В останнє заходив(-ла): %d годин тому";
@@ -339,6 +341,7 @@
 "Mark as read" = "Помітити прочитаним";
 "Me" = "Я";
 "Media Upload & Download Settings" = "Налаштування завантаження та завантаження медіафайлів";
+"Member" = "Member";
 "Message Archive Preferences" = "Налаштування архівування повідомлень";
 "Message from %@" = "Повідомлення від %@";
 "Message was encrypted with '%@' which isn't supported by Monal" = "Повідомлення було зашифровано за допомогою символу '%@', який не підтримується Monal";
@@ -407,12 +410,15 @@
 "Only shareable for now" = "Наразі лише для спільного доступу";
 "Open" = "Відкрити";
 "Open app to see more" = "Відкрийте застосунок, щоб побачити більше";
+"Open contact list" = "Open contact list";
 "Open list of pending contact requests" = "Open list of pending contact requests";
 "Open Source" = "Відкритий код";
 "Optional Hardcoded Hostname" = "Необов'язкове жорстко закодоване ім'я хоста";
 "Optional Port" = "Додатковий порт";
+"Outcast" = "Outcast";
 "Own device key" = "Власний ключ пристрою";
 "Own Encryption Keys" = "Власні ключі шифрування";
+"Owner" = "Owner";
 /* placeholder when adding account
    placeholder when creating account
    placeholder when migrating account */
@@ -655,6 +661,7 @@
 "unknown" = "невідомо";
 "Unknown authentication method" = "Невідомий метод автентифікації";
 "Unknown channel-binding type" = "Невідомий тип прив'язки каналу";
+"Unknown error!" = "Unknown error!";
 "Unread Messages Below" = "Непрочитані повідомлення нижче";
 "unsupported" = "не підтримується";
 "Untrusted key" = "Ненадійний ключ";
@@ -727,8 +734,9 @@
 "You are set up and connected. People can message you at: %@@%@" = "Ви налаштовані та підключені. Люди можуть писати вам на %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
 "You did not grant Monal to access your location." = "Ви не дозволили Monal отримати доступ до вашого місцезнаходження.";
-"You got banned from: %@" = "Вас заблокували в: %@";
-"You got kicked from: %@" = "Вас викинули з: %@";
+"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
+"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
+"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
 "You have not entered your XMPP ID yet" = "Ви ще не ввели свій XMPP ID";
 "You need friends for this ride" = "Для цієї поїздки вам потрібні друзі";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Якщо ви хочете, щоб інші могли вас чути, вам потрібно надати доступ до мікрофона в Налаштуваннях iOS -> Конфіденційність -> Мікрофон.";
@@ -756,3 +764,7 @@
 "📍 A Location" = "📍 Місцезнаходження";
 "📷 An Image" = "📷 Зображення";
 "🔗 A Link" = "🔗 Посилання";
+"Change Group Members" = "Change Group Members";
+"Channel Members" = "Channel Members";
+"Copy invitation link to clipboard" = "Copy invitation link to clipboard";
+"Error creating group!" = "Error creating group!";

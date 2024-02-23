@@ -7,6 +7,7 @@
 "<unknown server>" = "<unknown server>";
 /* server details */
 "<unknown version>" = "<unknown version>";
+"<unknown>" = "<unknown>";
 "A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
 "Abort" = "Abort";
 "Aborted recording audio" = "Aborted recording audio";
@@ -31,11 +32,13 @@
 "Add to contacts" = "Add to contacts";
 "Adding Group/Channel..." = "Adding Group/Channel...";
 "Adding..." = "Adding...";
+"Admin" = "Admin";
 "Advanced Settings" = "Rozšířené nastavení";
-"All messages already present in local history!" = "Všechny zprávy jsou již přítomny v místní historii!";
 "All messages are archived by default." = "Všechny zprávy jsou archivovány jako výchozí nastavení";
+"All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
 "Allow" = "Povolit";
 "Allow approved contacts to query my Monal and iOS version" = "Allow approved contacts to query my Monal and iOS version";
+"Allow contacts not in my Contact list to contact me" = "Allow contacts not in my Contact list to contact me";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
 "Already present" = "Already present";
 "Already uploading this content, ignoring" = "Tento obsah je již nahráván, ignoruji";
@@ -117,10 +120,8 @@
 "Copied to clipboard" = "Copied to clipboard";
 /* Chat msg action */
 "Copy" = "Kopírovat";
-"Copy link to clipboard" = "Copy link to clipboard";
 "Copy to clipboard" = "Copy to clipboard";
 "Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
-"Could fetch room config form from '%@': timeout" = "Could fetch room config form from '%@': timeout";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Nelze získat přístup ke kameře";
 "Could not access Finder item!" = "Could not access Finder item!";
@@ -146,6 +147,7 @@
 /* Crash reporting */
 "Crash Detected" = "Crash Detected";
 "Create new group" = "Create new group";
+"Creating Group" = "Creating Group";
 "Creating invitation..." = "Creating invitation...";
 "Current Password" = "Současné heslo";
 "Currently Online" = "Currently Online";
@@ -164,7 +166,6 @@
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "Device ID: ";
 "DeviceID: " = "DeviceID: ";
-"Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list." = "Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list.";
 "Disable Encryption" = "Vypnout šifrování";
 "Disable encryption?" = "Disable encryption?";
 "Discovering devices..." = "Discovering devices...";
@@ -269,6 +270,7 @@
 "File" = "Soubor";
 "filename" = "filename";
 "Files" = "Soubory";
+"Finished fetching messages" = "Finished fetching messages";
 "General" = "Obecné";
 "General File Transfer Settings" = "Obecná nastavení přenosu souborů";
 "Got empty room config form for '%@'" = "Got empty room config form for '%@'";
@@ -306,8 +308,8 @@
 "Join Group" = "Připojit se ke skupině";
 "Just seen" = "Právě viděn";
 "Keys of %@" = "Keys of %@";
-"Kicked, because muc is now members-only: %@" = "Vyloučen, tato místnost je nyní jen pro členy: %@";
-"Kicked, because of system shutdown: %@" = "Vyloučen, protože systém byl vypnut: %@";
+"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
+"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
 "Last seen: %@" = "Naposledy spatřen: %@";
 "Last seen: %d days ago" = "Naposledy viděn: před %d dny";
 "Last seen: %d hours ago" = "Naposledy viděn: před %d hodinami";
@@ -339,6 +341,7 @@
 "Mark as read" = "Označit jako přečtené";
 "Me" = "Já";
 "Media Upload & Download Settings" = "Media Upload & Download Settings";
+"Member" = "Member";
 "Message Archive Preferences" = "Nastavení archivace zpráv";
 "Message from %@" = "Zpráva od %@";
 "Message was encrypted with '%@' which isn't supported by Monal" = "Zpráva byla šifrována pomocí '%@' , který není podporován Monalem";
@@ -407,12 +410,15 @@
 "Only shareable for now" = "Prozatím lze pouze sdílet";
 "Open" = "Otevřít";
 "Open app to see more" = "Otevřete aplikaci, pokud chcete vidět víc";
+"Open contact list" = "Open contact list";
 "Open list of pending contact requests" = "Open list of pending contact requests";
 "Open Source" = "Open Source";
 "Optional Hardcoded Hostname" = "Vlastní hostname";
 "Optional Port" = "Vlastní port";
+"Outcast" = "Outcast";
 "Own device key" = "Own device key";
 "Own Encryption Keys" = "Own Encryption Keys";
+"Owner" = "Owner";
 /* placeholder when adding account
    placeholder when creating account
    placeholder when migrating account */
@@ -655,6 +661,7 @@
 "unknown" = "unknown";
 "Unknown authentication method" = "Unknown authentication method";
 "Unknown channel-binding type" = "Unknown channel-binding type";
+"Unknown error!" = "Unknown error!";
 "Unread Messages Below" = "Nepřečtené zprávy níže";
 "unsupported" = "unsupported";
 "Untrusted key" = "Untrusted key";
@@ -727,8 +734,9 @@
 "You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
 "You did not grant Monal to access your location." = "Neposkytli jste Monalu přístup k Vaší poloze.";
-"You got banned from: %@" = "Dostali jste zákaz od: %@";
-"You got kicked from: %@" = "Byli jste vyloučeni od: %@";
+"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
+"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
+"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
 "You have not entered your XMPP ID yet" = "Ještě jste nezadali své XMPP ID";
 "You need friends for this ride" = "Na tuhle jízdu potřebujete přátele";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
@@ -756,3 +764,7 @@
 "📍 A Location" = "📍 Poloha";
 "📷 An Image" = "📷 Obrázek";
 "🔗 A Link" = "🔗 Odkaz";
+"Change Group Members" = "Change Group Members";
+"Channel Members" = "Channel Members";
+"Copy invitation link to clipboard" = "Copy invitation link to clipboard";
+"Error creating group!" = "Error creating group!";

@@ -7,6 +7,7 @@
 "<unknown server>" = "<unknown server>";
 /* server details */
 "<unknown version>" = "<unknown version>";
+"<unknown>" = "<unknown>";
 "A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
 "Abort" = "Abort";
 "Aborted recording audio" = "Aborted recording audio";
@@ -31,11 +32,13 @@
 "Add to contacts" = "Add to contacts";
 "Adding Group/Channel..." = "Adding Group/Channel...";
 "Adding..." = "Adding...";
+"Admin" = "Admin";
 "Advanced Settings" = "Geavanceerde instellingen";
-"All messages already present in local history!" = "Alle berichten zijn reeds aanwezig in de lokale geschiedenis!";
 "All messages are archived by default." = "Alle berichten worden standaard gearchiveerd.";
+"All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
 "Allow" = "Toelaten";
 "Allow approved contacts to query my Monal and iOS version" = "Allow approved contacts to query my Monal and iOS version";
+"Allow contacts not in my Contact list to contact me" = "Allow contacts not in my Contact list to contact me";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
 "Already present" = "Already present";
 "Already uploading this content, ignoring" = "Reeds bezig met uploaden van deze inhoud, verzoek wordt genegeerd";
@@ -117,10 +120,8 @@
 "Copied to clipboard" = "Copied to clipboard";
 /* Chat msg action */
 "Copy" = "Kopiëren";
-"Copy link to clipboard" = "Copy link to clipboard";
 "Copy to clipboard" = "Copy to clipboard";
 "Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
-"Could fetch room config form from '%@': timeout" = "Could fetch room config form from '%@': timeout";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Kon camera niet aanspreken";
 "Could not access Finder item!" = "Could not access Finder item!";
@@ -146,6 +147,7 @@
 /* Crash reporting */
 "Crash Detected" = "Crash Detected";
 "Create new group" = "Create new group";
+"Creating Group" = "Creating Group";
 "Creating invitation..." = "Creating invitation...";
 "Current Password" = "Huidig wachtwoord";
 "Currently Online" = "Currently Online";
@@ -164,7 +166,6 @@
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "Device ID: ";
 "DeviceID: " = "DeviceID: ";
-"Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list." = "Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list.";
 "Disable Encryption" = "Versleuteling uitschakelen";
 "Disable encryption?" = "Disable encryption?";
 "Discovering devices..." = "Discovering devices...";
@@ -269,6 +270,7 @@
 "File" = "Bestand";
 "filename" = "filename";
 "Files" = "Bestanden";
+"Finished fetching messages" = "Finished fetching messages";
 "General" = "Algemeen";
 "General File Transfer Settings" = "Algemene instellingen voor bestandsoverdracht";
 "Got empty room config form for '%@'" = "Got empty room config form for '%@'";
@@ -306,8 +308,8 @@
 "Join Group" = "Deelnemen aan kanaal";
 "Just seen" = "Net gezien";
 "Keys of %@" = "Keys of %@";
-"Kicked, because muc is now members-only: %@" = "Eruit geschopt, omdat MUC nu enkel voor leden is: %@";
-"Kicked, because of system shutdown: %@" = "Eruit geschopt, omdat het systeem afgesloten is: %@";
+"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
+"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
 "Last seen: %@" = "Laatst gezien: %@";
 "Last seen: %d days ago" = "Laatst gezien: %d dagen geleden";
 "Last seen: %d hours ago" = "Laatst gezien: %d uren geleden";
@@ -339,6 +341,7 @@
 "Mark as read" = "Als gelezen markeren";
 "Me" = "Ik";
 "Media Upload & Download Settings" = "Media Upload & Download Settings";
+"Member" = "Member";
 "Message Archive Preferences" = "Berichtsarchiefvoorkeuren";
 "Message from %@" = "Bericht van %@";
 "Message was encrypted with '%@' which isn't supported by Monal" = "Bericht was versleuteld met '%@', dat niet ondersteund wordt door Monal";
@@ -407,12 +410,15 @@
 "Only shareable for now" = "Voorlopig enkel deelbaar";
 "Open" = "Openen";
 "Open app to see more" = "Open de app om meer te zien";
+"Open contact list" = "Open contact list";
 "Open list of pending contact requests" = "Open list of pending contact requests";
 "Open Source" = "Open Source";
 "Optional Hardcoded Hostname" = "Optionele vooraf vastgelegde host-naam";
 "Optional Port" = "Optionele poort";
+"Outcast" = "Outcast";
 "Own device key" = "Own device key";
 "Own Encryption Keys" = "Own Encryption Keys";
+"Owner" = "Owner";
 /* placeholder when adding account
    placeholder when creating account
    placeholder when migrating account */
@@ -655,6 +661,7 @@
 "unknown" = "unknown";
 "Unknown authentication method" = "Onbekende authenticatie methode";
 "Unknown channel-binding type" = "Onbekende kanaalbinding type";
+"Unknown error!" = "Unknown error!";
 "Unread Messages Below" = "Ongelezen berichten hieronder";
 "unsupported" = "unsupported";
 "Untrusted key" = "Untrusted key";
@@ -727,8 +734,9 @@
 "You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
 "You did not grant Monal to access your location." = "Je gaf Monal geen toelating om je locatie op te vragen.";
-"You got banned from: %@" = "Je werd verbannen uit: %@";
-"You got kicked from: %@" = "Je werd uit %@ geschopt";
+"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
+"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
+"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
 "You have not entered your XMPP ID yet" = "Je hebt je XMPP-ID nog niet ingegeven";
 "You need friends for this ride" = "Je hebt vrienden nodig voor deze rit";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
@@ -756,3 +764,7 @@
 "📍 A Location" = "📍 Een locatie";
 "📷 An Image" = "📷 Een afbeelding";
 "🔗 A Link" = "🔗 Een link";
+"Change Group Members" = "Change Group Members";
+"Channel Members" = "Channel Members";
+"Copy invitation link to clipboard" = "Copy invitation link to clipboard";
+"Error creating group!" = "Error creating group!";

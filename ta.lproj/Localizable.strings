@@ -7,6 +7,7 @@
 "<unknown server>" = "<unknown server>";
 /* server details */
 "<unknown version>" = "<unknown version>";
+"<unknown>" = "<unknown>";
 "A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
 "Abort" = "Abort";
 "Aborted recording audio" = "Aborted recording audio";
@@ -31,11 +32,13 @@
 "Add to contacts" = "Add to contacts";
 "Adding Group/Channel..." = "Adding Group/Channel...";
 "Adding..." = "Adding...";
+"Admin" = "Admin";
 "Advanced Settings" = "மேம்பட்ட அமைப்புகள்";
-"All messages already present in local history!" = "All messages already present in local history!";
 "All messages are archived by default." = "எல்லா உரையாடல்களும் இயல்பாகவே காப்பகப்படுத்தப்படும்.";
+"All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
 "Allow" = "Allow";
 "Allow approved contacts to query my Monal and iOS version" = "Allow approved contacts to query my Monal and iOS version";
+"Allow contacts not in my Contact list to contact me" = "Allow contacts not in my Contact list to contact me";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
 "Already present" = "Already present";
 "Already uploading this content, ignoring" = "Already uploading this content, ignoring";
@@ -117,10 +120,8 @@
 "Copied to clipboard" = "Copied to clipboard";
 /* Chat msg action */
 "Copy" = "Copy";
-"Copy link to clipboard" = "Copy link to clipboard";
 "Copy to clipboard" = "Copy to clipboard";
 "Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
-"Could fetch room config form from '%@': timeout" = "Could fetch room config form from '%@': timeout";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Could not access camera";
 "Could not access Finder item!" = "Could not access Finder item!";
@@ -146,6 +147,7 @@
 /* Crash reporting */
 "Crash Detected" = "Crash Detected";
 "Create new group" = "Create new group";
+"Creating Group" = "Creating Group";
 "Creating invitation..." = "Creating invitation...";
 "Current Password" = "Current Password";
 "Currently Online" = "Currently Online";
@@ -164,7 +166,6 @@
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "Device ID: ";
 "DeviceID: " = "DeviceID: ";
-"Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list." = "Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list.";
 "Disable Encryption" = "குறியாக்கத்தை முடக்கு";
 "Disable encryption?" = "Disable encryption?";
 "Discovering devices..." = "Discovering devices...";
@@ -269,6 +270,7 @@
 "File" = "File";
 "filename" = "filename";
 "Files" = "Files";
+"Finished fetching messages" = "Finished fetching messages";
 "General" = "பொதுவானது";
 "General File Transfer Settings" = "General File Transfer Settings";
 "Got empty room config form for '%@'" = "Got empty room config form for '%@'";
@@ -306,8 +308,8 @@
 "Join Group" = "Join Group";
 "Just seen" = "சற்றுமுன் காணப்பட்டார்";
 "Keys of %@" = "Keys of %@";
-"Kicked, because muc is now members-only: %@" = "Kicked, because muc is now members-only: %@";
-"Kicked, because of system shutdown: %@" = "Kicked, because of system shutdown: %@";
+"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
+"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
 "Last seen: %@" = "Last seen: %@";
 "Last seen: %d days ago" = "கடைசியாக காணப்பட்டது: %d நாட்களுக்கு முன்பு";
 "Last seen: %d hours ago" = "கடைசியாக காணப்பட்டது: %d மணிநேரத்திற்கு முன்பு";
@@ -339,6 +341,7 @@
 "Mark as read" = "Mark as read";
 "Me" = "Me";
 "Media Upload & Download Settings" = "Media Upload & Download Settings";
+"Member" = "Member";
 "Message Archive Preferences" = "Message Archive Preferences";
 "Message from %@" = "%@ இடமிருந்து செய்தி";
 "Message was encrypted with '%@' which isn't supported by Monal" = "Message was encrypted with '%@' which isn't supported by Monal";
@@ -407,12 +410,15 @@
 "Only shareable for now" = "Only shareable for now";
 "Open" = "Open";
 "Open app to see more" = "Open app to see more";
+"Open contact list" = "Open contact list";
 "Open list of pending contact requests" = "Open list of pending contact requests";
 "Open Source" = "ஓபன் சௌர்ஸ்";
 "Optional Hardcoded Hostname" = "Optional Hardcoded Hostname";
 "Optional Port" = "Optional Port";
+"Outcast" = "Outcast";
 "Own device key" = "Own device key";
 "Own Encryption Keys" = "Own Encryption Keys";
+"Owner" = "Owner";
 /* placeholder when adding account
    placeholder when creating account
    placeholder when migrating account */
@@ -655,6 +661,7 @@
 "unknown" = "unknown";
 "Unknown authentication method" = "Unknown authentication method";
 "Unknown channel-binding type" = "Unknown channel-binding type";
+"Unknown error!" = "Unknown error!";
 "Unread Messages Below" = "Unread Messages Below";
 "unsupported" = "unsupported";
 "Untrusted key" = "Untrusted key";
@@ -727,8 +734,9 @@
 "You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
 "You did not grant Monal to access your location." = "You did not grant Monal to access your location.";
-"You got banned from: %@" = "You got banned from: %@";
-"You got kicked from: %@" = "You got kicked from: %@";
+"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
+"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
+"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
 "You have not entered your XMPP ID yet" = "You have not entered your XMPP ID yet";
 "You need friends for this ride" = "You need friends for this ride";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
@@ -756,3 +764,7 @@
 "📍 A Location" = "📍 A Location";
 "📷 An Image" = "📷 An Image";
 "🔗 A Link" = "🔗 A Link";
+"Change Group Members" = "Change Group Members";
+"Channel Members" = "Channel Members";
+"Copy invitation link to clipboard" = "Copy invitation link to clipboard";
+"Error creating group!" = "Error creating group!";

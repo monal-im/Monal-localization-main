@@ -7,6 +7,7 @@
 "<unknown server>" = "<未知服务器>";
 /* server details */
 "<unknown version>" = "<未知版本>";
+"<unknown>" = "<unknown>";
 "A contact was scanned through the QR code scanner" = "通过二维码扫描了联系人";
 "Abort" = "中止";
 "Aborted recording audio" = "中止录制音频";
@@ -31,11 +32,13 @@
 "Add to contacts" = "添加到通讯录";
 "Adding Group/Channel..." = "正在添加群组/频道...";
 "Adding..." = "正在添加...";
+"Admin" = "Admin";
 "Advanced Settings" = "高级设置";
-"All messages already present in local history!" = "所有消息都已经在本地历史记录中存在！";
 "All messages are archived by default." = "所有消息默认都会被存档。";
+"All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
 "Allow" = "允许";
 "Allow approved contacts to query my Monal and iOS version" = "允许批准的联系人查询我的 Monal 和 iOS 版本";
+"Allow contacts not in my Contact list to contact me" = "Allow contacts not in my Contact list to contact me";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "允许某人将您添加为联系人可以让他们看到您的个人资料照片以及您何时在线。";
 "Already present" = "已经存在";
 "Already uploading this content, ignoring" = "已上传过此内容，忽略中";
@@ -117,10 +120,8 @@
 "Copied to clipboard" = "已复制到剪贴板";
 /* Chat msg action */
 "Copy" = "复制";
-"Copy link to clipboard" = "将链接复制到剪贴板";
 "Copy to clipboard" = "复制到剪贴板";
 "Could fetch room config form for '%@': timeout" = "无法获取 '%@' 的聊天室配置表单：超时";
-"Could fetch room config form from '%@': timeout" = "无法从 '%@' 获取聊天室配置表单：超时";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "无法连接到摄像头";
 "Could not access Finder item!" = "无法访问 Finder 项目！";
@@ -146,6 +147,7 @@
 /* Crash reporting */
 "Crash Detected" = "检测到崩溃";
 "Create new group" = "创建新群组";
+"Creating Group" = "Creating Group";
 "Creating invitation..." = "正在创建邀请...";
 "Current Password" = "当前密码";
 "Currently Online" = "目前在线";
@@ -164,7 +166,6 @@
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "通过 SSDP 检测到正在进行的 MITM 攻击，中止身份验证并禁用账号以限制损害。一旦您再次处于安全的网络环境中，您应该重新启用您的账号。";
 "Device ID: " = "设备 ID： ";
 "DeviceID: " = "设备 ID： ";
-"Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list." = "引导您的好友访问此网页，获取有关如何设置 XMPP 客户端的说明。然后您将自动添加到他们的联系人列表中。";
 "Disable Encryption" = "禁用加密";
 "Disable encryption?" = "禁用加密？";
 "Discovering devices..." = "正在发现设备...";
@@ -269,6 +270,7 @@
 "File" = "文件";
 "filename" = "文件名";
 "Files" = "文件";
+"Finished fetching messages" = "Finished fetching messages";
 "General" = "通用";
 "General File Transfer Settings" = "一般文件传输设置";
 "Got empty room config form for '%@'" = "'%@' 的聊天室配置表单为空";
@@ -306,8 +308,8 @@
 "Join Group" = "加入群组";
 "Just seen" = "刚看过";
 "Keys of %@" = "%@ 的密钥";
-"Kicked, because muc is now members-only: %@" = "已被踢出，因为 MUC 现在仅允许成员加入 : %@";
-"Kicked, because of system shutdown: %@" = "已被踢出，因为系统关闭 : %@";
+"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
+"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
 "Last seen: %@" = "最后上线：%@";
 "Last seen: %d days ago" = "最后上线：%d 天前";
 "Last seen: %d hours ago" = "最后上线：%d 小时前";
@@ -339,6 +341,7 @@
 "Mark as read" = "标记为已读";
 "Me" = "我";
 "Media Upload & Download Settings" = "媒体上传与下载设置";
+"Member" = "Member";
 "Message Archive Preferences" = "消息存档首选项";
 "Message from %@" = "以 %@ 发送消息";
 "Message was encrypted with '%@' which isn't supported by Monal" = "消息已使用 Monal 不支持的“%@”加密";
@@ -407,12 +410,15 @@
 "Only shareable for now" = "临时分享";
 "Open" = "打开";
 "Open app to see more" = "打开应用查看更多";
+"Open contact list" = "Open contact list";
 "Open list of pending contact requests" = "打开待处理联系人请求列表";
 "Open Source" = "开源";
 "Optional Hardcoded Hostname" = "可选的硬编码的主机名";
 "Optional Port" = "可选端口";
+"Outcast" = "Outcast";
 "Own device key" = "自己的设备密钥";
 "Own Encryption Keys" = "自己的加密密钥";
+"Owner" = "Owner";
 /* placeholder when adding account
    placeholder when creating account
    placeholder when migrating account */
@@ -655,6 +661,7 @@
 "unknown" = "未知";
 "Unknown authentication method" = "未知认证方式";
 "Unknown channel-binding type" = "未知频道绑定类型";
+"Unknown error!" = "Unknown error!";
 "Unread Messages Below" = "以下为未读消息";
 "unsupported" = "不支持";
 "Untrusted key" = "不信任的密钥";
@@ -727,8 +734,9 @@
 "You are set up and connected. People can message you at: %@@%@" = "您已设置并连接。别人可以通过以下方式向您发送消息：%@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "您正在尝试呼叫 '%@' (%@)，但此联系人可以通过不同的账号进行联系。请选择您要使用的账号进行呼叫。";
 "You did not grant Monal to access your location." = "您没有授权 Monal 访问您的位置。";
-"You got banned from: %@" = "您被封禁了：%@";
-"You got kicked from: %@" = "您被踢出了：%@";
+"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
+"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
+"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
 "You have not entered your XMPP ID yet" = "您尚未输入 XMPP ID";
 "You need friends for this ride" = "您需要朋友来参加这次旅行";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "如果您希望其他人可以听到您的声音，您需要在 iOS 设置 -> 隐私 -> 麦克风中授予麦克风访问权限。";
@@ -756,3 +764,7 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
+"Change Group Members" = "Change Group Members";
+"Channel Members" = "Channel Members";
+"Copy invitation link to clipboard" = "Copy invitation link to clipboard";
+"Error creating group!" = "Error creating group!";

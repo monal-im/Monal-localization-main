@@ -7,6 +7,7 @@
 "<unknown server>" = "<不明なサーバー>";
 /* server details */
 "<unknown version>" = "<不明なバージョン>";
+"<unknown>" = "<unknown>";
 "A contact was scanned through the QR code scanner" = "相手先は QR コードスキャナーでスキャンされました";
 "Abort" = "中断";
 "Aborted recording audio" = "音声の録音を中断しました";
@@ -31,11 +32,13 @@
 "Add to contacts" = "相手先を追加";
 "Adding Group/Channel..." = "グループ/チャンネルを追加中…";
 "Adding..." = "追加中...";
+"Admin" = "Admin";
 "Advanced Settings" = "詳細設定";
-"All messages already present in local history!" = "すべてのメッセージはすでにローカルの履歴に存在します。";
 "All messages are archived by default." = "デフォルトですべてのメッセージは保管されます。";
+"All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
 "Allow" = "許可";
 "Allow approved contacts to query my Monal and iOS version" = "承認済の相手先に Monal と iOS バージョン問い合わせを許可";
+"Allow contacts not in my Contact list to contact me" = "Allow contacts not in my Contact list to contact me";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
 "Already present" = "Already present";
 "Already uploading this content, ignoring" = "この内容はすでにアップロードされています。無視します";
@@ -117,10 +120,8 @@
 "Copied to clipboard" = "クリップボードへコピー";
 /* Chat msg action */
 "Copy" = "コピー";
-"Copy link to clipboard" = "リンクをクリップボードへコピー";
 "Copy to clipboard" = "クリップボードへコピー";
 "Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
-"Could fetch room config form from '%@': timeout" = "Could fetch room config form from '%@': timeout";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "カメラにアクセスできませんでした";
 "Could not access Finder item!" = "Could not access Finder item!";
@@ -146,6 +147,7 @@
 /* Crash reporting */
 "Crash Detected" = "クラッシュが検出されました";
 "Create new group" = "新しいグループを作成";
+"Creating Group" = "Creating Group";
 "Creating invitation..." = "招待を作成中...";
 "Current Password" = "現在のパスワード";
 "Currently Online" = "現在オンライン中";
@@ -164,7 +166,6 @@
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "デバイス ID: ";
 "DeviceID: " = "デバイス ID: ";
-"Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list." = "XMPP クライアントの設定方法については、友人にこのウェブページを案内してください。あなたは自動的に相手先一覧に追加されます。";
 "Disable Encryption" = "暗号化を無効";
 "Disable encryption?" = "暗号化を無効化しますか ?";
 "Discovering devices..." = "デバイス探索中...";
@@ -269,6 +270,7 @@
 "File" = "ファイル";
 "filename" = "ファイル名";
 "Files" = "ファイル";
+"Finished fetching messages" = "Finished fetching messages";
 "General" = "一般";
 "General File Transfer Settings" = "ファイル転送の一般設定";
 "Got empty room config form for '%@'" = "Got empty room config form for '%@'";
@@ -306,8 +308,8 @@
 "Join Group" = "グループに参加";
 "Just seen" = "ちょうど今見ました";
 "Keys of %@" = "%@ の鍵";
-"Kicked, because muc is now members-only: %@" = "蹴り出されました。談話室が会員制となったため: %@";
-"Kicked, because of system shutdown: %@" = "システムがシャットダウンしたため、蹴り出されました: %@";
+"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
+"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
 "Last seen: %@" = "最後に見たのは: %@";
 "Last seen: %d days ago" = "最後に見たのは: %d 日前";
 "Last seen: %d hours ago" = "最後に見たのは: %d 時間前";
@@ -339,6 +341,7 @@
 "Mark as read" = "既読としてマーク";
 "Me" = "自分:";
 "Media Upload & Download Settings" = "メディアのアップロード/ダウンロードの設定";
+"Member" = "Member";
 "Message Archive Preferences" = "メッセージ保管の設定";
 "Message from %@" = "%@ からメッセージ";
 "Message was encrypted with '%@' which isn't supported by Monal" = "メッセージは Monal が対応していない '%@' で暗号化されました";
@@ -407,12 +410,15 @@
 "Only shareable for now" = "Only shareable for now";
 "Open" = "開く";
 "Open app to see more" = "アプリを開いて詳細を見る";
+"Open contact list" = "Open contact list";
 "Open list of pending contact requests" = "保留中の相手先リクエストの一覧を開く";
 "Open Source" = "オープンソース";
 "Optional Hardcoded Hostname" = "任意の直接記述のホスト名";
 "Optional Port" = "オプションのポート";
+"Outcast" = "Outcast";
 "Own device key" = "自身のデバイス鍵";
 "Own Encryption Keys" = "自身の暗号化鍵";
+"Owner" = "Owner";
 /* placeholder when adding account
    placeholder when creating account
    placeholder when migrating account */
@@ -655,6 +661,7 @@
 "unknown" = "不明";
 "Unknown authentication method" = "不明な認証方法";
 "Unknown channel-binding type" = "不明なチャネルバインディングのタイプ";
+"Unknown error!" = "Unknown error!";
 "Unread Messages Below" = "以下の未読メッセージ";
 "unsupported" = "非対応";
 "Untrusted key" = "信頼されていない鍵";
@@ -727,8 +734,9 @@
 "You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
 "You did not grant Monal to access your location." = "Monal は位置情報へのアクセスを許可されていません。";
-"You got banned from: %@" = "%@ から締め出されました";
-"You got kicked from: %@" = "%@ から蹴り出されました";
+"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
+"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
+"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
 "You have not entered your XMPP ID yet" = "XMPP ID をまだ入力していません";
 "You need friends for this ride" = "You need friends for this ride";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "他の人に自分の声を聞いてもらいたい場合、iOS の [設定] -> [プライバシー] -> [マイク] でマイクへのアクセスを許可する必要があります。";
@@ -756,3 +764,7 @@
 "📍 A Location" = "📍 位置情報";
 "📷 An Image" = "📷 画像";
 "🔗 A Link" = "🔗 リンク";
+"Change Group Members" = "Change Group Members";
+"Channel Members" = "Channel Members";
+"Copy invitation link to clipboard" = "Copy invitation link to clipboard";
+"Error creating group!" = "Error creating group!";

@@ -7,6 +7,7 @@
 "<unknown server>" = "<unknown server>";
 /* server details */
 "<unknown version>" = "<unknown version>";
+"<unknown>" = "<unknown>";
 "A contact was scanned through the QR code scanner" = "Il contatto è stato scansionato tramite QR code";
 "Abort" = "Annulla";
 "Aborted recording audio" = "Registrazione audio annullata";
@@ -31,11 +32,13 @@
 "Add to contacts" = "Aggiungi ai contatti";
 "Adding Group/Channel..." = "Aggiungo il gruppo o canale...";
 "Adding..." = "Aggiungo...";
+"Admin" = "Admin";
 "Advanced Settings" = "Impostazioni avanzate";
-"All messages already present in local history!" = "Tutti i messaggi sono già presenti nella cronologia locale!";
 "All messages are archived by default." = "I nuovi messaggi vengono archiviati.";
+"All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
 "Allow" = "Consenti";
 "Allow approved contacts to query my Monal and iOS version" = "Permetti ai contatti autorizzati di vedere la versione di Monal e iOS";
+"Allow contacts not in my Contact list to contact me" = "Allow contacts not in my Contact list to contact me";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Consentire a qualcuno di aggiungerti come contatto, gli permette di vedere l'immagine del profilo e quando sei online.";
 "Already present" = "Già presente";
 "Already uploading this content, ignoring" = "Questo contenuto sta già venendo caricato, richiesta ignorata";
@@ -117,10 +120,8 @@
 "Copied to clipboard" = "Copiato negli appunti";
 /* Chat msg action */
 "Copy" = "Copia";
-"Copy link to clipboard" = "Copia link negli appunti";
 "Copy to clipboard" = "Copia negli appunti";
 "Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
-"Could fetch room config form from '%@': timeout" = "Could fetch room config form from '%@': timeout";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Impossibile accedere alla fotocamera";
 "Could not access Finder item!" = "Impossibile accedere al Finder!";
@@ -146,6 +147,7 @@
 /* Crash reporting */
 "Crash Detected" = "Crash rilevato";
 "Create new group" = "Create new group";
+"Creating Group" = "Creating Group";
 "Creating invitation..." = "Creo l'invito...";
 "Current Password" = "Password corrente";
 "Currently Online" = "Online adesso";
@@ -164,7 +166,6 @@
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "ID dispositivo: ";
 "DeviceID: " = "ID dispositivo: ";
-"Direct your buddy to this webpage for instructions on how to setup an xmpp client. You will then automatically be added to their contact list." = "Invita il tuo contatto su questa pagina contenente le istruzioni per impostare un client xmpp. Sarai automaticamente aggiunto alla sua lista dei contatti.";
 "Disable Encryption" = "Disabilita la cifratura";
 "Disable encryption?" = "Disattivare la cifratura?";
 "Discovering devices..." = "Cerco dispositivi...";
@@ -269,6 +270,7 @@
 "File" = "Invia file";
 "filename" = "filename";
 "Files" = "Files";
+"Finished fetching messages" = "Finished fetching messages";
 "General" = "Generale";
 "General File Transfer Settings" = "Impostazioni generali per il trasferimento";
 "Got empty room config form for '%@'" = "Got empty room config form for '%@'";
@@ -306,8 +308,8 @@
 "Join Group" = "Unisciti al gruppo";
 "Just seen" = "Un istante fa";
 "Keys of %@" = "Chiavi di %@";
-"Kicked, because muc is now members-only: %@" = "Espulso, perché la MUC è ora accessibile solo ai membri: %@";
-"Kicked, because of system shutdown: %@" = "Espulso causa spegnimento del sistema: %@";
+"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
+"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
 "Last seen: %@" = "Ultimo accesso: %@";
 "Last seen: %d days ago" = "Ultimo accesso: %d giorni fa";
 "Last seen: %d hours ago" = "Ultimo accesso: %d ore fa";
@@ -339,6 +341,7 @@
 "Mark as read" = "Segna come letto";
 "Me" = "Io";
 "Media Upload & Download Settings" = "Media Upload & Download Settings";
+"Member" = "Member";
 "Message Archive Preferences" = "Archiviazione messaggi";
 "Message from %@" = "Invia come %@";
 "Message was encrypted with '%@' which isn't supported by Monal" = "Il messaggio è stato cifrato con '%@' che non è supportato da Monal";
@@ -407,12 +410,15 @@
 "Only shareable for now" = "Condivisibile solo temporaneamente";
 "Open" = "Apri";
 "Open app to see more" = "Apri Monal per vedere di più";
+"Open contact list" = "Open contact list";
 "Open list of pending contact requests" = "Open list of pending contact requests";
 "Open Source" = "Codice sorgente aperto";
 "Optional Hardcoded Hostname" = "Nome host (opzionale)";
 "Optional Port" = "Porta opzionale";
+"Outcast" = "Outcast";
 "Own device key" = "Chiave del dispositivo";
 "Own Encryption Keys" = "Chiavi di cifratura possedute";
+"Owner" = "Owner";
 /* placeholder when adding account
    placeholder when creating account
    placeholder when migrating account */
@@ -655,6 +661,7 @@
 "unknown" = "sconosciuto";
 "Unknown authentication method" = "Metodo di autenticazione sconosciuto";
 "Unknown channel-binding type" = "Tipologia channel-binding sconosciuta";
+"Unknown error!" = "Unknown error!";
 "Unread Messages Below" = "Messaggi non letti in basso";
 "unsupported" = "non supportato";
 "Untrusted key" = "Chiave non fidata";
@@ -727,8 +734,9 @@
 "You are set up and connected. People can message you at: %@@%@" = "L'account è pronto e connesso. Puoi ricevere messaggi su: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
 "You did not grant Monal to access your location." = "Non hai consentito a Monal l'accesso alla tua posizione.";
-"You got banned from: %@" = "Sei stato bannato da: %@";
-"You got kicked from: %@" = "Sei stato espulso da: %@";
+"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
+"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
+"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
 "You have not entered your XMPP ID yet" = "Non hai ancora inserito il tuo XMPP ID";
 "You need friends for this ride" = "Hai bisogno di amici per questa avventura";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Consenti l'accesso al microfono nelle Impostazioni di iOS > Privacy > Microfono, se vuoi che gli altri possano sentirti.";
@@ -756,3 +764,7 @@
 "📍 A Location" = "📍 Una posizione";
 "📷 An Image" = "📷 Un'immagine";
 "🔗 A Link" = "🔗 Un link";
+"Change Group Members" = "Change Group Members";
+"Channel Members" = "Channel Members";
+"Copy invitation link to clipboard" = "Copy invitation link to clipboard";
+"Error creating group!" = "Error creating group!";
