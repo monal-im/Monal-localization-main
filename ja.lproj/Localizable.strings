@@ -32,17 +32,17 @@
 "Add to contacts" = "相手先を追加";
 "Adding Group/Channel..." = "グループ/チャンネルを追加中…";
 "Adding..." = "追加中...";
-"Admin" = "Admin";
+"Admin" = "管理人";
 "Advanced Settings" = "詳細設定";
 "All messages are archived by default." = "デフォルトですべてのメッセージは保管されます。";
 "All messages fetched successfully, there are no more left on the server!" = "すべてのメッセージが正常に取得しました。サーバーにはもう残っていません。";
 "Allow" = "許可";
 "Allow approved contacts to query my Monal and iOS version" = "承認済の相手先に Monal と iOS バージョン問い合わせを許可";
-"Allow contacts not in my Contact list to contact me" = "Allow contacts not in my Contact list to contact me";
-"Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
-"Already present" = "Already present";
+"Allow contacts not in my Contact list to contact me" = "相手先一覧にない相手先からの連絡を許可する";
+"Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "あなたを相手先として追加することを誰かに許可すると、その人はあなたのプロフィール画像や在席状況を見ることができます。";
+"Already present" = "すでに存在します";
 "Already uploading this content, ignoring" = "この内容はすでにアップロードされています。無視します";
-"Always archive" = "常に保存";
+"Always archive" = "常に保管";
 "Always use direct TLS, not STARTTLS" = "STARTTLS ではなく常に direct TLS を使う";
 "App" = "アプリ";
 "Apple Push Service" = "Apple プッシュ通知サービス";
@@ -132,7 +132,7 @@
 "Could not configure group '%@': timeout" = "グループ '%@' を調整できませんでした: 時間切れ";
 "Could not create group '%@': timeout" = "グループ '%@' を作成できませんでした: 時間切れ";
 "Could not decrypt message" = "メッセージを復号できませんでした";
-"Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@";
+"Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "このチャットの (すべての) 古いメッセージをサーバー保管から取得できませんでした。後でもう一度試してください。 %@";
 "Could not fetch messages" = "メッセージを取得できませんでした";
 /* QR-Code-Scanner */
 "Could not get default capture device" = "Could not get default capture device";
@@ -195,7 +195,7 @@
 "E-Mail not enabled on device" = "デバイスで E-Mail が有効ではありません";
 /* Chat msg action */
 "Edit" = "編集";
-"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now.";
+"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "これは中間者攻撃、またはサーバーが XEP-0474 を実装していないもしくは tls-server-end-point チャンネルバインディングの対応を義務付ける XEP-0440 を完全に実装していない、のいずれかです。いずれにしても、サーバー管理者に通知する必要があります。現在アカウントは無効になっています。";
 /* Crash report error dialog */
 "Email Error" = "電子メールのエラー";
 "Email Support" = "電子メール対応";
@@ -619,7 +619,7 @@
 "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "この鍵は信頼されていますが、相手先は長い間これを使用していません。この鍵の信頼を無効にすることを検討してください。";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "これは、OMEMO 暗号化を使って、通話が暗号化され相手が検証されたことを意味します。\nしかし着信側の OMEMO 指紋を手動で検証していないため、自分または着信側の XMPP サーバーは中間者攻撃の OMEMO 鍵を挿入された可能性があります。";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "これは、OMEMO 暗号化を使って、通話が暗号化され相手が検証されたことを意味します。\n使用された OMEMO 鍵を手動で検証したため、中間者攻撃が行われることはありません。";
-"This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you.";
+"This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "Your or the callee's XMPP server could possibly Man-In-The-Middle you.\nこれは、通話は暗号化されていますが、OMEMO 暗号化を使用して相手を検証できなかったことを意味します。\n自分または着信側の XMPP サーバーは中間者攻撃の可能性があります。";
 "This message failed to send (%@): %@" = "このメッセージは送信に失敗しました (%1$@): %2$@";
 "This message got retracted" = "このメッセージは撤回されました";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "このサーバーは HTTP ファイルのアップロード (XEP-0363) に対応していないようです。管理者に有効化を依頼してください。";
