@@ -7,7 +7,7 @@
 "<unknown server>" = "<zerbitzari ezezaguna>";
 /* server details */
 "<unknown version>" = "<bertsio ezezaguna>";
-"<unknown>" = "<unknown>";
+"<unknown>" = "<ezezaguna>";
 "A contact was scanned through the QR code scanner" = "Kontaktu bat eskaneatu da QR kode-eskaneatzailearen bidez";
 "Abort" = "Alboratu";
 "Aborted recording audio" = "Audio grabaketa alboratu da";
@@ -35,10 +35,10 @@
 "Admin" = "Admin";
 "Advanced Settings" = "Ezarpen aurreratuak";
 "All messages are archived by default." = "Mezu guztiak artxibatzen dira defektuz.";
-"All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
+"All messages fetched successfully, there are no more left on the server!" = "Mezu guztiak eskuratu dira, ez dago gehiagorik zerbitzarian!";
 "Allow" = "Baimendu";
 "Allow approved contacts to query my Monal and iOS version" = "Ahalbidetu baimendutako kontaktuei nire Monal eta iOS bertsioei buruz informazioa jasotzea";
-"Allow contacts not in my Contact list to contact me" = "Allow contacts not in my Contact list to contact me";
+"Allow contacts not in my Contact list to contact me" = "Ahalbidetu nire kontaktuen-zerrendan ez daudenak nirekin harremanetan jar daitezela";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Kontaktu bezala gehi zaitzatela baimentzen baduzu, zure profileko irudia eta linean noiz zauden ikus dezakete.";
 "Already present" = "Dagoeneko badago";
 "Already uploading this content, ignoring" = "Eduki hau igotzen ari da honezkero, muzin egiten";
@@ -147,7 +147,7 @@
 /* Crash reporting */
 "Crash Detected" = "Kraskatu dela antzeman da";
 "Create new group" = "Sortu talde berria";
-"Creating Group" = "Creating Group";
+"Creating Group" = "Taldea sortzen";
 "Creating invitation..." = "Gonbidapena prestatzen…";
 "Current Password" = "Uneko pasahitza";
 "Currently Online" = "Linean une honetan";
@@ -270,7 +270,7 @@
 "File" = "Bidali fitxategia";
 "filename" = "fitxategi-izena";
 "Files" = "Fitxategiak";
-"Finished fetching messages" = "Finished fetching messages";
+"Finished fetching messages" = "Mezu guztiak eskuratzen amaitu da";
 "General" = "Orokorra";
 "General File Transfer Settings" = "Fitxategiak partekatzeko ezarpen orokorrak";
 "Got empty room config form for '%@'" = "Eskuratutako '%@' gelaren konfigurazio-orria hutsik dago";
@@ -308,8 +308,8 @@
 "Join Group" = "Egin bat taldearekin";
 "Just seen" = "Oraintxe ikusita";
 "Keys of %@" = "%@(r)en gakoak";
-"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
-"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
+"Kicked from group/channel, because of system shutdown: %@" = "Talde/kanaletik kanporatuta, sistema itzali delako: %@";
+"Kicked, because group/channel is now members-only: %@" = "Kanporatuta, taldea/kanala kideentzako bakarrik delako aurrerantzean: %@";
 "Last seen: %@" = "Azkenekoz ikusia: %@";
 "Last seen: %d days ago" = "Azkenekoz ikusia: duela %d egun";
 "Last seen: %d hours ago" = "Azkenekoz ikusia: duela %d ordu";
@@ -341,7 +341,7 @@
 "Mark as read" = "Markatu irakurritzat";
 "Me" = "Ni";
 "Media Upload & Download Settings" = "Multimediaren igoeraren eta jaitsieraren ezarpenak";
-"Member" = "Member";
+"Member" = "Kidea";
 "Message Archive Preferences" = "Artxibatze-hobespenak";
 "Message from %@" = "%@(e)k bidalitako mezua";
 "Message was encrypted with '%@' which isn't supported by Monal" = "Mezua '%@' erabiliz zifratu da, Monalekin bateragarria ez dena";
@@ -402,7 +402,7 @@
 "now" = "orain";
 "Ok" = "Ados";
 /* Crash report error dialog */
-"OK" = "Ados";
+"OK" = "ADOS";
 "Okay" = "Ados";
 "Older, slower, but still secure TLS version" = "Zaharragoa, motelagoa, baina oraindik ere segurua den TLS bertsioa";
 "Online" = "Linean";
@@ -410,15 +410,15 @@
 "Only shareable for now" = "Orain bakarrik partekatzen";
 "Open" = "Ireki";
 "Open app to see more" = "Ireki aplikazioa gehiago ikusteko";
-"Open contact list" = "Open contact list";
+"Open contact list" = "Ireki kontaktuen zerrenda";
 "Open list of pending contact requests" = "Ireki erabakitzeke kontaktu-eskaeren zerrenda";
 "Open Source" = "Kode irekia";
 "Optional Hardcoded Hostname" = "Aukerako Hardcoded Hostname";
 "Optional Port" = "Aukerako ataka";
-"Outcast" = "Outcast";
+"Outcast" = "Zokoratu";
 "Own device key" = "Nire gailuko gakoa";
 "Own Encryption Keys" = "Nire zifratze-gakoak";
-"Owner" = "Owner";
+"Owner" = "Jabea";
 /* placeholder when adding account
    placeholder when creating account
    placeholder when migrating account */
@@ -661,7 +661,7 @@
 "unknown" = "ezezaguna";
 "Unknown authentication method" = "Ez da autentifikazio metodoa ezagutzen";
 "Unknown channel-binding type" = "Channel-binding mota ezezaguna";
-"Unknown error!" = "Unknown error!";
+"Unknown error!" = "Errore ezezaguna!";
 "Unread Messages Below" = "Markatu beheragoko mezuak ez irakurritzat";
 "unsupported" = "ez da bateragarria";
 "Untrusted key" = "Fidatu gabeko gakoa";
@@ -734,9 +734,9 @@
 "You are set up and connected. People can message you at: %@@%@" = "Kontua konfiguratuta eta konektatuta. Jendeak honako helbidera idatz diezazuke: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "'%@'(e)ri (%@) deitzen saiatzen ari zara, baina kontu desberdinak erabiliz dei diezaiokezu. Hautatu zein konturekin egin nahi diozun dei.";
 "You did not grant Monal to access your location." = "Ez diozu Monali kokapena atzitzeko baimenik eman.";
-"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
-"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
-"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
+"You got banned from group/channel: %@" = "Talde/kanalean debekua ezarri dizute: %@";
+"You got kicked from group/channel: %@" = "Talde/kanaletik kanporatu zaituzte: %@";
+"You got removed from group/channel: %@" = "Talde/kanaletik kendu zaituzte: %@";
 "You have not entered your XMPP ID yet" = "Oraindik ez duzu zure XMPP IDa sartu";
 "You need friends for this ride" = "Lagunak behar dituzu aberntura honetarako";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Mikrofonoa atzitzeko baimena onartu behar duzu iOSen: Ezarpenak-> Pribatutasuna-> Mikrofonoa, besteek entzun zaitzaten nahi baduzu.";
@@ -764,7 +764,7 @@
 "📍 A Location" = "📍 Kokapena";
 "📷 An Image" = "📷 Irudia";
 "🔗 A Link" = "🔗 Esteka";
-"Change Group Members" = "Change Group Members";
-"Channel Members" = "Channel Members";
-"Copy invitation link to clipboard" = "Copy invitation link to clipboard";
-"Error creating group!" = "Error creating group!";
+"Change Group Members" = "Aldatu taldeko kideak";
+"Channel Members" = "Kanaleko kideak";
+"Copy invitation link to clipboard" = "Kopiatu gonbidapen-esteka arbelera";
+"Error creating group!" = "Errorea taldea sortzerakoan!";
