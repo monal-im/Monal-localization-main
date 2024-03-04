@@ -7,6 +7,7 @@
 "<unknown server>" = "<unknown server>";
 /* server details */
 "<unknown version>" = "<unknown version>";
+"<unknown>" = "<unknown>";
 "A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
 "Abort" = "Abort";
 "Aborted recording audio" = "Aborted recording audio";
@@ -31,10 +32,13 @@
 "Add to contacts" = "Add to contacts";
 "Adding Group/Channel..." = "Adding Group/Channel...";
 "Adding..." = "Adding...";
+"Admin" = "Admin";
 "Advanced Settings" = "Advanced Settings";
 "All messages are archived by default." = "All messages are archived by default.";
+"All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
 "Allow" = "Allow";
 "Allow approved contacts to query my Monal and iOS version" = "Allow approved contacts to query my Monal and iOS version";
+"Allow contacts not in my Contact list to contact me" = "Allow contacts not in my Contact list to contact me";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
 "Already present" = "Already present";
 "Already uploading this content, ignoring" = "Already uploading this content, ignoring";
@@ -90,8 +94,10 @@
 /* placeholder when creating account */
 "Captcha" = "Captcha";
 "Change Chat Background" = "Change Chat Background";
+"Change Group Members" = "Change Group Members";
 "Change Password" = "Change Password";
 "Changing Password" = "Changing Password";
+"Channel Members" = "Channel Members";
 "Channel subject:" = "Channel subject:";
 "Chat Background" = "Chat Background";
 "Check type and size on " = "Check type and size on ";
@@ -116,6 +122,7 @@
 "Copied to clipboard" = "Copied to clipboard";
 /* Chat msg action */
 "Copy" = "Copy";
+"Copy invitation link to clipboard" = "Copy invitation link to clipboard";
 "Copy to clipboard" = "Copy to clipboard";
 "Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
 /* QR-Code-Scanner: camera not found */
@@ -143,6 +150,7 @@
 /* Crash reporting */
 "Crash Detected" = "Crash Detected";
 "Create new group" = "Create new group";
+"Creating Group" = "Creating Group";
 "Creating invitation..." = "Creating invitation...";
 "Current Password" = "Current Password";
 "Currently Online" = "Currently Online";
@@ -212,6 +220,7 @@
 "Error" = "Error";
 "error" = "error";
 "Error adding contact or channel" = "Error adding contact or channel";
+"Error creating group!" = "Error creating group!";
 "Error decrypting message" = "Error decrypting message";
 "Error entering group/channel!" = "Error entering group/channel!";
 /* parenthesis should be verbatim */
@@ -265,6 +274,7 @@
 "File" = "File";
 "filename" = "filename";
 "Files" = "Files";
+"Finished fetching messages" = "Finished fetching messages";
 "General" = "General";
 "General File Transfer Settings" = "General File Transfer Settings";
 "Got empty room config form for '%@'" = "Got empty room config form for '%@'";
@@ -302,6 +312,8 @@
 "Join Group" = "Join Group";
 "Just seen" = "Just seen";
 "Keys of %@" = "Keys of %@";
+"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
+"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
 "Last seen: %@" = "Last seen: %@";
 "Last seen: %d days ago" = "Last seen: %d days ago";
 "Last seen: %d hours ago" = "Last seen: %d hours ago";
@@ -333,6 +345,7 @@
 "Mark as read" = "Mark as read";
 "Me" = "Me";
 "Media Upload & Download Settings" = "Media Upload & Download Settings";
+"Member" = "Member";
 "Message Archive Preferences" = "Message Archive Preferences";
 "Message from %@" = "Message from %@";
 "Message was encrypted with '%@' which isn't supported by Monal" = "Message was encrypted with '%@' which isn't supported by Monal";
@@ -401,12 +414,15 @@
 "Only shareable for now" = "Only shareable for now";
 "Open" = "Open";
 "Open app to see more" = "Open app to see more";
+"Open contact list" = "Open contact list";
 "Open list of pending contact requests" = "Open list of pending contact requests";
 "Open Source" = "Open Source";
 "Optional Hardcoded Hostname" = "Optional Hardcoded Hostname";
 "Optional Port" = "Optional Port";
+"Outcast" = "Outcast";
 "Own device key" = "Own device key";
 "Own Encryption Keys" = "Own Encryption Keys";
+"Owner" = "Owner";
 "Password" = "Password";
 /* placeholder when creating account */
 "Password (repeated)" = "Password (repeated)";
@@ -491,8 +507,6 @@
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 /* mac only string */
 "Scroll down to load more messages" = "Scroll down to load more messages";
-/* placeholder in contact picker */
-"Search contacts" = "Search contacts";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections.";
 "Select a background to display behind conversations with %@" = "Select a background to display behind conversations with %@";
 "Select a default background to display behind conversations." = "Select a default background to display behind conversations.";
@@ -646,6 +660,7 @@
 "unknown" = "unknown";
 "Unknown authentication method" = "Unknown authentication method";
 "Unknown channel-binding type" = "Unknown channel-binding type";
+"Unknown error!" = "Unknown error!";
 "Unread Messages Below" = "Unread Messages Below";
 "unsupported" = "unsupported";
 "Untrusted key" = "Untrusted key";
@@ -672,8 +687,6 @@
 "We could not find a xmpp related QR-Code" = "We could not find a xmpp related QR-Code";
 "We don't support any task requested by the server, account disabled: %@" = "We don't support any task requested by the server, account disabled: %@";
 "We don't support the single task requested by the server, account disabled: %@" = "We don't support the single task requested by the server, account disabled: %@";
-"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet." = "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.";
-"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs.";
 "Welcome" = "Welcome";
 "What call do you want to place?" = "What call do you want to place?";
@@ -718,6 +731,9 @@
 "You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
 "You did not grant Monal to access your location." = "You did not grant Monal to access your location.";
+"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
+"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
+"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
 "You have not entered your XMPP ID yet" = "You have not entered your XMPP ID yet";
 "You need friends for this ride" = "You need friends for this ride";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
@@ -745,23 +761,17 @@
 "📍 A Location" = "📍 A Location";
 "📷 An Image" = "📷 An Image";
 "🔗 A Link" = "🔗 A Link";
-"<unknown>" = "<unknown>";
-"Admin" = "Admin";
-"All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
-"Allow contacts not in my Contact list to contact me" = "Allow contacts not in my Contact list to contact me";
-"Change Group Members" = "Change Group Members";
-"Channel Members" = "Channel Members";
-"Copy invitation link to clipboard" = "Copy invitation link to clipboard";
-"Creating Group" = "Creating Group";
-"Error creating group!" = "Error creating group!";
-"Finished fetching messages" = "Finished fetching messages";
-"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
-"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
-"Member" = "Member";
-"Open contact list" = "Open contact list";
-"Outcast" = "Outcast";
-"Owner" = "Owner";
-"Unknown error!" = "Unknown error!";
-"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
-"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
-"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
+"Add Group Members" = "Add Group Members";
+"Block grom group" = "Block grom group";
+"Configure Membership" = "Configure Membership";
+"Group Description" = "Group Description";
+/* placeholder when editing a group description */
+"Group Description (optional)" = "Group Description (optional)";
+"Group name" = "Group name";
+"Make admin" = "Make admin";
+"Make member" = "Make member";
+"Make owner" = "Make owner";
+"Remove from group" = "Remove from group";
+"Uploading image..." = "Uploading image...";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@";

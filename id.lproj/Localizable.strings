@@ -7,6 +7,7 @@
 "<unknown server>" = "<unknown server>";
 /* server details */
 "<unknown version>" = "<unknown version>";
+/* muc affiliation */
 "<unknown>" = "<unknown>";
 "A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
 "Abort" = "Abort";
@@ -32,6 +33,7 @@
 "Add to contacts" = "Add to contacts";
 "Adding Group/Channel..." = "Adding Group/Channel...";
 "Adding..." = "Adding...";
+/* muc affiliation */
 "Admin" = "Admin";
 "Advanced Settings" = "Pengaturan lanjutan";
 "All messages are archived by default." = "Semua pesan diarsipkan secara otomatis.";
@@ -94,8 +96,10 @@
 /* placeholder when creating account */
 "Captcha" = "Captcha";
 "Change Chat Background" = "Change Chat Background";
+"Change Group Members" = "Change Group Members";
 "Change Password" = "Ganti kata sandi";
 "Changing Password" = "Changing Password";
+"Channel Members" = "Channel Members";
 "Channel subject:" = "Channel subject:";
 "Chat Background" = "Chat Background";
 "Check type and size on " = "Check type and size on ";
@@ -120,6 +124,7 @@
 "Copied to clipboard" = "Copied to clipboard";
 /* Chat msg action */
 "Copy" = "Salin";
+"Copy invitation link to clipboard" = "Copy invitation link to clipboard";
 "Copy to clipboard" = "Copy to clipboard";
 "Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
 /* QR-Code-Scanner: camera not found */
@@ -217,6 +222,7 @@
 "Error" = "Kesalahan";
 "error" = "error";
 "Error adding contact or channel" = "Error adding contact or channel";
+"Error creating group!" = "Error creating group!";
 "Error decrypting message" = "Gagal mendekripsi pesan";
 "Error entering group/channel!" = "Error entering group/channel!";
 /* parenthesis should be verbatim */
@@ -276,6 +282,8 @@
 "Got empty room config form for '%@'" = "Got empty room config form for '%@'";
 "GPS" = "GPS";
 "Green checkmark shield:" = "Green checkmark shield:";
+/* placeholder when editing a group description */
+"Group Description (optional)" = "Group Description (optional)";
 "Group Members" = "Group Members";
 /* placeholder when creating new group */
 "Group Name (optional)" = "Group Name (optional)";
@@ -341,6 +349,7 @@
 "Mark as read" = "Mark as read";
 "Me" = "Me";
 "Media Upload & Download Settings" = "Media Upload & Download Settings";
+/* muc affiliation */
 "Member" = "Member";
 "Message Archive Preferences" = "Message Archive Preferences";
 "Message from %@" = "Pesan dari %@";
@@ -415,9 +424,11 @@
 "Open Source" = "Open Source";
 "Optional Hardcoded Hostname" = "Optional Hardcoded Hostname";
 "Optional Port" = "Optional Port";
+/* muc affiliation */
 "Outcast" = "Outcast";
 "Own device key" = "Own device key";
 "Own Encryption Keys" = "Own Encryption Keys";
+/* muc affiliation */
 "Owner" = "Owner";
 /* placeholder when adding account
    placeholder when creating account
@@ -506,8 +517,6 @@
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 /* mac only string */
 "Scroll down to load more messages" = "Scroll down to load more messages";
-/* placeholder in contact picker */
-"Search contacts" = "Search contacts";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections.";
 "Select a background to display behind conversations with %@" = "Select a background to display behind conversations with %@";
 "Select a default background to display behind conversations." = "Select a default background to display behind conversations.";
@@ -671,6 +680,7 @@
 "Upload Settings" = "Upload Settings";
 "Uploading" = "Uploading";
 "Uploading file to server" = "Uploading file to server";
+"Uploading image..." = "Uploading image...";
 /* placeholder when adding account */
 "user@domain.tld" = "user@domain.tld";
 /* BlockUserTable - blockJidForm */
@@ -688,8 +698,7 @@
 "We could not find a xmpp related QR-Code" = "We could not find a xmpp related QR-Code";
 "We don't support any task requested by the server, account disabled: %@" = "We don't support any task requested by the server, account disabled: %@";
 "We don't support the single task requested by the server, account disabled: %@" = "We don't support the single task requested by the server, account disabled: %@";
-"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet." = "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.";
-"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs.";
 "Welcome" = "Welcome";
 "What call do you want to place?" = "What call do you want to place?";
@@ -764,7 +773,13 @@
 "📍 A Location" = "📍 A Location";
 "📷 An Image" = "📷 An Image";
 "🔗 A Link" = "🔗 A Link";
-"Change Group Members" = "Change Group Members";
-"Channel Members" = "Channel Members";
-"Copy invitation link to clipboard" = "Copy invitation link to clipboard";
-"Error creating group!" = "Error creating group!";
+"Add Group Members" = "Add Group Members";
+"Block grom group" = "Block grom group";
+"Configure Membership" = "Configure Membership";
+"Group Description" = "Group Description";
+"Group name" = "Group name";
+"Make admin" = "Make admin";
+"Make member" = "Make member";
+"Make owner" = "Make owner";
+"Remove from group" = "Remove from group";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.";

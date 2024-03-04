@@ -7,6 +7,7 @@
 "<unknown server>" = "<Unbekannter Server>";
 /* server details */
 "<unknown version>" = "<Unbekannte Version>";
+/* muc affiliation */
 "<unknown>" = "<Unbekannt>";
 "A contact was scanned through the QR code scanner" = "Ein Kontakt wurde mit dem QR-Code Scanner gescannt";
 "Abort" = "Abbrechen";
@@ -32,6 +33,7 @@
 "Add to contacts" = "Zu Kontakten hinzufügen";
 "Adding Group/Channel..." = "Hinzufügen von Gruppenchat/Channel...";
 "Adding..." = "Hinzufügen...";
+/* muc affiliation */
 "Admin" = "Administrator";
 "Advanced Settings" = "Erweiterte Einstellungen";
 "All messages are archived by default." = "Alle Nachrichten werden standardmäßig archiviert.";
@@ -94,8 +96,10 @@
 /* placeholder when creating account */
 "Captcha" = "Captcha";
 "Change Chat Background" = "Chathintergrund ändern";
+"Change Group Members" = "Gruppenmitglieder ändern";
 "Change Password" = "Passwort ändern";
 "Changing Password" = "Ändern des Passworts";
+"Channel Members" = "Channel-Mitglieder";
 "Channel subject:" = "Thema des Channels:";
 "Chat Background" = "Chathintergrund";
 "Check type and size on " = "Typ und Größe prüfen auf ";
@@ -120,6 +124,7 @@
 "Copied to clipboard" = "In die Zwischenablage kopiert";
 /* Chat msg action */
 "Copy" = "Kopieren";
+"Copy invitation link to clipboard" = "Einladungslink in die Zwischenablage kopieren";
 "Copy to clipboard" = "In Zwischenablage kopieren";
 "Could fetch room config form for '%@': timeout" = "Raumkonfiguration für '%@' konnte nicht abgerufen werden: Zeitüberschreitung";
 /* QR-Code-Scanner: camera not found */
@@ -217,6 +222,7 @@
 "Error" = "Fehler";
 "error" = "Fehler";
 "Error adding contact or channel" = "Fehler beim Hinzufügen eines Kontakts oder Channels";
+"Error creating group!" = "Fehler beim Erstellen der Gruppe!";
 "Error decrypting message" = "Fehler beim Entschlüsseln der Nachricht";
 "Error entering group/channel!" = "Fehler beim Beitreten der Gruppe/des Channels!";
 /* parenthesis should be verbatim */
@@ -276,6 +282,8 @@
 "Got empty room config form for '%@'" = "Leere Raumkonfiguration für '%@' erhalten";
 "GPS" = "GPS";
 "Green checkmark shield:" = "Schild mit grünem Häkchen:";
+/* placeholder when editing a group description */
+"Group Description (optional)" = "Group Description (optional)";
 "Group Members" = "Gruppenmitglieder";
 /* placeholder when creating new group */
 "Group Name (optional)" = "Gruppenname (optional)";
@@ -341,6 +349,7 @@
 "Mark as read" = "Als gelesen markieren";
 "Me" = "Ich";
 "Media Upload & Download Settings" = "Medien-Upload & Download-Einstellungen";
+/* muc affiliation */
 "Member" = "Mitglied";
 "Message Archive Preferences" = "Nachrichtenarchivierung";
 "Message from %@" = "Nachricht von %@";
@@ -415,9 +424,11 @@
 "Open Source" = "Quelloffen";
 "Optional Hardcoded Hostname" = "Optionaler hardcodierter Hostname";
 "Optional Port" = "Optionaler Port";
+/* muc affiliation */
 "Outcast" = "Ausgeschlossen";
 "Own device key" = "Eigener Geräteschlüssel";
 "Own Encryption Keys" = "Eigene Schlüssel";
+/* muc affiliation */
 "Owner" = "Eigentümer";
 /* placeholder when adding account
    placeholder when creating account
@@ -506,8 +517,6 @@
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM-Serverbeweis falsch, laufender MITM-Angriff sehr wahrscheinlich, Abbruch der Authentifizierung und Deaktivierung des Kontos zur Schadensbegrenzung. Du solltest dein Konto wieder aktivieren, sobald du dich wieder in einer sicheren Netzwerkumgebung befindest.";
 /* mac only string */
 "Scroll down to load more messages" = "Scrolle nach unten, um weitere Nachrichten zu laden";
-/* placeholder in contact picker */
-"Search contacts" = "Kontakte suchen";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Sichere Kanalbindung definiert für TLS1.3 und einige TLS1.2-Verbindungen.";
 "Select a background to display behind conversations with %@" = "Wähle einen Hintergrund aus, der hinter Unterhaltungen mit %@ angezeigt werden soll";
 "Select a default background to display behind conversations." = "Wähle einen Standardhintergrund aus, der hinter Unterhaltungen angezeigt werden soll.";
@@ -671,6 +680,7 @@
 "Upload Settings" = "Upload-Einstellungen";
 "Uploading" = "Hochladen";
 "Uploading file to server" = "Lade Datei auf den Server hoch";
+"Uploading image..." = "Uploading image...";
 /* placeholder when adding account */
 "user@domain.tld" = "user@domain.tld";
 /* BlockUserTable - blockJidForm */
@@ -688,8 +698,7 @@
 "We could not find a xmpp related QR-Code" = "Wir konnten keinen XMPP-bezogenen QR-Code finden";
 "We don't support any task requested by the server, account disabled: %@" = "Wir unterstützen keine vom Server angeforderten Aufgaben, Konto deaktiviert: % @";
 "We don't support the single task requested by the server, account disabled: %@" = "Wir unterstützen die vom Server angeforderte Einzelaufgabe nicht, Konto deaktiviert: %@";
-"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet." = "Wir konnten dein Konto nicht verbinden. Bitte überprüfe deine Anmeldedaten und stelle sicher, dass du mit dem Internet verbunden bist.";
-"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Wir konnten dein Konto nicht verbinden. Bitte überprüfe deine Anmeldedaten und stelle sicher, dass du mit dem Internet verbunden bist.\n\nTechnische Fehlermeldung: %@";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Schwächster Kanalbindungstyp, der nicht gegen gestohlene Zertifikate/Schlüssel schützt, aber falsch ausgestellte Zertifikate erkennt.";
 "Welcome" = "Willkommen";
 "What call do you want to place?" = "Welchen Anruf möchtest du tätigen?";
@@ -764,7 +773,13 @@
 "📍 A Location" = "📍 Ein Standort";
 "📷 An Image" = "📷 Ein Bild";
 "🔗 A Link" = "🔗 Ein Link";
-"Change Group Members" = "Gruppenmitglieder ändern";
-"Channel Members" = "Channel-Mitglieder";
-"Copy invitation link to clipboard" = "Einladungslink in die Zwischenablage kopieren";
-"Error creating group!" = "Fehler beim Erstellen der Gruppe!";
+"Add Group Members" = "Add Group Members";
+"Block grom group" = "Block grom group";
+"Configure Membership" = "Configure Membership";
+"Group Description" = "Group Description";
+"Group name" = "Group name";
+"Make admin" = "Make admin";
+"Make member" = "Make member";
+"Make owner" = "Make owner";
+"Remove from group" = "Remove from group";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.";

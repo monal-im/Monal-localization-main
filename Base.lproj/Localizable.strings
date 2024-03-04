@@ -12,6 +12,7 @@
 "<unknown server>" = "<unknown server>";
 /* server details */
 "<unknown version>" = "<unknown version>";
+/* muc affiliation */
 "<unknown>" = "<unknown>";
 "A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
 "Abort" = "Abort";
@@ -30,12 +31,14 @@
 "Add %@ to your contacts?" = "Add %@ to your contacts?";
 "Add Account" = "Add Account";
 "Add Account (advanced)" = "Add Account (advanced)";
+"Add Group Members" = "Add Group Members";
 "Add Group/Channel or Contact" = "Add Group/Channel or Contact";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Add new contacts with the + button above. Your friends will pop up here when they can talk";
 "Add scanned Group/Channel or Contact" = "Add scanned Group/Channel or Contact";
 "Add to contacts" = "Add to contacts";
 "Adding Group/Channel..." = "Adding Group/Channel...";
 "Adding..." = "Adding...";
+/* muc affiliation */
 "Admin" = "Admin";
 "Advanced Settings" = "Advanced Settings";
 "All messages are archived by default." = "All messages are archived by default.";
@@ -61,6 +64,7 @@
 "Backgrounds" = "Backgrounds";
 "Block" = "Block";
 "Block Contact" = "Block Contact";
+"Block grom group" = "Block grom group";
 "Blocked Users" = "Blocked Users";
 "Blocking is not supported by the server" = "Blocking is not supported by the server";
 "Blocking/Unblocking Not Supported" = "Blocking/Unblocking Not Supported";
@@ -105,6 +109,7 @@
 "Clear chat history of this group" = "Clear chat history of this group";
 "Clear scanned contact" = "Clear scanned contact";
 "Close" = "Close";
+"Configure Membership" = "Configure Membership";
 "Connected since: %@" = "Connected since: %@";
 "Connected: %@" = "Connected: %@";
 "Connecting..." = "Connecting...";
@@ -216,9 +221,13 @@
 "General" = "General";
 "General File Transfer Settings" = "General File Transfer Settings";
 "Green checkmark shield:" = "Green checkmark shield:";
+"Group Description" = "Group Description";
+/* placeholder when editing a group description */
+"Group Description (optional)" = "Group Description (optional)";
 "Group Members" = "Group Members";
-/* placeholder when creating new group */
+/* placeholder when creating new group\n   placeholder when editing a group name */
 "Group Name (optional)" = "Group Name (optional)";
+"Group name" = "Group name";
 "Group subject:" = "Group subject:";
 "Hint" = "Hint";
 "I already have an account:" = "I already have an account:";
@@ -264,10 +273,14 @@
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings.";
 "Logging in" = "Logging in";
 "Login" = "Login";
+"Make admin" = "Make admin";
+"Make member" = "Make member";
+"Make owner" = "Make owner";
 "Manual input" = "Manual input";
 "Mark as read" = "Mark as read";
 "Me" = "Me";
 "Media Upload & Download Settings" = "Media Upload & Download Settings";
+/* muc affiliation */
 "Member" = "Member";
 "Message Archive Preferences" = "Message Archive Preferences";
 "Message from %@" = "Message from %@";
@@ -328,9 +341,11 @@
 "Open list of pending contact requests" = "Open list of pending contact requests";
 "Optional Hardcoded Hostname" = "Optional Hardcoded Hostname";
 "Optional Port" = "Optional Port";
+/* muc affiliation */
 "Outcast" = "Outcast";
 "Own Encryption Keys" = "Own Encryption Keys";
 "Own device key" = "Own device key";
+/* muc affiliation */
 "Owner" = "Owner";
 /* placeholder when adding account\n   placeholder when creating account\n   placeholder when migrating account */
 "Password" = "Password";
@@ -388,6 +403,7 @@
 "Remove Contact" = "Remove Contact";
 "Remove Conversation" = "Remove Conversation";
 "Remove from contacts" = "Remove from contacts";
+"Remove from group" = "Remove from group";
 /* placeholder text in contact details */
 "Rename Contact" = "Rename Contact";
 "Reply" = "Reply";
@@ -406,8 +422,6 @@
 "Saving changes to server" = "Saving changes to server";
 /* mac only string */
 "Scroll down to load more messages" = "Scroll down to load more messages";
-/* placeholder in contact picker */
-"Search contacts" = "Search contacts";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections.";
 "Select Action" = "Select Action";
 "Select Message Archive Management (MAM) Preferences " = "Select Message Archive Management (MAM) Preferences ";
@@ -526,6 +540,7 @@
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)";
 "Uploading" = "Uploading";
 "Uploading file to server" = "Uploading file to server";
+"Uploading image..." = "Uploading image...";
 /* placeholder when creating account */
 "Username" = "Username";
 "Username missing" = "Username missing";
@@ -534,8 +549,8 @@
 "Waiting for GPS signal" = "Waiting for GPS signal";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "We could not find a xmpp related QR-Code";
-"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet." = "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.";
-"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs.";
 "Welcome" = "Welcome";
 "What call do you want to place?" = "What call do you want to place?";

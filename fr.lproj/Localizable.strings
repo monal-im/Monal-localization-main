@@ -7,6 +7,7 @@
 "<unknown server>" = "<serveur inconnu>";
 /* server details */
 "<unknown version>" = "<version inconnue>";
+/* muc affiliation */
 "<unknown>" = "<unknown>";
 "A contact was scanned through the QR code scanner" = "Un contact a été scanné via le scanner de code QR";
 "Abort" = "Annuler";
@@ -32,6 +33,7 @@
 "Add to contacts" = "Ajouter aux contacts";
 "Adding Group/Channel..." = "Adding Group/Channel...";
 "Adding..." = "Ajout...";
+/* muc affiliation */
 "Admin" = "Admin";
 "Advanced Settings" = "Paramètres avancés";
 "All messages are archived by default." = "Tous les messages sont archivés par défaut.";
@@ -94,8 +96,10 @@
 /* placeholder when creating account */
 "Captcha" = "Captcha";
 "Change Chat Background" = "Changer le fond d’écran du chat";
+"Change Group Members" = "Change Group Members";
 "Change Password" = "Modifier le mot de passe";
 "Changing Password" = "Changement du mot de passe";
+"Channel Members" = "Channel Members";
 "Channel subject:" = "Sujet du Canal :";
 "Chat Background" = "Fond d’écran du chat";
 "Check type and size on " = "Vérifier le type et la taille de ";
@@ -120,6 +124,7 @@
 "Copied to clipboard" = "Copié dans le presse-papier";
 /* Chat msg action */
 "Copy" = "Copier";
+"Copy invitation link to clipboard" = "Copy invitation link to clipboard";
 "Copy to clipboard" = "Copier dans le presse-papier";
 "Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
 /* QR-Code-Scanner: camera not found */
@@ -217,6 +222,7 @@
 "Error" = "Erreur";
 "error" = "erreur";
 "Error adding contact or channel" = "L'ajout du contact ou du groupe a échoué";
+"Error creating group!" = "Error creating group!";
 "Error decrypting message" = "Erreur lors du déchiffrement du message";
 "Error entering group/channel!" = "Error entering group/channel!";
 /* parenthesis should be verbatim */
@@ -276,6 +282,8 @@
 "Got empty room config form for '%@'" = "Got empty room config form for '%@'";
 "GPS" = "GPS";
 "Green checkmark shield:" = "Green checkmark shield:";
+/* placeholder when editing a group description */
+"Group Description (optional)" = "Group Description (optional)";
 "Group Members" = "Membres du groupe";
 /* placeholder when creating new group */
 "Group Name (optional)" = "Nom du groupe (optionnel)";
@@ -341,6 +349,7 @@
 "Mark as read" = "Marquer comme lu";
 "Me" = "Moi";
 "Media Upload & Download Settings" = "Media Upload & Download Settings";
+/* muc affiliation */
 "Member" = "Member";
 "Message Archive Preferences" = "Préférences d'archivage des messages";
 "Message from %@" = "Message de %@";
@@ -415,9 +424,11 @@
 "Open Source" = "Code source ouvert";
 "Optional Hardcoded Hostname" = "Nom d'hôte en dur optionnel";
 "Optional Port" = "Port optionnel";
+/* muc affiliation */
 "Outcast" = "Outcast";
 "Own device key" = "Clé de cet appareil";
 "Own Encryption Keys" = "Own Encryption Keys";
+/* muc affiliation */
 "Owner" = "Owner";
 /* placeholder when adding account
    placeholder when creating account
@@ -506,8 +517,6 @@
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 /* mac only string */
 "Scroll down to load more messages" = "Faites défiler vers le bas pour charger plus de messages";
-/* placeholder in contact picker */
-"Search contacts" = "Search contacts";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Channel-binding sécurisé défini pour TLS1.3 et quelques connexions TLS1.2.";
 "Select a background to display behind conversations with %@" = "Choisissez un arrière-plan pour les conversations avec %@";
 "Select a default background to display behind conversations." = "Choisissez un arrière-plan par défaut pour les conversations.";
@@ -671,6 +680,7 @@
 "Upload Settings" = "Upload Settings";
 "Uploading" = "Téléversement";
 "Uploading file to server" = "Téléversement du fichier vers le serveur";
+"Uploading image..." = "Uploading image...";
 /* placeholder when adding account */
 "user@domain.tld" = "user@domain.tld";
 /* BlockUserTable - blockJidForm */
@@ -688,8 +698,7 @@
 "We could not find a xmpp related QR-Code" = "Nous n'avons pas pu trouver de QR-Code associé au XMPP";
 "We don't support any task requested by the server, account disabled: %@" = "Nous ne supportons aucune tâche demandée par le serveur, compte désactivé : %@";
 "We don't support the single task requested by the server, account disabled: %@" = "Nous ne supportons pas la seule tâche demandée par le serveur, compte désactivé : %@";
-"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet." = "Nous n'avons pas pu vous connecter à votre compte. Veuillez vérifier vos identifiants et vous assurer que vous êtes connecté à internet.";
-"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Nous n'avons pas réussi à vous connecter à votre compte. Veuillez vérifier vos informations et vous assurez que vous êtes bien connecté à internet.\n\nTechnical error message : %@";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Type de channel-binding le plus faible, ne sécurisant pas contre les certificats ou clés volé(e)s, mais détecte les certificats émis à tort.";
 "Welcome" = "Bienvenue";
 "What call do you want to place?" = "What call do you want to place?";
@@ -764,7 +773,13 @@
 "📍 A Location" = "📍 Une localisation";
 "📷 An Image" = "📷 Une image";
 "🔗 A Link" = "🔗 Un lien";
-"Change Group Members" = "Change Group Members";
-"Channel Members" = "Channel Members";
-"Copy invitation link to clipboard" = "Copy invitation link to clipboard";
-"Error creating group!" = "Error creating group!";
+"Add Group Members" = "Add Group Members";
+"Block grom group" = "Block grom group";
+"Configure Membership" = "Configure Membership";
+"Group Description" = "Group Description";
+"Group name" = "Group name";
+"Make admin" = "Make admin";
+"Make member" = "Make member";
+"Make owner" = "Make owner";
+"Remove from group" = "Remove from group";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.";

@@ -7,6 +7,7 @@
 "<unknown server>" = "<zerbitzari ezezaguna>";
 /* server details */
 "<unknown version>" = "<bertsio ezezaguna>";
+/* muc affiliation */
 "<unknown>" = "<ezezaguna>";
 "A contact was scanned through the QR code scanner" = "Kontaktu bat eskaneatu da QR kode-eskaneatzailearen bidez";
 "Abort" = "Alboratu";
@@ -32,6 +33,7 @@
 "Add to contacts" = "Gehitu kontaktuetara";
 "Adding Group/Channel..." = "Taldea/Kanala gehitzen…";
 "Adding..." = "Gehitzen…";
+/* muc affiliation */
 "Admin" = "Admin";
 "Advanced Settings" = "Ezarpen aurreratuak";
 "All messages are archived by default." = "Mezu guztiak artxibatzen dira defektuz.";
@@ -94,8 +96,10 @@
 /* placeholder when creating account */
 "Captcha" = "Captcha";
 "Change Chat Background" = "Aldatu txataren hondoa";
+"Change Group Members" = "Aldatu taldeko kideak";
 "Change Password" = "Aldatu pasahitza";
 "Changing Password" = "Pasahitza aldatzen";
+"Channel Members" = "Kanaleko kideak";
 "Channel subject:" = "Kanalaren gaia:";
 "Chat Background" = "Txataren hondoa";
 "Check type and size on " = "Egiaztatu mota eta tamaina ";
@@ -120,6 +124,7 @@
 "Copied to clipboard" = "Arbelera kopiatu da";
 /* Chat msg action */
 "Copy" = "Kopiatu";
+"Copy invitation link to clipboard" = "Kopiatu gonbidapen-esteka arbelera";
 "Copy to clipboard" = "Kopiatu arbelera";
 "Could fetch room config form for '%@': timeout" = "Ezin izan da '%@' gelaren konfigurazio-orria atzitu: denbora agortu da";
 /* QR-Code-Scanner: camera not found */
@@ -217,6 +222,7 @@
 "Error" = "Errorea";
 "error" = "errorea";
 "Error adding contact or channel" = "Errorea kontaktua edo kanala gehitzerakoan";
+"Error creating group!" = "Errorea taldea sortzerakoan!";
 "Error decrypting message" = "Errorea mezua dezifratzerakoan";
 "Error entering group/channel!" = "Errorea taldera/kanalera sartzean!";
 /* parenthesis should be verbatim */
@@ -276,6 +282,8 @@
 "Got empty room config form for '%@'" = "Eskuratutako '%@' gelaren konfigurazio-orria hutsik dago";
 "GPS" = "GPSa";
 "Green checkmark shield:" = "Kontrol-marka berdea:";
+/* placeholder when editing a group description */
+"Group Description (optional)" = "Group Description (optional)";
 "Group Members" = "Taldeko kideak";
 /* placeholder when creating new group */
 "Group Name (optional)" = "Taldearen izena (aukerakoa)";
@@ -341,6 +349,7 @@
 "Mark as read" = "Markatu irakurritzat";
 "Me" = "Ni";
 "Media Upload & Download Settings" = "Multimediaren igoeraren eta jaitsieraren ezarpenak";
+/* muc affiliation */
 "Member" = "Kidea";
 "Message Archive Preferences" = "Artxibatze-hobespenak";
 "Message from %@" = "%@(e)k bidalitako mezua";
@@ -415,9 +424,11 @@
 "Open Source" = "Kode irekia";
 "Optional Hardcoded Hostname" = "Aukerako Hardcoded Hostname";
 "Optional Port" = "Aukerako ataka";
+/* muc affiliation */
 "Outcast" = "Zokoratu";
 "Own device key" = "Nire gailuko gakoa";
 "Own Encryption Keys" = "Nire zifratze-gakoak";
+/* muc affiliation */
 "Owner" = "Jabea";
 /* placeholder when adding account
    placeholder when creating account
@@ -506,8 +517,6 @@
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Zerbitzariaren SCRAM frogagiri okerra, oso litekeena da MITM erasoa aribidean egotea; autentifikazioa baztertu eta kontua ezgaitu da kaltea mugatzeko. Gaitu kontua berriro sare seguru batean zaudenean.";
 /* mac only string */
 "Scroll down to load more messages" = "Tira behera mezu gehiago kargatzeko";
-/* placeholder in contact picker */
-"Search contacts" = "Bilatu kontaktua";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Channel-binding segurua TLS1.3 eta TLS1.2 konexio batzuetarako.";
 "Select a background to display behind conversations with %@" = "Hautatu %@(r)en elkarrizketarako hondo bat";
 "Select a default background to display behind conversations." = "Hautatu defektuzko hondo bat elkarrizketetarako.";
@@ -671,6 +680,7 @@
 "Upload Settings" = "Igoera ezarpenak";
 "Uploading" = "Igotzen";
 "Uploading file to server" = "Fitxategia zerbitzarira igotzen";
+"Uploading image..." = "Uploading image...";
 /* placeholder when adding account */
 "user@domain.tld" = "erabiltzailea@domeinua.eus";
 /* BlockUserTable - blockJidForm */
@@ -688,8 +698,7 @@
 "We could not find a xmpp related QR-Code" = "Ezin izan da XMPPari lotutako QR koderik aurkitu";
 "We don't support any task requested by the server, account disabled: %@" = "Ez ditugu zerbitzariak eskatutako zereginak onartzen, kontua ezgaituta: %@";
 "We don't support the single task requested by the server, account disabled: %@" = "Ez dugu zerbitzariak eskatutako zeregin bakarra onartzen, kontua ezgaituta: %@";
-"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet." = "Ezin izan dugu zure kontua konektatu. Egiaztatu sartutako datuak zuzenak direla eta internetera konektatuta zaudela.";
-"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Ezin izan dugu zure kontua konektatu. Egiaztatu sartutako datuak eta baieztatu internetera konektatuta zaudela. \n \nErrorearen mezu teknikoa: %@";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Channel-binding mota ahulena, ez du ostutako ziurtagiri edo gakoetatik babesten, baina oker jaulkitako ziurtagiriak antzematen ditu.";
 "Welcome" = "Ongi etorri";
 "What call do you want to place?" = "Zer dei egin nahi duzu?";
@@ -764,7 +773,13 @@
 "📍 A Location" = "📍 Kokapena";
 "📷 An Image" = "📷 Irudia";
 "🔗 A Link" = "🔗 Esteka";
-"Change Group Members" = "Aldatu taldeko kideak";
-"Channel Members" = "Kanaleko kideak";
-"Copy invitation link to clipboard" = "Kopiatu gonbidapen-esteka arbelera";
-"Error creating group!" = "Errorea taldea sortzerakoan!";
+"Add Group Members" = "Add Group Members";
+"Block grom group" = "Block grom group";
+"Configure Membership" = "Configure Membership";
+"Group Description" = "Group Description";
+"Group name" = "Group name";
+"Make admin" = "Make admin";
+"Make member" = "Make member";
+"Make owner" = "Make owner";
+"Remove from group" = "Remove from group";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.";

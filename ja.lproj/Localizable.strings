@@ -7,6 +7,7 @@
 "<unknown server>" = "<不明なサーバー>";
 /* server details */
 "<unknown version>" = "<不明なバージョン>";
+/* muc affiliation */
 "<unknown>" = "<不明>";
 "A contact was scanned through the QR code scanner" = "相手先は QR コードスキャナーでスキャンされました";
 "Abort" = "中断";
@@ -32,6 +33,7 @@
 "Add to contacts" = "相手先を追加";
 "Adding Group/Channel..." = "グループ/チャンネルを追加中…";
 "Adding..." = "追加中...";
+/* muc affiliation */
 "Admin" = "管理人";
 "Advanced Settings" = "詳細設定";
 "All messages are archived by default." = "デフォルトですべてのメッセージは保管されます。";
@@ -94,8 +96,10 @@
 /* placeholder when creating account */
 "Captcha" = "Captcha";
 "Change Chat Background" = "会話の背景を変更";
+"Change Group Members" = "Change Group Members";
 "Change Password" = "パスワードを変更";
 "Changing Password" = "パスワードの変更";
+"Channel Members" = "Channel Members";
 "Channel subject:" = "チャンネルの題:";
 "Chat Background" = "会話の背景";
 "Check type and size on " = "Check type and size on ";
@@ -120,6 +124,7 @@
 "Copied to clipboard" = "クリップボードへコピー";
 /* Chat msg action */
 "Copy" = "コピー";
+"Copy invitation link to clipboard" = "招待のリンクをクリップボードにコピー";
 "Copy to clipboard" = "クリップボードへコピー";
 "Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
 /* QR-Code-Scanner: camera not found */
@@ -217,6 +222,7 @@
 "Error" = "エラー";
 "error" = "エラー";
 "Error adding contact or channel" = "相手先またはチャンネルの追加時のエラー";
+"Error creating group!" = "Error creating group!";
 "Error decrypting message" = "メッセージ復号のエラー";
 "Error entering group/channel!" = "グループ/チャンネルに入る際のエラー";
 /* parenthesis should be verbatim */
@@ -276,6 +282,8 @@
 "Got empty room config form for '%@'" = "Got empty room config form for '%@'";
 "GPS" = "GPS";
 "Green checkmark shield:" = "Green checkmark shield:";
+/* placeholder when editing a group description */
+"Group Description (optional)" = "Group Description (optional)";
 "Group Members" = "グループのメンバー";
 /* placeholder when creating new group */
 "Group Name (optional)" = "グループ名 (任意)";
@@ -341,6 +349,7 @@
 "Mark as read" = "既読としてマーク";
 "Me" = "自分:";
 "Media Upload & Download Settings" = "メディアのアップロード/ダウンロードの設定";
+/* muc affiliation */
 "Member" = "メンバー";
 "Message Archive Preferences" = "メッセージ保管の設定";
 "Message from %@" = "%@ からメッセージ";
@@ -415,9 +424,11 @@
 "Open Source" = "オープンソース";
 "Optional Hardcoded Hostname" = "任意の直接記述のホスト名";
 "Optional Port" = "オプションのポート";
+/* muc affiliation */
 "Outcast" = "追放者";
 "Own device key" = "自身のデバイス鍵";
 "Own Encryption Keys" = "自身の暗号化鍵";
+/* muc affiliation */
 "Owner" = "主宰者";
 /* placeholder when adding account
    placeholder when creating account
@@ -506,8 +517,6 @@
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
 /* mac only string */
 "Scroll down to load more messages" = "スクロールダウンして追加のメッセージを読み込む";
-/* placeholder in contact picker */
-"Search contacts" = "相手先を検索";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "TLS1.3 と一部の TLS1.2 接続に対して定義された安全なチャネルバインディング。";
 "Select a background to display behind conversations with %@" = "%@ との会話の背後に表示する背景を選択してください";
 "Select a default background to display behind conversations." = "会話の背後に表示するデフォルトの背景を選択してください。";
@@ -671,6 +680,7 @@
 "Upload Settings" = "アップロード設定";
 "Uploading" = "アップロード";
 "Uploading file to server" = "ファイルをサーバーへアップロード";
+"Uploading image..." = "Uploading image...";
 /* placeholder when adding account */
 "user@domain.tld" = "user@domain.tld";
 /* BlockUserTable - blockJidForm */
@@ -688,8 +698,7 @@
 "We could not find a xmpp related QR-Code" = "XMPP に関する QR コードが見つかりませんでした";
 "We don't support any task requested by the server, account disabled: %@" = "We don't support any task requested by the server, account disabled: %@";
 "We don't support the single task requested by the server, account disabled: %@" = "We don't support the single task requested by the server, account disabled: %@";
-"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet." = "あなたのアカウントに接続できませんでした。証明書を確認し、インターネットに接続されていることを確認してください。";
-"We were not able to connect your account. Please check your credentials and make sure you are connected to the internet.\n\nTechnical error message: %@" = "あなたのアカウントに接続できませんでした。認証情報を確認し、インターネットに接続されていることを確認してください。\n\n技術的エラーメッセージ: %@";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs.";
 "Welcome" = "ようこそ";
 "What call do you want to place?" = "どのような通話をしたいですか ?";
@@ -764,7 +773,13 @@
 "📍 A Location" = "📍 位置情報";
 "📷 An Image" = "📷 画像";
 "🔗 A Link" = "🔗 リンク";
-"Change Group Members" = "Change Group Members";
-"Channel Members" = "Channel Members";
-"Copy invitation link to clipboard" = "招待のリンクをクリップボードにコピー";
-"Error creating group!" = "Error creating group!";
+"Add Group Members" = "Add Group Members";
+"Block grom group" = "Block grom group";
+"Configure Membership" = "Configure Membership";
+"Group Description" = "Group Description";
+"Group name" = "Group name";
+"Make admin" = "Make admin";
+"Make member" = "Make member";
+"Make owner" = "Make owner";
+"Remove from group" = "Remove from group";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.";
