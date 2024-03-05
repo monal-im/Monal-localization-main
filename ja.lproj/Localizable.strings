@@ -27,6 +27,7 @@
 "Add %@ to your contacts?" = "%@ を相手先に追加しますか ?";
 "Add Account" = "アカウントを追加";
 "Add Account (advanced)" = "アカウントを追加 (高度な設定)";
+"Add Group Members" = "Add Group Members";
 "Add Group/Channel or Contact" = "グループ/チャンネルまたは相手先を追加";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "上部の + ボタンを使用して新しい相手先を追加します。友だちが会話できるようになると、ここに表示されます";
 "Add scanned Group/Channel or Contact" = "スキャンしたグループ/チャンネルまたは相手先を追加";
@@ -65,6 +66,7 @@
 "Backgrounds" = "背景";
 "Block" = "ブロック";
 "Block Contact" = "相手先をブロック";
+"Block grom group" = "Block grom group";
 "Blocked Users" = "ブロックされているユーザー";
 "Blocking is not supported by the server" = "このサーバーはブロックに対応していません";
 "Blocking/Unblocking Not Supported" = "ブロック/ブロック解除は非対応";
@@ -110,6 +112,7 @@
 "Clear History" = "履歴を消去";
 "Clear scanned contact" = "スキャンした相手先を消去";
 "Close" = "閉じる";
+"Configure Membership" = "Configure Membership";
 "Connected since: %@" = "%@から接続しました";
 "Connected: %@" = "接続済: %@";
 "Connecting..." = "接続中...";
@@ -282,9 +285,11 @@
 "Got empty room config form for '%@'" = "Got empty room config form for '%@'";
 "GPS" = "GPS";
 "Green checkmark shield:" = "Green checkmark shield:";
+"Group Description" = "Group Description";
 /* placeholder when editing a group description */
 "Group Description (optional)" = "Group Description (optional)";
 "Group Members" = "グループのメンバー";
+"Group name" = "Group name";
 /* placeholder when creating new group */
 "Group Name (optional)" = "グループ名 (任意)";
 "Group subject:" = "グループの題:";
@@ -345,6 +350,9 @@
 "Logging in" = "ログイン中";
 "Login" = "ログイン";
 "Login error, account disabled: %@" = "Login error, account disabled: %@";
+"Make admin" = "Make admin";
+"Make member" = "Make member";
+"Make owner" = "Make owner";
 "Manual input" = "手入力";
 "Mark as read" = "既読としてマーク";
 "Me" = "自分:";
@@ -497,6 +505,7 @@
 "Remove Contact" = "相手先を除去";
 "Remove Conversation" = "会話を除去";
 "Remove from contacts" = "相手先一覧から除去";
+"Remove from group" = "Remove from group";
 /* placeholder text in contact details */
 "Rename Contact" = "相手先の名前を変更";
 "Reply" = "返信";
@@ -698,6 +707,7 @@
 "We could not find a xmpp related QR-Code" = "XMPP に関する QR コードが見つかりませんでした";
 "We don't support any task requested by the server, account disabled: %@" = "We don't support any task requested by the server, account disabled: %@";
 "We don't support the single task requested by the server, account disabled: %@" = "We don't support the single task requested by the server, account disabled: %@";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs.";
 "Welcome" = "ようこそ";
@@ -773,13 +783,5 @@
 "📍 A Location" = "📍 位置情報";
 "📷 An Image" = "📷 画像";
 "🔗 A Link" = "🔗 リンク";
-"Add Group Members" = "Add Group Members";
-"Block grom group" = "Block grom group";
-"Configure Membership" = "Configure Membership";
-"Group Description" = "Group Description";
-"Group name" = "Group name";
-"Make admin" = "Make admin";
-"Make member" = "Make member";
-"Make owner" = "Make owner";
-"Remove from group" = "Remove from group";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.";
+"Channel description" = "Channel description";
+"Group description" = "Group description";

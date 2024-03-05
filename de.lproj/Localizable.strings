@@ -27,6 +27,7 @@
 "Add %@ to your contacts?" = "%@ zu deinen Kontakten hinzufügen?";
 "Add Account" = "Konto hinzufügen";
 "Add Account (advanced)" = "Konto hinzufügen (erweitert)";
+"Add Group Members" = "Gruppenmitglieder hinzufügen";
 "Add Group/Channel or Contact" = "Gruppe/Channel oder Kontakt hinzufügen";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Füge neue Kontakte oben mit der Schaltfläche + hinzu. Deine Freunde werden hier erscheinen, wenn sie sich mit dir unterhalten wollen";
 "Add scanned Group/Channel or Contact" = "Gescannte Gruppe/Channel oder Kontakt hinzufügen";
@@ -65,6 +66,7 @@
 "Backgrounds" = "Hintergründe";
 "Block" = "Sperren";
 "Block Contact" = "Kontakt sperren";
+"Block grom group" = "Aus der Gruppe ausschließen";
 "Blocked Users" = "Gesperrte Benutzer";
 "Blocking is not supported by the server" = "Sperren wird vom Server nicht unterstützt";
 "Blocking/Unblocking Not Supported" = "Sperren/Entsperren nicht unterstützt";
@@ -110,6 +112,7 @@
 "Clear History" = "Verlauf löschen";
 "Clear scanned contact" = "Gescannten Kontakt löschen";
 "Close" = "Schließen";
+"Configure Membership" = "Mitgliedschaft festlegen";
 "Connected since: %@" = "Verbunden seit: %@";
 "Connected: %@" = "Verbunden: %@";
 "Connecting..." = "Verbinden...";
@@ -282,9 +285,11 @@
 "Got empty room config form for '%@'" = "Leere Raumkonfiguration für '%@' erhalten";
 "GPS" = "GPS";
 "Green checkmark shield:" = "Schild mit grünem Häkchen:";
+"Group Description" = "Beschreibung der Gruppe";
 /* placeholder when editing a group description */
 "Group Description (optional)" = "Beschreibung der Gruppe (optional)";
 "Group Members" = "Gruppenmitglieder";
+"Group name" = "Gruppenname";
 /* placeholder when creating new group */
 "Group Name (optional)" = "Gruppenname (optional)";
 "Group subject:" = "Thema der Gruppe:";
@@ -345,6 +350,9 @@
 "Logging in" = "Anmelden";
 "Login" = "Anmelden";
 "Login error, account disabled: %@" = "Anmeldefehler, Konto deaktiviert: %@";
+"Make admin" = "Als Administrator festlegen";
+"Make member" = "Als Mitglied festlegen";
+"Make owner" = "Als Eigentümer festlegen";
 "Manual input" = "Manuelle Eingabe";
 "Mark as read" = "Als gelesen markieren";
 "Me" = "Ich";
@@ -497,6 +505,7 @@
 "Remove Contact" = "Kontakt entfernen";
 "Remove Conversation" = "Unterhaltung entfernen";
 "Remove from contacts" = "Aus den Kontakten entfernen";
+"Remove from group" = "Aus der Gruppe entfernen";
 /* placeholder text in contact details */
 "Rename Contact" = "Kontakt umbenennen";
 "Reply" = "Antworten";
@@ -698,6 +707,7 @@
 "We could not find a xmpp related QR-Code" = "Wir konnten keinen XMPP-bezogenen QR-Code finden";
 "We don't support any task requested by the server, account disabled: %@" = "Wir unterstützen keine vom Server angeforderten Aufgaben, Konto deaktiviert: % @";
 "We don't support the single task requested by the server, account disabled: %@" = "Wir unterstützen die vom Server angeforderte Einzelaufgabe nicht, Konto deaktiviert: %@";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "Wir können keine Verbindung zu deinem Konto herstellen. Bitte überprüfe deinen Benutzernamen und dein Passwort und stelle sicher, dass du mit dem Internet verbunden bist.";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Wir können keine Verbindung zu deinem Konto herstellen. Bitte überprüfe deinen Benutzernamen und dein Passwort und stelle sicher, dass du mit dem Internet verbunden bist.\n\nTechnische Fehlermeldung: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Schwächster Kanalbindungstyp, der nicht gegen gestohlene Zertifikate/Schlüssel schützt, aber falsch ausgestellte Zertifikate erkennt.";
 "Welcome" = "Willkommen";
@@ -773,13 +783,5 @@
 "📍 A Location" = "📍 Ein Standort";
 "📷 An Image" = "📷 Ein Bild";
 "🔗 A Link" = "🔗 Ein Link";
-"Add Group Members" = "Gruppenmitglieder hinzufügen";
-"Block grom group" = "Aus der Gruppe ausschließen";
-"Configure Membership" = "Mitgliedschaft festlegen";
-"Group Description" = "Beschreibung der Gruppe";
-"Group name" = "Gruppenname";
-"Make admin" = "Als Administrator festlegen";
-"Make member" = "Als Mitglied festlegen";
-"Make owner" = "Als Eigentümer festlegen";
-"Remove from group" = "Aus der Gruppe entfernen";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "Wir können keine Verbindung zu deinem Konto herstellen. Bitte überprüfe deinen Benutzernamen und dein Passwort und stelle sicher, dass du mit dem Internet verbunden bist.";
+"Channel description" = "Channel description";
+"Group description" = "Group description";

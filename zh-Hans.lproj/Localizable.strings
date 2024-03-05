@@ -27,6 +27,7 @@
 "Add %@ to your contacts?" = "添加 %@ 为联系人？";
 "Add Account" = "添加账号";
 "Add Account (advanced)" = "添加账号（高级）";
+"Add Group Members" = "添加群组成员";
 "Add Group/Channel or Contact" = "添加群组/频道或联系人";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "使用上方的 + 按钮以添加联系人。当您的朋友可以聊天时，他们会在这里显示";
 "Add scanned Group/Channel or Contact" = "添加扫描的群组/频道或联系人";
@@ -65,6 +66,7 @@
 "Backgrounds" = "背景";
 "Block" = "屏蔽";
 "Block Contact" = "屏蔽联系人";
+"Block grom group" = "屏蔽自群组";
 "Blocked Users" = "已屏蔽的用户";
 "Blocking is not supported by the server" = "服务器不支持屏蔽";
 "Blocking/Unblocking Not Supported" = "不支持屏蔽/取消屏蔽";
@@ -110,6 +112,7 @@
 "Clear History" = "清除历史记录";
 "Clear scanned contact" = "清除扫描的联系人";
 "Close" = "关闭";
+"Configure Membership" = "配置成员资格";
 "Connected since: %@" = "连接自：%@";
 "Connected: %@" = "已连接：%@";
 "Connecting..." = "正在连接...";
@@ -282,9 +285,11 @@
 "Got empty room config form for '%@'" = "'%@' 的聊天室配置表单为空";
 "GPS" = "GPS";
 "Green checkmark shield:" = "绿色复选标记盾牌：";
+"Group Description" = "群组描述";
 /* placeholder when editing a group description */
 "Group Description (optional)" = "群组描述（可选）";
 "Group Members" = "群组成员";
+"Group name" = "群组名";
 /* placeholder when creating new group */
 "Group Name (optional)" = "群组名（可选）";
 "Group subject:" = "群组主题：";
@@ -345,6 +350,9 @@
 "Logging in" = "登录中";
 "Login" = "登录";
 "Login error, account disabled: %@" = "登录错误，账号已禁用：%@";
+"Make admin" = "设置管理员";
+"Make member" = "设置成员";
+"Make owner" = "设置所有者";
 "Manual input" = "手动输入";
 "Mark as read" = "标记为已读";
 "Me" = "我";
@@ -497,6 +505,7 @@
 "Remove Contact" = "删除联系人";
 "Remove Conversation" = "移除对话";
 "Remove from contacts" = "从通讯录中删除";
+"Remove from group" = "移除自群组";
 /* placeholder text in contact details */
 "Rename Contact" = "重命名联系人";
 "Reply" = "回复";
@@ -698,6 +707,7 @@
 "We could not find a xmpp related QR-Code" = "找不到与 XMPP 相关的二维码";
 "We don't support any task requested by the server, account disabled: %@" = "我们不支持服务器请求的任何任务，账号已禁用：%@";
 "We don't support the single task requested by the server, account disabled: %@" = "我们不支持服务器请求的单个任务，账号已禁用：%@";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "我们无法连接至您的账号。请检查您的用户名和密码，并确保您已连接到互联网。";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "我们无法连接至您的账号。请检查您的用户名和密码，并确保您已连接到互联网。\n\n技术错误消息：%@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "最弱的通道绑定类型，不能防止证书/密钥被盗，但可以检测错误颁发的证书。";
 "Welcome" = "欢迎";
@@ -773,13 +783,5 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
-"Add Group Members" = "添加群组成员";
-"Block grom group" = "屏蔽自群组";
-"Configure Membership" = "配置成员资格";
-"Group Description" = "群组描述";
-"Group name" = "群组名";
-"Make admin" = "设置管理员";
-"Make member" = "设置成员";
-"Make owner" = "设置所有者";
-"Remove from group" = "移除自群组";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "我们无法连接至您的账号。请检查您的用户名和密码，并确保您已连接到互联网。";
+"Channel description" = "Channel description";
+"Group description" = "Group description";
