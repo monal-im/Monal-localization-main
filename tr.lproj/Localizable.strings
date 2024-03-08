@@ -8,7 +8,7 @@
 /* server details */
 "<unknown version>" = "<bilinmeyen sürüm>";
 /* muc affiliation */
-"<unknown>" = "<unknown>";
+"<unknown>" = "<bilinmeyen>";
 "A contact was scanned through the QR code scanner" = "QR kod tarayıcısı aracılığıyla bir kişi tarandı";
 "Abort" = "İptal";
 "Aborted recording audio" = "İptal edilen ses kaydı";
@@ -27,7 +27,7 @@
 "Add %@ to your contacts?" = "Kişilerinize %@ eklensin mi?";
 "Add Account" = "Hesap Ekle";
 "Add Account (advanced)" = "Hesap Ekle (gelişmiş)";
-"Add Group Members" = "Add Group Members";
+"Add Group Members" = "Grup Üyeleri Ekle";
 "Add Group/Channel or Contact" = "Grup/Kanal veya Kişi Ekleme";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Yukarıdaki + düğmesine tıklayarak yeni kişiler ekleyin. Arkadaşların uygun olduklarında görüntülenmeye başlayacaklar";
 "Add scanned Group/Channel or Contact" = "Taranan Grup/Kanal veya Kişi Ekleme";
@@ -35,13 +35,13 @@
 "Adding Group/Channel..." = "Grup/Kanal ekleyin...";
 "Adding..." = "Ekleniyor...";
 /* muc affiliation */
-"Admin" = "Admin";
+"Admin" = "Yönetici";
 "Advanced Settings" = "Gelişmiş Ayarlar";
 "All messages are archived by default." = "Tüm iletiler varsayılan olarak arşivlendi.";
-"All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
+"All messages fetched successfully, there are no more left on the server!" = "Tüm mesajlar başarıyla alındı, sunucuda başka mesaj kalmadı!";
 "Allow" = "İzin ver";
 "Allow approved contacts to query my Monal and iOS version" = "Onaylanan kişilerin Monal ve iOS sürümümü sorgulamasına izin ver";
-"Allow contacts not in my Contact list to contact me" = "Allow contacts not in my Contact list to contact me";
+"Allow contacts not in my Contact list to contact me" = "Kişi listemde olmayan kişilerin benimle iletişime geçmesine izin ver";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Birinin sizi kişi olarak eklemesine izin vermek, profil resminizi ve çevrimiçi olduğunuzda görmesini sağlar.";
 "Already present" = "Zaten mevcut";
 "Already uploading this content, ignoring" = "Bu içeriği zaten yüklüyor, yoksay";
@@ -66,7 +66,7 @@
 "Backgrounds" = "Arka planlar";
 "Block" = "Engelle";
 "Block Contact" = "Kişiyi Engelle";
-"Block grom group" = "Block grom group";
+"Block grom group" = "Gruptan hariç tut";
 "Blocked Users" = "Engellenen Kullanıcılar";
 "Blocking is not supported by the server" = "Engelleme sunucu tarafından desteklenmiyor";
 "Blocking/Unblocking Not Supported" = "Engelleme/Engellemeyi Kaldırma Desteklenmiyor";
@@ -98,11 +98,11 @@
 /* placeholder when creating account */
 "Captcha" = "Captcha";
 "Change Chat Background" = "Konuşma Arka Planını Değiştir";
-"Change Group Members" = "Change Group Members";
+"Change Group Members" = "Grup Üyelerini Değiştir";
 "Change Password" = "Parolayı Değiştir";
 "Changing Password" = "Parolayı Değiştir";
-"Channel description" = "Channel description";
-"Channel Members" = "Channel Members";
+"Channel description" = "Kanal açıklaması";
+"Channel Members" = "Kanal Üyeleri";
 "Channel subject:" = "Kanal konusu:";
 "Chat Background" = "Chat arka planları";
 "Check type and size on " = "Türü ve boyutu denetle ";
@@ -113,7 +113,7 @@
 "Clear History" = "Geçmişi Temizle";
 "Clear scanned contact" = "Taranan kişiyi temizle";
 "Close" = "Kapat";
-"Configure Membership" = "Configure Membership";
+"Configure Membership" = "Üyeliği Yapılandır";
 "Connected since: %@" = "Şu zamandan beri bağlı: % @";
 "Connected: %@" = "Bağlandı: %@";
 "Connecting..." = "Bağlanıyor...";
@@ -128,7 +128,7 @@
 "Copied to clipboard" = "Panoya kopyalandı";
 /* Chat msg action */
 "Copy" = "Kopyala";
-"Copy invitation link to clipboard" = "Copy invitation link to clipboard";
+"Copy invitation link to clipboard" = "Davet bağlantısını panoya kopyala";
 "Copy to clipboard" = "Panoya kopyala";
 "Could fetch room config form for '%@': timeout" = "'%@' için oda yapılandırma formu getirilemedi: zaman aşımı";
 /* QR-Code-Scanner: camera not found */
@@ -156,7 +156,7 @@
 /* Crash reporting */
 "Crash Detected" = "Çökme Algılandı";
 "Create new group" = "Yeni grup oluştur";
-"Creating Group" = "Creating Group";
+"Creating Group" = "Grup Oluşturma";
 "Creating invitation..." = "Davetiye oluşturuluyor...";
 "Current Password" = "Mevcut Şifre";
 "Currently Online" = "Şu Anda Çevrimiçi";
@@ -226,7 +226,7 @@
 "Error" = "Hata";
 "error" = "hata";
 "Error adding contact or channel" = "Kişi veya kanal eklerken hata oluştu";
-"Error creating group!" = "Error creating group!";
+"Error creating group!" = "Grup oluşturulurken hata oluştu!";
 "Error decrypting message" = "Mesajın şifresi çözülürken hata oluştu";
 "Error entering group/channel!" = "Grup/kanala girerken hata!";
 /* parenthesis should be verbatim */
@@ -280,18 +280,18 @@
 "File" = "Dosya";
 "filename" = "Dosya adı";
 "Files" = "Dosyalar";
-"Finished fetching messages" = "Finished fetching messages";
+"Finished fetching messages" = "Mesajları alma işlemi tamamlandı";
 "General" = "Genel";
 "General File Transfer Settings" = "Genel Dosya Aktarım Ayarları";
 "Got empty room config form for '%@'" = "'%@' için boş oda yapılandırma formu var";
 "GPS" = "Küresel Konumlama Sistemi";
 "Green checkmark shield:" = "Yeşil onay işareti kalkanı:";
-"Group Description" = "Group Description";
-"Group description" = "Group description";
+"Group Description" = "Grup Açıklaması";
+"Group description" = "Grup açıklaması";
 /* placeholder when editing a group description */
-"Group Description (optional)" = "Group Description (optional)";
+"Group Description (optional)" = "Grup Açıklaması (isteğe bağlı)";
 "Group Members" = "Grup Üyeleri";
-"Group name" = "Group name";
+"Group name" = "Grup adı";
 /* placeholder when creating new group */
 "Group Name (optional)" = "Grup Adı (opsiyonel)";
 "Group subject:" = "Grup konusu:";
@@ -323,8 +323,8 @@
 "Join Group" = "Gruba Katıl";
 "Just seen" = "Az önce görüldü";
 "Keys of %@" = "Anahtarları %@";
-"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
-"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
+"Kicked from group/channel, because of system shutdown: %@" = "Sistem kapatıldığı için gruptan/kanaldan atıldı: %@";
+"Kicked, because group/channel is now members-only: %@" = "Atıldı, çünkü grup/kanal artık yalnızca üyelere özel: %@";
 "Last seen: %@" = "Son Görülme: %@";
 "Last seen: %d days ago" = "Son görülme: %d gün önce";
 "Last seen: %d hours ago" = "Son görülme: %d saat önce";
@@ -352,15 +352,15 @@
 "Logging in" = "Oturum açma";
 "Login" = "Giriş";
 "Login error, account disabled: %@" = "Oturum açma hatası, hesap devre dışı: % @";
-"Make admin" = "Make admin";
-"Make member" = "Make member";
-"Make owner" = "Make owner";
+"Make admin" = "Yönetici yap";
+"Make member" = "Üye yap";
+"Make owner" = "Sahibi yap";
 "Manual input" = "Manuel giriş";
 "Mark as read" = "Okundu olarak işaretle";
 "Me" = "Beni";
 "Media Upload & Download Settings" = "Medya Yükleme ve İndirme Ayarları";
 /* muc affiliation */
-"Member" = "Member";
+"Member" = "Üye";
 "Message Archive Preferences" = "Mesaj Arşivi Tercihleri";
 "Message from %@" = "%@'dan gelen mesaj";
 "Message was encrypted with '%@' which isn't supported by Monal" = "İleti, Monal tarafından desteklenmeyen '%@' ile şifrelendi";
@@ -429,17 +429,17 @@
 "Only shareable for now" = "Şimdilik sadece paylaşılabilenler";
 "Open" = "Aç";
 "Open app to see more" = "Daha fazlasını görmek için uygulamayı açın";
-"Open contact list" = "Open contact list";
+"Open contact list" = "Kişi listesini aç";
 "Open list of pending contact requests" = "Bekleyen iletişim taleplerinin açık listesi";
 "Open Source" = "Açık Kaynak";
 "Optional Hardcoded Hostname" = "İsteğe Bağlı Sabit Kodlu Ana Bilgisayar Adı";
 "Optional Port" = "İsteğe Bağlı Bağlantı Noktası";
 /* muc affiliation */
-"Outcast" = "Outcast";
+"Outcast" = "Hariç tutulanlar";
 "Own device key" = "Kendi cihaz anahtarın";
 "Own Encryption Keys" = "Kendi Şifreleme Anahtarlarım";
 /* muc affiliation */
-"Owner" = "Owner";
+"Owner" = "Sahibi";
 /* placeholder when adding account
    placeholder when creating account
    placeholder when migrating account */
@@ -507,7 +507,7 @@
 "Remove Contact" = "Kişiyi Kaldır";
 "Remove Conversation" = "Konuşmayı Kaldır";
 "Remove from contacts" = "Kişilerden kaldır";
-"Remove from group" = "Remove from group";
+"Remove from group" = "Gruptan çıkar";
 /* placeholder text in contact details */
 "Rename Contact" = "Kişiyi Yeniden Adlandır";
 "Reply" = "Cevap ver";
@@ -681,7 +681,7 @@
 "unknown" = "Bilinmiyor";
 "Unknown authentication method" = "Bilinmeyen kimlik doğrulama yöntemi";
 "Unknown channel-binding type" = "Bilinmeyen channel-binding tipi";
-"Unknown error!" = "Unknown error!";
+"Unknown error!" = "Bilinmeyen hata!";
 "Unread Messages Below" = "Okunmamış İletiler Aşağıda";
 "unsupported" = "Desteklenmiyor";
 "Untrusted key" = "Güvenilmeyen anahtar";
@@ -691,7 +691,7 @@
 "Upload Settings" = "Yükleme Ayarları";
 "Uploading" = "Karşıya yükleniyor";
 "Uploading file to server" = "Dosya sunucuya yükleniyor";
-"Uploading image..." = "Uploading image...";
+"Uploading image..." = "Görüntü yükleniyor...";
 /* placeholder when adding account */
 "user@domain.tld" = "kullanıcı@domain.tld";
 /* BlockUserTable - blockJidForm */
@@ -709,8 +709,8 @@
 "We could not find a xmpp related QR-Code" = "Xmpp ile ilgili bir QR Kodu bulamadık";
 "We don't support any task requested by the server, account disabled: %@" = "Sunucu tarafından talep edilen hiçbir görevi desteklemiyoruz, hesap devre dışı: %@";
 "We don't support the single task requested by the server, account disabled: %@" = "Sunucu tarafından istenen tek bir görevi desteklemiyoruz, hesap devre dışı: % @";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "Hesabınıza bağlanamadık. Lütfen kullanıcı adınızı ve şifrenizi kontrol edin ve internete bağlı olduğunuzdan emin olun.";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Hesabınıza bağlanamadık. Lütfen kullanıcı adınızı ve şifrenizi kontrol edin ve internete bağlı olduğunuzdan emin olun.\n\nTeknik hata mesajı: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "En zayıf channel-binding tipidir, çalınan sertifikalara/anahtarlara karşı güvenlik sağlamaz, ancak yanlış verilen sertifikaları tespit eder.";
 "Welcome" = "Hoşgeldiniz";
 "What call do you want to place?" = "Hangi çağrıyı yapmak istiyorsunuz?";
@@ -755,9 +755,9 @@
 "You are set up and connected. People can message you at: %@@%@" = "Kuruldunuz ve bağlandınız. İnsanlar size şu adresten mesaj gönderebilir: %@@% @";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "'%@' (%@) numarasını aramaya çalışıyorsunuz, ancak bu kişiye farklı hesaplar kullanılarak ulaşılabilir. Lütfen giden aramayı yapmak istediğiniz hesabı seçin.";
 "You did not grant Monal to access your location." = "Monal'ın konumunuza erişmesine izin vermediniz.";
-"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
-"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
-"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
+"You got banned from group/channel: %@" = "Gruptan/kanaldan yasaklandınız: %@";
+"You got kicked from group/channel: %@" = "Gruptan/kanaldan atıldınız: %@";
+"You got removed from group/channel: %@" = "Gruptan/kanaldan çıkarıldınız: %@";
 "You have not entered your XMPP ID yet" = "XMPP kimliğinizi henüz girmediniz";
 "You need friends for this ride" = "Bu yolculuk için arkadaşa ihtiyacın var";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Başkalarının sizi duyabilmesini istiyorsanız, iOS Ayarları-> Gizlilik-> Mikrofon bölümünde mikrofon erişimine izin vermeniz gerekir.";
