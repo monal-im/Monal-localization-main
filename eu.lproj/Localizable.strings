@@ -27,7 +27,7 @@
 "Add %@ to your contacts?" = "Gehitu %@ zure kontaktuetara?";
 "Add Account" = "Gehitu kontua";
 "Add Account (advanced)" = "Gehitu kontua (aurreratua)";
-"Add Group Members" = "Add Group Members";
+"Add Group Members" = "Gehitu taldeko kideak";
 "Add Group/Channel or Contact" = "Gehitu taldea / kanala edo kontaktua";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Gehitu kontaktu berriak goialdeko + botoia erabiliz. Zure lagunak hemen agertuko dira hitz egin dezaketenean";
 "Add scanned Group/Channel or Contact" = "Gehitu eskaneatutako talde / kanal edo kontaktua";
@@ -66,7 +66,7 @@
 "Backgrounds" = "Hondoak";
 "Block" = "Blokeatu";
 "Block Contact" = "Blokeatu kontaktua";
-"Block grom group" = "Block grom group";
+"Block grom group" = "Galarazi taldean";
 "Blocked Users" = "Blokeatutako erabiltzaileak";
 "Blocking is not supported by the server" = "Zerbitzariak ez du blokeatzen uzten";
 "Blocking/Unblocking Not Supported" = "Blokeatzea / Desblokeatzea ez dago gaituta";
@@ -101,7 +101,7 @@
 "Change Group Members" = "Aldatu taldeko kideak";
 "Change Password" = "Aldatu pasahitza";
 "Changing Password" = "Pasahitza aldatzen";
-"Channel description" = "Channel description";
+"Channel description" = "Kanalaren deskribapena";
 "Channel Members" = "Kanaleko kideak";
 "Channel subject:" = "Kanalaren gaia:";
 "Chat Background" = "Txataren hondoa";
@@ -113,7 +113,7 @@
 "Clear History" = "Garbitu historia";
 "Clear scanned contact" = "Garbitu eskaneatutako kontaktua";
 "Close" = "Itxi";
-"Configure Membership" = "Configure Membership";
+"Configure Membership" = "Konfiguratu kidetza";
 "Connected since: %@" = "%@etatik konektatuta";
 "Connected: %@" = "Konektatuta: %@";
 "Connecting..." = "Konektatzen…";
@@ -286,12 +286,12 @@
 "Got empty room config form for '%@'" = "Eskuratutako '%@' gelaren konfigurazio-orria hutsik dago";
 "GPS" = "GPSa";
 "Green checkmark shield:" = "Kontrol-marka berdea:";
-"Group Description" = "Group Description";
-"Group description" = "Group description";
+"Group Description" = "Taldearen deskribapena";
+"Group description" = "Taldearen deskribapena";
 /* placeholder when editing a group description */
-"Group Description (optional)" = "Group Description (optional)";
+"Group Description (optional)" = "Taldearen deskribapena (aukerakoa)";
 "Group Members" = "Taldeko kideak";
-"Group name" = "Group name";
+"Group name" = "Taldearen izena";
 /* placeholder when creating new group */
 "Group Name (optional)" = "Taldearen izena (aukerakoa)";
 "Group subject:" = "Taldeko gaia:";
@@ -352,9 +352,9 @@
 "Logging in" = "Saioa hasten";
 "Login" = "Hasi saioa";
 "Login error, account disabled: %@" = "Errorea saioa hasterakoan, kontua ezgaituta dago: %@";
-"Make admin" = "Make admin";
-"Make member" = "Make member";
-"Make owner" = "Make owner";
+"Make admin" = "Egin administrari";
+"Make member" = "Egin kide xume";
+"Make owner" = "Egin jabe";
 "Manual input" = "Eskuz";
 "Mark as read" = "Markatu irakurritzat";
 "Me" = "Ni";
@@ -507,7 +507,7 @@
 "Remove Contact" = "Kendu kontaktua";
 "Remove Conversation" = "Kendu elkarrizketa";
 "Remove from contacts" = "Kendu kontaktuetatik";
-"Remove from group" = "Remove from group";
+"Remove from group" = "Kendu taldetik";
 /* placeholder text in contact details */
 "Rename Contact" = "Berrizendatu kontaktua";
 "Reply" = "Erantzun";
@@ -691,7 +691,7 @@
 "Upload Settings" = "Igoera ezarpenak";
 "Uploading" = "Igotzen";
 "Uploading file to server" = "Fitxategia zerbitzarira igotzen";
-"Uploading image..." = "Uploading image...";
+"Uploading image..." = "Irudia igotzen…";
 /* placeholder when adding account */
 "user@domain.tld" = "erabiltzailea@domeinua.eus";
 /* BlockUserTable - blockJidForm */
@@ -709,8 +709,8 @@
 "We could not find a xmpp related QR-Code" = "Ezin izan da XMPPari lotutako QR koderik aurkitu";
 "We don't support any task requested by the server, account disabled: %@" = "Ez ditugu zerbitzariak eskatutako zereginak onartzen, kontua ezgaituta: %@";
 "We don't support the single task requested by the server, account disabled: %@" = "Ez dugu zerbitzariak eskatutako zeregin bakarra onartzen, kontua ezgaituta: %@";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "Ezin izan dugu zure kontua konektatu. Egiaztatu erabiltzaile-izena eta pasahitza, eta baieztatu internetera sarbidea duzula.";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Ezin izan dugu zure kontua konektatu. Egiaztatu erabiltzaile-izena eta pasahitza, eta baieztatu internetera sarbidea duzula.\n\nErrorearen mezu teknikoa: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Channel-binding mota ahulena, ez du ostutako ziurtagiri edo gakoetatik babesten, baina oker jaulkitako ziurtagiriak antzematen ditu.";
 "Welcome" = "Ongi etorri";
 "What call do you want to place?" = "Zer dei egin nahi duzu?";
