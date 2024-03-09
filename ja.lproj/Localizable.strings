@@ -27,7 +27,7 @@
 "Add %@ to your contacts?" = "%@ を相手先に追加しますか ?";
 "Add Account" = "アカウントを追加";
 "Add Account (advanced)" = "アカウントを追加 (高度な設定)";
-"Add Group Members" = "Add Group Members";
+"Add Group Members" = "グループメンバーを追加";
 "Add Group/Channel or Contact" = "グループ/チャンネルまたは相手先を追加";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "上部の + ボタンを使用して新しい相手先を追加します。友だちが会話できるようになると、ここに表示されます";
 "Add scanned Group/Channel or Contact" = "スキャンしたグループ/チャンネルまたは相手先を追加";
@@ -38,10 +38,10 @@
 "Admin" = "管理人";
 "Advanced Settings" = "詳細設定";
 "All messages are archived by default." = "デフォルトですべてのメッセージは保管されます。";
-"All messages fetched successfully, there are no more left on the server!" = "すべてのメッセージが正常に取得しました。サーバーにはもう残っていません。";
+"All messages fetched successfully, there are no more left on the server!" = "すべてのメッセージを正常に取得しました。サーバーにはもう残っていません。";
 "Allow" = "許可";
 "Allow approved contacts to query my Monal and iOS version" = "承認済の相手先に Monal と iOS バージョン問い合わせを許可";
-"Allow contacts not in my Contact list to contact me" = "相手先一覧にない相手先からの連絡を許可する";
+"Allow contacts not in my Contact list to contact me" = "相手先一覧にない相手先からの連絡を許可";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "あなたを相手先として追加することを誰かに許可すると、その人はあなたのプロフィール画像や在席状況を見ることができます。";
 "Already present" = "すでに存在します";
 "Already uploading this content, ignoring" = "この内容はすでにアップロードされています。無視します";
@@ -98,7 +98,7 @@
 /* placeholder when creating account */
 "Captcha" = "Captcha";
 "Change Chat Background" = "会話の背景を変更";
-"Change Group Members" = "Change Group Members";
+"Change Group Members" = "グループメンバーを変更";
 "Change Password" = "パスワードを変更";
 "Changing Password" = "パスワードの変更";
 "Channel description" = "Channel description";
@@ -114,7 +114,7 @@
 "Clear scanned contact" = "スキャンした相手先を消去";
 "Close" = "閉じる";
 "Configure Membership" = "Configure Membership";
-"Connected since: %@" = "%@から接続しました";
+"Connected since: %@" = "%@から接続中";
 "Connected: %@" = "接続済: %@";
 "Connecting..." = "接続中...";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "相手先とグループ/チャンネルの JID の形式は通常の場合 name@domain.tld です";
@@ -207,9 +207,9 @@
 "Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "これは中間者攻撃、またはサーバーが XEP-0474 を実装していないもしくは tls-server-end-point チャンネルバインディングの対応を義務付ける XEP-0440 を完全に実装していない、のいずれかです。いずれにしても、サーバー管理者に通知する必要があります。現在アカウントは無効になっています。";
 /* Crash report error dialog */
 "Email Error" = "電子メールのエラー";
-"Email Support" = "電子メール対応";
+"Email Support" = "電子メールでのサポート";
 "Empty Values!" = "値が空です。";
-"Enable encryption by default for new chats" = "新しい会話でデフォルトで暗号化を有効にする";
+"Enable encryption by default for new chats" = "新しい会話でデフォルトで暗号化を有効化";
 "Enabled" = "有効";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "暗号化されたメッセージは、Monal が復号できない古い形式で送信されました。クライアントを更新するよう依頼してください。 (GCMエラー)";
 "Encrypted session to this device broken beyond repair." = "このデバイスへの暗号化されたセッションは修復不可能なほど壊れています。";
@@ -302,7 +302,7 @@
 "I already have an account:" = "すでにアカウントを持っています:";
 "I need an account:" = "アカウントが必要です:";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Monal が通知を表示できない場合、メッセージが到着してもアラートは表示されません。これは、Monal が最初に許可を求めたときに「拒否」をタップした場合に発生します。この問題を修正するには、iOS の 設定 -> Monal -> 通知 に移動し、「通知を許可」を選択します。";
-"If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357.";
+"If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "これがオフの場合、デバイスが XMPP サーバーのプッシュ通知を有効化できていません。XEP-0357に対応をするよう設定されていることを確認してください。";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "音声メッセージを使用したい場合は、[設定] -> [プライバシー] -> [マイク] でアクセスを許可する必要があります。";
 "Ignore" = "無視";
 "Image Upload Quality" = "画像アップロードの品質";
@@ -774,7 +774,7 @@
 "Your entered XMPP ID is missing the username" = "入力された XMPP ID にユーザー名がありません";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "サーバーは MAM (XEP-0313) に対応していません。つまり、受信メッセージを頻繁に見逃す可能性があります。これを有効にするには、サーバーを切り替えるか、サーバー管理者に相談する必要があります。";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "サーバーはストリーム管理 (XEP-0198) に対応していません。つまり、送信メッセージが頻繁に失われる可能性があります。これを有効にするには、サーバーを切り替えるか、サーバー管理者に相談する必要があります。";
-"Your status" = "Your status";
+"Your status" = "状況";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "XMPP JID は user@domain.tld の形式である必要があります。特殊な場合は、手動セットアップを使用してください。";
 "🎥 A Video" = "🎥 ビデオ";
 "🎥 Video" = "🎥 ビデオ";
