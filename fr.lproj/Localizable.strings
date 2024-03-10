@@ -1,5 +1,5 @@
 /* server details */
-" running on %@" = " running on %@";
+" running on %@" = " tourne sur %@";
 "%02d:%02d (long press to abort)" = "%02d:%02d (appui long pour annuler)";
 "%@" = "%@";
 "%@ says:" = "%@ dit :";
@@ -32,7 +32,7 @@
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Ajoutez de nouveaux contacts avec le bouton + ci-dessus. Vos amis apparaîtront ici lorsqu'ils pourront parler";
 "Add scanned Group/Channel or Contact" = "Ajouter le contact ou groupe/salon scanné";
 "Add to contacts" = "Ajouter aux contacts";
-"Adding Group/Channel..." = "Adding Group/Channel...";
+"Adding Group/Channel..." = "Ajout du groupe/salon…";
 "Adding..." = "Ajout...";
 /* muc affiliation */
 "Admin" = "Administrateur";
@@ -93,7 +93,7 @@
 "Can Show Notifications" = "Peut afficher des notifications";
 "Can't convert the image to jpeg format." = "Échec de conversion de l'image au format jpeg.";
 "Cancel" = "Annuler";
-"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Échec de partage avec un compte désactivé/supprimé, destination : %1$@, identifiant interne du compte : %2$@";
+"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Échec de partage avec un compte désactivé/supprimé, destination : %@, identifiant interne du compte : %@";
 "Caps hash: %@" = "Hash des capacités : %@";
 /* placeholder when creating account */
 "Captcha" = "Captcha";
@@ -156,7 +156,7 @@
 /* Crash reporting */
 "Crash Detected" = "Crash détecté";
 "Create new group" = "Créer un nouveau groupe";
-"Creating Group" = "Creating Group";
+"Creating Group" = "Création du groupe";
 "Creating invitation..." = "Invitation en cours de création...";
 "Current Password" = "Mot de passe actuel";
 "Currently Online" = "Actuellement connecté";
@@ -437,7 +437,7 @@
 /* muc affiliation */
 "Outcast" = "Banni";
 "Own device key" = "Clé de cet appareil";
-"Own Encryption Keys" = "Own Encryption Keys";
+"Own Encryption Keys" = "Clés de chiffrement personnelles";
 /* muc affiliation */
 "Owner" = "Propriétaire";
 /* placeholder when adding account
@@ -456,11 +456,11 @@
 "Please Allow Audio Access" = "Veuillez autoriser l'accès à l'audio";
 "Please enter a password below before activating this account." = "Veuillez entrer un mot de passe ci-dessous avant d'activer ce compte.";
 "Please make sure at least one account has connected before trying to add a contact or channel." = "Veuillez vérifier qu'au moins un compte est connecté avant d'ajouter un contact ou un canal.";
-"Please make sure at least one account has connected before trying to create new group." = "Please make sure at least one account has connected before trying to create new group.";
+"Please make sure at least one account has connected before trying to create new group." = "Au moins un compte doit être connecté avant de créer un nouveau groupe.";
 "Please make sure you are connected before changing your password." = "Veuillez vous assurer que vous êtes connecté avant de modifier votre mot de passe.";
 "Please make sure you have entered a username, password." = "Veuillez vous assurer que vous avez saisi un nom d'utilisateur et un mot de passe.";
 "Please make sure you have entered a valid jid." = "Vérifiez que vous avez entré un identifiant correct.";
-"Please make sure you have entered both a username and password." = "Please make sure you have entered both a username and password.";
+"Please make sure you have entered both a username and password." = "Vous devez entrer et un nom d’utilisateur et un mot de passe.";
 "Please make sure you have entered the same password in both password fields." = "Assurez-vous que vous avez entré le même mot de passe dans les deux champs de mots de passe.";
 "Please provide a valid XMPP server domain or select one." = "Veuillez fournir un domaine de serveur XMPP correct ou en sélectionner un.";
 "Please select a XMPP server or provide one." = "Veuillez sélectionner un serveur XMPP ou en fournir un.";
@@ -507,7 +507,7 @@
 "Remove Contact" = "Supprimer le contact";
 "Remove Conversation" = "Retirer la conversation";
 "Remove from contacts" = "Supprimer des contacts";
-"Remove from group" = "Remove from group";
+"Remove from group" = "Retirer du groupe";
 /* placeholder text in contact details */
 "Rename Contact" = "Renommer ce contact";
 "Reply" = "Répondre";
@@ -535,7 +535,7 @@
 "Select background image" = "Choisissez un arrière-plan";
 "Select Message Archive Management (MAM) Preferences " = "Préférences de gestion des archives des messages (MAP) ";
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Sélectionnez les sons qui sont joués avec les notifications de nouveau message. Celui par défaut est Xylophone.";
-"Selected Group Members" = "Selected Group Members";
+"Selected Group Members" = "Membres du groupe sélectionnés";
 "Send" = "Envoyer";
 "Send Last Interaction Time" = "Envoyer l'heure de dernière interaction";
 "Send Location" = "Envoyer la localisation";
@@ -630,7 +630,7 @@
 "This contact is already in your contact list" = "Le contact est déjà dans votre liste de contacts.";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Ce contact peut ne pas supporter les messages encryptés OMEMO. Veuillez réessayer dans quelques secondes.";
 /* Crash report error dialog */
-"This device is not configured to send email." = "L'envoie de courriels n'est pas configuré sur cet appareil.";
+"This device is not configured to send email." = "L’envoi de courriels n’est pas configuré sur cet appareil.";
 "This invitation will expire on %@" = "L'invitation est valable jusqu'à/au %@";
 "This is the software running on your server." = "Ceci est le logiciel qui tourne sur votre serveur.";
 "This key belongs to this device and cannot be removed or disabled!" = "Cette clé appartient à cet appareil et ne peut être supprimée ou désactivée !";
