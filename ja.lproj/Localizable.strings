@@ -71,17 +71,17 @@
 "Blocking is not supported by the server" = "このサーバーはブロックに対応していません";
 "Blocking/Unblocking Not Supported" = "ブロック/ブロック解除は非対応";
 "BODY" = "BODY";
-"Call ended" = "Call ended";
-"Call ended for an unknown reason" = "Call ended for an unknown reason";
-"Call ended, duration: %@" = "Call ended, duration: %@";
-"Call ended: answered with other device" = "Call ended: answered with other device";
-"Call ended: application error" = "Call ended: application error";
-"Call ended: connection failed" = "Call ended: connection failed";
-"Call ended: connection failed\nDuration: %@" = "Call ended: connection failed\nDuration: %@";
-"Call ended: couldn't establish encryption" = "Call ended: couldn't establish encryption";
-"Call ended: declined" = "Call ended: declined";
-"Call ended: hung up" = "Call ended: hung up";
-"Call ended: remote busy" = "Call ended: remote busy";
+"Call ended" = "通話終了";
+"Call ended for an unknown reason" = "不明な理由により通話終了";
+"Call ended, duration: %@" = "通話終了。継続時間: %@";
+"Call ended: answered with other device" = "通話終了: 他のデバイスで応答しました";
+"Call ended: application error" = "通話終了: アプリケーションエラー";
+"Call ended: connection failed" = "通話終了: 接続失敗";
+"Call ended: connection failed\nDuration: %@" = "通話終了: 接続失敗\n継続時間: %@";
+"Call ended: couldn't establish encryption" = "通話終了: 暗号化を確立できませんでした";
+"Call ended: declined" = "通話終了: 拒否されました";
+"Call ended: hung up" = "通話終了: 切断";
+"Call ended: remote busy" = "通話終了: 話し中";
 "Call security help" = "Call security help";
 "Call Type" = "通話のタイプ";
 "Call was not answered" = "Call was not answered";
@@ -130,7 +130,7 @@
 "Copy" = "コピー";
 "Copy invitation link to clipboard" = "招待のリンクをクリップボードにコピー";
 "Copy to clipboard" = "クリップボードへコピー";
-"Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
+"Could fetch room config form for '%@': timeout" = "部屋 ’%@’ の設定フォームを取得できました: 時間切れ";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "カメラにアクセスできませんでした";
 "Could not access Finder item!" = "Could not access Finder item!";
@@ -187,7 +187,7 @@
 "Do you really want to delete this key?" = "本当にこの鍵を削除してもいいですか ?";
 "Do you really want to disable encryption for this contact?" = "本当にこの相手先に対して暗号化を無効化してもいいですか ?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "本当に OMEMO セッションをリセットしますか ? 接続をリセットするのは、自分が何をしているのかわかっている場合にのみにしてください。";
-"Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?";
+"Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "アカウント %@ を使用するときに、相手先 %@ のスキャンされた指紋を信頼しますか ?";
 "Doing a lot of work..." = "大量に処理中...";
 "Domain missing" = "ドメインがありません";
 "Don't trust Key" = "鍵を信頼しない";
@@ -295,8 +295,8 @@
 /* placeholder when creating new group */
 "Group Name (optional)" = "グループ名 (任意)";
 "Group subject:" = "グループの題:";
-"Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
-"Group/Channel not available anymore: %@" = "グループ/チャンネルはもう利用できません: %@";
+"Group/Channel got destroyed: %@" = "グループ/チャンネル %@ が閉鎖されました";
+"Group/Channel not available anymore: %@" = "グループ/チャンネル %@ はもう利用できません";
 "groupJoin Group" = "groupJoin Group";
 "Hint" = "ヒント";
 "I already have an account:" = "すでにアカウントを持っています:";
@@ -323,8 +323,8 @@
 "Join Group" = "グループに参加";
 "Just seen" = "ちょうど今見ました";
 "Keys of %@" = "%@ の鍵";
-"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
-"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
+"Kicked from group/channel, because of system shutdown: %@" = "システムのシャットダウンのため、グループ/チャネル %@ から蹴り出されました";
+"Kicked, because group/channel is now members-only: %@" = "グループ/チャンネル %@ がメンバー制になったため蹴り出されました";
 "Last seen: %@" = "最後に見たのは: %@";
 "Last seen: %d days ago" = "最後に見たのは: %d 日前";
 "Last seen: %d hours ago" = "最後に見たのは: %d 時間前";
@@ -586,7 +586,7 @@
 "Sure, send it!" = "はい、送ってください。";
 "Sync Read-Markers" = "既読マークを同期";
 "Synchronize your messages on all loggedin devices." = "ログインしているすべてのデバイスでメッセージを同期します。";
-"Temporary failure to enter Group/Channel: %@" = "グループ/チャネルへの参加に一時的に失敗しました: %@";
+"Temporary failure to enter Group/Channel: %@" = "グループ/チャネル %@ への参加に一時的に失敗しました";
 "Terms of use for %@" = "%@ の利用規約";
 "The account has been deleted" = "アカウントは削除されました";
 "The account has been removed" = "アカウントは除去されました";
@@ -659,7 +659,7 @@
 "TLS Error: Certificate expired" = "TLS エラー: 証明書の有効期限切れ";
 "TLS Error: Host name mismatch" = "TLS エラー: ホスト名の不一致";
 "TLS Error: Unknown root certificate" = "TLS エラー: 不明なルート証明書";
-"Trust Key" = "Trust Key";
+"Trust Key" = "鍵を信頼";
 "Trusted and verified key" = "信頼され検証された鍵";
 "Trusted but removed key" = "信頼されているが除去された鍵";
 "Trusted but unused key" = "信頼されているが未使用の鍵";
@@ -691,7 +691,7 @@
 "Upload Settings" = "アップロード設定";
 "Uploading" = "アップロード";
 "Uploading file to server" = "ファイルをサーバーへアップロード";
-"Uploading image..." = "Uploading image...";
+"Uploading image..." = "画像をアップロード...";
 /* placeholder when adding account */
 "user@domain.tld" = "user@domain.tld";
 /* BlockUserTable - blockJidForm */
@@ -709,8 +709,8 @@
 "We could not find a xmpp related QR-Code" = "XMPP に関する QR コードが見つかりませんでした";
 "We don't support any task requested by the server, account disabled: %@" = "We don't support any task requested by the server, account disabled: %@";
 "We don't support the single task requested by the server, account disabled: %@" = "We don't support the single task requested by the server, account disabled: %@";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "アカウントに接続できませんでした。ユーザー名とパスワードを確認し、インターネットに接続していることを確認してください。";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "アカウントに接続できませんでした。ユーザー名とパスワードを確認し、インターネットに接続していることを確認してください。\n\n技術的エラーメッセージ: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs.";
 "Welcome" = "ようこそ";
 "What call do you want to place?" = "どのような通話をしたいですか ?";
@@ -755,9 +755,9 @@
 "You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
 "You did not grant Monal to access your location." = "Monal は位置情報へのアクセスを許可されていません。";
-"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
-"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
-"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
+"You got banned from group/channel: %@" = "グループ/チャンネル %@ から締め出されました";
+"You got kicked from group/channel: %@" = "グループ/チャンネル %@ から蹴り出されました";
+"You got removed from group/channel: %@" = "グループ/チャンネル %@ から削除されました";
 "You have not entered your XMPP ID yet" = "XMPP ID をまだ入力していません";
 "You need friends for this ride" = "You need friends for this ride";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "他の人に自分の声を聞いてもらいたい場合、iOS の [設定] -> [プライバシー] -> [マイク] でマイクへのアクセスを許可する必要があります。";
