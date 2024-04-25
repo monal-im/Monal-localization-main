@@ -167,7 +167,7 @@
 "Delete Key" = "删除密钥";
 "Deny new contact" = "拒绝新联系人";
 "Detected a new omemo device on your account: %@" = "在您的账号上检测到新的 OMEMO 设备：%@";
-"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "通过 SSDP 检测到正在进行的中间人攻击，中止身份验证并禁用账号以限制损害。一旦您再次处于干净的网络环境中，您应该尝试重新启用您的账号。";
 "Device ID: " = "设备 ID： ";
 "DeviceID: " = "设备 ID： ";
 "Disable Encryption" = "禁用加密";
@@ -255,7 +255,7 @@
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "无法进入群组/频道 %@：这不是一个群组/频道！";
 "Failed to fetch room config form for '%@'" = "无法获取聊天室 '%@' 的配置表单";
 "Failed to load blocklist" = "加载屏蔽列表失败";
-"Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
+"Failed to moderate message in group/channel '%@'" = "无法审核群组/频道中的消息“%@”";
 "Failed to parse URL returned by HTTP upload server" = "无法解析由 HTTP 上传服务器返回的 URL";
 "Failed to publish avatar image for group/channel %@" = "发布群组/频道 %@ 的头像失败";
 "Failed to publish own avatar" = "发布自己的头像失败";
@@ -348,7 +348,7 @@
 "Manual input" = "手动输入";
 "Mark as read" = "标记为已读";
 /* Prefix for own messages in chat overview */
-"Me:" = "Me:";
+"Me:" = "我：";
 /* muc affiliation */
 "Member" = "成员";
 "Message Archive Preferences" = "消息存档首选项";
@@ -489,12 +489,12 @@
 "Register with %@" = "以 %@ 注册";
 "Registering account..." = "注册账号中...";
 "Registration Error" = "注册错误";
-"Remove %@ from contacts?" = "从联系人中删除 %@？";
-"Remove Account from this Device" = "从此设备中删除账号";
-"Remove Contact" = "删除联系人";
+"Remove %@ from contacts?" = "从联系人中移除 %@？";
+"Remove Account from this Device" = "从此设备移除账号";
+"Remove Contact" = "移除联系人";
 "Remove Conversation" = "移除对话";
-"Remove from contacts" = "从通讯录中删除";
-"Remove from group" = "移除自群组";
+"Remove from contacts" = "从联系人移除";
+"Remove from group" = "从群组移除";
 /* placeholder text in contact details */
 "Rename Contact" = "重命名联系人";
 "Reply" = "回复";
@@ -510,9 +510,9 @@
 "Ringing..." = "正在响铃...";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "使用给定哈希方法的 Salted Challenge Response 认证机制";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "使用频道绑定额外保护的给定哈希方法的 Salted Challenge Response 认证机制";
-"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "检测到 SASL2 到 SASL1 降级攻击，中止身份验证并禁用账号以限制损害。一旦您再次处于干净的网络环境中，您应该尝试重新启用您的账号。";
 "Saving changes to server" = "正在保存更改到服务器";
-"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SCRAM 服务器证明错误，极有可能正在进行中间人攻击，中止身份验证并禁用账号以限制损害。一旦您再次处于干净的网络环境中，您应该尝试重新启用您的账号。";
 /* mac only string */
 "Scroll down to load more messages" = "向下滑以载入更多消息";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "为 TLS1.3 和一些 TLS1.2 连接定义的安全频道绑定。";
@@ -543,10 +543,10 @@
 "Server does not support account removal" = "服务器不支持删除账号";
 "Server for domain '%@' not responding!" = "域服务器 '%@' 没有响应！";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "服务器实现错误：SASL2 任务为空，账号已禁用！";
-"Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server.";
+"Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "服务器仅支持无法抵御中间人攻击的验证方法！如果您必须使用此服务器，请使用高级账号创建菜单。";
 "Server returned invalid xml!" = "服务器返回了无效的 XML！";
 "Server returned SASL2 error '%@'." = "服务器返回 SASL2 错误 '%@'.";
-"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "服务器突然不支持 SASL2-SCRAM，极有可能受到持续的中间人攻击，中止身份验证并禁用账号以限制损害。一旦您再次处于干净的网络环境中，您应该尝试重新启用您的账号。";
 "Server: %@" = "服务器：%@";
 "Set up account later" = "稍后设置账号";
 /* Camera permissions missing warning */
@@ -572,7 +572,7 @@
 "Temporary failure to enter Group/Channel: %@" = "暂时无法进入群组/频道：%@";
 "Terms of use for %@" = "%@ 的使用条款";
 "The account has been deleted" = "账号已删除";
-"The account has been removed" = "账号已删除";
+"The account has been removed" = "已移除账号";
 "The account has been saved" = "账号已保存";
 /* Crash reporting */
 "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "该应用程序上次启动时崩溃了。发送崩溃报告？此崩溃报告将包含隐私相关数据。我们只会用它来调试您的崩溃并随后将其删除！";
@@ -616,7 +616,7 @@
 "This device is not configured to send email." = "该设备未配置为发送电子邮件。";
 "This invitation will expire on %@" = "此邀请将于 %@ 到期";
 "This is the software running on your server." = "这是您所在服务器上运行的软件。";
-"This key belongs to this device and cannot be removed or disabled!" = "该密钥属于该设备，无法删除或禁用！";
+"This key belongs to this device and cannot be removed or disabled!" = "此密钥属于此设备，无法移除或禁用！";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "该密钥是可信的，并通过手动比较指纹进行验证。要停止信任此密钥，请使用切换元素。";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "此密钥受信任，但联系人不再使用它。考虑禁用对此密钥的信任。";
 "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "该密钥是可信的，但联系人已经很长时间没有使用它了。考虑禁用对此密钥的信任";
@@ -634,18 +634,18 @@
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "该规范提供了一种保护 SASL 和 SASL2 握手免受方法和通道绑定降级的方法。";
 "This will clear the whole chat history of this account from this device." = "从此设备清除此账号的全部聊天记录。";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "这将从服务器和该设备中删除该账号以及关联的数据。不过，数据可能仍保留在其它设备上。";
-"This will remove this account and the associated data from this device." = "这将从此设备中删除此账号和相关资料。";
+"This will remove this account and the associated data from this device." = "这将从此设备中移除此账号和关联数据。";
 "Timeout Error" = "超时错误";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
-"TLS Error: Bad certificate" = "TLS Error: Bad certificate";
+"TLS Error: Bad certificate" = "TLS 错误：证书错误";
 "TLS Error: Certificate chain is invalid" = "TLS 错误：证书链无效";
 "TLS Error: Certificate expired" = "TLS 错误：证书已过期";
 "TLS Error: Host name mismatch" = "TLS 错误：主机名不匹配";
 "TLS Error: Unknown root certificate" = "TLS 错误：未知的根证书";
 "Trust Key" = "信任密钥";
 "Trusted and verified key" = "受信任且经过验证的密钥";
-"Trusted but removed key" = "受信任但已删除的密钥";
+"Trusted but removed key" = "受信任但已移除的密钥";
 "Trusted but unused key" = "受信任但未使用的密钥";
 "Trusted but unverified key" = "受信任但未经验证的密钥";
 "Try nevertheless" = "尝试一下";
@@ -655,7 +655,7 @@
 "Unblock Contact" = "取消屏蔽联系人";
 "Unclean appex shutown" = "未清理附录关闭";
 "Undefined error" = "未定义的错误";
-"Understood" = "Understood";
+"Understood" = "了解";
 "Unexpected appex expiration" = "意外的附录过期";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "使用 SASL2 验证服务器时出现意外错误（您的服务器是否有错误？），断开连接！";
 "Unexpected error while checking type of jid, please try again" = "检查 JID 类型时出现意外错误，请重试";
@@ -690,7 +690,7 @@
 "version %@%@" = "version %1$@%2$@";
 "Very old app version" = "非常旧的应用版本";
 "Waiting for GPS signal" = "等待 GPS 讯号";
-"Warning" = "Warning";
+"Warning" = "警告";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "找不到与 XMPP 相关的二维码";
 "We don't support any task requested by the server, account disabled: %@" = "我们不支持服务器请求的任何任务，账号已禁用：%@";
@@ -751,14 +751,14 @@
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "您尝试呼叫联系人 '%@' ，但在您的联系人列表中找不到该联系人。";
 "You will no longer receive messages from this conversation" = "您将不会再收到来自此对话的消息";
 "You will receive subsequent messages from this conversation" = "您将收到来自此对话的后续消息";
-"Your account must be enabled and connected, to be removed from the server!" = "您的账号必须启用并连接，才能从服务器中删除！";
+"Your account must be enabled and connected, to be removed from the server!" = "您的账号必须启用并连接，才能从服务器中移除！";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "您的账号已禁用，因为您恢复了 Monal 的 iCloud 备份。请重新输入您的密码以再次激活它们。";
 "Your answer" = "您的回答";
 "Your contact may not support calls. Your call might never reach its destination." = "您的联系人可能不支持通话。您的呼叫可能永远不会接通。";
 "Your entered XMPP ID is missing the domain" = "您输入的 XMPP ID 缺少域名";
 "Your entered XMPP ID is missing the username" = "您输入的 XMPP ID 缺少使用者名称";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "您所在的服务器不支持 MAM (XEP-0313) 。这意味着您可能会频繁错过收到的消息！！您应该切换服务器或与服务器管理员联系以启用此功能！";
-"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
+"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "您的服务器不支持推送（XEP-0357）。这意味着您必须手动打开本应用才能检索新收到的消息！您应该切换服务器或与服务器管理员联系以启用此功能！";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "您所在的服务器不支持串流管理 (XEP-0198)。这意味着您传出的消息可能会频繁丢失！您应该切换服务器或与服务器管理员联系以启用此功能！";
 "Your status" = "您的状态";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "您的 XMPP JID 的格式应为 user@domain.tld。对于特殊配置，请使用手动设置。";
@@ -784,23 +784,23 @@
 "Database Files" = "数据库文件";
 "Failed to export the database, please check the logfile for errors and try again." = "无法导出数据库，请检查日志文件中的错误，然后重试。";
 "Image Upload Quality : %@" = "图片上传质量：%@";
-"Load over Cellular" = "Load over Cellular";
-"Load over cellular upto : %@ MiB" = "Load over cellular upto : %@ MiB";
-"Load over wifi" = "Load over wifi";
-"Load over WiFi upto : %@ MiB" = "Load over WiFi upto : %@ MiB";
-"Logfiles" = "Logfiles";
-"Logs" = "Logs";
-"Media Upload & Download" = "Media Upload & Download";
-"Previews" = "Previews";
-"Privacy & Security" = "Privacy & Security";
-"Privacy and security settings" = "Privacy and security settings";
-"Publishing" = "Publishing";
-"Required" = "Required";
-"The UDP logger allows you to livestream the log to the configured IP." = "The UDP logger allows you to livestream the log to the configured IP.";
-"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
-"This allows you to forcefully crash the app using several different methods to test the crash handling." = "This allows you to forcefully crash the app using several different methods to test the crash handling.";
-"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
-"UDP Logger" = "UDP Logger";
-"UDP Logger Configuration" = "UDP Logger Configuration";
-"UDP Logging UI not supported on iOS < 16" = "UDP Logging UI not supported on iOS < 16";
-"Uploaad Settings" = "Uploaad Settings";
+"Load over Cellular" = "通过蜂窝网络加载";
+"Load over cellular upto : %@ MiB" = "通过蜂窝网络最多加载：%@ MiB";
+"Load over wifi" = "通过 wifi 加载";
+"Load over WiFi upto : %@ MiB" = "通过 WiFi 加载最多：%@ MiB";
+"Logfiles" = "日志文件";
+"Logs" = "日志";
+"Media Upload & Download" = "媒体上传和下载";
+"Previews" = "预览";
+"Privacy & Security" = "隐私和安全";
+"Privacy and security settings" = "隐私和安全设置";
+"Publishing" = "发布";
+"Required" = "需要";
+"The UDP logger allows you to livestream the log to the configured IP." = "UDP 日志记录器允许您将日志实时传输到配置的 IP。";
+"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP 日志记录器允许您将日志实时传输到配置的 IP。通过互联网传输时请使用安全密钥！\n［了解如何接收日志流］（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log）。";
+"This allows you to forcefully crash the app using several different methods to test the crash handling." = "这允许您使用几种不同的方法强制崩溃本应用来测试崩溃处理。";
+"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "这可用于导出日志文件。\n［了解如何读取它们］（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log）。";
+"UDP Logger" = "UDP 日志记录器";
+"UDP Logger Configuration" = "UDP 日志记录器配置";
+"UDP Logging UI not supported on iOS < 16" = "iOS < 16 不支持 UDP 日志记录用户界面";
+"Uploaad Settings" = "上传设置";
