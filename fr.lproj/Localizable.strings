@@ -40,8 +40,7 @@
 "All messages are archived by default." = "Tous les messages sont archivés par défaut.";
 "All messages fetched successfully, there are no more left on the server!" = "Tous les messages ont été récupérés avec succès, il n’en reste plus aucun sur le serveur !";
 "Allow" = "Autoriser";
-"Allow approved contacts to query my Monal and iOS version" = "Autoriser les contacts approuvés à voir ma version de Monal et d'iOS";
-"Allow contacts not in my Contact list to contact me" = "Autoriser les contacts non-présents dans ma liste de contacts à me contacter";
+"Allow MITM-prone PLAIN authentication" = "Allow MITM-prone PLAIN authentication";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Autoriser quelqu'un à vous ajouter à ses contacts lui permet de voir votre image de profil et si vous êtes connecté.";
 "Already present" = "Déjà présent·e";
 "Already uploading this content, ignoring" = "Ce contenu est déjà en train d'être envoyé, ignoré";
@@ -61,8 +60,6 @@
 "Audio recoder record fail." = "Échec du lancement de l'enregistrement audio.";
 "Audio Recoder set active error: %@" = "Échec du lancement de l'enregistrement audio : %@";
 "Audio Recoder set category error: %@" = "Échec du lancement de l'enregistrement audio : %@";
-"Auto-Download Media" = "Téléchargement auto des médias";
-"Autodelete all messages after 3 days" = "Supprimer automatiquement tous les messages après 3 jours";
 "Backgrounds" = "Arrière-plans";
 "Block" = "Bloquer";
 "Block Contact" = "Bloquer le contact";
@@ -85,8 +82,6 @@
 "Call security help" = "Call security help";
 "Call Type" = "Type d’appel";
 "Call was not answered" = "Votre correspondant·e n’a pas répondu";
-"Calls: Allow P2P sessions" = "Appels : Autoriser les sessions pair à pair (P2P)";
-"Calls: Allow TURN fallback to Monal-Servers" = "Appels : Autoriser l’utilisation du serveur TURN de Monal en fallback";
 "Camera" = "Appareil photo";
 /* Camera permissions missing warning */
 "Camera permissions missing" = "Permission pour la caméra manquante";
@@ -172,7 +167,7 @@
 "Delete Key" = "Supprimer la clé";
 "Deny new contact" = "Rejeter le nouveau contact";
 "Detected a new omemo device on your account: %@" = "Nouveau client OMEMO détecté sur votre compte : %@";
-"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
+"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "ID d'appareil : ";
 "DeviceID: " = "ID d'appareil : ";
 "Disable Encryption" = "Désactiver le chiffrement";
@@ -209,7 +204,6 @@
 "Email Error" = "Erreur d’email";
 "Email Support" = "Assistance par courriel";
 "Empty Values!" = "Valeurs vides !";
-"Enable encryption by default for new chats" = "Automatiquement utiliser le chiffrement pour les nouvelles conversations";
 "Enabled" = "Activé";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "Un message chiffré a été envoyé dans un ancien format que Monal ne peut pas déchiffrer. Veuillez leur demander de mettre à jour le client. (GCM error)";
 "Encrypted session to this device broken beyond repair." = "Session de chiffrement vers cet appareil cassée au-delà du réparable.";
@@ -261,6 +255,7 @@
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Échec pour entrer dans le Groupe/Canal %@ : ce n'est pas un Groupe/Canal !";
 "Failed to fetch room config form for '%@'" = "Échec de la récupération de la configuration du salon « %@ »";
 "Failed to load blocklist" = "Échec de chargement de la liste de blocage";
+"Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
 "Failed to parse URL returned by HTTP upload server" = "Échec de l'analyse de l'URL renvoyée par le serveur d'envoi HTTP";
 "Failed to publish avatar image for group/channel %@" = "Échec de publication de l'avatar pour le groupe/canal %@";
 "Failed to publish own avatar" = "Échec de publication de votre avatar";
@@ -303,10 +298,9 @@
 "I need an account:" = "Je veux créer un compte :";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Si Monal ne peut utiliser les notifications, aucun alerte ne sera affichée quand les messages arriverons. Il est possible que vous ayez sélectionné \"Refuser\" lors de la demande de permission de Monal. Vous pouvez activer les notifications depuis Préférences d'iOS -> Monal -> Notifications puis « Autoriser les notifications ».";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Si ceci est inactif, votre appareil ne peut pas activer le push sur votre serveur XMPP. Veuillez vérifier que vous l'avez bien configuré pour supporter XEP-0357.";
+"If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Vous devez autoriser l'accès au microphone dans Préférences -> Confidentialité -> Microphone pour activer les messages audio.";
 "Ignore" = "Ignorer";
-"Image Upload Quality" = "Qualité de l’envoi d’image";
-"Image Upload Quality: %.2f" = "Qualité de l’envoi d’image : %.2f";
 "Import and trust OMEMO fingerprints from QR code" = "Utiliser un code QR pour importer et faire confiance à une empreinte OMEMO";
 "Indicate when a particular device is active or inactive. Saves battery." = "Indique lorsque qu'un appareil en particulier est actif ou inactif. Économise de la batterie.";
 "Input is not a valid jid" = "La saisie n'est pas un jid valide";
@@ -337,10 +331,6 @@
 "Leave this conversation" = "Quitter cette conversation";
 "Leave this converstion?" = "Quitter cette conversation ?";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "Comme le courriel, vous pouvez enregistrer votre compte à de nombreux endroits et parler à n'importe qui. Vous pouvez utiliser cette page pour enregistrer un compte avec un serveur XMPP sélectionné ou fourni. Vous devez également choisir un nom d'utilisateur et un mot de passe.";
-"Load over cellular upto" = "Charger via les données cellulaires jusqu'à";
-"Load over cellular upto: %.fMB" = "Utiliser les données cellulaires jusqu'à : %.fMo";
-"Load over WiFi upto" = "Charger via la Wifi jusqu'à";
-"Load over WiFi upto: %.fMB" = "Utiliser le Wifi jusqu'à : %.fMo";
 "Loading" = "Chargement";
 "Loading contact list" = "Chargement de la liste des contacts";
 "Loading Data" = "Chargement des données";
@@ -357,8 +347,8 @@
 "Make owner" = "Rendre propriétaire";
 "Manual input" = "Entrée manuelle";
 "Mark as read" = "Marquer comme lu";
-"Me" = "Moi";
-"Media Upload & Download Settings" = "Préférences de partage de média";
+/* Prefix for own messages in chat overview */
+"Me:" = "Me:";
 /* muc affiliation */
 "Member" = "Membre";
 "Message Archive Preferences" = "Préférences d'archivage des messages";
@@ -413,7 +403,6 @@
 "Not Authorized. Please check your credentials." = "Non autorisé. Veuillez vérifier vos identifiants.";
 "Notes to self" = "Notes pour moi-même";
 "Notes to self: %@" = "Notes à moi-même : %@";
-"Notification" = "Notification";
 "Notifications" = "Notifications";
 "Notifications disabled" = "Notifications désactivées";
 "Notify on all messages" = "Notifier pour tous les messages";
@@ -426,7 +415,6 @@
 "Older, slower, but still secure TLS version" = "Ancienne version de TLS, lente, mais tout de même sécurisée";
 "Online" = "En ligne";
 "Only contacts" = "Uniquement les contacts";
-"Only shareable for now" = "Uniquement partageable pour le moment";
 "Open" = "Ouvrir";
 "Open app to see more" = "Ouvrez l'application pour voir plus";
 "Open contact list" = "Ouvrir la liste des contacts";
@@ -493,7 +481,6 @@
 "Recipient" = "Destinataire";
 "Recode Fail:" = "Échec d'enregistrement :";
 "Recode Success" = "Réussite de l'enregistrement";
-"Reconnecting" = "Reconnexion";
 "Reconnecting..." = "Reconnexion en cours...";
 "Recording audio" = "Enregistrement audio";
 "Red x-mark shield:" = "Red x-mark shield:";
@@ -523,9 +510,9 @@
 "Ringing..." = "Sonnerie en cours...";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "SCRAM en utilisant la méthode du hash";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "SCRAM en utilisant la méthode du hash additionnellement sécurisée par un Channel-Binding";
-"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "Attaque de rétrogradation de SASL2 à SASL1 détectée, avortant l'authentification et désactivant le compte pour limiter les dommages. Vous devriez réactiver votre compte une fois de plus dans un environnement réseau propre.";
+"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 "Saving changes to server" = "Enregistrer les changements sur le serveur";
-"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again.";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 /* mac only string */
 "Scroll down to load more messages" = "Faites défiler vers le bas pour charger plus de messages";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Channel-binding sécurisé défini pour TLS1.3 et quelques connexions TLS1.2.";
@@ -537,10 +524,7 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Sélectionnez les sons qui sont joués avec les notifications de nouveau message. Celui par défaut est Xylophone.";
 "Selected Group Members" = "Membres du groupe sélectionnés";
 "Send" = "Envoyer";
-"Send Last Interaction Time" = "Envoyer l'heure de dernière interaction";
 "Send Location" = "Envoyer la localisation";
-"Send message received state" = "Envoyer une notification de réception des messages";
-"Send Typing Notifications" = "Envoyer des notifications pendant l'écriture";
 "Sending..." = "Envoi…";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Envoie les mots de passes en texte clair (seulement chiffré par TLS), peu sécurisé";
 "Sent a File 📁" = "Envoyer un fichier 📁";
@@ -559,16 +543,16 @@
 "Server does not support account removal" = "Le serveur ne supporte pas la suppression de compte";
 "Server for domain '%@' not responding!" = "Le serveur pour le domaine '%@' ne répond pas !";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Erreur de l'implémentation du serveur : tâche SASL2 vide, compte désactivé !";
+"Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server.";
 "Server returned invalid xml!" = "Le serveur à renvoyé du XML invalide !";
 "Server returned SASL2 error '%@'." = "Le serveur a répondu par une erreur SASL2 : '%@'.";
+"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 "Server: %@" = "Serveur : %@";
 "Set up account later" = "Configurer le compte plus tard";
 /* Camera permissions missing warning */
 "Settings" = "Préférences";
 "Sharing failed" = "Échec du partage";
-"Show Inline Geo Location" = "Afficher la géolocalisation en ligne";
 "Show shared Media and Files" = "Afficher les médias et les fichiers partagés";
-"Show URL previews" = "Afficher l'aperçu des URL";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
 "Something went wrong while parsing the string..." = "Something went wrong while parsing the string...";
 "Sounds" = "Sons";
@@ -584,7 +568,6 @@
 "Support" = "Assistance";
 /* Crash reporting */
 "Sure, send it!" = "Sure, send it!";
-"Sync Read-Markers" = "Synchroniser les accusés de lecture";
 "Synchronize your messages on all loggedin devices." = "Synchronisez vos messages sur tous les appareils connectés.";
 "Temporary failure to enter Group/Channel: %@" = "Erreur temporaire pour entrer dans le Groupe/Canal : %@";
 "Terms of use for %@" = "Conditions d'utilisation pour %@";
@@ -655,6 +638,7 @@
 "Timeout Error" = "Erreur de délai d'attente";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
+"TLS Error: Bad certificate" = "TLS Error: Bad certificate";
 "TLS Error: Certificate chain is invalid" = "Erreur TLS : La chaine de certificat est invalide";
 "TLS Error: Certificate expired" = "Erreur TLS : Le certificat à expiré";
 "TLS Error: Host name mismatch" = "Erreur TLS : Le nom de l'hôte ne correspond pas";
@@ -671,6 +655,7 @@
 "Unblock Contact" = "Débloquer le contact";
 "Unclean appex shutown" = "Extinction inopinée de l'appex";
 "Undefined error" = "Erreur indéfinie";
+"Understood" = "Understood";
 "Unexpected appex expiration" = "Expiration inopinée de l'appex";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
 "Unexpected error while checking type of jid, please try again" = "Une erreur inattendue s'est produire durant la vérification du type de jid, veuillez réessayer";
@@ -705,6 +690,7 @@
 "version %@%@" = "version %1$@%2$@";
 "Very old app version" = "Version très ancienne de l'application";
 "Waiting for GPS signal" = "En attente du signal GPS";
+"Warning" = "Warning";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "Nous n'avons pas pu trouver de QR-Code associé au XMPP";
 "We don't support any task requested by the server, account disabled: %@" = "Nous ne supportons aucune tâche demandée par le serveur, compte désactivé : %@";
@@ -715,7 +701,6 @@
 "Welcome" = "Bienvenue";
 "What call do you want to place?" = "Quel type d’appel voulez-vous effectuer ?";
 "When you start talking to someone,\n they will show up here." = "Lorsque vous allez commencer à parler à quelqu'un,\nils apparaîtrons ici.";
-"Will logout and reconnect any connected accounts." = "Cela vous déconnectera et reconnectera de tous vos comptes connectés.";
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
 "Wrong menu" = "Mauvais menu";
@@ -773,6 +758,7 @@
 "Your entered XMPP ID is missing the domain" = "Il manque le domaine à votre identifiant XMPP";
 "Your entered XMPP ID is missing the username" = "Il manque le nom d'utilisateur dans votre identifiant XMPP";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Votre serveur ne supporte pas le MAM (XEP-0313). Cela signifie que vous pourrez manquer souvent des messages entrants ! Vous (ou l'administrateur du serveur) devriez revoir la configuration de votre serveur pour l'activer !";
+"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Votre serveur ne supporte pas la fonction « Stream Management » (XEP-0198). Cela signifie que vous pourrez manquer souvent des messages sortants ! Vous (ou l'administrateur du serveur) devriez revoir la configuration de votre serveur pour l'activer !";
 "Your status" = "Votre status";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Votre JID XMPP devrait être dans le format utilisateur@domaine.ext. Pour les configurations spéciales, utilisez la configuration manuelle.";
@@ -785,3 +771,36 @@
 "📍 A Location" = "📍 Une localisation";
 "📷 An Image" = "📷 Une image";
 "🔗 A Link" = "🔗 Un lien";
+"1 MiB" = "1 MiB";
+"100 MiB" = "100 MiB";
+"100%" = "100%";
+"33%" = "33%";
+"Adjust the maximum file size for auto-downloads over cellular network" = "Adjust the maximum file size for auto-downloads over cellular network";
+"Adjust the maximum file size for auto-downloads over WiFi" = "Adjust the maximum file size for auto-downloads over WiFi";
+"Adjust the quality of images uploaded" = "Adjust the quality of images uploaded";
+"Communication" = "Communication";
+"Crash Testing" = "Crash Testing";
+"Database Export Failed" = "Database Export Failed";
+"Database Files" = "Database Files";
+"Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
+"Image Upload Quality : %@" = "Image Upload Quality : %@";
+"Load over Cellular" = "Load over Cellular";
+"Load over cellular upto : %@ MiB" = "Load over cellular upto : %@ MiB";
+"Load over wifi" = "Load over wifi";
+"Load over WiFi upto : %@ MiB" = "Load over WiFi upto : %@ MiB";
+"Logfiles" = "Logfiles";
+"Logs" = "Logs";
+"Media Upload & Download" = "Media Upload & Download";
+"Previews" = "Previews";
+"Privacy & Security" = "Privacy & Security";
+"Privacy and security settings" = "Privacy and security settings";
+"Publishing" = "Publishing";
+"Required" = "Required";
+"The UDP logger allows you to livestream the log to the configured IP." = "The UDP logger allows you to livestream the log to the configured IP.";
+"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
+"This allows you to forcefully crash the app using several different methods to test the crash handling." = "This allows you to forcefully crash the app using several different methods to test the crash handling.";
+"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
+"UDP Logger" = "UDP Logger";
+"UDP Logger Configuration" = "UDP Logger Configuration";
+"UDP Logging UI not supported on iOS < 16" = "UDP Logging UI not supported on iOS < 16";
+"Uploaad Settings" = "Uploaad Settings";

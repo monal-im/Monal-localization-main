@@ -40,8 +40,7 @@
 "All messages are archived by default." = "所有消息默认都会被存档。";
 "All messages fetched successfully, there are no more left on the server!" = "成功获取所有消息，服务器上没有更多的消息了！";
 "Allow" = "允许";
-"Allow approved contacts to query my Monal and iOS version" = "允许批准的联系人查询我的 Monal 和 iOS 版本";
-"Allow contacts not in my Contact list to contact me" = "允许不在联系人列表中的联系人与我联系";
+"Allow MITM-prone PLAIN authentication" = "Allow MITM-prone PLAIN authentication";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "允许某人将您添加为联系人可以让他们看到您的个人资料照片以及您何时在线。";
 "Already present" = "已经存在";
 "Already uploading this content, ignoring" = "已上传过此内容，忽略中";
@@ -61,8 +60,6 @@
 "Audio recoder record fail." = "录音机录音失败。";
 "Audio Recoder set active error: %@" = "录音机设定启动发生错误：%@";
 "Audio Recoder set category error: %@" = "录音机设定类别发生错误：%@";
-"Auto-Download Media" = "自动下载媒体";
-"Autodelete all messages after 3 days" = "3天后自动删除所有消息";
 "Backgrounds" = "背景";
 "Block" = "屏蔽";
 "Block Contact" = "屏蔽联系人";
@@ -85,8 +82,6 @@
 "Call security help" = "呼叫安全帮助";
 "Call Type" = "通话类型";
 "Call was not answered" = "通话未接听";
-"Calls: Allow P2P sessions" = "通话：允许 P2P 会话";
-"Calls: Allow TURN fallback to Monal-Servers" = "通话：允许 TURN 回退到 Monal 服务器";
 "Camera" = "摄像头";
 /* Camera permissions missing warning */
 "Camera permissions missing" = "缺少摄像头权限";
@@ -172,7 +167,7 @@
 "Delete Key" = "删除密钥";
 "Deny new contact" = "拒绝新联系人";
 "Detected a new omemo device on your account: %@" = "在您的账号上检测到新的 OMEMO 设备：%@";
-"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "通过 SSDP 检测到正在进行的 MITM 攻击，中止身份验证并禁用账号以限制损害。一旦您再次处于安全的网络环境中，您应该重新启用您的账号。";
+"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "设备 ID： ";
 "DeviceID: " = "设备 ID： ";
 "Disable Encryption" = "禁用加密";
@@ -209,7 +204,6 @@
 "Email Error" = "电子邮件错误";
 "Email Support" = "联系电邮";
 "Empty Values!" = "值为空！";
-"Enable encryption by default for new chats" = "默认为新聊天启用加密";
 "Enabled" = "已启用";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "加密消息以较旧的格式发送，Monal 无法解密。请告诉对方更新客户端。 （GCM 错误）";
 "Encrypted session to this device broken beyond repair." = "此设备的加密会话已损坏且无法修复。";
@@ -261,6 +255,7 @@
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "无法进入群组/频道 %@：这不是一个群组/频道！";
 "Failed to fetch room config form for '%@'" = "无法获取聊天室 '%@' 的配置表单";
 "Failed to load blocklist" = "加载屏蔽列表失败";
+"Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
 "Failed to parse URL returned by HTTP upload server" = "无法解析由 HTTP 上传服务器返回的 URL";
 "Failed to publish avatar image for group/channel %@" = "发布群组/频道 %@ 的头像失败";
 "Failed to publish own avatar" = "发布自己的头像失败";
@@ -303,10 +298,9 @@
 "I need an account:" = "我需要账号：";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "如果 Monal 无法显示通知，则当消息到达时您将看不到提示。如果您在 Monal 第一次请求许可时点击“拒绝”，就会发生这种情况。通过转到 iOS 设置 -> Monal -> 通知并选择“允许通知”来修复它。";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "如果关闭，您的设备将无法在 XMPP 服务器上激活推送，请确保已将其配置为支持 XEP-0357.";
+"If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "如果您想要使用语音讯息，您将需要在设定中允许存取->隐私权->麦克风。";
 "Ignore" = "忽略";
-"Image Upload Quality" = "图片上传质量";
-"Image Upload Quality: %.2f" = "图片上传质量：%.2f";
 "Import and trust OMEMO fingerprints from QR code" = "从二维码导入并信任 OMEMO 指纹";
 "Indicate when a particular device is active or inactive. Saves battery." = "显示某特定设备处于活动或非活动状态。可节省电力。";
 "Input is not a valid jid" = "输入不是有效的 JID";
@@ -337,10 +331,6 @@
 "Leave this conversation" = "离开此对话";
 "Leave this converstion?" = "离开对话吗？";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "与电子邮件一样，您可以在许多网站上注册账号并与任何人交谈。您可以使用此页面向选定或提供的 XMPP 服务器注册账号。您还必须选择用户名和密码。";
-"Load over cellular upto" = "使用手机流量上限";
-"Load over cellular upto: %.fMB" = "使用手机流量上限 : %.fMB";
-"Load over WiFi upto" = "使用 WiFi 流量上限";
-"Load over WiFi upto: %.fMB" = "使用 WiFi 流量上限 : %.fMB";
 "Loading" = "加载中";
 "Loading contact list" = "加载联系人列表";
 "Loading Data" = "资料载入中";
@@ -357,8 +347,8 @@
 "Make owner" = "设置所有者";
 "Manual input" = "手动输入";
 "Mark as read" = "标记为已读";
-"Me" = "我";
-"Media Upload & Download Settings" = "媒体上传与下载设置";
+/* Prefix for own messages in chat overview */
+"Me:" = "Me:";
 /* muc affiliation */
 "Member" = "成员";
 "Message Archive Preferences" = "消息存档首选项";
@@ -413,7 +403,6 @@
 "Not Authorized. Please check your credentials." = "未授权。请检查您的凭证。";
 "Notes to self" = "备忘录";
 "Notes to self: %@" = "备忘录：%@";
-"Notification" = "通知";
 "Notifications" = "通知";
 "Notifications disabled" = "通知已禁用";
 "Notify on all messages" = "通知所有消息";
@@ -426,7 +415,6 @@
 "Older, slower, but still secure TLS version" = "较旧、较慢但仍然安全的 TLS 版本";
 "Online" = "在线";
 "Only contacts" = "仅联系人";
-"Only shareable for now" = "临时分享";
 "Open" = "打开";
 "Open app to see more" = "打开应用查看更多";
 "Open contact list" = "打开联系人列表";
@@ -493,7 +481,6 @@
 "Recipient" = "接收人";
 "Recode Fail:" = "重新编码失败：";
 "Recode Success" = "重新编码成功";
-"Reconnecting" = "正在重新连接";
 "Reconnecting..." = "正在重新连接...";
 "Recording audio" = "正在录音";
 "Red x-mark shield:" = "红色 x 标记盾牌：";
@@ -523,9 +510,9 @@
 "Ringing..." = "正在响铃...";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "使用给定哈希方法的 Salted Challenge Response 认证机制";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "使用频道绑定额外保护的给定哈希方法的 Salted Challenge Response 认证机制";
-"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "检测到 SASL2 到 SASL1 降级攻击，中止身份验证并禁用账号以限制损害。一旦您再次处于干净的网络环境中，您应该重新启用您的账号。";
+"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 "Saving changes to server" = "正在保存更改到服务器";
-"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should reenable your account once you are in a clean networking environment again." = "SCRAM 服务器证明错误，极有可能正在进行 MITM 攻击，中止身份验证并禁用账号以限制损害。一旦您再次处于安全的网络环境中，您应该重新启用您的账号。";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 /* mac only string */
 "Scroll down to load more messages" = "向下滑以载入更多消息";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "为 TLS1.3 和一些 TLS1.2 连接定义的安全频道绑定。";
@@ -537,10 +524,7 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "选择新消息通知时播放的声音。默认是木琴。";
 "Selected Group Members" = "选定的群组成员";
 "Send" = "发送";
-"Send Last Interaction Time" = "发送最后一次互动时间";
 "Send Location" = "发送位置";
-"Send message received state" = "发送消息接收状态";
-"Send Typing Notifications" = "发送正在输入通知";
 "Sending..." = "正在发送...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "以明文形式发送密码（仅通过 TLS 加密），不太安全";
 "Sent a File 📁" = "发送文件 📁";
@@ -559,16 +543,16 @@
 "Server does not support account removal" = "服务器不支持删除账号";
 "Server for domain '%@' not responding!" = "域服务器 '%@' 没有响应！";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "服务器实现错误：SASL2 任务为空，账号已禁用！";
+"Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server.";
 "Server returned invalid xml!" = "服务器返回了无效的 XML！";
 "Server returned SASL2 error '%@'." = "服务器返回 SASL2 错误 '%@'.";
+"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 "Server: %@" = "服务器：%@";
 "Set up account later" = "稍后设置账号";
 /* Camera permissions missing warning */
 "Settings" = "设置";
 "Sharing failed" = "分享失败";
-"Show Inline Geo Location" = "显示内嵌地理位置";
 "Show shared Media and Files" = "显示共享的媒体和文件";
-"Show URL previews" = "显示 URL 预览";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "某些消息可能在等待检索或发送。请打开应用程序重试。";
 "Something went wrong while parsing the string..." = "解析字符串时出现问题...";
 "Sounds" = "音效";
@@ -584,7 +568,6 @@
 "Support" = "支持";
 /* Crash reporting */
 "Sure, send it!" = "确认，发送！";
-"Sync Read-Markers" = "同步读取标记";
 "Synchronize your messages on all loggedin devices." = "在所有登录的设备同步您的消息。";
 "Temporary failure to enter Group/Channel: %@" = "暂时无法进入群组/频道：%@";
 "Terms of use for %@" = "%@ 的使用条款";
@@ -655,6 +638,7 @@
 "Timeout Error" = "超时错误";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
+"TLS Error: Bad certificate" = "TLS Error: Bad certificate";
 "TLS Error: Certificate chain is invalid" = "TLS 错误：证书链无效";
 "TLS Error: Certificate expired" = "TLS 错误：证书已过期";
 "TLS Error: Host name mismatch" = "TLS 错误：主机名不匹配";
@@ -671,6 +655,7 @@
 "Unblock Contact" = "取消屏蔽联系人";
 "Unclean appex shutown" = "未清理附录关闭";
 "Undefined error" = "未定义的错误";
+"Understood" = "Understood";
 "Unexpected appex expiration" = "意外的附录过期";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "使用 SASL2 验证服务器时出现意外错误（您的服务器是否有错误？），断开连接！";
 "Unexpected error while checking type of jid, please try again" = "检查 JID 类型时出现意外错误，请重试";
@@ -705,6 +690,7 @@
 "version %@%@" = "version %1$@%2$@";
 "Very old app version" = "非常旧的应用版本";
 "Waiting for GPS signal" = "等待 GPS 讯号";
+"Warning" = "Warning";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "找不到与 XMPP 相关的二维码";
 "We don't support any task requested by the server, account disabled: %@" = "我们不支持服务器请求的任何任务，账号已禁用：%@";
@@ -715,7 +701,6 @@
 "Welcome" = "欢迎";
 "What call do you want to place?" = "您想进行何种通话？";
 "When you start talking to someone,\n they will show up here." = "当您开始和某人聊天时，\n 他们就会出现在这里。";
-"Will logout and reconnect any connected accounts." = "将退出并重新连接任何已连接的账号。";
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
 "Wrong menu" = "菜单出错";
@@ -773,6 +758,7 @@
 "Your entered XMPP ID is missing the domain" = "您输入的 XMPP ID 缺少域名";
 "Your entered XMPP ID is missing the username" = "您输入的 XMPP ID 缺少使用者名称";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "您所在的服务器不支持 MAM (XEP-0313) 。这意味着您可能会频繁错过收到的消息！！您应该切换服务器或与服务器管理员联系以启用此功能！";
+"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "您所在的服务器不支持串流管理 (XEP-0198)。这意味着您传出的消息可能会频繁丢失！您应该切换服务器或与服务器管理员联系以启用此功能！";
 "Your status" = "您的状态";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "您的 XMPP JID 的格式应为 user@domain.tld。对于特殊配置，请使用手动设置。";
@@ -785,3 +771,36 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
+"1 MiB" = "1 MiB";
+"100 MiB" = "100 MiB";
+"100%" = "100%";
+"33%" = "33%";
+"Adjust the maximum file size for auto-downloads over cellular network" = "Adjust the maximum file size for auto-downloads over cellular network";
+"Adjust the maximum file size for auto-downloads over WiFi" = "Adjust the maximum file size for auto-downloads over WiFi";
+"Adjust the quality of images uploaded" = "Adjust the quality of images uploaded";
+"Communication" = "Communication";
+"Crash Testing" = "Crash Testing";
+"Database Export Failed" = "Database Export Failed";
+"Database Files" = "Database Files";
+"Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
+"Image Upload Quality : %@" = "Image Upload Quality : %@";
+"Load over Cellular" = "Load over Cellular";
+"Load over cellular upto : %@ MiB" = "Load over cellular upto : %@ MiB";
+"Load over wifi" = "Load over wifi";
+"Load over WiFi upto : %@ MiB" = "Load over WiFi upto : %@ MiB";
+"Logfiles" = "Logfiles";
+"Logs" = "Logs";
+"Media Upload & Download" = "Media Upload & Download";
+"Previews" = "Previews";
+"Privacy & Security" = "Privacy & Security";
+"Privacy and security settings" = "Privacy and security settings";
+"Publishing" = "Publishing";
+"Required" = "Required";
+"The UDP logger allows you to livestream the log to the configured IP." = "The UDP logger allows you to livestream the log to the configured IP.";
+"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
+"This allows you to forcefully crash the app using several different methods to test the crash handling." = "This allows you to forcefully crash the app using several different methods to test the crash handling.";
+"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
+"UDP Logger" = "UDP Logger";
+"UDP Logger Configuration" = "UDP Logger Configuration";
+"UDP Logging UI not supported on iOS < 16" = "UDP Logging UI not supported on iOS < 16";
+"Uploaad Settings" = "Uploaad Settings";
