@@ -40,7 +40,7 @@
 "All messages are archived by default." = "Alle Nachrichten werden standardmäßig archiviert.";
 "All messages fetched successfully, there are no more left on the server!" = "Alle Nachrichten wurden erfolgreich abgerufen, es befinden sich keine mehr auf dem Server!";
 "Allow" = "Erlauben";
-"Allow MITM-prone PLAIN authentication" = "Allow MITM-prone PLAIN authentication";
+"Allow MITM-prone PLAIN authentication" = "MITM-anfällige PLAIN-Authentifizierung zulassen";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Wenn du jemandem erlaubst, dich als Kontakt hinzuzufügen, kann er dein Profilbild sehen und weiß, wann du online bist.";
 "Already present" = "Bereits vorhanden";
 "Already uploading this content, ignoring" = "Dieser Inhalt wird bereits hochgeladen, ignorieren";
@@ -298,7 +298,7 @@
 "I need an account:" = "Ich benötige ein Konto:";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Wenn Monal keine Benachrichtigungen anzeigen kann, wirst du keine Benachrichtigungen sehen, wenn eine Nachricht eintrifft. Dies geschieht, wenn du auf 'Ablehnen' getippt hast, als Monal zum ersten Mal um Erlaubnis gefragt hat. Behebe dies, indem du zu iOS-Einstellungen > Monal > Benachrichtigungen gehst und 'Benachrichtigungen zulassen' wählst.";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Wenn dies ausgeschaltet ist, kann dein Gerät Push auf deinem XMPP-Server nicht aktivieren. Stelle sicher, dass er so konfiguriert ist, dass er XEP-0357 unterstützt.";
-"If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
+"If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "Wenn du diese Funktion aktivierst, bist du nicht mehr vor Man-in-the-Middle-Angriffen geschützt. Solche Angriffe ermöglichen es dem Gegner, deine ein- und ausgehenden Nachrichten zu manipulieren, seine eigenen OMEMO-Schlüssel hinzuzufügen, deine Kontodaten zu ändern und sogar dein Passwort zu kennen oder zu ändern!\n\nDu solltest lieber zu einem anderen Server wechseln, als diese Funktion zu aktivieren.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Wenn du Sprachnachrichten verwenden möchtest, musst du den Zugriff unter Einstellungen > Datenschutz > Mikrofon erlauben.";
 "Ignore" = "Ignorieren";
 "Import and trust OMEMO fingerprints from QR code" = "OMEMO-Fingerabdrücke von QR-Codes importieren und vertrauen";
@@ -348,7 +348,7 @@
 "Manual input" = "Manuelle Eingabe";
 "Mark as read" = "Als gelesen markieren";
 /* Prefix for own messages in chat overview */
-"Me:" = "Me:";
+"Me:" = "Ich:";
 /* muc affiliation */
 "Member" = "Mitglied";
 "Message Archive Preferences" = "Nachrichtenarchivierung";
@@ -771,26 +771,26 @@
 "📍 A Location" = "📍 Ein Standort";
 "📷 An Image" = "📷 Ein Bild";
 "🔗 A Link" = "🔗 Ein Link";
-"1 MiB" = "1 MiB";
-"100 MiB" = "100 MiB";
+"1 MiB" = "1 MB";
+"100 MiB" = "100 MB";
 "100%" = "100%";
 "33%" = "33%";
-"Adjust the maximum file size for auto-downloads over cellular network" = "Adjust the maximum file size for auto-downloads over cellular network";
-"Adjust the maximum file size for auto-downloads over WiFi" = "Adjust the maximum file size for auto-downloads over WiFi";
-"Adjust the quality of images uploaded" = "Adjust the quality of images uploaded";
-"Communication" = "Communication";
+"Adjust the maximum file size for auto-downloads over cellular network" = "Maximale Dateigröße für automatische Downloads über das Mobilfunknetz einstellen";
+"Adjust the maximum file size for auto-downloads over WiFi" = "Maximale Dateigröße für automatische Downloads über WLAN einstellen";
+"Adjust the quality of images uploaded" = "Qualität der hochgeladenen Bilder anpassen";
+"Communication" = "Kommunikation";
 "Crash Testing" = "Crash Testing";
-"Database Export Failed" = "Database Export Failed";
-"Database Files" = "Database Files";
-"Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
-"Image Upload Quality : %@" = "Image Upload Quality : %@";
+"Database Export Failed" = "Datenbankexport fehlgeschlagen";
+"Database Files" = "Datenbankdateien";
+"Failed to export the database, please check the logfile for errors and try again." = "Export der Datenbank ist fehlgeschlagen. Bitte prüfe das Logfile auf Fehler und versuche es erneut.";
+"Image Upload Quality : %@" = "Qualität beim Hochladen von Bildern: %@";
 "Load over Cellular" = "Load over Cellular";
-"Load over cellular upto : %@ MiB" = "Load over cellular upto : %@ MiB";
-"Load over wifi" = "Load over wifi";
-"Load over WiFi upto : %@ MiB" = "Load over WiFi upto : %@ MiB";
+"Load over cellular upto : %@ MiB" = "Download über Mobilfunknetz bis zu: %@ MB";
+"Load over wifi" = "Datenübertragung über WLAN";
+"Load over WiFi upto : %@ MiB" = "Download über WLAN bis zu: %@ MB";
 "Logfiles" = "Logfiles";
 "Logs" = "Logs";
-"Media Upload & Download" = "Media Upload & Download";
+"Media Upload & Download" = "Hochladen und Herunterladen von Medien";
 "Previews" = "Previews";
 "Privacy & Security" = "Privacy & Security";
 "Privacy and security settings" = "Privacy and security settings";
