@@ -255,7 +255,7 @@
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "%@ taldearekin / kanalarekin bat egiteak kale egin du: ez da talde / kanal bat!";
 "Failed to fetch room config form for '%@'" = "'%@' gelaren konfigurazio-orria atzitzeak huts egin du";
 "Failed to load blocklist" = "Ezin izan da blokeatutakoen zerrenda kargatu";
-"Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
+"Failed to moderate message in group/channel '%@'" = "'%@' talde/kanaleko mezua moderatzeak huts egin du";
 "Failed to parse URL returned by HTTP upload server" = "Ezin izan da HTTP igoera zerbitzariak itzuli duen URLa aztertu";
 "Failed to publish avatar image for group/channel %@" = "%@ taldeko / kanaleko abatarren publikazioak kale egin du";
 "Failed to publish own avatar" = "Ezin izan da abatarra publikatu";
@@ -348,7 +348,7 @@
 "Manual input" = "Eskuz";
 "Mark as read" = "Markatu irakurritzat";
 /* Prefix for own messages in chat overview */
-"Me:" = "Me:";
+"Me:" = "Neuk:";
 /* muc affiliation */
 "Member" = "Kidea";
 "Message Archive Preferences" = "Artxibatze-hobespenak";
@@ -638,7 +638,7 @@
 "Timeout Error" = "Denbora agortu da";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
-"TLS Error: Bad certificate" = "TLS Error: Bad certificate";
+"TLS Error: Bad certificate" = "TLS errorea: ziurtagiri okerra";
 "TLS Error: Certificate chain is invalid" = "TLS errorea: ziurtagiri-katea ez da baliozkoa";
 "TLS Error: Certificate expired" = "TLS errorea: ziurtagiria iraungi da";
 "TLS Error: Host name mismatch" = "TLS errorea: ostatatzaile izena ez dator bat";
@@ -655,7 +655,7 @@
 "Unblock Contact" = "Desblokeatu kontaktua";
 "Unclean appex shutown" = "Appex (app extension) ez da garbi itxi";
 "Undefined error" = "Zehaztu gabeko errorea";
-"Understood" = "Understood";
+"Understood" = "Ulertuta";
 "Unexpected appex expiration" = "Appex (app extension) ustekabean iraungi da";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Espero ez zen zerbitzariaren SASL2 autentikazio errorea (zure zerbitzariaren akatsa da?), deskonektatzen!";
 "Unexpected error while checking type of jid, please try again" = "Espero ez zen errorea JID mota egiaztatzerakoan; saiatu berriro";
@@ -690,7 +690,7 @@
 "version %@%@" = "version %1$@%2$@";
 "Very old app version" = "Aplikazio oso zahar baten bertsioa";
 "Waiting for GPS signal" = "GPSaren seinalearen zain";
-"Warning" = "Warning";
+"Warning" = "Abisua";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "Ezin izan da XMPPari lotutako QR koderik aurkitu";
 "We don't support any task requested by the server, account disabled: %@" = "Ez ditugu zerbitzariak eskatutako zereginak onartzen, kontua ezgaituta: %@";
@@ -780,22 +780,22 @@
 "Adjust the quality of images uploaded" = "Adjust the quality of images uploaded";
 "Communication" = "Komunikazioa";
 "Crash Testing" = "Crash Testing";
-"Database Export Failed" = "Database Export Failed";
-"Database Files" = "Database Files";
-"Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
-"Image Upload Quality : %@" = "Image Upload Quality : %@";
+"Database Export Failed" = "Datu-basea esportatzeak huts egin du";
+"Database Files" = "Datu-basearen fitxategiak";
+"Failed to export the database, please check the logfile for errors and try again." = "Datu-basea esportatzeak huts egin du; begiratu erregistroa akatsen bila eta saiatu berriro.";
+"Image Upload Quality : %@" = "Igotzeko irudiaren kalitatea : %@";
 "Load over Cellular" = "Load over Cellular";
 "Load over cellular upto : %@ MiB" = "Load over cellular upto : %@ MiB";
 "Load over wifi" = "Load over wifi";
 "Load over WiFi upto : %@ MiB" = "Load over WiFi upto : %@ MiB";
-"Logfiles" = "Logfiles";
-"Logs" = "Logs";
+"Logfiles" = "Erregistroen fitxategiak";
+"Logs" = "Erregistroak";
 "Media Upload & Download" = "Media Upload & Download";
-"Previews" = "Previews";
-"Privacy & Security" = "Privacy & Security";
-"Privacy and security settings" = "Privacy and security settings";
+"Previews" = "Aurrebistak";
+"Privacy & Security" = "Pribatutasuna eta segurtasuna";
+"Privacy and security settings" = "Pribatutasun eta segurtasun ezarpenak";
 "Publishing" = "Publishing";
-"Required" = "Required";
+"Required" = "Beharrezkoa";
 "The UDP logger allows you to livestream the log to the configured IP." = "The UDP logger allows you to livestream the log to the configured IP.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
 "This allows you to forcefully crash the app using several different methods to test the crash handling." = "This allows you to forcefully crash the app using several different methods to test the crash handling.";
