@@ -167,7 +167,7 @@
 "Delete Key" = "Schlüssel löschen";
 "Deny new contact" = "Neuen Kontakt verweigern";
 "Detected a new omemo device on your account: %@" = "Es wurde ein neues OMEMO-Gerät in deinem Konto erkannt: %@";
-"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Es wurde ein laufender MITM-Angriff über SSDP erkannt, die Authentifizierung abgebrochen und das Konto deaktiviert, um den Schaden zu begrenzen. Du solltest versuchen, dein Konto wieder zu aktivieren, sobald du dich wieder in einer sicheren Netzwerkumgebung befindest.";
 "Device ID: " = "Geräte-ID: ";
 "DeviceID: " = "Geräte-ID: ";
 "Disable Encryption" = "Verschlüsselung deaktivieren";
@@ -255,7 +255,7 @@
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Gruppenchat/Channel %@ konnte nicht betreten werden: Dies ist kein Gruppenchat/Channel!";
 "Failed to fetch room config form for '%@'" = "Raumkonfiguration für '%@' konnte nicht abgerufen werden";
 "Failed to load blocklist" = "Sperrliste konnte nicht geladen werden";
-"Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
+"Failed to moderate message in group/channel '%@'" = "Nachricht in Gruppe/Channel '%@' konnte nicht moderiert werden";
 "Failed to parse URL returned by HTTP upload server" = "Fehler beim Parsen der vom HTTP-Upload-Server zurückgegebenen URL";
 "Failed to publish avatar image for group/channel %@" = "Profilbild für Gruppenchat/Channel %@ konnte nicht veröffentlicht werden";
 "Failed to publish own avatar" = "Eigenes Profilbild konnte nicht veröffentlicht werden";
@@ -510,9 +510,9 @@
 "Ringing..." = "Klingeln...";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Salted Challenge Response-Authentifizierungsmechanismus unter Verwendung der angegebenen Hash-Methode";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Salted Challenge Response Authentifizierungsmechanismus unter Verwendung der angegebenen Hash-Methode, die zusätzlich durch Kanalbindung gesichert ist";
-"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SASL2 zu SASL1 Downgrade-Angriff erkannt, Authentifizierung abgebrochen und Konto deaktiviert, um Schaden zu begrenzen. Du solltest versuchen, dein Konto wieder zu aktivieren, sobald du dich wieder in einer sicheren Netzwerkumgebung befindest.";
 "Saving changes to server" = "Speichern von Änderungen auf dem Server";
-"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Fehlerhafte Überprüfung des SCRAM-Servers, laufender MITM-Angriff sehr wahrscheinlich, Abbruch der Authentifizierung und Deaktivierung des Kontos zur Schadensbegrenzung. Du solltest versuchen, dein Konto wieder zu aktivieren, sobald du dich wieder in einer sicheren Netzwerkumgebung befindest.";
 /* mac only string */
 "Scroll down to load more messages" = "Scrolle nach unten, um weitere Nachrichten zu laden";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Sichere Kanalbindung definiert für TLS1.3 und einige TLS1.2-Verbindungen.";
@@ -543,10 +543,10 @@
 "Server does not support account removal" = "Server unterstützt keine Kontolöschung";
 "Server for domain '%@' not responding!" = "Server für Domäne '%@' antwortet nicht!";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Server-Implementierungsfehler: SASL2-Aufgaben leer, Konto deaktiviert!";
-"Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server.";
+"Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "Der Server unterstützt nur Authentifizierungsmethoden, die nicht sicher gegen Man-in-the-Middle-Angriffe sind! Verwende das Menü für die erweiterte Kontoerstellung, wenn du diesen Server unbedingt verwenden musst.";
 "Server returned invalid xml!" = "Server hat ungültige XML zurückgegeben!";
 "Server returned SASL2 error '%@'." = "Server hat den SASL2-Fehler '%@' zurückgegeben.";
-"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Server unterstützt plötzlich SASL2-SCRAM nicht mehr, laufender MITM-Angriff sehr wahrscheinlich, Abbruch der Authentifizierung und Deaktivierung des Kontos zur Begrenzung des Schadens. Du solltest versuchen, dein Konto wieder zu aktivieren, sobald du dich wieder in einer sicheren Netzwerkumgebung befindest.";
 "Server: %@" = "Server: %@";
 "Set up account later" = "Konto später einrichten";
 /* Camera permissions missing warning */
@@ -638,7 +638,7 @@
 "Timeout Error" = "Zeitüberschreitungsfehler";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
-"TLS Error: Bad certificate" = "TLS Error: Bad certificate";
+"TLS Error: Bad certificate" = "TLS-Fehler: Fehlerhaftes Zertifikat";
 "TLS Error: Certificate chain is invalid" = "TLS-Fehler: Zertifikatskette ist ungültig";
 "TLS Error: Certificate expired" = "TLS-Fehler: Zertifikat abgelaufen";
 "TLS Error: Host name mismatch" = "TLS-Fehler: Hostname stimmt nicht überein";
@@ -655,7 +655,7 @@
 "Unblock Contact" = "Kontakt entsperren";
 "Unclean appex shutown" = "Unsaubere Appex-Abschaltung";
 "Undefined error" = "Undefinierter Fehler";
-"Understood" = "Understood";
+"Understood" = "Verstanden";
 "Unexpected appex expiration" = "Unerwarteter Appex-Ablauf";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unerwarteter Fehler beim Authentifizieren des Servers mit SASL2 (Hat dein Server einen Fehler?), Verbindung wird getrennt!";
 "Unexpected error while checking type of jid, please try again" = "Unerwarteter Fehler bei der Überprüfung des Typs der JID, bitte versuche es erneut";
@@ -690,7 +690,7 @@
 "version %@%@" = "version %1$@%2$@";
 "Very old app version" = "Sehr alte App-Version";
 "Waiting for GPS signal" = "Warte auf GPS-Signal";
-"Warning" = "Warning";
+"Warning" = "Warnung";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "Wir konnten keinen XMPP-bezogenen QR-Code finden";
 "We don't support any task requested by the server, account disabled: %@" = "Wir unterstützen keine vom Server angeforderten Aufgaben, Konto deaktiviert: % @";
@@ -758,7 +758,7 @@
 "Your entered XMPP ID is missing the domain" = "Deiner eingegebenen XMPP-ID fehlt die Domain";
 "Your entered XMPP ID is missing the username" = "Deiner eingegebenen XMPP-ID fehlt der Benutzername";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Dein Server unterstützt kein MAM (XEP-0313). Das heißt, du kannst häufig eingehende Nachrichten verpassen!! Du solltest deinen Server wechseln oder mit dem Serveradministrator sprechen, um dies zu aktivieren!";
-"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
+"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Dein Server unterstützt kein PUSH (XEP-0357). Das bedeutet, dass du die App manuell öffnen musst, um neue eingehende Nachrichten abzurufen!! Du solltest deinen Server wechseln oder mit dem Server-Admin sprechen, um dies zu aktivieren!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Dein Server unterstützt kein Stream Management (XEP-0198). Das bedeutet, dass deine ausgehenden Nachrichten häufig verloren gehen können!! Du solltest deinen Server wechseln oder mit dem Serveradministrator sprechen, um dies zu aktivieren!";
 "Your status" = "Dein Status";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Deine XMPP-JID sollte das Format user@domain.tld haben. Verwende für spezielle Konfigurationen die manuelle Einrichtung.";
@@ -779,28 +779,28 @@
 "Adjust the maximum file size for auto-downloads over WiFi" = "Maximale Dateigröße für automatische Downloads über WLAN einstellen";
 "Adjust the quality of images uploaded" = "Qualität der hochgeladenen Bilder anpassen";
 "Communication" = "Kommunikation";
-"Crash Testing" = "Crash Testing";
+"Crash Testing" = "Absturztests";
 "Database Export Failed" = "Datenbankexport fehlgeschlagen";
 "Database Files" = "Datenbankdateien";
 "Failed to export the database, please check the logfile for errors and try again." = "Export der Datenbank ist fehlgeschlagen. Bitte prüfe das Logfile auf Fehler und versuche es erneut.";
 "Image Upload Quality : %@" = "Qualität beim Hochladen von Bildern: %@";
-"Load over Cellular" = "Load over Cellular";
+"Load over Cellular" = "Datenübertragung über das Mobilfunknetz";
 "Load over cellular upto : %@ MiB" = "Download über Mobilfunknetz bis zu: %@ MB";
 "Load over wifi" = "Datenübertragung über WLAN";
 "Load over WiFi upto : %@ MiB" = "Download über WLAN bis zu: %@ MB";
 "Logfiles" = "Logfiles";
 "Logs" = "Logs";
 "Media Upload & Download" = "Hochladen und Herunterladen von Medien";
-"Previews" = "Previews";
-"Privacy & Security" = "Privacy & Security";
-"Privacy and security settings" = "Privacy and security settings";
-"Publishing" = "Publishing";
-"Required" = "Required";
-"The UDP logger allows you to livestream the log to the configured IP." = "The UDP logger allows you to livestream the log to the configured IP.";
-"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
-"This allows you to forcefully crash the app using several different methods to test the crash handling." = "This allows you to forcefully crash the app using several different methods to test the crash handling.";
-"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
-"UDP Logger" = "UDP Logger";
-"UDP Logger Configuration" = "UDP Logger Configuration";
-"UDP Logging UI not supported on iOS < 16" = "UDP Logging UI not supported on iOS < 16";
-"Uploaad Settings" = "Uploaad Settings";
+"Previews" = "Vorschauen";
+"Privacy & Security" = "Datenschutz & Sicherheit";
+"Privacy and security settings" = "Datenschutz- und Sicherheitseinstellungen";
+"Publishing" = "Veröffentlichung";
+"Required" = "Erforderlich";
+"The UDP logger allows you to livestream the log to the configured IP." = "Der UDP-Logger ermöglicht das Livestreaming des Logs an die konfigurierte IP.";
+"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "Der UDP-Logger ermöglicht dir das Livestreaming des Logs an die konfigurierte IP. Bitte verwende einen sicheren Schlüssel, wenn du über das Internet streamst!\n[Erfahre, wie du den Log-Stream empfangen kannst](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
+"This allows you to forcefully crash the app using several different methods to test the crash handling." = "Damit kannst du die App zwangsweise zum Absturz bringen, indem du verschiedene Methoden anwendest, um die Absturzbehandlung zu testen.";
+"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Dies kann zum Exportieren von Logdateien verwendet werden.\n[Erfahre, wie man sie liest](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
+"UDP Logger" = "UDP-Logger";
+"UDP Logger Configuration" = "UDP-Logger-Konfiguration";
+"UDP Logging UI not supported on iOS < 16" = "UDP-Logging UI wird unter iOS < 16 nicht unterstützt";
+"Uploaad Settings" = "Einstellungen für das Hochladen";
