@@ -3,6 +3,10 @@
 "%02d:%02d (long press to abort)" = "%02d:%02d（长按中止）";
 "%@" = "%@";
 "%@ says:" = "%@ 说：";
+"1 MiB" = "1 MiB";
+"100 MiB" = "100 MiB";
+"100%" = "100%";
+"33%" = "33%";
 /* server details */
 "<unknown server>" = "<未知服务器>";
 /* server details */
@@ -34,6 +38,9 @@
 "Add to contacts" = "添加到通讯录";
 "Adding Group/Channel..." = "正在添加群组/频道...";
 "Adding..." = "正在添加...";
+"Adjust the maximum file size for auto-downloads over cellular network" = "调整通过蜂窝网络自动下载的最大文件大小";
+"Adjust the maximum file size for auto-downloads over WiFi" = "调整通过 WiFi 自动下载的最大文件大小";
+"Adjust the quality of images uploaded" = "调整上传图片的质量";
 /* muc affiliation */
 "Admin" = "管理员";
 "Advanced Settings" = "高级设置";
@@ -63,7 +70,6 @@
 "Backgrounds" = "背景";
 "Block" = "屏蔽";
 "Block Contact" = "屏蔽联系人";
-"Block grom group" = "屏蔽自群组";
 "Blocked Users" = "已屏蔽的用户";
 "Blocking is not supported by the server" = "服务器不支持屏蔽";
 "Blocking/Unblocking Not Supported" = "不支持屏蔽/取消屏蔽";
@@ -108,6 +114,7 @@
 "Clear History" = "清除历史记录";
 "Clear scanned contact" = "清除扫描的联系人";
 "Close" = "关闭";
+"Communication" = "交流";
 "Configure Membership" = "配置成员资格";
 "Connected since: %@" = "连接自：%@";
 "Connected: %@" = "已连接：%@";
@@ -150,11 +157,14 @@
 "Could not upload file" = "无法上传文件";
 /* Crash reporting */
 "Crash Detected" = "检测到崩溃";
+"Crash Testing" = "崩溃测试";
 "Create new group" = "创建新群组";
 "Creating Group" = "正在创建群组";
 "Creating invitation..." = "正在创建邀请...";
 "Current Password" = "当前密码";
 "Currently Online" = "目前在线";
+"Database Export Failed" = "数据库导出失败";
+"Database Files" = "数据库文件";
 "Debug" = "调试";
 "Debugging" = "调试中";
 "Default Background" = "默认背景";
@@ -253,6 +263,7 @@
 "Failed to encrypt file" = "加密文件失败";
 "Failed to enter Group/Channel %@" = "无法进入群组/频道 %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "无法进入群组/频道 %@：这不是一个群组/频道！";
+"Failed to export the database, please check the logfile for errors and try again." = "无法导出数据库，请检查日志文件中的错误，然后重试。";
 "Failed to fetch room config form for '%@'" = "无法获取聊天室 '%@' 的配置表单";
 "Failed to load blocklist" = "加载屏蔽列表失败";
 "Failed to moderate message in group/channel '%@'" = "无法审核群组/频道中的消息“%@”";
@@ -300,7 +311,7 @@
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "如果关闭，您的设备将无法在 XMPP 服务器上激活推送，请确保已将其配置为支持 XEP-0357.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "如果您开启此功能，您将不再安全，不会受到中间人攻击。这种攻击能让对手操纵您的收发消息、添加他们自己的 OMEMO 密钥、更改您的账号信息，甚至知道或更改您的密码！\n\n您应该切换到另一台服务器，而不是开启此功能。";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "如果您想要使用语音讯息，您将需要在设定中允许存取->隐私权->麦克风。";
-"Ignore" = "忽略";
+"Image Upload Quality : %@" = "图片上传质量：%@";
 "Import and trust OMEMO fingerprints from QR code" = "从二维码导入并信任 OMEMO 指纹";
 "Indicate when a particular device is active or inactive. Saves battery." = "显示某特定设备处于活动或非活动状态。可节省电力。";
 "Input is not a valid jid" = "输入不是有效的 JID";
@@ -331,6 +342,10 @@
 "Leave this conversation" = "离开此对话";
 "Leave this converstion?" = "离开对话吗？";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "与电子邮件一样，您可以在许多网站上注册账号并与任何人交谈。您可以使用此页面向选定或提供的 XMPP 服务器注册账号。您还必须选择用户名和密码。";
+"Load over Cellular" = "通过蜂窝网络加载";
+"Load over cellular upto : %@ MiB" = "通过蜂窝网络最多加载：%@ MiB";
+"Load over wifi" = "通过 wifi 加载";
+"Load over WiFi upto : %@ MiB" = "通过 WiFi 加载最多：%@ MiB";
 "Loading" = "加载中";
 "Loading contact list" = "加载联系人列表";
 "Loading Data" = "资料载入中";
@@ -339,9 +354,11 @@
 "Loading omemo bundles: %@ / %@" = "正在载入 OMEMO 包：%@ / %@";
 "Location Access Needed" = "需要存取位置";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "登录您现有的账号或注册一个新账号。如果需要，您可以在 Monal 设置中找到更多高级选项。";
+"Logfiles" = "日志文件";
 "Logging in" = "登录中";
 "Login" = "登录";
 "Login error, account disabled: %@" = "登录错误，账号已禁用：%@";
+"Logs" = "日志";
 "Make admin" = "设置管理员";
 "Make member" = "设置成员";
 "Make owner" = "设置所有者";
@@ -349,6 +366,7 @@
 "Mark as read" = "标记为已读";
 /* Prefix for own messages in chat overview */
 "Me:" = "我：";
+"Media Upload & Download" = "媒体上传和下载";
 /* muc affiliation */
 "Member" = "成员";
 "Message Archive Preferences" = "消息存档首选项";
@@ -455,11 +473,15 @@
 "Please update!" = "请升级！";
 "Port" = "端口";
 "Port: %@, Direct TLS: %@, Priority: %@" = "端口：%@，直接 TLS：%@，优先级：%@";
+"Previews" = "预览";
 "Privacy" = "隐私";
+"Privacy & Security" = "隐私和安全";
+"Privacy and security settings" = "隐私和安全设置";
 "Privacy Settings" = "隐私设定";
 "Protocol support of your server (XEPs)" = "服务器支持的协议 (XEPs)";
 /* placeholder when creating account */
 "Provide XMPP-Server" = "提供 XMPP 服务器";
+"Publishing" = "发布";
 "Pushserver Region" = "推送服务器区域";
 "QR code: Fingerprints found" = "二维码：已找到指纹";
 "QR-Code Scanner" = "二维码扫描器";
@@ -498,6 +520,7 @@
 /* placeholder text in contact details */
 "Rename Contact" = "重命名联系人";
 "Reply" = "回复";
+"Required" = "需要";
 "Reset OMEMO session" = "重置 OMEMO 会话";
 "Resource" = "资源";
 "Resources" = "资源";
@@ -588,6 +611,8 @@
 "The resource '%@' has the following capabilities:" = "资源 '%@' 具有以下功能：";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "可选的 XMPP 服务器是不隶属于 Monal 的公共服务器。提供此注册页面仅为了方便起见。";
 "The server does not support blocking (XEP-0191)." = "服务器不支持屏蔽 (XEP-0191)。";
+"The UDP logger allows you to livestream the log to the configured IP." = "UDP 日志记录器允许您将日志实时传输到配置的 IP。";
+"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP 日志记录器允许您将日志实时传输到配置的 IP。通过互联网传输时请使用安全密钥！\n［了解如何接收日志流］（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log）。";
 "The user %@ (%@) wants to add you to their contact list" = "用户 %1$@ (%2$@) 想要将您添加到他们的联系人列表中";
 "The username does not need to have an @ symbol. Please try again." = "用户名不需要有 @ 符号。请重试。";
 "There is no configured email account. Please email info@monal-im.org ." = "没有已设定的电子邮件。请发送电子邮件至 info@monal-im.org。";
@@ -607,11 +632,14 @@
 "This account already exists in Monal." = "在 Monal 已经存在这个账号。";
 "This account already exists on this instance" = "此账号已存在于此实例中";
 "This account already exists on this instance." = "此账号已存在于该实例上。";
+"This allows you to forcefully crash the app using several different methods to test the crash handling." = "这允许您使用几种不同的方法强制崩溃本应用来测试崩溃处理。";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "此应用版本太旧，可能包含安全漏洞，也可能突然停止运行。请升级！";
+"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "这可用于导出日志文件。\n［了解如何读取它们］（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log）。";
 "This contact does not appear to have any devices that support encryption." = "此联系人似乎没有任何支持加密的设备。";
 "This contact is already in the contact list of the selected account" = "该联系人已在所选账号的联系人列表中";
 "This contact is already in your contact list" = "该联系人已在您的联系人列表中";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "此联系人可能不支持 OMEMO 加密消息。请稍后再试。";
+"This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong.";
 /* Crash report error dialog */
 "This device is not configured to send email." = "该设备未配置为发送电子邮件。";
 "This invitation will expire on %@" = "此邀请将于 %@ 到期";
@@ -651,6 +679,9 @@
 "Try nevertheless" = "尝试一下";
 "Type: %@" = "类型：%@";
 "Typing..." = "正在输入...";
+"UDP Logger" = "UDP 日志记录器";
+"UDP Logger Configuration" = "UDP 日志记录器配置";
+"UDP Logging UI not supported on iOS < 16" = "iOS < 16 不支持 UDP 日志记录用户界面";
 "Unable to connect to server!" = "无法连接到服务器！";
 "Unblock Contact" = "取消屏蔽联系人";
 "Unclean appex shutown" = "未清理附录关闭";
@@ -771,36 +802,5 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
-"1 MiB" = "1 MiB";
-"100 MiB" = "100 MiB";
-"100%" = "100%";
-"33%" = "33%";
-"Adjust the maximum file size for auto-downloads over cellular network" = "调整通过蜂窝网络自动下载的最大文件大小";
-"Adjust the maximum file size for auto-downloads over WiFi" = "调整通过 WiFi 自动下载的最大文件大小";
-"Adjust the quality of images uploaded" = "调整上传图片的质量";
-"Communication" = "交流";
-"Crash Testing" = "崩溃测试";
-"Database Export Failed" = "数据库导出失败";
-"Database Files" = "数据库文件";
-"Failed to export the database, please check the logfile for errors and try again." = "无法导出数据库，请检查日志文件中的错误，然后重试。";
-"Image Upload Quality : %@" = "图片上传质量：%@";
-"Load over Cellular" = "通过蜂窝网络加载";
-"Load over cellular upto : %@ MiB" = "通过蜂窝网络最多加载：%@ MiB";
-"Load over wifi" = "通过 wifi 加载";
-"Load over WiFi upto : %@ MiB" = "通过 WiFi 加载最多：%@ MiB";
-"Logfiles" = "日志文件";
-"Logs" = "日志";
-"Media Upload & Download" = "媒体上传和下载";
-"Previews" = "预览";
-"Privacy & Security" = "隐私和安全";
-"Privacy and security settings" = "隐私和安全设置";
-"Publishing" = "发布";
-"Required" = "需要";
-"The UDP logger allows you to livestream the log to the configured IP." = "UDP 日志记录器允许您将日志实时传输到配置的 IP。";
-"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP 日志记录器允许您将日志实时传输到配置的 IP。通过互联网传输时请使用安全密钥！\n［了解如何接收日志流］（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log）。";
-"This allows you to forcefully crash the app using several different methods to test the crash handling." = "这允许您使用几种不同的方法强制崩溃本应用来测试崩溃处理。";
-"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "这可用于导出日志文件。\n［了解如何读取它们］（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log）。";
-"UDP Logger" = "UDP 日志记录器";
-"UDP Logger Configuration" = "UDP 日志记录器配置";
-"UDP Logging UI not supported on iOS < 16" = "iOS < 16 不支持 UDP 日志记录用户界面";
-"Uploaad Settings" = "上传设置";
+"Block from group" = "Block from group";
+"Invalid image file!" = "Invalid image file!";

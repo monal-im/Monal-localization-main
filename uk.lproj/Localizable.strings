@@ -3,6 +3,10 @@
 "%02d:%02d (long press to abort)" = "%02d:%02d (тривале натискання для відміни)";
 "%@" = "%@";
 "%@ says:" = "%@ каже:";
+"1 MiB" = "1 MiB";
+"100 MiB" = "100 MiB";
+"100%" = "100%";
+"33%" = "33%";
 /* server details */
 "<unknown server>" = "<невідомий сервер>";
 /* server details */
@@ -34,6 +38,9 @@
 "Add to contacts" = "Додати в контакти";
 "Adding Group/Channel..." = "Додавання групи/каналу...";
 "Adding..." = "Додавання...";
+"Adjust the maximum file size for auto-downloads over cellular network" = "Adjust the maximum file size for auto-downloads over cellular network";
+"Adjust the maximum file size for auto-downloads over WiFi" = "Adjust the maximum file size for auto-downloads over WiFi";
+"Adjust the quality of images uploaded" = "Adjust the quality of images uploaded";
 /* muc affiliation */
 "Admin" = "Admin";
 "Advanced Settings" = "Розширені налаштування";
@@ -63,7 +70,6 @@
 "Backgrounds" = "Фон";
 "Block" = "Заблокувати";
 "Block Contact" = "Заблокувати контакт";
-"Block grom group" = "Block grom group";
 "Blocked Users" = "Заблоковані користувачі";
 "Blocking is not supported by the server" = "Блокування не підтримується сервером";
 "Blocking/Unblocking Not Supported" = "Блокування/розблокування не підтримується";
@@ -108,6 +114,7 @@
 "Clear History" = "Очистити історію";
 "Clear scanned contact" = "Очистити відсканований контакт";
 "Close" = "Скасувати";
+"Communication" = "Communication";
 "Configure Membership" = "Configure Membership";
 "Connected since: %@" = "Підключений з: %@";
 "Connected: %@" = "Підключено: %@";
@@ -150,11 +157,14 @@
 "Could not upload file" = "Не вдається завантажити файл";
 /* Crash reporting */
 "Crash Detected" = "Виявлено збій";
+"Crash Testing" = "Crash Testing";
 "Create new group" = "Створити нову групу";
 "Creating Group" = "Creating Group";
 "Creating invitation..." = "Створення запрошення...";
 "Current Password" = "Поточний пароль";
 "Currently Online" = "Наразі онлайн";
+"Database Export Failed" = "Database Export Failed";
+"Database Files" = "Database Files";
 "Debug" = "Налагодження";
 "Debugging" = "Налагодження";
 "Default Background" = "Фон за замовчуванням";
@@ -253,6 +263,7 @@
 "Failed to encrypt file" = "Не вдалося зашифрувати файл";
 "Failed to enter Group/Channel %@" = "Не вдалося увійти в групу/канал %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Не вдалося увійти до групи/каналу %@: Це не група/канал!";
+"Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
 "Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "Не вдалося завантажити список блокування";
 "Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
@@ -300,7 +311,7 @@
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Якщо цей параметр вимкнено, ваш пристрій не зміг активувати push на вашому xmpp-сервері, переконайтеся, що він налаштований на підтримку XEP-0357.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Якщо ви хочете використовувати аудіоповідомлення, вам потрібно дозволити доступ в Налаштуваннях-> Конфіденційність-> Мікрофон.";
-"Ignore" = "Ігнорувати";
+"Image Upload Quality : %@" = "Image Upload Quality : %@";
 "Import and trust OMEMO fingerprints from QR code" = "Імпортуйте та довіряйте відбиткам пальців OMEMO з QR-коду";
 "Indicate when a particular device is active or inactive. Saves battery." = "Вкажіть, коли конкретний пристрій активний або неактивний. Це економить заряд батареї.";
 "Input is not a valid jid" = "Вхідні дані не є коректним jid";
@@ -331,6 +342,10 @@
 "Leave this conversation" = "Вийти з розмови";
 "Leave this converstion?" = "Вийти з цієї розмови?";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "Подібно до електронної пошти, ви можете зареєструвати свій обліковий запис на багатьох сайтах і спілкуватися з будь-ким. За допомогою цієї сторінки ви можете зареєструвати обліковий запис на обраному або наданому XMPP-сервері. Вам також потрібно вибрати ім'я користувача і пароль.";
+"Load over Cellular" = "Load over Cellular";
+"Load over cellular upto : %@ MiB" = "Load over cellular upto : %@ MiB";
+"Load over wifi" = "Load over wifi";
+"Load over WiFi upto : %@ MiB" = "Load over WiFi upto : %@ MiB";
 "Loading" = "Завантаження";
 "Loading contact list" = "Завантаження списку контактів";
 "Loading Data" = "Завантаження даних";
@@ -339,9 +354,11 @@
 "Loading omemo bundles: %@ / %@" = "Завантаження пакетів OMEMO: %1$@ / %2$@";
 "Location Access Needed" = "Необхідний доступ до місцезнаходження";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Увійдіть до свого облікового запису або зареєструйте новий. Якщо потрібно, ви знайдете більш розширені опції в налаштуваннях Monal.";
+"Logfiles" = "Logfiles";
 "Logging in" = "Вхід";
 "Login" = "Логін";
 "Login error, account disabled: %@" = "Помилка входу, обліковий запис вимкнено: %@";
+"Logs" = "Logs";
 "Make admin" = "Make admin";
 "Make member" = "Make member";
 "Make owner" = "Make owner";
@@ -349,6 +366,7 @@
 "Mark as read" = "Помітити прочитаним";
 /* Prefix for own messages in chat overview */
 "Me:" = "Me:";
+"Media Upload & Download" = "Media Upload & Download";
 /* muc affiliation */
 "Member" = "Member";
 "Message Archive Preferences" = "Налаштування архівування повідомлень";
@@ -455,11 +473,15 @@
 "Please update!" = "Будь ласка, оновіть!";
 "Port" = "Порт";
 "Port: %@, Direct TLS: %@, Priority: %@" = "Port: %1$@, Direct TLS: %2$@, Priority: %3$@";
+"Previews" = "Previews";
 "Privacy" = "Конфіденційність";
+"Privacy & Security" = "Privacy & Security";
+"Privacy and security settings" = "Privacy and security settings";
 "Privacy Settings" = "Налаштування конфіденційності";
 "Protocol support of your server (XEPs)" = "Підтримка протоколів на вашому сервері (XEP)";
 /* placeholder when creating account */
 "Provide XMPP-Server" = "Provide XMPP-Server";
+"Publishing" = "Publishing";
 "Pushserver Region" = "Регіон пуш-сервера";
 "QR code: Fingerprints found" = "QR-код: Знайдено відбитки пальців";
 "QR-Code Scanner" = "Сканер QR-коду";
@@ -498,6 +520,7 @@
 /* placeholder text in contact details */
 "Rename Contact" = "Rename Contact";
 "Reply" = "Відповісти";
+"Required" = "Required";
 "Reset OMEMO session" = "Скинути сесію OMEMO";
 "Resource" = "Ресурс";
 "Resources" = "Ресурси";
@@ -588,6 +611,8 @@
 "The resource '%@' has the following capabilities:" = "Ресурс '%@' має наступні можливості:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "Обрані XMPP-сервери є загальнодоступними серверами, які не пов'язані з Monal. Ця сторінка реєстрації надається лише для зручності.";
 "The server does not support blocking (XEP-0191)." = "Сервер не підтримує блокування (XEP-0191).";
+"The UDP logger allows you to livestream the log to the configured IP." = "The UDP logger allows you to livestream the log to the configured IP.";
+"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
 "The user %@ (%@) wants to add you to their contact list" = "Користувач %1$@ (%2$@) хоче додати вас до свого списку контактів";
 "The username does not need to have an @ symbol. Please try again." = "Ім'я користувача не повинно мати символ @. Будь ласка, спробуйте ще раз.";
 "There is no configured email account. Please email info@monal-im.org ." = "Немає налаштованого облікового запису електронної пошти. Будь ласка, надішліть електронний лист на адресу info@monal-im.org .";
@@ -607,11 +632,14 @@
 "This account already exists in Monal." = "Цей обліковий запис вже існує в Monal.";
 "This account already exists on this instance" = "Цей обліковий запис вже існує на цьому інстансі";
 "This account already exists on this instance." = "Цей обліковий запис вже існує на цьому інстансі.";
+"This allows you to forcefully crash the app using several different methods to test the crash handling." = "This allows you to forcefully crash the app using several different methods to test the crash handling.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Версія цього застосунку застаріла і може містити помилки безпеки, а також раптово припинити роботу. Будь ласка, оновіть!";
+"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption." = "Цей контакт, здається, не має жодних пристроїв, які підтримують шифрування.";
 "This contact is already in the contact list of the selected account" = "Цей контакт вже є у списку контактів обраного акаунта";
 "This contact is already in your contact list" = "Цей контакт вже є у вашому списку контактів";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Цей контакт може не підтримувати зашифровані повідомлення OMEMO. Будь ласка, спробуйте ще раз через кілька секунд.";
+"This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong.";
 /* Crash report error dialog */
 "This device is not configured to send email." = "Цей пристрій не налаштовано на надсилання електронної пошти.";
 "This invitation will expire on %@" = "Термін дії цього запрошення закінчується %@";
@@ -651,6 +679,9 @@
 "Try nevertheless" = "Спробуйте все ж таки";
 "Type: %@" = "Тип: %@";
 "Typing..." = "Пише...";
+"UDP Logger" = "UDP Logger";
+"UDP Logger Configuration" = "UDP Logger Configuration";
+"UDP Logging UI not supported on iOS < 16" = "UDP Logging UI not supported on iOS < 16";
 "Unable to connect to server!" = "Не вдається підключитися до сервера!";
 "Unblock Contact" = "Розблокувати контакт";
 "Unclean appex shutown" = "Вимкнення нечистого апекса";
@@ -771,36 +802,5 @@
 "📍 A Location" = "📍 Місцезнаходження";
 "📷 An Image" = "📷 Зображення";
 "🔗 A Link" = "🔗 Посилання";
-"1 MiB" = "1 MiB";
-"100 MiB" = "100 MiB";
-"100%" = "100%";
-"33%" = "33%";
-"Adjust the maximum file size for auto-downloads over cellular network" = "Adjust the maximum file size for auto-downloads over cellular network";
-"Adjust the maximum file size for auto-downloads over WiFi" = "Adjust the maximum file size for auto-downloads over WiFi";
-"Adjust the quality of images uploaded" = "Adjust the quality of images uploaded";
-"Communication" = "Communication";
-"Crash Testing" = "Crash Testing";
-"Database Export Failed" = "Database Export Failed";
-"Database Files" = "Database Files";
-"Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
-"Image Upload Quality : %@" = "Image Upload Quality : %@";
-"Load over Cellular" = "Load over Cellular";
-"Load over cellular upto : %@ MiB" = "Load over cellular upto : %@ MiB";
-"Load over wifi" = "Load over wifi";
-"Load over WiFi upto : %@ MiB" = "Load over WiFi upto : %@ MiB";
-"Logfiles" = "Logfiles";
-"Logs" = "Logs";
-"Media Upload & Download" = "Media Upload & Download";
-"Previews" = "Previews";
-"Privacy & Security" = "Privacy & Security";
-"Privacy and security settings" = "Privacy and security settings";
-"Publishing" = "Publishing";
-"Required" = "Required";
-"The UDP logger allows you to livestream the log to the configured IP." = "The UDP logger allows you to livestream the log to the configured IP.";
-"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
-"This allows you to forcefully crash the app using several different methods to test the crash handling." = "This allows you to forcefully crash the app using several different methods to test the crash handling.";
-"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
-"UDP Logger" = "UDP Logger";
-"UDP Logger Configuration" = "UDP Logger Configuration";
-"UDP Logging UI not supported on iOS < 16" = "UDP Logging UI not supported on iOS < 16";
-"Uploaad Settings" = "Uploaad Settings";
+"Block from group" = "Block from group";
+"Invalid image file!" = "Invalid image file!";

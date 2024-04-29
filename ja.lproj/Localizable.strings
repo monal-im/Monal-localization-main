@@ -3,6 +3,10 @@
 "%02d:%02d (long press to abort)" = "%02d:%02d (長押しで中断)";
 "%@" = "%@";
 "%@ says:" = "%@ 曰く:";
+"1 MiB" = "1 MiB";
+"100 MiB" = "100 MiB";
+"100%" = "100%";
+"33%" = "33%";
 /* server details */
 "<unknown server>" = "<不明なサーバー>";
 /* server details */
@@ -34,6 +38,9 @@
 "Add to contacts" = "相手先を追加";
 "Adding Group/Channel..." = "グループ/チャンネルを追加中…";
 "Adding..." = "追加中...";
+"Adjust the maximum file size for auto-downloads over cellular network" = "Adjust the maximum file size for auto-downloads over cellular network";
+"Adjust the maximum file size for auto-downloads over WiFi" = "Adjust the maximum file size for auto-downloads over WiFi";
+"Adjust the quality of images uploaded" = "Adjust the quality of images uploaded";
 /* muc affiliation */
 "Admin" = "管理人";
 "Advanced Settings" = "詳細設定";
@@ -63,7 +70,6 @@
 "Backgrounds" = "背景";
 "Block" = "ブロック";
 "Block Contact" = "相手先をブロック";
-"Block grom group" = "Block grom group";
 "Blocked Users" = "ブロックされているユーザー";
 "Blocking is not supported by the server" = "このサーバーはブロックに対応していません";
 "Blocking/Unblocking Not Supported" = "ブロック/ブロック解除は非対応";
@@ -108,6 +114,7 @@
 "Clear History" = "履歴を消去";
 "Clear scanned contact" = "スキャンした相手先を消去";
 "Close" = "閉じる";
+"Communication" = "Communication";
 "Configure Membership" = "Configure Membership";
 "Connected since: %@" = "%@から接続中";
 "Connected: %@" = "接続済: %@";
@@ -150,11 +157,14 @@
 "Could not upload file" = "ファイルをアップロードできませんでした";
 /* Crash reporting */
 "Crash Detected" = "クラッシュが検出されました";
+"Crash Testing" = "Crash Testing";
 "Create new group" = "新しいグループを作成";
 "Creating Group" = "Creating Group";
 "Creating invitation..." = "招待を作成中...";
 "Current Password" = "現在のパスワード";
 "Currently Online" = "現在オンライン中";
+"Database Export Failed" = "Database Export Failed";
+"Database Files" = "Database Files";
 "Debug" = "デバッグ";
 "Debugging" = "デバッグ";
 "Default Background" = "デフォルトの背景";
@@ -253,6 +263,7 @@
 "Failed to encrypt file" = "ファイルの暗号化に失敗しました";
 "Failed to enter Group/Channel %@" = "グループ/チャンネル %@ への参加に失敗しました";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "グループ/チャンネル %@ への参加に失敗しました: これはグループ/チャンネルではありません。";
+"Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
 "Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "ブロック一覧の読み込みに失敗しました";
 "Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
@@ -300,7 +311,7 @@
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "これがオフの場合、デバイスが XMPP サーバーのプッシュ通知を有効化できていません。XEP-0357に対応をするよう設定されていることを確認してください。";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "音声メッセージを使用したい場合は、[設定] -> [プライバシー] -> [マイク] でアクセスを許可する必要があります。";
-"Ignore" = "無視";
+"Image Upload Quality : %@" = "Image Upload Quality : %@";
 "Import and trust OMEMO fingerprints from QR code" = "QR コードから OMEMO 指紋を取り込み信頼する";
 "Indicate when a particular device is active or inactive. Saves battery." = "特定のデバイスがいつアクティブであるか非アクティブであるかを示します。バッテリーを節約します。";
 "Input is not a valid jid" = "正しい JID ではありません";
@@ -331,6 +342,10 @@
 "Leave this conversation" = "この会話を退出";
 "Leave this converstion?" = "この会話を退出しますか ?";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "電子メールと同様に、多くのサイトにアカウントを登録して、誰とでも話すことができます。このページを使用して、選択または提供された XMPP サーバーにアカウントを登録できます。ユーザー名とパスワードを選択する必要があります。";
+"Load over Cellular" = "Load over Cellular";
+"Load over cellular upto : %@ MiB" = "Load over cellular upto : %@ MiB";
+"Load over wifi" = "Load over wifi";
+"Load over WiFi upto : %@ MiB" = "Load over WiFi upto : %@ MiB";
 "Loading" = "読み込み中";
 "Loading contact list" = "相手先一覧を読み込み中";
 "Loading Data" = "データを読み込み中";
@@ -339,9 +354,11 @@
 "Loading omemo bundles: %@ / %@" = "OMEMO 鍵束を読み込み中: %1$@ / %2$@";
 "Location Access Needed" = "位置情報のアクセスが必要です";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "既存のアカウントにログインするか、新しいアカウントを登録します。必要に応じて、Monal の設定にさらに高度なオプションを見つけることができます。";
+"Logfiles" = "Logfiles";
 "Logging in" = "ログイン中";
 "Login" = "ログイン";
 "Login error, account disabled: %@" = "Login error, account disabled: %@";
+"Logs" = "Logs";
 "Make admin" = "Make admin";
 "Make member" = "Make member";
 "Make owner" = "Make owner";
@@ -349,6 +366,7 @@
 "Mark as read" = "既読としてマーク";
 /* Prefix for own messages in chat overview */
 "Me:" = "Me:";
+"Media Upload & Download" = "Media Upload & Download";
 /* muc affiliation */
 "Member" = "メンバー";
 "Message Archive Preferences" = "メッセージ保管の設定";
@@ -455,11 +473,15 @@
 "Please update!" = "更新してください !";
 "Port" = "ポート";
 "Port: %@, Direct TLS: %@, Priority: %@" = "ポート: %1$@, Direct TLS: %2$@, 優先度: %3$@";
+"Previews" = "Previews";
 "Privacy" = "プライバシー";
+"Privacy & Security" = "Privacy & Security";
+"Privacy and security settings" = "Privacy and security settings";
 "Privacy Settings" = "プライバシー設定";
 "Protocol support of your server (XEPs)" = "サーバーが対応しているプロトコル (XEP)";
 /* placeholder when creating account */
 "Provide XMPP-Server" = "XMPP サーバー";
+"Publishing" = "Publishing";
 "Pushserver Region" = "プッシュ通知サーバーの地域";
 "QR code: Fingerprints found" = "QR コード: 指紋が見つかりました";
 "QR-Code Scanner" = "QR コードスキャナー";
@@ -498,6 +520,7 @@
 /* placeholder text in contact details */
 "Rename Contact" = "相手先の名前を変更";
 "Reply" = "返信";
+"Required" = "Required";
 "Reset OMEMO session" = "OMEMO セッションをリセット";
 "Resource" = "リソース";
 "Resources" = "リソース";
@@ -588,6 +611,8 @@
 "The resource '%@' has the following capabilities:" = "リソース '%@' には次の機能があります:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "選択可能な XMPP サーバーは公開サーバーであり、Monal と提携しているものではありません。この登録ページは便宜のためにのみ提供されています。";
 "The server does not support blocking (XEP-0191)." = "サーバーはブロック (XEP-0191) に対応していません。";
+"The UDP logger allows you to livestream the log to the configured IP." = "The UDP logger allows you to livestream the log to the configured IP.";
+"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
 "The user %@ (%@) wants to add you to their contact list" = "ユーザー %1$@ (%2$@) は、あなたを相手先一覧に追加したいと思っています";
 "The username does not need to have an @ symbol. Please try again." = "ユーザー名に記号 @ を使うことはできません。もう一度やり直してください。";
 "There is no configured email account. Please email info@monal-im.org ." = "設定された電子メール アカウントがありません。 info@monal-im.org に電子メールを送信してください。";
@@ -607,11 +632,14 @@
 "This account already exists in Monal." = "このアカウントはすでに Monal に存在しています。";
 "This account already exists on this instance" = "This account already exists on this instance";
 "This account already exists on this instance." = "This account already exists on this instance.";
+"This allows you to forcefully crash the app using several different methods to test the crash handling." = "This allows you to forcefully crash the app using several different methods to test the crash handling.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!";
+"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption." = "この相手先は暗号化に対応するデバイスを持っていないようです。";
 "This contact is already in the contact list of the selected account" = "この相手先は、選択したアカウントの相手先一覧にすでに含まれています";
 "This contact is already in your contact list" = "この相手先はすでに一覧の中にあります";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "この相手先は OMEMO 暗号化メッセージに対応していない可能性があります。数秒後にもう一度試してください。";
+"This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong.";
 /* Crash report error dialog */
 "This device is not configured to send email." = "このデバイスは電子メールを送信するように調整されていません。";
 "This invitation will expire on %@" = "この招待は %@ に期限切れになります";
@@ -651,6 +679,9 @@
 "Try nevertheless" = "あえて試みる";
 "Type: %@" = "タイプ: %@";
 "Typing..." = "タイプ中...";
+"UDP Logger" = "UDP Logger";
+"UDP Logger Configuration" = "UDP Logger Configuration";
+"UDP Logging UI not supported on iOS < 16" = "UDP Logging UI not supported on iOS < 16";
 "Unable to connect to server!" = "サーバーに接続できません。";
 "Unblock Contact" = "相手先をブロック解除";
 "Unclean appex shutown" = "Unclean appex shutown";
@@ -771,36 +802,5 @@
 "📍 A Location" = "📍 位置情報";
 "📷 An Image" = "📷 画像";
 "🔗 A Link" = "🔗 リンク";
-"1 MiB" = "1 MiB";
-"100 MiB" = "100 MiB";
-"100%" = "100%";
-"33%" = "33%";
-"Adjust the maximum file size for auto-downloads over cellular network" = "Adjust the maximum file size for auto-downloads over cellular network";
-"Adjust the maximum file size for auto-downloads over WiFi" = "Adjust the maximum file size for auto-downloads over WiFi";
-"Adjust the quality of images uploaded" = "Adjust the quality of images uploaded";
-"Communication" = "Communication";
-"Crash Testing" = "Crash Testing";
-"Database Export Failed" = "Database Export Failed";
-"Database Files" = "Database Files";
-"Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
-"Image Upload Quality : %@" = "Image Upload Quality : %@";
-"Load over Cellular" = "Load over Cellular";
-"Load over cellular upto : %@ MiB" = "Load over cellular upto : %@ MiB";
-"Load over wifi" = "Load over wifi";
-"Load over WiFi upto : %@ MiB" = "Load over WiFi upto : %@ MiB";
-"Logfiles" = "Logfiles";
-"Logs" = "Logs";
-"Media Upload & Download" = "Media Upload & Download";
-"Previews" = "Previews";
-"Privacy & Security" = "Privacy & Security";
-"Privacy and security settings" = "Privacy and security settings";
-"Publishing" = "Publishing";
-"Required" = "Required";
-"The UDP logger allows you to livestream the log to the configured IP." = "The UDP logger allows you to livestream the log to the configured IP.";
-"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
-"This allows you to forcefully crash the app using several different methods to test the crash handling." = "This allows you to forcefully crash the app using several different methods to test the crash handling.";
-"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
-"UDP Logger" = "UDP Logger";
-"UDP Logger Configuration" = "UDP Logger Configuration";
-"UDP Logging UI not supported on iOS < 16" = "UDP Logging UI not supported on iOS < 16";
-"Uploaad Settings" = "Uploaad Settings";
+"Block from group" = "Block from group";
+"Invalid image file!" = "Invalid image file!";

@@ -68,7 +68,7 @@
 "Backgrounds" = "Backgrounds";
 "Block" = "Block";
 "Block Contact" = "Block Contact";
-"Block grom group" = "Block grom group";
+"Block from group" = "Block from group";
 "Blocked Users" = "Blocked Users";
 "Blocking is not supported by the server" = "Blocking is not supported by the server";
 "Blocking/Unblocking Not Supported" = "Blocking/Unblocking Not Supported";
@@ -244,7 +244,6 @@
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone.";
-"Ignore" = "Ignore";
 "Image Upload Quality : %@" = "Image Upload Quality : %@";
 "Import and trust OMEMO fingerprints from QR code" = "Import and trust OMEMO fingerprints from QR code";
 "Indicate when a particular device is active or inactive. Saves battery." = "Indicate when a particular device is active or inactive. Saves battery.";
@@ -255,6 +254,7 @@
 "Invalid Username!" = "Invalid Username!";
 /* QR-Code-Scanner: invalid format */
 "Invalid format" = "Invalid format";
+"Invalid image file!" = "Invalid image file!";
 "Invitation for %@ created" = "Invitation for %@ created";
 /* QR-Code-Scanner: Camera not found */
 "It does not seem as your device has a camera. Please use a device with a camera for scanning" = "It does not seem as your device has a camera. Please use a device with a camera for scanning";
@@ -509,6 +509,7 @@
 "This contact is already in the contact list of the selected account" = "This contact is already in the contact list of the selected account";
 "This contact is already in your contact list" = "This contact is already in your contact list";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "This contact may not support OMEMO encrypted messages. Please try again in a few seconds.";
+"This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong.";
 /* Crash report error dialog */
 "This device is not configured to send email." = "This device is not configured to send email.";
 "This invitation will expire on %@" = "This invitation will expire on %@";
@@ -551,7 +552,6 @@
 "Unknown error!" = "Unknown error!";
 "Unread Messages Below" = "Unread Messages Below";
 "Untrusted key" = "Untrusted key";
-"Uploaad Settings" = "Uploaad Settings";
 "Upload Settings" = "Upload Settings";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)";
 "Uploading" = "Uploading";
