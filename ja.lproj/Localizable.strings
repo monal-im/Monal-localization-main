@@ -250,7 +250,7 @@
 "Failed to block contact %@" = "contact %@ のブロックに失敗しました";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@' での '%1$@' の分掌を '%3$@' に変更できませんでした";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@' での '%1$@' の分掌を '%3$@' に変更できませんでした: 時間切れ";
-"Failed to copy downloaded file into cache directory" = "ダウンロードしたファイルのキャッシュディレクトリへのコピーに失敗しました";
+"Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
 "Failed to create invitation for %@" = "%@ の招待の作成に失敗しました";
 "Failed to create invitation, unknown error: %@" = "招待の作成に失敗しました。未知のエラー: %@";
 "Failed to decode download link" = "ダウンロードリンクのデコードに失敗しました";
@@ -259,15 +259,17 @@
 "Failed to decrypt filetransfer" = "ファイル転送の復号に失敗しました";
 "Failed to delete own avatar" = "自身のアバターの削除に失敗しました";
 "Failed to delete own nickname" = "自身のニックネームの削除に失敗しました";
-"Failed to download file" = "ファイルのダウンロードに失敗しました";
+"Failed to download file: %@" = "Failed to download file: %@";
 "Failed to enable carbons for account %@" = "Failed to enable carbons for account %@";
 "Failed to encrypt file" = "ファイルの暗号化に失敗しました";
 "Failed to enter Group/Channel %@" = "グループ/チャンネル %@ への参加に失敗しました";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "グループ/チャンネル %@ への参加に失敗しました: これはグループ/チャンネルではありません。";
 "Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
+"Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
 "Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "ブロック一覧の読み込みに失敗しました";
 "Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
+"Failed to move uploaded file to file cache directory" = "Failed to move uploaded file to file cache directory";
 "Failed to parse URL returned by HTTP upload server" = "HTTP アップロードサーバーから返された URL の解析に失敗しました";
 "Failed to publish avatar image for group/channel %@" = "グループ/チャンネル %@ のアバター画像の公開に失敗しました";
 "Failed to publish own avatar" = "自身のアバターの公開に失敗しました";
@@ -281,7 +283,6 @@
 "Failed to save groupchat bookmarks" = "グループチャットのブックマークの保存に失敗しました";
 "Failed to share file" = "ファイル共有に失敗しました";
 "Failed to upload file: account was removed" = "ファイルのアップロードに失敗しました: アカウントは除去されました";
-"Failed to uploaded file to file cache directory" = "Failed to uploaded file to file cache directory";
 "Failed to write decrypted download into cache directory" = "復号されたダウンロードのキャッシュ ディレクトリへのに書き込みに失敗しました";
 "Fetching registration form..." = "登録欄を取り寄せ中...";
 "File" = "ファイル";
@@ -312,7 +313,6 @@
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "これがオフの場合、デバイスが XMPP サーバーのプッシュ通知を有効化できていません。XEP-0357に対応をするよう設定されていることを確認してください。";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "音声メッセージを使用したい場合は、[設定] -> [プライバシー] -> [マイク] でアクセスを許可する必要があります。";
-"Image Upload Quality : %@" = "Image Upload Quality : %@";
 "Import and trust OMEMO fingerprints from QR code" = "QR コードから OMEMO 指紋を取り込み信頼する";
 "Indicate when a particular device is active or inactive. Saves battery." = "特定のデバイスがいつアクティブであるか非アクティブであるかを示します。バッテリーを節約します。";
 "Input is not a valid jid" = "正しい JID ではありません";
@@ -345,9 +345,7 @@
 "Leave this converstion?" = "この会話を退出しますか ?";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "電子メールと同様に、多くのサイトにアカウントを登録して、誰とでも話すことができます。このページを使用して、選択または提供された XMPP サーバーにアカウントを登録できます。ユーザー名とパスワードを選択する必要があります。";
 "Load over Cellular" = "Load over Cellular";
-"Load over cellular upto : %@ MiB" = "Load over cellular upto : %@ MiB";
 "Load over wifi" = "Load over wifi";
-"Load over WiFi upto : %@ MiB" = "Load over WiFi upto : %@ MiB";
 "Loading" = "読み込み中";
 "Loading contact list" = "相手先一覧を読み込み中";
 "Loading Data" = "データを読み込み中";
@@ -804,3 +802,6 @@
 "📍 A Location" = "📍 位置情報";
 "📷 An Image" = "📷 画像";
 "🔗 A Link" = "🔗 リンク";
+"Image Upload Quality: %@" = "Image Upload Quality: %@";
+"Load over cellular up to: %@ MiB" = "Load over cellular up to: %@ MiB";
+"Load over WiFi up to: %@ MiB" = "Load over WiFi up to: %@ MiB";

@@ -250,7 +250,7 @@
 "Failed to block contact %@" = "无法屏蔽联系人 %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "无法将 '%1$@' 在 '%2$@' 中的从属关系更改为 '%3$@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "无法将 '%1$@' 在 '%2$@' 中的从属关系更改为 '%3$@'：超时";
-"Failed to copy downloaded file into cache directory" = "未能将下载的文件复制到缓存目录";
+"Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
 "Failed to create invitation for %@" = "无法为 %@ 创建邀请";
 "Failed to create invitation, unknown error: %@" = "创建邀请失败，未知错误：%@";
 "Failed to decode download link" = "解码下载链接失败";
@@ -259,15 +259,17 @@
 "Failed to decrypt filetransfer" = "无法解密文件传输";
 "Failed to delete own avatar" = "删除自己的头像失败";
 "Failed to delete own nickname" = "删除自己的昵称失败";
-"Failed to download file" = "下载文件失败";
+"Failed to download file: %@" = "Failed to download file: %@";
 "Failed to enable carbons for account %@" = "无法启用账号副本 %@";
 "Failed to encrypt file" = "加密文件失败";
 "Failed to enter Group/Channel %@" = "无法进入群组/频道 %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "无法进入群组/频道 %@：这不是一个群组/频道！";
 "Failed to export the database, please check the logfile for errors and try again." = "无法导出数据库，请检查日志文件中的错误，然后重试。";
+"Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
 "Failed to fetch room config form for '%@'" = "无法获取聊天室 '%@' 的配置表单";
 "Failed to load blocklist" = "加载屏蔽列表失败";
 "Failed to moderate message in group/channel '%@'" = "无法审核群组/频道中的消息“%@”";
+"Failed to move uploaded file to file cache directory" = "Failed to move uploaded file to file cache directory";
 "Failed to parse URL returned by HTTP upload server" = "无法解析由 HTTP 上传服务器返回的 URL";
 "Failed to publish avatar image for group/channel %@" = "发布群组/频道 %@ 的头像失败";
 "Failed to publish own avatar" = "发布自己的头像失败";
@@ -281,7 +283,6 @@
 "Failed to save groupchat bookmarks" = "保存群聊书签失败";
 "Failed to share file" = "共享文件失败";
 "Failed to upload file: account was removed" = "上传文件失败：账号已移除";
-"Failed to uploaded file to file cache directory" = "将文件上传到文件缓存目录失败";
 "Failed to write decrypted download into cache directory" = "写入解密下载到缓存目录失败";
 "Fetching registration form..." = "正在获取注册信息...";
 "File" = "文件";
@@ -312,7 +313,6 @@
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "如果关闭，您的设备将无法在 XMPP 服务器上激活推送，请确保已将其配置为支持 XEP-0357.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "如果您开启此功能，您将不再安全，不会受到中间人攻击。这种攻击能让对手操纵您的收发消息、添加他们自己的 OMEMO 密钥、更改您的账号信息，甚至知道或更改您的密码！\n\n您应该切换到另一台服务器，而不是开启此功能。";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "如果您想要使用语音讯息，您将需要在设定中允许存取->隐私权->麦克风。";
-"Image Upload Quality : %@" = "图片上传质量：%@";
 "Import and trust OMEMO fingerprints from QR code" = "从二维码导入并信任 OMEMO 指纹";
 "Indicate when a particular device is active or inactive. Saves battery." = "显示某特定设备处于活动或非活动状态。可节省电力。";
 "Input is not a valid jid" = "输入不是有效的 JID";
@@ -345,9 +345,7 @@
 "Leave this converstion?" = "离开对话吗？";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "与电子邮件一样，您可以在许多网站上注册账号并与任何人交谈。您可以使用此页面向选定或提供的 XMPP 服务器注册账号。您还必须选择用户名和密码。";
 "Load over Cellular" = "通过蜂窝网络加载";
-"Load over cellular upto : %@ MiB" = "通过蜂窝网络最多加载：%@ MiB";
 "Load over wifi" = "通过 wifi 加载";
-"Load over WiFi upto : %@ MiB" = "通过 WiFi 加载最多：%@ MiB";
 "Loading" = "加载中";
 "Loading contact list" = "加载联系人列表";
 "Loading Data" = "资料载入中";
@@ -804,3 +802,6 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
+"Image Upload Quality: %@" = "Image Upload Quality: %@";
+"Load over cellular up to: %@ MiB" = "Load over cellular up to: %@ MiB";
+"Load over WiFi up to: %@ MiB" = "Load over WiFi up to: %@ MiB";

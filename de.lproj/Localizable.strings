@@ -250,7 +250,7 @@
 "Failed to block contact %@" = "Kontakt %@ konnte nicht gesperrt werden";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Änderung der Zugehörigkeit von '%1$@' in '%2$@' nach '%3$@' fehlgeschlagen";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Änderung der Zugehörigkeit von '%1$@' in '%2$@' nach '%3$@' fehlgeschlagen: Zeitüberschreitung";
-"Failed to copy downloaded file into cache directory" = "Heruntergeladene Datei konnte nicht in das Cache-Verzeichnis kopiert werden";
+"Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
 "Failed to create invitation for %@" = "Einladung für %@ konnte nicht erstellt werden";
 "Failed to create invitation, unknown error: %@" = "Einladung konnte nicht erstellt werden, unbekannter Fehler: %@";
 "Failed to decode download link" = "Download-Link konnte nicht dekodiert werden";
@@ -259,15 +259,17 @@
 "Failed to decrypt filetransfer" = "Dateiübertragung konnte nicht entschlüsselt werden";
 "Failed to delete own avatar" = "Eigenes Profilbild konnte nicht gelöscht werden";
 "Failed to delete own nickname" = "Eigener Nickname konnte nicht gelöscht werden";
-"Failed to download file" = "Datei kann nicht heruntergeladen werden";
+"Failed to download file: %@" = "Failed to download file: %@";
 "Failed to enable carbons for account %@" = "Nachrichtenkopien für das Konto %@ konnten nicht aktiviert werden";
 "Failed to encrypt file" = "Datei konnte nicht verschlüsselt werden";
 "Failed to enter Group/Channel %@" = "Gruppenchat/Channel %@ konnte nicht betreten werden";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Gruppenchat/Channel %@ konnte nicht betreten werden: Dies ist kein Gruppenchat/Channel!";
 "Failed to export the database, please check the logfile for errors and try again." = "Export der Datenbank ist fehlgeschlagen. Bitte prüfe das Logfile auf Fehler und versuche es erneut.";
+"Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
 "Failed to fetch room config form for '%@'" = "Raumkonfiguration für '%@' konnte nicht abgerufen werden";
 "Failed to load blocklist" = "Sperrliste konnte nicht geladen werden";
 "Failed to moderate message in group/channel '%@'" = "Nachricht in Gruppe/Channel '%@' konnte nicht moderiert werden";
+"Failed to move uploaded file to file cache directory" = "Failed to move uploaded file to file cache directory";
 "Failed to parse URL returned by HTTP upload server" = "Fehler beim Parsen der vom HTTP-Upload-Server zurückgegebenen URL";
 "Failed to publish avatar image for group/channel %@" = "Profilbild für Gruppenchat/Channel %@ konnte nicht veröffentlicht werden";
 "Failed to publish own avatar" = "Eigenes Profilbild konnte nicht veröffentlicht werden";
@@ -281,7 +283,6 @@
 "Failed to save groupchat bookmarks" = "Gruppenchatlesezeichen konnten nicht gespeichert werden";
 "Failed to share file" = "Datei konnte nicht geteilt werden";
 "Failed to upload file: account was removed" = "Datei konnte nicht hochgeladen werden: Konto wurde entfernt";
-"Failed to uploaded file to file cache directory" = "Fehler beim Hochladen der Datei in das Cache-Verzeichnis";
 "Failed to write decrypted download into cache directory" = "Fehler beim Schreiben des entschlüsselten Downloads in das Cache-Verzeichnis";
 "Fetching registration form..." = "Anmeldeformular wird abgerufen...";
 "File" = "Datei";
@@ -312,7 +313,6 @@
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Wenn dies ausgeschaltet ist, kann dein Gerät Push auf deinem XMPP-Server nicht aktivieren. Stelle sicher, dass er so konfiguriert ist, dass er XEP-0357 unterstützt.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "Wenn du diese Funktion aktivierst, bist du nicht mehr vor Man-in-the-Middle-Angriffen geschützt. Solche Angriffe ermöglichen es dem Gegner, deine ein- und ausgehenden Nachrichten zu manipulieren, seine eigenen OMEMO-Schlüssel hinzuzufügen, deine Kontodaten zu ändern und sogar dein Passwort zu kennen oder zu ändern!\n\nDu solltest lieber zu einem anderen Server wechseln, als diese Funktion zu aktivieren.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Wenn du Sprachnachrichten verwenden möchtest, musst du den Zugriff unter Einstellungen > Datenschutz > Mikrofon erlauben.";
-"Image Upload Quality : %@" = "Qualität beim Hochladen von Bildern: %@";
 "Import and trust OMEMO fingerprints from QR code" = "OMEMO-Fingerabdrücke von QR-Codes importieren und vertrauen";
 "Indicate when a particular device is active or inactive. Saves battery." = "Anzeigen, wenn ein bestimmtes Gerät aktiv oder inaktiv ist. Spart Akku.";
 "Input is not a valid jid" = "Eingabe ist keine gültige JID";
@@ -345,9 +345,7 @@
 "Leave this converstion?" = "Diese Unterhaltung verlassen?";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "Wie bei E-Mails kannst du dein Konto auf vielen Webseiten registrieren und mit jedem sprechen. Du kannst diese Seite verwenden, um ein Konto bei einem ausgewählten XMPP-Server zu registrieren. Dazu musst du einen Benutzernamen und ein Passwort festlegen.";
 "Load over Cellular" = "Datenübertragung über das Mobilfunknetz";
-"Load over cellular upto : %@ MiB" = "Download über Mobilfunknetz bis zu: %@ MB";
 "Load over wifi" = "Datenübertragung über WLAN";
-"Load over WiFi upto : %@ MiB" = "Download über WLAN bis zu: %@ MB";
 "Loading" = "Wird geladen";
 "Loading contact list" = "Kontaktliste wird geladen";
 "Loading Data" = "Daten werden geladen";
@@ -804,3 +802,6 @@
 "📍 A Location" = "📍 Ein Standort";
 "📷 An Image" = "📷 Ein Bild";
 "🔗 A Link" = "🔗 Ein Link";
+"Image Upload Quality: %@" = "Image Upload Quality: %@";
+"Load over cellular up to: %@ MiB" = "Load over cellular up to: %@ MiB";
+"Load over WiFi up to: %@ MiB" = "Load over WiFi up to: %@ MiB";

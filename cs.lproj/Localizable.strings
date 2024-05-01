@@ -250,7 +250,7 @@
 "Failed to block contact %@" = "Chyba při blokování kontaktu %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
-"Failed to copy downloaded file into cache directory" = "Chyba při kopírování staženého souboru do složky mezipaměti";
+"Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
 "Failed to create invitation for %@" = "Failed to create invitation for %@";
 "Failed to create invitation, unknown error: %@" = "Failed to create invitation, unknown error: %@";
 "Failed to decode download link" = "Chyba při dekódování odkazu ke stažení";
@@ -259,15 +259,17 @@
 "Failed to decrypt filetransfer" = "Chyba při dešifrování přenosu souboru";
 "Failed to delete own avatar" = "Chyba při mazání vlastního avataru";
 "Failed to delete own nickname" = "Chyba při mazání vlastní přezdívky";
-"Failed to download file" = "Chyba při stahování souboru";
+"Failed to download file: %@" = "Failed to download file: %@";
 "Failed to enable carbons for account %@" = "Nebylo možné povolit XEP-0280 (Message Carbons) v účtu %@";
 "Failed to encrypt file" = "Chyba při dešifrování souboru";
 "Failed to enter Group/Channel %@" = "Failed to enter Group/Channel %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Failed to enter Group/Channel %@: This is not a Group/Channel!";
 "Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
+"Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
 "Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "Failed to load blocklist";
 "Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
+"Failed to move uploaded file to file cache directory" = "Failed to move uploaded file to file cache directory";
 "Failed to parse URL returned by HTTP upload server" = "Chyba při analýze URL vrácené serverem pro odesílání HTTP";
 "Failed to publish avatar image for group/channel %@" = "Failed to publish avatar image for group/channel %@";
 "Failed to publish own avatar" = "Chyba při zveřejňování vlastního avataru";
@@ -281,7 +283,6 @@
 "Failed to save groupchat bookmarks" = "Chyba při ukládání záložek skupinových chatů";
 "Failed to share file" = "Chyba při sdílení souboru";
 "Failed to upload file: account was removed" = "Chyba při odesílání souboru: účet byl smazán";
-"Failed to uploaded file to file cache directory" = "Chyba při nahrání souboru do adresáře mezipaměti";
 "Failed to write decrypted download into cache directory" = "Chyba při zápisu dešifrovaného stahování do adresáře mezipaměti";
 "Fetching registration form..." = "Stahuji registrační formulář...";
 "File" = "Soubor";
@@ -312,7 +313,6 @@
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Pokud je toto vypnuté, zařízení nemohlo aktivovat službu push na Vašem XMPP serveru. Ujistěte se, že server podporuje XEP-0357 nebo kontaktujte správce serveru.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Pokud chcete používat zvukové zprávy, musíte Monalu povolit přístup v Nastavení (iOS) -> Soukromí -> Mikrofon.";
-"Image Upload Quality : %@" = "Image Upload Quality : %@";
 "Import and trust OMEMO fingerprints from QR code" = "Import and trust OMEMO fingerprints from QR code";
 "Indicate when a particular device is active or inactive. Saves battery." = "Zobrazuje, kdy je konkrétní zařízení aktivní nebo neaktivní. Šetří baterii.";
 "Input is not a valid jid" = "Nebylo zadáno platné JID";
@@ -345,9 +345,7 @@
 "Leave this converstion?" = "Opustit tuto konverzaci?";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password.";
 "Load over Cellular" = "Load over Cellular";
-"Load over cellular upto : %@ MiB" = "Load over cellular upto : %@ MiB";
 "Load over wifi" = "Load over wifi";
-"Load over WiFi upto : %@ MiB" = "Load over WiFi upto : %@ MiB";
 "Loading" = "Loading";
 "Loading contact list" = "Načítám místní seznam kontaktů";
 "Loading Data" = "Nahrávám data";
@@ -804,3 +802,6 @@
 "📍 A Location" = "📍 Poloha";
 "📷 An Image" = "📷 Obrázek";
 "🔗 A Link" = "🔗 Odkaz";
+"Image Upload Quality: %@" = "Image Upload Quality: %@";
+"Load over cellular up to: %@ MiB" = "Load over cellular up to: %@ MiB";
+"Load over WiFi up to: %@ MiB" = "Load over WiFi up to: %@ MiB";

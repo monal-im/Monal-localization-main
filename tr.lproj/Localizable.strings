@@ -250,7 +250,7 @@
 "Failed to block contact %@" = "%@ kişisi engellenemedi";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@' içindeki '%1$@' üyeliği '%3$@' olarak değiştirilemedi";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@' içindeki '%1$@' üyeliği '%3$@' olarak değiştirilemedi: zaman aşımı";
-"Failed to copy downloaded file into cache directory" = "İndirilen dosya önbellek dizinine kopyalanamadı";
+"Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
 "Failed to create invitation for %@" = "%@ için davetiye oluşturulamadı";
 "Failed to create invitation, unknown error: %@" = "Davetiye oluşturulamadı, bilinmeyen hata: %@";
 "Failed to decode download link" = "İndirme bağlantısının kodu çözülemedi";
@@ -259,15 +259,17 @@
 "Failed to decrypt filetransfer" = "Dosya aktarımının şifresi çözülemedi";
 "Failed to delete own avatar" = "Mevcut avatarınız silinemedi";
 "Failed to delete own nickname" = "Mevcut takma adınız silinemedi";
-"Failed to download file" = "Dosya indirilemedi";
+"Failed to download file: %@" = "Failed to download file: %@";
 "Failed to enable carbons for account %@" = "%@ hesabı için karbon iletiler etkinleştirilemedi";
 "Failed to encrypt file" = "Dosya şifrelenemedi";
 "Failed to enter Group/Channel %@" = "Grup/Kanal'ına girilemedi %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Grup/Kanal'a girilemedi %@: Bu bir Grup/Kanal değildir!";
 "Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
+"Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
 "Failed to fetch room config form for '%@'" = "'%@' için oda yapılandırma formu getirilemedi";
 "Failed to load blocklist" = "Engellenenler listesi yüklenemedi";
 "Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
+"Failed to move uploaded file to file cache directory" = "Failed to move uploaded file to file cache directory";
 "Failed to parse URL returned by HTTP upload server" = "HTTP karşıya yükleme sunucusu tarafından döndürülen URL ayrıştırılamadı";
 "Failed to publish avatar image for group/channel %@" = "%@ grubu/kanal'ı için avatar resmi yayınlanamadı";
 "Failed to publish own avatar" = "Mevcut avatarınız paylaşılamadı";
@@ -281,7 +283,6 @@
 "Failed to save groupchat bookmarks" = "Grup sohbeti yer imleri kaydedilemedi";
 "Failed to share file" = "Dosya paylaşılamadı";
 "Failed to upload file: account was removed" = "Dosya yüklenemedi: hesap kaldırıldı";
-"Failed to uploaded file to file cache directory" = "Dosya önbellek dizinine yüklenemedi";
 "Failed to write decrypted download into cache directory" = "Şifresi çözülmüş indirme önbellek dizinine yazılamadı";
 "Fetching registration form..." = "Kayıt formu getiriliyor...";
 "File" = "Dosya";
@@ -312,7 +313,6 @@
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Bu kapalıysa, aygıtınız xmpp sunucunuzdan bildirim alamaz, ayrıca sunucunuzun XEP-0357'yi destekleyecek şekilde yapılandırmış olduğundan emin olun.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Sesli mesaj kullanmak istiyorsanız, Ayarlar > Gizlilik > Mikrofon erişim izni vermeniz gerekir.";
-"Image Upload Quality : %@" = "Image Upload Quality : %@";
 "Import and trust OMEMO fingerprints from QR code" = "QR kodundan OMEMO parmaklarını içe aktarın ve güvenin";
 "Indicate when a particular device is active or inactive. Saves battery." = "Belirli bir cihazın ne zaman aktif veya pasif olduğunu belirtin. Pil tasarrufu sağlar.";
 "Input is not a valid jid" = "Giriş geçerli bir jid değil";
@@ -345,9 +345,7 @@
 "Leave this converstion?" = "Bu sohbetten ayrılmak istiyor musunuz?";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "E-posta gibi, hesabınızı birçok siteye kaydedebilir ve herkesle konuşabilirsiniz. Seçilen veya sağlanan bir XMPP sunucusuna hesap kaydetmek için bu sayfayı kullanabilirsiniz. Ayrıca bir kullanıcı adı ve şifre seçmelisiniz.";
 "Load over Cellular" = "Load over Cellular";
-"Load over cellular upto : %@ MiB" = "Load over cellular upto : %@ MiB";
 "Load over wifi" = "Load over wifi";
-"Load over WiFi upto : %@ MiB" = "Load over WiFi upto : %@ MiB";
 "Loading" = "Yükleniyor";
 "Loading contact list" = "Kişi listesi yükleniyor";
 "Loading Data" = "Veri yükleniyor";
@@ -804,3 +802,6 @@
 "📍 A Location" = "📍 Bir Konum";
 "📷 An Image" = "📷 Bir Resim";
 "🔗 A Link" = "🔗 Bir Bağlantı";
+"Image Upload Quality: %@" = "Image Upload Quality: %@";
+"Load over cellular up to: %@ MiB" = "Load over cellular up to: %@ MiB";
+"Load over WiFi up to: %@ MiB" = "Load over WiFi up to: %@ MiB";

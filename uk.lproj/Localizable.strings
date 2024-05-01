@@ -250,7 +250,7 @@
 "Failed to block contact %@" = "Не вдалося заблокувати контакт %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
-"Failed to copy downloaded file into cache directory" = "Не вдалося скопіювати завантажений файл у каталог кешу";
+"Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
 "Failed to create invitation for %@" = "Не вдалося створити запрошення для %@";
 "Failed to create invitation, unknown error: %@" = "Не вдалося створити запрошення, невідома помилка: %@";
 "Failed to decode download link" = "Не вдалося розшифрувати посилання для завантаження";
@@ -259,15 +259,17 @@
 "Failed to decrypt filetransfer" = "Не вдалося розшифрувати передачу файлів";
 "Failed to delete own avatar" = "Не вдалося видалити власний аватар";
 "Failed to delete own nickname" = "Не вдалося видалити власний нікнейм";
-"Failed to download file" = "Не вдалося завантажити файл";
+"Failed to download file: %@" = "Failed to download file: %@";
 "Failed to enable carbons for account %@" = "Не вдалося увімкнути карбони для облікового запису %@";
 "Failed to encrypt file" = "Не вдалося зашифрувати файл";
 "Failed to enter Group/Channel %@" = "Не вдалося увійти в групу/канал %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Не вдалося увійти до групи/каналу %@: Це не група/канал!";
 "Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
+"Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
 "Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "Не вдалося завантажити список блокування";
 "Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
+"Failed to move uploaded file to file cache directory" = "Failed to move uploaded file to file cache directory";
 "Failed to parse URL returned by HTTP upload server" = "Не вдалося розібрати URL-адресу, повернену сервером завантаження HTTP";
 "Failed to publish avatar image for group/channel %@" = "Не вдалося опублікувати зображення аватара для групи/каналу %@";
 "Failed to publish own avatar" = "Не вдалося опублікувати власний аватар";
@@ -281,7 +283,6 @@
 "Failed to save groupchat bookmarks" = "Не вдалося зберегти закладки групового чату";
 "Failed to share file" = "Не вдалося поширити файл";
 "Failed to upload file: account was removed" = "Не вдалося завантажити файл: обліковий запис видалено";
-"Failed to uploaded file to file cache directory" = "Не вдалося завантажити файл до каталогу файлового кешу";
 "Failed to write decrypted download into cache directory" = "Не вдалося записати розшифроване завантаження до каталогу кешу";
 "Fetching registration form..." = "Отримання реєстраційної форми...";
 "File" = "Файл";
@@ -312,7 +313,6 @@
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Якщо цей параметр вимкнено, ваш пристрій не зміг активувати push на вашому xmpp-сервері, переконайтеся, що він налаштований на підтримку XEP-0357.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Якщо ви хочете використовувати аудіоповідомлення, вам потрібно дозволити доступ в Налаштуваннях-> Конфіденційність-> Мікрофон.";
-"Image Upload Quality : %@" = "Image Upload Quality : %@";
 "Import and trust OMEMO fingerprints from QR code" = "Імпортуйте та довіряйте відбиткам пальців OMEMO з QR-коду";
 "Indicate when a particular device is active or inactive. Saves battery." = "Вкажіть, коли конкретний пристрій активний або неактивний. Це економить заряд батареї.";
 "Input is not a valid jid" = "Вхідні дані не є коректним jid";
@@ -345,9 +345,7 @@
 "Leave this converstion?" = "Вийти з цієї розмови?";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "Подібно до електронної пошти, ви можете зареєструвати свій обліковий запис на багатьох сайтах і спілкуватися з будь-ким. За допомогою цієї сторінки ви можете зареєструвати обліковий запис на обраному або наданому XMPP-сервері. Вам також потрібно вибрати ім'я користувача і пароль.";
 "Load over Cellular" = "Load over Cellular";
-"Load over cellular upto : %@ MiB" = "Load over cellular upto : %@ MiB";
 "Load over wifi" = "Load over wifi";
-"Load over WiFi upto : %@ MiB" = "Load over WiFi upto : %@ MiB";
 "Loading" = "Завантаження";
 "Loading contact list" = "Завантаження списку контактів";
 "Loading Data" = "Завантаження даних";
@@ -804,3 +802,6 @@
 "📍 A Location" = "📍 Місцезнаходження";
 "📷 An Image" = "📷 Зображення";
 "🔗 A Link" = "🔗 Посилання";
+"Image Upload Quality: %@" = "Image Upload Quality: %@";
+"Load over cellular up to: %@ MiB" = "Load over cellular up to: %@ MiB";
+"Load over WiFi up to: %@ MiB" = "Load over WiFi up to: %@ MiB";

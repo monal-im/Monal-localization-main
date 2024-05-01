@@ -250,7 +250,7 @@
 "Failed to block contact %@" = "Impossibile bloccare il contatto %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
-"Failed to copy downloaded file into cache directory" = "Impossibile copiare il file scaricato nella cartella della cache";
+"Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
 "Failed to create invitation for %@" = "Impossibile creare un invito per %@";
 "Failed to create invitation, unknown error: %@" = "Impossibile creare l'invito, errore sconosciuto: %@";
 "Failed to decode download link" = "Impossibile decifrare il link per il download";
@@ -259,15 +259,17 @@
 "Failed to decrypt filetransfer" = "Impossibile decifrare il file trasferito";
 "Failed to delete own avatar" = "Impossibile eliminare il proprio avatar";
 "Failed to delete own nickname" = "Impossibile eliminare il proprio soprannome";
-"Failed to download file" = "Impossibile scaricare il file";
+"Failed to download file: %@" = "Failed to download file: %@";
 "Failed to enable carbons for account %@" = "Impossibile abilitare la copia carbone per l'account %@";
 "Failed to encrypt file" = "Impossibile cifrare il file";
 "Failed to enter Group/Channel %@" = "Impossibile entrare nel gruppo o canale %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Impossibile entrare nel gruppo o canale %@: Questo non è né un gruppo né un canale!";
 "Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
+"Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
 "Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "Impossibile caricare la lista dei contatti bloccati";
 "Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
+"Failed to move uploaded file to file cache directory" = "Failed to move uploaded file to file cache directory";
 "Failed to parse URL returned by HTTP upload server" = "Impossibile analizzare l'URL restituito dal server di caricamento HTTP";
 "Failed to publish avatar image for group/channel %@" = "Impossibile pubblicare l'immagine dell'avatar per il gruppo o canale %@";
 "Failed to publish own avatar" = "Impossibile pubblicare il proprio avatar";
@@ -281,7 +283,6 @@
 "Failed to save groupchat bookmarks" = "Impossibile salvare i segnalibri della chat di gruppo";
 "Failed to share file" = "Condivisione file fallita";
 "Failed to upload file: account was removed" = "Upload file fallito: l'account è stato rimosso";
-"Failed to uploaded file to file cache directory" = "Impossibile caricare il file nella cartella della cache";
 "Failed to write decrypted download into cache directory" = "Impossibile scrivere il download decifrato nella cartella della cache";
 "Fetching registration form..." = "Recupero il form di registrazione...";
 "File" = "Invia file";
@@ -312,7 +313,6 @@
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Se questa funzione è disattivata il tuo dispositivo potrebbe non attivare le notifiche push sul server XMPP, assicurati di averlo configurato per supportare la specifica XEP-0357.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Se vuoi utilizzare i messaggi vocali devi consentire l'accesso in Impostazioni-> Privacy-> Microfono.";
-"Image Upload Quality : %@" = "Image Upload Quality : %@";
 "Import and trust OMEMO fingerprints from QR code" = "Importa e fidati delle impronte OMEMO tramite QR code";
 "Indicate when a particular device is active or inactive. Saves battery." = "Indica quando un dispositivo è attivo o inattivo. Risparmia la batteria.";
 "Input is not a valid jid" = "Il dato inserito non è un Jabber ID valido";
@@ -345,9 +345,7 @@
 "Leave this converstion?" = "Abbandonare questa chat?";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "Come per le e-mail, puoi registrare il tuo account su diversi siti e comunicare con chiunque. Puoi usare questa pagina per registrare un account XMPP scegliendo un server dall'elenco o specificandone uno. Successivamente dovrai scegliere un nome utente e una password.";
 "Load over Cellular" = "Load over Cellular";
-"Load over cellular upto : %@ MiB" = "Load over cellular upto : %@ MiB";
 "Load over wifi" = "Load over wifi";
-"Load over WiFi upto : %@ MiB" = "Load over WiFi upto : %@ MiB";
 "Loading" = "Caricamento";
 "Loading contact list" = "Caricamento della lista dei contatti";
 "Loading Data" = "Caricamento dati";
@@ -804,3 +802,6 @@
 "📍 A Location" = "📍 Una posizione";
 "📷 An Image" = "📷 Un'immagine";
 "🔗 A Link" = "🔗 Un link";
+"Image Upload Quality: %@" = "Image Upload Quality: %@";
+"Load over cellular up to: %@ MiB" = "Load over cellular up to: %@ MiB";
+"Load over WiFi up to: %@ MiB" = "Load over WiFi up to: %@ MiB";

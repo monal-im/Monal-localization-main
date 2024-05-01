@@ -250,7 +250,7 @@
 "Failed to block contact %@" = "Ezin izan da %@ blokeatu";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak huts egin du";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak huts egin du: denbora agortu da";
-"Failed to copy downloaded file into cache directory" = "Ezin izan da deskargatutako fitxategia katxearen direktorioan gorde";
+"Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
 "Failed to create invitation for %@" = "Ezin izan da %@(r)entzat gonbidapena sortu";
 "Failed to create invitation, unknown error: %@" = "Ezin izan da gonbidapena sortu, errore ezezaguna: %@";
 "Failed to decode download link" = "Ezin izan da deskarga-esteka dekodetu";
@@ -259,15 +259,17 @@
 "Failed to decrypt filetransfer" = "Partekatutako fitxategiaren dezifratzeak kale egin du";
 "Failed to delete own avatar" = "Ezin izan da abatarra ezabatu";
 "Failed to delete own nickname" = "Ezin izan da ezizena ezabatu";
-"Failed to download file" = "Ezin izan da fitxategia deskargatu";
+"Failed to download file: %@" = "Failed to download file: %@";
 "Failed to enable carbons for account %@" = "Ezin izan dira %@ konturako kopiak gaitu";
 "Failed to encrypt file" = "Ezin izan da fitxategia zifratu";
 "Failed to enter Group/Channel %@" = "%@ taldearekin / kanalarekin bat egiteak kale egin du";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "%@ taldearekin / kanalarekin bat egiteak kale egin du: ez da talde / kanal bat!";
 "Failed to export the database, please check the logfile for errors and try again." = "Datu-basea esportatzeak huts egin du; begiratu erregistroa akatsen bila eta saiatu berriro.";
+"Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
 "Failed to fetch room config form for '%@'" = "'%@' gelaren konfigurazio-orria atzitzeak huts egin du";
 "Failed to load blocklist" = "Ezin izan da blokeatutakoen zerrenda kargatu";
 "Failed to moderate message in group/channel '%@'" = "'%@' talde/kanaleko mezua moderatzeak huts egin du";
+"Failed to move uploaded file to file cache directory" = "Failed to move uploaded file to file cache directory";
 "Failed to parse URL returned by HTTP upload server" = "Ezin izan da HTTP igoera zerbitzariak itzuli duen URLa aztertu";
 "Failed to publish avatar image for group/channel %@" = "%@ taldeko / kanaleko abatarren publikazioak kale egin du";
 "Failed to publish own avatar" = "Ezin izan da abatarra publikatu";
@@ -281,7 +283,6 @@
 "Failed to save groupchat bookmarks" = "Talde-txateko laster-markak gordetzeak kale egin du";
 "Failed to share file" = "Fitxategia partekatzeak kale egin du";
 "Failed to upload file: account was removed" = "Fitxategia igotzeak kale egin du: kontua kendu da";
-"Failed to uploaded file to file cache directory" = "Ezin izan da fitxategia katxe direktoriora igo";
 "Failed to write decrypted download into cache directory" = "Ezin izan da deskargatu eta dezifratutakoa katxe direktorioan idatzi";
 "Fetching registration form..." = "Izena emateko formularioa ekartzen...";
 "File" = "Bidali fitxategia";
@@ -312,7 +313,6 @@
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Itzalita badago zure gailuak ezingo du zure XMPP zerbitzarian push aktibatu; egiaztatu XEP-0357-ekin bateragarria izateko ezarri duzula.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Audio mezuak erabili nahi badituzu, baimendu mikrofonoa atzitzea: Ezarpenak > Pribatutasuna > Mikrofonoa.";
-"Image Upload Quality : %@" = "Igotzeko irudiaren kalitatea : %@";
 "Import and trust OMEMO fingerprints from QR code" = "Inportatu eta fidatu QR kodearen bidez eskuratutako OMEMO hatzmarkez";
 "Indicate when a particular device is active or inactive. Saves battery." = "Erakutsi gailu bat aktibo edo inaktibo dagoenean. Bateria aurrezten du.";
 "Input is not a valid jid" = "Sartutakoa ez da baliozko JIDa";
@@ -345,9 +345,7 @@
 "Leave this converstion?" = "Elkarrizketatik irten nahi duzu?";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "ePostaren kasuan bezala, kontu bat sortu dezakezu horretarako dauden webguneren batean, eta edonorekin hitz egin. Orrialde hau erabil dezakezu kontu bat sortzeko XMPP zerbitzari batean. Erabiltzaile izen eta pasahitz bat aukeratu beharko dituzu ere.";
 "Load over Cellular" = "Load over Cellular";
-"Load over cellular upto : %@ MiB" = "Load over cellular upto : %@ MiB";
 "Load over wifi" = "Load over wifi";
-"Load over WiFi upto : %@ MiB" = "Load over WiFi upto : %@ MiB";
 "Loading" = "Kargatzen";
 "Loading contact list" = "Kontaktuen zerrenda kargatzen";
 "Loading Data" = "Datuak kargatzen";
@@ -804,3 +802,6 @@
 "📍 A Location" = "📍 Kokapena";
 "📷 An Image" = "📷 Irudia";
 "🔗 A Link" = "🔗 Esteka";
+"Image Upload Quality: %@" = "Image Upload Quality: %@";
+"Load over cellular up to: %@ MiB" = "Load over cellular up to: %@ MiB";
+"Load over WiFi up to: %@ MiB" = "Load over WiFi up to: %@ MiB";

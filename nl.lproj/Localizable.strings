@@ -250,7 +250,7 @@
 "Failed to block contact %@" = "Kon contactpersoon %@ niet blokkeren";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
-"Failed to copy downloaded file into cache directory" = "Kon gedownload bestand niet naar cache-map kopiëren";
+"Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
 "Failed to create invitation for %@" = "Failed to create invitation for %@";
 "Failed to create invitation, unknown error: %@" = "Failed to create invitation, unknown error: %@";
 "Failed to decode download link" = "Kon download-link niet decoderen";
@@ -259,15 +259,17 @@
 "Failed to decrypt filetransfer" = "Kon bestandsoverdracht niet ontsleutelen";
 "Failed to delete own avatar" = "Kon eigen profielfoto niet verwijderen";
 "Failed to delete own nickname" = "Kon eigen roepnaam niet verwijderen";
-"Failed to download file" = "Kon bestand niet downloaden";
+"Failed to download file: %@" = "Failed to download file: %@";
 "Failed to enable carbons for account %@" = "Kon berichtkopieën voor account %@ niet inschakelen";
 "Failed to encrypt file" = "Kon bestand niet encrypteren";
 "Failed to enter Group/Channel %@" = "Mislukt om deel te nemen aan Groep/Kanaal %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Mislukt om deel te nemen aan Groep/Kanaal %@: Dit is geen Groep/Kanaal!";
 "Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
+"Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
 "Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "Failed to load blocklist";
 "Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
+"Failed to move uploaded file to file cache directory" = "Failed to move uploaded file to file cache directory";
 "Failed to parse URL returned by HTTP upload server" = "Kon URL verstuurd door HTTP-upload-server niet verwerken";
 "Failed to publish avatar image for group/channel %@" = "Mislukt om avatar afbeelding te publiceren voor groep/kanaal %@";
 "Failed to publish own avatar" = "Kon eigen profielfoto niet publiceren";
@@ -281,7 +283,6 @@
 "Failed to save groupchat bookmarks" = "Kon bladwijzers voor groepsgesprek niet opslaan";
 "Failed to share file" = "Mislukt om bestand te delen";
 "Failed to upload file: account was removed" = "Mislukt om bestand te uploaden: account is verwijderd";
-"Failed to uploaded file to file cache directory" = "Kon geüpload bestand niet naar cache-map kopiëren";
 "Failed to write decrypted download into cache directory" = "Kon ontsleutelde download niet wegschrijven naar cache-map";
 "Fetching registration form..." = "Ophalen van registratie formulier...";
 "File" = "Bestand";
@@ -312,7 +313,6 @@
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Als dit uitstaat, dan kon je apparaat push niet activeren op de XMPP-server. Gelieve te controleren of de server XEP-0357 ondersteunt.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Indien je geluidsberichten wil versturen dien je eerst toegang te geven via Instellingen -> Privacy -> Microfoon.";
-"Image Upload Quality : %@" = "Image Upload Quality : %@";
 "Import and trust OMEMO fingerprints from QR code" = "Import and trust OMEMO fingerprints from QR code";
 "Indicate when a particular device is active or inactive. Saves battery." = "Geef aan wanneer een bepaald apparaat actief of inactief is. Bespaart op batterijverbruik.";
 "Input is not a valid jid" = "Invoer is geen geldige JID";
@@ -345,9 +345,7 @@
 "Leave this converstion?" = "Dit gesprek verlaten?";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password.";
 "Load over Cellular" = "Load over Cellular";
-"Load over cellular upto : %@ MiB" = "Load over cellular upto : %@ MiB";
 "Load over wifi" = "Load over wifi";
-"Load over WiFi upto : %@ MiB" = "Load over WiFi upto : %@ MiB";
 "Loading" = "Loading";
 "Loading contact list" = "Contactpersonenlijst laden";
 "Loading Data" = "Data laden";
@@ -804,3 +802,6 @@
 "📍 A Location" = "📍 Een locatie";
 "📷 An Image" = "📷 Een afbeelding";
 "🔗 A Link" = "🔗 Een link";
+"Image Upload Quality: %@" = "Image Upload Quality: %@";
+"Load over cellular up to: %@ MiB" = "Load over cellular up to: %@ MiB";
+"Load over WiFi up to: %@ MiB" = "Load over WiFi up to: %@ MiB";
