@@ -109,8 +109,8 @@
 "Chat Background" = "聊天背景";
 "Check type and size on " = "检查类型和大小在 ";
 "Clear Chat History" = "清除聊天记录";
-"Clear chat history of this channel" = "清除该频道的聊天记录";
-"Clear chat history of this contact" = "清除该联系人的聊天记录";
+"Clear chat history of this channel" = "清除此频道的聊天记录";
+"Clear chat history of this contact" = "清除此联系人的聊天记录";
 "Clear chat history of this group" = "清除此群组的聊天记录";
 "Clear History" = "清除历史记录";
 "Clear scanned contact" = "清除扫描的联系人";
@@ -190,10 +190,10 @@
 "Display Only Placeholder" = "仅显示提示消息";
 "Do you really want to block this contact? You won't receive any messages from this contact." = "您真的要屏蔽此联系人吗？您将不会收到来自此联系人的任何消息。";
 "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "您确定要清除此对话中的所有消息吗？如果已使用 OMEMO 加密，您就无法再次从服务器加载它们。";
-"Do you really want to delete this key?" = "您确实要删除该密钥吗？";
+"Do you really want to delete this key?" = "是否确定要删除此密钥？";
 "Do you really want to disable encryption for this contact?" = "您确实要对此联系人禁用加密吗？";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "您确定要重置 OMEMO 会话吗？如果您不确定，您就应该只重置连接！";
-"Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "使用您的账号时是否信任联系人 %@ 的扫描指纹 %@?";
+"Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "是否要信任联系人 %@ 的扫描指纹，在您使用账号 %@ 时？";
 "Doing a lot of work..." = "大量工作中…";
 "Domain missing" = "缺少域名";
 "Don't trust Key" = "不信任密钥";
@@ -374,7 +374,7 @@
 "Message was encrypted with '%@' which isn't supported by Monal" = "消息已使用 Monal 不支持的 '%@' 加密";
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "消息已使用 OMEMO 加密，无法再解密";
 "Message was encrypted with OMEMO but could not be decrypted" = "消息已使用 OMEMO 加密，但无法解密";
-"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "未对此设备加密消息。请确保发送者信任设备 id %u。";
+"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "未对此设备加密消息。请确保发送方信任设备 id %u。";
 "Messages are encrypted" = "消息已加密";
 "Messages are NOT encrypted" = "消息未加密";
 "Messages never archived by default." = "默认情况下，消息从不存档。";
@@ -383,7 +383,7 @@
 "Missing Call Support" = "支持未接来电";
 "Missing permission" = "缺少权限";
 "Monal" = "Monal";
-"Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal 目前信任该密钥，但尚未比较指纹。为了提高安全性，请在信任此密钥之前与联系人确认显示的指纹确实匹配！";
+"Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal 目前信任此密钥，但尚未比较指纹。为了提高安全性，请在信任此密钥之前与联系人确认显示的指纹确实匹配！";
 "Monal did not received a gps location. Please try again later." = "Monal 没有收到 GPS 定位。请稍后再试。";
 "Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal 无法访问您的位置。请在设备的隐私设置中更新位置访问权限。";
 "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal 不信任此密钥。它可能已被手动禁用，或者在验证其它密钥时未进行手动验证。您可以通过使用切换元素来信任此密钥。在信任此密钥之前，请确保与联系人确认指纹是否匹配。";
@@ -500,7 +500,7 @@
 /* directory for downloaded videos */
 "Received Videos" = "收到的视频";
 /* shareViewController: recipient */
-"Recipient" = "接收人";
+"Recipient" = "接收方";
 "Recode Fail:" = "重新编码失败：";
 "Recode Success" = "重新编码成功";
 "Reconnecting..." = "正在重新连接…";
@@ -543,7 +543,7 @@
 "Select a default background to display behind conversations." = "选择一个默认背景以显示在对话后面。";
 "Select Action" = "选择操作";
 "Select background image" = "选择背景图片";
-"Select Message Archive Management (MAM) Preferences " = "选择消息存档管理 (MAM) 首选项 ";
+"Select Message Archive Management (MAM) Preferences " = "选择消息存档管理首选项 ";
 "Select sounds that are played with new message notifications. Default is Xylophone." = "选择新消息通知时播放的声音。默认是木琴。";
 "Selected Group Members" = "选定的群组成员";
 "Send" = "发送";
@@ -610,7 +610,7 @@
 "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "二维码包含账号的登录凭据。进入设置 -> 新账号并重新扫描二维码";
 "The resource '%@' has the following capabilities:" = "资源 '%@' 具有以下功能：";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "可选的 XMPP 服务器是不隶属于 Monal 的公共服务器。提供此注册页面仅为了方便起见。";
-"The server does not support blocking (XEP-0191)." = "服务器不支持屏蔽 (XEP-0191)。";
+"The server does not support blocking (XEP-0191)." = "服务器不支持屏蔽（XEP-0191）。";
 "The UDP logger allows you to livestream the log to the configured IP." = "UDP 日志记录器允许您将日志实时传输到配置的 IP。";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP 日志记录器允许您将日志实时传输到配置的 IP。通过互联网传输时请使用安全密钥！\n［了解如何接收日志流］（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log）。";
 "The user %@ (%@) wants to add you to their contact list" = "用户 %1$@ (%2$@) 想要将您添加到他们的联系人列表中";
@@ -653,7 +653,7 @@
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "这意味着您的通话已加密，但无法使用 OMEMO 加密来验证远程方。\n您或被叫方的 XMPP 服务器可能会对您进行中间人攻击。";
 "This message failed to send (%@): %@" = "此消息未能发出（%@）：%@";
 "This message got retracted" = "此消息已被撤回";
-"This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "此服务器似乎不支持 HTTP 文件上传 (XEP-0363)。请要求管理员启用它。";
+"This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "此服务器似乎不支持 HTTP 文件上传（XEP-0363）。请联系管理员启用。";
 "This server does not have any SRV records in DNS." = "此服务器在 DNS 中没有任何 SRV 记录。";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "此服务器不支持任何新式的通道绑定，以防止 TLS 层中间人攻击。";
 "This server does not support modern SASL2 authentication." = "此服务器不支持新式的 SASL2 身份验证。";
@@ -684,10 +684,10 @@
 "UDP Logging UI not supported on iOS < 16" = "iOS < 16 不支持 UDP 日志记录用户界面";
 "Unable to connect to server!" = "无法连接到服务器！";
 "Unblock Contact" = "取消屏蔽联系人";
-"Unclean appex shutown" = "未清理附录关闭";
+"Unclean appex shutown" = "未清理的 appex 关闭";
 "Undefined error" = "未定义的错误";
 "Understood" = "了解";
-"Unexpected appex expiration" = "意外的附录过期";
+"Unexpected appex expiration" = "非预期的 appex 过期";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "使用 SASL2 对服务器进行身份验证时出现意外错误（您的服务器是否有错误？），正在断开连接！";
 "Unexpected error while checking type of jid, please try again" = "检查 JID 类型时出现意外错误，请重试";
 "Unexpected error while checking type of jid:" = "检查 JID 类型时出现意外错误：";
@@ -755,14 +755,14 @@
 "XMPP External Service Disco Error" = "XMPP 外部服务发现错误";
 "XMPP ID" = "XMPP ID";
 "XMPP ID missing" = "缺少 XMPP ID";
-"XMPP mam preferences error" = "XMPP MAM 偏好设定错误";
+"XMPP mam preferences error" = "XMPP 消息存档管理首选项错误";
 "XMPP protocol extension for communications blocking." = "XMPP 协议扩展，用于通信屏蔽。";
 "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP 协议扩展，用于发现 XMPP 网络外部的服务，例如音频/视频通话所需的 STUN 或 TURN 服务器。";
 "XMPP protocol extension for sending application-level pings over XML streams." = "XMPP 协议扩展，用于通过 XML 流发送应用程序级 ping。";
-"XMPP Roster Error" = "XMPP 名册错误";
+"XMPP Roster Error" = "XMPP 花名册错误";
 "XMPP server domain not valid!" = "XMPP 服务器域无效！";
-"XMPP stream error %@: %@" = "XMPP 串流错误 %1$@: %2$@";
-"XMPP stream error: %@" = "XMPP 串流错误：%@";
+"XMPP stream error %@: %@" = "XMPP 流错误 %1$@：%2$@";
+"XMPP stream error: %@" = "XMPP 流错误：%@";
 "XMPPServer" = "XMPP 服务器";
 "Yellow checkmark shield:" = "黄色复选标记盾牌：";
 "Yes" = "是";
@@ -777,7 +777,7 @@
 "You have not entered your XMPP ID yet" = "您尚未输入 XMPP ID";
 "You need friends for this ride" = "您需要朋友来参加这次旅行";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "如果您希望其他人可以听到您的声音，您需要在 iOS 设置 -> 隐私 -> 麦克风中授予麦克风访问权限。";
-"You restored an iCloud backup of Monal, please open the app to reenable this account." = "您已恢复了 Monal 的 iCloud 备份，请重新打开应用并启用此账号。";
+"You restored an iCloud backup of Monal, please open the app to reenable this account." = "您已恢复了 Monal 的 iCloud 备份，请打开应用并重新启用此账号。";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "验证密钥后，您应该信任它。通过将下面的密钥与您联系人屏幕上的密钥进行比较来进行验证。双击指纹即可复制到剪贴板。";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "您尝试呼叫联系人 '%@' ，但在您的联系人列表中找不到此联系人。";
 "You will no longer receive messages from this conversation" = "您将不再接收来自此对话的消息";
