@@ -50,7 +50,7 @@
 "Allow MITM-prone PLAIN authentication" = "允许倾向于中间人攻击的 PLAIN 身份验证";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "允许某人将您添加为联系人可以让他们看到您的个人资料图片以及您何时在线。";
 "Already present" = "已经存在";
-"Already uploading this content, ignoring" = "已上传过此内容，忽略中";
+"Already uploading this content, ignoring" = "已上传过此内容，忽略";
 "Always archive" = "一律存档";
 "Always use direct TLS, not STARTTLS" = "始终使用 Direct TLS，而不是 STARTTLS";
 "App" = "应用";
@@ -65,8 +65,8 @@
 "Audio recoder prepareToRecord fail." = "录音机准备录音失败。";
 "Audio Recoder recode fail" = "录音机录音失败";
 "Audio recoder record fail." = "录音机录音失败。";
-"Audio Recoder set active error: %@" = "录音机设定启动发生错误：%@";
-"Audio Recoder set category error: %@" = "录音机设定类别发生错误：%@";
+"Audio Recoder set active error: %@" = "录音机设置活动错误：%@";
+"Audio Recoder set category error: %@" = "录音机设置类别错误：%@";
 "Backgrounds" = "背景";
 "Block" = "屏蔽";
 "Block Contact" = "屏蔽联系人";
@@ -133,7 +133,7 @@
 "Copy" = "复制";
 "Copy invitation link to clipboard" = "复制邀请链接到剪贴板";
 "Copy to clipboard" = "复制到剪贴板";
-"Could fetch room config form for '%@': timeout" = "无法获取 '%@' 的聊天室配置表单：超时";
+"Could fetch room config form for '%@': timeout" = "无法获取 '%@' 的群聊配置表单：超时";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "无法访问摄像头";
 "Could not access Finder item!" = "无法访问 Finder 项目！";
@@ -203,14 +203,14 @@
 "Download error" = "下载错误";
 "Download Settings" = "下载设置";
 "Draft:" = "草稿：";
-"Duplicate Account" = "账号重复";
+"Duplicate Account" = "重复账号";
 "Duplicate Account!" = "重复的账号！";
 "Duplicate jid!" = "重复的 JID！";
 /* Crash report error dialog */
 "E-Mail not enabled on device" = "设备上未启用电子邮件";
 /* Chat msg action */
 "Edit" = "编辑";
-"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "这可能是一次中间人攻击，或者您所在的服务器既没有实现 XEP-0474，又没有完全实现 XEP-0440，XEP-0440 要求支持 tls-server-end-point 通道绑定。无论是哪种情况，您都应该立即通知您所在服务器的管理员！账号现已被禁用。";
+"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "这要么是中间人攻击，要么是服务器既没有实施 XEP-0474 也没有完全实施 XEP-0440，后者强制执行 tls-server-end-point 通道绑定。无论是哪种情况，您都应该立即通知服务器管理员！账号现已禁用。";
 /* Crash report error dialog */
 "Email Error" = "电子邮件错误";
 "Email Support" = "电子邮件支持";
@@ -232,7 +232,7 @@
 "error" = "错误";
 "Error adding contact or channel" = "添加联系人或频道时出错";
 "Error creating group!" = "创建群组时出错！";
-"Error decrypting message" = "解密消息发生错误";
+"Error decrypting message" = "解密消息时出错";
 "Error entering group/channel!" = "输入群组/频道时出错！";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (iteration count too low), disconnecting!" = "处理服务器的 SASL 挑战时出错（迭代计数太低），断开连接！";
@@ -718,7 +718,7 @@
 "Uses TLS client certificates for authentication" = "使用 TLS 客户端证书进行身份验证";
 "Version" = "版本";
 /* server details */
-"version %@%@" = "version %1$@%2$@";
+"version %@%@" = "版本 %@%@";
 "Very old app version" = "非常旧的应用版本";
 "Waiting for GPS signal" = "等待 GPS 信号";
 "Warning" = "警告";
@@ -779,26 +779,26 @@
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "如果您希望其他人可以听到您的声音，您需要在 iOS 设置 -> 隐私 -> 麦克风中授予麦克风访问权限。";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "您已恢复了 Monal 的 iCloud 备份，请重新打开应用并启用此账号。";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "验证密钥后，您应该信任它。通过将下面的密钥与您联系人屏幕上的密钥进行比较来进行验证。双击指纹即可复制到剪贴板。";
-"You tried to call contact '%@' but this contact could not be found in your contact list." = "您尝试呼叫联系人 '%@' ，但在您的联系人列表中找不到该联系人。";
-"You will no longer receive messages from this conversation" = "您将不会再收到来自此对话的消息";
+"You tried to call contact '%@' but this contact could not be found in your contact list." = "您尝试呼叫联系人 '%@' ，但在您的联系人列表中找不到此联系人。";
+"You will no longer receive messages from this conversation" = "您将不再接收来自此对话的消息";
 "You will receive subsequent messages from this conversation" = "您将收到来自此对话的后续消息";
 "Your account must be enabled and connected, to be removed from the server!" = "您的账号必须启用并连接，才能从服务器中移除！";
-"Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "您的账号已禁用，因为您恢复了 Monal 的 iCloud 备份。请重新输入您的密码以再次激活它们。";
+"Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "您的账号已停用，因为您恢复了 Monal 的 iCloud 备份。请重新输入您的密码以再次激活它们。";
 "Your answer" = "您的回答";
 "Your contact may not support calls. Your call might never reach its destination." = "您的联系人可能不支持通话。您的呼叫可能永远不会接通。";
 "Your entered XMPP ID is missing the domain" = "您输入的 XMPP ID 缺少域名";
-"Your entered XMPP ID is missing the username" = "您输入的 XMPP ID 缺少使用者名称";
-"Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "您所在的服务器不支持 MAM (XEP-0313) 。这意味着您可能会频繁错过收到的消息！！您应该切换服务器或与服务器管理员联系以启用此功能！";
-"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "您的服务器不支持推送（XEP-0357）。这意味着您必须手动打开本应用才能检索新收到的消息！您应该切换服务器或与服务器管理员联系以启用此功能！";
-"Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "您所在的服务器不支持串流管理 (XEP-0198)。这意味着您传出的消息可能会频繁丢失！您应该切换服务器或与服务器管理员联系以启用此功能！";
+"Your entered XMPP ID is missing the username" = "您输入的 XMPP ID 缺少用户名";
+"Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "服务器不支持消息存档管理（XEP-0313）。这意味着您可能会频繁错过收到的消息！！您应该切换服务器或与服务器管理员联系以启用此功能！";
+"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "服务器不支持推送（XEP-0357）。这意味着您必须手动打开本应用才能检索新收到的消息！您应该切换服务器或与服务器管理员联系以启用此功能！";
+"Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "服务器不支持流管理（XEP-0198）。这意味着您发出的消息可能会频繁丢失！您应该切换服务器或与服务器管理员联系以启用此功能！";
 "Your status" = "您的状态";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "您的 XMPP JID 的格式应为 user@domain.tld。对于特殊配置，请使用手动设置。";
-"🎥 A Video" = "🎥 影片";
+"🎥 A Video" = "🎥 视频";
 "🎥 Video" = "🎥 视频";
-"🎵 An Audiomessage" = "🎵 音频信息";
+"🎵 An Audiomessage" = "🎵 音频消息";
 "🎵 Audio" = "🎵 音频";
-"📁 A File" = "📁文件";
-"📄 A Document" = "📄 文件";
+"📁 A File" = "📁 文件";
+"📄 A Document" = "📄 文档";
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
