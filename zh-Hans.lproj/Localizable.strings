@@ -52,7 +52,7 @@
 "Already present" = "已经存在";
 "Already uploading this content, ignoring" = "已上传过此内容，忽略中";
 "Always archive" = "一律存档";
-"Always use direct TLS, not STARTTLS" = "始终使用直接 TLS，而不是 STARTTLS";
+"Always use direct TLS, not STARTTLS" = "始终使用 Direct TLS，而不是 STARTTLS";
 "App" = "应用";
 "Apple Push Service" = "Apple 推送通知服务";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Apple 推送通知服务应该始终开启。否则，您的设备将无法联系到 Apple 服务器。";
@@ -60,7 +60,7 @@
 "Apple Push Token is not available!" = "Apple 推送令牌不可用！";
 "Approve new contact" = "批准新联系人";
 "Archive chat" = "存档聊天";
-"Archive only if the contact is in contact list" = "只有在联系人名单里的人才可以存档";
+"Archive only if the contact is in contact list" = "仅当联系人在联系人列表中时才存档";
 "Audio recoder init fail." = "录音机初始化失败。";
 "Audio recoder prepareToRecord fail." = "录音机准备录音失败。";
 "Audio Recoder recode fail" = "录音机录音失败";
@@ -101,11 +101,11 @@
 "Captcha" = "验证码";
 "Change Chat Background" = "更改聊天背景";
 "Change Group Members" = "更改群组成员";
-"Change Password" = "修改密码";
+"Change Password" = "更改密码";
 "Changing Password" = "更改密码";
 "Channel description" = "频道描述";
 "Channel Members" = "频道成员";
-"Channel subject:" = "频道主题：";
+"Channel subject:" = "频道话题：";
 "Chat Background" = "聊天背景";
 "Check type and size on " = "检查类型和大小在 ";
 "Clear Chat History" = "清除聊天记录";
@@ -135,7 +135,7 @@
 "Copy to clipboard" = "复制到剪贴板";
 "Could fetch room config form for '%@': timeout" = "无法获取 '%@' 的聊天室配置表单：超时";
 /* QR-Code-Scanner: camera not found */
-"Could not access camera" = "无法连接到摄像头";
+"Could not access camera" = "无法访问摄像头";
 "Could not access Finder item!" = "无法访问 Finder 项目！";
 "Could not change password" = "无法更改密码";
 "Could not change password: your account is currently not connected" = "无法更改密码：您的账号当前未连接";
@@ -213,7 +213,7 @@
 "Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "这可能是一次中间人攻击，或者您所在的服务器既没有实现 XEP-0474，又没有完全实现 XEP-0440，XEP-0440 要求支持 tls-server-end-point 通道绑定。无论是哪种情况，您都应该立即通知您所在服务器的管理员！账号现已被禁用。";
 /* Crash report error dialog */
 "Email Error" = "电子邮件错误";
-"Email Support" = "联系电邮";
+"Email Support" = "电子邮件支持";
 "Empty Values!" = "值为空！";
 "Enabled" = "已启用";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "加密消息以较旧的格式发送，Monal 无法解密。请告诉对方更新客户端。 （GCM 错误）";
@@ -241,7 +241,7 @@
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (nonce error), disconnecting!" = "处理服务器的 SASL 挑战时出错（随机数错误），断开连接！";
 "Error registering push" = "注册推送错误";
-"Error Removing Account" = "删除账号时出错";
+"Error Removing Account" = "移除账号时出错";
 "Error while decrypting: iv.length != 12" = "解密出错：iv.length != 12";
 "Error: %@" = "错误：%@";
 "Error: Account disabled, can not display keys!" = "错误：账号已禁用，无法显示密钥！";
@@ -302,7 +302,7 @@
 "Group name" = "群组名";
 /* placeholder when creating new group */
 "Group Name (optional)" = "群组名（可选）";
-"Group subject:" = "群组主题：";
+"Group subject:" = "群组话题：";
 "Group/Channel got destroyed: %@" = "群组/频道已被销毁：%@";
 "Group/Channel not available anymore: %@" = "群组/频道不再可用：%@";
 "groupJoin Group" = "群组加入群组";
@@ -342,17 +342,17 @@
 "Leave Channel" = "离开频道";
 "Leave Group" = "离开群组";
 "Leave this conversation" = "离开此对话";
-"Leave this converstion?" = "离开对话吗？";
+"Leave this converstion?" = "是否离开此对话？";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "与电子邮件一样，您可以在许多网站上注册账号并与任何人交谈。您可以使用此页面向选定或提供的 XMPP 服务器注册账号。您还必须选择用户名和密码。";
 "Load over Cellular" = "通过蜂窝网络加载";
-"Load over wifi" = "通过 wifi 加载";
-"Loading" = "加载中";
-"Loading contact list" = "加载联系人列表";
-"Loading Data" = "资料载入中";
-"Loading more Messages from Server" = "从服务器载入更多消息";
-"Loading omemo bundles" = "正在载入 OMEMO 包";
-"Loading omemo bundles: %@ / %@" = "正在载入 OMEMO 包：%@ / %@";
-"Location Access Needed" = "需要存取位置";
+"Load over wifi" = "通过 WiFi 加载";
+"Loading" = "正在加载";
+"Loading contact list" = "正在加载联系人列表";
+"Loading Data" = "正在加载数据";
+"Loading more Messages from Server" = "正在从服务器加载更多消息";
+"Loading omemo bundles" = "正在加载 OMEMO 包";
+"Loading omemo bundles: %@ / %@" = "正在加载 OMEMO 包：%@ / %@";
+"Location Access Needed" = "需要访问位置";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "登录您现有的账号或注册一个新账号。如果需要，您可以在 Monal 设置中找到更多高级选项。";
 "Logfiles" = "日志文件";
 "Logging in" = "登录中";
@@ -385,7 +385,7 @@
 "Monal" = "Monal";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal 目前信任该密钥，但尚未比较指纹。为了提高安全性，请在信任此密钥之前与联系人确认显示的指纹确实匹配！";
 "Monal did not received a gps location. Please try again later." = "Monal 没有收到 GPS 定位。请稍后再试。";
-"Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal 无法取用您的位置。请在您设备的隐私设置中更新位置存取权限。";
+"Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal 无法访问您的位置。请在设备的隐私设置中更新位置访问权限。";
 "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal 不信任此密钥。它可能已被手动禁用，或者在验证其它密钥时未进行手动验证。您可以通过使用切换元素来信任此密钥。在信任此密钥之前，请确保与联系人确认指纹是否匹配。";
 /* Camera permissions missing warning */
 "Monal is not allowed to access the camera" = "Monal 不被允许访问摄像头";
@@ -393,7 +393,7 @@
 "Monal was not able to send your attachment!" = "Monal 无法发送您的附件！";
 "Monal was not able to send your attachment: %@" = "Monal 无法发送您的附件：%@";
 "More info?" = "更多信息？";
-"Never archive" = "永不存档";
+"Never archive" = "从不存档";
 "New Account" = "新账号";
 "New Message" = "新消息";
 "New omemo device" = "新的 OMEMO 设备";
@@ -458,11 +458,11 @@
 "Permission Requested" = "请求许可";
 "Photos" = "照片";
 "Play Sounds" = "播放声音";
-"Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "请先在设定下增加新账号。如果您已经增加了您的账号，您可能需要在设定下启用它";
+"Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "请先在设置下添加新账号。如果您已经添加了您的账号，您可能需要在设置下启用";
 "Please Allow Audio Access" = "请允许音频访问";
-"Please enter a password below before activating this account." = "在激活此账号之前，请在下面输入密码。";
+"Please enter a password below before activating this account." = "请在下面输入密码，然后再激活此账号。";
 "Please make sure at least one account has connected before trying to add a contact or channel." = "请确保至少有一个账号已连接，然后再尝试添加联系人或频道。";
-"Please make sure at least one account has connected before trying to create new group." = "在尝试创建新群组之前，请确保至少有一个账号已连接。";
+"Please make sure at least one account has connected before trying to create new group." = "请确保至少有一个账号已连接，然后再尝试创建新群组。";
 "Please make sure you are connected before changing your password." = "在更改密码之前，请确认已连接。";
 "Please make sure you have entered a username, password." = "请确认您输入了用户名、密码。";
 "Please make sure you have entered a valid jid." = "请确保您输入了有效的 JID。";
