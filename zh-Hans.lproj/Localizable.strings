@@ -283,7 +283,7 @@
 "Failed to save groupchat bookmarks" = "保存群聊书签失败";
 "Failed to share file" = "共享文件失败";
 "Failed to upload file: account was removed" = "上传文件失败：账号已移除";
-"Failed to write decrypted download into cache directory" = "写入解密下载到缓存目录失败";
+"Failed to write decrypted download into cache directory" = "无法将解密的下载写入缓存目录";
 "Fetching registration form..." = "正在获取注册信息…";
 "File" = "文件";
 "filename" = "文件名";
@@ -291,7 +291,7 @@
 "Finished fetching messages" = "已完成获取消息";
 "General" = "通用";
 "General File Transfer Settings" = "一般文件传输设置";
-"Got empty room config form for '%@'" = "'%@' 的聊天室配置表单为空";
+"Got empty room config form for '%@'" = "'%@' 的群聊配置表单为空";
 "GPS" = "GPS";
 "Green checkmark shield:" = "绿色复选标记盾牌：";
 "Group Description" = "群组描述";
@@ -303,7 +303,7 @@
 /* placeholder when creating new group */
 "Group Name (optional)" = "群组名（可选）";
 "Group subject:" = "群组话题：";
-"Group/Channel got destroyed: %@" = "群组/频道已被销毁：%@";
+"Group/Channel got destroyed: %@" = "群组/频道已解散：%@";
 "Group/Channel not available anymore: %@" = "群组/频道不再可用：%@";
 "groupJoin Group" = "群组加入群组";
 "Hint" = "提示";
@@ -328,7 +328,7 @@
 "It does not seem as your device has a camera. Please use a device with a camera for scanning" = "您的设备似乎没有摄像头。请使用有摄像头的设备进行扫描";
 "Join Channel" = "加入频道";
 "Join Group" = "加入群组";
-"Just seen" = "刚看过";
+"Just seen" = "刚刚上线";
 "Keys of %@" = "%@ 的密钥";
 "Kicked from group/channel, because of system shutdown: %@" = "由于系统关闭，被踢出群组/频道：%@";
 "Kicked, because group/channel is now members-only: %@" = "由于群组/频道现为仅成员进入，被踢出：%@";
@@ -371,10 +371,10 @@
 "Member" = "成员";
 "Message Archive Preferences" = "消息存档首选项";
 "Message from %@" = "以 %@ 发送消息";
-"Message was encrypted with '%@' which isn't supported by Monal" = "消息已使用 Monal 不支持的“%@”加密";
+"Message was encrypted with '%@' which isn't supported by Monal" = "消息已使用 Monal 不支持的 '%@' 加密";
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "消息已使用 OMEMO 加密，无法再解密";
 "Message was encrypted with OMEMO but could not be decrypted" = "消息已使用 OMEMO 加密，但无法解密";
-"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "消息未对此设备进行加密。请确保发送者信任设备 id %u。";
+"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "未对此设备加密消息。请确保发送者信任设备 id %u。";
 "Messages are encrypted" = "消息已加密";
 "Messages are NOT encrypted" = "消息未加密";
 "Messages never archived by default." = "默认情况下，消息从不存档。";
@@ -412,7 +412,7 @@
 "No one is here" = "没有人在";
 "No pending requests" = "没有待处理的请求";
 "No search result." = "无搜索结果。";
-"No supported auth mechanism found, disabling account!" = "没有找到支持的认证机制，正在禁用账号！";
+"No supported auth mechanism found, disabling account!" = "找不到支持的身份验证机制，正在禁用账号！";
 "No XMPP server!" = "没有 XMPP 服务器！";
 "No, keep encryption activated" = "否，保持加密处于激活状态";
 /* Crash reporting */
@@ -492,13 +492,13 @@
 "Rate Monal" = "评价 Monal";
 "Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "即使断开连接，也可以通过 Apple 接收推送通知。大大提高了可靠性。";
 /* directory for downloaded audios */
-"Received Audios" = "接收的音频";
+"Received Audios" = "收到的音频";
 /* directory for downloaded files */
-"Received Files" = "接收的文件";
+"Received Files" = "收到的文件";
 /* directory for downloaded images */
-"Received Images" = "接收的图片";
+"Received Images" = "收到的图片";
 /* directory for downloaded videos */
-"Received Videos" = "接收的视频";
+"Received Videos" = "收到的视频";
 /* shareViewController: recipient */
 "Recipient" = "接收人";
 "Recode Fail:" = "重新编码失败：";
@@ -550,25 +550,25 @@
 "Send Location" = "发送位置";
 "Sending..." = "正在发送…";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "以明文形式发送密码（仅通过 TLS 加密），不太安全";
-"Sent a File 📁" = "发送文件 📁";
-"Sent a Link 🔗" = "发送了链接 🔗";
-"Sent a Location 📍" = "发送位置 📍";
-"Sent an Image 📷" = "发送了图片 📷";
+"Sent a File 📁" = "已发送文件 📁";
+"Sent a Link 🔗" = "已发送链接 🔗";
+"Sent a Location 📍" = "已发送位置 📍";
+"Sent an Image 📷" = "已发送图片 📷";
 /* directory for downloaded audios */
-"Sent Audios" = "发送的音频";
+"Sent Audios" = "已发送音频";
 /* directory for downloaded files */
-"Sent Files" = "发送的文件";
+"Sent Files" = "已发送文件";
 /* directory for downloaded images */
-"Sent Images" = "发送的图片";
+"Sent Images" = "已发送图片";
 /* directory for downloaded videos */
-"Sent Videos" = "发送的视频";
+"Sent Videos" = "已发送视频";
 "Server" = "服务器";
-"Server does not support account removal" = "服务器不支持删除账号";
-"Server for domain '%@' not responding!" = "域服务器 '%@' 没有响应！";
+"Server does not support account removal" = "服务器不支持账号移除";
+"Server for domain '%@' not responding!" = "域 '%@' 的服务器没有响应！";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "服务器实现错误：SASL2 任务为空，账号已禁用！";
 "Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "服务器仅支持无法抵御中间人攻击的验证方法！如果您必须使用此服务器，请使用高级账号创建菜单。";
 "Server returned invalid xml!" = "服务器返回了无效的 XML！";
-"Server returned SASL2 error '%@'." = "服务器返回 SASL2 错误 '%@'.";
+"Server returned SASL2 error '%@'." = "服务器返回 SASL2 错误 '%@'。";
 "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "服务器突然不支持 SASL2-SCRAM，极有可能受到持续的中间人攻击，中止身份验证并禁用账号以限制损害。一旦您再次处于干净的网络环境中，您应该尝试重新启用您的账号。";
 "Server: %@" = "服务器：%@";
 "Set up account later" = "稍后设置账号";
@@ -576,11 +576,11 @@
 "Settings" = "设置";
 "Sharing failed" = "分享失败";
 "Show shared Media and Files" = "显示共享的媒体和文件";
-"Some messages might wait to be retrieved or sent. Please open the app to retry." = "某些消息可能在等待检索或发送。请打开应用程序重试。";
+"Some messages might wait to be retrieved or sent. Please open the app to retry." = "某些消息可能在等待检索或发送。请打开应用重试。";
 "Something went wrong while parsing the string..." = "解析字符串时出现问题…";
 "Sounds" = "音效";
 "Sounds courtesy Emrah" = "感谢 Emrah 提供音效";
-"SRV entry prohibits XMPP connection for domain %@" = "SRV 条目禁止域的 XMPP 连接 %@";
+"SRV entry prohibits XMPP connection for domain %@" = "SRV 条目禁止域 %@ 的 XMPP 连接";
 "Status" = "状态";
 "Status Message" = "状态信息";
 "Status message:" = "状态信息：";
@@ -618,7 +618,7 @@
 "There is no configured email account. Please email info@monal-im.org ." = "没有配置的电子邮件账号。请发送电子邮件至 info@monal-im.org。";
 "There was a SASL error on the server." = "服务器上出现 SASL 错误。";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "解密此加密消息时出错（信号错误）。要解决这个问题，请尝试向此人发送加密消息。";
-"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "解密此加密消息时出错（信号错误）。要解决此问题，请尝试向此人发送加密消息。(%@)";
+"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "解密此加密消息时出错（信号错误）。要解决这个问题，请尝试向此人发送加密消息。(%@)";
 "These are SRV resource records found for your domain." = "这些是为您的域名查找到的 SRV 资源记录。";
 "These are STUN and TURN services announced by your server. (blue entries are used by monal)" = "这些是服务器宣布的 STUN 和 TURN 服务。（Monal 使用的是蓝色条目）";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "这些是服务器支持的通道绑定类型，用于检测 TLS 层攻击（Monal 使用的是蓝色条目，不支持橙色条目）。";
@@ -630,7 +630,7 @@
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "他们将不再看到您什么时候在线。他们可能无法向您发送加密消息。";
 "They will see when you are online. They will be able to send you encrypted messages." = "他们会看到您什么时候在线。他们将能够向您发送加密消息。";
 "This account already exists in Monal." = "在 Monal 已经存在这个账号。";
-"This account already exists on this instance" = "此账号已存在于此实例中";
+"This account already exists on this instance" = "此实例上已存在此账号";
 "This account already exists on this instance." = "此实例上已存在此账号。";
 "This allows you to forcefully crash the app using several different methods to test the crash handling." = "这允许您使用几种不同的方法强制崩溃本应用来测试崩溃处理。";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "此应用版本太旧，可能包含安全漏洞，也可能突然停止运行。请升级！";
@@ -688,10 +688,10 @@
 "Undefined error" = "未定义的错误";
 "Understood" = "了解";
 "Unexpected appex expiration" = "意外的附录过期";
-"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "使用 SASL2 验证服务器时出现意外错误（您的服务器是否有错误？），断开连接！";
+"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "使用 SASL2 对服务器进行身份验证时出现意外错误（您的服务器是否有错误？），正在断开连接！";
 "Unexpected error while checking type of jid, please try again" = "检查 JID 类型时出现意外错误，请重试";
 "Unexpected error while checking type of jid:" = "检查 JID 类型时出现意外错误：";
-"Unexpected mam preferences result" = "非预期的 MAM 偏好结果";
+"Unexpected mam preferences result" = "非预期的消息存档管理首选项结果";
 "Unexpected server response: invalid PEP config form" = "意外的服务器响应：无效的 PEP 配置表单";
 "Unexpected server response: missing required fields in PEP config form" = "意外的服务器响应：PEP 配置表单中缺少必填字段";
 "unknown" = "未知";
@@ -701,8 +701,8 @@
 "Unread Messages Below" = "以下为未读消息";
 "unsupported" = "不支持";
 "Untrusted key" = "不信任的密钥";
-"Upload Error" = "上传出错";
-"Upload Error: your account got disconnected while requesting upload slot" = "上传出错：您的账号在请求上传插槽时断开连接";
+"Upload Error" = "上传错误";
+"Upload Error: your account got disconnected while requesting upload slot" = "上传错误：您的账号在请求上传插槽时断开连接";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "将文件上传到服务器以与他人共享。 （服务器报告的最大允许文件大小：%@）";
 "Upload Settings" = "上传设置";
 "Uploading" = "正在上传";
