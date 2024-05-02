@@ -8,6 +8,7 @@
 " running on %@" = " running on %@";
 "%02d:%02d (long press to abort)" = "%02d:%02d (long press to abort)";
 "%@" = "%@";
+"%@ (type '%@', category '%@')" = "%@ (type '%@', category '%@')";
 "1 MiB" = "1 MiB";
 "33%" = "33%";
 "100 MiB" = "100 MiB";
@@ -52,11 +53,14 @@
 "All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
 "Allow" = "Allow";
 "Allow MITM-prone PLAIN authentication" = "Allow MITM-prone PLAIN authentication";
+"Allow approved contacts to query my Monal and iOS version" = "Allow approved contacts to query my Monal and iOS version";
+"Allow contacts not in my contact list to contact me" = "Allow contacts not in my contact list to contact me";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
 "Already present" = "Already present";
 "Always archive" = "Always archive";
 "Always use direct TLS, not STARTTLS" = "Always use direct TLS, not STARTTLS";
 "App" = "App";
+"Appearance" = "Appearance";
 "Apple Push Service" = "Apple Push Service";
 "Apple Push Token" = "Apple Push Token";
 "Apple Push Token is not available!" = "Apple Push Token is not available!";
@@ -64,6 +68,9 @@
 "Approve new contact" = "Approve new contact";
 "Archive chat" = "Archive chat";
 "Archive only if the contact is in contact list" = "Archive only if the contact is in contact list";
+"Auto-Download Media" = "Auto-Download Media";
+"Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
+"Autofocus text input on chat open" = "Autofocus text input on chat open";
 "BODY" = "BODY";
 "Backgrounds" = "Backgrounds";
 "Block" = "Block";
@@ -86,6 +93,9 @@
 "Call ended: remote busy" = "Call ended: remote busy";
 "Call security help" = "Call security help";
 "Call was not answered" = "Call was not answered";
+"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
+"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
+"Calls: Allow contacts not in my contact list to call me" = "Calls: Allow contacts not in my contact list to call me";
 "Camera" = "Camera";
 /* Camera permissions missing warning */
 "Camera permissions missing" = "Camera permissions missing";
@@ -197,6 +207,8 @@
 "Email Error" = "Email Error";
 "Email Support" = "Email Support";
 "Empty Values!" = "Empty Values!";
+"Enable" = "Enable";
+"Enable encryption by default for new chats" = "Enable encryption by default for new chats";
 "Enabled" = "Enabled";
 "Encrypted session to this device broken beyond repair." = "Encrypted session to this device broken beyond repair.";
 "Encryption Keys" = "Encryption Keys";
@@ -365,6 +377,7 @@
 "Passwords don't match!" = "Passwords don't match!";
 "Permission Requested" = "Permission Requested";
 "Photos" = "Photos";
+"Pin Chat" = "Pin Chat";
 "Play Sounds" = "Play Sounds";
 "Please Allow Audio Access" = "Please Allow Audio Access";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Please add a new account under settings first. If you already added your account you may need to enable it under settings";
@@ -445,6 +458,10 @@
 "Selected Group Members" = "Selected Group Members";
 "Send" = "Send";
 "Send Location" = "Send Location";
+"Send last interaction time" = "Send last interaction time";
+"Send message displayed state" = "Send message displayed state";
+"Send message received state" = "Send message received state";
+"Send typing notifications" = "Send typing notifications";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Sends password in cleartext (only encrypted by TLS), not very secure";
 "Server" = "Server";
 "Server: %@" = "Server: %@";
@@ -452,6 +469,8 @@
 /* Camera permissions missing warning */
 "Settings" = "Settings";
 "Sharing failed" = "Sharing failed";
+"Show URL previews" = "Show URL previews";
+"Show inline geo location" = "Show inline geo location";
 "Show shared Media and Files" = "Show shared Media and Files";
 "Something went wrong while parsing the string..." = "Something went wrong while parsing the string...";
 "Sounds" = "Sounds";
@@ -492,7 +511,8 @@
 "The username does not need to have an @ symbol. Please try again." = "The username does not need to have an @ symbol. Please try again.";
 "There is no configured email account. Please email info@monal-im.org ." = "There is no configured email account. Please email info@monal-im.org .";
 "These are SRV resource records found for your domain." = "These are SRV resource records found for your domain.";
-"These are STUN and TURN services announced by your server. (blue entries are used by monal)" = "These are STUN and TURN services announced by your server. (blue entries are used by monal)";
+"These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "These are STUN and TURN services announced by your server (blue entries are used by Monal).";
+"These are the MUC servers detected by Monal (blue entry used by Monal)." = "These are the MUC servers detected by Monal (blue entry used by Monal).";
 "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal).";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "These are the TLS versions supported by Monal, the one used to connect to your server will be green.";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal).";
@@ -525,6 +545,7 @@
 "This message got retracted" = "This message got retracted";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it.";
 "This server does not have any SRV records in DNS." = "This server does not have any SRV records in DNS.";
+"This server does not provide any MUC servers." = "This server does not provide any MUC servers.";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer.";
 "This server does not support modern SASL2 authentication." = "This server does not support modern SASL2 authentication.";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account.";
@@ -616,11 +637,13 @@
 "Your contact may not support calls. Your call might never reach its destination." = "Your contact may not support calls. Your call might never reach its destination.";
 "Your entered XMPP ID is missing the domain" = "Your entered XMPP ID is missing the domain";
 "Your entered XMPP ID is missing the username" = "Your entered XMPP ID is missing the username";
+"Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!";
 "Your status" = "Your status";
 "error" = "error";
+"errorMessage" = "errorMessage";
 "filename" = "filename";
 "groupJoin Group" = "groupJoin Group";
 "now" = "now";
