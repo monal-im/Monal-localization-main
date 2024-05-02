@@ -51,7 +51,7 @@
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "允许某人将您添加为联系人可以让他们看到您的个人资料图片以及您何时在线。";
 "Already present" = "已经存在";
 "Already uploading this content, ignoring" = "已上传过此内容，忽略";
-"Always archive" = "一律存档";
+"Always archive" = "始终存档";
 "Always use direct TLS, not STARTTLS" = "始终使用 Direct TLS，而不是 STARTTLS";
 "App" = "应用";
 "Apple Push Service" = "Apple 推送通知服务";
@@ -144,7 +144,7 @@
 "Could not configure group '%@': timeout" = "无法配置群组 '%@'：超时";
 "Could not create group '%@': timeout" = "无法创建群组 '%@'：超时";
 "Could not decrypt message" = "无法解密消息";
-"Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "无法从您所在服务器的存档中获取此聊天的（所有）旧消息。请稍后再试。 %@";
+"Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "无法从服务器的存档中获取此聊天的（所有）旧消息。请稍后再试。 %@";
 "Could not fetch messages" = "无法获取消息";
 /* QR-Code-Scanner */
 "Could not get default capture device" = "无法获取默认视频捕获设备";
@@ -169,12 +169,12 @@
 "Debug" = "调试";
 "Debugging" = "调试中";
 "Default Background" = "默认背景";
-"Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "定义对允许名册版本管理的 XMPP 名册协议的推荐修改，如果名册未被修改，那么服务器将不会将名单发送给客户端。";
-"Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription." = "为预认证名册链接定义协议和 URI 方案，允许第三方自动获得用户的在线订阅。";
+"Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "定义对 XMPP 花名册协议的提议修改，以启用花名册版本控制，如果花名册未修改，服务器将不会向客户端发送花名册。";
+"Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription." = "为预先身份验证的花名册链接定义协议和 URI 方案，允许第三方自动获取用户的在线状态订阅。";
 /* Chat msg action */
 "Delete" = "删除";
 "Delete Account" = "删除账号";
-"Delete Account on Server" = "删除服务器上的账号";
+"Delete Account on Server" = "在服务器上删除账号";
 "Delete Key" = "删除密钥";
 "Deny new contact" = "拒绝新联系人";
 "Detected a new omemo device on your account: %@" = "在您的账号上检测到新的 OMEMO 设备：%@";
@@ -184,9 +184,9 @@
 "Disable Encryption" = "禁用加密";
 "Disable encryption?" = "禁用加密？";
 "Discovering devices..." = "正在发现设备…";
-"Display Name" = "显示名字";
-"Display Name And Message" = "显示名字和消息";
-"Display Only Name" = "仅显示名字";
+"Display Name" = "显示名称";
+"Display Name And Message" = "显示名称和消息";
+"Display Only Name" = "仅显示名称";
 "Display Only Placeholder" = "仅显示提示消息";
 "Do you really want to block this contact? You won't receive any messages from this contact." = "您真的要屏蔽此联系人吗？您将不会收到来自此联系人的任何消息。";
 "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "您确定要清除此对话中的所有消息吗？如果已使用 OMEMO 加密，您就无法再次从服务器加载它们。";
@@ -312,9 +312,9 @@
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "如果 Monal 无法显示通知，则当消息到达时您将看不到提示。如果您在 Monal 第一次请求许可时点击“拒绝”，就会发生这种情况。通过转到 iOS 设置 -> Monal -> 通知并选择“允许通知”来修复它。";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "如果关闭，您的设备将无法在 XMPP 服务器上激活推送，请确保已将其配置为支持 XEP-0357.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "如果您开启此功能，您将不再安全，不会受到中间人攻击。这种攻击能让对手操纵您的收发消息、添加他们自己的 OMEMO 密钥、更改您的账号信息，甚至知道或更改您的密码！\n\n您应该切换到另一台服务器，而不是开启此功能。";
-"If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "如果您想要使用语音讯息，您将需要在设定中允许存取->隐私权->麦克风。";
+"If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "如果要使用音频消息，则需要在设置 -> 隐私 -> 麦克风中允许访问。";
 "Import and trust OMEMO fingerprints from QR code" = "从二维码导入并信任 OMEMO 指纹";
-"Indicate when a particular device is active or inactive. Saves battery." = "显示某特定设备处于活动或非活动状态。可节省电力。";
+"Indicate when a particular device is active or inactive. Saves battery." = "指示特定设备何时处于活动状态或非活动状态。节省电池。";
 "Input is not a valid jid" = "输入不是有效的 JID";
 "Invalid Credentials!" = "无效的证书！";
 /* QR-Code-Scanner: invalid format */
@@ -643,7 +643,7 @@
 /* Crash report error dialog */
 "This device is not configured to send email." = "此设备未配置为发送电子邮件。";
 "This invitation will expire on %@" = "此邀请将于 %@ 到期";
-"This is the software running on your server." = "这是您所在服务器上运行的软件。";
+"This is the software running on your server." = "这是服务器上运行的软件。";
 "This key belongs to this device and cannot be removed or disabled!" = "此密钥属于此设备，无法移除或禁用！";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "此密钥是可信的，并通过手动比较指纹进行验证。要停止信任此密钥，请使用切换元素。";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "此密钥是可信的，但联系人不再使用它。请考虑禁用对此密钥的信任。";
@@ -688,7 +688,7 @@
 "Undefined error" = "未定义的错误";
 "Understood" = "了解";
 "Unexpected appex expiration" = "非预期的 appex 过期";
-"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "使用 SASL2 对服务器进行身份验证时出现意外错误（您的服务器是否有错误？），正在断开连接！";
+"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "使用 SASL2 对服务器进行身份验证时出现意外错误（服务器是否有错误？），正在断开连接！";
 "Unexpected error while checking type of jid, please try again" = "检查 JID 类型时出现意外错误，请重试";
 "Unexpected error while checking type of jid:" = "检查 JID 类型时出现意外错误：";
 "Unexpected mam preferences result" = "非预期的消息存档管理首选项结果";
