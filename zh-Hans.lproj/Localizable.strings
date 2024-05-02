@@ -35,7 +35,7 @@
 "Add Group/Channel or Contact" = "添加群组/频道或联系人";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "使用上方的 + 按钮以添加联系人。当您的朋友可以聊天时，他们会在这里显示";
 "Add scanned Group/Channel or Contact" = "添加扫描的群组/频道或联系人";
-"Add to contacts" = "添加到通讯录";
+"Add to contacts" = "添加到联系人";
 "Adding Group/Channel..." = "正在添加群组/频道...";
 "Adding..." = "正在添加...";
 "Adjust the maximum file size for auto-downloads over cellular network" = "调整通过蜂窝网络自动下载的最大文件大小";
@@ -48,7 +48,7 @@
 "All messages fetched successfully, there are no more left on the server!" = "成功获取所有消息，服务器上没有更多的消息了！";
 "Allow" = "允许";
 "Allow MITM-prone PLAIN authentication" = "允许倾向于中间人攻击的 PLAIN 身份验证";
-"Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "允许某人将您添加为联系人可以让他们看到您的个人资料照片以及您何时在线。";
+"Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "允许某人将您添加为联系人可以让他们看到您的个人资料图片以及您何时在线。";
 "Already present" = "已经存在";
 "Already uploading this content, ignoring" = "已上传过此内容，忽略中";
 "Always archive" = "一律存档";
@@ -126,7 +126,7 @@
 "Contact not found" = "找不到联系人";
 /* placeholder when adding jid */
 "Contact or Group/Channel Jid" = "联系人或群组/频道 JID";
-"Contacts" = "通讯录";
+"Contacts" = "联系人";
 "Cool Title" = "酷标题";
 "Copied to clipboard" = "已复制到剪贴板";
 /* Chat msg action */
@@ -250,7 +250,7 @@
 "Failed to block contact %@" = "无法屏蔽联系人 %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "无法将 '%1$@' 在 '%2$@' 中的从属关系更改为 '%3$@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "无法将 '%1$@' 在 '%2$@' 中的从属关系更改为 '%3$@'：超时";
-"Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
+"Failed to copy downloaded file into cache directory: %@" = "无法将下载的文件复制到缓存目录：%@";
 "Failed to create invitation for %@" = "无法为 %@ 创建邀请";
 "Failed to create invitation, unknown error: %@" = "创建邀请失败，未知错误：%@";
 "Failed to decode download link" = "解码下载链接失败";
@@ -259,17 +259,17 @@
 "Failed to decrypt filetransfer" = "无法解密文件传输";
 "Failed to delete own avatar" = "删除自己的头像失败";
 "Failed to delete own nickname" = "删除自己的昵称失败";
-"Failed to download file: %@" = "Failed to download file: %@";
+"Failed to download file: %@" = "下载文件失败：%@";
 "Failed to enable carbons for account %@" = "无法启用账号副本 %@";
 "Failed to encrypt file" = "加密文件失败";
 "Failed to enter Group/Channel %@" = "无法进入群组/频道 %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "无法进入群组/频道 %@：这不是一个群组/频道！";
 "Failed to export the database, please check the logfile for errors and try again." = "无法导出数据库，请检查日志文件中的错误，然后重试。";
-"Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
+"Failed to fetch download metadata: %@" = "无法获取下载元数据：%@";
 "Failed to fetch room config form for '%@'" = "无法获取聊天室 '%@' 的配置表单";
 "Failed to load blocklist" = "加载屏蔽列表失败";
 "Failed to moderate message in group/channel '%@'" = "无法审核群组/频道中的消息“%@”";
-"Failed to move uploaded file to file cache directory" = "Failed to move uploaded file to file cache directory";
+"Failed to move uploaded file to file cache directory" = "无法将上传的文件移动到文件缓存目录";
 "Failed to parse URL returned by HTTP upload server" = "无法解析由 HTTP 上传服务器返回的 URL";
 "Failed to publish avatar image for group/channel %@" = "发布群组/频道 %@ 的头像失败";
 "Failed to publish own avatar" = "发布自己的头像失败";
@@ -472,7 +472,7 @@
 "Please select a XMPP server or provide one." = "请选择一个 XMPP 服务器或提供一个。";
 "Please update!" = "请升级！";
 "Port" = "端口";
-"Port: %@, Direct TLS: %@, Priority: %@" = "端口：%@，直接 TLS：%@，优先级：%@";
+"Port: %@, Direct TLS: %@, Priority: %@" = "端口：%@，Direct TLS：%@，优先级：%@";
 "Previews" = "预览";
 "Privacy" = "隐私";
 "Privacy & Security" = "隐私和安全";
@@ -802,6 +802,6 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
-"Image Upload Quality: %@" = "Image Upload Quality: %@";
-"Load over cellular up to: %@ MiB" = "Load over cellular up to: %@ MiB";
-"Load over WiFi up to: %@ MiB" = "Load over WiFi up to: %@ MiB";
+"Image Upload Quality: %@" = "图片上传质量：%@";
+"Load over cellular up to: %@ MiB" = "通过蜂窝网络最多加载：%@ MiB";
+"Load over WiFi up to: %@ MiB" = "通过 WiFi 最多加载：%@ MiB";
