@@ -188,11 +188,11 @@
 "Display Name And Message" = "显示名称和消息";
 "Display Only Name" = "仅显示名称";
 "Display Only Placeholder" = "仅显示提示消息";
-"Do you really want to block this contact? You won't receive any messages from this contact." = "您真的要屏蔽此联系人吗？您将不会收到来自此联系人的任何消息。";
-"Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "您确定要清除此对话中的所有消息吗？如果已使用 OMEMO 加密，您就无法再次从服务器加载它们。";
+"Do you really want to block this contact? You won't receive any messages from this contact." = "是否确定要屏蔽此联系人？您将不会收到来自此联系人的任何消息。";
+"Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "是否确定要清除此对话中的所有消息？如果使用 OMEMO，您甚至无法再次从服务器加载它们。";
 "Do you really want to delete this key?" = "是否确定要删除此密钥？";
-"Do you really want to disable encryption for this contact?" = "您确实要对此联系人禁用加密吗？";
-"Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "您确定要重置 OMEMO 会话吗？如果您不确定，您就应该只重置连接！";
+"Do you really want to disable encryption for this contact?" = "是否确定要禁用此联系人的加密？";
+"Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "是否确定要重置 OMEMO 会话？如果您不确定，您就应该只重置连接！";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "是否要信任联系人 %@ 的扫描指纹，在您使用账号 %@ 时？";
 "Doing a lot of work..." = "大量工作中…";
 "Domain missing" = "缺少域名";
@@ -380,7 +380,7 @@
 "Messages never archived by default." = "默认情况下，消息从不存档。";
 "Method: %@" = "方式：%@";
 "Migration Assistant" = "迁移助手";
-"Missing Call Support" = "支持未接来电";
+"Missing Call Support" = "缺少呼叫支持";
 "Missing permission" = "缺少权限";
 "Monal" = "Monal";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal 目前信任此密钥，但尚未比较指纹。为了提高安全性，请在信任此密钥之前与联系人确认显示的指纹确实匹配！";
@@ -403,7 +403,7 @@
 "No account available to handel 'xmpp:' URI!" = "没有账号可用于处理 'xmpp:' URL！";
 "No accounts set up currently" = "账号目前没有设置";
 "No connected accounts" = "无已连接账号";
-"No contacts to show :(" = "暂无联系人 :(";
+"No contacts to show :(" = "没有要显示的联系人 :(";
 "No Empty Values!" = "没有空值！";
 "No enabled account found" = "没有启用的账号";
 "No further error description" = "无进一步的错误描述";
@@ -455,7 +455,7 @@
 "Password cannot be empty" = "密码不能为空";
 "Password missing" = "密码丢失";
 "Passwords don't match!" = "密码不匹配！";
-"Permission Requested" = "请求许可";
+"Permission Requested" = "请求权限";
 "Photos" = "照片";
 "Play Sounds" = "播放声音";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "请先在设置下添加新账号。如果您已经添加了您的账号，您可能需要在设置下启用";
@@ -524,12 +524,12 @@
 "Reset OMEMO session" = "重置 OMEMO 会话";
 "Resource" = "资源";
 "Resources" = "资源";
-"Resume a stream when disconnected. Results in faster reconnect and saves battery life." = "断开连接时恢复串流。可以更快地重新连接并节省电池寿命。";
+"Resume a stream when disconnected. Results in faster reconnect and saves battery life." = "断开连接时恢复流。可以更快地重新连接并节省电池寿命。";
 /* Chat msg action */
 "Retract" = "撤回";
 "Retry" = "重试";
 "Retry sending message?" = "重发消息？";
-"Rich Text" = "多行文本";
+"Rich Text" = "富文本";
 "Ringing..." = "正在响铃…";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "使用给定哈希方法的 SCRAM";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "使用给定哈希方法的 SCRAM，通过通道绑定进行额外保护";
@@ -538,7 +538,7 @@
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SCRAM 服务器证明错误，极有可能正在进行中间人攻击，中止身份验证并禁用账号以限制损害。一旦您再次处于干净的网络环境中，您应该尝试重新启用您的账号。";
 /* mac only string */
 "Scroll down to load more messages" = "向下滚屏以加载更多消息";
-"Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "为 TLS1.3 和一些 TLS1.2 连接定义的安全通道绑定。";
+"Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "为 TLS1.3 和某些 TLS1.2 连接定义的安全通道绑定。";
 "Select a background to display behind conversations with %@" = "选择一个背景，显示在与 %@ 对话的后面";
 "Select a default background to display behind conversations." = "选择一个默认背景以显示在对话后面。";
 "Select Action" = "选择操作";
@@ -735,7 +735,7 @@
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
 "Wrong menu" = "错误的菜单";
-"XEP-0163 Personal Eventing Protocol" = "XEP-0163 个人事件协议";
+"XEP-0163 Personal Eventing Protocol" = "XEP-0163：个人事件协议";
 "XEP-0191: Blocking Command" = "XEP-0191：屏蔽命令";
 "XEP-0198: Stream Management" = "XEP-0198：流管理";
 "XEP-0199: XMPP Ping" = "XEP-0199：XMPP Ping 命令";
