@@ -48,6 +48,8 @@
 "All messages are archived by default." = "Tüm iletiler varsayılan olarak arşivlendi.";
 "All messages fetched successfully, there are no more left on the server!" = "Tüm mesajlar başarıyla alındı, sunucuda başka mesaj kalmadı!";
 "Allow" = "İzin ver";
+"Allow approved contacts to query my Monal and iOS version" = "Allow approved contacts to query my Monal and iOS version";
+"Allow contacts not in my contact list to contact me" = "Allow contacts not in my contact list to contact me";
 "Allow MITM-prone PLAIN authentication" = "Allow MITM-prone PLAIN authentication";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Birinin sizi kişi olarak eklemesine izin vermek, profil resminizi ve çevrimiçi olduğunuzda görmesini sağlar.";
 "Already present" = "Zaten mevcut";
@@ -55,6 +57,7 @@
 "Always archive" = "Her zaman arşivle";
 "Always use direct TLS, not STARTTLS" = "Her zaman doğrudan TLS kullanın, STARTTLS değil";
 "App" = "Uygulama";
+"Appearance" = "Appearance";
 "Apple Push Service" = "Apple Anında Bildirim Hizmeti";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Apple anında bildirim hizmeti her zaman açık olmalıdır. Eğer kapalı ise, cihazınız Apple sunucularından bildirimleri düzenli olarak alamaz.";
 "Apple Push Token" = "Apple Push Tokeni";
@@ -68,6 +71,9 @@
 "Audio recoder record fail." = "Ses kaydedici kaydı başarısız.";
 "Audio Recoder set active error: %@" = "Audio Recoder aktif hata belirledi: %@";
 "Audio Recoder set category error: %@" = "Ses Kaydedici ayar kategorisi hatası: %@";
+"Auto-Download Media" = "Auto-Download Media";
+"Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
+"Autofocus text input on chat open" = "Autofocus text input on chat open";
 "Backgrounds" = "Arka planlar";
 "Block" = "Engelle";
 "Block Contact" = "Kişiyi Engelle";
@@ -90,6 +96,9 @@
 "Call security help" = "Güvenlik yardımını arayın";
 "Call Type" = "Çağrı Türü";
 "Call was not answered" = "Çağrı cevaplanmadı";
+"Calls: Allow contacts not in my contact list to call me" = "Calls: Allow contacts not in my contact list to call me";
+"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
+"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
 "Camera" = "Kamera";
 /* Camera permissions missing warning */
 "Camera permissions missing" = "Kamera izinleri eksik";
@@ -216,6 +225,8 @@
 "Email Error" = "E-posta Hatası";
 "Email Support" = "E-posta desteği";
 "Empty Values!" = "Boş Değerler!";
+"Enable" = "Enable";
+"Enable encryption by default for new chats" = "Enable encryption by default for new chats";
 "Enabled" = "Etkin";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "Şifreli mesaj, Monal'ın şifresini çözemediği daha eski bir formatta gönderildi. Karşı taraftan uygulamasını güncellemesini isteyin. (GCM hatası)";
 "Encrypted session to this device broken beyond repair." = "Bu cihazın şifreli oturumu onarılamayacak şekilde bozuldu.";
@@ -248,6 +259,7 @@
 "Error: Account disabled, can not display keys!" = "Hata oluştu: Hesap devre dışı bırakıldı, anahtarlar görüntülenemiyor!";
 "Error: No contacts to display keys for!" = "Hata: Anahtarları görüntülenecek kişi yok!";
 "Error: Received OMEMO message is empty" = "Hata: Alınan OMEMO iletisi boş";
+"errorMessage" = "errorMessage";
 "Failed to block contact %@" = "%@ kişisi engellenemedi";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@' içindeki '%1$@' üyeliği '%3$@' olarak değiştirilemedi";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@' içindeki '%1$@' üyeliği '%3$@' olarak değiştirilemedi: zaman aşımı";
@@ -461,6 +473,7 @@
 "Passwords don't match!" = "Şifreler eşleşmiyor!";
 "Permission Requested" = "İzin İstendi";
 "Photos" = "Fotoğraflar";
+"Pin Chat" = "Pin Chat";
 "Play Sounds" = "Sesleri Çal";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Lütfen önce ayarlar altına yeni bir hesap ekleyin. Hesabınızı zaten eklediyseniz, ayarlar altında etkinleştirmeniz gerekebilir";
 "Please Allow Audio Access" = "Lütfen Ses Erişimine İzin Verin";
@@ -551,7 +564,11 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Yeni mesaj bildirimleriyle çalınan sesleri seçin. Varsayılan Ksilofon'dur.";
 "Selected Group Members" = "Seçilmiş Grup Üyeleri";
 "Send" = "Gönder";
+"Send last interaction time" = "Send last interaction time";
 "Send Location" = "Konum Gönder";
+"Send message displayed state" = "Send message displayed state";
+"Send message received state" = "Send message received state";
+"Send typing notifications" = "Send typing notifications";
 "Sending..." = "Gönderiliyor...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Parolayı açık metin olarak gönderir (yalnızca TLS ile şifrelenir), çok güvenli değildir";
 "Sent a File 📁" = "Dosya Gönder 📁";
@@ -579,7 +596,9 @@
 /* Camera permissions missing warning */
 "Settings" = "Ayarlar";
 "Sharing failed" = "Paylaşım başarısız oldu";
+"Show inline geo location" = "Show inline geo location";
 "Show shared Media and Files" = "Paylaşılan Medya ve Dosyaları Göster";
+"Show URL previews" = "Show URL previews";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "Bazı mesajlar alınmak veya gönderilmek için bekleyebilir. Lütfen yeniden denemek için uygulamayı açın.";
 "Something went wrong while parsing the string..." = "Dizeyi ayrıştırırken bir şeyler yanlış gitti...";
 "Sounds" = "Sesler";
@@ -794,6 +813,7 @@
 "Your contact may not support calls. Your call might never reach its destination." = "Kişiniz Monal tarzı aramaları desteklemiyor olabilir. Aramanız, hedefine asla ulaşamayabilir.";
 "Your entered XMPP ID is missing the domain" = "Girdiğiniz XMPP Kimliğinizde alan adı eksik";
 "Your entered XMPP ID is missing the username" = "Girdiğiniz XMPP kimliğinde kullanıcı adı eksik";
+"Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Sunucunuz MAM'ı (XEP-0313) desteklemiyor. Bu, gelen mesajları çoğunlukla kaçırabileceğiniz anlamına gelir!! Bunu etkinleştirmek için sunucunuzu değiştirmeli veya sunucu yöneticisiyle konuşmalısınız!";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Sunucunuz Akış Yönetimi'ni (XEP-0198) desteklemiyor. Bu, giden mesajlarınızın çoğunlukla kaybolabileceği anlamına gelir!! Bunu etkinleştirmek için sunucunuzu değiştirmeli veya sunucu yöneticisiyle konuşmalısınız!";
@@ -808,23 +828,6 @@
 "📍 A Location" = "📍 Bir Konum";
 "📷 An Image" = "📷 Bir Resim";
 "🔗 A Link" = "🔗 Bir Bağlantı";
-"Allow approved contacts to query my Monal and iOS version" = "Allow approved contacts to query my Monal and iOS version";
-"Allow contacts not in my contact list to contact me" = "Allow contacts not in my contact list to contact me";
-"Appearance" = "Appearance";
-"Auto-Download Media" = "Auto-Download Media";
-"Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
-"Autofocus text input on chat open" = "Autofocus text input on chat open";
-"Calls: Allow contacts not in my contact list to call me" = "Calls: Allow contacts not in my contact list to call me";
-"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
-"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
-"Enable" = "Enable";
-"Enable encryption by default for new chats" = "Enable encryption by default for new chats";
-"errorMessage" = "errorMessage";
-"Pin Chat" = "Pin Chat";
-"Send last interaction time" = "Send last interaction time";
-"Send message displayed state" = "Send message displayed state";
-"Send message received state" = "Send message received state";
-"Send typing notifications" = "Send typing notifications";
-"Show inline geo location" = "Show inline geo location";
-"Show URL previews" = "Show URL previews";
-"Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
+"Notification privacy" = "Notification privacy";
+"Push Server" = "Push Server";
+"Use account" = "Use account";

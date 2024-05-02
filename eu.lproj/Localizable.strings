@@ -48,6 +48,8 @@
 "All messages are archived by default." = "Mezu guztiak artxibatzen dira defektuz.";
 "All messages fetched successfully, there are no more left on the server!" = "Mezu guztiak eskuratu dira, ez dago gehiagorik zerbitzarian!";
 "Allow" = "Baimendu";
+"Allow approved contacts to query my Monal and iOS version" = "Allow approved contacts to query my Monal and iOS version";
+"Allow contacts not in my contact list to contact me" = "Allow contacts not in my contact list to contact me";
 "Allow MITM-prone PLAIN authentication" = "Allow MITM-prone PLAIN authentication";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Kontaktu bezala gehi zaitzatela baimentzen baduzu, zure profileko irudia eta linean noiz zauden ikus dezakete.";
 "Already present" = "Dagoeneko badago";
@@ -55,6 +57,7 @@
 "Always archive" = "Artxibatu beti";
 "Always use direct TLS, not STARTTLS" = "Erabili direct TLS, ez STARTTLS";
 "App" = "Aplikazioa";
+"Appearance" = "Appearance";
 "Apple Push Service" = "Apple Push Service";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Apple Push Service beti piztuta egon behar da. Itzalita badago, gailua ezin da Appleren zerbitzariarekin komunikatu.";
 "Apple Push Token" = "Apple Push Token";
@@ -68,6 +71,9 @@
 "Audio recoder record fail." = "Audio grabagailuaren grbaketak kale egin du.";
 "Audio Recoder set active error: %@" = "Audio grabagailuaren aktibazio-ezarpenaren errorea: %@";
 "Audio Recoder set category error: %@" = "Audio grabagailuak kategoria ezartzeak kale egin du: %@";
+"Auto-Download Media" = "Auto-Download Media";
+"Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
+"Autofocus text input on chat open" = "Autofocus text input on chat open";
 "Backgrounds" = "Hondoak";
 "Block" = "Blokeatu";
 "Block Contact" = "Blokeatu kontaktua";
@@ -90,6 +96,9 @@
 "Call security help" = "Deien segurtasunari buruzko laguntza";
 "Call Type" = "Dei mota";
 "Call was not answered" = "Ez diote deiari erantzun";
+"Calls: Allow contacts not in my contact list to call me" = "Calls: Allow contacts not in my contact list to call me";
+"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
+"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
 "Camera" = "Egin eta bidali argazkia";
 /* Camera permissions missing warning */
 "Camera permissions missing" = "Kamera erabiltzeko baimena falta da";
@@ -216,6 +225,8 @@
 "Email Error" = "ePosta errorea";
 "Email Support" = "Bidali laguntza eskaera";
 "Empty Values!" = "Balioak hutsik daude!";
+"Enable" = "Enable";
+"Enable encryption by default for new chats" = "Enable encryption by default for new chats";
 "Enabled" = "Gaituta";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "Zifratutako mezuak formatu zaharra dauka eta Monalek ezin du dezifratu. Eskatu euren aplikazioa eguneratu dezatela. (GCM errorea)";
 "Encrypted session to this device broken beyond repair." = "Gailu honetako zifratutako saioa kaltetuta dago eta ezin da konpondu.";
@@ -248,6 +259,7 @@
 "Error: Account disabled, can not display keys!" = "Errorea: kontua ezgaituta dago, ezin dira gakoak ikusi!";
 "Error: No contacts to display keys for!" = "Errorea: Ez dago gakoak ikusteko kontakturik!";
 "Error: Received OMEMO message is empty" = "Errorea: jasotako OMEMO mezua hutsik dago";
+"errorMessage" = "errorMessage";
 "Failed to block contact %@" = "Ezin izan da %@ blokeatu";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak huts egin du";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak huts egin du: denbora agortu da";
@@ -461,6 +473,7 @@
 "Passwords don't match!" = "Pasahitzak ez datoz bat!";
 "Permission Requested" = "Baimena eskatu zaio";
 "Photos" = "Bidali irudia";
+"Pin Chat" = "Pin Chat";
 "Play Sounds" = "Jo soinuak";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Gehitu kontu berri bat ezarpenetan lehenik. Honezkero egin baduzu litekeena da gaitu behar izatea, ezarpenetan";
 "Please Allow Audio Access" = "Baimendu audioa atzitzea";
@@ -551,7 +564,11 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Hautatu zein soinu joko den mezu berrien jakinarazpenetarako. Lehenetsitakoa Xylophone da.";
 "Selected Group Members" = "Hautatutako taldeko kideak";
 "Send" = "Bidali";
+"Send last interaction time" = "Send last interaction time";
 "Send Location" = "Bidali kokapena";
+"Send message displayed state" = "Send message displayed state";
+"Send message received state" = "Send message received state";
+"Send typing notifications" = "Send typing notifications";
 "Sending..." = "Bidaltzen…";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Pasahitzak testu hutsean bidaltzen ditu (TLS bidez zifratuta baino ez), ez da oso segurua";
 "Sent a File 📁" = "Fitxategia bidali du 📁";
@@ -579,7 +596,9 @@
 /* Camera permissions missing warning */
 "Settings" = "Ezarpenak";
 "Sharing failed" = "Partekatzeak kale egin du";
+"Show inline geo location" = "Show inline geo location";
 "Show shared Media and Files" = "Erakutsi partekatutako multimedia eta fitxategiak";
+"Show URL previews" = "Show URL previews";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "Mezu batzuk jasotzeko edo bidaltzeko zain daude. Ireki aplikazioa berriro saiatzeko.";
 "Something went wrong while parsing the string..." = "Zerbaitek kale egin du katea aztertzerakoan…";
 "Sounds" = "Soinuak";
@@ -794,6 +813,7 @@
 "Your contact may not support calls. Your call might never reach its destination." = "Litekeena da zure kontaktuak deiak ezin jasotzea. Agian deia ez da sekula bere hartzailera ailegatuko.";
 "Your entered XMPP ID is missing the domain" = "Idatzi duzun XMPP IDari domeinua falta zaio";
 "Your entered XMPP ID is missing the username" = "Idatzi duzun XMPP IDari erabiltzaile izena falta zaio";
+"Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Zure zerbitzaria ez da MAM (XEP-0313)-ekin bateragarria. Honek esan nahi du maiz gal ditzakezula bidaltzen dizkizuten mezuak!! Aldatu zerbitzaria edo egin hitz administrariarekin funtzioa gaitu dezan!";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Zure zerbitzaria ez da Stream Management (XEP-0198)-ekin bateragarria. Honek esan nahi du maiz gal daitezkela bidaltzen dituzun mezuak!! Aldatu zerbitzaria egin hitz administrariarekin funtzioa gaitu dezan!";
@@ -808,23 +828,6 @@
 "📍 A Location" = "📍 Kokapena";
 "📷 An Image" = "📷 Irudia";
 "🔗 A Link" = "🔗 Esteka";
-"Allow approved contacts to query my Monal and iOS version" = "Allow approved contacts to query my Monal and iOS version";
-"Allow contacts not in my contact list to contact me" = "Allow contacts not in my contact list to contact me";
-"Appearance" = "Appearance";
-"Auto-Download Media" = "Auto-Download Media";
-"Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
-"Autofocus text input on chat open" = "Autofocus text input on chat open";
-"Calls: Allow contacts not in my contact list to call me" = "Calls: Allow contacts not in my contact list to call me";
-"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
-"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
-"Enable" = "Enable";
-"Enable encryption by default for new chats" = "Enable encryption by default for new chats";
-"errorMessage" = "errorMessage";
-"Pin Chat" = "Pin Chat";
-"Send last interaction time" = "Send last interaction time";
-"Send message displayed state" = "Send message displayed state";
-"Send message received state" = "Send message received state";
-"Send typing notifications" = "Send typing notifications";
-"Show inline geo location" = "Show inline geo location";
-"Show URL previews" = "Show URL previews";
-"Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
+"Notification privacy" = "Notification privacy";
+"Push Server" = "Push Server";
+"Use account" = "Use account";

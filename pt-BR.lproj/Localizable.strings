@@ -48,6 +48,8 @@
 "All messages are archived by default." = "Todas as mensagens arquivadas por padrão.";
 "All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
 "Allow" = "Allow";
+"Allow approved contacts to query my Monal and iOS version" = "Allow approved contacts to query my Monal and iOS version";
+"Allow contacts not in my contact list to contact me" = "Allow contacts not in my contact list to contact me";
 "Allow MITM-prone PLAIN authentication" = "Allow MITM-prone PLAIN authentication";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
 "Already present" = "Already present";
@@ -55,6 +57,7 @@
 "Always archive" = "Always archive";
 "Always use direct TLS, not STARTTLS" = "Always use direct TLS, not STARTTLS";
 "App" = "Aplicativo";
+"Appearance" = "Appearance";
 "Apple Push Service" = "Serviço de Notificação da Apple";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Serviço de notificação da Apple deve estar sempre ligado. Caso desligado, seu aparelho não se comunicará com os servidores da Apple.";
 "Apple Push Token" = "Apple Push Token";
@@ -68,6 +71,9 @@
 "Audio recoder record fail." = "Audio recoder record fail.";
 "Audio Recoder set active error: %@" = "Audio Recoder set active error: %@";
 "Audio Recoder set category error: %@" = "Audio Recoder set category error: %@";
+"Auto-Download Media" = "Auto-Download Media";
+"Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
+"Autofocus text input on chat open" = "Autofocus text input on chat open";
 "Backgrounds" = "Backgrounds";
 "Block" = "Block";
 "Block Contact" = "Block Contact";
@@ -90,6 +96,9 @@
 "Call security help" = "Call security help";
 "Call Type" = "Call Type";
 "Call was not answered" = "Call was not answered";
+"Calls: Allow contacts not in my contact list to call me" = "Calls: Allow contacts not in my contact list to call me";
+"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
+"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
 "Camera" = "Camera";
 /* Camera permissions missing warning */
 "Camera permissions missing" = "Camera permissions missing";
@@ -216,6 +225,8 @@
 "Email Error" = "Email Error";
 "Email Support" = "Email Support";
 "Empty Values!" = "Empty Values!";
+"Enable" = "Enable";
+"Enable encryption by default for new chats" = "Enable encryption by default for new chats";
 "Enabled" = "Enabled";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)";
 "Encrypted session to this device broken beyond repair." = "Encrypted session to this device broken beyond repair.";
@@ -248,6 +259,7 @@
 "Error: Account disabled, can not display keys!" = "Error: Account disabled, can not display keys!";
 "Error: No contacts to display keys for!" = "Error: No contacts to display keys for!";
 "Error: Received OMEMO message is empty" = "Error: Received OMEMO message is empty";
+"errorMessage" = "errorMessage";
 "Failed to block contact %@" = "Failed to block contact %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
@@ -461,6 +473,7 @@
 "Passwords don't match!" = "Passwords don't match!";
 "Permission Requested" = "Permission Requested";
 "Photos" = "Photos";
+"Pin Chat" = "Pin Chat";
 "Play Sounds" = "Play Sounds";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Please add a new account under settings first. If you already added your account you may need to enable it under settings";
 "Please Allow Audio Access" = "Please Allow Audio Access";
@@ -551,7 +564,11 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Select sounds that are played with new message notifications. Default is Xylophone.";
 "Selected Group Members" = "Selected Group Members";
 "Send" = "Send";
+"Send last interaction time" = "Send last interaction time";
 "Send Location" = "Send Location";
+"Send message displayed state" = "Send message displayed state";
+"Send message received state" = "Send message received state";
+"Send typing notifications" = "Send typing notifications";
 "Sending..." = "Sending...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Sends password in cleartext (only encrypted by TLS), not very secure";
 "Sent a File 📁" = "Sent a File 📁";
@@ -579,7 +596,9 @@
 /* Camera permissions missing warning */
 "Settings" = "Settings";
 "Sharing failed" = "Sharing failed";
+"Show inline geo location" = "Show inline geo location";
 "Show shared Media and Files" = "Show shared Media and Files";
+"Show URL previews" = "Show URL previews";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
 "Something went wrong while parsing the string..." = "Something went wrong while parsing the string...";
 "Sounds" = "Sounds";
@@ -794,6 +813,7 @@
 "Your contact may not support calls. Your call might never reach its destination." = "Your contact may not support calls. Your call might never reach its destination.";
 "Your entered XMPP ID is missing the domain" = "Your entered XMPP ID is missing the domain";
 "Your entered XMPP ID is missing the username" = "Your entered XMPP ID is missing the username";
+"Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!";
@@ -808,23 +828,6 @@
 "📍 A Location" = "📍 A Location";
 "📷 An Image" = "📷 An Image";
 "🔗 A Link" = "🔗 A Link";
-"Allow approved contacts to query my Monal and iOS version" = "Allow approved contacts to query my Monal and iOS version";
-"Allow contacts not in my contact list to contact me" = "Allow contacts not in my contact list to contact me";
-"Appearance" = "Appearance";
-"Auto-Download Media" = "Auto-Download Media";
-"Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
-"Autofocus text input on chat open" = "Autofocus text input on chat open";
-"Calls: Allow contacts not in my contact list to call me" = "Calls: Allow contacts not in my contact list to call me";
-"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
-"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
-"Enable" = "Enable";
-"Enable encryption by default for new chats" = "Enable encryption by default for new chats";
-"errorMessage" = "errorMessage";
-"Pin Chat" = "Pin Chat";
-"Send last interaction time" = "Send last interaction time";
-"Send message displayed state" = "Send message displayed state";
-"Send message received state" = "Send message received state";
-"Send typing notifications" = "Send typing notifications";
-"Show inline geo location" = "Show inline geo location";
-"Show URL previews" = "Show URL previews";
-"Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
+"Notification privacy" = "Notification privacy";
+"Push Server" = "Push Server";
+"Use account" = "Use account";

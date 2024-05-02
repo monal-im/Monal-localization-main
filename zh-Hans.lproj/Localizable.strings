@@ -48,6 +48,8 @@
 "All messages are archived by default." = "所有消息默认都会被存档。";
 "All messages fetched successfully, there are no more left on the server!" = "成功获取所有消息，服务器上没有更多的消息了！";
 "Allow" = "允许";
+"Allow approved contacts to query my Monal and iOS version" = "Allow approved contacts to query my Monal and iOS version";
+"Allow contacts not in my contact list to contact me" = "Allow contacts not in my contact list to contact me";
 "Allow MITM-prone PLAIN authentication" = "允许倾向于中间人攻击的 PLAIN 身份验证";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "允许某人将您添加为联系人可以让他们看到您的个人资料图片以及您何时在线。";
 "Already present" = "已经存在";
@@ -55,6 +57,7 @@
 "Always archive" = "始终存档";
 "Always use direct TLS, not STARTTLS" = "始终使用 Direct TLS，而不是 STARTTLS";
 "App" = "应用";
+"Appearance" = "Appearance";
 "Apple Push Service" = "Apple 推送通知服务";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Apple 推送通知服务应该始终开启。否则，您的设备将无法联系到 Apple 服务器。";
 "Apple Push Token" = "Apple 推送令牌";
@@ -68,6 +71,9 @@
 "Audio recoder record fail." = "录音机录音失败。";
 "Audio Recoder set active error: %@" = "录音机设置活动错误：%@";
 "Audio Recoder set category error: %@" = "录音机设置类别错误：%@";
+"Auto-Download Media" = "Auto-Download Media";
+"Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
+"Autofocus text input on chat open" = "Autofocus text input on chat open";
 "Backgrounds" = "背景";
 "Block" = "屏蔽";
 "Block Contact" = "屏蔽联系人";
@@ -90,6 +96,9 @@
 "Call security help" = "呼叫安全帮助";
 "Call Type" = "通话类型";
 "Call was not answered" = "通话未接听";
+"Calls: Allow contacts not in my contact list to call me" = "Calls: Allow contacts not in my contact list to call me";
+"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
+"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
 "Camera" = "摄像头";
 /* Camera permissions missing warning */
 "Camera permissions missing" = "缺少摄像头权限";
@@ -216,6 +225,8 @@
 "Email Error" = "电子邮件错误";
 "Email Support" = "电子邮件支持";
 "Empty Values!" = "值为空！";
+"Enable" = "Enable";
+"Enable encryption by default for new chats" = "Enable encryption by default for new chats";
 "Enabled" = "已启用";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "加密消息以较旧的格式发送，Monal 无法解密。请告诉对方更新客户端。 （GCM 错误）";
 "Encrypted session to this device broken beyond repair." = "此设备的加密会话已损坏且无法修复。";
@@ -248,6 +259,7 @@
 "Error: Account disabled, can not display keys!" = "错误：账号已禁用，无法显示密钥！";
 "Error: No contacts to display keys for!" = "错误：没有可显示密钥的联系人！";
 "Error: Received OMEMO message is empty" = "错误：收到的 OMEMO 消息为空";
+"errorMessage" = "errorMessage";
 "Failed to block contact %@" = "无法屏蔽联系人 %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "无法将 '%1$@' 在 '%2$@' 中的从属关系更改为 '%3$@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "无法将 '%1$@' 在 '%2$@' 中的从属关系更改为 '%3$@'：超时";
@@ -461,6 +473,7 @@
 "Passwords don't match!" = "密码不匹配！";
 "Permission Requested" = "请求权限";
 "Photos" = "照片";
+"Pin Chat" = "Pin Chat";
 "Play Sounds" = "播放声音";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "请先在设置下添加新账号。如果您已经添加了您的账号，您可能需要在设置下启用";
 "Please Allow Audio Access" = "请允许音频访问";
@@ -551,7 +564,11 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "选择新消息通知时播放的声音。默认是木琴。";
 "Selected Group Members" = "选定的群组成员";
 "Send" = "发送";
+"Send last interaction time" = "Send last interaction time";
 "Send Location" = "发送位置";
+"Send message displayed state" = "Send message displayed state";
+"Send message received state" = "Send message received state";
+"Send typing notifications" = "Send typing notifications";
 "Sending..." = "正在发送…";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "以明文形式发送密码（仅通过 TLS 加密），不太安全";
 "Sent a File 📁" = "已发送文件 📁";
@@ -579,7 +596,9 @@
 /* Camera permissions missing warning */
 "Settings" = "设置";
 "Sharing failed" = "分享失败";
+"Show inline geo location" = "Show inline geo location";
 "Show shared Media and Files" = "显示共享的媒体和文件";
+"Show URL previews" = "Show URL previews";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "某些消息可能在等待检索或发送。请打开应用重试。";
 "Something went wrong while parsing the string..." = "解析字符串时出现问题…";
 "Sounds" = "音效";
@@ -794,6 +813,7 @@
 "Your contact may not support calls. Your call might never reach its destination." = "您的联系人可能不支持通话。您的呼叫可能永远不会接通。";
 "Your entered XMPP ID is missing the domain" = "您输入的 XMPP ID 缺少域名";
 "Your entered XMPP ID is missing the username" = "您输入的 XMPP ID 缺少用户名";
+"Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "服务器不支持消息存档管理（XEP-0313）。这意味着您可能会频繁错过收到的消息！！您应该切换服务器或与服务器管理员联系以启用此功能！";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "服务器不支持推送（XEP-0357）。这意味着您必须手动打开本应用才能检索新收到的消息！您应该切换服务器或与服务器管理员联系以启用此功能！";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "服务器不支持流管理（XEP-0198）。这意味着您发出的消息可能会频繁丢失！您应该切换服务器或与服务器管理员联系以启用此功能！";
@@ -808,23 +828,6 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
-"Allow approved contacts to query my Monal and iOS version" = "Allow approved contacts to query my Monal and iOS version";
-"Allow contacts not in my contact list to contact me" = "Allow contacts not in my contact list to contact me";
-"Appearance" = "Appearance";
-"Auto-Download Media" = "Auto-Download Media";
-"Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
-"Autofocus text input on chat open" = "Autofocus text input on chat open";
-"Calls: Allow contacts not in my contact list to call me" = "Calls: Allow contacts not in my contact list to call me";
-"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
-"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
-"Enable" = "Enable";
-"Enable encryption by default for new chats" = "Enable encryption by default for new chats";
-"errorMessage" = "errorMessage";
-"Pin Chat" = "Pin Chat";
-"Send last interaction time" = "Send last interaction time";
-"Send message displayed state" = "Send message displayed state";
-"Send message received state" = "Send message received state";
-"Send typing notifications" = "Send typing notifications";
-"Show inline geo location" = "Show inline geo location";
-"Show URL previews" = "Show URL previews";
-"Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
+"Notification privacy" = "Notification privacy";
+"Push Server" = "Push Server";
+"Use account" = "Use account";

@@ -48,6 +48,8 @@
 "All messages are archived by default." = "Всі повідомлення архівуються за замовчуванням.";
 "All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
 "Allow" = "Дозволити";
+"Allow approved contacts to query my Monal and iOS version" = "Allow approved contacts to query my Monal and iOS version";
+"Allow contacts not in my contact list to contact me" = "Allow contacts not in my contact list to contact me";
 "Allow MITM-prone PLAIN authentication" = "Allow MITM-prone PLAIN authentication";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Дозволивши комусь додати вас до контактів, вони зможуть бачити зображення вашого профілю і те, коли ви перебуваєте в мережі.";
 "Already present" = "Вже присутні";
@@ -55,6 +57,7 @@
 "Always archive" = "Завжди архівувати";
 "Always use direct TLS, not STARTTLS" = "Завжди використовувати прямий TLS, а не STARTTLS";
 "App" = "Застосунок";
+"Appearance" = "Appearance";
 "Apple Push Service" = "Apple Push Service";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Служба Apple push завжди повинна бути увімкнена. Якщо вона вимкнута, ваш пристрій не може спілкуватися з сервером Apple.";
 "Apple Push Token" = "Apple Push Token";
@@ -68,6 +71,9 @@
 "Audio recoder record fail." = "Помилка запису аудіокодера.";
 "Audio Recoder set active error: %@" = "Аудіокодер встановив активну помилку: %@";
 "Audio Recoder set category error: %@" = "Помилка встановлення категорії аудіокодера: %@";
+"Auto-Download Media" = "Auto-Download Media";
+"Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
+"Autofocus text input on chat open" = "Autofocus text input on chat open";
 "Backgrounds" = "Фон";
 "Block" = "Заблокувати";
 "Block Contact" = "Заблокувати контакт";
@@ -90,6 +96,9 @@
 "Call security help" = "Викликати службу безпеки";
 "Call Type" = "Тип дзвінка";
 "Call was not answered" = "На дзвінок не відповіли";
+"Calls: Allow contacts not in my contact list to call me" = "Calls: Allow contacts not in my contact list to call me";
+"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
+"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
 "Camera" = "Камера";
 /* Camera permissions missing warning */
 "Camera permissions missing" = "Відсутні дозволи на камеру";
@@ -216,6 +225,8 @@
 "Email Error" = "Помилка електронної пошти";
 "Email Support" = "Підтримка електронною поштою";
 "Empty Values!" = "Порожні значення!";
+"Enable" = "Enable";
+"Enable encryption by default for new chats" = "Enable encryption by default for new chats";
 "Enabled" = "Увімкнено";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "Зашифроване повідомлення було надіслано у старому форматі, який Monal не може розшифрувати. Будь ласка, попросіть контакт оновити свій застосунок. (Помилка GCM)";
 "Encrypted session to this device broken beyond repair." = "Зашифрований сеанс зв'язку з цим пристроєм зламано без можливості відновлення.";
@@ -248,6 +259,7 @@
 "Error: Account disabled, can not display keys!" = "Помилка: Обліковий запис вимкнено, не можна відображати ключі!";
 "Error: No contacts to display keys for!" = "Помилка: Немає контактів для відображення ключів!";
 "Error: Received OMEMO message is empty" = "Помилка: Отримане повідомлення OMEMO є порожнім";
+"errorMessage" = "errorMessage";
 "Failed to block contact %@" = "Не вдалося заблокувати контакт %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
@@ -461,6 +473,7 @@
 "Passwords don't match!" = "Паролі не збігаються!";
 "Permission Requested" = "Запит на дозвіл";
 "Photos" = "Фото";
+"Pin Chat" = "Pin Chat";
 "Play Sounds" = "Відтворити звуки";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Будь ласка, спочатку додайте новий обліковий запис у налаштуваннях. Якщо ви вже додали свій обліковий запис, можливо, вам доведеться ввімкнути його в налаштуваннях";
 "Please Allow Audio Access" = "Будь ласка, дозвольте доступ до аудіо";
@@ -551,7 +564,11 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Виберіть звуки, які відтворюються за допомогою сповіщень про нові повідомлення. За замовчуванням Xylophone.";
 "Selected Group Members" = "Selected Group Members";
 "Send" = "Відправити";
+"Send last interaction time" = "Send last interaction time";
 "Send Location" = "Надіслати місцезнаходження";
+"Send message displayed state" = "Send message displayed state";
+"Send message received state" = "Send message received state";
+"Send typing notifications" = "Send typing notifications";
 "Sending..." = "Надсилається...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Надсилає пароль відкритим текстом (тільки зашифрований TLS), не дуже безпечно";
 "Sent a File 📁" = "Надіслав(-ла) файл 📁";
@@ -579,7 +596,9 @@
 /* Camera permissions missing warning */
 "Settings" = "Налаштування";
 "Sharing failed" = "Поширення не вдалося";
+"Show inline geo location" = "Show inline geo location";
 "Show shared Media and Files" = "Показати спільні медіа та файли";
+"Show URL previews" = "Show URL previews";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "Деякі повідомлення можуть чекати на отримання або відправлення. Будь ласка, відкрийте програму, щоб повторити спробу.";
 "Something went wrong while parsing the string..." = "Під час розбору рядка щось пішло не так...";
 "Sounds" = "Звуки";
@@ -794,6 +813,7 @@
 "Your contact may not support calls. Your call might never reach its destination." = "Ваш контакт може не підтримувати дзвінки. Ваш дзвінок може ніколи не дійти до адресата.";
 "Your entered XMPP ID is missing the domain" = "Введений вами XMPP ID не має домену";
 "Your entered XMPP ID is missing the username" = "Введенний вами XMPP не має юзернейма";
+"Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Ваш сервер не підтримує MAM (XEP-0313). Це означає, що ви можете часто пропускати вхідні повідомлення!!! Вам слід змінити сервер або звернутися до адміністратора сервера, щоб увімкнути цю функцію!";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Ваш сервер не підтримує керування потоками (XEP-0198). Це означає, що ваші вихідні повідомлення можуть часто губитися!!! Вам слід змінити сервер або звернутися до адміністратора сервера, щоб увімкнути цю функцію!";
@@ -808,23 +828,6 @@
 "📍 A Location" = "📍 Місцезнаходження";
 "📷 An Image" = "📷 Зображення";
 "🔗 A Link" = "🔗 Посилання";
-"Allow approved contacts to query my Monal and iOS version" = "Allow approved contacts to query my Monal and iOS version";
-"Allow contacts not in my contact list to contact me" = "Allow contacts not in my contact list to contact me";
-"Appearance" = "Appearance";
-"Auto-Download Media" = "Auto-Download Media";
-"Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
-"Autofocus text input on chat open" = "Autofocus text input on chat open";
-"Calls: Allow contacts not in my contact list to call me" = "Calls: Allow contacts not in my contact list to call me";
-"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
-"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
-"Enable" = "Enable";
-"Enable encryption by default for new chats" = "Enable encryption by default for new chats";
-"errorMessage" = "errorMessage";
-"Pin Chat" = "Pin Chat";
-"Send last interaction time" = "Send last interaction time";
-"Send message displayed state" = "Send message displayed state";
-"Send message received state" = "Send message received state";
-"Send typing notifications" = "Send typing notifications";
-"Show inline geo location" = "Show inline geo location";
-"Show URL previews" = "Show URL previews";
-"Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
+"Notification privacy" = "Notification privacy";
+"Push Server" = "Push Server";
+"Use account" = "Use account";
