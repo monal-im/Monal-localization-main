@@ -622,7 +622,7 @@
 "These are SRV resource records found for your domain." = "这些是为您的域名查找到的 SRV 资源记录。";
 "These are STUN and TURN services announced by your server. (blue entries are used by monal)" = "这些是服务器宣布的 STUN 和 TURN 服务。（Monal 使用的是蓝色条目）";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "这些是服务器支持的通道绑定类型，用于检测 TLS 层攻击（Monal 使用的是蓝色条目，不支持橙色条目）。";
-"These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "这些是在您登录后 Monal 在您所在服务器上检测到的最新 XMPP 功能。";
+"These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "这些是 Monal 在您登录后在服务器上检测到的新式 XMPP 功能。";
 "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "这些是服务器支持的 SASL2 认证方式（Monal 使用的是蓝色条目，不支持橙色条目）。";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "这些是 Monal 支持的 TLS 版本，用于连接到服务器的 TLS 版本将是绿色的。";
 "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "这些是您的加密密钥。每台设备都是您登录的不同位置。验证密钥后，您应该信任它。 双击指纹即可复制到剪贴板。";
@@ -661,8 +661,8 @@
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "此规范定义了使用 XMPP 发布-订阅协议来广播与即时通讯和在线状态的账号相关联的状态更改事件的语义。";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "此规范提供了一种方法来保护 SASL 和 SASL2 握手，不受方法和通道绑定降级影响。";
 "This will clear the whole chat history of this account from this device." = "从此设备清除此账号的全部聊天记录。";
-"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "这将从服务器和该设备中删除该账号以及关联的数据。不过，数据可能仍保留在其它设备上。";
-"This will remove this account and the associated data from this device." = "这将从此设备中移除此账号和关联数据。";
+"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "这将从服务器和设备中删除此账号以及相关数据。不过，数据可能仍保留在其他设备上。";
+"This will remove this account and the associated data from this device." = "这将从此设备中移除此账号和相关数据。";
 "Timeout Error" = "超时错误";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
@@ -695,8 +695,8 @@
 "Unexpected server response: invalid PEP config form" = "意外的服务器响应：无效的 PEP 配置表单";
 "Unexpected server response: missing required fields in PEP config form" = "意外的服务器响应：PEP 配置表单中缺少必填字段";
 "unknown" = "未知";
-"Unknown authentication method" = "未知认证方式";
-"Unknown channel-binding type" = "未知频道绑定类型";
+"Unknown authentication method" = "未知的身份验证方法";
+"Unknown channel-binding type" = "未知的通道绑定类型";
 "Unknown error!" = "未知错误！";
 "Unread Messages Below" = "以下为未读消息";
 "unsupported" = "不支持";
@@ -706,7 +706,7 @@
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "将文件上传到服务器以与他人共享。 （服务器报告的最大允许文件大小：%@）";
 "Upload Settings" = "上传设置";
 "Uploading" = "正在上传";
-"Uploading file to server" = "将文件上传到服务器中";
+"Uploading file to server" = "正在将文件上传到服务器";
 "Uploading image..." = "正在上传图片…";
 /* placeholder when adding account */
 "user@domain.tld" = "user@domain.tld";
@@ -715,49 +715,49 @@
 /* placeholder when creating account */
 "Username" = "用户名";
 "Username missing" = "缺少用户名";
-"Uses TLS client certificates for authentication" = "使用 TLS 客户端证书进行认证";
+"Uses TLS client certificates for authentication" = "使用 TLS 客户端证书进行身份验证";
 "Version" = "版本";
 /* server details */
 "version %@%@" = "version %1$@%2$@";
 "Very old app version" = "非常旧的应用版本";
-"Waiting for GPS signal" = "等待 GPS 讯号";
+"Waiting for GPS signal" = "等待 GPS 信号";
 "Warning" = "警告";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "找不到与 XMPP 相关的二维码";
 "We don't support any task requested by the server, account disabled: %@" = "我们不支持服务器请求的任何任务，账号已禁用：%@";
 "We don't support the single task requested by the server, account disabled: %@" = "我们不支持服务器请求的单个任务，账号已禁用：%@";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "我们无法连接至您的账号。请检查您的用户名和密码，并确保您已连接到互联网。";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "我们无法连接至您的账号。请检查您的用户名和密码，并确保您已连接到互联网。\n\n技术错误消息：%@";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "我们无法连接到您的账号。请检查您的用户名和密码，并确保您已连接网络。";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "我们无法连接到您的账号。请检查您的用户名和密码，并确保您已连接网络。\n\n技术错误消息：%@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "最弱的通道绑定类型，不能防止证书/密钥被盗，但可以检测错误颁发的证书。";
 "Welcome" = "欢迎";
-"What call do you want to place?" = "您想进行何种通话？";
+"What call do you want to place?" = "您想拨打什么电话？";
 "When you start talking to someone,\n they will show up here." = "当您开始和某人聊天时，\n 他们就会出现在这里。";
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
-"Wrong menu" = "菜单出错";
-"XEP-0163 Personal Eventing Protocol" = "XEP-0163 个人事件处理协议";
-"XEP-0191: Blocking Command" = "XEP-0191: 屏蔽命令";
-"XEP-0198: Stream Management" = "XEP-0198: 流管理";
-"XEP-0199: XMPP Ping" = "XEP-0199: XMPP Ping 命令";
-"XEP-0215: External Service Discovery" = "XEP-0215: 外部服务发现";
-"XEP-0237: Roster Versioning" = "XEP-0237: 名册版本管理";
-"XEP-0280: Message Carbons" = "XEP-0280: 消息副本";
-"XEP-0313: Message Archive Management" = "XEP-0313: 消息档案管理";
-"XEP-0352: Client State Indication" = "XEP-0352: 客户端状态指示";
-"XEP-0357: Push Notifications" = "XEP-0357: 推送通知";
-"XEP-0363: HTTP File Upload" = "XEP-0363: HTTP 文件上传";
-"XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379: 预认证名册订阅";
-"XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: SASL SCRAM 降级保护";
+"Wrong menu" = "错误的菜单";
+"XEP-0163 Personal Eventing Protocol" = "XEP-0163 个人事件协议";
+"XEP-0191: Blocking Command" = "XEP-0191：屏蔽命令";
+"XEP-0198: Stream Management" = "XEP-0198：流管理";
+"XEP-0199: XMPP Ping" = "XEP-0199：XMPP Ping 命令";
+"XEP-0215: External Service Discovery" = "XEP-0215：外部服务发现";
+"XEP-0237: Roster Versioning" = "XEP-0237：花名册版本控制";
+"XEP-0280: Message Carbons" = "XEP-0280：消息抄送";
+"XEP-0313: Message Archive Management" = "XEP-0313：消息存档管理";
+"XEP-0352: Client State Indication" = "XEP-0352：客户端状态指示";
+"XEP-0357: Push Notifications" = "XEP-0357：推送通知";
+"XEP-0363: HTTP File Upload" = "XEP-0363：HTTP 文件上传";
+"XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379：预先身份验证的花名册订阅";
+"XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474：SASL SCRAM 降级保护";
 "XMPP Account Info Error" = "XMPP 账号信息错误";
 "XMPP Bind Error" = "XMPP 绑定错误";
 "XMPP Capabilities" = "XMPP 功能";
 "XMPP Disco Info Error" = "XMPP 搜索信息错误";
 "XMPP External Service Disco Error" = "XMPP 外部服务发现错误";
-"XMPP ID" = "XMPP 用户名";
+"XMPP ID" = "XMPP ID";
 "XMPP ID missing" = "缺少 XMPP ID";
 "XMPP mam preferences error" = "XMPP MAM 偏好设定错误";
 "XMPP protocol extension for communications blocking." = "XMPP 协议扩展，用于通信屏蔽。";
-"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP 协议扩展，用于发现 XMPP 网络外部的服务，例如 A/V 呼叫所需的 STUN 或 TURN 服务器。";
+"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP 协议扩展，用于发现 XMPP 网络外部的服务，例如音频/视频通话所需的 STUN 或 TURN 服务器。";
 "XMPP protocol extension for sending application-level pings over XML streams." = "XMPP 协议扩展，用于通过 XML 流发送应用程序级 ping。";
 "XMPP Roster Error" = "XMPP 名册错误";
 "XMPP server domain not valid!" = "XMPP 服务器域无效！";
@@ -766,8 +766,8 @@
 "XMPPServer" = "XMPP 服务器";
 "Yellow checkmark shield:" = "黄色复选标记盾牌：";
 "Yes" = "是";
-"Yes, deactivate encryption" = "是的，禁用加密";
-"You are set up and connected." = "您已设定好并且已连接。";
+"Yes, deactivate encryption" = "是，停用加密";
+"You are set up and connected." = "您已设置并连接。";
 "You are set up and connected. People can message you at: %@@%@" = "您已设置并连接。别人可以通过以下方式向您发送消息：%@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "您正在尝试呼叫 '%@' (%@)，但此联系人可以通过不同的账号进行联系。请选择您要使用的账号进行呼叫。";
 "You did not grant Monal to access your location." = "您没有授权 Monal 访问您的位置。";
