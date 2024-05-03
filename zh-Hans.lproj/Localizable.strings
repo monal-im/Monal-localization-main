@@ -259,7 +259,7 @@
 "Error: Account disabled, can not display keys!" = "错误：账号已禁用，无法显示密钥！";
 "Error: No contacts to display keys for!" = "错误：没有可显示密钥的联系人！";
 "Error: Received OMEMO message is empty" = "错误：收到的 OMEMO 消息为空";
-"errorMessage" = "errorMessage";
+"errorMessage" = "错误信息";
 "Failed to block contact %@" = "无法屏蔽联系人 %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "无法将 '%1$@' 在 '%2$@' 中的从属关系更改为 '%3$@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "无法将 '%1$@' 在 '%2$@' 中的从属关系更改为 '%3$@'：超时";
@@ -474,7 +474,7 @@
 "Passwords don't match!" = "密码不匹配！";
 "Permission Requested" = "请求权限";
 "Photos" = "照片";
-"Pin Chat" = "Pin Chat";
+"Pin Chat" = "固定聊天";
 "Play Sounds" = "播放声音";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "请先在设置下添加新账号。如果您已经添加了您的账号，您可能需要在设置下启用";
 "Please Allow Audio Access" = "请允许音频访问";
@@ -598,7 +598,7 @@
 /* Camera permissions missing warning */
 "Settings" = "设置";
 "Sharing failed" = "分享失败";
-"Show inline geo location" = "Show inline geo location";
+"Show inline geo location" = "显示内嵌的地理位置";
 "Show shared Media and Files" = "显示共享的媒体和文件";
 "Show URL previews" = "显示 URL 预览";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "某些消息可能在等待检索或发送。请打开应用重试。";
@@ -645,10 +645,10 @@
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "解密此加密消息时出错（信号错误）。要解决这个问题，请尝试向此人发送加密消息。";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "解密此加密消息时出错（信号错误）。要解决这个问题，请尝试向此人发送加密消息。(%@)";
 "These are SRV resource records found for your domain." = "这些是为您的域名查找到的 SRV 资源记录。";
-"These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "These are STUN and TURN services announced by your server (blue entries are used by Monal).";
+"These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "这些是服务器宣布的 STUN 和 TURN 服务（Monal 使用的是蓝色条目）。";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "这些是服务器支持的通道绑定类型，用于检测 TLS 层攻击（Monal 使用的是蓝色条目，不支持橙色条目）。";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "这些是 Monal 在您登录后在服务器上检测到的新式 XMPP 功能。";
-"These are the MUC servers detected by Monal (blue entry used by Monal)." = "These are the MUC servers detected by Monal (blue entry used by Monal).";
+"These are the MUC servers detected by Monal (blue entry used by Monal)." = "这些是 Monal 检测到的群聊服务（Monal 使用的是蓝色条目）。";
 "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "这些是服务器支持的 SASL2 认证方式（Monal 使用的是蓝色条目，不支持橙色条目）。";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "这些是 Monal 支持的 TLS 版本，用于连接到服务器的 TLS 版本将是绿色的。";
 "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "这些是您的加密密钥。每台设备都是您登录的不同位置。验证密钥后，您应该信任它。 双击指纹即可复制到剪贴板。";
@@ -681,7 +681,7 @@
 "This message got retracted" = "此消息已被撤回";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "此服务器似乎不支持 HTTP 文件上传（XEP-0363）。请联系管理员启用。";
 "This server does not have any SRV records in DNS." = "此服务器在 DNS 中没有任何 SRV 记录。";
-"This server does not provide any MUC servers." = "This server does not provide any MUC servers.";
+"This server does not provide any MUC servers." = "此服务器不提供任何群聊服务。";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "此服务器不支持任何新式的通道绑定，以防止 TLS 层中间人攻击。";
 "This server does not support modern SASL2 authentication." = "此服务器不支持新式的 SASL2 身份验证。";
 "This should never happen, please contact the developers and provide a logfile!" = "这种情况不应该发生，请联系开发人员并提供日志文件！";
@@ -735,7 +735,7 @@
 "Uploading" = "正在上传";
 "Uploading file to server" = "正在将文件上传到服务器";
 "Uploading image..." = "正在上传图片…";
-"Use account" = "Use account";
+"Use account" = "使用账号";
 /* placeholder when adding account */
 "user@domain.tld" = "user@domain.tld";
 /* BlockUserTable - blockJidForm */
@@ -785,7 +785,7 @@
 "XMPP ID missing" = "缺少 XMPP ID";
 "XMPP mam preferences error" = "XMPP 消息存档管理首选项错误";
 "XMPP protocol extension for communications blocking." = "XMPP 协议扩展，用于通信屏蔽。";
-"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP 协议扩展，用于发现 XMPP 网络外部的服务，例如音频/视频通话所需的 STUN 或 TURN 服务器。";
+"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP 协议扩展，用于发现 XMPP 网络的外部服务，例如音频/视频通话所需的 STUN 或 TURN 服务器。";
 "XMPP protocol extension for sending application-level pings over XML streams." = "XMPP 协议扩展，用于通过 XML 流发送应用程序级 ping。";
 "XMPP Roster Error" = "XMPP 花名册错误";
 "XMPP server domain not valid!" = "XMPP 服务器域无效！";
@@ -816,7 +816,7 @@
 "Your contact may not support calls. Your call might never reach its destination." = "您的联系人可能不支持通话。您的呼叫可能永远不会接通。";
 "Your entered XMPP ID is missing the domain" = "您输入的 XMPP ID 缺少域名";
 "Your entered XMPP ID is missing the username" = "您输入的 XMPP ID 缺少用户名";
-"Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
+"Your server does not provide a MUC component." = "服务器不提供群聊组件。";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "服务器不支持消息存档管理（XEP-0313）。这意味着您可能会频繁错过收到的消息！！您应该切换服务器或与服务器管理员联系以启用此功能！";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "服务器不支持推送（XEP-0357）。这意味着您必须手动打开本应用才能检索新收到的消息！您应该切换服务器或与服务器管理员联系以启用此功能！";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "服务器不支持流管理（XEP-0198）。这意味着您发出的消息可能会频繁丢失！您应该切换服务器或与服务器管理员联系以启用此功能！";
