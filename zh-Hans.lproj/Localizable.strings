@@ -48,8 +48,8 @@
 "All messages are archived by default." = "所有消息默认都会被存档。";
 "All messages fetched successfully, there are no more left on the server!" = "成功获取所有消息，服务器上没有更多的消息了！";
 "Allow" = "允许";
-"Allow approved contacts to query my Monal and iOS version" = "Allow approved contacts to query my Monal and iOS version";
-"Allow contacts not in my contact list to contact me" = "Allow contacts not in my contact list to contact me";
+"Allow approved contacts to query my Monal and iOS version" = "允许已批准的联系人查询我的 Monal 和 iOS 版本";
+"Allow contacts not in my contact list to contact me" = "允许不在我的联系人列表中的联系人与我联系";
 "Allow MITM-prone PLAIN authentication" = "允许倾向于中间人攻击的 PLAIN 身份验证";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "允许某人将您添加为联系人可以让他们看到您的个人资料图片以及您何时在线。";
 "Already present" = "已经存在";
@@ -57,7 +57,7 @@
 "Always archive" = "始终存档";
 "Always use direct TLS, not STARTTLS" = "始终使用 Direct TLS，而不是 STARTTLS";
 "App" = "应用";
-"Appearance" = "Appearance";
+"Appearance" = "外观";
 "Apple Push Service" = "Apple 推送通知服务";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Apple 推送通知服务应该始终开启。否则，您的设备将无法联系到 Apple 服务器。";
 "Apple Push Token" = "Apple 推送令牌";
@@ -71,9 +71,9 @@
 "Audio recoder record fail." = "录音机录音失败。";
 "Audio Recoder set active error: %@" = "录音机设置活动错误：%@";
 "Audio Recoder set category error: %@" = "录音机设置类别错误：%@";
-"Auto-Download Media" = "Auto-Download Media";
-"Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
-"Autofocus text input on chat open" = "Autofocus text input on chat open";
+"Auto-Download Media" = "自动下载媒体";
+"Autodelete all messages after 3 days" = "3 天后自动删除所有消息";
+"Autofocus text input on chat open" = "打开聊天时自动对焦文本输入";
 "Backgrounds" = "背景";
 "Block" = "屏蔽";
 "Block Contact" = "屏蔽联系人";
@@ -96,9 +96,9 @@
 "Call security help" = "呼叫安全帮助";
 "Call Type" = "通话类型";
 "Call was not answered" = "通话未接听";
-"Calls: Allow contacts not in my contact list to call me" = "Calls: Allow contacts not in my contact list to call me";
-"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
-"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
+"Calls: Allow contacts not in my contact list to call me" = "呼叫：允许不在我的联系人列表中的联系人呼叫我";
+"Calls: Allow P2P sessions" = "呼叫：允许 P2P 会话";
+"Calls: Allow TURN fallback to Monal-Servers" = "呼叫：允许 TURN 回退到 Monal 服务器";
 "Camera" = "摄像头";
 /* Camera permissions missing warning */
 "Camera permissions missing" = "缺少摄像头权限";
@@ -225,8 +225,8 @@
 "Email Error" = "电子邮件错误";
 "Email Support" = "电子邮件支持";
 "Empty Values!" = "值为空！";
-"Enable" = "Enable";
-"Enable encryption by default for new chats" = "Enable encryption by default for new chats";
+"Enable" = "启用";
+"Enable encryption by default for new chats" = "默认情况下为新聊天启用加密";
 "Enabled" = "已启用";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "加密消息以较旧的格式发送，Monal 无法解密。请告诉对方更新客户端。 （GCM 错误）";
 "Encrypted session to this device broken beyond repair." = "此设备的加密会话已损坏且无法修复。";
@@ -437,7 +437,7 @@
 "Not Authorized. Please check your credentials." = "未授权。请检查您的凭证。";
 "Notes to self" = "备忘录";
 "Notes to self: %@" = "备忘录：%@";
-"Notification privacy" = "Notification privacy";
+"Notification privacy" = "通知隐私";
 "Notifications" = "通知";
 "Notifications disabled" = "通知已禁用";
 "Notify on all messages" = "通知所有消息";
@@ -500,7 +500,7 @@
 /* placeholder when creating account */
 "Provide XMPP-Server" = "提供 XMPP 服务器";
 "Publishing" = "发布";
-"Push Server" = "Push Server";
+"Push Server" = "推送服务器";
 "Pushserver Region" = "推送服务器区域";
 "QR code: Fingerprints found" = "二维码：已找到指纹";
 "QR-Code Scanner" = "二维码扫描器";
@@ -566,11 +566,11 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "选择新消息通知时播放的声音。默认是木琴。";
 "Selected Group Members" = "选定的群组成员";
 "Send" = "发送";
-"Send last interaction time" = "Send last interaction time";
+"Send last interaction time" = "发送上次交互时间";
 "Send Location" = "发送位置";
-"Send message displayed state" = "Send message displayed state";
-"Send message received state" = "Send message received state";
-"Send typing notifications" = "Send typing notifications";
+"Send message displayed state" = "发送消息显示状态";
+"Send message received state" = "发送消息接收状态";
+"Send typing notifications" = "发送输入通知";
 "Sending..." = "正在发送…";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "以明文形式发送密码（仅通过 TLS 加密），不太安全";
 "Sent a File 📁" = "已发送文件 📁";
@@ -600,7 +600,7 @@
 "Sharing failed" = "分享失败";
 "Show inline geo location" = "Show inline geo location";
 "Show shared Media and Files" = "显示共享的媒体和文件";
-"Show URL previews" = "Show URL previews";
+"Show URL previews" = "显示 URL 预览";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "某些消息可能在等待检索或发送。请打开应用重试。";
 "Something went wrong while parsing the string..." = "解析字符串时出现问题…";
 "Sounds" = "音效";
@@ -831,4 +831,4 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
-"Publishing & Appearance" = "Publishing & Appearance";
+"Publishing & Appearance" = "发布和外观";
