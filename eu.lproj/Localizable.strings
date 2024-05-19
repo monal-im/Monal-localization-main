@@ -39,25 +39,25 @@
 "Add to contacts" = "Gehitu kontaktuetara";
 "Adding Group/Channel..." = "Taldea/Kanala gehitzen…";
 "Adding..." = "Gehitzen…";
-"Adjust the maximum file size for auto-downloads over cellular network" = "Adjust the maximum file size for auto-downloads over cellular network";
-"Adjust the maximum file size for auto-downloads over WiFi" = "Adjust the maximum file size for auto-downloads over WiFi";
-"Adjust the quality of images uploaded" = "Adjust the quality of images uploaded";
+"Adjust the maximum file size for auto-downloads over cellular network" = "Doitu fitxategien gehieneko neurria gailuko datuak erabiliz automatikoki deskargatzeko";
+"Adjust the maximum file size for auto-downloads over WiFi" = "Doitu fitxategien gehieneko neurria WiFia erabiliz automatikoki deskargatzeko";
+"Adjust the quality of images uploaded" = "Doitu igotzeko irudien kalitatea";
 /* muc affiliation */
 "Admin" = "Admin";
 "Advanced Settings" = "Ezarpen aurreratuak";
 "All messages are archived by default." = "Mezu guztiak artxibatzen dira defektuz.";
 "All messages fetched successfully, there are no more left on the server!" = "Mezu guztiak eskuratu dira, ez dago gehiagorik zerbitzarian!";
 "Allow" = "Baimendu";
-"Allow approved contacts to query my Monal and iOS version" = "Allow approved contacts to query my Monal and iOS version";
-"Allow contacts not in my contact list to contact me" = "Allow contacts not in my contact list to contact me";
-"Allow MITM-prone PLAIN authentication" = "Allow MITM-prone PLAIN authentication";
+"Allow approved contacts to query my Monal and iOS version" = "Ahalbidetu baimendutako kontaktuei nire Monal eta iOS bertsioei buruz informazioa lortzea";
+"Allow contacts not in my contact list to contact me" = "Ahalbidetu nire kontaktuen zerrendan ez daudenei nirekin harremanetan jartzea";
+"Allow MITM-prone PLAIN authentication" = "Baimendu MITM-prone PLAIN autentikazioa";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Kontaktu bezala gehi zaitzatela baimentzen baduzu, zure profileko irudia eta linean noiz zauden ikus dezakete.";
 "Already present" = "Dagoeneko badago";
 "Already uploading this content, ignoring" = "Eduki hau igotzen ari da honezkero, muzin egiten";
 "Always archive" = "Artxibatu beti";
 "Always use direct TLS, not STARTTLS" = "Erabili direct TLS, ez STARTTLS";
 "App" = "Aplikazioa";
-"Appearance" = "Appearance";
+"Appearance" = "Itxura";
 "Apple Push Service" = "Apple Push Service";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Apple Push Service beti piztuta egon behar da. Itzalita badago, gailua ezin da Appleren zerbitzariarekin komunikatu.";
 "Apple Push Token" = "Apple Push Token";
@@ -71,13 +71,13 @@
 "Audio recoder record fail." = "Audio grabagailuaren grbaketak kale egin du.";
 "Audio Recoder set active error: %@" = "Audio grabagailuaren aktibazio-ezarpenaren errorea: %@";
 "Audio Recoder set category error: %@" = "Audio grabagailuak kategoria ezartzeak kale egin du: %@";
-"Auto-Download Media" = "Auto-Download Media";
-"Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
+"Auto-Download Media" = "Deskargatu multimedia automatikoki";
+"Autodelete all messages after 3 days" = "Ezabatu mezu guztiak automatikoki 3 egun pasatakoan";
 "Autofocus text input on chat open" = "Autofocus text input on chat open";
 "Backgrounds" = "Hondoak";
 "Block" = "Blokeatu";
 "Block Contact" = "Blokeatu kontaktua";
-"Block from group" = "Block from group";
+"Block from group" = "Blokeatu taldetik";
 "Blocked Users" = "Blokeatutako erabiltzaileak";
 "Blocking is not supported by the server" = "Zerbitzariak ez du blokeatzen uzten";
 "Blocking/Unblocking Not Supported" = "Blokeatzea / Desblokeatzea ez dago gaituta";
@@ -96,9 +96,9 @@
 "Call security help" = "Deien segurtasunari buruzko laguntza";
 "Call Type" = "Dei mota";
 "Call was not answered" = "Ez diote deiari erantzun";
-"Calls: Allow contacts not in my contact list to call me" = "Calls: Allow contacts not in my contact list to call me";
-"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
-"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
+"Calls: Allow contacts not in my contact list to call me" = "Deiak: ahalbidetu kontaktuen zerrendan ez daudenei niri dei egitea";
+"Calls: Allow P2P sessions" = "Deiak: ahalbidetu P2P saioak";
+"Calls: Allow TURN fallback to Monal-Servers" = "Deiak: ahalbidetu Monal-en zerbitzariak TURNek huts egiterakoan";
 "Camera" = "Egin eta bidali argazkia";
 /* Camera permissions missing warning */
 "Camera permissions missing" = "Kamera erabiltzeko baimena falta da";
@@ -225,8 +225,8 @@
 "Email Error" = "ePosta errorea";
 "Email Support" = "Bidali laguntza eskaera";
 "Empty Values!" = "Balioak hutsik daude!";
-"Enable" = "Enable";
-"Enable encryption by default for new chats" = "Enable encryption by default for new chats";
+"Enable" = "Gaitu";
+"Enable encryption by default for new chats" = "Gaitu zifratzea defektuz txat berrietarako";
 "Enabled" = "Gaituta";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "Zifratutako mezuak formatu zaharra dauka eta Monalek ezin du dezifratu. Eskatu euren aplikazioa eguneratu dezatela. (GCM errorea)";
 "Encrypted session to this device broken beyond repair." = "Gailu honetako zifratutako saioa kaltetuta dago eta ezin da konpondu.";
@@ -263,7 +263,7 @@
 "Failed to block contact %@" = "Ezin izan da %@ blokeatu";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak huts egin du";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak huts egin du: denbora agortu da";
-"Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
+"Failed to copy downloaded file into cache directory: %@" = "Huts egin du deskargatutako fitxategia katxean kopiatzeak: %@";
 "Failed to create invitation for %@" = "Ezin izan da %@(r)entzat gonbidapena sortu";
 "Failed to create invitation, unknown error: %@" = "Ezin izan da gonbidapena sortu, errore ezezaguna: %@";
 "Failed to decode download link" = "Ezin izan da deskarga-esteka dekodetu";
@@ -272,17 +272,17 @@
 "Failed to decrypt filetransfer" = "Partekatutako fitxategiaren dezifratzeak kale egin du";
 "Failed to delete own avatar" = "Ezin izan da abatarra ezabatu";
 "Failed to delete own nickname" = "Ezin izan da ezizena ezabatu";
-"Failed to download file: %@" = "Failed to download file: %@";
+"Failed to download file: %@" = "Huts egin du fitxategia deskargatzeak: %@";
 "Failed to enable carbons for account %@" = "Ezin izan dira %@ konturako kopiak gaitu";
 "Failed to encrypt file" = "Ezin izan da fitxategia zifratu";
 "Failed to enter Group/Channel %@" = "%@ taldearekin / kanalarekin bat egiteak kale egin du";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "%@ taldearekin / kanalarekin bat egiteak kale egin du: ez da talde / kanal bat!";
 "Failed to export the database, please check the logfile for errors and try again." = "Datu-basea esportatzeak huts egin du; begiratu erregistroa akatsen bila eta saiatu berriro.";
-"Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
+"Failed to fetch download metadata: %@" = "Huts egin du deskargatutakoaren metadatuak eskuratzeak: %@";
 "Failed to fetch room config form for '%@'" = "'%@' gelaren konfigurazio-orria atzitzeak huts egin du";
 "Failed to load blocklist" = "Ezin izan da blokeatutakoen zerrenda kargatu";
 "Failed to moderate message in group/channel '%@'" = "'%@' talde/kanaleko mezua moderatzeak huts egin du";
-"Failed to move uploaded file to file cache directory" = "Failed to move uploaded file to file cache directory";
+"Failed to move uploaded file to file cache directory" = "Huts egin du igotako fitxategia fitxategien katxe direktoriora mugitzeak";
 "Failed to parse URL returned by HTTP upload server" = "Ezin izan da HTTP igoera zerbitzariak itzuli duen URLa aztertu";
 "Failed to publish avatar image for group/channel %@" = "%@ taldeko / kanaleko abatarren publikazioak kale egin du";
 "Failed to publish own avatar" = "Ezin izan da abatarra publikatu";
@@ -326,14 +326,14 @@
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Itzalita badago zure gailuak ezingo du zure XMPP zerbitzarian push aktibatu; egiaztatu XEP-0357-ekin bateragarria izateko ezarri duzula.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Audio mezuak erabili nahi badituzu, baimendu mikrofonoa atzitzea: Ezarpenak > Pribatutasuna > Mikrofonoa.";
-"Image Upload Quality: %@" = "Image Upload Quality: %@";
+"Image Upload Quality: %@" = "Igotzeko irudiaren kalitatea: %@";
 "Import and trust OMEMO fingerprints from QR code" = "Inportatu eta fidatu QR kodearen bidez eskuratutako OMEMO hatzmarkez";
 "Indicate when a particular device is active or inactive. Saves battery." = "Erakutsi gailu bat aktibo edo inaktibo dagoenean. Bateria aurrezten du.";
 "Input is not a valid jid" = "Sartutakoa ez da baliozko JIDa";
 "Invalid Credentials!" = "Erabiltzaile/pasahitz baliogabea!";
 /* QR-Code-Scanner: invalid format */
 "Invalid format" = "Formatu baliogabea";
-"Invalid image file!" = "Invalid image file!";
+"Invalid image file!" = "Irudi-fitxategia ez ba baliozkoa!";
 "Invalid Password!" = "Pasahitza ez da baliozkoa!";
 "Invalid State" = "Egoera baliogabea";
 "Invalid Username!" = "Erabiltzaile-izen baliogabea!";
@@ -358,10 +358,10 @@
 "Leave this conversation" = "Utzi elkarrizketa hau";
 "Leave this converstion?" = "Elkarrizketatik irten nahi duzu?";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "ePostaren kasuan bezala, kontu bat sortu dezakezu horretarako dauden webguneren batean, eta edonorekin hitz egin. Orrialde hau erabil dezakezu kontu bat sortzeko XMPP zerbitzari batean. Erabiltzaile izen eta pasahitz bat aukeratu beharko dituzu ere.";
-"Load over Cellular" = "Load over Cellular";
-"Load over cellular up to: %@ MiB" = "Load over cellular up to: %@ MiB";
-"Load over wifi" = "Load over wifi";
-"Load over WiFi up to: %@ MiB" = "Load over WiFi up to: %@ MiB";
+"Load over Cellular" = "Kargatu gailuko datuak erabiliz";
+"Load over cellular up to: %@ MiB" = "Kargatu geiluko datuak erabiliz %@ MiB arte";
+"Load over wifi" = "Kargatu WiFia erabiliz";
+"Load over WiFi up to: %@ MiB" = "Kargatu WiFia erabiliz %@ MiB arte";
 "Loading" = "Kargatzen";
 "Loading contact list" = "Kontaktuen zerrenda kargatzen";
 "Loading Data" = "Datuak kargatzen";
@@ -382,7 +382,7 @@
 "Mark as read" = "Markatu irakurritzat";
 /* Prefix for own messages in chat overview */
 "Me:" = "Neuk:";
-"Media Upload & Download" = "Media Upload & Download";
+"Media Upload & Download" = "Multimediaren igoera eta deskarga";
 /* muc affiliation */
 "Member" = "Kidea";
 "Message Archive Preferences" = "Artxibatze-hobespenak";
@@ -437,7 +437,7 @@
 "Not Authorized. Please check your credentials." = "Baimenik ez. Egiaztatu sartutako datuak.";
 "Notes to self" = "Nire buruarentzako oharrak";
 "Notes to self: %@" = "Nire buruarentzako oharrak: %@";
-"Notification privacy" = "Notification privacy";
+"Notification privacy" = "Jakinarazpenen pribatutasuna";
 "Notifications" = "Jakinarazpenak";
 "Notifications disabled" = "Jakinarazpenak ezgaituta daude";
 "Notify on all messages" = "Jakinarazi mezu guztiak jasotzean";
@@ -474,7 +474,7 @@
 "Passwords don't match!" = "Pasahitzak ez datoz bat!";
 "Permission Requested" = "Baimena eskatu zaio";
 "Photos" = "Bidali irudia";
-"Pin Chat" = "Pin Chat";
+"Pin Chat" = "Finkatu txata";
 "Play Sounds" = "Jo soinuak";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Gehitu kontu berri bat ezarpenetan lehenik. Honezkero egin baduzu litekeena da gaitu behar izatea, ezarpenetan";
 "Please Allow Audio Access" = "Baimendu audioa atzitzea";
@@ -500,7 +500,7 @@
 /* placeholder when creating account */
 "Provide XMPP-Server" = "Hautatu XMPP zerbitzaria";
 "Publishing" = "Publishing";
-"Push Server" = "Push Server";
+"Push Server" = "Push zerbitzaria";
 "Pushserver Region" = "Push zerbitzariaren eremua";
 "QR code: Fingerprints found" = "QR kodea: hatz-markak topatu dira";
 "QR-Code Scanner" = "QR kode-eskaneatzailea";
@@ -566,11 +566,11 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Hautatu zein soinu joko den mezu berrien jakinarazpenetarako. Lehenetsitakoa Xylophone da.";
 "Selected Group Members" = "Hautatutako taldeko kideak";
 "Send" = "Bidali";
-"Send last interaction time" = "Send last interaction time";
+"Send last interaction time" = "Bidali azken elkarreraginaren data";
 "Send Location" = "Bidali kokapena";
-"Send message displayed state" = "Send message displayed state";
-"Send message received state" = "Send message received state";
-"Send typing notifications" = "Send typing notifications";
+"Send message displayed state" = "Bidali mezua ikustearen egoera";
+"Send message received state" = "Bidali mezua jasotzearen egoera";
+"Send typing notifications" = "Bidali idazketa-jakinarazpenak";
 "Sending..." = "Bidaltzen…";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Pasahitzak testu hutsean bidaltzen ditu (TLS bidez zifratuta baino ez), ez da oso segurua";
 "Sent a File 📁" = "Fitxategia bidali du 📁";
@@ -598,9 +598,9 @@
 /* Camera permissions missing warning */
 "Settings" = "Ezarpenak";
 "Sharing failed" = "Partekatzeak kale egin du";
-"Show inline geo location" = "Show inline geo location";
+"Show inline geo location" = "Erakutsi kokapen geografikoa txataren barruan";
 "Show shared Media and Files" = "Erakutsi partekatutako multimedia eta fitxategiak";
-"Show URL previews" = "Show URL previews";
+"Show URL previews" = "Erakutsi URLen aurrebista";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "Mezu batzuk jasotzeko edo bidaltzeko zain daude. Ireki aplikazioa berriro saiatzeko.";
 "Something went wrong while parsing the string..." = "Zerbaitek kale egin du katea aztertzerakoan…";
 "Sounds" = "Soinuak";
@@ -660,7 +660,7 @@
 "This account already exists on this instance." = "Kontua badago lehendik ere instantzia honetan.";
 "This allows you to forcefully crash the app using several different methods to test the crash handling." = "This allows you to forcefully crash the app using several different methods to test the crash handling.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Aplikazio hau zaharregia da eta segurtasun arazoak izan ditzake edo erabilgarri egoteari utzi. Eguneratu!";
-"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
+"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Erregistroak esportatzeko balio dezake honek.\n[Ikasi nola irakur daitzkeen](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption." = "Badirudi kontaktu honek ez duela zifraketarekin beteragarria den gailurik.";
 "This contact is already in the contact list of the selected account" = "Kontaktu hau badago lehendik ere hautatutako kontuko kontaktuen zerrendan";
 "This contact is already in your contact list" = "Kontaktu hau badago lehendik ere zure kontaktuen zerrendan";
@@ -681,7 +681,7 @@
 "This message got retracted" = "Mezua atzera bota da";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Badirudi zerbitzari honek ezin dituela fitxategiak HTTP bidez igo (XEP-0363). Eskatu administrariari aukera gaitu dezala.";
 "This server does not have any SRV records in DNS." = "Zerbitzari honek ez du SRV erregistrorik.";
-"This server does not provide any MUC servers." = "This server does not provide any MUC servers.";
+"This server does not provide any MUC servers." = "Zerbitzari honek ez du MUC zerbitzaririk eskaintzen.";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Zerbitzari hau ez TLS geruzan MITM motako erasoen aurrean babesteko channel-binding modernoekin bateragarria.";
 "This server does not support modern SASL2 authentication." = "Zerbitzari hau ez da SASL2 autentifikazio modernoarekin bateragarria.";
 "This should never happen, please contact the developers and provide a logfile!" = "Hau ez litzateke inoiz gertatu beharko, jarri harremanetan garatzaileekin eta partekatu erregistro fitxategia!";
@@ -707,7 +707,7 @@
 "Type: %@" = "Mota: %@";
 "Typing..." = "Idazten…";
 "UDP Logger" = "UDP Logger";
-"UDP Logger Configuration" = "UDP Logger Configuration";
+"UDP Logger Configuration" = "UDP Logger ezarpenak";
 "UDP Logging UI not supported on iOS < 16" = "UDP Logging UI not supported on iOS < 16";
 "Unable to connect to server!" = "Ezin da zerbitzarira konektatu!";
 "Unblock Contact" = "Desblokeatu kontaktua";
@@ -735,7 +735,7 @@
 "Uploading" = "Igotzen";
 "Uploading file to server" = "Fitxategia zerbitzarira igotzen";
 "Uploading image..." = "Irudia igotzen…";
-"Use account" = "Use account";
+"Use account" = "Erabili kontua";
 /* placeholder when adding account */
 "user@domain.tld" = "erabiltzailea@domeinua.eus";
 /* BlockUserTable - blockJidForm */
@@ -816,7 +816,7 @@
 "Your contact may not support calls. Your call might never reach its destination." = "Litekeena da zure kontaktuak deiak ezin jasotzea. Agian deia ez da sekula bere hartzailera ailegatuko.";
 "Your entered XMPP ID is missing the domain" = "Idatzi duzun XMPP IDari domeinua falta zaio";
 "Your entered XMPP ID is missing the username" = "Idatzi duzun XMPP IDari erabiltzaile izena falta zaio";
-"Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
+"Your server does not provide a MUC component." = "Zure zerbitzariak ez du MUC osagarririk eskaintzen.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Zure zerbitzaria ez da MAM (XEP-0313)-ekin bateragarria. Honek esan nahi du maiz gal ditzakezula bidaltzen dizkizuten mezuak!! Aldatu zerbitzaria edo egin hitz administrariarekin funtzioa gaitu dezan!";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Zure zerbitzaria ez da Stream Management (XEP-0198)-ekin bateragarria. Honek esan nahi du maiz gal daitezkela bidaltzen dituzun mezuak!! Aldatu zerbitzaria egin hitz administrariarekin funtzioa gaitu dezan!";
