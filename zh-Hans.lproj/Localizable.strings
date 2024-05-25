@@ -137,16 +137,16 @@
 "Copy" = "复制";
 "Copy invitation link to clipboard" = "复制邀请链接到剪贴板";
 "Copy to clipboard" = "复制到剪贴板";
-"Could fetch room config form for '%@': timeout" = "无法获取 '%@' 的群聊配置表单：超时";
+"Could fetch room config form for '%@': timeout" = "无法获取“%@”的群聊配置表单：超时";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "无法访问摄像头";
 "Could not access Finder item!" = "无法访问 Finder 项目！";
 "Could not change password" = "无法更改密码";
 "Could not change password: your account is currently not connected" = "无法更改密码：您的账号当前未连接";
 "Could not change the password" = "无法修改密码";
-"Could not configure group '%@'" = "无法配置群组 '%@'";
-"Could not configure group '%@': timeout" = "无法配置群组 '%@'：超时";
-"Could not create group '%@': timeout" = "无法创建群组 '%@'：超时";
+"Could not configure group '%@'" = "无法配置群组“%@”";
+"Could not configure group '%@': timeout" = "无法配置群组“%@”：超时";
+"Could not create group '%@': timeout" = "无法创建群组“%@”：超时";
 "Could not decrypt message" = "无法解密消息";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "无法从服务器的存档中获取此聊天的（所有）旧消息。请稍后再试。 %@";
 "Could not fetch messages" = "无法获取消息";
@@ -154,7 +154,7 @@
 "Could not get default capture device" = "无法获取默认视频捕获设备";
 /* QR-Code-Scanner */
 "Could not init video session" = "无法初始化视频会话";
-"Could not join group/channel '%@': timeout" = "无法加入群组/频道 '%@'：超时";
+"Could not join group/channel '%@': timeout" = "无法加入群组/频道“%@”：超时";
 "Could not read captcha!" = "无法读取验证码！";
 "Could not register your username. Please check your code or change the username and try again." = "无法注册您的用户名。请检查您的代码或更改用户名，然后重试。";
 "Could not send" = "无法发送";
@@ -257,8 +257,8 @@
 "Error: Received OMEMO message is empty" = "错误：收到的 OMEMO 消息为空";
 "errorMessage" = "错误信息";
 "Failed to block contact %@" = "无法屏蔽联系人 %@";
-"Failed to change affiliation of '%@' in '%@' to '%@'" = "无法将 '%1$@' 在 '%2$@' 中的从属关系更改为 '%3$@'";
-"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "无法将 '%1$@' 在 '%2$@' 中的从属关系更改为 '%3$@'：超时";
+"Failed to change affiliation of '%@' in '%@' to '%@'" = "无法将“%1$@”在“%2$@”中的从属关系更改为“%3$@”";
+"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "无法将“%1$@”在“%2$@”中的从属关系更改为“%3$@”：超时";
 "Failed to copy downloaded file into cache directory: %@" = "无法将下载的文件复制到缓存目录：%@";
 "Failed to create invitation for %@" = "无法为 %@ 创建邀请";
 "Failed to create invitation, unknown error: %@" = "创建邀请失败，未知错误：%@";
@@ -381,7 +381,7 @@
 "Member" = "成员";
 "Message Archive Preferences" = "消息存档首选项";
 "Message from %@" = "以 %@ 发送消息";
-"Message was encrypted with '%@' which isn't supported by Monal" = "消息已使用 Monal 不支持的 '%@' 加密";
+"Message was encrypted with '%@' which isn't supported by Monal" = "消息已使用 Monal 不支持的“%@”加密";
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "消息已使用 OMEMO 加密，无法再解密";
 "Message was encrypted with OMEMO but could not be decrypted" = "消息已使用 OMEMO 加密，但无法解密";
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "未对此设备加密消息。请确保发送方信任设备 id %u。";
@@ -580,11 +580,11 @@
 "Sent Videos" = "已发送视频";
 "Server" = "服务器";
 "Server does not support account removal" = "服务器不支持账号移除";
-"Server for domain '%@' not responding!" = "域 '%@' 的服务器没有响应！";
+"Server for domain '%@' not responding!" = "域“%@”的服务器没有响应！";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "服务器实现错误：SASL2 任务为空，账号已禁用！";
 "Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "服务器仅支持无法抵御中间人攻击的验证方法！如果您必须使用此服务器，请使用高级账号创建菜单。";
 "Server returned invalid xml!" = "服务器返回了无效的 XML！";
-"Server returned SASL2 error '%@'." = "服务器返回 SASL2 错误 '%@'。";
+"Server returned SASL2 error '%@'." = "服务器返回 SASL2 错误“%@”。";
 "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "服务器突然不支持 SASL2-SCRAM，极有可能受到持续的中间人攻击，中止身份验证并禁用账号以限制损害。一旦您再次处于干净的网络环境中，您应该尝试重新启用您的账号。";
 "Server: %@" = "服务器：%@";
 "Set up account later" = "稍后设置账号";
@@ -790,7 +790,7 @@
 "Yes, deactivate encryption" = "是，停用加密";
 "You are set up and connected." = "您已设置并连接。";
 "You are set up and connected. People can message you at: %@@%@" = "您已设置并连接。别人可以通过以下方式向您发送消息：%@@%@";
-"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "您正在尝试呼叫“%@” (%@)，但此联系人可以通过不同的账号进行联系。请选择您要使用的账号进行呼叫。";
+"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "您正在尝试呼叫“%@”（%@），但此联系人可以通过不同的账号进行联系。请选择您要使用的账号进行呼叫。";
 "You did not grant Monal to access your location." = "您没有授权 Monal 访问您的位置。";
 "You got banned from group/channel: %@" = "您已被封禁于群组/频道：%@";
 "You got kicked from group/channel: %@" = "您已被踢出群组/频道：%@";
@@ -800,7 +800,7 @@
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "如果您希望其他人可以听到您的声音，您需要在 iOS 设置 -> 隐私 -> 麦克风中授予麦克风访问权限。";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "您已恢复了 Monal 的 iCloud 备份，请打开应用并重新启用此账号。";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "验证密钥后，您应该信任它。通过将下面的密钥与您联系人屏幕上的密钥进行比较来进行验证。双击指纹即可复制到剪贴板。";
-"You tried to call contact '%@' but this contact could not be found in your contact list." = "您尝试呼叫联系人 '%@' ，但在您的联系人列表中找不到此联系人。";
+"You tried to call contact '%@' but this contact could not be found in your contact list." = "您尝试呼叫联系人“%@”，但在您的联系人列表中找不到此联系人。";
 "You will no longer receive messages from this conversation" = "您将不再接收来自此对话的消息";
 "You will receive subsequent messages from this conversation" = "您将收到来自此对话的后续消息";
 "Your account must be enabled and connected, to be removed from the server!" = "您的账号必须启用并连接，才能从服务器中移除！";
