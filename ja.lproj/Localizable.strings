@@ -32,7 +32,6 @@
 "Add %@ to your contacts?" = "%@ を相手先に追加しますか ?";
 "Add Account" = "アカウントを追加";
 "Add Account (advanced)" = "アカウントを追加 (高度な設定)";
-"Add Group Members" = "グループメンバーを追加";
 "Add Group/Channel or Contact" = "グループ/チャンネルまたは相手先を追加";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "上部の + ボタンを使用して新しい相手先を追加します。友だちが会話できるようになると、ここに表示されます";
 "Add scanned Group/Channel or Contact" = "スキャンしたグループ/チャンネルまたは相手先を追加";
@@ -48,8 +47,6 @@
 "All messages are archived by default." = "デフォルトですべてのメッセージは保管されます。";
 "All messages fetched successfully, there are no more left on the server!" = "すべてのメッセージを正常に取得しました。サーバーにはもう残っていません。";
 "Allow" = "許可";
-"Allow approved contacts to query my Monal and iOS version" = "Allow approved contacts to query my Monal and iOS version";
-"Allow contacts not in my contact list to contact me" = "Allow contacts not in my contact list to contact me";
 "Allow MITM-prone PLAIN authentication" = "Allow MITM-prone PLAIN authentication";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "あなたを相手先として追加することを誰かに許可すると、その人はあなたのプロフィール画像や在席状況を見ることができます。";
 "Already present" = "すでに存在します";
@@ -74,10 +71,10 @@
 "Auto-Download Media" = "Auto-Download Media";
 "Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
 "Autofocus text input on chat open" = "Autofocus text input on chat open";
-"Backgrounds" = "背景";
 "Block" = "ブロック";
 "Block Contact" = "相手先をブロック";
-"Block from group" = "Block from group";
+/* muc affiliation */
+"Blocked" = "Blocked";
 "Blocked Users" = "ブロックされているユーザー";
 "Blocking is not supported by the server" = "このサーバーはブロックに対応していません";
 "Blocking/Unblocking Not Supported" = "ブロック/ブロック解除は非対応";
@@ -96,7 +93,6 @@
 "Call security help" = "Call security help";
 "Call Type" = "通話のタイプ";
 "Call was not answered" = "Call was not answered";
-"Calls: Allow contacts not in my contact list to call me" = "Calls: Allow contacts not in my contact list to call me";
 "Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
 "Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
 "Camera" = "カメラ";
@@ -113,8 +109,7 @@
 "Change Group Members" = "グループメンバーを変更";
 "Change Password" = "パスワードを変更";
 "Changing Password" = "パスワードの変更";
-"Channel description" = "Channel description";
-"Channel Members" = "Channel Members";
+"Channel Participants" = "Channel Participants";
 "Channel subject:" = "チャンネルの題:";
 "Chat Background" = "会話の背景";
 "Check type and size on " = "Check type and size on ";
@@ -125,8 +120,6 @@
 "Clear History" = "履歴を消去";
 "Clear scanned contact" = "スキャンした相手先を消去";
 "Close" = "閉じる";
-"Communication" = "Communication";
-"Configure Membership" = "Configure Membership";
 "Connected since: %@" = "%@から接続中";
 "Connected: %@" = "接続済: %@";
 "Connecting..." = "接続中...";
@@ -136,6 +129,7 @@
 "Contact not found" = "相手先は見つかりません";
 /* placeholder when adding jid */
 "Contact or Group/Channel Jid" = "相手先またはグループ/チャンネルの JID";
+"Contact Selection" = "Contact Selection";
 "Contacts" = "相手先";
 "Cool Title" = "Cool Title";
 "Copied to clipboard" = "クリップボードへコピー";
@@ -187,6 +181,8 @@
 "Delete Account on Server" = "サーバーでのアカウントを削除";
 "Delete Key" = "鍵を削除";
 "Deny new contact" = "新しい相手先を拒否";
+"Destroying channel..." = "Destroying channel...";
+"Destroying group..." = "Destroying group...";
 "Detected a new omemo device on your account: %@" = "アカウントの新しい OMEMO デバイスが検出されました: %@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "デバイス ID: ";
@@ -272,6 +268,8 @@
 "Failed to decrypt filetransfer" = "ファイル転送の復号に失敗しました";
 "Failed to delete own avatar" = "自身のアバターの削除に失敗しました";
 "Failed to delete own nickname" = "自身のニックネームの削除に失敗しました";
+"Failed to destroy group/channel '%@'" = "Failed to destroy group/channel '%@'";
+"Failed to destroy group/channel '%@': timeout" = "Failed to destroy group/channel '%@': timeout";
 "Failed to download file: %@" = "Failed to download file: %@";
 "Failed to enable carbons for account %@" = "Failed to enable carbons for account %@";
 "Failed to encrypt file" = "ファイルの暗号化に失敗しました";
@@ -304,15 +302,13 @@
 "Finished fetching messages" = "メッセージの取得が完了しました";
 "General" = "一般";
 "General File Transfer Settings" = "ファイル転送の一般設定";
+"General Settings" = "General Settings";
 "Got empty room config form for '%@'" = "Got empty room config form for '%@'";
 "GPS" = "GPS";
 "Green checkmark shield:" = "Green checkmark shield:";
-"Group Description" = "Group Description";
-"Group description" = "Group description";
 /* placeholder when editing a group description */
 "Group Description (optional)" = "Group Description (optional)";
 "Group Members" = "グループのメンバー";
-"Group name" = "Group name";
 /* placeholder when creating new group */
 "Group Name (optional)" = "グループ名 (任意)";
 "Group subject:" = "グループの題:";
@@ -338,6 +334,8 @@
 "Invalid State" = "状況が正しくありません";
 "Invalid Username!" = "ユーザー名が正しくありません。";
 "Invitation for %@ created" = "%@ の招待を作成しました";
+/* muc invite */
+"Invite again" = "Invite again";
 /* QR-Code-Scanner: Camera not found */
 "It does not seem as your device has a camera. Please use a device with a camera for scanning" = "このデバイスにはカメラが搭載されていないようです。スキャンにはカメラ付デバイスを使用してください";
 "Join Channel" = "チャンネルに参加";
@@ -375,14 +373,10 @@
 "Login" = "ログイン";
 "Login error, account disabled: %@" = "Login error, account disabled: %@";
 "Logs" = "Logs";
-"Make admin" = "Make admin";
-"Make member" = "Make member";
-"Make owner" = "Make owner";
 "Manual input" = "手入力";
 "Mark as read" = "既読としてマーク";
 /* Prefix for own messages in chat overview */
 "Me:" = "Me:";
-"Media Upload & Download" = "Media Upload & Download";
 /* muc affiliation */
 "Member" = "メンバー";
 "Message Archive Preferences" = "メッセージ保管の設定";
@@ -452,17 +446,19 @@
 "Only contacts" = "相手先のみ";
 "Open" = "開く";
 "Open app to see more" = "アプリを開いて詳細を見る";
+/* muc members list */
+"Open contact details" = "Open contact details";
 "Open contact list" = "相手先一覧を開く";
 "Open list of pending contact requests" = "保留中の相手先リクエストの一覧を開く";
 "Open Source" = "オープンソース";
 "Optional Hardcoded Hostname" = "任意の直接記述のホスト名";
 "Optional Port" = "オプションのポート";
-/* muc affiliation */
-"Outcast" = "追放者";
 "Own device key" = "自身のデバイス鍵";
 "Own Encryption Keys" = "自身の暗号化鍵";
 /* muc affiliation */
 "Owner" = "主宰者";
+/* muc affiliation */
+"Participant" = "Participant";
 /* placeholder when adding account
    placeholder when creating account
    placeholder when migrating account */
@@ -493,13 +489,9 @@
 "Port: %@, Direct TLS: %@, Priority: %@" = "ポート: %1$@, Direct TLS: %2$@, 優先度: %3$@";
 "Previews" = "Previews";
 "Privacy" = "プライバシー";
-"Privacy & Security" = "Privacy & Security";
-"Privacy and security settings" = "Privacy and security settings";
-"Privacy Settings" = "プライバシー設定";
 "Protocol support of your server (XEPs)" = "サーバーが対応しているプロトコル (XEP)";
 /* placeholder when creating account */
 "Provide XMPP-Server" = "XMPP サーバー";
-"Publishing" = "Publishing";
 "Push Server" = "Push Server";
 "Pushserver Region" = "プッシュ通知サーバーの地域";
 "QR code: Fingerprints found" = "QR コード: 指紋が見つかりました";
@@ -535,9 +527,11 @@
 "Remove Contact" = "相手先を除去";
 "Remove Conversation" = "会話を除去";
 "Remove from contacts" = "相手先一覧から除去";
-"Remove from group" = "Remove from group";
+"Removing avatar..." = "Removing avatar...";
+"Rename Channel" = "Rename Channel";
 /* placeholder text in contact details */
 "Rename Contact" = "相手先の名前を変更";
+"Rename Group" = "Rename Group";
 "Reply" = "返信";
 "Required" = "Required";
 "Reset OMEMO session" = "OMEMO セッションをリセット";
@@ -569,7 +563,6 @@
 "Send last interaction time" = "Send last interaction time";
 "Send Location" = "位置情報を送信";
 "Send message displayed state" = "Send message displayed state";
-"Send message received state" = "Send message received state";
 "Send typing notifications" = "Send typing notifications";
 "Sending..." = "送信中...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "パスワードを平文で送信 (TLS でのみ暗号化)。あまり安全ではありません";
@@ -733,8 +726,8 @@
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "ファイルをサーバーにアップロードして他の人と共有します。 (サーバーによるファイルの最大許容サイズ: %@)";
 "Upload Settings" = "アップロード設定";
 "Uploading" = "アップロード";
+"Uploading avatar..." = "Uploading avatar...";
 "Uploading file to server" = "ファイルをサーバーへアップロード";
-"Uploading image..." = "画像をアップロード...";
 "Use account" = "Use account";
 /* placeholder when adding account */
 "user@domain.tld" = "user@domain.tld";
@@ -831,4 +824,71 @@
 "📍 A Location" = "📍 位置情報";
 "📷 An Image" = "📷 画像";
 "🔗 A Link" = "🔗 リンク";
-"Publishing & Appearance" = "Publishing & Appearance";
+"%@ (affiliation: %@)" = "%@ (affiliation: %@)";
+"Accept incoming calls from strangers" = "Accept incoming calls from strangers";
+"Accept incoming messages from strangers" = "Accept incoming messages from strangers";
+"Activity indications" = "Activity indications";
+"Add members to group" = "Add members to group";
+"Adding %@..." = "Adding %@...";
+"Adding new member" = "Adding new member";
+"Allow contacts in your contact list to query your Monal and iOS versions." = "Allow contacts in your contact list to query your Monal and iOS versions.";
+"Allow contacts not in your contact list to call you." = "Allow contacts not in your contact list to call you.";
+"Allow contacts not in your contact list to contact you." = "Allow contacts not in your contact list to contact you.";
+"Allow your phone to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your phone to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
+"Attachments" = "Attachments";
+"Block user?" = "Block user?";
+"Blocking %@" = "Blocking %@";
+"Blocking member" = "Blocking member";
+"Changing %@ to " = "Changing %@ to ";
+"Changing affiliation of member" = "Changing affiliation of member";
+"Chat background image" = "Chat background image";
+"Configure the background image displayed in open chats." = "Configure the background image displayed in open chats.";
+"Debug Notification Problems" = "Debug Notification Problems";
+"Destroy Channel" = "Destroy Channel";
+"Destroy Group" = "Destroy Group";
+"Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards.";
+"Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards.";
+"Do you want to block this user from entering this group/channel?" = "Do you want to block this user from entering this group/channel?";
+"Do you want to remove this user from this channel? The user will be able to enter it again." = "Do you want to remove this user from this channel? The user will be able to enter it again.";
+"Do you want to remove this user from this group? The user won't be able to enter it again until added back to the group." = "Do you want to remove this user from this group? The user won't be able to enter it again until added back to the group.";
+"Encryption" = "Encryption";
+"Error adding new member!" = "Error adding new member!";
+"Error adding new participant!" = "Error adding new participant!";
+"Error blocking user!" = "Error blocking user!";
+"Error changing affiliation!" = "Error changing affiliation!";
+"Error changing avatar!" = "Error changing avatar!";
+"Error destroying group!" = "Error destroying group!";
+"Error inviting user!" = "Error inviting user!";
+"Error removing avatar!" = "Error removing avatar!";
+"Error removing user!" = "Error removing user!";
+"errorMessageUnknown error!" = "errorMessageUnknown error!";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.";
+"Input" = "Input";
+"Interactions" = "Interactions";
+"Invite participants to channel" = "Invite participants to channel";
+"Inviting new participant" = "Inviting new participant";
+"Inviting user" = "Inviting user";
+"Inviting user to this group/channel: %@" = "Inviting user to this group/channel: %@";
+"Let your contacts know if you are typing a message." = "Let your contacts know if you are typing a message.";
+"Let your contacts know if you read a message." = "Let your contacts know if you read a message.";
+"Let your contacts know if you received a message." = "Let your contacts know if you received a message.";
+"Let your contacts know when you last opened the app." = "Let your contacts know when you last opened the app.";
+"Misc" = "Misc";
+"On this device" = "On this device";
+"Publish version" = "Publish version";
+"Really remove avatar?" = "Really remove avatar?";
+"Received geo locations are shared with Apple's Maps App." = "Received geo locations are shared with Apple's Maps App.";
+"Remove user?" = "Remove user?";
+"Removing %@..." = "Removing %@...";
+"Removing member" = "Removing member";
+"Security" = "Security";
+"Send message received" = "Send message received";
+"Successfully destroyed channel." = "Successfully destroyed channel.";
+"Successfully destroyed group." = "Successfully destroyed group.";
+"The operator of the webserver providing that URL may see your IP address." = "The operator of the webserver providing that URL may see your IP address.";
+"This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
+"This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
+"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc.";
+"Use DNSSEC validation for all connections" = "Use DNSSEC validation for all connections";
+"User Interface" = "User Interface";
+"Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise.";
