@@ -268,8 +268,8 @@
 "Failed to decrypt filetransfer" = "Dateiübertragung konnte nicht entschlüsselt werden";
 "Failed to delete own avatar" = "Eigenes Profilbild konnte nicht gelöscht werden";
 "Failed to delete own nickname" = "Eigener Nickname konnte nicht gelöscht werden";
-"Failed to destroy group/channel '%@'" = "Failed to destroy group/channel '%@'";
-"Failed to destroy group/channel '%@': timeout" = "Failed to destroy group/channel '%@': timeout";
+"Failed to destroy group/channel '%@'" = "Gruppe/Channel '%@' konnte nicht aufgelöst werden";
+"Failed to destroy group/channel '%@': timeout" = "Gruppe/Channel '%@' konnte nicht aufgelöst werden: Zeitüberschreitung";
 "Failed to download file: %@" = "Datei kann nicht heruntergeladen werden: %@";
 "Failed to enable carbons for account %@" = "Nachrichtenkopien für das Konto %@ konnten nicht aktiviert werden";
 "Failed to encrypt file" = "Datei konnte nicht verschlüsselt werden";
@@ -447,7 +447,7 @@
 "Open" = "Öffnen";
 "Open app to see more" = "App öffnen, um mehr zu sehen";
 /* muc members list */
-"Open contact details" = "Open contact details";
+"Open contact details" = "Kontaktinformationen öffnen";
 "Open contact list" = "Kontaktliste öffnen";
 "Open list of pending contact requests" = "Liste der ausstehenden Kontaktanfragen öffnen";
 "Open Source" = "Quelloffen";
@@ -458,7 +458,7 @@
 /* muc affiliation */
 "Owner" = "Eigentümer";
 /* muc affiliation */
-"Participant" = "Participant";
+"Participant" = "Teilnehmer";
 /* placeholder when adding account
    placeholder when creating account
    placeholder when migrating account */
@@ -527,11 +527,11 @@
 "Remove Contact" = "Kontakt entfernen";
 "Remove Conversation" = "Unterhaltung entfernen";
 "Remove from contacts" = "Aus den Kontakten entfernen";
-"Removing avatar..." = "Removing avatar...";
-"Rename Channel" = "Rename Channel";
+"Removing avatar..." = "Profilbild löschen...";
+"Rename Channel" = "Channel umbenennen";
 /* placeholder text in contact details */
 "Rename Contact" = "Kontakt umbenennen";
-"Rename Group" = "Rename Group";
+"Rename Group" = "Gruppe umbenennen";
 "Reply" = "Antworten";
 "Required" = "Erforderlich";
 "Reset OMEMO session" = "OMEMO-Sitzung zurücksetzen";
@@ -726,7 +726,7 @@
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Dateien auf den Server hochladen, um diese mit anderen zu teilen. (Maximal vom Server erlaubte Dateigröße: %@)";
 "Upload Settings" = "Upload-Einstellungen";
 "Uploading" = "Hochladen";
-"Uploading avatar..." = "Uploading avatar...";
+"Uploading avatar..." = "Profilbild hochladen...";
 "Uploading file to server" = "Lade Datei auf den Server hoch";
 "Use account" = "Konto verwenden";
 /* placeholder when adding account */
@@ -824,10 +824,10 @@
 "📍 A Location" = "📍 Ein Standort";
 "📷 An Image" = "📷 Ein Bild";
 "🔗 A Link" = "🔗 Ein Link";
-"%@ (affiliation: %@)" = "%@ (affiliation: %@)";
+"%@ (affiliation: %@)" = "%@ (Zugehörigkeit: %@)";
 "Accept incoming calls from strangers" = "Eingehende Anrufe von Unbekannten akzeptieren";
 "Accept incoming messages from strangers" = "Eingehende Nachrichten von Unbekannten akzeptieren";
-"Activity indications" = "Activity indications";
+"Activity indications" = "Aktivitätsanzeigen";
 "Add members to group" = "Mitglieder zur Gruppe hinzufügen";
 "Adding %@..." = "%@ hinzufügen...";
 "Adding new member" = "Neues Mitglied hinzufügen";
@@ -843,7 +843,7 @@
 "Changing affiliation of member" = "Änderung der Zugehörigkeit eines Mitglieds";
 "Chat background image" = "Hintergrundbild des Chats";
 "Configure the background image displayed in open chats." = "Hintergrundbild konfigurieren, das in offenen Chats angezeigt wird.";
-"Debug Notification Problems" = "Debug Notification Problems";
+"Debug Notification Problems" = "Benachrichtigungsprobleme beheben";
 "Destroy Channel" = "Channel auflösen";
 "Destroy Group" = "Gruppe auflösen";
 "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "Willst du diesen Channel wirklich auflösen? Jedes Mitglied wird ausgeschlossen und der Channel wird danach aufgelöst.";
@@ -861,7 +861,7 @@
 "Error inviting user!" = "Fehler beim Einladen des Benutzers!";
 "Error removing avatar!" = "Fehler beim Entfernen des Profilbildes!";
 "Error removing user!" = "Fehler beim Entfernen des Benutzers!";
-"errorMessageUnknown error!" = "errorMessageUnknown error!";
+"errorMessageUnknown error!" = "Fehlermeldung Unbekannter Fehler!";
 "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Bei jedem neuen Kontakt wird die Verschlüsselung aktiviert, aber bereits bekannte Kontakte behalten ihre Verschlüsselungseinstellungen bei.";
 "Input" = "Eingabe";
 "Interactions" = "Interaktionen";
@@ -873,22 +873,22 @@
 "Let your contacts know if you read a message." = "Informiere deine Kontakte, wenn du eine Nachricht gelesen hast.";
 "Let your contacts know if you received a message." = "Informiere deine Kontakte, wenn du eine Nachricht erhalten hast.";
 "Let your contacts know when you last opened the app." = "Informiere deine Kontakte, wann du die App zuletzt geöffnet hast.";
-"Misc" = "Misc";
-"On this device" = "On this device";
-"Publish version" = "Publish version";
-"Really remove avatar?" = "Really remove avatar?";
-"Received geo locations are shared with Apple's Maps App." = "Received geo locations are shared with Apple's Maps App.";
-"Remove user?" = "Remove user?";
-"Removing %@..." = "Removing %@...";
-"Removing member" = "Removing member";
-"Security" = "Security";
-"Send message received" = "Send message received";
-"Successfully destroyed channel." = "Successfully destroyed channel.";
-"Successfully destroyed group." = "Successfully destroyed group.";
-"The operator of the webserver providing that URL may see your IP address." = "The operator of the webserver providing that URL may see your IP address.";
-"This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
-"This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
-"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc.";
-"Use DNSSEC validation for all connections" = "Use DNSSEC validation for all connections";
-"User Interface" = "User Interface";
-"Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise.";
+"Misc" = "Sonstige";
+"On this device" = "Auf diesem Gerät";
+"Publish version" = "Version veröffentlichen";
+"Really remove avatar?" = "Profilbild wirklich entfernen?";
+"Received geo locations are shared with Apple's Maps App." = "Empfangene Standortdaten werden mit Apples Karten-App geteilt.";
+"Remove user?" = "Nutzer entfernen?";
+"Removing %@..." = "%@ entfernen...";
+"Removing member" = "Mitglied entfernen";
+"Security" = "Sicherheit";
+"Send message received" = "Gesendete Nachricht erhalten";
+"Successfully destroyed channel." = "Channel erfolgreich aufgelöst.";
+"Successfully destroyed group." = "Gruppe erfolgreich aufgelöst.";
+"The operator of the webserver providing that URL may see your IP address." = "Der Betreiber des Webservers, der diese URL bereitstellt, kann deine IP-Adresse sehen.";
+"This will make calls possible even if your XMPP server does not provide a TURN server." = "Damit sind Anrufe auch dann möglich, wenn dein XMPP-Server keinen TURN-Server bereitstellt.";
+"This will remove the current avatar image and revert this group/channel to the default one." = "Dadurch wird das aktuelle Profilbild entfernt und die Gruppe/Channel auf das Standardbild zurückgesetzt.";
+"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "DNSSEC verwenden, um alle DNS-Abfrageantworten zu validieren, bevor eine Verbindung zu der in der DNS-Antwort angegebenen IP-Adresse hergestellt wird.\nDies ist zwar sicherer, kann aber in bestimmten Netzen, wie z. B. dem WLAN in Hotels oder bei schlechten Mobilfunkanbietern, zu Verbindungsproblemen führen.";
+"Use DNSSEC validation for all connections" = "DNSSEC-Validierung für alle Verbindungen verwenden";
+"User Interface" = "Benutzeroberfläche";
+"Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Fokussiert das Textfeld unter macOS oder iOS mit angeschlossener Hardware-Tastatur, ansonsten wird die Software-Tastatur geöffnet.";
