@@ -105,7 +105,7 @@
 "Caps hash: %@" = "Caps hash: %@";
 /* placeholder when creating account */
 "Captcha" = "Captcha";
-"Change Chat Background" = "Cambiar el fondo del pantalla";
+"Change Chat Background" = "Cambia el fondo del chat";
 "Change Group Members" = "Cambiar miembros del grupo";
 "Change Password" = "Cambiar la contraseña";
 "Changing Password" = "Cambiando contraseña";
@@ -222,7 +222,7 @@
 "Email Support" = "Correo de soporte";
 "Empty Values!" = "Valores vacíos !";
 "Enable" = "Activar";
-"Enable encryption by default for new chats" = "Activar  encriptación por defecto en las conversaciones nuevas";
+"Enable encryption by default for new chats" = "Activar  encriptación por defecto en los chats nuevos";
 "Enabled" = "Habilitado";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "El mensaje cifrado se envió en un formato anterior que Monal no puede descifrar. Pídeles que actualicen su cliente. (Error de GCM)";
 "Encrypted session to this device broken beyond repair." = "La sesión cifrada de este dispositivo no se puede reparar.";
@@ -305,7 +305,7 @@
 "General Settings" = "Configuración general";
 "Got empty room config form for '%@'" = "Got empty room config form for '%@'";
 "GPS" = "GPS";
-"Green checkmark shield:" = "Escudo de verificación verde:";
+"Green checkmark shield:" = "Escudo verde con tilde :";
 /* placeholder when editing a group description */
 "Group Description (optional)" = "Descripción del grupo (opcional)";
 "Group Members" = "Miembros del grupo";
@@ -320,7 +320,7 @@
 "I need an account:" = "Necesito una cuenta:";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Si Monal no puede mostrar notificaciones, no verás alertas cuando llegue un mensaje. Esto sucede si tocaste 'Rechazar' cuando Monal pidió permiso por primera vez. Arréglalo yendo a Configuración de iOS -> Monal -> Notificaciones y seleccione 'Permitir notificaciones'.";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Si está desactivado, tu dispositivo no pudo activar push en tu servidor xmpp, asegúrate de haberlo configurado para admitir XEP-0357.";
-"If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "Si activa esta opción, ya no estará protegido de ataques de \"man-in-the-middle\". Este tipo de ataque permite que agresor pueda manipular los mensajes que envía y recibe, agregar su propia llave OMEMO, cambiar los detalles de su cuenta y hasta podrá develar y cambiar su clave!\n\nSería mejore cambiar de servidor en lugar de activarla.";
+"If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "Si activa esta opción, ya no estará protegido de ataques \"man-in-the-middle\". Este tipo de ataque permite que un agresor pueda manipular los mensajes que envía y recibe, agregar su propia llave OMEMO, cambiar los detalles de su cuenta y hasta podrá develar y cambiar su clave!\n\nSería mejor cambiar de servidor en lugar de activarla.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Si quieres utilizar un mensaje de audio, deberás permitir el acceso en Configuración-> Privacidad-> Micrófono.";
 "Image Upload Quality: %@" = "Calidad de la imagen enviada: %@";
 "Import and trust OMEMO fingerprints from QR code" = "Importar y confiar en las huellas OMEMO desde el código QR";
@@ -390,7 +390,7 @@
 "Messages never archived by default." = "Mensajes nunca archivados por defecto.";
 "Method: %@" = "Método: %@";
 "Migration Assistant" = "Asistente de migración";
-"Missing Call Support" = "Ausencia de soporte para llamadas";
+"Missing Call Support" = "Sin soporte para llamadas";
 "Missing permission" = "Falta permiso";
 "Monal" = "Monal";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal confía en esta clave, pero aún no se compararon las huellas . ¡Para aumentar la seguridad, confirma con el contacto que las huellas mostradas coinciden antes de confiar en esta clave!";
@@ -447,7 +447,7 @@
 "Open" = "Abrir";
 "Open app to see more" = "Abrir la aplicación para ver más";
 /* muc members list */
-"Open contact details" = "Abrir detalles del contacto";
+"Open contact details" = "Ver detalles del contacto";
 "Open contact list" = "Abrir lista de contactos";
 "Open list of pending contact requests" = "Abrir lista de peticiones de contactos pendientes";
 "Open Source" = "Código abierto";
@@ -516,7 +516,7 @@
 "Recode Success" = "Recodificación exitosa";
 "Reconnecting..." = "Reconectando...";
 "Recording audio" = "Grabando audio";
-"Red x-mark shield:" = "Red x-mark shield:";
+"Red x-mark shield:" = "Escudo rojo con marca x:";
 "Refreshing..." = "Refrescando…";
 "Register a new account" = "Registrar una nueva cuenta";
 "Register with %@" = "Registrar con %@";
@@ -616,7 +616,7 @@
 "The account has been removed" = "La cuenta ha sido borrada";
 "The account has been saved" = "La cuenta ha sido guardada";
 /* Crash reporting */
-"The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "Hubo un fallo la última vez que intento abrir la aplicación. Enviar reporte de fallo? El reporte de contendrá información sensible sobre su privacidad. Solo accederemos a dicha información con la finalidad de diagnosticar el fallo y procederemos a su eliminación inmediatamente después!";
+"The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "Hubo un fallo la última vez que intentó abrir la aplicación. Enviar reporte de fallo? El reporte de contendrá información sensible sobre su privacidad. Solo accederemos a dicha información con la finalidad de diagnosticar el fallo y procederemos a su eliminación inmediatamente después!";
 "The chat history has been cleared" = "El historial de chat ha sido borrado";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "La conexión con el servidor se interrumpió y no se pudieron obtener mensajes antiguos para este chat. Por favor, inténtalo de nuevo más tarde.";
 "The current password is not correct." = "La contraseña actual no es correcta.";
@@ -625,7 +625,7 @@
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "El nuevo contacto se agregará a tu lista de contactos cuando la persona que hayas agregado haya aprobado tu solicitud.";
 "The password has been changed" = "La contraseña ha sido cambiada";
 /* QR-Code-Scanner: account scan wrong menu */
-"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "El código QR contiene las credenciales de una cuenta. Dirijase a Configuración -> nueva cuenta y vuelva a escanear el código QR";
+"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "El código QR contiene las credenciales de una cuenta. Diríjase a Configuración -> nueva cuenta y vuelva a escanear el código QR";
 "The resource '%@' has the following capabilities:" = "El recurso '%@' tiene las siguientes capacidades:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "Los servidores XMPP seleccionables son servidores públicos que no están afiliados a Monal. Esta página de registro se proporciona únicamente para tu comodidad.";
 "The server does not support blocking (XEP-0191)." = "El servidor no soporta bloqueo (XEP-0191).";
@@ -674,7 +674,7 @@
 "This message got retracted" = "Este mensaje se retractó";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Este servidor no parece admitir la carga de archivos HTTP (XEP-0363). Pide al administrador que lo habilite.";
 "This server does not have any SRV records in DNS." = "Este servidor no tiene registros SRV en DNS.";
-"This server does not provide any MUC servers." = "This server does not provide any MUC servers.";
+"This server does not provide any MUC servers." = "Este servidor no provee ningún servidor MUC.";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Este servidor no admite ningún enlace de canal moderno para protegerse contra ataques MITM en la capa TLS.";
 "This server does not support modern SASL2 authentication." = "Este servidor no soporta autenticación SASL2 moderna.";
 "This should never happen, please contact the developers and provide a logfile!" = "¡Esto nunca debería suceder, comunica con los desarrolladores y proporciona un archivo de registro!";
@@ -699,14 +699,14 @@
 "Try nevertheless" = "Inténtalo de todos modos";
 "Type: %@" = "Tipo: %@";
 "Typing..." = "Escribiendo...";
-"UDP Logger" = "UDP Logger";
-"UDP Logger Configuration" = "UDP Logger Configuration";
-"UDP Logging UI not supported on iOS < 16" = "UDP Logging UI not supported on iOS < 16";
+"UDP Logger" = "Logger UDP";
+"UDP Logger Configuration" = "Configuración del Logger UDP";
+"UDP Logging UI not supported on iOS < 16" = "IU del Logger UDP sin soporte en iOS < 16";
 "Unable to connect to server!" = "¡No se puede conectar al servidor!";
 "Unblock Contact" = "Desbloquear contacto";
 "Unclean appex shutown" = "Unclean appex shutown";
 "Undefined error" = "Error indefinido";
-"Understood" = "Understood";
+"Understood" = "Entendido";
 "Unexpected appex expiration" = "Unexpected appex expiration";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
 "Unexpected error while checking type of jid, please try again" = "Error inesperado al verificar el tipo de jid, intenta nuevamente";
@@ -717,7 +717,7 @@
 "unknown" = "desconocido";
 "Unknown authentication method" = "Método de autenticación desconocido";
 "Unknown channel-binding type" = "Tipo de enlace de canal desconocido";
-"Unknown error!" = "Unknown error!";
+"Unknown error!" = "Error desconocido!";
 "Unread Messages Below" = "Mensajes no leídos a continuación";
 "unsupported" = "sin soporte";
 "Untrusted key" = "Clave no confiable";
@@ -728,13 +728,13 @@
 "Uploading" = "Cargando";
 "Uploading avatar..." = "Uploading avatar...";
 "Uploading file to server" = "Cargando fichero en el servidor";
-"Use account" = "Use account";
+"Use account" = "Usar cuenta";
 /* placeholder when adding account */
 "user@domain.tld" = "user@domain.tld";
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "usuario@ejemplo.org/recurso";
 /* placeholder when creating account */
-"Username" = "Username";
+"Username" = "Nombre de usuario";
 "Username missing" = "Falta el nombre de usuario";
 "Uses TLS client certificates for authentication" = "Usa certificados TLS de cliente para autenticación";
 "Version" = "Versión";
@@ -742,16 +742,16 @@
 "version %@%@" = "version %1$@%2$@";
 "Very old app version" = "Versión muy antigua de la aplicación";
 "Waiting for GPS signal" = "Esperando señal de GPS";
-"Warning" = "Warning";
+"Warning" = "Advertencia";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "No pudimos encontrar un código QR relacionado con xmpp";
 "We don't support any task requested by the server, account disabled: %@" = "No admitimos ninguna tarea solicitada por el servidor, cuenta deshabilitada: %@";
 "We don't support the single task requested by the server, account disabled: %@" = "No admitimos la tarea individual solicitada por el servidor, cuenta deshabilitada: %@";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "No fue posible conectarse a su cuenta. Por favor verifique su nombre de usuario, password y asegúrese de estar conectado a la internet.";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "No fue posible conectarse a su cuenta. Por favor verifique su nombre de usuario, password y asegúrese de estar conectado a la internet.\n\nMensaje de error técnico: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "El tipo de enlace de canal más débil, que no protege contra certificados/claves robados, pero detecta certificados emitidos incorrectamente.";
 "Welcome" = "Bienvenido";
-"What call do you want to place?" = "What call do you want to place?";
+"What call do you want to place?" = "Que llamada quiere hacer?";
 "When you start talking to someone,\n they will show up here." = "Cuando empieces a hablar con alguien,\n aparecerán aquí.";
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
@@ -760,7 +760,7 @@
 "XEP-0191: Blocking Command" = "XEP-0191: Blocking Command";
 "XEP-0198: Stream Management" = "XEP-0198: Stream Management";
 "XEP-0199: XMPP Ping" = "XEP-0199: XMPP Ping";
-"XEP-0215: External Service Discovery" = "XEP-0215: External Service Discovery";
+"XEP-0215: External Service Discovery" = "XEP-0215: Descubrimiento de servicio externo";
 "XEP-0237: Roster Versioning" = "XEP-0237: Roster Versioning";
 "XEP-0280: Message Carbons" = "XEP-0280: Message Carbons";
 "XEP-0313: Message Archive Management" = "XEP-0313: Message Archive Management";
@@ -778,26 +778,26 @@
 "XMPP ID missing" = "Falta el ID de XMPP";
 "XMPP mam preferences error" = "Error de preferencias MAM";
 "XMPP protocol extension for communications blocking." = "Extensión de protocolo XMPP para bloqueo de comunicaciones.";
-"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls.";
+"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "Extensión del protocolo XMPP para descubrir servicios externos de la red XMPP, como los servidores STUN o TURN necesarios para llamadas de Audio-Video.";
 "XMPP protocol extension for sending application-level pings over XML streams." = "Extensión del protocolo XMPP para enviar pings de nivel de aplicación a través de secuencias XML.";
 "XMPP Roster Error" = "Error de lista XMPP";
 "XMPP server domain not valid!" = "¡El dominio del servidor XMPP no es válido!";
 "XMPP stream error %@: %@" = "Error de transmisión XMPP %1$@: %2$@";
 "XMPP stream error: %@" = "Error de transmisión XMPP: %@";
 "XMPPServer" = "Servidor XMPP";
-"Yellow checkmark shield:" = "Yellow checkmark shield:";
+"Yellow checkmark shield:" = "Escudo amarillo de tilde:";
 "Yes" = "Sí";
 "Yes, deactivate encryption" = "Sí, desactivar cifrado";
 "You are set up and connected." = "Estás configurado y conectado.";
 "You are set up and connected. People can message you at: %@@%@" = "Está configurado y conectado. Pueden enviarte mensajes a: %@@%@";
-"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
+"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "Está intentando llamar a '%@' (%@), pero este contacto puede ser encontrado utilizando distintas cuentas. Por favor seleccione la cuenta con la que desea realizar la llamada.";
 "You did not grant Monal to access your location." = "No autorizaste a Monal acceder tu ubicación.";
 "You got banned from group/channel: %@" = "You got banned from group/channel: %@";
 "You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
 "You got removed from group/channel: %@" = "You got removed from group/channel: %@";
 "You have not entered your XMPP ID yet" = "Aún no has ingresado tu ID de XMPP";
 "You need friends for this ride" = "Necesitas amigas para este viaje";
-"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
+"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Necesita conceder acceso al micrófono en iOS Configuración-> Privacidad-> Micrófono, si quiere que lo pueda oir.";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Restauraste una copia de seguridad de Monal desde iCloud, abre la aplicación para volver a habilitar esta cuenta.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "You tried to call contact '%@' but this contact could not be found in your contact list.";
@@ -870,7 +870,7 @@
 "Inviting user" = "Invitando usuario";
 "Inviting user to this group/channel: %@" = "Invitando usuarios al grupo o canal: %@";
 "Let your contacts know if you are typing a message." = "Permitir que sus contactos sepan que usted se encuentra escribiendo un mensaje.";
-"Let your contacts know if you read a message." = "Permitir que sus contactos sepan que usted ha leído un mensaje.";
+"Let your contacts know if you read a message." = "Permitir confirmación de lectura.";
 "Let your contacts know if you received a message." = "Permitir que sus contactos sepan que usted ha recibido el mensaje.";
 "Let your contacts know when you last opened the app." = "Permitir que sus contactos sepan cuando fue la última vez que usted abrió la app.";
 "Misc" = "Misceláneos";
@@ -886,9 +886,9 @@
 "Successfully destroyed channel." = "Canal exitosamente eliminado.";
 "Successfully destroyed group." = "Grupo exitosamente eliminado.";
 "The operator of the webserver providing that URL may see your IP address." = "El operador del servidor web responsable de la URL puede ver su dirección IP.";
-"This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
-"This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
+"This will make calls possible even if your XMPP server does not provide a TURN server." = "Esto hará que sean posibles las llamadas aún si su servidor XMPP no provee un servidor TURN.";
+"This will remove the current avatar image and revert this group/channel to the default one." = "Esto eliminará la imágen actualmente en uso como avatar en el grupo/canal y le devolverá la imágen asignada por defecto.";
 "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc.";
-"Use DNSSEC validation for all connections" = "Use DNSSEC validation for all connections";
-"User Interface" = "User Interface";
+"Use DNSSEC validation for all connections" = "Usar validación DNSSEC para todas las conexiones";
+"User Interface" = "Interfaz de usuario";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise.";
