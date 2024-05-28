@@ -342,15 +342,15 @@
 "Join Group" = "Unirse al grupo";
 "Just seen" = "Recién visto";
 "Keys of %@" = "Llaves de %@";
-"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
-"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
+"Kicked from group/channel, because of system shutdown: %@" = "Expulsado del grupo/canal debido a que el sistema fue apagado: %@";
+"Kicked, because group/channel is now members-only: %@" = "Expulsado porque el grupo/canal ahora es solo para miembros: %@";
 "Last seen: %@" = "Visto por última vez: %@";
-"Last seen: %d days ago" = "Last seen: %d days ago";
-"Last seen: %d hours ago" = "Last seen: %d hours ago";
-"Last seen: %d minutes ago" = "Last seen: %d minutes ago";
-"Last seen: 1 day ago" = "Last seen: 1 day ago";
-"Last seen: 1 hour ago" = "Last seen: 1 hour ago";
-"Last seen: 1 minute ago" = "Last seen: 1 minute ago";
+"Last seen: %d days ago" = "Visto por última vez hace: %d días";
+"Last seen: %d hours ago" = "Visto por última vez hace: %d horas";
+"Last seen: %d minutes ago" = "Visto por última vez hace: %d minutos";
+"Last seen: 1 day ago" = "Visto por última vez hace: 1 día";
+"Last seen: 1 hour ago" = "Visto por última vez hace: 1 hora";
+"Last seen: 1 minute ago" = "Visto por última vez hace: 1 minuto";
 "Leave Channel" = "Abandonar canal";
 "Leave Group" = "Abandonar grupo";
 "Leave this conversation" = "Abandonar esta conversación";
@@ -371,7 +371,7 @@
 "Logfiles" = "Archivos de registro";
 "Logging in" = "Iniciando sesión";
 "Login" = "Acceso";
-"Login error, account disabled: %@" = "Login error, account disabled: %@";
+"Login error, account disabled: %@" = "Error al iniciar sesión, cuenta inhabilitada: %@";
 "Logs" = "Registros";
 "Manual input" = "Ingreso manual";
 "Mark as read" = "Marcar como leído";
@@ -381,10 +381,10 @@
 "Member" = "Miembro";
 "Message Archive Preferences" = "Preferencias de archivado de mensajes";
 "Message from %@" = "Mensaje de %@";
-"Message was encrypted with '%@' which isn't supported by Monal" = "Message was encrypted with '%@' which isn't supported by Monal";
-"Message was encrypted with OMEMO and can't be decrypted anymore" = "Message was encrypted with OMEMO and can't be decrypted anymore";
-"Message was encrypted with OMEMO but could not be decrypted" = "Message was encrypted with OMEMO but could not be decrypted";
-"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u.";
+"Message was encrypted with '%@' which isn't supported by Monal" = "El mensaje fue encriptado con '%@' para el cual Monal no tiene soporte";
+"Message was encrypted with OMEMO and can't be decrypted anymore" = "El mensaje se encriptado con OMEMO y ya no se puede desencriptar";
+"Message was encrypted with OMEMO but could not be decrypted" = "El mensaje se encriptado con OMEMO pero no se pudo ser desencriptado";
+"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "El mensaje no fue encriptado para este dispositivo. Por favor asegúrese de que el remitente confía en el dispositivo %u.";
 "Messages are encrypted" = "Los mensajes están encriptados";
 "Messages are NOT encrypted" = "Los mensajes NO están encriptados";
 "Messages never archived by default." = "No archivar mensajes por defecto.";
@@ -406,7 +406,7 @@
 "Never archive" = "No archivar nunca";
 "New Account" = "Cuenta nueva";
 "New Message" = "Nuevo mensaje";
-"New omemo device" = "New omemo device";
+"New omemo device" = "Dispositivo OMEMO nuevo";
 "New Password" = "Nueva contraseña";
 "Newest TLS version which is faster than TLS 1.2" = "Versión más reciente de TLS, más rápida que TLS 1.2";
 "No" = "No";
@@ -422,15 +422,15 @@
 "No one is here" = "No hay nadie aquí";
 "No pending requests" = "Sin peticiones pendientes";
 "No search result." = "No hay resultados de búsqueda.";
-"No supported auth mechanism found, disabling account!" = "No supported auth mechanism found, disabling account!";
+"No supported auth mechanism found, disabling account!" = "No se encontró mecanismo de autenticación compatible, ¡deshabilitando la cuenta!";
 "No XMPP server!" = "¡Sin servidor XMPP!";
 "No, keep encryption activated" = "No, mantener encriptación activada";
 /* Crash reporting */
 "No, thanks" = "No, gracias";
 "None" = "Ninguno";
-"Not Authorized. Please check your credentials." = "Not Authorized. Please check your credentials.";
-"Notes to self" = "Notes to self";
-"Notes to self: %@" = "Notes to self: %@";
+"Not Authorized. Please check your credentials." = "No autorizado. Por favor verifique sus credenciales.";
+"Notes to self" = "Notas personales";
+"Notes to self: %@" = "Notas personales: %@";
 "Notification privacy" = "Privacidad de las notificaciones";
 "Notifications" = "Notificaciones";
 "Notifications disabled" = "Notificaciones deshabilitadas";
@@ -442,7 +442,7 @@
 "OK" = "OK";
 "Okay" = "Ok";
 "Older, slower, but still secure TLS version" = "Versión de TLS más antigua, más lenta, pero aún segura";
-"Online" = "Online";
+"Online" = "Conectado";
 "Only contacts" = "Solo contactos";
 "Open" = "Abrir";
 "Open app to see more" = "Abrir la aplicación para ver más";
@@ -503,13 +503,13 @@
 "Rate Monal" = "Valúa a Monal";
 "Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "Recibe notificaciones push vía Apple aún cuando estés desconectado. Mejora notablemente la confiabilidad.";
 /* directory for downloaded audios */
-"Received Audios" = "Received Audios";
+"Received Audios" = "Audios recibidos";
 /* directory for downloaded files */
-"Received Files" = "Received Files";
+"Received Files" = "Archivos recibidos";
 /* directory for downloaded images */
-"Received Images" = "Received Images";
+"Received Images" = "Imágenes recibidas";
 /* directory for downloaded videos */
-"Received Videos" = "Received Videos";
+"Received Videos" = "Videos recibidos";
 /* shareViewController: recipient */
 "Recipient" = "Destinatario/Destinataria";
 "Recode Fail:" = "Error de recodificación:";
@@ -546,9 +546,9 @@
 "Ringing..." = "Llamando …";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Mecanismo de autenticación \"Salted Challenge Response\" utilizando método \"Hash\"";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Mecanismo de autenticación \"Salted Challenge Response\" utilizando método \"Hash\", con seguridad adicional utilizando \"Channel-Binding\"";
-"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Ataque de degradación de SASL2 a SASL1 detectado, abortando autenticación e inhabilitando cuenta para limitar el daño. Debería intentar rehabilitar su cuando se encuentre nuevamente en un entorno de red seguro.";
 "Saving changes to server" = "Guardando cambios en el servidor";
-"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Prueba del servidor SCRAM errónea, ataque MITM altamente probable, abortando autenticación e inhabilitando cuenta para limitar el daño. Debería intentar rehabilitar su cuando se encuentre nuevamente en un entorno de red seguro.";
 /* mac only string */
 "Scroll down to load more messages" = "Deslizar hacia abajo para cargar más mensajes";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "\"Secure channel-binding\" definido para TLS1.3 y algunas conexiones TLS1.2.";
@@ -566,26 +566,26 @@
 "Send typing notifications" = "Enviar notificación de escritura";
 "Sending..." = "Enviando …";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Envía contraseña en texto plano (solo cifrado por TLS). No es muy seguro.";
-"Sent a File 📁" = "Sent a File 📁";
+"Sent a File 📁" = "Archivo enviado 📁";
 "Sent a Link 🔗" = "Enviar enlace 🔗";
-"Sent a Location 📍" = "Sent a Location 📍";
+"Sent a Location 📍" = "Ubicación enviada 📍";
 "Sent an Image 📷" = "Enviar una imagen 📷";
 /* directory for downloaded audios */
-"Sent Audios" = "Sent Audios";
+"Sent Audios" = "Audios enviados";
 /* directory for downloaded files */
-"Sent Files" = "Sent Files";
+"Sent Files" = "Archivos enviados";
 /* directory for downloaded images */
-"Sent Images" = "Sent Images";
+"Sent Images" = "Imágenes enviadas";
 /* directory for downloaded videos */
-"Sent Videos" = "Sent Videos";
+"Sent Videos" = "Videos enviados";
 "Server" = "Servidor";
 "Server does not support account removal" = "Server does not support account removal";
-"Server for domain '%@' not responding!" = "Server for domain '%@' not responding!";
-"Server implementation error: SASL2 tasks empty, account disabled!" = "Server implementation error: SASL2 tasks empty, account disabled!";
-"Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server.";
+"Server for domain '%@' not responding!" = "¡El servidor del dominio '%@' no responde!";
+"Server implementation error: SASL2 tasks empty, account disabled!" = "Error de implementación del servidor: tareas SASL2 vacías, ¡cuenta deshabilitada!";
+"Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "¡El servidor solo soporta métodos de autenticación inseguros contra un ataque MITM! Utilice el menú de creación de cuentas avanzado si es absolutamente necesario que deba utilizar este servidor.";
 "Server returned invalid xml!" = "¡El servidor devolvió xml inválido!";
-"Server returned SASL2 error '%@'." = "Server returned SASL2 error '%@'.";
-"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"Server returned SASL2 error '%@'." = "El servidor devolvió el error SASL2 '%@'.";
+"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "El servidor perdió repentinamente el soporte para SASL2-SCRAM, ataque MITM altamente probable, abortando autenticación e inhabilitando la cuenta para limitar el daño. Debería intentar rehabilitar su cuando se encuentre nuevamente en un entorno de red seguro.";
 "Server: %@" = "Servidor: %@";
 "Set up account later" = "Configurar cuenta más tarde";
 /* Camera permissions missing warning */
@@ -594,11 +594,11 @@
 "Show inline geo location" = "Show inline geo location";
 "Show shared Media and Files" = "Mostrar media y archivos compartidos";
 "Show URL previews" = "Mostrar vista previa de URL";
-"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
+"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Algunos mensajes deben esperar para ser recibidos o enviados. Por favor reintente abriendo la aplicación nuevamente.";
 "Something went wrong while parsing the string..." = "Algo salió mal al analizar la cadena ...";
 "Sounds" = "Sonidos";
 "Sounds courtesy Emrah" = "Sonidos por cortesía de Emrah";
-"SRV entry prohibits XMPP connection for domain %@" = "SRV entry prohibits XMPP connection for domain %@";
+"SRV entry prohibits XMPP connection for domain %@" = "La entrada SRV prohíbe la conexión XMPP para el dominio %@";
 "Status" = "Estado";
 "Status Message" = "Mensaje de estado";
 "Status message:" = "Mensaje de estado:";
@@ -610,7 +610,7 @@
 /* Crash reporting */
 "Sure, send it!" = "¡Seguro, envialo!";
 "Synchronize your messages on all loggedin devices." = "Sincronice los mensajes de todos sus dispositivos conectados.";
-"Temporary failure to enter Group/Channel: %@" = "Temporary failure to enter Group/Channel: %@";
+"Temporary failure to enter Group/Channel: %@" = "Fallo temporal al ingresar al grupo/canal: %@";
 "Terms of use for %@" = "Términos de uso para %@";
 "The account has been deleted" = "La cuenta ha sido eliminada";
 "The account has been removed" = "The account has been removed";
@@ -631,12 +631,12 @@
 "The server does not support blocking (XEP-0191)." = "El servidor no soporta bloqueo (XEP-0191).";
 "The UDP logger allows you to livestream the log to the configured IP." = "The UDP logger allows you to livestream the log to the configured IP.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
-"The user %@ (%@) wants to add you to their contact list" = "The user %1$@ (%2$@) wants to add you to their contact list";
+"The user %@ (%@) wants to add you to their contact list" = "El usuario %1$@ (%2$@) desea agregarte a su lista de contactos";
 "The username does not need to have an @ symbol. Please try again." = "El nombre de usuario no necesita un símbolo @. Por favor intente de nuevo.";
 "There is no configured email account. Please email info@monal-im.org ." = "No hay una cuenta de email configurada. Por favor envíe un email a info@monal-im.org.";
-"There was a SASL error on the server." = "There was a SASL error on the server.";
+"There was a SASL error on the server." = "Hubo un error SASL en el servidor.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "Hubo un error al desencriptar este mensaje (error de Signal). Para resolver esto, intenta enviar un mensaje encriptado a esta persona.";
-"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)";
+"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "Hubo un error al desencriptar este mensaje encriptado (error de Signal). Para resolverlo, intente enviar un mensaje encriptado a esta persona. (%@)";
 "These are SRV resource records found for your domain." = "Estos son los registros SRV encontrados para tu dominio.";
 "These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "Estos son los servicios STUN y TURN anunciados por su servidor (las entradas azules son utilizadas por Monal).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "Estos son los tipos de \"channel-binding\" soportados por su servidor para detectar ataques en la capa TLS (los azules están en uso, Monal no tiene soporte para los naranja).";
@@ -649,7 +649,7 @@
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "Ya no verán cuando esté en línea. Es posible que no puedan enviarle mensajes encriptados.";
 "They will see when you are online. They will be able to send you encrypted messages." = "Lo verán cuando esté en línea. Podrán enviarle mensajes encriptados.";
 "This account already exists in Monal." = "Esta cuenta ya existe en Monal.";
-"This account already exists on this instance" = "This account already exists on this instance";
+"This account already exists on this instance" = "Esta cuenta ya existe en esta instancia";
 "This account already exists on this instance." = "Esta cuenta ya existe en esta instancia.";
 "This allows you to forcefully crash the app using several different methods to test the crash handling." = "Forzar un fallo en la aplicación utilizando distintos métodos para poner a prueba el manejo de fallos.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "La aplicación es demasiado vieja y puede contener fallos de seguridad o de dejar de operar en forma repentina. ¡Por favor actualizar!";
@@ -686,11 +686,11 @@
 "Timeout Error" = "Error tiempo de espera";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
-"TLS Error: Bad certificate" = "TLS Error: Bad certificate";
-"TLS Error: Certificate chain is invalid" = "TLS Error: Certificate chain is invalid";
-"TLS Error: Certificate expired" = "TLS Error: Certificate expired";
-"TLS Error: Host name mismatch" = "TLS Error: Host name mismatch";
-"TLS Error: Unknown root certificate" = "TLS Error: Unknown root certificate";
+"TLS Error: Bad certificate" = "Error TLS: Certificado errado";
+"TLS Error: Certificate chain is invalid" = "Error TLS: La cadena de certificación es inválida";
+"TLS Error: Certificate expired" = "Error TLS: Certificado vencido";
+"TLS Error: Host name mismatch" = "Error TLS: No hay correspondencia con el nombre del Host";
+"TLS Error: Unknown root certificate" = "Error TLS: Certificado raíz desconocido";
 "Trust Key" = "Llave de confianza";
 "Trusted and verified key" = "Llave confiada y verificada";
 "Trusted but removed key" = "Llave confiada pero eliminada";
@@ -708,12 +708,12 @@
 "Undefined error" = "Error indefinido";
 "Understood" = "Entendido";
 "Unexpected appex expiration" = "Unexpected appex expiration";
-"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
-"Unexpected error while checking type of jid, please try again" = "Unexpected error while checking type of jid, please try again";
-"Unexpected error while checking type of jid:" = "Unexpected error while checking type of jid:";
+"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Error de autenticación de servidor inesperado usando SASL2 (¿Su servidor tiene un bug?), ¡desconectando!";
+"Unexpected error while checking type of jid, please try again" = "Error inesperado al verificar el tipo de JID. Por favor intente nuevamente";
+"Unexpected error while checking type of jid:" = "Error inesperado comprobando el tipo de JID:";
 "Unexpected mam preferences result" = "Resultado inesperado de las preferencias mam";
-"Unexpected server response: invalid PEP config form" = "Unexpected server response: invalid PEP config form";
-"Unexpected server response: missing required fields in PEP config form" = "Unexpected server response: missing required fields in PEP config form";
+"Unexpected server response: invalid PEP config form" = "Respuesta inesperada del servidor: formulario de configuración de PEP no válido";
+"Unexpected server response: missing required fields in PEP config form" = "Respuesta inesperada del servidor: faltan campos obligatorios en el formulario de configuración de PEP";
 "unknown" = "unknown";
 "Unknown authentication method" = "Método de autenticación desconocido";
 "Unknown channel-binding type" = "Tipo de \"channel-binding\" desconocido";
@@ -721,8 +721,8 @@
 "Unread Messages Below" = "Mensajes no leídos a continuación";
 "unsupported" = "unsupported";
 "Untrusted key" = "Llave no confiable";
-"Upload Error" = "Upload Error";
-"Upload Error: your account got disconnected while requesting upload slot" = "Upload Error: your account got disconnected while requesting upload slot";
+"Upload Error" = "Error al subir";
+"Upload Error: your account got disconnected while requesting upload slot" = "Error de subida: tu cuenta se desconectó mientras solicitaba espacio de subida";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Suba archivos al servidor para compartirlos con otros. (Tamaño máximo permitido informado por el servidor: %@)";
 "Upload Settings" = "Configuración de subidas";
 "Uploading" = "Cargando";
@@ -745,8 +745,8 @@
 "Warning" = "Advertencia";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "No encontramos un código QR relacionado con XMPP";
-"We don't support any task requested by the server, account disabled: %@" = "We don't support any task requested by the server, account disabled: %@";
-"We don't support the single task requested by the server, account disabled: %@" = "We don't support the single task requested by the server, account disabled: %@";
+"We don't support any task requested by the server, account disabled: %@" = "No admitimos ninguna tarea solicitada por el servidor, cuenta deshabilitada: %@";
+"We don't support the single task requested by the server, account disabled: %@" = "No admitimos la tarea solicitada por el servidor, cuenta deshabilitada: %@";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "No fue posible conectarse a su cuenta. Por favor verifique su nombre de usuario, contraseña y asegúrese de estar conectado a la internet.";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "No fue posible conectarse a su cuenta. Por favor verifique su nombre de usuario, contraseña y asegúrese de estar conectado a la internet.\n\nMensaje de error técnico: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Tipo de \"channel-binding\" mas débil, no protege del robo de certificados/llaves pero detecta certificados erróneamente emitidos.";
@@ -770,7 +770,7 @@
 "XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379: Pre-Authenticated Roster Subscription";
 "XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: SASL SCRAM Downgrade Protection";
 "XMPP Account Info Error" = "Error de información sobre la cuenta XMPP";
-"XMPP Bind Error" = "XMPP Bind Error";
+"XMPP Bind Error" = "Error de enlace XMPP";
 "XMPP Capabilities" = "Capacidades XMPP";
 "XMPP Disco Info Error" = "XMPP Disco Info Error";
 "XMPP External Service Disco Error" = "XMPP External Service Disco Error";
