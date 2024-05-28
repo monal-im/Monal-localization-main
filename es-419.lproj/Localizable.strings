@@ -3,7 +3,7 @@
 "%02d:%02d (long press to abort)" = "%02d:%02d (pulsación larga para abortar)";
 "%@" = "%@";
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
-"%@ says:" = "%@ says:";
+"%@ says:" = "%@ dice:";
 "1 MiB" = "1 MiB";
 "100 MiB" = "100 MiB";
 "100%" = "100%";
@@ -16,7 +16,7 @@
 "<unknown>" = "<desconocido>";
 "A contact was scanned through the QR code scanner" = "Contacto escaneado con el \"QR code scanner\"";
 "Abort" = "Abortar";
-"Aborted recording audio" = "Aborted recording audio";
+"Aborted recording audio" = "Grabación de audio abortada";
 "About" = "Sobre";
 "Access message archives on the server." = "Acceder al archivo de mensajes del servidor.";
 /* ShareViewController: Account */
@@ -50,7 +50,7 @@
 "Allow MITM-prone PLAIN authentication" = "Permitir autenticación PLAIN, muy propensa a ataques MITM";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Permitir que alguien te agregue como contacto le permite ver tu foto de perfil y cuándo estás en línea.";
 "Already present" = "Ya está presente";
-"Already uploading this content, ignoring" = "Already uploading this content, ignoring";
+"Already uploading this content, ignoring" = "Este contenido ya se encuentra subiendo. Ignorando";
 "Always archive" = "Archivar siempre";
 "Always use direct TLS, not STARTTLS" = "Usar siempre TLS directo, no STARTTLS";
 "App" = "Aplicación";
@@ -62,12 +62,12 @@
 "Approve new contact" = "Aprobar nuevo contacto";
 "Archive chat" = "Archivar chat";
 "Archive only if the contact is in contact list" = "Archivar solo si el contacto está en la lista de contactos";
-"Audio recoder init fail." = "Audio recoder init fail.";
-"Audio recoder prepareToRecord fail." = "Audio recoder prepareToRecord fail.";
-"Audio Recoder recode fail" = "Audio Recoder recode fail";
+"Audio recoder init fail." = "Error al iniciar la grabadora de audio.";
+"Audio recoder prepareToRecord fail." = "Fallo en la preparación de la grabación del audio.";
+"Audio Recoder recode fail" = "Error al volver a codificar la grabación de audio";
 "Audio recoder record fail." = "Audio recoder record fail.";
-"Audio Recoder set active error: %@" = "Audio Recoder set active error: %@";
-"Audio Recoder set category error: %@" = "Audio Recoder set category error: %@";
+"Audio Recoder set active error: %@" = "Error al iniciar la configuración de la grabadora: %@";
+"Audio Recoder set category error: %@" = "Error en la configuración de la categoría de grabadora de audio: %@";
 "Auto-Download Media" = "Descarga automática de Media";
 "Autodelete all messages after 3 days" = "Eliminar todos los mensajes automáticamente después de 3 días";
 "Autofocus text input on chat open" = "Foco automático en la caja de texto al abrir una conversación";
@@ -102,7 +102,7 @@
 "Can't convert the image to jpeg format." = "No puedo convertir la imagen a formato jpeg.";
 "Cancel" = "Cancelar";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "No es posible compartir con cuentas deshabilitadas/eliminadas, destino: %@, ID de cuenta interna: %@";
-"Caps hash: %@" = "Caps hash: %@";
+"Caps hash: %@" = "Hash caps: %@";
 /* placeholder when creating account */
 "Captcha" = "Captcha";
 "Change Chat Background" = "Cambiar el fondo del chat";
@@ -137,7 +137,7 @@
 "Copy" = "Copiar";
 "Copy invitation link to clipboard" = "Copiar link de la invitación al portapapeles";
 "Copy to clipboard" = "Copiar al portapapeles";
-"Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
+"Could fetch room config form for '%@': timeout" = "No se pudo recuperar el formulario de configuración de la sala '%@': timeout";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "No se pude acceder a la cámara";
 "Could not access Finder item!" = "Could not access Finder item!";
@@ -222,7 +222,7 @@
 "Email Support" = "Correo de soporte";
 "Empty Values!" = "¡Valores vacíos!";
 "Enable" = "Habilitado";
-"Enable encryption by default for new chats" = "Activar  encriptación por defecto en los chats nuevos";
+"Enable encryption by default for new chats" = "Activar encriptación por defecto en los chats nuevos";
 "Enabled" = "Habilitado";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)";
 "Encrypted session to this device broken beyond repair." = "La sesión cifrada con dispositivo está rota y no se puede reparar.";
@@ -249,7 +249,7 @@
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (nonce error), disconnecting!" = "Error handling SASL challenge of server (nonce error), disconnecting!";
 "Error registering push" = "Error al registrar push";
-"Error Removing Account" = "Error Removing Account";
+"Error Removing Account" = "Error eliminando la cuenta";
 "Error while decrypting: iv.length != 12" = "Error while decrypting: iv.length != 12";
 "Error: %@" = "Error: %@";
 "Error: Account disabled, can not display keys!" = "Error: Cuenta deshabilitada. ¡No se pueden mostrar las llaves!";
@@ -314,7 +314,7 @@
 "Group subject:" = "Asunto del grupo:";
 "Group/Channel got destroyed: %@" = "Grupo o canal eliminado: %@";
 "Group/Channel not available anymore: %@" = "Grupo o canal ya no se encuentra disponible: %@";
-"groupJoin Group" = "groupJoin Group";
+"groupJoin Group" = "Unirse al grupo";
 "Hint" = "Sugerencia";
 "I already have an account:" = "Ya tengo una cuenta:";
 "I need an account:" = "Necesito una cuenta:";
@@ -400,8 +400,8 @@
 /* Camera permissions missing warning */
 "Monal is not allowed to access the camera" = "Monal no tiene permiso de acceso a la cámara";
 "Monal uses your location when you send a location message in a conversation." = "Monal utiliza su ubicación cuando usted envía un mensaje de ubicación en una conversación.";
-"Monal was not able to send your attachment!" = "Monal was not able to send your attachment!";
-"Monal was not able to send your attachment: %@" = "Monal was not able to send your attachment: %@";
+"Monal was not able to send your attachment!" = "¡Monal no pudo de enviar su adjunto!";
+"Monal was not able to send your attachment: %@" = "Monal no pudo de enviar su adjunto: %@";
 "More info?" = "¿Más información?";
 "Never archive" = "No archivar nunca";
 "New Account" = "Cuenta nueva";
@@ -523,7 +523,7 @@
 "Registering account..." = "Registrando cuenta …";
 "Registration Error" = "Error en la registración";
 "Remove %@ from contacts?" = "¿Eliminar a %@ de los contactos?";
-"Remove Account from this Device" = "Remove Account from this Device";
+"Remove Account from this Device" = "Eliminar la cuenta de este dispositivo";
 "Remove Contact" = "Eliminar contacto";
 "Remove Conversation" = "Eliminar conversación";
 "Remove from contacts" = "Eliminar de contactos";
@@ -613,7 +613,7 @@
 "Temporary failure to enter Group/Channel: %@" = "Fallo temporal al ingresar al grupo/canal: %@";
 "Terms of use for %@" = "Términos de uso para %@";
 "The account has been deleted" = "La cuenta ha sido eliminada";
-"The account has been removed" = "The account has been removed";
+"The account has been removed" = "La cuenta ha sido eliminada";
 "The account has been saved" = "La cuenta ha sido guardada";
 /* Crash reporting */
 "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "Hubo un fallo la última vez que intentó abrir la aplicación. ¿Enviar reporte de fallo? El reporte de contendrá información sensible sobre su privacidad. Solo accederemos a dicha información con la finalidad de diagnosticar el fallo y procederemos a su eliminación inmediatamente después!";
@@ -629,8 +629,8 @@
 "The resource '%@' has the following capabilities:" = "El recurso '%@' tiene las siguientes capacidades:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "Los servidores públicos de XMPP que aparecen en la siguiente lista no tiene afiliación con Monal. Esta página de registro se proporciona solo para su comodidad.";
 "The server does not support blocking (XEP-0191)." = "El servidor no soporta bloqueo (XEP-0191).";
-"The UDP logger allows you to livestream the log to the configured IP." = "The UDP logger allows you to livestream the log to the configured IP.";
-"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
+"The UDP logger allows you to livestream the log to the configured IP." = "El logger UDP logger le permite realizar un livestream del registro hacia la IP configurada";
+"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "El logger UDP logger le permite realizar un livestream del registro hacia la IP configurada. Por favor utilice una llave segura cuando haga streaming sobre la internet!\n[Aprenda como recibir el stream del registro](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
 "The user %@ (%@) wants to add you to their contact list" = "El usuario %1$@ (%2$@) desea agregarte a su lista de contactos";
 "The username does not need to have an @ symbol. Please try again." = "El nombre de usuario no necesita un símbolo @. Por favor intente de nuevo.";
 "There is no configured email account. Please email info@monal-im.org ." = "No hay una cuenta de email configurada. Por favor envíe un email a info@monal-im.org.";
@@ -681,7 +681,7 @@
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Esta especificación define semánticas de uso del protocolo de publicación-suscripción XMPP para transmitir eventos de cambio de estado asociados con una cuenta de presencia y mensajería instantánea.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Esta especificación provee una medio para proteger las conexiones SASL y SASL2 de degradaciones de métodos y vinculación de canales.";
 "This will clear the whole chat history of this account from this device." = "Esto borrará todo el historial de chat de esta cuenta desde este dispositivo.";
-"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though.";
+"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Esto borrará esta cuenta y los datos asociado del servidor y del dispositivo. Aún así algunos datos podrían quedar retenidos en otros dispositivos.";
 "This will remove this account and the associated data from this device." = "Esto eliminará esta cuenta y los datos asociados de este dispositivo.";
 "Timeout Error" = "Error tiempo de espera";
 "TLS 1.2" = "TLS 1.2";
@@ -699,9 +699,9 @@
 "Try nevertheless" = "Intentar de todos modos";
 "Type: %@" = "Tipo: %@";
 "Typing..." = "Escribiendo ...";
-"UDP Logger" = "\"Logger UDP\"";
-"UDP Logger Configuration" = "Configuración del \"Logger UDP\"";
-"UDP Logging UI not supported on iOS < 16" = "IU del \"Logger UDP\" sin soporte en iOS < 16";
+"UDP Logger" = "Logger UDP";
+"UDP Logger Configuration" = "Configuración del Logger UDP";
+"UDP Logging UI not supported on iOS < 16" = "La IU del Logger UDP no tiene soporte para iOS < 16";
 "Unable to connect to server!" = "¡No se puede conectar al servidor!";
 "Unblock Contact" = "Desbloquear contacto";
 "Unclean appex shutown" = "Unclean appex shutown";
@@ -714,12 +714,12 @@
 "Unexpected mam preferences result" = "Resultado inesperado de las preferencias mam";
 "Unexpected server response: invalid PEP config form" = "Respuesta inesperada del servidor: formulario de configuración de PEP no válido";
 "Unexpected server response: missing required fields in PEP config form" = "Respuesta inesperada del servidor: faltan campos obligatorios en el formulario de configuración de PEP";
-"unknown" = "unknown";
+"unknown" = "desconocido";
 "Unknown authentication method" = "Método de autenticación desconocido";
 "Unknown channel-binding type" = "Tipo de \"channel-binding\" desconocido";
 "Unknown error!" = "¡Error desconocido!";
 "Unread Messages Below" = "Mensajes no leídos a continuación";
-"unsupported" = "unsupported";
+"unsupported" = "sin soporte";
 "Untrusted key" = "Llave no confiable";
 "Upload Error" = "Error al subir";
 "Upload Error: your account got disconnected while requesting upload slot" = "Error de subida: tu cuenta se desconectó mientras solicitaba espacio de subida";
@@ -756,17 +756,17 @@
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
 "Wrong menu" = "Menú incorrecto";
-"XEP-0163 Personal Eventing Protocol" = "XEP-0163 Personal Eventing Protocol";
-"XEP-0191: Blocking Command" = "XEP-0191: Blocking Command";
-"XEP-0198: Stream Management" = "XEP-0198: Stream Management";
+"XEP-0163 Personal Eventing Protocol" = "XEP-0163 PEP (Avatares/OMEMO)";
+"XEP-0191: Blocking Command" = "XEP-0191: Comando de Bloqueo";
+"XEP-0198: Stream Management" = "XEP-0198: Gestión de flujo de datos";
 "XEP-0199: XMPP Ping" = "XEP-0199: XMPP Ping";
-"XEP-0215: External Service Discovery" = "XEP-0215: External Service Discovery";
-"XEP-0237: Roster Versioning" = "XEP-0237: Roster Versioning";
-"XEP-0280: Message Carbons" = "XEP-0280: Message Carbons";
-"XEP-0313: Message Archive Management" = "XEP-0313: Message Archive Management";
-"XEP-0352: Client State Indication" = "XEP-0352: Client State Indication";
-"XEP-0357: Push Notifications" = "XEP-0357: Push Notifications";
-"XEP-0363: HTTP File Upload" = "XEP-0363: HTTP File Upload";
+"XEP-0215: External Service Discovery" = "XEP-0215: Detección de Servicios Externos";
+"XEP-0237: Roster Versioning" = "XEP-0237: Control de las versiones de la lista de contactos";
+"XEP-0280: Message Carbons" = "XEP-0280: Copias de los Mensajes";
+"XEP-0313: Message Archive Management" = "XEP-0313: MAM";
+"XEP-0352: Client State Indication" = "XEP-0352: Visualización del Estado del Cliente";
+"XEP-0357: Push Notifications" = "XEP-0357: Notificaciones Automáticas";
+"XEP-0363: HTTP File Upload" = "XEP-0363: Carga de archivos HTTP";
 "XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379: Pre-Authenticated Roster Subscription";
 "XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: SASL SCRAM Downgrade Protection";
 "XMPP Account Info Error" = "Error de información sobre la cuenta XMPP";
@@ -776,14 +776,14 @@
 "XMPP External Service Disco Error" = "XMPP External Service Disco Error";
 "XMPP ID" = "ID XMPP";
 "XMPP ID missing" = "Falta el ID de XMPP";
-"XMPP mam preferences error" = "XMPP mam preferences error";
+"XMPP mam preferences error" = "Error de preferencias MAM de XMPP";
 "XMPP protocol extension for communications blocking." = "Extensión de protocolo XMPP para bloqueo de comunicaciones.";
 "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "Extensión del protocolo XMPP para descubrir servicios externos de la red XMPP, como los servidores STUN o TURN necesarios para llamadas de Audio-Video.";
 "XMPP protocol extension for sending application-level pings over XML streams." = "Extensión del protocolo XMPP para enviar pings de nivel de aplicación a través de flujos XML.";
-"XMPP Roster Error" = "XMPP Roster Error";
+"XMPP Roster Error" = "Error en la lista XMPP";
 "XMPP server domain not valid!" = "¡Dominio de servidor XMPP inválido!";
-"XMPP stream error %@: %@" = "XMPP stream error %1$@: %2$@";
-"XMPP stream error: %@" = "XMPP stream error: %@";
+"XMPP stream error %@: %@" = "Error en el flujo de datos XMPP %1$@: %2$@";
+"XMPP stream error: %@" = "Error en el flujo de datos XMPP: %@";
 "XMPPServer" = "Servidor XMPP";
 "Yellow checkmark shield:" = "Escudo amarillo tildado:";
 "Yes" = "Sí";
@@ -792,32 +792,32 @@
 "You are set up and connected. People can message you at: %@@%@" = "Perfil configurado y conectado. Puede recibir mensajes dirigidos a: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "Está intentando llamar a '%@' (%@), pero este contacto utiliza distintas cuentas. Por favor seleccione la cuenta a la que desea llamar.";
 "You did not grant Monal to access your location." = "No ha consentido que Monal acceda a su ubicación.";
-"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
-"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
-"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
+"You got banned from group/channel: %@" = "Se le ha prohibido el ingreso al grupo/canal: %@";
+"You got kicked from group/channel: %@" = "Ha sido expulsado del grupo/canal: %@";
+"You got removed from group/channel: %@" = "Ha sido removido del grupo/canal: %@";
 "You have not entered your XMPP ID yet" = "Aún no ha ingresado su ID XMPP";
 "You need friends for this ride" = "Necesita amigos para este viaje";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Necesita conceder acceso al micrófono en iOS Configuración-> Privacidad-> Micrófono, si quiere que lo puedan escuchar.";
-"You restored an iCloud backup of Monal, please open the app to reenable this account." = "You restored an iCloud backup of Monal, please open the app to reenable this account.";
-"You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard.";
-"You tried to call contact '%@' but this contact could not be found in your contact list." = "You tried to call contact '%@' but this contact could not be found in your contact list.";
-"You will no longer receive messages from this conversation" = "You will no longer receive messages from this conversation";
-"You will receive subsequent messages from this conversation" = "You will receive subsequent messages from this conversation";
-"Your account must be enabled and connected, to be removed from the server!" = "Your account must be enabled and connected, to be removed from the server!";
-"Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again.";
+"You restored an iCloud backup of Monal, please open the app to reenable this account." = "Ha restaurado una copia de seguridad de Monal desde iCloud, por favor abra la aplicación para reactivar esta cuenta.";
+"You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "Usted debe confiar en una llave luego de haberla verificado. Realice la verificación comparando la llave en la pantalla de su contacto con la llave que aparece debajo. Toque la huella dos veces para copiarla al portapapeles.";
+"You tried to call contact '%@' but this contact could not be found in your contact list." = "Ha intentado llamar a '%@' pero este contacto no se encuentra en su lista de contactos.";
+"You will no longer receive messages from this conversation" = "Ya no recibirás mensajes de esta conversación";
+"You will receive subsequent messages from this conversation" = "Recibirá mensajes posteriores de esta conversación";
+"Your account must be enabled and connected, to be removed from the server!" = "¡Su cuenta debe estar habilitada y conectada para ser eliminada del servidor!";
+"Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Sus cuentas se desactivaron porque restauró una copia de seguridad de Monal desde iCloud. Reingrese sus contraseñas para activarlas de nuevo.";
 "Your answer" = "Su respuesta";
-"Your contact may not support calls. Your call might never reach its destination." = "Your contact may not support calls. Your call might never reach its destination.";
+"Your contact may not support calls. Your call might never reach its destination." = "Puede que su contacto no tenga soporte para llamadas y estas nunca alcance al destinatario";
 "Your entered XMPP ID is missing the domain" = "Al ID XMPP ingresado le falta el dominio";
 "Your entered XMPP ID is missing the username" = "Al ID XMPP ingresado le falta el nombre de usuario";
-"Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
-"Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!";
-"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
-"Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!";
-"Your status" = "Your status";
-"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup.";
+"Your server does not provide a MUC component." = "Su servidor no provee un componente MUC.";
+"Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Su servidor no es compatible con MAM (XEP-0313). ¡¡Esto significa que con frecuencia podría perder mensajes entrantes!! ¡Debería cambiar de servidor o hablar con su administrador para solicitarle que lo habilite!";
+"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Su servidor no tiene soporte \"PUSH\" (XEP-0357). ¡¡Esto significa que tendrá que abrir la aplicación manualmente para recibir sus mensajes entrantes!! Debería considerar cambiar de servidor o ponerse en contacto con el administrador para solicitarle que habilite esta función.";
+"Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Su servidor no es compatible con Gestión de Flujo de Datos (XEP-0198). ¡¡Eso significa que sus mensajes salientes pueden perderse con frecuencia!! Debería considerar cambiar su servidor o ponerse en contacto con el administrador para solicitarle que lo habilite.";
+"Your status" = "Su estado";
+"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Su XMPP JID debe seguir el formato usuario@dominio.tld. Para configuraciones especiales, utilice la configuración manual.";
 "🎥 A Video" = "🎥 A Video";
 "🎥 Video" = "🎥 Video";
-"🎵 An Audiomessage" = "🎵 An Audiomessage";
+"🎵 An Audiomessage" = "🎵 Un mensaje de audio";
 "🎵 Audio" = "🎵 Audio";
 "📁 A File" = "📁 A File";
 "📄 A Document" = "📄 A Document";
@@ -843,7 +843,7 @@
 "Changing affiliation of member" = "Cambiando la afiliación del miembro";
 "Chat background image" = "Imagen de fondo del chat";
 "Configure the background image displayed in open chats." = "Configurar la imagen de fondo que se muestra en los chats abiertos.";
-"Debug Notification Problems" = "Debug Notification Problems";
+"Debug Notification Problems" = "Problemas de notificación de depuración";
 "Destroy Channel" = "Eliminar canal";
 "Destroy Group" = "Eliminar grupo";
 "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "¿Realmente desea eliminar este canal? Todos los miembros serán expulsados y el canal será eliminado.";
