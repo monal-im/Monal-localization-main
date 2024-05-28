@@ -1,6 +1,6 @@
 /* server details */
 " running on %@" = " ejecutándose en %@";
-"%02d:%02d (long press to abort)" = "%02d:%02d (long press to abort)";
+"%02d:%02d (long press to abort)" = "%02d:%02d (pulsación larga para abortar)";
 "%@" = "%@";
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
 "%@ says:" = "%@ says:";
@@ -15,7 +15,7 @@
 /* muc affiliation */
 "<unknown>" = "<desconocido>";
 "A contact was scanned through the QR code scanner" = "Contacto escaneado con el \"QR code scanner\"";
-"Abort" = "Abort";
+"Abort" = "Abortar";
 "Aborted recording audio" = "Aborted recording audio";
 "About" = "Sobre";
 "Access message archives on the server." = "Acceder al archivo de mensajes del servidor.";
@@ -55,7 +55,7 @@
 "Always use direct TLS, not STARTTLS" = "Usar siempre TLS directo, no STARTTLS";
 "App" = "Aplicación";
 "Appearance" = "Apariencia";
-"Apple Push Service" = "Apple Push Service";
+"Apple Push Service" = "Servicio PUSH de Apple";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "El Apple push service debería estar siempre activo. Si se encuentra inactivo, tu dispositivo no puede comunicarse con el servidor de Apple.";
 "Apple Push Token" = "Apple Push Token";
 "Apple Push Token is not available!" = "Apple Push Token no está disponible!";
@@ -157,8 +157,8 @@
 "Could not join group/channel '%@': timeout" = "Could not join group/channel '%@': timeout";
 "Could not read captcha!" = "¡No se puede leer el captcha!";
 "Could not register your username. Please check your code or change the username and try again." = "No se pudo registrar tu nombre de usuario. Verifique su código o cambie el nombre de usuario y vuelva a intentarlo.";
-"Could not send" = "Could not send";
-"Could not synchronize" = "Could not synchronize";
+"Could not send" = "No se pudo enviar";
+"Could not synchronize" = "No se ha podido sincronizar";
 "Could not upload file" = "No se pudo cargar el archivo";
 /* Crash reporting */
 "Crash Detected" = "Fallo detectado";
@@ -185,7 +185,7 @@
 "Destroying group..." = "Eliminando grupo ...";
 "Detected a new omemo device on your account: %@" = "Detected a new omemo device on your account: %@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
-"Device ID: " = "Device ID: ";
+"Device ID: " = "ID del dispositivo: ";
 "DeviceID: " = "DeviceID: ";
 "Disable Encryption" = "Deshabilitar encriptación";
 "Disable encryption?" = "¿Deshabilitar encriptación?";
@@ -405,7 +405,7 @@
 "More info?" = "¿Más información?";
 "Never archive" = "No archivar nunca";
 "New Account" = "Cuenta nueva";
-"New Message" = "New Message";
+"New Message" = "Nuevo mensaje";
 "New omemo device" = "New omemo device";
 "New Password" = "Nueva contraseña";
 "Newest TLS version which is faster than TLS 1.2" = "Versión más reciente de TLS, más rápida que TLS 1.2";
@@ -416,7 +416,7 @@
 "No contacts to show :(" = "No hay contactos para mostrar :(";
 "No Empty Values!" = "¡Sin valores vacíos!";
 "No enabled account found" = "No se encontró ninguna cuenta habilitada";
-"No further error description" = "No further error description";
+"No further error description" = "No hay más descripción del error";
 "No GPS location received" = "No se ha recibido ubicación GPS";
 "No OMEMO keys found" = "No se han encontrado llaves OMEMO";
 "No one is here" = "No hay nadie aquí";
@@ -436,7 +436,7 @@
 "Notifications disabled" = "Notificaciones deshabilitadas";
 "Notify on all messages" = "Notificar todos los mensajes";
 "Notify only when mentioned" = "Notificar solo cuando me mencionen";
-"now" = "now";
+"now" = "ahora";
 "Ok" = "Ok";
 /* Crash report error dialog */
 "OK" = "OK";
@@ -445,7 +445,7 @@
 "Online" = "Online";
 "Only contacts" = "Solo contactos";
 "Open" = "Abrir";
-"Open app to see more" = "Open app to see more";
+"Open app to see more" = "Abrir la aplicación para ver más";
 /* muc members list */
 "Open contact details" = "Ver detalles del contacto";
 "Open contact list" = "Abrir lista de contactos";
@@ -472,19 +472,19 @@
 "Photos" = "Fotos";
 "Pin Chat" = "Fijar Chat";
 "Play Sounds" = "Reproducir sonidos";
-"Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Please add a new account under settings first. If you already added your account you may need to enable it under settings";
+"Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Por favor, primero añada una nueva cuenta. Si ya añadió su cuenta, es posible que deba habilitarla en la configuración";
 "Please Allow Audio Access" = "Por favor, permita acceso al audio";
 "Please enter a password below before activating this account." = "Please enter a password below before activating this account.";
 "Please make sure at least one account has connected before trying to add a contact or channel." = "Please make sure at least one account has connected before trying to add a contact or channel.";
 "Please make sure at least one account has connected before trying to create new group." = "Please make sure at least one account has connected before trying to create new group.";
-"Please make sure you are connected before changing your password." = "Please make sure you are connected before changing your password.";
-"Please make sure you have entered a username, password." = "Please make sure you have entered a username, password.";
+"Please make sure you are connected before changing your password." = "Por favor, asegúrese estar conectado antes de cambiar su contraseña.";
+"Please make sure you have entered a username, password." = "Por favor asegúrese que ha ingresado un nombre de usuario y una contraseña.";
 "Please make sure you have entered a valid jid." = "Please make sure you have entered a valid jid.";
 "Please make sure you have entered both a username and password." = "Please make sure you have entered both a username and password.";
 "Please make sure you have entered the same password in both password fields." = "Please make sure you have entered the same password in both password fields.";
 "Please provide a valid XMPP server domain or select one." = "Please provide a valid XMPP server domain or select one.";
 "Please select a XMPP server or provide one." = "Please select a XMPP server or provide one.";
-"Please update!" = "Please update!";
+"Please update!" = "¡Por favor actualizar!";
 "Port" = "Port";
 "Port: %@, Direct TLS: %@, Priority: %@" = "Port: %1$@, Direct TLS: %2$@, Priority: %3$@";
 "Previews" = "Previews";
@@ -522,9 +522,9 @@
 "Register with %@" = "Register with %@";
 "Registering account..." = "Registering account...";
 "Registration Error" = "Registration Error";
-"Remove %@ from contacts?" = "Remove %@ from contacts?";
+"Remove %@ from contacts?" = "¿Eliminar a %@ de los contactos?";
 "Remove Account from this Device" = "Remove Account from this Device";
-"Remove Contact" = "Remove Contact";
+"Remove Contact" = "Eliminar contacto";
 "Remove Conversation" = "Remove Conversation";
 "Remove from contacts" = "Remove from contacts";
 "Removing avatar..." = "Removing avatar...";
@@ -532,7 +532,7 @@
 /* placeholder text in contact details */
 "Rename Contact" = "Rename Contact";
 "Rename Group" = "Rename Group";
-"Reply" = "Reply";
+"Reply" = "Responder";
 "Required" = "Requerido";
 "Reset OMEMO session" = "Restablecer sesión OMEMO";
 "Resource" = "Recurso";
@@ -564,12 +564,12 @@
 "Send Location" = "Enviar ubicación";
 "Send message displayed state" = "Enviar estado de mensaje visualizado";
 "Send typing notifications" = "Enviar notificación de escritura";
-"Sending..." = "Sending...";
+"Sending..." = "Enviando …";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Envía contraseña en texto plano (solo cifrado por TLS). No es muy seguro.";
 "Sent a File 📁" = "Sent a File 📁";
-"Sent a Link 🔗" = "Sent a Link 🔗";
+"Sent a Link 🔗" = "Enviar enlace 🔗";
 "Sent a Location 📍" = "Sent a Location 📍";
-"Sent an Image 📷" = "Sent an Image 📷";
+"Sent an Image 📷" = "Enviar una imagen 📷";
 /* directory for downloaded audios */
 "Sent Audios" = "Sent Audios";
 /* directory for downloaded files */
@@ -583,7 +583,7 @@
 "Server for domain '%@' not responding!" = "Server for domain '%@' not responding!";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Server implementation error: SASL2 tasks empty, account disabled!";
 "Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server.";
-"Server returned invalid xml!" = "Server returned invalid xml!";
+"Server returned invalid xml!" = "¡El servidor devolvió xml inválido!";
 "Server returned SASL2 error '%@'." = "Server returned SASL2 error '%@'.";
 "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 "Server: %@" = "Servidor: %@";
@@ -596,25 +596,25 @@
 "Show URL previews" = "Mostrar vista previa de URL";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
 "Something went wrong while parsing the string..." = "Something went wrong while parsing the string...";
-"Sounds" = "Sounds";
-"Sounds courtesy Emrah" = "Sounds courtesy Emrah";
+"Sounds" = "Sonidos";
+"Sounds courtesy Emrah" = "Sonidos por cortesía de Emrah";
 "SRV entry prohibits XMPP connection for domain %@" = "SRV entry prohibits XMPP connection for domain %@";
 "Status" = "Status";
 "Status Message" = "Status Message";
 "Status message:" = "Status message:";
-"Submit A Bug" = "Submit A Bug";
+"Submit A Bug" = "Enviar un Bug";
 "Success" = "Success";
 "Success!" = "Success!";
 "Successfully joined group/channel %@!" = "Successfully joined group/channel %@!";
 "Support" = "Support";
 /* Crash reporting */
 "Sure, send it!" = "Sure, send it!";
-"Synchronize your messages on all loggedin devices." = "Synchronize your messages on all loggedin devices.";
+"Synchronize your messages on all loggedin devices." = "Sincronice los mensajes de todos sus dispositivos conectados.";
 "Temporary failure to enter Group/Channel: %@" = "Temporary failure to enter Group/Channel: %@";
 "Terms of use for %@" = "Terms of use for %@";
-"The account has been deleted" = "The account has been deleted";
+"The account has been deleted" = "La cuenta ha sido eliminada";
 "The account has been removed" = "The account has been removed";
-"The account has been saved" = "The account has been saved";
+"The account has been saved" = "La cuenta ha sido guardada";
 /* Crash reporting */
 "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!";
 "The chat history has been cleared" = "The chat history has been cleared";
@@ -622,8 +622,8 @@
 "The current password is not correct." = "The current password is not correct.";
 "The jid you want to add should be in in the format user@domain.tld." = "The jid you want to add should be in in the format user@domain.tld.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt.";
-"The new contact will be added to your contacts list when the person you've added has approved your request." = "The new contact will be added to your contacts list when the person you've added has approved your request.";
-"The password has been changed" = "The password has been changed";
+"The new contact will be added to your contacts list when the person you've added has approved your request." = "El nuevo contacto aparecerá en su lista de contactos cuando su solicitud haya sido aprobada.";
+"The password has been changed" = "La contraseña ha sido cambiada";
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode";
 "The resource '%@' has the following capabilities:" = "The resource '%@' has the following capabilities:";
@@ -635,7 +635,7 @@
 "The username does not need to have an @ symbol. Please try again." = "El nombre de usuario no necesita un símbolo @. Por favor intente de nuevo.";
 "There is no configured email account. Please email info@monal-im.org ." = "No hay una cuenta de email configurada. Por favor envíe un email a info@monal-im.org.";
 "There was a SASL error on the server." = "There was a SASL error on the server.";
-"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person.";
+"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "Hubo un error al desencriptar este mensaje (error de Signal). Para resolver esto, intenta enviar un mensaje encriptado a esta persona.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)";
 "These are SRV resource records found for your domain." = "Estos son los registros SRV encontrados para tu dominio.";
 "These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "Estos son los servicios STUN y TURN anunciados por su servidor (las entradas azules son utilizadas por Monal).";
@@ -652,7 +652,7 @@
 "This account already exists on this instance" = "This account already exists on this instance";
 "This account already exists on this instance." = "Esta cuenta ya existe en esta instancia.";
 "This allows you to forcefully crash the app using several different methods to test the crash handling." = "Forzar un fallo en la aplicación utilizando distintos métodos para poner a prueba el manejo de fallos.";
-"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!";
+"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "La aplicación es demasiado vieja y puede contener fallos de seguridad o de dejar de operar en forma repentina. ¡Por favor actualizar!";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Puede utilizar esto para exportar los archivos de registro.\n[Aprenda a leerlos](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption." = "Este contacto no parece tener ningún dispositivo que soporte encriptación.";
 "This contact is already in the contact list of the selected account" = "Este contacto ya está en la lista de contactos de la cuenta seleccionada";
@@ -702,7 +702,7 @@
 "UDP Logger" = "\"Logger UDP\"";
 "UDP Logger Configuration" = "Configuración del \"Logger UDP\"";
 "UDP Logging UI not supported on iOS < 16" = "IU del \"Logger UDP\" sin soporte en iOS < 16";
-"Unable to connect to server!" = "Unable to connect to server!";
+"Unable to connect to server!" = "¡No se puede conectar al servidor!";
 "Unblock Contact" = "Desbloquear contacto";
 "Unclean appex shutown" = "Unclean appex shutown";
 "Undefined error" = "Error indefinido";
@@ -711,7 +711,7 @@
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
 "Unexpected error while checking type of jid, please try again" = "Unexpected error while checking type of jid, please try again";
 "Unexpected error while checking type of jid:" = "Unexpected error while checking type of jid:";
-"Unexpected mam preferences result" = "Unexpected mam preferences result";
+"Unexpected mam preferences result" = "Resultado inesperado de las preferencias mam";
 "Unexpected server response: invalid PEP config form" = "Unexpected server response: invalid PEP config form";
 "Unexpected server response: missing required fields in PEP config form" = "Unexpected server response: missing required fields in PEP config form";
 "unknown" = "unknown";
@@ -740,7 +740,7 @@
 "Version" = "Versión";
 /* server details */
 "version %@%@" = "version %1$@%2$@";
-"Very old app version" = "Very old app version";
+"Very old app version" = "Versión muy antigua de la aplicación";
 "Waiting for GPS signal" = "Esperando señal GPS";
 "Warning" = "Advertencia";
 /* QR-Code-Scanner: invalid format */
@@ -769,7 +769,7 @@
 "XEP-0363: HTTP File Upload" = "XEP-0363: HTTP File Upload";
 "XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379: Pre-Authenticated Roster Subscription";
 "XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: SASL SCRAM Downgrade Protection";
-"XMPP Account Info Error" = "XMPP Account Info Error";
+"XMPP Account Info Error" = "Error de información sobre la cuenta XMPP";
 "XMPP Bind Error" = "XMPP Bind Error";
 "XMPP Capabilities" = "Capacidades XMPP";
 "XMPP Disco Info Error" = "XMPP Disco Info Error";
@@ -805,10 +805,10 @@
 "You will receive subsequent messages from this conversation" = "You will receive subsequent messages from this conversation";
 "Your account must be enabled and connected, to be removed from the server!" = "Your account must be enabled and connected, to be removed from the server!";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again.";
-"Your answer" = "Your answer";
+"Your answer" = "Su respuesta";
 "Your contact may not support calls. Your call might never reach its destination." = "Your contact may not support calls. Your call might never reach its destination.";
-"Your entered XMPP ID is missing the domain" = "Your entered XMPP ID is missing the domain";
-"Your entered XMPP ID is missing the username" = "Your entered XMPP ID is missing the username";
+"Your entered XMPP ID is missing the domain" = "Al ID XMPP ingresado le falta el dominio";
+"Your entered XMPP ID is missing the username" = "Al ID XMPP ingresado le falta el nombre de usuario";
 "Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
@@ -821,7 +821,7 @@
 "🎵 Audio" = "🎵 Audio";
 "📁 A File" = "📁 A File";
 "📄 A Document" = "📄 A Document";
-"📍 A Location" = "📍 A Location";
+"📍 A Location" = "📍 Una ubicación";
 "📷 An Image" = "📷 An Image";
 "🔗 A Link" = "🔗 A Link";
 "%@ (affiliation: %@)" = "%@ (afilación: %@)";
