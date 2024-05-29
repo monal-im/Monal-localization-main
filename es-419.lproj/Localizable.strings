@@ -565,7 +565,7 @@
 "Send message displayed state" = "Enviar estado de mensaje visualizado";
 "Send typing notifications" = "Enviar notificación de escritura";
 "Sending..." = "Enviando …";
-"Sends password in cleartext (only encrypted by TLS), not very secure" = "Envía contraseña en texto plano (solo cifrado por TLS). No es muy seguro.";
+"Sends password in cleartext (only encrypted by TLS), not very secure" = "Envía contraseña en texto plano (solo cifrado por TLS). No es muy seguro";
 "Sent a File 📁" = "Archivo enviado 📁";
 "Sent a Link 🔗" = "Enviar enlace 🔗";
 "Sent a Location 📍" = "Ubicación enviada 📍";
@@ -579,7 +579,7 @@
 /* directory for downloaded videos */
 "Sent Videos" = "Videos enviados";
 "Server" = "Servidor";
-"Server does not support account removal" = "Server does not support account removal";
+"Server does not support account removal" = "El servidor no soporta la eliminación de cuentas";
 "Server for domain '%@' not responding!" = "¡El servidor del dominio '%@' no responde!";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Error de implementación del servidor: tareas SASL2 vacías, ¡cuenta deshabilitada!";
 "Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "¡El servidor solo soporta métodos de autenticación inseguros contra un ataque MITM! Utilice el menú de creación de cuentas avanzado si es absolutamente necesario que deba utilizar este servidor.";
@@ -629,7 +629,7 @@
 "The resource '%@' has the following capabilities:" = "El recurso '%@' tiene las siguientes capacidades:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "Los servidores públicos de XMPP que aparecen en la siguiente lista no tiene afiliación con Monal. Esta página de registro se proporciona solo para su comodidad.";
 "The server does not support blocking (XEP-0191)." = "El servidor no soporta bloqueo (XEP-0191).";
-"The UDP logger allows you to livestream the log to the configured IP." = "El logger UDP logger le permite realizar un livestream del registro hacia la IP configurada";
+"The UDP logger allows you to livestream the log to the configured IP." = "El logger UDP le permite enviar el flujo del registro hacia la IP configurada.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "El logger UDP logger le permite realizar un livestream del registro hacia la IP configurada. Por favor utilice una llave segura cuando haga streaming sobre la internet!\n[Aprenda como recibir el stream del registro](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
 "The user %@ (%@) wants to add you to their contact list" = "El usuario %1$@ (%2$@) desea agregarte a su lista de contactos";
 "The username does not need to have an @ symbol. Please try again." = "El nombre de usuario no necesita un símbolo @. Por favor intente de nuevo.";
@@ -666,7 +666,7 @@
 "This key belongs to this device and cannot be removed or disabled!" = "¡Esta llave pertenece a este dispositivo y no puede ser eliminada o deshabilitada!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Esta llave es de confianza y se verificó manualmente comparando huellas. Puede desactivarla para dejar de confiar en ella.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "Esta llave es de confianza, pero el contacto ya no la usa. Considere desactivar la confianza en ella.";
-"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "Esta llave es de confianza, pero el contacto no la ha usado en mucho tiempo. Considere desactivar la confianza en ella.";
+"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "Esta llave es de confianza, pero el contacto no la ha usado en mucho tiempo. Considere desactivar la confianza en ella";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "Esto significa que su llamada está encriptada y su interlocutor fue verificado usando encriptación OMEMO.\nPero como no ha verificado manualmente la huella OMEMO del interlocutor, su servidor XMPP o del destinatario, podrían haber insertado sus propias llaves OMEMO para efectuar un ataque \"Man in the Middle\".";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "Esto significa que su llamada está encriptada y su interlocutor fue verificado usando encriptación OMEMO.\nHa verificado manualmente el uso de llaves OMEMO y se encuentra a salvo de un ataque \"Man-In-The-Middle\".";
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "Esto significa que su llamada está encriptada, pero no fue posible verificar que su interlocutor se encuentre utilizando encriptación OMEMO.\nSu servidor XMPP o el de su interlocutor podrían llevar a cabo un ataque \"Man in the Middle\" sobre usted.";
@@ -725,7 +725,7 @@
 "Upload Error: your account got disconnected while requesting upload slot" = "Error de subida: tu cuenta se desconectó mientras solicitaba espacio de subida";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Suba archivos al servidor para compartirlos con otros. (Tamaño máximo permitido informado por el servidor: %@)";
 "Upload Settings" = "Configuración de subidas";
-"Uploading" = "Cargando";
+"Uploading" = "Subiendo";
 "Uploading avatar..." = "Subiendo avatar ...";
 "Uploading file to server" = "Subiendo archivo al servidor";
 "Use account" = "Usar cuenta";
@@ -806,13 +806,13 @@
 "Your account must be enabled and connected, to be removed from the server!" = "¡Su cuenta debe estar habilitada y conectada para ser eliminada del servidor!";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Sus cuentas se desactivaron porque restauró una copia de seguridad de Monal desde iCloud. Reingrese sus contraseñas para activarlas de nuevo.";
 "Your answer" = "Su respuesta";
-"Your contact may not support calls. Your call might never reach its destination." = "Puede que su contacto no tenga soporte para llamadas y estas nunca alcance al destinatario";
+"Your contact may not support calls. Your call might never reach its destination." = "Puede que su contacto no tenga soporte para llamadas y éstas nunca alcancen al destinatario.";
 "Your entered XMPP ID is missing the domain" = "Al ID XMPP ingresado le falta el dominio";
 "Your entered XMPP ID is missing the username" = "Al ID XMPP ingresado le falta el nombre de usuario";
 "Your server does not provide a MUC component." = "Su servidor no provee un componente MUC.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Su servidor no es compatible con MAM (XEP-0313). ¡¡Esto significa que con frecuencia podría perder mensajes entrantes!! ¡Debería cambiar de servidor o hablar con su administrador para solicitarle que lo habilite!";
-"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Su servidor no tiene soporte \"PUSH\" (XEP-0357). ¡¡Esto significa que tendrá que abrir la aplicación manualmente para recibir sus mensajes entrantes!! Debería considerar cambiar de servidor o ponerse en contacto con el administrador para solicitarle que habilite esta función.";
-"Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Su servidor no es compatible con Gestión de Flujo de Datos (XEP-0198). ¡¡Eso significa que sus mensajes salientes pueden perderse con frecuencia!! Debería considerar cambiar su servidor o ponerse en contacto con el administrador para solicitarle que lo habilite.";
+"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Su servidor no tiene soporte \"PUSH\" (XEP-0357). ¡Esto significa que tendrá que abrir la aplicación manualmente para recibir sus mensajes entrantes!. Debería considerar cambiar de servidor o ponerse en contacto con el administrador para solicitarle que habilite esta función.";
+"Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Su servidor no es compatible con Gestión de Flujo de Datos (XEP-0198). ¡Eso significa que sus mensajes salientes pueden perderse con frecuencia!. Debería considerar cambiar su servidor o ponerse en contacto con el administrador para solicitarle que lo habilite.";
 "Your status" = "Su estado";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Su XMPP JID debe seguir el formato usuario@dominio.tld. Para configuraciones especiales, utilice la configuración manual.";
 "🎥 A Video" = "🎥 Un video";
