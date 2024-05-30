@@ -243,11 +243,11 @@
 "Error decrypting message" = "Error desencriptando el mensaje";
 "Error entering group/channel!" = "¡Error al ingresar a grupo/canal!";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error en el mecanismo de negociación SASL (muy baja cantidad de iteraciones), desconectando!";
+"Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error de gestión en el desafío SASL del servidor (muy baja cantidad de iteraciones), desconectando!";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (m-attr error), disconnecting!" = "Error en el mecanismo de negociación SASL (error m-att), desconectando!";
+"Error handling SASL challenge of server (m-attr error), disconnecting!" = "Error de gestión en el desafío SASL del servidor (m-attr error), desconectando!";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (nonce error), disconnecting!" = "Error en el mecanismo de negociación SASL (error nonce), desconectando!";
+"Error handling SASL challenge of server (nonce error), disconnecting!" = "Error de gestión en el desafío SASL del servidor (error nonce), desconectando!";
 "Error registering push" = "Error al registrar push";
 "Error Removing Account" = "Error eliminando la cuenta";
 "Error while decrypting: iv.length != 12" = "Error al desencriptar: iv.length != 12";
@@ -585,7 +585,7 @@
 "Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "¡El servidor solo soporta métodos de autenticación inseguros contra un ataque MITM! Utilice el menú de creación de cuentas avanzado si es absolutamente necesario que deba utilizar este servidor.";
 "Server returned invalid xml!" = "¡El servidor devolvió xml inválido!";
 "Server returned SASL2 error '%@'." = "El servidor devolvió el error SASL2 '%@'.";
-"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "El servidor perdió repentinamente el soporte para SASL2-SCRAM, ataque MITM altamente probable, abortando autenticación e inhabilitando la cuenta para limitar el daño. Debería intentar rehabilitar su cuando se encuentre nuevamente en un entorno de red seguro.";
+"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "El servidor perdió repentinamente el soporte para SASL2-SCRAM, ataque MITM en curso altamente probable, abortando autenticación y deshabilitando la cuenta para limitar el daño. Debería intentar rehabilitar su cuando se encuentre nuevamente en un entorno de red seguro.";
 "Server: %@" = "Servidor: %@";
 "Set up account later" = "Configurar cuenta más tarde";
 /* Camera permissions missing warning */
@@ -679,7 +679,7 @@
 "This server does not support modern SASL2 authentication." = "Este servidor no tiene soporte para autenticación SASL2.";
 "This should never happen, please contact the developers and provide a logfile!" = "Esto no debería pasar nunca, por favor póngase en contacto con los desarrolladores y hágales llegar el archivo de registros!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Esta especificación define semánticas de uso del protocolo de publicación-suscripción XMPP para transmitir eventos de cambio de estado asociados con una cuenta de presencia y mensajería instantánea.";
-"This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Esta especificación provee una medio para proteger las conexiones SASL y SASL2 de degradaciones de métodos y vinculación de canales.";
+"This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Esta especificación brinda un medio para asegurar las conexiones SASL y SASL2 contra degradaciones de métodos y vinculación de canales.";
 "This will clear the whole chat history of this account from this device." = "Esto borrará todo el historial de chat de esta cuenta desde este dispositivo.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Esto borrará esta cuenta y los datos asociado del servidor y del dispositivo. Aún así algunos datos podrían quedar retenidos en otros dispositivos.";
 "This will remove this account and the associated data from this device." = "Esto eliminará esta cuenta y los datos asociados de este dispositivo.";
