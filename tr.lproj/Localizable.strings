@@ -47,14 +47,14 @@
 "All messages are archived by default." = "Tüm iletiler varsayılan olarak arşivlendi.";
 "All messages fetched successfully, there are no more left on the server!" = "Tüm mesajlar başarıyla alındı, sunucuda başka mesaj kalmadı!";
 "Allow" = "İzin ver";
-"Allow MITM-prone PLAIN authentication" = "Allow MITM-prone PLAIN authentication";
+"Allow MITM-prone PLAIN authentication" = "MITM-prone PLAIN doğrulamasına izin ver";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Birinin sizi kişi olarak eklemesine izin vermek, profil resminizi ve çevrimiçi olduğunuzda görmesini sağlar.";
 "Already present" = "Zaten mevcut";
 "Already uploading this content, ignoring" = "Bu içeriği zaten yüklüyor, yoksay";
 "Always archive" = "Her zaman arşivle";
 "Always use direct TLS, not STARTTLS" = "Her zaman doğrudan TLS kullanın, STARTTLS değil";
 "App" = "Uygulama";
-"Appearance" = "Appearance";
+"Appearance" = "Görünüm";
 "Apple Push Service" = "Apple Anında Bildirim Hizmeti";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Apple anında bildirim hizmeti her zaman açık olmalıdır. Eğer kapalı ise, cihazınız Apple sunucularından bildirimleri düzenli olarak alamaz.";
 "Apple Push Token" = "Apple Push Tokeni";
@@ -68,13 +68,13 @@
 "Audio recoder record fail." = "Ses kaydedici kaydı başarısız.";
 "Audio Recoder set active error: %@" = "Audio Recoder aktif hata belirledi: %@";
 "Audio Recoder set category error: %@" = "Ses Kaydedici ayar kategorisi hatası: %@";
-"Auto-Download Media" = "Auto-Download Media";
-"Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
-"Autofocus text input on chat open" = "Autofocus text input on chat open";
+"Auto-Download Media" = "Otomatik medya indirme";
+"Autodelete all messages after 3 days" = "Tüm mesajları 3 gün sonra otomatik sil";
+"Autofocus text input on chat open" = "Sohbet açıkken metin girişine otomatik odaklan";
 "Block" = "Engelle";
 "Block Contact" = "Kişiyi Engelle";
 /* muc affiliation */
-"Blocked" = "Blocked";
+"Blocked" = "Engellendi";
 "Blocked Users" = "Engellenen Kullanıcılar";
 "Blocking is not supported by the server" = "Engelleme sunucu tarafından desteklenmiyor";
 "Blocking/Unblocking Not Supported" = "Engelleme/Engellemeyi Kaldırma Desteklenmiyor";
@@ -93,8 +93,8 @@
 "Call security help" = "Güvenlik yardımını arayın";
 "Call Type" = "Çağrı Türü";
 "Call was not answered" = "Çağrı cevaplanmadı";
-"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
-"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
+"Calls: Allow P2P sessions" = "Çağrılar: P2P oturumlarına izin ver";
+"Calls: Allow TURN fallback to Monal-Servers" = "Çağrılar: Monal-Sunuculara TURN geri dönüşüne izin ver";
 "Camera" = "Kamera";
 /* Camera permissions missing warning */
 "Camera permissions missing" = "Kamera izinleri eksik";
@@ -109,7 +109,7 @@
 "Change Group Members" = "Grup Üyelerini Değiştir";
 "Change Password" = "Parolayı Değiştir";
 "Changing Password" = "Parolayı Değiştir";
-"Channel Participants" = "Channel Participants";
+"Channel Participants" = "Kanal Katılımcıları";
 "Channel subject:" = "Kanal konusu:";
 "Chat Background" = "Chat arka planları";
 "Check type and size on " = "Türü ve boyutu denetle ";
@@ -129,7 +129,7 @@
 "Contact not found" = "Kişi bulunamadı";
 /* placeholder when adding jid */
 "Contact or Group/Channel Jid" = "Kişi veya Grup/Kanal Kimliği";
-"Contact Selection" = "Contact Selection";
+"Contact Selection" = "Kontakt Seçimi";
 "Contacts" = "Rehber";
 "Cool Title" = "Havalı Başlık";
 "Copied to clipboard" = "Panoya kopyalandı";
@@ -162,14 +162,14 @@
 "Could not upload file" = "Dosya karşıya yüklenemedi";
 /* Crash reporting */
 "Crash Detected" = "Çökme Algılandı";
-"Crash Testing" = "Crash Testing";
+"Crash Testing" = "Çarpışma testi";
 "Create new group" = "Yeni grup oluştur";
 "Creating Group" = "Grup Oluşturma";
 "Creating invitation..." = "Davetiye oluşturuluyor...";
 "Current Password" = "Mevcut Şifre";
 "Currently Online" = "Şu Anda Çevrimiçi";
-"Database Export Failed" = "Database Export Failed";
-"Database Files" = "Database Files";
+"Database Export Failed" = "Veritabanı Dışa Aktarımı Başarısız";
+"Database Files" = "Veritabanı Dosyaları";
 "Debug" = "Hata ayıklama";
 "Debugging" = "Hata Ayıklama";
 "Default Background" = "Varsayılan Arka Plan";
@@ -831,20 +831,20 @@
 "Add members to group" = "Üyeyi gruba ekle";
 "Adding %@..." = "%@ Ekleniyor...";
 "Adding new member" = "Yeni üyeyi ekle";
-"Allow contacts in your contact list to query your Monal and iOS versions." = "Allow contacts in your contact list to query your Monal and iOS versions.";
-"Allow contacts not in your contact list to call you." = "Allow contacts not in your contact list to call you.";
-"Allow contacts not in your contact list to contact you." = "Allow contacts not in your contact list to contact you.";
-"Allow your phone to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your phone to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
-"Attachments" = "Attachments";
-"Block user?" = "Block user?";
-"Blocking %@" = "Blocking %@";
-"Blocking member" = "Blocking member";
-"Changing %@ to " = "Changing %@ to ";
-"Changing affiliation of member" = "Changing affiliation of member";
-"Chat background image" = "Chat background image";
-"Configure the background image displayed in open chats." = "Configure the background image displayed in open chats.";
-"Debug Notification Problems" = "Debug Notification Problems";
-"Destroy Channel" = "Destroy Channel";
+"Allow contacts in your contact list to query your Monal and iOS versions." = "İletişim listenizdeki kişilerin Monal ve iOS sürümlerinizi sorgulamasına izin verin.";
+"Allow contacts not in your contact list to call you." = "İletişim listenizdeki kişilerin sizi aramasına izin verin.";
+"Allow contacts not in your contact list to contact you." = "İletişim listenizde olmayan kişilerin sizinle iletişime geçmesine izin verin.";
+"Allow your phone to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Cihazınızın uzak istasyonla doğrudan bir ağ bağlantısı kurmasına izin verin. Bu, IP adresinizin arayan kişiye aktarılmasına neden olabilir.";
+"Attachments" = "Ekler";
+"Block user?" = "Kullanıcıyı engelle?";
+"Blocking %@" = "Engelle %@";
+"Blocking member" = "Üye engelle";
+"Changing %@ to " = "%@'i değiştirmek: ";
+"Changing affiliation of member" = "Bir üyenin bağlı olduğu kuruluşta değişiklik";
+"Chat background image" = "Sohbet arka plan görüntüsü";
+"Configure the background image displayed in open chats." = "Açık sohbetlerde görüntülenen arka plan görüntüsünü yapılandırın.";
+"Debug Notification Problems" = "Bildirim Problemlerinde Hata Ayıklama";
+"Destroy Channel" = "Kanalı Yok Et";
 "Destroy Group" = "Destroy Group";
 "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards.";
 "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards.";
