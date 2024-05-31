@@ -184,7 +184,7 @@
 "Destroying channel..." = "Destroying channel...";
 "Destroying group..." = "Destroying group...";
 "Detected a new omemo device on your account: %@" = "Hesabınızda yeni bir omemo cihazı algılandı: %@";
-"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Devam eden MITM saldırısı SSDP üzerinden tespit edildi, kimlik doğrulama iptal edildi ve hasarı sınırlamak için hesap devre dışı bırakıldı. Tekrar temiz bir ağ ortamına girdiğinizde hesabınızı yeniden etkinleştirmeyi denemelisiniz.";
 "Device ID: " = "Cihaz Kimliği: ";
 "DeviceID: " = "Cihaz Kimliği: ";
 "Disable Encryption" = "Şifrelemeyi Devre Dışı Bırak";
@@ -255,11 +255,11 @@
 "Error: Account disabled, can not display keys!" = "Hata oluştu: Hesap devre dışı bırakıldı, anahtarlar görüntülenemiyor!";
 "Error: No contacts to display keys for!" = "Hata: Anahtarları görüntülenecek kişi yok!";
 "Error: Received OMEMO message is empty" = "Hata: Alınan OMEMO iletisi boş";
-"errorMessage" = "errorMessage";
+"errorMessage" = "hataMesajı";
 "Failed to block contact %@" = "%@ kişisi engellenemedi";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@' içindeki '%1$@' üyeliği '%3$@' olarak değiştirilemedi";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@' içindeki '%1$@' üyeliği '%3$@' olarak değiştirilemedi: zaman aşımı";
-"Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
+"Failed to copy downloaded file into cache directory: %@" = "İndirilen dosya önbellek dizinine kopyalanamadı: %@";
 "Failed to create invitation for %@" = "%@ için davetiye oluşturulamadı";
 "Failed to create invitation, unknown error: %@" = "Davetiye oluşturulamadı, bilinmeyen hata: %@";
 "Failed to decode download link" = "İndirme bağlantısının kodu çözülemedi";
@@ -268,19 +268,19 @@
 "Failed to decrypt filetransfer" = "Dosya aktarımının şifresi çözülemedi";
 "Failed to delete own avatar" = "Mevcut avatarınız silinemedi";
 "Failed to delete own nickname" = "Mevcut takma adınız silinemedi";
-"Failed to destroy group/channel '%@'" = "Failed to destroy group/channel '%@'";
-"Failed to destroy group/channel '%@': timeout" = "Failed to destroy group/channel '%@': timeout";
-"Failed to download file: %@" = "Failed to download file: %@";
+"Failed to destroy group/channel '%@'" = "'%@' grubu/kanalı yok edilemedi";
+"Failed to destroy group/channel '%@': timeout" = "'%@' grubu/kanalı yok edilemedi: zaman aşımı";
+"Failed to download file: %@" = "Dosya indirilemedi: %@";
 "Failed to enable carbons for account %@" = "%@ hesabı için karbon iletiler etkinleştirilemedi";
 "Failed to encrypt file" = "Dosya şifrelenemedi";
 "Failed to enter Group/Channel %@" = "Grup/Kanal'ına girilemedi %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Grup/Kanal'a girilemedi %@: Bu bir Grup/Kanal değildir!";
 "Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
-"Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
+"Failed to fetch download metadata: %@" = "İndirme meta verileri alınamadı: %@";
 "Failed to fetch room config form for '%@'" = "'%@' için oda yapılandırma formu getirilemedi";
 "Failed to load blocklist" = "Engellenenler listesi yüklenemedi";
-"Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
-"Failed to move uploaded file to file cache directory" = "Failed to move uploaded file to file cache directory";
+"Failed to moderate message in group/channel '%@'" = "'%@' grubundaki/kanalındaki ileti denetlenemedi";
+"Failed to move uploaded file to file cache directory" = "Yüklenen dosya dosya önbellek dizinine taşınamadı";
 "Failed to parse URL returned by HTTP upload server" = "HTTP karşıya yükleme sunucusu tarafından döndürülen URL ayrıştırılamadı";
 "Failed to publish avatar image for group/channel %@" = "%@ grubu/kanal'ı için avatar resmi yayınlanamadı";
 "Failed to publish own avatar" = "Mevcut avatarınız paylaşılamadı";
@@ -368,15 +368,15 @@
 "Loading omemo bundles: %@ / %@" = "Omemo paketleri yükleniyor: %@ / %@";
 "Location Access Needed" = "Konum Erişimi İzni Gerekli";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Mevcut hesabınıza giriş yapın veya yeni bir hesap açın. Gerekirse Monal ayarlarında daha gelişmiş seçenekler bulacaksınız.";
-"Logfiles" = "Logfiles";
+"Logfiles" = "Log dosyaları";
 "Logging in" = "Oturum açma";
 "Login" = "Giriş";
 "Login error, account disabled: %@" = "Oturum açma hatası, hesap devre dışı: % @";
-"Logs" = "Logs";
+"Logs" = "Loglar";
 "Manual input" = "Manuel giriş";
 "Mark as read" = "Okundu olarak işaretle";
 /* Prefix for own messages in chat overview */
-"Me:" = "Me:";
+"Me:" = "Ben:";
 /* muc affiliation */
 "Member" = "Üye";
 "Message Archive Preferences" = "Mesaj Arşivi Tercihleri";
@@ -431,7 +431,7 @@
 "Not Authorized. Please check your credentials." = "Yetkili değil. Lütfen kimlik bilgilerinizi kontrol edin.";
 "Notes to self" = "Kendime notlar";
 "Notes to self: %@" = "Kendime notlar: %@";
-"Notification privacy" = "Notification privacy";
+"Notification privacy" = "Bildirim gizliliği";
 "Notifications" = "Bildirimler";
 "Notifications disabled" = "Bildirimler engellendi";
 "Notify on all messages" = "Tüm mesajlarda uyar";
@@ -447,7 +447,7 @@
 "Open" = "Aç";
 "Open app to see more" = "Daha fazlasını görmek için uygulamayı açın";
 /* muc members list */
-"Open contact details" = "Open contact details";
+"Open contact details" = "İletişim bilgilerini aç";
 "Open contact list" = "Kişi listesini aç";
 "Open list of pending contact requests" = "Bekleyen iletişim taleplerinin açık listesi";
 "Open Source" = "Açık Kaynak";
@@ -458,7 +458,7 @@
 /* muc affiliation */
 "Owner" = "Sahibi";
 /* muc affiliation */
-"Participant" = "Participant";
+"Participant" = "Katılımcı";
 /* placeholder when adding account
    placeholder when creating account
    placeholder when migrating account */
@@ -470,7 +470,7 @@
 "Passwords don't match!" = "Şifreler eşleşmiyor!";
 "Permission Requested" = "İzin İstendi";
 "Photos" = "Fotoğraflar";
-"Pin Chat" = "Pin Chat";
+"Pin Chat" = "Sohbeti Sabitle";
 "Play Sounds" = "Sesleri Çal";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Lütfen önce ayarlar altına yeni bir hesap ekleyin. Hesabınızı zaten eklediyseniz, ayarlar altında etkinleştirmeniz gerekebilir";
 "Please Allow Audio Access" = "Lütfen Ses Erişimine İzin Verin";
@@ -487,12 +487,12 @@
 "Please update!" = "Lütfen güncelleyin!";
 "Port" = "Bağlantı Noktası";
 "Port: %@, Direct TLS: %@, Priority: %@" = "Bağlantı Noktası: %@, Doğrudan TLS: %@, Öncelik: %@";
-"Previews" = "Previews";
+"Previews" = "Önizleme";
 "Privacy" = "Gizlilik";
 "Protocol support of your server (XEPs)" = "Sunucunuzun desteklediği protokoller (XEP'ler)";
 /* placeholder when creating account */
 "Provide XMPP-Server" = "XMPP-Server sağlayın";
-"Push Server" = "Push Server";
+"Push Server" = "Push Sunucusu";
 "Pushserver Region" = "Pushserver Bölgesi";
 "QR code: Fingerprints found" = "QR kodu: Parmak izleri bulundu";
 "QR-Code Scanner" = "QR Kod Tarayıcı";
@@ -527,13 +527,13 @@
 "Remove Contact" = "Kişiyi Kaldır";
 "Remove Conversation" = "Konuşmayı Kaldır";
 "Remove from contacts" = "Kişilerden kaldır";
-"Removing avatar..." = "Removing avatar...";
-"Rename Channel" = "Rename Channel";
+"Removing avatar..." = "Avatar kaldırılıyor...";
+"Rename Channel" = "Kanalı Yeniden Adlandır";
 /* placeholder text in contact details */
 "Rename Contact" = "Kişiyi Yeniden Adlandır";
-"Rename Group" = "Rename Group";
+"Rename Group" = "Grubu Yeniden Adlandır";
 "Reply" = "Cevap ver";
-"Required" = "Required";
+"Required" = "Gerekli";
 "Reset OMEMO session" = "OMEMO oturumunu sıfırla";
 "Resource" = "Kaynak";
 "Resources" = "Kaynaklar";
@@ -546,9 +546,9 @@
 "Ringing..." = "Çalıyor...";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Verilen Karma Yöntemini kullanan Salted Challenge Kimlik Doğrulama Mekanizması";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Verilen Hash Yöntemini kullanan ve ayrıca Channel-Binding ile güvence altına alınmış Salted Challenge Kimlik Doğrulama Mekanizması";
-"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SASL2'den SASL1'e düşürme saldırısı tespit edildi, kimlik doğrulama iptal edildi ve hasarı sınırlamak için hesap devre dışı bırakıldı. Tekrar temiz bir ağ ortamına girdiğinizde hesabınızı yeniden etkinleştirmeyi denemelisiniz.";
 "Saving changes to server" = "Değişiklikleri sunucuya kaydetme";
-"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SCRAM sunucu kanıtı yanlış, büyük olasılıkla devam eden MITM saldırısı, kimlik doğrulamayı iptal ediyor ve hasarı sınırlamak için hesabı devre dışı bırakıyor. Tekrar temiz bir ağ ortamına girdiğinizde hesabınızı yeniden etkinleştirmeyi denemelisiniz.";
 /* mac only string */
 "Scroll down to load more messages" = "Daha fazla ileti yüklemek için aşağı kaydırın";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "TLS1.3 ve bazı TLS1.2 bağlantıları için tanımlanmış güvenli channel-binding.";
@@ -560,10 +560,10 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Yeni mesaj bildirimleriyle çalınan sesleri seçin. Varsayılan Ksilofon'dur.";
 "Selected Group Members" = "Seçilmiş Grup Üyeleri";
 "Send" = "Gönder";
-"Send last interaction time" = "Send last interaction time";
+"Send last interaction time" = "Son etkileşim zamanını gönder";
 "Send Location" = "Konum Gönder";
-"Send message displayed state" = "Send message displayed state";
-"Send typing notifications" = "Send typing notifications";
+"Send message displayed state" = "Mesaj görüntüleme durumunu gönder";
+"Send typing notifications" = "Yazma Bildirimleri Gönder";
 "Sending..." = "Gönderiliyor...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Parolayı açık metin olarak gönderir (yalnızca TLS ile şifrelenir), çok güvenli değildir";
 "Sent a File 📁" = "Dosya Gönder 📁";
@@ -582,18 +582,18 @@
 "Server does not support account removal" = "Sunucu hesap silmeyi desteklemiyor";
 "Server for domain '%@' not responding!" = "'%@' etki alanı için sunucu yanıt vermiyor!";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Sunucu uygulama hatası: SASL2 görevleri boş, hesap devre dışı!";
-"Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server.";
+"Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "Sunucu yalnızca ortadaki adam saldırılarına karşı güvenli olmayan kimlik doğrulama yöntemlerini destekler! Bu sunucuyu mutlaka kullanmanız gerekiyorsa gelişmiş hesap oluşturma menüsünü kullanın.";
 "Server returned invalid xml!" = "Sunucu geçersiz xml döndürdü!";
 "Server returned SASL2 error '%@'." = "Sunucu SASL2 hatası döndürdü '%@'.";
-"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Sunucu aniden SASL2-SCRAM desteğinden yoksun kaldı, büyük olasılıkla devam eden MITM saldırısı, kimlik doğrulamayı iptal eder ve hasarı sınırlamak için hesabı devre dışı bırakır. Tekrar temiz bir ağ ortamına girdiğinizde hesabınızı yeniden etkinleştirmeyi denemelisiniz.";
 "Server: %@" = "Sunucu: %@";
 "Set up account later" = "Hesabı daha sonra ayarla";
 /* Camera permissions missing warning */
 "Settings" = "Ayarlar";
 "Sharing failed" = "Paylaşım başarısız oldu";
-"Show inline geo location" = "Show inline geo location";
+"Show inline geo location" = "Satır içi Coğrafi Konumu Göster";
 "Show shared Media and Files" = "Paylaşılan Medya ve Dosyaları Göster";
-"Show URL previews" = "Show URL previews";
+"Show URL previews" = "URL önizlemelerini göster";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "Bazı mesajlar alınmak veya gönderilmek için bekleyebilir. Lütfen yeniden denemek için uygulamayı açın.";
 "Something went wrong while parsing the string..." = "Dizeyi ayrıştırırken bir şeyler yanlış gitti...";
 "Sounds" = "Sesler";
@@ -629,8 +629,8 @@
 "The resource '%@' has the following capabilities:" = "'%@' kaynağı aşağıdaki yeteneklere sahiptir:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "Seçilebilir XMPP sunucuları Monal'a bağlı olmayan genel sunuculardır. Bu kayıt sayfası sadece kolaylık sağlamak için verilmiştir.";
 "The server does not support blocking (XEP-0191)." = "Sunucu engellemeyi desteklemiyor (XEP-0191).";
-"The UDP logger allows you to livestream the log to the configured IP." = "The UDP logger allows you to livestream the log to the configured IP.";
-"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
+"The UDP logger allows you to livestream the log to the configured IP." = "UDP kaydedici, günlüğü yapılandırılmış IP'ye canlı yayınlamanıza olanak tanır.";
+"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP kaydedici, günlüğü yapılandırılmış IP'ye canlı yayınlamanıza olanak tanır. İnternet üzerinden yayın yaparken lütfen güvenli bir anahtar kullanın!\n[Günlük akışını nasıl alacağınızı öğrenin](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
 "The user %@ (%@) wants to add you to their contact list" = "%1$@ (%2$@) kullanıcısı sizi kişi listesine eklemek istiyor";
 "The username does not need to have an @ symbol. Please try again." = "Kullanıcı adının @ sembolüne sahip olması gerekmez. Lütfen tekrar deneyin.";
 "There is no configured email account. Please email info@monal-im.org ." = "Yapılandırılmış bir e-posta hesabı yok. Lütfen info@monal-im.org adresine e-posta gönder.";
@@ -638,10 +638,10 @@
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "Bu şifreli iletinin şifresi çözülürken bir hata oluştu (Sinyal hatası). Bunu çözmek için bu kişiye şifreli bir ileti göndermeyi deneyin.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "Bu şifreli iletinin şifresi çözülürken bir hata oluştu (Sinyal hatası). Bunu çözmek için bu kişiye şifreli bir ileti göndermeyi deneyin. (%@)";
 "These are SRV resource records found for your domain." = "Bunlar, etki alanınız için bulunan SRV kaynak kayıtlarıdır.";
-"These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "These are STUN and TURN services announced by your server (blue entries are used by Monal).";
+"These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "Bunlar sunucunuz tarafından duyurulan STUN ve TURN hizmetleridir (mavi girişler Monal tarafından kullanılır).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "Bunlar, sunucunuzun TLS katmanındaki saldırıları tespit etmek için desteklediği kanal bağlama türleridir (mavi olan kullanılır, turuncu olanlar Monal tarafından desteklenmez).";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "Bunlar, Monal'ın oturum açtıktan sonra sunucunuzda algılanan modern XMPP özellikleridir.";
-"These are the MUC servers detected by Monal (blue entry used by Monal)." = "These are the MUC servers detected by Monal (blue entry used by Monal).";
+"These are the MUC servers detected by Monal (blue entry used by Monal)." = "Bunlar Monal tarafından tespit edilen MUC sunucularıdır (Monal tarafından kullanılan mavi giriş).";
 "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "Bunlar sunucunuzun desteklediği SASL2 yöntemleridir (kullanılan mavi, turuncu olanlar Monal tarafından desteklenmez).";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "Bunlar Monal tarafından desteklenen TLS sürümleridir, sunucunuza bağlanmak için kullanılan sürüm yeşil olacaktır.";
 "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "Bunlar şifreleme anahtarlarınızdır. Her cihaz giriş yaptığınız farklı bir yerdir. Bir anahtarı doğruladığınızda ona güvenmelisiniz. Panoya kopyalamak için bir parmak izine çift dokunun.";
@@ -651,14 +651,14 @@
 "This account already exists in Monal." = "Bu hesap Monal'da zaten var.";
 "This account already exists on this instance" = "Bu hesap zaten bu örnekte var";
 "This account already exists on this instance." = "Bu hesap, bu örnekte zaten var.";
-"This allows you to forcefully crash the app using several different methods to test the crash handling." = "This allows you to forcefully crash the app using several different methods to test the crash handling.";
+"This allows you to forcefully crash the app using several different methods to test the crash handling." = "Bu, çökme işlemini test etmek için birkaç farklı yöntem kullanarak uygulamayı zorla çökertmenize olanak tanır.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Bu uygulama çok eski ve güvenlik açıkları içerebilir veya aniden çalışmayı durdurabilir. Lütfen güncelleyin!";
-"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
+"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Bu, günlük dosyalarını dışa aktarmak için kullanılabilir.\n[Nasıl okunacağını öğrenin](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption." = "Bu kişinin şifrelemeyi destekleyen herhangi bir cihazı yok gibi görünüyor.";
 "This contact is already in the contact list of the selected account" = "Bu kişi zaten seçilen hesabın kişi listesinde yer alıyor";
 "This contact is already in your contact list" = "Bu kişi zaten kişi listenizde var";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Bu kişi OMEMO şifreli mesajları desteklemiyor olabilir. Lütfen birkaç saniye sonra tekrar deneyin.";
-"This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong.";
+"This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "Bu kişi OMEMO şifreli mesajları desteklemiyor olabilir. Bunun yanlış olduğunu düşünüyorsanız, lütfen birkaç saniye içinde şifrelemeyi tekrar etkinleştirmeyi deneyin.";
 /* Crash report error dialog */
 "This device is not configured to send email." = "Bu cihaz e-posta göndermek için yapılandırılmamıştır.";
 "This invitation will expire on %@" = "Bu davet %@ de sona erecektir";
@@ -674,7 +674,7 @@
 "This message got retracted" = "Bu mesaj geri çekildi";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Bu sunucu HTTP dosya karşıya yüklemelerini (XEP-0363) desteklemiyor gibi görünüyor. Lütfen yöneticiden etkinleştirmesini isteyin.";
 "This server does not have any SRV records in DNS." = "Bu sunucunun DNS'de herhangi bir SRV kaydı yoktur.";
-"This server does not provide any MUC servers." = "This server does not provide any MUC servers.";
+"This server does not provide any MUC servers." = "Bu sunucu herhangi bir MUC sunucusu sağlamaz.";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Bu sunucu, TLS katmanında MITM (ortadaki adam) saldırılarına karşı güvenli hale getirmek için herhangi bir modern channel-binding yöntemi desteklemez.";
 "This server does not support modern SASL2 authentication." = "Bu sunucu modern SASL2 kimlik doğrulamasını desteklemez.";
 "This should never happen, please contact the developers and provide a logfile!" = "Bu asla olmamalı, lütfen geliştiricilerle iletişime geçin ve bir günlük dosyası sağlayın!";
@@ -686,7 +686,7 @@
 "Timeout Error" = "Zaman Aşımı Hatası";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
-"TLS Error: Bad certificate" = "TLS Error: Bad certificate";
+"TLS Error: Bad certificate" = "TLS Hatası: Kötü sertifika";
 "TLS Error: Certificate chain is invalid" = "TLS Hatası: Sertifika zinciri geçersiz";
 "TLS Error: Certificate expired" = "TLS Hatası: Sertifika süresi dolmuş";
 "TLS Error: Host name mismatch" = "TLS Hatası: Ana bilgisayar adı uyuşmazlığı";
@@ -699,14 +699,14 @@
 "Try nevertheless" = "Yine de dene";
 "Type: %@" = "Tip: %@";
 "Typing..." = "Yazıyor...";
-"UDP Logger" = "UDP Logger";
-"UDP Logger Configuration" = "UDP Logger Configuration";
-"UDP Logging UI not supported on iOS < 16" = "UDP Logging UI not supported on iOS < 16";
+"UDP Logger" = "UDP Kaydedici";
+"UDP Logger Configuration" = "UDP Kaydedici Yapılandırması";
+"UDP Logging UI not supported on iOS < 16" = "UDP Günlüğü Kullanıcı Arayüzü iOS <16'da desteklenmiyor";
 "Unable to connect to server!" = "Sunucuya bağlanılamıyor!";
 "Unblock Contact" = "Kişi Engelini Kaldır";
 "Unclean appex shutown" = "Temiz olmayan appex kapanması";
 "Undefined error" = "Tanımlanmamış hata";
-"Understood" = "Understood";
+"Understood" = "Anlaşıldı";
 "Unexpected appex expiration" = "Beklenmedik appex sona ermesi";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "SASL2 kullanarak sunucu kimlik doğrulamasında beklenmeyen hata (sunucunuzda bir bug mı var?), bağlantı kesiliyor!";
 "Unexpected error while checking type of jid, please try again" = "Jid türünü kontrol ederken beklenmeyen hata, lütfen yeniden deneyin";
@@ -726,9 +726,9 @@
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Dosyaları başkalarıyla paylaşmak için sunucuya yükleyin. (Sunucu tarafından bildirilen izin verilen maksimum dosya boyutu: %@)";
 "Upload Settings" = "Yükleme Ayarları";
 "Uploading" = "Karşıya yükleniyor";
-"Uploading avatar..." = "Uploading avatar...";
+"Uploading avatar..." = "Avatar yükleniyor...";
 "Uploading file to server" = "Dosya sunucuya yükleniyor";
-"Use account" = "Use account";
+"Use account" = "Hesap kullan";
 /* placeholder when adding account */
 "user@domain.tld" = "kullanıcı@domain.tld";
 /* BlockUserTable - blockJidForm */
@@ -742,7 +742,7 @@
 "version %@%@" = "version %1$@%2$@";
 "Very old app version" = "Uygulamanın çok eski bir sürümü";
 "Waiting for GPS signal" = "GPS sinyali bekleniyor";
-"Warning" = "Warning";
+"Warning" = "Uyarı";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "Xmpp ile ilgili bir QR Kodu bulamadık";
 "We don't support any task requested by the server, account disabled: %@" = "Sunucu tarafından talep edilen hiçbir görevi desteklemiyoruz, hesap devre dışı: %@";
@@ -809,9 +809,9 @@
 "Your contact may not support calls. Your call might never reach its destination." = "Kişiniz Monal tarzı aramaları desteklemiyor olabilir. Aramanız, hedefine asla ulaşamayabilir.";
 "Your entered XMPP ID is missing the domain" = "Girdiğiniz XMPP Kimliğinizde alan adı eksik";
 "Your entered XMPP ID is missing the username" = "Girdiğiniz XMPP kimliğinde kullanıcı adı eksik";
-"Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
+"Your server does not provide a MUC component." = "Sunucunuz bir MUC bileşeni sağlamıyor.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Sunucunuz MAM'ı (XEP-0313) desteklemiyor. Bu, gelen mesajları çoğunlukla kaçırabileceğiniz anlamına gelir!! Bunu etkinleştirmek için sunucunuzu değiştirmeli veya sunucu yöneticisiyle konuşmalısınız!";
-"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
+"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Sunucunuz PUSH(XEP-0357)'u desteklemiyor. Bu, yeni gelen mesajları almak için uygulamayı manuel olarak açmanız gerektiği anlamına gelir! Bunu etkinleştirmek için sunucunuzu değiştirmeli veya sunucu yöneticisiyle konuşmalısınız!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Sunucunuz Akış Yönetimi'ni (XEP-0198) desteklemiyor. Bu, giden mesajlarınızın çoğunlukla kaybolabileceği anlamına gelir!! Bunu etkinleştirmek için sunucunuzu değiştirmeli veya sunucu yöneticisiyle konuşmalısınız!";
 "Your status" = "Durumunuz";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "XMPP jid'iniz user@domain.tld biçiminde olmalıdır. Özel konfigürasyonlar için manuel kurulum kullanın.";
@@ -861,7 +861,7 @@
 "Error inviting user!" = "Error inviting user!";
 "Error removing avatar!" = "Error removing avatar!";
 "Error removing user!" = "Error removing user!";
-"errorMessageUnknown error!" = "errorMessageUnknown error!";
+"errorMessageUnknown error!" = "hataMesajıBilinmeyen Hata!";
 "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.";
 "Input" = "Input";
 "Interactions" = "Interactions";
@@ -873,22 +873,22 @@
 "Let your contacts know if you read a message." = "Let your contacts know if you read a message.";
 "Let your contacts know if you received a message." = "Let your contacts know if you received a message.";
 "Let your contacts know when you last opened the app." = "Let your contacts know when you last opened the app.";
-"Misc" = "Misc";
-"On this device" = "On this device";
-"Publish version" = "Publish version";
-"Really remove avatar?" = "Really remove avatar?";
-"Received geo locations are shared with Apple's Maps App." = "Received geo locations are shared with Apple's Maps App.";
-"Remove user?" = "Remove user?";
-"Removing %@..." = "Removing %@...";
-"Removing member" = "Removing member";
-"Security" = "Security";
-"Send message received" = "Send message received";
-"Successfully destroyed channel." = "Successfully destroyed channel.";
-"Successfully destroyed group." = "Successfully destroyed group.";
-"The operator of the webserver providing that URL may see your IP address." = "The operator of the webserver providing that URL may see your IP address.";
-"This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
-"This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
-"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc.";
-"Use DNSSEC validation for all connections" = "Use DNSSEC validation for all connections";
-"User Interface" = "User Interface";
-"Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise.";
+"Misc" = "Çeşitli";
+"On this device" = "Bu cihazda";
+"Publish version" = "Versiyonu yayınla";
+"Really remove avatar?" = "Avatarı gerçekten kaldıracak mısın?";
+"Received geo locations are shared with Apple's Maps App." = "Alınan coğrafi konumlar Apple'ın Haritalar Uygulaması ile paylaşılır.";
+"Remove user?" = "Kullanıcıyı kaldıralım mı?";
+"Removing %@..." = "Kaldırılıyor %@...";
+"Removing member" = "Üyeyi çıkar";
+"Security" = "Güvenlik";
+"Send message received" = "Mesaj alındısı gönder";
+"Successfully destroyed channel." = "Kanal başarıyla yok edildi.";
+"Successfully destroyed group." = "Grup başarıyla yok edildi.";
+"The operator of the webserver providing that URL may see your IP address." = "Bu URL'yi sağlayan web sunucusunun operatörü IP adresinizi görebilir.";
+"This will make calls possible even if your XMPP server does not provide a TURN server." = "Bu, XMPP sunucunuz bir TURN sunucusu sağlamasa bile aramaları mümkün kılacaktır.";
+"This will remove the current avatar image and revert this group/channel to the default one." = "Bu işlem mevcut avatar resmini kaldıracak ve bu grubu/kanalı varsayılan haline geri döndürecektir.";
+"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "DNS yanıtında belirtilen IP adresine bağlanmadan önce tüm DNS sorgu yanıtlarını doğrulamak için DNSSEC kullanın.\nDaha güvenli olsa da bu, otel wifi'si, kötü mobil operatörler vb. gibi belirli ağlarda bağlantı sorunlarına yol açabilir.";
+"Use DNSSEC validation for all connections" = "Tüm bağlantılar için DNSSEC doğrulamasını kullan";
+"User Interface" = "Kullanıcı Arayüzü";
+"Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Donanım klavyesi takılıyken macOS veya iOS'ta metin alanına odaklanır, aksi takdirde yazılım klavyesini açar.";
