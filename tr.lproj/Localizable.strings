@@ -1,3 +1,4 @@
+" (offline)" = " (offline)";
 /* server details */
 " running on %@" = " %@ üzerinde çalışıyor";
 "%02d:%02d (long press to abort)" = "%02d:%02d (iptal etmek için uzun basın)";
@@ -36,6 +37,7 @@
 "Add %@ to your contacts?" = "Kişilerinize %@ eklensin mi?";
 "Add Account" = "Hesap Ekle";
 "Add Account (advanced)" = "Hesap Ekle (gelişmiş)";
+"Add Contact or Channel" = "Add Contact or Channel";
 "Add Group/Channel or Contact" = "Grup/Kanal veya Kişi Ekleme";
 "Add members to group" = "Üyeyi gruba ekle";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Yukarıdaki + düğmesine tıklayarak yeni kişiler ekleyin. Arkadaşların uygun olduklarında görüntülenmeye başlayacaklar";
@@ -51,6 +53,7 @@
 /* muc affiliation */
 "Admin" = "Yönetici";
 "Advanced Settings" = "Gelişmiş Ayarlar";
+"Affiliation: %@%@" = "Affiliation: %@%@";
 "All messages are archived by default." = "Tüm iletiler varsayılan olarak arşivlendi.";
 "All messages fetched successfully, there are no more left on the server!" = "Tüm mesajlar başarıyla alındı, sunucuda başka mesaj kalmadı!";
 "Allow" = "İzin ver";
@@ -58,6 +61,7 @@
 "Allow contacts not in your contact list to call you." = "İletişim listenizdeki kişilerin sizi aramasına izin verin.";
 "Allow contacts not in your contact list to contact you." = "İletişim listenizde olmayan kişilerin sizinle iletişime geçmesine izin verin.";
 "Allow MITM-prone PLAIN authentication" = "MITM-prone PLAIN doğrulamasına izin ver";
+"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Birinin sizi kişi olarak eklemesine izin vermek, profil resminizi ve çevrimiçi olduğunuzda görmesini sağlar.";
 "Already present" = "Zaten mevcut";
 "Already uploading this content, ignoring" = "Bu içeriği zaten yüklüyor, yoksay";
@@ -82,6 +86,7 @@
 "Auto-Download Media" = "Otomatik medya indirme";
 "Autodelete all messages after 3 days" = "Tüm mesajları 3 gün sonra otomatik sil";
 "Autofocus text input on chat open" = "Sohbet açıkken metin girişine otomatik odaklan";
+"Avatar" = "Avatar";
 "Block" = "Engelle";
 "Block Contact" = "Kişiyi Engelle";
 "Block user?" = "Kullanıcıyı engelle?";
@@ -119,10 +124,18 @@
 "Caps hash: %@" = "Caps hash: %@";
 /* placeholder when creating account */
 "Captcha" = "Captcha";
+"Change affiliation" = "Change affiliation";
+"Change Background Image" = "Change Background Image";
+"Change Channel Avatar" = "Change Channel Avatar";
 "Change Chat Background" = "Konuşma Arka Planını Değiştir";
+"Change Group Avatar" = "Change Group Avatar";
 "Change Group Members" = "Grup Üyelerini Değiştir";
 "Change Password" = "Parolayı Değiştir";
+"Changing affiliation" = "Changing affiliation";
+"Changing affiliation to %@: %@" = "Changing affiliation to %@: %@";
 "Changing Password" = "Parolayı Değiştir";
+"Channel Avatar" = "Channel Avatar";
+"Channel name" = "Channel name";
 "Channel Participants" = "Kanal Katılımcıları";
 "Channel subject:" = "Kanal konusu:";
 "Chat Background" = "Chat arka planları";
@@ -134,6 +147,7 @@
 "Clear chat history of this group" = "Bu grubun sohbet geçmişini temizle";
 "Clear History" = "Geçmişi Temizle";
 "Clear scanned contact" = "Taranan kişiyi temizle";
+"Clear text" = "Clear text";
 "Close" = "Kapat";
 "Configure the background image displayed in open chats." = "Açık sohbetlerde görüntülenen arka plan görüntüsünü yapılandırın.";
 "Connected since: %@" = "Şu zamandan beri bağlı: % @";
@@ -145,6 +159,7 @@
 "Contact not found" = "Kişi bulunamadı";
 /* placeholder when adding jid */
 "Contact or Group/Channel Jid" = "Kişi veya Grup/Kanal Kimliği";
+"Contact Requests" = "Contact Requests";
 "Contact Selection" = "Kontakt Seçimi";
 "Contacts" = "Rehber";
 "Cool Title" = "Havalı Başlık";
@@ -207,6 +222,7 @@
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Devam eden MITM saldırısı SSDP üzerinden tespit edildi, kimlik doğrulama iptal edildi ve hasarı sınırlamak için hesap devre dışı bırakıldı. Tekrar temiz bir ağ ortamına girdiğinizde hesabınızı yeniden etkinleştirmeyi denemelisiniz.";
 "Device ID: " = "Cihaz Kimliği: ";
 "DeviceID: " = "Cihaz Kimliği: ";
+"Devices of %@" = "Devices of %@";
 "Disable Encryption" = "Şifrelemeyi Devre Dışı Bırak";
 "Disable encryption?" = "Şifreleme devre dışı bırakılsın mı?";
 "Discovering devices..." = "Cihazlar keşfediliyor...";
@@ -222,6 +238,8 @@
 "Do you really want to disable encryption for this contact?" = "Bu kişi için şifrelemeyi gerçekten devre dışı bırakmak istiyor musunuz?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "OMEMO oturumunu gerçekten sıfırlamak istiyor musunuz? Bağlantıyı yalnızca ne yaptığınızı biliyorsanız sıfırlamalısınız!";
 "Do you want to block this user from entering this group/channel?" = "Bu kullanıcının bu gruba/kanala girmesini engellemek istiyor musunuz?";
+"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them.";
+"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group.";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Hesabınızı %@ kullanırken %@ kişisinin taranmış parmak izlerine güvenmek istiyor musunuz?";
 "Doing a lot of work..." = "Bir sürü iş yapıyorum...";
 "Domain missing" = "Alan adı eksik";
@@ -277,11 +295,14 @@
 "Error handling SASL challenge of server (m-attr error), disconnecting!" = "Sunucunun SASL Challange'ı işlenirken hata (m-attr hatası) oluştu, bağlantı kesiliyor!";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (nonce error), disconnecting!" = "Sunucunun SASL Challange'ı işlenirken hata (nonce hatası) oluştu, bağlantı kesiliyor!";
+"Error inviting new member!" = "Error inviting new member!";
+"Error inviting new participant!" = "Error inviting new participant!";
 "Error inviting user!" = "Kullanıcı davet edilirken hata oluştu!";
 "Error registering push" = "Bildirimler kaydedilirken hata oluştu";
 "Error Removing Account" = "Hesap silinirken hata oluştu";
 "Error removing avatar!" = "Avatar kaldırılırken hata oluştu!";
 "Error removing user!" = "Kullanıcı kaldırılırken hata oluştu!";
+"Error unblocking user!" = "Error unblocking user!";
 "Error while decrypting: iv.length != 12" = "Şifre çözülürken hata oluştu: iv.length != 12";
 "Error: %@" = "Hata: %@";
 "Error: Account disabled, can not display keys!" = "Hata oluştu: Hesap devre dışı bırakıldı, anahtarlar görüntülenemiyor!";
@@ -339,9 +360,11 @@
 "Got empty room config form for '%@'" = "'%@' için boş oda yapılandırma formu var";
 "GPS" = "Küresel Konumlama Sistemi";
 "Green checkmark shield:" = "Yeşil onay işareti kalkanı:";
+"Group Avatar" = "Group Avatar";
 /* placeholder when editing a group description */
 "Group Description (optional)" = "Grup Açıklaması (isteğe bağlı)";
 "Group Members" = "Grup Üyeleri";
+"Group name" = "Group name";
 /* placeholder when creating new group */
 "Group Name (optional)" = "Grup Adı (opsiyonel)";
 "Group subject:" = "Grup konusu:";
@@ -372,6 +395,7 @@
 /* muc invite */
 "Invite again" = "Tekrar davet edin";
 "Invite participants to channel" = "Katılımcıları kanala davet et";
+"Inviting new member" = "Inviting new member";
 "Inviting new participant" = "Yeni katılımcı davet et";
 "Inviting user" = "Kullanıcı davet et";
 "Inviting user to this group/channel: %@" = "Kullanıcıyı bu gruba/kanala davet et: %@";
@@ -447,12 +471,14 @@
 "Monal was not able to send your attachment!" = "Monal ekinizi gönderemedi!";
 "Monal was not able to send your attachment: %@" = "Monal ekinizi gönderemedi: %@";
 "More info?" = "Daha fazla bilgi?";
+"My Encryption Keys" = "My Encryption Keys";
 "Never archive" = "Asla arşivleme";
 "New Account" = "Yeni Hesap";
 "New Message" = "Yeni Mesaj";
 "New omemo device" = "Yeni omemo cihazı";
 "New Password" = "Yeni Parola";
 "Newest TLS version which is faster than TLS 1.2" = "TLS 1.2'den daha hızlı olan en yeni TLS versiyonu";
+"Nickname" = "Nickname";
 "No" = "Hayır";
 "No account available to handel 'xmpp:' URI!" = "'xmpp:' URI'sini işlemek için kullanılabilir hesap yok!";
 "No accounts set up currently" = "Şu anda ayarlanmış hesap yok";
@@ -493,8 +519,12 @@
 /* muc members list */
 "Open contact details" = "İletişim bilgilerini aç";
 "Open contact list" = "Kişi listesini aç";
+"Open iOS settings" = "Open iOS settings";
 "Open list of pending contact requests" = "Bekleyen iletişim taleplerinin açık listesi";
+"Open macOS settings" = "Open macOS settings";
+"Open Profile of %@" = "Open Profile of %@";
 "Open Source" = "Açık Kaynak";
+"Open URLs inline in Safari" = "Open URLs inline in Safari";
 "Optional Hardcoded Hostname" = "İsteğe Bağlı Sabit Kodlu Ana Bilgisayar Adı";
 "Optional Port" = "İsteğe Bağlı Bağlantı Noktası";
 "Own device key" = "Kendi cihaz anahtarın";
@@ -570,10 +600,15 @@
 "Registering account..." = "Hesap kaydediliyor...";
 "Registration Error" = "Kayıt Hatası";
 "Remove %@ from contacts?" = "Kişilerden %@ kaldırılsın mı?";
+"Remove %@?" = "Remove %@?";
 "Remove Account from this Device" = "Hesabı bu cihazdan kaldır";
+"Remove Background Image" = "Remove Background Image";
+"Remove Channel Avatar" = "Remove Channel Avatar";
 "Remove Contact" = "Kişiyi Kaldır";
 "Remove Conversation" = "Konuşmayı Kaldır";
 "Remove from contacts" = "Kişilerden kaldır";
+"Remove Group Avatar" = "Remove Group Avatar";
+"Removing %@" = "Removing %@";
 "Removing %@..." = "Kaldırılıyor %@...";
 "Removing avatar..." = "Avatar kaldırılıyor...";
 "Rename Channel" = "Kanalı Yeniden Adlandır";
@@ -663,6 +698,7 @@
 "Sure, send it!" = "Tabii, gönder!";
 "Synchronize your messages on all loggedin devices." = "Mesajlarınızı oturum açtığınız tüm cihazlarda senkronize edin.";
 "Temporary failure to enter Group/Channel: %@" = "Grup/Kanala girişte geçici hata: %@";
+"Terms of %@" = "Terms of %@";
 "Terms of use for %@" = "%@ için kullanım şartları";
 "The account has been deleted" = "Hesabınız silindi";
 "The account has been removed" = "Bu hesap silindi";
@@ -759,6 +795,8 @@
 "UDP Logging UI not supported on iOS < 16" = "UDP Günlüğü Kullanıcı Arayüzü iOS <16'da desteklenmiyor";
 "Unable to connect to server!" = "Sunucuya bağlanılamıyor!";
 "Unblock Contact" = "Kişi Engelini Kaldır";
+"Unblocking user" = "Unblocking user";
+"Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
 "Unclean appex shutown" = "Temiz olmayan appex kapanması";
 "Undefined error" = "Tanımlanmamış hata";
 "Understood" = "Anlaşıldı";
@@ -810,6 +848,7 @@
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "En zayıf channel-binding tipidir, çalınan sertifikalara/anahtarlara karşı güvenlik sağlamaz, ancak yanlış verilen sertifikaları tespit eder.";
 "Welcome" = "Hoşgeldiniz";
 "What call do you want to place?" = "Hangi çağrıyı yapmak istiyorsunuz?";
+"When disabled, URLs will opened in your default browser (that might not be Safari)." = "When disabled, URLs will opened in your default browser (that might not be Safari).";
 "When you start talking to someone,\n they will show up here." = "Biriyle konuşmaya başladığınızda,\n burada görünecekler.";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Donanım klavyesi takılıyken macOS veya iOS'ta metin alanına odaklanır, aksi takdirde yazılım klavyesini açar.";
 /* QR-Code-Scanner: account scan wrong menu
@@ -883,42 +922,3 @@
 "📍 A Location" = "📍 Bir Konum";
 "📷 An Image" = "📷 Bir Resim";
 "🔗 A Link" = "🔗 Bir Bağlantı";
-" (offline)" = " (offline)";
-"Add Contact or Channel" = "Add Contact or Channel";
-"Affiliation: %@%@" = "Affiliation: %@%@";
-"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
-"Avatar" = "Avatar";
-"Change affiliation" = "Change affiliation";
-"Change Background Image" = "Change Background Image";
-"Change Channel Avatar" = "Change Channel Avatar";
-"Change Group Avatar" = "Change Group Avatar";
-"Changing affiliation" = "Changing affiliation";
-"Changing affiliation to %@: %@" = "Changing affiliation to %@: %@";
-"Channel Avatar" = "Channel Avatar";
-"Channel name" = "Channel name";
-"Clear text" = "Clear text";
-"Contact Requests" = "Contact Requests";
-"Devices of %@" = "Devices of %@";
-"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them.";
-"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group.";
-"Error inviting new member!" = "Error inviting new member!";
-"Error inviting new participant!" = "Error inviting new participant!";
-"Error unblocking user!" = "Error unblocking user!";
-"Group Avatar" = "Group Avatar";
-"Group name" = "Group name";
-"Inviting new member" = "Inviting new member";
-"My Encryption Keys" = "My Encryption Keys";
-"Nickname" = "Nickname";
-"Open iOS settings" = "Open iOS settings";
-"Open macOS settings" = "Open macOS settings";
-"Open Profile of %@" = "Open Profile of %@";
-"Open URLs inline in Safari" = "Open URLs inline in Safari";
-"Remove %@?" = "Remove %@?";
-"Remove Background Image" = "Remove Background Image";
-"Remove Channel Avatar" = "Remove Channel Avatar";
-"Remove Group Avatar" = "Remove Group Avatar";
-"Removing %@" = "Removing %@";
-"Terms of %@" = "Terms of %@";
-"Unblocking user" = "Unblocking user";
-"Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
-"When disabled, URLs will opened in your default browser (that might not be Safari)." = "When disabled, URLs will opened in your default browser (that might not be Safari).";

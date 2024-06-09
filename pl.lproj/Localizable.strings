@@ -1,3 +1,4 @@
+" (offline)" = " (offline)";
 /* server details */
 " running on %@" = " działa na %@";
 "%02d:%02d (long press to abort)" = "%02d:%02d (długie naciśnięcie, aby przerwać)";
@@ -36,6 +37,7 @@
 "Add %@ to your contacts?" = "Dodać %@ do twoich kontaktów?";
 "Add Account" = "Dodaj konto";
 "Add Account (advanced)" = "Dodaj konto (zaawansowane)";
+"Add Contact or Channel" = "Add Contact or Channel";
 "Add Group/Channel or Contact" = "Dodaj Grupę/Kanał lub Kontakt";
 "Add members to group" = "Add members to group";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Aby dodać nowe kontakty użyj \"+\" na górze. Twoi znajomi będą tu widoczni gdy będziecie mogli rozmawiać";
@@ -51,6 +53,7 @@
 /* muc affiliation */
 "Admin" = "Admin";
 "Advanced Settings" = "Zaawansowane";
+"Affiliation: %@%@" = "Affiliation: %@%@";
 "All messages are archived by default." = "Domyślnie wszystkie wiadomości są archiwizowane.";
 "All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
 "Allow" = "Umożliwić";
@@ -58,6 +61,7 @@
 "Allow contacts not in your contact list to call you." = "Allow contacts not in your contact list to call you.";
 "Allow contacts not in your contact list to contact you." = "Allow contacts not in your contact list to contact you.";
 "Allow MITM-prone PLAIN authentication" = "Allow MITM-prone PLAIN authentication";
+"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Pozwolenie komuś aby dodał ciebie jako kontakt pozwala im widzieć twój obraz profilowy oraz kiedy jesteś online.";
 "Already present" = "Już dodano";
 "Already uploading this content, ignoring" = "Już przesyłam tę treść, ignoruję";
@@ -82,6 +86,7 @@
 "Auto-Download Media" = "Auto-Download Media";
 "Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
 "Autofocus text input on chat open" = "Autofocus text input on chat open";
+"Avatar" = "Avatar";
 "Block" = "Blokować";
 "Block Contact" = "Zablokuj kontakt";
 "Block user?" = "Block user?";
@@ -119,10 +124,18 @@
 "Caps hash: %@" = "Skrót możliwości: %@";
 /* placeholder when creating account */
 "Captcha" = "Captcha";
+"Change affiliation" = "Change affiliation";
+"Change Background Image" = "Change Background Image";
+"Change Channel Avatar" = "Change Channel Avatar";
 "Change Chat Background" = "Zmień Tło Rozmowy";
+"Change Group Avatar" = "Change Group Avatar";
 "Change Group Members" = "Change Group Members";
 "Change Password" = "Zmień hasło";
+"Changing affiliation" = "Changing affiliation";
+"Changing affiliation to %@: %@" = "Changing affiliation to %@: %@";
 "Changing Password" = "Zmiana hasła";
+"Channel Avatar" = "Channel Avatar";
+"Channel name" = "Channel name";
 "Channel Participants" = "Channel Participants";
 "Channel subject:" = "Temat kanału:";
 "Chat Background" = "Tło Rozmowy";
@@ -134,6 +147,7 @@
 "Clear chat history of this group" = "Wyczyść historię rozmowy dla tej grupy";
 "Clear History" = "Czysta historia";
 "Clear scanned contact" = "Wyczyść zeskanowany kontakt";
+"Clear text" = "Clear text";
 "Close" = "Zamknij";
 "Configure the background image displayed in open chats." = "Configure the background image displayed in open chats.";
 "Connected since: %@" = "Połaczony od: %@";
@@ -145,6 +159,7 @@
 "Contact not found" = "Kontakt nie znaleziony";
 /* placeholder when adding jid */
 "Contact or Group/Channel Jid" = "Jid Kontaktu, Grupy lub Kanału";
+"Contact Requests" = "Contact Requests";
 "Contact Selection" = "Contact Selection";
 "Contacts" = "Kontakty";
 "Cool Title" = "Świetny Tytuł";
@@ -207,6 +222,7 @@
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "ID urządzenia: ";
 "DeviceID: " = "IDurządzenia: ";
+"Devices of %@" = "Devices of %@";
 "Disable Encryption" = "Wyłącz szyfrowanie";
 "Disable encryption?" = "Wyłączyć szyfrowanie?";
 "Discovering devices..." = "Odkrywanie urządzeń...";
@@ -222,6 +238,8 @@
 "Do you really want to disable encryption for this contact?" = "Czy na pewno chcesz wyłączyć szyfrowanie tego kontaktu?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Czy na pewno chcesz zresetować sesję OMEMO? Powinieneś zresetować połączenie tylko wtedy, gdy wiesz, co robisz!";
 "Do you want to block this user from entering this group/channel?" = "Do you want to block this user from entering this group/channel?";
+"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them.";
+"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group.";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Czy chcesz zaufać zeskanowanym odciskom kontaktu %@ używając konta %@?";
 "Doing a lot of work..." = "Pracuję...";
 "Domain missing" = "Brak domeny";
@@ -277,11 +295,14 @@
 "Error handling SASL challenge of server (m-attr error), disconnecting!" = "Error handling SASL challenge of server (m-attr error), disconnecting!";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (nonce error), disconnecting!" = "Error handling SASL challenge of server (nonce error), disconnecting!";
+"Error inviting new member!" = "Error inviting new member!";
+"Error inviting new participant!" = "Error inviting new participant!";
 "Error inviting user!" = "Error inviting user!";
 "Error registering push" = "Błąd rejestracji push";
 "Error Removing Account" = "Błąd podczas usuwania konta";
 "Error removing avatar!" = "Error removing avatar!";
 "Error removing user!" = "Error removing user!";
+"Error unblocking user!" = "Error unblocking user!";
 "Error while decrypting: iv.length != 12" = "Błąd podczas odszyfrowywania: iv.length != 12";
 "Error: %@" = "Błąd: %@";
 "Error: Account disabled, can not display keys!" = "Błąd: Konto wyłączone, nie można wyświetlić kluczy!";
@@ -339,9 +360,11 @@
 "Got empty room config form for '%@'" = "Got empty room config form for '%@'";
 "GPS" = "GPS";
 "Green checkmark shield:" = "Zielona tarcza:";
+"Group Avatar" = "Group Avatar";
 /* placeholder when editing a group description */
 "Group Description (optional)" = "Group Description (optional)";
 "Group Members" = "Członkowie Grupy";
+"Group name" = "Group name";
 /* placeholder when creating new group */
 "Group Name (optional)" = "Nazwa Grupy (opcjonalnie)";
 "Group subject:" = "Temat grupy:";
@@ -372,6 +395,7 @@
 /* muc invite */
 "Invite again" = "Invite again";
 "Invite participants to channel" = "Invite participants to channel";
+"Inviting new member" = "Inviting new member";
 "Inviting new participant" = "Inviting new participant";
 "Inviting user" = "Inviting user";
 "Inviting user to this group/channel: %@" = "Inviting user to this group/channel: %@";
@@ -447,12 +471,14 @@
 "Monal was not able to send your attachment!" = "Monal nie mógł wysłać Twojego załącznika!";
 "Monal was not able to send your attachment: %@" = "Monal nie mógł wysłać Twojego załącznika: %@";
 "More info?" = "Więcej informacji?";
+"My Encryption Keys" = "My Encryption Keys";
 "Never archive" = "Nigdy nie archiwizuj";
 "New Account" = "Nowe konto";
 "New Message" = "Nowa wiadomość";
 "New omemo device" = "New omemo device";
 "New Password" = "Nowe hasło";
 "Newest TLS version which is faster than TLS 1.2" = "Najnowsza wersja TLS, która jest szybsza niż TLS 1.2";
+"Nickname" = "Nickname";
 "No" = "Nie";
 "No account available to handel 'xmpp:' URI!" = "Żadne konto nie wspiera łączy 'xmpp:'!";
 "No accounts set up currently" = "Nie ustawiono żadnych kont";
@@ -493,8 +519,12 @@
 /* muc members list */
 "Open contact details" = "Open contact details";
 "Open contact list" = "Open contact list";
+"Open iOS settings" = "Open iOS settings";
 "Open list of pending contact requests" = "Otwórz listę oczekujących zapytań kontaktów";
+"Open macOS settings" = "Open macOS settings";
+"Open Profile of %@" = "Open Profile of %@";
 "Open Source" = "Otwarty kod źródłowy";
+"Open URLs inline in Safari" = "Open URLs inline in Safari";
 "Optional Hardcoded Hostname" = "Opcjonalna hardkodowana nazwa hosta";
 "Optional Port" = "Opcjonalny port";
 "Own device key" = "Własny klucz";
@@ -570,10 +600,15 @@
 "Registering account..." = "Rejestruję konto...";
 "Registration Error" = "Błąd rejestracji";
 "Remove %@ from contacts?" = "Usuń %@ z kontaktów?";
+"Remove %@?" = "Remove %@?";
 "Remove Account from this Device" = "Usuń konto z tego urządzenia";
+"Remove Background Image" = "Remove Background Image";
+"Remove Channel Avatar" = "Remove Channel Avatar";
 "Remove Contact" = "Usuń kontakt";
 "Remove Conversation" = "Usuń rozmowę";
 "Remove from contacts" = "Usuń z kontaktów";
+"Remove Group Avatar" = "Remove Group Avatar";
+"Removing %@" = "Removing %@";
 "Removing %@..." = "Removing %@...";
 "Removing avatar..." = "Removing avatar...";
 "Rename Channel" = "Rename Channel";
@@ -663,6 +698,7 @@
 "Sure, send it!" = "Jasne, wyślij!";
 "Synchronize your messages on all loggedin devices." = "Synchronizuj swoje wiadomości na wszystkich zalogowanych urządzeniach.";
 "Temporary failure to enter Group/Channel: %@" = "Tymczasowe nieudane wejście do grupy/kanału: %@";
+"Terms of %@" = "Terms of %@";
 "Terms of use for %@" = "Warunki użycia %@";
 "The account has been deleted" = "Konto zostało usunięte";
 "The account has been removed" = "Konto zostało usunięte";
@@ -759,6 +795,8 @@
 "UDP Logging UI not supported on iOS < 16" = "UDP Logging UI not supported on iOS < 16";
 "Unable to connect to server!" = "Niemożna połączyć z serwerem!";
 "Unblock Contact" = "Odblokuj Kontakt";
+"Unblocking user" = "Unblocking user";
+"Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
 "Unclean appex shutown" = "Nieczyste zamknięcie appex";
 "Undefined error" = "Nieokreślony błąd";
 "Understood" = "Understood";
@@ -810,6 +848,7 @@
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Najsłabszy typ powiązania kanału, nie zabezpieczający przed skradzionymi certyfikatami/kluczami, ale wykrywa błędnie wystawione certyfikaty.";
 "Welcome" = "Witamy";
 "What call do you want to place?" = "What call do you want to place?";
+"When disabled, URLs will opened in your default browser (that might not be Safari)." = "When disabled, URLs will opened in your default browser (that might not be Safari).";
 "When you start talking to someone,\n they will show up here." = "Kiedy zaczynasz z kimś rozmawiać,\npojawią się tutaj.";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise.";
 /* QR-Code-Scanner: account scan wrong menu
@@ -883,42 +922,3 @@
 "📍 A Location" = "📍 Lokalizacja";
 "📷 An Image" = "📷 Obraz";
 "🔗 A Link" = "🔗 Link";
-" (offline)" = " (offline)";
-"Add Contact or Channel" = "Add Contact or Channel";
-"Affiliation: %@%@" = "Affiliation: %@%@";
-"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
-"Avatar" = "Avatar";
-"Change affiliation" = "Change affiliation";
-"Change Background Image" = "Change Background Image";
-"Change Channel Avatar" = "Change Channel Avatar";
-"Change Group Avatar" = "Change Group Avatar";
-"Changing affiliation" = "Changing affiliation";
-"Changing affiliation to %@: %@" = "Changing affiliation to %@: %@";
-"Channel Avatar" = "Channel Avatar";
-"Channel name" = "Channel name";
-"Clear text" = "Clear text";
-"Contact Requests" = "Contact Requests";
-"Devices of %@" = "Devices of %@";
-"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them.";
-"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group.";
-"Error inviting new member!" = "Error inviting new member!";
-"Error inviting new participant!" = "Error inviting new participant!";
-"Error unblocking user!" = "Error unblocking user!";
-"Group Avatar" = "Group Avatar";
-"Group name" = "Group name";
-"Inviting new member" = "Inviting new member";
-"My Encryption Keys" = "My Encryption Keys";
-"Nickname" = "Nickname";
-"Open iOS settings" = "Open iOS settings";
-"Open macOS settings" = "Open macOS settings";
-"Open Profile of %@" = "Open Profile of %@";
-"Open URLs inline in Safari" = "Open URLs inline in Safari";
-"Remove %@?" = "Remove %@?";
-"Remove Background Image" = "Remove Background Image";
-"Remove Channel Avatar" = "Remove Channel Avatar";
-"Remove Group Avatar" = "Remove Group Avatar";
-"Removing %@" = "Removing %@";
-"Terms of %@" = "Terms of %@";
-"Unblocking user" = "Unblocking user";
-"Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
-"When disabled, URLs will opened in your default browser (that might not be Safari)." = "When disabled, URLs will opened in your default browser (that might not be Safari).";

@@ -1,3 +1,4 @@
+" (offline)" = " (offline)";
 /* server details */
 " running on %@" = " läuft auf %@";
 "%02d:%02d (long press to abort)" = "%02d:%02d (zum Abbrechen lang drücken)";
@@ -36,6 +37,7 @@
 "Add %@ to your contacts?" = "%@ zu deinen Kontakten hinzufügen?";
 "Add Account" = "Konto hinzufügen";
 "Add Account (advanced)" = "Konto hinzufügen (erweitert)";
+"Add Contact or Channel" = "Kontakt oder Channel hinzufügen";
 "Add Group/Channel or Contact" = "Gruppe/Channel oder Kontakt hinzufügen";
 "Add members to group" = "Mitglieder zur Gruppe hinzufügen";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Füge neue Kontakte oben mit der Schaltfläche + hinzu. Deine Freunde werden hier erscheinen, wenn sie sich mit dir unterhalten wollen";
@@ -51,6 +53,7 @@
 /* muc affiliation */
 "Admin" = "Administrator";
 "Advanced Settings" = "Erweiterte Einstellungen";
+"Affiliation: %@%@" = "Zugehörigkeit: %@%@";
 "All messages are archived by default." = "Alle Nachrichten werden standardmäßig archiviert.";
 "All messages fetched successfully, there are no more left on the server!" = "Alle Nachrichten wurden erfolgreich abgerufen, es befinden sich keine mehr auf dem Server!";
 "Allow" = "Erlauben";
@@ -58,6 +61,7 @@
 "Allow contacts not in your contact list to call you." = "Erlaube Kontakten, die nicht in deiner Kontaktliste stehen, dich anzurufen.";
 "Allow contacts not in your contact list to contact you." = "Erlaube Kontakten, die nicht in deiner Kontaktliste stehen, dich zu kontaktieren.";
 "Allow MITM-prone PLAIN authentication" = "MITM-anfällige PLAIN-Authentifizierung zulassen";
+"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Erlaube deinem Gerät, eine direkte Netzwerkverbindung mit der Gegenstelle herzustellen. Dadurch könnte deine IP-Adresse an den Anrufer weitergegeben werden.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Wenn du jemandem erlaubst, dich als Kontakt hinzuzufügen, kann er dein Profilbild sehen und weiß, wann du online bist.";
 "Already present" = "Bereits vorhanden";
 "Already uploading this content, ignoring" = "Dieser Inhalt wird bereits hochgeladen, ignorieren";
@@ -82,6 +86,7 @@
 "Auto-Download Media" = "Automatischer Download von Medien";
 "Autodelete all messages after 3 days" = "Automatische Löschung aller Nachrichten nach 3 Tagen";
 "Autofocus text input on chat open" = "Autofokus-Texteingabe bei geöffnetem Chat";
+"Avatar" = "Profilbild";
 "Block" = "Sperren";
 "Block Contact" = "Kontakt sperren";
 "Block user?" = "Nutzer sperren?";
@@ -119,10 +124,18 @@
 "Caps hash: %@" = "Caps-Hash: %@";
 /* placeholder when creating account */
 "Captcha" = "Captcha";
+"Change affiliation" = "Zugehörigkeit ändern";
+"Change Background Image" = "Hintergrundbild ändern";
+"Change Channel Avatar" = "Profilbild des Channels ändern";
 "Change Chat Background" = "Chathintergrund ändern";
+"Change Group Avatar" = "Profilbild der Gruppe ändern";
 "Change Group Members" = "Gruppenmitglieder ändern";
 "Change Password" = "Passwort ändern";
+"Changing affiliation" = "Änderung der Zugehörigkeit";
+"Changing affiliation to %@: %@" = "Änderung der Zugehörigkeit %@ in: %@";
 "Changing Password" = "Ändern des Passworts";
+"Channel Avatar" = "Profilbild des Channels";
+"Channel name" = "Channelname";
 "Channel Participants" = "Teilnehmer im Channel";
 "Channel subject:" = "Thema des Channels:";
 "Chat Background" = "Chathintergrund";
@@ -134,6 +147,7 @@
 "Clear chat history of this group" = "Chatverlauf dieser Gruppe löschen";
 "Clear History" = "Verlauf löschen";
 "Clear scanned contact" = "Gescannten Kontakt löschen";
+"Clear text" = "Unverschlüsselt";
 "Close" = "Schließen";
 "Configure the background image displayed in open chats." = "Hintergrundbild konfigurieren, das in offenen Chats angezeigt wird.";
 "Connected since: %@" = "Verbunden seit: %@";
@@ -145,6 +159,7 @@
 "Contact not found" = "Kontakt nicht gefunden";
 /* placeholder when adding jid */
 "Contact or Group/Channel Jid" = "Kontakt- und Gruppen-/Channel-JID";
+"Contact Requests" = "Kontaktanfragen";
 "Contact Selection" = "Kontaktauswahl";
 "Contacts" = "Kontakte";
 "Cool Title" = "Titel";
@@ -207,6 +222,7 @@
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Es wurde ein laufender MITM-Angriff über SSDP erkannt, die Authentifizierung abgebrochen und das Konto deaktiviert, um den Schaden zu begrenzen. Du solltest versuchen, dein Konto wieder zu aktivieren, sobald du dich wieder in einer sicheren Netzwerkumgebung befindest.";
 "Device ID: " = "Geräte-ID: ";
 "DeviceID: " = "Geräte-ID: ";
+"Devices of %@" = "Geräte von %@";
 "Disable Encryption" = "Verschlüsselung deaktivieren";
 "Disable encryption?" = "Verschlüsselung deaktivieren?";
 "Discovering devices..." = "Geräte werden erkannt...";
@@ -222,6 +238,8 @@
 "Do you really want to disable encryption for this contact?" = "Möchtest du die Verschlüsselung für diesen Kontakt wirklich deaktivieren?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Möchtest du die OMEMO-Sitzung wirklich zurücksetzen? Du solltest die Verbindung nur zurücksetzen, wenn du weißt, was du tust!";
 "Do you want to block this user from entering this group/channel?" = "Möchtest du diesem Benutzer den Zugang zu dieser Gruppe/diesem Channel verweigern?";
+"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Möchtest du diesen Nutzer aus diesem Channel entfernen? Der Nutzer kann ihn wieder betreten, wenn du ihn nicht sperrst.";
+"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Möchtest du diesen Nutzer aus dieser Gruppe entfernen? Der Nutzer kann sie erst wieder betreten, wenn er der Gruppe wieder hinzugefügt wird.";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Möchtest du den gescannten Fingerabdrücken des Kontakts %@ vertrauen, das du mit deinem Konto %@ benutzt?";
 "Doing a lot of work..." = "Eine Menge Arbeit zu erledigen...";
 "Domain missing" = "Domain fehlt";
@@ -277,11 +295,14 @@
 "Error handling SASL challenge of server (m-attr error), disconnecting!" = "Fehler bei der SASL-Abfrage des Servers (m-attr-Fehler), Abbruch der Verbindung!";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (nonce error), disconnecting!" = "Fehler bei der SASL-Abfrage des Servers (nonce-Fehler), Abbruch der Verbindung!";
+"Error inviting new member!" = "Fehler beim Einladen eines neuen Mitglieds!";
+"Error inviting new participant!" = "Fehler beim Einladen eines neuen Teilnehmers!";
 "Error inviting user!" = "Fehler beim Einladen des Benutzers!";
 "Error registering push" = "Fehler beim Registrieren von Push";
 "Error Removing Account" = "Fehler beim Löschen des Kontos";
 "Error removing avatar!" = "Fehler beim Entfernen des Profilbildes!";
 "Error removing user!" = "Fehler beim Entfernen des Benutzers!";
+"Error unblocking user!" = "Fehler beim Entsperren des Nutzers!";
 "Error while decrypting: iv.length != 12" = "Fehler beim Entschlüsseln: iv.length !=12";
 "Error: %@" = "Fehler: %@";
 "Error: Account disabled, can not display keys!" = "Fehler: Konto deaktiviert, Schlüssel können nicht angezeigt werden!";
@@ -339,9 +360,11 @@
 "Got empty room config form for '%@'" = "Leere Raumkonfiguration für '%@' erhalten";
 "GPS" = "GPS";
 "Green checkmark shield:" = "Schild mit grünem Häkchen:";
+"Group Avatar" = "Profilbild der Gruppe";
 /* placeholder when editing a group description */
 "Group Description (optional)" = "Beschreibung der Gruppe (optional)";
 "Group Members" = "Gruppenmitglieder";
+"Group name" = "Gruppenname";
 /* placeholder when creating new group */
 "Group Name (optional)" = "Gruppenname (optional)";
 "Group subject:" = "Thema der Gruppe:";
@@ -372,6 +395,7 @@
 /* muc invite */
 "Invite again" = "Erneut einladen";
 "Invite participants to channel" = "Teilnehmer zum Channel einladen";
+"Inviting new member" = "Neues Mitglied einladen";
 "Inviting new participant" = "Neuen Teilnehmer einladen";
 "Inviting user" = "Benutzer einladen";
 "Inviting user to this group/channel: %@" = "Benutzer zu dieser Gruppe/Channel einladen: %@";
@@ -447,12 +471,14 @@
 "Monal was not able to send your attachment!" = "Monal konnte deinen Anhang nicht senden!";
 "Monal was not able to send your attachment: %@" = "Monal konnte deinen Anhang nicht senden: %@";
 "More info?" = "Mehr Informationen?";
+"My Encryption Keys" = "Meine Schlüssel";
 "Never archive" = "Niemals archivieren";
 "New Account" = "Neues Konto";
 "New Message" = "Neue Nachricht";
 "New omemo device" = "Neues OMEMO-Gerät";
 "New Password" = "Neues Passwort";
 "Newest TLS version which is faster than TLS 1.2" = "Die neueste TLS-Version, die schneller ist als TLS 1.2";
+"Nickname" = "Nickname";
 "No" = "Nein";
 "No account available to handel 'xmpp:' URI!" = "Kein Konto verfügbar, um 'xmpp:' URI zu verarbeiten!";
 "No accounts set up currently" = "Derzeit sind keine Konten eingerichtet";
@@ -493,8 +519,12 @@
 /* muc members list */
 "Open contact details" = "Kontaktinformationen öffnen";
 "Open contact list" = "Kontaktliste öffnen";
+"Open iOS settings" = "iOS-Einstellungen öffnen";
 "Open list of pending contact requests" = "Liste der ausstehenden Kontaktanfragen öffnen";
+"Open macOS settings" = "macOS-Einstellungen öffnen";
+"Open Profile of %@" = "Profil von %@ öffnen";
 "Open Source" = "Quelloffen";
+"Open URLs inline in Safari" = "URLs direkt in Safari öffnen";
 "Optional Hardcoded Hostname" = "Optionaler hardcodierter Hostname";
 "Optional Port" = "Optionaler Port";
 "Own device key" = "Eigener Geräteschlüssel";
@@ -570,10 +600,15 @@
 "Registering account..." = "Konto wird registriert...";
 "Registration Error" = "Fehler bei der Registrierung";
 "Remove %@ from contacts?" = "%@ aus den Kontakten entfernen?";
+"Remove %@?" = "%@ entfernen?";
 "Remove Account from this Device" = "Konto von diesem Gerät entfernen";
+"Remove Background Image" = "Hintergrundbild entfernen";
+"Remove Channel Avatar" = "Profilbild des Channels entfernen";
 "Remove Contact" = "Kontakt entfernen";
 "Remove Conversation" = "Unterhaltung entfernen";
 "Remove from contacts" = "Aus den Kontakten entfernen";
+"Remove Group Avatar" = "Profilbild der Gruppe entfernen";
+"Removing %@" = "%@ entfernen";
 "Removing %@..." = "%@ entfernen...";
 "Removing avatar..." = "Profilbild löschen...";
 "Rename Channel" = "Channel umbenennen";
@@ -663,6 +698,7 @@
 "Sure, send it!" = "Klar, sende es!";
 "Synchronize your messages on all loggedin devices." = "Synchronisiere deine Nachrichten auf allen angemeldeten Geräten.";
 "Temporary failure to enter Group/Channel: %@" = "Temporäres Problem beim Beitreten des Gruppenchats/Channels %@";
+"Terms of %@" = "Nutzungsbedingungen für %@";
 "Terms of use for %@" = "Nutzungsbedingungen für %@";
 "The account has been deleted" = "Das Konto wurde gelöscht";
 "The account has been removed" = "Das Konto wurde gelöscht";
@@ -759,6 +795,8 @@
 "UDP Logging UI not supported on iOS < 16" = "UDP-Logging UI wird unter iOS < 16 nicht unterstützt";
 "Unable to connect to server!" = "Keine Verbindung zum Server möglich!";
 "Unblock Contact" = "Kontakt entsperren";
+"Unblocking user" = "Nutzer entsperren";
+"Unblocking user for this group/channel: %@" = "Nutzer für diese Gruppe/Channel entsperren: %@";
 "Unclean appex shutown" = "Unsaubere Appex-Abschaltung";
 "Undefined error" = "Undefinierter Fehler";
 "Understood" = "Verstanden";
@@ -810,6 +848,7 @@
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Schwächster Kanalbindungstyp, der nicht gegen gestohlene Zertifikate/Schlüssel schützt, aber falsch ausgestellte Zertifikate erkennt.";
 "Welcome" = "Willkommen";
 "What call do you want to place?" = "Welchen Anruf möchtest du tätigen?";
+"When disabled, URLs will opened in your default browser (that might not be Safari)." = "Wenn diese Funktion deaktiviert ist, werden URLs in deinem Standardbrowser geöffnet (der nicht unbedingt Safari ist).";
 "When you start talking to someone,\n they will show up here." = "Wenn du anfängst, mit jemandem zu sprechen,\n werden sie hier auftauchen.";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Fokussiert das Textfeld unter macOS oder iOS mit angeschlossener Hardware-Tastatur, ansonsten wird die Software-Tastatur geöffnet.";
 /* QR-Code-Scanner: account scan wrong menu
@@ -883,42 +922,3 @@
 "📍 A Location" = "📍 Ein Standort";
 "📷 An Image" = "📷 Ein Bild";
 "🔗 A Link" = "🔗 Ein Link";
-" (offline)" = " (offline)";
-"Add Contact or Channel" = "Kontakt oder Channel hinzufügen";
-"Affiliation: %@%@" = "Zugehörigkeit: %@%@";
-"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Erlaube deinem Gerät, eine direkte Netzwerkverbindung mit der Gegenstelle herzustellen. Dadurch könnte deine IP-Adresse an den Anrufer weitergegeben werden.";
-"Avatar" = "Profilbild";
-"Change affiliation" = "Zugehörigkeit ändern";
-"Change Background Image" = "Hintergrundbild ändern";
-"Change Channel Avatar" = "Profilbild des Channels ändern";
-"Change Group Avatar" = "Profilbild der Gruppe ändern";
-"Changing affiliation" = "Änderung der Zugehörigkeit";
-"Changing affiliation to %@: %@" = "Änderung der Zugehörigkeit %@ in: %@";
-"Channel Avatar" = "Profilbild des Channels";
-"Channel name" = "Channelname";
-"Clear text" = "Unverschlüsselt";
-"Contact Requests" = "Kontaktanfragen";
-"Devices of %@" = "Geräte von %@";
-"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Möchtest du diesen Nutzer aus diesem Channel entfernen? Der Nutzer kann ihn wieder betreten, wenn du ihn nicht sperrst.";
-"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Möchtest du diesen Nutzer aus dieser Gruppe entfernen? Der Nutzer kann sie erst wieder betreten, wenn er der Gruppe wieder hinzugefügt wird.";
-"Error inviting new member!" = "Fehler beim Einladen eines neuen Mitglieds!";
-"Error inviting new participant!" = "Fehler beim Einladen eines neuen Teilnehmers!";
-"Error unblocking user!" = "Fehler beim Entsperren des Nutzers!";
-"Group Avatar" = "Profilbild der Gruppe";
-"Group name" = "Gruppenname";
-"Inviting new member" = "Neues Mitglied einladen";
-"My Encryption Keys" = "Meine Schlüssel";
-"Nickname" = "Nickname";
-"Open iOS settings" = "iOS-Einstellungen öffnen";
-"Open macOS settings" = "macOS-Einstellungen öffnen";
-"Open Profile of %@" = "Profil von %@ öffnen";
-"Open URLs inline in Safari" = "URLs direkt in Safari öffnen";
-"Remove %@?" = "%@ entfernen?";
-"Remove Background Image" = "Hintergrundbild entfernen";
-"Remove Channel Avatar" = "Profilbild des Channels entfernen";
-"Remove Group Avatar" = "Profilbild der Gruppe entfernen";
-"Removing %@" = "%@ entfernen";
-"Terms of %@" = "Nutzungsbedingungen für %@";
-"Unblocking user" = "Nutzer entsperren";
-"Unblocking user for this group/channel: %@" = "Nutzer für diese Gruppe/Channel entsperren: %@";
-"When disabled, URLs will opened in your default browser (that might not be Safari)." = "Wenn diese Funktion deaktiviert ist, werden URLs in deinem Standardbrowser geöffnet (der nicht unbedingt Safari ist).";

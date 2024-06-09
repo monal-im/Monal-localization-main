@@ -1,3 +1,4 @@
+" (offline)" = " （离线）";
 /* server details */
 " running on %@" = " 运行于 %@";
 "%02d:%02d (long press to abort)" = "%02d:%02d（长按中止）";
@@ -36,6 +37,7 @@
 "Add %@ to your contacts?" = "添加 %@ 为联系人？";
 "Add Account" = "添加账号";
 "Add Account (advanced)" = "添加账号（高级）";
+"Add Contact or Channel" = "添加联系人或频道";
 "Add Group/Channel or Contact" = "添加群组/频道或联系人";
 "Add members to group" = "添加成员到群组";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "使用上方的 + 按钮以添加联系人。当您的朋友可以聊天时，他们会在这里显示";
@@ -51,6 +53,7 @@
 /* muc affiliation */
 "Admin" = "管理员";
 "Advanced Settings" = "高级设置";
+"Affiliation: %@%@" = "从属关系：%@%@";
 "All messages are archived by default." = "所有消息默认都会被存档。";
 "All messages fetched successfully, there are no more left on the server!" = "成功获取所有消息，服务器上没有更多的消息了！";
 "Allow" = "允许";
@@ -58,6 +61,7 @@
 "Allow contacts not in your contact list to call you." = "允许不在您的联系人列表中的联系人给您打电话。";
 "Allow contacts not in your contact list to contact you." = "允许不在您的联系人列表中的联系人与您联系。";
 "Allow MITM-prone PLAIN authentication" = "允许倾向于中间人攻击的 PLAIN 身份验证";
+"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "允许设备与远程方建立直接网络连接。这可能会将您的 IP 地址泄露给呼叫方/被呼叫方。";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "允许某人将您添加为联系人可以让他们看到您的个人资料图片以及您何时在线。";
 "Already present" = "已经存在";
 "Already uploading this content, ignoring" = "已上传过此内容，忽略";
@@ -82,6 +86,7 @@
 "Auto-Download Media" = "自动下载媒体";
 "Autodelete all messages after 3 days" = "3 天后自动删除所有消息";
 "Autofocus text input on chat open" = "打开聊天时自动对焦文本输入";
+"Avatar" = "头像";
 "Block" = "屏蔽";
 "Block Contact" = "屏蔽联系人";
 "Block user?" = "屏蔽用户？";
@@ -119,10 +124,18 @@
 "Caps hash: %@" = "功能哈希：%@";
 /* placeholder when creating account */
 "Captcha" = "验证码";
+"Change affiliation" = "更改从属关系";
+"Change Background Image" = "更改背景图片";
+"Change Channel Avatar" = "更改频道头像";
 "Change Chat Background" = "更改聊天背景";
+"Change Group Avatar" = "更改群组头像";
 "Change Group Members" = "更改群组成员";
 "Change Password" = "更改密码";
+"Changing affiliation" = "正在更改从属关系";
+"Changing affiliation to %@: %@" = "正在更改从属关系 %@：%@";
 "Changing Password" = "更改密码";
+"Channel Avatar" = "频道头像";
+"Channel name" = "频道名称";
 "Channel Participants" = "频道参与者";
 "Channel subject:" = "频道话题：";
 "Chat Background" = "聊天背景";
@@ -134,6 +147,7 @@
 "Clear chat history of this group" = "清除此群组的聊天记录";
 "Clear History" = "清除历史记录";
 "Clear scanned contact" = "清除扫描的联系人";
+"Clear text" = "清除文本";
 "Close" = "关闭";
 "Configure the background image displayed in open chats." = "配置在打开的聊天中显示的背景图片。";
 "Connected since: %@" = "连接自：%@";
@@ -145,6 +159,7 @@
 "Contact not found" = "找不到联系人";
 /* placeholder when adding jid */
 "Contact or Group/Channel Jid" = "联系人或群组/频道 JID";
+"Contact Requests" = "联系人请求";
 "Contact Selection" = "联系人选择";
 "Contacts" = "联系人";
 "Cool Title" = "酷标题";
@@ -207,6 +222,7 @@
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "通过 SSDP 检测到正在进行的中间人攻击，中止身份验证并禁用账号以限制损害。一旦您再次处于干净的网络环境中，您应该尝试重新启用您的账号。";
 "Device ID: " = "设备 ID： ";
 "DeviceID: " = "设备 ID： ";
+"Devices of %@" = "%@ 的设备";
 "Disable Encryption" = "禁用加密";
 "Disable encryption?" = "禁用加密？";
 "Discovering devices..." = "正在发现设备…";
@@ -222,6 +238,8 @@
 "Do you really want to disable encryption for this contact?" = "是否确定要禁用此联系人的加密？";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "是否确定要重置 OMEMO 会话？如果您不确定，您就应该只重置连接！";
 "Do you want to block this user from entering this group/channel?" = "是否要阻止此用户进入此群组/频道？";
+"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "是否要从此频道中移除该用户？如果您不屏蔽该用户，该用户将能够再次进入。";
+"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "是否要从此群组中移除该用户？在添加回群组之前，该用户将无法再次进入。";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "是否要信任联系人 %@ 的扫描指纹，在您使用账号 %@ 时？";
 "Doing a lot of work..." = "大量工作中…";
 "Domain missing" = "缺少域名";
@@ -277,11 +295,14 @@
 "Error handling SASL challenge of server (m-attr error), disconnecting!" = "处理服务器的 SASL 质询时出错（m-attr 错误），正在断开连接！";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (nonce error), disconnecting!" = "处理服务器的 SASL 质询时出错（随机数错误），正在断开连接！";
+"Error inviting new member!" = "邀请新成员时出错！";
+"Error inviting new participant!" = "邀请新参与者时出错！";
 "Error inviting user!" = "邀请用户时出错！";
 "Error registering push" = "注册推送时出错";
 "Error Removing Account" = "移除账号时出错";
 "Error removing avatar!" = "移除头像时出错！";
 "Error removing user!" = "移除用户时出错！";
+"Error unblocking user!" = "解除屏蔽用户时出错！";
 "Error while decrypting: iv.length != 12" = "解密时出错：iv.length != 12";
 "Error: %@" = "错误：%@";
 "Error: Account disabled, can not display keys!" = "错误：账号已禁用，无法显示密钥！";
@@ -339,9 +360,11 @@
 "Got empty room config form for '%@'" = "“%@”的群聊配置表单为空";
 "GPS" = "GPS";
 "Green checkmark shield:" = "绿色复选标记盾牌：";
+"Group Avatar" = "群组头像";
 /* placeholder when editing a group description */
 "Group Description (optional)" = "群组描述（可选）";
 "Group Members" = "群组成员";
+"Group name" = "群组名称";
 /* placeholder when creating new group */
 "Group Name (optional)" = "群组名（可选）";
 "Group subject:" = "群组话题：";
@@ -372,6 +395,7 @@
 /* muc invite */
 "Invite again" = "再次邀请";
 "Invite participants to channel" = "邀请参与者加入频道";
+"Inviting new member" = "正在邀请新成员";
 "Inviting new participant" = "正在邀请新参与者";
 "Inviting user" = "正在邀请用户";
 "Inviting user to this group/channel: %@" = "正在邀请用户加入此群组/频道：%@";
@@ -447,12 +471,14 @@
 "Monal was not able to send your attachment!" = "Monal 无法发送您的附件！";
 "Monal was not able to send your attachment: %@" = "Monal 无法发送您的附件：%@";
 "More info?" = "更多信息？";
+"My Encryption Keys" = "我的加密密钥";
 "Never archive" = "从不存档";
 "New Account" = "新账号";
 "New Message" = "新消息";
 "New omemo device" = "新的 OMEMO 设备";
 "New Password" = "新密码";
 "Newest TLS version which is faster than TLS 1.2" = "比 TLS 1.2 更快的最新 TLS 版本";
+"Nickname" = "昵称";
 "No" = "否";
 "No account available to handel 'xmpp:' URI!" = "没有账号可用于处理 'xmpp:' URL！";
 "No accounts set up currently" = "账号目前没有设置";
@@ -493,8 +519,12 @@
 /* muc members list */
 "Open contact details" = "打开联系人详请";
 "Open contact list" = "打开联系人列表";
+"Open iOS settings" = "打开 iOS 设置";
 "Open list of pending contact requests" = "打开待处理联系人请求列表";
+"Open macOS settings" = "打开 macOS 设置";
+"Open Profile of %@" = "打开 %@ 的配置文件";
 "Open Source" = "开源";
+"Open URLs inline in Safari" = "在 Safari 中打开内嵌 URL";
 "Optional Hardcoded Hostname" = "可选的硬编码的主机名";
 "Optional Port" = "可选端口";
 "Own device key" = "自己的设备密钥";
@@ -570,10 +600,15 @@
 "Registering account..." = "注册账号中…";
 "Registration Error" = "注册错误";
 "Remove %@ from contacts?" = "从联系人中移除 %@？";
+"Remove %@?" = "移除 %@？";
 "Remove Account from this Device" = "从此设备移除账号";
+"Remove Background Image" = "移除背景图片";
+"Remove Channel Avatar" = "移除频道头像";
 "Remove Contact" = "移除联系人";
 "Remove Conversation" = "移除对话";
 "Remove from contacts" = "从联系人移除";
+"Remove Group Avatar" = "移除群组头像";
+"Removing %@" = "正在移除 %@";
 "Removing %@..." = "正在移除 %@…";
 "Removing avatar..." = "正在移除头像…";
 "Rename Channel" = "重命名频道";
@@ -663,6 +698,7 @@
 "Sure, send it!" = "确认，发送！";
 "Synchronize your messages on all loggedin devices." = "在所有登录的设备同步您的消息。";
 "Temporary failure to enter Group/Channel: %@" = "暂时无法进入群组/频道：%@";
+"Terms of %@" = "%@ 的条款";
 "Terms of use for %@" = "%@ 的使用条款";
 "The account has been deleted" = "账号已删除";
 "The account has been removed" = "已移除账号";
@@ -759,6 +795,8 @@
 "UDP Logging UI not supported on iOS < 16" = "iOS < 16 不支持 UDP 日志记录用户界面";
 "Unable to connect to server!" = "无法连接到服务器！";
 "Unblock Contact" = "解除屏蔽联系人";
+"Unblocking user" = "正在解除屏蔽用户";
+"Unblocking user for this group/channel: %@" = "正在解除屏蔽此群组/频道的用户：%@";
 "Unclean appex shutown" = "未清理的 appex 关闭";
 "Undefined error" = "未定义的错误";
 "Understood" = "了解";
@@ -810,6 +848,7 @@
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "最弱的通道绑定类型，不能防止证书/密钥被盗，但可以检测错误颁发的证书。";
 "Welcome" = "欢迎";
 "What call do you want to place?" = "您想拨打什么电话？";
+"When disabled, URLs will opened in your default browser (that might not be Safari)." = "禁用后，URL 将在默认浏览器（可能不是 Safari）中打开。";
 "When you start talking to someone,\n they will show up here." = "当您开始和某人聊天时，\n 他们就会出现在这里。";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "将文本框焦点放在连接了硬件键盘的 macOS 或 iOS 上，否则将打开软件键盘。";
 /* QR-Code-Scanner: account scan wrong menu
@@ -883,42 +922,3 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
-" (offline)" = " （离线）";
-"Add Contact or Channel" = "添加联系人或频道";
-"Affiliation: %@%@" = "从属关系：%@%@";
-"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "允许设备与远程方建立直接网络连接。这可能会将您的 IP 地址泄露给呼叫方/被呼叫方。";
-"Avatar" = "头像";
-"Change affiliation" = "更改从属关系";
-"Change Background Image" = "更改背景图片";
-"Change Channel Avatar" = "更改频道头像";
-"Change Group Avatar" = "更改群组头像";
-"Changing affiliation" = "正在更改从属关系";
-"Changing affiliation to %@: %@" = "正在更改从属关系 %@：%@";
-"Channel Avatar" = "频道头像";
-"Channel name" = "频道名称";
-"Clear text" = "清除文本";
-"Contact Requests" = "联系人请求";
-"Devices of %@" = "%@ 的设备";
-"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "是否要从此频道中移除该用户？如果您不屏蔽该用户，该用户将能够再次进入。";
-"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "是否要从此群组中移除该用户？在添加回群组之前，该用户将无法再次进入。";
-"Error inviting new member!" = "邀请新成员时出错！";
-"Error inviting new participant!" = "邀请新参与者时出错！";
-"Error unblocking user!" = "解除屏蔽用户时出错！";
-"Group Avatar" = "群组头像";
-"Group name" = "群组名称";
-"Inviting new member" = "正在邀请新成员";
-"My Encryption Keys" = "我的加密密钥";
-"Nickname" = "昵称";
-"Open iOS settings" = "打开 iOS 设置";
-"Open macOS settings" = "打开 macOS 设置";
-"Open Profile of %@" = "打开 %@ 的配置文件";
-"Open URLs inline in Safari" = "在 Safari 中打开内嵌 URL";
-"Remove %@?" = "移除 %@？";
-"Remove Background Image" = "移除背景图片";
-"Remove Channel Avatar" = "移除频道头像";
-"Remove Group Avatar" = "移除群组头像";
-"Removing %@" = "正在移除 %@";
-"Terms of %@" = "%@ 的条款";
-"Unblocking user" = "正在解除屏蔽用户";
-"Unblocking user for this group/channel: %@" = "正在解除屏蔽此群组/频道的用户：%@";
-"When disabled, URLs will opened in your default browser (that might not be Safari)." = "禁用后，URL 将在默认浏览器（可能不是 Safari）中打开。";
