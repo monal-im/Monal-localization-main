@@ -125,10 +125,10 @@
 /* placeholder when creating account */
 "Captcha" = "Captcha";
 "Change affiliation" = "Cambiar afiliación";
-"Change Background Image" = "Cambiar la imagen de fondo";
-"Change Channel Avatar" = "Cambiar el Avatar del canal";
+"Change Background Image" = "Cambiar imagen de fondo";
+"Change Channel Avatar" = "Cambiar avatar del canal";
 "Change Chat Background" = "Cambiar el fondo del chat";
-"Change Group Avatar" = "Cambiar el Avatar del grupo";
+"Change Group Avatar" = "Cambiar avatar del grupo";
 "Change Group Members" = "Cambiar miembros del grupo";
 "Change Password" = "Cambiar contraseña";
 "Changing affiliation" = "Cambiando afiliación";
@@ -238,8 +238,8 @@
 "Do you really want to disable encryption for this contact?" = "¿Realmente quiere deshabilitar la encriptación para este contacto?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "¿Realmente quiere restablecer la sesión de OMEMO? ¡Solo debe restablecer la conexión si sabe lo que está haciendo!";
 "Do you want to block this user from entering this group/channel?" = "¿Quiere bloquear el ingreso de este usuario a este grupo/canal?";
-"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Desea eliminar al usuario de este canal? El usuario podrá ingresar al canal nuevamente si no lo bloquea.";
-"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Desea eliminar al usuario de este grupo? El usuario no podrá reingresar al grupo hasta que sea agregado nuevamente.";
+"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "¿Desea eliminar al usuario de este canal? El usuario podrá ingresar al canal nuevamente si no lo bloquea.";
+"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "¿Desea eliminar al usuario de este grupo? El usuario no podrá reingresar al grupo hasta que sea agregado nuevamente.";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "¿Quiere confiar en las huellas digitales escaneadas del contacto %@ cuando utilice su cuenta %@?";
 "Doing a lot of work..." = "Trabajado muchísimo ...";
 "Domain missing" = "Falta el dominio";
@@ -341,8 +341,8 @@
 "Failed to publish own nickname" = "Fallo al publicar su propio alias";
 "Failed to query for new messages on account %@" = "Fallo al buscar mensajes nuevos para la cuenta %@";
 "Failed to query new messages for Group/Channel (catchup) %@" = "Fallo al buscar mensajes nuevos del grupo/canal (catchup) %@";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "Fallo al buscar mensajes nuevos del grupo/canal (stanzaid) %@";
-"Failed to query newest stanzaid for account %@" = "Fallo al consultar el JID más reciente para la cuenta %@";
+"Failed to query new messages for Group/Channel (stanzaid) %@" = "Fallo al buscar mensajes nuevos del grupo/canal (Stanza ID) %@";
+"Failed to query newest stanzaid for account %@" = "Fallo al consultar el Stanza ID más reciente para la cuenta %@";
 "Failed to remove bookmark for Group/Channel: %@" = "Fallo al eliminar marcador en el grupo/canal: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Fallo al guardar marcador en el grupo/canal: %@";
 "Failed to save groupchat bookmarks" = "Fallo al guardar marcadores de grupo";
@@ -519,9 +519,9 @@
 /* muc members list */
 "Open contact details" = "Ver detalles del contacto";
 "Open contact list" = "Abrir lista de contactos";
-"Open iOS settings" = "Abrir ajustes de iOS";
+"Open iOS settings" = "Abrir la Configuración de iOS";
 "Open list of pending contact requests" = "Abrir lista de peticiones de contactos pendientes";
-"Open macOS settings" = "Abrir ajustes de macOS";
+"Open macOS settings" = "Abrir la Configuración de macOS";
 "Open Profile of %@" = "Abrir el perfil de %@";
 "Open Source" = "Código abierto";
 "Open URLs inline in Safari" = "Abrir URLs dentro de Monal";
@@ -602,12 +602,12 @@
 "Remove %@ from contacts?" = "¿Eliminar a %@ de los contactos?";
 "Remove %@?" = "Eliminar %@?";
 "Remove Account from this Device" = "Eliminar la cuenta de este dispositivo";
-"Remove Background Image" = "Eliminar la imagen de fondo";
-"Remove Channel Avatar" = "Eliminar el avatar del canal";
+"Remove Background Image" = "Eliminar imagen de fondo";
+"Remove Channel Avatar" = "Eliminar avatar del canal";
 "Remove Contact" = "Eliminar contacto";
 "Remove Conversation" = "Eliminar conversación";
 "Remove from contacts" = "Eliminar de contactos";
-"Remove Group Avatar" = "Eliminar el avatar del grupo";
+"Remove Group Avatar" = "Eliminar avatar del grupo";
 "Removing %@" = "Eliminando %@";
 "Removing %@..." = "Eliminando %@...";
 "Removing avatar..." = "Eliminando avatar ...";
@@ -676,7 +676,7 @@
 /* Camera permissions missing warning */
 "Settings" = "Ajustes";
 "Sharing failed" = "Fallo al compartir";
-"Show inline geo location" = "Mostrar la geolocalización incorporada";
+"Show inline geo location" = "Mostrar geolocalización dentro de Monal";
 "Show shared Media and Files" = "Mostrar media y archivos compartidos";
 "Show URL previews" = "Mostrar vista previa de URL";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "Algunos mensajes deben esperar para ser recibidos o enviados. Por favor reintente abriendo la aplicación nuevamente.";
@@ -848,7 +848,7 @@
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Tipo de \"channel-binding\" mas débil, no protege del robo de certificados/llaves pero detecta certificados erróneamente emitidos.";
 "Welcome" = "Bienvenido";
 "What call do you want to place?" = "¿Qué llamada quiere hacer?";
-"When disabled, URLs will opened in your default browser (that might not be Safari)." = "Si se deshabilita, las URL serán abiertas en su navegador por defecto (el cual puede no ser Safari).";
+"When disabled, URLs will opened in your default browser (that might not be Safari)." = "Al deshabilita, las URL serán abiertas en su navegador por defecto (el cual puede no ser Safari).";
 "When you start talking to someone,\n they will show up here." = "Cuando comience a hablar con alguien,\n aparecerá aquí.";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Hará foco en la caja de texto en macOS e iOS con un teclado conectado. De lo contrario, abrirá el teclado digital.";
 /* QR-Code-Scanner: account scan wrong menu
