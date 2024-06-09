@@ -2,6 +2,7 @@
 " running on %@" = " %@(e)n exekutatzen";
 "%02d:%02d (long press to abort)" = "%02d:%02d (sakatu eta eutsi alboratzeko)";
 "%@" = "%@";
+"%@ (affiliation: %@)" = "%@ (affiliation: %@)";
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
 "%@ says:" = "%@(e)k dio:";
 "1 MiB" = "MiB 1";
@@ -18,6 +19,8 @@
 "Abort" = "Alboratu";
 "Aborted recording audio" = "Audio grabaketa alboratu da";
 "About" = "Honi buruz";
+"Accept incoming calls from strangers" = "Accept incoming calls from strangers";
+"Accept incoming messages from strangers" = "Accept incoming messages from strangers";
 "Access message archives on the server." = "Atzitu zerbitzarian dagoen mezuen artxiboa.";
 /* ShareViewController: Account */
 "Account" = "Kontua";
@@ -29,14 +32,18 @@
 "Account Exists" = "Kontua badago lehendik ere";
 "Account Picker" = "Kontu hautatzailea";
 "Account: %@" = "Kontua: %@";
+"Activity indications" = "Activity indications";
 "Add %@ to your contacts?" = "Gehitu %@ zure kontaktuetara?";
 "Add Account" = "Gehitu kontua";
 "Add Account (advanced)" = "Gehitu kontua (aurreratua)";
 "Add Group/Channel or Contact" = "Gehitu taldea / kanala edo kontaktua";
+"Add members to group" = "Add members to group";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Gehitu kontaktu berriak goialdeko + botoia erabiliz. Zure lagunak hemen agertuko dira hitz egin dezaketenean";
 "Add scanned Group/Channel or Contact" = "Gehitu eskaneatutako talde / kanal edo kontaktua";
 "Add to contacts" = "Gehitu kontaktuetara";
+"Adding %@..." = "Adding %@...";
 "Adding Group/Channel..." = "Taldea/Kanala gehitzen…";
+"Adding new member" = "Adding new member";
 "Adding..." = "Gehitzen…";
 "Adjust the maximum file size for auto-downloads over cellular network" = "Doitu fitxategien gehieneko neurria gailuko datuak erabiliz automatikoki deskargatzeko";
 "Adjust the maximum file size for auto-downloads over WiFi" = "Doitu fitxategien gehieneko neurria WiFia erabiliz automatikoki deskargatzeko";
@@ -47,6 +54,9 @@
 "All messages are archived by default." = "Mezu guztiak artxibatzen dira defektuz.";
 "All messages fetched successfully, there are no more left on the server!" = "Mezu guztiak eskuratu dira, ez dago gehiagorik zerbitzarian!";
 "Allow" = "Baimendu";
+"Allow contacts in your contact list to query your Monal and iOS versions." = "Allow contacts in your contact list to query your Monal and iOS versions.";
+"Allow contacts not in your contact list to call you." = "Allow contacts not in your contact list to call you.";
+"Allow contacts not in your contact list to contact you." = "Allow contacts not in your contact list to contact you.";
 "Allow MITM-prone PLAIN authentication" = "Baimendu MITM-prone PLAIN autentikazioa";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Kontaktu bezala gehi zaitzatela baimentzen baduzu, zure profileko irudia eta linean noiz zauden ikus dezakete.";
 "Already present" = "Dagoeneko badago";
@@ -62,6 +72,7 @@
 "Approve new contact" = "Baimendu kontaktu berria";
 "Archive chat" = "Artxibatu txata";
 "Archive only if the contact is in contact list" = "Artxibatu kontaktua kontaktuen zerrendan badago bakarrik";
+"Attachments" = "Attachments";
 "Audio recoder init fail." = "Ezin izan da audio grabagailua abiarazi.";
 "Audio recoder prepareToRecord fail." = "Audio grabagailuak prepareToRecord kale egin du.";
 "Audio Recoder recode fail" = "Audio grabagailuaren rekodetzeak kale egin du";
@@ -73,10 +84,13 @@
 "Autofocus text input on chat open" = "Autofocus text input on chat open";
 "Block" = "Blokeatu";
 "Block Contact" = "Blokeatu kontaktua";
+"Block user?" = "Block user?";
 /* muc affiliation */
 "Blocked" = "Blocked";
 "Blocked Users" = "Blokeatutako erabiltzaileak";
+"Blocking %@" = "Blocking %@";
 "Blocking is not supported by the server" = "Zerbitzariak ez du blokeatzen uzten";
+"Blocking member" = "Blocking member";
 "Blocking/Unblocking Not Supported" = "Blokeatzea / Desblokeatzea ez dago gaituta";
 "BODY" = "GORPUTZA";
 "Call ended" = "Deia amaitu da";
@@ -112,6 +126,7 @@
 "Channel Participants" = "Channel Participants";
 "Channel subject:" = "Kanalaren gaia:";
 "Chat Background" = "Txataren hondoa";
+"Chat background image" = "Chat background image";
 "Check type and size on " = "Egiaztatu mota eta tamaina ";
 "Clear Chat History" = "Garbitu txat historia";
 "Clear chat history of this channel" = "Ezabatu kanal honetako txat-historia";
@@ -120,6 +135,7 @@
 "Clear History" = "Garbitu historia";
 "Clear scanned contact" = "Garbitu eskaneatutako kontaktua";
 "Close" = "Itxi";
+"Configure the background image displayed in open chats." = "Configure the background image displayed in open chats.";
 "Connected since: %@" = "%@etatik konektatuta";
 "Connected: %@" = "Konektatuta: %@";
 "Connecting..." = "Konektatzen…";
@@ -144,6 +160,7 @@
 "Could not change password" = "Ezin izan da pasahitza aldatu";
 "Could not change password: your account is currently not connected" = "Ezin izan da pasahitza aldatu: unean zure kontua ez dago konektatuta";
 "Could not change the password" = "Ezin izan da pasahitza aldatu";
+"Could not configure (new) group '%@': config option '%@' not available!" = "Could not configure (new) group '%1$@': config option '%2$@' not available!";
 "Could not configure group '%@'" = "Ezin izan da '%@' taldea konfiguratu";
 "Could not configure group '%@': timeout" = "Ezin izan da '%@' taldea konfiguratu: denbora agortu da";
 "Could not create group '%@': timeout" = "Ezin izan da '%@' taldea sortu: denbora agortu da";
@@ -171,6 +188,7 @@
 "Database Export Failed" = "Datu-basea esportatzeak huts egin du";
 "Database Files" = "Datu-basearen fitxategiak";
 "Debug" = "Araztu";
+"Debug Notification Problems" = "Debug Notification Problems";
 "Debugging" = "Arazten";
 "Default Background" = "Defektuzko hondoa";
 "Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "XMPP zerrenden protokoloan proposatutako aldaketa bat zehazten du, zerrenden bertsionamendua ahalbidetzen duena, zerbitzariak ez dio bezeroari zerrenda bidaliko zerrenda aldatu ez bada.";
@@ -181,6 +199,8 @@
 "Delete Account on Server" = "Ezabatu kontua zerbitzaritik";
 "Delete Key" = "Ezabatu gakoa";
 "Deny new contact" = "Baztertu kontaktu berria";
+"Destroy Channel" = "Destroy Channel";
+"Destroy Group" = "Destroy Group";
 "Destroying channel..." = "Destroying channel...";
 "Destroying group..." = "Destroying group...";
 "Detected a new omemo device on your account: %@" = "OMEMO gailu berri bat antzeman da zure kontuan: %@";
@@ -197,8 +217,11 @@
 "Do you really want to block this contact? You won't receive any messages from this contact." = "Ziur zaude kontaktu hau blokeatu nahi duzula? Ez duzu kontaktu honen mezurik jasoko.";
 "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "Ziur zaude elkarrizketa honetan bidalitako mezu guztiak ezabatu nahi dituzua? OMEMO erabiltzen ari bazara ezingo dituzu berriro zerbitzaritik kargatu.";
 "Do you really want to delete this key?" = "Ziur zaude gako hau ezabatu nahi duzula?";
+"Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards.";
+"Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards.";
 "Do you really want to disable encryption for this contact?" = "Ziur zaude zifraketa ezgaitu nahi duzula kontaktu honentzat?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Ziur zaude OMEMO saioa berrezarri nahi duzula? Zer egiten ari zaren baldin badakizu bakarrik berrezarri konexioa!";
+"Do you want to block this user from entering this group/channel?" = "Do you want to block this user from entering this group/channel?";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "%@ kontua erabiltzerakoan, eskaneatu zenituen %@ kontaktuaren hatz-markez fidatu nahi duzu?";
 "Doing a lot of work..." = "Lan handia egiten…";
 "Domain missing" = "Domeinua falta da";
@@ -226,6 +249,7 @@
 "Enabled" = "Gaituta";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "Zifratutako mezuak formatu zaharra dauka eta Monalek ezin du dezifratu. Eskatu euren aplikazioa eguneratu dezatela. (GCM errorea)";
 "Encrypted session to this device broken beyond repair." = "Gailu honetako zifratutako saioa kaltetuta dago eta ezin da konpondu.";
+"Encryption" = "Encryption";
 "Encryption Keys" = "Zifratze-gakoak";
 "Encryption Keys (OMEMO)" = "Zifratze-gakoak (OMEMO)";
 "Encryption Not Supported" = "Zifratzea ez da bateragarria";
@@ -239,8 +263,13 @@
 "Error" = "Errorea";
 "error" = "errorea";
 "Error adding contact or channel" = "Errorea kontaktua edo kanala gehitzerakoan";
+"Error adding new member!" = "Error adding new member!";
+"Error blocking user!" = "Error blocking user!";
+"Error changing affiliation!" = "Error changing affiliation!";
+"Error changing avatar!" = "Error changing avatar!";
 "Error creating group!" = "Errorea taldea sortzerakoan!";
 "Error decrypting message" = "Errorea mezua dezifratzerakoan";
+"Error destroying group!" = "Error destroying group!";
 "Error entering group/channel!" = "Errorea taldera/kanalera sartzean!";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Errorea zerbitzariaren SASL erronka kudeatzean (iteration count too low), deskonektatzen!";
@@ -248,14 +277,18 @@
 "Error handling SASL challenge of server (m-attr error), disconnecting!" = "Errorea zerbitzariaren SASL erronka kudeatzean (m-attr error), deskonektatzen!";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (nonce error), disconnecting!" = "Errorea zerbitzariaren SASL erronka kudeatzean (nonce error), deskonektatzen!";
+"Error inviting user!" = "Error inviting user!";
 "Error registering push" = "Errorea push-a erregistratzean";
 "Error Removing Account" = "Errorea kontua kentzerakoan";
+"Error removing avatar!" = "Error removing avatar!";
+"Error removing user!" = "Error removing user!";
 "Error while decrypting: iv.length != 12" = "Errorea dezifratzerakoan: iv.length != 12";
 "Error: %@" = "Errorea: %@";
 "Error: Account disabled, can not display keys!" = "Errorea: kontua ezgaituta dago, ezin dira gakoak ikusi!";
 "Error: No contacts to display keys for!" = "Errorea: Ez dago gakoak ikusteko kontakturik!";
 "Error: Received OMEMO message is empty" = "Errorea: jasotako OMEMO mezua hutsik dago";
 "errorMessage" = "errorMessage";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.";
 "Failed to block contact %@" = "Ezin izan da %@ blokeatu";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak huts egin du";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak huts egin du: denbora agortu da";
@@ -325,7 +358,9 @@
 "Image Upload Quality: %@" = "Igotzeko irudiaren kalitatea: %@";
 "Import and trust OMEMO fingerprints from QR code" = "Inportatu eta fidatu QR kodearen bidez eskuratutako OMEMO hatzmarkez";
 "Indicate when a particular device is active or inactive. Saves battery." = "Erakutsi gailu bat aktibo edo inaktibo dagoenean. Bateria aurrezten du.";
+"Input" = "Input";
 "Input is not a valid jid" = "Sartutakoa ez da baliozko JIDa";
+"Interactions" = "Interactions";
 "Invalid Credentials!" = "Erabiltzaile/pasahitz baliogabea!";
 /* QR-Code-Scanner: invalid format */
 "Invalid format" = "Formatu baliogabea";
@@ -336,6 +371,10 @@
 "Invitation for %@ created" = "Sortu da %@(r)entzat gonbidapena";
 /* muc invite */
 "Invite again" = "Invite again";
+"Invite participants to channel" = "Invite participants to channel";
+"Inviting new participant" = "Inviting new participant";
+"Inviting user" = "Inviting user";
+"Inviting user to this group/channel: %@" = "Inviting user to this group/channel: %@";
 /* QR-Code-Scanner: Camera not found */
 "It does not seem as your device has a camera. Please use a device with a camera for scanning" = "Badirudi gailuak ez duela kamerarik. Erabili kamera duen gailu bat eskaneatu ahal izateko";
 "Join Channel" = "Egin bat kanalarekin";
@@ -355,6 +394,10 @@
 "Leave Group" = "Utzi taldea";
 "Leave this conversation" = "Utzi elkarrizketa hau";
 "Leave this converstion?" = "Elkarrizketatik irten nahi duzu?";
+"Let your contacts know if you are typing a message." = "Let your contacts know if you are typing a message.";
+"Let your contacts know if you read a message." = "Let your contacts know if you read a message.";
+"Let your contacts know if you received a message." = "Let your contacts know if you received a message.";
+"Let your contacts know when you last opened the app." = "Let your contacts know when you last opened the app.";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "ePostaren kasuan bezala, kontu bat sortu dezakezu horretarako dauden webguneren batean, eta edonorekin hitz egin. Orrialde hau erabil dezakezu kontu bat sortzeko XMPP zerbitzari batean. Erabiltzaile izen eta pasahitz bat aukeratu beharko dituzu ere.";
 "Load over Cellular" = "Kargatu gailuko datuak erabiliz";
 "Load over cellular up to: %@ MiB" = "Kargatu geiluko datuak erabiliz %@ MiB arte";
@@ -390,6 +433,7 @@
 "Messages never archived by default." = "Mezuak ez dira inoiz artxibatzen defektuz.";
 "Method: %@" = "Metodoa: %@";
 "Migration Assistant" = "Migraziorako laguntzailea";
+"Misc" = "Misc";
 "Missing Call Support" = "Ez dago deiak egiteko aukerarik";
 "Missing permission" = "Baimena falta da";
 "Monal" = "Monal";
@@ -431,7 +475,6 @@
 "Not Authorized. Please check your credentials." = "Baimenik ez. Egiaztatu sartutako datuak.";
 "Notes to self" = "Nire buruarentzako oharrak";
 "Notes to self: %@" = "Nire buruarentzako oharrak: %@";
-"Notification privacy" = "Jakinarazpenen pribatutasuna";
 "Notifications" = "Jakinarazpenak";
 "Notifications disabled" = "Jakinarazpenak ezgaituta daude";
 "Notify on all messages" = "Jakinarazi mezu guztiak jasotzean";
@@ -442,6 +485,7 @@
 "OK" = "ADOS";
 "Okay" = "Ados";
 "Older, slower, but still secure TLS version" = "Zaharragoa, motelagoa, baina oraindik ere segurua den TLS bertsioa";
+"On this device" = "On this device";
 "Online" = "Linean";
 "Only contacts" = "Kontaktuak bakarrik";
 "Open" = "Ireki";
@@ -492,6 +536,7 @@
 "Protocol support of your server (XEPs)" = "Zerbitzariaren XEP ezaugarriak";
 /* placeholder when creating account */
 "Provide XMPP-Server" = "Hautatu XMPP zerbitzaria";
+"Publish version" = "Publish version";
 "Push Server" = "Push zerbitzaria";
 "Pushserver Region" = "Push zerbitzariaren eremua";
 "QR code: Fingerprints found" = "QR kodea: hatz-markak topatu dira";
@@ -501,11 +546,13 @@
 /* Chat msg action */
 "Quote" = "Aipatu";
 "Rate Monal" = "Baloratu Monal";
+"Really remove avatar?" = "Really remove avatar?";
 "Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "Jaso push jakinarazpenak Appleren bidez, baita deskonektatuta zaudenean ere. Izugarri hobetzen du fidagarritasuna.";
 /* directory for downloaded audios */
 "Received Audios" = "Jasotako audioak";
 /* directory for downloaded files */
 "Received Files" = "Jasotako fitxategiak";
+"Received geo locations are shared with Apple's Maps App." = "Received geo locations are shared with Apple's Maps App.";
 /* directory for downloaded images */
 "Received Images" = "Jasotako irudiak";
 /* directory for downloaded videos */
@@ -527,6 +574,7 @@
 "Remove Contact" = "Kendu kontaktua";
 "Remove Conversation" = "Kendu elkarrizketa";
 "Remove from contacts" = "Kendu kontaktuetatik";
+"Removing %@..." = "Removing %@...";
 "Removing avatar..." = "Removing avatar...";
 "Rename Channel" = "Rename Channel";
 /* placeholder text in contact details */
@@ -552,6 +600,7 @@
 /* mac only string */
 "Scroll down to load more messages" = "Tira behera mezu gehiago kargatzeko";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Channel-binding segurua TLS1.3 eta TLS1.2 konexio batzuetarako.";
+"Security" = "Security";
 "Select a background to display behind conversations with %@" = "Hautatu %@(r)en elkarrizketarako hondo bat";
 "Select a default background to display behind conversations." = "Hautatu defektuzko hondo bat elkarrizketetarako.";
 "Select Action" = "Hautatu ekintza";
@@ -563,6 +612,7 @@
 "Send last interaction time" = "Bidali azken elkarreraginaren data";
 "Send Location" = "Bidali kokapena";
 "Send message displayed state" = "Bidali mezua ikustearen egoera";
+"Send message received" = "Send message received";
 "Send typing notifications" = "Bidali idazketa-jakinarazpenak";
 "Sending..." = "Bidaltzen…";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Pasahitzak testu hutsean bidaltzen ditu (TLS bidez zifratuta baino ez), ez da oso segurua";
@@ -605,6 +655,8 @@
 "Submit A Bug" = "Eman errore baten berri";
 "Success" = "Primeran";
 "Success!" = "Primeran!";
+"Successfully destroyed channel." = "Successfully destroyed channel.";
+"Successfully destroyed group." = "Successfully destroyed group.";
 "Successfully joined group/channel %@!" = "Arazorik gabe bat egin da %@ talde/kanalarekin!";
 "Support" = "Laguntza";
 /* Crash reporting */
@@ -623,6 +675,7 @@
 "The jid you want to add should be in in the format user@domain.tld." = "Gehitu nahi duzun JIDak 'erabiltzailea@domeinua.eus' formatua izan behar du.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "Gakoa gaur egun behar bezala kudeatzen ez den egoera batean dago. Jarri garatzaileekin harremanetan.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "Kontaktu berria zure kontaktuen zerrendan agertuko da gehitu duzun pertsonak zure eskaera onartzen badu.";
+"The operator of the webserver providing that URL may see your IP address." = "The operator of the webserver providing that URL may see your IP address.";
 "The password has been changed" = "Pasahitza aldatu da";
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "QR kodeak kontu batean saioa hasteko datuak ditu. Joan Ezarpenak -> Gehitu kontua eta eskaneatu QR kodea";
@@ -682,6 +735,8 @@
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Arau honek SASL eta SASL2 handshake-ak babesteko modua eskaintzen du, metodoen eta channel-binding-en mailen jaitsiera galaraziz.";
 "This will clear the whole chat history of this account from this device." = "Honek gailu honetako kontu honetako txat historia guztia ezabatuko du.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Honek zerbitzaritik eta gailutik ezabatuko du kontua, baina litekeena da datuak oraindik beste gailuren batean egotea.";
+"This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
+"This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
 "This will remove this account and the associated data from this device." = "Honek kontu hau eta lotutako datuak kenduko ditu gailu honetatik.";
 "Timeout Error" = "Denbora agortu da";
 "TLS 1.2" = "TLS 1.2";
@@ -729,6 +784,9 @@
 "Uploading avatar..." = "Uploading avatar...";
 "Uploading file to server" = "Fitxategia zerbitzarira igotzen";
 "Use account" = "Erabili kontua";
+"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc.";
+"Use DNSSEC validation for all connections" = "Use DNSSEC validation for all connections";
+"User Interface" = "User Interface";
 /* placeholder when adding account */
 "user@domain.tld" = "erabiltzailea@domeinua.eus";
 /* BlockUserTable - blockJidForm */
@@ -753,6 +811,7 @@
 "Welcome" = "Ongi etorri";
 "What call do you want to place?" = "Zer dei egin nahi duzu?";
 "When you start talking to someone,\n they will show up here." = "Norbaitekin hizketan hasiko zarenean, \n hemen agertuko dira.";
+"Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise.";
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
 "Wrong menu" = "Menu okerra";
@@ -824,71 +883,42 @@
 "📍 A Location" = "📍 Kokapena";
 "📷 An Image" = "📷 Irudia";
 "🔗 A Link" = "🔗 Esteka";
-"%@ (affiliation: %@)" = "%@ (affiliation: %@)";
-"Accept incoming calls from strangers" = "Accept incoming calls from strangers";
-"Accept incoming messages from strangers" = "Accept incoming messages from strangers";
-"Activity indications" = "Activity indications";
-"Add members to group" = "Add members to group";
-"Adding %@..." = "Adding %@...";
-"Adding new member" = "Adding new member";
-"Allow contacts in your contact list to query your Monal and iOS versions." = "Allow contacts in your contact list to query your Monal and iOS versions.";
-"Allow contacts not in your contact list to call you." = "Allow contacts not in your contact list to call you.";
-"Allow contacts not in your contact list to contact you." = "Allow contacts not in your contact list to contact you.";
-"Allow your phone to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your phone to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
-"Attachments" = "Attachments";
-"Block user?" = "Block user?";
-"Blocking %@" = "Blocking %@";
-"Blocking member" = "Blocking member";
-"Changing %@ to " = "Changing %@ to ";
-"Changing affiliation of member" = "Changing affiliation of member";
-"Chat background image" = "Chat background image";
-"Configure the background image displayed in open chats." = "Configure the background image displayed in open chats.";
-"Debug Notification Problems" = "Debug Notification Problems";
-"Destroy Channel" = "Destroy Channel";
-"Destroy Group" = "Destroy Group";
-"Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards.";
-"Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards.";
-"Do you want to block this user from entering this group/channel?" = "Do you want to block this user from entering this group/channel?";
-"Do you want to remove this user from this channel? The user will be able to enter it again." = "Do you want to remove this user from this channel? The user will be able to enter it again.";
-"Do you want to remove this user from this group? The user won't be able to enter it again until added back to the group." = "Do you want to remove this user from this group? The user won't be able to enter it again until added back to the group.";
-"Encryption" = "Encryption";
-"Error adding new member!" = "Error adding new member!";
-"Error adding new participant!" = "Error adding new participant!";
-"Error blocking user!" = "Error blocking user!";
-"Error changing affiliation!" = "Error changing affiliation!";
-"Error changing avatar!" = "Error changing avatar!";
-"Error destroying group!" = "Error destroying group!";
-"Error inviting user!" = "Error inviting user!";
-"Error removing avatar!" = "Error removing avatar!";
-"Error removing user!" = "Error removing user!";
-"errorMessageUnknown error!" = "errorMessageUnknown error!";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.";
-"Input" = "Input";
-"Interactions" = "Interactions";
-"Invite participants to channel" = "Invite participants to channel";
-"Inviting new participant" = "Inviting new participant";
-"Inviting user" = "Inviting user";
-"Inviting user to this group/channel: %@" = "Inviting user to this group/channel: %@";
-"Let your contacts know if you are typing a message." = "Let your contacts know if you are typing a message.";
-"Let your contacts know if you read a message." = "Let your contacts know if you read a message.";
-"Let your contacts know if you received a message." = "Let your contacts know if you received a message.";
-"Let your contacts know when you last opened the app." = "Let your contacts know when you last opened the app.";
-"Misc" = "Misc";
-"On this device" = "On this device";
-"Publish version" = "Publish version";
-"Really remove avatar?" = "Really remove avatar?";
-"Received geo locations are shared with Apple's Maps App." = "Received geo locations are shared with Apple's Maps App.";
-"Remove user?" = "Remove user?";
-"Removing %@..." = "Removing %@...";
-"Removing member" = "Removing member";
-"Security" = "Security";
-"Send message received" = "Send message received";
-"Successfully destroyed channel." = "Successfully destroyed channel.";
-"Successfully destroyed group." = "Successfully destroyed group.";
-"The operator of the webserver providing that URL may see your IP address." = "The operator of the webserver providing that URL may see your IP address.";
-"This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
-"This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
-"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc.";
-"Use DNSSEC validation for all connections" = "Use DNSSEC validation for all connections";
-"User Interface" = "User Interface";
-"Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise.";
+" (offline)" = " (offline)";
+"Add Contact or Channel" = "Add Contact or Channel";
+"Affiliation: %@%@" = "Affiliation: %@%@";
+"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
+"Avatar" = "Avatar";
+"Change affiliation" = "Change affiliation";
+"Change Background Image" = "Change Background Image";
+"Change Channel Avatar" = "Change Channel Avatar";
+"Change Group Avatar" = "Change Group Avatar";
+"Changing affiliation" = "Changing affiliation";
+"Changing affiliation to %@: %@" = "Changing affiliation to %@: %@";
+"Channel Avatar" = "Channel Avatar";
+"Channel name" = "Channel name";
+"Clear text" = "Clear text";
+"Contact Requests" = "Contact Requests";
+"Devices of %@" = "Devices of %@";
+"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them.";
+"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group.";
+"Error inviting new member!" = "Error inviting new member!";
+"Error inviting new participant!" = "Error inviting new participant!";
+"Error unblocking user!" = "Error unblocking user!";
+"Group Avatar" = "Group Avatar";
+"Group name" = "Group name";
+"Inviting new member" = "Inviting new member";
+"My Encryption Keys" = "My Encryption Keys";
+"Nickname" = "Nickname";
+"Open iOS settings" = "Open iOS settings";
+"Open macOS settings" = "Open macOS settings";
+"Open Profile of %@" = "Open Profile of %@";
+"Open URLs inline in Safari" = "Open URLs inline in Safari";
+"Remove %@?" = "Remove %@?";
+"Remove Background Image" = "Remove Background Image";
+"Remove Channel Avatar" = "Remove Channel Avatar";
+"Remove Group Avatar" = "Remove Group Avatar";
+"Removing %@" = "Removing %@";
+"Terms of %@" = "Terms of %@";
+"Unblocking user" = "Unblocking user";
+"Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
+"When disabled, URLs will opened in your default browser (that might not be Safari)." = "When disabled, URLs will opened in your default browser (that might not be Safari).";

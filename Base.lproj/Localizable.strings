@@ -4,6 +4,7 @@
 "Unclean appex shutown" = "Unclean appex shutown";
 "Unexpected appex expiration" = "Unexpected appex expiration";
 "Very old app version" = "Very old app version";
+" (offline)" = " (offline)";
 /* server details */
 " running on %@" = " running on %@";
 "%02d:%02d (long press to abort)" = "%02d:%02d (long press to abort)";
@@ -40,6 +41,7 @@
 "Add %@ to your contacts?" = "Add %@ to your contacts?";
 "Add Account" = "Add Account";
 "Add Account (advanced)" = "Add Account (advanced)";
+"Add Contact or Channel" = "Add Contact or Channel";
 "Add Group/Channel or Contact" = "Add Group/Channel or Contact";
 "Add members to group" = "Add members to group";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Add new contacts with the + button above. Your friends will pop up here when they can talk";
@@ -55,6 +57,7 @@
 /* muc affiliation */
 "Admin" = "Admin";
 "Advanced Settings" = "Advanced Settings";
+"Affiliation: %@%@" = "Affiliation: %@%@";
 "All messages are archived by default." = "All messages are archived by default.";
 "All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
 "Allow" = "Allow";
@@ -62,7 +65,7 @@
 "Allow contacts in your contact list to query your Monal and iOS versions." = "Allow contacts in your contact list to query your Monal and iOS versions.";
 "Allow contacts not in your contact list to call you." = "Allow contacts not in your contact list to call you.";
 "Allow contacts not in your contact list to contact you." = "Allow contacts not in your contact list to contact you.";
-"Allow your phone to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your phone to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
+"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
 "Already present" = "Already present";
 "Always archive" = "Always archive";
@@ -80,6 +83,7 @@
 "Auto-Download Media" = "Auto-Download Media";
 "Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
 "Autofocus text input on chat open" = "Autofocus text input on chat open";
+"Avatar" = "Avatar";
 "BODY" = "BODY";
 "Block" = "Block";
 "Block Contact" = "Block Contact";
@@ -117,13 +121,19 @@
 "Caps hash: %@" = "Caps hash: %@";
 /* placeholder when creating account */
 "Captcha" = "Captcha";
+"Change Background Image" = "Change Background Image";
+"Change Channel Avatar" = "Change Channel Avatar";
 "Change Chat Background" = "Change Chat Background";
+"Change Group Avatar" = "Change Group Avatar";
 "Change Group Members" = "Change Group Members";
 "Change Password" = "Change Password";
-"Changing %@ to " = "Changing %@ to ";
+"Change affiliation" = "Change affiliation";
 "Changing Password" = "Changing Password";
-"Changing affiliation of member" = "Changing affiliation of member";
+"Changing affiliation" = "Changing affiliation";
+"Changing affiliation to %@: %@" = "Changing affiliation to %@: %@";
+"Channel Avatar" = "Channel Avatar";
 "Channel Participants" = "Channel Participants";
+"Channel name" = "Channel name";
 "Channel subject:" = "Channel subject:";
 "Chat Background" = "Chat Background";
 "Chat background image" = "Chat background image";
@@ -134,11 +144,13 @@
 "Clear chat history of this contact" = "Clear chat history of this contact";
 "Clear chat history of this group" = "Clear chat history of this group";
 "Clear scanned contact" = "Clear scanned contact";
+"Clear text" = "Clear text";
 "Close" = "Close";
 "Configure the background image displayed in open chats." = "Configure the background image displayed in open chats.";
 "Connected since: %@" = "Connected since: %@";
 "Connected: %@" = "Connected: %@";
 "Connecting..." = "Connecting...";
+"Contact Requests" = "Contact Requests";
 "Contact Selection" = "Contact Selection";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Contact and Group/Channel Jids are usually in the format: name@domain.tld";
 "Contact is muted" = "Contact is muted";
@@ -194,6 +206,7 @@
 "Destroying group..." = "Destroying group...";
 "Device ID: " = "Device ID: ";
 "DeviceID: " = "DeviceID: ";
+"Devices of %@" = "Devices of %@";
 "Disable Encryption" = "Disable Encryption";
 "Disable encryption?" = "Disable encryption?";
 "Discovering devices..." = "Discovering devices...";
@@ -209,8 +222,8 @@
 "Do you really want to disable encryption for this contact?" = "Do you really want to disable encryption for this contact?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!";
 "Do you want to block this user from entering this group/channel?" = "Do you want to block this user from entering this group/channel?";
-"Do you want to remove this user from this channel? The user will be able to enter it again." = "Do you want to remove this user from this channel? The user will be able to enter it again.";
-"Do you want to remove this user from this group? The user won't be able to enter it again until added back to the group." = "Do you want to remove this user from this group? The user won't be able to enter it again until added back to the group.";
+"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them.";
+"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group.";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?";
 "Doing a lot of work..." = "Doing a lot of work...";
 "Domain missing" = "Domain missing";
@@ -249,16 +262,18 @@
 "Error Removing Account" = "Error Removing Account";
 "Error adding contact or channel" = "Error adding contact or channel";
 "Error adding new member!" = "Error adding new member!";
-"Error adding new participant!" = "Error adding new participant!";
 "Error blocking user!" = "Error blocking user!";
 "Error changing affiliation!" = "Error changing affiliation!";
 "Error changing avatar!" = "Error changing avatar!";
 "Error creating group!" = "Error creating group!";
 "Error destroying group!" = "Error destroying group!";
 "Error entering group/channel!" = "Error entering group/channel!";
+"Error inviting new member!" = "Error inviting new member!";
+"Error inviting new participant!" = "Error inviting new participant!";
 "Error inviting user!" = "Error inviting user!";
 "Error removing avatar!" = "Error removing avatar!";
 "Error removing user!" = "Error removing user!";
+"Error unblocking user!" = "Error unblocking user!";
 "Error: %@" = "Error: %@";
 "Error: Account disabled, can not display keys!" = "Error: Account disabled, can not display keys!";
 "Error: No contacts to display keys for!" = "Error: No contacts to display keys for!";
@@ -275,10 +290,12 @@
 "General File Transfer Settings" = "General File Transfer Settings";
 "General Settings" = "General Settings";
 "Green checkmark shield:" = "Green checkmark shield:";
+"Group Avatar" = "Group Avatar";
 "Group Description (optional)" = "Group Description (optional)";
 "Group Members" = "Group Members";
 /* placeholder when creating new group */
 "Group Name (optional)" = "Group Name (optional)";
+"Group name" = "Group name";
 "Group subject:" = "Group subject:";
 "Hint" = "Hint";
 "I already have an account:" = "I already have an account:";
@@ -304,6 +321,7 @@
 /* muc invite */
 "Invite again" = "Invite again";
 "Invite participants to channel" = "Invite participants to channel";
+"Inviting new member" = "Inviting new member";
 "Inviting new participant" = "Inviting new participant";
 "Inviting user" = "Inviting user";
 "Inviting user to this group/channel: %@" = "Inviting user to this group/channel: %@";
@@ -365,10 +383,12 @@
 "Monal was not able to send your attachment!" = "Monal was not able to send your attachment!";
 "Monal was not able to send your attachment: %@" = "Monal was not able to send your attachment: %@";
 "More info?" = "More info?";
+"My Encryption Keys" = "My Encryption Keys";
 "Never archive" = "Never archive";
 "New Account" = "New Account";
 "New Password" = "New Password";
 "Newest TLS version which is faster than TLS 1.2" = "Newest TLS version which is faster than TLS 1.2";
+"Nickname" = "Nickname";
 "No" = "No";
 "No Empty Values!" = "No Empty Values!";
 "No GPS location received" = "No GPS location received";
@@ -386,7 +406,6 @@
 /* Crash reporting */
 "No, thanks" = "No, thanks";
 "None" = "None";
-"Notification privacy" = "Notification privacy";
 "Notifications" = "Notifications";
 "Notifications disabled" = "Notifications disabled";
 "Notify on all messages" = "Notify on all messages";
@@ -399,11 +418,15 @@
 "On this device" = "On this device";
 "Only contacts" = "Only contacts";
 "Open" = "Open";
+"Open Profile of %@" = "Open Profile of %@";
 "Open Source" = "Open Source";
+"Open URLs inline in Safari" = "Open URLs inline in Safari";
 /* muc members list */
 "Open contact details" = "Open contact details";
 "Open contact list" = "Open contact list";
+"Open iOS settings" = "Open iOS settings";
 "Open list of pending contact requests" = "Open list of pending contact requests";
+"Open macOS settings" = "Open macOS settings";
 "Optional Hardcoded Hostname" = "Optional Hardcoded Hostname";
 "Optional Port" = "Optional Port";
 "Own Encryption Keys" = "Own Encryption Keys";
@@ -468,14 +491,17 @@
 "Registering account..." = "Registering account...";
 "Registration Error" = "Registration Error";
 "Remove %@ from contacts?" = "Remove %@ from contacts?";
+"Remove %@?" = "Remove %@?";
 "Remove Account from this Device" = "Remove Account from this Device";
+"Remove Background Image" = "Remove Background Image";
+"Remove Channel Avatar" = "Remove Channel Avatar";
 "Remove Contact" = "Remove Contact";
 "Remove Conversation" = "Remove Conversation";
+"Remove Group Avatar" = "Remove Group Avatar";
 "Remove from contacts" = "Remove from contacts";
-"Remove user?" = "Remove user?";
+"Removing %@" = "Removing %@";
 "Removing %@..." = "Removing %@...";
 "Removing avatar..." = "Removing avatar...";
-"Removing member" = "Removing member";
 "Rename Channel" = "Rename Channel";
 /* placeholder text in contact details */
 "Rename Contact" = "Rename Contact";
@@ -540,6 +566,7 @@
 "Synchronize your messages on all loggedin devices." = "Synchronize your messages on all loggedin devices.";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
+"Terms of %@" = "Terms of %@";
 "Terms of use for %@" = "Terms of use for %@";
 "The UDP logger allows you to livestream the log to the configured IP." = "The UDP logger allows you to livestream the log to the configured IP.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
@@ -621,6 +648,8 @@
 "UDP Logger Configuration" = "UDP Logger Configuration";
 "UDP Logging UI not supported on iOS < 16" = "UDP Logging UI not supported on iOS < 16";
 "Unblock Contact" = "Unblock Contact";
+"Unblocking user" = "Unblocking user";
+"Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
 "Undefined error" = "Undefined error";
 "Understood" = "Understood";
 "Unknown authentication method" = "Unknown authentication method";
@@ -651,6 +680,7 @@
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs.";
 "Welcome" = "Welcome";
 "What call do you want to place?" = "What call do you want to place?";
+"When disabled, URLs will opened in your default browser (that might not be Safari)." = "When disabled, URLs will opened in your default browser (that might not be Safari).";
 "When you start talking to someone,\n they will show up here." = "When you start talking to someone,\n they will show up here.";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise.";
 /* QR-Code-Scanner: account scan wrong menu */
@@ -704,7 +734,6 @@
 "Your status" = "Your status";
 "error" = "error";
 "errorMessage" = "errorMessage";
-"errorMessageUnknown error!" = "errorMessageUnknown error!";
 "filename" = "filename";
 "groupJoin Group" = "groupJoin Group";
 "now" = "now";
@@ -738,6 +767,7 @@
 "Could not access Finder item!" = "Could not access Finder item!";
 "Could not change password" = "Could not change password";
 "Could not change password: your account is currently not connected" = "Could not change password: your account is currently not connected";
+"Could not configure (new) group '%@': config option '%@' not available!" = "Could not configure (new) group '%1$@': config option '%2$@' not available!";
 "Could not configure group '%@'" = "Could not configure group '%@'";
 "Could not configure group '%@': timeout" = "Could not configure group '%@': timeout";
 "Could not create group '%@': timeout" = "Could not create group '%@': timeout";
