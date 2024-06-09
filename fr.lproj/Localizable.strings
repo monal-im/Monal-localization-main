@@ -176,9 +176,9 @@
 "Could not change password: your account is currently not connected" = "Échec du changement de mot de passe : votre compte n'est pas connecté";
 "Could not change the password" = "Impossible de modifier le mot de passe";
 "Could not configure (new) group '%@': config option '%@' not available!" = "Could not configure (new) group '%1$@': config option '%2$@' not available!";
-"Could not configure group '%@'" = "Could not configure group '%@'";
-"Could not configure group '%@': timeout" = "Could not configure group '%@': timeout";
-"Could not create group '%@': timeout" = "Could not create group '%@': timeout";
+"Could not configure group '%@'" = "Impossible de configurer le groupe '%@'";
+"Could not configure group '%@': timeout" = "Impossible de configurer le groupe '%@' : timeout";
+"Could not create group '%@': timeout" = "Impossible de créer le groupe '%@' : timeout";
 "Could not decrypt message" = "Impossible de déchiffrer le message";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "Les anciens messages pour ce chat n'ont pu être récupérés depuis l'archive du serveur. Veuillez réessayer plus tard. %@";
 "Could not fetch messages" = "Échec de la récupération des messages";
@@ -313,7 +313,7 @@
 "Failed to block contact %@" = "Échec de blocage du contact %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Échec lors du changement d’affiliation de « %1$@ » dans le salon « %2$@ » en « %3$@ »";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Échec lors du changement d’affiliation de « %1$@ » dans le salon « %2$@ » en « %3$@ » : timeout";
-"Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
+"Failed to copy downloaded file into cache directory: %@" = "Échec de la copie du fichier téléchargé dans le dossier de cache : %@";
 "Failed to create invitation for %@" = "L'invitation pour %@ n'a pu être créée";
 "Failed to create invitation, unknown error: %@" = "L’invitation n’a pas pu être créée, erreur inconnue : %@";
 "Failed to decode download link" = "Échec du déchiffrement du lien de téléchargement";
@@ -322,19 +322,19 @@
 "Failed to decrypt filetransfer" = "Échec du décryptage du fichier transféré";
 "Failed to delete own avatar" = "Échec de suppression de votre avatar";
 "Failed to delete own nickname" = "Échec de la suppression de votre pseudonyme";
-"Failed to destroy group/channel '%@'" = "Failed to destroy group/channel '%@'";
-"Failed to destroy group/channel '%@': timeout" = "Failed to destroy group/channel '%@': timeout";
+"Failed to destroy group/channel '%@'" = "Échec de la destruction du groupe/salon '%@'";
+"Failed to destroy group/channel '%@': timeout" = "Échec de la destruction du groupe/salon '%@' : timeout";
 "Failed to download file: %@" = "Échec du téléchargement du fichier : %@";
 "Failed to enable carbons for account %@" = "Échec d'activation des carbones pour le compte %@";
 "Failed to encrypt file" = "Échec du chiffrement du fichier";
 "Failed to enter Group/Channel %@" = "Échec pour entrer dans le Groupe/Canal %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Échec pour entrer dans le Groupe/Canal %@ : ce n'est pas un Groupe/Canal !";
 "Failed to export the database, please check the logfile for errors and try again." = "Échec de l’export de la base de données, veuillez vérifier les erreurs dans le fichier de log et réessayer.";
-"Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
+"Failed to fetch download metadata: %@" = "Échec du téléchargement des métadonnées : %@";
 "Failed to fetch room config form for '%@'" = "Échec de la récupération de la configuration du salon « %@ »";
 "Failed to load blocklist" = "Échec de chargement de la liste de blocage";
-"Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
-"Failed to move uploaded file to file cache directory" = "Failed to move uploaded file to file cache directory";
+"Failed to moderate message in group/channel '%@'" = "Échec de la modération d’un message dans le groupe/salon '%@'";
+"Failed to move uploaded file to file cache directory" = "Échec du déplacement du fichier envoyé dans le dossier de cache des fichiers";
 "Failed to parse URL returned by HTTP upload server" = "Échec de l'analyse de l'URL renvoyée par le serveur d'envoi HTTP";
 "Failed to publish avatar image for group/channel %@" = "Échec de publication de l'avatar pour le groupe/canal %@";
 "Failed to publish own avatar" = "Échec de publication de votre avatar";
@@ -616,7 +616,7 @@
 "Rename Contact" = "Renommer ce contact";
 "Rename Group" = "Renommer ce groupe";
 "Reply" = "Répondre";
-"Required" = "Required";
+"Required" = "Requis";
 "Reset OMEMO session" = "Rétablir la sessions OMEMO";
 "Resource" = "Ressource";
 "Resources" = "Ressources";
@@ -690,8 +690,8 @@
 "Submit A Bug" = "Signaler un problème";
 "Success" = "Succès";
 "Success!" = "Succès !";
-"Successfully destroyed channel." = "Successfully destroyed channel.";
-"Successfully destroyed group." = "Successfully destroyed group.";
+"Successfully destroyed channel." = "Salon détruit avec succès.";
+"Successfully destroyed group." = "Groupe détruit avec succès.";
 "Successfully joined group/channel %@!" = "Groupe/salon %@ rejoint avec succès !";
 "Support" = "Assistance";
 /* Crash reporting */
@@ -711,7 +711,7 @@
 "The jid you want to add should be in in the format user@domain.tld." = "L'identifiant que vous souhaitez ajouter doit être au format utilisateur@domain.suffixe";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "La clé est dans un état qui n'est actuellement pas correctement géré. Merci de contacter les développeurs si vous voyez cette invite.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "Le nouveau contact sera ajouté à votre liste de contacts lorsque la personne que vous avez ajoutée aura approuvée votre demande.";
-"The operator of the webserver providing that URL may see your IP address." = "The operator of the webserver providing that URL may see your IP address.";
+"The operator of the webserver providing that URL may see your IP address." = "L’administrateur du serveur web derrière cette adresse peut voir votre adresse IP.";
 "The password has been changed" = "Le mot de passe a été modifié";
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode";
@@ -727,10 +727,10 @@
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "Une erreur s'est produite lors du déchiffrement de ce message chiffré (erreur de Signal). Pour résoudre ceci, essayez d'envoyer un message chiffré à cette personne.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "Une erreur est survenue en décryptant ce message crypté (erreur de signal). Pour résoudre cela, essayez d'envoyer un message crypté à cette personne. (%@)";
 "These are SRV resource records found for your domain." = "Des enregistrements SRV de ressources ont été trouvés pour votre domaine.";
-"These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "These are STUN and TURN services announced by your server (blue entries are used by Monal).";
+"These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "Voici les services STUN et TURN annoncés par votre serveur (les entrées en bleu sont utilisées par Monal).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "Ce sont les types de channel-binding que votre serveur supporte pour détecter les attaques sur la couche TLS (celle utilisée en bleu, celles en orange ne sont pas prises en charge par Monal).";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "Il y a des fonctionnalités XMPP que Monal a détecté sur votre serveur après que vous vous soyez connecté.";
-"These are the MUC servers detected by Monal (blue entry used by Monal)." = "These are the MUC servers detected by Monal (blue entry used by Monal).";
+"These are the MUC servers detected by Monal (blue entry used by Monal)." = "Voici les services MUC détectés par Monal (les entrées en bleu sont utilisées par Monal).";
 "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "Ce sont les méthodes SASL2 que votre serveur supporte (celle utilisée en bleu, celles en orange ne sont pas prises en charge par Monal).";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "Ce sont les versions TLS supportées par Monal, celle utilisée par votre serveur pour la connexion sera verte.";
 "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard.";
@@ -747,7 +747,7 @@
 "This contact is already in the contact list of the selected account" = "Le contact est déjà dans la liste des contacts du compte sélectionné.";
 "This contact is already in your contact list" = "Le contact est déjà dans votre liste de contacts.";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Ce contact peut ne pas supporter les messages encryptés OMEMO. Veuillez réessayer dans quelques secondes.";
-"This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong.";
+"This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "Ce contact ne semble pas prendre en charge le chiffrement OMEMO. Veuillez réessayer d’activer le chiffrement de nouveau dans quelques secondes si vous pensez que c’est faux.";
 /* Crash report error dialog */
 "This device is not configured to send email." = "L’envoi de courriels n’est pas configuré sur cet appareil.";
 "This invitation will expire on %@" = "L'invitation est valable jusqu'à/au %@";
@@ -763,7 +763,7 @@
 "This message got retracted" = "Ce message a été annulé";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Il semble que le serveur ne prenne pas en charge la mise en ligne de fichiers via HTTP (XEP-0363). Veuillez demander à l'administrateur de l'activer.";
 "This server does not have any SRV records in DNS." = "Ce serveur n'a aucun enregistrement SRV en DNS.";
-"This server does not provide any MUC servers." = "This server does not provide any MUC servers.";
+"This server does not provide any MUC servers." = "Ce serveur ne fournit aucun service MUC.";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Ce serveur ne supporte aucun channel-binding moderne pour sécuriser la couche TLS contre les attaque MITM.";
 "This server does not support modern SASL2 authentication." = "Ce serveur ne supporte pas l'authentification SASL2.";
 "This should never happen, please contact the developers and provide a logfile!" = "Cela ne devrait jamais se produire, veuillez contacter les développeurs et fournir un fichier journal !";
@@ -777,7 +777,7 @@
 "Timeout Error" = "Erreur de délai d'attente";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
-"TLS Error: Bad certificate" = "TLS Error: Bad certificate";
+"TLS Error: Bad certificate" = "Erreur TLS : mauvais certificat";
 "TLS Error: Certificate chain is invalid" = "Erreur TLS : La chaine de certificat est invalide";
 "TLS Error: Certificate expired" = "Erreur TLS : Le certificat à expiré";
 "TLS Error: Host name mismatch" = "Erreur TLS : Le nom de l'hôte ne correspond pas";
@@ -790,8 +790,8 @@
 "Try nevertheless" = "Essayer quand même";
 "Type: %@" = "Type : %@";
 "Typing..." = "En train d'écrire…";
-"UDP Logger" = "UDP Logger";
-"UDP Logger Configuration" = "UDP Logger Configuration";
+"UDP Logger" = "Logger UDP";
+"UDP Logger Configuration" = "Configuration du logger UDP";
 "UDP Logging UI not supported on iOS < 16" = "UDP Logging UI not supported on iOS < 16";
 "Unable to connect to server!" = "Échec de connexion au serveur !";
 "Unblock Contact" = "Débloquer le contact";
@@ -799,7 +799,7 @@
 "Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
 "Unclean appex shutown" = "Extinction inopinée de l'appex";
 "Undefined error" = "Erreur indéfinie";
-"Understood" = "Understood";
+"Understood" = "Compris";
 "Unexpected appex expiration" = "Expiration inopinée de l'appex";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
 "Unexpected error while checking type of jid, please try again" = "Une erreur inattendue s'est produire durant la vérification du type de jid, veuillez réessayer";
@@ -819,12 +819,12 @@
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Envoyer des fichier sur le serveur pour les partager avec les autres. (La taille maximale autorisée des fichiers selon le serveur est de : %@)";
 "Upload Settings" = "Paramètres d’envoi de fichier";
 "Uploading" = "Téléversement";
-"Uploading avatar..." = "Uploading avatar...";
+"Uploading avatar..." = "Envoi de l’avatar…";
 "Uploading file to server" = "Téléversement du fichier vers le serveur";
-"Use account" = "Use account";
+"Use account" = "Utiliser ce compte";
 "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc.";
-"Use DNSSEC validation for all connections" = "Use DNSSEC validation for all connections";
-"User Interface" = "User Interface";
+"Use DNSSEC validation for all connections" = "Utiliser la validation DNSSEC pour toutes les connexions";
+"User Interface" = "Interface utilisateur";
 /* placeholder when adding account */
 "user@domain.tld" = "utilisateur@domaine.tld";
 /* BlockUserTable - blockJidForm */
@@ -838,7 +838,7 @@
 "version %@%@" = "version %1$@%2$@";
 "Very old app version" = "Version très ancienne de l'application";
 "Waiting for GPS signal" = "En attente du signal GPS";
-"Warning" = "Warning";
+"Warning" = "Attention";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "Nous n'avons pas pu trouver de QR-Code associé au XMPP";
 "We don't support any task requested by the server, account disabled: %@" = "Nous ne supportons aucune tâche demandée par le serveur, compte désactivé : %@";
@@ -883,7 +883,7 @@
 "XMPP stream error %@: %@" = "Erreur de flux XMPP %1$@ : %2$@";
 "XMPP stream error: %@" = "Erreur de flux XMPP : %@";
 "XMPPServer" = "Serveur XMPP";
-"Yellow checkmark shield:" = "Yellow checkmark shield:";
+"Yellow checkmark shield:" = "Bouclier jaune coché :";
 "Yes" = "Oui";
 "Yes, deactivate encryption" = "Oui, désactiver le chiffrement";
 "You are set up and connected." = "Vous êtes connecté.";
@@ -891,7 +891,7 @@
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
 "You did not grant Monal to access your location." = "Vous n'avez pas autorisé Monal à accéder à votre position.";
 "You got banned from group/channel: %@" = "Vous avez été banni·e du groupe/salon : %@";
-"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
+"You got kicked from group/channel: %@" = "Vous avez été kick du groupe/salon : %@";
 "You got removed from group/channel: %@" = "Vous avez été retiré·e du groupe/salon : %@";
 "You have not entered your XMPP ID yet" = "Vous n'avez pas encore saisi votre identifiant XMPP";
 "You need friends for this ride" = "Vous avez besoin d'amis pour vous lancer";
@@ -907,7 +907,7 @@
 "Your contact may not support calls. Your call might never reach its destination." = "Your contact may not support calls. Your call might never reach its destination.";
 "Your entered XMPP ID is missing the domain" = "Il manque le domaine à votre identifiant XMPP";
 "Your entered XMPP ID is missing the username" = "Il manque le nom d'utilisateur dans votre identifiant XMPP";
-"Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
+"Your server does not provide a MUC component." = "Votre serveur ne fournit pas de composant MUC.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Votre serveur ne supporte pas le MAM (XEP-0313). Cela signifie que vous pourrez manquer souvent des messages entrants ! Vous (ou l'administrateur du serveur) devriez revoir la configuration de votre serveur pour l'activer !";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Votre serveur ne supporte pas la fonction « Stream Management » (XEP-0198). Cela signifie que vous pourrez manquer souvent des messages sortants ! Vous (ou l'administrateur du serveur) devriez revoir la configuration de votre serveur pour l'activer !";
