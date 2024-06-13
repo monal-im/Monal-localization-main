@@ -77,12 +77,12 @@
 "Archive chat" = "Archiwum czatu";
 "Archive only if the contact is in contact list" = "Archiwizuj tylko jeśli kontakt jest na liście kontaktów";
 "Attachments" = "Attachments";
-"Audio recoder init fail." = "Błąd inicjowania rejestratora audio.";
-"Audio recoder prepareToRecord fail." = "Nie udało się przygotować rejestratora dźwięku do nagrywania.";
-"Audio Recoder recode fail" = "Nagrywanie rejestratora dźwięku nie powiodło się";
-"Audio recoder record fail." = "Nagrywanie rejestratora dźwięku nie powiodło się.";
-"Audio Recoder set active error: %@" = "Rejestrator dźwięku ustawiony aktywny błąd: %@";
-"Audio Recoder set category error: %@" = "Błąd kategorii rejestratora dźwięku: %@";
+"Audio recorder init fail." = "Audio recorder init fail.";
+"Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
+"Audio recorder record fail." = "Audio recorder record fail.";
+"Audio Recorder set active error: %@" = "Audio Recorder set active error: %@";
+"Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
+"Audio Recorder: failed to record" = "Audio Recorder: failed to record";
 "Auto-Download Media" = "Auto-Download Media";
 "Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
 "Autofocus text input on chat open" = "Autofocus text input on chat open";
@@ -519,6 +519,7 @@
 /* muc members list */
 "Open contact details" = "Open contact details";
 "Open contact list" = "Open contact list";
+"Open in default browser" = "Open in default browser";
 "Open iOS settings" = "Open iOS settings";
 "Open list of pending contact requests" = "Otwórz listę oczekujących zapytań kontaktów";
 "Open macOS settings" = "Open macOS settings";
@@ -680,7 +681,6 @@
 "Show shared Media and Files" = "Pokaż współdzielone Media i Pliki";
 "Show URL previews" = "Show URL previews";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
-"Something went wrong while parsing the string..." = "Coś poszło nie tak podczas parsowania tekstu...";
 "Sounds" = "Dźwięki";
 "Sounds courtesy Emrah" = "Dzwięki dzięki uprzejmości Emrah";
 "SRV entry prohibits XMPP connection for domain %@" = "Wpis SRV zabrania połączenia XMPP dla domeny %@";
@@ -751,6 +751,7 @@
 /* Crash report error dialog */
 "This device is not configured to send email." = "This device is not configured to send email.";
 "This invitation will expire on %@" = "Zaproszenie wygaśnie o %@";
+"This is an embedded file that can not be opened externally." = "This is an embedded file that can not be opened externally.";
 "This is the software running on your server." = "This is the software running on your server.";
 "This key belongs to this device and cannot be removed or disabled!" = "Ten klucz należy do tego urządzenia i nie może być usunięty ani wyłączony!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Ten klucz jest zaufany i zweryfikowany przez ręczne porównanie odcisków palców. Aby przestać mu ufać użyj elementu.";
@@ -922,3 +923,4 @@
 "📍 A Location" = "📍 Lokalizacja";
 "📷 An Image" = "📷 Obraz";
 "🔗 A Link" = "🔗 Link";
+"Something went wrong while parsing your input..." = "Something went wrong while parsing your input...";

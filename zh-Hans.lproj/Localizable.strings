@@ -77,12 +77,12 @@
 "Archive chat" = "存档聊天";
 "Archive only if the contact is in contact list" = "仅当联系人在联系人列表中时才存档";
 "Attachments" = "附件";
-"Audio recoder init fail." = "录音机初始化失败。";
-"Audio recoder prepareToRecord fail." = "录音机准备录音失败。";
-"Audio Recoder recode fail" = "录音机录音失败";
-"Audio recoder record fail." = "录音机录音失败。";
-"Audio Recoder set active error: %@" = "录音机设置活动错误：%@";
-"Audio Recoder set category error: %@" = "录音机设置类别错误：%@";
+"Audio recorder init fail." = "Audio recorder init fail.";
+"Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
+"Audio recorder record fail." = "Audio recorder record fail.";
+"Audio Recorder set active error: %@" = "Audio Recorder set active error: %@";
+"Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
+"Audio Recorder: failed to record" = "Audio Recorder: failed to record";
 "Auto-Download Media" = "自动下载媒体";
 "Autodelete all messages after 3 days" = "3 天后自动删除所有消息";
 "Autofocus text input on chat open" = "打开聊天时自动对焦文本输入";
@@ -519,6 +519,7 @@
 /* muc members list */
 "Open contact details" = "打开联系人详请";
 "Open contact list" = "打开联系人列表";
+"Open in default browser" = "Open in default browser";
 "Open iOS settings" = "打开 iOS 设置";
 "Open list of pending contact requests" = "打开待处理联系人请求列表";
 "Open macOS settings" = "打开 macOS 设置";
@@ -680,7 +681,6 @@
 "Show shared Media and Files" = "显示共享的媒体和文件";
 "Show URL previews" = "显示 URL 预览";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "某些消息可能在等待检索或发送。请打开应用重试。";
-"Something went wrong while parsing the string..." = "解析字符串时出现问题…";
 "Sounds" = "音效";
 "Sounds courtesy Emrah" = "感谢 Emrah 提供音效";
 "SRV entry prohibits XMPP connection for domain %@" = "SRV 条目禁止域 %@ 的 XMPP 连接";
@@ -751,6 +751,7 @@
 /* Crash report error dialog */
 "This device is not configured to send email." = "此设备未配置为发送电子邮件。";
 "This invitation will expire on %@" = "此邀请将于 %@ 到期";
+"This is an embedded file that can not be opened externally." = "This is an embedded file that can not be opened externally.";
 "This is the software running on your server." = "这是服务器上运行的软件。";
 "This key belongs to this device and cannot be removed or disabled!" = "此密钥属于此设备，无法移除或禁用！";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "此密钥是可信的，并通过手动比较指纹进行验证。要停止信任此密钥，请使用切换元素。";
@@ -922,3 +923,4 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
+"Something went wrong while parsing your input..." = "Something went wrong while parsing your input...";

@@ -77,12 +77,12 @@
 "Archive chat" = "Artxibatu txata";
 "Archive only if the contact is in contact list" = "Artxibatu kontaktua kontaktuen zerrendan badago bakarrik";
 "Attachments" = "Attachments";
-"Audio recoder init fail." = "Ezin izan da audio grabagailua abiarazi.";
-"Audio recoder prepareToRecord fail." = "Audio grabagailuak prepareToRecord kale egin du.";
-"Audio Recoder recode fail" = "Audio grabagailuaren rekodetzeak kale egin du";
-"Audio recoder record fail." = "Audio grabagailuaren grbaketak kale egin du.";
-"Audio Recoder set active error: %@" = "Audio grabagailuaren aktibazio-ezarpenaren errorea: %@";
-"Audio Recoder set category error: %@" = "Audio grabagailuak kategoria ezartzeak kale egin du: %@";
+"Audio recorder init fail." = "Audio recorder init fail.";
+"Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
+"Audio recorder record fail." = "Audio recorder record fail.";
+"Audio Recorder set active error: %@" = "Audio Recorder set active error: %@";
+"Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
+"Audio Recorder: failed to record" = "Audio Recorder: failed to record";
 "Auto-Download Media" = "Deskargatu multimedia automatikoki";
 "Autodelete all messages after 3 days" = "Ezabatu mezu guztiak automatikoki 3 egun pasatakoan";
 "Autofocus text input on chat open" = "Autofocus text input on chat open";
@@ -519,6 +519,7 @@
 /* muc members list */
 "Open contact details" = "Open contact details";
 "Open contact list" = "Ireki kontaktuen zerrenda";
+"Open in default browser" = "Open in default browser";
 "Open iOS settings" = "Open iOS settings";
 "Open list of pending contact requests" = "Ireki erabakitzeke kontaktu-eskaeren zerrenda";
 "Open macOS settings" = "Open macOS settings";
@@ -680,7 +681,6 @@
 "Show shared Media and Files" = "Erakutsi partekatutako multimedia eta fitxategiak";
 "Show URL previews" = "Erakutsi URLen aurrebista";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "Mezu batzuk jasotzeko edo bidaltzeko zain daude. Ireki aplikazioa berriro saiatzeko.";
-"Something went wrong while parsing the string..." = "Zerbaitek kale egin du katea aztertzerakoan…";
 "Sounds" = "Soinuak";
 "Sounds courtesy Emrah" = "Emrah-ren kortesia";
 "SRV entry prohibits XMPP connection for domain %@" = "SRV erregistroak %@ domeinurako XMPP konexioak debekatzen ditu";
@@ -751,6 +751,7 @@
 /* Crash report error dialog */
 "This device is not configured to send email." = "Gailu hau ez dago ezarrita ePosta bidali ahal izateko.";
 "This invitation will expire on %@" = "Gonbidapenaren iraungitzea: %@";
+"This is an embedded file that can not be opened externally." = "This is an embedded file that can not be opened externally.";
 "This is the software running on your server." = "Hau da zure zerbitzariak darabilen softwarea:";
 "This key belongs to this device and cannot be removed or disabled!" = "Gailu honen gakoa da hau eta ezin da kendu edo ezgaitu!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Gako honetaz fio da eta hatzmarkak eskuz alderatuz egiaztatu da. Gakoaz fidatzeari uzteko, erabili botoi-etengailua.";
@@ -922,3 +923,4 @@
 "📍 A Location" = "📍 Kokapena";
 "📷 An Image" = "📷 Irudia";
 "🔗 A Link" = "🔗 Esteka";
+"Something went wrong while parsing your input..." = "Something went wrong while parsing your input...";

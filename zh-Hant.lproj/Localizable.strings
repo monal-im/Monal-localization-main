@@ -77,12 +77,12 @@
 "Archive chat" = "封存聊天";
 "Archive only if the contact is in contact list" = "只有聯絡人在聯絡人清單裡才可以封存";
 "Attachments" = "Attachments";
-"Audio recoder init fail." = "錄音器初始化失敗。";
-"Audio recoder prepareToRecord fail." = "錄音器準備錄音失敗。";
-"Audio Recoder recode fail" = "錄音器錄音失敗";
-"Audio recoder record fail." = "錄音器準備錄音失敗。";
-"Audio Recoder set active error: %@" = "錄音器設定啟動發生錯誤： %@";
-"Audio Recoder set category error: %@" = "錄音器設定類別發生錯誤： %@";
+"Audio recorder init fail." = "Audio recorder init fail.";
+"Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
+"Audio recorder record fail." = "Audio recorder record fail.";
+"Audio Recorder set active error: %@" = "Audio Recorder set active error: %@";
+"Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
+"Audio Recorder: failed to record" = "Audio Recorder: failed to record";
 "Auto-Download Media" = "Auto-Download Media";
 "Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
 "Autofocus text input on chat open" = "Autofocus text input on chat open";
@@ -519,6 +519,7 @@
 /* muc members list */
 "Open contact details" = "Open contact details";
 "Open contact list" = "Open contact list";
+"Open in default browser" = "Open in default browser";
 "Open iOS settings" = "Open iOS settings";
 "Open list of pending contact requests" = "Open list of pending contact requests";
 "Open macOS settings" = "Open macOS settings";
@@ -680,7 +681,6 @@
 "Show shared Media and Files" = "Show shared Media and Files";
 "Show URL previews" = "Show URL previews";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
-"Something went wrong while parsing the string..." = "Something went wrong while parsing the string...";
 "Sounds" = "音效";
 "Sounds courtesy Emrah" = "Sounds courtesy Emrah";
 "SRV entry prohibits XMPP connection for domain %@" = "SRV entry prohibits XMPP connection for domain %@";
@@ -751,6 +751,7 @@
 /* Crash report error dialog */
 "This device is not configured to send email." = "This device is not configured to send email.";
 "This invitation will expire on %@" = "This invitation will expire on %@";
+"This is an embedded file that can not be opened externally." = "This is an embedded file that can not be opened externally.";
 "This is the software running on your server." = "This is the software running on your server.";
 "This key belongs to this device and cannot be removed or disabled!" = "This key belongs to this device and cannot be removed or disabled!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element.";
@@ -922,3 +923,4 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 An Image";
 "🔗 A Link" = "🔗 A Link";
+"Something went wrong while parsing your input..." = "Something went wrong while parsing your input...";

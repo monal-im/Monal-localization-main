@@ -77,12 +77,12 @@
 "Archive chat" = "会話を保管";
 "Archive only if the contact is in contact list" = "相手先が一覧にある場合のみ保管";
 "Attachments" = "Attachments";
-"Audio recoder init fail." = "Audio recoder init fail.";
-"Audio recoder prepareToRecord fail." = "Audio recoder prepareToRecord fail.";
-"Audio Recoder recode fail" = "Audio Recoder recode fail";
-"Audio recoder record fail." = "Audio recoder record fail.";
-"Audio Recoder set active error: %@" = "Audio Recoder set active error: %@";
-"Audio Recoder set category error: %@" = "Audio Recoder set category error: %@";
+"Audio recorder init fail." = "Audio recorder init fail.";
+"Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
+"Audio recorder record fail." = "Audio recorder record fail.";
+"Audio Recorder set active error: %@" = "Audio Recorder set active error: %@";
+"Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
+"Audio Recorder: failed to record" = "Audio Recorder: failed to record";
 "Auto-Download Media" = "Auto-Download Media";
 "Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
 "Autofocus text input on chat open" = "Autofocus text input on chat open";
@@ -519,6 +519,7 @@
 /* muc members list */
 "Open contact details" = "Open contact details";
 "Open contact list" = "相手先一覧を開く";
+"Open in default browser" = "Open in default browser";
 "Open iOS settings" = "Open iOS settings";
 "Open list of pending contact requests" = "保留中の相手先リクエストの一覧を開く";
 "Open macOS settings" = "Open macOS settings";
@@ -680,7 +681,6 @@
 "Show shared Media and Files" = "共有メディアとファイルを表示";
 "Show URL previews" = "Show URL previews";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "いくつかのメッセージが取得または送信を待機しているかもしれません。アプリを開いて再試行してください。";
-"Something went wrong while parsing the string..." = "文字列の解析中に問題が発生しました...";
 "Sounds" = "サウンド";
 "Sounds courtesy Emrah" = "通知音は Emrah さんのご厚意";
 "SRV entry prohibits XMPP connection for domain %@" = "SRV エントリーにより、ドメイン %@ の XMPP 接続が禁止されています";
@@ -751,6 +751,7 @@
 /* Crash report error dialog */
 "This device is not configured to send email." = "このデバイスは電子メールを送信するように調整されていません。";
 "This invitation will expire on %@" = "この招待は %@ に期限切れになります";
+"This is an embedded file that can not be opened externally." = "This is an embedded file that can not be opened externally.";
 "This is the software running on your server." = "これはサーバーで実行されているソフトウェアです。";
 "This key belongs to this device and cannot be removed or disabled!" = "この鍵はこのデバイスに属しており、除去したり無効にしたりすることはできません。";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "この鍵は信頼されており、手動で指紋を比較することにより検証されています。この鍵の信頼を止めるには、トグルスイッチを使用します。";
@@ -922,3 +923,4 @@
 "📍 A Location" = "📍 位置情報";
 "📷 An Image" = "📷 画像";
 "🔗 A Link" = "🔗 リンク";
+"Something went wrong while parsing your input..." = "Something went wrong while parsing your input...";
