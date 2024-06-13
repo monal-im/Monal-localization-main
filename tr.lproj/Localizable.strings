@@ -77,12 +77,12 @@
 "Archive chat" = "Sohbeti arşivle";
 "Archive only if the contact is in contact list" = "Yalnızca kişi listesindeyse arşivle";
 "Attachments" = "Ekler";
-"Audio recorder init fail." = "Audio recorder init fail.";
-"Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
-"Audio recorder record fail." = "Audio recorder record fail.";
-"Audio Recorder set active error: %@" = "Audio Recorder set active error: %@";
-"Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
-"Audio Recorder: failed to record" = "Audio Recorder: failed to record";
+"Audio recorder init fail." = "Ses kaydedici başlatılamadı.";
+"Audio recorder prepareToRecord fail." = "Ses kaydedici prepareToRecord başarısız.";
+"Audio recorder record fail." = "Ses kaydedici kaydı başarısız.";
+"Audio Recorder set active error: %@" = "Ses Kaydedici etkin olarak ayarlama hatası: %@";
+"Audio Recorder set category error: %@" = "Ses Kaydedici kategori ayarlama hatası: %@";
+"Audio Recorder: failed to record" = "Ses Kaydedici: kayıt yapılamadı";
 "Auto-Download Media" = "Otomatik medya indirme";
 "Autodelete all messages after 3 days" = "Tüm mesajları 3 gün sonra otomatik sil";
 "Autofocus text input on chat open" = "Sohbet açıkken metin girişine otomatik odaklan";
@@ -519,7 +519,7 @@
 /* muc members list */
 "Open contact details" = "İletişim bilgilerini aç";
 "Open contact list" = "Kişi listesini aç";
-"Open in default browser" = "Open in default browser";
+"Open in default browser" = "Varsayılan tarayıcıda aç";
 "Open iOS settings" = "iOS ayarlarını aç";
 "Open list of pending contact requests" = "Bekleyen iletişim taleplerinin açık listesi";
 "Open macOS settings" = "macOS ayarlarını aç";
@@ -751,7 +751,7 @@
 /* Crash report error dialog */
 "This device is not configured to send email." = "Bu cihaz e-posta göndermek için yapılandırılmamıştır.";
 "This invitation will expire on %@" = "Bu davet %@ de sona erecektir";
-"This is an embedded file that can not be opened externally." = "This is an embedded file that can not be opened externally.";
+"This is an embedded file that can not be opened externally." = "Bu, harici olarak açılamayan gömülü bir dosyadır.";
 "This is the software running on your server." = "Bu, sunucunuzda çalışan yazılımdır.";
 "This key belongs to this device and cannot be removed or disabled!" = "Bu anahtar bu cihaza aittir ve kaldırılamaz veya devre dışı bırakılamaz!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Bu anahtara güvenilir ve parmak izleri manuel olarak karşılaştırılarak doğrulanır. Bu anahtara güvenmeyi durdurmak için geçiş yardımcısını kullanın.";
@@ -923,4 +923,4 @@
 "📍 A Location" = "📍 Bir Konum";
 "📷 An Image" = "📷 Bir Resim";
 "🔗 A Link" = "🔗 Bir Bağlantı";
-"Something went wrong while parsing your input..." = "Something went wrong while parsing your input...";
+"Something went wrong while parsing your input..." = "Girdinizi ayrıştırırken bir şeyler ters gitti...";
