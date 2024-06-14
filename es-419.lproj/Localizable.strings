@@ -38,13 +38,13 @@
 "Add Account" = "Añadir cuenta";
 "Add Account (advanced)" = "Añadir cuenta (avanzado)";
 "Add Contact or Channel" = "Añadir contacto o canal";
-"Add Group/Channel or Contact" = "Añadir grupo/canal o contacto";
+"Add Group/Channel or Contact" = "Añadir grupo, canal o contacto";
 "Add members to group" = "Añadir miembros a grupo";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Añadir nuevos contactos con el botón '+' que se encuentra arriba. Sus contactos aparecerán aquí cuando puedan charlar";
 "Add scanned Group/Channel or Contact" = "Añadir grupos, canales o contactos escaneados";
 "Add to contacts" = "Añadir a contactos";
 "Adding %@..." = "Agregando %@...";
-"Adding Group/Channel..." = "Agregando grupo/canal ...";
+"Adding Group/Channel..." = "Agregando grupo o canal ...";
 "Adding new member" = "Agregando nuevo miembro";
 "Adding..." = "Agregando ...";
 "Adjust the maximum file size for auto-downloads over cellular network" = "Ajustar el tamaño máximo de archivo para descarga automática con datos móviles";
@@ -77,12 +77,12 @@
 "Archive chat" = "Archivar chat";
 "Archive only if the contact is in contact list" = "Archivar solo si el contacto está en la lista de contactos";
 "Attachments" = "Adjuntos";
-"Audio recorder init fail." = "Audio recorder init fail.";
-"Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
-"Audio recorder record fail." = "Audio recorder record fail.";
-"Audio Recorder set active error: %@" = "Audio Recorder set active error: %@";
-"Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
-"Audio Recorder: failed to record" = "Audio Recorder: failed to record";
+"Audio recorder init fail." = "Fallo al iniciar la grabación de audio.";
+"Audio recorder prepareToRecord fail." = "Fallo en la grabadora de audio: \"prepareToRecord\".";
+"Audio recorder record fail." = "Fallo en la grabadora al capturar audio.";
+"Audio Recorder set active error: %@" = "Error al marcar la grabadora de audio como activa: %@";
+"Audio Recorder set category error: %@" = "Error al establecer la categoría de la grabadora de audio: %@";
+"Audio Recorder: failed to record" = "Grabadora de audio: fallo al grabar";
 "Auto-Download Media" = "Descarga automática de Media";
 "Autodelete all messages after 3 days" = "Eliminar todos los mensajes automáticamente después de 3 días";
 "Autofocus text input on chat open" = "Hacer foco en la caja de texto al abrir un chat";
@@ -96,7 +96,7 @@
 "Blocking %@" = "Bloqueando %@";
 "Blocking is not supported by the server" = "El servidor no permite bloqueos";
 "Blocking member" = "Bloqueando miembro";
-"Blocking/Unblocking Not Supported" = "Bloqueo/Desbloqueo no soportado";
+"Blocking/Unblocking Not Supported" = "No hay soporte para Bloqueo/Desbloqueo";
 "BODY" = "CUERPO";
 "Call ended" = "Llamada finalizada";
 "Call ended for an unknown reason" = "Llamada finalizada por razón desconocida";
@@ -153,12 +153,12 @@
 "Connected since: %@" = "Conectado desde: %@";
 "Connected: %@" = "Conectado: %@";
 "Connecting..." = "Conectando ...";
-"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Los JIDs de contactos, grupos y canales suelen tener el formato: nombre@dominio.tld";
+"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Los XMPP ID de contactos, grupos y canales suelen tener el formato: nombre@dominio.tld";
 "Contact is muted" = "El contacto está silenciado";
 "Contact is not muted" = "El contacto no está silenciado";
 "Contact not found" = "Contacto no encontrado";
 /* placeholder when adding jid */
-"Contact or Group/Channel Jid" = "JID del contacto, grupo o canal";
+"Contact or Group/Channel Jid" = "XMPP ID del contacto, grupo o canal";
 "Contact Requests" = "Solicitud de contacto";
 "Contact Selection" = "Selección de Contactos";
 "Contacts" = "Contactos";
@@ -186,7 +186,7 @@
 "Could not get default capture device" = "No se pude acceder al dispositivo de captura predeterminado";
 /* QR-Code-Scanner */
 "Could not init video session" = "No se puede iniciar sesión de video";
-"Could not join group/channel '%@': timeout" = "No se pudo unir al grupo/canal '%@': timeout";
+"Could not join group/channel '%@': timeout" = "No se pudo unir al grupo o canal '%@': timeout";
 "Could not read captcha!" = "¡No se puede leer el captcha!";
 "Could not register your username. Please check your code or change the username and try again." = "No se pudo registrar tu nombre de usuario. Verifique su código o cambie el nombre de usuario y vuelva a intentarlo.";
 "Could not send" = "No se pudo enviar";
@@ -237,7 +237,7 @@
 "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "¿Realmente desea eliminar este grupo? Todos los miembros serán expulsados y el grupo será eliminado.";
 "Do you really want to disable encryption for this contact?" = "¿Realmente quiere deshabilitar la encriptación para este contacto?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "¿Realmente quiere restablecer la sesión de OMEMO? ¡Solo debe restablecer la conexión si sabe lo que está haciendo!";
-"Do you want to block this user from entering this group/channel?" = "¿Quiere bloquear el ingreso de este usuario a este grupo/canal?";
+"Do you want to block this user from entering this group/channel?" = "¿Quiere bloquear el ingreso de este usuario a este grupo o canal?";
 "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "¿Desea eliminar al usuario de este canal? El usuario podrá ingresar al canal nuevamente si no lo bloquea.";
 "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "¿Desea eliminar al usuario de este grupo? El usuario no podrá reingresar al grupo hasta que sea agregado nuevamente.";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "¿Quiere confiar en las huellas digitales escaneadas del contacto %@ cuando utilice su cuenta %@?";
@@ -252,7 +252,7 @@
 "Draft:" = "Borrador:";
 "Duplicate Account" = "Cuenta duplicada";
 "Duplicate Account!" = "¡Cuenta duplicada!";
-"Duplicate jid!" = "¡JID duplicado!";
+"Duplicate jid!" = "¡XMPP ID duplicado!";
 /* Crash report error dialog */
 "E-Mail not enabled on device" = "Correo electrónico no habilitado en el dispositivo";
 /* Chat msg action */
@@ -274,7 +274,7 @@
 "Enter the jid that you want to block" = "Entra el jid que quieres bloquear";
 "Enter your new password. Passwords may not be empty. They may also be governed by server or company policies." = "Introduzca su nueva contraseña. Las contraseñas no pueden estar vacías. También pueden regirse por las políticas del servidor o de la empresa.";
 "Enter your password here" = "Ingrese su password aquí";
-"Enter your XMPP ID here" = "Ingrese su ID XMPP aquí";
+"Enter your XMPP ID here" = "Ingrese su XMPP ID aquí";
 "Entry 1" = "Entrada 1";
 "Entry 2" = "Entrada 2";
 "Entry 3" = "Entrada 3";
@@ -288,7 +288,7 @@
 "Error creating group!" = "¡Error al crear nuevo grupo!";
 "Error decrypting message" = "Error desencriptando el mensaje";
 "Error destroying group!" = "¡Error al eliminar grupo!";
-"Error entering group/channel!" = "¡Error al ingresar a grupo/canal!";
+"Error entering group/channel!" = "¡Error al ingresar a grupo o canal!";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error de gestión en el desafío SASL al servidor (muy baja cantidad de iteraciones), desconectando!";
 /* parenthesis should be verbatim */
@@ -322,29 +322,29 @@
 "Failed to decrypt filetransfer" = "Fallo al desencriptar la transferencia de archivo";
 "Failed to delete own avatar" = "Fallo al eliminar su propio avatar";
 "Failed to delete own nickname" = "Fallo al eliminar su propio alias";
-"Failed to destroy group/channel '%@'" = "Fallo al eliminar grupo/canal '%@'";
-"Failed to destroy group/channel '%@': timeout" = "Fallo al eliminar grupo/canal '%@': timeout";
+"Failed to destroy group/channel '%@'" = "Fallo al eliminar grupo o canal '%@'";
+"Failed to destroy group/channel '%@': timeout" = "Fallo al eliminar grupo o canal '%@': timeout";
 "Failed to download file: %@" = "Fallo al descargar archivo: %@";
 "Failed to enable carbons for account %@" = "Fallo al habilitar copias para la cuenta %@";
 "Failed to encrypt file" = "Fallo al encriptar archivo";
-"Failed to enter Group/Channel %@" = "Fallo al ingresar al grupo/canal %@";
-"Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Fallo al ingresar al grupo/canal %@: ¡Este no es un grupo/canal!";
+"Failed to enter Group/Channel %@" = "Fallo al ingresar al grupo o canal %@";
+"Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Fallo al ingresar al grupo o canal %@: ¡Este no es un grupo o canal!";
 "Failed to export the database, please check the logfile for errors and try again." = "Fallo al exportar la base de datos, por favor verifique el registro e intente nuevamente.";
 "Failed to fetch download metadata: %@" = "Fallo al recuperar metadata de descagas: %@";
 "Failed to fetch room config form for '%@'" = "Fallo al recuperar formulario de configuración de la sala para '%@'";
 "Failed to load blocklist" = "Fallo al cargar la lista de contactos bloqueados";
-"Failed to moderate message in group/channel '%@'" = "Fallo al moderar mensaje en el grupo/canal '%@'";
+"Failed to moderate message in group/channel '%@'" = "Fallo al moderar mensaje en el grupo o canal '%@'";
 "Failed to move uploaded file to file cache directory" = "Fallo al mover archivo subido a la carpeta de caché de archivos";
 "Failed to parse URL returned by HTTP upload server" = "Fallo al analizar la URL devuelta por el servidor de carga HTTP";
-"Failed to publish avatar image for group/channel %@" = "Fallo al publicar la imagen del avatar en el grupo/canal %@";
+"Failed to publish avatar image for group/channel %@" = "Fallo al publicar la imagen del avatar en el grupo o canal %@";
 "Failed to publish own avatar" = "Fallo al publicar su propio avatar";
 "Failed to publish own nickname" = "Fallo al publicar su propio alias";
 "Failed to query for new messages on account %@" = "Fallo al buscar mensajes nuevos para la cuenta %@";
-"Failed to query new messages for Group/Channel (catchup) %@" = "Fallo al buscar mensajes nuevos del grupo/canal (catchup) %@";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "Fallo al buscar mensajes nuevos del grupo/canal (Stanza ID) %@";
+"Failed to query new messages for Group/Channel (catchup) %@" = "Fallo al buscar mensajes nuevos del grupo o canal (catchup) %@";
+"Failed to query new messages for Group/Channel (stanzaid) %@" = "Fallo al buscar mensajes nuevos en el grupo o canal (Stanza ID) %@";
 "Failed to query newest stanzaid for account %@" = "Fallo al consultar el Stanza ID más reciente para la cuenta %@";
-"Failed to remove bookmark for Group/Channel: %@" = "Fallo al eliminar marcador en el grupo/canal: %@";
-"Failed to save bookmark for Group/Channel: %@" = "Fallo al guardar marcador en el grupo/canal: %@";
+"Failed to remove bookmark for Group/Channel: %@" = "Fallo al eliminar marcador en el grupo o canal: %@";
+"Failed to save bookmark for Group/Channel: %@" = "Fallo al guardar marcador en el grupo o canal: %@";
 "Failed to save groupchat bookmarks" = "Fallo al guardar marcadores de grupo";
 "Failed to share file" = "Fallo al compartir archivo";
 "Failed to upload file: account was removed" = "Fallo al subir archivo: la cuenta fue eliminada";
@@ -369,7 +369,7 @@
 "Group Name (optional)" = "Nombre del grupo (opcional)";
 "Group subject:" = "Asunto del grupo:";
 "Group/Channel got destroyed: %@" = "Grupo o canal eliminado: %@";
-"Group/Channel not available anymore: %@" = "Grupo o canal ya no se encuentra disponible: %@";
+"Group/Channel not available anymore: %@" = "EL grupo o canal ya no se encuentra disponible: %@";
 "groupJoin Group" = "Unirse al grupo";
 "Hint" = "Sugerencia";
 "I already have an account:" = "Ya tengo una cuenta:";
@@ -405,8 +405,8 @@
 "Join Group" = "Unirse al grupo";
 "Just seen" = "Recién visto";
 "Keys of %@" = "Llaves de %@";
-"Kicked from group/channel, because of system shutdown: %@" = "Expulsado del grupo/canal debido a que el sistema fue apagado: %@";
-"Kicked, because group/channel is now members-only: %@" = "Expulsado porque el grupo/canal ahora es solo para miembros: %@";
+"Kicked from group/channel, because of system shutdown: %@" = "Expulsado del grupo o canal debido a que el sistema fue apagado: %@";
+"Kicked, because group/channel is now members-only: %@" = "Expulsado porque el grupo o canal ahora es solo para miembros: %@";
 "Last seen: %@" = "Visto por última vez: %@";
 "Last seen: %d days ago" = "Visto por última vez hace: %d días";
 "Last seen: %d hours ago" = "Visto por última vez hace: %d horas";
@@ -519,7 +519,7 @@
 /* muc members list */
 "Open contact details" = "Ver detalles del contacto";
 "Open contact list" = "Abrir lista de contactos";
-"Open in default browser" = "Open in default browser";
+"Open in default browser" = "Abrir en el navegador";
 "Open iOS settings" = "Abrir la Configuración de iOS";
 "Open list of pending contact requests" = "Abrir lista de peticiones de contactos pendientes";
 "Open macOS settings" = "Abrir la Configuración de macOS";
@@ -554,7 +554,7 @@
 "Please make sure at least one account has connected before trying to create new group." = "Por favor asegúrese que al menos una cuenta esté conectada antes de intentar crear un grupo nuevo.";
 "Please make sure you are connected before changing your password." = "Por favor, asegúrese estar conectado antes de cambiar su contraseña.";
 "Please make sure you have entered a username, password." = "Por favor asegúrese que ha ingresado un nombre de usuario y una contraseña.";
-"Please make sure you have entered a valid jid." = "Por favor asegúrese de haber ingresado un JID válido.";
+"Please make sure you have entered a valid jid." = "Por favor asegúrese de haber ingresado un XMPP ID válido.";
 "Please make sure you have entered both a username and password." = "Por favor asegúrese de haber ingresado un nombre de usuario y una contraseña.";
 "Please make sure you have entered the same password in both password fields." = "Por favor asegúrese de haber ingresado la misma contraseña en ambos campos.";
 "Please provide a valid XMPP server domain or select one." = "Por favor ingrese un dominio de servidor XMPP válido o escoja uno.";
@@ -589,7 +589,7 @@
 /* directory for downloaded videos */
 "Received Videos" = "Videos recibidos";
 /* shareViewController: recipient */
-"Recipient" = "Destinatario/Destinataria";
+"Recipient" = "Destinatario";
 "Recode Fail:" = "Error de recodificación:";
 "Recode Success" = "Recodificación exitosa";
 "Reconnecting..." = "Reconectando ...";
@@ -692,12 +692,12 @@
 "Success!" = "¡Listo!";
 "Successfully destroyed channel." = "Canal eliminado exitosamente.";
 "Successfully destroyed group." = "Grupo eliminado exitosamente.";
-"Successfully joined group/channel %@!" = "Se ha unido exitosamente al grupo/canal %@!";
+"Successfully joined group/channel %@!" = "Se ha unido exitosamente al grupo o canal %@!";
 "Support" = "Soporte";
 /* Crash reporting */
 "Sure, send it!" = "¡Seguro, envialo!";
 "Synchronize your messages on all loggedin devices." = "Sincronice los mensajes de todos sus dispositivos conectados.";
-"Temporary failure to enter Group/Channel: %@" = "Fallo temporal al ingresar al grupo/canal: %@";
+"Temporary failure to enter Group/Channel: %@" = "Fallo temporal al ingresar al grupo o canal: %@";
 "Terms of %@" = "Términos de %@";
 "Terms of use for %@" = "Términos de uso para %@";
 "The account has been deleted" = "La cuenta ha sido eliminada";
@@ -708,7 +708,7 @@
 "The chat history has been cleared" = "El historial del chat ha sido eliminado";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "La conexión con el servidor sufrió una interrupción y no se pudieron obtener los mensajes antiguos. Por favor, inténtelo de nuevo más tarde.";
 "The current password is not correct." = "La contraseña actual no es correcta.";
-"The jid you want to add should be in in the format user@domain.tld." = "El JID que deseas añadir debe tener el formato usuario@dominio.tld.";
+"The jid you want to add should be in in the format user@domain.tld." = "El XMPP ID que deseas añadir debe tener el formato usuario@dominio.tld.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "La llave se encuentra en un estado en el que actualmente no puede manejarse correctamente. Si ve este mensaje, por favor póngase en contacto con los desarrolladores.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "El nuevo contacto aparecerá en su lista de contactos cuando su solicitud haya sido aprobada.";
 "The operator of the webserver providing that URL may see your IP address." = "El operador del servidor web responsable de la URL puede ver su dirección IP.";
@@ -751,7 +751,7 @@
 /* Crash report error dialog */
 "This device is not configured to send email." = "Este dispositivo no está configurado para enviar email.";
 "This invitation will expire on %@" = "Esta invitación expirará en %@";
-"This is an embedded file that can not be opened externally." = "This is an embedded file that can not be opened externally.";
+"This is an embedded file that can not be opened externally." = "El archivo está embebido y no puede abrirse desde fuera.";
 "This is the software running on your server." = "Este es el software ejecutándose en su servidor.";
 "This key belongs to this device and cannot be removed or disabled!" = "¡Esta llave pertenece a este dispositivo y no puede ser eliminada o deshabilitada!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Esta llave es de confianza y se verificó manualmente comparando huellas digitales. Puede desactivarla para dejar de confiar en ella.";
@@ -773,7 +773,7 @@
 "This will clear the whole chat history of this account from this device." = "Esto borrará todo el historial de chat de esta cuenta desde este dispositivo.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Esto borrará esta cuenta y los datos asociado del servidor y del dispositivo. Aún así algunos datos podrían quedar retenidos en otros dispositivos.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "Esto hará que sea posible hacer llamadas aún si su servidor XMPP no provee un servidor TURN.";
-"This will remove the current avatar image and revert this group/channel to the default one." = "Esto eliminará el avatar en uso en el grupo/canal y le devolverá el asignado por defecto.";
+"This will remove the current avatar image and revert this group/channel to the default one." = "Esto eliminará el avatar en uso en el grupo o canal y le devolverá el asignado por defecto.";
 "This will remove this account and the associated data from this device." = "Esto eliminará esta cuenta y los datos asociados de este dispositivo.";
 "Timeout Error" = "Error tiempo de espera";
 "TLS 1.2" = "TLS 1.2";
@@ -803,8 +803,8 @@
 "Understood" = "Entendido";
 "Unexpected appex expiration" = "Unexpected appex expiration";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Error de autenticación de servidor inesperado usando SASL2 (¿Su servidor tiene un bug?), ¡desconectando!";
-"Unexpected error while checking type of jid, please try again" = "Error inesperado al verificar el tipo de JID. Por favor intente nuevamente";
-"Unexpected error while checking type of jid:" = "Error inesperado comprobando el tipo de JID:";
+"Unexpected error while checking type of jid, please try again" = "Error inesperado al verificar el tipo de XMPP ID. Por favor intente nuevamente";
+"Unexpected error while checking type of jid:" = "Error inesperado comprobando el tipo de XMPP ID:";
 "Unexpected mam preferences result" = "Resultado inesperado de las preferencias mam";
 "Unexpected server response: invalid PEP config form" = "Respuesta inesperada del servidor: formulario de configuración de PEP no válido";
 "Unexpected server response: missing required fields in PEP config form" = "Respuesta inesperada del servidor: faltan campos obligatorios en el formulario de configuración de PEP";
@@ -874,7 +874,7 @@
 "XMPP Disco Info Error" = "Error al recuperar la información de servicios XMPP";
 "XMPP External Service Disco Error" = "Error al recuperar la información de servicios XMPP externo (XEP-0215)";
 "XMPP ID" = "ID XMPP";
-"XMPP ID missing" = "Falta el ID de XMPP";
+"XMPP ID missing" = "Falta el XMPP ID";
 "XMPP mam preferences error" = "Error de preferencias MAM de XMPP";
 "XMPP protocol extension for communications blocking." = "Extensión de protocolo XMPP para bloqueo de comunicaciones.";
 "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "Extensión del protocolo XMPP para descubrir servicios externos de la red XMPP, como los servidores STUN o TURN necesarios para llamadas de Audio-Video.";
@@ -891,10 +891,10 @@
 "You are set up and connected. People can message you at: %@@%@" = "Perfil configurado y conectado. Puede recibir mensajes dirigidos a: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "Está intentando llamar a '%@' (%@), pero este contacto utiliza distintas cuentas. Por favor seleccione la cuenta a la que desea llamar.";
 "You did not grant Monal to access your location." = "Monal no tiene permiso de acceso a su ubicación.";
-"You got banned from group/channel: %@" = "Se le ha prohibido el ingreso al grupo/canal: %@";
-"You got kicked from group/channel: %@" = "Ha sido expulsado del grupo/canal: %@";
-"You got removed from group/channel: %@" = "Ha sido removido del grupo/canal: %@";
-"You have not entered your XMPP ID yet" = "Aún no ha ingresado su ID XMPP";
+"You got banned from group/channel: %@" = "Se le ha prohibido el ingreso al grupo o canal: %@";
+"You got kicked from group/channel: %@" = "Ha sido expulsado del grupo o canal: %@";
+"You got removed from group/channel: %@" = "Ha sido removido del grupo o canal: %@";
+"You have not entered your XMPP ID yet" = "Aún no ha ingresado su XMPP ID";
 "You need friends for this ride" = "Necesita amigos para este viaje";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Necesita permitir acceso al micrófono en iOS Configuración-> Privacidad-> Micrófono, si quiere que lo puedan escuchar.";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Ha restaurado una copia de seguridad de Monal desde iCloud, por favor abra la aplicación para reactivar esta cuenta.";
@@ -906,14 +906,14 @@
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Sus cuentas se desactivaron porque restauró una copia de seguridad de Monal desde iCloud. Reingrese sus contraseñas para activarlas de nuevo.";
 "Your answer" = "Su respuesta";
 "Your contact may not support calls. Your call might never reach its destination." = "Puede que su contacto no tenga soporte para llamadas y éstas nunca alcancen al destinatario.";
-"Your entered XMPP ID is missing the domain" = "Al ID XMPP ingresado le falta el dominio";
-"Your entered XMPP ID is missing the username" = "Al ID XMPP ingresado le falta el nombre de usuario";
+"Your entered XMPP ID is missing the domain" = "Al XMPP ID ingresado le falta el dominio";
+"Your entered XMPP ID is missing the username" = "Al XMPP ID ingresado le falta el nombre de usuario";
 "Your server does not provide a MUC component." = "Su servidor no provee un componente MUC.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Su servidor no es compatible con MAM (XEP-0313). ¡¡Esto significa que con frecuencia podría perder mensajes entrantes!! ¡Debería cambiar de servidor o hablar con su administrador para solicitarle que lo habilite!";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Su servidor no tiene soporte \"PUSH\" (XEP-0357). Esto significa que tendrá que abrir la aplicación manualmente para recibir sus mensajes entrantes. ¡Debería considerar cambiar de servidor o ponerse en contacto con el administrador para solicitarle que habilite esta función!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Su servidor no es compatible con Gestión de Flujo de Datos (XEP-0198). Esto significa que sus mensajes salientes pueden perderse con frecuencia. ¡Debería considerar cambiar su servidor o ponerse en contacto con el administrador para solicitarle que lo habilite!";
 "Your status" = "Su estado";
-"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Su XMPP JID debe seguir el formato usuario@dominio.tld. Para configuraciones especiales, utilice la configuración manual.";
+"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Su XMPP ID debe seguir el formato usuario@dominio.tld. Para configuraciones especiales, utilice la configuración manual.";
 "🎥 A Video" = "🎥 Un video";
 "🎥 Video" = "🎥 Video";
 "🎵 An Audiomessage" = "🎵 Un mensaje de audio";
@@ -923,4 +923,4 @@
 "📍 A Location" = "📍 Una ubicación";
 "📷 An Image" = "📷 Una imagen";
 "🔗 A Link" = "🔗 Un enlace";
-"Something went wrong while parsing your input..." = "Something went wrong while parsing your input...";
+"Something went wrong while parsing your input..." = "Algo salió mal mientras se analizaba su texto ...";
