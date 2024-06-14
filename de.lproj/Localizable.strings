@@ -78,10 +78,10 @@
 "Archive only if the contact is in contact list" = "Nur archivieren, wenn der Kontakt in der Kontaktliste ist";
 "Attachments" = "Anhänge";
 "Audio recorder init fail." = "Initialisierung des Audiorekorders fehlgeschlagen.";
-"Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
-"Audio recorder record fail." = "Audioaufzeichnung fehlgeschlagen.";
-"Audio Recorder set active error: %@" = "Audio Recorder set active error: %@";
-"Audio Recorder set category error: %@" = "Audio-Recorder hat einen Kategoriefehler: %@";
+"Audio recorder prepareToRecord fail." = "Audiorekorder prepareToRecord fehlgeschlagen.";
+"Audio recorder record fail." = "Sprachaufnahme fehlgeschlagen.";
+"Audio Recorder set active error: %@" = "Audiorekorder hat einen Aktivierungsfehler: %@";
+"Audio Recorder set category error: %@" = "Audiorekorder hat einen Kategoriefehler: %@";
 "Audio Recorder: failed to record" = "Audiorekorder: Aufzeichnung fehlgeschlagen";
 "Auto-Download Media" = "Automatischer Download von Medien";
 "Autodelete all messages after 3 days" = "Automatische Löschung aller Nachrichten nach 3 Tagen";
@@ -153,12 +153,12 @@
 "Connected since: %@" = "Verbunden seit: %@";
 "Connected: %@" = "Verbunden: %@";
 "Connecting..." = "Verbinden...";
-"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Kontakt- und Gruppen-/Channel-JIDs haben normalerweise das Format: name@domain.tld";
+"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Kontakt- und Gruppen-/Channel-Adressen haben normalerweise das Format: name@domain.tld";
 "Contact is muted" = "Kontakt ist stummgeschaltet";
 "Contact is not muted" = "Kontakt ist nicht stummgeschaltet";
 "Contact not found" = "Kontakt nicht gefunden";
 /* placeholder when adding jid */
-"Contact or Group/Channel Jid" = "Kontakt- und Gruppen-/Channel-JID";
+"Contact or Group/Channel Jid" = "Kontakt- und Gruppen-/Channel-Adresse";
 "Contact Requests" = "Kontaktanfragen";
 "Contact Selection" = "Kontaktauswahl";
 "Contacts" = "Kontakte";
@@ -252,7 +252,7 @@
 "Draft:" = "Entwurf:";
 "Duplicate Account" = "Konto duplizieren";
 "Duplicate Account!" = "Doppeltes Konto!";
-"Duplicate jid!" = "Doppelte JID!";
+"Duplicate jid!" = "Doppelte XMPP-Adresse!";
 /* Crash report error dialog */
 "E-Mail not enabled on device" = "E-Mail auf dem Gerät nicht aktiviert";
 /* Chat msg action */
@@ -271,10 +271,10 @@
 "Encryption Keys" = "Schlüssel";
 "Encryption Keys (OMEMO)" = "Schlüssel (OMEMO)";
 "Encryption Not Supported" = "Verschlüsselung nicht unterstützt";
-"Enter the jid that you want to block" = "Gib die JID ein, die du sperren möchtest";
+"Enter the jid that you want to block" = "Gib die XMPP-Adresse ein, die du sperren möchtest";
 "Enter your new password. Passwords may not be empty. They may also be governed by server or company policies." = "Gib dein neues Passwort ein. Passwörter dürfen nicht leer sein. Sie können auch durch Server- oder Unternehmensrichtlinien geregelt sein.";
 "Enter your password here" = "Gib hier dein Passwort ein";
-"Enter your XMPP ID here" = "Gib hier deine XMPP-ID ein";
+"Enter your XMPP ID here" = "Gib hier deine XMPP-Adresse ein";
 "Entry 1" = "Eintrag 1";
 "Entry 2" = "Eintrag 2";
 "Entry 3" = "Eintrag 3";
@@ -382,7 +382,7 @@
 "Import and trust OMEMO fingerprints from QR code" = "OMEMO-Fingerabdrücke von QR-Codes importieren und vertrauen";
 "Indicate when a particular device is active or inactive. Saves battery." = "Anzeigen, wenn ein bestimmtes Gerät aktiv oder inaktiv ist. Spart Akku.";
 "Input" = "Eingabe";
-"Input is not a valid jid" = "Eingabe ist keine gültige JID";
+"Input is not a valid jid" = "Eingabe ist keine gültige XMPP-Adresse";
 "Interactions" = "Interaktionen";
 "Invalid Credentials!" = "Ungültige Zugangsdaten!";
 /* QR-Code-Scanner: invalid format */
@@ -554,7 +554,7 @@
 "Please make sure at least one account has connected before trying to create new group." = "Bitte stelle sicher, dass mindestens ein Konto verbunden ist, bevor du versuchst, eine neue Gruppe zu erstellen.";
 "Please make sure you are connected before changing your password." = "Bitte stelle sicher, dass du verbunden bist, bevor du dein Passwort änderst.";
 "Please make sure you have entered a username, password." = "Bitte stelle sicher, dass du einen Benutzernamen und ein Passwort eingegeben hast.";
-"Please make sure you have entered a valid jid." = "Bitte stelle sicher, dass du eine gültige JID eingegeben hast.";
+"Please make sure you have entered a valid jid." = "Bitte stelle sicher, dass du eine gültige XMPP-Adresse eingegeben hast.";
 "Please make sure you have entered both a username and password." = "Bitte vergewissere dich, dass du sowohl einen Benutzernamen als auch ein Passwort eingegeben hast.";
 "Please make sure you have entered the same password in both password fields." = "Bitte vergewissere dich, dass du in beiden Passwortfeldern das gleiche Passwort eingegeben hast.";
 "Please provide a valid XMPP server domain or select one." = "Bitte gib eine gültige XMPP-Serverdomäne an oder wähle eine aus.";
@@ -708,7 +708,7 @@
 "The chat history has been cleared" = "Der Chatverlauf wurde gelöscht";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "Die Verbindung zum Server wurde unterbrochen, weswegen für diesen Chat keine alten Nachrichten geladen werden konnten. Bitte versuche es später noch einmal.";
 "The current password is not correct." = "Das aktuelle Passwort ist nicht korrekt.";
-"The jid you want to add should be in in the format user@domain.tld." = "Die JID, die du hinzufügen möchtest, sollte das Format user@domain.tld haben.";
+"The jid you want to add should be in in the format user@domain.tld." = "Die XMPP-Adresse, die du hinzufügen möchtest, sollte das Format user@domain.tld haben.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "Der Schlüssel befindet sich in einem Zustand, der derzeit nicht korrekt gehandhabt wird. Bitte kontaktiere die Entwickler, wenn du diese Aufforderung siehst.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "Der neue Kontakt wird zu deiner Kontaktliste hinzugefügt, wenn die von dir hinzugefügte Person deine Anfrage genehmigt hat.";
 "The operator of the webserver providing that URL may see your IP address." = "Der Betreiber des Webservers, der diese URL bereitstellt, kann deine IP-Adresse sehen.";
@@ -803,8 +803,8 @@
 "Understood" = "Verstanden";
 "Unexpected appex expiration" = "Unerwarteter Appex-Ablauf";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unerwarteter Fehler beim Authentifizieren des Servers mit SASL2 (Hat dein Server einen Fehler?), Verbindung wird getrennt!";
-"Unexpected error while checking type of jid, please try again" = "Unerwarteter Fehler bei der Überprüfung des Typs der JID, bitte versuche es erneut";
-"Unexpected error while checking type of jid:" = "Unerwarteter Fehler bei der Überprüfung des Typs der JID:";
+"Unexpected error while checking type of jid, please try again" = "Unerwarteter Fehler bei der Überprüfung des Typs der XMPP-Adresse, bitte versuche es erneut";
+"Unexpected error while checking type of jid:" = "Unerwarteter Fehler bei der Überprüfung des Typs der XMPP-Adresse:";
 "Unexpected mam preferences result" = "Unerwartete MAM-Präferenzen erhalten";
 "Unexpected server response: invalid PEP config form" = "Unerwartete Serverantwort: ungültiges PEP-Konfigurationsformular";
 "Unexpected server response: missing required fields in PEP config form" = "Unerwartete Serverantwort: fehlende Pflichtfelder im PEP-Konfigurationsformular";
@@ -873,8 +873,8 @@
 "XMPP Capabilities" = "XMPP-Fähigkeiten";
 "XMPP Disco Info Error" = "XMPP Disco Info Fehler";
 "XMPP External Service Disco Error" = "XMPP-Fehler bei der Suche nach externen Diensten";
-"XMPP ID" = "XMPP-ID";
-"XMPP ID missing" = "XMPP-ID fehlt";
+"XMPP ID" = "XMPP-Adresse";
+"XMPP ID missing" = "XMPP-Adresse fehlt";
 "XMPP mam preferences error" = "XMPP-MAM-Einstellungsfehler";
 "XMPP protocol extension for communications blocking." = "XMPP-Protokollerweiterung für das Blockieren von Kommunikation.";
 "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP-Protokollerweiterung zum Auffinden von Diensten außerhalb des XMPP-Netzes, wie STUN- oder TURN-Server, die für A/V-Anrufe benötigt werden.";
@@ -894,7 +894,7 @@
 "You got banned from group/channel: %@" = "Du wurdest aus der Gruppe/Channel ausgeschlossen: %@";
 "You got kicked from group/channel: %@" = "Du wurdest aus der Gruppe/Channel geworfen: %@";
 "You got removed from group/channel: %@" = "Du wurdest aus der Gruppe/Channel entfernt: %@";
-"You have not entered your XMPP ID yet" = "Du hast deine XMPP-ID noch nicht eingegeben";
+"You have not entered your XMPP ID yet" = "Du hast deine XMPP-Adresse noch nicht eingegeben";
 "You need friends for this ride" = "Du brauchst Freunde für diese Tour";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Wenn du möchtest, dass andere dich hören können, musst du den Mikrofonzugriff unter iOS Einstellungen > Datenschutz > Mikrofon erlauben.";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Du hast ein iCloud-Backup von Monal wiederhergestellt. Bitte öffne die App, um dieses Konto wieder zu aktivieren.";
@@ -906,14 +906,14 @@
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Deine Konten wurden deaktiviert, weil du ein iCloud-Backup von Monal wiederhergestellt hast. Bitte gib deine Passwörter erneut ein, um sie wieder zu aktivieren.";
 "Your answer" = "Deine Antwort";
 "Your contact may not support calls. Your call might never reach its destination." = "Dein Kontakt unterstützt möglicherweise keine Anrufe. Dein Anruf erreicht möglicherweise nie sein Ziel.";
-"Your entered XMPP ID is missing the domain" = "Deiner eingegebenen XMPP-ID fehlt die Domain";
-"Your entered XMPP ID is missing the username" = "Deiner eingegebenen XMPP-ID fehlt der Benutzername";
+"Your entered XMPP ID is missing the domain" = "Deiner eingegebenen XMPP-Adresse fehlt die Domain";
+"Your entered XMPP ID is missing the username" = "Deiner eingegebenen XMPP-Adresse fehlt der Benutzername";
 "Your server does not provide a MUC component." = "Dein Server verfügt nicht über eine Gruppen/Channel-Komponente.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Dein Server unterstützt kein MAM (XEP-0313). Das heißt, du kannst häufig eingehende Nachrichten verpassen!! Du solltest deinen Server wechseln oder mit dem Serveradministrator sprechen, um dies zu aktivieren!";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Dein Server unterstützt kein PUSH (XEP-0357). Das bedeutet, dass du die App manuell öffnen musst, um neue eingehende Nachrichten abzurufen!! Du solltest deinen Server wechseln oder mit dem Server-Admin sprechen, um dies zu aktivieren!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Dein Server unterstützt kein Stream Management (XEP-0198). Das bedeutet, dass deine ausgehenden Nachrichten häufig verloren gehen können!! Du solltest deinen Server wechseln oder mit dem Serveradministrator sprechen, um dies zu aktivieren!";
 "Your status" = "Dein Status";
-"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Deine XMPP-JID sollte das Format user@domain.tld haben. Verwende für spezielle Konfigurationen die manuelle Einrichtung.";
+"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Deine XMPP-Adresse sollte das Format user@domain.tld haben. Verwende für spezielle Konfigurationen die manuelle Einrichtung.";
 "🎥 A Video" = "🎥 Ein Video";
 "🎥 Video" = "🎥 Video";
 "🎵 An Audiomessage" = "🎵 Eine Sprachnachricht";
