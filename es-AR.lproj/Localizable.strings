@@ -77,12 +77,12 @@
 "Archive chat" = "Archivar chat";
 "Archive only if the contact is in contact list" = "Archivar solo si el contacto está en la lista de contactos";
 "Attachments" = "Adjuntos";
-"Audio recorder init fail." = "Audio recorder init fail.";
-"Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
-"Audio recorder record fail." = "Audio recorder record fail.";
-"Audio Recorder set active error: %@" = "Audio Recorder set active error: %@";
-"Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
-"Audio Recorder: failed to record" = "Audio Recorder: failed to record";
+"Audio recorder init fail." = "Fallo al iniciar la grabación de audio.";
+"Audio recorder prepareToRecord fail." = "Fallo en la grabadora de audio: \"prepareToRecord\".";
+"Audio recorder record fail." = "Fallo de grabación al capturar audio.";
+"Audio Recorder set active error: %@" = "Error al marcar la grabadora de audio como activa: %@";
+"Audio Recorder set category error: %@" = "Error al establecer la categoría de la grabadora de audio: %@";
+"Audio Recorder: failed to record" = "Grabadora de audio: fallo al grabar";
 "Auto-Download Media" = "Descarga automática de Media";
 "Autodelete all messages after 3 days" = "Eliminar todos los mensajes automáticamente después de 3 días";
 "Autofocus text input on chat open" = "Hacer foco en la caja de texto automáticamente al abrir una conversación";
@@ -120,7 +120,7 @@
 "Can Show Notifications" = "Puede mostrar notificaciones";
 "Can't convert the image to jpeg format." = "No es posible convertir la imagen a formato jpeg.";
 "Cancel" = "Cancelar";
-"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "No es posible compartir con cuentas deshabilitadas/eliminadas, destino: %@, ID de cuenta interna: %@";
+"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "No es posible compartir con cuentas deshabilitadas/eliminadas, destino: %@, identificador interno de cuenta: %@";
 "Caps hash: %@" = "Hash caps: %@";
 /* placeholder when creating account */
 "Captcha" = "Captcha";
@@ -153,12 +153,12 @@
 "Connected since: %@" = "Conectado desde: %@";
 "Connected: %@" = "Conectado: %@";
 "Connecting..." = "Conectando ...";
-"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Los JIDs de contactos y grupos/canales suelen tener el formato: nombre@dominio.tld";
+"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Las direcciones XMPP de sus contactos, grupos y canales tienen el formato: nombre@dominio.tld";
 "Contact is muted" = "El contacto está silenciado";
 "Contact is not muted" = "El contacto no está silenciado";
 "Contact not found" = "Contacto no encontrado";
 /* placeholder when adding jid */
-"Contact or Group/Channel Jid" = "JID del contacto, grupo o canal";
+"Contact or Group/Channel Jid" = "Dirección XMPP del contacto, grupo o canal";
 "Contact Requests" = "Solicitud de contacto";
 "Contact Selection" = "Selección de Contactos";
 "Contacts" = "Contactos";
@@ -252,7 +252,7 @@
 "Draft:" = "Borrador:";
 "Duplicate Account" = "Cuenta duplicada";
 "Duplicate Account!" = "¡Cuenta duplicada!";
-"Duplicate jid!" = "¡JID duplicado!";
+"Duplicate jid!" = "¡Dirección XMPP duplicada!";
 /* Crash report error dialog */
 "E-Mail not enabled on device" = "Correo electrónico no habilitado en el dispositivo";
 /* Chat msg action */
@@ -274,7 +274,7 @@
 "Enter the jid that you want to block" = "Entra el jid que quieres bloquear";
 "Enter your new password. Passwords may not be empty. They may also be governed by server or company policies." = "Introduzca su nueva contraseña. Las contraseñas no pueden estar vacías. También pueden regirse por las políticas del servidor o de la empresa.";
 "Enter your password here" = "Ingrese su password aquí";
-"Enter your XMPP ID here" = "Ingrese su ID XMPP aquí";
+"Enter your XMPP ID here" = "Ingrese su dirección XMPP aquí";
 "Entry 1" = "Entrada 1";
 "Entry 2" = "Entrada 2";
 "Entry 3" = "Entrada 3";
@@ -341,7 +341,7 @@
 "Failed to publish own nickname" = "Fallo al publicar su propio alias";
 "Failed to query for new messages on account %@" = "Fallo al buscar mensajes nuevos para la cuenta %@";
 "Failed to query new messages for Group/Channel (catchup) %@" = "Fallo al buscar mensajes nuevos del grupo/canal (catchup) %@";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "Fallo al buscar mensajes nuevos del grupo/canal (Stanza ID) %@";
+"Failed to query new messages for Group/Channel (stanzaid) %@" = "Fallo al buscar mensajes nuevos en el grupo o canal (Stanza ID) %@";
 "Failed to query newest stanzaid for account %@" = "Fallo al consultar el Stanza ID más reciente para la cuenta %@";
 "Failed to remove bookmark for Group/Channel: %@" = "Fallo al eliminar marcador en el grupo/canal: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Fallo al guardar marcador en el grupo/canal: %@";
@@ -519,7 +519,7 @@
 /* muc members list */
 "Open contact details" = "Ver detalles del contacto";
 "Open contact list" = "Abrir lista de contactos";
-"Open in default browser" = "Open in default browser";
+"Open in default browser" = "Abrir en el navegador por defecto";
 "Open iOS settings" = "Abrir la Configuración de iOS";
 "Open list of pending contact requests" = "Abrir lista de peticiones de contactos pendientes";
 "Open macOS settings" = "Abrir la Configuración de macOS";
@@ -554,7 +554,7 @@
 "Please make sure at least one account has connected before trying to create new group." = "Por favor asegúrese que al menos una cuenta esté conectada antes de intentar crear un grupo nuevo.";
 "Please make sure you are connected before changing your password." = "Por favor, asegúrese estar conectado antes de cambiar su contraseña.";
 "Please make sure you have entered a username, password." = "Por favor asegúrese que ha ingresado un nombre de usuario y una contraseña.";
-"Please make sure you have entered a valid jid." = "Por favor asegúrese de haber ingresado un JID válido.";
+"Please make sure you have entered a valid jid." = "Por favor asegúrese de haber ingresado un dirección XMPP válida.";
 "Please make sure you have entered both a username and password." = "Por favor asegúrese de haber ingresado un nombre de usuario y una contraseña.";
 "Please make sure you have entered the same password in both password fields." = "Por favor asegúrese de haber ingresado la misma contraseña en ambos campos.";
 "Please provide a valid XMPP server domain or select one." = "Por favor ingrese un dominio de servidor XMPP válido o escoja uno.";
@@ -708,7 +708,7 @@
 "The chat history has been cleared" = "El historial del chat ha sido eliminado";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "La conexión con el servidor sufrió una interrupción y no se pudieron obtener los mensajes antiguos. Por favor, inténtelo de nuevo más tarde.";
 "The current password is not correct." = "La contraseña actual no es correcta.";
-"The jid you want to add should be in in the format user@domain.tld." = "El JID que deseas agregar debe tener el formato usuario@dominio.tld.";
+"The jid you want to add should be in in the format user@domain.tld." = "La dirección XMPP que desea añadir debe tener el formato: usuario@dominio.tld.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "La llave se encuentra en un estado en el que actualmente no puede manejarse correctamente. Si ve este mensaje, por favor póngase en contacto con los desarrolladores.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "El nuevo contacto aparecerá en su lista de contactos cuando su solicitud haya sido aprobada.";
 "The operator of the webserver providing that URL may see your IP address." = "El operador del servidor web responsable de la URL puede ver su dirección IP.";
@@ -751,7 +751,7 @@
 /* Crash report error dialog */
 "This device is not configured to send email." = "Este dispositivo no está configurado para enviar email.";
 "This invitation will expire on %@" = "Esta invitación expirará en %@";
-"This is an embedded file that can not be opened externally." = "This is an embedded file that can not be opened externally.";
+"This is an embedded file that can not be opened externally." = "El archivo está embebido y no puede abrirse desde fuera.";
 "This is the software running on your server." = "Este es el software ejecutándose en su servidor.";
 "This key belongs to this device and cannot be removed or disabled!" = "¡Esta llave pertenece a este dispositivo y no puede ser eliminada o deshabilitada!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Esta llave es de confianza y se verificó manualmente comparando huellas digitales. Puede desactivarla para dejar de confiar en ella.";
@@ -803,8 +803,8 @@
 "Understood" = "Entendido";
 "Unexpected appex expiration" = "Unexpected appex expiration";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Error de autenticación de servidor inesperado usando SASL2 (¿Su servidor tiene un bug?), ¡desconectando!";
-"Unexpected error while checking type of jid, please try again" = "Error inesperado al verificar el tipo de JID. Por favor intente nuevamente";
-"Unexpected error while checking type of jid:" = "Error inesperado comprobando el tipo de JID:";
+"Unexpected error while checking type of jid, please try again" = "Error inesperado al verificar el tipo de dirección XMPP. Por favor intente nuevamente";
+"Unexpected error while checking type of jid:" = "Error inesperado comprobando el tipo de dirección XMPP:";
 "Unexpected mam preferences result" = "Resultado inesperado de las preferencias mam";
 "Unexpected server response: invalid PEP config form" = "Respuesta inesperada del servidor: formulario de configuración de PEP no válido";
 "Unexpected server response: missing required fields in PEP config form" = "Respuesta inesperada del servidor: faltan campos obligatorios en el formulario de configuración de PEP";
@@ -873,8 +873,8 @@
 "XMPP Capabilities" = "Capacidades XMPP";
 "XMPP Disco Info Error" = "Error al recuperar la información de servicios XMPP";
 "XMPP External Service Disco Error" = "Error al recuperar la información de servicios XMPP externo (XEP-0215)";
-"XMPP ID" = "ID XMPP";
-"XMPP ID missing" = "Falta el ID de XMPP";
+"XMPP ID" = "Dirección XMPP";
+"XMPP ID missing" = "Falta la dirección XMPP";
 "XMPP mam preferences error" = "Error de preferencias MAM de XMPP";
 "XMPP protocol extension for communications blocking." = "Extensión de protocolo XMPP para bloqueo de comunicaciones.";
 "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "Extensión del protocolo XMPP para descubrir servicios externos de la red XMPP, como los servidores STUN o TURN necesarios para llamadas de Audio-Video.";
@@ -894,7 +894,7 @@
 "You got banned from group/channel: %@" = "Se le ha prohibido el ingreso al grupo/canal: %@";
 "You got kicked from group/channel: %@" = "Ha sido expulsado del grupo/canal: %@";
 "You got removed from group/channel: %@" = "Ha sido removido del grupo/canal: %@";
-"You have not entered your XMPP ID yet" = "Aún no ha ingresado su ID XMPP";
+"You have not entered your XMPP ID yet" = "Aún no ha ingresado su dirección XMPP";
 "You need friends for this ride" = "Necesita amigos para este viaje";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Necesita permitir acceso al micrófono en iOS Configuración-> Privacidad-> Micrófono, si quiere que lo puedan escuchar.";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Ha restaurado una copia de seguridad de Monal desde iCloud, por favor abra la aplicación para reactivar esta cuenta.";
@@ -906,14 +906,14 @@
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Sus cuentas se desactivaron porque restauró una copia de seguridad de Monal desde iCloud. Reingrese sus contraseñas para activarlas de nuevo.";
 "Your answer" = "Su respuesta";
 "Your contact may not support calls. Your call might never reach its destination." = "Puede que su contacto no tenga soporte para llamadas y éstas nunca alcancen al destinatario.";
-"Your entered XMPP ID is missing the domain" = "Al ID XMPP ingresado le falta el dominio";
-"Your entered XMPP ID is missing the username" = "Al ID XMPP ingresado le falta el nombre de usuario";
+"Your entered XMPP ID is missing the domain" = "A la dirección XMPP ingresada le falta el dominio";
+"Your entered XMPP ID is missing the username" = "A la dirección XMPP ingresada le falta el nombre de usuario";
 "Your server does not provide a MUC component." = "Su servidor no provee un componente MUC.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Su servidor no es compatible con MAM (XEP-0313). ¡¡Esto significa que con frecuencia podría perder mensajes entrantes!! ¡Debería cambiar de servidor o hablar con su administrador para solicitarle que lo habilite!";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Su servidor no tiene soporte \"PUSH\" (XEP-0357). Esto significa que tendrá que abrir la aplicación manualmente para recibir sus mensajes entrantes. ¡Debería considerar cambiar de servidor o ponerse en contacto con el administrador para solicitarle que habilite esta función!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Su servidor no es compatible con Gestión de Flujo de Datos (XEP-0198). Esto significa que sus mensajes salientes pueden perderse con frecuencia. ¡Debería considerar cambiar su servidor o ponerse en contacto con el administrador para solicitarle que lo habilite!";
 "Your status" = "Su estado";
-"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Su XMPP JID debe seguir el formato usuario@dominio.tld. Para configuraciones especiales, utilice la configuración manual.";
+"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Su dirección XMPP debe seguir el formato usuario@dominio.tld. Para configuraciones especiales, utilice la configuración manual.";
 "🎥 A Video" = "🎥 Un video";
 "🎥 Video" = "🎥 Video";
 "🎵 An Audiomessage" = "🎵 Un mensaje de audio";
@@ -923,4 +923,4 @@
 "📍 A Location" = "📍 Una ubicación";
 "📷 An Image" = "📷 Una imagen";
 "🔗 A Link" = "🔗 Un enlace";
-"Something went wrong while parsing your input..." = "Something went wrong while parsing your input...";
+"Something went wrong while parsing your input..." = "Algo salió mal mientras se procesaba su texto ...";
