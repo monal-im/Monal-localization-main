@@ -233,8 +233,8 @@
 "Do you really want to block this contact? You won't receive any messages from this contact." = "Voulez-vous vraiment bloquer ce contact ? Vous ne recevrez plus aucun message de ce contact.";
 "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "Voulez-vous vraiment effacer tous les messages échangés dans cette conversation ? Si vous utilisez OMEMO, vous ne devriez plus pouvoir les récupérer à nouveau depuis votre serveur.";
 "Do you really want to delete this key?" = "Voulez-vous vraiment supprimer cette clé ?";
-"Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards.";
-"Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards.";
+"Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "Voulez-vous vraiment détruire ce salon public ? Tous les membres seront expulsés et le salon sera détruit par la suite.";
+"Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "Voulez-vous vraiment détruire ce groupe ? Tous les membres seront expulsés et le groupe sera détruit par la suite.";
 "Do you really want to disable encryption for this contact?" = "Voulez-vous vraiment désactiver le chiffrement pour ce contact ?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Voulez-vous vraiment réinitialiser la session OMEMO ? Soyez sûr que vous savez exactement ce que vous faites !";
 "Do you want to block this user from entering this group/channel?" = "Voulez-vous empêcher cet utilisateur d’entrer dans ce groupe/salon ?";
@@ -424,9 +424,9 @@
 "Let your contacts know when you last opened the app." = "Notifier vos contacts de la dernière fois que vous avez ouvert l’application.";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "Comme le courriel, vous pouvez enregistrer votre compte à de nombreux endroits et parler à n'importe qui. Vous pouvez utiliser cette page pour enregistrer un compte avec un serveur XMPP sélectionné ou fourni. Vous devez également choisir un nom d'utilisateur et un mot de passe.";
 "Load over Cellular" = "Load over Cellular";
-"Load over cellular up to: %@ MiB" = "Load over cellular up to: %@ MiB";
-"Load over wifi" = "Load over wifi";
-"Load over WiFi up to: %@ MiB" = "Load over WiFi up to: %@ MiB";
+"Load over cellular up to: %@ MiB" = "Télécharger via cellulaire jusqu'à : %@ MiB";
+"Load over wifi" = "Télécharger via Wi-Fi";
+"Load over WiFi up to: %@ MiB" = "Télécharger via Wi-Fi jusqu'à : %@ MiB";
 "Loading" = "Chargement";
 "Loading contact list" = "Chargement de la liste des contacts";
 "Loading Data" = "Chargement des données";
@@ -519,7 +519,7 @@
 /* muc members list */
 "Open contact details" = "Ouvrir les informations du contact";
 "Open contact list" = "Ouvrir la liste des contacts";
-"Open in default browser" = "Open in default browser";
+"Open in default browser" = "Ouvrir avec le navigateur par défaut";
 "Open iOS settings" = "Ouvrir les préférences d’iOS";
 "Open list of pending contact requests" = "Ouvrir la liste des requêtes de contact en attente";
 "Open macOS settings" = "Ouvrir les préférences de macOS";
@@ -583,7 +583,7 @@
 "Received Audios" = "Audio reçu";
 /* directory for downloaded files */
 "Received Files" = "Fichiers reçus";
-"Received geo locations are shared with Apple's Maps App." = "Received geo locations are shared with Apple's Maps App.";
+"Received geo locations are shared with Apple's Maps App." = "Les emplacements géographiques reçus sont partagés avec l'application Plans d'Apple.";
 /* directory for downloaded images */
 "Received Images" = "Images reçues";
 /* directory for downloaded videos */
@@ -696,7 +696,7 @@
 "Successfully joined group/channel %@!" = "Groupe/salon %@ rejoint avec succès !";
 "Support" = "Assistance";
 /* Crash reporting */
-"Sure, send it!" = "Sure, send it!";
+"Sure, send it!" = "Bien sûr, envoyez-le !";
 "Synchronize your messages on all loggedin devices." = "Synchronisez vos messages sur tous les appareils connectés.";
 "Temporary failure to enter Group/Channel: %@" = "Erreur temporaire pour entrer dans le Groupe/Canal : %@";
 "Terms of %@" = "Terms of %@";
@@ -705,7 +705,7 @@
 "The account has been removed" = "Le compte a été supprimé";
 "The account has been saved" = "Le compte a été sauvegardé";
 /* Crash reporting */
-"The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!";
+"The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "L'application a planté la dernière fois qu'elle a été lancée. Envoyer un rapport de panne ? Ce rapport de panne contiendra des données relatives à la vie privée. Nous ne l'utiliserons que pour déboguer votre problème et le supprimerons par la suite !";
 "The chat history has been cleared" = "L'historique de conversation a été effacé";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "La connexion avec le serveur a été interrompu et aucun ancien message n'a pu être récupéré pour ce canal. Veuillez réessayer plus tard.";
 "The current password is not correct." = "Le mot de passe actuel n'est pas valide.";
@@ -734,7 +734,7 @@
 "These are the MUC servers detected by Monal (blue entry used by Monal)." = "Voici les services MUC détectés par Monal (les entrées en bleu sont utilisées par Monal).";
 "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "Ce sont les méthodes SASL2 que votre serveur supporte (celle utilisée en bleu, celles en orange ne sont pas prises en charge par Monal).";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "Ce sont les versions TLS supportées par Monal, celle utilisée par votre serveur pour la connexion sera verte.";
-"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard.";
+"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "Il s'agit de vos clés de chiffrement. Chaque appareil est un endroit différent où vous vous êtes connecté. Vous devez faire confiance à une clé lorsque vous l'avez vérifiée. Double-cliquez sur une empreinte pour la copier dans le presse-papiers.";
 "They will no longer see when you are online. They may not be able to access your encryption keys." = "Ils ne verront plus lorsque vous serez en ligne. Ils pourraient ne pas pouvoir accéder à vos clés de chiffrement.";
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "Ils ne verront plus lorsque vous êtes en ligne. Ils pourraient ne plus pouvoir vous envoyer de messages chiffrés.";
 "They will see when you are online. They will be able to send you encrypted messages." = "Ils verront lorsque vous êtes en ligne. Ils pourront vous envoyer des messages chiffrés.";
@@ -773,7 +773,7 @@
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Cette spécification permet de sécuriser les négociations SASL et SASL2 contre la dégradation des méthode et du channel-binding.";
 "This will clear the whole chat history of this account from this device." = "Cela effacera tout l'historique de conversation de ce compte sur cet appareil.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Cela supprimera ce compte et les données associées du serveur et de cet appareil. Les données peuvent cependant être conservées sur d'autres appareils.";
-"This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
+"This will make calls possible even if your XMPP server does not provide a TURN server." = "Cela rendra les appels possibles même si votre serveur XMPP ne fournit pas de serveur TURN.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
 "This will remove this account and the associated data from this device." = "Cela va supprimer ce compte et les données associées de cet appareil.";
 "Timeout Error" = "Erreur de délai d'attente";
