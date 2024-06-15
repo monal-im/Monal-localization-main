@@ -269,7 +269,7 @@
 "Encrypted session to this device broken beyond repair." = "Session de chiffrement vers cet appareil cassée au-delà du réparable.";
 "Encryption" = "Chiffrement";
 "Encryption Keys" = "Clés de chiffrement";
-"Encryption Keys (OMEMO)" = "Clés de cryptage (OMEMO)";
+"Encryption Keys (OMEMO)" = "Clés de chiffrement (OMEMO)";
 "Encryption Not Supported" = "Chiffrement non pris en charge";
 "Enter the jid that you want to block" = "Entrez le jid que vous souhaitez bloquer";
 "Enter your new password. Passwords may not be empty. They may also be governed by server or company policies." = "Entrez votre nouveau mot de passe. Les mots de passe ne peuvent pas être vides. Ils peuvent aussi être gérés par le serveur ou une politique d'entreprise.";
@@ -319,7 +319,7 @@
 "Failed to decode download link" = "Échec du déchiffrement du lien de téléchargement";
 "Failed to decode encrypted link" = "Échec du déchiffrement du lien chiffré";
 "Failed to decrypt download" = "Échec du déchiffrement du téléchargement";
-"Failed to decrypt filetransfer" = "Échec du décryptage du fichier transféré";
+"Failed to decrypt filetransfer" = "Échec du déchiffrement du fichier transféré";
 "Failed to delete own avatar" = "Échec de suppression de votre avatar";
 "Failed to delete own nickname" = "Échec de la suppression de votre pseudonyme";
 "Failed to destroy group/channel '%@'" = "Échec de la destruction du groupe/salon '%@'";
@@ -340,8 +340,8 @@
 "Failed to publish own avatar" = "Échec de publication de votre avatar";
 "Failed to publish own nickname" = "Échec de publication de votre pseudonyme";
 "Failed to query for new messages on account %@" = "Échec de la requête pour les nouveaux messages du compte %@";
-"Failed to query new messages for Group/Channel (catchup) %@" = "Failed to query new messages for Group/Channel (catchup) %@";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "Failed to query new messages for Group/Channel (stanzaid) %@";
+"Failed to query new messages for Group/Channel (catchup) %@" = "La récupération des nouveaux messages pour le groupe / salon public (rattrapage) %@ a échoué.";
+"Failed to query new messages for Group/Channel (stanzaid) %@" = "La récupération des nouveaux messages pour le groupe /salon public (stanzaid) %@ a échoué.";
 "Failed to query newest stanzaid for account %@" = "Échec de la requête du dernier Stanza ID pour le compte %@";
 "Failed to remove bookmark for Group/Channel: %@" = "Échec de suppression du favoris pour le Groupe/Canal : %@";
 "Failed to save bookmark for Group/Channel: %@" = "Échec de mise en favoris pour le Groupe/Canal : %@";
@@ -405,8 +405,8 @@
 "Join Group" = "Rejoindre le groupe";
 "Just seen" = "Vu à l'instant";
 "Keys of %@" = "Clés de %@";
-"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
-"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
+"Kicked from group/channel, because of system shutdown: %@" = "Expulsé du groupe / salon public, en raison de l'arrêt du système : %@";
+"Kicked, because group/channel is now members-only: %@" = "Expulsé, ce groupe / salon public est maintenant réservé aux membres : %@";
 "Last seen: %@" = "Vu pour la dernière fois : %@";
 "Last seen: %d days ago" = "Vu pour la dernière fois : Il y a %d jours";
 "Last seen: %d hours ago" = "Vu pour la dernière fois : Il y a %d heures";
@@ -680,7 +680,7 @@
 "Show inline geo location" = "Show inline geo location";
 "Show shared Media and Files" = "Afficher les médias et les fichiers partagés";
 "Show URL previews" = "Afficher les aperçus d'URL";
-"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
+"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Certains messages peuvent être en attente d'être récupérés ou envoyés. Veuillez ouvrir l'application pour réessayer.";
 "Something went wrong while parsing your input..." = "Something went wrong while parsing your input...";
 "Sounds" = "Sons";
 "Sounds courtesy Emrah" = "Avec la permission d'Emrah";
@@ -774,7 +774,7 @@
 "This will clear the whole chat history of this account from this device." = "Cela effacera tout l'historique de conversation de ce compte sur cet appareil.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Cela supprimera ce compte et les données associées du serveur et de cet appareil. Les données peuvent cependant être conservées sur d'autres appareils.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "Cela rendra les appels possibles même si votre serveur XMPP ne fournit pas de serveur TURN.";
-"This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
+"This will remove the current avatar image and revert this group/channel to the default one." = "Cela supprimera l'image de profil actuelle et remettra l'image par défaut pour ce groupe/salon public.";
 "This will remove this account and the associated data from this device." = "Cela va supprimer ce compte et les données associées de cet appareil.";
 "Timeout Error" = "Erreur de délai d'attente";
 "TLS 1.2" = "TLS 1.2";
@@ -845,12 +845,12 @@
 "We could not find a xmpp related QR-Code" = "Nous n'avons pas pu trouver de QR-Code associé au XMPP";
 "We don't support any task requested by the server, account disabled: %@" = "Nous ne supportons aucune tâche demandée par le serveur, compte désactivé : %@";
 "We don't support the single task requested by the server, account disabled: %@" = "Nous ne supportons pas la seule tâche demandée par le serveur, compte désactivé : %@";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "Nous n'avons pas pu connecter votre compte. Veuillez vérifier votre nom d'utilisateur et votre mot de passe et assurez-vous que vous êtes connecté à Internet.";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Nous n'avons pas pu connecter votre compte. Veuillez vérifier votre nom d'utilisateur et votre mot de passe et assurez-vous que vous êtes connecté à Internet.\n\nMessage d'erreur technique : %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Type de channel-binding le plus faible, ne sécurisant pas contre les certificats ou clés volé(e)s, mais détecte les certificats émis à tort.";
 "Welcome" = "Bienvenue";
 "What call do you want to place?" = "Quel type d’appel voulez-vous effectuer ?";
-"When disabled, URLs will opened in your default browser (that might not be Safari)." = "When disabled, URLs will opened in your default browser (that might not be Safari).";
+"When disabled, URLs will opened in your default browser (that might not be Safari)." = "Si cette option est désactivée, les URL s'ouvriront dans votre navigateur par défaut (qui peut ne pas être Safari).";
 "When you start talking to someone,\n they will show up here." = "Lorsque vous allez commencer à parler à quelqu'un,\nils apparaîtrons ici.";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise.";
 /* QR-Code-Scanner: account scan wrong menu
@@ -890,7 +890,7 @@
 "Yes, deactivate encryption" = "Oui, désactiver le chiffrement";
 "You are set up and connected." = "Vous êtes connecté.";
 "You are set up and connected. People can message you at: %@@%@" = "Votre compte est configuré et connecté. Les gens peuvent vous envoyer un message à l'adresse : %@%@";
-"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
+"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "Vous essayez d'appeler '%@' (%@), mais ce contact peut être joint à l'aide de différents comptes. Veuillez sélectionner le compte avec lequel vous souhaitez passer l'appel sortant.";
 "You did not grant Monal to access your location." = "Vous n'avez pas autorisé Monal à accéder à votre position.";
 "You got banned from group/channel: %@" = "Vous avez été banni·e du groupe/salon : %@";
 "You got kicked from group/channel: %@" = "Vous avez été kick du groupe/salon : %@";
@@ -906,7 +906,7 @@
 "Your account must be enabled and connected, to be removed from the server!" = "Votre compte doit être activé et connecté pour le supprimer du serveur !";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Vos comptes ont été désactivés parce que vous avez restauré une sauvegarde iCloud de Monal. Veuillez réactiver vos mots de passe pour les activer à nouveau.";
 "Your answer" = "Votre réponse";
-"Your contact may not support calls. Your call might never reach its destination." = "Your contact may not support calls. Your call might never reach its destination.";
+"Your contact may not support calls. Your call might never reach its destination." = "Il se peut que votre contact ne prenne pas en charge les appels. Il se peut que votre appel n'arrive jamais à destination.";
 "Your entered XMPP ID is missing the domain" = "Il manque le domaine à votre identifiant XMPP";
 "Your entered XMPP ID is missing the username" = "Il manque le nom d'utilisateur dans votre identifiant XMPP";
 "Your server does not provide a MUC component." = "Votre serveur ne fournit pas de composant MUC.";
