@@ -47,8 +47,8 @@
 "Adding Group/Channel..." = "Ajout du groupe/salon…";
 "Adding new member" = "Ajout d’un nouveau membre";
 "Adding..." = "Ajout...";
-"Adjust the maximum file size for auto-downloads over cellular network" = "Ajuster la taille de fichier maximale pour le téléchargement automatique sur données mobiles";
-"Adjust the maximum file size for auto-downloads over WiFi" = "Ajuster la taille de fichier maximale pour le téléchargement automatique sur wifi";
+"Adjust the maximum file size for auto-downloads over cellular network" = "Ajuster la taille maximale des fichiers pour les téléchargements automatiques via le réseau cellulaire";
+"Adjust the maximum file size for auto-downloads over WiFi" = "Ajuster la taille maximale des fichiers pour les téléchargements automatiques via Wi-Fi";
 "Adjust the quality of images uploaded" = "Ajuster la qualité des images envoyées";
 /* muc affiliation */
 "Admin" = "Administrateur";
@@ -61,7 +61,7 @@
 "Allow contacts not in your contact list to call you." = "Autoriser les contacts absents de votre liste de contacts à vous appeler.";
 "Allow contacts not in your contact list to contact you." = "Autoriser les contacts absents de votre liste de contacts à vous écrire.";
 "Allow MITM-prone PLAIN authentication" = "Allow MITM-prone PLAIN authentication";
-"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
+"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Permettre à votre appareil d'établir une connexion réseau directe avec le correspondant distant. Cela peut entraîner une fuite de votre adresse IP vers l'appelant / le destinataire.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Autoriser quelqu'un à vous ajouter à ses contacts lui permet de voir votre image de profil et si vous êtes connecté.";
 "Already present" = "Déjà présent·e";
 "Already uploading this content, ignoring" = "Ce contenu est déjà en train d'être envoyé, ignoré";
@@ -127,7 +127,7 @@
 "Change affiliation" = "Changer l’affiliation";
 "Change Background Image" = "Changer l’image de fond";
 "Change Channel Avatar" = "Changer l’avatar du salon";
-"Change Chat Background" = "Changer le fond d’écran du chat";
+"Change Chat Background" = "Modifier le fond d'écran de la conversation";
 "Change Group Avatar" = "Changer l’avatar du groupe";
 "Change Group Members" = "Changer les membres du groupe";
 "Change Password" = "Modifier le mot de passe";
@@ -138,8 +138,8 @@
 "Channel name" = "Nom du salon";
 "Channel Participants" = "Participants du salon";
 "Channel subject:" = "Sujet du Canal :";
-"Chat Background" = "Fond d’écran du chat";
-"Chat background image" = "Image de fond du chat";
+"Chat Background" = "Fond d’écran de la conversation";
+"Chat background image" = "Fond d'écran de la conversation";
 "Check type and size on " = "Vérifier le type et la taille de ";
 "Clear Chat History" = "Effacer l'historique de conversation";
 "Clear chat history of this channel" = "Vider l'historique des messages de ce canal";
@@ -238,8 +238,8 @@
 "Do you really want to disable encryption for this contact?" = "Voulez-vous vraiment désactiver le chiffrement pour ce contact ?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Voulez-vous vraiment réinitialiser la session OMEMO ? Soyez sûr que vous savez exactement ce que vous faites !";
 "Do you want to block this user from entering this group/channel?" = "Voulez-vous empêcher cet utilisateur d’entrer dans ce groupe/salon ?";
-"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them.";
-"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group.";
+"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Voulez-vous supprimer cet utilisateur de ce salon public ? Cet utilisateur pourra à nouveau accéder à ce salon public si vous ne le bloquez pas.";
+"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Voulez-vous supprimer cet utilisateur de ce groupe ? Cet utilisateur ne pourra plus y accéder tant qu'il n'aura pas été réintégré au groupe.";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Voulez-vous faire confiance aux empreintes digitales numérisées du contact %@ lorsque vous utilisez votre compte %@ ?";
 "Doing a lot of work..." = "En train de travailler...";
 "Domain missing" = "Domaine manquant";
@@ -340,8 +340,8 @@
 "Failed to publish own avatar" = "Échec de publication de votre avatar";
 "Failed to publish own nickname" = "Échec de publication de votre pseudonyme";
 "Failed to query for new messages on account %@" = "Échec de la requête pour les nouveaux messages du compte %@";
-"Failed to query new messages for Group/Channel (catchup) %@" = "La récupération des nouveaux messages pour le groupe / salon public (rattrapage) %@ a échoué.";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "La récupération des nouveaux messages pour le groupe /salon public (stanzaid) %@ a échoué.";
+"Failed to query new messages for Group/Channel (catchup) %@" = "La récupération des nouveaux messages pour le groupe / salon public (rattrapage) %@ a échoué";
+"Failed to query new messages for Group/Channel (stanzaid) %@" = "La récupération des nouveaux messages pour le groupe /salon public (stanzaid) %@ a échoué";
 "Failed to query newest stanzaid for account %@" = "Échec de la requête du dernier Stanza ID pour le compte %@";
 "Failed to remove bookmark for Group/Channel: %@" = "Échec de suppression du favoris pour le Groupe/Canal : %@";
 "Failed to save bookmark for Group/Channel: %@" = "Échec de mise en favoris pour le Groupe/Canal : %@";
@@ -911,7 +911,7 @@
 "Your entered XMPP ID is missing the username" = "Il manque le nom d'utilisateur dans votre identifiant XMPP";
 "Your server does not provide a MUC component." = "Votre serveur ne fournit pas de composant MUC.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Votre serveur ne supporte pas le MAM (XEP-0313). Cela signifie que vous pourrez manquer souvent des messages entrants ! Vous (ou l'administrateur du serveur) devriez revoir la configuration de votre serveur pour l'activer !";
-"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
+"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Votre serveur ne supporte pas PUSH (XEP-0357). Cela signifie que vous devez ouvrir manuellement l'application pour récupérer les nouveaux messages entrants ! Vous devriez changer votre serveur ou parler à l'administrateur du serveur pour activer cette fonction !";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Votre serveur ne supporte pas la fonction « Stream Management » (XEP-0198). Cela signifie que vous pourrez manquer souvent des messages sortants ! Vous (ou l'administrateur du serveur) devriez revoir la configuration de votre serveur pour l'activer !";
 "Your status" = "Votre status";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Votre JID XMPP devrait être dans le format utilisateur@domaine.ext. Pour les configurations spéciales, utilisez la configuration manuelle.";
