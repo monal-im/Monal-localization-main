@@ -281,22 +281,22 @@
 "Error" = "Error";
 "error" = "error";
 "Error adding contact or channel" = "Error al añadir contacto o canal";
-"Error adding new member!" = "¡Error al añadir nuevo miembro!";
+"Error adding new member!" = "¡Error al añadir miembro nuevo!";
 "Error blocking user!" = "¡Error al bloquear usuario!";
 "Error changing affiliation!" = "¡Error al cambiar afiliación!";
 "Error changing avatar!" = "¡Error al cambiar avatar!";
-"Error creating group!" = "¡Error al crear nuevo grupo!";
+"Error creating group!" = "¡Error al crear grupo nuevo!";
 "Error decrypting message" = "Error desencriptando el mensaje";
 "Error destroying group!" = "¡Error al eliminar grupo!";
-"Error entering group/channel!" = "¡Error al ingresar a grupo o canal!";
+"Error entering group/channel!" = "¡Error al ingresar al grupo o canal!";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error de gestión en el desafío SASL al servidor (muy baja cantidad de iteraciones), desconectando!";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (m-attr error), disconnecting!" = "Error de gestión en el desafío SASL al servidor (m-attr error), desconectando!";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (nonce error), disconnecting!" = "Error de gestión en el desafío SASL al servidor (nonce error), desconectando!";
-"Error inviting new member!" = "¡Error al invitar nuevo miembro!";
-"Error inviting new participant!" = "¡Error al invitar nuevo participante!";
+"Error inviting new member!" = "¡Error al invitar miembro nuevo!";
+"Error inviting new participant!" = "¡Error al invitar al participante nuevo!";
 "Error inviting user!" = "¡Error al invitar usuario!";
 "Error registering push" = "Error al registrar push";
 "Error Removing Account" = "Error eliminando la cuenta";
@@ -329,7 +329,7 @@
 "Failed to encrypt file" = "Fallo al encriptar archivo";
 "Failed to enter Group/Channel %@" = "Fallo al ingresar al grupo o canal %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Fallo al ingresar al grupo o canal %@: ¡Este no es un grupo o canal!";
-"Failed to export the database, please check the logfile for errors and try again." = "Fallo al exportar la base de datos, por favor verifique el registro e intente nuevamente.";
+"Failed to export the database, please check the logfile for errors and try again." = "Fallo al exportar la base de datos, por favor verifique el archivo de registro e intente nuevamente.";
 "Failed to fetch download metadata: %@" = "Fallo al recuperar metadata de descagas: %@";
 "Failed to fetch room config form for '%@'" = "Fallo al recuperar formulario de configuración de la sala para '%@'";
 "Failed to load blocklist" = "Fallo al cargar la lista de contactos bloqueados";
@@ -355,8 +355,8 @@
 "Files" = "Archivos";
 "Finished fetching messages" = "Recuperación de mensajes finalizada";
 "General" = "General";
-"General File Transfer Settings" = "Configuración general de transferencia de archivos";
-"General Settings" = "Configuración general";
+"General File Transfer Settings" = "Ajustes generales de transferencia de archivos";
+"General Settings" = "Ajustes generales";
 "Got empty room config form for '%@'" = "Se recibió formulario de configuración vacío para la sala '%@'";
 "GPS" = "GPS";
 "Green checkmark shield:" = "Escudo verde tildado:";
@@ -375,14 +375,14 @@
 "I already have an account:" = "Ya tengo una cuenta:";
 "I need an account:" = "Necesito una cuenta:";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Si Monal no puede mostrar notificaciones, no verá alertas cuando reciba un mensaje. Esto sucede si tocó 'Rechazar' cuando Monal solicitó su permiso. Puede solucionarlo seleccionando 'Permitir notificaciones' en Configuración de iOS -> Monal -> Notificaciones.";
-"If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Si está desactivado, su dispositivo no pudo activar \"push\" en su servidor XMPP, verifique su configuración para tener soportar al XEP-0357.";
+"If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Si está desactivado, su dispositivo no pudo activar \"push\" en su servidor XMPP, verifique haber configurado el soporte para el XEP-0357.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "Si activa esta opción, ya no estará protegido de ataques \"Man In The Middle\". ¡Este tipo de ataque permite que un agresor pueda manipular los mensajes que envía y recibe, agregar su propia llave OMEMO, cambiar los detalles de su cuenta y hasta descubrir y cambiar su contraseña!\n\nSería mejor cambiar de servidor en lugar de activarla.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Si desea enviar mensajes de audio, deberá permitir el acceso al micrófono desde Configuración-> Privacidad-> Micrófono.";
-"Image Upload Quality: %@" = "Calidad de la imagen enviada: %@";
+"Image Upload Quality: %@" = "Calidad de la imagen subida: %@";
 "Import and trust OMEMO fingerprints from QR code" = "Importar y confiar en las huellas digitales OMEMO desde el código QR";
 "Indicate when a particular device is active or inactive. Saves battery." = "Indicar cuándo un dispositivo en particular está activo o inactivo. Ahorra batería.";
-"Input" = "Input";
-"Input is not a valid jid" = "La entrada no es un jid válido";
+"Input" = "Texto";
+"Input is not a valid jid" = "La entrada no es una dirección XMPP válida";
 "Interactions" = "Interacciones";
 "Invalid Credentials!" = "¡Credenciales inválidas!";
 /* QR-Code-Scanner: invalid format */
@@ -395,10 +395,10 @@
 /* muc invite */
 "Invite again" = "Invitar nuevamente";
 "Invite participants to channel" = "Invitar participantes al canal";
-"Inviting new member" = "Invitando nuevo miembro";
-"Inviting new participant" = "Invitando nuevo participante";
+"Inviting new member" = "Invitando miembro nuevo";
+"Inviting new participant" = "Invitando participante nuevo";
 "Inviting user" = "Invitando usuario";
-"Inviting user to this group/channel: %@" = "Invitando usuarios a este grupo o canal: %@";
+"Inviting user to this group/channel: %@" = "Invitando usuario a este grupo o canal: %@";
 /* QR-Code-Scanner: Camera not found */
 "It does not seem as your device has a camera. Please use a device with a camera for scanning" = "Su dispositivo parece no tener una cámara. Utilice un dispositivo con cámara para escanear";
 "Join Channel" = "Unirse al canal";
@@ -422,11 +422,11 @@
 "Let your contacts know if you read a message." = "Permitir confirmación de lectura.";
 "Let your contacts know if you received a message." = "Permitir que sus contactos sepan que usted recibió el mensaje.";
 "Let your contacts know when you last opened the app." = "Permitir que sus contactos sepan cuando fue la última vez que usted abrió la aplicación.";
-"Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "Al igual que el correo electrónico, puede registrar su cuenta en muchos sitios y hablar con cualquier persona. Puede utilizar esta página para registrar una cuenta con un servidor XMPP que haya seleccionado o proporcionar uno. También tiene que elegir un nombre de usuario y una contraseña.";
+"Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "Al igual que el correo electrónico, puede registrar su cuenta en muchos sitios y hablar con cualquier persona. Puede utilizar esta página para registrar una cuenta con un servidor XMPP que haya seleccionado o proporcionar uno. Deberá elegir un nombre de usuario y una contraseña.";
 "Load over Cellular" = "Carga vía datos móviles";
-"Load over cellular up to: %@ MiB" = "Carga vía datos móviles hasta: %@ MiB";
-"Load over wifi" = "Carga vía WiFi";
-"Load over WiFi up to: %@ MiB" = "Carga vía WiFi hasta: %@ MiB";
+"Load over cellular up to: %@ MiB" = "Cargar vía datos móviles hasta: %@ MiB";
+"Load over wifi" = "Cargar vía WiFi";
+"Load over WiFi up to: %@ MiB" = "Cargar vía WiFi hasta: %@ MiB";
 "Loading" = "Cargando";
 "Loading contact list" = "Cargando lista de contactos";
 "Loading Data" = "Cargando datos";
@@ -434,10 +434,10 @@
 "Loading omemo bundles" = "Cargando paquetes OMEMO";
 "Loading omemo bundles: %@ / %@" = "Cargando paquetes OMEMO: %@ / %@";
 "Location Access Needed" = "Se necesita acceso a la ubicación";
-"Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Inicie sesión con su cuenta o registre una cuenta nueva. De ser necesario, encontrará opciones mas avanzadas en la configuración de Monal.";
+"Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Inicie sesión con su cuenta o registre una cuenta nueva. De ser necesario, encontrará opciones avanzadas en la configuración de Monal.";
 "Logfiles" = "Archivos de registro";
 "Logging in" = "Iniciando sesión";
-"Login" = "Acceso";
+"Login" = "Iniciar sesión";
 "Login error, account disabled: %@" = "Error al iniciar sesión, cuenta inhabilitada: %@";
 "Logs" = "Registros";
 "Manual input" = "Ingreso manual";
@@ -458,10 +458,10 @@
 "Method: %@" = "Método: %@";
 "Migration Assistant" = "Asistente de migración";
 "Misc" = "Misceláneos";
-"Missing Call Support" = "Sin soporte para llamadas";
+"Missing Call Support" = "No hay soporte para llamadas";
 "Missing permission" = "Falta permiso";
 "Monal" = "Monal";
-"Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal confía en esta llave, pero aún no se han comparado las huellas digitales. ¡Para aumentar la seguridad, por favor confirme con el contacto que las huellas digitales mostradas coinciden antes de confiar en esta llave!";
+"Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal confía en esta llave, pero aún no se han comparado las huellas digitales. ¡Para aumentar la seguridad, por favor confirme con su contacto que las huellas digitales mostradas coinciden antes de confiar en esta llave!";
 "Monal did not received a gps location. Please try again later." = "Monal no recibió una ubicación GPS. Por favor, intente nuevamente más tarde.";
 "Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal no tiene acceso a su ubicación. Por favor permita el acceso a la ubicación en la configuración de privacidad de su dispositivo.";
 "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal no confía en esta llave. Se deshabilitó manualmente o no se verificó manualmente, mientras que otras llaves de ese contacto están verificadas. Puede confiar en esta llave utilizando la herramienta manual. Por favor confirme con su contacto que las huellas digitales coincidan antes de confiar en esta llave.";
@@ -476,7 +476,7 @@
 "New Account" = "Cuenta nueva";
 "New Message" = "Nuevo mensaje";
 "New omemo device" = "Dispositivo OMEMO nuevo";
-"New Password" = "Nueva contraseña";
+"New Password" = "Contraseña nueva";
 "Newest TLS version which is faster than TLS 1.2" = "Versión más reciente de TLS, más rápida que TLS 1.2";
 "Nickname" = "Alias";
 "No" = "No";
@@ -485,7 +485,7 @@
 "No connected accounts" = "No hay cuentas conectadas";
 "No contacts to show :(" = "No hay contactos para mostrar :(";
 "No Empty Values!" = "¡Sin valores vacíos!";
-"No enabled account found" = "No se encontró ninguna cuenta habilitada";
+"No enabled account found" = "No se encontró una cuenta habilitada";
 "No further error description" = "No hay más descripción del error";
 "No GPS location received" = "No se ha recibido ubicación GPS";
 "No OMEMO keys found" = "No se han encontrado llaves OMEMO";
@@ -510,7 +510,7 @@
 /* Crash report error dialog */
 "OK" = "OK";
 "Okay" = "OK";
-"Older, slower, but still secure TLS version" = "Versión de TLS más antigua, más lenta, pero aún segura";
+"Older, slower, but still secure TLS version" = "Versión de TLS antigua y lenta, pero aún segura";
 "On this device" = "En este dispositivo";
 "Online" = "Conectado";
 "Only contacts" = "Solo contactos";
@@ -519,16 +519,16 @@
 /* muc members list */
 "Open contact details" = "Ver detalles del contacto";
 "Open contact list" = "Abrir lista de contactos";
-"Open in default browser" = "Abrir en el navegador";
+"Open in default browser" = "Abrir en el navegador por defecto";
 "Open iOS settings" = "Abrir la Configuración de iOS";
 "Open list of pending contact requests" = "Abrir lista de peticiones de contactos pendientes";
 "Open macOS settings" = "Abrir la Configuración de macOS";
 "Open Profile of %@" = "Abrir el perfil de %@";
 "Open Source" = "Código abierto";
-"Open URLs inline in Safari" = "Abrir URLs dentro de Monal";
-"Optional Hardcoded Hostname" = "Nombre de host (opcional)";
+"Open URLs inline in Safari" = "Abrir URLs con Safari";
+"Optional Hardcoded Hostname" = "Nombre del host (opcional)";
 "Optional Port" = "Puerto opcional";
-"Own device key" = "Llave propia del dispositivo";
+"Own device key" = "Llave de este dispositivo";
 "Own Encryption Keys" = "Mis llaves criptográficas";
 /* muc affiliation */
 "Owner" = "Propietario";
@@ -558,7 +558,7 @@
 "Please make sure you have entered both a username and password." = "Por favor asegúrese de haber ingresado un nombre de usuario y una contraseña.";
 "Please make sure you have entered the same password in both password fields." = "Por favor asegúrese de haber ingresado la misma contraseña en ambos campos.";
 "Please provide a valid XMPP server domain or select one." = "Por favor ingrese un dominio de servidor XMPP válido o escoja uno.";
-"Please select a XMPP server or provide one." = "Por favor escoja un servidor de XMPP o ingrese uno.";
+"Please select a XMPP server or provide one." = "Por favor escoja un servidor de XMPP o proporcione uno.";
 "Please update!" = "¡Por favor actualizar!";
 "Port" = "Puerto";
 "Port: %@, Direct TLS: %@, Priority: %@" = "Puerto: %1$@, TLS directo: %2$@, Prioridad: %3$@";
@@ -576,7 +576,7 @@
 "QR-Code video error" = "Error de video en código QR";
 /* Chat msg action */
 "Quote" = "Cita";
-"Rate Monal" = "Valúa a Monal";
+"Rate Monal" = "Valúe a Monal";
 "Really remove avatar?" = "¿Realmente desea eliminar su avatar?";
 "Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "Recibe notificaciones push vía Apple aún cuando estés desconectado. Mejora notablemente la confiabilidad.";
 /* directory for downloaded audios */
