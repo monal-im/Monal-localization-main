@@ -6,16 +6,43 @@
 "%@ (affiliation: %@)" = "%@（从属关系：%@）";
 "%@ (type '%@', category '%@')" = "%@（类型“%@”，类别“%@”）";
 "%@ says:" = "%@ 说：";
+/* Message autdelete time */
+"1 day" = "1 day";
+/* Message autdelete time */
+"1 hour" = "1 hour";
 "1 MiB" = "1 MiB";
+/* Message autdelete time */
+"1 minute" = "1 minute";
+/* Message autdelete time */
+"1 week" = "1 week";
 "100 MiB" = "100 MiB";
 "100%" = "100%";
+/* Message autdelete time */
+"12 hours" = "12 hours";
+/* Message autdelete time */
+"15 minutes" = "15 minutes";
+/* Message autdelete time */
+"2 month" = "2 month";
+/* Message autdelete time */
+"3 days" = "3 days";
+/* Message autdelete time */
+"3 month" = "3 month";
+/* Message autdelete time */
+"30 minutes" = "30 minutes";
+/* Message autdelete time */
+"30 seconds" = "30 seconds";
 "33%" = "33%";
+/* Message autdelete time */
+"4 weeks" = "4 weeks";
+/* Message autdelete time */
+"5 minutes" = "5 minutes";
 /* server details */
 "<unknown server>" = "<未知服务器>";
 /* server details */
 "<unknown version>" = "<未知版本>";
 /* muc affiliation */
 "<unknown>" = "<未知>";
+"\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
 "A contact was scanned through the QR code scanner" = "通过二维码扫描了联系人";
 "Abort" = "中止";
 "Aborted recording audio" = "中止录制音频";
@@ -75,7 +102,7 @@
 "Apple Push Token is not available!" = "Apple 推送令牌不可用！";
 "Approve new contact" = "批准新联系人";
 "Archive chat" = "存档聊天";
-"Archive only if the contact is in contact list" = "仅当联系人在联系人列表中时才存档";
+"Archive only if the contact is in contact list." = "Archive only if the contact is in contact list.";
 "Attachments" = "附件";
 "Audio recorder init fail." = "录音机启动失败。";
 "Audio recorder prepareToRecord fail." = "录音机准备录制失败。";
@@ -84,7 +111,6 @@
 "Audio Recorder set category error: %@" = "录音机设置类别错误：%@";
 "Audio Recorder: failed to record" = "录音机：录制失败";
 "Auto-Download Media" = "自动下载媒体";
-"Autodelete all messages after 3 days" = "3 天后自动删除所有消息";
 "Autofocus text input on chat open" = "打开聊天时自动对焦文本输入";
 "Avatar" = "头像";
 "Block" = "屏蔽";
@@ -200,6 +226,8 @@
 "Creating invitation..." = "正在创建邀请…";
 "Current Password" = "当前密码";
 "Currently Online" = "目前在线";
+/* Message autdelete time */
+"Custom" = "Custom";
 "Database Export Failed" = "数据库导出失败";
 "Database Files" = "数据库文件";
 "Debug" = "调试";
@@ -506,6 +534,8 @@
 "Notify on all messages" = "通知所有消息";
 "Notify only when mentioned" = "仅在提及时通知";
 "now" = "现在";
+/* Message autdelete time */
+"Off" = "Off";
 /* Crash report error dialog */
 "OK" = "OK";
 "Ok" = "好";
@@ -529,7 +559,6 @@
 "Optional Hardcoded Hostname" = "可选的硬编码的主机名";
 "Optional Port" = "可选端口";
 "Own device key" = "自己的设备密钥";
-"Own Encryption Keys" = "自己的加密密钥";
 /* muc affiliation */
 "Owner" = "所有者";
 /* muc affiliation */
@@ -924,3 +953,9 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
+"(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
+"Custom Time: " = "Custom Time: ";
+"Group/Channel description" = "Group/Channel description";
+"Open account settings" = "Open account settings";

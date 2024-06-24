@@ -11,7 +11,34 @@
 "%@" = "%@";
 "%@ (affiliation: %@)" = "%@ (affiliation: %@)";
 "%@ (type '%@', category '%@')" = "%@ (type '%@', category '%@')";
+"(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
 "1 MiB" = "1 MiB";
+/* Message autdelete time */
+"1 day" = "1 day";
+/* Message autdelete time */
+"1 hour" = "1 hour";
+/* Message autdelete time */
+"1 minute" = "1 minute";
+/* Message autdelete time */
+"1 week" = "1 week";
+/* Message autdelete time */
+"2 month" = "2 month";
+/* Message autdelete time */
+"3 days" = "3 days";
+/* Message autdelete time */
+"3 month" = "3 month";
+/* Message autdelete time */
+"4 weeks" = "4 weeks";
+/* Message autdelete time */
+"5 minutes" = "5 minutes";
+/* Message autdelete time */
+"12 hours" = "12 hours";
+/* Message autdelete time */
+"15 minutes" = "15 minutes";
+/* Message autdelete time */
+"30 minutes" = "30 minutes";
+/* Message autdelete time */
+"30 seconds" = "30 seconds";
 "33%" = "33%";
 "100 MiB" = "100 MiB";
 "100%" = "100%";
@@ -68,6 +95,7 @@
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
 "Already present" = "Already present";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!";
 "Always archive" = "Always archive";
 "Always use direct TLS, not STARTTLS" = "Always use direct TLS, not STARTTLS";
 "App" = "App";
@@ -78,13 +106,13 @@
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Apple push service should always be on. If it is off, your device can not talk to Apple's server.";
 "Approve new contact" = "Approve new contact";
 "Archive chat" = "Archive chat";
-"Archive only if the contact is in contact list" = "Archive only if the contact is in contact list";
+"Archive only if the contact is in contact list." = "Archive only if the contact is in contact list.";
 "Attachments" = "Attachments";
 "Auto-Download Media" = "Auto-Download Media";
-"Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
 "Autofocus text input on chat open" = "Autofocus text input on chat open";
 "Avatar" = "Avatar";
 "BODY" = "BODY";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
 "Block" = "Block";
 "Block Contact" = "Block Contact";
 "Block user?" = "Block user?";
@@ -186,6 +214,9 @@
 "Creating invitation..." = "Creating invitation...";
 "Current Password" = "Current Password";
 "Currently Online" = "Currently Online";
+/* Message autdelete time */
+"Custom" = "Custom";
+"Custom Time: " = "Custom Time: ";
 "Database Export Failed" = "Database Export Failed";
 "Database Files" = "Database Files";
 "Debug" = "Debug";
@@ -297,6 +328,7 @@
 "Group Name (optional)" = "Group Name (optional)";
 "Group name" = "Group name";
 "Group subject:" = "Group subject:";
+"Group/Channel description" = "Group/Channel description";
 "Hint" = "Hint";
 "I already have an account:" = "I already have an account:";
 "I need an account:" = "I need an account:";
@@ -412,6 +444,8 @@
 "Notify only when mentioned" = "Notify only when mentioned";
 /* Crash report error dialog */
 "OK" = "OK";
+/* Message autdelete time */
+"Off" = "Off";
 "Ok" = "Ok";
 "Okay" = "Okay";
 "Older, slower, but still secure TLS version" = "Older, slower, but still secure TLS version";
@@ -421,6 +455,7 @@
 "Open Profile of %@" = "Open Profile of %@";
 "Open Source" = "Open Source";
 "Open URLs inline in Safari" = "Open URLs inline in Safari";
+"Open account settings" = "Open account settings";
 /* muc members list */
 "Open contact details" = "Open contact details";
 "Open contact list" = "Open contact list";
@@ -430,7 +465,6 @@
 "Open macOS settings" = "Open macOS settings";
 "Optional Hardcoded Hostname" = "Optional Hardcoded Hostname";
 "Optional Port" = "Optional Port";
-"Own Encryption Keys" = "Own Encryption Keys";
 "Own device key" = "Own device key";
 /* muc affiliation */
 "Owner" = "Owner";
@@ -757,6 +791,7 @@
 "📷 An Image" = "📷 An Image";
 "🔗 A Link" = "🔗 A Link";
 "%@ says:" = "%@ says:";
+"\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
 "Aborted recording audio" = "Aborted recording audio";
 "Already uploading this content, ignoring" = "Already uploading this content, ignoring";
 "Audio recorder init fail." = "Audio recorder init fail.";

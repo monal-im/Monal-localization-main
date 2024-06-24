@@ -6,16 +6,43 @@
 "%@ (affiliation: %@)" = "%@ (affiliation : %@)";
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
 "%@ says:" = "%@ dit :";
+/* Message autdelete time */
+"1 day" = "1 day";
+/* Message autdelete time */
+"1 hour" = "1 hour";
 "1 MiB" = "1 Mio";
+/* Message autdelete time */
+"1 minute" = "1 minute";
+/* Message autdelete time */
+"1 week" = "1 week";
 "100 MiB" = "100 Mio";
 "100%" = "100%";
+/* Message autdelete time */
+"12 hours" = "12 hours";
+/* Message autdelete time */
+"15 minutes" = "15 minutes";
+/* Message autdelete time */
+"2 month" = "2 month";
+/* Message autdelete time */
+"3 days" = "3 days";
+/* Message autdelete time */
+"3 month" = "3 month";
+/* Message autdelete time */
+"30 minutes" = "30 minutes";
+/* Message autdelete time */
+"30 seconds" = "30 seconds";
 "33%" = "33%";
+/* Message autdelete time */
+"4 weeks" = "4 weeks";
+/* Message autdelete time */
+"5 minutes" = "5 minutes";
 /* server details */
 "<unknown server>" = "<serveur inconnu>";
 /* server details */
 "<unknown version>" = "<version inconnue>";
 /* muc affiliation */
 "<unknown>" = "<inconnu>";
+"\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
 "A contact was scanned through the QR code scanner" = "Un contact a été scanné via le scanner de code QR";
 "Abort" = "Annuler";
 "Aborted recording audio" = "Enregistrement audio annulé";
@@ -75,7 +102,7 @@
 "Apple Push Token is not available!" = "Le Token de notifications push Appel n'est pas disponible !";
 "Approve new contact" = "Approuver le nouveau contact";
 "Archive chat" = "Archiver la conversation";
-"Archive only if the contact is in contact list" = "Archiver uniquement si le contact fait partie de la liste de contacts";
+"Archive only if the contact is in contact list." = "Archive only if the contact is in contact list.";
 "Attachments" = "Pièces-jointes";
 "Audio recorder init fail." = "Audio recorder init fail.";
 "Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
@@ -84,7 +111,6 @@
 "Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
 "Audio Recorder: failed to record" = "Audio Recorder: failed to record";
 "Auto-Download Media" = "Télécharger les média automatiquement";
-"Autodelete all messages after 3 days" = "Supprimer automatiquement tous les messages après 3 jours";
 "Autofocus text input on chat open" = "Autofocus text input on chat open";
 "Avatar" = "Avatar";
 "Block" = "Bloquer";
@@ -200,6 +226,8 @@
 "Creating invitation..." = "Invitation en cours de création...";
 "Current Password" = "Mot de passe actuel";
 "Currently Online" = "Actuellement connecté";
+/* Message autdelete time */
+"Custom" = "Custom";
 "Database Export Failed" = "Échec de l’export de la base de donnée";
 "Database Files" = "Fichiers de la base de données";
 "Debug" = "Débogage";
@@ -506,6 +534,8 @@
 "Notify on all messages" = "Notifier pour tous les messages";
 "Notify only when mentioned" = "Notifier seulement quand mentionné·e";
 "now" = "maintenant";
+/* Message autdelete time */
+"Off" = "Off";
 "Ok" = "OK";
 /* Crash report error dialog */
 "OK" = "OK";
@@ -529,7 +559,6 @@
 "Optional Hardcoded Hostname" = "Nom d'hôte en dur optionnel";
 "Optional Port" = "Port optionnel";
 "Own device key" = "Clé de cet appareil";
-"Own Encryption Keys" = "Clés de chiffrement personnelles";
 /* muc affiliation */
 "Owner" = "Propriétaire";
 /* muc affiliation */
@@ -924,3 +953,9 @@
 "📍 A Location" = "📍 Une localisation";
 "📷 An Image" = "📷 Une image";
 "🔗 A Link" = "🔗 Un lien";
+"(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
+"Custom Time: " = "Custom Time: ";
+"Group/Channel description" = "Group/Channel description";
+"Open account settings" = "Open account settings";

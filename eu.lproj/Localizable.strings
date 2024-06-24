@@ -6,16 +6,43 @@
 "%@ (affiliation: %@)" = "%@ (affiliation: %@)";
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
 "%@ says:" = "%@(e)k dio:";
+/* Message autdelete time */
+"1 day" = "1 day";
+/* Message autdelete time */
+"1 hour" = "1 hour";
 "1 MiB" = "MiB 1";
+/* Message autdelete time */
+"1 minute" = "1 minute";
+/* Message autdelete time */
+"1 week" = "1 week";
 "100 MiB" = "100 MiB";
 "100%" = "%100a";
+/* Message autdelete time */
+"12 hours" = "12 hours";
+/* Message autdelete time */
+"15 minutes" = "15 minutes";
+/* Message autdelete time */
+"2 month" = "2 month";
+/* Message autdelete time */
+"3 days" = "3 days";
+/* Message autdelete time */
+"3 month" = "3 month";
+/* Message autdelete time */
+"30 minutes" = "30 minutes";
+/* Message autdelete time */
+"30 seconds" = "30 seconds";
 "33%" = "%33a";
+/* Message autdelete time */
+"4 weeks" = "4 weeks";
+/* Message autdelete time */
+"5 minutes" = "5 minutes";
 /* server details */
 "<unknown server>" = "<zerbitzari ezezaguna>";
 /* server details */
 "<unknown version>" = "<bertsio ezezaguna>";
 /* muc affiliation */
 "<unknown>" = "<ezezaguna>";
+"\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
 "A contact was scanned through the QR code scanner" = "Kontaktu bat eskaneatu da QR kode-eskaneatzailearen bidez";
 "Abort" = "Alboratu";
 "Aborted recording audio" = "Audio grabaketa alboratu da";
@@ -75,7 +102,7 @@
 "Apple Push Token is not available!" = "Apple Push Token ez dago erabilgarri!";
 "Approve new contact" = "Baimendu kontaktu berria";
 "Archive chat" = "Artxibatu txata";
-"Archive only if the contact is in contact list" = "Artxibatu kontaktua kontaktuen zerrendan badago bakarrik";
+"Archive only if the contact is in contact list." = "Archive only if the contact is in contact list.";
 "Attachments" = "Attachments";
 "Audio recorder init fail." = "Audio recorder init fail.";
 "Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
@@ -84,7 +111,6 @@
 "Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
 "Audio Recorder: failed to record" = "Audio Recorder: failed to record";
 "Auto-Download Media" = "Deskargatu multimedia automatikoki";
-"Autodelete all messages after 3 days" = "Ezabatu mezu guztiak automatikoki 3 egun pasatakoan";
 "Autofocus text input on chat open" = "Autofocus text input on chat open";
 "Avatar" = "Avatar";
 "Block" = "Blokeatu";
@@ -200,6 +226,8 @@
 "Creating invitation..." = "Gonbidapena prestatzen…";
 "Current Password" = "Uneko pasahitza";
 "Currently Online" = "Linean une honetan";
+/* Message autdelete time */
+"Custom" = "Custom";
 "Database Export Failed" = "Datu-basea esportatzeak huts egin du";
 "Database Files" = "Datu-basearen fitxategiak";
 "Debug" = "Araztu";
@@ -506,6 +534,8 @@
 "Notify on all messages" = "Jakinarazi mezu guztiak jasotzean";
 "Notify only when mentioned" = "Jakinarazi aipatzen nautenean bakarrik";
 "now" = "orain";
+/* Message autdelete time */
+"Off" = "Off";
 "Ok" = "Ados";
 /* Crash report error dialog */
 "OK" = "ADOS";
@@ -529,7 +559,6 @@
 "Optional Hardcoded Hostname" = "Aukerako Hardcoded Hostname";
 "Optional Port" = "Aukerako ataka";
 "Own device key" = "Nire gailuko gakoa";
-"Own Encryption Keys" = "Nire zifratze-gakoak";
 /* muc affiliation */
 "Owner" = "Jabea";
 /* muc affiliation */
@@ -924,3 +953,9 @@
 "📍 A Location" = "📍 Kokapena";
 "📷 An Image" = "📷 Irudia";
 "🔗 A Link" = "🔗 Esteka";
+"(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
+"Custom Time: " = "Custom Time: ";
+"Group/Channel description" = "Group/Channel description";
+"Open account settings" = "Open account settings";

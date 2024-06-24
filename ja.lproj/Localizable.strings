@@ -6,16 +6,43 @@
 "%@ (affiliation: %@)" = "%@ (affiliation: %@)";
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
 "%@ says:" = "%@ 曰く:";
+/* Message autdelete time */
+"1 day" = "1 day";
+/* Message autdelete time */
+"1 hour" = "1 hour";
 "1 MiB" = "1 MiB";
+/* Message autdelete time */
+"1 minute" = "1 minute";
+/* Message autdelete time */
+"1 week" = "1 week";
 "100 MiB" = "100 MiB";
 "100%" = "100%";
+/* Message autdelete time */
+"12 hours" = "12 hours";
+/* Message autdelete time */
+"15 minutes" = "15 minutes";
+/* Message autdelete time */
+"2 month" = "2 month";
+/* Message autdelete time */
+"3 days" = "3 days";
+/* Message autdelete time */
+"3 month" = "3 month";
+/* Message autdelete time */
+"30 minutes" = "30 minutes";
+/* Message autdelete time */
+"30 seconds" = "30 seconds";
 "33%" = "33%";
+/* Message autdelete time */
+"4 weeks" = "4 weeks";
+/* Message autdelete time */
+"5 minutes" = "5 minutes";
 /* server details */
 "<unknown server>" = "<不明なサーバー>";
 /* server details */
 "<unknown version>" = "<不明なバージョン>";
 /* muc affiliation */
 "<unknown>" = "<不明>";
+"\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
 "A contact was scanned through the QR code scanner" = "相手先は QR コードスキャナーでスキャンされました";
 "Abort" = "中断";
 "Aborted recording audio" = "音声の録音を中断しました";
@@ -75,7 +102,7 @@
 "Apple Push Token is not available!" = "Apple プッシュのトークンは有効ではありません。";
 "Approve new contact" = "新しい相手先を承認";
 "Archive chat" = "会話を保管";
-"Archive only if the contact is in contact list" = "相手先が一覧にある場合のみ保管";
+"Archive only if the contact is in contact list." = "Archive only if the contact is in contact list.";
 "Attachments" = "Attachments";
 "Audio recorder init fail." = "Audio recorder init fail.";
 "Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
@@ -84,7 +111,6 @@
 "Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
 "Audio Recorder: failed to record" = "Audio Recorder: failed to record";
 "Auto-Download Media" = "Auto-Download Media";
-"Autodelete all messages after 3 days" = "Autodelete all messages after 3 days";
 "Autofocus text input on chat open" = "Autofocus text input on chat open";
 "Avatar" = "Avatar";
 "Block" = "ブロック";
@@ -200,6 +226,8 @@
 "Creating invitation..." = "招待を作成中...";
 "Current Password" = "現在のパスワード";
 "Currently Online" = "現在オンライン中";
+/* Message autdelete time */
+"Custom" = "Custom";
 "Database Export Failed" = "Database Export Failed";
 "Database Files" = "Database Files";
 "Debug" = "デバッグ";
@@ -506,6 +534,8 @@
 "Notify on all messages" = "すべてのメッセージを通知";
 "Notify only when mentioned" = "言及された場合にのみ通知";
 "now" = "今";
+/* Message autdelete time */
+"Off" = "Off";
 "Ok" = "Ok";
 /* Crash report error dialog */
 "OK" = "OK";
@@ -529,7 +559,6 @@
 "Optional Hardcoded Hostname" = "任意の直接記述のホスト名";
 "Optional Port" = "オプションのポート";
 "Own device key" = "自身のデバイス鍵";
-"Own Encryption Keys" = "自身の暗号化鍵";
 /* muc affiliation */
 "Owner" = "主宰者";
 /* muc affiliation */
@@ -924,3 +953,9 @@
 "📍 A Location" = "📍 位置情報";
 "📷 An Image" = "📷 画像";
 "🔗 A Link" = "🔗 リンク";
+"(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
+"Custom Time: " = "Custom Time: ";
+"Group/Channel description" = "Group/Channel description";
+"Open account settings" = "Open account settings";
