@@ -42,7 +42,7 @@
 "<unknown version>" = "<未知版本>";
 /* muc affiliation */
 "<unknown>" = "<未知>";
-"\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
+"\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) 小时";
 "A contact was scanned through the QR code scanner" = "通过二维码扫描了联系人";
 "Abort" = "中止";
 "Aborted recording audio" = "中止录制音频";
@@ -535,7 +535,7 @@
 "Notify only when mentioned" = "仅在提及时通知";
 "now" = "现在";
 /* Message autdelete time */
-"Off" = "Off";
+"Off" = "关";
 /* Crash report error dialog */
 "OK" = "OK";
 "Ok" = "好";
@@ -953,9 +953,9 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
-"(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
-"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "还请注意：您将无法从服务器加载较旧的聊天记录，Monal 在获取后会立即删除！";
-"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
+"(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) 小时";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "还请注意：您将无法从服务器加载旧聊天记录，Monal 在获取后会立即删除！";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "请注意： 只有在收到推送或打开应用时，消息才会被删除！时间间隔较短时尤其如此！";
 "Custom Time: " = "自定义时间： ";
 "Group/Channel description" = "群组/频道描述";
 "Open account settings" = "打开账号设置";
