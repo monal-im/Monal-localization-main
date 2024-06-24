@@ -7,35 +7,35 @@
 "%@ (type '%@', category '%@')" = "%@（类型“%@”，类别“%@”）";
 "%@ says:" = "%@ 说：";
 /* Message autdelete time */
-"1 day" = "1 day";
+"1 day" = "1 天";
 /* Message autdelete time */
-"1 hour" = "1 hour";
+"1 hour" = "1 小时";
 "1 MiB" = "1 MiB";
 /* Message autdelete time */
-"1 minute" = "1 minute";
+"1 minute" = "1 分钟";
 /* Message autdelete time */
-"1 week" = "1 week";
+"1 week" = "1 周";
 "100 MiB" = "100 MiB";
 "100%" = "100%";
 /* Message autdelete time */
-"12 hours" = "12 hours";
+"12 hours" = "12 小时";
 /* Message autdelete time */
-"15 minutes" = "15 minutes";
+"15 minutes" = "15 分钟";
 /* Message autdelete time */
-"2 month" = "2 month";
+"2 month" = "2 个月";
 /* Message autdelete time */
-"3 days" = "3 days";
+"3 days" = "3 天";
 /* Message autdelete time */
-"3 month" = "3 month";
+"3 month" = "3 个月";
 /* Message autdelete time */
-"30 minutes" = "30 minutes";
+"30 minutes" = "30 分钟";
 /* Message autdelete time */
-"30 seconds" = "30 seconds";
+"30 seconds" = "30 秒";
 "33%" = "33%";
 /* Message autdelete time */
-"4 weeks" = "4 weeks";
+"4 weeks" = "4 周";
 /* Message autdelete time */
-"5 minutes" = "5 minutes";
+"5 minutes" = "5 分钟";
 /* server details */
 "<unknown server>" = "<未知服务器>";
 /* server details */
@@ -102,7 +102,7 @@
 "Apple Push Token is not available!" = "Apple 推送令牌不可用！";
 "Approve new contact" = "批准新联系人";
 "Archive chat" = "存档聊天";
-"Archive only if the contact is in contact list." = "Archive only if the contact is in contact list.";
+"Archive only if the contact is in contact list." = "仅当联系人在联系人列表中时存档。";
 "Attachments" = "附件";
 "Audio recorder init fail." = "录音机启动失败。";
 "Audio recorder prepareToRecord fail." = "录音机准备录制失败。";
@@ -171,7 +171,7 @@
 "Clear chat history of this channel" = "清除此频道的聊天记录";
 "Clear chat history of this contact" = "清除此联系人的聊天记录";
 "Clear chat history of this group" = "清除此群组的聊天记录";
-"Clear History" = "清除历史记录";
+"Clear History" = "清除聊天记录";
 "Clear scanned contact" = "清除扫描的联系人";
 "Clear text" = "清除文本";
 "Close" = "关闭";
@@ -227,7 +227,7 @@
 "Current Password" = "当前密码";
 "Currently Online" = "目前在线";
 /* Message autdelete time */
-"Custom" = "Custom";
+"Custom" = "自定义";
 "Database Export Failed" = "数据库导出失败";
 "Database Files" = "数据库文件";
 "Debug" = "调试";
@@ -302,7 +302,7 @@
 "Enter the jid that you want to block" = "输入您想屏蔽的 JID";
 "Enter your new password. Passwords may not be empty. They may also be governed by server or company policies." = "输入您的新密码。密码不应为空。密码也须符合服务器或公司管理政策。";
 "Enter your password here" = "在这里输入您的密码";
-"Enter your XMPP ID here" = "在这里输入您的 XMPP ID";
+"Enter your XMPP ID here" = "在此输入您的 XMPP 地址";
 "Entry 1" = "条目 1";
 "Entry 2" = "条目 2";
 "Entry 3" = "条目 3";
@@ -754,8 +754,8 @@
 "The username does not need to have an @ symbol. Please try again." = "用户名不需要有 @ 符号。请重试。";
 "There is no configured email account. Please email info@monal-im.org ." = "没有配置的电子邮件账号。请发送电子邮件至 info@monal-im.org。";
 "There was a SASL error on the server." = "服务器上出现 SASL 错误。";
-"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "解密此加密消息时出错（信号错误）。要解决这个问题，请尝试向此人发送加密消息。";
-"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "解密此加密消息时出错（信号错误）。要解决这个问题，请尝试向此人发送加密消息。(%@)";
+"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "解密此加密消息时出错（Signal 错误）。要解决这个问题，请尝试向此人发送加密消息。";
+"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "解密此加密消息时出错（Signal 错误）。要解决这个问题，请尝试向此人发送加密消息。(%@)";
 "These are SRV resource records found for your domain." = "这些是为您的域名查找到的 SRV 资源记录。";
 "These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "这些是服务器宣布的 STUN 和 TURN 服务（Monal 使用的是蓝色条目）。";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "这些是服务器支持的通道绑定类型，用于检测 TLS 层攻击（Monal 使用的是蓝色条目，不支持橙色条目）。";
@@ -903,8 +903,8 @@
 "XMPP Capabilities" = "XMPP 功能";
 "XMPP Disco Info Error" = "XMPP 搜索信息错误";
 "XMPP External Service Disco Error" = "XMPP 外部服务发现错误";
-"XMPP ID" = "XMPP ID";
-"XMPP ID missing" = "缺少 XMPP ID";
+"XMPP ID" = "XMPP 地址";
+"XMPP ID missing" = "缺少 XMPP 地址";
 "XMPP mam preferences error" = "XMPP 消息存档管理首选项错误";
 "XMPP protocol extension for communications blocking." = "XMPP 协议扩展，用于通信屏蔽。";
 "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP 协议扩展，用于发现 XMPP 网络的外部服务，例如音频/视频通话所需的 STUN 或 TURN 服务器。";
@@ -924,7 +924,7 @@
 "You got banned from group/channel: %@" = "您已被封禁于群组/频道：%@";
 "You got kicked from group/channel: %@" = "您已被踢出群组/频道：%@";
 "You got removed from group/channel: %@" = "您已从群组/频道中移除：%@";
-"You have not entered your XMPP ID yet" = "您尚未输入 XMPP ID";
+"You have not entered your XMPP ID yet" = "您尚未输入 XMPP 地址";
 "You need friends for this ride" = "您需要朋友来参加这次旅行";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "如果您希望其他人可以听到您的声音，您需要在 iOS 设置 -> 隐私 -> 麦克风中授予麦克风访问权限。";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "您已恢复了 Monal 的 iCloud 备份，请打开应用并重新启用此账号。";
@@ -936,14 +936,14 @@
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "您的账号已停用，因为您恢复了 Monal 的 iCloud 备份。请重新输入您的密码以再次激活它们。";
 "Your answer" = "您的回答";
 "Your contact may not support calls. Your call might never reach its destination." = "您的联系人可能不支持通话。您的呼叫可能永远不会接通。";
-"Your entered XMPP ID is missing the domain" = "您输入的 XMPP ID 缺少域名";
-"Your entered XMPP ID is missing the username" = "您输入的 XMPP ID 缺少用户名";
+"Your entered XMPP ID is missing the domain" = "您输入的 XMPP 地址缺少域名";
+"Your entered XMPP ID is missing the username" = "您输入的 XMPP 地址缺少用户名";
 "Your server does not provide a MUC component." = "服务器不提供群聊组件。";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "服务器不支持消息存档管理（XEP-0313）。这意味着您可能会频繁错过收到的消息！！您应该切换服务器或与服务器管理员联系以启用此功能！";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "服务器不支持推送（XEP-0357）。这意味着您必须手动打开本应用才能检索新收到的消息！您应该切换服务器或与服务器管理员联系以启用此功能！";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "服务器不支持流管理（XEP-0198）。这意味着您发出的消息可能会频繁丢失！您应该切换服务器或与服务器管理员联系以启用此功能！";
 "Your status" = "您的状态";
-"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "您的 XMPP JID 的格式应为 user@domain.tld。对于特殊配置，请使用手动设置。";
+"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "您的 XMPP 地址的格式应为 user@domain.tld。对于特殊配置，请使用手动设置。";
 "🎥 A Video" = "🎥 视频";
 "🎥 Video" = "🎥 视频";
 "🎵 An Audiomessage" = "🎵 音频消息";
@@ -954,8 +954,8 @@
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
 "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
-"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "还请注意：您将无法从服务器加载较旧的聊天记录，Monal 在获取后会立即删除！";
 "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
-"Custom Time: " = "Custom Time: ";
-"Group/Channel description" = "Group/Channel description";
-"Open account settings" = "Open account settings";
+"Custom Time: " = "自定义时间： ";
+"Group/Channel description" = "群组/频道描述";
+"Open account settings" = "打开账号设置";
