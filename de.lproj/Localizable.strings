@@ -7,35 +7,35 @@
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
 "%@ says:" = "%@ sagt:";
 /* Message autdelete time */
-"1 day" = "1 day";
+"1 day" = "1 Tag";
 /* Message autdelete time */
-"1 hour" = "1 hour";
+"1 hour" = "1 Stunde";
 "1 MiB" = "1 MB";
 /* Message autdelete time */
-"1 minute" = "1 minute";
+"1 minute" = "1 Minute";
 /* Message autdelete time */
-"1 week" = "1 week";
+"1 week" = "1 Woche";
 "100 MiB" = "100 MB";
 "100%" = "100%";
 /* Message autdelete time */
-"12 hours" = "12 hours";
+"12 hours" = "12 Stunden";
 /* Message autdelete time */
-"15 minutes" = "15 minutes";
+"15 minutes" = "15 Minuten";
 /* Message autdelete time */
-"2 month" = "2 month";
+"2 month" = "2 Monate";
 /* Message autdelete time */
-"3 days" = "3 days";
+"3 days" = "3 Tage";
 /* Message autdelete time */
-"3 month" = "3 month";
+"3 month" = "3 Monate";
 /* Message autdelete time */
-"30 minutes" = "30 minutes";
+"30 minutes" = "30 Minuten";
 /* Message autdelete time */
-"30 seconds" = "30 seconds";
+"30 seconds" = "30 Sekunden";
 "33%" = "33%";
 /* Message autdelete time */
-"4 weeks" = "4 weeks";
+"4 weeks" = "4 Wochen";
 /* Message autdelete time */
-"5 minutes" = "5 minutes";
+"5 minutes" = "5 Minuten";
 /* server details */
 "<unknown server>" = "<Unbekannter Server>";
 /* server details */
@@ -102,7 +102,7 @@
 "Apple Push Token is not available!" = "Apple Push-Token ist nicht verfügbar!";
 "Approve new contact" = "Neuen Kontakt genehmigen";
 "Archive chat" = "Chat archivieren";
-"Archive only if the contact is in contact list." = "Archive only if the contact is in contact list.";
+"Archive only if the contact is in contact list." = "Nur archivieren, wenn der Kontakt in der Kontaktliste ist.";
 "Attachments" = "Anhänge";
 "Audio recorder init fail." = "Initialisierung des Audiorekorders fehlgeschlagen.";
 "Audio recorder prepareToRecord fail." = "Audiorekorder prepareToRecord fehlgeschlagen.";
@@ -954,8 +954,8 @@
 "📷 An Image" = "📷 Ein Bild";
 "🔗 A Link" = "🔗 Ein Link";
 "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
-"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!";
-"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Achtung: Du kannst keine älteren Chatverläufe von deinem Server laden. Monal löscht sie sofort, nachdem es sie geholt hat!";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Warnung! Die Nachricht wird nur bei eingehenden Pushs oder beim Öffnen der App gelöscht! Dies gilt insbesondere für kürzere Zeitintervalle!";
 "Custom Time: " = "Custom Time: ";
 "Group/Channel description" = "Group/Channel description";
 "Open account settings" = "Open account settings";
