@@ -7,42 +7,42 @@
 "%@ (type '%@', category '%@')" = "%@ (tipo '%@', categoria '%@')";
 "%@ says:" = "%@ dice:";
 /* Message autdelete time */
-"1 day" = "1 day";
+"1 day" = "1 giorno";
 /* Message autdelete time */
-"1 hour" = "1 hour";
+"1 hour" = "1 ora";
 "1 MiB" = "1 MiB";
 /* Message autdelete time */
-"1 minute" = "1 minute";
+"1 minute" = "1 minuto";
 /* Message autdelete time */
-"1 week" = "1 week";
+"1 week" = "1 settimana";
 "100 MiB" = "100 MiB";
 "100%" = "100%";
 /* Message autdelete time */
-"12 hours" = "12 hours";
+"12 hours" = "12 ore";
 /* Message autdelete time */
-"15 minutes" = "15 minutes";
+"15 minutes" = "15 minuti";
 /* Message autdelete time */
-"2 month" = "2 month";
+"2 month" = "2 mesi";
 /* Message autdelete time */
-"3 days" = "3 days";
+"3 days" = "3 giorni";
 /* Message autdelete time */
-"3 month" = "3 month";
+"3 month" = "3 mesi";
 /* Message autdelete time */
-"30 minutes" = "30 minutes";
+"30 minutes" = "30 minuti";
 /* Message autdelete time */
-"30 seconds" = "30 seconds";
+"30 seconds" = "30 secondi";
 "33%" = "33%";
 /* Message autdelete time */
-"4 weeks" = "4 weeks";
+"4 weeks" = "4 settimane";
 /* Message autdelete time */
-"5 minutes" = "5 minutes";
+"5 minutes" = "5 minuti";
 /* server details */
 "<unknown server>" = "<server sconosciuto>";
 /* server details */
 "<unknown version>" = "<versione sconosciuta>";
 /* muc affiliation */
 "<unknown>" = "<sconosciuto>";
-"\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
+"\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) ore";
 "A contact was scanned through the QR code scanner" = "Un contatto è stato scansionato tramite codice QR";
 "Abort" = "Annulla";
 "Aborted recording audio" = "Registrazione audio annullata";
@@ -102,7 +102,7 @@
 "Apple Push Token is not available!" = "Il token push di Apple non è disponibile!";
 "Approve new contact" = "Approva il nuovo contatto";
 "Archive chat" = "Archivia la chat";
-"Archive only if the contact is in contact list." = "Archive only if the contact is in contact list.";
+"Archive only if the contact is in contact list." = "Archivia solo se il contatto è nel tuo elenco.";
 "Attachments" = "Allegati";
 "Audio recorder init fail." = "Inizializ. registratore audio fallita";
 "Audio recorder prepareToRecord fail." = "prepareToRecord registratore audio fallito.";
@@ -173,7 +173,7 @@
 "Clear chat history of this group" = "Elimina la cronologia chat di questo gruppo";
 "Clear History" = "Elimina la cronologia";
 "Clear scanned contact" = "Pulisci il contatto scansionato";
-"Clear text" = "Clear text";
+"Clear text" = "Svuota testo";
 "Close" = "Chiudi";
 "Configure the background image displayed in open chats." = "Configura l'immagine di sfondo mostrata nelle chat aperte.";
 "Connected since: %@" = "Connesso da: %@";
@@ -227,7 +227,7 @@
 "Current Password" = "Password attuale";
 "Currently Online" = "In linea adesso";
 /* Message autdelete time */
-"Custom" = "Custom";
+"Custom" = "Personalizzato";
 "Database Export Failed" = "Esportazione database fallita";
 "Database Files" = "File del database";
 "Debug" = "Diagnostica";
@@ -953,9 +953,9 @@
 "📍 A Location" = "📍 Una posizione";
 "📷 An Image" = "📷 Un'immagine";
 "🔗 A Link" = "🔗 Un link";
-"(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
-"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!";
-"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
-"Custom Time: " = "Custom Time: ";
-"Group/Channel description" = "Group/Channel description";
-"Open account settings" = "Open account settings";
+"(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) ore";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Avviso: non potrai caricare cronologia precedente dal tuo server, Monal la eliminerà immediatamente dopo averla recuperata!";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Avviso: il messaggio verrà eliminato solo sui push in ingresso o se apri l'app! Soprattutto per intervalli di tempo più brevi!";
+"Custom Time: " = "Ora personalizzata: ";
+"Group/Channel description" = "Descrizione gruppo/canale";
+"Open account settings" = "Apri impostazioni account";
