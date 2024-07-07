@@ -3,7 +3,7 @@
 " running on %@" = " %@(e)n exekutatzen";
 "%02d:%02d (long press to abort)" = "%02d:%02d (sakatu eta eutsi alboratzeko)";
 "%@" = "%@";
-"%@ (affiliation: %@)" = "%@ (affiliation: %@)";
+"%@ (affiliation: %@)" = "%@ (afiliazioa: %@)";
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
 "%@ says:" = "%@(e)k dio:";
 /* Message autdelete time */
@@ -42,7 +42,7 @@
 "<unknown version>" = "<bertsio ezezaguna>";
 /* muc affiliation */
 "<unknown>" = "<ezezaguna>";
-"\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
+"\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) ordu";
 "A contact was scanned through the QR code scanner" = "Kontaktu bat eskaneatu da QR kode-eskaneatzailearen bidez";
 "Abort" = "Alboratu";
 "Aborted recording audio" = "Audio grabaketa alboratu da";
@@ -80,7 +80,7 @@
 /* muc affiliation */
 "Admin" = "Admin";
 "Advanced Settings" = "Ezarpen aurreratuak";
-"Affiliation: %@%@" = "Affiliation: %@%@";
+"Affiliation: %@%@" = "Afiliazioa: %@%@";
 "All messages are archived by default." = "Mezu guztiak artxibatzen dira defektuz.";
 "All messages fetched successfully, there are no more left on the server!" = "Mezu guztiak eskuratu dira, ez dago gehiagorik zerbitzarian!";
 "Allow" = "Baimendu";
@@ -150,15 +150,15 @@
 "Caps hash: %@" = "Caps hash: %@";
 /* placeholder when creating account */
 "Captcha" = "Captcha";
-"Change affiliation" = "Change affiliation";
+"Change affiliation" = "Aldatu afiliazioa";
 "Change Background Image" = "Aldatu hondoko irudia";
 "Change Channel Avatar" = "Aldatu kanalaren abatarra";
 "Change Chat Background" = "Aldatu txataren hondoa";
 "Change Group Avatar" = "Aldatu taldearen abatarra";
 "Change Group Members" = "Aldatu taldeko kideak";
 "Change Password" = "Aldatu pasahitza";
-"Changing affiliation" = "Changing affiliation";
-"Changing affiliation to %@: %@" = "Changing affiliation to %@: %@";
+"Changing affiliation" = "Afiliazioa aldatzen";
+"Changing affiliation to %@: %@" = "Afiliazioa %@(e)ra aldatzen: %@";
 "Changing Password" = "Pasahitza aldatzen";
 "Channel Avatar" = "Kanalaren abatarra";
 "Channel name" = "Kanalaren izena";
@@ -186,7 +186,7 @@
 /* placeholder when adding jid */
 "Contact or Group/Channel Jid" = "Kontaktuaren edo Taldearen/Kanalaren Jid-a";
 "Contact Requests" = "Kontaktu-eskaerak";
-"Contact Selection" = "Contact Selection";
+"Contact Selection" = "Kontaktuen hautaketa";
 "Contacts" = "Kontaktuak";
 "Cool Title" = "Titulu bikaina";
 "Copied to clipboard" = "Arbelera kopiatu da";
@@ -295,7 +295,7 @@
 "Enabled" = "Gaituta";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "Zifratutako mezuak formatu zaharra dauka eta Monalek ezin du dezifratu. Eskatu euren aplikazioa eguneratu dezatela. (GCM errorea)";
 "Encrypted session to this device broken beyond repair." = "Gailu honetako zifratutako saioa kaltetuta dago eta ezin da konpondu.";
-"Encryption" = "Encryption";
+"Encryption" = "Zifraketa";
 "Encryption Keys" = "Zifratze-gakoak";
 "Encryption Keys (OMEMO)" = "Zifratze-gakoak (OMEMO)";
 "Encryption Not Supported" = "Zifratzea ez da bateragarria";
@@ -311,7 +311,7 @@
 "Error adding contact or channel" = "Errorea kontaktua edo kanala gehitzerakoan";
 "Error adding new member!" = "Errorea kide berria gehitzean!";
 "Error blocking user!" = "Errorea erabiltzailea blokeatzean!";
-"Error changing affiliation!" = "Error changing affiliation!";
+"Error changing affiliation!" = "Errorea afiliazioa aldatzean!";
 "Error changing avatar!" = "Errorea abatarra aldatzean!";
 "Error creating group!" = "Errorea taldea sortzerakoan!";
 "Error decrypting message" = "Errorea mezua dezifratzerakoan";
@@ -337,7 +337,7 @@
 "Error: No contacts to display keys for!" = "Errorea: Ez dago gakoak ikusteko kontakturik!";
 "Error: Received OMEMO message is empty" = "Errorea: jasotako OMEMO mezua hutsik dago";
 "errorMessage" = "errorMessage";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Kontaktu berri bakoitzak zifraketa gaituta izango du, baina dagoeneko gehitutako kontaktuek orain arteko zifratze-ezarpenak mantenduko dituzte.";
 "Failed to block contact %@" = "Ezin izan da %@ blokeatu";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak huts egin du";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak huts egin du: denbora agortu da";
@@ -426,7 +426,7 @@
 "Inviting new member" = "Kide berria gonbidatzen";
 "Inviting new participant" = "Partehartzaile berria gonbidatzen";
 "Inviting user" = "Erabiltzailea gonbidatzen";
-"Inviting user to this group/channel: %@" = "Inviting user to this group/channel: %@";
+"Inviting user to this group/channel: %@" = "Erabiltzailea talde/kanal honetara gonbidatzen: %@";
 /* QR-Code-Scanner: Camera not found */
 "It does not seem as your device has a camera. Please use a device with a camera for scanning" = "Badirudi gailuak ez duela kamerarik. Erabili kamera duen gailu bat eskaneatu ahal izateko";
 "Join Channel" = "Egin bat kanalarekin";
@@ -499,7 +499,7 @@
 "Monal was not able to send your attachment!" = "Monalek ezin izan du erantsitakoa bidali!";
 "Monal was not able to send your attachment: %@" = "Monalek ezin izan du erantsitakoa bidali: %@";
 "More info?" = "Informazio gehiago?";
-"My Encryption Keys" = "My Encryption Keys";
+"My Encryption Keys" = "Nire zifratze-gakoak";
 "Never archive" = "Ez artxibatu inoiz";
 "New Account" = "Kontu berria";
 "New Message" = "Mezu berria";
@@ -763,7 +763,7 @@
 "These are the MUC servers detected by Monal (blue entry used by Monal)." = "These are the MUC servers detected by Monal (blue entry used by Monal).";
 "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "Zure zerbitzariarekin bateragarriak diren SASL2 metodoak dira hauek. Urdinez daudenak Monalek erabiltzen dituenak dira, eta laranjaz Monalekin bateragarriak ez direnak dira.";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "Hauek dira Monalekin bateragarriak diren TLS bertsioak; zerbitzarira konektatzeko erabili direnak berdez agertuko dira.";
-"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "Honakoak zure zifratze gakoak dira. Gailu bakoitza saioa hasi duzun leku desberdin bat da. Egiaztatu dituzun gakoez baino ez zitez fidatu. Sakatu birritan hatz-marka gainean arbelera kopiatzeko.";
+"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "Honakoak zure zifratze-gakoak dira. Gailu bakoitza saioa hasi duzun leku desberdin bat da. Egiaztatu dituzun gakoez baino ez zitez fidatu. Sakatu birritan hatz-marka gainean arbelera kopiatzeko.";
 "They will no longer see when you are online. They may not be able to access your encryption keys." = "Aurrerantzean ez dute ikusiko noiz zauden linean. Litekeena da beraiek zure zifraketa-gakoak ikusi ezin izatea.";
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "Aurrerantzean ez dute ikusiko noiz zauden linean. Litekeena da beraiek zuri mezu zifratuak bidali ezin izatea.";
 "They will see when you are online. They will be able to send you encrypted messages." = "Linean noiz zauden ikusi ahal izango dute. Mezu zifratuak bidali ahal izango dizkizute.";
@@ -803,7 +803,7 @@
 "This will clear the whole chat history of this account from this device." = "Honek gailu honetako kontu honetako txat historia guztia ezabatuko du.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Honek zerbitzaritik eta gailutik ezabatuko du kontua, baina litekeena da datuak oraindik beste gailuren batean egotea.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
-"This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
+"This will remove the current avatar image and revert this group/channel to the default one." = "Uneko abatarra kendu eta defektuzkoa ezarriko du berriro talde/kanal honetarako.";
 "This will remove this account and the associated data from this device." = "Honek kontu hau eta lotutako datuak kenduko ditu gailu honetatik.";
 "Timeout Error" = "Denbora agortu da";
 "TLS 1.2" = "TLS 1.2";
@@ -953,7 +953,7 @@
 "📍 A Location" = "📍 Kokapena";
 "📷 An Image" = "📷 Irudia";
 "🔗 A Link" = "🔗 Esteka";
-"(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
+"(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) ordu";
 "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!";
 "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
 "Custom Time: " = "Custom Time: ";
