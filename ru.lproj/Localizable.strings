@@ -5,7 +5,7 @@
 "%@" = "%@";
 "%@ (affiliation: %@)" = "%@ (статус: %@)";
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
-"%@ says:" = "%@ says:";
+"%@ says:" = "%@ говорит:";
 /* Message autdelete time */
 "1 day" = "1 день";
 /* Message autdelete time */
@@ -42,10 +42,10 @@
 "<unknown version>" = "<неизвестная версия>";
 /* muc affiliation */
 "<unknown>" = "<неизвестно>";
-"\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
+"\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) часов";
 "A contact was scanned through the QR code scanner" = "Контакт добавлен посредством сканирования QR-кода";
 "Abort" = "Abort";
-"Aborted recording audio" = "Aborted recording audio";
+"Aborted recording audio" = "Запись аудио прервана";
 "About" = "О программе";
 "Accept incoming calls from strangers" = "Принимать входящие звонки от неизвестных пользователей";
 "Accept incoming messages from strangers" = "Принимать входящие сообщения от неизвестных пользователей";
@@ -91,7 +91,7 @@
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Разрешить прямые сетевые соединения с устройствами других пользователей. Активация этой опции может привести к получению вашего IP-адреса звонящим/вызываемым пользователем.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Разрешение добавить вас в список контактов позволяет видеть ваш аватар и статус подключения к сети.";
 "Already present" = "Уже присутствует";
-"Already uploading this content, ignoring" = "Already uploading this content, ignoring";
+"Already uploading this content, ignoring" = "Это содержимое уже отправляется на сервер, проигнорировано";
 "Always archive" = "Всегда архивировать";
 "Always use direct TLS, not STARTTLS" = "Только прямой TLS (без STARTTLS)";
 "App" = "Приложение";
@@ -104,7 +104,7 @@
 "Archive chat" = "Архивировать переписку";
 "Archive only if the contact is in contact list." = "Архивировать только для пользователей из списка контактов";
 "Attachments" = "Вложения";
-"Audio recorder init fail." = "Audio recorder init fail.";
+"Audio recorder init fail." = "Не удалось запустить запись аудио.";
 "Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
 "Audio recorder record fail." = "Audio recorder record fail.";
 "Audio Recorder set active error: %@" = "Audio Recorder set active error: %@";
@@ -307,7 +307,7 @@
 "Entry 2" = "Запись 2";
 "Entry 3" = "Запись 3";
 "Error" = "Ошибка";
-"error" = "error";
+"error" = "ошибка";
 "Error adding contact or channel" = "Ошибка добавления контакта или канала";
 "Error adding new member!" = "Ошибка добавления нового участника.";
 "Error blocking user!" = "Ошибка блокировки пользователя.";
@@ -336,7 +336,7 @@
 "Error: Account disabled, can not display keys!" = "Ошибка: Учётная запись заблокирована, нет возможности отобразить ключи.";
 "Error: No contacts to display keys for!" = "Ошибка: Отсутствуют контакты для которых отображать ключи.";
 "Error: Received OMEMO message is empty" = "Error: Received OMEMO message is empty";
-"errorMessage" = "errorMessage";
+"errorMessage" = "сообщение об ошибке";
 "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Для каждого нового контакта будет активироваться шифрование; при этом, для уже известных контактов сохранятся выбранные настройки шифрования.";
 "Failed to block contact %@" = "Failed to block contact %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
@@ -379,7 +379,7 @@
 "Failed to write decrypted download into cache directory" = "Failed to write decrypted download into cache directory";
 "Fetching registration form..." = "Загрузка регистрационной формы...";
 "File" = "Файл";
-"filename" = "filename";
+"filename" = "имя файла";
 "Files" = "Файлы";
 "Finished fetching messages" = "Загрузка сообщений завершена";
 "General" = "Общие";
@@ -398,7 +398,7 @@
 "Group subject:" = "Тема группы:";
 "Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
 "Group/Channel not available anymore: %@" = "Group/Channel not available anymore: %@";
-"groupJoin Group" = "groupJoin Group";
+"groupJoin Group" = "группа groupJoin";
 "Hint" = "Подсказка";
 "I already have an account:" = "У меня уже есть учётная запись:";
 "I need an account:" = "Мне нужна учётная запись:";
@@ -533,7 +533,7 @@
 "Notifications disabled" = "Уведомления отключены";
 "Notify on all messages" = "Оповещать о всех сообщениях";
 "Notify only when mentioned" = "Оповещать только при упоминании меня";
-"now" = "now";
+"now" = "сейчас";
 /* Message autdelete time */
 "Off" = "Отключено";
 "Ok" = "Ок";
@@ -838,12 +838,12 @@
 "Unexpected mam preferences result" = "Unexpected mam preferences result";
 "Unexpected server response: invalid PEP config form" = "Unexpected server response: invalid PEP config form";
 "Unexpected server response: missing required fields in PEP config form" = "Unexpected server response: missing required fields in PEP config form";
-"unknown" = "unknown";
+"unknown" = "неизвестно";
 "Unknown authentication method" = "Неизвестный способ аутентификации";
 "Unknown channel-binding type" = "Неизвестный способ привязки к каналу передачи данных";
 "Unknown error!" = "Неизвестная ошибка!";
 "Unread Messages Below" = "Непрочитанные сообщения ниже";
-"unsupported" = "unsupported";
+"unsupported" = "не поддерживается";
 "Untrusted key" = "Не доверенный ключ";
 "Upload Error" = "Upload Error";
 "Upload Error: your account got disconnected while requesting upload slot" = "Upload Error: your account got disconnected while requesting upload slot";
@@ -866,7 +866,7 @@
 "Uses TLS client certificates for authentication" = "Аутентификация с использованием клиентских сертификатов TLS";
 "Version" = "Версия";
 /* server details */
-"version %@%@" = "version %1$@%2$@";
+"version %@%@" = "версия %1$@%2$@";
 "Very old app version" = "Very old app version";
 "Waiting for GPS signal" = "Ожидание сигнала GPS";
 "Warning" = "Предупреждение";
@@ -886,7 +886,7 @@
    QR-Code-Scanner: jid scan wrong menu */
 "Wrong menu" = "Некорректное меню";
 "XEP-0163 Personal Eventing Protocol" = "XEP-0163 Протокол персональных событий. Размещение аватаров, передача ключей OMEMO";
-"XEP-0191: Blocking Command" = "XEP-0191: Блокирование контактов. Чёрный список собеседников";
+"XEP-0191: Blocking Command" = "XEP-0191: Команда блокировки";
 "XEP-0198: Stream Management" = "XEP-0198: Менеджер потоков. Необходим для доставки сообщений при нестабильном интернет-канале и выключенном архиве сообщений. Если сервер не получает уведомления о доставке, он повторно отправляет сообщение";
 "XEP-0199: XMPP Ping" = "XEP-0199: XMPP пинг";
 "XEP-0215: External Service Discovery" = "XEP-0215: Обнаружение внешних служб";
@@ -894,39 +894,39 @@
 "XEP-0280: Message Carbons" = "XEP-0280: Дублирование сообщений. Отправка сообщения на все включённые устройства (используется при отключенном архиве сообщений)";
 "XEP-0313: Message Archive Management" = "XEP-0313: Управление архивом сообщений";
 "XEP-0352: Client State Indication" = "XEP-0352: Отображение состояния клиента. Если XMPP-клиент свёрнут, сервер передаёт лишь сообщения. Это экономит расход батареи и интернет-трафик";
-"XEP-0357: Push Notifications" = "XEP-0357: Push Notifications";
-"XEP-0363: HTTP File Upload" = "XEP-0363: HTTP File Upload";
-"XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379: Pre-Authenticated Roster Subscription";
-"XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: SASL SCRAM Downgrade Protection";
+"XEP-0357: Push Notifications" = "XEP-0357: Push-уведомления";
+"XEP-0363: HTTP File Upload" = "XEP-0363: Отправка файлов по HTTP. Универсальная передача файлов между разными клиентами с использованием HTTP";
+"XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379: Подписка на список контактов с предварительной аутентификацией";
+"XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: Защита от использования механизмов со сниженным уровнем безопасности в SASL SCRAM";
 "XMPP Account Info Error" = "XMPP Account Info Error";
 "XMPP Bind Error" = "XMPP Bind Error";
-"XMPP Capabilities" = "XMPP Capabilities";
+"XMPP Capabilities" = "Возможности XMPP";
 "XMPP Disco Info Error" = "XMPP Disco Info Error";
 "XMPP External Service Disco Error" = "XMPP External Service Disco Error";
-"XMPP ID" = "XMPP ID";
-"XMPP ID missing" = "XMPP ID missing";
+"XMPP ID" = "Адрес XMPP";
+"XMPP ID missing" = "Отсутствует адрес XMPP";
 "XMPP mam preferences error" = "XMPP mam preferences error";
-"XMPP protocol extension for communications blocking." = "XMPP protocol extension for communications blocking.";
-"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls.";
-"XMPP protocol extension for sending application-level pings over XML streams." = "XMPP protocol extension for sending application-level pings over XML streams.";
+"XMPP protocol extension for communications blocking." = "Расширение XMPP для блокирования контактов и реализации чёрного списка собеседников.";
+"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "Расширение XMPP для обнаружения внешних по отношению к XMPP сети служб, таких как STUN или TURN, необходимых для аудио и видео звонков.";
+"XMPP protocol extension for sending application-level pings over XML streams." = "Расширение XMPP для отправки на прикладном уровне пинг-сообщений, инкапсулированных в XML потоки.";
 "XMPP Roster Error" = "XMPP Roster Error";
-"XMPP server domain not valid!" = "XMPP server domain not valid!";
+"XMPP server domain not valid!" = "Некорректный домен сервера XMPP.";
 "XMPP stream error %@: %@" = "XMPP stream error %1$@: %2$@";
 "XMPP stream error: %@" = "XMPP stream error: %@";
-"XMPPServer" = "XMPPServer";
-"Yellow checkmark shield:" = "Yellow checkmark shield:";
-"Yes" = "Yes";
-"Yes, deactivate encryption" = "Yes, deactivate encryption";
-"You are set up and connected." = "You are set up and connected.";
-"You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
-"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
-"You did not grant Monal to access your location." = "You did not grant Monal to access your location.";
+"XMPPServer" = "XMPP сервер";
+"Yellow checkmark shield:" = "Жёлтый значок с галкой:";
+"Yes" = "Да";
+"Yes, deactivate encryption" = "Да, отключить шифрование";
+"You are set up and connected." = "Всё настроено и подключено.";
+"You are set up and connected. People can message you at: %@@%@" = "Всё настроено и подключено. Теперь вам могут присылать сообщения на: %@@%@";
+"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "Вы пытаетесь позвонить '%@' (%@), но этот контакт доступен с разных учётных записей. Пожалуйста, выберите ту учётную запись с которой нужно произвести исходящий вызов.";
+"You did not grant Monal to access your location." = "У Monal нет доступа к вашей геопозиции.";
 "You got banned from group/channel: %@" = "You got banned from group/channel: %@";
 "You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
 "You got removed from group/channel: %@" = "You got removed from group/channel: %@";
-"You have not entered your XMPP ID yet" = "You have not entered your XMPP ID yet";
-"You need friends for this ride" = "You need friends for this ride";
-"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
+"You have not entered your XMPP ID yet" = "Вы ещё не вводили адрес XMPP";
+"You need friends for this ride" = "Для этого дела вам нужны друзья";
+"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Если хотите, чтобы собеседники вас слышали, предоставьте доступ к микрофону: Настройки iOS-> Конфиденциальность-> Микрофон.";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "You restored an iCloud backup of Monal, please open the app to reenable this account.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "You tried to call contact '%@' but this contact could not be found in your contact list.";
@@ -934,7 +934,7 @@
 "You will receive subsequent messages from this conversation" = "You will receive subsequent messages from this conversation";
 "Your account must be enabled and connected, to be removed from the server!" = "Your account must be enabled and connected, to be removed from the server!";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again.";
-"Your answer" = "Your answer";
+"Your answer" = "Ваш ответ";
 "Your contact may not support calls. Your call might never reach its destination." = "Your contact may not support calls. Your call might never reach its destination.";
 "Your entered XMPP ID is missing the domain" = "Your entered XMPP ID is missing the domain";
 "Your entered XMPP ID is missing the username" = "Your entered XMPP ID is missing the username";
@@ -942,17 +942,17 @@
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!";
-"Your status" = "Твой статус";
+"Your status" = "Ваш статус";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup.";
-"🎥 A Video" = "🎥 A Video";
-"🎥 Video" = "🎥 Video";
-"🎵 An Audiomessage" = "🎵 An Audiomessage";
-"🎵 Audio" = "🎵 Audio";
-"📁 A File" = "📁 A File";
-"📄 A Document" = "📄 A Document";
-"📍 A Location" = "📍 A Location";
-"📷 An Image" = "📷 An Image";
-"🔗 A Link" = "🔗 A Link";
+"🎥 A Video" = "🎥 Видео";
+"🎥 Video" = "🎥 Видео";
+"🎵 An Audiomessage" = "🎵 Аудиосообщение";
+"🎵 Audio" = "🎵 Аудио";
+"📁 A File" = "📁 Файл";
+"📄 A Document" = "📄 Документ";
+"📍 A Location" = "📍 Геопозиция";
+"📷 An Image" = "📷 Изображение";
+"🔗 A Link" = "🔗 Ссылка";
 "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) часов";
 "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Внимание: Вы не сможете скачать предшествующую историю с вашего сервера, Monal удалит её сразу после получения!";
 "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Предупреждение: Сообщение будет удалено только по получении push-уведомлений либо при открытии приложения! Это имеет значение на коротких временных интервалах.";
