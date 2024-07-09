@@ -88,7 +88,7 @@
 "Allow contacts not in your contact list to call you." = "Baimendu zure kontaktuen zerrendan ez daudenei zuri deitzea.";
 "Allow contacts not in your contact list to contact you." = "Baimendu zure kontaktuen zerrendan ez daudenei zurekin harremanetan jartzea.";
 "Allow MITM-prone PLAIN authentication" = "Baimendu MITM-garria den PLAIN autentikazioa";
-"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
+"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Baimendu zure gailuak urrunekoekin zuzeneko sare-konexioa ezartzea. Honek zure IP helbidea iragaz diezaioke deitzen duenari/dutenei.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Kontaktu bezala gehi zaitzatela baimentzen baduzu, zure profileko irudia eta linean noiz zauden ikus dezakete.";
 "Already present" = "Dagoeneko badago";
 "Already uploading this content, ignoring" = "Eduki hau igotzen ari da honezkero, muzin egiten";
@@ -111,7 +111,7 @@
 "Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
 "Audio Recorder: failed to record" = "Audio Recorder: failed to record";
 "Auto-Download Media" = "Deskargatu multimedia automatikoki";
-"Autofocus text input on chat open" = "Autofocus text input on chat open";
+"Autofocus text input on chat open" = "Fokatu automatikoki testu-sarreran txata irekitzean";
 "Avatar" = "Abatarra";
 "Block" = "Blokeatu";
 "Block Contact" = "Blokeatu kontaktua";
@@ -173,9 +173,9 @@
 "Clear chat history of this group" = "Garbitu talde honen txat-historia";
 "Clear History" = "Garbitu historia";
 "Clear scanned contact" = "Garbitu eskaneatutako kontaktua";
-"Clear text" = "Clear text";
+"Clear text" = "Garbitu testua";
 "Close" = "Itxi";
-"Configure the background image displayed in open chats." = "Configure the background image displayed in open chats.";
+"Configure the background image displayed in open chats." = "Ezarri irekitako txaten hondoko irudia.";
 "Connected since: %@" = "%@etatik konektatuta";
 "Connected: %@" = "Konektatuta: %@";
 "Connecting..." = "Konektatzen…";
@@ -231,7 +231,7 @@
 "Database Export Failed" = "Datu-basea esportatzeak huts egin du";
 "Database Files" = "Datu-basearen fitxategiak";
 "Debug" = "Araztu";
-"Debug Notification Problems" = "Debug Notification Problems";
+"Debug Notification Problems" = "Araztu jakinarazpenen arazoak";
 "Debugging" = "Arazten";
 "Default Background" = "Defektuzko hondoa";
 "Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "XMPP zerrenden protokoloan proposatutako aldaketa bat zehazten du, zerrenden bertsionamendua ahalbidetzen duena, zerbitzariak ez dio bezeroari zerrenda bidaliko zerrenda aldatu ez bada.";
@@ -265,9 +265,9 @@
 "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "Ziur talde hau suntsitu nahi duzula? Kide guztiak kanporatuko dira eta ondoren suntsituko da.";
 "Do you really want to disable encryption for this contact?" = "Ziur zaude zifraketa ezgaitu nahi duzula kontaktu honentzat?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Ziur zaude OMEMO saioa berrezarri nahi duzula? Zer egiten ari zaren baldin badakizu bakarrik berrezarri konexioa!";
-"Do you want to block this user from entering this group/channel?" = "Do you want to block this user from entering this group/channel?";
-"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them.";
-"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group.";
+"Do you want to block this user from entering this group/channel?" = "Erabiltzaile honi talde/kanalean sartzea galarazi nahi diozu?";
+"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Erabiltzaile hau kanal honetatik kendu nahi duzu? Erabiltzailea berriro sartu ahal izango da blokeatzen ez baduzu.";
+"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Erabiltzaile hau talde honetatik kendu nahi duzu? Erabiltzailea ezingo da berriro sartu taldera berriro gehitzen ez baduzu.";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "%@ kontua erabiltzerakoan, eskaneatu zenituen %@ kontaktuaren hatz-markez fidatu nahi duzu?";
 "Doing a lot of work..." = "Lan handia egiten…";
 "Domain missing" = "Domeinua falta da";
@@ -404,7 +404,7 @@
 "I need an account:" = "Kontu bat behar dut:";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Monalek jakinarazpenak erakutsi ezin baditu, ez duzu abisurik jasoko mezuak iristerakoan. Hau gertatzen da 'Ukatu' aukeratu zenuelako Monalek baimena eskatu zizunean. Aldatu dezakezu iOSen ezarpenetara joanez eta > Monal > Jakinarazpenak atalean 'baimendu jakinarazpenak' hautatuz.";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Itzalita badago zure gailuak ezingo du zure XMPP zerbitzarian push aktibatu; egiaztatu XEP-0357-ekin bateragarria izateko ezarri duzula.";
-"If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
+"If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "Pizten baduzu, ez zara MITM (man-in-the-middle) erasoetatik salbu egongo. Horrelako erasoek aukera ematen diote aurkariari zure sarrerako eta irteerako mezuak manipulatzeko, bere OMEMO gakoak gehitzeko, zure kontuaren xehetasunak aldatzeko, eta baita zure pasahitza ezagut edo aldatzeko ere!\n\n\nHobe zenezake beste zerbitzari batera aldatu hau piztea baino.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Audio mezuak erabili nahi badituzu, baimendu mikrofonoa atzitzea: Ezarpenak > Pribatutasuna > Mikrofonoa.";
 "Image Upload Quality: %@" = "Igotzeko irudiaren kalitatea: %@";
 "Import and trust OMEMO fingerprints from QR code" = "Inportatu eta fidatu QR kodearen bidez eskuratutako OMEMO hatzmarkez";
@@ -555,7 +555,7 @@
 "Open macOS settings" = "Ireki macOSen ezarpenak";
 "Open Profile of %@" = "Ireki %@(r)en profila";
 "Open Source" = "Kode irekia";
-"Open URLs inline in Safari" = "Open URLs inline in Safari";
+"Open URLs inline in Safari" = "Ireki URLak Safariren barruan";
 "Optional Hardcoded Hostname" = "Aukerako Hardcoded Hostname";
 "Optional Port" = "Aukerako ataka";
 "Own device key" = "Nire gailuko gakoa";
@@ -596,7 +596,7 @@
 "Protocol support of your server (XEPs)" = "Zerbitzariaren XEP ezaugarriak";
 /* placeholder when creating account */
 "Provide XMPP-Server" = "Hautatu XMPP zerbitzaria";
-"Publish version" = "Publish version";
+"Publish version" = "Bertsioa";
 "Push Server" = "Push zerbitzaria";
 "Pushserver Region" = "Push zerbitzariaren eremua";
 "QR code: Fingerprints found" = "QR kodea: hatz-markak topatu dira";
@@ -677,7 +677,7 @@
 "Send last interaction time" = "Bidali azken elkarreraginaren data";
 "Send Location" = "Bidali kokapena";
 "Send message displayed state" = "Bidali mezua ikustearen egoera";
-"Send message received" = "Send message received";
+"Send message received" = "Bidali jaso izanaren mezua";
 "Send typing notifications" = "Bidali idazketa-jakinarazpenak";
 "Sending..." = "Bidaltzen…";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Pasahitzak testu hutsean bidaltzen ditu (TLS bidez zifratuta baino ez), ez da oso segurua";
@@ -710,7 +710,7 @@
 "Show shared Media and Files" = "Erakutsi partekatutako multimedia eta fitxategiak";
 "Show URL previews" = "Erakutsi URLen aurrebista";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "Mezu batzuk jasotzeko edo bidaltzeko zain daude. Ireki aplikazioa berriro saiatzeko.";
-"Something went wrong while parsing your input..." = "Something went wrong while parsing your input...";
+"Something went wrong while parsing your input..." = "Zerbaitek huts egin du zure sarrera prozesatzerakoan...";
 "Sounds" = "Soinuak";
 "Sounds courtesy Emrah" = "Emrah-ren kortesia";
 "SRV entry prohibits XMPP connection for domain %@" = "SRV erregistroak %@ domeinurako XMPP konexioak debekatzen ditu";
@@ -741,15 +741,15 @@
 "The jid you want to add should be in in the format user@domain.tld." = "Gehitu nahi duzun JIDak 'erabiltzailea@domeinua.eus' formatua izan behar du.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "Gakoa gaur egun behar bezala kudeatzen ez den egoera batean dago. Jarri garatzaileekin harremanetan.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "Kontaktu berria zure kontaktuen zerrendan agertuko da gehitu duzun pertsonak zure eskaera onartzen badu.";
-"The operator of the webserver providing that URL may see your IP address." = "The operator of the webserver providing that URL may see your IP address.";
+"The operator of the webserver providing that URL may see your IP address." = "URL hori eskaintzen duen web zerbitzariaren operadoreak zure IP helbidea ikus dezake.";
 "The password has been changed" = "Pasahitza aldatu da";
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "QR kodeak kontu batean saioa hasteko datuak ditu. Joan Ezarpenak -> Gehitu kontua eta eskaneatu QR kodea";
 "The resource '%@' has the following capabilities:" = "'%@' baliabideak honako ahalmenak ditu:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "Hautatzeko ageri diren XMPP zerbitzariak publikoak dira eta ez daukate harremanik Monalekin. Izena emateko orrialdea gauzak erraztearren baino ez da eskaintzen.";
 "The server does not support blocking (XEP-0191)." = "Zerbitzariak ez du blokeatzeko aukera gaituta (XEP-0191).";
-"The UDP logger allows you to livestream the log to the configured IP." = "The UDP logger allows you to livestream the log to the configured IP.";
-"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
+"The UDP logger allows you to livestream the log to the configured IP." = "UDP erregistratzaileak erregistroa konfiguratutako IPra zuzenean transmititzeko aukera ematen dizu.";
+"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP erregistratzaileak erregistroa konfiguratutako IPra zuzenean transmititzeko aukera ematen dizu. erabili pasahitz seguru bat Internet bidez transmititzeko!\n[Ikasi nola jaso erregistroaren transmisioa](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
 "The user %@ (%@) wants to add you to their contact list" = "%1$@ (%2$@) erabiltzaileak bere kontaktuetara gehitu nahi zaitu";
 "The username does not need to have an @ symbol. Please try again." = "Erabiltzaile izenak ez du @ ikurrik izan behar. Saiatu berriro.";
 "There is no configured email account. Please email info@monal-im.org ." = "Ez dago ePosta konturik ezarrita. Bidali ePosta info@monal-im.org-era.";
@@ -757,11 +757,11 @@
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "Errorea gertatu da zifratutako mezu hau dezifratzerakoan (Signal errorea). Konpontzeko saiatu zifratutako mezu bat bidaltzen pertsona honi.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "Errorea mezu zifratu hau dezifratzerakoan (Signal errorea). Konpontzeko saiatu zifratutako mezu bat bidaltzen pertsona honi. (%@)";
 "These are SRV resource records found for your domain." = "Hauek dira zure domeinurako aurkitu diren SRV resource erregistroak.";
-"These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "These are STUN and TURN services announced by your server (blue entries are used by Monal).";
+"These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "Hauek dira zure zerbitzariak iragarritako STUN eta TURN zerbitzuak (urdinez Monalek erabiltzen dituenak).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "Honakoak dira zure zerbitzariarekin bateragarriak diren channel-binding motak TLS geruzan erasoak antzemateko (erabilitakoak, urdinez; Monalekin bateragarriak ez direnak, laranjaz).";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "Hauek dira Monalek saioa hasi duzun zerbitzarian topatu dituen XMPP ezaugarri modernoak.";
-"These are the MUC servers detected by Monal (blue entry used by Monal)." = "These are the MUC servers detected by Monal (blue entry used by Monal).";
-"These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "Zure zerbitzariarekin bateragarriak diren SASL2 metodoak dira hauek. Urdinez daudenak Monalek erabiltzen dituenak dira, eta laranjaz Monalekin bateragarriak ez direnak dira.";
+"These are the MUC servers detected by Monal (blue entry used by Monal)." = "Hauek dira Monalek aurkitu dituen MUC zerbitzariak (urdinez Monalek erabiltzen dituenak).";
+"These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "Hauek dira zure zerbitzariarekin bateragarriak diren SASL2 metodoak. Urdinez daudenak Monalek erabiltzen dituenak dira, eta laranjaz Monalekin bateragarriak ez direnak dira.";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "Hauek dira Monalekin bateragarriak diren TLS bertsioak; zerbitzarira konektatzeko erabili direnak berdez agertuko dira.";
 "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "Honakoak zure zifratze-gakoak dira. Gailu bakoitza saioa hasi duzun leku desberdin bat da. Egiaztatu dituzun gakoez baino ez zitez fidatu. Sakatu birritan hatz-marka gainean arbelera kopiatzeko.";
 "They will no longer see when you are online. They may not be able to access your encryption keys." = "Aurrerantzean ez dute ikusiko noiz zauden linean. Litekeena da beraiek zure zifraketa-gakoak ikusi ezin izatea.";
@@ -770,18 +770,18 @@
 "This account already exists in Monal." = "Kontu hau badago lehendik ere Monalen.";
 "This account already exists on this instance" = "Kontu hau lehendik ere existitzen da zerbitzari honetan";
 "This account already exists on this instance." = "Kontua badago lehendik ere instantzia honetan.";
-"This allows you to forcefully crash the app using several different methods to test the crash handling." = "This allows you to forcefully crash the app using several different methods to test the crash handling.";
+"This allows you to forcefully crash the app using several different methods to test the crash handling." = "Honi esker, hainbat metodo erabiliko dira aplikazioa huts egitearazteko , erroreen kudeaketa probatzeko.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Aplikazio hau zaharregia da eta segurtasun arazoak izan ditzake edo erabilgarri egoteari utzi. Eguneratu!";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Erregistroak esportatzeko balio dezake honek.\n[Ikasi nola irakur daitzkeen](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption." = "Badirudi kontaktu honek ez duela zifraketarekin beteragarria den gailurik.";
 "This contact is already in the contact list of the selected account" = "Kontaktu hau badago lehendik ere hautatutako kontuko kontaktuen zerrendan";
 "This contact is already in your contact list" = "Kontaktu hau badago lehendik ere zure kontaktuen zerrendan";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Litekeena da kontaktu honek OMEMO zifratutako mezuak erabili ezin izatea. Saiatu berriro geroago.";
-"This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong.";
+"This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "Litekeena da kontaktu honek OMEMO zifratutako mezuak erabili ezin izatea. Arazo bat dela uste baduzu, saiatu zifraketa berriro gaitzen segundu batzuk barru.";
 /* Crash report error dialog */
 "This device is not configured to send email." = "Gailu hau ez dago ezarrita ePosta bidali ahal izateko.";
 "This invitation will expire on %@" = "Gonbidapenaren iraungitzea: %@";
-"This is an embedded file that can not be opened externally." = "This is an embedded file that can not be opened externally.";
+"This is an embedded file that can not be opened externally." = "Txertatutako fitxategi bat da eta ezin da kanpoan ireki.";
 "This is the software running on your server." = "Hau da zure zerbitzariak darabilen softwarea:";
 "This key belongs to this device and cannot be removed or disabled!" = "Gailu honen gakoa da hau eta ezin da kendu edo ezgaitu!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Gako honetaz fio da eta hatzmarkak eskuz alderatuz egiaztatu da. Gakoaz fidatzeari uzteko, erabili botoi-etengailua.";
@@ -802,7 +802,7 @@
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Arau honek SASL eta SASL2 handshake-ak babesteko modua eskaintzen du, metodoen eta channel-binding-en mailen jaitsiera galaraziz.";
 "This will clear the whole chat history of this account from this device." = "Honek gailu honetako kontu honetako txat historia guztia ezabatuko du.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Honek zerbitzaritik eta gailutik ezabatuko du kontua, baina litekeena da datuak oraindik beste gailuren batean egotea.";
-"This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
+"This will make calls possible even if your XMPP server does not provide a TURN server." = "Honek deiak gaituko ditu zure XMPP zerbitzariak TURN zerbitzaririk eskaintzen ez badu ere.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "Uneko abatarra kendu eta defektuzkoa ezarriko du berriro talde/kanal honetarako.";
 "This will remove this account and the associated data from this device." = "Honek kontu hau eta lotutako datuak kenduko ditu gailu honetatik.";
 "Timeout Error" = "Denbora agortu da";
@@ -954,8 +954,8 @@
 "📷 An Image" = "📷 Irudia";
 "🔗 A Link" = "🔗 Esteka";
 "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) ordu";
-"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!";
-"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Argi ibili: ezingo duzu zure zerbitzariko historia zaharragoa kargatzeko, Monalek eskuratu eta berehala ezabatuko du!";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Ohart ongi: mezua \"push\"ak jasotzean edo aplikazioa irekitzean ezabatuko da soilik! Hau are nabarmenagoa da denbora-tarte laburragoetan!";
 "Custom Time: " = "Custom Time: ";
 "Group/Channel description" = "Talde/Kanalaren deskribapena";
 "Open account settings" = "Ireki kontuaren ezarpenak";
