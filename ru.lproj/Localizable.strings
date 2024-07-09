@@ -874,8 +874,8 @@
 "We could not find a xmpp related QR-Code" = "Не удалось найти относящийся к XMPP QR-код";
 "We don't support any task requested by the server, account disabled: %@" = "We don't support any task requested by the server, account disabled: %@";
 "We don't support the single task requested by the server, account disabled: %@" = "We don't support the single task requested by the server, account disabled: %@";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "Не удалось войти в вашу учётную запись. Пожалуйста, проверьте ваши имя пользователя и пароль, а также убедитесь в исправности подключения к Интернет.";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Не удалось войти в вашу учётную запись. Пожалуйста, проверьте ваши имя пользователя и пароль, а также убедитесь в исправности подключения к Интернет.\n\nТехническое сообщение от ошибке: %@";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "Не удалось войти в вашу учётную запись. Пожалуйста, проверьте имя пользователя и пароль, а также убедитесь в исправности подключения к Интернет.";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Не удалось войти в вашу учётную запись. Пожалуйста, проверьте имя пользователя и пароль, а также убедитесь в исправности подключения к Интернет.\n\nТехническое сообщение от ошибке: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Самый уязвимый из способов привязки к каналу передачи данных: не защищает от краденых сертификатов/ключей, но выявляет некорректно выданные сертификаты.";
 "Welcome" = "Добро пожаловать";
 "What call do you want to place?" = "Какой звонок хотите совершить?";
@@ -884,16 +884,16 @@
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Сфокусироваться на поле ввода текста в macOS или iOS с подключенной аппаратной клавиатурой, в противном случае показать экранную клавиатуру.";
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
-"Wrong menu" = "Wrong menu";
-"XEP-0163 Personal Eventing Protocol" = "XEP-0163 Personal Eventing Protocol";
-"XEP-0191: Blocking Command" = "XEP-0191: Blocking Command";
-"XEP-0198: Stream Management" = "XEP-0198: Stream Management";
-"XEP-0199: XMPP Ping" = "XEP-0199: XMPP Ping";
-"XEP-0215: External Service Discovery" = "XEP-0215: External Service Discovery";
-"XEP-0237: Roster Versioning" = "XEP-0237: Roster Versioning";
-"XEP-0280: Message Carbons" = "XEP-0280: Message Carbons";
-"XEP-0313: Message Archive Management" = "XEP-0313: Message Archive Management";
-"XEP-0352: Client State Indication" = "XEP-0352: Client State Indication";
+"Wrong menu" = "Некорректное меню";
+"XEP-0163 Personal Eventing Protocol" = "XEP-0163 Протокол персональных событий. Размещение аватаров, передача ключей OMEMO";
+"XEP-0191: Blocking Command" = "XEP-0191: Блокирование контактов. Чёрный список собеседников";
+"XEP-0198: Stream Management" = "XEP-0198: Менеджер потоков. Необходим для доставки сообщений при нестабильном интернет-канале и выключенном архиве сообщений. Если сервер не получает уведомления о доставке, он повторно отправляет сообщение";
+"XEP-0199: XMPP Ping" = "XEP-0199: XMPP пинг";
+"XEP-0215: External Service Discovery" = "XEP-0215: Обнаружение внешних служб";
+"XEP-0237: Roster Versioning" = "XEP-0237: Версионирование списка контактов. Позволяет вместо полной загрузки данных собеседников передавать лишь обновлённые данные";
+"XEP-0280: Message Carbons" = "XEP-0280: Дублирование сообщений. Отправка сообщения на все включённые устройства (используется при отключенном архиве сообщений)";
+"XEP-0313: Message Archive Management" = "XEP-0313: Управление архивом сообщений";
+"XEP-0352: Client State Indication" = "XEP-0352: Отображение состояния клиента";
 "XEP-0357: Push Notifications" = "XEP-0357: Push Notifications";
 "XEP-0363: HTTP File Upload" = "XEP-0363: HTTP File Upload";
 "XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379: Pre-Authenticated Roster Subscription";
