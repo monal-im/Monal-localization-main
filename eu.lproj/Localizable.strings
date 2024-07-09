@@ -60,7 +60,7 @@
 "Account Exists" = "Kontua badago lehendik ere";
 "Account Picker" = "Kontu hautatzailea";
 "Account: %@" = "Kontua: %@";
-"Activity indications" = "Jardueraren seinalea";
+"Activity indications" = "Jardueraren adierazgarriak";
 "Add %@ to your contacts?" = "Gehitu %@ zure kontaktuetara?";
 "Add Account" = "Gehitu kontua";
 "Add Account (advanced)" = "Gehitu kontua (aurreratua)";
@@ -105,11 +105,11 @@
 "Archive only if the contact is in contact list." = "Artxibatu soilik kontaktua zure kontaktuen zerrendan badago.";
 "Attachments" = "Eranskinak";
 "Audio recorder init fail." = "Audio grabaketa abiarazteak huts egin du";
-"Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
-"Audio recorder record fail." = "Audio recorder record fail.";
-"Audio Recorder set active error: %@" = "Audio Recorder set active error: %@";
-"Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
-"Audio Recorder: failed to record" = "Audio Recorder: failed to record";
+"Audio recorder prepareToRecord fail." = "Audio grabaketak huts egin du: prepareToRecord.";
+"Audio recorder record fail." = "Audio grabaketak huts egin du.";
+"Audio Recorder set active error: %@" = "Audio grabaketa aktibo ezartzearen errorea: %@";
+"Audio Recorder set category error: %@" = "Audio grabaketa kategoria ezartzearen errorea: %@";
+"Audio Recorder: failed to record" = "Audio grabagailua: grabaketak huts egin du";
 "Auto-Download Media" = "Deskargatu multimedia automatikoki";
 "Autofocus text input on chat open" = "Fokatu automatikoki testu-sarreran txata irekitzean";
 "Avatar" = "Abatarra";
@@ -194,20 +194,20 @@
 "Copy" = "Kopiatu";
 "Copy invitation link to clipboard" = "Kopiatu gonbidapen-esteka arbelera";
 "Copy to clipboard" = "Kopiatu arbelera";
-"Could fetch room config form for '%@': timeout" = "Ezin izan da '%@' gelaren konfigurazio-orria atzitu: denbora agortu da";
+"Could fetch room config form for '%@': timeout" = "Ezin izan da '%@' gelaren konfigurazio-orria eskuratu: denbora agortu da";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Ezin izan da kamera atzitu";
 "Could not access Finder item!" = "Ezin izan da Finderreko elementua atzitu!";
 "Could not change password" = "Ezin izan da pasahitza aldatu";
 "Could not change password: your account is currently not connected" = "Ezin izan da pasahitza aldatu: unean zure kontua ez dago konektatuta";
 "Could not change the password" = "Ezin izan da pasahitza aldatu";
-"Could not configure (new) group '%@': config option '%@' not available!" = "Could not configure (new) group '%1$@': config option '%2$@' not available!";
+"Could not configure (new) group '%@': config option '%@' not available!" = "Ezin izan da '%1$@' taldea (berria) konfiguratu: '%2$@' konfigurazio aukera ez dago erabilgarri!";
 "Could not configure group '%@'" = "Ezin izan da '%@' taldea konfiguratu";
 "Could not configure group '%@': timeout" = "Ezin izan da '%@' taldea konfiguratu: denbora agortu da";
 "Could not create group '%@': timeout" = "Ezin izan da '%@' taldea sortu: denbora agortu da";
 "Could not decrypt message" = "Ezin izan da mezua dezifratu";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "Ezin izan dira elkarrizketa honetako mezu zaharrak (guztiak) zerbitzariaren artxibotik eskuratu. Saiatu berriro geroago. %@";
-"Could not fetch messages" = "Ezin izan dira mezuak ekarri";
+"Could not fetch messages" = "Ezin izan dira mezuak eskuratu";
 /* QR-Code-Scanner */
 "Could not get default capture device" = "Ezin izan da lehenetsitako kaptura gailua atzitu";
 /* QR-Code-Scanner */
@@ -247,7 +247,7 @@
 "Destroying channel..." = "Kanala suntsitzen...";
 "Destroying group..." = "Taldea suntsitzen...";
 "Detected a new omemo device on your account: %@" = "OMEMO gailu berri bat antzeman da zure kontuan: %@";
-"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Aribidean dagoen MITM erasoa antzeman da SSDP bidez, autentifikazioa bertan behera utziz eta kontua ezgaituz kaltea mugatzeko. Saiatu zure kontua bigaitzen sare garbi batean zaudenean berriro.";
 "Device ID: " = "Gailuaren IDa: ";
 "DeviceID: " = "Gailuaren IDa: ";
 "Devices of %@" = "%@(r)en gailuak";
@@ -377,7 +377,7 @@
 "Failed to share file" = "Fitxategia partekatzeak kale egin du";
 "Failed to upload file: account was removed" = "Fitxategia igotzeak kale egin du: kontua kendu da";
 "Failed to write decrypted download into cache directory" = "Ezin izan da deskargatu eta dezifratutakoa katxe direktorioan idatzi";
-"Fetching registration form..." = "Izena emateko formularioa ekartzen...";
+"Fetching registration form..." = "Izena emateko formularioa eskuratzen...";
 "File" = "Bidali fitxategia";
 "filename" = "fitxategi-izena";
 "Files" = "Fitxategiak";
@@ -659,9 +659,9 @@
 "Ringing..." = "Deika…";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Salt erronkaren erantzuna emandako hash metodoaren autentifikazio-mekanismoaren bidez";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Salt erronkaren erantzuna emandako hash metodoaren autentifikazio-mekanismoaz gain channel-binding bidez";
-"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SASL2tik SASL1erako erasoa antzeman da, autentifikazioa bertan behera utziz eta kontua ezgaituz kaltea mugatzeko. Saiatu zure kontua bigaitzen sare garbi batean zaudenean berriro.";
 "Saving changes to server" = "Aldaketak zerbitzarian gordetzen";
-"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SCRAM zerbitzariaren proba okerra, oso litekeena da MITM erasoa aribidean egotea, autentifikazioa bertan behera utziz eta kontua ezgaituz kaltea mugatzeko. Saiatu zure kontua bigaitzen sare garbi batean zaudenean berriro.";
 /* mac only string */
 "Scroll down to load more messages" = "Tira behera mezu gehiago kargatzeko";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Channel-binding segurua TLS1.3 eta TLS1.2 konexio batzuetarako.";
@@ -697,10 +697,10 @@
 "Server does not support account removal" = "Zerbitzariak ez dauka kontua kentzeko aukera gaituta";
 "Server for domain '%@' not responding!" = "'%@' domeinuko zerbitzaria ez da erantzuten ari!";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Errorea zerbitzariaren inplementazioan: SASL2 eginkizunak hutsik, kontua ezgaituta!";
-"Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server.";
+"Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "Zerbitzariak MITM (man-in-the-middle) erasoen aurkako autentifikazio metodo ez-seguruak bakarrik onartzen ditu! Erabili kontu aurreratua sortzeko menua zerbitzari hau erabiltzea guztiz beharrezkoa bazaizu.";
 "Server returned invalid xml!" = "Zerbitzariak baliozkoa ez den XMLa itzuli du!";
 "Server returned SASL2 error '%@'." = "Zerbitzariak '%@' SASL2 errorea itzuli du.";
-"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Zerbitzaria SASL2-SCRAMekin bateragarri izateari utzi dio bat-batean, oso litekeena da MITM erasoa aribidean egotea, autentifikazioa bertan behera utziz eta kontua ezgaituz kaltea mugatzeko. Saiatu zure kontua bigaitzen sare garbi batean zaudenean berriro.";
 "Server: %@" = "Zerbitzaria: %@";
 "Set up account later" = "Konfiguratu kontua geroago";
 /* Camera permissions missing warning */
@@ -736,7 +736,7 @@
 /* Crash reporting */
 "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "Programa abiarazi zen azken aldian kraskatu zen. Txostena bidali nahi al duzu? Txostenak pribatutasunarekin lotutako datuak izango ditu. Arazoa arazteko baino ez dugu erabiliko, eta ondoren ezabatuko dugu!";
 "The chat history has been cleared" = "Txat historia garbitu da";
-"The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "Zerbitzariarekin konexioak kale egin du eta ezin izan dira txat honetako mezu zaharrak ekarri. Saiatu berriro geroago.";
+"The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "Zerbitzariarekin konexioak kale egin du eta ezin izan dira txat honetako mezu zaharrak eskuratu. Saiatu berriro geroago.";
 "The current password is not correct." = "Oraingo pasahitza ez da zuzena.";
 "The jid you want to add should be in in the format user@domain.tld." = "Gehitu nahi duzun JIDak 'erabiltzailea@domeinua.eus' formatua izan behar du.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "Gakoa gaur egun behar bezala kudeatzen ez den egoera batean dago. Jarri garatzaileekin harremanetan.";
@@ -853,8 +853,8 @@
 "Uploading avatar..." = "Abatarra igotzen...";
 "Uploading file to server" = "Fitxategia zerbitzarira igotzen";
 "Use account" = "Erabili kontua";
-"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc.";
-"Use DNSSEC validation for all connections" = "Use DNSSEC validation for all connections";
+"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Erabili DNSSEC DNS kontsulta guztien erantzunak egiaztatzeko DNS erantzunetarako ezarritako IP helbidearekin konektatu baino lehen.\nSeguruagoa izan arren, konexioan arazoak ekarri ditzake sare batzuetan (hoteletako wifi sareak...)";
+"Use DNSSEC validation for all connections" = "Erabili DNSSEC egiaztapena konekxio guztietarako";
 "User Interface" = "Erabiltzaile-Interfazea";
 /* placeholder when adding account */
 "user@domain.tld" = "erabiltzailea@domeinua.eus";
@@ -940,7 +940,7 @@
 "Your entered XMPP ID is missing the username" = "Idatzi duzun XMPP IDari erabiltzaile izena falta zaio";
 "Your server does not provide a MUC component." = "Zure zerbitzariak ez du MUC osagarririk eskaintzen.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Zure zerbitzaria ez da MAM (XEP-0313)-ekin bateragarria. Honek esan nahi du maiz gal ditzakezula bidaltzen dizkizuten mezuak!! Aldatu zerbitzaria edo egin hitz administrariarekin funtzioa gaitu dezan!";
-"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
+"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Zure zerbitzaria ez da PUSH (XEP-0357)-ekin bateragarria. Honek esan nahi du aplikazioa eskuz ireki behar duzula mezu berriak jaso ahal izateko! Zerbitzaria aldatu beharko zenuke edo zerbitzariaren administrariarekin hitz egin gaitu dezan!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Zure zerbitzaria ez da Stream Management (XEP-0198)-ekin bateragarria. Honek esan nahi du maiz gal daitezkela bidaltzen dituzun mezuak!! Aldatu zerbitzaria egin hitz administrariarekin funtzioa gaitu dezan!";
 "Your status" = "Zure egoera";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "XMPP JIDak honako formatua izan behar du: erabiltzailea@domeinua.eus. Ezarpen berezietarako eskuz konfiguratu.";
@@ -955,7 +955,7 @@
 "🔗 A Link" = "🔗 Esteka";
 "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) ordu";
 "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Argi ibili: ezingo duzu zure zerbitzariko historia zaharragoa kargatzeko, Monalek eskuratu eta berehala ezabatuko du!";
-"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Ohart ongi: mezua \"push\"ak jasotzean edo aplikazioa irekitzean ezabatuko da soilik! Hau are nabarmenagoa da denbora-tarte laburragoetan!";
-"Custom Time: " = "Custom Time: ";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Ohart ongi: mezua jakinarazpenak jasotzean edo aplikazioa irekitzean ezabatuko da soilik! Hau are egiagoa da denbora-tarte laburragoetan!";
+"Custom Time: " = "Norbere denbora: ";
 "Group/Channel description" = "Talde/Kanalaren deskribapena";
 "Open account settings" = "Ireki kontuaren ezarpenak";
