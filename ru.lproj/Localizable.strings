@@ -105,11 +105,11 @@
 "Archive only if the contact is in contact list." = "Архивировать только для пользователей из списка контактов";
 "Attachments" = "Вложения";
 "Audio recorder init fail." = "Не удалось запустить запись аудио.";
-"Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
-"Audio recorder record fail." = "Audio recorder record fail.";
-"Audio Recorder set active error: %@" = "Audio Recorder set active error: %@";
-"Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
-"Audio Recorder: failed to record" = "Audio Recorder: failed to record";
+"Audio recorder prepareToRecord fail." = "Запись аудио prepareToRecord не удалась.";
+"Audio recorder record fail." = "Запись аудио не удалась.";
+"Audio Recorder set active error: %@" = "Ошибка активации записи аудио: %@";
+"Audio Recorder set category error: %@" = "Ошибка установки категории при записи аудио: %@";
+"Audio Recorder: failed to record" = "Не удалось записать аудио";
 "Auto-Download Media" = "Авто-скачивание файлов";
 "Autofocus text input on chat open" = "Автофокус на поле ввода при открытии переписки";
 "Avatar" = "Аватар";
@@ -194,29 +194,29 @@
 "Copy" = "Скопировать";
 "Copy invitation link to clipboard" = "Скопировать ссылку на приглашение в буфер обмена";
 "Copy to clipboard" = "Скопировать в буфер обмена";
-"Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
+"Could fetch room config form for '%@': timeout" = "Не удалось загрузить конфигурацию комнаты для '%@': время ожидания истекло";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Нет доступа к камере";
-"Could not access Finder item!" = "Could not access Finder item!";
-"Could not change password" = "Could not change password";
-"Could not change password: your account is currently not connected" = "Could not change password: your account is currently not connected";
+"Could not access Finder item!" = "Не удалось получить доступ к Finder.";
+"Could not change password" = "Не удалось сменить пароль";
+"Could not change password: your account is currently not connected" = "Не удалось сменить пароль: ваша учётная запись не в сети";
 "Could not change the password" = "Не удалось изменить пароль";
-"Could not configure (new) group '%@': config option '%@' not available!" = "Could not configure (new) group '%1$@': config option '%2$@' not available!";
-"Could not configure group '%@'" = "Could not configure group '%@'";
-"Could not configure group '%@': timeout" = "Could not configure group '%@': timeout";
-"Could not create group '%@': timeout" = "Could not create group '%@': timeout";
-"Could not decrypt message" = "Could not decrypt message";
+"Could not configure (new) group '%@': config option '%@' not available!" = "Не удалось настроить (новую) группу '%1$@': обнаружен неизвестный параметр '%2$@'.";
+"Could not configure group '%@'" = "Не удалось настроить группу '%@'";
+"Could not configure group '%@': timeout" = "Не удалось настроить группу '%@': время ожидания истекло";
+"Could not create group '%@': timeout" = "Не удалось создать группу '%@': время ожидания истекло";
+"Could not decrypt message" = "Не удалось расшифровать сообщение";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "Не удалось получить (все) старые сообщения этой переписки с сервера. Пожалуйста, повторите попытку позже. %@";
 "Could not fetch messages" = "Не удалось получить сообщения";
 /* QR-Code-Scanner */
 "Could not get default capture device" = "Не удалось найти устройство для сканирования";
 /* QR-Code-Scanner */
 "Could not init video session" = "Не удалось запустить видео сессию";
-"Could not join group/channel '%@': timeout" = "Could not join group/channel '%@': timeout";
+"Could not join group/channel '%@': timeout" = "Не удалось присоединиться к группе/каналу '%@': время ожидания истекло";
 "Could not read captcha!" = "Невозможно прочитать капчу!";
 "Could not register your username. Please check your code or change the username and try again." = "Не удалось зарегистрировать ваше имя пользователя. Пожалуйста, проверьте ваш код или попробуйте снова с другим именем пользователя.";
 "Could not send" = "Could not send";
-"Could not synchronize" = "Could not synchronize";
+"Could not synchronize" = "Не удалось синхронизировать";
 "Could not upload file" = "Не удалось загрузить файл";
 /* Crash reporting */
 "Crash Detected" = "Диагностирован сбой";
@@ -398,7 +398,7 @@
 "Group subject:" = "Тема группы:";
 "Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
 "Group/Channel not available anymore: %@" = "Group/Channel not available anymore: %@";
-"groupJoin Group" = "группа groupJoin";
+"groupJoin Group" = "присоединиться к группе";
 "Hint" = "Подсказка";
 "I already have an account:" = "У меня уже есть учётная запись:";
 "I need an account:" = "Мне нужна учётная запись:";
@@ -941,10 +941,10 @@
 "Your server does not provide a MUC component." = "Ваш сервер не предоставляет службу конференций для работы групп/каналов (MUC).";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Ваш сервер не поддерживает функционал управления архивом сообщений (XEP-0313). Это означает, что уведомления о входящих сообщениях будут сбоить. Рекомендуется сменить сервер, либо попросить системного администратора вашего сервера подключить соответствующий программный модуль.";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Ваш сервер не поддерживает Push-уведомления (XEP-0357). Следовательно, вы будете узнавать о наличии входящих сообщений только при открытии приложения. Рекомендуется сменить сервер, либо попросить системного администратора вашего сервера подключить соответствующий программный модуль.";
-"Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!";
+"Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Ваш сервер не поддерживает функционал Управления потоками (XEP-0198). Это означает что отправляемые сообщения могут теряться. Рекомендуется сменить сервер, либо попросить системного администратора вашего сервера подключить соответствующий программный модуль.";
 "Your status" = "Ваш статус";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Ваш XMPP адрес должен быть в формате user@domain.tld. Дополнительные параметры доступны в режиме детальной настройки.";
-"🎥 A Video" = "🎥 Видео";
+"🎥 A Video" = "🎥 Видеоролик";
 "🎥 Video" = "🎥 Видео";
 "🎵 An Audiomessage" = "🎵 Аудиосообщение";
 "🎵 Audio" = "🎵 Аудио";
