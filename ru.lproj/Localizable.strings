@@ -368,15 +368,15 @@
 "Failed to publish own avatar" = "Не удалось опубликовать свой аватар";
 "Failed to publish own nickname" = "Не удалось опубликовать своё имя пользователя";
 "Failed to query for new messages on account %@" = "Не удалось проверить новые сообщения для учётной записи %@";
-"Failed to query new messages for Group/Channel (catchup) %@" = "Не удалось проверить новые сообщения для группы/канала %@";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "Failed to query new messages for Group/Channel (stanzaid) %@";
-"Failed to query newest stanzaid for account %@" = "Failed to query newest stanzaid for account %@";
-"Failed to remove bookmark for Group/Channel: %@" = "Failed to remove bookmark for Group/Channel: %@";
-"Failed to save bookmark for Group/Channel: %@" = "Failed to save bookmark for Group/Channel: %@";
-"Failed to save groupchat bookmarks" = "Failed to save groupchat bookmarks";
+"Failed to query new messages for Group/Channel (catchup) %@" = "Не удалось проверить новые сообщения для группы/канала (навёрстывание) %@";
+"Failed to query new messages for Group/Channel (stanzaid) %@" = "Не удалось проверить новые сообщения для группы/канала (идентификатор Stranza) %@";
+"Failed to query newest stanzaid for account %@" = "Не удалось запросить последний идентификатор Stranza для учётной записи %@";
+"Failed to remove bookmark for Group/Channel: %@" = "Не удалось удалить закладку для группы/канала: %@";
+"Failed to save bookmark for Group/Channel: %@" = "Не удалось сохранить закладку для группы/канала: %@";
+"Failed to save groupchat bookmarks" = "Не удалось сохранить закладки для групповых переписок";
 "Failed to share file" = "Не удалось поделиться файлом";
-"Failed to upload file: account was removed" = "Failed to upload file: account was removed";
-"Failed to write decrypted download into cache directory" = "Failed to write decrypted download into cache directory";
+"Failed to upload file: account was removed" = "Не удалось отправить файл: учётная запись удалена";
+"Failed to write decrypted download into cache directory" = "Не удалось записать расшифрованную версию загруженного файла в папку кэша";
 "Fetching registration form..." = "Загрузка регистрационной формы...";
 "File" = "Файл";
 "filename" = "имя файла";
@@ -385,7 +385,7 @@
 "General" = "Общие";
 "General File Transfer Settings" = "Общие настройки передачи файлов";
 "General Settings" = "Общие настройки";
-"Got empty room config form for '%@'" = "Got empty room config form for '%@'";
+"Got empty room config form for '%@'" = "Получена пустая форма конфигурации комнаты для '%@'";
 "GPS" = "GPS";
 "Green checkmark shield:" = "Зелёный значок с галкой:";
 "Group Avatar" = "Аватар группы";
@@ -396,8 +396,8 @@
 /* placeholder when creating new group */
 "Group Name (optional)" = "Название группы (опционально)";
 "Group subject:" = "Тема группы:";
-"Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
-"Group/Channel not available anymore: %@" = "Group/Channel not available anymore: %@";
+"Group/Channel got destroyed: %@" = "Группа/канал удалена: %@";
+"Group/Channel not available anymore: %@" = "Больше нет доступа к группе/каналу: %@";
 "groupJoin Group" = "присоединиться к группе";
 "Hint" = "Подсказка";
 "I already have an account:" = "У меня уже есть учётная запись:";
@@ -433,8 +433,8 @@
 "Join Group" = "Присоединиться к группе";
 "Just seen" = "Был только что";
 "Keys of %@" = "Ключи для %@";
-"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
-"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
+"Kicked from group/channel, because of system shutdown: %@" = "Выгнан из группы/канала в результате отключения системы: %@";
+"Kicked, because group/channel is now members-only: %@" = "Выгнан, так как группа/канал теперь только для участников: %@";
 "Last seen: %@" = "Был в сети: %@";
 "Last seen: %d days ago" = "Был в сети: %d дня назад";
 "Last seen: %d hours ago" = "Был в сети: %d часов назад";
@@ -466,7 +466,7 @@
 "Logfiles" = "Лог-файлы";
 "Logging in" = "Вход...";
 "Login" = "Войти";
-"Login error, account disabled: %@" = "Login error, account disabled: %@";
+"Login error, account disabled: %@" = "Ошибка входа, учётная запись деактивирована: %@";
 "Logs" = "Журнал";
 "Manual input" = "Ручной ввод";
 "Mark as read" = "Пометить как прочитанное";
@@ -476,10 +476,10 @@
 "Member" = "Участник";
 "Message Archive Preferences" = "Настройки архивирования";
 "Message from %@" = "Сообщение от %@";
-"Message was encrypted with '%@' which isn't supported by Monal" = "Message was encrypted with '%@' which isn't supported by Monal";
-"Message was encrypted with OMEMO and can't be decrypted anymore" = "Message was encrypted with OMEMO and can't be decrypted anymore";
-"Message was encrypted with OMEMO but could not be decrypted" = "Message was encrypted with OMEMO but could not be decrypted";
-"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u.";
+"Message was encrypted with '%@' which isn't supported by Monal" = "Сообщение зашифровано с использованием '%@',- Monal не поддерживает этот шифр";
+"Message was encrypted with OMEMO and can't be decrypted anymore" = "Сообщение зашифровано с использованием OMEMO,- теперь его нельзя расшифровать";
+"Message was encrypted with OMEMO but could not be decrypted" = "Сообщение зашифровано с использованием OMEMO, но его не удаётся расшифровать";
+"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "Сообщение не было зашифровано для этого устройства. Пожалуйста, убедитесь, что отправитель доверяет устройству с идентификатором: %u.";
 "Messages are encrypted" = "Сообщения шифруются";
 "Messages are NOT encrypted" = "Сообщения НЕ шифруются";
 "Messages never archived by default." = "По умолчанию сообщения не архивируются.";
@@ -502,8 +502,8 @@
 "My Encryption Keys" = "Мои ключи шифрования";
 "Never archive" = "Никогда не архивировать";
 "New Account" = "Новая учётная запись";
-"New Message" = "New Message";
-"New omemo device" = "New omemo device";
+"New Message" = "Новое сообщение";
+"New omemo device" = "Новое устройство OMEMO";
 "New Password" = "Новый пароль";
 "Newest TLS version which is faster than TLS 1.2" = "Последняя версия TLS, превосходящая TLS 1.2 по скорости";
 "Nickname" = "Псевдоним";
@@ -514,21 +514,21 @@
 "No contacts to show :(" = "Нет контактов для отображения :(";
 "No Empty Values!" = "Пустые значения не допускаются.";
 "No enabled account found" = "Активные учётные записи не найдены";
-"No further error description" = "No further error description";
+"No further error description" = "Дополнительная детализация ошибки отсутствует";
 "No GPS location received" = "Не удалось получить геолокацию";
 "No OMEMO keys found" = "Ключи OMEMO не найдены";
 "No one is here" = "Здесь никого нет";
 "No pending requests" = "Запросы контактов отсутствуют";
 "No search result." = "Ничего не найдено.";
-"No supported auth mechanism found, disabling account!" = "No supported auth mechanism found, disabling account!";
+"No supported auth mechanism found, disabling account!" = "Не найдены поддерживаемые механизмы аутентификации, учётная запись деактивируется.";
 "No XMPP server!" = "Отсутствует XMPP сервер.";
 "No, keep encryption activated" = "Нет, сохранить шифрование";
 /* Crash reporting */
 "No, thanks" = "Нет, спасибо";
 "None" = "Ничего";
-"Not Authorized. Please check your credentials." = "Not Authorized. Please check your credentials.";
-"Notes to self" = "Notes to self";
-"Notes to self: %@" = "Notes to self: %@";
+"Not Authorized. Please check your credentials." = "Не авторизован. Пожалуйста, проверьте ваши реквизиты.";
+"Notes to self" = "Заметки для себя";
+"Notes to self: %@" = "Заметки для себя: %@";
 "Notifications" = "Уведомления";
 "Notifications disabled" = "Уведомления отключены";
 "Notify on all messages" = "Оповещать о всех сообщениях";
@@ -542,10 +542,10 @@
 "Okay" = "Хорошо";
 "Older, slower, but still secure TLS version" = "Старая, медленная, но по-прежнему безопасная версия TLS";
 "On this device" = "На этом устройстве";
-"Online" = "Online";
+"Online" = "В сети";
 "Only contacts" = "Только контакты";
 "Open" = "Открыть";
-"Open app to see more" = "Open app to see more";
+"Open app to see more" = "Подробности в приложении";
 /* muc members list */
 "Open contact details" = "Информация о контакте";
 "Open contact list" = "Открыть список контактов";
@@ -609,14 +609,14 @@
 "Really remove avatar?" = "Точно хотите удалить аватар?";
 "Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "Получение Push уведомлений через службы Apple даже при отсутствии связи по XMPP. Существенно увеличивает надёжность.";
 /* directory for downloaded audios */
-"Received Audios" = "Received Audios";
+"Received Audios" = "Полученные аудиозаписи";
 /* directory for downloaded files */
-"Received Files" = "Received Files";
+"Received Files" = "Полученные файлы";
 "Received geo locations are shared with Apple's Maps App." = "Получаемые данные о геолокации будут передаваться приложению Apple Карты.";
 /* directory for downloaded images */
-"Received Images" = "Received Images";
+"Received Images" = "Полученные изображения";
 /* directory for downloaded videos */
-"Received Videos" = "Received Videos";
+"Received Videos" = "Полученные видеоролики";
 /* shareViewController: recipient */
 "Recipient" = "Получатель";
 "Recode Fail:" = "Ошибка записи:";
@@ -659,9 +659,9 @@
 "Ringing..." = "Идёт вызов...";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Механизм аутентификации по типу запрос-ответ с использованием случайных чисел и заданного алгоритма хэширования.";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Механизм аутентификации по типу запрос-ответ с использованием случайных чисел и заданного алгоритма хэширования с дополнительной защитой в виде привязки к каналу передачи данных.";
-"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Зафиксирована кибератака с переходом от SASL2 к SASL1,- сбрасываем аутентификацию и деактивируем учётную запись для ограничения негативных последствий. Попробуйте активировать вашу учётную запись снова когда подключитесь с использованием безопасной сетевой инфраструктуры.";
 "Saving changes to server" = "Сохранение изменений на сервер";
-"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Сервер не смог подтвердить подлинность по SCRAM, что говорит о высокой вероятности кибератаки по типу MITM,- сбрасываем аутентификацию и деактивируем учётную запись для ограничения негативных последствий. Попробуйте активировать вашу учётную запись снова когда подключитесь с использованием безопасной сетевой инфраструктуры.";
 /* mac only string */
 "Scroll down to load more messages" = "Пролистывайте вниз для подгрузки более ранних сообщений";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Привязка к каналу, как функция защиты информации, определённая для TLS1.3 и некоторых типов TLS1.2 соединений.";
@@ -679,26 +679,26 @@
 "Send message displayed state" = "Делиться статусом \"Прочитано\"";
 "Send message received" = "Делиться статусом \"Доставлено\"";
 "Send typing notifications" = "Делиться статусом \"Печатает\"";
-"Sending..." = "Sending...";
+"Sending..." = "Отправка...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Отправка паролей в открытом виде с шифрованием только средствами TLS. (не особо безопасно)";
-"Sent a File 📁" = "Sent a File 📁";
-"Sent a Link 🔗" = "Sent a Link 🔗";
-"Sent a Location 📍" = "Sent a Location 📍";
-"Sent an Image 📷" = "Sent an Image 📷";
+"Sent a File 📁" = "Файл отправлен 📁";
+"Sent a Link 🔗" = "Ссылка отправлена 🔗";
+"Sent a Location 📍" = "Геопозиция отправлена 📍";
+"Sent an Image 📷" = "Изображение отправлено 📷";
 /* directory for downloaded audios */
-"Sent Audios" = "Sent Audios";
+"Sent Audios" = "Отправленные аудиозаписи";
 /* directory for downloaded files */
-"Sent Files" = "Sent Files";
+"Sent Files" = "Отправленные файлы";
 /* directory for downloaded images */
-"Sent Images" = "Sent Images";
+"Sent Images" = "Отправленные изображения";
 /* directory for downloaded videos */
-"Sent Videos" = "Sent Videos";
+"Sent Videos" = "Отправленные видеоролики";
 "Server" = "Сервер";
-"Server does not support account removal" = "Server does not support account removal";
-"Server for domain '%@' not responding!" = "Server for domain '%@' not responding!";
-"Server implementation error: SASL2 tasks empty, account disabled!" = "Server implementation error: SASL2 tasks empty, account disabled!";
-"Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server.";
-"Server returned invalid xml!" = "Server returned invalid xml!";
+"Server does not support account removal" = "Сервер не поддерживает удаление учетной записи";
+"Server for domain '%@' not responding!" = "Сервер домена '%@' не отвечает.";
+"Server implementation error: SASL2 tasks empty, account disabled!" = "Ошибка на стороне сервера: получены пустые SASL2 задачи, учётная запись деактивирована.";
+"Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "Сервер поддерживает только подверженные MITM атакам методы аутентификации. В случае абсолютной необходимости использовать именно этот сервер, его можно настроить через расширенное меню создания учётной записи.";
+"Server returned invalid xml!" = "Сервер вернул некорректный XML.";
 "Server returned SASL2 error '%@'." = "Server returned SASL2 error '%@'.";
 "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 "Server: %@" = "Сервер: %@";
