@@ -51,15 +51,15 @@
 "Accept incoming messages from strangers" = "Принимать входящие сообщения от неизвестных пользователей";
 "Access message archives on the server." = "Доступ к архиву сообщений на сервере.";
 /* ShareViewController: Account */
-"Account" = "Аккаунт";
+"Account" = "Учётная запись";
 "Account %@" = "Аккаунт %@";
 "Account (%@)" = "Учётная запись (%@)";
 "Account (new)" = "Учётная запись (новая)";
 "Account already configured in Monal!" = "Учётная запись уже настроена в Monal!";
 "Account disabled" = "Учётная запись отключена";
-"Account Exists" = "Аккаунт существует";
+"Account Exists" = "Учётная запись существует";
 "Account Picker" = "Выбор учётной записи";
-"Account: %@" = "Аккаунт: %@";
+"Account: %@" = "Учётная запись: %@";
 "Activity indications" = "Отображение событий";
 "Add %@ to your contacts?" = "Добавить %@ в ваши контакты?";
 "Add Account" = "Добавить учётную запись";
@@ -67,7 +67,7 @@
 "Add Contact or Channel" = "Добавить Контакт или Канал";
 "Add Group/Channel or Contact" = "Добавить Группу/Канал или Контакт";
 "Add members to group" = "Добавить участников в группу";
-"Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Добавьте новый контакт с помощью кнопки + выше. Ваши друзья появятся здесь, когда они смогут разговаривать.";
+"Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Добавьте новые контакты с помощью кнопки + выше. Ваши друзья появятся здесь, когда они смогут разговаривать.";
 "Add scanned Group/Channel or Contact" = "Добавить отсканированную Группу/Канал или Контакт";
 "Add to contacts" = "Добавить в контакты";
 "Adding %@..." = "Добавление %@...";
@@ -179,12 +179,12 @@
 "Connected since: %@" = "Подключён с: %@";
 "Connected: %@" = "В сети: %@";
 "Connecting..." = "Подключение...";
-"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Идентификатор Jabber (JID) для контакта или группы/канала обычно имеет формат: name@domain.tld";
+"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "XMPP адрес для контакта или группы/канала обычно имеет формат: name@domain.tld";
 "Contact is muted" = "Уведомления отключены (для контакта)";
 "Contact is not muted" = "Уведомления включены (для контакта)";
 "Contact not found" = "Контакт не найден";
 /* placeholder when adding jid */
-"Contact or Group/Channel Jid" = "Jabber ID контакта или группы/канала";
+"Contact or Group/Channel Jid" = "XMPP адрес контакта или группы/канала";
 "Contact Requests" = "Запросы контактов";
 "Contact Selection" = "Выбор контакта";
 "Contacts" = "Контакты";
@@ -234,7 +234,7 @@
 "Debug Notification Problems" = "Доставка уведомлений";
 "Debugging" = "Устранение неисправностей";
 "Default Background" = "Фон по умолчанию";
-"Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified.";
+"Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "Предложение к стандарту протокола синхронизации списка контактов XMPP, которое определяет версионирование списков контактов с тем, чтобы исключить повторную пересылку списка контактов от сервера к клиенту в случае отсутствия в нём изменений.";
 "Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription." = "Определяет протокол и схему URI ссылок для списка контактов с предварительной проверкой подлинности, позволяющие третьей стороне автоматически получать информацию о существовании пользователя.";
 /* Chat msg action */
 "Delete" = "Удалить";
@@ -280,7 +280,7 @@
 "Draft:" = "Черновик:";
 "Duplicate Account" = "Дубликат учётной записи";
 "Duplicate Account!" = "Повторяющаяся учётная запись!";
-"Duplicate jid!" = "Повторяющийся идентификатор Jabber!";
+"Duplicate jid!" = "Повторяющийся адрес XMPP.";
 /* Crash report error dialog */
 "E-Mail not enabled on device" = "На устройстве не настроена электронная почта";
 /* Chat msg action */
@@ -299,7 +299,7 @@
 "Encryption Keys" = "Ключи шифрования";
 "Encryption Keys (OMEMO)" = "Ключи шифрования OMEMO";
 "Encryption Not Supported" = "Шифрование не поддерживается";
-"Enter the jid that you want to block" = "Введите идентификатор Jabber, который хотите заблокировать";
+"Enter the jid that you want to block" = "Введите адрес XMPP, который хотите заблокировать";
 "Enter your new password. Passwords may not be empty. They may also be governed by server or company policies." = "Введите ваш новый пароль. Он не может быть пустым. Также могут применяться дополнительные ограничения со стороны сервера или компании.";
 "Enter your password here" = "Введите сюда ваш пароль";
 "Enter your XMPP ID here" = "Ваш идентификатор XMPP";
@@ -410,7 +410,7 @@
 "Import and trust OMEMO fingerprints from QR code" = "Импортировать и доверять OMEMO отпечаткам с QR-кода";
 "Indicate when a particular device is active or inactive. Saves battery." = "Отображать момент активации/деактивации конкретного устройства. Экономит заряд батареи.";
 "Input" = "Ввод";
-"Input is not a valid jid" = "Введённое значение не является корректным Jabber идентификатором";
+"Input is not a valid jid" = "Введённое значение не является корректным адресом XMPP";
 "Interactions" = "Взаимодействие";
 "Invalid Credentials!" = "Некорректные реквизиты.";
 /* QR-Code-Scanner: invalid format */
@@ -588,7 +588,7 @@
 "Please make sure you have entered the same password in both password fields." = "Пожалуйста, убедитесь что вы ввели один и тот же пароль в обоих полях.";
 "Please provide a valid XMPP server domain or select one." = "Пожалуйста, введите корректное доменное имя XMPP сервера или выберите из предложенных.";
 "Please select a XMPP server or provide one." = "Пожалуйста, выберите XMPP сервер или введите свой.";
-"Please update!" = "Please update!";
+"Please update!" = "Пожалуйста, обновите.";
 "Port" = "Порт";
 "Port: %@, Direct TLS: %@, Priority: %@" = "Порт: %1$@, Прямой TLS: %2$@, Приоритет: %3$@";
 "Previews" = "Просмотр";
@@ -631,8 +631,8 @@
 "Registration Error" = "Ошибка регистрации";
 "Remove %@ from contacts?" = "Удалить %@ из списка контактов?";
 "Remove %@?" = "Удалить %@?";
-"Remove Account from this Device" = "Удалить учётную запись с этого устройства?";
-"Remove Background Image" = "Удалить фоновое изображение?";
+"Remove Account from this Device" = "Удалить учётную запись с этого устройства";
+"Remove Background Image" = "Удалить фоновое изображение";
 "Remove Channel Avatar" = "Удалить аватар канала";
 "Remove Contact" = "Удалить контакт";
 "Remove Conversation" = "Удалить переписку";
@@ -699,8 +699,8 @@
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Ошибка на стороне сервера: получены пустые SASL2 задачи, учётная запись деактивирована.";
 "Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "Сервер поддерживает только подверженные MITM атакам методы аутентификации. В случае абсолютной необходимости использовать именно этот сервер, его можно настроить через расширенное меню создания учётной записи.";
 "Server returned invalid xml!" = "Сервер вернул некорректный XML.";
-"Server returned SASL2 error '%@'." = "Server returned SASL2 error '%@'.";
-"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"Server returned SASL2 error '%@'." = "Сервер вернул ошибку SASL2 '%@'.";
+"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Сервер внезапно потерял поддержку SASL2-SCRAM, что свидетельствует о высокой вероятности кибератаки по типу MITM,- сбрасываем аутентификацию и деактивируем учётную запись для ограничения негативных последствий. Попробуйте активировать вашу учётную запись снова когда подключитесь с использованием безопасной сетевой инфраструктуры.";
 "Server: %@" = "Сервер: %@";
 "Set up account later" = "Настроить учётную запись позже";
 /* Camera permissions missing warning */
@@ -709,11 +709,11 @@
 "Show inline geo location" = "Геолокация на мини-карте";
 "Show shared Media and Files" = "Показать общие медиафайлы";
 "Show URL previews" = "Предпросмотр URL";
-"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
+"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Некоторые сообщения могут ожидать отправки или приёма. Пожалуйста, откройте приложение.";
 "Something went wrong while parsing your input..." = "Что-то пошло не так при разборе введённой вами информации...";
 "Sounds" = "Звуки";
 "Sounds courtesy Emrah" = "Звучит с любезного разрешения Эмры";
-"SRV entry prohibits XMPP connection for domain %@" = "SRV entry prohibits XMPP connection for domain %@";
+"SRV entry prohibits XMPP connection for domain %@" = "Сервисная (SRV) запись DNS запрещает XMPP соединения для домена %@";
 "Status" = "Статус";
 "Status Message" = "Статус";
 "Status message:" = "Статус:";
@@ -727,7 +727,7 @@
 /* Crash reporting */
 "Sure, send it!" = "Конечно отправить!";
 "Synchronize your messages on all loggedin devices." = "Синхронизация сообщений между всеми аутентифицированными устройствами.";
-"Temporary failure to enter Group/Channel: %@" = "Temporary failure to enter Group/Channel: %@";
+"Temporary failure to enter Group/Channel: %@" = "Сбой входа в группу/канал: %@";
 "Terms of %@" = "Условия использования для %@";
 "Terms of use for %@" = "Условия использования для %@";
 "The account has been deleted" = "Учётная запись удалена";
@@ -750,12 +750,12 @@
 "The server does not support blocking (XEP-0191)." = "Сервер не поддерживает блокировку (XEP-0191).";
 "The UDP logger allows you to livestream the log to the configured IP." = "UDP регистратор позволяет организовать потоковую трансляцию логов на заданный IP адрес.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP регистратор позволяет организовать потоковую трансляцию логов на заданный IP адрес. Пожалуйста используйте защищённые ключи безопасности при трансляции через Интернет!\n[Узнайте, как принимать потоковую трансляцию логов](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
-"The user %@ (%@) wants to add you to their contact list" = "The user %1$@ (%2$@) wants to add you to their contact list";
+"The user %@ (%@) wants to add you to their contact list" = "Пользователь %1$@ (%2$@) хочет добавить вас в свой список контактов";
 "The username does not need to have an @ symbol. Please try again." = "Имя пользователя не должно содержать символ '@'. Попробуйте снова.";
 "There is no configured email account. Please email info@monal-im.org ." = "Настроенный почтовый ящик не найден. Пожалуйста, отправьте письмо на адрес: info@monal-im.org .";
-"There was a SASL error on the server." = "There was a SASL error on the server.";
-"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person.";
-"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)";
+"There was a SASL error on the server." = "На сервере произошла ошибка SASL";
+"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "Не удалось расшифровать это сообщение (ошибка сигнала). Для устранения, попробуйте отправить шифрованное сообщение этому собеседнику.";
+"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "Не удалось расшифровать это сообщение (ошибка сигнала). Для устранения, попробуйте отправить шифрованное сообщение этому собеседнику. (%@)";
 "These are SRV resource records found for your domain." = "Для вашего домена в DNS найдены следующие служебные записи (SRV).";
 "These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "Ваш сервер анонсирует следующие STUN и TURN службы (синим выделены те, что использует Monal).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "Ваш сервер поддерживает следующие способы привязки к каналу для обнаружения атак на уровень TLS (синим выделены используемые, оранжевым - неподдерживаемые Monal).";
@@ -768,10 +768,10 @@
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "Они не будут видеть статус вашего подключения к сети и, возможно, не смогут отправлять вам шифрованные сообщения.";
 "They will see when you are online. They will be able to send you encrypted messages." = "Они будут видеть статус вашего подключения к сети и смогут отправлять вам шифрованные сообщения.";
 "This account already exists in Monal." = "Эта учётная запись уже есть в Monal.";
-"This account already exists on this instance" = "This account already exists on this instance";
+"This account already exists on this instance" = "Эта учётная запись уже присутствует в этом клиенте";
 "This account already exists on this instance." = "Данная учётная запись уже есть в этом клиенте.";
 "This allows you to forcefully crash the app using several different methods to test the crash handling." = "Эти команды позволяют принудительно внести сбой в работу приложения с тем чтобы проверить корректность обработки отказа.";
-"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!";
+"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Эта версия приложения устарела, она может как иметь проблемы с безопасностью, так и нестабильно работать. Пожалуйста, обновите приложение.";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Информация по выгрузке лог-файлов.\n[Узнайте как просматривать лог-файлы](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption." = "Похоже что у этого контакта нет устройств с поддержкой шифрования.";
 "This contact is already in the contact list of the selected account" = "Этот контакт уже присутствует в списке контактов выбранной учётной записи.";
@@ -797,7 +797,7 @@
 "This server does not provide any MUC servers." = "На этом сервере не настроены модули конференций (MUC) необходимые для работы групп/каналов.";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Этот сервер не поддерживает современные возможности привязки к каналу передачи данных, позволяющие предотвратить MITM кибератаки на уровень TLS.";
 "This server does not support modern SASL2 authentication." = "Этот сервер не поддерживает современный механизм аутентификации SASL2.";
-"This should never happen, please contact the developers and provide a logfile!" = "Этого не должно происходить! Пожалуйста, обратитесь к разработчикам, предоставив лог-файл.";
+"This should never happen, please contact the developers and provide a logfile!" = "Такого не должно происходить,- пожалуйста, обратитесь к разработчикам, предоставив лог-файл.";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Эта спецификация определяет семантику использования механизма Издатель-Подписчик протокола XMPP для трансляции изменений состояния, связанных с обменом мгновенными сообщениями и изменением статуса присутствия учётной записи в сети.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Эта спецификация обеспечивает способ защиты подтверждений SASL и SASL2 от снижения требований к способу подтверждения и к привязке канала.";
 "This will clear the whole chat history of this account from this device." = "Это приведёт у удалению с этого устройства всей истории переписок с использованием этой учётной записи.";
@@ -808,11 +808,11 @@
 "Timeout Error" = "Нарушены временные параметры";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
-"TLS Error: Bad certificate" = "TLS Error: Bad certificate";
-"TLS Error: Certificate chain is invalid" = "TLS Error: Certificate chain is invalid";
-"TLS Error: Certificate expired" = "TLS Error: Certificate expired";
-"TLS Error: Host name mismatch" = "TLS Error: Host name mismatch";
-"TLS Error: Unknown root certificate" = "TLS Error: Unknown root certificate";
+"TLS Error: Bad certificate" = "Ошибка TLS: Некорректный сертификат";
+"TLS Error: Certificate chain is invalid" = "Ошибка TLS: Некорректная цепочка сертификатов";
+"TLS Error: Certificate expired" = "Ошибка TLS: Истёк срок действия сертификата";
+"TLS Error: Host name mismatch" = "Ошибка TLS: Несоответствие имени узла";
+"TLS Error: Unknown root certificate" = "Ошибка TLS: Неизвестный корневой сертификат";
 "Trust Key" = "Доверять ключу";
 "Trusted and verified key" = "Доверенный и верифицированный ключ";
 "Trusted but removed key" = "Доверенный, но удалённый ключ";
@@ -824,7 +824,7 @@
 "UDP Logger" = "Регистратор UDP";
 "UDP Logger Configuration" = "Настройки регистратора UDP";
 "UDP Logging UI not supported on iOS < 16" = "Пользовательский интерфейс регистратора UDP не поддерживается в iOS < 16";
-"Unable to connect to server!" = "Unable to connect to server!";
+"Unable to connect to server!" = "Не удалось подключиться к серверу.";
 "Unblock Contact" = "Разблокировать контакт";
 "Unblocking user" = "Разблокирование пользователя";
 "Unblocking user for this group/channel: %@" = "Разблокирование пользователя в этой группе/канале: %@";
@@ -832,12 +832,12 @@
 "Undefined error" = "Неизвестная ошибка";
 "Understood" = "Понятно";
 "Unexpected appex expiration" = "Невозможно завершить работу приложения";
-"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
-"Unexpected error while checking type of jid, please try again" = "Unexpected error while checking type of jid, please try again";
-"Unexpected error while checking type of jid:" = "Unexpected error while checking type of jid:";
-"Unexpected mam preferences result" = "Unexpected mam preferences result";
-"Unexpected server response: invalid PEP config form" = "Unexpected server response: invalid PEP config form";
-"Unexpected server response: missing required fields in PEP config form" = "Unexpected server response: missing required fields in PEP config form";
+"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Непредвиденная ошибка подтверждения подлинности сервера по SASL2 (ошибка в программном обеспечении на стороне сервера?); отключаемся.";
+"Unexpected error while checking type of jid, please try again" = "Непредвиденная ошибка при проверке типа адреса XMPP,- пожалуйста, попробуйте снова";
+"Unexpected error while checking type of jid:" = "Непредвиденная ошибка при проверке типа адреса XMPP:";
+"Unexpected mam preferences result" = "Получены непредусмотренные настройки управления архивом сообщений (MAM)";
+"Unexpected server response: invalid PEP config form" = "Неожиданный ответ сервера: некорректная форма конфигурации Протокола персональных событий (PEP)";
+"Unexpected server response: missing required fields in PEP config form" = "Неожиданный ответ сервера: в форме конфигурации Протокола персональных событий (PEP) пропущены обязательные поля";
 "unknown" = "неизвестно";
 "Unknown authentication method" = "Неизвестный способ аутентификации";
 "Unknown channel-binding type" = "Неизвестный способ привязки к каналу передачи данных";
@@ -845,8 +845,8 @@
 "Unread Messages Below" = "Непрочитанные сообщения ниже";
 "unsupported" = "не поддерживается";
 "Untrusted key" = "Не доверенный ключ";
-"Upload Error" = "Upload Error";
-"Upload Error: your account got disconnected while requesting upload slot" = "Upload Error: your account got disconnected while requesting upload slot";
+"Upload Error" = "Ошибка отправки";
+"Upload Error: your account got disconnected while requesting upload slot" = "Ошибка отправки: ваша учётная запись потеряла соединение в процессе запроса слота на отправку";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Отправка файлов на сервер, чтобы поделиться с другими. (Лимит размера файлов со стороны сервера: %@)";
 "Upload Settings" = "Настройки отправки";
 "Uploading" = "Отправка";
@@ -867,13 +867,13 @@
 "Version" = "Версия";
 /* server details */
 "version %@%@" = "версия %1$@%2$@";
-"Very old app version" = "Very old app version";
+"Very old app version" = "Устаревшая версия приложения";
 "Waiting for GPS signal" = "Ожидание сигнала GPS";
 "Warning" = "Предупреждение";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "Не удалось найти относящийся к XMPP QR-код";
-"We don't support any task requested by the server, account disabled: %@" = "We don't support any task requested by the server, account disabled: %@";
-"We don't support the single task requested by the server, account disabled: %@" = "We don't support the single task requested by the server, account disabled: %@";
+"We don't support any task requested by the server, account disabled: %@" = "Мы не поддерживаем ни одну из запрошенных сервером задач; учётная запись деактивирована: %@";
+"We don't support the single task requested by the server, account disabled: %@" = "Мы не поддерживаем ту единственную задачу, которую запросил сервер; учётная запись деактивирована: %@";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "Не удалось войти в вашу учётную запись. Пожалуйста, проверьте имя пользователя и пароль, а также убедитесь в исправности подключения к Интернет.";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Не удалось войти в вашу учётную запись. Пожалуйста, проверьте имя пользователя и пароль, а также убедитесь в исправности подключения к Интернет.\n\nТехническое сообщение от ошибке: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Самый уязвимый из способов привязки к каналу передачи данных: не защищает от краденых сертификатов/ключей, но выявляет некорректно выданные сертификаты.";
@@ -898,21 +898,21 @@
 "XEP-0363: HTTP File Upload" = "XEP-0363: Отправка файлов по HTTP. Универсальная передача файлов между разными клиентами с использованием HTTP";
 "XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379: Подписка на список контактов с предварительной аутентификацией";
 "XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: Защита от использования механизмов со сниженным уровнем безопасности в SASL SCRAM";
-"XMPP Account Info Error" = "XMPP Account Info Error";
-"XMPP Bind Error" = "XMPP Bind Error";
+"XMPP Account Info Error" = "Ошибка описания учётной записи XMPP";
+"XMPP Bind Error" = "Ошибка привязки XMPP";
 "XMPP Capabilities" = "Возможности XMPP";
-"XMPP Disco Info Error" = "XMPP Disco Info Error";
-"XMPP External Service Disco Error" = "XMPP External Service Disco Error";
+"XMPP Disco Info Error" = "Ошибка информации об обнаружении XMPP";
+"XMPP External Service Disco Error" = "Ошибка обнаружения внешней по отношению к XMPP службы";
 "XMPP ID" = "Адрес XMPP";
 "XMPP ID missing" = "Отсутствует адрес XMPP";
-"XMPP mam preferences error" = "XMPP mam preferences error";
+"XMPP mam preferences error" = "Ошибка настроек управления архивом сообщений (MAM) XMPP";
 "XMPP protocol extension for communications blocking." = "Расширение XMPP для блокирования контактов и реализации чёрного списка собеседников.";
 "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "Расширение XMPP для обнаружения внешних по отношению к XMPP сети служб, таких как STUN или TURN, необходимых для аудио и видео звонков.";
 "XMPP protocol extension for sending application-level pings over XML streams." = "Расширение XMPP для отправки на прикладном уровне пинг-сообщений, инкапсулированных в XML потоки.";
-"XMPP Roster Error" = "XMPP Roster Error";
+"XMPP Roster Error" = "Ошибка списка контактов XMPP";
 "XMPP server domain not valid!" = "Некорректный домен сервера XMPP.";
-"XMPP stream error %@: %@" = "XMPP stream error %1$@: %2$@";
-"XMPP stream error: %@" = "XMPP stream error: %@";
+"XMPP stream error %@: %@" = "Ошибка потока XMPP %1$@: %2$@";
+"XMPP stream error: %@" = "Ошибка потока XMPP: %@";
 "XMPPServer" = "XMPP сервер";
 "Yellow checkmark shield:" = "Жёлтый значок с галкой:";
 "Yes" = "Да";
@@ -921,13 +921,13 @@
 "You are set up and connected. People can message you at: %@@%@" = "Всё настроено и подключено. Теперь вам могут присылать сообщения на: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "Вы пытаетесь позвонить '%@' (%@), но этот контакт доступен с разных учётных записей. Пожалуйста, выберите ту учётную запись с которой нужно произвести исходящий вызов.";
 "You did not grant Monal to access your location." = "У Monal нет доступа к вашей геопозиции.";
-"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
-"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
-"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
+"You got banned from group/channel: %@" = "Вас заблокировали в группе/канале: %@";
+"You got kicked from group/channel: %@" = "Вас выгнали из группы/канала: %@";
+"You got removed from group/channel: %@" = "Вас удалили из группы/канала: %@";
 "You have not entered your XMPP ID yet" = "Вы ещё не вводили адрес XMPP";
 "You need friends for this ride" = "Для этого дела вам нужны друзья";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Если хотите, чтобы собеседники вас слышали, предоставьте доступ к микрофону: Настройки iOS-> Конфиденциальность-> Микрофон.";
-"You restored an iCloud backup of Monal, please open the app to reenable this account." = "You restored an iCloud backup of Monal, please open the app to reenable this account.";
+"You restored an iCloud backup of Monal, please open the app to reenable this account." = "Вы восстановили конфигурацию Monal из резервной копии iCloud,- пожалуйста, откройте приложение чтобы снова активировать эту учётную запись.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "После сверки рекомендуется перевести ключ в разряд доверенных. Сверьте отображённый ниже ключ с тем, что отображается на экране устройства вашего контакта. Для копирования ключа в буфер обмена используйте двойное касание.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "Вы пытались позвонить '%@', но его не удаётся найти в вашем списке контактов.";
 "You will no longer receive messages from this conversation" = "Вы больше не будете получать сообщения из этой переписки";
