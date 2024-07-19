@@ -5,6 +5,7 @@
 "%@" = "%@";
 "%@ (affiliation: %@)" = "%@ (Zugehörigkeit: %@)";
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
+"%@ hours" = "%@ hours";
 "%@ says:" = "%@ sagt:";
 /* Message autdelete time */
 "1 day" = "1 Tag";
@@ -42,7 +43,6 @@
 "<unknown version>" = "<Unbekannte Version>";
 /* muc affiliation */
 "<unknown>" = "<Unbekannt>";
-"\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) Stunden";
 "A contact was scanned through the QR code scanner" = "Ein Kontakt wurde mit dem QR-Code Scanner gescannt";
 "Abort" = "Abbrechen";
 "Aborted recording audio" = "Sprachaufnahme abgebrochen";
@@ -92,6 +92,7 @@
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Wenn du jemandem erlaubst, dich als Kontakt hinzuzufügen, kann er dein Profilbild sehen und weiß, wann du online bist.";
 "Already present" = "Bereits vorhanden";
 "Already uploading this content, ignoring" = "Dieser Inhalt wird bereits hochgeladen, ignorieren";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Achtung: Du kannst keine älteren Chatverläufe von deinem Server laden. Monal löscht sie sofort, nachdem es sie geholt hat!";
 "Always archive" = "Immer archivieren";
 "Always use direct TLS, not STARTTLS" = "Immer Direct TLS verwenden";
 "App" = "App";
@@ -113,6 +114,7 @@
 "Auto-Download Media" = "Automatischer Download von Medien";
 "Autofocus text input on chat open" = "Autofokus-Texteingabe bei geöffnetem Chat";
 "Avatar" = "Profilbild";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Warnung! Die Nachricht wird nur bei eingehenden Pushs oder beim Öffnen der App gelöscht! Dies gilt insbesondere für kürzere Zeitintervalle!";
 "Block" = "Sperren";
 "Block Contact" = "Kontakt sperren";
 "Block user?" = "Nutzer sperren?";
@@ -174,6 +176,7 @@
 "Clear History" = "Verlauf löschen";
 "Clear scanned contact" = "Gescannten Kontakt löschen";
 "Clear text" = "Text löschen";
+/* onboarding */
 "Close" = "Schließen";
 "Configure the background image displayed in open chats." = "Hintergrundbild konfigurieren, das in offenen Chats angezeigt wird.";
 "Connected since: %@" = "Verbunden seit: %@";
@@ -228,6 +231,7 @@
 "Currently Online" = "Aktuell online";
 /* Message autdelete time */
 "Custom" = "Benutzerdefiniert";
+"Custom Time: " = "Benutzerdefinierte Zeit: ";
 "Database Export Failed" = "Datenbankexport fehlgeschlagen";
 "Database Files" = "Datenbankdateien";
 "Debug" = "Fehlersuche";
@@ -396,6 +400,7 @@
 /* placeholder when creating new group */
 "Group Name (optional)" = "Gruppenname (optional)";
 "Group subject:" = "Thema der Gruppe:";
+"Group/Channel description" = "Beschreibung der Gruppe/des Channels";
 "Group/Channel got destroyed: %@" = "Gruppenchat/Channel wurde gelöscht: %@";
 "Group/Channel not available anymore: %@" = "Gruppenchat/Channel ist nicht mehr verfügbar: %@";
 "groupJoin Group" = "Gruppe beitreten";
@@ -474,7 +479,6 @@
 "Me:" = "Ich:";
 /* muc affiliation */
 "Member" = "Mitglied";
-"Message Archive Preferences" = "Nachrichtenarchivierung";
 "Message from %@" = "Nachricht von %@";
 "Message was encrypted with '%@' which isn't supported by Monal" = "Nachricht wurde mit '%@' verschlüsselt, was von Monal nicht unterstützt wird";
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "Diese Nachricht wurde mit OMEMO verschlüsselt und kann nicht mehr entschlüsselt werden";
@@ -506,10 +510,13 @@
 "New omemo device" = "Neues OMEMO-Gerät";
 "New Password" = "Neues Passwort";
 "Newest TLS version which is faster than TLS 1.2" = "Die neueste TLS-Version, die schneller ist als TLS 1.2";
+/* onboarding */
+"Next" = "Next";
 "Nickname" = "Nickname";
 "No" = "Nein";
 "No account available to handel 'xmpp:' URI!" = "Kein Konto verfügbar, um 'xmpp:' URI zu verarbeiten!";
 "No accounts set up currently" = "Derzeit sind keine Konten eingerichtet";
+"No active conversations" = "No active conversations";
 "No connected accounts" = "Keine verbundenen Konten";
 "No contacts to show :(" = "Keine Kontakte anzuzeigen :(";
 "No Empty Values!" = "Keine leeren Werte!";
@@ -517,7 +524,6 @@
 "No further error description" = "Keine weitere Fehlerbeschreibung";
 "No GPS location received" = "Kein GPS-Standort empfangen";
 "No OMEMO keys found" = "Keine OMEMO-Schlüssel gefunden";
-"No one is here" = "Niemand ist hier";
 "No pending requests" = "Keine ausstehenden Anfragen";
 "No search result." = "Kein Suchergebnis.";
 "No supported auth mechanism found, disabling account!" = "Kein unterstützter Authentifizierungsmechanismus gefunden, Konto wird deaktiviert!";
@@ -545,13 +551,13 @@
 "Online" = "Online";
 "Only contacts" = "Nur Kontakte";
 "Open" = "Öffnen";
+"Open account settings" = "Kontoeinstellungen öffnen";
 "Open app to see more" = "App öffnen, um mehr zu sehen";
 /* muc members list */
 "Open contact details" = "Kontaktinformationen öffnen";
 "Open contact list" = "Kontaktliste öffnen";
 "Open in default browser" = "Im Standardbrowser öffnen";
 "Open iOS settings" = "iOS-Einstellungen öffnen";
-"Open list of pending contact requests" = "Liste der ausstehenden Kontaktanfragen öffnen";
 "Open macOS settings" = "macOS-Einstellungen öffnen";
 "Open Profile of %@" = "Profil von %@ öffnen";
 "Open Source" = "Quelloffen";
@@ -572,6 +578,7 @@
 "Password cannot be empty" = "Passwort darf nicht leer sein";
 "Password missing" = "Passwort fehlt";
 "Passwords don't match!" = "Passwörter stimmen nicht überein!";
+"Pending contact requests" = "Pending contact requests";
 "Permission Requested" = "Berechtigungsanfrage";
 "Photos" = "Fotos";
 "Pin Chat" = "Chat anheften";
@@ -676,8 +683,6 @@
 "Send" = "Gesendet";
 "Send last interaction time" = "Zeit der letzten Interaktion senden";
 "Send Location" = "Standort senden";
-"Send message displayed state" = "Status der angezeigten Nachricht senden";
-"Send message received" = "Gesendete Nachricht erhalten";
 "Send typing notifications" = "Tippbenachrichtigungen senden";
 "Sending..." = "Sende...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Sendet das Passwort im Klartext (nur durch TLS verschlüsselt), nicht sehr sicher";
@@ -829,7 +834,6 @@
 "Unblocking user" = "Nutzer wird entsperrt";
 "Unblocking user for this group/channel: %@" = "Nutzer wird für diese Gruppe/Channel entsperrt: %@";
 "Unclean appex shutown" = "Unsaubere Appex-Abschaltung";
-"Undefined error" = "Undefinierter Fehler";
 "Understood" = "Verstanden";
 "Unexpected appex expiration" = "Unerwarteter Appex-Ablauf";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unerwarteter Fehler beim Authentifizieren des Servers mit SASL2 (Hat dein Server einen Fehler?), Verbindung wird getrennt!";
@@ -880,7 +884,7 @@
 "Welcome" = "Willkommen";
 "What call do you want to place?" = "Welchen Anruf möchtest du tätigen?";
 "When disabled, URLs will opened in your default browser (that might not be Safari)." = "Wenn diese Funktion deaktiviert ist, werden URLs in deinem Standardbrowser geöffnet (der nicht unbedingt Safari sein muss).";
-"When you start talking to someone,\n they will show up here." = "Wenn du anfängst, mit jemandem zu sprechen,\n werden sie hier auftauchen.";
+"When you start a conversation\nwith someone, they will\nshow up here." = "When you start a conversation\nwith someone, they will\nshow up here.";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Fokussiert das Textfeld unter macOS oder iOS mit angeschlossener Hardware-Tastatur, ansonsten wird die Software-Tastatur geöffnet.";
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
@@ -953,9 +957,14 @@
 "📍 A Location" = "📍 Ein Standort";
 "📷 An Image" = "📷 Ein Bild";
 "🔗 A Link" = "🔗 Ein Link";
-"(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) Stunden";
-"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Achtung: Du kannst keine älteren Chatverläufe von deinem Server laden. Monal löscht sie sofort, nachdem es sie geholt hat!";
-"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Warnung! Die Nachricht wird nur bei eingehenden Pushs oder beim Öffnen der App gelöscht! Dies gilt insbesondere für kürzere Zeitintervalle!";
-"Custom Time: " = "Benutzerdefinierte Zeit: ";
-"Group/Channel description" = "Beschreibung der Gruppe/des Channels";
-"Open account settings" = "Kontoeinstellungen öffnen";
+"Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
+"Even more to customize!" = "Even more to customize!";
+"Features" = "Features";
+"Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server." = "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.";
+"Send message receipts" = "Send message receipts";
+"Send read receipts" = "Send read receipts";
+"Take me to settings" = "Take me to settings";
+"These are important privacy settings you may want to review!" = "These are important privacy settings you may want to review!";
+"Welcome to Monal !" = "Welcome to Monal !";
+"You can customize even more, just use the button below to open the settings." = "You can customize even more, just use the button below to open the settings.";
+"🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution.";

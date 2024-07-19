@@ -5,6 +5,7 @@
 "%@" = "%@";
 "%@ (affiliation: %@)" = "%@ (affiliation: %@)";
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
+"%@ hours" = "%@ hours";
 "%@ says:" = "%@ 曰く:";
 /* Message autdelete time */
 "1 day" = "1 日";
@@ -42,7 +43,6 @@
 "<unknown version>" = "<不明なバージョン>";
 /* muc affiliation */
 "<unknown>" = "<不明>";
-"\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
 "A contact was scanned through the QR code scanner" = "相手先は QR コードスキャナーでスキャンされました";
 "Abort" = "中断";
 "Aborted recording audio" = "音声の録音を中断しました";
@@ -92,6 +92,7 @@
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "あなたを相手先として追加することを誰かに許可すると、その人はあなたのプロフィール画像や在席状況を見ることができます。";
 "Already present" = "すでに存在します";
 "Already uploading this content, ignoring" = "この内容はすでにアップロードされています。無視します";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!";
 "Always archive" = "常に保管";
 "Always use direct TLS, not STARTTLS" = "STARTTLS ではなく常に direct TLS を使う";
 "App" = "アプリ";
@@ -113,6 +114,7 @@
 "Auto-Download Media" = "Auto-Download Media";
 "Autofocus text input on chat open" = "Autofocus text input on chat open";
 "Avatar" = "Avatar";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
 "Block" = "ブロック";
 "Block Contact" = "相手先をブロック";
 "Block user?" = "Block user?";
@@ -174,6 +176,7 @@
 "Clear History" = "履歴を消去";
 "Clear scanned contact" = "スキャンした相手先を消去";
 "Clear text" = "Clear text";
+/* onboarding */
 "Close" = "閉じる";
 "Configure the background image displayed in open chats." = "Configure the background image displayed in open chats.";
 "Connected since: %@" = "%@から接続中";
@@ -228,6 +231,7 @@
 "Currently Online" = "現在オンライン中";
 /* Message autdelete time */
 "Custom" = "Custom";
+"Custom Time: " = "Custom Time: ";
 "Database Export Failed" = "Database Export Failed";
 "Database Files" = "Database Files";
 "Debug" = "デバッグ";
@@ -396,6 +400,7 @@
 /* placeholder when creating new group */
 "Group Name (optional)" = "グループ名 (任意)";
 "Group subject:" = "グループの題:";
+"Group/Channel description" = "Group/Channel description";
 "Group/Channel got destroyed: %@" = "グループ/チャンネル %@ が閉鎖されました";
 "Group/Channel not available anymore: %@" = "グループ/チャンネル %@ はもう利用できません";
 "groupJoin Group" = "groupJoin Group";
@@ -474,7 +479,6 @@
 "Me:" = "Me:";
 /* muc affiliation */
 "Member" = "メンバー";
-"Message Archive Preferences" = "メッセージ保管の設定";
 "Message from %@" = "%@ からメッセージ";
 "Message was encrypted with '%@' which isn't supported by Monal" = "メッセージは Monal が対応していない '%@' で暗号化されました";
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "メッセージは OMEMO で暗号化されており、もう復号できません";
@@ -506,10 +510,13 @@
 "New omemo device" = "新しい OMEMO デバイス";
 "New Password" = "新しいパスワード";
 "Newest TLS version which is faster than TLS 1.2" = "TLS 1.2 より速い最新の TLS バージョン";
+/* onboarding */
+"Next" = "Next";
 "Nickname" = "Nickname";
 "No" = "いいえ";
 "No account available to handel 'xmpp:' URI!" = "「xmpp:」 URI を扱えるアカウントがありません。";
 "No accounts set up currently" = "現在、設定されているアカウントはありません";
+"No active conversations" = "No active conversations";
 "No connected accounts" = "接続済のアカウントはありません";
 "No contacts to show :(" = "表示するアカウントはありません。";
 "No Empty Values!" = "値が足りません。";
@@ -517,7 +524,6 @@
 "No further error description" = "これ以上のエラーの説明はありません";
 "No GPS location received" = "GPS 位置情報を受け取れませんでした";
 "No OMEMO keys found" = "OMEMO 鍵が見つかりません";
-"No one is here" = "ここには誰もいません";
 "No pending requests" = "保留中のリクエストはありません";
 "No search result." = "検索結果がありません。";
 "No supported auth mechanism found, disabling account!" = "対応している認証メカニズムが見つかりません。アカウントを無効にします。";
@@ -545,13 +551,13 @@
 "Online" = "オンライン";
 "Only contacts" = "相手先のみ";
 "Open" = "開く";
+"Open account settings" = "Open account settings";
 "Open app to see more" = "アプリを開いて詳細を見る";
 /* muc members list */
 "Open contact details" = "Open contact details";
 "Open contact list" = "相手先一覧を開く";
 "Open in default browser" = "Open in default browser";
 "Open iOS settings" = "Open iOS settings";
-"Open list of pending contact requests" = "保留中の相手先リクエストの一覧を開く";
 "Open macOS settings" = "Open macOS settings";
 "Open Profile of %@" = "Open Profile of %@";
 "Open Source" = "オープンソース";
@@ -572,6 +578,7 @@
 "Password cannot be empty" = "パスワードは空にできません";
 "Password missing" = "パスワードがありません";
 "Passwords don't match!" = "パスワードが一致しません。";
+"Pending contact requests" = "Pending contact requests";
 "Permission Requested" = "権限が要求されました";
 "Photos" = "写真";
 "Pin Chat" = "Pin Chat";
@@ -676,8 +683,6 @@
 "Send" = "送信";
 "Send last interaction time" = "Send last interaction time";
 "Send Location" = "位置情報を送信";
-"Send message displayed state" = "Send message displayed state";
-"Send message received" = "Send message received";
 "Send typing notifications" = "Send typing notifications";
 "Sending..." = "送信中...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "パスワードを平文で送信 (TLS でのみ暗号化)。あまり安全ではありません";
@@ -829,7 +834,6 @@
 "Unblocking user" = "Unblocking user";
 "Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
 "Unclean appex shutown" = "Unclean appex shutown";
-"Undefined error" = "未定義のエラー";
 "Understood" = "Understood";
 "Unexpected appex expiration" = "Unexpected appex expiration";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
@@ -880,7 +884,7 @@
 "Welcome" = "ようこそ";
 "What call do you want to place?" = "どのような通話をしたいですか ?";
 "When disabled, URLs will opened in your default browser (that might not be Safari)." = "When disabled, URLs will opened in your default browser (that might not be Safari).";
-"When you start talking to someone,\n they will show up here." = "When you start talking to someone,\n they will show up here.";
+"When you start a conversation\nwith someone, they will\nshow up here." = "When you start a conversation\nwith someone, they will\nshow up here.";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise.";
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
@@ -953,9 +957,14 @@
 "📍 A Location" = "📍 位置情報";
 "📷 An Image" = "📷 画像";
 "🔗 A Link" = "🔗 リンク";
-"(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
-"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!";
-"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
-"Custom Time: " = "Custom Time: ";
-"Group/Channel description" = "Group/Channel description";
-"Open account settings" = "Open account settings";
+"Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
+"Even more to customize!" = "Even more to customize!";
+"Features" = "Features";
+"Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server." = "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.";
+"Send message receipts" = "Send message receipts";
+"Send read receipts" = "Send read receipts";
+"Take me to settings" = "Take me to settings";
+"These are important privacy settings you may want to review!" = "These are important privacy settings you may want to review!";
+"Welcome to Monal !" = "Welcome to Monal !";
+"You can customize even more, just use the button below to open the settings." = "You can customize even more, just use the button below to open the settings.";
+"🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution.";

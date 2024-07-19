@@ -5,6 +5,7 @@
 "%@" = "%@";
 "%@ (affiliation: %@)" = "%@（从属关系：%@）";
 "%@ (type '%@', category '%@')" = "%@（类型“%@”，类别“%@”）";
+"%@ hours" = "%@ hours";
 "%@ says:" = "%@ 说：";
 /* Message autdelete time */
 "1 day" = "1 天";
@@ -42,7 +43,6 @@
 "<unknown version>" = "<未知版本>";
 /* muc affiliation */
 "<unknown>" = "<未知>";
-"\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) 小时";
 "A contact was scanned through the QR code scanner" = "通过二维码扫描了联系人";
 "Abort" = "中止";
 "Aborted recording audio" = "中止录制音频";
@@ -92,6 +92,7 @@
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "允许某人将您添加为联系人可以让他们看到您的个人资料图片以及您何时在线。";
 "Already present" = "已经存在";
 "Already uploading this content, ignoring" = "已上传过此内容，忽略";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "还请注意：您将无法从服务器加载旧聊天记录，Monal 在获取后会立即删除！";
 "Always archive" = "始终存档";
 "Always use direct TLS, not STARTTLS" = "始终使用 Direct TLS，而不是 STARTTLS";
 "App" = "应用";
@@ -113,6 +114,7 @@
 "Auto-Download Media" = "自动下载媒体";
 "Autofocus text input on chat open" = "打开聊天时自动对焦文本输入";
 "Avatar" = "头像";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "请注意： 只有在收到推送或打开应用时，消息才会被删除！时间间隔较短时尤其如此！";
 "Block" = "屏蔽";
 "Block Contact" = "屏蔽联系人";
 "Block user?" = "屏蔽用户？";
@@ -174,6 +176,7 @@
 "Clear History" = "清除聊天记录";
 "Clear scanned contact" = "清除扫描的联系人";
 "Clear text" = "清除文本";
+/* onboarding */
 "Close" = "关闭";
 "Configure the background image displayed in open chats." = "配置在打开的聊天中显示的背景图片。";
 "Connected since: %@" = "连接自：%@";
@@ -228,6 +231,7 @@
 "Currently Online" = "目前在线";
 /* Message autdelete time */
 "Custom" = "自定义";
+"Custom Time: " = "自定义时间： ";
 "Database Export Failed" = "数据库导出失败";
 "Database Files" = "数据库文件";
 "Debug" = "调试";
@@ -396,6 +400,7 @@
 /* placeholder when creating new group */
 "Group Name (optional)" = "群组名（可选）";
 "Group subject:" = "群组话题：";
+"Group/Channel description" = "群组/频道描述";
 "Group/Channel got destroyed: %@" = "群组/频道已解散：%@";
 "Group/Channel not available anymore: %@" = "群组/频道不再可用：%@";
 "groupJoin Group" = "群组加入群组";
@@ -474,7 +479,6 @@
 "Me:" = "我：";
 /* muc affiliation */
 "Member" = "成员";
-"Message Archive Preferences" = "消息存档首选项";
 "Message from %@" = "以 %@ 发送消息";
 "Message was encrypted with '%@' which isn't supported by Monal" = "消息已使用 Monal 不支持的“%@”加密";
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "消息已使用 OMEMO 加密，无法再解密";
@@ -506,10 +510,13 @@
 "New omemo device" = "新的 OMEMO 设备";
 "New Password" = "新密码";
 "Newest TLS version which is faster than TLS 1.2" = "比 TLS 1.2 更快的最新 TLS 版本";
+/* onboarding */
+"Next" = "Next";
 "Nickname" = "昵称";
 "No" = "否";
 "No account available to handel 'xmpp:' URI!" = "没有账号可用于处理 'xmpp:' URL！";
 "No accounts set up currently" = "账号目前没有设置";
+"No active conversations" = "No active conversations";
 "No connected accounts" = "无已连接账号";
 "No contacts to show :(" = "没有要显示的联系人 :(";
 "No Empty Values!" = "没有空值！";
@@ -517,7 +524,6 @@
 "No further error description" = "无进一步的错误描述";
 "No GPS location received" = "无法接收到 GPS 位置";
 "No OMEMO keys found" = "没有找到 OMEMO 密钥";
-"No one is here" = "没有人在";
 "No pending requests" = "没有待处理的请求";
 "No search result." = "无搜索结果。";
 "No supported auth mechanism found, disabling account!" = "找不到支持的身份验证机制，正在禁用账号！";
@@ -545,13 +551,13 @@
 "Online" = "在线";
 "Only contacts" = "仅联系人";
 "Open" = "打开";
+"Open account settings" = "打开账号设置";
 "Open app to see more" = "打开应用查看更多";
 /* muc members list */
 "Open contact details" = "打开联系人详请";
 "Open contact list" = "打开联系人列表";
 "Open in default browser" = "在默认浏览器中打开";
 "Open iOS settings" = "打开 iOS 设置";
-"Open list of pending contact requests" = "打开待处理联系人请求列表";
 "Open macOS settings" = "打开 macOS 设置";
 "Open Profile of %@" = "打开 %@ 的配置文件";
 "Open Source" = "开源";
@@ -572,6 +578,7 @@
 "Password cannot be empty" = "密码不能为空";
 "Password missing" = "密码丢失";
 "Passwords don't match!" = "密码不匹配！";
+"Pending contact requests" = "Pending contact requests";
 "Permission Requested" = "请求权限";
 "Photos" = "照片";
 "Pin Chat" = "固定聊天";
@@ -676,8 +683,6 @@
 "Send" = "发送";
 "Send last interaction time" = "发送上次交互时间";
 "Send Location" = "发送位置";
-"Send message displayed state" = "发送消息显示状态";
-"Send message received" = "发送消息已收到";
 "Send typing notifications" = "发送输入通知";
 "Sending..." = "正在发送…";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "以明文形式发送密码（仅通过 TLS 加密），不太安全";
@@ -829,7 +834,6 @@
 "Unblocking user" = "正在解除屏蔽用户";
 "Unblocking user for this group/channel: %@" = "正在解除屏蔽此群组/频道的用户：%@";
 "Unclean appex shutown" = "未清理的 appex 关闭";
-"Undefined error" = "未定义的错误";
 "Understood" = "了解";
 "Unexpected appex expiration" = "非预期的 appex 过期";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "使用 SASL2 对服务器进行身份验证时出现意外错误（服务器是否有错误？），正在断开连接！";
@@ -880,7 +884,7 @@
 "Welcome" = "欢迎";
 "What call do you want to place?" = "您想拨打什么电话？";
 "When disabled, URLs will opened in your default browser (that might not be Safari)." = "禁用后，URL 将在默认浏览器（可能不是 Safari）中打开。";
-"When you start talking to someone,\n they will show up here." = "当您开始和某人聊天时，\n 他们就会出现在这里。";
+"When you start a conversation\nwith someone, they will\nshow up here." = "When you start a conversation\nwith someone, they will\nshow up here.";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "将文本框焦点放在连接了硬件键盘的 macOS 或 iOS 上，否则将打开软件键盘。";
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
@@ -953,9 +957,14 @@
 "📍 A Location" = "📍 位置";
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
-"(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) 小时";
-"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "还请注意：您将无法从服务器加载旧聊天记录，Monal 在获取后会立即删除！";
-"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "请注意： 只有在收到推送或打开应用时，消息才会被删除！时间间隔较短时尤其如此！";
-"Custom Time: " = "自定义时间： ";
-"Group/Channel description" = "群组/频道描述";
-"Open account settings" = "打开账号设置";
+"Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
+"Even more to customize!" = "Even more to customize!";
+"Features" = "Features";
+"Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server." = "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.";
+"Send message receipts" = "Send message receipts";
+"Send read receipts" = "Send read receipts";
+"Take me to settings" = "Take me to settings";
+"These are important privacy settings you may want to review!" = "These are important privacy settings you may want to review!";
+"Welcome to Monal !" = "Welcome to Monal !";
+"You can customize even more, just use the button below to open the settings." = "You can customize even more, just use the button below to open the settings.";
+"🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution.";

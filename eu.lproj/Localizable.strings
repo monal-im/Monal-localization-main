@@ -5,6 +5,7 @@
 "%@" = "%@";
 "%@ (affiliation: %@)" = "%@ (afiliazioa: %@)";
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
+"%@ hours" = "%@ hours";
 "%@ says:" = "%@(e)k dio:";
 /* Message autdelete time */
 "1 day" = "Egun 1";
@@ -42,7 +43,6 @@
 "<unknown version>" = "<bertsio ezezaguna>";
 /* muc affiliation */
 "<unknown>" = "<ezezaguna>";
-"\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) ordu";
 "A contact was scanned through the QR code scanner" = "Kontaktu bat eskaneatu da QR kode-eskaneatzailearen bidez";
 "Abort" = "Alboratu";
 "Aborted recording audio" = "Audio grabaketa alboratu da";
@@ -92,6 +92,7 @@
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Kontaktu bezala gehi zaitzatela baimentzen baduzu, zure profileko irudia eta linean noiz zauden ikus dezakete.";
 "Already present" = "Dagoeneko badago";
 "Already uploading this content, ignoring" = "Eduki hau igotzen ari da honezkero, muzin egiten";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Argi ibili: ezingo duzu zure zerbitzariko historia zaharragoa kargatzeko, Monalek eskuratu eta berehala ezabatuko du!";
 "Always archive" = "Artxibatu beti";
 "Always use direct TLS, not STARTTLS" = "Erabili direct TLS, ez STARTTLS";
 "App" = "Aplikazioa";
@@ -113,6 +114,7 @@
 "Auto-Download Media" = "Jaitsi multimedia automatikoki";
 "Autofocus text input on chat open" = "Fokatu automatikoki testu-sarreran txata irekitzean";
 "Avatar" = "Abatarra";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Ohart ongi: mezua jakinarazpenak jasotzean edo aplikazioa irekitzean ezabatuko da soilik! Hau are ageriagoa da denbora-tarte laburragoetan!";
 "Block" = "Blokeatu";
 "Block Contact" = "Blokeatu kontaktua";
 "Block user?" = "Erabiltzailea blokeatu?";
@@ -174,6 +176,7 @@
 "Clear History" = "Garbitu historia";
 "Clear scanned contact" = "Garbitu eskaneatutako kontaktua";
 "Clear text" = "Garbitu testua";
+/* onboarding */
 "Close" = "Itxi";
 "Configure the background image displayed in open chats." = "Ezarri irekitako txaten hondoko irudia.";
 "Connected since: %@" = "%@etatik konektatuta";
@@ -228,6 +231,7 @@
 "Currently Online" = "Linean une honetan";
 /* Message autdelete time */
 "Custom" = "Norberak ezarri";
+"Custom Time: " = "Norbere denbora: ";
 "Database Export Failed" = "Datu-basea esportatzeak huts egin du";
 "Database Files" = "Datu-basearen fitxategiak";
 "Debug" = "Araztu";
@@ -396,6 +400,7 @@
 /* placeholder when creating new group */
 "Group Name (optional)" = "Taldearen izena (aukerakoa)";
 "Group subject:" = "Taldeko gaia:";
+"Group/Channel description" = "Talde/Kanalaren deskribapena";
 "Group/Channel got destroyed: %@" = "Taldea / kanala suntsitu da: %@";
 "Group/Channel not available anymore: %@" = "Taldea / kanala ez dago erabilgarri honezkero: %@";
 "groupJoin Group" = "Sartu taldean";
@@ -474,7 +479,6 @@
 "Me:" = "Neuk:";
 /* muc affiliation */
 "Member" = "Kidea";
-"Message Archive Preferences" = "Artxibatze-hobespenak";
 "Message from %@" = "%@(e)k bidalitako mezua";
 "Message was encrypted with '%@' which isn't supported by Monal" = "Mezua '%@' erabiliz zifratu da, Monalekin bateragarria ez dena";
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "Mezua OMEMOrekin zifratu zen eta ezin da dezifratu honezkero";
@@ -506,10 +510,13 @@
 "New omemo device" = "OMEMO gailu berria";
 "New Password" = "Pasahitz berria";
 "Newest TLS version which is faster than TLS 1.2" = "TLS bertsio berriena, TLS 1.2 baino azkarragoa dena";
+/* onboarding */
+"Next" = "Next";
 "Nickname" = "Ezizena";
 "No" = "Ez";
 "No account available to handel 'xmpp:' URI!" = "Ez dago 'xmpp:' URI erabili dezakeen konturik!";
 "No accounts set up currently" = "Ez da konturik ezarri oraingoz";
+"No active conversations" = "No active conversations";
 "No connected accounts" = "Ez dago konektatutako konturik";
 "No contacts to show :(" = "Ez dago kontakturik :(";
 "No Empty Values!" = "Ez utzi hutsik!";
@@ -517,7 +524,6 @@
 "No further error description" = "Ez dago errorearen deskribapenik";
 "No GPS location received" = "Ez da GPS kokapenik jaso";
 "No OMEMO keys found" = "Ez da OMEMO gakorik aurkitu";
-"No one is here" = "Inor ere ez";
 "No pending requests" = "Ez dago aztertu gabeko eskaerarik";
 "No search result." = "Emaitzarik gabeko bilaketa.";
 "No supported auth mechanism found, disabling account!" = "Ez da autentikatzeko mekanismo bateragarririk aurkitu, kontua ezgaitzen!";
@@ -545,13 +551,13 @@
 "Online" = "Linean";
 "Only contacts" = "Kontaktuak bakarrik";
 "Open" = "Ireki";
+"Open account settings" = "Ireki kontuaren ezarpenak";
 "Open app to see more" = "Ireki aplikazioa gehiago ikusteko";
 /* muc members list */
 "Open contact details" = "Ireki kontaktuaren xehetasunak";
 "Open contact list" = "Ireki kontaktuen zerrenda";
 "Open in default browser" = "Ireki defektuzko nabigatzailean";
 "Open iOS settings" = "Ireki iOSen ezarpenak";
-"Open list of pending contact requests" = "Ireki erabakitzeke kontaktu-eskaeren zerrenda";
 "Open macOS settings" = "Ireki macOSen ezarpenak";
 "Open Profile of %@" = "Ireki %@(r)en profila";
 "Open Source" = "Kode irekia";
@@ -572,6 +578,7 @@
 "Password cannot be empty" = "Pasahitza ezin da hutsik utzi";
 "Password missing" = "Pasahitza falta da";
 "Passwords don't match!" = "Pasahitzak ez datoz bat!";
+"Pending contact requests" = "Pending contact requests";
 "Permission Requested" = "Baimena eskatu zaio";
 "Photos" = "Bidali irudia";
 "Pin Chat" = "Finkatu txata";
@@ -676,8 +683,6 @@
 "Send" = "Bidali";
 "Send last interaction time" = "Bidali azken elkarreraginaren data";
 "Send Location" = "Bidali kokapena";
-"Send message displayed state" = "Bidali mezua ikustearen egoera";
-"Send message received" = "Bidali jaso izanaren mezua";
 "Send typing notifications" = "Bidali idazketa-jakinarazpenak";
 "Sending..." = "Bidaltzen…";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Pasahitzak testu hutsean bidaltzen ditu (TLS bidez zifratuta baino ez), ez da oso segurua";
@@ -829,7 +834,6 @@
 "Unblocking user" = "Erabiltzailea blokeatzeari uzten";
 "Unblocking user for this group/channel: %@" = "Erabiltzailea %@ talde/kanaletik blokeatzeari uzten";
 "Unclean appex shutown" = "Appex (app extension) ez da garbi itxi";
-"Undefined error" = "Zehaztu gabeko errorea";
 "Understood" = "Ulertuta";
 "Unexpected appex expiration" = "Appex (app extension) ustekabean iraungi da";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Espero ez zen zerbitzariaren SASL2 autentikazio errorea (zure zerbitzariaren akatsa da?), deskonektatzen!";
@@ -880,7 +884,7 @@
 "Welcome" = "Ongi etorri";
 "What call do you want to place?" = "Zer dei egin nahi duzu?";
 "When disabled, URLs will opened in your default browser (that might not be Safari)." = "Ezgaitzen denean, URLak defektuzko nabigatzailean irekiko dira (agian ez da Safari izango).";
-"When you start talking to someone,\n they will show up here." = "Norbaitekin hizketan hasiko zarenean, \n hemen agertuko dira.";
+"When you start a conversation\nwith someone, they will\nshow up here." = "When you start a conversation\nwith someone, they will\nshow up here.";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Testua idazteko eremua zuzenean aktibatuko da eta iOSen eta teklatu birtuala irekiko du.";
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
@@ -953,9 +957,14 @@
 "📍 A Location" = "📍 Kokapena";
 "📷 An Image" = "📷 Irudia";
 "🔗 A Link" = "🔗 Esteka";
-"(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) ordu";
-"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Argi ibili: ezingo duzu zure zerbitzariko historia zaharragoa kargatzeko, Monalek eskuratu eta berehala ezabatuko du!";
-"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Ohart ongi: mezua jakinarazpenak jasotzean edo aplikazioa irekitzean ezabatuko da soilik! Hau are ageriagoa da denbora-tarte laburragoetan!";
-"Custom Time: " = "Norbere denbora: ";
-"Group/Channel description" = "Talde/Kanalaren deskribapena";
-"Open account settings" = "Ireki kontuaren ezarpenak";
+"Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
+"Even more to customize!" = "Even more to customize!";
+"Features" = "Features";
+"Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server." = "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.";
+"Send message receipts" = "Send message receipts";
+"Send read receipts" = "Send read receipts";
+"Take me to settings" = "Take me to settings";
+"These are important privacy settings you may want to review!" = "These are important privacy settings you may want to review!";
+"Welcome to Monal !" = "Welcome to Monal !";
+"You can customize even more, just use the button below to open the settings." = "You can customize even more, just use the button below to open the settings.";
+"🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution.";

@@ -5,6 +5,7 @@
 "%@" = "%@";
 "%@ (affiliation: %@)" = "%@ (bağlılık: %@)";
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
+"%@ hours" = "%@ hours";
 "%@ says:" = "%@ diyor ki:";
 /* Message autdelete time */
 "1 day" = "1 gün";
@@ -42,7 +43,6 @@
 "<unknown version>" = "<bilinmeyen sürüm>";
 /* muc affiliation */
 "<unknown>" = "<bilinmeyen>";
-"\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) saat";
 "A contact was scanned through the QR code scanner" = "QR kod tarayıcısı aracılığıyla bir kişi tarandı";
 "Abort" = "İptal";
 "Aborted recording audio" = "İptal edilen ses kaydı";
@@ -92,6 +92,7 @@
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Birinin sizi kişi olarak eklemesine izin vermek, profil resminizi ve çevrimiçi olduğunuzda görmesini sağlar.";
 "Already present" = "Zaten mevcut";
 "Already uploading this content, ignoring" = "Bu içeriği zaten yüklüyor, yoksay";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Ayrıca dikkat: Sunucunuzdan eski geçmişi yükleyemezsiniz, Monal onu aldıktan sonra hemen silecektir!";
 "Always archive" = "Her zaman arşivle";
 "Always use direct TLS, not STARTTLS" = "Her zaman doğrudan TLS kullanın, STARTTLS değil";
 "App" = "Uygulama";
@@ -113,6 +114,7 @@
 "Auto-Download Media" = "Otomatik medya indirme";
 "Autofocus text input on chat open" = "Sohbet açıkken metin girişine otomatik odaklan";
 "Avatar" = "Profil Fotoğrafı";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Dikkatli olun: Mesaj yalnızca gelen push'larda veya uygulamayı açtığınızda silinecektir! Bu özellikle kısa zaman aralıkları için geçerlidir!";
 "Block" = "Engelle";
 "Block Contact" = "Kişiyi Engelle";
 "Block user?" = "Kullanıcıyı engelle?";
@@ -174,6 +176,7 @@
 "Clear History" = "Geçmişi Temizle";
 "Clear scanned contact" = "Taranan kişiyi temizle";
 "Clear text" = "Metni temizle";
+/* onboarding */
 "Close" = "Kapat";
 "Configure the background image displayed in open chats." = "Açık sohbetlerde görüntülenen arka plan görüntüsünü yapılandırın.";
 "Connected since: %@" = "Şu zamandan beri bağlı: % @";
@@ -228,6 +231,7 @@
 "Currently Online" = "Şu Anda Çevrimiçi";
 /* Message autdelete time */
 "Custom" = "Özel";
+"Custom Time: " = "Özel Zaman: ";
 "Database Export Failed" = "Veritabanı Dışa Aktarımı Başarısız";
 "Database Files" = "Veritabanı Dosyaları";
 "Debug" = "Hata ayıklama";
@@ -396,6 +400,7 @@
 /* placeholder when creating new group */
 "Group Name (optional)" = "Grup Adı (opsiyonel)";
 "Group subject:" = "Grup konusu:";
+"Group/Channel description" = "Grup/Kanal açıklaması";
 "Group/Channel got destroyed: %@" = "Grup/Kanal yok edildi: %@";
 "Group/Channel not available anymore: %@" = "Grup/Kanal artık mevcut değil: %@";
 "groupJoin Group" = "group Grubuna Katıl";
@@ -474,7 +479,6 @@
 "Me:" = "Ben:";
 /* muc affiliation */
 "Member" = "Üye";
-"Message Archive Preferences" = "Mesaj Arşivi Tercihleri";
 "Message from %@" = "%@'dan gelen mesaj";
 "Message was encrypted with '%@' which isn't supported by Monal" = "İleti, Monal tarafından desteklenmeyen '%@' ile şifrelendi";
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "İleti OMEMO ile şifrelendi ancak şifresi artık çözülemiyor";
@@ -506,10 +510,13 @@
 "New omemo device" = "Yeni omemo cihazı";
 "New Password" = "Yeni Parola";
 "Newest TLS version which is faster than TLS 1.2" = "TLS 1.2'den daha hızlı olan en yeni TLS versiyonu";
+/* onboarding */
+"Next" = "Next";
 "Nickname" = "Takma ad";
 "No" = "Hayır";
 "No account available to handel 'xmpp:' URI!" = "'xmpp:' URI'sini işlemek için kullanılabilir hesap yok!";
 "No accounts set up currently" = "Şu anda ayarlanmış hesap yok";
+"No active conversations" = "No active conversations";
 "No connected accounts" = "Bağlı hesap yok";
 "No contacts to show :(" = "Gösterilecek kişi yok :(";
 "No Empty Values!" = "Boş Değer Olmaz!";
@@ -517,7 +524,6 @@
 "No further error description" = "Daha fazla hata açıklaması yok";
 "No GPS location received" = "GPS konumunuz alınmadı";
 "No OMEMO keys found" = "OMEMO anahtarı bulunamadı";
-"No one is here" = "Burada kimse yok";
 "No pending requests" = "Bekleyen istek yok";
 "No search result." = "Arama sonucu yok.";
 "No supported auth mechanism found, disabling account!" = "Desteklenen bir kimlik doğrulama mekanizması bulunamadı, hesap devre dışı bırakılıyor!";
@@ -545,13 +551,13 @@
 "Online" = "Çevrimiçi";
 "Only contacts" = "Yalnızca kişiler";
 "Open" = "Aç";
+"Open account settings" = "Hesap ayarlarını aç";
 "Open app to see more" = "Daha fazlasını görmek için uygulamayı açın";
 /* muc members list */
 "Open contact details" = "İletişim bilgilerini aç";
 "Open contact list" = "Kişi listesini aç";
 "Open in default browser" = "Varsayılan tarayıcıda aç";
 "Open iOS settings" = "iOS ayarlarını aç";
-"Open list of pending contact requests" = "Bekleyen iletişim taleplerinin açık listesi";
 "Open macOS settings" = "macOS ayarlarını aç";
 "Open Profile of %@" = "%@ Profilini Aç";
 "Open Source" = "Açık Kaynak";
@@ -572,6 +578,7 @@
 "Password cannot be empty" = "Şifre boş bırakılamaz";
 "Password missing" = "Parola eksik";
 "Passwords don't match!" = "Şifreler eşleşmiyor!";
+"Pending contact requests" = "Pending contact requests";
 "Permission Requested" = "İzin İstendi";
 "Photos" = "Fotoğraflar";
 "Pin Chat" = "Sohbeti Sabitle";
@@ -676,8 +683,6 @@
 "Send" = "Gönder";
 "Send last interaction time" = "Son etkileşim zamanını gönder";
 "Send Location" = "Konum Gönder";
-"Send message displayed state" = "Mesaj görüntüleme durumunu gönder";
-"Send message received" = "Mesaj alındısı gönder";
 "Send typing notifications" = "Yazma Bildirimleri Gönder";
 "Sending..." = "Gönderiliyor...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Parolayı açık metin olarak gönderir (yalnızca TLS ile şifrelenir), çok güvenli değildir";
@@ -829,7 +834,6 @@
 "Unblocking user" = "Kullanıcı engelini kaldır";
 "Unblocking user for this group/channel: %@" = "Bu grup/kanal için engellemesi kaldıran kullanıcı: %@";
 "Unclean appex shutown" = "Temiz olmayan appex kapanması";
-"Undefined error" = "Tanımlanmamış hata";
 "Understood" = "Anlaşıldı";
 "Unexpected appex expiration" = "Beklenmedik appex sona ermesi";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "SASL2 kullanarak sunucu kimlik doğrulamasında beklenmeyen hata (sunucunuzda bir bug mı var?), bağlantı kesiliyor!";
@@ -880,7 +884,7 @@
 "Welcome" = "Hoşgeldiniz";
 "What call do you want to place?" = "Hangi çağrıyı yapmak istiyorsunuz?";
 "When disabled, URLs will opened in your default browser (that might not be Safari)." = "Devre dışı bırakıldığında, URL'ler varsayılan tarayıcınızda açılır (bu Safari olmayabilir).";
-"When you start talking to someone,\n they will show up here." = "Biriyle konuşmaya başladığınızda,\n burada görünecekler.";
+"When you start a conversation\nwith someone, they will\nshow up here." = "When you start a conversation\nwith someone, they will\nshow up here.";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Donanım klavyesi takılıyken macOS veya iOS'ta metin alanına odaklanır, aksi takdirde yazılım klavyesini açar.";
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
@@ -953,9 +957,14 @@
 "📍 A Location" = "📍 Bir Konum";
 "📷 An Image" = "📷 Bir Resim";
 "🔗 A Link" = "🔗 Bir Bağlantı";
-"(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) saat";
-"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Ayrıca dikkat: Sunucunuzdan eski geçmişi yükleyemezsiniz, Monal onu aldıktan sonra hemen silecektir!";
-"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Dikkatli olun: Mesaj yalnızca gelen push'larda veya uygulamayı açtığınızda silinecektir! Bu özellikle kısa zaman aralıkları için geçerlidir!";
-"Custom Time: " = "Özel Zaman: ";
-"Group/Channel description" = "Grup/Kanal açıklaması";
-"Open account settings" = "Hesap ayarlarını aç";
+"Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
+"Even more to customize!" = "Even more to customize!";
+"Features" = "Features";
+"Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server." = "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.";
+"Send message receipts" = "Send message receipts";
+"Send read receipts" = "Send read receipts";
+"Take me to settings" = "Take me to settings";
+"These are important privacy settings you may want to review!" = "These are important privacy settings you may want to review!";
+"Welcome to Monal !" = "Welcome to Monal !";
+"You can customize even more, just use the button below to open the settings." = "You can customize even more, just use the button below to open the settings.";
+"🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution.";

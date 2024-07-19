@@ -6,10 +6,36 @@
 "%@ (affiliation: %@)" = "%@ (affiliation: %@)";
 "%@ (type '%@', category '%@')" = "%@ (type '%@', category '%@')";
 "%@ says:" = "%@ says:";
+/* Message autdelete time */
+"1 day" = "1 day";
+/* Message autdelete time */
+"1 hour" = "1 hour";
 "1 MiB" = "1 MiB";
+/* Message autdelete time */
+"1 minute" = "1 minute";
+/* Message autdelete time */
+"1 week" = "1 week";
 "100 MiB" = "100 MiB";
 "100%" = "100%";
+/* Message autdelete time */
+"12 hours" = "12 hours";
+/* Message autdelete time */
+"15 minutes" = "15 minutes";
+/* Message autdelete time */
+"2 month" = "2 month";
+/* Message autdelete time */
+"3 days" = "3 days";
+/* Message autdelete time */
+"3 month" = "3 month";
+/* Message autdelete time */
+"30 minutes" = "30 minutes";
+/* Message autdelete time */
+"30 seconds" = "30 seconds";
 "33%" = "33%";
+/* Message autdelete time */
+"4 weeks" = "4 weeks";
+/* Message autdelete time */
+"5 minutes" = "5 minutes";
 /* server details */
 "<unknown server>" = "<unknown server>";
 /* server details */
@@ -63,6 +89,7 @@
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
 "Already present" = "Already present";
 "Already uploading this content, ignoring" = "Already uploading this content, ignoring";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!";
 "Always archive" = "Always archive";
 "Always use direct TLS, not STARTTLS" = "Always use direct TLS, not STARTTLS";
 "App" = "App";
@@ -73,6 +100,7 @@
 "Apple Push Token is not available!" = "Apple Push Token is not available!";
 "Approve new contact" = "Approve new contact";
 "Archive chat" = "Archive chat";
+"Archive only if the contact is in contact list." = "Archive only if the contact is in contact list.";
 "Attachments" = "Attachments";
 "Audio recorder init fail." = "Audio recorder init fail.";
 "Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
@@ -83,6 +111,7 @@
 "Auto-Download Media" = "Auto-Download Media";
 "Autofocus text input on chat open" = "Autofocus text input on chat open";
 "Avatar" = "Avatar";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
 "Block" = "Block";
 "Block Contact" = "Block Contact";
 "Block user?" = "Block user?";
@@ -196,6 +225,9 @@
 "Creating invitation..." = "Creating invitation...";
 "Current Password" = "Current Password";
 "Currently Online" = "Currently Online";
+/* Message autdelete time */
+"Custom" = "Custom";
+"Custom Time: " = "Custom Time: ";
 "Database Export Failed" = "Database Export Failed";
 "Database Files" = "Database Files";
 "Debug" = "Debug";
@@ -364,6 +396,7 @@
 /* placeholder when creating new group */
 "Group Name (optional)" = "Group Name (optional)";
 "Group subject:" = "Group subject:";
+"Group/Channel description" = "Group/Channel description";
 "Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
 "Group/Channel not available anymore: %@" = "Group/Channel not available anymore: %@";
 "groupJoin Group" = "groupJoin Group";
@@ -441,7 +474,6 @@
 /* Prefix for own messages in chat overview */
 "Me:" = "Me:";
 "Member" = "Member";
-"Message Archive Preferences" = "Message Archive Preferences";
 "Message from %@" = "Message from %@";
 "Message was encrypted with '%@' which isn't supported by Monal" = "Message was encrypted with '%@' which isn't supported by Monal";
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "Message was encrypted with OMEMO and can't be decrypted anymore";
@@ -484,7 +516,6 @@
 "No further error description" = "No further error description";
 "No GPS location received" = "No GPS location received";
 "No OMEMO keys found" = "No OMEMO keys found";
-"No one is here" = "No one is here";
 "No pending requests" = "No pending requests";
 "No search result." = "No search result.";
 "No supported auth mechanism found, disabling account!" = "No supported auth mechanism found, disabling account!";
@@ -501,6 +532,8 @@
 "Notify on all messages" = "Notify on all messages";
 "Notify only when mentioned" = "Notify only when mentioned";
 "now" = "now";
+/* Message autdelete time */
+"Off" = "Off";
 /* Crash report error dialog */
 "OK" = "OK";
 "Ok" = "Ok";
@@ -510,13 +543,13 @@
 "Online" = "Online";
 "Only contacts" = "Only contacts";
 "Open" = "Open";
+"Open account settings" = "Open account settings";
 "Open app to see more" = "Open app to see more";
 /* muc members list */
 "Open contact details" = "Open contact details";
 "Open contact list" = "Open contact list";
 "Open in default browser" = "Open in default browser";
 "Open iOS settings" = "Open iOS settings";
-"Open list of pending contact requests" = "Open list of pending contact requests";
 "Open macOS settings" = "Open macOS settings";
 "Open Profile of %@" = "Open Profile of %@";
 "Open Source" = "Open Source";
@@ -637,8 +670,6 @@
 "Send" = "Send";
 "Send last interaction time" = "Send last interaction time";
 "Send Location" = "Send Location";
-"Send message displayed state" = "Send message displayed state";
-"Send message received" = "Send message received";
 "Send typing notifications" = "Send typing notifications";
 "Sending..." = "Sending...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Sends password in cleartext (only encrypted by TLS), not very secure";
@@ -790,7 +821,6 @@
 "Unblocking user" = "Unblocking user";
 "Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
 "Unclean appex shutown" = "Unclean appex shutown";
-"Undefined error" = "Undefined error";
 "Understood" = "Understood";
 "Unexpected appex expiration" = "Unexpected appex expiration";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
@@ -841,7 +871,6 @@
 "Welcome" = "Welcome";
 "What call do you want to place?" = "What call do you want to place?";
 "When disabled, URLs will opened in your default browser (that might not be Safari)." = "When disabled, URLs will opened in your default browser (that might not be Safari).";
-"When you start talking to someone,\n they will show up here." = "When you start talking to someone,\n they will show up here.";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise.";
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
@@ -914,41 +943,20 @@
 "📍 A Location" = "📍 A Location";
 "📷 An Image" = "📷 An Image";
 "🔗 A Link" = "🔗 A Link";
-"(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
-/* Message autdelete time */
-"1 day" = "1 day";
-/* Message autdelete time */
-"1 hour" = "1 hour";
-/* Message autdelete time */
-"1 minute" = "1 minute";
-/* Message autdelete time */
-"1 week" = "1 week";
-/* Message autdelete time */
-"12 hours" = "12 hours";
-/* Message autdelete time */
-"15 minutes" = "15 minutes";
-/* Message autdelete time */
-"2 month" = "2 month";
-/* Message autdelete time */
-"3 days" = "3 days";
-/* Message autdelete time */
-"3 month" = "3 month";
-/* Message autdelete time */
-"30 minutes" = "30 minutes";
-/* Message autdelete time */
-"30 seconds" = "30 seconds";
-/* Message autdelete time */
-"4 weeks" = "4 weeks";
-/* Message autdelete time */
-"5 minutes" = "5 minutes";
-"\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours" = "\(String(describing:(max(1, autodeleteInterval / 3600)).formatted())) hours";
-"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!";
-"Archive only if the contact is in contact list." = "Archive only if the contact is in contact list.";
-"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
-/* Message autdelete time */
-"Custom" = "Custom";
-"Custom Time: " = "Custom Time: ";
-"Group/Channel description" = "Group/Channel description";
-/* Message autdelete time */
-"Off" = "Off";
-"Open account settings" = "Open account settings";
+"%@ hours" = "%@ hours";
+"Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
+"Even more to customize!" = "Even more to customize!";
+"Features" = "Features";
+"Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server." = "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.";
+/* onboarding */
+"Next" = "Next";
+"No active conversations" = "No active conversations";
+"Pending contact requests" = "Pending contact requests";
+"Send message receipts" = "Send message receipts";
+"Send read receipts" = "Send read receipts";
+"Take me to settings" = "Take me to settings";
+"These are important privacy settings you may want to review!" = "These are important privacy settings you may want to review!";
+"Welcome to Monal !" = "Welcome to Monal !";
+"When you start a conversation\nwith someone, they will\nshow up here." = "When you start a conversation\nwith someone, they will\nshow up here.";
+"You can customize even more, just use the button below to open the settings." = "You can customize even more, just use the button below to open the settings.";
+"🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution.";
