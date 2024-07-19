@@ -64,11 +64,11 @@
 "Add %@ to your contacts?" = "Gehitu %@ zure kontaktuetara?";
 "Add Account" = "Gehitu kontua";
 "Add Account (advanced)" = "Gehitu kontua (aurreratua)";
+"Add contact" = "Add contact";
+"Add contact (contact requests pending)" = "Add contact (contact requests pending)";
 "Add Contact or Channel" = "Gehitu kontaktua edo kanala";
-"Add Group/Channel or Contact" = "Gehitu taldea / kanala edo kontaktua";
 "Add members to group" = "Gehitu kideak taldera";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Gehitu kontaktu berriak goialdeko + botoia erabiliz. Zure lagunak hemen agertuko dira hitz egin dezaketenean";
-"Add scanned Group/Channel or Contact" = "Gehitu eskaneatutako talde / kanal edo kontaktua";
 "Add to contacts" = "Gehitu kontaktuetara";
 "Adding %@..." = "%@ gehitzen...";
 "Adding Group/Channel..." = "Taldea/Kanala gehitzen…";
@@ -115,6 +115,7 @@
 "Autofocus text input on chat open" = "Fokatu automatikoki testu-sarreran txata irekitzean";
 "Avatar" = "Abatarra";
 "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Ohart ongi: mezua jakinarazpenak jasotzean edo aplikazioa irekitzean ezabatuko da soilik! Hau are ageriagoa da denbora-tarte laburragoetan!";
+"Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
 "Block" = "Blokeatu";
 "Block Contact" = "Blokeatu kontaktua";
 "Block user?" = "Erabiltzailea blokeatu?";
@@ -188,7 +189,6 @@
 "Contact not found" = "Ez da kontaktua aurkitu";
 /* placeholder when adding jid */
 "Contact or Group/Channel Jid" = "Kontaktuaren edo Taldearen/Kanalaren Jid-a";
-"Contact Requests" = "Kontaktu-eskaerak";
 "Contact Selection" = "Kontaktuen hautaketa";
 "Contacts" = "Kontaktuak";
 "Cool Title" = "Titulu bikaina";
@@ -341,6 +341,7 @@
 "Error: No contacts to display keys for!" = "Errorea: Ez dago gakoak ikusteko kontakturik!";
 "Error: Received OMEMO message is empty" = "Errorea: jasotako OMEMO mezua hutsik dago";
 "errorMessage" = "errorMessage";
+"Even more to customize!" = "Even more to customize!";
 "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Kontaktu berri bakoitzak zifraketa gaituta izango du, baina dagoeneko gehitutako kontaktuek orain arteko zifratze-ezarpenak mantenduko dituzte.";
 "Failed to block contact %@" = "Ezin izan da %@ blokeatu";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak huts egin du";
@@ -381,6 +382,7 @@
 "Failed to share file" = "Fitxategia partekatzeak kale egin du";
 "Failed to upload file: account was removed" = "Fitxategia igotzeak kale egin du: kontua kendu da";
 "Failed to write decrypted download into cache directory" = "Ezin izan da jaitsi eta dezifratutakoa katxe direktorioan idatzi";
+"Features" = "Features";
 "Fetching registration form..." = "Izena emateko formularioa eskuratzen...";
 "File" = "Bidali fitxategia";
 "filename" = "fitxategi-izena";
@@ -492,6 +494,7 @@
 "Misc" = "Denetarik";
 "Missing Call Support" = "Ez dago deiak egiteko aukerarik";
 "Missing permission" = "Baimena falta da";
+"Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server." = "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.";
 "Monal" = "Monal";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monalek, unean, gako hau fidagarritzat dauka baina hatzmarkak ez dira oraindik alderatu. Segurtasuna handitzeko, egiaztatu pantailan ageri diren hatzmarkak bat datozela kontaktuarenekin gakoaz fidatu baino lehen!";
 "Monal did not received a gps location. Please try again later." = "Monalek ez du GPS kokapenik jaso. Saiatu berriro geroago.";
@@ -524,7 +527,6 @@
 "No further error description" = "Ez dago errorearen deskribapenik";
 "No GPS location received" = "Ez da GPS kokapenik jaso";
 "No OMEMO keys found" = "Ez da OMEMO gakorik aurkitu";
-"No pending requests" = "Ez dago aztertu gabeko eskaerarik";
 "No search result." = "Emaitzarik gabeko bilaketa.";
 "No supported auth mechanism found, disabling account!" = "Ez da autentikatzeko mekanismo bateragarririk aurkitu, kontua ezgaitzen!";
 "No XMPP server!" = "Ez dago XMPP zerbitzaririk!";
@@ -556,6 +558,7 @@
 /* muc members list */
 "Open contact details" = "Ireki kontaktuaren xehetasunak";
 "Open contact list" = "Ireki kontaktuen zerrenda";
+"Open contact list (contact requests pending)" = "Open contact list (contact requests pending)";
 "Open in default browser" = "Ireki defektuzko nabigatzailean";
 "Open iOS settings" = "Ireki iOSen ezarpenak";
 "Open macOS settings" = "Ireki macOSen ezarpenak";
@@ -578,7 +581,6 @@
 "Password cannot be empty" = "Pasahitza ezin da hutsik utzi";
 "Password missing" = "Pasahitza falta da";
 "Passwords don't match!" = "Pasahitzak ez datoz bat!";
-"Pending contact requests" = "Pending contact requests";
 "Permission Requested" = "Baimena eskatu zaio";
 "Photos" = "Bidali irudia";
 "Pin Chat" = "Finkatu txata";
@@ -683,6 +685,8 @@
 "Send" = "Bidali";
 "Send last interaction time" = "Bidali azken elkarreraginaren data";
 "Send Location" = "Bidali kokapena";
+"Send message receipts" = "Send message receipts";
+"Send read receipts" = "Send read receipts";
 "Send typing notifications" = "Bidali idazketa-jakinarazpenak";
 "Sending..." = "Bidaltzen…";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Pasahitzak testu hutsean bidaltzen ditu (TLS bidez zifratuta baino ez), ez da oso segurua";
@@ -732,6 +736,7 @@
 /* Crash reporting */
 "Sure, send it!" = "Noski, bidali!";
 "Synchronize your messages on all loggedin devices." = "Sinkronizatu mezuak saioa hasita duten gailu guztietan.";
+"Take me to settings" = "Take me to settings";
 "Temporary failure to enter Group/Channel: %@" = "Taldea / kanalarekin bat egiteak kale egin du behin-behinean: %@";
 "Terms of %@" = "%@(r)en baldintzak";
 "Terms of use for %@" = "%@(r)en erabilera baldintzak";
@@ -761,6 +766,7 @@
 "There was a SASL error on the server." = "SASL errore bat gertatu da zerbitzarian.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "Errorea gertatu da zifratutako mezu hau dezifratzerakoan (Signal errorea). Konpontzeko saiatu zifratutako mezu bat bidaltzen pertsona honi.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "Errorea mezu zifratu hau dezifratzerakoan (Signal errorea). Konpontzeko saiatu zifratutako mezu bat bidaltzen pertsona honi. (%@)";
+"These are important privacy settings you may want to review!" = "These are important privacy settings you may want to review!";
 "These are SRV resource records found for your domain." = "Hauek dira zure domeinurako aurkitu diren SRV resource erregistroak.";
 "These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "Hauek dira zure zerbitzariak iragarritako STUN eta TURN zerbitzuak (urdinez Monalek erabiltzen dituenak).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "Honakoak dira zure zerbitzariarekin bateragarriak diren channel-binding motak TLS geruzan erasoak antzemateko (erabilitakoak, urdinez; Monalekin bateragarriak ez direnak, laranjaz).";
@@ -882,6 +888,7 @@
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Ezin izan dugu zure kontua konektatu. Egiaztatu erabiltzaile-izena eta pasahitza, eta baieztatu internetera sarbidea duzula.\n\nErrorearen mezu teknikoa: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Channel-binding mota ahulena, ez du ostutako ziurtagiri edo gakoetatik babesten, baina oker jaulkitako ziurtagiriak antzematen ditu.";
 "Welcome" = "Ongi etorri";
+"Welcome to Monal !" = "Welcome to Monal !";
 "What call do you want to place?" = "Zer dei egin nahi duzu?";
 "When disabled, URLs will opened in your default browser (that might not be Safari)." = "Ezgaitzen denean, URLak defektuzko nabigatzailean irekiko dira (agian ez da Safari izango).";
 "When you start a conversation\nwith someone, they will\nshow up here." = "When you start a conversation\nwith someone, they will\nshow up here.";
@@ -924,6 +931,7 @@
 "You are set up and connected." = "Dena prest eta konektatuta.";
 "You are set up and connected. People can message you at: %@@%@" = "Kontua konfiguratuta eta konektatuta. Jendeak honako helbidera idatz diezazuke: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "'%@'(e)ri (%@) deitzen saiatzen ari zara, baina kontu desberdinak erabiliz dei diezaiokezu. Hautatu zein konturekin egin nahi diozun dei.";
+"You can customize even more, just use the button below to open the settings." = "You can customize even more, just use the button below to open the settings.";
 "You did not grant Monal to access your location." = "Ez diozu Monali kokapena atzitzeko baimenik eman.";
 "You got banned from group/channel: %@" = "Talde/kanalean debekua ezarri dizute: %@";
 "You got kicked from group/channel: %@" = "Talde/kanaletik kanporatu zaituzte: %@";
@@ -957,14 +965,7 @@
 "📍 A Location" = "📍 Kokapena";
 "📷 An Image" = "📷 Irudia";
 "🔗 A Link" = "🔗 Esteka";
-"Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
-"Even more to customize!" = "Even more to customize!";
-"Features" = "Features";
-"Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server." = "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.";
-"Send message receipts" = "Send message receipts";
-"Send read receipts" = "Send read receipts";
-"Take me to settings" = "Take me to settings";
-"These are important privacy settings you may want to review!" = "These are important privacy settings you may want to review!";
-"Welcome to Monal !" = "Welcome to Monal !";
-"You can customize even more, just use the button below to open the settings." = "You can customize even more, just use the button below to open the settings.";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution.";
+"Add" = "Add";
+"Add scanned contact" = "Add scanned contact";
+"No pending constact requests" = "No pending constact requests";

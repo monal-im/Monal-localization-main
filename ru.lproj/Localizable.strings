@@ -64,11 +64,11 @@
 "Add %@ to your contacts?" = "Добавить %@ в ваши контакты?";
 "Add Account" = "Добавить учётную запись";
 "Add Account (advanced)" = "Добавить учётную запись (подробно)";
+"Add contact" = "Add contact";
+"Add contact (contact requests pending)" = "Add contact (contact requests pending)";
 "Add Contact or Channel" = "Добавить Контакт или Канал";
-"Add Group/Channel or Contact" = "Добавить Группу/Канал или Контакт";
 "Add members to group" = "Добавить участников в группу";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Добавьте новые контакты с помощью кнопки + выше. Ваши друзья появятся здесь, когда они смогут разговаривать";
-"Add scanned Group/Channel or Contact" = "Добавить отсканированную Группу/Канал или Контакт";
 "Add to contacts" = "Добавить в контакты";
 "Adding %@..." = "Добавление %@...";
 "Adding Group/Channel..." = "Добавление Группы/Канала...";
@@ -115,6 +115,7 @@
 "Autofocus text input on chat open" = "Автофокус на поле ввода при открытии переписки";
 "Avatar" = "Аватар";
 "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Предупреждение: Сообщение будет удалено только по получении push-уведомлений либо при открытии приложения. Это имеет значение на коротких временных интервалах.";
+"Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
 "Block" = "Заблокировать";
 "Block Contact" = "Заблокировать Контакт";
 "Block user?" = "Заблокировать пользователя?";
@@ -188,7 +189,6 @@
 "Contact not found" = "Контакт не найден";
 /* placeholder when adding jid */
 "Contact or Group/Channel Jid" = "XMPP адрес контакта или группы/канала";
-"Contact Requests" = "Заявки контактов";
 "Contact Selection" = "Выбор контакта";
 "Contacts" = "Контакты";
 "Cool Title" = "Название";
@@ -341,6 +341,7 @@
 "Error: No contacts to display keys for!" = "Ошибка: Отсутствуют контакты для которых отображать ключи.";
 "Error: Received OMEMO message is empty" = "Ошибка: Получено пустое OMEMO сообщение";
 "errorMessage" = "сообщение об ошибке";
+"Even more to customize!" = "Even more to customize!";
 "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Для каждого нового контакта будет активироваться шифрование; при этом, для уже известных контактов сохранятся выбранные настройки шифрования.";
 "Failed to block contact %@" = "Не удалось заблокировать контакт %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Не удалось изменить статус '%1$@' в '%2$@' на '%3$@'";
@@ -381,6 +382,7 @@
 "Failed to share file" = "Не удалось поделиться файлом";
 "Failed to upload file: account was removed" = "Не удалось отправить файл: учётная запись удалена";
 "Failed to write decrypted download into cache directory" = "Не удалось записать расшифрованную версию загруженного файла в папку кэша";
+"Features" = "Features";
 "Fetching registration form..." = "Загрузка регистрационной формы...";
 "File" = "Файл";
 "filename" = "имя файла";
@@ -492,6 +494,7 @@
 "Misc" = "Другое";
 "Missing Call Support" = "Отсутствует поддержка звонков";
 "Missing permission" = "Отсутствует разрешение";
+"Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server." = "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.";
 "Monal" = "Monal";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Сейчас Monal доверяет этому ключу, но сравнение отпечатков не производилось. Для повышения уровня безопасности сверьте отображаемые отпечатки с собеседником перед тем как переводить данный ключ в разряд доверенных!";
 "Monal did not received a gps location. Please try again later." = "Monal не смог получить информацию о вашем местоположении. Повторите попытку позже.";
@@ -524,7 +527,6 @@
 "No further error description" = "Дополнительная детализация ошибки отсутствует";
 "No GPS location received" = "Не удалось получить геолокацию";
 "No OMEMO keys found" = "Ключи OMEMO не найдены";
-"No pending requests" = "Запросы контактов отсутствуют";
 "No search result." = "Ничего не найдено.";
 "No supported auth mechanism found, disabling account!" = "Не найдены поддерживаемые механизмы аутентификации, учётная запись деактивируется.";
 "No XMPP server!" = "Отсутствует XMPP сервер.";
@@ -556,6 +558,7 @@
 /* muc members list */
 "Open contact details" = "Информация о контакте";
 "Open contact list" = "Открыть список контактов";
+"Open contact list (contact requests pending)" = "Open contact list (contact requests pending)";
 "Open in default browser" = "Открыть в браузере по умолчанию";
 "Open iOS settings" = "Открыть настройки iOS";
 "Open macOS settings" = "Открыть настройки macOS";
@@ -578,7 +581,6 @@
 "Password cannot be empty" = "Пароль не может быть пустым";
 "Password missing" = "Отсутствует пароль";
 "Passwords don't match!" = "Пароли не совпадают.";
-"Pending contact requests" = "Pending contact requests";
 "Permission Requested" = "Требуется разрешение";
 "Photos" = "Фотографии";
 "Pin Chat" = "Закрепить переписку";
@@ -683,6 +685,8 @@
 "Send" = "Отправить";
 "Send last interaction time" = "Делиться статусом активности";
 "Send Location" = "Отправить геопозицию";
+"Send message receipts" = "Send message receipts";
+"Send read receipts" = "Send read receipts";
 "Send typing notifications" = "Делиться статусом \"Печатает\"";
 "Sending..." = "Отправка...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Отправка паролей в открытом виде с шифрованием только средствами TLS. (не особо безопасно)";
@@ -732,6 +736,7 @@
 /* Crash reporting */
 "Sure, send it!" = "Конечно отправить!";
 "Synchronize your messages on all loggedin devices." = "Синхронизация сообщений между всеми аутентифицированными устройствами.";
+"Take me to settings" = "Take me to settings";
 "Temporary failure to enter Group/Channel: %@" = "Сбой входа в группу/канал: %@";
 "Terms of %@" = "Условия использования %@";
 "Terms of use for %@" = "Условия использования для %@";
@@ -761,6 +766,7 @@
 "There was a SASL error on the server." = "На сервере произошла ошибка SASL.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "Не удалось расшифровать это сообщение (ошибка сигнала). Для устранения, попробуйте отправить шифрованное сообщение этому собеседнику.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "Не удалось расшифровать это сообщение (ошибка сигнала). Для устранения, попробуйте отправить шифрованное сообщение этому собеседнику. (%@)";
+"These are important privacy settings you may want to review!" = "These are important privacy settings you may want to review!";
 "These are SRV resource records found for your domain." = "Для вашего домена в DNS найдены следующие служебные записи (SRV).";
 "These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "Ваш сервер анонсирует следующие STUN и TURN службы (синим выделены те, что использует Monal).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "Ваш сервер поддерживает следующие способы привязки к каналу для обнаружения атак на уровень TLS (синим выделены используемые, оранжевым - неподдерживаемые Monal).";
@@ -882,6 +888,7 @@
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Не удалось войти в вашу учётную запись. Пожалуйста, проверьте имя пользователя и пароль, а также убедитесь в исправности подключения к Интернет.\n\nТехническое сообщение от ошибке: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Самый уязвимый из способов привязки к каналу передачи данных: не защищает от краденых сертификатов/ключей, но выявляет некорректно выданные сертификаты.";
 "Welcome" = "Добро пожаловать";
+"Welcome to Monal !" = "Welcome to Monal !";
 "What call do you want to place?" = "Какой звонок хотите совершить?";
 "When disabled, URLs will opened in your default browser (that might not be Safari)." = "Если отключить, ссылки будут открываться в вашем браузере по умолчанию (и это может быть не Safari).";
 "When you start a conversation\nwith someone, they will\nshow up here." = "When you start a conversation\nwith someone, they will\nshow up here.";
@@ -924,6 +931,7 @@
 "You are set up and connected." = "Всё настроено и подключено.";
 "You are set up and connected. People can message you at: %@@%@" = "Всё настроено и подключено. Теперь вам могут присылать сообщения на: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "Вы пытаетесь позвонить '%@' (%@), но этот контакт доступен с разных учётных записей. Пожалуйста, выберите ту учётную запись с которой нужно произвести исходящий вызов.";
+"You can customize even more, just use the button below to open the settings." = "You can customize even more, just use the button below to open the settings.";
 "You did not grant Monal to access your location." = "У Monal нет доступа к вашей геопозиции.";
 "You got banned from group/channel: %@" = "Вас заблокировали в группе/канале: %@";
 "You got kicked from group/channel: %@" = "Вас выгнали из группы/канала: %@";
@@ -957,14 +965,7 @@
 "📍 A Location" = "📍 Геопозиция";
 "📷 An Image" = "📷 Изображение";
 "🔗 A Link" = "🔗 Ссылка";
-"Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
-"Even more to customize!" = "Even more to customize!";
-"Features" = "Features";
-"Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server." = "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.";
-"Send message receipts" = "Send message receipts";
-"Send read receipts" = "Send read receipts";
-"Take me to settings" = "Take me to settings";
-"These are important privacy settings you may want to review!" = "These are important privacy settings you may want to review!";
-"Welcome to Monal !" = "Welcome to Monal !";
-"You can customize even more, just use the button below to open the settings." = "You can customize even more, just use the button below to open the settings.";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution.";
+"Add" = "Add";
+"Add scanned contact" = "Add scanned contact";
+"No pending constact requests" = "No pending constact requests";

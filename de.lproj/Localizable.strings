@@ -64,11 +64,11 @@
 "Add %@ to your contacts?" = "%@ zu deinen Kontakten hinzufügen?";
 "Add Account" = "Konto hinzufügen";
 "Add Account (advanced)" = "Konto hinzufügen (erweitert)";
+"Add contact" = "Add contact";
+"Add contact (contact requests pending)" = "Add contact (contact requests pending)";
 "Add Contact or Channel" = "Kontakt oder Channel hinzufügen";
-"Add Group/Channel or Contact" = "Gruppe/Channel oder Kontakt hinzufügen";
 "Add members to group" = "Mitglieder zur Gruppe hinzufügen";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Füge neue Kontakte oben mit dem + Button hinzu. Deine Freunde werden hier erscheinen, wenn sie sich mit dir unterhalten wollen";
-"Add scanned Group/Channel or Contact" = "Gescannte Gruppe/Channel oder Kontakt hinzufügen";
 "Add to contacts" = "Zu Kontakten hinzufügen";
 "Adding %@..." = "%@ wird hinzugefügt...";
 "Adding Group/Channel..." = "Gruppe/Channel wird hinzugefügt...";
@@ -115,6 +115,7 @@
 "Autofocus text input on chat open" = "Autofokus-Texteingabe bei geöffnetem Chat";
 "Avatar" = "Profilbild";
 "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Warnung! Die Nachricht wird nur bei eingehenden Pushs oder beim Öffnen der App gelöscht! Dies gilt insbesondere für kürzere Zeitintervalle!";
+"Become part of a worldwide decentralized chat network!" = "Werde Teil eines weltweiten dezentralen Chat-Netzwerks!";
 "Block" = "Sperren";
 "Block Contact" = "Kontakt sperren";
 "Block user?" = "Nutzer sperren?";
@@ -188,7 +189,6 @@
 "Contact not found" = "Kontakt nicht gefunden";
 /* placeholder when adding jid */
 "Contact or Group/Channel Jid" = "Kontakt- und Gruppen-/Channel-Adresse";
-"Contact Requests" = "Kontaktanfragen";
 "Contact Selection" = "Kontaktauswahl";
 "Contacts" = "Kontakte";
 "Cool Title" = "Titel";
@@ -341,6 +341,7 @@
 "Error: No contacts to display keys for!" = "Fehler: Keine Kontakte für die Anzeige von Schlüsseln!";
 "Error: Received OMEMO message is empty" = "Fehler: Empfangene OMEMO-Nachricht ist leer";
 "errorMessage" = "Fehlermeldung";
+"Even more to customize!" = "Noch mehr zum Individualisieren!";
 "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Bei jedem neuen Kontakt wird die Verschlüsselung aktiviert, aber bereits bekannte Kontakte behalten ihre Verschlüsselungseinstellungen bei.";
 "Failed to block contact %@" = "Kontakt %@ konnte nicht gesperrt werden";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Änderung der Zugehörigkeit von '%1$@' in '%2$@' nach '%3$@' fehlgeschlagen";
@@ -381,6 +382,7 @@
 "Failed to share file" = "Datei konnte nicht geteilt werden";
 "Failed to upload file: account was removed" = "Datei konnte nicht hochgeladen werden: Konto wurde entfernt";
 "Failed to write decrypted download into cache directory" = "Schreiben des entschlüsselten Downloads in das Cache-Verzeichnis fehlgeschlagen";
+"Features" = "Funktionen";
 "Fetching registration form..." = "Anmeldeformular wird abgerufen...";
 "File" = "Datei";
 "filename" = "Dateiname";
@@ -492,6 +494,7 @@
 "Misc" = "Sonstige";
 "Missing Call Support" = "Fehlender Anrufsupport";
 "Missing permission" = "Fehlende Berechtigung";
+"Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server." = "Moderner XMPP-Chat-Client für iOS und macOS.\n\nXMPP ist ein föderiertes Netzwerk: Genau wie bei E-Mail kannst du dein Konto auf vielen Servern registrieren und trotzdem mit jedem reden, auch wenn er sich auf einem anderen Server angemeldet hat.";
 "Monal" = "Monal";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal vertraut diesem Schlüssel derzeit, aber die Fingerabdrücke wurden noch nicht verglichen. Um die Sicherheit zu erhöhen, bestätige bitte mit dem Kontakt, dass die angezeigten Fingerabdrücke übereinstimmen, bevor du diesem Schlüssel vertraust!";
 "Monal did not received a gps location. Please try again later." = "Monal hat keinen GPS-Standort erhalten. Versuche es später erneut.";
@@ -524,7 +527,6 @@
 "No further error description" = "Keine weitere Fehlerbeschreibung";
 "No GPS location received" = "Kein GPS-Standort empfangen";
 "No OMEMO keys found" = "Keine OMEMO-Schlüssel gefunden";
-"No pending requests" = "Keine ausstehenden Anfragen";
 "No search result." = "Kein Suchergebnis.";
 "No supported auth mechanism found, disabling account!" = "Kein unterstützter Authentifizierungsmechanismus gefunden, Konto wird deaktiviert!";
 "No XMPP server!" = "Kein XMPP-Server!";
@@ -556,6 +558,7 @@
 /* muc members list */
 "Open contact details" = "Kontaktinformationen öffnen";
 "Open contact list" = "Kontaktliste öffnen";
+"Open contact list (contact requests pending)" = "Open contact list (contact requests pending)";
 "Open in default browser" = "Im Standardbrowser öffnen";
 "Open iOS settings" = "iOS-Einstellungen öffnen";
 "Open macOS settings" = "macOS-Einstellungen öffnen";
@@ -578,7 +581,6 @@
 "Password cannot be empty" = "Passwort darf nicht leer sein";
 "Password missing" = "Passwort fehlt";
 "Passwords don't match!" = "Passwörter stimmen nicht überein!";
-"Pending contact requests" = "Ausstehende Kontaktanfragen";
 "Permission Requested" = "Berechtigungsanfrage";
 "Photos" = "Fotos";
 "Pin Chat" = "Chat anheften";
@@ -683,6 +685,8 @@
 "Send" = "Gesendet";
 "Send last interaction time" = "Zeit der letzten Interaktion senden";
 "Send Location" = "Standort senden";
+"Send message receipts" = "Empfangsbestätigungen für Nachrichten senden";
+"Send read receipts" = "Lesebestätigungen senden";
 "Send typing notifications" = "Tippbenachrichtigungen senden";
 "Sending..." = "Sende...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Sendet das Passwort im Klartext (nur durch TLS verschlüsselt), nicht sehr sicher";
@@ -732,6 +736,7 @@
 /* Crash reporting */
 "Sure, send it!" = "Klar, sende es!";
 "Synchronize your messages on all loggedin devices." = "Synchronisiere deine Nachrichten auf allen angemeldeten Geräten.";
+"Take me to settings" = "Bring mich zu den Einstellungen";
 "Temporary failure to enter Group/Channel: %@" = "Temporäres Problem beim Beitreten des Gruppenchats/Channels %@";
 "Terms of %@" = "Nutzungsbedingungen für %@";
 "Terms of use for %@" = "Nutzungsbedingungen für %@";
@@ -761,6 +766,7 @@
 "There was a SASL error on the server." = "Es gab einen SASL-Fehler auf dem Server.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "Bei der Entschlüsselung dieser verschlüsselten Nachricht ist ein Fehler aufgetreten (Signal-Fehler). Um dies zu beheben, versuche eine verschlüsselte Nachricht an diese Person zu senden.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "Beim Entschlüsseln dieser verschlüsselten Nachricht ist ein Fehler aufgetreten (Signal-Fehler). Versuche, eine verschlüsselte Nachricht an diese Person zu senden, um dieses Problem zu beheben. (%@)";
+"These are important privacy settings you may want to review!" = "Dies sind wichtige Datenschutzeinstellungen, die du überprüfen solltest!";
 "These are SRV resource records found for your domain." = "Dies sind SRV-Ressourceneinträge, die für deine Domäne gefunden wurden.";
 "These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "Dies sind die von deinem Server gemeldeten STUN- und TURN-Dienste (die blauen Einträge werden von Monal verwendet).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "Dies sind die Kanalbindungsarten, die dein Server unterstützt, um Angriffe auf die TLS-Schicht zu erkennen (die verwendeten in blau, die orangefarbenen werden von Monal nicht unterstützt).";
@@ -882,6 +888,7 @@
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Wir können keine Verbindung zu deinem Konto herstellen. Bitte überprüfe deinen Benutzernamen und dein Passwort und stelle sicher, dass du mit dem Internet verbunden bist.\n\nTechnische Fehlermeldung: %@";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Schwächster Kanalbindungstyp, der nicht gegen gestohlene Zertifikate/Schlüssel schützt, aber falsch ausgestellte Zertifikate erkennt.";
 "Welcome" = "Willkommen";
+"Welcome to Monal !" = "Willkommen bei Monal !";
 "What call do you want to place?" = "Welchen Anruf möchtest du tätigen?";
 "When disabled, URLs will opened in your default browser (that might not be Safari)." = "Wenn diese Funktion deaktiviert ist, werden URLs in deinem Standardbrowser geöffnet (der nicht unbedingt Safari sein muss).";
 "When you start a conversation\nwith someone, they will\nshow up here." = "Wenn du eine Unterhaltung\nmit jemandem beginnst,\nwird diese hier auftauchen.";
@@ -924,6 +931,7 @@
 "You are set up and connected." = "Monal ist eingerichtet und verbunden.";
 "You are set up and connected. People can message you at: %@@%@" = "Du hast alles eingerichtet und bist verbunden. Man kann dir eine Nachricht senden an: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "Du versuchst, '%@' (%@) anzurufen, aber dieser Kontakt kann über verschiedene Konten erreicht werden. Bitte wähle das Konto aus, über das du den ausgehenden Anruf tätigen möchtest.";
+"You can customize even more, just use the button below to open the settings." = "Du kannst noch mehr individuell anpassen, benutze einfach den Button unten, um die Einstellungen zu öffnen.";
 "You did not grant Monal to access your location." = "Du hast Monal nicht erlaubt, auf deinen Standort zuzugreifen.";
 "You got banned from group/channel: %@" = "Du wurdest aus der Gruppe/Channel ausgeschlossen: %@";
 "You got kicked from group/channel: %@" = "Du wurdest aus der Gruppe/Channel geworfen: %@";
@@ -957,14 +965,7 @@
 "📍 A Location" = "📍 Ein Standort";
 "📷 An Image" = "📷 Ein Bild";
 "🔗 A Link" = "🔗 Ein Link";
-"Become part of a worldwide decentralized chat network!" = "Werde Teil eines weltweiten dezentralen Chat-Netzwerks!";
-"Even more to customize!" = "Noch mehr zum Individualisieren!";
-"Features" = "Funktionen";
-"Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server." = "Moderner XMPP-Chat-Client für iOS und macOS.\n\nXMPP ist ein föderiertes Netzwerk: Genau wie bei E-Mail kannst du dein Konto auf vielen Servern registrieren und trotzdem mit jedem reden, auch wenn er sich auf einem anderen Server angemeldet hat.";
-"Send message receipts" = "Empfangsbestätigungen für Nachrichten senden";
-"Send read receipts" = "Lesebestätigungen senden";
-"Take me to settings" = "Bring mich zu den Einstellungen";
-"These are important privacy settings you may want to review!" = "Dies sind wichtige Datenschutzeinstellungen, die du überprüfen solltest!";
-"Welcome to Monal !" = "Willkommen bei Monal !";
-"You can customize even more, just use the button below to open the settings." = "Du kannst noch mehr individuell anpassen, benutze einfach den Button unten, um die Einstellungen zu öffnen.";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Dezentrales Netzwerk :\nNutzt die dezentralisierte Struktur von XMPP und vermeidet zentrale Server.\n\n🌐 Datenschutz :\nWir verkaufen oder verfolgen keine Informationen für externe Dritte (und auch für niemanden sonst).\n\n🔐 Ende-zu-Ende-Verschlüsselung :\nSicheres Multi-End-Messaging mithilfe des OMEMO-Protokolls.\n\n👨‍💻 Open Source :\nDer Quellcode der App ist zur Prüfung und Weitergabe öffentlich zugänglich.";
+"Add" = "Add";
+"Add scanned contact" = "Add scanned contact";
+"No pending constact requests" = "No pending constact requests";
