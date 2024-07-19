@@ -100,10 +100,10 @@
 "Apple Push Service" = "Servicio PUSH de Apple";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "EL servicio push de Apple debería estar siempre activo. si no, tu dispositivo no puede hablar con el servidor de Apple.";
 "Apple Push Token" = "Token de Apple Push";
-"Apple Push Token is not available!" = "¡Apple Push Token no está disponible!";
+"Apple Push Token is not available!" = "¡Token de Apple Push no disponible!";
 "Approve new contact" = "Aprobar nuevo contacto";
 "Archive chat" = "Archivar chat";
-"Archive only if the contact is in contact list." = "Archive only if the contact is in contact list.";
+"Archive only if the contact is in contact list." = "Archivar solo si el contacto está en la lista de contactos.";
 "Attachments" = "Adjuntos";
 "Audio recorder init fail." = "Audio recorder init fail.";
 "Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
@@ -111,13 +111,13 @@
 "Audio Recorder set active error: %@" = "Audio Recorder set active error: %@";
 "Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
 "Audio Recorder: failed to record" = "Audio Recorder: failed to record";
-"Auto-Download Media" = "Descarga automática de Media";
-"Autofocus text input on chat open" = "Foco automático en la entrada de texto al abrir una conversación";
+"Auto-Download Media" = "Descarga automática de archivos multimedia";
+"Autofocus text input on chat open" = "Entrada de texto con enfoque automático al abrir el chat";
 "Avatar" = "Avatar";
-"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "¡Atención!: Los mensajes sólo se borrarán si se reciben pulsaciones o si abres la aplicación.¡ Esto es especialmente cierto para intervalos de tiempo cortos!";
 "Block" = "Bloquear";
 "Block Contact" = "Bloquear contacto";
-"Block user?" = "Bloquear usuario?";
+"Block user?" = "¿Bloquear usuario?";
 /* muc affiliation */
 "Blocked" = "Bloqueado";
 "Blocked Users" = "Usuarios bloqueados";
@@ -135,13 +135,13 @@
 "Call ended: connection failed\nDuration: %@" = "Llamada finalizada: conexión fallida\nDuración: %@";
 "Call ended: couldn't establish encryption" = "Llamada finalizada: no se ha podido establecer la encriptación";
 "Call ended: declined" = "Llamada finalizada: rechazada";
-"Call ended: hung up" = "Llamada finalizada: colgó";
+"Call ended: hung up" = "Llamada finalizada: colgada";
 "Call ended: remote busy" = "Llamada finalizada: remoto ocupado";
 "Call security help" = "Llame al servicio de seguridad";
 "Call Type" = "Tipo de llamada";
 "Call was not answered" = "La llamada no fue contestada";
 "Calls: Allow P2P sessions" = "Llamadas: Permitir sesiones P2P";
-"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
+"Calls: Allow TURN fallback to Monal-Servers" = "Llamadas: permitir que TURN utilice servidores Monal como alternativa";
 "Camera" = "Cámara";
 /* Camera permissions missing warning */
 "Camera permissions missing" = "Faltan permisos de cámara";
@@ -152,21 +152,21 @@
 "Caps hash: %@" = "Caps hash: %@";
 /* placeholder when creating account */
 "Captcha" = "Captcha";
-"Change affiliation" = "Change affiliation";
-"Change Background Image" = "Change Background Image";
-"Change Channel Avatar" = "Change Channel Avatar";
+"Change affiliation" = "Cambiar afiliación";
+"Change Background Image" = "Cambiar la imagen de fondo";
+"Change Channel Avatar" = "Cambiar el avatar del canal";
 "Change Chat Background" = "Cambiar el fondo del chat";
-"Change Group Avatar" = "Change Group Avatar";
+"Change Group Avatar" = "Cambiar el avatar del grupo";
 "Change Group Members" = "Cambiar miembros del grupo";
 "Change Password" = "Cambiar la contraseña";
-"Changing affiliation" = "Changing affiliation";
-"Changing affiliation to %@: %@" = "Changing affiliation to %@: %@";
+"Changing affiliation" = "Cambiando la afiliación";
+"Changing affiliation to %@: %@" = "Cambiando la afiliación a %@: %@";
 "Changing Password" = "Cambiando contraseña";
-"Channel Avatar" = "Channel Avatar";
-"Channel name" = "Channel name";
+"Channel Avatar" = "Avatar del canal";
+"Channel name" = "Nombre del canal";
 "Channel Participants" = "Participantes del canal";
 "Channel subject:" = "Asunto del canal:";
-"Chat Background" = "Fondo de pantalla";
+"Chat Background" = "Fondo del chat";
 "Chat background image" = "Imagen de fondo del chat";
 "Check type and size on " = "Compruebe el tipo y el tamaño en ";
 "Clear Chat History" = "Borrar historial de chat";
@@ -175,7 +175,7 @@
 "Clear chat history of this group" = "Borrar historial de este grupo";
 "Clear History" = "Borrar historial";
 "Clear scanned contact" = "Borrar contacto escaneado";
-"Clear text" = "Clear text";
+"Clear text" = "Borrar texto";
 /* onboarding */
 "Close" = "Cerrar";
 "Configure the background image displayed in open chats." = "Configurar la imagen de fondo que se muestra en los chats abiertos.";
@@ -188,7 +188,7 @@
 "Contact not found" = "Contacto no encontrado";
 /* placeholder when adding jid */
 "Contact or Group/Channel Jid" = "Jid del contacto, grupo o canal";
-"Contact Requests" = "Contact Requests";
+"Contact Requests" = "Contacto obligatorio";
 "Contact Selection" = "Selección de Contactos";
 "Contacts" = "Contactos";
 "Cool Title" = "Título";
@@ -230,8 +230,8 @@
 "Current Password" = "Contraseña actual";
 "Currently Online" = "Actualmente en línea";
 /* Message autdelete time */
-"Custom" = "Custom";
-"Custom Time: " = "Custom Time: ";
+"Custom" = "Personalizado";
+"Custom Time: " = "Hora personalizada: ";
 "Database Export Failed" = "Fallo en la exportación de la base de datos";
 "Database Files" = "Ficheros de base de datos";
 "Debug" = "Depuración";
@@ -957,7 +957,7 @@
 "📍 A Location" = "📍 Una ubicación";
 "📷 An Image" = "📷 Una imagen";
 "🔗 A Link" = "🔗 Un enlace";
-"Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
+"Become part of a worldwide decentralized chat network!" = "¡Forma parte de una red mundial de chat descentralizada!";
 "Even more to customize!" = "Even more to customize!";
 "Features" = "Features";
 "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server." = "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.";
