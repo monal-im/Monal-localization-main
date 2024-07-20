@@ -65,7 +65,7 @@
 "Add Account" = "Añadir cuenta";
 "Add Account (advanced)" = "Añadir cuenta (avanzado)";
 "Add contact" = "Agregar contacto";
-"Add contact (contact requests pending)" = "Agregar contacto (solicitud de contacto pendiente)";
+"Add contact (contact requests pending)" = "Agregar contacto (solicitudes de contacto pendiente)";
 "Add Contact or Channel" = "Añadir contacto o canal";
 "Add members to group" = "Añadir miembros a grupo";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Añadir nuevos contactos con el botón '+' ubicado en la parte superior. Sus contactos aparecerán aquí cuando puedan charlar";
@@ -558,7 +558,7 @@
 /* muc members list */
 "Open contact details" = "Ver detalles del contacto";
 "Open contact list" = "Abrir lista de contactos";
-"Open contact list (contact requests pending)" = "Abrir la lista de contactos (solicitud de contacto pendiente)";
+"Open contact list (contact requests pending)" = "Abrir la lista de contactos (solicitudes de contacto pendiente)";
 "Open in default browser" = "Abrir en el navegador por defecto";
 "Open iOS settings" = "Abrir la Configuración de iOS";
 "Open macOS settings" = "Abrir la Configuración de macOS";
@@ -754,12 +754,12 @@
 "The operator of the webserver providing that URL may see your IP address." = "El operador del servidor web responsable de la URL puede ver su dirección IP.";
 "The password has been changed" = "La contraseña ha sido cambiada";
 /* QR-Code-Scanner: account scan wrong menu */
-"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "El código QR contiene las credenciales de inicio de sesión de una cuenta. Diríjase a Configuración -> nueva cuenta y vuelva a escanear el código QR";
+"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "El código QR contiene las credenciales de inicio de sesión de una cuenta. Diríjase a Ajustes -> nueva cuenta y vuelva a escanear el código QR";
 "The resource '%@' has the following capabilities:" = "El recurso '%@' tiene las siguientes capacidades:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "Los servidores públicos de XMPP que aparecen en la siguiente lista no tiene afiliación con Monal. Esta página de registro se proporciona solo para su comodidad.";
 "The server does not support blocking (XEP-0191)." = "El servidor no soporta bloqueo (XEP-0191).";
-"The UDP logger allows you to livestream the log to the configured IP." = "El logger UDP le permite enviar el flujo del registro hacia la IP configurada.";
-"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "El logger UDP le permite enviar el flujo del registro hacia la IP configurada. ¡Por favor utilice una llave segura cuando los envíe por internet!\n[Aprenda como recibir el flujo del registro](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
+"The UDP logger allows you to livestream the log to the configured IP." = "El registrador UDP le permite enviar el flujo del registro hacia la IP configurada.";
+"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "El registrador UDP le permite enviar el flujo del registro hacia la IP configurada. ¡Por favor utilice una llave segura cuando los envíe por internet!\n[Aprenda como recibir el flujo del registro](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
 "The user %@ (%@) wants to add you to their contact list" = "El usuario %1$@ (%2$@) desea añadirlo a su lista de contactos";
 "The username does not need to have an @ symbol. Please try again." = "El nombre de usuario no necesita un símbolo @. Por favor intente de nuevo.";
 "There is no configured email account. Please email info@monal-im.org ." = "No hay una cuenta de email configurada. Por favor envíe un email a info@monal-im.org.";
@@ -903,11 +903,11 @@
 "XEP-0215: External Service Discovery" = "XEP-0215: Detección de Servicios Externos";
 "XEP-0237: Roster Versioning" = "XEP-0237: Control de versión de lista de contactos";
 "XEP-0280: Message Carbons" = "XEP-0280: Copias de los Mensajes";
-"XEP-0313: Message Archive Management" = "XEP-0313: MAM";
-"XEP-0352: Client State Indication" = "XEP-0352: Visualización del Estado del Cliente";
+"XEP-0313: Message Archive Management" = "XEP-0313: Gestión de archivos de mensajes";
+"XEP-0352: Client State Indication" = "XEP-0352: Visualización del estado del cliente";
 "XEP-0357: Push Notifications" = "XEP-0357: Notificaciones Automáticas";
 "XEP-0363: HTTP File Upload" = "XEP-0363: Carga de archivos HTTP";
-"XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379: Pre-Authenticated Roster Subscription";
+"XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379: Suscripción a lista de miembros previamente autenticada";
 "XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: Protección de degradación de SASL SCRAM";
 "XMPP Account Info Error" = "Error de información sobre la cuenta XMPP";
 "XMPP Bind Error" = "Error de enlace XMPP";
@@ -951,7 +951,7 @@
 "Your entered XMPP ID is missing the domain" = "A la dirección XMPP ingresada le falta el dominio";
 "Your entered XMPP ID is missing the username" = "A la dirección XMPP ingresada le falta el nombre de usuario";
 "Your server does not provide a MUC component." = "Su servidor no provee un componente MUC.";
-"Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Su servidor no es compatible con MAM (XEP-0313). ¡¡Esto significa que con frecuencia podría perder mensajes entrantes!! ¡Debería cambiar de servidor o hablar con su administrador para solicitarle que lo habilite!";
+"Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Su servidor no es compatible con MAM (XEP-0313). ¡Esto significa que con frecuencia podría perder mensajes entrantes! ¡Debería cambiar de servidor o hablar con su administrador para solicitarle que lo habilite!";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Su servidor no tiene soporte \"PUSH\" (XEP-0357). Esto significa que tendrá que abrir la aplicación manualmente para recibir sus mensajes entrantes. ¡Debería considerar cambiar de servidor o ponerse en contacto con el administrador para solicitarle que habilite esta función!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Su servidor no es compatible con Gestión de Flujo de Datos (XEP-0198). Esto significa que sus mensajes salientes pueden perderse con frecuencia. ¡Debería considerar cambiar su servidor o ponerse en contacto con el administrador para solicitarle que lo habilite!";
 "Your status" = "Su estado";
