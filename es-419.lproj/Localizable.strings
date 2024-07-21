@@ -673,7 +673,7 @@
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Prueba del servidor SCRAM errónea, ataque MITM altamente probable, abortando autenticación e inhabilitando cuenta para limitar el daño. Debería intentar restablecer nuevamente su cuenta cuando se encuentre en un entorno de red seguro.";
 /* mac only string */
 "Scroll down to load more messages" = "Deslizar hacia abajo para cargar más mensajes";
-"Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "\"Secure channel-binding\" definido para TLS1.3 y algunas conexiones TLS1.2.";
+"Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Enlace de canal seguro definido para TLS1.3 y algunas conexiones TLS1.2.";
 "Security" = "Seguridad";
 "Select a background to display behind conversations with %@" = "Seleccionar fondo para las conversaciones con %@";
 "Select a default background to display behind conversations." = "Selecciona fondo predeterminado para todas las conversaciones.";
@@ -769,7 +769,7 @@
 "These are important privacy settings you may want to review!" = "¡Estos son ajustes de privacidad importantes que seguramente quiere revisar!";
 "These are SRV resource records found for your domain." = "Estos son los registros SRV encontrados para tu dominio.";
 "These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "Estos son los servicios STUN y TURN anunciados por su servidor (las entradas azules son utilizadas por Monal).";
-"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "Estos son los tipos de \"channel-binding\" soportados por su servidor para detectar ataques en la capa TLS (los azules están en uso, Monal no tiene soporte para los naranja).";
+"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "Estos son los tipos de enlaces de canal soportados por su servidor para detectar ataques en la capa TLS (los azules están en uso, Monal no tiene soporte para los naranja).";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "Estas son las capacidades XMPP que Monal detectó en su servidor después iniciar la sesión.";
 "These are the MUC servers detected by Monal (blue entry used by Monal)." = "Estos son los servidores MUC detectados por Monal (entrada azul utilizada por Monal).";
 "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "Métodos SASL2 soportados por su servidor (el azul se encuentra en uso, en naranja los que Monal no tiene soporte).";
@@ -806,7 +806,7 @@
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Este servidor no parece admitir la carga de archivos HTTP (XEP-0363). Por favor, solicite la habilitación al Administrador.";
 "This server does not have any SRV records in DNS." = "Este servidor no tiene registros SRV en su DNS.";
 "This server does not provide any MUC servers." = "Este servidor no provee ningún servidor MUC.";
-"This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Este servidor no tiene soporte de \"channel-binding\" moderno para protegerlo de ataques MITM en la capa TLS.";
+"This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Este servidor no tiene soporte moderno para enlace de canal que permita protegerlo de ataques MITM en la capa TLS.";
 "This server does not support modern SASL2 authentication." = "Este servidor no tiene soporte para autenticación SASL2.";
 "This should never happen, please contact the developers and provide a logfile!" = "¡Esto no debería pasar nunca, por favor póngase en contacto con los desarrolladores y hágales llegar el archivo de registros!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Esta especificación define semánticas de uso del protocolo de publicación-suscripción XMPP para transmitir eventos de cambio de estado asociados con una cuenta de presencia y mensajería instantánea.";
@@ -819,10 +819,10 @@
 "Timeout Error" = "Error tiempo de espera";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
-"TLS Error: Bad certificate" = "Error TLS: Certificado errado";
-"TLS Error: Certificate chain is invalid" = "Error TLS: La cadena de certificación es inválida";
+"TLS Error: Bad certificate" = "Error TLS: Certificado incorrecto";
+"TLS Error: Certificate chain is invalid" = "Error TLS: La cadena de certificación no es válida";
 "TLS Error: Certificate expired" = "Error TLS: Certificado vencido";
-"TLS Error: Host name mismatch" = "Error TLS: No hay correspondencia con el nombre del Host";
+"TLS Error: Host name mismatch" = "Error TLS: Error en el nombre del Host";
 "TLS Error: Unknown root certificate" = "Error TLS: Certificado raíz desconocido";
 "Trust Key" = "Llave de confianza";
 "Trusted and verified key" = "Llave confiada y verificada";
@@ -842,7 +842,7 @@
 "Unclean appex shutown" = "Unclean appex shutown";
 "Understood" = "Entendido";
 "Unexpected appex expiration" = "Unexpected appex expiration";
-"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Error de autenticación de servidor inesperado usando SASL2 (¿Su servidor tiene un bug?), ¡desconectando!";
+"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Error inesperado al autenticar el servidor mediante SASL2 (¿su servidor tiene un error?), ¡desconectando!";
 "Unexpected error while checking type of jid, please try again" = "Error inesperado al verificar el tipo de dirección XMPP. Por favor intente nuevamente";
 "Unexpected error while checking type of jid:" = "Error inesperado al comprobar el tipo de dirección XMPP:";
 "Unexpected mam preferences result" = "Resultado inesperado de las preferencias mam";
@@ -873,7 +873,7 @@
 /* placeholder when creating account */
 "Username" = "Nombre de usuario";
 "Username missing" = "Falta el nombre de usuario";
-"Uses TLS client certificates for authentication" = "Usa certificados TLS cliente para autenticación";
+"Uses TLS client certificates for authentication" = "Usa certificados TLS de cliente para autenticación";
 "Version" = "Versión";
 /* server details */
 "version %@%@" = "version %1$@%2$@";
