@@ -56,11 +56,13 @@
 "Account (%@)" = "账号（%@）";
 "Account (new)" = "账号（新）";
 "Account already configured in Monal!" = "账号已在 Monal 中配置！";
+"Account already configured!" = "Account already configured!";
 "Account disabled" = "账号已禁用";
 "Account Exists" = "账号已存在";
 "Account Picker" = "账号选择器";
 "Account: %@" = "账号：%@";
 "Activity indications" = "活动指示";
+"Add" = "添加";
 "Add %@ to your contacts?" = "添加 %@ 为联系人？";
 "Add Account" = "添加账号";
 "Add Account (advanced)" = "添加账号（高级）";
@@ -69,6 +71,7 @@
 "Add Contact or Channel" = "添加联系人或频道";
 "Add members to group" = "添加成员到群组";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "使用上方的 + 按钮以添加联系人。当您的朋友可以聊天时，他们会在这里显示";
+"Add scanned contact" = "添加扫描的联系人";
 "Add to contacts" = "添加到联系人";
 "Adding %@..." = "正在添加 %@…";
 "Adding Group/Channel..." = "正在添加群组/频道…";
@@ -111,6 +114,8 @@
 "Audio Recorder set active error: %@" = "录音机设置激活错误：%@";
 "Audio Recorder set category error: %@" = "录音机设置类别错误：%@";
 "Audio Recorder: failed to record" = "录音机：录制失败";
+/* quicksy country */
+"Australia" = "Australia";
 "Auto-Download Media" = "自动下载媒体";
 "Autofocus text input on chat open" = "打开聊天时自动对焦文本输入";
 "Avatar" = "头像";
@@ -148,6 +153,8 @@
 "Camera permissions missing" = "缺少摄像头权限";
 "Can Show Notifications" = "可以显示通知";
 "Can't convert the image to jpeg format." = "无法将图片转换为 jpeg 格式。";
+/* quicksy country */
+"Canada" = "Canada";
 "Cancel" = "取消";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "无法与被禁用/删除的账号共享某些内容，目标：%@，内部账号 id：%@";
 "Caps hash: %@" = "功能哈希：%@";
@@ -380,6 +387,7 @@
 "Failed to save bookmark for Group/Channel: %@" = "无法保存群组/频道的书签：%@";
 "Failed to save groupchat bookmarks" = "保存群聊书签失败";
 "Failed to share file" = "共享文件失败";
+"Failed to synchronize phonebook" = "Failed to synchronize phonebook";
 "Failed to upload file: account was removed" = "上传文件失败：账号已移除";
 "Failed to write decrypted download into cache directory" = "无法将解密的下载写入缓存目录";
 "Features" = "特点";
@@ -391,6 +399,8 @@
 "General" = "通用";
 "General File Transfer Settings" = "一般文件传输设置";
 "General Settings" = "常规设置";
+/* quicksy country */
+"Germany" = "Germany";
 "Got empty room config form for '%@'" = "“%@”的群聊配置表单为空";
 "GPS" = "GPS";
 "Green checkmark shield:" = "绿色复选标记盾牌：";
@@ -415,6 +425,8 @@
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "如果要使用音频消息，则需要在设置 -> 隐私 -> 麦克风中允许访问。";
 "Image Upload Quality: %@" = "图片上传质量：%@";
 "Import and trust OMEMO fingerprints from QR code" = "从二维码导入并信任 OMEMO 指纹";
+/* quicksy country */
+"India" = "India";
 "Indicate when a particular device is active or inactive. Saves battery." = "指示特定设备何时处于活动状态或非活动状态。节省电池。";
 "Input" = "输入";
 "Input is not a valid jid" = "输入不是有效的 JID";
@@ -527,6 +539,7 @@
 "No further error description" = "无进一步的错误描述";
 "No GPS location received" = "无法接收到 GPS 位置";
 "No OMEMO keys found" = "没有找到 OMEMO 密钥";
+"No pending constact requests" = "没有待处理的联系人请求";
 "No search result." = "无搜索结果。";
 "No supported auth mechanism found, disabling account!" = "找不到支持的身份验证机制，正在禁用账号！";
 "No XMPP server!" = "没有 XMPP 服务器！";
@@ -655,6 +668,7 @@
 "Rename Contact" = "重命名联系人";
 "Rename Group" = "重命名群组";
 "Reply" = "回复";
+"Requesting validation SMS..." = "Requesting validation SMS...";
 "Required" = "需要";
 "Reset OMEMO session" = "重置 OMEMO 会话";
 "Resource" = "资源";
@@ -781,7 +795,6 @@
 "This account already exists in Monal." = "在 Monal 已经存在这个账号。";
 "This account already exists on this instance" = "此实例上已存在此账号";
 "This account already exists on this instance." = "此实例上已存在此账号。";
-"This allows you to forcefully crash the app using several different methods to test the crash handling." = "这允许您使用几种不同的方法强制崩溃本应用来测试崩溃处理。";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "此应用版本太旧，可能包含安全漏洞，也可能突然停止运行。请升级！";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "这可用于导出日志文件。\n［了解如何读取它们］（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log）。";
 "This contact does not appear to have any devices that support encryption." = "此联系人似乎没有任何支持加密的设备。";
@@ -848,6 +861,10 @@
 "Unexpected mam preferences result" = "非预期的消息存档管理首选项结果";
 "Unexpected server response: invalid PEP config form" = "意外的服务器响应：无效的 PEP 配置表单";
 "Unexpected server response: missing required fields in PEP config form" = "意外的服务器响应：PEP 配置表单中缺少必填字段";
+/* quicksy country */
+"United Kingdom" = "United Kingdom";
+/* quicksy country */
+"United States" = "United States";
 "unknown" = "未知";
 "Unknown authentication method" = "未知的身份验证方法";
 "Unknown channel-binding type" = "未知的通道绑定类型";
@@ -966,6 +983,33 @@
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 去中心化网络：\n充分利用 XMPP 的去中心化特性，避免使用中央服务器。\n\n🌐 数据隐私：\n我们不会向外部各方（或任何其他人）出售或追踪信息。\n\n🔐 端到端加密：\n使用 OMEMO 协议进行安全的多端消息传递。\n\n👨‍💻 开源：\n应用的源代码已公开，可供审计和贡献。";
-"Add" = "添加";
-"Add scanned contact" = "添加扫描的联系人";
-"No pending constact requests" = "没有待处理的联系人请求";
+"%@ (%@)" = "%@ (%@)";
+"An error happened when trying to request the SMS:" = "An error happened when trying to request the SMS:";
+"Are you sure to cancel the registration process?" = "Are you sure to cancel the registration process?";
+"Cancel?" = "Cancel?";
+"Change it" = "Change it";
+"Check this number?" = "Check this number?";
+"Country:" = "Country:";
+"Don't show onboarding" = "Don't show onboarding";
+"Error requesting SMS!" = "Error requesting SMS!";
+"Invalid user input." = "Invalid user input.";
+"Please enter the six-digit pin below" = "Please enter the six-digit pin below";
+"Previous" = "Previous";
+"Quicksy is now set up and connected." = "Quicksy is now set up and connected.";
+"Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm).";
+"Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:";
+"Send SMS again" = "Send SMS again";
+"Some debug settings." = "Some debug settings.";
+"Something went wrong processing your request." = "Something went wrong processing your request.";
+"Temporarily unavailable. Try again later." = "Temporarily unavailable. Try again later.";
+"The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling.";
+"The pin we have sent you has expired." = "The pin we have sent you has expired.";
+"The pin you have entered is incorrect." = "The pin you have entered is incorrect.";
+"This phone number is currently logged in with another device." = "This phone number is currently logged in with another device.";
+"Too many attempts, please try again in %@." = "Too many attempts, please try again in %@.";
+"Unexpected error processing your request." = "Unexpected error processing your request.";
+"Verify your phone number" = "Verify your phone number";
+"We sent you an SMS to %@" = "We sent you an SMS to %@";
+"We will check the number **%@**. Is this okay or do you want to change the number?" = "We will check the number **%@**. Is this okay or do you want to change the number?";
+"Welcome to Quicksy !" = "Welcome to Quicksy !";
+"You are using an out of date version of this app." = "You are using an out of date version of this app.";

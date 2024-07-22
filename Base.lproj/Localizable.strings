@@ -9,6 +9,7 @@
 " running on %@" = " running on %@";
 "%02d:%02d (long press to abort)" = "%02d:%02d (long press to abort)";
 "%@" = "%@";
+"%@ (%@)" = "%@ (%@)";
 "%@ (affiliation: %@)" = "%@ (affiliation: %@)";
 "%@ (type '%@', category '%@')" = "%@ (type '%@', category '%@')";
 "%@ hours" = "%@ hours";
@@ -62,6 +63,7 @@
 "Account Exists" = "Account Exists";
 "Account Picker" = "Account Picker";
 "Account already configured in Monal!" = "Account already configured in Monal!";
+"Account already configured!" = "Account already configured!";
 "Account disabled" = "Account disabled";
 "Account: %@" = "Account: %@";
 "Activity indications" = "Activity indications";
@@ -100,6 +102,7 @@
 "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!";
 "Always archive" = "Always archive";
 "Always use direct TLS, not STARTTLS" = "Always use direct TLS, not STARTTLS";
+"An error happened when trying to request the SMS:" = "An error happened when trying to request the SMS:";
 "App" = "App";
 "Appearance" = "Appearance";
 "Apple Push Service" = "Apple Push Service";
@@ -109,7 +112,10 @@
 "Approve new contact" = "Approve new contact";
 "Archive chat" = "Archive chat";
 "Archive only if the contact is in contact list." = "Archive only if the contact is in contact list.";
+"Are you sure to cancel the registration process?" = "Are you sure to cancel the registration process?";
 "Attachments" = "Attachments";
+/* quicksy country */
+"Australia" = "Australia";
 "Auto-Download Media" = "Auto-Download Media";
 "Autofocus text input on chat open" = "Autofocus text input on chat open";
 "Avatar" = "Avatar";
@@ -147,7 +153,10 @@
 "Camera permissions missing" = "Camera permissions missing";
 "Can Show Notifications" = "Can Show Notifications";
 "Can't convert the image to jpeg format." = "Can't convert the image to jpeg format.";
+/* quicksy country */
+"Canada" = "Canada";
 "Cancel" = "Cancel";
+"Cancel?" = "Cancel?";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@";
 "Caps hash: %@" = "Caps hash: %@";
 /* placeholder when creating account */
@@ -159,6 +168,7 @@
 "Change Group Members" = "Change Group Members";
 "Change Password" = "Change Password";
 "Change affiliation" = "Change affiliation";
+"Change it" = "Change it";
 "Changing Password" = "Changing Password";
 "Changing affiliation" = "Changing affiliation";
 "Changing affiliation to %@: %@" = "Changing affiliation to %@: %@";
@@ -168,6 +178,7 @@
 "Channel subject:" = "Channel subject:";
 "Chat Background" = "Chat Background";
 "Chat background image" = "Chat background image";
+"Check this number?" = "Check this number?";
 "Check type and size on " = "Check type and size on ";
 "Clear Chat History" = "Clear Chat History";
 "Clear History" = "Clear History";
@@ -209,6 +220,7 @@
 "Could not register your username. Please check your code or change the username and try again." = "Could not register your username. Please check your code or change the username and try again.";
 "Could not send" = "Could not send";
 "Could not upload file" = "Could not upload file";
+"Country:" = "Country:";
 /* Crash reporting */
 "Crash Detected" = "Crash Detected";
 "Crash Testing" = "Crash Testing";
@@ -261,6 +273,7 @@
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?";
 "Doing a lot of work..." = "Doing a lot of work...";
 "Domain missing" = "Domain missing";
+"Don't show onboarding" = "Don't show onboarding";
 "Don't trust Key" = "Don't trust Key";
 "Done" = "Done";
 "Dont' trust Key" = "Dont' trust Key";
@@ -307,6 +320,7 @@
 "Error inviting user!" = "Error inviting user!";
 "Error removing avatar!" = "Error removing avatar!";
 "Error removing user!" = "Error removing user!";
+"Error requesting SMS!" = "Error requesting SMS!";
 "Error unblocking user!" = "Error unblocking user!";
 "Error: %@" = "Error: %@";
 "Error: Account disabled, can not display keys!" = "Error: Account disabled, can not display keys!";
@@ -325,6 +339,8 @@
 "General" = "General";
 "General File Transfer Settings" = "General File Transfer Settings";
 "General Settings" = "General Settings";
+/* quicksy country */
+"Germany" = "Germany";
 "Green checkmark shield:" = "Green checkmark shield:";
 "Group Avatar" = "Group Avatar";
 "Group Description (optional)" = "Group Description (optional)";
@@ -343,6 +359,8 @@
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone.";
 "Image Upload Quality: %@" = "Image Upload Quality: %@";
 "Import and trust OMEMO fingerprints from QR code" = "Import and trust OMEMO fingerprints from QR code";
+/* quicksy country */
+"India" = "India";
 "Indicate when a particular device is active or inactive. Saves battery." = "Indicate when a particular device is active or inactive. Saves battery.";
 "Input" = "Input";
 "Input is not a valid jid" = "Input is not a valid jid";
@@ -354,6 +372,7 @@
 /* QR-Code-Scanner: invalid format */
 "Invalid format" = "Invalid format";
 "Invalid image file!" = "Invalid image file!";
+"Invalid user input." = "Invalid user input.";
 "Invitation for %@ created" = "Invitation for %@ created";
 /* muc invite */
 "Invite again" = "Invite again";
@@ -491,6 +510,7 @@
 "Please Allow Audio Access" = "Please Allow Audio Access";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Please add a new account under settings first. If you already added your account you may need to enable it under settings";
 "Please enter a password below before activating this account." = "Please enter a password below before activating this account.";
+"Please enter the six-digit pin below" = "Please enter the six-digit pin below";
 "Please make sure at least one account has connected before trying to add a contact or channel." = "Please make sure at least one account has connected before trying to add a contact or channel.";
 "Please make sure at least one account has connected before trying to create new group." = "Please make sure at least one account has connected before trying to create new group.";
 "Please make sure you are connected before changing your password." = "Please make sure you are connected before changing your password.";
@@ -503,6 +523,7 @@
 "Port" = "Port";
 "Port: %@, Direct TLS: %@, Priority: %@" = "Port: %@, Direct TLS: %@, Priority: %@";
 "Previews" = "Previews";
+"Previous" = "Previous";
 "Privacy" = "Privacy";
 "Protocol support of your server (XEPs)" = "Protocol support of your server (XEPs)";
 /* placeholder when creating account */
@@ -514,6 +535,9 @@
 "QR-Code Scanner" = "QR-Code Scanner";
 /* QR-Code-Scanner */
 "QR-Code video error" = "QR-Code video error";
+"Quicksy is now set up and connected." = "Quicksy is now set up and connected.";
+"Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm).";
+"Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:";
 /* Chat msg action */
 "Quote" = "Quote";
 "Rate Monal" = "Rate Monal";
@@ -549,6 +573,7 @@
 "Rename Contact" = "Rename Contact";
 "Rename Group" = "Rename Group";
 "Reply" = "Reply";
+"Requesting validation SMS..." = "Requesting validation SMS...";
 "Required" = "Required";
 "Reset OMEMO session" = "Reset OMEMO session";
 "Resource" = "Resource";
@@ -576,6 +601,7 @@
 "Selected Group Members" = "Selected Group Members";
 "Send" = "Send";
 "Send Location" = "Send Location";
+"Send SMS again" = "Send SMS again";
 "Send last interaction time" = "Send last interaction time";
 "Send message receipts" = "Send message receipts";
 "Send read receipts" = "Send read receipts";
@@ -590,6 +616,8 @@
 "Show URL previews" = "Show URL previews";
 "Show inline geo location" = "Show inline geo location";
 "Show shared Media and Files" = "Show shared Media and Files";
+"Some debug settings." = "Some debug settings.";
+"Something went wrong processing your request." = "Something went wrong processing your request.";
 "Something went wrong while parsing your input..." = "Something went wrong while parsing your input...";
 "Sounds" = "Sounds";
 "Sounds courtesy Emrah" = "Sounds courtesy Emrah";
@@ -609,6 +637,7 @@
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
 "Take me to settings" = "Take me to settings";
+"Temporarily unavailable. Try again later." = "Temporarily unavailable. Try again later.";
 "Terms of %@" = "Terms of %@";
 "Terms of use for %@" = "Terms of use for %@";
 "The UDP logger allows you to livestream the log to the configured IP." = "The UDP logger allows you to livestream the log to the configured IP.";
@@ -621,11 +650,14 @@
 "The chat history has been cleared" = "The chat history has been cleared";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later.";
 "The current password is not correct." = "The current password is not correct.";
+"The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling.";
 "The jid you want to add should be in in the format user@domain.tld." = "The jid you want to add should be in in the format user@domain.tld.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "The new contact will be added to your contacts list when the person you've added has approved your request.";
 "The operator of the webserver providing that URL may see your IP address." = "The operator of the webserver providing that URL may see your IP address.";
 "The password has been changed" = "The password has been changed";
+"The pin we have sent you has expired." = "The pin we have sent you has expired.";
+"The pin you have entered is incorrect." = "The pin you have entered is incorrect.";
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode";
 "The resource '%@' has the following capabilities:" = "The resource '%@' has the following capabilities:";
@@ -647,7 +679,6 @@
 "They will see when you are online. They will be able to send you encrypted messages." = "They will see when you are online. They will be able to send you encrypted messages.";
 "This account already exists in Monal." = "This account already exists in Monal.";
 "This account already exists on this instance." = "This account already exists on this instance.";
-"This allows you to forcefully crash the app using several different methods to test the crash handling." = "This allows you to forcefully crash the app using several different methods to test the crash handling.";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption." = "This contact does not appear to have any devices that support encryption.";
 "This contact is already in the contact list of the selected account" = "This contact is already in the contact list of the selected account";
@@ -668,6 +699,7 @@
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you.";
 "This message failed to send (%@): %@" = "This message failed to send (%@): %@";
 "This message got retracted" = "This message got retracted";
+"This phone number is currently logged in with another device." = "This phone number is currently logged in with another device.";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it.";
 "This server does not have any SRV records in DNS." = "This server does not have any SRV records in DNS.";
 "This server does not provide any MUC servers." = "This server does not provide any MUC servers.";
@@ -681,6 +713,7 @@
 "This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
 "This will remove this account and the associated data from this device." = "This will remove this account and the associated data from this device.";
 "Timeout Error" = "Timeout Error";
+"Too many attempts, please try again in %@." = "Too many attempts, please try again in %@.";
 "Trust Key" = "Trust Key";
 "Trusted and verified key" = "Trusted and verified key";
 "Trusted but removed key" = "Trusted but removed key";
@@ -696,6 +729,11 @@
 "Unblocking user" = "Unblocking user";
 "Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
 "Understood" = "Understood";
+"Unexpected error processing your request." = "Unexpected error processing your request.";
+/* quicksy country */
+"United Kingdom" = "United Kingdom";
+/* quicksy country */
+"United States" = "United States";
 "Unknown authentication method" = "Unknown authentication method";
 "Unknown channel-binding type" = "Unknown channel-binding type";
 "Unknown error!" = "Unknown error!";
@@ -714,16 +752,20 @@
 "Username" = "Username";
 "Username missing" = "Username missing";
 "Uses TLS client certificates for authentication" = "Uses TLS client certificates for authentication";
+"Verify your phone number" = "Verify your phone number";
 "Version" = "Version";
 "Waiting for GPS signal" = "Waiting for GPS signal";
 "Warning" = "Warning";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "We could not find a xmpp related QR-Code";
+"We sent you an SMS to %@" = "We sent you an SMS to %@";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@";
+"We will check the number **%@**. Is this okay or do you want to change the number?" = "We will check the number **%@**. Is this okay or do you want to change the number?";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs.";
 "Welcome" = "Welcome";
 "Welcome to Monal !" = "Welcome to Monal !";
+"Welcome to Quicksy !" = "Welcome to Quicksy !";
 "What call do you want to place?" = "What call do you want to place?";
 "When disabled, URLs will opened in your default browser (that might not be Safari)." = "When disabled, URLs will opened in your default browser (that might not be Safari).";
 "When you start a conversation\nwith someone, they will\nshow up here." = "When you start a conversation\nwith someone, they will\nshow up here.";
@@ -757,6 +799,7 @@
 "You are set up and connected." = "You are set up and connected.";
 "You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
+"You are using an out of date version of this app." = "You are using an out of date version of this app.";
 "You can customize even more, just use the button below to open the settings." = "You can customize even more, just use the button below to open the settings.";
 "You did not grant Monal to access your location." = "You did not grant Monal to access your location.";
 "You have not entered your XMPP ID yet" = "You have not entered your XMPP ID yet";
@@ -871,6 +914,7 @@
 "Failed to remove bookmark for Group/Channel: %@" = "Failed to remove bookmark for Group/Channel: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Failed to save bookmark for Group/Channel: %@";
 "Failed to save groupchat bookmarks" = "Failed to save groupchat bookmarks";
+"Failed to synchronize phonebook" = "Failed to synchronize phonebook";
 "Failed to upload file: account was removed" = "Failed to upload file: account was removed";
 "Failed to write decrypted download into cache directory" = "Failed to write decrypted download into cache directory";
 "Got empty room config form for '%@'" = "Got empty room config form for '%@'";

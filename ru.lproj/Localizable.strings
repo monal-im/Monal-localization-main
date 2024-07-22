@@ -56,11 +56,13 @@
 "Account (%@)" = "Учётная запись (%@)";
 "Account (new)" = "Учётная запись (новая)";
 "Account already configured in Monal!" = "Учётная запись уже настроена в Monal.";
+"Account already configured!" = "Account already configured!";
 "Account disabled" = "Учётная запись отключена";
 "Account Exists" = "Учётная запись существует";
 "Account Picker" = "Выбор учётной записи";
 "Account: %@" = "Учётная запись: %@";
 "Activity indications" = "Отображение событий";
+"Add" = "Add";
 "Add %@ to your contacts?" = "Добавить %@ в ваши контакты?";
 "Add Account" = "Добавить учётную запись";
 "Add Account (advanced)" = "Добавить учётную запись (подробно)";
@@ -69,6 +71,7 @@
 "Add Contact or Channel" = "Добавить Контакт или Канал";
 "Add members to group" = "Добавить участников в группу";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Добавьте новые контакты с помощью кнопки + выше. Ваши друзья появятся здесь, когда они смогут разговаривать";
+"Add scanned contact" = "Add scanned contact";
 "Add to contacts" = "Добавить в контакты";
 "Adding %@..." = "Добавление %@...";
 "Adding Group/Channel..." = "Добавление Группы/Канала...";
@@ -111,6 +114,8 @@
 "Audio Recorder set active error: %@" = "Ошибка активации записи аудио: %@";
 "Audio Recorder set category error: %@" = "Ошибка установки категории при записи аудио: %@";
 "Audio Recorder: failed to record" = "Не удалось записать аудио";
+/* quicksy country */
+"Australia" = "Australia";
 "Auto-Download Media" = "Авто-скачивание файлов";
 "Autofocus text input on chat open" = "Автофокус на поле ввода при открытии переписки";
 "Avatar" = "Аватар";
@@ -148,6 +153,8 @@
 "Camera permissions missing" = "Нет разрешения для доступа к камере";
 "Can Show Notifications" = "Показывать Уведомления";
 "Can't convert the image to jpeg format." = "Не удаётся преобразовать изображение в JPEG формат.";
+/* quicksy country */
+"Canada" = "Canada";
 "Cancel" = "Отмена";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Нет возможности поделиться с пользователем с отключенной/удалённой учётной записью, адресат: %1$@, внутренний идентификатор учётной записи: %2$@";
 "Caps hash: %@" = "Контрольная сумма: %@";
@@ -380,6 +387,7 @@
 "Failed to save bookmark for Group/Channel: %@" = "Не удалось сохранить закладку для группы/канала: %@";
 "Failed to save groupchat bookmarks" = "Не удалось сохранить закладки для групповых переписок";
 "Failed to share file" = "Не удалось поделиться файлом";
+"Failed to synchronize phonebook" = "Failed to synchronize phonebook";
 "Failed to upload file: account was removed" = "Не удалось отправить файл: учётная запись удалена";
 "Failed to write decrypted download into cache directory" = "Не удалось записать расшифрованную версию загруженного файла в папку кэша";
 "Features" = "Features";
@@ -391,6 +399,8 @@
 "General" = "Общие";
 "General File Transfer Settings" = "Общие настройки передачи файлов";
 "General Settings" = "Общие настройки";
+/* quicksy country */
+"Germany" = "Germany";
 "Got empty room config form for '%@'" = "Получена пустая форма конфигурации комнаты для '%@'";
 "GPS" = "GPS";
 "Green checkmark shield:" = "Зелёный значок с галкой:";
@@ -415,6 +425,8 @@
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Для использования аудио сообщений требуется разрешение на доступ к микрофону: Настройки-> Конфиденциальность-> Микрофон.";
 "Image Upload Quality: %@" = "Качество отправляемых изображений: %@";
 "Import and trust OMEMO fingerprints from QR code" = "Импортировать и доверять OMEMO отпечаткам с QR-кода";
+/* quicksy country */
+"India" = "India";
 "Indicate when a particular device is active or inactive. Saves battery." = "Отображать момент активации/деактивации конкретного устройства. Экономит заряд батареи.";
 "Input" = "Ввод";
 "Input is not a valid jid" = "Введённое значение не является корректным адресом XMPP";
@@ -527,6 +539,7 @@
 "No further error description" = "Дополнительная детализация ошибки отсутствует";
 "No GPS location received" = "Не удалось получить геолокацию";
 "No OMEMO keys found" = "Ключи OMEMO не найдены";
+"No pending constact requests" = "No pending constact requests";
 "No search result." = "Ничего не найдено.";
 "No supported auth mechanism found, disabling account!" = "Не найдены поддерживаемые механизмы аутентификации, учётная запись деактивируется.";
 "No XMPP server!" = "Отсутствует XMPP сервер.";
@@ -655,6 +668,7 @@
 "Rename Contact" = "Переименовать контакт";
 "Rename Group" = "Переименовать группу";
 "Reply" = "Ответить";
+"Requesting validation SMS..." = "Requesting validation SMS...";
 "Required" = "Обязательно";
 "Reset OMEMO session" = "Сбросить сессию OMEMO";
 "Resource" = "Клиент (ресурс)";
@@ -781,7 +795,6 @@
 "This account already exists in Monal." = "Эта учётная запись уже есть в Monal.";
 "This account already exists on this instance" = "Эта учётная запись уже присутствует в этом клиенте";
 "This account already exists on this instance." = "Данная учётная запись уже есть в этом клиенте.";
-"This allows you to forcefully crash the app using several different methods to test the crash handling." = "Эти команды позволяют принудительно внести сбой в работу приложения с тем чтобы проверить корректность обработки отказа.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Эта версия приложения устарела, она может как иметь проблемы с безопасностью, так и нестабильно работать. Пожалуйста, обновите приложение.";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Информация по выгрузке лог-файлов.\n[Узнайте как просматривать лог-файлы](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption." = "Похоже что у этого контакта нет устройств с поддержкой шифрования.";
@@ -848,6 +861,10 @@
 "Unexpected mam preferences result" = "Получены непредусмотренные настройки управления архивом сообщений (MAM)";
 "Unexpected server response: invalid PEP config form" = "Неожиданный ответ сервера: некорректная форма конфигурации Протокола персональных событий (PEP)";
 "Unexpected server response: missing required fields in PEP config form" = "Неожиданный ответ сервера: в форме конфигурации Протокола персональных событий (PEP) пропущены обязательные поля";
+/* quicksy country */
+"United Kingdom" = "United Kingdom";
+/* quicksy country */
+"United States" = "United States";
 "unknown" = "неизвестно";
 "Unknown authentication method" = "Неизвестный способ аутентификации";
 "Unknown channel-binding type" = "Неизвестный способ привязки к каналу передачи данных";
@@ -966,6 +983,33 @@
 "📷 An Image" = "📷 Изображение";
 "🔗 A Link" = "🔗 Ссылка";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution.";
-"Add" = "Add";
-"Add scanned contact" = "Add scanned contact";
-"No pending constact requests" = "No pending constact requests";
+"%@ (%@)" = "%@ (%@)";
+"An error happened when trying to request the SMS:" = "An error happened when trying to request the SMS:";
+"Are you sure to cancel the registration process?" = "Are you sure to cancel the registration process?";
+"Cancel?" = "Cancel?";
+"Change it" = "Change it";
+"Check this number?" = "Check this number?";
+"Country:" = "Country:";
+"Don't show onboarding" = "Don't show onboarding";
+"Error requesting SMS!" = "Error requesting SMS!";
+"Invalid user input." = "Invalid user input.";
+"Please enter the six-digit pin below" = "Please enter the six-digit pin below";
+"Previous" = "Previous";
+"Quicksy is now set up and connected." = "Quicksy is now set up and connected.";
+"Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm).";
+"Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:";
+"Send SMS again" = "Send SMS again";
+"Some debug settings." = "Some debug settings.";
+"Something went wrong processing your request." = "Something went wrong processing your request.";
+"Temporarily unavailable. Try again later." = "Temporarily unavailable. Try again later.";
+"The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling.";
+"The pin we have sent you has expired." = "The pin we have sent you has expired.";
+"The pin you have entered is incorrect." = "The pin you have entered is incorrect.";
+"This phone number is currently logged in with another device." = "This phone number is currently logged in with another device.";
+"Too many attempts, please try again in %@." = "Too many attempts, please try again in %@.";
+"Unexpected error processing your request." = "Unexpected error processing your request.";
+"Verify your phone number" = "Verify your phone number";
+"We sent you an SMS to %@" = "We sent you an SMS to %@";
+"We will check the number **%@**. Is this okay or do you want to change the number?" = "We will check the number **%@**. Is this okay or do you want to change the number?";
+"Welcome to Quicksy !" = "Welcome to Quicksy !";
+"You are using an out of date version of this app." = "You are using an out of date version of this app.";

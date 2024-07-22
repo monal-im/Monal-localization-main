@@ -56,11 +56,13 @@
 "Account (%@)" = "Hesap (%@)";
 "Account (new)" = "Hesap (yeni)";
 "Account already configured in Monal!" = "Hesap Monal'da zaten yapılandırılmış!";
+"Account already configured!" = "Account already configured!";
 "Account disabled" = "Hesap Devre Dışı";
 "Account Exists" = "Mevcut Hesaplar";
 "Account Picker" = "Hesap Seçicisi";
 "Account: %@" = "Hesap: %@";
 "Activity indications" = "Aktivite göstergeleri";
+"Add" = "Ekle";
 "Add %@ to your contacts?" = "Kişilerinize %@ eklensin mi?";
 "Add Account" = "Hesap Ekle";
 "Add Account (advanced)" = "Hesap Ekle (gelişmiş)";
@@ -69,6 +71,7 @@
 "Add Contact or Channel" = "Kişi veya Kanal Ekle";
 "Add members to group" = "Üyeyi gruba ekle";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Yukarıdaki + düğmesine tıklayarak yeni kişiler ekleyin. Arkadaşların uygun olduklarında görüntülenmeye başlayacaklar";
+"Add scanned contact" = "Taranmış kişiyi ekleyin";
 "Add to contacts" = "Kişilere ekle";
 "Adding %@..." = "%@ Ekleniyor...";
 "Adding Group/Channel..." = "Grup/Kanal ekleyin...";
@@ -111,6 +114,8 @@
 "Audio Recorder set active error: %@" = "Ses Kaydedici etkin olarak ayarlama hatası: %@";
 "Audio Recorder set category error: %@" = "Ses Kaydedici kategori ayarlama hatası: %@";
 "Audio Recorder: failed to record" = "Ses Kaydedici: kayıt yapılamadı";
+/* quicksy country */
+"Australia" = "Australia";
 "Auto-Download Media" = "Otomatik medya indirme";
 "Autofocus text input on chat open" = "Sohbet açıkken metin girişine otomatik odaklan";
 "Avatar" = "Profil Fotoğrafı";
@@ -148,6 +153,8 @@
 "Camera permissions missing" = "Kamera izinleri eksik";
 "Can Show Notifications" = "Bildirim Gösterebilir";
 "Can't convert the image to jpeg format." = "Görüntü jpeg biçimine dönüştürülemiyor.";
+/* quicksy country */
+"Canada" = "Canada";
 "Cancel" = "İptal Et";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Devre dışı bırakılan/silinen hesapla bir şey paylaşılamıyor, hedef: %@, dahili hesap kimliği: %@";
 "Caps hash: %@" = "Caps hash: %@";
@@ -380,6 +387,7 @@
 "Failed to save bookmark for Group/Channel: %@" = "Grup/Kanal için yer imi kaydedilemedi: %@";
 "Failed to save groupchat bookmarks" = "Grup sohbeti yer imleri kaydedilemedi";
 "Failed to share file" = "Dosya paylaşılamadı";
+"Failed to synchronize phonebook" = "Failed to synchronize phonebook";
 "Failed to upload file: account was removed" = "Dosya yüklenemedi: hesap kaldırıldı";
 "Failed to write decrypted download into cache directory" = "Şifresi çözülmüş indirme önbellek dizinine yazılamadı";
 "Features" = "Özellikler";
@@ -391,6 +399,8 @@
 "General" = "Genel";
 "General File Transfer Settings" = "Genel Dosya Aktarım Ayarları";
 "General Settings" = "Genel Ayarlar";
+/* quicksy country */
+"Germany" = "Germany";
 "Got empty room config form for '%@'" = "'%@' için boş oda yapılandırma formu var";
 "GPS" = "Küresel Konumlama Sistemi";
 "Green checkmark shield:" = "Yeşil onay işareti kalkanı:";
@@ -415,6 +425,8 @@
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Sesli mesaj kullanmak istiyorsanız, Ayarlar > Gizlilik > Mikrofon erişim izni vermeniz gerekir.";
 "Image Upload Quality: %@" = "Görüntü Yükleme Kalitesi:%@";
 "Import and trust OMEMO fingerprints from QR code" = "QR kodundan OMEMO parmaklarını içe aktarın ve güvenin";
+/* quicksy country */
+"India" = "India";
 "Indicate when a particular device is active or inactive. Saves battery." = "Belirli bir cihazın ne zaman aktif veya pasif olduğunu belirtin. Pil tasarrufu sağlar.";
 "Input" = "Girdi";
 "Input is not a valid jid" = "Giriş geçerli bir jid değil";
@@ -527,6 +539,7 @@
 "No further error description" = "Daha fazla hata açıklaması yok";
 "No GPS location received" = "GPS konumunuz alınmadı";
 "No OMEMO keys found" = "OMEMO anahtarı bulunamadı";
+"No pending constact requests" = "Bekleyen kontak talebi yok";
 "No search result." = "Arama sonucu yok.";
 "No supported auth mechanism found, disabling account!" = "Desteklenen bir kimlik doğrulama mekanizması bulunamadı, hesap devre dışı bırakılıyor!";
 "No XMPP server!" = "XMPP sunucusu yok!";
@@ -655,6 +668,7 @@
 "Rename Contact" = "Kişiyi Yeniden Adlandır";
 "Rename Group" = "Grubu Yeniden Adlandır";
 "Reply" = "Cevap ver";
+"Requesting validation SMS..." = "Requesting validation SMS...";
 "Required" = "Gerekli";
 "Reset OMEMO session" = "OMEMO oturumunu sıfırla";
 "Resource" = "Kaynak";
@@ -781,7 +795,6 @@
 "This account already exists in Monal." = "Bu hesap Monal'da zaten var.";
 "This account already exists on this instance" = "Bu hesap zaten bu örnekte var";
 "This account already exists on this instance." = "Bu hesap, bu örnekte zaten var.";
-"This allows you to forcefully crash the app using several different methods to test the crash handling." = "Bu, çökme işlemini test etmek için birkaç farklı yöntem kullanarak uygulamayı zorla çökertmenize olanak tanır.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Bu uygulama çok eski ve güvenlik açıkları içerebilir veya aniden çalışmayı durdurabilir. Lütfen güncelleyin!";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Bu, günlük dosyalarını dışa aktarmak için kullanılabilir.\n[Nasıl okunacağını öğrenin](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption." = "Bu kişinin şifrelemeyi destekleyen herhangi bir cihazı yok gibi görünüyor.";
@@ -848,6 +861,10 @@
 "Unexpected mam preferences result" = "Beklenmeyen mesaj arşiv tercihleri sonucu";
 "Unexpected server response: invalid PEP config form" = "Beklenmeyen sunucu yanıtı: geçersiz PEP yapılandırması";
 "Unexpected server response: missing required fields in PEP config form" = "Beklenmeyen sunucu yanıtı: PEP yapılandırmasında gerekli alanlar eksik";
+/* quicksy country */
+"United Kingdom" = "United Kingdom";
+/* quicksy country */
+"United States" = "United States";
 "unknown" = "Bilinmiyor";
 "Unknown authentication method" = "Bilinmeyen kimlik doğrulama yöntemi";
 "Unknown channel-binding type" = "Bilinmeyen channel-binding tipi";
@@ -966,6 +983,33 @@
 "📷 An Image" = "📷 Bir Resim";
 "🔗 A Link" = "🔗 Bir Bağlantı";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Merkezi Olmayan Ağ :\nMerkezi sunuculardan kaçınarak XMPP'nin merkezi olmayan doğasından yararlanır.\n\n🌐 Veri gizliliği :\nHarici taraflar için (veya başkası için) bilgi satmıyor veya takip etmiyoruz.\n\n🔐 Uçtan uca şifreleme :\nOMEMO protokolünü kullanarak güvenli çok uçlu mesajlaşma.\n\n👨‍💻 Açık Kaynak :\nUygulamanın kaynak kodu denetim ve katkı için herkese açıktır.";
-"Add" = "Ekle";
-"Add scanned contact" = "Taranmış kişiyi ekleyin";
-"No pending constact requests" = "Bekleyen kontak talebi yok";
+"%@ (%@)" = "%@ (%@)";
+"An error happened when trying to request the SMS:" = "An error happened when trying to request the SMS:";
+"Are you sure to cancel the registration process?" = "Are you sure to cancel the registration process?";
+"Cancel?" = "Cancel?";
+"Change it" = "Change it";
+"Check this number?" = "Check this number?";
+"Country:" = "Country:";
+"Don't show onboarding" = "Don't show onboarding";
+"Error requesting SMS!" = "Error requesting SMS!";
+"Invalid user input." = "Invalid user input.";
+"Please enter the six-digit pin below" = "Please enter the six-digit pin below";
+"Previous" = "Previous";
+"Quicksy is now set up and connected." = "Quicksy is now set up and connected.";
+"Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm).";
+"Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:";
+"Send SMS again" = "Send SMS again";
+"Some debug settings." = "Some debug settings.";
+"Something went wrong processing your request." = "Something went wrong processing your request.";
+"Temporarily unavailable. Try again later." = "Temporarily unavailable. Try again later.";
+"The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling.";
+"The pin we have sent you has expired." = "The pin we have sent you has expired.";
+"The pin you have entered is incorrect." = "The pin you have entered is incorrect.";
+"This phone number is currently logged in with another device." = "This phone number is currently logged in with another device.";
+"Too many attempts, please try again in %@." = "Too many attempts, please try again in %@.";
+"Unexpected error processing your request." = "Unexpected error processing your request.";
+"Verify your phone number" = "Verify your phone number";
+"We sent you an SMS to %@" = "We sent you an SMS to %@";
+"We will check the number **%@**. Is this okay or do you want to change the number?" = "We will check the number **%@**. Is this okay or do you want to change the number?";
+"Welcome to Quicksy !" = "Welcome to Quicksy !";
+"You are using an out of date version of this app." = "You are using an out of date version of this app.";

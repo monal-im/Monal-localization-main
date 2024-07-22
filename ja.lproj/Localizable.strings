@@ -56,11 +56,13 @@
 "Account (%@)" = "アカウント (%@)";
 "Account (new)" = "アカウント (新規)";
 "Account already configured in Monal!" = "アカウントはすでに Monal に設定されています。";
+"Account already configured!" = "Account already configured!";
 "Account disabled" = "アカウントは無効になりました";
 "Account Exists" = "アカウントは存在しています";
 "Account Picker" = "Account Picker";
 "Account: %@" = "アカウント: %@";
 "Activity indications" = "Activity indications";
+"Add" = "Add";
 "Add %@ to your contacts?" = "%@ を相手先に追加しますか ?";
 "Add Account" = "アカウントを追加";
 "Add Account (advanced)" = "アカウントを追加 (高度な設定)";
@@ -69,6 +71,7 @@
 "Add Contact or Channel" = "Add Contact or Channel";
 "Add members to group" = "Add members to group";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "上部の + ボタンを使用して新しい相手先を追加します。友だちが会話できるようになると、ここに表示されます";
+"Add scanned contact" = "Add scanned contact";
 "Add to contacts" = "相手先を追加";
 "Adding %@..." = "Adding %@...";
 "Adding Group/Channel..." = "グループ/チャンネルを追加中…";
@@ -111,6 +114,8 @@
 "Audio Recorder set active error: %@" = "Audio Recorder set active error: %@";
 "Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
 "Audio Recorder: failed to record" = "Audio Recorder: failed to record";
+/* quicksy country */
+"Australia" = "Australia";
 "Auto-Download Media" = "Auto-Download Media";
 "Autofocus text input on chat open" = "Autofocus text input on chat open";
 "Avatar" = "Avatar";
@@ -148,6 +153,8 @@
 "Camera permissions missing" = "カメラの権限がありません";
 "Can Show Notifications" = "通知を表示可";
 "Can't convert the image to jpeg format." = "画像を jpeg 形式に変換できません。";
+/* quicksy country */
+"Canada" = "Canada";
 "Cancel" = "キャンセル";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Cannot share something with disabled/deleted account, destination: %1$@, internal account id: %2$@";
 "Caps hash: %@" = "Caps hash: %@";
@@ -380,6 +387,7 @@
 "Failed to save bookmark for Group/Channel: %@" = "グループ/チャンネル %@ のブックマークの保存に失敗しました";
 "Failed to save groupchat bookmarks" = "グループチャットのブックマークの保存に失敗しました";
 "Failed to share file" = "ファイル共有に失敗しました";
+"Failed to synchronize phonebook" = "Failed to synchronize phonebook";
 "Failed to upload file: account was removed" = "ファイルのアップロードに失敗しました: アカウントは除去されました";
 "Failed to write decrypted download into cache directory" = "復号されたダウンロードのキャッシュ ディレクトリへのに書き込みに失敗しました";
 "Features" = "Features";
@@ -391,6 +399,8 @@
 "General" = "一般";
 "General File Transfer Settings" = "ファイル転送の一般設定";
 "General Settings" = "一般設定";
+/* quicksy country */
+"Germany" = "Germany";
 "Got empty room config form for '%@'" = "Got empty room config form for '%@'";
 "GPS" = "GPS";
 "Green checkmark shield:" = "Green checkmark shield:";
@@ -415,6 +425,8 @@
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "音声メッセージを使用したい場合は、[設定] -> [プライバシー] -> [マイク] でアクセスを許可する必要があります。";
 "Image Upload Quality: %@" = "Image Upload Quality: %@";
 "Import and trust OMEMO fingerprints from QR code" = "QR コードから OMEMO 指紋を取り込み信頼する";
+/* quicksy country */
+"India" = "India";
 "Indicate when a particular device is active or inactive. Saves battery." = "特定のデバイスがいつアクティブであるか非アクティブであるかを示します。バッテリーを節約します。";
 "Input" = "Input";
 "Input is not a valid jid" = "正しい JID ではありません";
@@ -527,6 +539,7 @@
 "No further error description" = "これ以上のエラーの説明はありません";
 "No GPS location received" = "GPS 位置情報を受け取れませんでした";
 "No OMEMO keys found" = "OMEMO 鍵が見つかりません";
+"No pending constact requests" = "No pending constact requests";
 "No search result." = "検索結果がありません。";
 "No supported auth mechanism found, disabling account!" = "対応している認証メカニズムが見つかりません。アカウントを無効にします。";
 "No XMPP server!" = "XMPP サーバーがありません。";
@@ -655,6 +668,7 @@
 "Rename Contact" = "相手先の名前を変更";
 "Rename Group" = "Rename Group";
 "Reply" = "返信";
+"Requesting validation SMS..." = "Requesting validation SMS...";
 "Required" = "Required";
 "Reset OMEMO session" = "OMEMO セッションをリセット";
 "Resource" = "リソース";
@@ -781,7 +795,6 @@
 "This account already exists in Monal." = "このアカウントはすでに Monal に存在しています。";
 "This account already exists on this instance" = "This account already exists on this instance";
 "This account already exists on this instance." = "This account already exists on this instance.";
-"This allows you to forcefully crash the app using several different methods to test the crash handling." = "This allows you to forcefully crash the app using several different methods to test the crash handling.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption." = "この相手先は暗号化に対応するデバイスを持っていないようです。";
@@ -848,6 +861,10 @@
 "Unexpected mam preferences result" = "Unexpected mam preferences result";
 "Unexpected server response: invalid PEP config form" = "Unexpected server response: invalid PEP config form";
 "Unexpected server response: missing required fields in PEP config form" = "Unexpected server response: missing required fields in PEP config form";
+/* quicksy country */
+"United Kingdom" = "United Kingdom";
+/* quicksy country */
+"United States" = "United States";
 "unknown" = "不明";
 "Unknown authentication method" = "不明な認証方法";
 "Unknown channel-binding type" = "不明なチャネルバインディングのタイプ";
@@ -966,6 +983,33 @@
 "📷 An Image" = "📷 画像";
 "🔗 A Link" = "🔗 リンク";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution.";
-"Add" = "Add";
-"Add scanned contact" = "Add scanned contact";
-"No pending constact requests" = "No pending constact requests";
+"%@ (%@)" = "%@ (%@)";
+"An error happened when trying to request the SMS:" = "An error happened when trying to request the SMS:";
+"Are you sure to cancel the registration process?" = "Are you sure to cancel the registration process?";
+"Cancel?" = "Cancel?";
+"Change it" = "Change it";
+"Check this number?" = "Check this number?";
+"Country:" = "Country:";
+"Don't show onboarding" = "Don't show onboarding";
+"Error requesting SMS!" = "Error requesting SMS!";
+"Invalid user input." = "Invalid user input.";
+"Please enter the six-digit pin below" = "Please enter the six-digit pin below";
+"Previous" = "Previous";
+"Quicksy is now set up and connected." = "Quicksy is now set up and connected.";
+"Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm).";
+"Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:";
+"Send SMS again" = "Send SMS again";
+"Some debug settings." = "Some debug settings.";
+"Something went wrong processing your request." = "Something went wrong processing your request.";
+"Temporarily unavailable. Try again later." = "Temporarily unavailable. Try again later.";
+"The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling.";
+"The pin we have sent you has expired." = "The pin we have sent you has expired.";
+"The pin you have entered is incorrect." = "The pin you have entered is incorrect.";
+"This phone number is currently logged in with another device." = "This phone number is currently logged in with another device.";
+"Too many attempts, please try again in %@." = "Too many attempts, please try again in %@.";
+"Unexpected error processing your request." = "Unexpected error processing your request.";
+"Verify your phone number" = "Verify your phone number";
+"We sent you an SMS to %@" = "We sent you an SMS to %@";
+"We will check the number **%@**. Is this okay or do you want to change the number?" = "We will check the number **%@**. Is this okay or do you want to change the number?";
+"Welcome to Quicksy !" = "Welcome to Quicksy !";
+"You are using an out of date version of this app." = "You are using an out of date version of this app.";
