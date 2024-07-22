@@ -351,7 +351,7 @@
 "Failed to create invitation, unknown error: %@" = "Ezin izan da gonbidapena sortu, errore ezezaguna: %@";
 "Failed to decode download link" = "Ezin izan da jaitsiera-esteka dekodetu";
 "Failed to decode encrypted link" = "Ezin izan da zifratutako esteka dekodetu";
-"Failed to decrypt download" = "Jaitsieren deszifrateak huts egin du";
+"Failed to decrypt download" = "Jaitsieren deszifratzeak huts egin du";
 "Failed to decrypt filetransfer" = "Partekatutako fitxategiaren dezifratzeak kale egin du";
 "Failed to delete own avatar" = "Ezin izan da abatarra ezabatu";
 "Failed to delete own nickname" = "Ezin izan da ezizena ezabatu";
@@ -407,7 +407,7 @@
 "Group/Channel not available anymore: %@" = "Taldea / kanala ez dago erabilgarri honezkero: %@";
 "groupJoin Group" = "Sartu taldean";
 "Hint" = "Lagungarria";
-"I already have an account:" = "Badut kontu bat dagoeneko:";
+"I already have an account:" = "Lehendik dudan kontu bat:";
 "I need an account:" = "Kontu bat behar dut:";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Monalek jakinarazpenak erakutsi ezin baditu, ez duzu abisurik jasoko mezuak iristerakoan. Hau gertatzen da 'Ukatu' aukeratu zenuelako Monalek baimena eskatu zizunean. Aldatu dezakezu iOSen ezarpenetara joanez eta > Monal > Jakinarazpenak atalean 'baimendu jakinarazpenak' hautatuz.";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Itzalita badago zure gailuak ezingo du zure XMPP zerbitzarian push aktibatu; egiaztatu XEP-0357-ekin bateragarria izateko ezarri duzula.";
@@ -457,7 +457,7 @@
 "Let your contacts know if you read a message." = "Baimendu zure kontaktuei mezua irakurri duzula jakitea.";
 "Let your contacts know if you received a message." = "Baimendu zure kontaktueki mezua jaso duzula jakitea.";
 "Let your contacts know when you last opened the app." = "Baimendu zure kontaktueki aplikazioa ireki zenuen azken aldia jakitea.";
-"Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "ePostaren kasuan bezala, kontu bat sortu dezakezu horretarako dauden webguneren batean, eta edonorekin hitz egin. Orrialde hau erabil dezakezu kontu bat sortzeko XMPP zerbitzari batean. Erabiltzaile izen eta pasahitz bat aukeratu beharko dituzu ere.";
+"Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "ePostaren kasuan bezala, kontu bat sortu dezakezu horretarako dauden webguneren batean, eta edonorekin hitz egin. Orrialde hau XMPP zerbitzari batean kontua sortzeko erabil dezakezu. Erabiltzaile izen eta pasahitz bat aukeratu beharko dituzu.";
 "Load over Cellular" = "Kargatu gailuko datuak erabiliz";
 "Load over cellular up to: %@ MiB" = "Kargatu geiluko datuak erabiliz %@ MiB arte";
 "Load over wifi" = "Kargatu WiFia erabiliz";
@@ -494,7 +494,7 @@
 "Misc" = "Denetarik";
 "Missing Call Support" = "Ez dago deiak egiteko aukerarik";
 "Missing permission" = "Baimena falta da";
-"Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server." = "iOS eta macOSerako XMPP txat bezero modernoa.\n\nXMPP sare federatua da: posta elektronikoan bezala, zure kontua zerbitzari batean erregistratu dezakezu eta nahi duzunarekin hitz egin, beste zerbitzari batean izena eman badute ere.";
+"Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server." = "iOS eta macOSerako XMPP txat bezero modernoa.\n\nXMPP sare federatua da: ePostaren kasuan bezala, zure kontua zerbitzari batean erregistratu dezakezu eta nahi duzunarekin hitz egin, beste zerbitzari batean izena eman badute ere.";
 "Monal" = "Monal";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monalek, unean, gako hau fidagarritzat dauka baina hatzmarkak ez dira oraindik alderatu. Segurtasuna handitzeko, egiaztatu pantailan ageri diren hatzmarkak bat datozela kontaktuarenekin gakoaz fidatu baino lehen!";
 "Monal did not received a gps location. Please try again later." = "Monalek ez du GPS kokapenik jaso. Saiatu berriro geroago.";
@@ -756,10 +756,10 @@
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "QR kodeak kontu batean saioa hasteko datuak ditu. Joan Ezarpenak -> Gehitu kontua eta eskaneatu QR kodea";
 "The resource '%@' has the following capabilities:" = "'%@' baliabideak honako ahalmenak ditu:";
-"The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "Hautatzeko ageri diren XMPP zerbitzariak publikoak dira eta ez daukate harremanik Monalekin. Izena emateko orrialdea gauzak erraztearren baino ez da eskaintzen.";
+"The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "Hautatzeko ageri diren XMPP zerbitzariak publikoak dira eta ez daukate harremanik Monalekin. Izena emateko orrialdea lana erraztearren baino ez da eskaintzen.";
 "The server does not support blocking (XEP-0191)." = "Zerbitzariak ez du blokeatzeko aukera gaituta (XEP-0191).";
 "The UDP logger allows you to livestream the log to the configured IP." = "UDP erregistratzaileak erregistroa konfiguratutako IPra zuzenean transmititzeko aukera ematen dizu.";
-"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP erregistratzaileak erregistroa konfiguratutako IPra zuzenean transmititzeko aukera ematen dizu. erabili pasahitz seguru bat Internet bidez transmititzeko!\n[Ikasi nola jaso erregistroaren transmisioa](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
+"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP erregistratzaileak erregistroa konfiguratutako IPra zuzenean transmititzeko aukera ematen dizu. Erabili pasahitz seguru bat Internet bidez transmititzeko!\n[Ikasi nola jaso erregistroaren transmisioa](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
 "The user %@ (%@) wants to add you to their contact list" = "%1$@ (%2$@) erabiltzaileak bere kontaktuetara gehitu nahi zaitu";
 "The username does not need to have an @ symbol. Please try again." = "Erabiltzaile izenak ez du @ ikurrik izan behar. Saiatu berriro.";
 "There is no configured email account. Please email info@monal-im.org ." = "Ez dago ePosta konturik ezarrita. Bidali ePosta info@monal-im.org-era.";
@@ -783,7 +783,7 @@
 "This account already exists on this instance." = "Kontua badago lehendik ere instantzia honetan.";
 "This allows you to forcefully crash the app using several different methods to test the crash handling." = "Honi esker, hainbat metodo erabiliko dira aplikazioa huts eginarazteko, erroreen kudeaketa probatzeko.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Aplikazio hau zaharregia da eta segurtasun arazoak izan ditzake edo erabilgarri egoteari utzi. Eguneratu!";
-"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Erregistroak esportatzeko balio dezake honek.\n[Ikasi nola irakur daitzkeen](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
+"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Erregistroak esportatzeko balio dezake honek.\n[Ikasi nola irakur daitezkeen](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption." = "Badirudi kontaktu honek ez duela zifratzearekin bateragarria den gailurik.";
 "This contact is already in the contact list of the selected account" = "Kontaktu hau badago lehendik ere hautatutako kontuko kontaktuen zerrendan";
 "This contact is already in your contact list" = "Kontaktu hau badago lehendik ere zure kontaktuen zerrendan";
@@ -858,7 +858,7 @@
 "Upload Error" = "Errorea igotzerakoan";
 "Upload Error: your account got disconnected while requesting upload slot" = "Errorea igotzerakoan: zure kontua deskonektatu da igotzeko eskaera egiten ari zela";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Igo zerbitzarira besteekin partekatzeko fitxategiak. (Zerbitzariak baimentzen duen fitxategien gehienezko tamaina: %@)";
-"Upload Settings" = "Igoera ezarpenak";
+"Upload Settings" = "Igoeren ezarpenak";
 "Uploading" = "Igotzen";
 "Uploading avatar..." = "Abatarra igotzen...";
 "Uploading file to server" = "Fitxategia zerbitzarira igotzen";
