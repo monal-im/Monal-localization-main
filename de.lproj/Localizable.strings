@@ -56,7 +56,7 @@
 "Account (%@)" = "Konto (%@)";
 "Account (new)" = "Konto (neu)";
 "Account already configured in Monal!" = "Konto bereits in Monal konfiguriert!";
-"Account already configured!" = "Account already configured!";
+"Account already configured!" = "Konto bereits konfiguriert!";
 "Account disabled" = "Konto deaktiviert";
 "Account Exists" = "Konto existiert";
 "Account Picker" = "Kontoauswahl";
@@ -115,7 +115,7 @@
 "Audio Recorder set category error: %@" = "Audiorekorder hat einen Kategoriefehler: %@";
 "Audio Recorder: failed to record" = "Audiorekorder: Aufzeichnung fehlgeschlagen";
 /* quicksy country */
-"Australia" = "Australia";
+"Australia" = "Australien";
 "Auto-Download Media" = "Automatischer Download von Medien";
 "Autofocus text input on chat open" = "Autofokus-Texteingabe bei geöffnetem Chat";
 "Avatar" = "Profilbild";
@@ -154,7 +154,7 @@
 "Can Show Notifications" = "Darf Benachrichtigungen anzeigen";
 "Can't convert the image to jpeg format." = "Das Bild kann nicht in das JPEG-Format konvertiert werden.";
 /* quicksy country */
-"Canada" = "Canada";
+"Canada" = "Kanada";
 "Cancel" = "Abbrechen";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Kann etwas nicht mit deaktiviertem/gelöschtem Konto teilen, Ziel: %@, interne Konto-ID: %@";
 "Caps hash: %@" = "Caps-Hash: %@";
@@ -387,7 +387,7 @@
 "Failed to save bookmark for Group/Channel: %@" = "Lesezeichen für Gruppe/Channel konnte nicht gespeichert werden: %@";
 "Failed to save groupchat bookmarks" = "Gruppenchatlesezeichen konnten nicht gespeichert werden";
 "Failed to share file" = "Datei konnte nicht geteilt werden";
-"Failed to synchronize phonebook" = "Failed to synchronize phonebook";
+"Failed to synchronize phonebook" = "Synchronisierung des Telefonbuchs fehlgeschlagen";
 "Failed to upload file: account was removed" = "Datei konnte nicht hochgeladen werden: Konto wurde entfernt";
 "Failed to write decrypted download into cache directory" = "Schreiben des entschlüsselten Downloads in das Cache-Verzeichnis fehlgeschlagen";
 "Features" = "Funktionen";
@@ -400,7 +400,7 @@
 "General File Transfer Settings" = "Allgemeine Dateiübertragungseinstellungen";
 "General Settings" = "Allgemeine Einstellungen";
 /* quicksy country */
-"Germany" = "Germany";
+"Germany" = "Deutschland";
 "Got empty room config form for '%@'" = "Leere Raumkonfiguration für '%@' erhalten";
 "GPS" = "GPS";
 "Green checkmark shield:" = "Schild mit grünem Häkchen:";
@@ -426,7 +426,7 @@
 "Image Upload Quality: %@" = "Qualität der hochgeladenen Bilder: %@";
 "Import and trust OMEMO fingerprints from QR code" = "OMEMO-Fingerabdrücke von QR-Codes importieren und vertrauen";
 /* quicksy country */
-"India" = "India";
+"India" = "Indien";
 "Indicate when a particular device is active or inactive. Saves battery." = "Anzeigen, wenn ein bestimmtes Gerät aktiv oder inaktiv ist. Spart Akku.";
 "Input" = "Eingabe";
 "Input is not a valid jid" = "Eingabe ist keine gültige XMPP-Adresse";
@@ -668,7 +668,7 @@
 "Rename Contact" = "Kontakt umbenennen";
 "Rename Group" = "Gruppe umbenennen";
 "Reply" = "Antworten";
-"Requesting validation SMS..." = "Requesting validation SMS...";
+"Requesting validation SMS..." = "Validierungs-SMS wird angefordert...";
 "Required" = "Erforderlich";
 "Reset OMEMO session" = "OMEMO-Sitzung zurücksetzen";
 "Resource" = "Ressource";
@@ -862,9 +862,9 @@
 "Unexpected server response: invalid PEP config form" = "Unerwartete Serverantwort: ungültiges PEP-Konfigurationsformular";
 "Unexpected server response: missing required fields in PEP config form" = "Unerwartete Serverantwort: fehlende Pflichtfelder im PEP-Konfigurationsformular";
 /* quicksy country */
-"United Kingdom" = "United Kingdom";
+"United Kingdom" = "Großbritannien";
 /* quicksy country */
-"United States" = "United States";
+"United States" = "USA";
 "unknown" = "Unbekannt";
 "Unknown authentication method" = "Unbekannte Authentifizierungsmethode";
 "Unknown channel-binding type" = "Unbekannter Kanalbindungstyp";
@@ -984,32 +984,32 @@
 "🔗 A Link" = "🔗 Ein Link";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Dezentrales Netzwerk :\nNutzt die dezentralisierte Struktur von XMPP und vermeidet zentrale Server.\n\n🌐 Datenschutz :\nWir verkaufen oder verfolgen keine Informationen für externe Dritte (und auch für niemanden sonst).\n\n🔐 Ende-zu-Ende-Verschlüsselung :\nSicheres Multi-End-Messaging mithilfe des OMEMO-Protokolls.\n\n👨‍💻 Open Source :\nDer Quellcode der App ist zur Prüfung und Weitergabe öffentlich zugänglich.";
 "%@ (%@)" = "%@ (%@)";
-"An error happened when trying to request the SMS:" = "An error happened when trying to request the SMS:";
-"Are you sure to cancel the registration process?" = "Are you sure to cancel the registration process?";
-"Cancel?" = "Cancel?";
-"Change it" = "Change it";
-"Check this number?" = "Check this number?";
-"Country:" = "Country:";
-"Don't show onboarding" = "Don't show onboarding";
-"Error requesting SMS!" = "Error requesting SMS!";
-"Invalid user input." = "Invalid user input.";
-"Please enter the six-digit pin below" = "Please enter the six-digit pin below";
-"Previous" = "Previous";
-"Quicksy is now set up and connected." = "Quicksy is now set up and connected.";
-"Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm).";
-"Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:";
-"Send SMS again" = "Send SMS again";
-"Some debug settings." = "Some debug settings.";
-"Something went wrong processing your request." = "Something went wrong processing your request.";
-"Temporarily unavailable. Try again later." = "Temporarily unavailable. Try again later.";
-"The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling.";
-"The pin we have sent you has expired." = "The pin we have sent you has expired.";
-"The pin you have entered is incorrect." = "The pin you have entered is incorrect.";
-"This phone number is currently logged in with another device." = "This phone number is currently logged in with another device.";
-"Too many attempts, please try again in %@." = "Too many attempts, please try again in %@.";
-"Unexpected error processing your request." = "Unexpected error processing your request.";
-"Verify your phone number" = "Verify your phone number";
-"We sent you an SMS to %@" = "We sent you an SMS to %@";
-"We will check the number **%@**. Is this okay or do you want to change the number?" = "We will check the number **%@**. Is this okay or do you want to change the number?";
-"Welcome to Quicksy !" = "Welcome to Quicksy !";
-"You are using an out of date version of this app." = "You are using an out of date version of this app.";
+"An error happened when trying to request the SMS:" = "Beim Versuch, die SMS anzufordern, ist ein Fehler aufgetreten:";
+"Are you sure to cancel the registration process?" = "Bist du sicher, dass du die Registrierung abbrechen willst?";
+"Cancel?" = "Abbrechen?";
+"Change it" = "Ändern";
+"Check this number?" = "Überprüfe diese Nummer?";
+"Country:" = "Land:";
+"Don't show onboarding" = "Einweisung nicht anzeigen";
+"Error requesting SMS!" = "Fehler beim Anfordern der SMS!";
+"Invalid user input." = "Ungültige Benutzereingabe.";
+"Please enter the six-digit pin below" = "Bitte gib die sechsstellige PIN unten ein";
+"Previous" = "Vorherige";
+"Quicksy is now set up and connected." = "Quicksy ist nun eingerichtet und verbunden.";
+"Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksy synchronisiert deine Kontaktliste in regelmäßigen Abständen, um Vorschläge für mögliche Kontakte zu machen, die bereits bei Quicksy sind.\n\nQuicksy teilt und speichert Bilder, Audioaufnahmen, Videos und andere Medien, um sie den gewünschten Empfängern zukommen zu lassen. Die Dateien werden bis zu 30 Tage lang gespeichert.\n\nWeitere Informationen finden Sie in unserer [Datenschutzrichtlinie](https://quicksy.im/privacy.htm).";
+"Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksy sendet eine SMS-Nachricht (es können Gebühren anfallen), um deine Rufnummer zu überprüfen. Gib deine Landesvorwahl und Telefonnummer ein:";
+"Send SMS again" = "SMS erneut senden";
+"Some debug settings." = "Einige Einstellungen zur Fehlersuche.";
+"Something went wrong processing your request." = "Bei der Bearbeitung deiner Anfrage ist etwas schief gelaufen.";
+"Temporarily unavailable. Try again later." = "Vorübergehend nicht verfügbar. Versuche es später noch einmal.";
+"The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "Mit den folgenden Buttons kannst du die App mit verschiedenen Methoden zum Absturz bringen, um die Absturzbehandlung zu testen.";
+"The pin we have sent you has expired." = "Die PIN, die wir dir geschickt haben, ist abgelaufen.";
+"The pin you have entered is incorrect." = "Die eingegebene PIN ist falsch.";
+"This phone number is currently logged in with another device." = "Diese Telefonnummer ist derzeit mit einem anderen Gerät angemeldet.";
+"Too many attempts, please try again in %@." = "Zu viele Versuche, bitte versuche es erneut in %@.";
+"Unexpected error processing your request." = "Unerwarteter Fehler bei der Bearbeitung deiner Anfrage.";
+"Verify your phone number" = "Überprüfung deiner Telefonnummer";
+"We sent you an SMS to %@" = "Wir haben dir eine SMS an %@ geschickt";
+"We will check the number **%@**. Is this okay or do you want to change the number?" = "Wir werden die Nummer **%@** überprüfen. Ist sie in Ordnung oder möchtest du die Nummer ändern?";
+"Welcome to Quicksy !" = "Willkommen bei Quicksy !";
+"You are using an out of date version of this app." = "Du verwendest eine veraltete Version dieser App.";
