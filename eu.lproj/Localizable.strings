@@ -65,7 +65,7 @@
 "Add Account" = "Gehitu kontua";
 "Add Account (advanced)" = "Gehitu kontua (aurreratua)";
 "Add contact" = "Gehitu kontaktua";
-"Add contact (contact requests pending)" = "Gehitu kontaktua (contact requests pending)";
+"Add contact (contact requests pending)" = "Gehitu kontaktua (kontaktu eskaerak onartzeke)";
 "Add Contact or Channel" = "Gehitu kontaktua edo kanala";
 "Add members to group" = "Gehitu kideak taldera";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Gehitu kontaktu berriak goialdeko + botoia erabiliz. Zure lagunak hemen agertuko dira hitz egin dezaketenean";
@@ -90,7 +90,7 @@
 "Allow MITM-prone PLAIN authentication" = "Baimendu MITM-garria den PLAIN autentikazioa";
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Baimendu zure gailuak urrunekoekin zuzeneko sare-konexioa ezartzea. Honek zure IP helbidea iragaz diezaioke deitzen duenari/dutenei.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Kontaktu bezala gehi zaitzatela baimentzen baduzu, zure profileko irudia eta linean noiz zauden ikus dezakete.";
-"Already present" = "Dagoeneko badago";
+"Already present" = "Badago lehendik ere";
 "Already uploading this content, ignoring" = "Eduki hau igotzen ari da honezkero, muzin egiten";
 "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Argi ibili: ezingo duzu zure zerbitzariko historia zaharragoa kargatzeko, Monalek eskuratu eta berehala ezabatuko du!";
 "Always archive" = "Artxibatu beti";
@@ -115,7 +115,7 @@
 "Autofocus text input on chat open" = "Fokatu automatikoki testu-sarreran txata irekitzean";
 "Avatar" = "Abatarra";
 "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Ohart ongi: mezua jakinarazpenak jasotzean edo aplikazioa irekitzean ezabatuko da soilik! Hau are ageriagoa da denbora-tarte laburragoetan!";
-"Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
+"Become part of a worldwide decentralized chat network!" = "Izan zaitez munduko txat-sare deszentralizatuko partaide!";
 "Block" = "Blokeatu";
 "Block Contact" = "Blokeatu kontaktua";
 "Block user?" = "Erabiltzailea blokeatu?";
@@ -341,7 +341,7 @@
 "Error: No contacts to display keys for!" = "Errorea: Ez dago gakoak ikusteko kontakturik!";
 "Error: Received OMEMO message is empty" = "Errorea: jasotako OMEMO mezua hutsik dago";
 "errorMessage" = "errorMessage";
-"Even more to customize!" = "Even more to customize!";
+"Even more to customize!" = "Pertsonalizatzeko are gehiago!";
 "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Kontaktu berri bakoitzak zifraketa gaituta izango du, baina dagoeneko gehitutako kontaktuek orain arteko zifratze-ezarpenak mantenduko dituzte.";
 "Failed to block contact %@" = "Ezin izan da %@ blokeatu";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak huts egin du";
@@ -454,7 +454,7 @@
 "Leave this conversation" = "Utzi elkarrizketa hau";
 "Leave this converstion?" = "Elkarrizketatik irten nahi duzu?";
 "Let your contacts know if you are typing a message." = "Baimendu zure kontaktueki mezu bat idazten ari zarela jakitea.";
-"Let your contacts know if you read a message." = "Baimendu zure kontaktueki mezua irakurri duzula jakitea.";
+"Let your contacts know if you read a message." = "Baimendu zure kontaktuei mezua irakurri duzula jakitea.";
 "Let your contacts know if you received a message." = "Baimendu zure kontaktueki mezua jaso duzula jakitea.";
 "Let your contacts know when you last opened the app." = "Baimendu zure kontaktueki aplikazioa ireki zenuen azken aldia jakitea.";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "ePostaren kasuan bezala, kontu bat sortu dezakezu horretarako dauden webguneren batean, eta edonorekin hitz egin. Orrialde hau erabil dezakezu kontu bat sortzeko XMPP zerbitzari batean. Erabiltzaile izen eta pasahitz bat aukeratu beharko dituzu ere.";
@@ -514,12 +514,12 @@
 "New Password" = "Pasahitz berria";
 "Newest TLS version which is faster than TLS 1.2" = "TLS bertsio berriena, TLS 1.2 baino azkarragoa dena";
 /* onboarding */
-"Next" = "Next";
+"Next" = "Hurrengoa";
 "Nickname" = "Ezizena";
 "No" = "Ez";
 "No account available to handel 'xmpp:' URI!" = "Ez dago 'xmpp:' URI erabili dezakeen konturik!";
 "No accounts set up currently" = "Ez da konturik ezarri oraingoz";
-"No active conversations" = "No active conversations";
+"No active conversations" = "Ez dago elkarrizketa aktiborik";
 "No connected accounts" = "Ez dago konektatutako konturik";
 "No contacts to show :(" = "Ez dago kontakturik :(";
 "No Empty Values!" = "Ez utzi hutsik!";
@@ -558,7 +558,7 @@
 /* muc members list */
 "Open contact details" = "Ireki kontaktuaren xehetasunak";
 "Open contact list" = "Ireki kontaktuen zerrenda";
-"Open contact list (contact requests pending)" = "Open contact list (contact requests pending)";
+"Open contact list (contact requests pending)" = "Ireki kontaktuen zerrenda (kontaktu eskaerak onartzeke)";
 "Open in default browser" = "Ireki defektuzko nabigatzailean";
 "Open iOS settings" = "Ireki iOSen ezarpenak";
 "Open macOS settings" = "Ireki macOSen ezarpenak";
@@ -685,8 +685,8 @@
 "Send" = "Bidali";
 "Send last interaction time" = "Bidali azken elkarreraginaren data";
 "Send Location" = "Bidali kokapena";
-"Send message receipts" = "Send message receipts";
-"Send read receipts" = "Send read receipts";
+"Send message receipts" = "Bidali jaso izanaren agiria";
+"Send read receipts" = "Bidali irakurri izanaren agiria";
 "Send typing notifications" = "Bidali idazketa-jakinarazpenak";
 "Sending..." = "Bidaltzen…";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Pasahitzak testu hutsean bidaltzen ditu (TLS bidez zifratuta baino ez), ez da oso segurua";
@@ -736,7 +736,7 @@
 /* Crash reporting */
 "Sure, send it!" = "Noski, bidali!";
 "Synchronize your messages on all loggedin devices." = "Sinkronizatu mezuak saioa hasita duten gailu guztietan.";
-"Take me to settings" = "Take me to settings";
+"Take me to settings" = "Joan ezarpenetara";
 "Temporary failure to enter Group/Channel: %@" = "Taldea / kanalarekin bat egiteak kale egin du behin-behinean: %@";
 "Terms of %@" = "%@(r)en baldintzak";
 "Terms of use for %@" = "%@(r)en erabilera baldintzak";
@@ -891,7 +891,7 @@
 "Welcome to Monal !" = "Welcome to Monal !";
 "What call do you want to place?" = "Zer dei egin nahi duzu?";
 "When disabled, URLs will opened in your default browser (that might not be Safari)." = "Ezgaitzen denean, URLak defektuzko nabigatzailean irekiko dira (agian ez da Safari izango).";
-"When you start a conversation\nwith someone, they will\nshow up here." = "When you start a conversation\nwith someone, they will\nshow up here.";
+"When you start a conversation\nwith someone, they will\nshow up here." = "Norbaitekin elkarrizketa bat\nhasten duzunean \nhemen agertuko da.";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Testua idazteko eremua zuzenean aktibatuko da eta iOSen eta teklatu birtuala irekiko du.";
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
@@ -967,5 +967,5 @@
 "🔗 A Link" = "🔗 Esteka";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution.";
 "Add" = "Gehitu";
-"Add scanned contact" = "Add scanned contact";
-"No pending constact requests" = "No pending constact requests";
+"Add scanned contact" = "Gehitu eskaneatutako kontaktua";
+"No pending constact requests" = "Ez dago kontaktu eskaerarik onartzeke";
