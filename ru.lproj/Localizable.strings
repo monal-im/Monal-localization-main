@@ -3,6 +3,7 @@
 " running on %@" = " запущен на %@";
 "%02d:%02d (long press to abort)" = "%02d:%02d (удерживайте для отмены)";
 "%@" = "%@";
+"%@ (%@)" = "%@ (%@)";
 "%@ (affiliation: %@)" = "%@ (статус: %@)";
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
 "%@ hours" = "%@ hours";
@@ -84,6 +85,12 @@
 "Admin" = "Администратор";
 "Advanced Settings" = "Дополнительные параметры";
 "Affiliation: %@%@" = "Статус: %@%@";
+/* quicksy country */
+"Afghanistan" = "Afghanistan";
+/* quicksy country */
+"Albania" = "Albania";
+/* quicksy country */
+"Algeria" = "Algeria";
 "All messages are archived by default." = "Все сообщения архивируются по умолчанию.";
 "All messages fetched successfully, there are no more left on the server!" = "Все сообщения с сервера успешно загружены!";
 "Allow" = "Разрешить";
@@ -98,6 +105,17 @@
 "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Внимание: Вы не сможете скачать предшествующую историю с вашего сервера, Monal удалит её сразу после получения!";
 "Always archive" = "Всегда архивировать";
 "Always use direct TLS, not STARTTLS" = "Только прямой TLS (без STARTTLS)";
+/* quicksy country */
+"American Samoa" = "American Samoa";
+"An error happened when trying to request the SMS:" = "An error happened when trying to request the SMS:";
+/* quicksy country */
+"Andorra" = "Andorra";
+/* quicksy country */
+"Angola" = "Angola";
+/* quicksy country */
+"Anguilla" = "Anguilla";
+/* quicksy country */
+"Antigua and Barbuda" = "Antigua and Barbuda";
 "App" = "Приложение";
 "Appearance" = "Оформление";
 "Apple Push Service" = "Служба push-уведомлений Apple";
@@ -107,6 +125,13 @@
 "Approve new contact" = "Принять новый контакт";
 "Archive chat" = "Архивировать переписку";
 "Archive only if the contact is in contact list." = "Архивировать только для пользователей из списка контактов.";
+"Are you sure to cancel the registration process?" = "Are you sure to cancel the registration process?";
+/* quicksy country */
+"Argentina" = "Argentina";
+/* quicksy country */
+"Armenia" = "Armenia";
+/* quicksy country */
+"Aruba" = "Aruba";
 "Attachments" = "Вложения";
 "Audio recorder init fail." = "Не удалось запустить запись аудио.";
 "Audio recorder prepareToRecord fail." = "Запись аудио prepareToRecord не удалась.";
@@ -116,11 +141,37 @@
 "Audio Recorder: failed to record" = "Не удалось записать аудио";
 /* quicksy country */
 "Australia" = "Australia";
+/* quicksy country */
+"Australian External Territories" = "Australian External Territories";
+/* quicksy country */
+"Austria" = "Austria";
 "Auto-Download Media" = "Авто-скачивание файлов";
 "Autofocus text input on chat open" = "Автофокус на поле ввода при открытии переписки";
 "Avatar" = "Аватар";
+/* quicksy country */
+"Azerbaijan" = "Azerbaijan";
+/* quicksy country */
+"Bahamas" = "Bahamas";
+/* quicksy country */
+"Bahrain" = "Bahrain";
+/* quicksy country */
+"Bangladesh" = "Bangladesh";
+/* quicksy country */
+"Barbados" = "Barbados";
 "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Предупреждение: Сообщение будет удалено только по получении push-уведомлений либо при открытии приложения. Это имеет значение на коротких временных интервалах.";
 "Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
+/* quicksy country */
+"Belarus" = "Belarus";
+/* quicksy country */
+"Belgium" = "Belgium";
+/* quicksy country */
+"Belize" = "Belize";
+/* quicksy country */
+"Benin" = "Benin";
+/* quicksy country */
+"Bermuda" = "Bermuda";
+/* quicksy country */
+"Bhutan" = "Bhutan";
 "Block" = "Заблокировать";
 "Block Contact" = "Заблокировать Контакт";
 "Block user?" = "Заблокировать пользователя?";
@@ -132,6 +183,26 @@
 "Blocking member" = "Блокировка участника";
 "Blocking/Unblocking Not Supported" = "Блокировка/Разблокировка не поддерживается";
 "BODY" = "ТЕЛО";
+/* quicksy country */
+"Bolivia (Plurinational State of)" = "Bolivia (Plurinational State of)";
+/* quicksy country */
+"Bonaire, Sint Eustatius and Saba" = "Bonaire, Sint Eustatius and Saba";
+/* quicksy country */
+"Bosnia and Herzegovina" = "Bosnia and Herzegovina";
+/* quicksy country */
+"Botswana" = "Botswana";
+/* quicksy country */
+"Brazil" = "Brazil";
+/* quicksy country */
+"British Virgin Islands" = "British Virgin Islands";
+/* quicksy country */
+"Brunei Darussalam" = "Brunei Darussalam";
+/* quicksy country */
+"Bulgaria" = "Bulgaria";
+/* quicksy country */
+"Burkina Faso" = "Burkina Faso";
+/* quicksy country */
+"Burundi" = "Burundi";
 "Call ended" = "Вызов завершён";
 "Call ended for an unknown reason" = "Вызов завершён по неизвестной причине";
 "Call ended, duration: %@" = "Вызов завершён, продолжительность: %@";
@@ -148,24 +219,38 @@
 "Call was not answered" = "Вызов без ответа";
 "Calls: Allow P2P sessions" = "Звонки: Разрешить P2P сессии";
 "Calls: Allow TURN fallback to Monal-Servers" = "Звонки: TURN на серверы Monal как запасной вариант";
+/* quicksy country */
+"Cambodia" = "Cambodia";
 "Camera" = "Камера";
 /* Camera permissions missing warning */
 "Camera permissions missing" = "Нет разрешения для доступа к камере";
+/* quicksy country */
+"Cameroon" = "Cameroon";
 "Can Show Notifications" = "Показывать Уведомления";
 "Can't convert the image to jpeg format." = "Не удаётся преобразовать изображение в JPEG формат.";
 /* quicksy country */
 "Canada" = "Canada";
 "Cancel" = "Отмена";
+"Cancel?" = "Cancel?";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Нет возможности поделиться с пользователем с отключенной/удалённой учётной записью, адресат: %1$@, внутренний идентификатор учётной записи: %2$@";
+/* quicksy country */
+"Cape Verde" = "Cape Verde";
 "Caps hash: %@" = "Контрольная сумма: %@";
 /* placeholder when creating account */
 "Captcha" = "Капча";
+/* quicksy country */
+"Cayman Islands" = "Cayman Islands";
+/* quicksy country */
+"Central African Rep." = "Central African Rep.";
+/* quicksy country */
+"Chad" = "Chad";
 "Change affiliation" = "Сменить статус";
 "Change Background Image" = "Изменить фоновое изображение";
 "Change Channel Avatar" = "Изменить аватар канала";
 "Change Chat Background" = "Изменить фон переписки";
 "Change Group Avatar" = "Изменить аватар группы";
 "Change Group Members" = "Редактировать участников группы";
+"Change it" = "Change it";
 "Change Password" = "Сменить пароль";
 "Changing affiliation" = "Изменение статуса";
 "Changing affiliation to %@: %@" = "Изменение статуса на %@: %@";
@@ -176,7 +261,12 @@
 "Channel subject:" = "Тема канала:";
 "Chat Background" = "Фон канала";
 "Chat background image" = "Фоновое изображение переписки";
+"Check this number?" = "Check this number?";
 "Check type and size on " = "Проверьте тип и размер ";
+/* quicksy country */
+"Chile" = "Chile";
+/* quicksy country */
+"China" = "China";
 "Clear Chat History" = "Удалить историю переписки";
 "Clear chat history of this channel" = "Удалить историю переписки для этого канала";
 "Clear chat history of this contact" = "Удалить историю переписки с этим контактом";
@@ -186,7 +276,13 @@
 "Clear text" = "Удалить текст";
 /* onboarding */
 "Close" = "Закрыть";
+/* quicksy country */
+"Colombia" = "Colombia";
+/* quicksy country */
+"Comoros" = "Comoros";
 "Configure the background image displayed in open chats." = "Выбрать фоновое изображение для открытых переписок.";
+/* quicksy country */
+"Congo" = "Congo";
 "Connected since: %@" = "Подключён с: %@";
 "Connected: %@" = "В сети: %@";
 "Connecting..." = "Подключение...";
@@ -198,12 +294,18 @@
 "Contact or Group/Channel Jid" = "XMPP адрес контакта или группы/канала";
 "Contact Selection" = "Выбор контакта";
 "Contacts" = "Контакты";
+/* quicksy country */
+"Cook Islands" = "Cook Islands";
 "Cool Title" = "Название";
 "Copied to clipboard" = "Скопировано в буфер обмена";
 /* Chat msg action */
 "Copy" = "Скопировать";
 "Copy invitation link to clipboard" = "Скопировать ссылку на приглашение в буфер обмена";
 "Copy to clipboard" = "Скопировать в буфер обмена";
+/* quicksy country */
+"Costa Rica" = "Costa Rica";
+/* quicksy country */
+"Côte d'Ivoire" = "Côte d'Ivoire";
 "Could fetch room config form for '%@': timeout" = "Не удалось загрузить конфигурацию комнаты для '%@': время ожидания истекло";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Нет доступа к камере";
@@ -228,17 +330,28 @@
 "Could not send" = "Не удалось отправить";
 "Could not synchronize" = "Не удалось синхронизировать";
 "Could not upload file" = "Не удалось загрузить файл";
+"Country:" = "Country:";
 /* Crash reporting */
 "Crash Detected" = "Диагностирован сбой";
 "Crash Testing" = "Отладка";
 "Create new group" = "Создать новую группу";
 "Creating Group" = "Создание группы";
 "Creating invitation..." = "Создание приглашения...";
+/* quicksy country */
+"Croatia" = "Croatia";
+/* quicksy country */
+"Cuba" = "Cuba";
+/* quicksy country */
+"Curaçao" = "Curaçao";
 "Current Password" = "Текущий пароль";
 "Currently Online" = "Сейчас в сети";
 /* Message autdelete time */
 "Custom" = "По выбору пользователя";
 "Custom Time: " = "Желаемый интервал: ";
+/* quicksy country */
+"Cyprus" = "Cyprus";
+/* quicksy country */
+"Czech Rep." = "Czech Rep.";
 "Database Export Failed" = "Отказ выгрузки базы данных";
 "Database Files" = "Файлы базы данных";
 "Debug" = "Отладка";
@@ -252,6 +365,12 @@
 "Delete Account" = "Удалить аккаунт";
 "Delete Account on Server" = "Удалить учётную запись на сервере";
 "Delete Key" = "Удалить ключ";
+/* quicksy country */
+"Dem. People's Rep. of Korea" = "Dem. People's Rep. of Korea";
+/* quicksy country */
+"Dem. Rep. of the Congo" = "Dem. Rep. of the Congo";
+/* quicksy country */
+"Denmark" = "Denmark";
 "Deny new contact" = "Отклонить новый контакт";
 "Destroy Channel" = "Удалить канал";
 "Destroy Group" = "Удалить группу";
@@ -262,6 +381,8 @@
 "Device ID: " = "ID устройства: ";
 "DeviceID: " = "ID устройства: ";
 "Devices of %@" = "Устройства %@";
+/* quicksy country */
+"Diego Garcia" = "Diego Garcia";
 "Disable Encryption" = "Отключить защиту данных";
 "Disable encryption?" = "Отключить шифрование?";
 "Discovering devices..." = "Поиск устройств...";
@@ -269,6 +390,8 @@
 "Display Name And Message" = "Отображать имя и сообщение";
 "Display Only Name" = "Отображать только имя";
 "Display Only Placeholder" = "Отображать только факт наличия уведомления";
+/* quicksy country */
+"Djibouti" = "Djibouti";
 "Do you really want to block this contact? You won't receive any messages from this contact." = "Вы действительно хотите заблокировать этот контакт? Вам не будут доставляться его сообщения.";
 "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "Вы действительно хотите удалить все сообщения этой переписки? При использовании OMEMO вы не сможете снова загрузить их с вашего сервера.";
 "Do you really want to delete this key?" = "Вы действительно хотите удалить этот ключ?";
@@ -282,6 +405,11 @@
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Доверять сканированному отпечатку контакта %@ при использовании вашей учётной записи %@?";
 "Doing a lot of work..." = "В работе...";
 "Domain missing" = "Отсутствует домен";
+/* quicksy country */
+"Dominica" = "Dominica";
+/* quicksy country */
+"Dominican Rep." = "Dominican Rep.";
+"Don't show onboarding" = "Don't show onboarding";
 "Don't trust Key" = "Не доверять ключу";
 "Done" = "Готово";
 "Dont' trust Key" = "Не доверять ключу";
@@ -294,9 +422,15 @@
 "Duplicate jid!" = "Повторяющийся адрес XMPP.";
 /* Crash report error dialog */
 "E-Mail not enabled on device" = "На устройстве не настроена электронная почта";
+/* quicksy country */
+"Ecuador" = "Ecuador";
 /* Chat msg action */
 "Edit" = "Правка";
+/* quicksy country */
+"Egypt" = "Egypt";
 "Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "Это либо атака по типу MITM, либо ваш сервер не поддерживает ни XEP-0474 ни XEP-0440 в полном объёме, которые требуют привязку к каналу для TLS сервера конечного узла. В любом случае, об этом нужно сообщить системному администратору вашего сервера. Учётная запись пока деактивирована.";
+/* quicksy country */
+"El Salvador" = "El Salvador";
 /* Crash report error dialog */
 "Email Error" = "Ошибка электронной почты";
 "Email Support" = "Поддержка по электронной почте";
@@ -317,6 +451,10 @@
 "Entry 1" = "Запись 1";
 "Entry 2" = "Запись 2";
 "Entry 3" = "Запись 3";
+/* quicksy country */
+"Equatorial Guinea" = "Equatorial Guinea";
+/* quicksy country */
+"Eritrea" = "Eritrea";
 "Error" = "Ошибка";
 "error" = "ошибка";
 "Error adding contact or channel" = "Ошибка добавления контакта или канала";
@@ -341,6 +479,7 @@
 "Error Removing Account" = "Ошибка удаления учётной записи";
 "Error removing avatar!" = "Ошибка удаления аватара.";
 "Error removing user!" = "Ошибка удаления пользователя.";
+"Error requesting SMS!" = "Error requesting SMS!";
 "Error unblocking user!" = "Ошибка разблокировки пользователя.";
 "Error while decrypting: iv.length != 12" = "Ошибка расшифровки: длина iv != 12";
 "Error: %@" = "Ошибка: %@";
@@ -348,6 +487,10 @@
 "Error: No contacts to display keys for!" = "Ошибка: Отсутствуют контакты для которых отображать ключи.";
 "Error: Received OMEMO message is empty" = "Ошибка: Получено пустое OMEMO сообщение";
 "errorMessage" = "сообщение об ошибке";
+/* quicksy country */
+"Estonia" = "Estonia";
+/* quicksy country */
+"Ethiopia" = "Ethiopia";
 "Even more to customize!" = "Even more to customize!";
 "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Для каждого нового контакта будет активироваться шифрование; при этом, для уже известных контактов сохранятся выбранные настройки шифрования.";
 "Failed to block contact %@" = "Не удалось заблокировать контакт %@";
@@ -390,20 +533,52 @@
 "Failed to synchronize phonebook" = "Failed to synchronize phonebook";
 "Failed to upload file: account was removed" = "Не удалось отправить файл: учётная запись удалена";
 "Failed to write decrypted download into cache directory" = "Не удалось записать расшифрованную версию загруженного файла в папку кэша";
+/* quicksy country */
+"Falkland Islands (Malvinas)" = "Falkland Islands (Malvinas)";
+/* quicksy country */
+"Faroe Islands" = "Faroe Islands";
 "Features" = "Features";
 "Fetching registration form..." = "Загрузка регистрационной формы...";
+/* quicksy country */
+"Fiji" = "Fiji";
 "File" = "Файл";
 "filename" = "имя файла";
 "Files" = "Файлы";
 "Finished fetching messages" = "Загрузка сообщений завершена";
+/* quicksy country */
+"Finland" = "Finland";
+/* quicksy country */
+"France" = "France";
+/* quicksy country */
+"French Departments and Territories in the Indian Ocean" = "French Departments and Territories in the Indian Ocean";
+/* quicksy country */
+"French Guiana" = "French Guiana";
+/* quicksy country */
+"French Polynesia" = "French Polynesia";
+/* quicksy country */
+"Gabon" = "Gabon";
+/* quicksy country */
+"Gambia" = "Gambia";
 "General" = "Общие";
 "General File Transfer Settings" = "Общие настройки передачи файлов";
 "General Settings" = "Общие настройки";
 /* quicksy country */
+"Georgia" = "Georgia";
+/* quicksy country */
 "Germany" = "Germany";
+/* quicksy country */
+"Ghana" = "Ghana";
+/* quicksy country */
+"Gibraltar" = "Gibraltar";
 "Got empty room config form for '%@'" = "Получена пустая форма конфигурации комнаты для '%@'";
 "GPS" = "GPS";
+/* quicksy country */
+"Greece" = "Greece";
 "Green checkmark shield:" = "Зелёный значок с галкой:";
+/* quicksy country */
+"Greenland" = "Greenland";
+/* quicksy country */
+"Grenada" = "Grenada";
 "Group Avatar" = "Аватар группы";
 /* placeholder when editing a group description */
 "Group Description (optional)" = "Описание группы (опционально)";
@@ -416,9 +591,31 @@
 "Group/Channel got destroyed: %@" = "Группа/канал удалена: %@";
 "Group/Channel not available anymore: %@" = "Больше нет доступа к группе/каналу: %@";
 "groupJoin Group" = "присоединиться к группе";
+/* quicksy country */
+"Guadeloupe" = "Guadeloupe";
+/* quicksy country */
+"Guam" = "Guam";
+/* quicksy country */
+"Guatemala" = "Guatemala";
+/* quicksy country */
+"Guinea" = "Guinea";
+/* quicksy country */
+"Guinea-Bissau" = "Guinea-Bissau";
+/* quicksy country */
+"Guyana" = "Guyana";
+/* quicksy country */
+"Haiti" = "Haiti";
 "Hint" = "Подсказка";
+/* quicksy country */
+"Honduras" = "Honduras";
+/* quicksy country */
+"Hong Kong, China" = "Hong Kong, China";
+/* quicksy country */
+"Hungary" = "Hungary";
 "I already have an account:" = "У меня уже есть учётная запись:";
 "I need an account:" = "Мне нужна учётная запись:";
+/* quicksy country */
+"Iceland" = "Iceland";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Если у Monal нет разрешения показывать уведомления, он не сможет оповестить о входящих сообщениях. Такое случается если вы выбрали 'Отклонить' когда Monal изначально запрашивал соответствующее разрешение. Это можно исправить в Настройках iOS -> Monal -> Уведомления выбрав вариант 'Разрешить уведомления'.";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Если эта функция отключена, ваше устройство не сможет отправлять данные методом Push на ваш сервер XMPP; убедитесь, что на нём активирована поддержка XEP-0357.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "Если вы включите эту функцию, вы больше не будете защищены от Man-In-The-Middle атак. Такие атаки позволяют злоумышленнику манипулировать вашими входящими и исходящими сообщениями, добавлять свои собственные ключи OMEMO, изменять данные вашей учетной записи и даже узнавать или менять ваш пароль!\n\nЛучше сменить сервер, нежели включать эту функцию.";
@@ -428,6 +625,8 @@
 /* quicksy country */
 "India" = "India";
 "Indicate when a particular device is active or inactive. Saves battery." = "Отображать момент активации/деактивации конкретного устройства. Экономит заряд батареи.";
+/* quicksy country */
+"Indonesia" = "Indonesia";
 "Input" = "Ввод";
 "Input is not a valid jid" = "Введённое значение не является корректным адресом XMPP";
 "Interactions" = "Взаимодействие";
@@ -437,6 +636,7 @@
 "Invalid image file!" = "Некорректный файл изображения.";
 "Invalid Password!" = "Некорректный пароль.";
 "Invalid State" = "Некорректное состояние";
+"Invalid user input." = "Invalid user input.";
 "Invalid Username!" = "Некорректное имя пользователя.";
 "Invitation for %@ created" = "Создано приглашение для %@";
 /* muc invite */
@@ -446,14 +646,44 @@
 "Inviting new participant" = "Приглашение нового участника";
 "Inviting user" = "Приглашение пользователя";
 "Inviting user to this group/channel: %@" = "Приглашение пользователя в группу/канал: %@";
+/* quicksy country */
+"Iran (Islamic Republic of)" = "Iran (Islamic Republic of)";
+/* quicksy country */
+"Iraq" = "Iraq";
+/* quicksy country */
+"Ireland" = "Ireland";
+/* quicksy country */
+"Israel" = "Israel";
 /* QR-Code-Scanner: Camera not found */
 "It does not seem as your device has a camera. Please use a device with a camera for scanning" = "Похоже, что на вашем устройстве нет камеры. Для сканирования, пожалуйста, используйте устройство с камерой";
+/* quicksy country */
+"Italy" = "Italy";
+/* quicksy country */
+"Jamaica" = "Jamaica";
+/* quicksy country */
+"Japan" = "Japan";
 "Join Channel" = "Присоединиться к каналу";
 "Join Group" = "Присоединиться к группе";
+/* quicksy country */
+"Jordan" = "Jordan";
 "Just seen" = "Был только что";
+/* quicksy country */
+"Kazakhstan" = "Kazakhstan";
+/* quicksy country */
+"Kenya" = "Kenya";
 "Keys of %@" = "Ключи для %@";
 "Kicked from group/channel, because of system shutdown: %@" = "Выгнан из группы/канала в результате отключения системы: %@";
 "Kicked, because group/channel is now members-only: %@" = "Выгнан, так как группа/канал теперь только для участников: %@";
+/* quicksy country */
+"Kiribati" = "Kiribati";
+/* quicksy country */
+"Korea (Rep. of)" = "Korea (Rep. of)";
+/* quicksy country */
+"Kuwait" = "Kuwait";
+/* quicksy country */
+"Kyrgyzstan" = "Kyrgyzstan";
+/* quicksy country */
+"Lao P.D.R." = "Lao P.D.R.";
 "Last seen: %@" = "Был в сети: %@";
 "Last seen: %d days ago" = "Был в сети: %d дня назад";
 "Last seen: %d hours ago" = "Был в сети: %d часов назад";
@@ -461,15 +691,29 @@
 "Last seen: 1 day ago" = "Был в сети: 1 день назад";
 "Last seen: 1 hour ago" = "Был в сети: 1 час назад";
 "Last seen: 1 minute ago" = "Был в сети: 1 минуту назад";
+/* quicksy country */
+"Latvia" = "Latvia";
 "Leave Channel" = "Отключиться от канала";
 "Leave Group" = "Выйти из группы";
 "Leave this conversation" = "Выйти из переписки";
 "Leave this converstion?" = "Выйти из переписки?";
+/* quicksy country */
+"Lebanon" = "Lebanon";
+/* quicksy country */
+"Lesotho" = "Lesotho";
 "Let your contacts know if you are typing a message." = "Информировать собеседника о том, что вы вводите сообщение.";
 "Let your contacts know if you read a message." = "Информировать собеседника о том, что вы прочитали сообщение.";
 "Let your contacts know if you received a message." = "Информировать собеседника о том, что вы получили сообщение.";
 "Let your contacts know when you last opened the app." = "Разрешить пользователям из списка контактов узнавать о вашем входе в приложение.";
+/* quicksy country */
+"Liberia" = "Liberia";
+/* quicksy country */
+"Libya" = "Libya";
+/* quicksy country */
+"Liechtenstein" = "Liechtenstein";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "Как и в случае с электронной почтой, вы можете зарегистрировать свою учетную запись на любом из множества веб-сайтов и общаться с кем угодно. Вы можете использовать эту страницу для регистрации учетной записи на выбранном сервере XMPP. Для этого вам необходимо выбрать имя пользователя и пароль.";
+/* quicksy country */
+"Lithuania" = "Lithuania";
 "Load over Cellular" = "Загружать через сеть сотовой связи";
 "Load over cellular up to: %@ MiB" = "Загружать по сотовой сети до: %@ МБ";
 "Load over wifi" = "Загружать по WiFi";
@@ -487,8 +731,32 @@
 "Login" = "Войти";
 "Login error, account disabled: %@" = "Ошибка входа, учётная запись деактивирована: %@";
 "Logs" = "Журнал";
+/* quicksy country */
+"Luxembourg" = "Luxembourg";
+/* quicksy country */
+"Macao, China" = "Macao, China";
+/* quicksy country */
+"Madagascar" = "Madagascar";
+/* quicksy country */
+"Malawi" = "Malawi";
+/* quicksy country */
+"Malaysia" = "Malaysia";
+/* quicksy country */
+"Maldives" = "Maldives";
+/* quicksy country */
+"Mali" = "Mali";
+/* quicksy country */
+"Malta" = "Malta";
 "Manual input" = "Ручной ввод";
 "Mark as read" = "Пометить как прочитанное";
+/* quicksy country */
+"Marshall Islands" = "Marshall Islands";
+/* quicksy country */
+"Martinique" = "Martinique";
+/* quicksy country */
+"Mauritania" = "Mauritania";
+/* quicksy country */
+"Mauritius" = "Mauritius";
 /* Prefix for own messages in chat overview */
 "Me:" = "Я:";
 /* muc affiliation */
@@ -502,11 +770,19 @@
 "Messages are NOT encrypted" = "Сообщения НЕ шифруются";
 "Messages never archived by default." = "По умолчанию сообщения не архивируются.";
 "Method: %@" = "Способ: %@";
+/* quicksy country */
+"Mexico" = "Mexico";
+/* quicksy country */
+"Micronesia" = "Micronesia";
 "Migration Assistant" = "Помощник переноса";
 "Misc" = "Другое";
 "Missing Call Support" = "Отсутствует поддержка звонков";
 "Missing permission" = "Отсутствует разрешение";
 "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server." = "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.";
+/* quicksy country */
+"Moldova (Republic of)" = "Moldova (Republic of)";
+/* quicksy country */
+"Monaco" = "Monaco";
 "Monal" = "Monal";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Сейчас Monal доверяет этому ключу, но сравнение отпечатков не производилось. Для повышения уровня безопасности сверьте отображаемые отпечатки с собеседником перед тем как переводить данный ключ в разряд доверенных!";
 "Monal did not received a gps location. Please try again later." = "Monal не смог получить информацию о вашем местоположении. Повторите попытку позже.";
@@ -517,17 +793,49 @@
 "Monal uses your location when you send a location message in a conversation." = "Monal использует информацию о вашем местоположении когда вы отправляете свою геолокацию в переписке.";
 "Monal was not able to send your attachment!" = "Monal не смог отправить вложение.";
 "Monal was not able to send your attachment: %@" = "Monal не смог отправить вложение: %@";
+/* quicksy country */
+"Mongolia" = "Mongolia";
+/* quicksy country */
+"Montenegro" = "Montenegro";
+/* quicksy country */
+"Montserrat" = "Montserrat";
 "More info?" = "Подробнее?";
+/* quicksy country */
+"Morocco" = "Morocco";
+/* quicksy country */
+"Mozambique" = "Mozambique";
 "My Encryption Keys" = "Мои ключи шифрования";
+/* quicksy country */
+"Myanmar" = "Myanmar";
+/* quicksy country */
+"Namibia" = "Namibia";
+/* quicksy country */
+"Nauru" = "Nauru";
+/* quicksy country */
+"Nepal" = "Nepal";
+/* quicksy country */
+"Netherlands" = "Netherlands";
 "Never archive" = "Никогда не архивировать";
 "New Account" = "Новая учётная запись";
+/* quicksy country */
+"New Caledonia" = "New Caledonia";
 "New Message" = "Новое сообщение";
 "New omemo device" = "Новое устройство OMEMO";
 "New Password" = "Новый пароль";
+/* quicksy country */
+"New Zealand" = "New Zealand";
 "Newest TLS version which is faster than TLS 1.2" = "Последняя версия TLS, превосходящая TLS 1.2 по скорости";
 /* onboarding */
 "Next" = "Next";
+/* quicksy country */
+"Nicaragua" = "Nicaragua";
 "Nickname" = "Псевдоним";
+/* quicksy country */
+"Niger" = "Niger";
+/* quicksy country */
+"Nigeria" = "Nigeria";
+/* quicksy country */
+"Niue" = "Niue";
 "No" = "Нет";
 "No account available to handel 'xmpp:' URI!" = "Для обработки URI 'xmpp:' требуется учётная запись.";
 "No accounts set up currently" = "Учётные записи не настроены";
@@ -547,6 +855,10 @@
 /* Crash reporting */
 "No, thanks" = "Нет, спасибо";
 "None" = "Ничего";
+/* quicksy country */
+"Northern Marianas" = "Northern Marianas";
+/* quicksy country */
+"Norway" = "Norway";
 "Not Authorized. Please check your credentials." = "Не авторизован. Пожалуйста, проверьте ваши реквизиты.";
 "Notes to self" = "Заметки для себя";
 "Notes to self: %@" = "Заметки для себя: %@";
@@ -562,6 +874,8 @@
 "OK" = "ОК";
 "Okay" = "Хорошо";
 "Older, slower, but still secure TLS version" = "Старая, медленная, но по-прежнему безопасная версия TLS";
+/* quicksy country */
+"Oman" = "Oman";
 "On this device" = "На этом устройстве";
 "Online" = "В сети";
 "Only contacts" = "Только контакты";
@@ -583,6 +897,16 @@
 "Own device key" = "Ключ своего устройства";
 /* muc affiliation */
 "Owner" = "Хозяин";
+/* quicksy country */
+"Pakistan" = "Pakistan";
+/* quicksy country */
+"Palau" = "Palau";
+/* quicksy country */
+"Panama" = "Panama";
+/* quicksy country */
+"Papua New Guinea" = "Papua New Guinea";
+/* quicksy country */
+"Paraguay" = "Paraguay";
 /* muc affiliation */
 "Participant" = "Участник";
 /* placeholder when adding account
@@ -595,12 +919,17 @@
 "Password missing" = "Отсутствует пароль";
 "Passwords don't match!" = "Пароли не совпадают.";
 "Permission Requested" = "Требуется разрешение";
+/* quicksy country */
+"Peru" = "Peru";
+/* quicksy country */
+"Philippines" = "Philippines";
 "Photos" = "Фотографии";
 "Pin Chat" = "Закрепить переписку";
 "Play Sounds" = "Проигрывать звуки";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Пожалуйста, добавьте новую учётную запись в настройках; если вы уже сделали это, убедитесь, что учётная запись активирована в настройках";
 "Please Allow Audio Access" = "Пожалуйста, разрешите доступ к аудио";
 "Please enter a password below before activating this account." = "Пожалуйста, введите пароль ниже, прежде чем активировать эту учетную запись.";
+"Please enter the six-digit pin below" = "Please enter the six-digit pin below";
 "Please make sure at least one account has connected before trying to add a contact or channel." = "Перед добавлением контакта или канала, убедитесь, что хотя бы одна из учетных записей подключена.";
 "Please make sure at least one account has connected before trying to create new group." = "Перед созданием новой группы, убедитесь, что хотя бы одна из учетных записей подключена.";
 "Please make sure you are connected before changing your password." = "Убедитесь, что вы подключены перед изменением пароля.";
@@ -611,20 +940,32 @@
 "Please provide a valid XMPP server domain or select one." = "Пожалуйста, введите корректное доменное имя XMPP сервера или выберите из предложенных.";
 "Please select a XMPP server or provide one." = "Пожалуйста, выберите XMPP сервер или введите свой.";
 "Please update!" = "Пожалуйста, обновите.";
+/* quicksy country */
+"Poland" = "Poland";
 "Port" = "Порт";
 "Port: %@, Direct TLS: %@, Priority: %@" = "Порт: %1$@, Прямой TLS: %2$@, Приоритет: %3$@";
+/* quicksy country */
+"Portugal" = "Portugal";
 "Previews" = "Просмотр";
+"Previous" = "Previous";
 "Privacy" = "Конфиденциальность";
 "Protocol support of your server (XEPs)" = "Информация о сервере";
 /* placeholder when creating account */
 "Provide XMPP-Server" = "Укажите XMPP сервер";
 "Publish version" = "Делиться версиями ПО";
+/* quicksy country */
+"Puerto Rico" = "Puerto Rico";
 "Push Server" = "Сервер для Push";
 "Pushserver Region" = "Регион сервера для Push";
+/* quicksy country */
+"Qatar" = "Qatar";
 "QR code: Fingerprints found" = "QR-код: Отпечатки найдены";
 "QR-Code Scanner" = "Считыватель QR-кодов";
 /* QR-Code-Scanner */
 "QR-Code video error" = "Ошибка видео при считывании QR-кода";
+"Quicksy is now set up and connected." = "Quicksy is now set up and connected.";
+"Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm).";
+"Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:";
 /* Chat msg action */
 "Quote" = "Цитата";
 "Rate Monal" = "Оцените Monal";
@@ -680,9 +1021,33 @@
 "Retry sending message?" = "Повторить отправку сообщения?";
 "Rich Text" = "Текст с форматированием";
 "Ringing..." = "Идёт вызов...";
+/* quicksy country */
+"Romania" = "Romania";
+/* quicksy country */
+"Russian Federation" = "Russian Federation";
+/* quicksy country */
+"Rwanda" = "Rwanda";
+/* quicksy country */
+"Saint Helena, Ascension and Tristan da Cunha" = "Saint Helena, Ascension and Tristan da Cunha";
+/* quicksy country */
+"Saint Kitts and Nevis" = "Saint Kitts and Nevis";
+/* quicksy country */
+"Saint Lucia" = "Saint Lucia";
+/* quicksy country */
+"Saint Pierre and Miquelon" = "Saint Pierre and Miquelon";
+/* quicksy country */
+"Saint Vincent and the Grenadines" = "Saint Vincent and the Grenadines";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Механизм аутентификации по типу запрос-ответ с использованием случайных чисел и заданного алгоритма хэширования";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Механизм аутентификации по типу запрос-ответ с использованием случайных чисел и заданного алгоритма хэширования с дополнительной защитой в виде привязки к каналу передачи данных";
+/* quicksy country */
+"Samoa" = "Samoa";
+/* quicksy country */
+"San Marino" = "San Marino";
+/* quicksy country */
+"Sao Tome and Principe" = "Sao Tome and Principe";
 "SASL2 to SASL1 downgrade attack detected, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Зафиксирована кибератака с переходом от SASL2 к SASL1,- сбрасываем аутентификацию и деактивируем учётную запись для ограничения негативных последствий. Попробуйте активировать вашу учётную запись снова когда подключитесь с использованием безопасной сетевой инфраструктуры.";
+/* quicksy country */
+"Saudi Arabia" = "Saudi Arabia";
 "Saving changes to server" = "Сохранение изменений на сервер";
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Сервер не смог подтвердить подлинность по SCRAM, что говорит о высокой вероятности кибератаки по типу MITM,- сбрасываем аутентификацию и деактивируем учётную запись для ограничения негативных последствий. Попробуйте активировать вашу учётную запись снова когда подключитесь с использованием безопасной сетевой инфраструктуры.";
 /* mac only string */
@@ -701,9 +1066,12 @@
 "Send Location" = "Отправить геопозицию";
 "Send message receipts" = "Send message receipts";
 "Send read receipts" = "Send read receipts";
+"Send SMS again" = "Send SMS again";
 "Send typing notifications" = "Делиться статусом \"Печатает\"";
 "Sending..." = "Отправка...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Отправка паролей в открытом виде с шифрованием только средствами TLS. (не особо безопасно)";
+/* quicksy country */
+"Senegal" = "Senegal";
 "Sent a File 📁" = "Файл отправлен 📁";
 "Sent a Link 🔗" = "Ссылка отправлена 🔗";
 "Sent a Location 📍" = "Геопозиция отправлена 📍";
@@ -716,6 +1084,8 @@
 "Sent Images" = "Отправленные изображения";
 /* directory for downloaded videos */
 "Sent Videos" = "Отправленные видеоролики";
+/* quicksy country */
+"Serbia" = "Serbia";
 "Server" = "Сервер";
 "Server does not support account removal" = "Сервер не поддерживает удаление учетной записи";
 "Server for domain '%@' not responding!" = "Сервер домена '%@' не отвечает.";
@@ -728,14 +1098,38 @@
 "Set up account later" = "Настроить учётную запись позже";
 /* Camera permissions missing warning */
 "Settings" = "Настройки";
+/* quicksy country */
+"Seychelles" = "Seychelles";
 "Sharing failed" = "Не удалось поделиться";
 "Show inline geo location" = "Геолокация на мини-карте";
 "Show shared Media and Files" = "Показать общие медиафайлы";
 "Show URL previews" = "Предпросмотр URL";
+/* quicksy country */
+"Sierra Leone" = "Sierra Leone";
+/* quicksy country */
+"Singapore" = "Singapore";
+/* quicksy country */
+"Sint Maarten (Dutch part)" = "Sint Maarten (Dutch part)";
+/* quicksy country */
+"Slovakia" = "Slovakia";
+/* quicksy country */
+"Slovenia" = "Slovenia";
+/* quicksy country */
+"Solomon Islands" = "Solomon Islands";
+/* quicksy country */
+"Somalia" = "Somalia";
+"Some debug settings." = "Some debug settings.";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "Некоторые сообщения могут ожидать отправки или приёма. Пожалуйста, откройте приложение.";
+"Something went wrong processing your request." = "Something went wrong processing your request.";
 "Something went wrong while parsing your input..." = "Что-то пошло не так при разборе введённой вами информации...";
 "Sounds" = "Звуки";
 "Sounds courtesy Emrah" = "Звучит с любезного разрешения Эмры";
+/* quicksy country */
+"South Africa" = "South Africa";
+/* quicksy country */
+"Spain" = "Spain";
+/* quicksy country */
+"Sri Lanka" = "Sri Lanka";
 "SRV entry prohibits XMPP connection for domain %@" = "Сервисная (SRV) запись DNS запрещает XMPP соединения для домена %@";
 "Status" = "Статус";
 "Status Message" = "Статус";
@@ -746,14 +1140,35 @@
 "Successfully destroyed channel." = "Канал успешно удалён.";
 "Successfully destroyed group." = "Группа успешно удалена.";
 "Successfully joined group/channel %@!" = "Успешно присоединились к группе/каналу %@!";
+/* quicksy country */
+"Sudan" = "Sudan";
 "Support" = "Поддержка";
 /* Crash reporting */
 "Sure, send it!" = "Конечно отправить!";
+/* quicksy country */
+"Suriname" = "Suriname";
+/* quicksy country */
+"Swaziland" = "Swaziland";
+/* quicksy country */
+"Sweden" = "Sweden";
+/* quicksy country */
+"Switzerland" = "Switzerland";
 "Synchronize your messages on all loggedin devices." = "Синхронизация сообщений между всеми аутентифицированными устройствами.";
+/* quicksy country */
+"Syrian Arab Republic" = "Syrian Arab Republic";
+/* quicksy country */
+"Taiwan, China" = "Taiwan, China";
+/* quicksy country */
+"Tajikistan" = "Tajikistan";
 "Take me to settings" = "Take me to settings";
+/* quicksy country */
+"Tanzania" = "Tanzania";
+"Temporarily unavailable. Try again later." = "Temporarily unavailable. Try again later.";
 "Temporary failure to enter Group/Channel: %@" = "Сбой входа в группу/канал: %@";
 "Terms of %@" = "Условия использования %@";
 "Terms of use for %@" = "Условия использования для %@";
+/* quicksy country */
+"Thailand" = "Thailand";
 "The account has been deleted" = "Учётная запись удалена";
 "The account has been removed" = "Учётная запись удалена";
 "The account has been saved" = "Учётная запись сохранена";
@@ -762,11 +1177,16 @@
 "The chat history has been cleared" = "История переписки удалена";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "Соединение с сервером было прервано поэтому не удалось загрузить старые сообщения этой переписки. Пожалуйста, повторите попытку позже.";
 "The current password is not correct." = "Неверно введён текущий пароль.";
+"The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling.";
+/* quicksy country */
+"The Former Yugoslav Republic of Macedonia" = "The Former Yugoslav Republic of Macedonia";
 "The jid you want to add should be in in the format user@domain.tld." = "Добавляемый XMPP адрес должен иметь формат: user@domain.tld.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "Ключ шифрования находится в состоянии, которое сейчас не обрабатывается должным образом. Если вы видите этот запрос, обратитесь к разработчикам.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "Новый контакт будет добавлен в ваш список контактов, если добавленный вами человек одобрит ваш запрос.";
 "The operator of the webserver providing that URL may see your IP address." = "Оператор веб-сервера, обслуживающего указанную в сообщении ссылку может зафиксировать ваш IP адрес при подгрузке миниатюры для предпросмотра.";
 "The password has been changed" = "Пароль изменён";
+"The pin we have sent you has expired." = "The pin we have sent you has expired.";
+"The pin you have entered is incorrect." = "The pin you have entered is incorrect.";
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "QR-код должен содержать реквизиты для входа в учётную запись. Перейдите в Настройки -> Новая учётная запись и повторно отсканируйте QR-код";
 "The resource '%@' has the following capabilities:" = "Клиент (ресурс) '%@' имеет следующие возможности:";
@@ -816,6 +1236,7 @@
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "Означает, что голосовые данные шифруются, но возможность верифицировать собеседника через OMEMO отсутствует.\nВаш XMPP сервер или сервер собеседника имеет возможность реализовать кибератаку по типу Man-In-The-Middle (MITM).";
 "This message failed to send (%@): %@" = "Не удалось отправить это сообщение (%1$@): %2$@";
 "This message got retracted" = "Это сообщение удалено";
+"This phone number is currently logged in with another device." = "This phone number is currently logged in with another device.";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Похоже, что этот сервер не поддерживает приём файлов по HTTP (XEP-0363). Пожалуйста, попросите системного администратора активировать эту возможность.";
 "This server does not have any SRV records in DNS." = "Для этого сервера отсутствуют сервисные (SRV) записи в DNS.";
 "This server does not provide any MUC servers." = "На этом сервере не настроены модули конференций (MUC) необходимые для работы групп/каналов.";
@@ -830,6 +1251,8 @@
 "This will remove the current avatar image and revert this group/channel to the default one." = "Это приведёт к удалению аватара и вернёт этой группе/каналу стандартный внешний вид.";
 "This will remove this account and the associated data from this device." = "Это приведёт к удалению этой учётной записи и ассоциированных с ней данных с этого устройства.";
 "Timeout Error" = "Нарушены временные параметры";
+/* quicksy country */
+"Timor-Leste" = "Timor-Leste";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
 "TLS Error: Bad certificate" = "Ошибка TLS: Некорректный сертификат";
@@ -837,17 +1260,40 @@
 "TLS Error: Certificate expired" = "Ошибка TLS: Истёк срок действия сертификата";
 "TLS Error: Host name mismatch" = "Ошибка TLS: Несоответствие имени узла";
 "TLS Error: Unknown root certificate" = "Ошибка TLS: Неизвестный корневой сертификат";
+/* quicksy country */
+"Togo" = "Togo";
+/* quicksy country */
+"Tokelau" = "Tokelau";
+/* quicksy country */
+"Tonga" = "Tonga";
+"Too many attempts, please try again in %@." = "Too many attempts, please try again in %@.";
+/* quicksy country */
+"Trinidad and Tobago" = "Trinidad and Tobago";
 "Trust Key" = "Доверять ключу";
 "Trusted and verified key" = "Доверенный и верифицированный ключ";
 "Trusted but removed key" = "Доверенный, но удалённый ключ";
 "Trusted but unused key" = "Доверенный, но неиспользуемый ключ";
 "Trusted but unverified key" = "Доверенный, но не верифицированный ключ";
 "Try nevertheless" = "Попробовать в любом случае";
+/* quicksy country */
+"Tunisia" = "Tunisia";
+/* quicksy country */
+"Turkey" = "Turkey";
+/* quicksy country */
+"Turkmenistan" = "Turkmenistan";
+/* quicksy country */
+"Turks and Caicos Islands" = "Turks and Caicos Islands";
+/* quicksy country */
+"Tuvalu" = "Tuvalu";
 "Type: %@" = "Тип: %@";
 "Typing..." = "Печатает...";
 "UDP Logger" = "Регистратор UDP";
 "UDP Logger Configuration" = "Настройки регистратора UDP";
 "UDP Logging UI not supported on iOS < 16" = "Пользовательский интерфейс регистратора UDP не поддерживается в iOS < 16";
+/* quicksy country */
+"Uganda" = "Uganda";
+/* quicksy country */
+"Ukraine" = "Ukraine";
 "Unable to connect to server!" = "Не удалось подключиться к серверу.";
 "Unblock Contact" = "Разблокировать контакт";
 "Unblocking user" = "Разблокирование пользователя";
@@ -856,15 +1302,20 @@
 "Understood" = "Понятно";
 "Unexpected appex expiration" = "Невозможно завершить работу приложения";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Непредвиденная ошибка подтверждения подлинности сервера по SASL2 (ошибка в программном обеспечении на стороне сервера?); отключаемся.";
+"Unexpected error processing your request." = "Unexpected error processing your request.";
 "Unexpected error while checking type of jid, please try again" = "Непредвиденная ошибка при проверке типа адреса XMPP,- пожалуйста, попробуйте снова";
 "Unexpected error while checking type of jid:" = "Непредвиденная ошибка при проверке типа адреса XMPP:";
 "Unexpected mam preferences result" = "Получены непредусмотренные настройки управления архивом сообщений (MAM)";
 "Unexpected server response: invalid PEP config form" = "Неожиданный ответ сервера: некорректная форма конфигурации Протокола персональных событий (PEP)";
 "Unexpected server response: missing required fields in PEP config form" = "Неожиданный ответ сервера: в форме конфигурации Протокола персональных событий (PEP) пропущены обязательные поля";
 /* quicksy country */
+"United Arab Emirates" = "United Arab Emirates";
+/* quicksy country */
 "United Kingdom" = "United Kingdom";
 /* quicksy country */
 "United States" = "United States";
+/* quicksy country */
+"United States Virgin Islands" = "United States Virgin Islands";
 "unknown" = "неизвестно";
 "Unknown authentication method" = "Неизвестный способ аутентификации";
 "Unknown channel-binding type" = "Неизвестный способ привязки к каналу передачи данных";
@@ -879,6 +1330,8 @@
 "Uploading" = "Отправка";
 "Uploading avatar..." = "Отправка аватара...";
 "Uploading file to server" = "Отправка файла на сервер";
+/* quicksy country */
+"Uruguay" = "Uruguay";
 "Use account" = "От уч. записи";
 "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Используйте DNSSEC для проверки всех ответов на запросы DNS перед подключением к IP-адресу, указанному в ответе DNS.\nЭто повышает безопасность, но может добавлять проблем с подключением при использовании определённых сетей, типа отельных WiFi, мутных сотовых операторов и т.д.";
 "Use DNSSEC validation for all connections" = "Использовать DNSSEC для всех подключений";
@@ -891,21 +1344,37 @@
 "Username" = "Имя пользователя";
 "Username missing" = "Пропущено имя пользователя";
 "Uses TLS client certificates for authentication" = "Аутентификация с использованием клиентских сертификатов TLS";
+/* quicksy country */
+"Uzbekistan" = "Uzbekistan";
+/* quicksy country */
+"Vanuatu" = "Vanuatu";
+/* quicksy country */
+"Vatican" = "Vatican";
+/* quicksy country */
+"Venezuela (Bolivarian Republic of)" = "Venezuela (Bolivarian Republic of)";
+"Verify your phone number" = "Verify your phone number";
 "Version" = "Версия";
 /* server details */
 "version %@%@" = "версия %1$@%2$@";
 "Very old app version" = "Устаревшая версия приложения";
+/* quicksy country */
+"Viet Nam" = "Viet Nam";
 "Waiting for GPS signal" = "Ожидание сигнала GPS";
+/* quicksy country */
+"Wallis and Futuna" = "Wallis and Futuna";
 "Warning" = "Предупреждение";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "Не удалось найти относящийся к XMPP QR-код";
 "We don't support any task requested by the server, account disabled: %@" = "Мы не поддерживаем ни одну из запрошенных сервером задач; учётная запись деактивирована: %@";
 "We don't support the single task requested by the server, account disabled: %@" = "Мы не поддерживаем ту единственную задачу, которую запросил сервер; учётная запись деактивирована: %@";
+"We sent you an SMS to %@" = "We sent you an SMS to %@";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "Не удалось войти в вашу учётную запись. Пожалуйста, проверьте имя пользователя и пароль, а также убедитесь в исправности подключения к Интернет.";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Не удалось войти в вашу учётную запись. Пожалуйста, проверьте имя пользователя и пароль, а также убедитесь в исправности подключения к Интернет.\n\nТехническое сообщение от ошибке: %@";
+"We will check the number **%@**. Is this okay or do you want to change the number?" = "We will check the number **%@**. Is this okay or do you want to change the number?";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Самый уязвимый из способов привязки к каналу передачи данных: не защищает от краденых сертификатов/ключей, но выявляет некорректно выданные сертификаты.";
 "Welcome" = "Добро пожаловать";
 "Welcome to Monal !" = "Welcome to Monal !";
+"Welcome to Quicksy !" = "Welcome to Quicksy !";
 "What call do you want to place?" = "Какой звонок хотите совершить?";
 "When disabled, URLs will opened in your default browser (that might not be Safari)." = "Если отключить, ссылки будут открываться в вашем браузере по умолчанию (и это может быть не Safari).";
 "When you start a conversation\nwith someone, they will\nshow up here." = "When you start a conversation\nwith someone, they will\nshow up here.";
@@ -943,11 +1412,14 @@
 "XMPP stream error: %@" = "Ошибка потока XMPP: %@";
 "XMPPServer" = "XMPP сервер";
 "Yellow checkmark shield:" = "Жёлтый значок с галкой:";
+/* quicksy country */
+"Yemen" = "Yemen";
 "Yes" = "Да";
 "Yes, deactivate encryption" = "Да, отключить шифрование";
 "You are set up and connected." = "Всё настроено и подключено.";
 "You are set up and connected. People can message you at: %@@%@" = "Всё настроено и подключено. Теперь вам могут присылать сообщения на: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "Вы пытаетесь позвонить '%@' (%@), но этот контакт доступен с разных учётных записей. Пожалуйста, выберите ту учётную запись с которой нужно произвести исходящий вызов.";
+"You are using an out of date version of this app." = "You are using an out of date version of this app.";
 "You can customize even more, just use the button below to open the settings." = "You can customize even more, just use the button below to open the settings.";
 "You did not grant Monal to access your location." = "У Monal нет доступа к вашей геопозиции.";
 "You got banned from group/channel: %@" = "Вас заблокировали в группе/канале: %@";
@@ -973,6 +1445,10 @@
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Ваш сервер не поддерживает функционал Управления потоками (XEP-0198). Это означает что отправляемые сообщения могут теряться. Рекомендуется сменить сервер, либо попросить системного администратора вашего сервера подключить соответствующий программный модуль.";
 "Your status" = "Ваш статус";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Ваш XMPP адрес должен быть в формате user@domain.tld. Дополнительные параметры доступны в режиме детальной настройки.";
+/* quicksy country */
+"Zambia" = "Zambia";
+/* quicksy country */
+"Zimbabwe" = "Zimbabwe";
 "🎥 A Video" = "🎥 Видеоролик";
 "🎥 Video" = "🎥 Видео";
 "🎵 An Audiomessage" = "🎵 Аудиосообщение";
@@ -983,33 +1459,3 @@
 "📷 An Image" = "📷 Изображение";
 "🔗 A Link" = "🔗 Ссылка";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution.";
-"%@ (%@)" = "%@ (%@)";
-"An error happened when trying to request the SMS:" = "An error happened when trying to request the SMS:";
-"Are you sure to cancel the registration process?" = "Are you sure to cancel the registration process?";
-"Cancel?" = "Cancel?";
-"Change it" = "Change it";
-"Check this number?" = "Check this number?";
-"Country:" = "Country:";
-"Don't show onboarding" = "Don't show onboarding";
-"Error requesting SMS!" = "Error requesting SMS!";
-"Invalid user input." = "Invalid user input.";
-"Please enter the six-digit pin below" = "Please enter the six-digit pin below";
-"Previous" = "Previous";
-"Quicksy is now set up and connected." = "Quicksy is now set up and connected.";
-"Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm).";
-"Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:";
-"Send SMS again" = "Send SMS again";
-"Some debug settings." = "Some debug settings.";
-"Something went wrong processing your request." = "Something went wrong processing your request.";
-"Temporarily unavailable. Try again later." = "Temporarily unavailable. Try again later.";
-"The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling.";
-"The pin we have sent you has expired." = "The pin we have sent you has expired.";
-"The pin you have entered is incorrect." = "The pin you have entered is incorrect.";
-"This phone number is currently logged in with another device." = "This phone number is currently logged in with another device.";
-"Too many attempts, please try again in %@." = "Too many attempts, please try again in %@.";
-"Unexpected error processing your request." = "Unexpected error processing your request.";
-"Verify your phone number" = "Verify your phone number";
-"We sent you an SMS to %@" = "We sent you an SMS to %@";
-"We will check the number **%@**. Is this okay or do you want to change the number?" = "We will check the number **%@**. Is this okay or do you want to change the number?";
-"Welcome to Quicksy !" = "Welcome to Quicksy !";
-"You are using an out of date version of this app." = "You are using an out of date version of this app.";
