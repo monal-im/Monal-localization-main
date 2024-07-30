@@ -286,6 +286,8 @@
 "Connected since: %@" = "Şu zamandan beri bağlı: % @";
 "Connected: %@" = "Bağlandı: %@";
 "Connecting..." = "Bağlanıyor...";
+/* server details */
+"Considerations for Server Administrators" = "Considerations for Server Administrators";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Kişi ve Grup/Kanal Jid'leri genellikle şu formattadır: name@domain.tld";
 "Contact is muted" = "Kişi sessize alındı";
 "Contact is not muted" = "Kişi sesi kapatılmamış";
@@ -555,6 +557,7 @@
 "French Guiana" = "Fransız Guyanası";
 /* quicksy country */
 "French Polynesia" = "Fransız Polinezyası";
+"Frequently Asked Questions" = "Frequently Asked Questions";
 /* quicksy country */
 "Gabon" = "Gabon";
 /* quicksy country */
@@ -620,7 +623,6 @@
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Bu kapalıysa, aygıtınız xmpp sunucunuzdan bildirim alamaz, ayrıca sunucunuzun XEP-0357'yi destekleyecek şekilde yapılandırmış olduğundan emin olun.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "Bunu açarsanız, artık ortadaki adam saldırılarına karşı güvende olmayacaksınız. Bu tür saldırılar, saldırganın gelen ve giden mesajlarınızı manipüle etmesini, kendi OMEMO anahtarlarını eklemesini, hesap bilgilerinizi değiştirmesini ve hatta şifrenizi bilmesini veya değiştirmesini sağlar!\n\nBunu açmak yerine başka bir sunucuya geçmeyi tercih etmelisiniz.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Sesli mesaj kullanmak istiyorsanız, Ayarlar > Gizlilik > Mikrofon erişim izni vermeniz gerekir.";
-"Image Upload Quality: %@" = "Görüntü Yükleme Kalitesi:%@";
 "Import and trust OMEMO fingerprints from QR code" = "QR kodundan OMEMO parmaklarını içe aktarın ve güvenin";
 /* quicksy country */
 "India" = "Hindistan";
@@ -778,7 +780,6 @@
 "Misc" = "Çeşitli";
 "Missing Call Support" = "Eksik Arama Desteği";
 "Missing permission" = "Eksik izin";
-"Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server." = "Modern iOS ve macOS XMPP sohbet istemcisi.\n\nXMPP federe bir ağdır: Tıpkı e-posta gibi, hesabınızı birçok sunucuya kaydedebilir ve farklı bir sunucuya kaydolmuş olsalar bile herhangi biriyle konuşabilirsiniz.";
 /* quicksy country */
 "Moldova (Republic of)" = "Moldova (Cumhuriyeti)";
 /* quicksy country */
@@ -1458,4 +1459,7 @@
 "📍 A Location" = "📍 Bir Konum";
 "📷 An Image" = "📷 Bir Resim";
 "🔗 A Link" = "🔗 Bir Bağlantı";
-"🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Merkezi Olmayan Ağ :\nMerkezi sunuculardan kaçınarak XMPP'nin merkezi olmayan doğasından yararlanır.\n\n🌐 Veri gizliliği :\nHarici taraflar için (veya başkası için) bilgi satmıyor veya takip etmiyoruz.\n\n🔐 Uçtan uca şifreleme :\nOMEMO protokolünü kullanarak güvenli çok uçlu mesajlaşma.\n\n👨‍💻 Açık Kaynak :\nUygulamanın kaynak kodu denetim ve katkı için herkese açıktır.";
+"Image Upload JPEG-Quality: %@" = "Image Upload JPEG-Quality: %@";
+"Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.\n\nUsing Monal instead of a centralized chat app therefore increases your digital sovereignty." = "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.\n\nUsing Monal instead of a centralized chat app therefore increases your digital sovereignty.";
+"Upload Original Images" = "Upload Original Images";
+"🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution.";
