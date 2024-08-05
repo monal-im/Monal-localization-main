@@ -1092,7 +1092,6 @@
 "Server does not support account removal" = "服务器不支持账号移除";
 "Server for domain '%@' not responding!" = "域“%@”的服务器没有响应！";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "服务器实现错误：SASL2 任务为空，账号已禁用！";
-"Server only supports authentication methods not safe against man-in-the-middle attacks! Use the advanced account creation menu if you absolutely must use this server." = "服务器仅支持无法抵御中间人攻击的验证方法！如果您必须使用此服务器，请使用高级账号创建菜单。";
 "Server returned invalid xml!" = "服务器返回了无效的 XML！";
 "Server returned SASL2 error '%@'." = "服务器返回 SASL2 错误“%@”。";
 "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "服务器突然不支持 SASL2-SCRAM，极有可能受到持续的中间人攻击，中止身份验证并禁用账号以限制损害。一旦您再次处于干净的网络环境中，您应该尝试重新启用您的账号。";
@@ -1244,6 +1243,7 @@
 "This server does not provide any MUC servers." = "此服务器不提供任何群聊服务。";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "此服务器不支持任何新式的通道绑定，以防止 TLS 层中间人攻击。";
 "This server does not support modern SASL2 authentication." = "此服务器不支持新式的 SASL2 身份验证。";
+"This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server.";
 "This should never happen, please contact the developers and provide a logfile!" = "这种情况不应该发生，请联系开发人员并提供日志文件！";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "此规范定义了使用 XMPP 发布-订阅协议来广播与即时通讯和在线状态的账号相关联的状态更改事件的语义。";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "此规范提供了一种方法来保护 SASL 和 SASL2 握手，不受方法和通道绑定降级影响。";
