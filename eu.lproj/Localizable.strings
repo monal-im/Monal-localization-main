@@ -56,7 +56,7 @@
 "Account %@" = "Kontua %@";
 "Account (%@)" = "Kontua (%@)";
 "Account (new)" = "Kontua (berria)";
-"Account already configured in Monal!" = "Kontua lehendik ere ezarrita dago Monalen!";
+"Account already configured in Monal!" = "Kontua lehendik ere konfiguratuta dago Monalen!";
 "Account already configured!" = "Kontua lehendik ere konfiguratuta dago!";
 "Account disabled" = "Ezgaitutako kontua";
 "Account Exists" = "Kontua badago lehendik ere";
@@ -78,8 +78,8 @@
 "Adding Group/Channel..." = "Taldea/Kanala gehitzen…";
 "Adding new member" = "Kide berria gehitzen";
 "Adding..." = "Gehitzen…";
-"Adjust the maximum file size for auto-downloads over cellular network" = "Doitu fitxategien gehieneko neurria gailuko datuak erabiliz automatikoki jaisteko";
-"Adjust the maximum file size for auto-downloads over WiFi" = "Doitu fitxategien gehieneko neurria Wifia erabiliz automatikoki jaisteko";
+"Adjust the maximum file size for auto-downloads over cellular network" = "Doitu fitxategien gehieneko neurria gailuko datuak erabiliz automatikoki deskargatzeko";
+"Adjust the maximum file size for auto-downloads over WiFi" = "Doitu fitxategien gehieneko neurria Wifia erabiliz automatikoki deskargatzeko";
 "Adjust the quality of images uploaded" = "Doitu igotzeko irudien kalitatea";
 /* muc affiliation */
 "Admin" = "Admin";
@@ -144,7 +144,7 @@
 "Australian External Territories" = "Australiako Kanpo Lurraldeak";
 /* quicksy country */
 "Austria" = "Austria";
-"Auto-Download Media and Files" = "Multimedia eta fitxategien jaitsiera automatikoa";
+"Auto-Download Media and Files" = "Multimedia eta fitxategien deskarga automatikoa";
 "Autodelete all messages older than" = "Ezabatu automatikoki ondorengo data baino zaharragoak diren mezuak";
 "Autofocus text input on chat open" = "Fokatu automatikoki testu-sarreran txata irekitzean";
 "Avatar" = "Abatarra";
@@ -245,9 +245,9 @@
 /* quicksy country */
 "Chad" = "Txad";
 "Change affiliation" = "Aldatu afiliazioa";
-"Change Background Image" = "Aldatu atzeko planoko irudia";
+"Change Background Image" = "Aldatu atzealdeko irudia";
 "Change Channel Avatar" = "Aldatu kanalaren abatarra";
-"Change Chat Background" = "Aldatu txataren hondoa";
+"Change Chat Background" = "Aldatu txataren atzealdea";
 "Change Group Avatar" = "Aldatu taldearen abatarra";
 "Change Group Members" = "Aldatu taldeko kideak";
 "Change it" = "Aldatu";
@@ -259,8 +259,8 @@
 "Channel name" = "Kanalaren izena";
 "Channel Participants" = "Kanalaren parte-hartzaileak";
 "Channel subject:" = "Kanalaren gaia:";
-"Chat Background" = "Txataren hondoa";
-"Chat background image" = "Txataren hondoko irudia";
+"Chat Background" = "Txataren atzealdea";
+"Chat background image" = "Txataren atzealdeko irudia";
 "Check this number?" = "Zenbaki hau egiaztatu?";
 "Check type and size on " = "Egiaztatu mota eta tamaina ";
 /* quicksy country */
@@ -268,7 +268,7 @@
 /* quicksy country */
 "China" = "Txinako Herri Errepublika";
 "Clear Chat History" = "Garbitu txat historia";
-"Clear chat history of this channel" = "Ezabatu kanal honetako txat-historia";
+"Clear chat history of this channel" = "Garbitu kanal honetako txat-historia";
 "Clear chat history of this contact" = "Garbitu kontaktu honen txat-historia";
 "Clear chat history of this group" = "Garbitu talde honen txat-historia";
 "Clear History" = "Garbitu historia";
@@ -280,7 +280,7 @@
 "Colombia" = "Kolonbia";
 /* quicksy country */
 "Comoros" = "Komoreak";
-"Configure the background image displayed in open chats." = "Ezarri irekitako txaten hondoko irudia.";
+"Configure the background image displayed in open chats." = "Ezarri irekitako txaten atzealdeko irudia.";
 /* quicksy country */
 "Congo" = "Kongo";
 "Connected since: %@" = "%@(e)tatik konektatuta";
@@ -359,7 +359,7 @@
 "Debug" = "Araztu";
 "Debug Notification Problems" = "Araztu jakinarazpenen arazoak";
 "Debugging" = "Arazketa";
-"Default Background" = "Defektuzko hondoa";
+"Default Background" = "Defektuzko atzealdea";
 "Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "XMPP zerrenden protokoloan proposatutako aldaketa bat zehazten du, zerrenden bertsionamendua ahalbidetzen duena, zerbitzariak ez dio bezeroari zerrenda bidaliko zerrenda aldatu ez bada.";
 "Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription." = "Protokolo bat eta URI eskema bat zehazten ditu aurrez baimendutako zerrenda-loturetarako, hirugarren batek erabiltzailearen identitate-harpidetza automatikoki lor dezan.";
 /* Chat msg action */
@@ -390,17 +390,17 @@
 "Discovering devices..." = "Gailuak aurkitzen…";
 "Display Name" = "Pantaila-izena";
 "Display Name And Message" = "Erakutsi izena eta mezua";
-"Display Only Name" = "Erakutsi izena bakarrik";
+"Display Only Name" = "Erakutsi izena soilik";
 "Display Only Placeholder" = "Erakutsi mezu generiko bat";
 /* quicksy country */
 "Djibouti" = "Djibuti";
 "Do you really want to block this contact? You won't receive any messages from this contact." = "Ziur zaude kontaktu hau blokeatu nahi duzula? Ez duzu kontaktu honen mezurik jasoko.";
-"Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "Ziur zaude elkarrizketa honetan bidalitako mezu guztiak ezabatu nahi dituzula? OMEMO erabiltzen ari bazara ezingo dituzu berriro zerbitzaritik kargatu.";
+"Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "Ziur zaude elkarrizketa honetan bidalitako mezu guztiak garbitu nahi dituzula? OMEMO erabiltzen ari bazara ezingo dituzu berriro zerbitzaritik kargatu.";
 "Do you really want to delete this key?" = "Ziur zaude gako hau ezabatu nahi duzula?";
 "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "Ziur kanal hau suntsitu nahi duzula? Kide guztiak kanporatuko dira eta ondoren suntsituko da.";
 "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "Ziur talde hau suntsitu nahi duzula? Kide guztiak kanporatuko dira eta ondoren suntsituko da.";
 "Do you really want to disable encryption for this contact?" = "Ziur zaude zifratzea ezgaitu nahi duzula kontaktu honentzat?";
-"Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Ziur zaude OMEMO saioa berrezarri nahi duzula? Zer egiten ari zaren baldin badakizu bakarrik berrezarri konexioa!";
+"Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Ziur zaude OMEMO saioa berrezarri nahi duzula? Zer egiten ari zaren baldin badakizu soilik berrezarri konexioa!";
 "Do you want to block this user from entering this group/channel?" = "Erabiltzaile honi talde/kanalean sartzea galarazi nahi diozu?";
 "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Erabiltzaile hau kanal honetatik kendu nahi duzu? Erabiltzailea berriro sartu ahal izango da blokeatzen ez baduzu.";
 "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Erabiltzaile hau talde honetatik kendu nahi duzu? Erabiltzailea ezingo da berriro sartu taldera berriro gehitzen ez baduzu.";
@@ -415,9 +415,9 @@
 "Don't trust Key" = "Ez fidatu gakoaz";
 "Done" = "Eginda";
 "Dont' trust Key" = "Ez fidatu gakoaz";
-"Download" = "Jaitsi";
-"Download error" = "Errorea jaistean";
-"Download Settings" = "Jaitsieren ezarpenak";
+"Download" = "Deskargatu";
+"Download error" = "Errorea deskargatzean";
+"Download Settings" = "Deskargen ezarpenak";
 "Draft:" = "Zirriborroa:";
 "Duplicate Account" = "Bikoiztu kontua";
 "Duplicate Account!" = "Bikoiztutako kontua!";
@@ -493,15 +493,15 @@
 "Estonia" = "Estonia";
 /* quicksy country */
 "Ethiopia" = "Etiopia";
-"Even more to customize!" = "Pertsonalizatzeko are gehiago!";
+"Even more to customize!" = "Pertsonalizatu gehiago!";
 "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Kontaktu berri bakoitzak zifratzea gaituta izango du, baina dagoeneko gehitutako kontaktuek orain arteko zifratze-ezarpenak mantenduko dituzte.";
 "Failed to block contact %@" = "Ezin izan da %@ blokeatu";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak huts egin du";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak huts egin du: denbora agortu da";
-"Failed to copy downloaded file into cache directory: %@" = "Jaitsitako fitxategia katxean kopiatzeak huts egin du: %@";
+"Failed to copy downloaded file into cache directory: %@" = "Deskargatutako fitxategia katxean kopiatzeak huts egin du: %@";
 "Failed to create invitation for %@" = "Ezin izan da %@(r)entzat gonbidapena sortu";
 "Failed to create invitation, unknown error: %@" = "Ezin izan da gonbidapena sortu, errore ezezaguna: %@";
-"Failed to decode download link" = "Ezin izan da jaitsiera-esteka dekodetu";
+"Failed to decode download link" = "Ezin izan da deskargaren esteka dekodetu";
 "Failed to decode encrypted link" = "Ezin izan da zifratutako esteka dekodetu";
 "Failed to decrypt download" = "Deskargaren deszifratzeak huts egin du";
 "Failed to decrypt filetransfer" = "Partekatutako fitxategiaren deszifratzeak kale egin du";
@@ -509,13 +509,13 @@
 "Failed to delete own nickname" = "Ezin izan da ezizena ezabatu";
 "Failed to destroy group/channel '%@'" = "'%@' talde/kanala suntsitzeak huts egin du";
 "Failed to destroy group/channel '%@': timeout" = "'%@' talde/kanala suntsitzeak huts egin du: denbora agortu da";
-"Failed to download file: %@" = "Fitxategia jaisteak huts egin du: %@";
+"Failed to download file: %@" = "Fitxategia deskargatzeak huts egin du: %@";
 "Failed to enable carbons for account %@" = "Ezin izan dira %@ konturako kopiak gaitu";
 "Failed to encrypt file" = "Ezin izan da fitxategia zifratu";
 "Failed to enter Group/Channel %@" = "%@ taldearekin/kanalarekin bat egiteak kale egin du";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "%@ taldearekin/kanalarekin bat egiteak kale egin du: ez da talde/kanal bat!";
 "Failed to export the database, please check the logfile for errors and try again." = "Datu-basea esportatzeak huts egin du; begiratu erregistroa akatsen bila eta saiatu berriro.";
-"Failed to fetch download metadata: %@" = "Jaitsitakoaren metadatuak eskuratzeak huts egin du: %@";
+"Failed to fetch download metadata: %@" = "Deskargaren metadatuak eskuratzeak huts egin du: %@";
 "Failed to fetch room config form for '%@'" = "'%@' gelaren konfigurazio-orria eskuratzeak huts egin du";
 "Failed to load blocklist" = "Ezin izan da blokeatutakoen zerrenda kargatu";
 "Failed to moderate message in group/channel '%@'" = "'%@' talde/kanaleko mezua moderatzeak huts egin du";
@@ -534,7 +534,7 @@
 "Failed to share file" = "Fitxategia partekatzeak kale egin du";
 "Failed to synchronize phonebook" = "Telefonoko kontaktuen sinkronizazioak huts egin du";
 "Failed to upload file: account was removed" = "Fitxategia igotzeak kale egin du: kontua kendu da";
-"Failed to write decrypted download into cache directory" = "Ezin izan da jaitsi eta deszifratutakoa katxe direktorioan idatzi";
+"Failed to write decrypted download into cache directory" = "Ezin izan da deskargatu eta deszifratutakoa katxe direktorioan idatzi";
 /* quicksy country */
 "Falkland Islands (Malvinas)" = "Falkland uharteak (Malvinak)";
 /* quicksy country */
@@ -620,7 +620,7 @@
 /* quicksy country */
 "Iceland" = "Islandia";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Monalek jakinarazpenak erakutsi ezin baditu, ez duzu abisurik jasoko mezuak iristean. Hau gertatzen da 'Ukatu' aukeratu zenuelako Monalek baimena eskatu zizunean. iOSen ezarpenetara joanez eta > Monal > Jakinarazpenak atalean 'baimendu jakinarazpenak' hautatuz aldatu dezakezu.";
-"If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Itzalita badago zure gailuak ezingo du XMPP zerbitzarian push aktibatu; egiaztatu XEP-0357-ekin bateragarria izateko ezarri duzula.";
+"If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Itzalita badago zure gailuak ezingo du XMPP zerbitzarian push aktibatu; egiaztatu XEP-0357-ekin bateragarria izateko konfiguratu duzula.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "Pizten baduzu, ez zara MITM (man-in-the-middle) erasoetatik salbu egongo. Horrelako erasoek aukera ematen diote aurkariari zure sarrerako eta irteerako mezuak manipulatzeko, bere OMEMO gakoak gehitzeko, zure kontuaren xehetasunak aldatzeko, eta baita zure pasahitza ezagut edo aldatzeko ere!\n\nHobe zenezake beste zerbitzari batera aldatu hau piztea baino.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Audio mezuak erabili nahi badituzu, baimendu mikrofonoa atzitzea: Ezarpenak > Pribatutasuna > Mikrofonoa.";
 "Image Upload JPEG-Quality: %@" = "Igotako JPEG irudien kalitatea: %@";
@@ -676,7 +676,7 @@
 "Kenya" = "Kenya";
 "Keys of %@" = "%@(r)en gakoak";
 "Kicked from group/channel, because of system shutdown: %@" = "Talde/kanaletik kanporatuta, sistema itzali delako: %@";
-"Kicked, because group/channel is now members-only: %@" = "Kanporatuta, taldea/kanala kideentzako bakarrik delako aurrerantzean: %@";
+"Kicked, because group/channel is now members-only: %@" = "Kanporatuta, taldea/kanala soilik kideentzako delako aurrerantzean: %@";
 /* quicksy country */
 "Kiribati" = "Kiribati";
 /* quicksy country */
@@ -868,7 +868,7 @@
 "Notifications" = "Jakinarazpenak";
 "Notifications disabled" = "Jakinarazpenak ezgaituta daude";
 "Notify on all messages" = "Jakinarazi mezu guztiak jasotzean";
-"Notify only when mentioned" = "Jakinarazi aipatzen nautenean bakarrik";
+"Notify only when mentioned" = "Jakinarazi soilik aipatzen nautenean";
 "now" = "orain";
 /* Message autdelete time */
 "Off" = "Itzalita";
@@ -881,7 +881,7 @@
 "Oman" = "Oman";
 "On this device" = "Gailu honetan";
 "Online" = "Linean";
-"Only contacts" = "Kontaktuak bakarrik";
+"Only contacts" = "Soilik kontaktuak";
 "Open" = "Ireki";
 "Open account settings" = "Ireki kontuaren ezarpenak";
 "Open app to see more" = "Ireki aplikazioa gehiago ikusteko";
@@ -998,7 +998,7 @@
 "Remove %@ from contacts?" = "%@ kontaktuetatik kendu nahi duzu?";
 "Remove %@?" = "%@ kendu?";
 "Remove Account from this Device" = "Kendu kontua gailu honetatik";
-"Remove Background Image" = "Kendu hondoko irudia";
+"Remove Background Image" = "Kendu atzealdeko irudia";
 "Remove Channel Avatar" = "Kendu kanalaren abatarra";
 "Remove Contact" = "Kendu kontaktua";
 "Remove Conversation" = "Kendu elkarrizketa";
@@ -1056,22 +1056,22 @@
 "Scroll down to load more messages" = "Tira behera mezu gehiago kargatzeko";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Channel-binding segurua TLS1.3-rako eta TLS1.2 konexio batzuetarako.";
 "Security" = "Segurtasuna";
-"Select a background to display behind conversations with %@" = "Hautatu %@(r)en elkarrizketarako hondo bat";
-"Select a default background to display behind conversations." = "Hautatu defektuzko hondo bat elkarrizketetarako.";
+"Select a background to display behind conversations with %@" = "Hautatu %@(r)en elkarrizketarako atzealde bat";
+"Select a default background to display behind conversations." = "Hautatu defektuzko atzealde bat elkarrizketetarako.";
 "Select Action" = "Hautatu ekintza";
-"Select background image" = "Hautatu hondorako irudia";
+"Select background image" = "Hautatu atzealderako irudia";
 "Select Message Archive Management (MAM) Preferences " = "Aukeratu mezuak artxibatzeko kudeaketaren (MAM ingelesez) hobespenak ";
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Hautatu zein soinu joko den mezu berrien jakinarazpenetarako. Lehenetsitakoa Xylophone da.";
 "Selected Group Members" = "Hautatutako taldeko kideak";
 "Send" = "Bidali";
-"Send last interaction time" = "Bidali azken elkarreraginaren data";
+"Send last interaction time" = "Bidali azken interakzioaren data";
 "Send Location" = "Bidali kokapena";
 "Send message receipts" = "Bidali jaso izanaren agiria";
 "Send read receipts" = "Bidali irakurri izanaren agiria";
 "Send SMS again" = "Bidali berriro SMSa";
 "Send typing notifications" = "Bidali idazketa-jakinarazpenak";
 "Sending..." = "Bidaltzen…";
-"Sends password in cleartext (only encrypted by TLS), not very secure" = "Pasahitzak testu hutsean bidaltzen ditu (TLS bidez zifratuta baino ez), ez da oso segurua";
+"Sends password in cleartext (only encrypted by TLS), not very secure" = "Pasahitzak testu hutsean bidaltzen ditu (soilik TLS bidez zifratuta), ez da oso segurua";
 /* quicksy country */
 "Senegal" = "Senegal";
 "Sent a File 📁" = "Fitxategia bidali du 📁";
@@ -1178,7 +1178,7 @@
 "The chat history has been cleared" = "Txat historia garbitu da";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "Zerbitzariarekin konexioak kale egin du eta ezin izan dira txat honetako mezu zaharrak eskuratu. Saiatu berriro geroago.";
 "The current password is not correct." = "Oraingo pasahitza ez da zuzena.";
-"The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "Ondorengo botoiek aplikazioa huts eginarazteko aukera ematen dute, metodo desberdinak erabiliz, kraskaduren kudeaketa probatzeko.";
+"The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "Ondorengo botoiek aplikazioa kraskarazteko aukera ematen dute, metodo desberdinak erabiliz, kraskaduren kudeaketa probatzeko.";
 /* quicksy country */
 "The Former Yugoslav Republic of Macedonia" = "Ipar Mazedonia";
 "The jid you want to add should be in in the format user@domain.tld." = "Gehitu nahi duzun JIDak 'erabiltzailea@domeinua.eus' formatua izan behar du.";
@@ -1193,11 +1193,11 @@
 "The resource '%@' has the following capabilities:" = "'%@' baliabideak honako ahalmenak ditu:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "Hautatzeko ageri diren XMPP zerbitzariak publikoak dira eta ez daukate harremanik Monalekin. Izena emateko orrialdea lana erraztearren baino ez da eskaintzen.";
 "The server does not support blocking (XEP-0191)." = "Zerbitzariak ez du blokeatzeko aukera gaituta (XEP-0191).";
-"The UDP logger allows you to livestream the log to the configured IP." = "UDP erregistratzaileak erregistroa konfiguratutako IPra zuzenean transmititzeko aukera ematen dizu.";
-"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP erregistratzaileak erregistroa konfiguratutako IPra zuzenean transmititzeko aukera ematen dizu. Erabili pasahitz seguru bat Internet bidez transmititzeko!\n[Ikasi nola jaso erregistroaren transmisioa](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
+"The UDP logger allows you to livestream the log to the configured IP." = "UDP loggerrak erregistroa konfiguratutako IPra zuzenean transmititzeko aukera ematen dizu.";
+"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP loggerrak erregistroa konfiguratutako IPra zuzenean transmititzeko aukera ematen dizu. Erabili pasahitz seguru bat Internet bidez transmititzeko!\n[Ikasi nola jaso erregistroaren transmisioa](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
 "The user %@ (%@) wants to add you to their contact list" = "%1$@ (%2$@) erabiltzaileak bere kontaktuetara gehitu nahi zaitu";
 "The username does not need to have an @ symbol. Please try again." = "Erabiltzaile izenak ez du @ ikurrik izan behar. Saiatu berriro.";
-"There is no configured email account. Please email info@monal-im.org ." = "Ez dago ePosta konturik ezarrita. Bidali ePosta info@monal-im.org-era.";
+"There is no configured email account. Please email info@monal-im.org ." = "Ez dago ePosta konturik konfiguratuta. Bidali ePosta info@monal-im.org-era.";
 "There was a SASL error on the server." = "SASL errore bat gertatu da zerbitzarian.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "Errorea gertatu da zifratutako mezu hau deszifratzean (Signal errorea). Konpontzeko saiatu zifratutako mezu bat bidaltzen pertsona honi.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "Errorea mezu zifratu hau deszifratzean (Signal errorea). Konpontzeko saiatu zifratutako mezu bat bidaltzen pertsona honi. (%@)";
@@ -1247,7 +1247,7 @@
 "This should never happen, please contact the developers and provide a logfile!" = "Hau ez litzateke inoiz gertatu beharko, jarri harremanetan garatzaileekin eta partekatu erregistro-fitxategia!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Espezifikazio honek XMPPren argitalpen-harpidetza protokoloa erabiltzeko semantika definitzen du, berehalako mezularitza eta identitate-kontuarekin lotutako egoera-aldaketak igortzeko.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Arau honek SASL eta SASL2 diosalak babesteko modua eskaintzen du, metodoen eta channel-binding-en mailen jaitsiera galaraziz.";
-"This will clear the whole chat history of this account from this device." = "Gailu honetako kontu honetako txat historia guztia ezabatuko du.";
+"This will clear the whole chat history of this account from this device." = "Gailu honetako kontu honetako txat historia guztia garbituko du.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Zerbitzaritik eta gailutik ezabatuko du kontua, baina litekeena da datuak oraindik beste gailuren batean egotea.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "Deiak gaituko ditu zure XMPP zerbitzariak TURN zerbitzaririk eskaintzen ez badu ere.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "Uneko abatarra kendu eta defektuzkoa ezarriko du berriro talde/kanal honetarako.";
@@ -1289,8 +1289,8 @@
 "Tuvalu" = "Tuvalu";
 "Type: %@" = "Mota: %@";
 "Typing..." = "Idazten…";
-"UDP Logger" = "UDP Loggerra";
-"UDP Logger Configuration" = "UDP Loggerraren konfigurazioa";
+"UDP Logger" = "UDP loggerra";
+"UDP Logger Configuration" = "UDP loggerraren konfigurazioa";
 "UDP Logging UI not supported on iOS < 16" = "UDP Loggerraren interfazea ez da bateragarria iOS 16 baino zaharragoekin";
 /* quicksy country */
 "Uganda" = "Uganda";
@@ -1322,7 +1322,7 @@
 "Unknown authentication method" = "Autentifikazio-metodo ezezaguna";
 "Unknown channel-binding type" = "Channel-binding mota ezezaguna";
 "Unknown error!" = "Errore ezezaguna!";
-"Unread Messages Below" = "Markatu beheragoko mezuak ez irakurritzat";
+"Unread Messages Below" = "Irakurri gabeko mezuak";
 "unsupported" = "ez da bateragarria";
 "Untrusted key" = "Fidatu gabeko gakoa";
 "Upload Error" = "Errorea igotzean";
@@ -1336,7 +1336,7 @@
 /* quicksy country */
 "Uruguay" = "Uruguai";
 "Use account" = "Kontua";
-"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Erabili DNSSEC DNS kontsulta guztien erantzunak egiaztatzeko DNS erantzunetarako ezarritako IP helbidearekin konektatu baino lehen.\nSeguruagoa izan arren, konexioan arazoak ekarri ditzake sare batzuetan (hoteletako wifi sareak...)";
+"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Erabili DNSSEC DNS kontsulta guztien erantzunak egiaztatzeko DNS erantzunetarako ezarritako IP helbidearekin konektatu baino lehen.\nSeguruagoa izan arren, konexioan arazoak ekarri ditzake sare batzuetan (hoteletako Wifi sareak...)";
 "Use DNSSEC validation for all connections" = "Erabili DNSSEC egiaztapena konexio guztietarako";
 "User Interface" = "Erabiltzaile-Interfazea";
 /* placeholder when adding account */
@@ -1432,7 +1432,7 @@
 "You need friends for this ride" = "Lagunak behar dituzu abentura honetarako";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Mikrofonoa atzitzeko baimena onartu behar duzu iOSen: Ezarpenak -> Pribatutasuna -> Mikrofonoa, besteek entzun zaitzaten nahi baduzu.";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Monalen iCloud babeskopia bat lehengoratu duzu; ireki aplikazioa kontu hau birgaitzeko.";
-"You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "Egiaztatu dituzun gakoez baino ez zaitez fidatu. Egiaztatu beheko gakoa zure kontaktuaren pantailan agertzen denarekin alderatuz. Sakatu birritan hatz-marka gainean arbelera kopiatzeko.";
+"You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "Egiaztatu dituzun gakoez baino ez zaitez fidatu. Egiaztatu ondorengo gakoa zure kontaktuaren pantailan agertzen denarekin alderatuz. Sakatu birritan hatz-marka gainean arbelera kopiatzeko.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "'%@'(r)i deitzen saiatu zara baina kontaktu hau ez da zure kontaktuen zerrendan aurkitu.";
 "You will no longer receive messages from this conversation" = "Aurrerantzean ez duzu elkarrizketa honetako mezu gehiagorik jasoko";
 "You will receive subsequent messages from this conversation" = "Elkarrizketa honetako mezuak jasoko dituzu aurrerantzean";
