@@ -100,7 +100,7 @@
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Baimendu zure gailuak urrunekoekin zuzeneko sare-konexioa ezartzea. Honek zure IP helbidea jakinarazi diezaioke deitzen duenari/dutenei.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Kontaktu bezala gehi zaitzatela baimentzen baduzu, zure profileko irudia eta linean noiz zauden ikus dezakete.";
 "Already present" = "Badago lehendik ere";
-"Already uploading this content, ignoring" = "Eduki hau igotzen ari da honezkero, muzin egiten";
+"Already uploading this content, ignoring" = "Eduki hau lehendik ere igotzen ari da; muzin egiten";
 "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Argi ibili: ezingo duzu zure zerbitzariko historia zaharragoa kargatu; Monalek eskuratu bezain pronto ezabatuko du!";
 "Always archive" = "Artxibatu beti";
 "Always use direct TLS, not STARTTLS" = "Erabili TLS zuzena, ez STARTTLS";
@@ -132,12 +132,12 @@
 /* quicksy country */
 "Aruba" = "Aruba";
 "Attachments" = "Eranskinak";
-"Audio recorder init fail." = "Audio-grabagailua abiarazteak huts egin du.";
-"Audio recorder prepareToRecord fail." = "Audio-grabagailuak huts egin du: prepareToRecord.";
-"Audio recorder record fail." = "Audio-grabagailuaren grabaketak huts egin du.";
+"Audio recorder init fail." = "Audio-grabagailua abiarazteak kale egin du.";
+"Audio recorder prepareToRecord fail." = "Audio-grabagailuak kale egin du: prepareToRecord.";
+"Audio recorder record fail." = "Audio-grabagailuaren grabaketak kale egin du.";
 "Audio Recorder set active error: %@" = "Errorea audio-grabagailua aktibo ezartzean: %@";
 "Audio Recorder set category error: %@" = "Errorea audio-grabagailuaren kategoria ezartzean: %@";
-"Audio Recorder: failed to record" = "Audio-grabagailua: grabaketak huts egin du";
+"Audio Recorder: failed to record" = "Audio-grabagailua: grabaketak kale egin du";
 /* quicksy country */
 "Australia" = "Australia";
 /* quicksy country */
@@ -209,7 +209,7 @@
 "Call ended: answered with other device" = "Deia amaitu da: beste gailu batean erantzun diote";
 "Call ended: application error" = "Deia amaitu da: aplikazioaren errorea";
 "Call ended: connection failed" = "Deia amaitu da: konexioak kale egin du";
-"Call ended: connection failed\nDuration: %@" = "Deia amaitu da: konexioak huts egin du\nIraupena: %@";
+"Call ended: connection failed\nDuration: %@" = "Deia amaitu da: konexioak kale egin du\nIraupena: %@";
 "Call ended: couldn't establish encryption" = "Deia amaitu da: ezin izan da zifratzea ezarri";
 "Call ended: declined" = "Deia amaitu da: uko egin diote";
 "Call ended: hung up" = "Deia amaitu da: eseki dute";
@@ -218,7 +218,7 @@
 "Call Type" = "Dei mota";
 "Call was not answered" = "Ez diote deiari erantzun";
 "Calls: Allow P2P sessions" = "Deiak: ahalbidetu P2P saioak";
-"Calls: Allow TURN fallback to Monal-Servers" = "Deiak: ahalbidetu Monalen zerbitzariak TURNek huts egitean";
+"Calls: Allow TURN fallback to Monal-Servers" = "Deiak: ahalbidetu Monalen zerbitzariak TURNek kale egitean";
 /* quicksy country */
 "Cambodia" = "Kanbodia";
 "Camera" = "Egin eta bidali argazkia";
@@ -354,7 +354,7 @@
 "Cyprus" = "Zipre";
 /* quicksy country */
 "Czech Rep." = "Txekia";
-"Database Export Failed" = "Datu-basea esportatzeak huts egin du";
+"Database Export Failed" = "Datu-basea esportatzeak kale egin du";
 "Database Files" = "Datu-basearen fitxategiak";
 "Debug" = "Araztu";
 "Debug Notification Problems" = "Araztu jakinarazpenen arazoak";
@@ -494,32 +494,32 @@
 /* quicksy country */
 "Ethiopia" = "Etiopia";
 "Even more to customize!" = "Pertsonalizatu gehiago!";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Kontaktu berri bakoitzak zifratzea gaituta izango du, baina dagoeneko gehitutako kontaktuek orain arteko zifratze-ezarpenak mantenduko dituzte.";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Kontaktu berri bakoitzak zifratzea gaituta izango du, baina lehendik gehitutako kontaktuek orain arteko zifratze-ezarpenak mantenduko dituzte.";
 "Failed to block contact %@" = "Ezin izan da %@ blokeatu";
-"Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak huts egin du";
-"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak huts egin du: denbora agortu da";
-"Failed to copy downloaded file into cache directory: %@" = "Deskargatutako fitxategia katxean kopiatzeak huts egin du: %@";
+"Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak kale egin du";
+"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak kale egin du: denbora agortu da";
+"Failed to copy downloaded file into cache directory: %@" = "Deskargatutako fitxategia katxean kopiatzeak kale egin du: %@";
 "Failed to create invitation for %@" = "Ezin izan da %@(r)entzat gonbidapena sortu";
 "Failed to create invitation, unknown error: %@" = "Ezin izan da gonbidapena sortu, errore ezezaguna: %@";
 "Failed to decode download link" = "Ezin izan da deskargaren esteka dekodetu";
 "Failed to decode encrypted link" = "Ezin izan da zifratutako esteka dekodetu";
-"Failed to decrypt download" = "Deskargaren deszifratzeak huts egin du";
+"Failed to decrypt download" = "Deskargaren deszifratzeak kale egin du";
 "Failed to decrypt filetransfer" = "Partekatutako fitxategiaren deszifratzeak kale egin du";
 "Failed to delete own avatar" = "Ezin izan da abatarra ezabatu";
 "Failed to delete own nickname" = "Ezin izan da ezizena ezabatu";
-"Failed to destroy group/channel '%@'" = "'%@' talde/kanala suntsitzeak huts egin du";
-"Failed to destroy group/channel '%@': timeout" = "'%@' talde/kanala suntsitzeak huts egin du: denbora agortu da";
-"Failed to download file: %@" = "Fitxategia deskargatzeak huts egin du: %@";
+"Failed to destroy group/channel '%@'" = "'%@' talde/kanala suntsitzeak kale egin du";
+"Failed to destroy group/channel '%@': timeout" = "'%@' talde/kanala suntsitzeak kale egin du: denbora agortu da";
+"Failed to download file: %@" = "Fitxategia deskargatzeak kale egin du: %@";
 "Failed to enable carbons for account %@" = "Ezin izan dira %@ konturako kopiak gaitu";
 "Failed to encrypt file" = "Ezin izan da fitxategia zifratu";
 "Failed to enter Group/Channel %@" = "%@ taldearekin/kanalarekin bat egiteak kale egin du";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "%@ taldearekin/kanalarekin bat egiteak kale egin du: ez da talde/kanal bat!";
-"Failed to export the database, please check the logfile for errors and try again." = "Datu-basea esportatzeak huts egin du; begiratu erregistroa akatsen bila eta saiatu berriro.";
-"Failed to fetch download metadata: %@" = "Deskargaren metadatuak eskuratzeak huts egin du: %@";
-"Failed to fetch room config form for '%@'" = "'%@' gelaren konfigurazio-orria eskuratzeak huts egin du";
+"Failed to export the database, please check the logfile for errors and try again." = "Datu-basea esportatzeak kale egin du; begiratu erregistroa akatsen bila eta saiatu berriro.";
+"Failed to fetch download metadata: %@" = "Deskargaren metadatuak eskuratzeak kale egin du: %@";
+"Failed to fetch room config form for '%@'" = "'%@' gelaren konfigurazio-orria eskuratzeak kale egin du";
 "Failed to load blocklist" = "Ezin izan da blokeatutakoen zerrenda kargatu";
-"Failed to moderate message in group/channel '%@'" = "'%@' talde/kanaleko mezua moderatzeak huts egin du";
-"Failed to move uploaded file to file cache directory" = "Igotako fitxategia fitxategien katxe direktoriora mugitzeak huts egin du";
+"Failed to moderate message in group/channel '%@'" = "'%@' talde/kanaleko mezua moderatzeak kale egin du";
+"Failed to move uploaded file to file cache directory" = "Igotako fitxategia fitxategien katxe direktoriora mugitzeak kale egin du";
 "Failed to parse URL returned by HTTP upload server" = "Ezin izan da HTTP igoera zerbitzariak itzuli duen URLa aztertu";
 "Failed to publish avatar image for group/channel %@" = "%@ taldeko / kanaleko abatarren publikazioak kale egin du";
 "Failed to publish own avatar" = "Ezin izan da abatarra publikatu";
@@ -532,7 +532,7 @@
 "Failed to save bookmark for Group/Channel: %@" = "Ezin izan da talde edo kanalaren laster-marka gorde: %@";
 "Failed to save groupchat bookmarks" = "Talde-txateko laster-markak gordetzeak kale egin du";
 "Failed to share file" = "Fitxategia partekatzeak kale egin du";
-"Failed to synchronize phonebook" = "Telefonoko kontaktuen sinkronizazioak huts egin du";
+"Failed to synchronize phonebook" = "Telefonoko kontaktuen sinkronizazioak kale egin du";
 "Failed to upload file: account was removed" = "Fitxategia igotzeak kale egin du: kontua kendu da";
 "Failed to write decrypted download into cache directory" = "Ezin izan da deskargatu eta deszifratutakoa katxe direktorioan idatzi";
 /* quicksy country */
@@ -669,7 +669,7 @@
 "Join Group" = "Egin bat taldearekin";
 /* quicksy country */
 "Jordan" = "Jordania";
-"Just seen" = "Oraintxe ikusita";
+"Just seen" = "Oraintxe ikusia";
 /* quicksy country */
 "Kazakhstan" = "Kazakhstan";
 /* quicksy country */
@@ -714,7 +714,7 @@
 "Libya" = "Libia";
 /* quicksy country */
 "Liechtenstein" = "Liechtenstein";
-"Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "ePostaren kasuan bezala, kontu bat sor dezakezu horretarako dauden webguneren batean, eta edonorekin hitz egin. Orrialde hau XMPP zerbitzari batean kontua sortzeko erabil dezakezu. Erabiltzaile izen eta pasahitz bat aukeratu beharko dituzu.";
+"Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "ePostaren kasuan bezala, nahi duzun zerbitzarian erregistratu dezakezu zure kontua eta edonorekin hitz egin. Orrialde hau XMPP zerbitzari batean kontua sortzeko erabil dezakezu. Erabiltzaile izen eta pasahitz bat aukeratu beharko dituzu.";
 /* quicksy country */
 "Lithuania" = "Lituania";
 "Load over Cellular" = "Kargatu gailuko datuak erabiliz";
@@ -782,7 +782,7 @@
 "Misc" = "Denetarik";
 "Missing Call Support" = "Ez dago deiak egiteko aukerarik";
 "Missing permission" = "Baimena falta da";
-"Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.\n\nUsing Monal instead of a centralized chat app therefore increases your digital sovereignty." = "iOS eta macOSerako XMPP txat-bezero modernoa.\n\nXMPP sare federatua da: ePostaren kasuan bezala, zure kontua nahi duzun zerbitzarian erregistratu dezakezu eta edonorekin hitz egin, izena beste zerbitzari batean emana badute ere.\n\nTxat-aplikazio zentralizatu baten ordez Monal erabiltzeak zure burujabetza digitala handitzen du.";
+"Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.\n\nUsing Monal instead of a centralized chat app therefore increases your digital sovereignty." = "iOS eta macOSerako XMPP txat-bezero modernoa.\n\nXMPP sare federatua da: ePostaren kasuan bezala, nahi duzun zerbitzarian erregistratu dezakezu zure kontua eta edonorekin hitz egin, izena beste zerbitzari batean emana badute ere.\n\nTxat-aplikazio zentralizatu baten ordez Monal erabiltzeak zure burujabetza digitala handitzen du.";
 /* quicksy country */
 "Moldova (Republic of)" = "Moldavia";
 /* quicksy country */
@@ -929,7 +929,7 @@
 "Photos" = "Bidali irudia";
 "Pin Chat" = "Finkatu txata";
 "Play Sounds" = "Jo soinuak";
-"Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Gehitu kontu berri bat lehenik ezarpenetan. Honezkero egina baduzu, litekeena da ezarpenetan gaitu behar izatea";
+"Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Gehitu kontu berri bat lehenik ezarpenetan. Lehendik ere egina baduzu, litekeena da ezarpenetan gaitu behar izatea";
 "Please Allow Audio Access" = "Baimendu audioa atzitzea";
 "Please enter a password below before activating this account." = "Sartu pasahitza kontu hau aktibatu baino lehen.";
 "Please enter the six-digit pin below" = "Sartu sei digituko kodea";
@@ -967,7 +967,7 @@
 /* QR-Code-Scanner */
 "QR-Code video error" = "QR kodeko bideo errorea";
 "Quicksy is now set up and connected." = "Quicksy konfiguratuta eta konektatuta dago.";
-"Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksyk kontaktuen zerrenda tarteka sinkronizatzen du Quicksyn dauden balizko kontaktuak iradokitzeko.\n\nQuicksyk irudiak, audio-grabazioak, bideoak eta beste multimedia fitxategi batzuk partekatzen eta gordetzen ditu aurreikusitako hartzaileei emateko. Fitxategiak 30 egunez gordetzen dira.\n\nInformazio gehiago gure [pribatutasun politika](https://quicksy.im/privacy.htm) gunean.";
+"Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksyk kontaktuen zerrenda tarteka sinkronizatzen du Quicksyn lehendik ere dauden balizko kontaktuak iradokitzeko.\n\nQuicksyk irudiak, audio-grabazioak, bideoak eta beste multimedia fitxategi batzuk partekatzen eta gordetzen ditu aurreikusitako hartzaileei emateko. Fitxategiak 30 egunez gordetzen dira.\n\nInformazio gehiago gure [pribatutasun politika](https://quicksy.im/privacy.htm) gunean.";
 "Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksyk SMS mezu bat bidaliko dizu (operadore-gastuak izan dezake) telefono-zenbakia egiaztatzeko. Sartu zure herrialdeko kodea eta telefono-zenbakia:";
 /* Chat msg action */
 "Quote" = "Aipatu";
@@ -1121,8 +1121,8 @@
 "Somalia" = "Somalia";
 "Some debug settings." = "Arazketa ezarpen batzuk.";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "Mezu batzuk jasotzeko edo bidaltzeko zain daude. Ireki aplikazioa berriro saiatzeko.";
-"Something went wrong processing your request." = "Zerbaitek huts egin du zure eskaera prozesatzean.";
-"Something went wrong while parsing your input..." = "Zerbaitek huts egin du zure sarrera prozesatzean...";
+"Something went wrong processing your request." = "Zerbaitek kale egin du zure eskaera prozesatzean.";
+"Something went wrong while parsing your input..." = "Zerbaitek kale egin du zure sarrera prozesatzean...";
 "Sounds" = "Soinuak";
 "Sounds courtesy Emrah" = "Emrah-ren kortesia";
 /* quicksy country */
@@ -1258,7 +1258,7 @@
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
 "TLS Error: Bad certificate" = "TLS errorea: ziurtagiri okerra";
-"TLS Error: Certificate chain is invalid" = "TLS errorea: ziurtagiri-katea ez da baliozkoa";
+"TLS Error: Certificate chain is invalid" = "TLS errorea: ziurtagiri-kate baliogabea";
 "TLS Error: Certificate expired" = "TLS errorea: ziurtagiria iraungi da";
 "TLS Error: Host name mismatch" = "TLS errorea: ostalari-izena ez dator bat";
 "TLS Error: Unknown root certificate" = "TLS errorea: root ziurtagiri ezezaguna";
@@ -1308,7 +1308,7 @@
 "Unexpected error while checking type of jid, please try again" = "Ustekabeko errorea JID mota egiaztatzean; saiatu berriro";
 "Unexpected error while checking type of jid:" = "Ustekabeko errorea JID mota egiaztatzean:";
 "Unexpected mam preferences result" = "Mezuak artxibatzeko ezarpenen ustekabeko emaitza";
-"Unexpected server response: invalid PEP config form" = "Zerbitzariaren ustekabeko erantzuna: PEP konfigurazio-orria ez da baliozkoa";
+"Unexpected server response: invalid PEP config form" = "Zerbitzariaren ustekabeko erantzuna: PEP konfigurazio-orri baliogabea";
 "Unexpected server response: missing required fields in PEP config form" = "Zerbitzariaren ustekabeko erantzuna: PEP konfigurazio-orrian beharrezko eremuak falta dira";
 /* quicksy country */
 "United Arab Emirates" = "Arabiar Emirerri Batuak";
