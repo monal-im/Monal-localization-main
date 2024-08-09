@@ -75,7 +75,7 @@
 "Add scanned contact" = "Gehitu eskaneatutako kontaktua";
 "Add to contacts" = "Gehitu kontaktuetara";
 "Adding %@..." = "%@ gehitzen...";
-"Adding Group/Channel..." = "Taldea/Kanala gehitzen…";
+"Adding Group/Channel..." = "Taldea / kanala gehitzen…";
 "Adding new member" = "Kide berria gehitzen";
 "Adding..." = "Gehitzen…";
 "Adjust the maximum file size for auto-downloads over cellular network" = "Doitu fitxategien gehieneko neurria gailuko datuak erabiliz automatikoki deskargatzeko";
@@ -92,7 +92,7 @@
 /* quicksy country */
 "Algeria" = "Aljeria";
 "All messages are archived by default." = "Mezu guztiak artxibatzen dira defektuz.";
-"All messages fetched successfully, there are no more left on the server!" = "Mezu guztiak eskuratu dira, ez dago gehiagorik zerbitzarian!";
+"All messages fetched successfully, there are no more left on the server!" = "Mezu guztiak ondo eskuratu dira, ez dago gehiagorik zerbitzarian!";
 "Allow contacts in your contact list to query your Monal and iOS versions." = "Baimendu kontaktuen zerrendan dituzunei zure Monal eta iOS bertsioa ezagutzea.";
 "Allow contacts not in your contact list to call you." = "Baimendu kontaktuen zerrendan ez dituzunei zuri deitzea.";
 "Allow contacts not in your contact list to contact you." = "Baimendu kontaktuen zerrendan ez dituzunei zurekin harremanetan jartzea.";
@@ -181,7 +181,7 @@
 "Blocking %@" = "%@ blokeatzen";
 "Blocking is not supported by the server" = "Zerbitzariak ez du blokeatzen uzten";
 "Blocking member" = "Kidea blokeatzen";
-"Blocking/Unblocking Not Supported" = "Blokeatzea / Desblokeatzea ez dago gaituta";
+"Blocking/Unblocking Not Supported" = "Blokeatzea / blokeatzeari uztea ez dago gaituta";
 "BODY" = "GORPUTZA";
 /* quicksy country */
 "Bolivia (Plurinational State of)" = "Bolivia";
@@ -288,12 +288,12 @@
 "Connecting..." = "Konektatzen…";
 /* server details */
 "Considerations for Server Administrators" = "Zerbitzarien administratzaileek kontuan izatekoak";
-"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Kontaktu eta talde / kanalen JIDek ondorengo formatua izan ohi dute: izena@domeinua.eus";
+"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Kontaktu eta taldeen / kanalen JIDek ondorengo formatua izan ohi dute: izena@domeinua.eus";
 "Contact is muted" = "Kontaktua mutututa dago";
 "Contact is not muted" = "Kontaktua ez dago mutututa";
 "Contact not found" = "Ez da kontaktua aurkitu";
 /* placeholder when adding jid */
-"Contact or Group/Channel Jid" = "Kontaktuaren edo taldearen/kanalaren JIDa";
+"Contact or Group/Channel Jid" = "Kontaktuaren edo taldearen / kanalaren JIDa";
 "Contact Selection" = "Kontaktuen hautaketa";
 "Contacts" = "Kontaktuak";
 /* quicksy country */
@@ -326,7 +326,7 @@
 "Could not get default capture device" = "Ezin izan da lehenetsitako kaptura gailua atzitu";
 /* QR-Code-Scanner */
 "Could not init video session" = "Ezin izan da bideo-saioa abiarazi";
-"Could not join group/channel '%@': timeout" = "Ezin izan da '%@' talde/kanalera sartu: denbora agortu da";
+"Could not join group/channel '%@': timeout" = "Ezin izan da '%@' taldera / kanalera batu: denbora agortu da";
 "Could not read captcha!" = "Ezin izan da captcha irakurri!";
 "Could not register your username. Please check your code or change the username and try again." = "Ezin izan da zure erabiltzailearen izena eman. Egiaztatu zure kodea edo aldatu erabiltzaile izena eta saiatu berriro.";
 "Could not send" = "Ezin izan da bidali";
@@ -401,7 +401,7 @@
 "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "Ziur talde hau suntsitu nahi duzula? Kide guztiak kanporatuko dira eta ondoren suntsituko da.";
 "Do you really want to disable encryption for this contact?" = "Ziur zaude zifratzea ezgaitu nahi duzula kontaktu honentzat?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Ziur zaude OMEMO saioa berrezarri nahi duzula? Zer egiten ari zaren baldin badakizu soilik berrezarri konexioa!";
-"Do you want to block this user from entering this group/channel?" = "Erabiltzaile honi talde/kanalean sartzea galarazi nahi diozu?";
+"Do you want to block this user from entering this group/channel?" = "Erabiltzaile honi taldean / kanalean sartzea galarazi nahi diozu?";
 "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Erabiltzaile hau kanal honetatik kendu nahi duzu? Erabiltzailea berriro sartu ahal izango da blokeatzen ez baduzu.";
 "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Erabiltzaile hau talde honetatik kendu nahi duzu? Erabiltzailea ezingo da berriro sartu taldera berriro gehitzen ez baduzu.";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "%@ kontua erabiltzean, eskaneatu zenituen %@ kontaktuaren hatz-markez fidatu nahi duzu?";
@@ -467,7 +467,7 @@
 "Error creating group!" = "Errorea taldea sortzean!";
 "Error decrypting message" = "Errorea mezua deszifratzean";
 "Error destroying group!" = "Errorea taldea suntsitzean!";
-"Error entering group/channel!" = "Errorea taldera/kanalera sartzean!";
+"Error entering group/channel!" = "Errorea taldera / kanalera sartzean!";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Errorea zerbitzariaren SASL erronka kudeatzean (iteration count too low), deskonektatzen!";
 /* parenthesis should be verbatim */
@@ -488,48 +488,48 @@
 "Error: Account disabled, can not display keys!" = "Errorea: kontua ezgaituta dago, ezin dira gakoak ikusi!";
 "Error: No contacts to display keys for!" = "Errorea: Ez dago gakoak ikusteko kontakturik!";
 "Error: Received OMEMO message is empty" = "Errorea: jasotako OMEMO mezua hutsik dago";
-"errorMessage" = "errorMessage";
+"errorMessage" = "Errore-mezua";
 /* quicksy country */
 "Estonia" = "Estonia";
 /* quicksy country */
 "Ethiopia" = "Etiopia";
 "Even more to customize!" = "Pertsonalizatu gehiago!";
 "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Kontaktu berri bakoitzak zifratzea gaituta izango du, baina lehendik gehitutako kontaktuek orain arteko zifratze-ezarpenak mantenduko dituzte.";
-"Failed to block contact %@" = "Ezin izan da %@ blokeatu";
+"Failed to block contact %@" = "%@ blokeatzeak kale egin du";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak kale egin du";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak kale egin du: denbora agortu da";
 "Failed to copy downloaded file into cache directory: %@" = "Deskargatutako fitxategia katxean kopiatzeak kale egin du: %@";
-"Failed to create invitation for %@" = "Ezin izan da %@(r)entzat gonbidapena sortu";
-"Failed to create invitation, unknown error: %@" = "Ezin izan da gonbidapena sortu, errore ezezaguna: %@";
-"Failed to decode download link" = "Ezin izan da deskargaren esteka deskodetu";
-"Failed to decode encrypted link" = "Ezin izan da zifratutako esteka deskodetu";
+"Failed to create invitation for %@" = "%@(r)entzat gonbidapena sortzeak kale egin du";
+"Failed to create invitation, unknown error: %@" = "Gonbidapena sortzeak kale egin du, errore ezezaguna: %@";
+"Failed to decode download link" = "Deskargaren esteka deskodetzeak kale egin du";
+"Failed to decode encrypted link" = "Zifratutako esteka deskodetzeak kale egin du";
 "Failed to decrypt download" = "Deskargaren deszifratzeak kale egin du";
 "Failed to decrypt filetransfer" = "Partekatutako fitxategiaren deszifratzeak kale egin du";
-"Failed to delete own avatar" = "Ezin izan da abatarra ezabatu";
-"Failed to delete own nickname" = "Ezin izan da ezizena ezabatu";
-"Failed to destroy group/channel '%@'" = "'%@' talde/kanala suntsitzeak kale egin du";
-"Failed to destroy group/channel '%@': timeout" = "'%@' talde/kanala suntsitzeak kale egin du: denbora agortu da";
+"Failed to delete own avatar" = "Abatarra ezabatzeak kale egin du";
+"Failed to delete own nickname" = "Ezizena ezabatzeak kale egin du";
+"Failed to destroy group/channel '%@'" = "'%@' taldea / kanala suntsitzeak kale egin du";
+"Failed to destroy group/channel '%@': timeout" = "'%@' taldea / kanala suntsitzeak kale egin du: denbora agortu da";
 "Failed to download file: %@" = "Fitxategia deskargatzeak kale egin du: %@";
-"Failed to enable carbons for account %@" = "Ezin izan dira %@ konturako kopiak gaitu";
-"Failed to encrypt file" = "Ezin izan da fitxategia zifratu";
-"Failed to enter Group/Channel %@" = "%@ taldearekin/kanalarekin bat egiteak kale egin du";
-"Failed to enter Group/Channel %@: This is not a Group/Channel!" = "%@ taldearekin/kanalarekin bat egiteak kale egin du: ez da talde/kanal bat!";
-"Failed to export the database, please check the logfile for errors and try again." = "Datu-basea esportatzeak kale egin du; begiratu erregistroa akatsen bila eta saiatu berriro.";
+"Failed to enable carbons for account %@" = "%@ konturako kopiak gaitzeak kale egin du";
+"Failed to encrypt file" = "Fitxategia zifratzeak kale egin du";
+"Failed to enter Group/Channel %@" = "%@ taldearekin / kanalarekin bat egiteak kale egin du";
+"Failed to enter Group/Channel %@: This is not a Group/Channel!" = "%@ taldearekin / kanalarekin bat egiteak kale egin du: ez da talde / kanal bat!";
+"Failed to export the database, please check the logfile for errors and try again." = "Datu-basea esportatzeak kale egin du; begiratu erregistroa erroreen bila eta saiatu berriro.";
 "Failed to fetch download metadata: %@" = "Deskargaren metadatuak eskuratzeak kale egin du: %@";
 "Failed to fetch room config form for '%@'" = "'%@' gelaren konfigurazio-orria eskuratzeak kale egin du";
 "Failed to load blocklist" = "Ezin izan da blokeatutakoen zerrenda kargatu";
-"Failed to moderate message in group/channel '%@'" = "'%@' talde/kanaleko mezua moderatzeak kale egin du";
+"Failed to moderate message in group/channel '%@'" = "'%@' taldeko / kanaleko mezua moderatzeak kale egin du";
 "Failed to move uploaded file to file cache directory" = "Igotako fitxategia fitxategien katxe direktoriora mugitzeak kale egin du";
 "Failed to parse URL returned by HTTP upload server" = "Ezin izan da HTTP igoera zerbitzariak itzuli duen URLa aztertu";
 "Failed to publish avatar image for group/channel %@" = "%@ taldeko / kanaleko abatarren publikazioak kale egin du";
 "Failed to publish own avatar" = "Ezin izan da abatarra publikatu";
 "Failed to publish own nickname" = "Ezin izan da ezizena publikatu";
 "Failed to query for new messages on account %@" = "Ezin izan dira %@ kontuko mezu berriak kontsultatu";
-"Failed to query new messages for Group/Channel (catchup) %@" = "Ezin izan dira %@ talde/kanalaren mezu berriak lortu (catchup)";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "Ezin izan dira %@ talde/kanalaren mezu berriak lortu (stanzaid)";
+"Failed to query new messages for Group/Channel (catchup) %@" = "Ezin izan dira %@ taldearen / kanalaren mezu berriak lortu (catchup)";
+"Failed to query new messages for Group/Channel (stanzaid) %@" = "Ezin izan dira %@ taldearen / kanalaren mezu berriak lortu (stanzaid)";
 "Failed to query newest stanzaid for account %@" = "Ezin izan dira %@ kontuko stanzaid berrienak kontsultatu";
-"Failed to remove bookmark for Group/Channel: %@" = "Ezin izan da talde edo kanalaren laster-marka kendu: %@";
-"Failed to save bookmark for Group/Channel: %@" = "Ezin izan da talde edo kanalaren laster-marka gorde: %@";
+"Failed to remove bookmark for Group/Channel: %@" = "Ezin izan da taldearen / kanalaren laster-marka kendu: %@";
+"Failed to save bookmark for Group/Channel: %@" = "Ezin izan da taldearen / kanalaren laster-marka gorde: %@";
 "Failed to save groupchat bookmarks" = "Talde-txateko laster-markak gordetzeak kale egin du";
 "Failed to share file" = "Fitxategia partekatzeak kale egin du";
 "Failed to synchronize phonebook" = "Telefonoko kontaktuen sinkronizazioak kale egin du";
@@ -590,10 +590,10 @@
 /* placeholder when creating new group */
 "Group Name (optional)" = "Taldearen izena (aukerakoa)";
 "Group subject:" = "Taldeko gaia:";
-"Group/Channel description" = "Talde/kanalaren deskribapena";
+"Group/Channel description" = "Taldearen / kanalaren deskribapena";
 "Group/Channel got destroyed: %@" = "Taldea / kanala suntsitu da: %@";
-"Group/Channel not available anymore: %@" = "Taldea / kanala ez dago erabilgarri honezkero: %@";
-"groupJoin Group" = "Sartu taldean";
+"Group/Channel not available anymore: %@" = "Taldea / kanala ez dago jada erabilgarri: %@";
+"groupJoin Group" = "Batu taldera";
 /* quicksy country */
 "Guadeloupe" = "Guadalupe";
 /* quicksy country */
@@ -648,7 +648,7 @@
 "Inviting new member" = "Kide berria gonbidatzen";
 "Inviting new participant" = "Parte-hartzaile berria gonbidatzen";
 "Inviting user" = "Erabiltzailea gonbidatzen";
-"Inviting user to this group/channel: %@" = "Erabiltzailea talde/kanal honetara gonbidatzen: %@";
+"Inviting user to this group/channel: %@" = "Erabiltzailea talde / kanal honetara gonbidatzen: %@";
 /* quicksy country */
 "Iran (Islamic Republic of)" = "Iran";
 /* quicksy country */
@@ -665,8 +665,8 @@
 "Jamaica" = "Jamaika";
 /* quicksy country */
 "Japan" = "Japonia";
-"Join Channel" = "Egin bat kanalarekin";
-"Join Group" = "Egin bat taldearekin";
+"Join Channel" = "Batu kanalera";
+"Join Group" = "Batu taldera";
 /* quicksy country */
 "Jordan" = "Jordania";
 "Just seen" = "Oraintxe ikusia";
@@ -675,8 +675,8 @@
 /* quicksy country */
 "Kenya" = "Kenya";
 "Keys of %@" = "%@(r)en gakoak";
-"Kicked from group/channel, because of system shutdown: %@" = "Talde/kanaletik kanporatuta, sistema itzali delako: %@";
-"Kicked, because group/channel is now members-only: %@" = "Kanporatuta, taldea/kanala soilik kideentzako delako aurrerantzean: %@";
+"Kicked from group/channel, because of system shutdown: %@" = "Taldetik / kanaletik kanporatuta, sistema itzali delako: %@";
+"Kicked, because group/channel is now members-only: %@" = "Kanporatuta, taldea / kanala soilik kideentzako delako aurrerantzean: %@";
 /* quicksy country */
 "Kiribati" = "Kiribati";
 /* quicksy country */
@@ -767,7 +767,7 @@
 "Member" = "Kidea";
 "Message from %@" = "%@(e)k bidalitako mezua";
 "Message was encrypted with '%@' which isn't supported by Monal" = "Mezua '%@' erabiliz zifratu da, Monalekin bateragarria ez dena";
-"Message was encrypted with OMEMO and can't be decrypted anymore" = "Mezua OMEMOrekin zifratu zen eta ezin da deszifratu honezkero";
+"Message was encrypted with OMEMO and can't be decrypted anymore" = "Mezua OMEMOrekin zifratu zen eta ezin da jada deszifratu";
 "Message was encrypted with OMEMO but could not be decrypted" = "Mezua OMEMOrekin zifratu da baina ezin izan da deszifratu";
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "Mezua ez da gailu honetarako zifratu. Egiaztatu igorlea %u gailuaz fidatzen dela.";
 "Messages are encrypted" = "Mezuak zifratuta daude";
@@ -1138,9 +1138,9 @@
 "Submit A Bug" = "Eman errore baten berri";
 "Success" = "Primeran";
 "Success!" = "Primeran!";
-"Successfully destroyed channel." = "Kanala behar bezala suntsitu da.";
-"Successfully destroyed group." = "Taldea behar bezala suntsitu da.";
-"Successfully joined group/channel %@!" = "Arazorik gabe bat egin da %@ talde/kanalarekin!";
+"Successfully destroyed channel." = "Kanala ondo suntsitu da.";
+"Successfully destroyed group." = "Taldea ondo suntsitu da.";
+"Successfully joined group/channel %@!" = "Ondo batu da %@ taldera / kanalera!";
 /* quicksy country */
 "Sudan" = "Sudan";
 "Support" = "Laguntza";
@@ -1165,7 +1165,7 @@
 /* quicksy country */
 "Tanzania" = "Tanzania";
 "Temporarily unavailable. Try again later." = "Eskuraezin aldi baterako. Saiatu geroago.";
-"Temporary failure to enter Group/Channel: %@" = "Taldea / kanalarekin bat egiteak kale egin du behin-behinean: %@";
+"Temporary failure to enter Group/Channel: %@" = "Taldearekin / kanalarekin bat egiteak kale egin du behin-behinean: %@";
 "Terms of %@" = "%@(r)en baldintzak";
 "Terms of use for %@" = "%@(r)en erabilera baldintzak";
 /* quicksy country */
@@ -1230,12 +1230,12 @@
 "This is the software running on your server." = "Hau da zure zerbitzariak darabilen softwarea.";
 "This key belongs to this device and cannot be removed or disabled!" = "Gailu honen gakoa da hau eta ezin da kendu edo ezgaitu!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Gako hau fidagarritzat eman da eta hatz-markak eskuz alderatuz egiaztatu da. Gakoaz fidatzeari uzteko, erabili botoi-etengailua.";
-"This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "Gako hau fidagarritzat eman da baina kontaktuak jadanik ez du erabiltzen. Gakoa baztertu beharko zenuke.";
+"This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "Gako hau fidagarritzat eman da baina kontaktuak jada ez du erabiltzen. Gakoa baztertu beharko zenuke.";
 "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "Gakoa fidagarritzat duzu baina kontaktuak ez du denbora luzean erabili. Gakoa baztertu beharko zenuke";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "Honek esan nahi du zure deia zifratuta dagoela eta urruneko kidea OMEMO zifratzearen bidez egiaztatu dela.\nBaina deitzailearen OMEMO hatz-markak eskuz egiaztatu ez zenituenez, zure edo deitzailearen XMPP zerbitzaria gai da beste OMEMO gako batzuk sartu eta zuen artean sartzeko (Man-In-The-Middle edo MITM erasoa).";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "Honek esan nahi du zure deia zifratuta dagoela eta urruneko kidea OMEMO zifratzearen bidez egiaztatu dela.\nOMEMO hatz-markak eskuz egiaztatu zenituenez, ez dago MITM (Man-In-The-Middle) erasorako aukerarik.";
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "Honek esan nahi du zure deia zifratuta dagoela baina ezin izan da urruneko kidea OMEMO zifratzearen bidez egiaztatu.\nZure edo deitzailearen XMPP zerbitzaria gai da beste OMEMO gako batzuk sartu eta zuen artean sartzeko (Man-In-The-Middle edo MITM erasoa).";
-"This message failed to send (%@): %@" = "Ezin izan da mezua bidali (%@): %@";
+"This message failed to send (%@): %@" = "Mezua bidaltzeak (%@) kale egin du: %@";
 "This message got retracted" = "Mezua atzera bota da";
 "This phone number is currently logged in with another device." = "Telefono zenbakia beste gailu batean erabiltzen ari da.";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Badirudi zerbitzari honek ezin dituela fitxategiak HTTP bidez igo (XEP-0363). Eskatu administrariari aukera gaitu dezala.";
@@ -1250,7 +1250,7 @@
 "This will clear the whole chat history of this account from this device." = "Gailu honetako kontu honetako txat historia guztia garbituko du.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Zerbitzaritik eta gailutik ezabatuko du kontua, baina litekeena da datuak oraindik beste gailuren batean egotea.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "Deiak gaituko ditu zure XMPP zerbitzariak TURN zerbitzaririk eskaintzen ez badu ere.";
-"This will remove the current avatar image and revert this group/channel to the default one." = "Uneko abatarra kendu eta defektuzkoa ezarriko du berriro talde/kanal honetarako.";
+"This will remove the current avatar image and revert this group/channel to the default one." = "Uneko abatarra kendu eta defektuzkoa ezarriko du berriro talde / kanal honetarako.";
 "This will remove this account and the associated data from this device." = "Kontu hau eta lotutako datuak kenduko ditu gailu honetatik.";
 "Timeout Error" = "Denbora agortu da";
 /* quicksy country */
@@ -1297,9 +1297,9 @@
 /* quicksy country */
 "Ukraine" = "Ukraina";
 "Unable to connect to server!" = "Ezin da zerbitzarira konektatu!";
-"Unblock Contact" = "Desblokeatu kontaktua";
-"Unblocking user" = "Erabiltzailea desblokeatzen";
-"Unblocking user for this group/channel: %@" = "Erabiltzailea %@ talde/kanaletik desblokeatzen";
+"Unblock Contact" = "Utzi kontaktua blokeatzeari";
+"Unblocking user" = "Erabiltzailea blokeatzeari uzten";
+"Unblocking user for this group/channel: %@" = "Erabiltzailea %@ taldetik / kanaletik blokeatzeari uzten";
 "Unclean appex shutown" = "Appex (app extension) ez da garbi itxi";
 "Understood" = "Ulertuta";
 "Unexpected appex expiration" = "Appex (app extension) ustekabean iraungi da";
@@ -1425,9 +1425,9 @@
 "You are using an out of date version of this app." = "Aplikazio honen bertsio zahar bat erabiltzen ari zara.";
 "You can customize even more, just use the button below to open the settings." = "Are gehiago pertsonaliza dezakezu. Erabili beheko botoia ezarpenak irekitzeko.";
 "You did not grant Monal to access your location." = "Ez diozu Monali kokapena atzitzeko baimenik eman.";
-"You got banned from group/channel: %@" = "Talde/kanalean debekua ezarri dizute: %@";
-"You got kicked from group/channel: %@" = "Talde/kanaletik kanporatu zaituzte: %@";
-"You got removed from group/channel: %@" = "Talde/kanaletik kendu zaituzte: %@";
+"You got banned from group/channel: %@" = "Taldean / kanalean debekua ezarri dizute: %@";
+"You got kicked from group/channel: %@" = "Taldetik / kanaletik kanporatu zaituzte: %@";
+"You got removed from group/channel: %@" = "Taldetik / kanaletik kendu zaituzte: %@";
 "You have not entered your XMPP ID yet" = "Oraindik ez duzu zure XMPP IDa sartu";
 "You need friends for this ride" = "Lagunak behar dituzu abentura honetarako";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Mikrofonoa atzitzeko baimena onartu behar duzu iOSen: Ezarpenak -> Pribatutasuna -> Mikrofonoa, besteek entzun zaitzaten nahi baduzu.";
