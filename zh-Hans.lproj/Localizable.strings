@@ -727,7 +727,7 @@
 "Loading more Messages from Server" = "正在从服务器加载更多消息";
 "Loading omemo bundles" = "正在加载 OMEMO 包";
 "Loading omemo bundles: %@ / %@" = "正在加载 OMEMO 包：%@ / %@";
-"Loading OMEMO keys" = "Loading OMEMO keys";
+"Loading OMEMO keys" = "正在加载 OMEMO 密钥";
 "Location Access Needed" = "需要访问位置";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "登录您现有的账号或注册一个新账号。如果需要，您可以在 Monal 设置中找到更多高级选项。";
 "Logfiles" = "日志文件";
@@ -1219,7 +1219,7 @@
 "This account already exists on this instance." = "此实例上已存在此账号。";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "此应用版本太旧，可能包含安全漏洞，也可能突然停止运行。请升级！";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "这可用于导出日志文件。\n［了解如何读取它们］（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log）。";
-"This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong.";
+"This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "此联系人似乎没有任何支持加密的设备，如果您认为这是错误的，请稍后再试。";
 "This contact is already in the contact list of the selected account" = "此联系人已在所选账号的联系人列表中";
 "This contact is already in your contact list" = "此联系人已在您的联系人列表中";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "此联系人可能不支持 OMEMO 加密消息。请稍后再试。";
@@ -1245,7 +1245,7 @@
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "此服务器不支持任何新式的通道绑定，以防止 TLS 层中间人攻击。";
 "This server does not support modern SASL2 authentication." = "此服务器不支持新式的 SASL2 身份验证。";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "此服务器未使用可抵御中间人攻击的身份验证方法来对 TLS 加密层进行额外的强化！如果服务器应该支持 SASL2 和 SCRAM，则表示正在进行攻击，否则是无害的。如果您仍然想登录到此服务器，请使用高级账号创建菜单并打开那里的 PLAIN 开关。";
-"This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList, an ongoing MITM attack is highly likely! You should try again once you are in a clean networking environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList, an ongoing MITM attack is highly likely! You should try again once you are in a clean networking environment.";
+"This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList, an ongoing MITM attack is highly likely! You should try again once you are in a clean networking environment." = "此服务器不支持 SASL2 和 SCRAM，二者进一步加强了对 TLS 加密层的中间人攻击的验证。由于此服务器在 https://github.com/monal-im/SCRAM_PreloadList 中列为支持二者，因此极有可能正在遭受中间人攻击！您应该在干净的网络环境中再试一次。";
 "This should never happen, please contact the developers and provide a logfile!" = "这种情况不应该发生，请联系开发人员并提供日志文件！";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "此规范定义了使用 XMPP 发布-订阅协议来广播与即时通讯和在线状态的账号相关联的状态更改事件的语义。";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "此规范提供了一种方法来保护 SASL 和 SASL2 握手，不受方法和通道绑定降级影响。";
