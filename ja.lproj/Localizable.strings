@@ -727,6 +727,7 @@
 "Loading more Messages from Server" = "サーバーから追加のメッセージを読み込み中";
 "Loading omemo bundles" = "OMEMO 鍵束を読み込み中";
 "Loading omemo bundles: %@ / %@" = "OMEMO 鍵束を読み込み中: %1$@ / %2$@";
+"Loading OMEMO keys" = "Loading OMEMO keys";
 "Location Access Needed" = "位置情報のアクセスが必要です";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "既存のアカウントにログインするか、新しいアカウントを登録します。必要に応じて、Monal の設定にさらに高度なオプションを見つけることができます。";
 "Logfiles" = "Logfiles";
@@ -1218,7 +1219,7 @@
 "This account already exists on this instance." = "This account already exists on this instance.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
-"This contact does not appear to have any devices that support encryption." = "この相手先は暗号化に対応するデバイスを持っていないようです。";
+"This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong.";
 "This contact is already in the contact list of the selected account" = "この相手先は、選択したアカウントの相手先一覧にすでに含まれています";
 "This contact is already in your contact list" = "この相手先はすでに一覧の中にあります";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "この相手先は OMEMO 暗号化メッセージに対応していない可能性があります。数秒後にもう一度試してください。";
@@ -1244,6 +1245,7 @@
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "このサーバーは、TLS 層での MITM 攻撃から保護するための最近のチャネルバインディングに対応していません。";
 "This server does not support modern SASL2 authentication." = "このサーバーは現代的な SASL2 認証に対応していません。";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server.";
+"This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList, an ongoing MITM attack is highly likely! You should try again once you are in a clean networking environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList, an ongoing MITM attack is highly likely! You should try again once you are in a clean networking environment.";
 "This should never happen, please contact the developers and provide a logfile!" = "このようなことは決して起こらないはずです。開発者に連絡してログファイルを提供してください。";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";

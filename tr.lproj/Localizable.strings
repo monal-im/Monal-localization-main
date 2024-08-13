@@ -727,6 +727,7 @@
 "Loading more Messages from Server" = "Sunucudan Daha Fazla İleti Yükleniyor";
 "Loading omemo bundles" = "Omemo paketleri yükleniyor";
 "Loading omemo bundles: %@ / %@" = "Omemo paketleri yükleniyor: %@ / %@";
+"Loading OMEMO keys" = "Loading OMEMO keys";
 "Location Access Needed" = "Konum Erişimi İzni Gerekli";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Mevcut hesabınıza giriş yapın veya yeni bir hesap açın. Gerekirse Monal ayarlarında daha gelişmiş seçenekler bulacaksınız.";
 "Logfiles" = "Log dosyaları";
@@ -1218,7 +1219,7 @@
 "This account already exists on this instance." = "Bu hesap, bu örnekte zaten var.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Bu uygulama çok eski ve güvenlik açıkları içerebilir veya aniden çalışmayı durdurabilir. Lütfen güncelleyin!";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Bu, günlük dosyalarını dışa aktarmak için kullanılabilir.\n[Nasıl okunacağını öğrenin](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
-"This contact does not appear to have any devices that support encryption." = "Bu kişinin şifrelemeyi destekleyen herhangi bir cihazı yok gibi görünüyor.";
+"This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong.";
 "This contact is already in the contact list of the selected account" = "Bu kişi zaten seçilen hesabın kişi listesinde yer alıyor";
 "This contact is already in your contact list" = "Bu kişi zaten kişi listenizde var";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Bu kişi OMEMO şifreli mesajları desteklemiyor olabilir. Lütfen birkaç saniye sonra tekrar deneyin.";
@@ -1244,6 +1245,7 @@
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Bu sunucu, TLS katmanında MITM (ortadaki adam) saldırılarına karşı güvenli hale getirmek için herhangi bir modern channel-binding yöntemi desteklemez.";
 "This server does not support modern SASL2 authentication." = "Bu sunucu modern SASL2 kimlik doğrulamasını desteklemez.";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "Bu sunucu, TLS şifreleme katmanındaki aracı saldırılara karşı güvenli kimlik doğrulama yöntemleri kullanılarak ek olarak güçlendirilmemiştir! Sunucunun SASL2 ve SCRAM'ı desteklemesi ve aksi takdirde zararsız olması gerekiyorsa bu, devam eden bir saldırı olduğunu gösterir. Bu sunucuya hala giriş yapmak istiyorsanız gelişmiş hesap oluşturma menüsünü kullanın ve oradaki PLAIN anahtarını açın.";
+"This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList, an ongoing MITM attack is highly likely! You should try again once you are in a clean networking environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList, an ongoing MITM attack is highly likely! You should try again once you are in a clean networking environment.";
 "This should never happen, please contact the developers and provide a logfile!" = "Bu asla olmamalı, lütfen geliştiricilerle iletişime geçin ve bir günlük dosyası sağlayın!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Bu belirtim, bir anlık ileti ve durum hesabıyla ilişkili durum değişikliği olaylarını yayınlamak için XMPP yayınla-abone ol protokolünü kullanmaya yönelik semantiği tanımlar.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Bu spesifikasyon, SASL ve SASL2 el sıkışmalarının methot ve channel-binding düşürmelerine karşı güvence altına almak için bir yol sağlar.";

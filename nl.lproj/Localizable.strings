@@ -727,6 +727,7 @@
 "Loading more Messages from Server" = "Meer berichten laden van server";
 "Loading omemo bundles" = "OMEMO-bundels laden";
 "Loading omemo bundles: %@ / %@" = "OMEMO-bundels laden: %1$@ / %2$@";
+"Loading OMEMO keys" = "Loading OMEMO keys";
 "Location Access Needed" = "Locatietoegang vereist";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings.";
 "Logfiles" = "Logfiles";
@@ -1218,7 +1219,7 @@
 "This account already exists on this instance." = "This account already exists on this instance.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Deze app is te oud en kan beveiligingsfouten bevatten of plotseling stoppen met werken. Upgrade alsjeblieft!";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
-"This contact does not appear to have any devices that support encryption." = "Deze contactpersoon lijkt geen apparaten te hebben die encryptie ondersteunen.";
+"This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong.";
 "This contact is already in the contact list of the selected account" = "This contact is already in the contact list of the selected account";
 "This contact is already in your contact list" = "This contact is already in your contact list";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Deze contact ondersteund mogelijk geen OMEMO versleutelde berichten. Alsjeblieft probeer opnieuw in een aantal seconden.";
@@ -1244,6 +1245,7 @@
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Deze server ondersteunt geen moderne kanaalbinding ter beveiliging tegen MITM-aanvallen op de TLS laag.";
 "This server does not support modern SASL2 authentication." = "Deze server ondersteund geen moderne SASL2 authenticatie.";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server.";
+"This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList, an ongoing MITM attack is highly likely! You should try again once you are in a clean networking environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList, an ongoing MITM attack is highly likely! You should try again once you are in a clean networking environment.";
 "This should never happen, please contact the developers and provide a logfile!" = "Dit mag nooit gebeuren, neem contact op met de ontwikkelaars en zorg voor een logbestand!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Deze specificatie definieert de semantiek om het XMPP-publiceer-abonneer-protocol aan te wenden om statusveranderingen geassocieerd met een IM- en aanwezigheidsaccount te uit te sturen.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Deze specificatie biedt een manier om de SASL- en SASL2 handshakes te beveiligen tegen methode- en kanaalbindende downgrades.";

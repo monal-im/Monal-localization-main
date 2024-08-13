@@ -727,6 +727,7 @@
 "Loading more Messages from Server" = "Завантаження більше повідомлень з сервера";
 "Loading omemo bundles" = "Завантаження пакетів OMEMO";
 "Loading omemo bundles: %@ / %@" = "Завантаження пакетів OMEMO: %1$@ / %2$@";
+"Loading OMEMO keys" = "Loading OMEMO keys";
 "Location Access Needed" = "Необхідний доступ до місцезнаходження";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Увійдіть до свого облікового запису або зареєструйте новий. Якщо потрібно, ви знайдете більш розширені опції в налаштуваннях Monal.";
 "Logfiles" = "Logfiles";
@@ -1218,7 +1219,7 @@
 "This account already exists on this instance." = "Цей обліковий запис вже існує на цьому інстансі.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Версія цього застосунку застаріла і може містити помилки безпеки, а також раптово припинити роботу. Будь ласка, оновіть!";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
-"This contact does not appear to have any devices that support encryption." = "Цей контакт, здається, не має жодних пристроїв, які підтримують шифрування.";
+"This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong.";
 "This contact is already in the contact list of the selected account" = "Цей контакт вже є у списку контактів обраного акаунта";
 "This contact is already in your contact list" = "Цей контакт вже є у вашому списку контактів";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Цей контакт може не підтримувати зашифровані повідомлення OMEMO. Будь ласка, спробуйте ще раз через кілька секунд.";
@@ -1244,6 +1245,7 @@
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Цей сервер не підтримує сучасну прив'язку каналів для захисту від MITM-атак на рівні TLS.";
 "This server does not support modern SASL2 authentication." = "Цей сервер не підтримує сучасну автентифікацію SASL2.";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server.";
+"This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList, an ongoing MITM attack is highly likely! You should try again once you are in a clean networking environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList, an ongoing MITM attack is highly likely! You should try again once you are in a clean networking environment.";
 "This should never happen, please contact the developers and provide a logfile!" = "Цього не повинно статися, будь ласка, зв'яжіться з розробниками та надайте лог-файл!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Ця специфікація визначає семантику використання протоколу публікації-підписки XMPP для трансляції подій зміни стану, пов'язаних з миттєвими повідомленнями та обліковим записом присутності.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Ця специфікація надає спосіб захистити рукостискання SASL і SASL2 від пониження рівня прив'язки методів і каналів.";
