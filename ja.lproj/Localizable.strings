@@ -48,8 +48,8 @@
 "Abort" = "中断";
 "Aborted recording audio" = "音声の録音を中断しました";
 "About" = "Monalについて";
-"Accept incoming calls from strangers" = "見知らぬ人からの通話を受け付ける";
-"Accept incoming messages from strangers" = "見知らぬ人からのメッセージを受け付ける";
+"Accept incoming calls from strangers" = "見知らぬ人からの通話を受け付け";
+"Accept incoming messages from strangers" = "見知らぬ人からのメッセージを受け付け";
 "Access message archives on the server." = "サーバーのメッセージ保管にアクセスします。";
 /* ShareViewController: Account */
 "Account" = "アカウント";
@@ -93,9 +93,9 @@
 "Algeria" = "Algeria";
 "All messages are archived by default." = "デフォルトですべてのメッセージは保管されます。";
 "All messages fetched successfully, there are no more left on the server!" = "すべてのメッセージを正常に取得しました。サーバーにはもう残っていません。";
-"Allow contacts in your contact list to query your Monal and iOS versions." = "相手先一覧内の相手先に Monal および iOS のバージョンの照会を許可";
+"Allow contacts in your contact list to query your Monal and iOS versions." = "相手先一覧内の相手先に Monal および iOS のバージョンの照会を許可します。";
 "Allow contacts not in your contact list to call you." = "相手先一覧にない相手先からの通話を許可します。";
-"Allow contacts not in your contact list to contact you." = "相手先一覧にない相手先からの接触を許可します。";
+"Allow contacts not in your contact list to contact you." = "相手先一覧にない相手先からの連絡を許可します。";
 "Allow MITM-prone PLAIN authentication" = "MITM が起こり得る PLAIN 認証を許可";
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "デバイスが相手への直接ネットワーク接続を確立できるようにします。これにより、IP アドレスが発信者/着信者に漏洩する可能性があります。";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "あなたを相手先として追加することを誰かに許可すると、その人はあなたのプロフィール画像や在席状況を見ることができます。";
@@ -357,7 +357,7 @@
 "Database Export Failed" = "Database Export Failed";
 "Database Files" = "Database Files";
 "Debug" = "デバッグ";
-"Debug Notification Problems" = "Debug Notification Problems";
+"Debug Notification Problems" = "デバッグ通知問題";
 "Debugging" = "デバッグ";
 "Default Background" = "デフォルトの背景";
 "Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "名簿が変更されていない場合にサーバーが名簿をクライアントに送信しないよう、名簿のバージョン管理を可能にする XMPP 名簿プロトコルに対する提案された変更を定義します。";
@@ -632,7 +632,7 @@
 "Indonesia" = "Indonesia";
 "Input" = "入力";
 "Input is not a valid jid" = "正しい JID ではありません";
-"Interactions" = "Interactions";
+"Interactions" = "受付";
 "Invalid Credentials!" = "認証情報が正しくありません。";
 /* QR-Code-Scanner: invalid format */
 "Invalid format" = "形式が正しくありません";
@@ -704,10 +704,10 @@
 "Lebanon" = "Lebanon";
 /* quicksy country */
 "Lesotho" = "Lesotho";
-"Let your contacts know if you are typing a message." = "Let your contacts know if you are typing a message.";
-"Let your contacts know if you read a message." = "Let your contacts know if you read a message.";
-"Let your contacts know if you received a message." = "Let your contacts know if you received a message.";
-"Let your contacts know when you last opened the app." = "Let your contacts know when you last opened the app.";
+"Let your contacts know if you are typing a message." = "相手先は、あなたがメッセージを入力しているかを知ることができます。";
+"Let your contacts know if you read a message." = "相手先は、あなたがメッセージを読んだか知ることができます。";
+"Let your contacts know if you received a message." = "相手先は、あなたがメッセージを受け取ったか知ることができます。";
+"Let your contacts know when you last opened the app." = "相手先は、あなたがこのアプリを最後に開いたのがいつか知ることができます。";
 /* quicksy country */
 "Liberia" = "Liberia";
 /* quicksy country */
@@ -780,7 +780,7 @@
 /* quicksy country */
 "Micronesia" = "Micronesia";
 "Migration Assistant" = "移行アシスタント";
-"Misc" = "Misc";
+"Misc" = "その他";
 "Missing Call Support" = "通話に対応していません";
 "Missing permission" = "権限がありません";
 "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.\n\nUsing Monal instead of a centralized chat app therefore increases your digital sovereignty." = "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.\n\nUsing Monal instead of a centralized chat app therefore increases your digital sovereignty.";
@@ -877,22 +877,22 @@
 /* Crash report error dialog */
 "OK" = "OK";
 "Okay" = "Ok";
-"Older, slower, but still secure TLS version" = "古くて遅いですが、いまだ安全な TLS バージョン";
+"Older, slower, but still secure TLS version" = "古くて遅いものの、いまだ安全な TLS バージョン";
 /* quicksy country */
 "Oman" = "Oman";
 "On this device" = "このデバイス";
 "Online" = "オンライン";
 "Only contacts" = "相手先のみ";
 "Open" = "開く";
-"Open account settings" = "Open account settings";
+"Open account settings" = "アカウント設定を開く";
 "Open app to see more" = "アプリを開いて詳細を見る";
 /* muc members list */
-"Open contact details" = "Open contact details";
+"Open contact details" = "相手先の詳細を開く";
 "Open contact list" = "相手先一覧を開く";
 "Open contact list (contact requests pending)" = "Open contact list (contact requests pending)";
 "Open in default browser" = "Open in default browser";
-"Open iOS settings" = "Open iOS settings";
-"Open macOS settings" = "Open macOS settings";
+"Open iOS settings" = "iOS の設定を開く";
+"Open macOS settings" = "macOS の設定を開く";
 "Open Profile of %@" = "Open Profile of %@";
 "Open Source" = "オープンソース";
 "Open URLs inline in Safari" = "Safari で URL をインラインで開く";
@@ -912,7 +912,7 @@
 /* quicksy country */
 "Paraguay" = "Paraguay";
 /* muc affiliation */
-"Participant" = "Participant";
+"Participant" = "参加者";
 /* placeholder when adding account
    placeholder when creating account
    placeholder when migrating account */
@@ -928,12 +928,12 @@
 /* quicksy country */
 "Philippines" = "Philippines";
 "Photos" = "写真";
-"Pin Chat" = "Pin Chat";
+"Pin Chat" = "会話をピン留め";
 "Play Sounds" = "サウンドを鳴らす";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "まず設定で新しいアカウントを追加してください。すでにアカウントを追加している場合は、設定でアカウントを有効にする必要がある場合があります";
 "Please Allow Audio Access" = "Please Allow Audio Access";
 "Please enter a password below before activating this account." = "このアカウントを有効化する前に、以下にパスワードを入力してください。";
-"Please enter the six-digit pin below" = "Please enter the six-digit pin below";
+"Please enter the six-digit pin below" = "下に6桁のPINを入力してください";
 "Please make sure at least one account has connected before trying to add a contact or channel." = "相手先またはチャネルを追加する前に、少なくとも 1 つのアカウントが接続されていることを確認してください。";
 "Please make sure at least one account has connected before trying to create new group." = "新しいグループを作成する前に、少なくとも 1 つのアカウントが接続されていることを確認してください。";
 "Please make sure you are connected before changing your password." = "パスワードを変更する前に、接続されていることを確認してください。";
@@ -950,13 +950,13 @@
 "Port: %@, Direct TLS: %@, Priority: %@" = "ポート: %1$@, Direct TLS: %2$@, 優先度: %3$@";
 /* quicksy country */
 "Portugal" = "Portugal";
-"Previews" = "Previews";
+"Previews" = "プレビュー";
 "Previous" = "Previous";
 "Privacy" = "プライバシー";
 "Protocol support of your server (XEPs)" = "サーバーが対応しているプロトコル (XEP)";
 /* placeholder when creating account */
 "Provide XMPP-Server" = "XMPP サーバー";
-"Publish version" = "Publish version";
+"Publish version" = "バージョンを公開";
 /* quicksy country */
 "Puerto Rico" = "Puerto Rico";
 "Push Server" = "プッシュサーバー";
@@ -967,13 +967,13 @@
 "QR-Code Scanner" = "QR コードスキャナー";
 /* QR-Code-Scanner */
 "QR-Code video error" = "QR コードビデオエラー";
-"Quicksy is now set up and connected." = "Quicksy is now set up and connected.";
+"Quicksy is now set up and connected." = "これで Quicksy は設定が完了し接続しました。";
 "Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm).";
-"Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:";
+"Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksy は、電話番号を検証するために SMS メッセージを送信します (通信料金がかかる場合があります)。国番号と電話番号を入力してください:";
 /* Chat msg action */
 "Quote" = "引用";
 "Rate Monal" = "Monal を評価";
-"Really remove avatar?" = "Really remove avatar?";
+"Really remove avatar?" = "ほんとうにアバターを削除しますか ?";
 "Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "接続が切断されている場合でも、Apple 経由でプッシュ通知を受信します。信頼性が大幅に向上します。";
 /* directory for downloaded audios */
 "Received Audios" = "受け取った音声";
@@ -1065,12 +1065,12 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "新しいメッセージの通知で再生されるサウンドを選択してください。デフォルトは Xylophone です。";
 "Selected Group Members" = "選択されたグループメンバー";
 "Send" = "送信";
-"Send last interaction time" = "Send last interaction time";
+"Send last interaction time" = "最後の活動時刻を送信";
 "Send Location" = "位置情報を送信";
-"Send message receipts" = "Send message receipts";
-"Send read receipts" = "Send read receipts";
-"Send SMS again" = "Send SMS again";
-"Send typing notifications" = "Send typing notifications";
+"Send message receipts" = "メッセージ受領を送信";
+"Send read receipts" = "既読通知を送信";
+"Send SMS again" = "もう一度 SMS を送信";
+"Send typing notifications" = "タイピング通知を送信";
 "Sending..." = "送信中...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "パスワードを平文で送信 (TLS でのみ暗号化)。あまり安全ではありません";
 /* quicksy country */
@@ -1202,12 +1202,12 @@
 "There was a SASL error on the server." = "サーバーに SASL エラーがありました。";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "この暗号化されたメッセージの復号中にエラーが発生しました (シグナル エラー)。これを解決するには、この人に暗号化されたメッセージを送信してみてください。";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "この暗号化されたメッセージの復号中にエラーが発生しました (シグナル エラー)。これを解決するには、この人に暗号化されたメッセージを送信してみてください。 (%@)";
-"These are important privacy settings you may want to review!" = "These are important privacy settings you may want to review!";
-"These are SRV resource records found for your domain." = "これらはドメインに見つかった SRV リソースレコードです。";
-"These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "These are STUN and TURN services announced by your server (blue entries are used by Monal).";
-"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal).";
+"These are important privacy settings you may want to review!" = "これらは重要なプライバシー設定なので、再確認してください。";
+"These are SRV resource records found for your domain." = "これらは、ドメインに見つかった SRV リソースレコードです。";
+"These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "これらは、サーバーで広告されている STUN と TURN のサービスです(青色の欄は Monal で使用されます).";
+"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "これらは、TLS 層に対する攻撃を検出するためにサーバーが対応しているチャネルバインディングのタイプです (青色の欄は使用されるもの、オレンジ色の欄は Monal では非対応です)。";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "これらはログイン後に Monal がサーバーで検出した現代的な XMPP の機能です。";
-"These are the MUC servers detected by Monal (blue entry used by Monal)." = "These are the MUC servers detected by Monal (blue entry used by Monal).";
+"These are the MUC servers detected by Monal (blue entry used by Monal)." = "これらは、Monal が検出した MUC サーバーです(青色の欄が Monal で使用されます)。";
 "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "これらは、サーバーが対応している SASL2 方式です (青色の欄は使用されるもの、オレンジ色の欄は Monal では非対応です)。";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "これらは、 Monal で対応している TLS バージョンです。サーバーへの接続に使用されるものは緑色になります。";
 "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "これらは暗号化鍵です。各デバイスはログインした場所が異なります。鍵を検証して、その鍵を信頼する必要があります。指紋をダブルタップしてクリップボードにコピーします。";
@@ -1248,7 +1248,7 @@
 "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList, an ongoing MITM attack is highly likely! You should try again once you are in a clean networking environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList, an ongoing MITM attack is highly likely! You should try again once you are in a clean networking environment.";
 "This should never happen, please contact the developers and provide a logfile!" = "このようなことは決して起こらないはずです。開発者に連絡してログファイルを提供してください。";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account.";
-"This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";
+"This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "この仕様は、メソッドとチャネルバインディングのダウングレードに抗して、SASL と SASL2 のハンドシェイクを保護する方法を提供します。";
 "This will clear the whole chat history of this account from this device." = "これにより、このアカウントのチャット履歴すべてがこのデバイスから消去されます。";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "これにより、このアカウントと関連データがサーバーとこのデバイスから削除されます。ただし、データは他のデバイスにまだ保持されている可能性があります。";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "これにより、XMPP サーバーが TURN サーバーを提供していない場合でも通話が可能になります。";
@@ -1376,7 +1376,7 @@
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "アカウントに接続できませんでした。ユーザー名とパスワードを確認し、インターネットに接続していることを確認してください。";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "アカウントに接続できませんでした。ユーザー名とパスワードを確認し、インターネットに接続していることを確認してください。\n\n技術的エラーメッセージ: %@";
 "We will check the number **%@**. Is this okay or do you want to change the number?" = "We will check the number **%@**. Is this okay or do you want to change the number?";
-"Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs.";
+"Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "最も弱いチャネルバインディングのタイプ。盗難された証明書/鍵に対しては安全ではありませんが、誤って発行された証明書は検出されます。";
 "Welcome" = "ようこそ";
 "Welcome to Monal !" = "Welcome to Monal !";
 "Welcome to Quicksy !" = "Welcome to Quicksy !";
@@ -1446,7 +1446,7 @@
 "Your entered XMPP ID is missing the username" = "入力された XMPP ID にユーザー名がありません";
 "Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "サーバーは MAM (XEP-0313) に対応していません。つまり、受信メッセージを頻繁に見逃す可能性があります。これを有効にするには、サーバーを切り替えるか、サーバー管理者に相談する必要があります。";
-"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
+"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "サーバーは PUSH (XEP-0357) に対応していません。つまり、新しい受信メッセージを取得するには、アプリを手動で開く必要があります。これを有効にするには、サーバーを切り替えるか、サーバー管理者に相談する必要があります。";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "サーバーはストリーム管理 (XEP-0198) に対応していません。つまり、送信メッセージが頻繁に失われる可能性があります。これを有効にするには、サーバーを切り替えるか、サーバー管理者に相談する必要があります。";
 "Your status" = "状況";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "XMPP JID は user@domain.tld の形式である必要があります。特殊な場合は、手動セットアップを使用してください。";
