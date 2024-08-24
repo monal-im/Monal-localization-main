@@ -1,12 +1,12 @@
-" (offline)" = " (offline)";
+" (offline)" = " (オフライン)";
 /* server details */
 " running on %@" = " running on %@";
 "%02d:%02d (long press to abort)" = "%02d:%02d (長押しで中断)";
 "%@" = "%@";
 "%@ (%@)" = "%@ (%@)";
-"%@ (affiliation: %@)" = "%@ (affiliation: %@)";
+"%@ (affiliation: %@)" = "%@ (分掌: %@)";
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
-"%@ hours" = "%@ hours";
+"%@ hours" = "%@ 時間";
 "%@ says:" = "%@ 曰く:";
 /* Message autdelete time */
 "1 day" = "1 日";
@@ -48,8 +48,8 @@
 "Abort" = "中断";
 "Aborted recording audio" = "音声の録音を中断しました";
 "About" = "Monalについて";
-"Accept incoming calls from strangers" = "Accept incoming calls from strangers";
-"Accept incoming messages from strangers" = "Accept incoming messages from strangers";
+"Accept incoming calls from strangers" = "見知らぬ人からの着信を受け付ける";
+"Accept incoming messages from strangers" = "見知らぬ人からのメッセージを受け付ける";
 "Access message archives on the server." = "サーバーのメッセージ保管にアクセスします。";
 /* ShareViewController: Account */
 "Account" = "アカウント";
@@ -57,34 +57,34 @@
 "Account (%@)" = "アカウント (%@)";
 "Account (new)" = "アカウント (新規)";
 "Account already configured in Monal!" = "アカウントはすでに Monal に設定されています。";
-"Account already configured!" = "Account already configured!";
+"Account already configured!" = "アカウントは既に設定されています。";
 "Account disabled" = "アカウントは無効になりました";
 "Account Exists" = "アカウントは存在しています";
 "Account Picker" = "Account Picker";
 "Account: %@" = "アカウント: %@";
 "Activity indications" = "Activity indications";
-"Add" = "Add";
+"Add" = "追加";
 "Add %@ to your contacts?" = "%@ を相手先に追加しますか ?";
 "Add Account" = "アカウントを追加";
 "Add Account (advanced)" = "アカウントを追加 (高度な設定)";
-"Add contact" = "Add contact";
+"Add contact" = "相手先を追加";
 "Add contact (contact requests pending)" = "Add contact (contact requests pending)";
-"Add Contact or Channel" = "Add Contact or Channel";
-"Add members to group" = "Add members to group";
+"Add Contact or Channel" = "相手先またはチャンネルを追加";
+"Add members to group" = "グループにメンバーを追加";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "上部の + ボタンを使用して新しい相手先を追加します。友だちが会話できるようになると、ここに表示されます";
 "Add scanned contact" = "Add scanned contact";
 "Add to contacts" = "相手先を追加";
-"Adding %@..." = "Adding %@...";
+"Adding %@..." = "%@ を追加中...";
 "Adding Group/Channel..." = "グループ/チャンネルを追加中…";
-"Adding new member" = "Adding new member";
+"Adding new member" = "新しいメンバーを追加します";
 "Adding..." = "追加中...";
-"Adjust the maximum file size for auto-downloads over cellular network" = "Adjust the maximum file size for auto-downloads over cellular network";
-"Adjust the maximum file size for auto-downloads over WiFi" = "Adjust the maximum file size for auto-downloads over WiFi";
-"Adjust the quality of images uploaded" = "Adjust the quality of images uploaded";
+"Adjust the maximum file size for auto-downloads over cellular network" = "電話回線での自動ダウンロードのファイルサイズ最大値を調整します";
+"Adjust the maximum file size for auto-downloads over WiFi" = "WiFi での自動ダウンロードのファイルサイズ最大値を調整します";
+"Adjust the quality of images uploaded" = "アップロードされる画像の解像度を調整します";
 /* muc affiliation */
 "Admin" = "管理人";
 "Advanced Settings" = "詳細設定";
-"Affiliation: %@%@" = "Affiliation: %@%@";
+"Affiliation: %@%@" = "分掌: %@%@";
 /* quicksy country */
 "Afghanistan" = "Afghanistan";
 /* quicksy country */
@@ -93,10 +93,10 @@
 "Algeria" = "Algeria";
 "All messages are archived by default." = "デフォルトですべてのメッセージは保管されます。";
 "All messages fetched successfully, there are no more left on the server!" = "すべてのメッセージを正常に取得しました。サーバーにはもう残っていません。";
-"Allow contacts in your contact list to query your Monal and iOS versions." = "Allow contacts in your contact list to query your Monal and iOS versions.";
-"Allow contacts not in your contact list to call you." = "Allow contacts not in your contact list to call you.";
-"Allow contacts not in your contact list to contact you." = "Allow contacts not in your contact list to contact you.";
-"Allow MITM-prone PLAIN authentication" = "Allow MITM-prone PLAIN authentication";
+"Allow contacts in your contact list to query your Monal and iOS versions." = "相手先一覧内の相手先に Monal および iOS のバージョンの照会を許可";
+"Allow contacts not in your contact list to call you." = "相手先一覧にない相手先からの通話を許可します。";
+"Allow contacts not in your contact list to contact you." = "相手先一覧にない相手先からの接触を許可します。";
+"Allow MITM-prone PLAIN authentication" = "MITM が起こり得る PLAIN 認証を許可";
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "あなたを相手先として追加することを誰かに許可すると、その人はあなたのプロフィール画像や在席状況を見ることができます。";
 "Already present" = "すでに存在します";
@@ -116,14 +116,14 @@
 /* quicksy country */
 "Antigua and Barbuda" = "Antigua and Barbuda";
 "App" = "アプリ";
-"Appearance" = "Appearance";
+"Appearance" = "外観";
 "Apple Push Service" = "Apple プッシュ通知サービス";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Apple プッシュ通知サービスは常にオンになっている必要があります。オフの場合、デバイスは Apple のサーバーと通信できません。";
 "Apple Push Token" = "Apple プッシュのトークン";
 "Apple Push Token is not available!" = "Apple プッシュのトークンは有効ではありません。";
 "Approve new contact" = "新しい相手先を承認";
 "Archive chat" = "会話を保管";
-"Archive only if the contact is in contact list." = "Archive only if the contact is in contact list.";
+"Archive only if the contact is in contact list." = "相手先が相手先一覧にある場合のみ保管します。";
 "Are you sure to cancel the registration process?" = "Are you sure to cancel the registration process?";
 /* quicksy country */
 "Argentina" = "Argentina";
@@ -214,7 +214,7 @@
 "Call ended: declined" = "通話終了: 拒否されました";
 "Call ended: hung up" = "通話終了: 切断";
 "Call ended: remote busy" = "通話終了: 話し中";
-"Call security help" = "Call security help";
+"Call security help" = "通話のセキュリティの説明";
 "Call Type" = "通話のタイプ";
 "Call was not answered" = "Call was not answered";
 "Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
@@ -246,7 +246,7 @@
 "Chad" = "Chad";
 "Change affiliation" = "Change affiliation";
 "Change Background Image" = "Change Background Image";
-"Change Channel Avatar" = "Change Channel Avatar";
+"Change Channel Avatar" = "チャンネルのアバターを変更";
 "Change Chat Background" = "会話の背景を変更";
 "Change Group Avatar" = "Change Group Avatar";
 "Change Group Members" = "グループメンバーを変更";
@@ -255,9 +255,9 @@
 "Changing affiliation" = "Changing affiliation";
 "Changing affiliation to %@: %@" = "Changing affiliation to %@: %@";
 "Changing Password" = "パスワードの変更";
-"Channel Avatar" = "Channel Avatar";
-"Channel name" = "Channel name";
-"Channel Participants" = "Channel Participants";
+"Channel Avatar" = "チャンネルのアバター";
+"Channel name" = "チャンネル名";
+"Channel Participants" = "チャンネルの参加者";
 "Channel subject:" = "チャンネルの題:";
 "Chat Background" = "会話の背景";
 "Chat background image" = "Chat background image";
@@ -375,9 +375,9 @@
 "Denmark" = "Denmark";
 "Deny new contact" = "新しい相手先を拒否";
 "Destroy Channel" = "Destroy Channel";
-"Destroy Group" = "Destroy Group";
-"Destroying channel..." = "Destroying channel...";
-"Destroying group..." = "Destroying group...";
+"Destroy Group" = "グループを閉鎖";
+"Destroying channel..." = "チャンネルを閉鎖中...";
+"Destroying group..." = "グループを閉鎖中...";
 "Detected a new omemo device on your account: %@" = "アカウントの新しい OMEMO デバイスが検出されました: %@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "デバイス ID: ";
@@ -397,8 +397,8 @@
 "Do you really want to block this contact? You won't receive any messages from this contact." = "本当にこの相手先をブロックしますか ? この相手先からはメッセージが届きません。";
 "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "この会話で交わされたすべてのメッセージを本当に消去しますか ? OMEMO を使用している場合、サーバーから再びロードすることさえできません。";
 "Do you really want to delete this key?" = "本当にこの鍵を削除してもいいですか ?";
-"Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards.";
-"Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards.";
+"Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "本当にこのチャンネルを閉鎖しますか? すべてのメンバーは蹴り出されその後に閉鎖されます。";
+"Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "本当にこのグループを閉鎖しますか? すべてのメンバーは蹴り出されその後に閉鎖されます。";
 "Do you really want to disable encryption for this contact?" = "本当にこの相手先に対して暗号化を無効化してもいいですか ?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "本当に OMEMO セッションをリセットしますか ? 接続をリセットするのは、自分が何をしているのかわかっている場合にのみにしてください。";
 "Do you want to block this user from entering this group/channel?" = "Do you want to block this user from entering this group/channel?";
@@ -466,7 +466,7 @@
 "Error changing avatar!" = "Error changing avatar!";
 "Error creating group!" = "Error creating group!";
 "Error decrypting message" = "メッセージ復号のエラー";
-"Error destroying group!" = "Error destroying group!";
+"Error destroying group!" = "グループ閉鎖中のエラー";
 "Error entering group/channel!" = "グループ/チャンネルに入る際のエラー";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error handling SASL challenge of server (iteration count too low), disconnecting!";
@@ -507,8 +507,8 @@
 "Failed to decrypt filetransfer" = "ファイル転送の復号に失敗しました";
 "Failed to delete own avatar" = "自身のアバターの削除に失敗しました";
 "Failed to delete own nickname" = "自身のニックネームの削除に失敗しました";
-"Failed to destroy group/channel '%@'" = "Failed to destroy group/channel '%@'";
-"Failed to destroy group/channel '%@': timeout" = "Failed to destroy group/channel '%@': timeout";
+"Failed to destroy group/channel '%@'" = "グループ/チャンネル '%@' の閉鎖に失敗しました";
+"Failed to destroy group/channel '%@': timeout" = "グループ/チャンネルの閉鎖に失敗しました '%@': 時間切れ";
 "Failed to download file: %@" = "Failed to download file: %@";
 "Failed to enable carbons for account %@" = "Failed to enable carbons for account %@";
 "Failed to encrypt file" = "ファイルの暗号化に失敗しました";
@@ -1056,7 +1056,7 @@
 /* mac only string */
 "Scroll down to load more messages" = "スクロールダウンして追加のメッセージを読み込む";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "TLS1.3 と一部の TLS1.2 接続に対して定義された安全なチャネルバインディング。";
-"Security" = "Security";
+"Security" = "セキュリティ";
 "Select a background to display behind conversations with %@" = "%@ との会話の背後に表示する背景を選択してください";
 "Select a default background to display behind conversations." = "会話の背後に表示するデフォルトの背景を選択してください。";
 "Select Action" = "所作を選択";
@@ -1139,8 +1139,8 @@
 "Submit A Bug" = "バグを報告";
 "Success" = "成功";
 "Success!" = "成功しました";
-"Successfully destroyed channel." = "Successfully destroyed channel.";
-"Successfully destroyed group." = "Successfully destroyed group.";
+"Successfully destroyed channel." = "チャンネルを正常に閉鎖しました。";
+"Successfully destroyed group." = "グループを正常に閉鎖しました。";
 "Successfully joined group/channel %@!" = "グループ/チャンネル %@ に正常に参加しました。";
 /* quicksy country */
 "Sudan" = "Sudan";
@@ -1217,7 +1217,7 @@
 "This account already exists in Monal." = "このアカウントはすでに Monal に存在しています。";
 "This account already exists on this instance" = "This account already exists on this instance";
 "This account already exists on this instance." = "This account already exists on this instance.";
-"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!";
+"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "このアプリは古すぎるため、セキュリティ上のバグが含まれていたり突然動作を停止したりする可能性があります。更新してください。";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong.";
 "This contact is already in the contact list of the selected account" = "この相手先は、選択したアカウントの相手先一覧にすでに含まれています";
@@ -1340,7 +1340,7 @@
 "Use account" = "Use account";
 "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc.";
 "Use DNSSEC validation for all connections" = "Use DNSSEC validation for all connections";
-"User Interface" = "User Interface";
+"User Interface" = "ユーザーインターフェース";
 /* placeholder when adding account */
 "user@domain.tld" = "user@domain.tld";
 /* BlockUserTable - blockJidForm */
