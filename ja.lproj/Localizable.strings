@@ -664,7 +664,7 @@
 /* quicksy country */
 "Jamaica" = "Jamaica";
 /* quicksy country */
-"Japan" = "Japan";
+"Japan" = "日本";
 "Join Channel" = "チャンネルに参加";
 "Join Group" = "グループに参加";
 /* quicksy country */
@@ -990,31 +990,31 @@
 "Recode Success" = "Recode Success";
 "Reconnecting..." = "再接続中...";
 "Recording audio" = "音声を録音";
-"Red x-mark shield:" = "Red x-mark shield:";
+"Red x-mark shield:" = "赤のバツ印の盾:";
 "Refreshing..." = "Refreshing...";
 "Register a new account" = "新しいアカウントを登録";
 "Register with %@" = "%@ に登録";
 "Registering account..." = "アカウントを登録中...";
 "Registration Error" = "登録エラー";
 "Remove %@ from contacts?" = "相手先一覧から %@ を除去しますか ?";
-"Remove %@?" = "Remove %@?";
+"Remove %@?" = "%@ を削除しますか ?";
 "Remove Account from this Device" = "このデバイスからアカウントを除去";
 "Remove Background Image" = "背景画像を削除";
-"Remove Channel Avatar" = "Remove Channel Avatar";
+"Remove Channel Avatar" = "チャンネルのアバターを削除";
 "Remove Contact" = "相手先を除去";
 "Remove Conversation" = "会話を除去";
 "Remove from contacts" = "相手先一覧から除去";
-"Remove Group Avatar" = "Remove Group Avatar";
-"Removing %@" = "Removing %@";
-"Removing %@..." = "Removing %@...";
-"Removing avatar..." = "Removing avatar...";
-"Rename Channel" = "Rename Channel";
+"Remove Group Avatar" = "グループのアバターを削除";
+"Removing %@" = "%@ を削除中";
+"Removing %@..." = "%@ を削除中...";
+"Removing avatar..." = "アバターを削除中...";
+"Rename Channel" = "チャンネル名を変更";
 /* placeholder text in contact details */
 "Rename Contact" = "相手先の名前を変更";
-"Rename Group" = "Rename Group";
+"Rename Group" = "グループ名を変更";
 "Reply" = "返信";
-"Requesting validation SMS..." = "Requesting validation SMS...";
-"Required" = "Required";
+"Requesting validation SMS..." = "SMS 検証を要求中...";
+"Required" = "必須";
 "Reset OMEMO session" = "OMEMO セッションをリセット";
 "Resource" = "リソース";
 "Resources" = "リソース";
@@ -1024,7 +1024,7 @@
 "Retry" = "再試行";
 "Retry sending message?" = "メッセージの送信を再度試みますか ?";
 "Rich Text" = "リッチテキスト";
-"Ringing..." = "Ringing...";
+"Ringing..." = "呼び出し中...";
 /* quicksy country */
 "Romania" = "Romania";
 /* quicksy country */
@@ -1165,7 +1165,7 @@
 "Take me to settings" = "Take me to settings";
 /* quicksy country */
 "Tanzania" = "Tanzania";
-"Temporarily unavailable. Try again later." = "Temporarily unavailable. Try again later.";
+"Temporarily unavailable. Try again later." = "一時的に利用できません。後でもう一度試してください。";
 "Temporary failure to enter Group/Channel: %@" = "グループ/チャネル %@ への参加に一時的に失敗しました";
 "Terms of %@" = "Terms of %@";
 "Terms of use for %@" = "%@ の利用規約";
@@ -1185,10 +1185,10 @@
 "The jid you want to add should be in in the format user@domain.tld." = "追加する JID は user@domain.tld の形式である必要があります。";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "鍵は現在正しく処理されていない状態です。このプロンプトが表示された場合は開発者に連絡してください。";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "追加した人がリクエストを承認すると、新しい相手先が相手先一覧に追加されます。";
-"The operator of the webserver providing that URL may see your IP address." = "The operator of the webserver providing that URL may see your IP address.";
+"The operator of the webserver providing that URL may see your IP address." = "その URL を提供するウェブサーバーの運用者は、あなたの IP アドレスを知る可能性があります。";
 "The password has been changed" = "パスワードは変更されました";
-"The pin we have sent you has expired." = "The pin we have sent you has expired.";
-"The pin you have entered is incorrect." = "The pin you have entered is incorrect.";
+"The pin we have sent you has expired." = "お送りした PIN の有効期限が切れています。";
+"The pin you have entered is incorrect." = "入力された PIN は正しくありません。";
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "QR コードにはアカウントのログイン認証情報が含まれています。 「設定」->「新しいアカウント」に移動し、QR コードを再スキャンしてください";
 "The resource '%@' has the following capabilities:" = "リソース '%@' には次の機能があります:";
@@ -1241,7 +1241,7 @@
 "This phone number is currently logged in with another device." = "この電話番号は現在別のデバイスでログインしています。";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "このサーバーは HTTP ファイルのアップロード (XEP-0363) に対応していないようです。管理者に有効化を依頼してください。";
 "This server does not have any SRV records in DNS." = "このサーバーは DNS に SRV レコードがありません。";
-"This server does not provide any MUC servers." = "This server does not provide any MUC servers.";
+"This server does not provide any MUC servers." = "このサーバーは MUC サーバーを提供していません。";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "このサーバーは、TLS 層での MITM 攻撃から保護するための最近のチャネルバインディングに対応していません。";
 "This server does not support modern SASL2 authentication." = "このサーバーは現代的な SASL2 認証に対応していません。";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server.";
@@ -1291,8 +1291,8 @@
 "Tuvalu" = "Tuvalu";
 "Type: %@" = "タイプ: %@";
 "Typing..." = "タイプ中...";
-"UDP Logger" = "UDP Logger";
-"UDP Logger Configuration" = "UDP Logger Configuration";
+"UDP Logger" = "UDP ロガー";
+"UDP Logger Configuration" = "UDP ロガーの設定";
 "UDP Logging UI not supported on iOS < 16" = "UDP Logging UI not supported on iOS < 16";
 /* quicksy country */
 "Uganda" = "Uganda";
@@ -1303,7 +1303,7 @@
 "Unblocking user" = "Unblocking user";
 "Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
 "Unclean appex shutown" = "Unclean appex shutown";
-"Understood" = "Understood";
+"Understood" = "了解しました";
 "Unexpected appex expiration" = "Unexpected appex expiration";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
 "Unexpected error processing your request." = "Unexpected error processing your request.";
@@ -1330,14 +1330,14 @@
 "Upload Error" = "アップロードエラー";
 "Upload Error: your account got disconnected while requesting upload slot" = "Upload Error: your account got disconnected while requesting upload slot";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "ファイルをサーバーにアップロードして他の人と共有します。 (サーバーによるファイルの最大許容サイズ: %@)";
-"Upload Original Images" = "Upload Original Images";
+"Upload Original Images" = "元の画像をアップロード";
 "Upload Settings" = "アップロード設定";
 "Uploading" = "アップロード";
-"Uploading avatar..." = "Uploading avatar...";
+"Uploading avatar..." = "アバターをアップロード中...";
 "Uploading file to server" = "ファイルをサーバーへアップロード";
 /* quicksy country */
 "Uruguay" = "Uruguay";
-"Use account" = "Use account";
+"Use account" = "使用アカウント";
 "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "DNS 応答で指定された IP アドレスに接続する前に、DNSSEC を使用してすべての DNS クエリ応答を検証します。\nこれにより安全性は高まりますが、ホテルの Wi-Fi やひどい携帯電話会社など特定のネットワークで接続の問題が発生する可能性があります。";
 "Use DNSSEC validation for all connections" = "すべての接続に DNSSEC 検証を使用";
 "User Interface" = "ユーザーインターフェース";
@@ -1357,7 +1357,7 @@
 "Vatican" = "Vatican";
 /* quicksy country */
 "Venezuela (Bolivarian Republic of)" = "Venezuela (Bolivarian Republic of)";
-"Verify your phone number" = "Verify your phone number";
+"Verify your phone number" = "電話番号を検証";
 "Version" = "バージョン";
 /* server details */
 "version %@%@" = "バージョン %1$@%2$@";
@@ -1378,10 +1378,10 @@
 "We will check the number **%@**. Is this okay or do you want to change the number?" = "We will check the number **%@**. Is this okay or do you want to change the number?";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "最も弱いチャネルバインディングのタイプ。盗難された証明書/鍵に対しては安全ではありませんが、誤って発行された証明書は検出されます。";
 "Welcome" = "ようこそ";
-"Welcome to Monal !" = "Welcome to Monal !";
-"Welcome to Quicksy !" = "Welcome to Quicksy !";
+"Welcome to Monal !" = "Monal へようこそ";
+"Welcome to Quicksy !" = "Quicksy へようこそ";
 "What call do you want to place?" = "どのような通話をしたいですか ?";
-"When disabled, URLs will opened in your default browser (that might not be Safari)." = "When disabled, URLs will opened in your default browser (that might not be Safari).";
+"When disabled, URLs will opened in your default browser (that might not be Safari)." = "無効にすると、URL はデフォルトのブラウザ (Safari ではない可能性があります) で開かれます。";
 "When you start a conversation\nwith someone, they will\nshow up here." = "When you start a conversation\nwith someone, they will\nshow up here.";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "ハードウェア キーボードが接続されている macOS または iOS では入力欄に移動し、それ以外の場合はソフトウェア キーボードが開きます。";
 /* QR-Code-Scanner: account scan wrong menu
@@ -1416,7 +1416,7 @@
 "XMPP stream error %@: %@" = "XMPP stream エラー %1$@: %2$@";
 "XMPP stream error: %@" = "XMPP stream エラー: %@";
 "XMPPServer" = "XMPP サーバー";
-"Yellow checkmark shield:" = "Yellow checkmark shield:";
+"Yellow checkmark shield:" = "黄のチェック印の盾:";
 /* quicksy country */
 "Yemen" = "Yemen";
 "Yes" = "はい";
@@ -1424,7 +1424,7 @@
 "You are set up and connected." = "設定が完了し、接続しました。";
 "You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "'%@' (%@) と通話しようとしていますが、この相手先には別のアカウントを使用してアクセスできます。発呼に用いるアカウントを選択してください。";
-"You are using an out of date version of this app." = "You are using an out of date version of this app.";
+"You are using an out of date version of this app." = "このアプリの古いバージョンを使用しています。";
 "You can customize even more, just use the button below to open the settings." = "You can customize even more, just use the button below to open the settings.";
 "You did not grant Monal to access your location." = "Monal は位置情報へのアクセスを許可されていません。";
 "You got banned from group/channel: %@" = "グループ/チャンネル %@ から締め出されました";
