@@ -97,11 +97,11 @@
 "Allow contacts not in your contact list to call you." = "相手先一覧にない相手先からの通話を許可します。";
 "Allow contacts not in your contact list to contact you." = "相手先一覧にない相手先からの接触を許可します。";
 "Allow MITM-prone PLAIN authentication" = "MITM が起こり得る PLAIN 認証を許可";
-"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
+"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "デバイスが相手への直接ネットワーク接続を確立できるようにします。これにより、IP アドレスが発信者/着信者に漏洩する可能性があります。";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "あなたを相手先として追加することを誰かに許可すると、その人はあなたのプロフィール画像や在席状況を見ることができます。";
 "Already present" = "すでに存在します";
 "Already uploading this content, ignoring" = "この内容はすでにアップロードされています。無視します";
-"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "さらに注意: サーバーから古い履歴を取ってくることはできません。Monal はそれを取得した後すぐに削除します。";
 "Always archive" = "常に保管";
 "Always use direct TLS, not STARTTLS" = "STARTTLS ではなく常に direct TLS を使う";
 /* quicksy country */
@@ -145,7 +145,7 @@
 /* quicksy country */
 "Austria" = "Austria";
 "Auto-Download Media and Files" = "Auto-Download Media and Files";
-"Autodelete all messages older than" = "Autodelete all messages older than";
+"Autodelete all messages older than" = "古いメッセージを自動削除";
 "Autofocus text input on chat open" = "チャットを開くとき入力欄に自動移動";
 "Avatar" = "Avatar";
 /* quicksy country */
@@ -158,7 +158,7 @@
 "Bangladesh" = "Bangladesh";
 /* quicksy country */
 "Barbados" = "Barbados";
-"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "注意: メッセージは受信プッシュ時またはアプリを開いた場合にのみ削除されます。これは特に、時間間隔が短い場合に当てはまります。";
 "Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
 /* quicksy country */
 "Belarus" = "Belarus";
@@ -217,8 +217,8 @@
 "Call security help" = "通話のセキュリティの説明";
 "Call Type" = "通話のタイプ";
 "Call was not answered" = "Call was not answered";
-"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
-"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
+"Calls: Allow P2P sessions" = "通話: P2P セッションを許可";
+"Calls: Allow TURN fallback to Monal-Servers" = "通話: Monal サーバーへの TURN フォールバックを許可";
 /* quicksy country */
 "Cambodia" = "Cambodia";
 "Camera" = "カメラ";
@@ -280,7 +280,7 @@
 "Colombia" = "Colombia";
 /* quicksy country */
 "Comoros" = "Comoros";
-"Configure the background image displayed in open chats." = "会話に表示される背景画像を設定します。";
+"Configure the background image displayed in open chats." = "会話に表示される背景画像を調整します。";
 /* quicksy country */
 "Congo" = "Congo";
 "Connected since: %@" = "%@から接続中";
@@ -880,7 +880,7 @@
 "Older, slower, but still secure TLS version" = "古くて遅いですが、いまだ安全な TLS バージョン";
 /* quicksy country */
 "Oman" = "Oman";
-"On this device" = "On this device";
+"On this device" = "このデバイス";
 "Online" = "オンライン";
 "Only contacts" = "相手先のみ";
 "Open" = "開く";
@@ -1219,7 +1219,7 @@
 "This account already exists on this instance." = "This account already exists on this instance.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "このアプリは古すぎるため、セキュリティ上のバグが含まれていたり突然動作を停止したりする可能性があります。更新してください。";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
-"This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong.";
+"This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "この相手先には暗号化に対応しているデバイスがないようです。そうでないと思われる場合は、後ほどもう一度試してください。";
 "This contact is already in the contact list of the selected account" = "この相手先は、選択したアカウントの相手先一覧にすでに含まれています";
 "This contact is already in your contact list" = "この相手先はすでに一覧の中にあります";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "この相手先は OMEMO 暗号化メッセージに対応していない可能性があります。数秒後にもう一度試してください。";
@@ -1238,7 +1238,7 @@
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "Your or the callee's XMPP server could possibly Man-In-The-Middle you.\nこれは、通話は暗号化されていますが、OMEMO 暗号化を使用して相手を検証できなかったことを意味します。\n自分または着信側の XMPP サーバーは中間者攻撃の可能性があります。";
 "This message failed to send (%@): %@" = "このメッセージは送信に失敗しました (%1$@): %2$@";
 "This message got retracted" = "このメッセージは撤回されました";
-"This phone number is currently logged in with another device." = "This phone number is currently logged in with another device.";
+"This phone number is currently logged in with another device." = "この電話番号は現在別のデバイスでログインしています。";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "このサーバーは HTTP ファイルのアップロード (XEP-0363) に対応していないようです。管理者に有効化を依頼してください。";
 "This server does not have any SRV records in DNS." = "このサーバーは DNS に SRV レコードがありません。";
 "This server does not provide any MUC servers." = "This server does not provide any MUC servers.";
@@ -1251,7 +1251,7 @@
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";
 "This will clear the whole chat history of this account from this device." = "これにより、このアカウントのチャット履歴すべてがこのデバイスから消去されます。";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "これにより、このアカウントと関連データがサーバーとこのデバイスから削除されます。ただし、データは他のデバイスにまだ保持されている可能性があります。";
-"This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
+"This will make calls possible even if your XMPP server does not provide a TURN server." = "これにより、XMPP サーバーが TURN サーバーを提供していない場合でも通話が可能になります。";
 "This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
 "This will remove this account and the associated data from this device." = "これにより、このアカウントと関連データがこのデバイスから除去されます。";
 "Timeout Error" = "時間切れエラー";
