@@ -1,6 +1,6 @@
 " (offline)" = " (オフライン)";
 /* server details */
-" running on %@" = " running on %@";
+" running on %@" = " (%@ 上で実行中)";
 "%02d:%02d (long press to abort)" = "%02d:%02d (長押しで中断)";
 "%@" = "%@";
 "%@ (%@)" = "%@ (%@)";
@@ -48,7 +48,7 @@
 "Abort" = "中断";
 "Aborted recording audio" = "音声の録音を中断しました";
 "About" = "Monalについて";
-"Accept incoming calls from strangers" = "見知らぬ人からの着信を受け付ける";
+"Accept incoming calls from strangers" = "見知らぬ人からの通話を受け付ける";
 "Accept incoming messages from strangers" = "見知らぬ人からのメッセージを受け付ける";
 "Access message archives on the server." = "サーバーのメッセージ保管にアクセスします。";
 /* ShareViewController: Account */
@@ -131,7 +131,7 @@
 "Armenia" = "Armenia";
 /* quicksy country */
 "Aruba" = "Aruba";
-"Attachments" = "Attachments";
+"Attachments" = "添付ファイル";
 "Audio recorder init fail." = "Audio recorder init fail.";
 "Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
 "Audio recorder record fail." = "Audio recorder record fail.";
@@ -146,7 +146,7 @@
 "Austria" = "Austria";
 "Auto-Download Media and Files" = "Auto-Download Media and Files";
 "Autodelete all messages older than" = "Autodelete all messages older than";
-"Autofocus text input on chat open" = "Autofocus text input on chat open";
+"Autofocus text input on chat open" = "チャットを開くとき入力欄に自動移動";
 "Avatar" = "Avatar";
 /* quicksy country */
 "Azerbaijan" = "Azerbaijan";
@@ -245,7 +245,7 @@
 /* quicksy country */
 "Chad" = "Chad";
 "Change affiliation" = "Change affiliation";
-"Change Background Image" = "Change Background Image";
+"Change Background Image" = "背景画像を変更";
 "Change Channel Avatar" = "チャンネルのアバターを変更";
 "Change Chat Background" = "会話の背景を変更";
 "Change Group Avatar" = "Change Group Avatar";
@@ -260,7 +260,7 @@
 "Channel Participants" = "チャンネルの参加者";
 "Channel subject:" = "チャンネルの題:";
 "Chat Background" = "会話の背景";
-"Chat background image" = "Chat background image";
+"Chat background image" = "会話の背景画像";
 "Check this number?" = "Check this number?";
 "Check type and size on " = "Check type and size on ";
 /* quicksy country */
@@ -280,7 +280,7 @@
 "Colombia" = "Colombia";
 /* quicksy country */
 "Comoros" = "Comoros";
-"Configure the background image displayed in open chats." = "Configure the background image displayed in open chats.";
+"Configure the background image displayed in open chats." = "会話に表示される背景画像を設定します。";
 /* quicksy country */
 "Congo" = "Congo";
 "Connected since: %@" = "%@から接続中";
@@ -417,7 +417,7 @@
 "Dont' trust Key" = "鍵を信頼しない";
 "Download" = "ダウンロード";
 "Download error" = "ダウンロードエラー";
-"Download Settings" = "ダウンロードの設定";
+"Download Settings" = "ダウンロード設定";
 "Draft:" = "Draft:";
 "Duplicate Account" = "重複アカウント";
 "Duplicate Account!" = "アカウントが重複しています。";
@@ -438,11 +438,11 @@
 "Email Support" = "電子メールでのサポート";
 "Empty Values!" = "値が空です。";
 "Enable" = "Enable";
-"Enable encryption by default for new chats" = "Enable encryption by default for new chats";
+"Enable encryption by default for new chats" = "新しい会話はデフォルトで暗号化";
 "Enabled" = "有効";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "暗号化されたメッセージは、Monal が復号できない古い形式で送信されました。クライアントを更新するよう依頼してください。 (GCMエラー)";
 "Encrypted session to this device broken beyond repair." = "このデバイスへの暗号化されたセッションは修復不可能なほど壊れています。";
-"Encryption" = "Encryption";
+"Encryption" = "暗号化";
 "Encryption Keys" = "暗号化鍵";
 "Encryption Keys (OMEMO)" = "暗号化鍵 (OMEMO)";
 "Encryption Not Supported" = "暗号化に対応していません";
@@ -494,7 +494,7 @@
 /* quicksy country */
 "Ethiopia" = "Ethiopia";
 "Even more to customize!" = "Even more to customize!";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "新しい相手先はすべて暗号化が有効になりますが、既知の相手先はそれぞれの暗号化設定を保持します。";
 "Failed to block contact %@" = "contact %@ のブロックに失敗しました";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@' での '%1$@' の分掌を '%3$@' に変更できませんでした";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@' での '%1$@' の分掌を '%3$@' に変更できませんでした: 時間切れ";
@@ -621,7 +621,7 @@
 "Iceland" = "Iceland";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Monal が通知を表示できない場合、メッセージが到着してもアラートは表示されません。これは、Monal が最初に許可を求めたときに「拒否」をタップした場合に発生します。この問題を修正するには、iOS の 設定 -> Monal -> 通知 に移動し、「通知を許可」を選択します。";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "これがオフの場合、デバイスが XMPP サーバーのプッシュ通知を有効化できていません。XEP-0357に対応をするよう設定されていることを確認してください。";
-"If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
+"If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "これをオンにすると、中間者攻撃に対して安全ではなくなります。このような攻撃により、攻撃者は送受信メッセージを操作したり、独自の OMEMO キーを追加したり、アカウントの詳細を変更したり、さらにはパスワードを知ったり変更したりすることができます。\n\nこれをオンにするよりも、別のサーバーに切り替えることをお勧めします。";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "音声メッセージを使用したい場合は、[設定] -> [プライバシー] -> [マイク] でアクセスを許可する必要があります。";
 "Image Upload JPEG-Quality: %@" = "Image Upload JPEG-Quality: %@";
 "Import and trust OMEMO fingerprints from QR code" = "QR コードから OMEMO 指紋を取り込み信頼する";
@@ -630,7 +630,7 @@
 "Indicate when a particular device is active or inactive. Saves battery." = "特定のデバイスがいつアクティブであるか非アクティブであるかを示します。バッテリーを節約します。";
 /* quicksy country */
 "Indonesia" = "Indonesia";
-"Input" = "Input";
+"Input" = "入力";
 "Input is not a valid jid" = "正しい JID ではありません";
 "Interactions" = "Interactions";
 "Invalid Credentials!" = "認証情報が正しくありません。";
@@ -795,8 +795,8 @@
 "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monalはこの鍵を信頼していません。手動で無効にされたか、(その相手先の他の鍵は検証されているのにこの鍵は)手動で検証されなかったかのどちらかです。トグルスイッチでこの鍵を信頼とすることができます。その前に、相手先と指紋が一致していることを確認してください。";
 /* Camera permissions missing warning */
 "Monal is not allowed to access the camera" = "Monal はカメラにアクセスする権限がありません";
-"Monal was not able to send your attachment!" = "Monal was not able to send your attachment!";
-"Monal was not able to send your attachment: %@" = "Monal was not able to send your attachment: %@";
+"Monal was not able to send your attachment!" = "Monal は添付ファイルを送信できませんでした。";
+"Monal was not able to send your attachment: %@" = "Monal は添付ファイルを送信できませんでした: %@";
 /* quicksy country */
 "Mongolia" = "Mongolia";
 /* quicksy country */
@@ -895,7 +895,7 @@
 "Open macOS settings" = "Open macOS settings";
 "Open Profile of %@" = "Open Profile of %@";
 "Open Source" = "オープンソース";
-"Open URLs inline in Safari" = "Open URLs inline in Safari";
+"Open URLs inline in Safari" = "Safari で URL をインラインで開く";
 "Optional Hardcoded Hostname" = "任意の直接記述のホスト名";
 "Optional Port" = "オプションのポート";
 "Own device key" = "自身のデバイス鍵";
@@ -979,7 +979,7 @@
 "Received Audios" = "受け取った音声";
 /* directory for downloaded files */
 "Received Files" = "受け取ったファイル";
-"Received geo locations are shared with Apple's Maps App." = "Received geo locations are shared with Apple's Maps App.";
+"Received geo locations are shared with Apple's Maps App." = "受信した位置情報を Apple の地図アプリと共有します。";
 /* directory for downloaded images */
 "Received Images" = "受け取った画像";
 /* directory for downloaded videos */
@@ -999,7 +999,7 @@
 "Remove %@ from contacts?" = "相手先一覧から %@ を除去しますか ?";
 "Remove %@?" = "Remove %@?";
 "Remove Account from this Device" = "このデバイスからアカウントを除去";
-"Remove Background Image" = "Remove Background Image";
+"Remove Background Image" = "背景画像を削除";
 "Remove Channel Avatar" = "Remove Channel Avatar";
 "Remove Contact" = "相手先を除去";
 "Remove Conversation" = "会話を除去";
@@ -1103,9 +1103,9 @@
 /* quicksy country */
 "Seychelles" = "Seychelles";
 "Sharing failed" = "共有に失敗しました";
-"Show inline geo location" = "Show inline geo location";
+"Show inline geo location" = "位置情報をインラインで表示";
 "Show shared Media and Files" = "共有メディアとファイルを表示";
-"Show URL previews" = "Show URL previews";
+"Show URL previews" = "URL のプレビューを表示";
 /* quicksy country */
 "Sierra Leone" = "Sierra Leone";
 /* quicksy country */
@@ -1123,7 +1123,7 @@
 "Some debug settings." = "Some debug settings.";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "いくつかのメッセージが取得または送信を待機しているかもしれません。アプリを開いて再試行してください。";
 "Something went wrong processing your request." = "Something went wrong processing your request.";
-"Something went wrong while parsing your input..." = "Something went wrong while parsing your input...";
+"Something went wrong while parsing your input..." = "入力の解析中に問題が発生しました...";
 "Sounds" = "サウンド";
 "Sounds courtesy Emrah" = "通知音は Emrah さんのご厚意";
 /* quicksy country */
@@ -1249,7 +1249,7 @@
 "This should never happen, please contact the developers and provide a logfile!" = "このようなことは決して起こらないはずです。開発者に連絡してログファイルを提供してください。";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";
-"This will clear the whole chat history of this account from this device." = "これは、このアカウントのチャット履歴すべてをこのデバイスから消去します。";
+"This will clear the whole chat history of this account from this device." = "これにより、このアカウントのチャット履歴すべてがこのデバイスから消去されます。";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "これにより、このアカウントと関連データがサーバーとこのデバイスから削除されます。ただし、データは他のデバイスにまだ保持されている可能性があります。";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
@@ -1338,8 +1338,8 @@
 /* quicksy country */
 "Uruguay" = "Uruguay";
 "Use account" = "Use account";
-"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc.";
-"Use DNSSEC validation for all connections" = "Use DNSSEC validation for all connections";
+"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "DNS 応答で指定された IP アドレスに接続する前に、DNSSEC を使用してすべての DNS クエリ応答を検証します。\nこれにより安全性は高まりますが、ホテルの Wi-Fi やひどい携帯電話会社など特定のネットワークで接続の問題が発生する可能性があります。";
+"Use DNSSEC validation for all connections" = "すべての接続に DNSSEC 検証を使用";
 "User Interface" = "ユーザーインターフェース";
 /* placeholder when adding account */
 "user@domain.tld" = "user@domain.tld";
@@ -1383,7 +1383,7 @@
 "What call do you want to place?" = "どのような通話をしたいですか ?";
 "When disabled, URLs will opened in your default browser (that might not be Safari)." = "When disabled, URLs will opened in your default browser (that might not be Safari).";
 "When you start a conversation\nwith someone, they will\nshow up here." = "When you start a conversation\nwith someone, they will\nshow up here.";
-"Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise.";
+"Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "ハードウェア キーボードが接続されている macOS または iOS では入力欄に移動し、それ以外の場合はソフトウェア キーボードが開きます。";
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
 "Wrong menu" = "Wrong menu";
