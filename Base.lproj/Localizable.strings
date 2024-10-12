@@ -64,7 +64,6 @@
 "Account Picker" = "Account Picker";
 "Account already configured in Monal!" = "Account already configured in Monal!";
 "Account already configured!" = "Account already configured!";
-"Account disabled" = "Account disabled";
 "Account: %@" = "Account: %@";
 "Activity indications" = "Activity indications";
 "Add" = "Add";
@@ -186,7 +185,6 @@
 /* onboarding */
 "Close" = "Close";
 "Configure the background image displayed in open chats." = "Configure the background image displayed in open chats.";
-"Connected since: %@" = "Connected since: %@";
 "Connected: %@" = "Connected: %@";
 "Connecting..." = "Connecting...";
 /* server details */
@@ -839,6 +837,7 @@
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution.";
 "%@ says:" = "%@ says:";
 "Aborted recording audio" = "Aborted recording audio";
+"Account disabled" = "Account disabled";
 /* quicksy country */
 "Afghanistan" = "Afghanistan";
 /* quicksy country */
@@ -1379,7 +1378,7 @@
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)";
 "This account already exists on this instance" = "This account already exists on this instance";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server.";
-"This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList, an ongoing MITM attack is highly likely! You should try again once you are in a clean networking environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList, an ongoing MITM attack is highly likely! You should try again once you are in a clean networking environment.";
+"This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment.";
 /* quicksy country */
 "Timor-Leste" = "Timor-Leste";
 "TLS Error: Bad certificate" = "TLS Error: Bad certificate";
