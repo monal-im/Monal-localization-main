@@ -1243,8 +1243,8 @@
 "This server does not provide any MUC servers." = "Questo server non fornisce alcun server MUC.";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Questo server non supporta il Channel-Binding contro attacchi MITM diretti al layer TLS.";
 "This server does not support modern SASL2 authentication." = "Questo server non supporta l'autenticazione SASL2.";
-"This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "";
-"This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment.";
+"This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "Questo server non è stato ulteriormente indurito contro attacchi man-in-the-middle sullo strato di crittografia TLS utilizzando metodi di autenticazione sicuri contro tali attacchi! Ciò indica che un attacco è in corso solo se il server dovrebbe supportare SASL2 e SCRAM, altrimenti è innocuo. Usa il menu di creazione avanzata dell'account e attiva l'opzione PLAIN se vuoi comunque accedere a questo server.";
+"This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "Questo server non supporta SASL2 e SCRAM, rafforzando ulteriormente l'autenticazione contro attacchi man-in-the-middle sullo strato di crittografia TLS. Poiché questo server è elencato come supporto entrambi i metodi su https://github.com/monal-im/SCRAM_PreloadList (oppure hai lasciato intenzionalmente disattivata l'opzione PLAIN nel menu avanzato di creazione account), è molto probabile che sia in corso un attacco MITM! Riprova una volta che sei in un ambiente di rete sicuro.";
 "This should never happen, please contact the developers and provide a logfile!" = "Ciò non dovrebbe mai accadere, contatta gli sviluppatori fornendo il file del registro!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Questa specifica definisce la semantica per usare il protocollo publish-subscribe di XMPP per propagare eventi di cambio di stato associati a un profilo di messaggistica istantanea e presenza.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Fornisce un metodo per mettere in sicurezza l'handshake di SASL e SASL2 da attacchi mirati al downgrade del Channel-Binding.";
@@ -1255,7 +1255,7 @@
 "This will remove this account and the associated data from this device." = "L'azione rimuoverà questo profilo e i dati associati da questo dispositivo.";
 "Timeout Error" = "Errore di timeout";
 /* quicksy country */
-"Timor-Leste" = "Timor-Leste";
+"Timor-Leste" = "Timor Est";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
 "TLS Error: Bad certificate" = "Errore TLS: certificato errato";
@@ -1271,7 +1271,7 @@
 "Tonga" = "Tonga";
 "Too many attempts, please try again in %@." = "Troppi tentativi, per favore riprova tra %@.";
 /* quicksy country */
-"Trinidad and Tobago" = "Trinidad and Tobago";
+"Trinidad and Tobago" = "Trinidad e Tobago";
 "Trust Key" = "Fidati";
 "Trusted and verified key" = "Chiave fidata e verificata";
 "Trusted but removed key" = "Chiave fidata ma rimossa";
@@ -1281,11 +1281,11 @@
 /* quicksy country */
 "Tunisia" = "Tunisia";
 /* quicksy country */
-"Turkey" = "Turkey";
+"Turkey" = "Turchia";
 /* quicksy country */
 "Turkmenistan" = "Turkmenistan";
 /* quicksy country */
-"Turks and Caicos Islands" = "Turks and Caicos Islands";
+"Turks and Caicos Islands" = "Isole Turks e Caicos";
 /* quicksy country */
 "Tuvalu" = "Tuvalu";
 "Type: %@" = "Tipo: %@";
@@ -1296,7 +1296,7 @@
 /* quicksy country */
 "Uganda" = "Uganda";
 /* quicksy country */
-"Ukraine" = "Ukraine";
+"Ukraine" = "Ucraina";
 "Unable to connect to server!" = "Impossibile connettersi al server!";
 "Unblock Contact" = "Sblocca il contatto";
 "Unblocking user" = "Sblocco dell'utente";
@@ -1312,13 +1312,13 @@
 "Unexpected server response: invalid PEP config form" = "Risposta inaspettata del server: PEP config form invalido";
 "Unexpected server response: missing required fields in PEP config form" = "Errore inaspettato del server: campo richiesto nel PEP config form mancante";
 /* quicksy country */
-"United Arab Emirates" = "United Arab Emirates";
+"United Arab Emirates" = "Emirati Arabi Uniti";
 /* quicksy country */
-"United Kingdom" = "United Kingdom";
+"United Kingdom" = "Regno Unito";
 /* quicksy country */
-"United States" = "United States";
+"United States" = "Stati Uniti";
 /* quicksy country */
-"United States Virgin Islands" = "United States Virgin Islands";
+"United States Virgin Islands" = "Isole Vergini Americane";
 "unknown" = "sconosciuto";
 "Unknown authentication method" = "Metodo di autenticazione sconosciuto";
 "Unknown channel-binding type" = "Tipologia channel-binding sconosciuta";
@@ -1353,9 +1353,9 @@
 /* quicksy country */
 "Vanuatu" = "Vanuatu";
 /* quicksy country */
-"Vatican" = "Vatican";
+"Vatican" = "Vaticano";
 /* quicksy country */
-"Venezuela (Bolivarian Republic of)" = "Venezuela (Bolivarian Republic of)";
+"Venezuela (Bolivarian Republic of)" = "Venezuela (Repubblica Bolivariana del)";
 "Verify your phone number" = "Verifica il tuo numero di telefono";
 "Version" = "Versione";
 /* server details */
@@ -1365,7 +1365,7 @@
 "Viet Nam" = "Viet Nam";
 "Waiting for GPS signal" = "In attesa del segnale GPS";
 /* quicksy country */
-"Wallis and Futuna" = "Wallis and Futuna";
+"Wallis and Futuna" = "Wallis e Futuna";
 "Warning" = "Attenzione";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "Non abbiamo trovato un QR-Code relativo a XMPP";
