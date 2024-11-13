@@ -532,8 +532,8 @@
 "Failed to save groupchat bookmarks" = "Failed to save groupchat bookmarks";
 "Failed to share file" = "Failed to share file";
 "Failed to synchronize phonebook" = "Failed to synchronize phonebook";
-"Failed to upload file: account was removed" = "Failed to upload file: account was removed";
-"Failed to write decrypted download into cache directory" = "Failed to write decrypted download into cache directory";
+"Failed to upload file: account was removed" = "فشل في رفع الملف: الحساب محذوف";
+"Failed to write decrypted download into cache directory" = "فشل كتابة البيانات الغير مشفرة في مجلد التنزيلات المؤقت";
 /* quicksy country */
 "Falkland Islands (Malvinas)" = "Falkland Islands (Malvinas)";
 /* quicksy country */
@@ -590,8 +590,8 @@
 "Group Name (optional)" = "Group Name (optional)";
 "Group subject:" = "Group subject:";
 "Group/Channel description" = "Group/Channel description";
-"Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
-"Group/Channel not available anymore: %@" = "Group/Channel not available anymore: %@";
+"Group/Channel got destroyed: %@" = "المجموعة/القناة قد تم تدميرها: %@";
+"Group/Channel not available anymore: %@" = "المجموعة/القناة غير موجودة بعد الأن: %@";
 "groupJoin Group" = "groupJoin Group";
 /* quicksy country */
 "Guadeloupe" = "Guadeloupe";
@@ -625,10 +625,10 @@
 "Image Upload JPEG-Quality: %@" = "Image Upload JPEG-Quality: %@";
 "Import and trust OMEMO fingerprints from QR code" = "Import and trust OMEMO fingerprints from QR code";
 /* quicksy country */
-"India" = "India";
+"India" = "الهند";
 "Indicate when a particular device is active or inactive. Saves battery." = "Indicate when a particular device is active or inactive. Saves battery.";
 /* quicksy country */
-"Indonesia" = "Indonesia";
+"Indonesia" = "اندونوسيا";
 "Input" = "Input";
 "Input is not a valid jid" = "Input is not a valid jid";
 "Interactions" = "Interactions";
@@ -651,11 +651,11 @@
 /* quicksy country */
 "Iran (Islamic Republic of)" = "Iran (Islamic Republic of)";
 /* quicksy country */
-"Iraq" = "Iraq";
+"Iraq" = "العراق";
 /* quicksy country */
-"Ireland" = "Ireland";
+"Ireland" = "ايرلاندا";
 /* quicksy country */
-"Israel" = "Israel";
+"Israel" = "الصهاينة";
 /* QR-Code-Scanner: Camera not found */
 "It does not seem as your device has a camera. Please use a device with a camera for scanning" = "It does not seem as your device has a camera. Please use a device with a camera for scanning";
 /* quicksy country */
@@ -668,14 +668,14 @@
 "Join Group" = "Join Group";
 /* quicksy country */
 "Jordan" = "Jordan";
-"Just seen" = "Just seen";
+"Just seen" = "منذ لحظة";
 /* quicksy country */
 "Kazakhstan" = "Kazakhstan";
 /* quicksy country */
 "Kenya" = "Kenya";
 "Keys of %@" = "Keys of %@";
-"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
-"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
+"Kicked from group/channel, because of system shutdown: %@" = "%@ طرد: لأن المجموعة/القناة للأعضاء لأن النظام انغلق.";
+"Kicked, because group/channel is now members-only: %@" = "%@ طرد: لأن المجموعة/القناة للأعضاء فقط.";
 /* quicksy country */
 "Kiribati" = "Kiribati";
 /* quicksy country */
@@ -687,12 +687,12 @@
 /* quicksy country */
 "Lao P.D.R." = "Lao P.D.R.";
 "Last seen: %@" = "Last seen: %@";
-"Last seen: %d days ago" = "Last seen: %d days ago";
-"Last seen: %d hours ago" = "Last seen: %d hours ago";
-"Last seen: %d minutes ago" = "Last seen: %d minutes ago";
-"Last seen: 1 day ago" = "Last seen: 1 day ago";
-"Last seen: 1 hour ago" = "Last seen: 1 hour ago";
-"Last seen: 1 minute ago" = "Last seen: 1 minute ago";
+"Last seen: %d days ago" = "اخر ظهور: %d قبل يوم";
+"Last seen: %d hours ago" = "اخر ظهور: %d قبل ساعة";
+"Last seen: %d minutes ago" = "اخر ظهور: %d قبل دقيقة";
+"Last seen: 1 day ago" = "اخر ظهور:قبل يوم";
+"Last seen: 1 hour ago" = "اخر ظهور: قبل 1 ساعة";
+"Last seen: 1 minute ago" = "اخر ظهور: قبل 1 دقيقة";
 /* quicksy country */
 "Latvia" = "Latvia";
 "Leave Channel" = "Leave Channel";
@@ -732,7 +732,7 @@
 "Logfiles" = "Logfiles";
 "Logging in" = "Logging in";
 "Login" = "Login";
-"Login error, account disabled: %@" = "Login error, account disabled: %@";
+"Login error, account disabled: %@" = "خطأ في تسجيل الدخول، الحساب تم تعطيله: %@";
 "Logs" = "Logs";
 /* quicksy country */
 "Luxembourg" = "Luxembourg";
@@ -766,7 +766,7 @@
 /* muc affiliation */
 "Member" = "Member";
 "Message from %@" = "Message from %@";
-"Message was encrypted with '%@' which isn't supported by Monal" = "Message was encrypted with '%@' which isn't supported by Monal";
+"Message was encrypted with '%@' which isn't supported by Monal" = "الرسالة مشفرة بـ '%@' ولكنها غير مدعومة في Monal";
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "الرسالة مشفرة بـOMEMO ولكن لا يمكن فك تشفيرها بعد الأن.";
 "Message was encrypted with OMEMO but could not be decrypted" = "الرسالة مشفرة بـ OMEMO ولكن لا يمكن فك تشفيرها";
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "لم يتم تشفير الرسالة لهذا الجهاز. يرجى التأكد من أن المرسل يثق في جهازك %u.";
