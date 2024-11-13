@@ -9,58 +9,58 @@
 "%@ hours" = "%@ hours";
 "%@ says:" = "%@ says:";
 /* Message autdelete time */
-"1 day" = "1 day";
+"1 day" = "يوم";
 /* Message autdelete time */
-"1 hour" = "1 hour";
+"1 hour" = "ساعة";
 "1 MiB" = "1 MiB";
 /* Message autdelete time */
-"1 minute" = "1 minute";
+"1 minute" = "دقيقة";
 /* Message autdelete time */
-"1 week" = "1 week";
+"1 week" = "اسبوع";
 "100 MiB" = "100 MiB";
 "100%" = "100%";
 /* Message autdelete time */
-"12 hours" = "12 hours";
+"12 hours" = "12 ساعة";
 /* Message autdelete time */
-"15 minutes" = "15 minutes";
+"15 minutes" = "15 دقيقة";
 /* Message autdelete time */
-"2 month" = "2 month";
+"2 month" = "شهران";
 /* Message autdelete time */
-"3 days" = "3 days";
+"3 days" = "ثلاث ايام";
 /* Message autdelete time */
-"3 month" = "3 month";
+"3 month" = "ثلاث اشهر";
 /* Message autdelete time */
-"30 minutes" = "30 minutes";
+"30 minutes" = "30 دقيقة";
 /* Message autdelete time */
-"30 seconds" = "30 seconds";
+"30 seconds" = "30 ثانية";
 "33%" = "33%";
 /* Message autdelete time */
-"4 weeks" = "4 weeks";
+"4 weeks" = "4 اسابيع";
 /* Message autdelete time */
-"5 minutes" = "5 minutes";
+"5 minutes" = "5 دقائق";
 /* server details */
-"<unknown server>" = "<unknown server>";
+"<unknown server>" = "<خادم خير معروف>";
 /* server details */
-"<unknown version>" = "<unknown version>";
+"<unknown version>" = "<اصدار غير معروف>";
 /* muc affiliation */
-"<unknown>" = "<unknown>";
-"A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
-"Abort" = "Abort";
+"<unknown>" = "<غير معروف>";
+"A contact was scanned through the QR code scanner" = "تم مسح جهة الاتصال عبر ماسح رمز QR";
+"Abort" = "عن";
 "Aborted recording audio" = "Aborted recording audio";
 "About" = "عن";
-"Accept incoming calls from strangers" = "Accept incoming calls from strangers";
-"Accept incoming messages from strangers" = "Accept incoming messages from strangers";
-"Access message archives on the server." = "Access message archives on the server.";
+"Accept incoming calls from strangers" = "قبول الاتصالات الواردة من الغرباء";
+"Accept incoming messages from strangers" = "قبول الرسائل الواردة من الغرباء";
+"Access message archives on the server." = "الوصول الى ارشيف الخادم من الرسائل";
 /* ShareViewController: Account */
 "Account" = "الحساب";
-"Account %@" = "Account %@";
-"Account (%@)" = "Account (%@)";
-"Account (new)" = "Account (new)";
-"Account already configured in Monal!" = "Account already configured in Monal!";
-"Account already configured!" = "Account already configured!";
+"Account %@" = "الحساب %@";
+"Account (%@)" = "الحساب (%@)";
+"Account (new)" = "حساب (جديد)";
+"Account already configured in Monal!" = "الحساب بالفعل مضبوط في Monal!";
+"Account already configured!" = "الحساب بالفعل مضبوط!";
 "Account disabled" = "Account disabled";
-"Account Exists" = "Account Exists";
-"Account Picker" = "Account Picker";
+"Account Exists" = "الحساب موجود";
+"Account Picker" = "اختيار الحساب";
 "Account: %@" = "Account: %@";
 "Activity indications" = "Activity indications";
 "Add" = "Add";
@@ -942,7 +942,7 @@
 "Please make sure you have entered the same password in both password fields." = "Please make sure you have entered the same password in both password fields.";
 "Please provide a valid XMPP server domain or select one." = "Please provide a valid XMPP server domain or select one.";
 "Please select a XMPP server or provide one." = "Please select a XMPP server or provide one.";
-"Please update!" = "Please update!";
+"Please update!" = "يرجى التحديث!";
 /* quicksy country */
 "Poland" = "Poland";
 "Port" = "Port";
@@ -1216,7 +1216,7 @@
 "This account already exists in Monal." = "This account already exists in Monal.";
 "This account already exists on this instance" = "This account already exists on this instance";
 "This account already exists on this instance." = "This account already exists on this instance.";
-"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!";
+"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "هذا التطبيق قديم جدا وقد يحتوي على ثغرات أمنية وقد يتوقف عن العمل فجأة. يرجى تحديث التطبيق!";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong.";
 "This contact is already in the contact list of the selected account" = "This contact is already in the contact list of the selected account";
@@ -1245,7 +1245,7 @@
 "This server does not support modern SASL2 authentication." = "This server does not support modern SASL2 authentication.";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server.";
 "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment.";
-"This should never happen, please contact the developers and provide a logfile!" = "This should never happen, please contact the developers and provide a logfile!";
+"This should never happen, please contact the developers and provide a logfile!" = "هذا لا يجب ان يحدث ابدا، يرجى الاتصال بالمطورين وارفاق الخطأ!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";
 "This will clear the whole chat history of this account from this device." = "This will clear the whole chat history of this account from this device.";
@@ -1360,7 +1360,7 @@
 "Version" = "Version";
 /* server details */
 "version %@%@" = "version %1$@%2$@";
-"Very old app version" = "Very old app version";
+"Very old app version" = "اصدار التطبيق قديم جدا";
 /* quicksy country */
 "Viet Nam" = "Viet Nam";
 "Waiting for GPS signal" = "Waiting for GPS signal";
