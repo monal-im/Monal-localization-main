@@ -4,7 +4,7 @@
 "%02d:%02d (long press to abort)" = "%02d:%02d (long press to abort)";
 "%@" = "%@";
 "%@ (%@)" = "%@ (%@)";
-"%@ (affiliation: %@)" = "%@ (affiliation: %@)";
+"%@ (affiliation: %@)" = "%@ (حالة العضو في المجموعة: %@)";
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
 "%@ hours" = "%@ hours";
 "%@ says:" = "%@ says:";
@@ -62,7 +62,7 @@
 "Account Exists" = "الحساب موجود";
 "Account Picker" = "اختيار الحساب";
 "Account: %@" = "حساب: %@";
-"Activity indications" = "Activity indications";
+"Activity indications" = "مؤشرات النشاط";
 "Add" = "اضافة";
 "Add %@ to your contacts?" = "اضف %@ الى جهات الاتصال؟";
 "Add Account" = "اضف حساب";
@@ -95,7 +95,7 @@
 "All messages fetched successfully, there are no more left on the server!" = "كل الرسائل جلبت بنجاح، لا يوجد رسائل متبقية في الخادم.";
 "Allow contacts in your contact list to query your Monal and iOS versions." = "السماح لجهات اتصالك بالاستعلام عن إصدار Monal و iOS.";
 "Allow contacts not in your contact list to call you." = "السماح لجهات التصال المجهولة بالتصال بك.";
-"Allow contacts not in your contact list to contact you." = "Allow contacts not in your contact list to contact you.";
+"Allow contacts not in your contact list to contact you." = "السماح لجهات الاتصال غير الموجودة في قائمة جهات الاتصال بالاتصال بك.";
 "Allow MITM-prone PLAIN authentication" = "Allow MITM-prone PLAIN authentication";
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
@@ -173,11 +173,11 @@
 /* quicksy country */
 "Bhutan" = "Bhutan";
 "Block" = "محظور";
-"Block Contact" = "Block Contact";
+"Block Contact" = "المستخدم المحظور";
 "Block user?" = "Block user?";
 /* muc affiliation */
 "Blocked" = "محظور";
-"Blocked Users" = "Blocked Users";
+"Blocked Users" = "المستخدمون المحظورون";
 "Blocking %@" = "Blocking %@";
 "Blocking is not supported by the server" = "Blocking is not supported by the server";
 "Blocking member" = "Blocking member";
@@ -213,11 +213,11 @@
 "Call ended: couldn't establish encryption" = "Call ended: couldn't establish encryption";
 "Call ended: declined" = "Call ended: declined";
 "Call ended: hung up" = "Call ended: hung up";
-"Call ended: remote busy" = "Call ended: remote busy";
-"Call security help" = "Call security help";
+"Call ended: remote busy" = "انتهت المكالمة: مشغول عن بعد";
+"Call security help" = "اتصل بالمساعدة الأمنية";
 "Call Type" = "Call Type";
 "Call was not answered" = "Call was not answered";
-"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
+"Calls: Allow P2P sessions" = "المكالمات: السماح بجلسات P2P";
 "Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
 /* quicksy country */
 "Cambodia" = "Cambodia";
@@ -247,9 +247,9 @@
 "Change affiliation" = "Change affiliation";
 "Change Background Image" = "Change Background Image";
 "Change Channel Avatar" = "Change Channel Avatar";
-"Change Chat Background" = "Change Chat Background";
+"Change Chat Background" = "غير خلفية المحادثة";
 "Change Group Avatar" = "Change Group Avatar";
-"Change Group Members" = "Change Group Members";
+"Change Group Members" = "غير اعضاء المجموعة";
 "Change it" = "غيره";
 "Change Password" = "تغيير الرقم السري";
 "Changing affiliation" = "Changing affiliation";
@@ -292,7 +292,7 @@
 "Contact is not muted" = "جهة الاتصال غير مصمته";
 "Contact not found" = "لم يتم ايجاد جهة الاتصال";
 /* placeholder when adding jid */
-"Contact or Group/Channel Jid" = "Contact or Group/Channel Jid";
+"Contact or Group/Channel Jid" = "اتصل او مجموعة/قناة Jid";
 "Contact Selection" = "Contact Selection";
 "Contacts" = "جهات الاتصال";
 /* quicksy country */
@@ -394,29 +394,29 @@
 /* quicksy country */
 "Djibouti" = "Djibouti";
 "Do you really want to block this contact? You won't receive any messages from this contact." = "هل ترغب حقا بحظر هذا الشخص؟ لن تتلقى اي رسالة منه.";
-"Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again.";
-"Do you really want to delete this key?" = "Do you really want to delete this key?";
-"Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards.";
-"Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards.";
-"Do you really want to disable encryption for this contact?" = "Do you really want to disable encryption for this contact?";
-"Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!";
-"Do you want to block this user from entering this group/channel?" = "Do you want to block this user from entering this group/channel?";
-"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them.";
-"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group.";
+"Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "هل ترغب حقا بمحو كل الرسائل في هذي المحادثة؟ اذا تستخدم OMEMO لن تتمكن حتى من استرجاع الرسال من خادمك مرة اخرى.";
+"Do you really want to delete this key?" = "هل ترغب حقا بحذب هذا المفتاح؟";
+"Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "هل تريد حقا تدمير هذه القناة؟ كل عضو سيتم طرده ثم تدمير القناة بعد ذلك.";
+"Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "هل تريد حقا تدمير هذه المجموعة؟ كل عضو سيتم طرده وسيتم تدمير المجموعة بعد ذلك.";
+"Do you really want to disable encryption for this contact?" = "هل تريد حقاً أن تزيل التشفير  مع هذا الشخص؟";
+"Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "هل تريد حقاً ضبط جلسة OMEMO من جديد؟ يجب عليك أن تعيد الضبط فقط إذا كنت تعرف ما تفعله!";
+"Do you want to block this user from entering this group/channel?" = "هل تريد منع هذا المستخدم من دخول هذه المجموعة/الغرفة؟";
+"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "هل تريد إزالة ذلك المستخدم من هذه القناة؟ ذلك المستعمل سيكون قادراً على الدخول مرة أخرى إذا لم تحظره.";
+"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "هل تريد أن تزيل ذلك المستخدم من هذه المجموعة؟ ذلك المستعمل لن يكون قادراً على الدخول مجدداً حتى يتم دعوته إلى المجموعة.";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?";
-"Doing a lot of work..." = "Doing a lot of work...";
-"Domain missing" = "Domain missing";
+"Doing a lot of work..." = "القيام بالكثير من العمل...";
+"Domain missing" = "Domain مفقود";
 /* quicksy country */
 "Dominica" = "Dominica";
 /* quicksy country */
 "Dominican Rep." = "Dominican Rep.";
 "Don't show onboarding" = "Don't show onboarding";
-"Don't trust Key" = "Don't trust Key";
+"Don't trust Key" = "لا تثق في المفتاح";
 "Done" = "تم";
-"Dont' trust Key" = "Dont' trust Key";
+"Dont' trust Key" = "لا تثق في المفتاح";
 "Download" = "تحميل";
 "Download error" = "Download error";
-"Download Settings" = "Download Settings";
+"Download Settings" = "تحميل الاعدادات";
 "Draft:" = "مسودة:";
 "Duplicate Account" = "Duplicate Account";
 "Duplicate Account!" = "Duplicate Account!";
@@ -437,13 +437,13 @@
 "Email Support" = "Email Support";
 "Empty Values!" = "Empty Values!";
 "Enable" = "تمكين";
-"Enable encryption by default for new chats" = "Enable encryption by default for new chats";
+"Enable encryption by default for new chats" = "تمكين التشفير افتراضيًا للمحادثات الجديدة";
 "Enabled" = "مفعل";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)";
 "Encrypted session to this device broken beyond repair." = "Encrypted session to this device broken beyond repair.";
 "Encryption" = "التشفير";
-"Encryption Keys" = "Encryption Keys";
-"Encryption Keys (OMEMO)" = "Encryption Keys (OMEMO)";
+"Encryption Keys" = "مفاتيح التشفير";
+"Encryption Keys (OMEMO)" = "مفاتيح التشفير لـ (OMEMO)";
 "Encryption Not Supported" = "Encryption Not Supported";
 "Enter the jid that you want to block" = "Enter the jid that you want to block";
 "Enter your new password. Passwords may not be empty. They may also be governed by server or company policies." = "Enter your new password. Passwords may not be empty. They may also be governed by server or company policies.";
@@ -493,7 +493,7 @@
 /* quicksy country */
 "Ethiopia" = "Ethiopia";
 "Even more to customize!" = "Even more to customize!";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "سيتم تمكين التشفير لكل جهة اتصال جديدة، ولكن جهات الاتصال المعروفة ستحتفظ بإعدادات تشفيرها.";
 "Failed to block contact %@" = "Failed to block contact %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
@@ -562,8 +562,8 @@
 /* quicksy country */
 "Gambia" = "Gambia";
 "General" = "عامة";
-"General File Transfer Settings" = "General File Transfer Settings";
-"General Settings" = "General Settings";
+"General File Transfer Settings" = "الإعدادات العامة لنقل الملفات";
+"General Settings" = "الاعادات العامة";
 /* quicksy country */
 "Georgia" = "Georgia";
 /* quicksy country */
@@ -576,7 +576,7 @@
 "GPS" = "GPS";
 /* quicksy country */
 "Greece" = "Greece";
-"Green checkmark shield:" = "Green checkmark shield:";
+"Green checkmark shield:" = "علامة الدرع الأخضر:";
 /* quicksy country */
 "Greenland" = "Greenland";
 /* quicksy country */
@@ -584,11 +584,11 @@
 "Group Avatar" = "Group Avatar";
 /* placeholder when editing a group description */
 "Group Description (optional)" = "Group Description (optional)";
-"Group Members" = "Group Members";
+"Group Members" = "اعضاء المجموعة";
 "Group name" = "Group name";
 /* placeholder when creating new group */
-"Group Name (optional)" = "Group Name (optional)";
-"Group subject:" = "Group subject:";
+"Group Name (optional)" = "اسم المجموعة (اختياري)";
+"Group subject:" = "عنوان المجموعة:";
 "Group/Channel description" = "Group/Channel description";
 "Group/Channel got destroyed: %@" = "المجموعة/القناة قد تم تدميرها: %@";
 "Group/Channel not available anymore: %@" = "المجموعة/القناة غير موجودة بعد الأن: %@";
@@ -614,8 +614,8 @@
 "Hong Kong, China" = "Hong Kong, China";
 /* quicksy country */
 "Hungary" = "Hungary";
-"I already have an account:" = "I already have an account:";
-"I need an account:" = "I need an account:";
+"I already have an account:" = "انا لدي حساب:";
+"I need an account:" = "أحتاج إلى حساب:";
 /* quicksy country */
 "Iceland" = "Iceland";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'.";
@@ -642,7 +642,7 @@
 "Invalid Username!" = "Invalid Username!";
 "Invitation for %@ created" = "Invitation for %@ created";
 /* muc invite */
-"Invite again" = "Invite again";
+"Invite again" = "ادعو مرة اخرى";
 "Invite participants to channel" = "Invite participants to channel";
 "Inviting new member" = "Inviting new member";
 "Inviting new participant" = "Inviting new participant";
@@ -686,7 +686,7 @@
 "Kyrgyzstan" = "Kyrgyzstan";
 /* quicksy country */
 "Lao P.D.R." = "Lao P.D.R.";
-"Last seen: %@" = "Last seen: %@";
+"Last seen: %@" = "اخر ظهور: %@";
 "Last seen: %d days ago" = "اخر ظهور: %d قبل يوم";
 "Last seen: %d hours ago" = "اخر ظهور: %d قبل ساعة";
 "Last seen: %d minutes ago" = "اخر ظهور: %d قبل دقيقة";
@@ -695,7 +695,7 @@
 "Last seen: 1 minute ago" = "اخر ظهور: قبل 1 دقيقة";
 /* quicksy country */
 "Latvia" = "Latvia";
-"Leave Channel" = "Leave Channel";
+"Leave Channel" = "قادر القناة";
 "Leave Group" = "Leave Group";
 "Leave this conversation" = "Leave this conversation";
 "Leave this converstion?" = "Leave this converstion?";
@@ -703,10 +703,10 @@
 "Lebanon" = "Lebanon";
 /* quicksy country */
 "Lesotho" = "Lesotho";
-"Let your contacts know if you are typing a message." = "Let your contacts know if you are typing a message.";
-"Let your contacts know if you read a message." = "Let your contacts know if you read a message.";
-"Let your contacts know if you received a message." = "Let your contacts know if you received a message.";
-"Let your contacts know when you last opened the app." = "Let your contacts know when you last opened the app.";
+"Let your contacts know if you are typing a message." = "دع جهات اتصالك تعلم إذا كنت تكتب رسالة.";
+"Let your contacts know if you read a message." = "دع جاهت اتصالك يعلمون عندما تقرأ رسائلهم.";
+"Let your contacts know if you received a message." = "دع جهات اتصالك يعلمون عندما تتلقى الرسالة.";
+"Let your contacts know when you last opened the app." = "دع جهات اتصالك تعلم متى فتحت التطبيق آخر مرة.";
 /* quicksy country */
 "Liberia" = "Liberia";
 /* quicksy country */
@@ -729,7 +729,7 @@
 "Loading OMEMO keys" = "Loading OMEMO keys";
 "Location Access Needed" = "Location Access Needed";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings.";
-"Logfiles" = "Logfiles";
+"Logfiles" = "ملف السجلات";
 "Logging in" = "Logging in";
 "Login" = "تسجيل دخول";
 "Login error, account disabled: %@" = "خطأ في تسجيل الدخول، الحساب تم تعطيله: %@";
@@ -771,7 +771,7 @@
 "Message was encrypted with OMEMO but could not be decrypted" = "الرسالة مشفرة بـ OMEMO ولكن لا يمكن فك تشفيرها";
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "لم يتم تشفير الرسالة لهذا الجهاز. يرجى التأكد من أن المرسل يثق في جهازك %u.";
 "Messages are encrypted" = "Messages are encrypted";
-"Messages are NOT encrypted" = "Messages are NOT encrypted";
+"Messages are NOT encrypted" = "الرسائل ليست مشفرة";
 "Messages never archived by default." = "Messages never archived by default.";
 "Method: %@" = "Method: %@";
 /* quicksy country */
@@ -850,7 +850,7 @@
 "No further error description" = "لا يوجد وصف اخر للخطأ";
 "No GPS location received" = "No GPS location received";
 "No OMEMO keys found" = "No OMEMO keys found";
-"No pending constact requests" = "No pending constact requests";
+"No pending constact requests" = "لا توجد طلبات اتصال معلقة";
 "No search result." = "No search result.";
 "No supported auth mechanism found, disabling account!" = "لم يتم العثور على آلية مصادقة مدعومة، مما أدى إلى تعطيل الحساب!";
 "No XMPP server!" = "No XMPP server!";
@@ -868,7 +868,7 @@
 "Notifications" = "الاشعارات";
 "Notifications disabled" = "Notifications disabled";
 "Notify on all messages" = "Notify on all messages";
-"Notify only when mentioned" = "Notify only when mentioned";
+"Notify only when mentioned" = "اشعار فقط عند ذكر اسمك";
 "now" = "الأن";
 /* Message autdelete time */
 "Off" = "مغلق";
@@ -879,7 +879,7 @@
 "Older, slower, but still secure TLS version" = "Older, slower, but still secure TLS version";
 /* quicksy country */
 "Oman" = "Oman";
-"On this device" = "On this device";
+"On this device" = "في هذا الجهاز";
 "Online" = "متصل";
 "Only contacts" = "Only contacts";
 "Open" = "فتح";
@@ -890,11 +890,11 @@
 "Open contact list" = "Open contact list";
 "Open contact list (contact requests pending)" = "Open contact list (contact requests pending)";
 "Open in default browser" = "Open in default browser";
-"Open iOS settings" = "Open iOS settings";
+"Open iOS settings" = "فتح اعدادات iOS";
 "Open macOS settings" = "Open macOS settings";
 "Open Profile of %@" = "Open Profile of %@";
 "Open Source" = "Open Source";
-"Open URLs inline in Safari" = "Open URLs inline in Safari";
+"Open URLs inline in Safari" = "فتح عناوين URL في Safari";
 "Optional Hardcoded Hostname" = "Optional Hardcoded Hostname";
 "Optional Port" = "Optional Port";
 "Own device key" = "Own device key";
@@ -917,7 +917,7 @@
    placeholder when migrating account */
 "Password" = "كلمة السر";
 /* placeholder when creating account */
-"Password (repeated)" = "Password (repeated)";
+"Password (repeated)" = "كلمة المرور (مكرر)";
 "Password cannot be empty" = "Password cannot be empty";
 "Password missing" = "Password missing";
 "Passwords don't match!" = "Passwords don't match!";
@@ -927,7 +927,7 @@
 /* quicksy country */
 "Philippines" = "Philippines";
 "Photos" = "Photos";
-"Pin Chat" = "Pin Chat";
+"Pin Chat" = "تثيت المحادثة";
 "Play Sounds" = "Play Sounds";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Please add a new account under settings first. If you already added your account you may need to enable it under settings";
 "Please Allow Audio Access" = "Please Allow Audio Access";
@@ -955,7 +955,7 @@
 "Protocol support of your server (XEPs)" = "Protocol support of your server (XEPs)";
 /* placeholder when creating account */
 "Provide XMPP-Server" = "Provide XMPP-Server";
-"Publish version" = "Publish version";
+"Publish version" = "اصدار منشور";
 /* quicksy country */
 "Puerto Rico" = "Puerto Rico";
 "Push Server" = "Push Server";
@@ -978,7 +978,7 @@
 "Received Audios" = "الصوتيات المستلمة";
 /* directory for downloaded files */
 "Received Files" = "الملفات المستلمة";
-"Received geo locations are shared with Apple's Maps App." = "Received geo locations are shared with Apple's Maps App.";
+"Received geo locations are shared with Apple's Maps App." = "تتم مشاركة المواقع الجغرافية المستلمة مع تطبيق خرائط Apple.";
 /* directory for downloaded images */
 "Received Images" = "الصور المستلمة";
 /* directory for downloaded videos */
@@ -989,34 +989,34 @@
 "Recode Success" = "Recode Success";
 "Reconnecting..." = "اعادة الاتصال...";
 "Recording audio" = "Recording audio";
-"Red x-mark shield:" = "Red x-mark shield:";
+"Red x-mark shield:" = "علامة الدرع الأحمر::";
 "Refreshing..." = "Refreshing...";
-"Register a new account" = "Register a new account";
-"Register with %@" = "Register with %@";
+"Register a new account" = "تسجيل حساب جديد";
+"Register with %@" = "سجل مع %@";
 "Registering account..." = "Registering account...";
 "Registration Error" = "Registration Error";
 "Remove %@ from contacts?" = "Remove %@ from contacts?";
 "Remove %@?" = "Remove %@?";
-"Remove Account from this Device" = "Remove Account from this Device";
+"Remove Account from this Device" = "حذف الحساب من هذا الجهاز";
 "Remove Background Image" = "Remove Background Image";
 "Remove Channel Avatar" = "Remove Channel Avatar";
 "Remove Contact" = "Remove Contact";
 "Remove Conversation" = "Remove Conversation";
-"Remove from contacts" = "Remove from contacts";
+"Remove from contacts" = "حذف من جهات الاتصال";
 "Remove Group Avatar" = "Remove Group Avatar";
 "Removing %@" = "Removing %@";
 "Removing %@..." = "Removing %@...";
 "Removing avatar..." = "Removing avatar...";
 "Rename Channel" = "Rename Channel";
 /* placeholder text in contact details */
-"Rename Contact" = "Rename Contact";
+"Rename Contact" = "تسمية جهة الاتصال";
 "Rename Group" = "Rename Group";
 "Reply" = "الرد";
 "Requesting validation SMS..." = "Requesting validation SMS...";
 "Required" = "مطلوب";
-"Reset OMEMO session" = "Reset OMEMO session";
-"Resource" = "Resource";
-"Resources" = "Resources";
+"Reset OMEMO session" = "اعادة ضبط جلسة OMEMO";
+"Resource" = "المصدر";
+"Resources" = "المصادر";
 "Resume a stream when disconnected. Results in faster reconnect and saves battery life." = "Resume a stream when disconnected. Results in faster reconnect and saves battery life.";
 /* Chat msg action */
 "Retract" = "Retract";
@@ -1057,19 +1057,19 @@
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections.";
 "Security" = "الأمن";
 "Select a background to display behind conversations with %@" = "Select a background to display behind conversations with %@";
-"Select a default background to display behind conversations." = "Select a default background to display behind conversations.";
+"Select a default background to display behind conversations." = "حدد الخلفية الافتراضية لعرضها خلف المحادثات.";
 "Select Action" = "Select Action";
-"Select background image" = "Select background image";
+"Select background image" = "اختار صورة الخلفية";
 "Select Message Archive Management (MAM) Preferences " = "Select Message Archive Management (MAM) Preferences ";
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Select sounds that are played with new message notifications. Default is Xylophone.";
-"Selected Group Members" = "Selected Group Members";
+"Selected Group Members" = "اختيار اعضاء المجموعة";
 "Send" = "ارسل";
-"Send last interaction time" = "Send last interaction time";
+"Send last interaction time" = "إرسال وقت التفاعل الأخير";
 "Send Location" = "Send Location";
 "Send message receipts" = "Send message receipts";
 "Send read receipts" = "Send read receipts";
 "Send SMS again" = "Send SMS again";
-"Send typing notifications" = "Send typing notifications";
+"Send typing notifications" = "ارسال اشعار الكتابة";
 "Sending..." = "يرسل...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Sends password in cleartext (only encrypted by TLS), not very secure";
 /* quicksy country */
@@ -1102,9 +1102,9 @@
 /* quicksy country */
 "Seychelles" = "Seychelles";
 "Sharing failed" = "Sharing failed";
-"Show inline geo location" = "Show inline geo location";
-"Show shared Media and Files" = "Show shared Media and Files";
-"Show URL previews" = "Show URL previews";
+"Show inline geo location" = "إظهار الموقع الجغرافي";
+"Show shared Media and Files" = "إظهار الوسائط والملفات الماشركة";
+"Show URL previews" = "اضهار معاينة للروابط";
 /* quicksy country */
 "Sierra Leone" = "Sierra Leone";
 /* quicksy country */
@@ -1133,7 +1133,7 @@
 "Sri Lanka" = "Sri Lanka";
 "SRV entry prohibits XMPP connection for domain %@" = "SRV entry prohibits XMPP connection for domain %@";
 "Status" = "الحالة";
-"Status Message" = "Status Message";
+"Status Message" = "حالة الرسالة";
 "Status message:" = "Status message:";
 "Submit A Bug" = "Submit A Bug";
 "Success" = "نجاح";
@@ -1154,7 +1154,7 @@
 "Sweden" = "Sweden";
 /* quicksy country */
 "Switzerland" = "Switzerland";
-"Synchronize your messages on all loggedin devices." = "Synchronize your messages on all loggedin devices.";
+"Synchronize your messages on all loggedin devices." = "مزامنة الرسائل على جميع الأجهزة المسجلة الدخول.";
 /* quicksy country */
 "Syrian Arab Republic" = "Syrian Arab Republic";
 /* quicksy country */
@@ -1184,7 +1184,7 @@
 "The jid you want to add should be in in the format user@domain.tld." = "The jid you want to add should be in in the format user@domain.tld.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "The new contact will be added to your contacts list when the person you've added has approved your request.";
-"The operator of the webserver providing that URL may see your IP address." = "The operator of the webserver providing that URL may see your IP address.";
+"The operator of the webserver providing that URL may see your IP address." = "يمكن لمشغل خادم الويب الذي يوفر عنوان URL هذا رؤية عنوان IP الخاص بك.";
 "The password has been changed" = "The password has been changed";
 "The pin we have sent you has expired." = "The pin we have sent you has expired.";
 "The pin you have entered is incorrect." = "The pin you have entered is incorrect.";
@@ -1227,7 +1227,7 @@
 "This device is not configured to send email." = "This device is not configured to send email.";
 "This invitation will expire on %@" = "This invitation will expire on %@";
 "This is an embedded file that can not be opened externally." = "This is an embedded file that can not be opened externally.";
-"This is the software running on your server." = "This is the software running on your server.";
+"This is the software running on your server." = "هذا هو البرنامج الذي يعمل على خادمك.";
 "This key belongs to this device and cannot be removed or disabled!" = "This key belongs to this device and cannot be removed or disabled!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key.";
@@ -1250,7 +1250,7 @@
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";
 "This will clear the whole chat history of this account from this device." = "This will clear the whole chat history of this account from this device.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though.";
-"This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
+"This will make calls possible even if your XMPP server does not provide a TURN server." = "سيؤدي هذا إلى جعل المكالمات ممكنة حتى لو لم يوفر خادم XMPP الخاص بك خادم TURN.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
 "This will remove this account and the associated data from this device." = "This will remove this account and the associated data from this device.";
 "Timeout Error" = "Timeout Error";
@@ -1330,13 +1330,13 @@
 "Upload Error: your account got disconnected while requesting upload slot" = "Upload Error: your account got disconnected while requesting upload slot";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)";
 "Upload Original Images" = "Upload Original Images";
-"Upload Settings" = "Upload Settings";
+"Upload Settings" = "رفع الاعدادات";
 "Uploading" = "جاري التحميل";
 "Uploading avatar..." = "Uploading avatar...";
 "Uploading file to server" = "Uploading file to server";
 /* quicksy country */
 "Uruguay" = "Uruguay";
-"Use account" = "Use account";
+"Use account" = "استخدم حساب";
 "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc.";
 "Use DNSSEC validation for all connections" = "Use DNSSEC validation for all connections";
 "User Interface" = "User Interface";
@@ -1415,7 +1415,7 @@
 "XMPP stream error %@: %@" = "XMPP stream خطأ %1$@: %2$@";
 "XMPP stream error: %@" = "XMPP stream خطأ: %@";
 "XMPPServer" = "XMPPServer";
-"Yellow checkmark shield:" = "Yellow checkmark shield:";
+"Yellow checkmark shield:" = "علامة الدرع الأصفر::";
 /* quicksy country */
 "Yemen" = "اليمن";
 "Yes" = "نعم";
@@ -1447,7 +1447,7 @@
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!";
-"Your status" = "Your status";
+"Your status" = "حالتك";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup.";
 /* quicksy country */
 "Zambia" = "Zambia";
