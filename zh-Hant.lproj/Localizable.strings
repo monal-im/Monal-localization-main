@@ -1,56 +1,56 @@
-" (offline)" = " (offline)";
+" (offline)" = " (離線)";
 /* server details */
-" running on %@" = " running on %@";
+" running on %@" = " 運行於 %@";
 "%02d:%02d (long press to abort)" = "%02d:%02d (long press to abort)";
 "%@" = "%@";
 "%@ (%@)" = "%@ (%@)";
-"%@ (affiliation: %@)" = "%@ (affiliation: %@)";
+"%@ (affiliation: %@)" = "%@ (從屬關係: %@)";
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
-"%@ hours" = "%@ hours";
+"%@ hours" = "%@ 小時";
 "%@ says:" = "%@ 說：";
 /* Message autdelete time */
-"1 day" = "1 day";
+"1 day" = "1 天";
 /* Message autdelete time */
-"1 hour" = "1 hour";
+"1 hour" = "1 小時";
 "1 MiB" = "1 MiB";
 /* Message autdelete time */
-"1 minute" = "1 minute";
+"1 minute" = "1 分鐘";
 /* Message autdelete time */
-"1 week" = "1 week";
+"1 week" = "1 週";
 "100 MiB" = "100 MiB";
 "100%" = "100%";
 /* Message autdelete time */
-"12 hours" = "12 hours";
+"12 hours" = "12 小時";
 /* Message autdelete time */
-"15 minutes" = "15 minutes";
+"15 minutes" = "15 分鐘";
 /* Message autdelete time */
-"2 month" = "2 month";
+"2 month" = "2 個月";
 /* Message autdelete time */
-"3 days" = "3 days";
+"3 days" = "3 天";
 /* Message autdelete time */
-"3 month" = "3 month";
+"3 month" = "3 個月";
 /* Message autdelete time */
-"30 minutes" = "30 minutes";
+"30 minutes" = "30 分鐘";
 /* Message autdelete time */
-"30 seconds" = "30 seconds";
+"30 seconds" = "30 秒";
 "33%" = "33%";
 /* Message autdelete time */
-"4 weeks" = "4 weeks";
+"4 weeks" = "4 週";
 /* Message autdelete time */
-"5 minutes" = "5 minutes";
+"5 minutes" = "5 分鐘";
 /* server details */
-"<unknown server>" = "<unknown server>";
+"<unknown server>" = "<未知伺服器>";
 /* server details */
-"<unknown version>" = "<unknown version>";
+"<unknown version>" = "<未知版本>";
 /* muc affiliation */
-"<unknown>" = "<unknown>";
-"A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
-"Abort" = "Abort";
+"<unknown>" = "<未知>";
+"A contact was scanned through the QR code scanner" = "通過 QR 碼找到一個連絡人";
+"Abort" = "中止";
 "Aborted recording audio" = "Aborted recording audio";
 "About" = "關於";
-"Accept incoming calls from strangers" = "Accept incoming calls from strangers";
-"Accept incoming messages from strangers" = "Accept incoming messages from strangers";
-"Access message archives on the server." = "存取伺服器上封存的訊息。";
+"Accept incoming calls from strangers" = "接受陌生人的來電";
+"Accept incoming messages from strangers" = "接受來自陌生人的傳入消息";
+"Access message archives on the server." = "訪問伺服器上的消息存檔。";
 /* ShareViewController: Account */
 "Account" = "帳號";
 "Account %@" = "帳號 %@";
@@ -1245,7 +1245,7 @@
 "This server does not support modern SASL2 authentication." = "This server does not support modern SASL2 authentication.";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server.";
 "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment.";
-"This should never happen, please contact the developers and provide a logfile!" = "This should never happen, please contact the developers and provide a logfile!";
+"This should never happen, please contact the developers and provide a logfile!" = "這不應該發生，請聯繫開發人員並提供日誌檔！";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "此規範定義了使用 XMPP 發佈訂閱協定廣播與即時消息和存在帳戶關聯的狀態更改事件的語義。";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";
 "This will clear the whole chat history of this account from this device." = "這將從此設備清除此帳戶的全部聊天記錄。";
@@ -1301,9 +1301,9 @@
 "Unblock Contact" = "Unblock Contact";
 "Unblocking user" = "Unblocking user";
 "Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
-"Unclean appex shutown" = "Unclean appex shutown";
+"Unclean appex shutown" = "未清理的 appex關閉";
 "Understood" = "Understood";
-"Unexpected appex expiration" = "Unexpected appex expiration";
+"Unexpected appex expiration" = "意外的 appex 過期";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
 "Unexpected error processing your request." = "Unexpected error processing your request.";
 "Unexpected error while checking type of jid, please try again" = "Unexpected error while checking type of jid, please try again";
