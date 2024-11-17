@@ -457,7 +457,7 @@
 /* quicksy country */
 "Eritrea" = "Eritrea";
 "Error" = "錯誤";
-"error" = "error";
+"error" = "錯誤";
 "Error adding contact or channel" = "添加聯繫人或頻道時出錯";
 "Error adding new member!" = "添加新成員時出錯！";
 "Error blocking user!" = "封鎖使用者時出錯！";
@@ -487,7 +487,7 @@
 "Error: Account disabled, can not display keys!" = "錯誤：帳戶已禁用，無法顯示密鑰！";
 "Error: No contacts to display keys for!" = "錯誤：沒有可顯示金鑰的聯絡人！";
 "Error: Received OMEMO message is empty" = "Error: Received OMEMO message is empty";
-"errorMessage" = "errorMessage";
+"errorMessage" = "錯誤訊息";
 /* quicksy country */
 "Estonia" = "Estonia";
 /* quicksy country */
@@ -543,7 +543,7 @@
 /* quicksy country */
 "Fiji" = "Fiji";
 "File" = "檔案";
-"filename" = "filename";
+"filename" = "檔案名";
 "Files" = "檔案";
 "Finished fetching messages" = "已完成獲取訊息";
 /* quicksy country */
@@ -592,7 +592,7 @@
 "Group/Channel description" = "群組/頻道描述";
 "Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
 "Group/Channel not available anymore: %@" = "Group/Channel not available anymore: %@";
-"groupJoin Group" = "groupJoin Group";
+"groupJoin Group" = "群組加入群組";
 /* quicksy country */
 "Guadeloupe" = "Guadeloupe";
 /* quicksy country */
@@ -1040,8 +1040,8 @@
 "Saint Pierre and Miquelon" = "Saint Pierre and Miquelon";
 /* quicksy country */
 "Saint Vincent and the Grenadines" = "Saint Vincent and the Grenadines";
-"Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Salted Challenge Response Authentication Mechanism using the given Hash Method";
-"Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding";
+"Salted Challenge Response Authentication Mechanism using the given Hash Method" = "SCRAM使用給定哈希值方案";
+"Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "使用給定的哈希方法的 SCRAM 另外由通道綁定保護";
 /* quicksy country */
 "Samoa" = "Samoa";
 /* quicksy country */
@@ -1054,24 +1054,24 @@
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 /* mac only string */
 "Scroll down to load more messages" = "向下滑以載入更多訊息";
-"Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections.";
-"Security" = "Security";
-"Select a background to display behind conversations with %@" = "Select a background to display behind conversations with %@";
-"Select a default background to display behind conversations." = "Select a default background to display behind conversations.";
+"Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "為TLS1.3和一些TLS1.2連接定義了安全通道綁定。";
+"Security" = "安全";
+"Select a background to display behind conversations with %@" = "選擇要顯示在對話後面的背景，其中包含 %@";
+"Select a default background to display behind conversations." = "選擇要顯示在對話後面的預設背景。";
 "Select Action" = "選擇動作";
-"Select background image" = "Select background image";
+"Select background image" = "選擇背景圖片";
 "Select Message Archive Management (MAM) Preferences " = "選擇訊息存檔管理（MAM）參數 ";
-"Select sounds that are played with new message notifications. Default is Xylophone." = "選擇使用新消息通知播放的音效。預設為Xylophone。";
-"Selected Group Members" = "Selected Group Members";
-"Send" = "Send";
-"Send last interaction time" = "Send last interaction time";
+"Select sounds that are played with new message notifications. Default is Xylophone." = "選擇使用新訊息通知播放的音效。預設為Xylophone。";
+"Selected Group Members" = "選定的群組成員";
+"Send" = "發送";
+"Send last interaction time" = "發送上次交互時間";
 "Send Location" = "傳送位置";
-"Send message receipts" = "Send message receipts";
-"Send read receipts" = "Send read receipts";
-"Send SMS again" = "Send SMS again";
-"Send typing notifications" = "Send typing notifications";
+"Send message receipts" = "發送消息回執";
+"Send read receipts" = "發送已讀回執";
+"Send SMS again" = "再次發送簡訊";
+"Send typing notifications" = "發送鍵入通知";
 "Sending..." = "傳送中...";
-"Sends password in cleartext (only encrypted by TLS), not very secure" = "Sends password in cleartext (only encrypted by TLS), not very secure";
+"Sends password in cleartext (only encrypted by TLS), not very secure" = "以明文形式發送密碼（僅由 TLS 加密），不是很安全";
 /* quicksy country */
 "Senegal" = "Senegal";
 "Sent a File 📁" = "發送一個檔案📁";
@@ -1088,23 +1088,23 @@
 "Sent Videos" = "Sent Videos";
 /* quicksy country */
 "Serbia" = "Serbia";
-"Server" = "Server";
+"Server" = "伺服器";
 "Server does not support account removal" = "Server does not support account removal";
 "Server for domain '%@' not responding!" = "Server for domain '%@' not responding!";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Server implementation error: SASL2 tasks empty, account disabled!";
 "Server returned invalid xml!" = "伺服器返回無效的xml！";
 "Server returned SASL2 error '%@'." = "Server returned SASL2 error '%@'.";
 "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
-"Server: %@" = "Server: %@";
-"Set up account later" = "Set up account later";
+"Server: %@" = "伺服器: %@";
+"Set up account later" = "稍後設置帳戶";
 /* Camera permissions missing warning */
-"Settings" = "Settings";
+"Settings" = "設定";
 /* quicksy country */
 "Seychelles" = "Seychelles";
-"Sharing failed" = "Sharing failed";
-"Show inline geo location" = "Show inline geo location";
-"Show shared Media and Files" = "Show shared Media and Files";
-"Show URL previews" = "Show URL previews";
+"Sharing failed" = "共享失敗";
+"Show inline geo location" = "顯示內聯地理位置";
+"Show shared Media and Files" = "顯示共享的媒體和檔案";
+"Show URL previews" = "顯示 URL 預覽";
 /* quicksy country */
 "Sierra Leone" = "Sierra Leone";
 /* quicksy country */
@@ -1119,12 +1119,12 @@
 "Solomon Islands" = "Solomon Islands";
 /* quicksy country */
 "Somalia" = "Somalia";
-"Some debug settings." = "Some debug settings.";
+"Some debug settings." = "一些調試設定。";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
-"Something went wrong processing your request." = "Something went wrong processing your request.";
-"Something went wrong while parsing your input..." = "Something went wrong while parsing your input...";
+"Something went wrong processing your request." = "處理您的請求時發生錯誤。";
+"Something went wrong while parsing your input..." = "解析您的輸入時發生錯誤...";
 "Sounds" = "音效";
-"Sounds courtesy Emrah" = "Sounds courtesy Emrah";
+"Sounds courtesy Emrah" = "聲音由 Emrah 提供";
 /* quicksy country */
 "South Africa" = "South Africa";
 /* quicksy country */
@@ -1132,20 +1132,20 @@
 /* quicksy country */
 "Sri Lanka" = "Sri Lanka";
 "SRV entry prohibits XMPP connection for domain %@" = "SRV entry prohibits XMPP connection for domain %@";
-"Status" = "Status";
-"Status Message" = "Status Message";
-"Status message:" = "Status message:";
+"Status" = "狀態";
+"Status Message" = "狀態訊息";
+"Status message:" = "狀態訊息：";
 "Submit A Bug" = "提交 Bug";
 "Success" = "成功";
 "Success!" = "成功！";
-"Successfully destroyed channel." = "Successfully destroyed channel.";
-"Successfully destroyed group." = "Successfully destroyed group.";
-"Successfully joined group/channel %@!" = "Successfully joined group/channel %@!";
+"Successfully destroyed channel." = "已成功解散頻道。";
+"Successfully destroyed group." = "已成功解散群組。";
+"Successfully joined group/channel %@!" = "已成功加入群組/頻道 %@！";
 /* quicksy country */
 "Sudan" = "Sudan";
-"Support" = "Support";
+"Support" = "支援";
 /* Crash reporting */
-"Sure, send it!" = "Sure, send it!";
+"Sure, send it!" = "當然，發送它！";
 /* quicksy country */
 "Suriname" = "Suriname";
 /* quicksy country */
@@ -1161,99 +1161,99 @@
 "Taiwan, China" = "Taiwan, China";
 /* quicksy country */
 "Tajikistan" = "Tajikistan";
-"Take me to settings" = "Take me to settings";
+"Take me to settings" = "帶我前往設定";
 /* quicksy country */
 "Tanzania" = "Tanzania";
-"Temporarily unavailable. Try again later." = "Temporarily unavailable. Try again later.";
+"Temporarily unavailable. Try again later." = "暫時不可用。請稍後重試。";
 "Temporary failure to enter Group/Channel: %@" = "Temporary failure to enter Group/Channel: %@";
-"Terms of %@" = "Terms of %@";
-"Terms of use for %@" = "Terms of use for %@";
+"Terms of %@" = "%@條款";
+"Terms of use for %@" = "%@的使用條款";
 /* quicksy country */
 "Thailand" = "Thailand";
 "The account has been deleted" = "該帳戶已被刪除";
-"The account has been removed" = "The account has been removed";
+"The account has been removed" = "帳戶已被刪除";
 "The account has been saved" = "帳戶已保存";
 /* Crash reporting */
-"The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!";
-"The chat history has been cleared" = "聊天記錄已清除";
-"The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later.";
-"The current password is not correct." = "The current password is not correct.";
-"The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling.";
+"The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "該應用程式上次啟動時崩潰。發送崩潰報告？此崩潰報告將包含與隱私相關的數據。我們只會使用它來調試您的崩潰並在之後將其刪除！";
+"The chat history has been cleared" = "該聊天記錄已清空";
+"The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "與伺服器的連接已中斷，無法為此聊天獲取任何舊消息。請稍後重試。";
+"The current password is not correct." = "當前密碼不正確。";
+"The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "以下按鈕允許您使用多種不同的方法強制使應用程式崩潰，以測試崩潰處理。";
 /* quicksy country */
 "The Former Yugoslav Republic of Macedonia" = "The Former Yugoslav Republic of Macedonia";
-"The jid you want to add should be in in the format user@domain.tld." = "The jid you want to add should be in in the format user@domain.tld.";
-"The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt.";
+"The jid you want to add should be in in the format user@domain.tld." = "您要添加的 Jid 格式應為 user@domain.tld。";
+"The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "金鑰處於目前未正確處理的狀態。如果您看到此提示，請聯繫開發人員。";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "當您添加的人允許您的請求後，新聯絡人將被添加到您的聯絡人列表中。";
-"The operator of the webserver providing that URL may see your IP address." = "The operator of the webserver providing that URL may see your IP address.";
+"The operator of the webserver providing that URL may see your IP address." = "提供該 URL 的 Web 伺服器的營運商可能會看到您的 IP 位址。";
 "The password has been changed" = "密碼已更改";
-"The pin we have sent you has expired." = "The pin we have sent you has expired.";
-"The pin you have entered is incorrect." = "The pin you have entered is incorrect.";
+"The pin we have sent you has expired." = "我們發送給您的PIN碼已過期。";
+"The pin you have entered is incorrect." = "您輸入的 PIN 碼不正確。";
 /* QR-Code-Scanner: account scan wrong menu */
-"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode";
-"The resource '%@' has the following capabilities:" = "The resource '%@' has the following capabilities:";
-"The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only.";
-"The server does not support blocking (XEP-0191)." = "The server does not support blocking (XEP-0191).";
-"The UDP logger allows you to livestream the log to the configured IP." = "The UDP logger allows you to livestream the log to the configured IP.";
-"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
+"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "QR碼包含賬戶的登錄憑證。轉到設定 - >新帳戶並重新掃描 QR碼";
+"The resource '%@' has the following capabilities:" = "資源 “%@”具有以下功能：";
+"The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "可選擇的 XMPP 伺服器是不隸屬於 Monal 的公共服務器。此註冊頁面僅為方便起見而提供。";
+"The server does not support blocking (XEP-0191)." = "伺服器不支援封鎖 （XEP-0191）。";
+"The UDP logger allows you to livestream the log to the configured IP." = "UDP 記錄器允許您將紀錄即時流式傳輸到配置的IP。";
+"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP 記錄器允許您將紀錄即時流式傳輸到配置的IP。通過 Internet 流式傳輸時，請使用安全金鑰！\n[瞭解如何接收日誌流]（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log）。";
 "The user %@ (%@) wants to add you to their contact list" = "The user %1$@ (%2$@) wants to add you to their contact list";
 "The username does not need to have an @ symbol. Please try again." = "使用者名稱不需要有 @ 符號。請重試。";
 "There is no configured email account. Please email info@monal-im.org ." = "無設定的電子郵件帳戶。請傳送電子郵件至info@monal-im.org。";
 "There was a SASL error on the server." = "伺服器上出現 SASL 錯誤。";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "解密此加密郵件時出現錯誤（信號錯誤）。若要解決此問題，請嘗試向此人發送加密郵件。";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)";
-"These are important privacy settings you may want to review!" = "These are important privacy settings you may want to review!";
-"These are SRV resource records found for your domain." = "These are SRV resource records found for your domain.";
-"These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "These are STUN and TURN services announced by your server (blue entries are used by Monal).";
-"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal).";
+"These are important privacy settings you may want to review!" = "這些是您可能需要查看的重要隱私設置！";
+"These are SRV resource records found for your domain." = "這些是為您的域找到的SRV資源記錄。";
+"These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "這些是您的伺服器宣佈的 STUN 和 TURN 服務（Monal 使用藍色條目）。";
+"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "這些是你的伺服器支援的通道綁定類型，用於檢測 TLS 層上的攻擊（使用藍色的一個，一個是 Monal 不支援的橙色）。";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "這些是在你登錄後Monal在你的服務器上檢測到的最新XMPP功能。";
-"These are the MUC servers detected by Monal (blue entry used by Monal)." = "These are the MUC servers detected by Monal (blue entry used by Monal).";
-"These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal).";
-"These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "These are the TLS versions supported by Monal, the one used to connect to your server will be green.";
-"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard.";
+"These are the MUC servers detected by Monal (blue entry used by Monal)." = "這些是 Monal 檢測到的 MUC 伺服器（Monal 使用的藍色條目）。";
+"These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "這些是你的伺服器支援的SASL2方法（使用藍色、橙色的 Monal 不支援的方法）。";
+"These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "這些是 Monal 支援的 TLS 版本，用於連接到您的伺服器的版本將是綠色的。";
+"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "這些是您的加密金鑰。每台設備都是您登錄的不同位置。驗證金鑰后，您應該信任金鑰。按兩下指紋以複製到剪貼簿。";
 "They will no longer see when you are online. They may not be able to access your encryption keys." = "當你在線時他們將不再看的到。他們可能無法存取您的加密金鑰。";
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "當你在線時他們將不再看的到。他們可能無法向您傳送加密訊息。";
 "They will see when you are online. They will be able to send you encrypted messages." = "當你在線時他們可以看的到。他們可以向您傳送加密訊息。";
 "This account already exists in Monal." = "這個帳號在Monal已經存在。";
 "This account already exists on this instance" = "此帳戶已存在於此實例中";
-"This account already exists on this instance." = "This account already exists on this instance.";
+"This account already exists on this instance." = "此實例上已存在此帳戶。";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "這個應用程式太舊了，可能包含安全錯誤以及突然停止運行。請升級！";
-"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
-"This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong.";
-"This contact is already in the contact list of the selected account" = "This contact is already in the contact list of the selected account";
-"This contact is already in your contact list" = "This contact is already in your contact list";
-"This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "This contact may not support OMEMO encrypted messages. Please try again in a few seconds.";
-"This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong.";
+"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "這可用於匯出日誌檔。\n[瞭解如何閱讀它們]（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log）。";
+"This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "此聯絡人似乎沒有任何支援加密的設備，如果您認為這是錯誤的，請稍後重試。";
+"This contact is already in the contact list of the selected account" = "此聯絡人已在所選客戶的聯絡人清單中";
+"This contact is already in your contact list" = "此聯絡人已在您的聯絡人清單中";
+"This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "此聯絡人可能不支援 OMEMO 加密郵件。請稍後重試。";
+"This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "此聯絡人可能不支援 OMEMO 加密郵件。如果您認為這是錯誤的，請在幾秒鐘內嘗試再次啟用加密。";
 /* Crash report error dialog */
-"This device is not configured to send email." = "This device is not configured to send email.";
-"This invitation will expire on %@" = "This invitation will expire on %@";
-"This is an embedded file that can not be opened externally." = "This is an embedded file that can not be opened externally.";
-"This is the software running on your server." = "This is the software running on your server.";
-"This key belongs to this device and cannot be removed or disabled!" = "This key belongs to this device and cannot be removed or disabled!";
-"This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element.";
-"This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key.";
-"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key";
-"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you.";
-"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place.";
-"This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you.";
-"This message failed to send (%@): %@" = "此訊息未能送出 （%1$@）：%2$@";
-"This message got retracted" = "This message got retracted";
-"This phone number is currently logged in with another device." = "This phone number is currently logged in with another device.";
+"This device is not configured to send email." = "此裝置未配置為發送電子郵件。";
+"This invitation will expire on %@" = "此邀請將於%@過期";
+"This is an embedded file that can not be opened externally." = "這是一個嵌入檔案，無法從外部打開。";
+"This is the software running on your server." = "這是在您的伺服器上運行的軟體。";
+"This key belongs to this device and cannot be removed or disabled!" = "此金鑰屬於此裝置，無法刪除或禁用！";
+"This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "此金鑰受信任，並通過手動比較指紋進行驗證。要停止信任此金鑰，請使用 toggle 元素。";
+"This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "此金鑰是受信任的，但聯絡人不再使用它。考慮禁用此金鑰的信任。";
+"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "此金鑰是受信任的，但聯絡人長時間未使用它。考慮禁用此金鑰的信任";
+"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "這意味著您的呼叫已加密，並且遠端方已使用 OMEMO 加密進行驗證。\n但是，由於您沒有手動驗證被叫方的 OMEMO 指紋，您或被叫方的 XMPP 伺服器可能已經將自己的 OMEMO 金鑰插入到中間人 U 中。";
+"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "這意味著您的呼叫已加密，並且遠端方已使用 OMEMO 加密進行驗證。\n您手動驗證了使用的 OMEMO 金鑰，並且不會遭受中間人攻擊。";
+"This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "這意味著您的呼叫已加密，但無法使用 OMEMO 加密驗證遠端方。\n您或被叫方的 XMPP 伺服器可能是中間人攻擊方。";
+"This message failed to send (%@): %@" = "此訊息未能送出 （%@）：%@";
+"This message got retracted" = "該消息已被撤回";
+"This phone number is currently logged in with another device." = "此電話號碼當前已使用另一台裝置登錄。";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "此伺服器似乎不支援 HTTP 檔上載 （XEP-0363）。請要求管理員啟用它。";
-"This server does not have any SRV records in DNS." = "This server does not have any SRV records in DNS.";
-"This server does not provide any MUC servers." = "This server does not provide any MUC servers.";
-"This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer.";
-"This server does not support modern SASL2 authentication." = "This server does not support modern SASL2 authentication.";
+"This server does not have any SRV records in DNS." = "此伺服器在 DNS 中沒有任何 SRV 記錄。";
+"This server does not provide any MUC servers." = "此伺服器不提供任何 MUC 伺服器。";
+"This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "此伺服器不支援任何現代通道綁定，以防止 TLS 層上的 MITM 攻擊。";
+"This server does not support modern SASL2 authentication." = "此伺服器不支援現代SASL2身份驗證。";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server.";
 "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment.";
 "This should never happen, please contact the developers and provide a logfile!" = "這不應該發生，請聯繫開發人員並提供日誌檔！";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "此規範定義了使用 XMPP 發佈訂閱協定廣播與即時訊息和存在帳戶關聯的狀態更改事件的語義。";
-"This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";
+"This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "此規範提供了一種保護 SASL 和 SASL2 握手以防止方法和通道綁定降級的方法。";
 "This will clear the whole chat history of this account from this device." = "這將從此裝置清除此帳戶的全部聊天記錄。";
-"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though.";
-"This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
-"This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
+"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "這將從伺服器和此設備中刪除此帳戶和關聯數據。不過，數據可能仍會保留在其他裝置上。";
+"This will make calls possible even if your XMPP server does not provide a TURN server." = "即使您的 XMPP 伺服器不提供 TURN 伺服器，這也將使調用成為可能。";
+"This will remove the current avatar image and revert this group/channel to the default one." = "這將刪除當前頭像大頭貼，並將此群組/頻道恢復為預設群組/頻道。";
 "This will remove this account and the associated data from this device." = "這將從此裝置中刪除此帳號和相關資料。";
-"Timeout Error" = "Timeout Error";
+"Timeout Error" = "超時錯誤";
 /* quicksy country */
 "Timor-Leste" = "Timor-Leste";
 "TLS 1.2" = "TLS 1.2";
@@ -1269,15 +1269,15 @@
 "Tokelau" = "Tokelau";
 /* quicksy country */
 "Tonga" = "Tonga";
-"Too many attempts, please try again in %@." = "Too many attempts, please try again in %@.";
+"Too many attempts, please try again in %@." = "嘗試次數過多，請在 %@ 重試。";
 /* quicksy country */
 "Trinidad and Tobago" = "Trinidad and Tobago";
-"Trust Key" = "Trust Key";
-"Trusted and verified key" = "Trusted and verified key";
-"Trusted but removed key" = "Trusted but removed key";
-"Trusted but unused key" = "Trusted but unused key";
-"Trusted but unverified key" = "Trusted but unverified key";
-"Try nevertheless" = "Try nevertheless";
+"Trust Key" = "信任金鑰";
+"Trusted and verified key" = "已信任和已驗證的金鑰";
+"Trusted but removed key" = "受信任但已刪除的金鑰";
+"Trusted but unused key" = "受信任但未使用的金鑰";
+"Trusted but unverified key" = "受信任但未經驗證的金鑰";
+"Try nevertheless" = "儘管如此，請嘗試";
 /* quicksy country */
 "Tunisia" = "Tunisia";
 /* quicksy country */
@@ -1288,24 +1288,24 @@
 "Turks and Caicos Islands" = "Turks and Caicos Islands";
 /* quicksy country */
 "Tuvalu" = "Tuvalu";
-"Type: %@" = "Type: %@";
+"Type: %@" = "類型：%@";
 "Typing..." = "打字中...";
-"UDP Logger" = "UDP Logger";
-"UDP Logger Configuration" = "UDP Logger Configuration";
-"UDP Logging UI not supported on iOS < 16" = "UDP Logging UI not supported on iOS < 16";
+"UDP Logger" = "UDP 記錄器";
+"UDP Logger Configuration" = "UDP 記錄器配置";
+"UDP Logging UI not supported on iOS < 16" = "UDP 紀錄記錄 UI 在系統版本低於iOS 16裝置上不受支援";
 /* quicksy country */
 "Uganda" = "Uganda";
 /* quicksy country */
 "Ukraine" = "Ukraine";
 "Unable to connect to server!" = "無法連線到伺服器！";
-"Unblock Contact" = "Unblock Contact";
-"Unblocking user" = "Unblocking user";
-"Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
+"Unblock Contact" = "取消封鎖連絡人";
+"Unblocking user" = "解除封鎖使用者";
+"Unblocking user for this group/channel: %@" = "取消封鎖此群組/頻道的使用者：%@";
 "Unclean appex shutown" = "未清理的 appex關閉";
-"Understood" = "Understood";
+"Understood" = "瞭解";
 "Unexpected appex expiration" = "意外的 appex 過期";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
-"Unexpected error processing your request." = "Unexpected error processing your request.";
+"Unexpected error processing your request." = "處理您的請求時出現意外錯誤。";
 "Unexpected error while checking type of jid, please try again" = "Unexpected error while checking type of jid, please try again";
 "Unexpected error while checking type of jid:" = "Unexpected error while checking type of jid:";
 "Unexpected mam preferences result" = "無預期的 mam 偏好結果";
@@ -1319,35 +1319,35 @@
 "United States" = "United States";
 /* quicksy country */
 "United States Virgin Islands" = "United States Virgin Islands";
-"unknown" = "unknown";
-"Unknown authentication method" = "Unknown authentication method";
-"Unknown channel-binding type" = "Unknown channel-binding type";
-"Unknown error!" = "Unknown error!";
+"unknown" = "未知";
+"Unknown authentication method" = "未知的身份驗證方法";
+"Unknown channel-binding type" = "未知的通道綁定類型";
+"Unknown error!" = "未知錯誤！";
 "Unread Messages Below" = "以下為未讀訊息";
-"unsupported" = "unsupported";
-"Untrusted key" = "Untrusted key";
+"unsupported" = "不支援";
+"Untrusted key" = "不受信任的金鑰";
 "Upload Error" = "Upload Error";
 "Upload Error: your account got disconnected while requesting upload slot" = "Upload Error: your account got disconnected while requesting upload slot";
-"Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)";
-"Upload Original Images" = "Upload Original Images";
-"Upload Settings" = "Upload Settings";
+"Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "將檔上傳到伺服器以與他人共用。（伺服器報告的最大允許檔案大小：%@）";
+"Upload Original Images" = "上傳原始圖像";
+"Upload Settings" = "上傳設定";
 "Uploading" = "正在上傳";
-"Uploading avatar..." = "Uploading avatar...";
+"Uploading avatar..." = "正在上傳大頭貼...";
 "Uploading file to server" = "將檔案上傳到伺服器中";
 /* quicksy country */
 "Uruguay" = "Uruguay";
-"Use account" = "Use account";
-"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc.";
-"Use DNSSEC validation for all connections" = "Use DNSSEC validation for all connections";
-"User Interface" = "User Interface";
+"Use account" = "使用帳戶";
+"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "在連接到 DNS 回應中指定的 IP 位址之前，使用 DNSSEC 驗證所有 DNS 查詢回應。\n雖然更安全，但這可能會導致某些網路出現連接問題，例如酒店 Wi-Fi、醜陋的移動運營商等。";
+"Use DNSSEC validation for all connections" = "對所有連接使用 DNSSEC 驗證";
+"User Interface" = "用戶介面";
 /* placeholder when adding account */
 "user@domain.tld" = "user@domain.tld";
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "user@example.org/resource";
 /* placeholder when creating account */
-"Username" = "Username";
+"Username" = "使用者名稱";
 "Username missing" = "缺少使用者名稱";
-"Uses TLS client certificates for authentication" = "Uses TLS client certificates for authentication";
+"Uses TLS client certificates for authentication" = "使用 TLS 用戶端證書進行身份驗證";
 /* quicksy country */
 "Uzbekistan" = "Uzbekistan";
 /* quicksy country */
@@ -1356,8 +1356,8 @@
 "Vatican" = "Vatican";
 /* quicksy country */
 "Venezuela (Bolivarian Republic of)" = "Venezuela (Bolivarian Republic of)";
-"Verify your phone number" = "Verify your phone number";
-"Version" = "Version";
+"Verify your phone number" = "驗證您的電話號碼";
+"Version" = "版本";
 /* server details */
 "version %@%@" = "version %1$@%2$@";
 "Very old app version" = "非常舊的應用程式版本";
@@ -1366,89 +1366,89 @@
 "Waiting for GPS signal" = "等待GPS訊號";
 /* quicksy country */
 "Wallis and Futuna" = "Wallis and Futuna";
-"Warning" = "Warning";
+"Warning" = "警告";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "我們找不到與xmpp相關的QR碼";
 "We don't support any task requested by the server, account disabled: %@" = "We don't support any task requested by the server, account disabled: %@";
 "We don't support the single task requested by the server, account disabled: %@" = "We don't support the single task requested by the server, account disabled: %@";
-"We sent you an SMS to %@" = "We sent you an SMS to %@";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@";
-"We will check the number **%@**. Is this okay or do you want to change the number?" = "We will check the number **%@**. Is this okay or do you want to change the number?";
-"Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs.";
-"Welcome" = "Welcome";
-"Welcome to Monal !" = "Welcome to Monal !";
-"Welcome to Quicksy !" = "Welcome to Quicksy !";
-"What call do you want to place?" = "What call do you want to place?";
-"When disabled, URLs will opened in your default browser (that might not be Safari)." = "When disabled, URLs will opened in your default browser (that might not be Safari).";
-"When you start a conversation\nwith someone, they will\nshow up here." = "When you start a conversation\nwith someone, they will\nshow up here.";
-"Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise.";
+"We sent you an SMS to %@" = "我們向您的%@發送了一條簡訊";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "我們無法關聯您的帳戶。請檢查您的使用者名和密碼，並確保您已連接到互聯網。";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "我們無法關聯您的帳戶。請檢查您的使用者名和密碼，並確保您已連接到互聯網。\n\n技術錯誤消息：%@";
+"We will check the number **%@**. Is this okay or do you want to change the number?" = "我們將檢查數位 **%@**。這沒問題還是您想更改號碼？";
+"Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "最弱的通道綁定類型，不防止被盜的證書/金鑰，但檢測錯誤頒發的證書。";
+"Welcome" = "歡迎使用";
+"Welcome to Monal !" = "歡迎來到 Monal ！";
+"Welcome to Quicksy !" = "歡迎來到 Quicksy ！";
+"What call do you want to place?" = "您要撥打什麼電話？";
+"When disabled, URLs will opened in your default browser (that might not be Safari)." = "禁用后，URL 將在預設瀏覽器（可能不是 Safari）中打開。";
+"When you start a conversation\nwith someone, they will\nshow up here." = "當您開始對話時\n與某人在一起，他們會\n出現在這裡。";
+"Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "將文本欄位聚焦在連接了硬體鍵盤的macOS或iOS上，否則將打開軟體鍵盤。";
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
-"Wrong menu" = "Wrong menu";
-"XEP-0163 Personal Eventing Protocol" = "XEP-0163 Personal Eventing Protocol";
-"XEP-0191: Blocking Command" = "XEP-0191: Blocking Command";
-"XEP-0198: Stream Management" = "XEP-0198: Stream Management";
-"XEP-0199: XMPP Ping" = "XEP-0199: XMPP Ping";
-"XEP-0215: External Service Discovery" = "XEP-0215: External Service Discovery";
-"XEP-0237: Roster Versioning" = "XEP-0237: Roster Versioning";
-"XEP-0280: Message Carbons" = "XEP-0280: Message Carbons";
-"XEP-0313: Message Archive Management" = "XEP-0313: Message Archive Management";
-"XEP-0352: Client State Indication" = "XEP-0352: Client State Indication";
-"XEP-0357: Push Notifications" = "XEP-0357: Push Notifications";
-"XEP-0363: HTTP File Upload" = "XEP-0363: HTTP File Upload";
-"XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379: Pre-Authenticated Roster Subscription";
-"XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: SASL SCRAM Downgrade Protection";
+"Wrong menu" = "錯誤的菜單";
+"XEP-0163 Personal Eventing Protocol" = "XEP-0163 個人事件協定";
+"XEP-0191: Blocking Command" = "XEP-0191：封鎖命令";
+"XEP-0198: Stream Management" = "XEP-0198：串流管理";
+"XEP-0199: XMPP Ping" = "XEP-0199: XMPP延遲檢測";
+"XEP-0215: External Service Discovery" = "XEP-0215：外部服務發現";
+"XEP-0237: Roster Versioning" = "XEP-0237：名單版本控制";
+"XEP-0280: Message Carbons" = "XEP-0280：訊息複寫本";
+"XEP-0313: Message Archive Management" = "XEP-0313：消息存檔管理";
+"XEP-0352: Client State Indication" = "XEP-0352：客戶端狀態指示";
+"XEP-0357: Push Notifications" = "XEP-0357：推送通知";
+"XEP-0363: HTTP File Upload" = "XEP-0363：HTTP 檔上載";
+"XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379：預先驗證的名單訂閱";
+"XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474：SASL SCRAM 降級保護";
 "XMPP Account Info Error" = "XMPP 帳號資訊錯誤";
 "XMPP Bind Error" = "XMPP 綁定錯誤";
-"XMPP Capabilities" = "XMPP Capabilities";
+"XMPP Capabilities" = "XMPP 功能";
 "XMPP Disco Info Error" = "XMPP 搜尋資訊錯誤";
 "XMPP External Service Disco Error" = "XMPP External Service Disco Error";
 "XMPP ID" = "XMPP ID";
 "XMPP ID missing" = "缺少 XMPP ID";
 "XMPP mam preferences error" = "XMPP mam 偏好設定錯誤";
-"XMPP protocol extension for communications blocking." = "XMPP protocol extension for communications blocking.";
-"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls.";
-"XMPP protocol extension for sending application-level pings over XML streams." = "XMPP protocol extension for sending application-level pings over XML streams.";
+"XMPP protocol extension for communications blocking." = "用於通信阻塞的 XMPP 協議擴展。";
+"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP 協定擴展，用於發現 XMPP 網路外部的服務，如 A/V 調用所需的 STUN 或 TURN 伺服器。";
+"XMPP protocol extension for sending application-level pings over XML streams." = "XMPP 協定擴展，用於通過 XML 流發送應用程式級延遲檢測。";
 "XMPP Roster Error" = "XMPP名冊錯誤";
-"XMPP server domain not valid!" = "XMPP server domain not valid!";
+"XMPP server domain not valid!" = "XMPP 伺服器域無效！";
 "XMPP stream error %@: %@" = "XMPP 串流錯誤 %1$@: %2$@";
 "XMPP stream error: %@" = "XMPP 串流錯誤： %@";
-"XMPPServer" = "XMPPServer";
-"Yellow checkmark shield:" = "Yellow checkmark shield:";
+"XMPPServer" = "XMPP伺服器";
+"Yellow checkmark shield:" = "黃色複選標記盾牌：";
 /* quicksy country */
 "Yemen" = "Yemen";
 "Yes" = "是";
-"Yes, deactivate encryption" = "Yes, deactivate encryption";
+"Yes, deactivate encryption" = "是的，停用加密";
 "You are set up and connected." = "您已設定好且已連線。";
-"You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
-"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
-"You are using an out of date version of this app." = "You are using an out of date version of this app.";
-"You can customize even more, just use the button below to open the settings." = "You can customize even more, just use the button below to open the settings.";
-"You did not grant Monal to access your location." = "You did not grant Monal to access your location.";
+"You are set up and connected. People can message you at: %@@%@" = "您已完成設置並連接。人們可以通過以下方式向您發送消息：%@@%@";
+"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "您正在嘗試呼叫 “%@” （%@），但可以使用不同的帳戶聯繫到此聯絡人。請選擇您要撥打電話的帳戶。";
+"You are using an out of date version of this app." = "您使用的是此應用程式的過時版本。";
+"You can customize even more, just use the button below to open the settings." = "您可以自定義更多，只需使用下面的按鈕打開設定即可。";
+"You did not grant Monal to access your location." = "您沒有授予 Monal 訪問您的位置。";
 "You got banned from group/channel: %@" = "You got banned from group/channel: %@";
 "You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
 "You got removed from group/channel: %@" = "You got removed from group/channel: %@";
 "You have not entered your XMPP ID yet" = "您尚未輸入XMPP ID";
-"You need friends for this ride" = "You need friends for this ride";
-"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
+"You need friends for this ride" = "你需要朋友來這趟旅程";
+"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "如果您希望其他人可以聽到您，您需要在 iOS 設定 - > 隱私權 - > 麥克風 中授予麥克風訪問許可權。";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "You restored an iCloud backup of Monal, please open the app to reenable this account.";
-"You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard.";
-"You tried to call contact '%@' but this contact could not be found in your contact list." = "You tried to call contact '%@' but this contact could not be found in your contact list.";
-"You will no longer receive messages from this conversation" = "You will no longer receive messages from this conversation";
-"You will receive subsequent messages from this conversation" = "You will receive subsequent messages from this conversation";
-"Your account must be enabled and connected, to be removed from the server!" = "Your account must be enabled and connected, to be removed from the server!";
-"Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again.";
-"Your answer" = "Your answer";
-"Your contact may not support calls. Your call might never reach its destination." = "Your contact may not support calls. Your call might never reach its destination.";
+"You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "驗證金鑰后，您應該信任金鑰。通過將下面的鍵與聯絡人螢幕上的鍵進行比較來驗證。按兩下指紋以複製到剪貼簿。";
+"You tried to call contact '%@' but this contact could not be found in your contact list." = "您嘗試呼叫聯絡人 『%@』，但在您的聯絡人清單中找不到此聯絡人。";
+"You will no longer receive messages from this conversation" = "您將不再收到來自此對話的訊息";
+"You will receive subsequent messages from this conversation" = "您將收到來自此對話的後續訊息";
+"Your account must be enabled and connected, to be removed from the server!" = "您的帳戶必須啟用並連接，才能從伺服器中刪除！";
+"Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "您的帳戶已停用，因為您恢復了 Monal 的 iCloud 備份。請重新輸入您的密碼以再次啟動它們。";
+"Your answer" = "您的答案";
+"Your contact may not support calls. Your call might never reach its destination." = "您的聯絡人可能不支援呼叫。您的電話可能永遠無法到達目標。";
 "Your entered XMPP ID is missing the domain" = "您輸入的 XMPP ID 缺少域名";
 "Your entered XMPP ID is missing the username" = "您輸入的 XMPP ID 缺少使用者名稱";
-"Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
+"Your server does not provide a MUC component." = "您的伺服器不提供 MUC 元件。";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "您的伺服器不支持MAM（XEP-0313）。這意味著您可能會經常錯過收到的訊息！！您應該切換伺服器或與伺服器管理員聯絡以啟用此功能！";
-"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
+"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "您的伺服器不支援 PUSH （XEP-0357）。這意味著您必須手動打開應用程式才能檢索新的傳入訊息！！您應該切換伺服器或與伺服器管理員聯繫以啟用此功能！";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "您的伺服器不支持串流管理（XEP-0198）。這意味著您傳出的訊息可能會經常丟失！您應該切換伺服器或與伺服器管理員聯絡以啟用此功能！";
 "Your status" = "您的狀態";
-"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup.";
+"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "您的 XMPP Jid 應採用 user@domain.tld 格式。對於特殊配置，請使用手動設置。";
 /* quicksy country */
 "Zambia" = "Zambia";
 /* quicksy country */
