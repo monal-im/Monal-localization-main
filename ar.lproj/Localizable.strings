@@ -854,7 +854,7 @@
 "No search result." = "No search result.";
 "No supported auth mechanism found, disabling account!" = "لم يتم العثور على آلية مصادقة مدعومة، مما أدى إلى تعطيل الحساب!";
 "No XMPP server!" = "No XMPP server!";
-"No, keep encryption activated" = "No, keep encryption activated";
+"No, keep encryption activated" = "لا، أبقي التشفير مفعل (المحادثة مشفرة، مالك الخادم لا يمكنه قراءة الرسائل)";
 /* Crash reporting */
 "No, thanks" = "No, thanks";
 "None" = "بدون";
@@ -1066,7 +1066,7 @@
 "Send" = "ارسل";
 "Send last interaction time" = "إرسال وقت التفاعل الأخير";
 "Send Location" = "Send Location";
-"Send message receipts" = "Send message receipts";
+"Send message receipts" = "اعلام المرسل بقراءة رسالته";
 "Send read receipts" = "Send read receipts";
 "Send SMS again" = "Send SMS again";
 "Send typing notifications" = "ارسال اشعار الكتابة";
@@ -1211,7 +1211,7 @@
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "These are the TLS versions supported by Monal, the one used to connect to your server will be green.";
 "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard.";
 "They will no longer see when you are online. They may not be able to access your encryption keys." = "They will no longer see when you are online. They may not be able to access your encryption keys.";
-"They will no longer see when you are online. They may not be able to send you encrypted messages." = "They will no longer see when you are online. They may not be able to send you encrypted messages.";
+"They will no longer see when you are online. They may not be able to send you encrypted messages." = "لن يتمكنوا بعد الآن من رؤيتك متصلا عندما تكون متصلاً بالإنترنت. قد لا يتمكنون من إرسال رسائل مشفرة إليك.";
 "They will see when you are online. They will be able to send you encrypted messages." = "They will see when you are online. They will be able to send you encrypted messages.";
 "This account already exists in Monal." = "This account already exists in Monal.";
 "This account already exists on this instance" = "هذا الحساب موجود بالفعل على هذا الخادم";
@@ -1419,7 +1419,7 @@
 /* quicksy country */
 "Yemen" = "اليمن";
 "Yes" = "نعم";
-"Yes, deactivate encryption" = "Yes, deactivate encryption";
+"Yes, deactivate encryption" = "نعم، قم بإلغاء التشفير (المحادثة غير مشفرة، مالك الخادم يمكنه قراءة الرسائل)";
 "You are set up and connected." = "You are set up and connected.";
 "You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
