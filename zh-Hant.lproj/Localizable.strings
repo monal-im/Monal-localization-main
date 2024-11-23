@@ -5,7 +5,7 @@
 "%@" = "%@";
 "%@ (%@)" = "%@ (%@)";
 "%@ (affiliation: %@)" = "%@ (從屬關係: %@)";
-"%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
+"%@ (type '%@', category '%@')" = "%@ (type '%@', category '%@')";
 "%@ hours" = "%@ 小時";
 "%@ says:" = "%@ 說：";
 /* Message autdelete time */
@@ -136,7 +136,7 @@
 "Audio recorder prepareToRecord fail." = "錄音機準備錄製失敗。";
 "Audio recorder record fail." = "錄音機錄製失敗。";
 "Audio Recorder set active error: %@" = "錄音機設定活動錯誤： %@";
-"Audio Recorder set category error: %@" = "錄音機設置類別錯誤：%@";
+"Audio Recorder set category error: %@" = "錄音機設定類別錯誤：%@";
 "Audio Recorder: failed to record" = "錄音機：錄製失敗";
 /* quicksy country */
 "Australia" = "澳大利亞";
@@ -289,11 +289,11 @@
 "Considerations for Server Administrators" = "伺服器管理員的注意事項";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "聯絡人、群組或頻道的 Jid 通常採用以下格式：name@domain.tld";
 "Contact is muted" = "聯絡人已免打擾";
-"Contact is not muted" = "聯絡人未設置免打擾";
+"Contact is not muted" = "聯絡人未設定免打擾";
 "Contact not found" = "未找到聯絡人";
 /* placeholder when adding jid */
 "Contact or Group/Channel Jid" = "聯繫人、群組或頻道的 Jid";
-"Contact Selection" = "選擇聯絡人";
+"Contact Selection" = "選取聯絡人";
 "Contacts" = "聯絡人";
 /* quicksy country */
 "Cook Islands" = "庫克群島";
@@ -307,15 +307,15 @@
 "Costa Rica" = "哥斯大黎加";
 /* quicksy country */
 "Côte d'Ivoire" = "象牙海岸";
-"Could fetch room config form for '%@': timeout" = "無法獲取“%@”的群聊配置表單：超時";
+"Could fetch room config form for '%@': timeout" = "無法獲取「%@」的群聊配置表單：超時";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "無法存取相機";
 "Could not access Finder item!" = "無法存取 Finder 專案！";
 "Could not change password" = "無法變更密碼";
 "Could not change password: your account is currently not connected" = "無法變更密碼：您的帳戶目前未連接";
 "Could not change the password" = "無法變更密碼";
-"Could not configure (new) group '%@': config option '%@' not available!" = "無法配置（新）組“%1$@”：配置選項“%2$@”不可用！";
-"Could not configure group '%@'" = "無法配置群組“%@”";
+"Could not configure (new) group '%@': config option '%@' not available!" = "無法配置（新）群組「%1$@」：配置選項「%2$@」不可用！";
+"Could not configure group '%@'" = "無法配置群組「%@」";
 "Could not configure group '%@': timeout" = "無法設定群組 %@：超時";
 "Could not create group '%@': timeout" = "無法建立群組 『%@』： 超時";
 "Could not decrypt message" = "無法解密訊息";
@@ -328,7 +328,7 @@
 "Could not join group/channel '%@': timeout" = "無法加入群組/頻道 '%@'： 超時";
 "Could not read captcha!" = "無法讀取 驗證碼！";
 "Could not register your username. Please check your code or change the username and try again." = "無法註冊您的使用者名稱。請檢查您的代碼或是修改使用者名稱然後再試一次。";
-"Could not send" = "無法發送";
+"Could not send" = "無法傳送";
 "Could not synchronize" = "無法同步";
 "Could not upload file" = "無法上傳檔案";
 "Country:" = "國家：";
@@ -359,7 +359,7 @@
 "Debug Notification Problems" = "調試通知問題";
 "Debugging" = "正在調試";
 "Default Background" = "默認背景";
-"Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "定義對 XMPP 名冊協議的修改建議，該協議允許對名冊進行版本控制，以至於在名冊尚未修改時，伺服器不會將名冊發送到用戶端。";
+"Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "定義對 XMPP 名冊協議的修改建議，該協議允許對名冊進行版本控制，以至於在名冊尚未修改時，伺服器不會將名冊傳送到用戶端。";
 "Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription." = "為預先驗證的名冊連結定義協議和 URI 方案，以允許第三方自動獲取使用者的狀態訂閱。";
 /* Chat msg action */
 "Delete" = "刪除";
@@ -439,7 +439,7 @@
 "Enable" = "啓用";
 "Enable encryption by default for new chats" = "預設為新聊天啟用加密";
 "Enabled" = "已啟用";
-"Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "加密郵件以較舊的格式發送，Monal無法解密。請要求他們更新其客戶端。（GCM錯誤）";
+"Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "加密郵件以較舊的格式傳送，Monal無法解密。請要求他們更新其客戶端。（GCM錯誤）";
 "Encrypted session to this device broken beyond repair." = "與此裝置的加密會話已中斷，無法修復。";
 "Encryption" = "加密";
 "Encryption Keys" = "加密金鑰";
@@ -493,10 +493,10 @@
 /* quicksy country */
 "Ethiopia" = "衣索比亞";
 "Even more to customize!" = "更多客製化！";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "每個新聯絡人都將啟用加密，但已知聯絡人將保留其加密設置。";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "每個新聯絡人都將啟用加密，但已知聯絡人將保留其加密設定。";
 "Failed to block contact %@" = "無法封鎖聯絡人 %@";
-"Failed to change affiliation of '%@' in '%@' to '%@'" = "無法將“%2$@”中“%1$@”的隸屬關係更改為“%3$@”";
-"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "無法將“%2$@”中“%1$@”的隸屬關係更改為“%3$@”：超時";
+"Failed to change affiliation of '%@' in '%@' to '%@'" = "無法將「%2$@」中「%1$@」的隸屬關係更改為「%3$@」";
+"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "無法將「%2$@」中「%1$@」的隸屬關係更改「%3$@」：超時";
 "Failed to copy downloaded file into cache directory: %@" = "無法下載檔案複製到快取目錄 %@";
 "Failed to create invitation for %@" = "無法為 %@ 建立邀請";
 "Failed to create invitation, unknown error: %@" = "建立邀請失敗，未知錯誤 %@";
@@ -506,7 +506,7 @@
 "Failed to decrypt filetransfer" = "無法解密檔案傳輸";
 "Failed to delete own avatar" = "刪除自己的大頭貼失敗";
 "Failed to delete own nickname" = "無法刪除自己的昵稱";
-"Failed to destroy group/channel '%@'" = "無法解散群組/通道“%@”";
+"Failed to destroy group/channel '%@'" = "無法解散群組/通道「%@」";
 "Failed to destroy group/channel '%@': timeout" = "解散群組/頻道 %@ 失敗：超時";
 "Failed to download file: %@" = "無法下載檔案 %@";
 "Failed to enable carbons for account %@" = "無法為帳戶 %@ 啟用複寫本";
@@ -517,7 +517,7 @@
 "Failed to fetch download metadata: %@" = "無法取得下載中繼資料 %@";
 "Failed to fetch room config form for '%@'" = "無法獲取「%@」的群聊配置表單";
 "Failed to load blocklist" = "無法載入黑名單";
-"Failed to moderate message in group/channel '%@'" = "無法審核群組/頻道“%@”中的訊息";
+"Failed to moderate message in group/channel '%@'" = "無法審核群組/頻道「%@」中的訊息";
 "Failed to move uploaded file to file cache directory" = "無法將上傳的檔案移至檔案快取目錄";
 "Failed to parse URL returned by HTTP upload server" = "解析HTTP上傳伺服器回應的網址失敗";
 "Failed to publish avatar image for group/channel %@" = "無法發佈組/頻道 % 的大頭貼影像@";
@@ -572,11 +572,11 @@
 "Ghana" = "迦納";
 /* quicksy country */
 "Gibraltar" = "直布羅陀";
-"Got empty room config form for '%@'" = "“%@”的群聊配置表單為空";
+"Got empty room config form for '%@'" = "「%@」的群聊配置表單為空";
 "GPS" = "GPS";
 /* quicksy country */
 "Greece" = "希臘";
-"Green checkmark shield:" = "綠色複選標記盾牌：";
+"Green checkmark shield:" = "綠色盾牌驗證標識：";
 /* quicksy country */
 "Greenland" = "格陵蘭";
 /* quicksy country */
@@ -618,10 +618,10 @@
 "I need an account:" = "注冊賬戶：";
 /* quicksy country */
 "Iceland" = "冰島";
-"If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "如果 Monal 無法顯示通知，則當訊息到達時，您將不會看到提醒。如果您在 Monal 首次請求許可時點擊了 『拒絕』，就會發生這種情況。通過轉到 iOS 設定 -> Monal -> 通知，並選擇“允許通知”來修復它。";
+"If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "如果 Monal 無法顯示通知，則當訊息到達時，您將不會看到提醒。如果您在 Monal 首次請求許可時點擊了 『拒絕』，就會發生這種情況。通過轉到 iOS 設定 -> Monal -> 通知，並選取「允許通知」來修復它。";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "如果此功能處於關閉狀態，則您的設備無法在 XMPP 伺服器上啟動推送，請確保已將其配置為支援 XEP-0357。";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "如果打開此功能，您將遭受中間人攻擊的威脅。此類攻擊使攻擊者能夠操縱您的傳入和傳出訊息、添加他們自己的 OMEMO 金鑰、更改您的帳戶詳細資訊，甚至知道或更改您的密碼！\n\n相對於打開這個功能，更建議切換到另一伺服器。";
-"If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "如果您想要使用語音訊息，您將需要在“設定->隱私權->麥克風”中允許存取。";
+"If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "如果您想要使用語音訊息，您將需要在「設定->隱私權->麥克風」中允許存取。";
 "Image Upload JPEG-Quality: %@" = "影像上傳 JPEG 品質：%@";
 "Import and trust OMEMO fingerprints from QR code" = "從QR碼導入和信任 OMEMO 指紋";
 /* quicksy country */
@@ -713,7 +713,7 @@
 "Libya" = "利比亞";
 /* quicksy country */
 "Liechtenstein" = "列支敦斯登";
-"Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "就像電子郵件一樣，您可以在許多網站上註冊您的帳戶並與任何人交談。您可以使用此頁面向選定或提供的 XMPP 伺服器註冊帳戶。您必須選擇使用者名稱和密碼。";
+"Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "就像電子郵件一樣，您可以在許多網站上註冊您的帳戶並與任何人交談。您可以使用此頁面向選定或提供的 XMPP 伺服器註冊帳戶。您必須選取使用者名稱和密碼。";
 /* quicksy country */
 "Lithuania" = "立陶宛";
 "Load over Cellular" = "通過行動數據載入";
@@ -728,7 +728,7 @@
 "Loading omemo bundles: %@ / %@" = "載入 omemo 包： %@ / %@";
 "Loading OMEMO keys" = "載入 OMEMO 金鑰中";
 "Location Access Needed" = "需要存取位置信息";
-"Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "登入您的現有帳戶或註冊一個新帳戶。如果需要，您可以在 Monal 設置中找到更高級的選項。";
+"Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "登入您的現有帳戶或註冊一個新帳戶。如果需要，您可以在 Monal 設定中找到更高級的選項。";
 "Logfiles" = "日誌檔";
 "Logging in" = "登入中";
 "Login" = "登入";
@@ -769,7 +769,7 @@
 "Message was encrypted with '%@' which isn't supported by Monal" = "消息使用 『%@』 加密，Monal 不支援";
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "郵件已使用 OMEMO 加密，並無法再解密";
 "Message was encrypted with OMEMO but could not be decrypted" = "郵件已使用 OMEMO 加密，但無法解密";
-"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "未為此設備加密訊息。請確保發送者信任裝置id %u。";
+"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "未為此設備加密訊息。請確保傳送者信任裝置id %u。";
 "Messages are encrypted" = "訊息已加密";
 "Messages are NOT encrypted" = "訊息未加密！";
 "Messages never archived by default." = "預設情況下，訊息從不存檔。";
@@ -790,11 +790,11 @@
 "Monal" = "貓撓";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal 目前信任此金鑰，但尚未比較指紋。為了提高安全性，請在信任此密鑰之前與聯絡人確認顯示的指紋是否匹配！";
 "Monal did not received a gps location. Please try again later." = "Monal 沒有收到GPS定位。請稍後再試。";
-"Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal 無法取用您的位置。請在您裝置的隱私設置中更新位置存取權限。";
+"Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal 無法取用您的位置。請在您裝置的隱私設定中更新位置存取權限。";
 "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal 不信任此金鑰。它被手動禁用，或在驗證該聯絡人的其他金鑰時未手動驗證。您可以使用 toggle 元素信任此金鑰。在信任此金鑰之前，請確保聯絡人的指紋匹配。";
 /* Camera permissions missing warning */
 "Monal is not allowed to access the camera" = "Monal 無相機存取權";
-"Monal was not able to send your attachment!" = "Monal 無法發送您的附件！";
+"Monal was not able to send your attachment!" = "Monal 無法傳送您的附件！";
 "Monal was not able to send your attachment: %@" = "Monal 無法送出您的附件：%@";
 /* quicksy country */
 "Mongolia" = "蒙古";
@@ -840,8 +840,8 @@
 /* quicksy country */
 "Niue" = "紐埃";
 "No" = "不";
-"No account available to handel 'xmpp:' URI!" = "沒有可用於處理 “xmpp：” 連接的帳戶！";
-"No accounts set up currently" = "當前未設置帳戶";
+"No account available to handel 'xmpp:' URI!" = "沒有可用於處理 「xmpp:」連結的帳戶！";
+"No accounts set up currently" = "當前未設定帳戶";
 "No active conversations" = "沒有活躍的對話";
 "No connected accounts" = "無已連線帳號";
 "No contacts to show :(" = "無可顯示的聯絡人：(";
@@ -940,8 +940,8 @@
 "Please make sure you have entered a valid jid." = "請確保您輸入了有效的 Jid。";
 "Please make sure you have entered both a username and password." = "請確保您已輸入使用者名和密碼。";
 "Please make sure you have entered the same password in both password fields." = "請確保您在兩個密碼欄位中輸入了相同的密碼。";
-"Please provide a valid XMPP server domain or select one." = "請提供有效的 XMPP 伺服器域或選擇一個。";
-"Please select a XMPP server or provide one." = "請選擇 XMPP 伺服器或提供一個。";
+"Please provide a valid XMPP server domain or select one." = "請提供有效的 XMPP 伺服器域或選取一個。";
+"Please select a XMPP server or provide one." = "請選取XMPP伺服器或提供一個。";
 "Please update!" = "請更新！";
 /* quicksy country */
 "Poland" = "波蘭";
@@ -966,9 +966,9 @@
 "QR-Code Scanner" = "QR碼掃描器";
 /* QR-Code-Scanner */
 "QR-Code video error" = "QR-Code 視訊錯誤";
-"Quicksy is now set up and connected." = "Quicksy 現已設置並連接。";
-"Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksy 會定期同步您的聯絡人清單，以提供有關已經在 Quicksy 上的可能聯絡人的建議。\n\nQuicksy 共用和儲存圖像、錄音、視頻和其他媒體，以將它們交付給預期的接收者。檔將存儲長達 30 天。\n\n在我們的 [隱私政策]（https://quicksy.im/privacy.htm） 中查找更多資訊。";
-"Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksy 將發送一條簡訊（可能需要支付運營商費用）以驗證您的電話號碼。輸入您的國家/地區代碼和電話號碼：";
+"Quicksy is now set up and connected." = "Quicksy 現已設定並連接。";
+"Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksy 會定期同步您的聯絡人清單，以提供有關已經在 Quicksy 上的可能聯絡人的建議。\n\nQuicksy 共用和儲存圖像、錄音、視訊和其他媒體，以將它們交付給預期的接收者。檔將存儲長達 30 天。\n\n在我們的 [隱私政策]（https://quicksy.im/privacy.htm） 中查找更多資訊。";
+"Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksy 將傳送一條簡訊（可能需要支付運營商費用）以驗證您的電話號碼。輸入您的國家/地區代碼和電話號碼：";
 /* Chat msg action */
 "Quote" = "引用";
 "Rate Monal" = "給 Monal 評分";
@@ -1021,7 +1021,7 @@
 /* Chat msg action */
 "Retract" = "收回";
 "Retry" = "重試";
-"Retry sending message?" = "是否重試發送消息？";
+"Retry sending message?" = "是否重試傳送消息？";
 "Rich Text" = "富文本";
 "Ringing..." = "響鈴中…";
 /* quicksy country */
@@ -1056,36 +1056,36 @@
 "Scroll down to load more messages" = "向下滑以載入更多訊息";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "為TLS1.3和一些TLS1.2連接定義了安全通道綁定。";
 "Security" = "安全";
-"Select a background to display behind conversations with %@" = "選擇要顯示在對話後面的背景，其中包含 %@";
-"Select a default background to display behind conversations." = "選擇要顯示在對話後面的預設背景。";
-"Select Action" = "選擇動作";
-"Select background image" = "選擇背景圖片";
-"Select Message Archive Management (MAM) Preferences " = "選擇訊息存檔管理（MAM）參數 ";
-"Select sounds that are played with new message notifications. Default is Xylophone." = "選擇使用新訊息通知播放的音效。預設為Xylophone。";
+"Select a background to display behind conversations with %@" = "選取要顯示在對話後面的背景，其中包含 %@";
+"Select a default background to display behind conversations." = "選取要顯示在對話後面的預設背景。";
+"Select Action" = "選取動作";
+"Select background image" = "選取背景圖片";
+"Select Message Archive Management (MAM) Preferences " = "選取訊息存檔管理（MAM）參數 ";
+"Select sounds that are played with new message notifications. Default is Xylophone." = "選取使用新訊息通知播放的音效。預設為Xylophone。";
 "Selected Group Members" = "選定的群組成員";
-"Send" = "發送";
-"Send last interaction time" = "發送上次交互時間";
+"Send" = "傳送";
+"Send last interaction time" = "傳送上次交互時間";
 "Send Location" = "傳送位置";
-"Send message receipts" = "發送消息回執";
-"Send read receipts" = "發送已讀回執";
-"Send SMS again" = "再次發送簡訊";
-"Send typing notifications" = "發送鍵入通知";
+"Send message receipts" = "傳送消息回執";
+"Send read receipts" = "傳送已讀回執";
+"Send SMS again" = "再次傳送簡訊";
+"Send typing notifications" = "傳送鍵入通知";
 "Sending..." = "傳送中...";
-"Sends password in cleartext (only encrypted by TLS), not very secure" = "以明文形式發送密碼（僅由 TLS 加密），不是很安全";
+"Sends password in cleartext (only encrypted by TLS), not very secure" = "以明文形式傳送密碼（僅由 TLS 加密），不是很安全";
 /* quicksy country */
 "Senegal" = "塞內加爾";
-"Sent a File 📁" = "發送一個檔案📁";
+"Sent a File 📁" = "傳送一個檔案📁";
 "Sent a Link 🔗" = "傳送一個連結🔗";
 "Sent a Location 📍" = "傳送一個位置 📍";
 "Sent an Image 📷" = "傳送一個圖片 📷";
 /* directory for downloaded audios */
-"Sent Audios" = "已發送的音訊";
+"Sent Audios" = "已傳送的音訊";
 /* directory for downloaded files */
-"Sent Files" = "已發送的檔案";
+"Sent Files" = "已傳送的檔案";
 /* directory for downloaded images */
-"Sent Images" = "已發送的圖片";
+"Sent Images" = "已傳送的圖片";
 /* directory for downloaded videos */
-"Sent Videos" = "已發送的影片";
+"Sent Videos" = "已傳送的影片";
 /* quicksy country */
 "Serbia" = "塞爾維亞";
 "Server" = "伺服器";
@@ -1093,10 +1093,10 @@
 "Server for domain '%@' not responding!" = "域「%@」的伺服器沒有回應！";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "伺服器實施錯誤：SASL2 任務為空，帳戶已禁用！";
 "Server returned invalid xml!" = "伺服器返回無效的xml！";
-"Server returned SASL2 error '%@'." = "伺服器返回 SASL2 錯誤“%@”。";
+"Server returned SASL2 error '%@'." = "伺服器返回 SASL2 錯誤「%@」。";
 "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "伺服器突然缺乏對SASL2-SCRAM的支援，很可能是持續的MITM攻擊，中止身份驗證並禁用帳戶以限制損害。當您再次處於乾淨的網路環境中時，您應該嘗試重新啟用您的帳戶。";
 "Server: %@" = "伺服器: %@";
-"Set up account later" = "稍後設置帳戶";
+"Set up account later" = "稍後設定帳戶";
 /* Camera permissions missing warning */
 "Settings" = "設定";
 /* quicksy country */
@@ -1120,7 +1120,7 @@
 /* quicksy country */
 "Somalia" = "索馬里";
 "Some debug settings." = "一些調試設定。";
-"Some messages might wait to be retrieved or sent. Please open the app to retry." = "某些消息可能等待檢索或發送。請打開應用程式重試。";
+"Some messages might wait to be retrieved or sent. Please open the app to retry." = "某些消息可能等待檢索或傳送。請打開應用程式重試。";
 "Something went wrong processing your request." = "處理您的請求時發生錯誤。";
 "Something went wrong while parsing your input..." = "解析您的輸入時發生錯誤...";
 "Sounds" = "音效";
@@ -1145,7 +1145,7 @@
 "Sudan" = "蘇丹";
 "Support" = "支援";
 /* Crash reporting */
-"Sure, send it!" = "當然，發送它！";
+"Sure, send it!" = "當然，傳送它！";
 /* quicksy country */
 "Suriname" = "蘇里南";
 /* quicksy country */
@@ -1174,7 +1174,7 @@
 "The account has been removed" = "帳戶已被刪除";
 "The account has been saved" = "帳戶已保存";
 /* Crash reporting */
-"The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "該應用程式上次啟動時崩潰。發送崩潰報告？此崩潰報告將包含與隱私相關的數據。我們只會使用它來調試您的崩潰並在之後將其刪除！";
+"The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "該應用程式上次啟動時崩潰。傳送崩潰報告？此崩潰報告將包含與隱私相關的數據。我們只會使用它來調試您的崩潰並在之後將其刪除！";
 "The chat history has been cleared" = "該聊天記錄已清空";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "與伺服器的連接已中斷，無法為此聊天獲取任何舊消息。請稍後重試。";
 "The current password is not correct." = "當前密碼不正確。";
@@ -1186,12 +1186,12 @@
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "當您添加的人允許您的請求後，新聯絡人將被添加到您的聯絡人列表中。";
 "The operator of the webserver providing that URL may see your IP address." = "提供該 URL 的 Web 伺服器的營運商可能會看到您的 IP 位址。";
 "The password has been changed" = "密碼已更改";
-"The pin we have sent you has expired." = "我們發送給您的PIN碼已過期。";
+"The pin we have sent you has expired." = "我們傳送給您的PIN碼已過期。";
 "The pin you have entered is incorrect." = "您輸入的 PIN 碼不正確。";
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "QR碼包含賬戶的登錄憑證。轉到設定 - >新帳戶並重新掃描 QR碼";
-"The resource '%@' has the following capabilities:" = "資源 “%@”具有以下功能：";
-"The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "可選擇的 XMPP 伺服器是不隸屬於 Monal 的公共伺服器。此註冊頁面僅為方便起見而提供。";
+"The resource '%@' has the following capabilities:" = "資源 「%@」具有以下功能：";
+"The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "可選取的 XMPP 伺服器是不隸屬於 Monal 的公共伺服器。此註冊頁面僅為方便起見而提供。";
 "The server does not support blocking (XEP-0191)." = "伺服器不支援封鎖 （XEP-0191）。";
 "The UDP logger allows you to livestream the log to the configured IP." = "UDP 記錄器允許您將紀錄即時流式傳輸到配置的IP。";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP 記錄器允許您將紀錄即時流式傳輸到配置的IP。通過 Internet 流式傳輸時，請使用安全金鑰！\n[瞭解如何接收日誌流]（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log）。";
@@ -1199,9 +1199,9 @@
 "The username does not need to have an @ symbol. Please try again." = "使用者名稱不需要有 @ 符號。請重試。";
 "There is no configured email account. Please email info@monal-im.org ." = "無設定的電子郵件帳戶。請傳送電子郵件至info@monal-im.org。";
 "There was a SASL error on the server." = "伺服器上出現 SASL 錯誤。";
-"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "解密此加密郵件時出現錯誤（信號錯誤）。若要解決此問題，請嘗試向此人發送加密郵件。";
-"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "解密此加密消息時出錯（Signal 錯誤）。要解決此問題，請嘗試向此人發送加密消息。(%@)";
-"These are important privacy settings you may want to review!" = "這些是您可能需要查看的重要隱私設置！";
+"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "解密此加密郵件時出現錯誤（信號錯誤）。若要解決此問題，請嘗試向此人傳送加密郵件。";
+"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "解密此加密消息時出錯（Signal 錯誤）。要解決此問題，請嘗試向此人傳送加密消息。(%@)";
+"These are important privacy settings you may want to review!" = "這些是您可能需要查看的重要隱私設定！";
 "These are SRV resource records found for your domain." = "這些是為您的域找到的SRV資源記錄。";
 "These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "這些是您的伺服器宣佈的 STUN 和 TURN 服務（Monal 使用藍色條目）。";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "這些是你的伺服器支援的通道綁定類型，用於檢測 TLS 層上的攻擊（使用藍色的一個，一個是 Monal 不支援的橙色）。";
@@ -1224,7 +1224,7 @@
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "此聯絡人可能不支援 OMEMO 加密郵件。請稍後重試。";
 "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "此聯絡人可能不支援 OMEMO 加密郵件。如果您認為這是錯誤的，請在幾秒鐘內嘗試再次啟用加密。";
 /* Crash report error dialog */
-"This device is not configured to send email." = "此裝置未配置為發送電子郵件。";
+"This device is not configured to send email." = "此裝置未配置為傳送電子郵件。";
 "This invitation will expire on %@" = "此邀請將於%@過期";
 "This is an embedded file that can not be opened externally." = "這是一個嵌入檔案，無法從外部打開。";
 "This is the software running on your server." = "這是在您的伺服器上運行的軟體。";
@@ -1371,7 +1371,7 @@
 "We could not find a xmpp related QR-Code" = "我們找不到與xmpp相關的QR碼";
 "We don't support any task requested by the server, account disabled: %@" = "我們不支援伺服器請求的任何任務，帳戶已禁用：%@";
 "We don't support the single task requested by the server, account disabled: %@" = "我們不支援伺服器請求的單個任務，帳戶已禁用：%@";
-"We sent you an SMS to %@" = "我們向您的%@發送了一條簡訊";
+"We sent you an SMS to %@" = "我們向您的%@傳送了一條簡訊";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "我們無法關聯您的帳戶。請檢查您的使用者名和密碼，並確保您已連接到互聯網。";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "我們無法關聯您的帳戶。請檢查您的使用者名和密碼，並確保您已連接到互聯網。\n\n技術錯誤消息：%@";
 "We will check the number **%@**. Is this okay or do you want to change the number?" = "我們將檢查數位 **%@**。這沒問題還是您想更改號碼？";
@@ -1409,20 +1409,20 @@
 "XMPP mam preferences error" = "XMPP mam 偏好設定錯誤";
 "XMPP protocol extension for communications blocking." = "用於通信阻塞的 XMPP 協議擴展。";
 "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP 協定擴展，用於發現 XMPP 網路外部的服務，如 A/V 調用所需的 STUN 或 TURN 伺服器。";
-"XMPP protocol extension for sending application-level pings over XML streams." = "XMPP 協定擴展，用於通過 XML 流發送應用程式級延遲檢測。";
+"XMPP protocol extension for sending application-level pings over XML streams." = "XMPP 協定擴展，用於通過 XML 流傳送應用程式級延遲檢測。";
 "XMPP Roster Error" = "XMPP名冊錯誤";
 "XMPP server domain not valid!" = "XMPP 伺服器域無效！";
 "XMPP stream error %@: %@" = "XMPP 串流錯誤 %1$@: %2$@";
 "XMPP stream error: %@" = "XMPP 串流錯誤： %@";
 "XMPPServer" = "XMPP伺服器";
-"Yellow checkmark shield:" = "黃色複選標記盾牌：";
+"Yellow checkmark shield:" = "黃色盾牌驗證標識：";
 /* quicksy country */
 "Yemen" = "葉門";
 "Yes" = "是";
 "Yes, deactivate encryption" = "是的，停用加密";
 "You are set up and connected." = "您已設定好且已連線。";
-"You are set up and connected. People can message you at: %@@%@" = "您已完成設置並連接。人們可以通過以下方式向您發送消息：%@@%@";
-"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "您正在嘗試呼叫 “%@” （%@），但可以使用不同的帳戶聯繫到此聯絡人。請選擇您要撥打電話的帳戶。";
+"You are set up and connected. People can message you at: %@@%@" = "您已完成設定並連接。人們可以通過以下方式向您傳送消息：%@@%@";
+"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "您正在嘗試呼叫 「%@」 （%@），但可以使用不同的帳戶聯繫到此聯絡人。請選取您要撥打電話的帳戶。";
 "You are using an out of date version of this app." = "您使用的是此應用程式的過時版本。";
 "You can customize even more, just use the button below to open the settings." = "您可以自定義更多，只需使用下面的按鈕打開設定即可。";
 "You did not grant Monal to access your location." = "您沒有授予 Monal 訪問您的位置。";
@@ -1448,7 +1448,7 @@
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "您的伺服器不支援 PUSH （XEP-0357）。這意味著您必須手動打開應用程式才能檢索新的傳入訊息！！您應該切換伺服器或與伺服器管理員聯繫以啟用此功能！";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "您的伺服器不支持串流管理（XEP-0198）。這意味著您傳出的訊息可能會經常丟失！您應該切換伺服器或與伺服器管理員聯絡以啟用此功能！";
 "Your status" = "您的狀態";
-"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "您的 XMPP Jid 應採用 user@domain.tld 格式。對於特殊配置，請使用手動設置。";
+"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "您的 XMPP Jid 應採用 user@domain.tld 格式。對於特殊配置，請使用手動設定。";
 /* quicksy country */
 "Zambia" = "尚比亞";
 /* quicksy country */
