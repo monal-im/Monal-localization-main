@@ -1,7 +1,7 @@
 " (offline)" = " (offline)";
 /* server details */
-" running on %@" = " running on %@";
-"%02d:%02d (long press to abort)" = "%02d:%02d (long press to abort)";
+" running on %@" = " käynnissä %@:lla";
+"%02d:%02d (long press to abort)" = "%02d:%02d (keskeytä painamalla pitkään)";
 "%@" = "%@";
 "%@ (%@)" = "%@ (%@)";
 "%@ (affiliation: %@)" = "%@ (affiliation: %@)";
@@ -942,7 +942,7 @@
 "Please make sure you have entered the same password in both password fields." = "Please make sure you have entered the same password in both password fields.";
 "Please provide a valid XMPP server domain or select one." = "Please provide a valid XMPP server domain or select one.";
 "Please select a XMPP server or provide one." = "Please select a XMPP server or provide one.";
-"Please update!" = "Please update!";
+"Please update!" = "Ole hyvä ja päivitä!";
 /* quicksy country */
 "Poland" = "Poland";
 "Port" = "Port";
@@ -1216,7 +1216,7 @@
 "This account already exists in Monal." = "This account already exists in Monal.";
 "This account already exists on this instance" = "This account already exists on this instance";
 "This account already exists on this instance." = "This account already exists on this instance.";
-"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!";
+"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Tämä sovellus on liian vanha ja voi sisältää tietoturvavikoja sekä yhtäkkiä lopettaa toiminnan. Ole hyvä ja päivitä!";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong.";
 "This contact is already in the contact list of the selected account" = "This contact is already in the contact list of the selected account";
@@ -1245,7 +1245,7 @@
 "This server does not support modern SASL2 authentication." = "This server does not support modern SASL2 authentication.";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server.";
 "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment.";
-"This should never happen, please contact the developers and provide a logfile!" = "This should never happen, please contact the developers and provide a logfile!";
+"This should never happen, please contact the developers and provide a logfile!" = "Tämän ei pitäisi koskaan tapahtua, ota yhteyttä kehittäjiin ja toimita lokitiedosto!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";
 "This will clear the whole chat history of this account from this device." = "This will clear the whole chat history of this account from this device.";
@@ -1301,9 +1301,9 @@
 "Unblock Contact" = "Unblock Contact";
 "Unblocking user" = "Unblocking user";
 "Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
-"Unclean appex shutown" = "Unclean appex shutown";
+"Unclean appex shutown" = "Epäpuhdas apex-sammutus";
 "Understood" = "Understood";
-"Unexpected appex expiration" = "Unexpected appex expiration";
+"Unexpected appex expiration" = "Odottamaton appexin vanheneminen";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
 "Unexpected error processing your request." = "Unexpected error processing your request.";
 "Unexpected error while checking type of jid, please try again" = "Unexpected error while checking type of jid, please try again";
@@ -1360,7 +1360,7 @@
 "Version" = "Version";
 /* server details */
 "version %@%@" = "version %1$@%2$@";
-"Very old app version" = "Very old app version";
+"Very old app version" = "Erittäin vanha sovellusversio";
 /* quicksy country */
 "Viet Nam" = "Viet Nam";
 "Waiting for GPS signal" = "Waiting for GPS signal";
