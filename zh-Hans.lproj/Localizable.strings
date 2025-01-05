@@ -320,7 +320,7 @@
 "Could not configure group '%@': timeout" = "无法配置群聊“%@”：超时";
 "Could not create group '%@': timeout" = "无法创建群聊“%@”：超时";
 "Could not decrypt message" = "无法解密消息";
-"Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "无法从服务器的存档中获取此聊天的（所有）旧消息。请稍后再试。 %@";
+"Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "无法从服务器存档获取此聊天的（所有）旧消息。请稍后重试。%@";
 "Could not fetch messages" = "无法获取消息";
 /* QR-Code-Scanner */
 "Could not get default capture device" = "无法获取默认视频捕获设备";
@@ -633,14 +633,14 @@
 "Input" = "输入";
 "Input is not a valid jid" = "输入地址无效";
 "Interactions" = "互动";
-"Invalid Credentials!" = "无效的证书！";
+"Invalid Credentials!" = "证书无效！";
 /* QR-Code-Scanner: invalid format */
-"Invalid format" = "无效的格式";
-"Invalid image file!" = "无效的图片文件！";
-"Invalid Password!" = "无效的密码！";
-"Invalid State" = "无效的状态";
+"Invalid format" = "格式无效";
+"Invalid image file!" = "图片文件无效！";
+"Invalid Password!" = "密码无效！";
+"Invalid State" = "状态无效";
 "Invalid user input." = "用户输入无效。";
-"Invalid Username!" = "无效的用户名！";
+"Invalid Username!" = "用户名无效！";
 "Invitation for %@ created" = "%@ 的邀请已创建";
 /* muc invite */
 "Invite again" = "再次邀请";
@@ -699,14 +699,14 @@
 "Leave Channel" = "离开频道";
 "Leave Group" = "离开群聊";
 "Leave this conversation" = "离开此对话";
-"Leave this converstion?" = "是否离开此对话？";
+"Leave this converstion?" = "离开此对话？";
 /* quicksy country */
 "Lebanon" = "黎巴嫩";
 /* quicksy country */
 "Lesotho" = "莱索托";
-"Let your contacts know if you are typing a message." = "让您的联系人知道您是否正在输入消息。";
-"Let your contacts know if you read a message." = "让您的联系人知道您是否阅读了消息。";
-"Let your contacts know if you received a message." = "让您的联系人知道您是否收到了消息。";
+"Let your contacts know if you are typing a message." = "让您的联系人知道您正在输入消息。";
+"Let your contacts know if you read a message." = "让您的联系人知道您阅读了消息。";
+"Let your contacts know if you received a message." = "让您的联系人知道您收到了消息。";
 "Let your contacts know when you last opened the app." = "让您的联系人知道您最后打开应用的时间。";
 /* quicksy country */
 "Liberia" = "利比里亚";
@@ -790,7 +790,7 @@
 "Monaco" = "摩纳哥";
 "Monal" = "Monal";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal 目前信任此密钥，但尚未比较指纹。为了提高安全性，请在信任此密钥之前与联系人确认显示的指纹确实匹配！";
-"Monal did not received a gps location. Please try again later." = "Monal 没有收到 GPS 定位。请稍后再试。";
+"Monal did not received a gps location. Please try again later." = "Monal 未收到 GPS 定位。请稍后重试。";
 "Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal 无法访问您的位置。请在设备的隐私设置中更新位置访问权限。";
 "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal 不信任此密钥。此密钥可能已手动禁用或在验证该联系人的其他密钥未手动验证。您可以通过切换选项来信任此密钥。在信任此密钥之前，请与联系人确认指纹是否匹配。";
 /* Camera permissions missing warning */
@@ -849,7 +849,7 @@
 "No Empty Values!" = "没有空值！";
 "No enabled account found" = "没有启用的账号";
 "No further error description" = "无进一步的错误描述";
-"No GPS location received" = "无法接收到 GPS 位置";
+"No GPS location received" = "未收到 GPS 定位";
 "No OMEMO keys found" = "没有找到 OMEMO 密钥";
 "No pending constact requests" = "没有待处理的联系人请求";
 "No search result." = "无搜索结果。";
@@ -1165,7 +1165,7 @@
 "Take me to settings" = "带我去设置";
 /* quicksy country */
 "Tanzania" = "坦桑尼亚";
-"Temporarily unavailable. Try again later." = "暂时不可用。请稍后再试。";
+"Temporarily unavailable. Try again later." = "暂时不可用。请稍后重试。";
 "Temporary failure to enter Group/Channel: %@" = "暂时无法进入群聊/频道：%@";
 "Terms of %@" = "%@ 的条款";
 "Terms of use for %@" = "%@ 的使用条款";
@@ -1177,7 +1177,7 @@
 /* Crash reporting */
 "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "本应用上次启动时崩溃了。发送崩溃报告？此崩溃报告将包含隐私相关数据。我们只会用它来调试您的崩溃并随后将其删除！";
 "The chat history has been cleared" = "聊天记录已清除";
-"The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "与服务器的连接已中断，无法获取此聊天的旧消息。请稍后再试。";
+"The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "与服务器的连接已中断，无法获取此聊天的旧消息。请稍后重试。";
 "The current password is not correct." = "当前密码不正确。";
 "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "以下按钮允许您使用几种不同的方法强制崩溃此应用以测试崩溃处理。";
 /* quicksy country */
@@ -1219,10 +1219,10 @@
 "This account already exists on this instance." = "此实例上已存在此账号。";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "此应用版本太旧，可能包含安全漏洞，也可能突然停止运行。请升级！";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "这可用于导出日志文件。\n［了解如何读取它们］（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log）。";
-"This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "此联系人似乎没有任何支持加密的设备，如果您认为这是错误的，请稍后再试。";
+"This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "此联系人似乎没有任何支持加密的设备，如果您认为有误，请稍后重试。";
 "This contact is already in the contact list of the selected account" = "此联系人已在所选账号的联系人列表中";
 "This contact is already in your contact list" = "此联系人已在您的联系人列表中";
-"This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "此联系人可能不支持 OMEMO 加密消息。请稍后再试。";
+"This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "此联系人可能不支持 OMEMO 加密消息。请稍后重试。";
 "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "此联系人可能不支持 OMEMO 加密消息。如果您认为这是错误的，请在几秒钟内再次尝试启用加密。";
 /* Crash report error dialog */
 "This device is not configured to send email." = "此设备未配置为发送电子邮件。";
