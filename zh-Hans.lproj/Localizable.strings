@@ -70,12 +70,12 @@
 "Add contact" = "添加联系人";
 "Add contact (contact requests pending)" = "添加联系人（联系人请求待处理）";
 "Add Contact or Channel" = "添加联系人或频道";
-"Add members to group" = "添加成员到群组";
+"Add members to group" = "添加成员到群聊";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "使用上方的 + 按钮以添加联系人。当您的朋友可以聊天时，他们会在这里显示";
 "Add scanned contact" = "添加扫描的联系人";
 "Add to contacts" = "添加到联系人";
 "Adding %@..." = "正在添加 %@…";
-"Adding Group/Channel..." = "正在添加群组/频道…";
+"Adding Group/Channel..." = "正在添加群聊/频道…";
 "Adding new member" = "正在添加新成员";
 "Adding..." = "正在添加…";
 "Adjust the maximum file size for auto-downloads over cellular network" = "调整通过蜂窝网络自动下载的最大文件大小";
@@ -174,7 +174,7 @@
 "Bhutan" = "不丹";
 "Block" = "屏蔽";
 "Block Contact" = "屏蔽联系人";
-"Block new contact" = "Block new contact";
+"Block new contact" = "屏蔽新联系人";
 "Block user?" = "屏蔽用户？";
 /* muc affiliation */
 "Blocked" = "已屏蔽";
@@ -182,7 +182,7 @@
 "Blocking %@" = "正在屏蔽 %@";
 "Blocking is not supported by the server" = "服务器不支持屏蔽";
 "Blocking member" = "正在屏蔽成员";
-"Blocking/Unblocking Not Supported" = "不支持屏蔽/解除屏蔽";
+"Blocking/Unblocking Not Supported" = "不支持屏蔽/取消屏蔽";
 "BODY" = "主体";
 /* quicksy country */
 "Bolivia (Plurinational State of)" = "玻利维亚";
@@ -249,8 +249,8 @@
 "Change Background Image" = "更改背景图片";
 "Change Channel Avatar" = "更改频道头像";
 "Change Chat Background" = "更改聊天背景";
-"Change Group Avatar" = "更改群组头像";
-"Change Group Members" = "更改群组成员";
+"Change Group Avatar" = "更改群聊头像";
+"Change Group Members" = "更改群聊成员";
 "Change it" = "更改它";
 "Change Password" = "更改密码";
 "Changing affiliation" = "正在更改从属关系";
@@ -271,7 +271,7 @@
 "Clear Chat History" = "清除聊天记录";
 "Clear chat history of this channel" = "清除此频道的聊天记录";
 "Clear chat history of this contact" = "清除此联系人的聊天记录";
-"Clear chat history of this group" = "清除此群组的聊天记录";
+"Clear chat history of this group" = "清除此群聊的聊天记录";
 "Clear History" = "清除聊天记录";
 "Clear scanned contact" = "清除扫描的联系人";
 "Clear text" = "清除文本";
@@ -288,12 +288,12 @@
 "Connecting..." = "正在连接…";
 /* server details */
 "Considerations for Server Administrators" = "服务器管理员的注意事项";
-"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "联系人和群组/频道 JID 通常采用以下格式：name@domain.tld";
+"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "联系人和群聊/频道地址通常采用以下格式：name@domain.tld";
 "Contact is muted" = "联系人已静音";
 "Contact is not muted" = "联系人未静音";
 "Contact not found" = "找不到联系人";
 /* placeholder when adding jid */
-"Contact or Group/Channel Jid" = "联系人或群组/频道 JID";
+"Contact or Group/Channel Jid" = "联系人或群聊/频道地址";
 "Contact Selection" = "联系人选择";
 "Contacts" = "联系人";
 /* quicksy country */
@@ -315,10 +315,10 @@
 "Could not change password" = "无法更改密码";
 "Could not change password: your account is currently not connected" = "无法更改密码：您的账号当前未连接";
 "Could not change the password" = "无法修改密码";
-"Could not configure (new) group '%@': config option '%@' not available!" = "无法配置（新）群组“%1$@”：配置选项“%2$@”不可用！";
-"Could not configure group '%@'" = "无法配置群组“%@”";
-"Could not configure group '%@': timeout" = "无法配置群组“%@”：超时";
-"Could not create group '%@': timeout" = "无法创建群组“%@”：超时";
+"Could not configure (new) group '%@': config option '%@' not available!" = "无法配置（新）群聊“%1$@”：配置选项“%2$@”不可用！";
+"Could not configure group '%@'" = "无法配置群聊“%@”";
+"Could not configure group '%@': timeout" = "无法配置群聊“%@”：超时";
+"Could not create group '%@': timeout" = "无法创建群聊“%@”：超时";
 "Could not decrypt message" = "无法解密消息";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "无法从服务器的存档中获取此聊天的（所有）旧消息。请稍后再试。 %@";
 "Could not fetch messages" = "无法获取消息";
@@ -326,7 +326,7 @@
 "Could not get default capture device" = "无法获取默认视频捕获设备";
 /* QR-Code-Scanner */
 "Could not init video session" = "无法初始化视频会话";
-"Could not join group/channel '%@': timeout" = "无法加入群组/频道“%@”：超时";
+"Could not join group/channel '%@': timeout" = "无法加入群聊/频道“%@”：超时";
 "Could not read captcha!" = "无法读取验证码！";
 "Could not register your username. Please check your code or change the username and try again." = "无法注册您的用户名。请检查您的代码或更改用户名，然后重试。";
 "Could not send" = "无法发送";
@@ -375,9 +375,9 @@
 "Denmark" = "丹麦";
 "Deny new contact" = "拒绝新联系人";
 "Destroy Channel" = "解散频道";
-"Destroy Group" = "解散群组";
+"Destroy Group" = "解散群聊";
 "Destroying channel..." = "正在解散频道…";
-"Destroying group..." = "正在解散群组…";
+"Destroying group..." = "正在解散群聊…";
 "Detected a new omemo device on your account: %@" = "在您的账号上检测到新的 OMEMO 设备：%@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "通过 SSDP 检测到正在进行的中间人攻击，中止身份验证并禁用账号以限制损害。一旦您再次处于干净的网络环境中，您应该尝试重新启用您的账号。";
 "Device ID: " = "设备 ID： ";
@@ -401,7 +401,7 @@
 "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "是否确定要解散此群组？将会踢出每位成员，之后解散群组。";
 "Do you really want to disable encryption for this contact?" = "是否确定要禁用此联系人的加密？";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "是否确定要重置 OMEMO 会话？如果您不确定，您就应该只重置连接！";
-"Do you want to block this user from entering this group/channel?" = "是否要阻止此用户进入此群组/频道？";
+"Do you want to block this user from entering this group/channel?" = "是否要禁止此用户进入此群聊/频道？";
 "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "是否要从此频道中移除该用户？如果您不屏蔽该用户，该用户将能够再次进入。";
 "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "是否要从此群组中移除该用户？在添加回群组之前，该用户将无法再次进入。";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "是否要信任联系人 %@ 的扫描指纹，在您使用账号 %@ 时？";
@@ -467,7 +467,7 @@
 "Error creating group!" = "创建群组时出错！";
 "Error decrypting message" = "解密消息时出错";
 "Error destroying group!" = "解散群组时出错！";
-"Error entering group/channel!" = "进入群组/频道时出错！";
+"Error entering group/channel!" = "进入群聊/频道时出错！";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (iteration count too low), disconnecting!" = "处理服务器的 SASL 质询时出错（迭代计数太低），正在断开连接！";
 /* parenthesis should be verbatim */
@@ -482,7 +482,7 @@
 "Error removing avatar!" = "移除头像时出错！";
 "Error removing user!" = "移除用户时出错！";
 "Error requesting SMS!" = "请求短信时出错！";
-"Error unblocking user!" = "解除屏蔽用户时出错！";
+"Error unblocking user!" = "取消屏蔽用户时出错！";
 "Error while decrypting: iv.length != 12" = "解密时出错：iv.length != 12";
 "Error: %@" = "错误：%@";
 "Error: Account disabled, can not display keys!" = "错误：账号已禁用，无法显示密钥！";
@@ -507,29 +507,29 @@
 "Failed to decrypt filetransfer" = "解密文件传输失败";
 "Failed to delete own avatar" = "删除自己的头像失败";
 "Failed to delete own nickname" = "删除自己的昵称失败";
-"Failed to destroy group/channel '%@'" = "无法解散群组/频道“%@”";
-"Failed to destroy group/channel '%@': timeout" = "无法解散群组/频道“%@”：超时";
+"Failed to destroy group/channel '%@'" = "无法解散群聊/频道“%@”";
+"Failed to destroy group/channel '%@': timeout" = "无法解散群聊/频道“%@”：超时";
 "Failed to download file: %@" = "下载文件失败：%@";
 "Failed to enable carbons for account %@" = "无法为账号 %@ 启用抄送";
 "Failed to encrypt file" = "无法加密文件";
-"Failed to enter Group/Channel %@" = "无法进入群组/频道 %@";
-"Failed to enter Group/Channel %@: This is not a Group/Channel!" = "无法进入群组/频道 %@：这不是一个群组/频道！";
+"Failed to enter Group/Channel %@" = "无法进入群聊/频道 %@";
+"Failed to enter Group/Channel %@: This is not a Group/Channel!" = "无法进入群聊/频道 %@：这不是群聊/频道！";
 "Failed to export the database, please check the logfile for errors and try again." = "无法导出数据库，请检查日志文件中的错误，然后重试。";
 "Failed to fetch download metadata: %@" = "无法获取下载元数据：%@";
 "Failed to fetch room config form for '%@'" = "无法获取“%@”的群聊配置表单";
 "Failed to load blocklist" = "无法加载屏蔽列表";
-"Failed to moderate message in group/channel '%@'" = "无法审核群组/频道“%@”中的消息";
+"Failed to moderate message in group/channel '%@'" = "无法审核撤回群聊/频道“%@”中的消息";
 "Failed to move uploaded file to file cache directory" = "无法将上传的文件移动到文件缓存目录";
 "Failed to parse URL returned by HTTP upload server" = "无法解析由 HTTP 上传服务器返回的 URL";
-"Failed to publish avatar image for group/channel %@" = "发布群组/频道 %@ 的头像失败";
+"Failed to publish avatar image for group/channel %@" = "无法发布群聊/频道 %@ 的头像图片";
 "Failed to publish own avatar" = "发布自己的头像失败";
 "Failed to publish own nickname" = "发布自己的昵称失败";
 "Failed to query for new messages on account %@" = "查询账号 %@ 的新消息失败";
-"Failed to query new messages for Group/Channel (catchup) %@" = "无法查询群组/频道（跟进） %@ 的新消息";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "无法查询群组/频道（节 ID） %@ 的新消息";
+"Failed to query new messages for Group/Channel (catchup) %@" = "无法查询群聊/频道（跟进） %@ 的新消息";
+"Failed to query new messages for Group/Channel (stanzaid) %@" = "无法查询群聊/频道（节 ID） %@ 的新消息";
 "Failed to query newest stanzaid for account %@" = "查询账号 %@ 的最新节 id 失败";
-"Failed to remove bookmark for Group/Channel: %@" = "无法移除群组/频道的书签：%@";
-"Failed to save bookmark for Group/Channel: %@" = "无法保存群组/频道的书签：%@";
+"Failed to remove bookmark for Group/Channel: %@" = "无法移除群聊/频道的书签：%@";
+"Failed to save bookmark for Group/Channel: %@" = "无法保存群聊/频道的书签：%@";
 "Failed to save groupchat bookmarks" = "保存群聊书签失败";
 "Failed to share file" = "共享文件失败";
 "Failed to synchronize phonebook" = "同步电话簿失败";
@@ -589,10 +589,10 @@
 "Group name" = "群组名称";
 /* placeholder when creating new group */
 "Group Name (optional)" = "群组名（可选）";
-"Group subject:" = "群组话题：";
-"Group/Channel description" = "群组/频道描述";
-"Group/Channel got destroyed: %@" = "群组/频道已解散：%@";
-"Group/Channel not available anymore: %@" = "群组/频道不再可用：%@";
+"Group subject:" = "群聊话题：";
+"Group/Channel description" = "群聊/频道描述";
+"Group/Channel got destroyed: %@" = "群聊/频道已解散：%@";
+"Group/Channel not available anymore: %@" = "群聊/频道不再可用：%@";
 "groupJoin Group" = "群组加入群组";
 /* quicksy country */
 "Guadeloupe" = "瓜德罗普岛";
@@ -648,7 +648,7 @@
 "Inviting new member" = "正在邀请新成员";
 "Inviting new participant" = "正在邀请新参与者";
 "Inviting user" = "正在邀请用户";
-"Inviting user to this group/channel: %@" = "正在邀请用户加入此群组/频道：%@";
+"Inviting user to this group/channel: %@" = "正在邀请用户加入此群聊/频道：%@";
 /* quicksy country */
 "Iran (Islamic Republic of)" = "伊朗";
 /* quicksy country */
@@ -675,8 +675,8 @@
 /* quicksy country */
 "Kenya" = "肯尼亚";
 "Keys of %@" = "%@ 的密钥";
-"Kicked from group/channel, because of system shutdown: %@" = "由于系统关闭，被踢出群组/频道：%@";
-"Kicked, because group/channel is now members-only: %@" = "由于群组/频道现为仅成员进入，被踢出：%@";
+"Kicked from group/channel, because of system shutdown: %@" = "由于系统关闭，已从群聊/频道中踢出：%@";
+"Kicked, because group/channel is now members-only: %@" = "已踢出，因为群聊/频道现在仅成员进入：%@";
 /* quicksy country */
 "Kiribati" = "基里巴斯";
 /* quicksy country */
@@ -1140,8 +1140,8 @@
 "Success" = "成功";
 "Success!" = "成功！";
 "Successfully destroyed channel." = "已成功解散频道。";
-"Successfully destroyed group." = "已成功解散群组。";
-"Successfully joined group/channel %@!" = "已成功加入群组/频道 %@！";
+"Successfully destroyed group." = "已成功解散群聊。";
+"Successfully joined group/channel %@!" = "已成功加入群聊/频道 %@！";
 /* quicksy country */
 "Sudan" = "苏丹";
 "Support" = "支持";
@@ -1166,7 +1166,7 @@
 /* quicksy country */
 "Tanzania" = "坦桑尼亚";
 "Temporarily unavailable. Try again later." = "暂时不可用。请稍后再试。";
-"Temporary failure to enter Group/Channel: %@" = "暂时无法进入群组/频道：%@";
+"Temporary failure to enter Group/Channel: %@" = "暂时无法进入群聊/频道：%@";
 "Terms of %@" = "%@ 的条款";
 "Terms of use for %@" = "%@ 的使用条款";
 /* quicksy country */
@@ -1252,7 +1252,7 @@
 "This will clear the whole chat history of this account from this device." = "从此设备清除此账号的全部聊天记录。";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "这将从服务器和设备中删除此账号以及相关数据。不过，数据可能仍保留在其他设备上。";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "即使您的 XMPP 服务器不提供 TURN 服务器，也可以进行通话。";
-"This will remove the current avatar image and revert this group/channel to the default one." = "将会移除当前的头像图片，并恢复此群组/频道默认图片。";
+"This will remove the current avatar image and revert this group/channel to the default one." = "将会移除当前的头像图片并将此群聊/频道恢复为默认头像。";
 "This will remove this account and the associated data from this device." = "这将从此设备中移除此账号和相关数据。";
 "Timeout Error" = "超时错误";
 /* quicksy country */
@@ -1299,9 +1299,9 @@
 /* quicksy country */
 "Ukraine" = "乌克兰";
 "Unable to connect to server!" = "无法连接到服务器！";
-"Unblock Contact" = "解除屏蔽联系人";
-"Unblocking user" = "正在解除屏蔽用户";
-"Unblocking user for this group/channel: %@" = "正在解除屏蔽此群组/频道的用户：%@";
+"Unblock Contact" = "取消屏蔽联系人";
+"Unblocking user" = "正在取消屏蔽用户";
+"Unblocking user for this group/channel: %@" = "正在取消屏蔽此群聊/频道的用户：%@";
 "Unclean appex shutown" = "未清理的 appex 关闭";
 "Understood" = "了解";
 "Unexpected appex expiration" = "非预期的 appex 过期";
@@ -1427,9 +1427,9 @@
 "You are using an out of date version of this app." = "您正在使用此应用的过时版本。";
 "You can customize even more, just use the button below to open the settings." = "您可以自定义更多，只需使用下面的按钮打开设置。";
 "You did not grant Monal to access your location." = "您没有授权 Monal 访问您的位置。";
-"You got banned from group/channel: %@" = "您已被封禁于群组/频道：%@";
-"You got kicked from group/channel: %@" = "您已被踢出群组/频道：%@";
-"You got removed from group/channel: %@" = "您已从群组/频道中移除：%@";
+"You got banned from group/channel: %@" = "禁止您进入群聊/频道：%@";
+"You got kicked from group/channel: %@" = "已将您踢出了群聊/频道：%@";
+"You got removed from group/channel: %@" = "已将您从群聊/频道中移除：%@";
 "You have not entered your XMPP ID yet" = "您尚未输入 XMPP 地址";
 "You need friends for this ride" = "您需要朋友来参加这次旅行";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "如果您希望其他人可以听到您的声音，您需要在 iOS 设置 -> 隐私 -> 麦克风中授予麦克风访问权限。";
