@@ -44,7 +44,7 @@
 "<unknown version>" = "<未知版本>";
 /* muc affiliation */
 "<unknown>" = "<未知>";
-"A contact was scanned through the QR code scanner" = "通过二维码扫描了联系人";
+"A contact was scanned through the QR code scanner" = "通过二维码扫描到一位联系人";
 "Abort" = "中止";
 "Aborted recording audio" = "中止录制音频";
 "About" = "关于";
@@ -91,7 +91,7 @@
 "Albania" = "阿尔巴尼亚";
 /* quicksy country */
 "Algeria" = "阿尔及利亚";
-"All messages are archived by default." = "所有消息默认都会被存档。";
+"All messages are archived by default." = "所有消息默认都会存档。";
 "All messages fetched successfully, there are no more left on the server!" = "成功获取所有消息，服务器上没有更多的消息了！";
 "Allow contacts in your contact list to query your Monal and iOS versions." = "允许联系人列表中的联系人查询您的 Monal 和 iOS 版本。";
 "Allow contacts not in your contact list to call you." = "允许不在您的联系人列表中的联系人给您打电话。";
@@ -103,7 +103,7 @@
 "Already uploading this content, ignoring" = "已上传过此内容，忽略";
 "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "还请注意：您将无法从服务器加载旧聊天记录，Monal 在获取后会立即删除！";
 "Always archive" = "始终存档";
-"Always use direct TLS, not STARTTLS" = "始终使用 Direct TLS，而不是 STARTTLS";
+"Always use direct TLS, not STARTTLS" = "始终使用直接 TLS，而不是 STARTTLS";
 /* quicksy country */
 "American Samoa" = "美属萨摩亚";
 "An error happened when trying to request the SMS:" = "尝试请求短信时出错：";
@@ -222,9 +222,9 @@
 "Calls: Allow TURN fallback to Monal-Servers" = "通话：允许 TURN 回退到 Monal 服务器";
 /* quicksy country */
 "Cambodia" = "柬埔寨";
-"Camera" = "摄像头";
+"Camera" = "相机";
 /* Camera permissions missing warning */
-"Camera permissions missing" = "缺少摄像头权限";
+"Camera permissions missing" = "缺少相机权限";
 /* quicksy country */
 "Cameroon" = "喀麦隆";
 "Can Show Notifications" = "可以显示通知";
@@ -404,7 +404,7 @@
 "Do you want to block this user from entering this group/channel?" = "是否要禁止此用户进入此群聊/频道？";
 "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "是否要从此频道中移除该用户？如果您不屏蔽该用户，该用户将能够再次进入。";
 "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "是否要从此群聊中移除该用户？在添加回群聊之前，该用户将无法再次进入。";
-"Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "是否要信任联系人 %@ 的扫描指纹，在您使用账号 %@ 时？";
+"Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "是否要信任联系人 %@ 扫描的指纹，在您使用账号 %@ 时？";
 "Doing a lot of work..." = "大量工作中…";
 "Domain missing" = "缺少域名";
 /* quicksy country */
@@ -619,7 +619,7 @@
 "I need an account:" = "我需要账号：";
 /* quicksy country */
 "Iceland" = "冰岛";
-"If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "如果 Monal 无法显示通知，则当消息到达时您将看不到提示。如果您在 Monal 第一次请求许可时点击“拒绝”，就会发生这种情况。通过转到 iOS 设置 -> Monal -> 通知并选择“允许通知”来修复它。";
+"If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "如果 Monal 无法显示通知，您将不会在消息到达时看到提醒。如果您在 Monal 首次请求权限时点按了“拒绝”，就会出现这种情况。通过转到 iOS 设置 -> Monal -> 通知并选择“允许通知”来解决此问题。";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "如果关闭，您的设备将无法在 XMPP 服务器上激活推送，请确保已将其配置为支持 XEP-0357.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "如果您开启此功能，您将不再安全，不会受到中间人攻击。这种攻击能让对手操纵您的收发消息、添加他们自己的 OMEMO 密钥、更改您的账号详请，甚至知道或更改您的密码！\n\n您应该切换到另一台服务器，而不是开启此功能。";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "如果要使用音频消息，则需要在设置 -> 隐私 -> 麦克风中允许访问。";
@@ -792,9 +792,9 @@
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal 目前信任此密钥，但尚未比较指纹。为了提高安全性，请在信任此密钥之前与联系人确认显示的指纹确实匹配！";
 "Monal did not received a gps location. Please try again later." = "Monal 没有收到 GPS 定位。请稍后再试。";
 "Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal 无法访问您的位置。请在设备的隐私设置中更新位置访问权限。";
-"Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal 不信任此密钥。它可能已被手动禁用，或者在验证其它密钥时未进行手动验证。您可以通过使用切换元素来信任此密钥。在信任此密钥之前，请确保与联系人确认指纹是否匹配。";
+"Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal 不信任此密钥。此密钥可能已手动禁用或在验证该联系人的其他密钥未手动验证。您可以通过切换选项来信任此密钥。在信任此密钥之前，请与联系人确认指纹是否匹配。";
 /* Camera permissions missing warning */
-"Monal is not allowed to access the camera" = "Monal 不被允许访问摄像头";
+"Monal is not allowed to access the camera" = "不允许 Monal 访问摄像头";
 "Monal was not able to send your attachment!" = "Monal 无法发送您的附件！";
 "Monal was not able to send your attachment: %@" = "Monal 无法发送您的附件：%@";
 /* quicksy country */
@@ -947,7 +947,7 @@
 /* quicksy country */
 "Poland" = "波兰";
 "Port" = "端口";
-"Port: %@, Direct TLS: %@, Priority: %@" = "端口：%@，Direct TLS：%@，优先级：%@";
+"Port: %@, Direct TLS: %@, Priority: %@" = "端口：%@、直接 TLS：%@、优先级：%@";
 /* quicksy country */
 "Portugal" = "葡萄牙";
 "Previews" = "预览";
@@ -1192,13 +1192,13 @@
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "二维码包含账号的登录凭据。进入设置 -> 新账号并重新扫描二维码";
 "The resource '%@' has the following capabilities:" = "资源“%@”具有以下功能：";
-"The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "可选的 XMPP 服务器是不隶属于 Monal 的公共服务器。提供此注册页面仅为了方便起见。";
+"The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "可选的 XMPP 服务器是公共服务器，不隶属于 Monal。提供此注册页面仅为了方便起见。";
 "The server does not support blocking (XEP-0191)." = "服务器不支持屏蔽（XEP-0191）。";
 "The UDP logger allows you to livestream the log to the configured IP." = "UDP 日志记录器允许您将日志实时传输到配置的 IP。";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP 日志记录器允许您将日志实时传输到配置的 IP。通过互联网传输时请使用安全密钥！\n［了解如何接收日志流］（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log）。";
 "The user %@ (%@) wants to add you to their contact list" = "用户 %1$@ (%2$@) 想要将您添加到他们的联系人列表中";
 "The username does not need to have an @ symbol. Please try again." = "用户名不需要有 @ 符号。请重试。";
-"There is no configured email account. Please email info@monal-im.org ." = "没有配置的电子邮件账号。请发送电子邮件至 info@monal-im.org。";
+"There is no configured email account. Please email info@monal-im.org ." = "未配置电子邮件账号。请发送电子邮件至 info@monal-im.org。";
 "There was a SASL error on the server." = "服务器上出现 SASL 错误。";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "解密此加密消息时出错（Signal 错误）。要解决这个问题，请尝试向此人发送加密消息。";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "解密此加密消息时出错（Signal 错误）。要解决这个问题，请尝试向此人发送加密消息。(%@)";
@@ -1230,14 +1230,14 @@
 "This is an embedded file that can not be opened externally." = "这是无法从外部打开的嵌入式文件。";
 "This is the software running on your server." = "这是服务器上运行的软件。";
 "This key belongs to this device and cannot be removed or disabled!" = "此密钥属于此设备，无法移除或禁用！";
-"This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "此密钥是可信的，并通过手动比较指纹进行验证。要停止信任此密钥，请使用切换元素。";
+"This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "此密钥是可信的，已通过手动比较指纹验证。要停止信任此密钥，请切换选项。";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "此密钥是可信的，但联系人不再使用它。请考虑禁用对此密钥的信任。";
 "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "此密钥是可信的，但联系人已经很久没有使用它了。请考虑禁用对此密钥的信任";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "这意味着您的通话已加密，并且远程方已使用 OMEMO 加密进行验证。\n但由于您没有手动验证被呼叫者的 OMEMO 指纹，您或被呼叫者的 XMPP 服务器可能已由中间人插入了他们自己的 OMEMO 密钥。";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "这意味着您的通话已加密，并且远程方已使用 OMEMO 加密进行验证。\n您手动验证了使用的 OMEMO 密钥，并且不会发生中间人攻击。";
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "这意味着您的通话已加密，但无法使用 OMEMO 加密来验证远程方。\n您或被呼叫者的 XMPP 服务器可能会对您进行中间人攻击。";
 "This message failed to send (%@): %@" = "此消息发送失败（%@）：%@";
-"This message got retracted" = "此消息已被撤回";
+"This message got retracted" = "已撤回此消息";
 "This phone number is currently logged in with another device." = "此电话号码当前已通过其他设备登录。";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "此服务器似乎不支持 HTTP 文件上传（XEP-0363）。请联系管理员启用。";
 "This server does not have any SRV records in DNS." = "此服务器在 DNS 中没有任何 SRV 记录。";
@@ -1326,7 +1326,7 @@
 "Unknown error!" = "未知错误！";
 "Unread Messages Below" = "以下为未读消息";
 "unsupported" = "不支持";
-"Untrusted key" = "不信任的密钥";
+"Untrusted key" = "未受信任的密钥";
 "Upload Error" = "上传错误";
 "Upload Error: your account got disconnected while requesting upload slot" = "上传错误：您的账号在请求上传插槽时断开连接";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "将文件上传到服务器与他人分享。（服务器报告的最大允许文件大小：%@）";
