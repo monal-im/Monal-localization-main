@@ -101,7 +101,7 @@
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "允许某人将您添加为联系人，可让他们看到您的个人资料照片以及您何时在线。";
 "Already present" = "已经存在";
 "Already uploading this content, ignoring" = "已上传过此内容，忽略";
-"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "还请注意：您将无法从服务器加载旧聊天记录，Monal 在获取后会立即删除！";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "还请注意：您将无法从服务器加载较旧的历史记录，Monal 在获取后会立即删除！";
 "Always archive" = "始终存档";
 "Always use direct TLS, not STARTTLS" = "始终使用直接 TLS，而不是 STARTTLS";
 /* quicksy country */
@@ -766,7 +766,7 @@
 "Me:" = "我：";
 /* muc affiliation */
 "Member" = "成员";
-"Message from %@" = "以 %@ 发送消息";
+"Message from %@" = "消息来自 %@";
 "Message was encrypted with '%@' which isn't supported by Monal" = "消息已使用 Monal 不支持的“%@”加密";
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "消息已使用 OMEMO 加密，无法再解密";
 "Message was encrypted with OMEMO but could not be decrypted" = "消息已使用 OMEMO 加密，但无法解密";
@@ -844,18 +844,18 @@
 "No account available to handel 'xmpp:' URI!" = "没有账号可用于处理 'xmpp:' URL！";
 "No accounts set up currently" = "账号目前没有设置";
 "No active conversations" = "没有活动对话";
-"No connected accounts" = "无已连接账号";
+"No connected accounts" = "没有已连接的账号";
 "No contacts to show :(" = "没有要显示的联系人 :(";
 "No Empty Values!" = "没有空值！";
-"No enabled account found" = "没有启用的账号";
+"No enabled account found" = "未找到已启用的账号";
 "No further error description" = "无进一步的错误描述";
 "No GPS location received" = "未收到 GPS 定位";
-"No OMEMO keys found" = "没有找到 OMEMO 密钥";
+"No OMEMO keys found" = "未找到 OMEMO 密钥";
 "No pending constact requests" = "没有待处理的联系人请求";
 "No search result." = "无搜索结果。";
 "No supported auth mechanism found, disabling account!" = "找不到支持的身份验证机制，正在禁用账号！";
 "No XMPP server!" = "没有 XMPP 服务器！";
-"No, keep encryption activated" = "否，保持加密处于激活状态";
+"No, keep encryption activated" = "否，保持加密已激活";
 /* Crash reporting */
 "No, thanks" = "不，谢谢";
 "None" = "没有";
@@ -874,9 +874,9 @@
 /* Message autdelete time */
 "Off" = "关";
 /* Crash report error dialog */
-"OK" = "OK";
-"Ok" = "好";
-"Okay" = "好的";
+"OK" = "确定";
+"Ok" = "确定";
+"Okay" = "确定";
 "Older, slower, but still secure TLS version" = "较旧、较慢但仍然安全的 TLS 版本";
 /* quicksy country */
 "Oman" = "阿曼";
@@ -893,7 +893,7 @@
 "Open in default browser" = "在默认浏览器中打开";
 "Open iOS settings" = "打开 iOS 设置";
 "Open macOS settings" = "打开 macOS 设置";
-"Open Profile of %@" = "打开 %@ 的配置文件";
+"Open Profile of %@" = "打开 %@ 的个人资料";
 "Open Source" = "开源";
 "Open URLs inline in Safari" = "在 Safari 中打开内嵌 URL";
 "Optional Hardcoded Hostname" = "可选的硬编码的主机名";
@@ -918,7 +918,7 @@
    placeholder when migrating account */
 "Password" = "密码";
 /* placeholder when creating account */
-"Password (repeated)" = "密码（重复输入）";
+"Password (repeated)" = "密码（重输）";
 "Password cannot be empty" = "密码不能为空";
 "Password missing" = "密码丢失";
 "Passwords don't match!" = "密码不匹配！";
@@ -928,9 +928,9 @@
 /* quicksy country */
 "Philippines" = "菲律宾";
 "Photos" = "照片";
-"Pin Chat" = "固定聊天";
+"Pin Chat" = "置顶聊天";
 "Play Sounds" = "播放声音";
-"Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "请先在设置下添加新账号。如果您已经添加了您的账号，您可能需要在设置下启用";
+"Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "请先在设置下添加新账号。如果您已经添加了账号，可能需要在设置下启用";
 "Please Allow Audio Access" = "请允许音频访问";
 "Please enter a password below before activating this account." = "请在下面输入密码，然后再激活此账号。";
 "Please enter the six-digit pin below" = "请在下面输入六位数的 PIN 码";
@@ -1014,7 +1014,7 @@
 "Rename Group" = "重命名群聊";
 "Reply" = "回复";
 "Requesting validation SMS..." = "正在请求验证短信…";
-"Required" = "需要";
+"Required" = "必填";
 "Reset OMEMO session" = "重置 OMEMO 会话";
 "Resource" = "资源";
 "Resources" = "资源";
@@ -1103,7 +1103,7 @@
 /* quicksy country */
 "Seychelles" = "塞舌尔";
 "Sharing failed" = "分享失败";
-"Show inline geo location" = "显示内嵌的地理位置";
+"Show inline geo location" = "显示内嵌地理位置";
 "Show shared Media and Files" = "显示分享的媒体和文件";
 "Show URL previews" = "显示 URL 预览";
 /* quicksy country */
@@ -1122,8 +1122,8 @@
 "Somalia" = "索马里";
 "Some debug settings." = "一些调试设置。";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "某些消息可能在等待检索或发送。请打开应用重试。";
-"Something went wrong processing your request." = "处理您的请求时出错。";
-"Something went wrong while parsing your input..." = "解析输入时出了问题…";
+"Something went wrong processing your request." = "处理您的请求时出了点问题。";
+"Something went wrong while parsing your input..." = "解析您的输入时出了点问题…";
 "Sounds" = "音效";
 "Sounds courtesy Emrah" = "感谢 Emrah 提供音效";
 /* quicksy country */
@@ -1172,7 +1172,7 @@
 /* quicksy country */
 "Thailand" = "泰国";
 "The account has been deleted" = "账号已删除";
-"The account has been removed" = "已移除账号";
+"The account has been removed" = "账号已移除";
 "The account has been saved" = "账号已保存";
 /* Crash reporting */
 "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "本应用上次启动时崩溃了。发送崩溃报告？此崩溃报告将包含隐私相关数据。我们只会用它来调试您的崩溃并随后将其删除！";
@@ -1184,7 +1184,7 @@
 "The Former Yugoslav Republic of Macedonia" = "北马其顿";
 "The jid you want to add should be in in the format user@domain.tld." = "要添加的 XMPP 地址应采用 user@domain.tld 格式。";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "密钥当前处于未正确处理的状态。如果您看到此提示，请联系开发人员。";
-"The new contact will be added to your contacts list when the person you've added has approved your request." = "当您添加的人批准了您的请求后，新联系人将会添加到您的联系人列表中。";
+"The new contact will be added to your contacts list when the person you've added has approved your request." = "当您添加的联系人批准了您的请求后，新联系人将会添加到您的联系人列表。";
 "The operator of the webserver providing that URL may see your IP address." = "提供该 URL 的网络服务器运营商可能会看到您的 IP 地址。";
 "The password has been changed" = "密码已更改";
 "The pin we have sent you has expired." = "我们发送给您的 PIN 已过期。";
@@ -1195,7 +1195,7 @@
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "可选的 XMPP 服务器是公共服务器，不隶属于 Monal。提供此注册页面仅为了方便起见。";
 "The server does not support blocking (XEP-0191)." = "服务器不支持屏蔽（XEP-0191）。";
 "The UDP logger allows you to livestream the log to the configured IP." = "UDP 日志记录器允许您将日志实时传输到配置的 IP。";
-"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP 日志记录器允许您将日志实时传输到配置的 IP。通过互联网传输时请使用安全密钥！\n［了解如何接收日志流］（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log）。";
+"The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP 日志记录器允许您将日志实时传输到配置的 IP。通过互联网传输时请使用安全密钥！\n[了解如何接收日志流](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)。";
 "The user %@ (%@) wants to add you to their contact list" = "用户 %1$@ (%2$@) 想要将您添加到他们的联系人列表中";
 "The username does not need to have an @ symbol. Please try again." = "用户名不需要有 @ 符号。请重试。";
 "There is no configured email account. Please email info@monal-im.org ." = "未配置电子邮件账号。请发送电子邮件至 info@monal-im.org。";
@@ -1211,19 +1211,19 @@
 "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "这些是服务器支持的 SASL2 认证方式（Monal 使用的是蓝色条目，不支持橙色条目）。";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "这些是 Monal 支持的 TLS 版本，用于连接服务器的版本将显示为绿色。";
 "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "这些是您的加密密钥。每台设备都是您登录的不同位置。验证密钥后，您应该信任它。 双击指纹即可复制到剪贴板。";
-"They will no longer see when you are online. They may not be able to access your encryption keys." = "他们将不再看到您什么时候在线。他们可能无法访问您的加密密钥。";
-"They will no longer see when you are online. They may not be able to send you encrypted messages." = "他们将不再看到您什么时候在线。他们可能无法向您发送加密消息。";
-"They will see when you are online. They will be able to send you encrypted messages." = "他们会看到您什么时候在线。他们将能够向您发送加密消息。";
-"This account already exists in Monal." = "在 Monal 已经存在这个账号。";
+"They will no longer see when you are online. They may not be able to access your encryption keys." = "他们将不再看到您何时在线。他们可能无法访问您的加密密钥。";
+"They will no longer see when you are online. They may not be able to send you encrypted messages." = "他们将不再看到您何时在线。他们可能无法向您发送加密消息。";
+"They will see when you are online. They will be able to send you encrypted messages." = "他们会看到您何时在线。他们将能够向您发送加密消息。";
+"This account already exists in Monal." = "此账号在 Monal 已经存在。";
 "This account already exists on this instance" = "此实例上已存在此账号";
-"This account already exists on this instance." = "此实例上已存在此账号。";
+"This account already exists on this instance." = "此账号在此实例上已经存在。";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "此应用版本太旧，可能包含安全漏洞，也可能突然停止运行。请升级！";
-"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "这可用于导出日志文件。\n［了解如何读取它们］（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log）。";
+"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "这可用于导出日志文件。\n[了解如何读取它们](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)。";
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "此联系人似乎没有任何支持加密的设备，如果您认为有误，请稍后重试。";
 "This contact is already in the contact list of the selected account" = "此联系人已在所选账号的联系人列表中";
 "This contact is already in your contact list" = "此联系人已在您的联系人列表中";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "此联系人可能不支持 OMEMO 加密消息。请稍后重试。";
-"This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "此联系人可能不支持 OMEMO 加密消息。如果您认为这是错误的，请在几秒钟内再次尝试启用加密。";
+"This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "此联系人可能不支持 OMEMO 加密消息。如果您认为有误，请稍后再次尝试启用加密。";
 /* Crash report error dialog */
 "This device is not configured to send email." = "此设备未配置为发送电子邮件。";
 "This invitation will expire on %@" = "此邀请将于 %@ 到期";
@@ -1242,7 +1242,7 @@
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "此服务器似乎不支持 HTTP 文件上传（XEP-0363）。请联系管理员启用。";
 "This server does not have any SRV records in DNS." = "此服务器在 DNS 中没有任何 SRV 记录。";
 "This server does not provide any MUC servers." = "此服务器不提供任何群聊服务。";
-"This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "此服务器不支持任何新式的通道绑定，以防止 TLS 层中间人攻击。";
+"This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "此服务器不支持任何新式的通道绑定来防止 TLS 层中间人攻击。";
 "This server does not support modern SASL2 authentication." = "此服务器不支持新式的 SASL2 身份验证。";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "此服务器未使用可抵御中间人攻击的身份验证方法来对 TLS 加密层进行额外的强化！如果服务器应该支持 SASL2 和 SCRAM，则表示正在进行攻击，否则是无害的。如果您仍然想登录到此服务器，请使用高级账号创建菜单并打开那里的 PLAIN 开关。";
 "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "此服务器缺乏对 SASL2 和 SCRAM 的支持，另外还强化了针对 TLS 加密层的中间人攻击的身份验证。由于此服务器在 https://github.com/monal-im/SCRAM_PreloadList 上被列为支持两者（或者您在使用高级账号创建菜单时故意关闭了 PLAIN 开关），因此很可能正在发生中间人攻击！请您在干净的网络环境中重试。";
