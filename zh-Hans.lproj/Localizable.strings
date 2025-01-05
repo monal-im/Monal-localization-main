@@ -1338,7 +1338,7 @@
 /* quicksy country */
 "Uruguay" = "乌拉圭";
 "Use account" = "使用账号";
-"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "在连接到 DNS 响应中指定的 IP 地址之前，使用 DNSSEC 验证所有 DNS 查询响应。\n虽然更安全，但这可能会导致某些网络的连接问题，如酒店 WiFi、恶心的移动运营商等。";
+"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "在连接到 DNS 响应中指定的 IP 地址之前，使用 DNSSEC 验证所有 DNS 查询响应。\n虽然更安全，但这可能会导致某些网络出现连接问题，如酒店 WiFi、不良移动运营商等。";
 "Use DNSSEC validation for all connections" = "对所有连接使用 DNSSEC 验证";
 "User Interface" = "用户界面";
 /* placeholder when adding account */
@@ -1383,7 +1383,7 @@
 "What call do you want to place?" = "您想拨打什么电话？";
 "When disabled, URLs will opened in your default browser (that might not be Safari)." = "禁用后，URL 将在默认浏览器（可能不是 Safari）中打开。";
 "When you start a conversation\nwith someone, they will\nshow up here." = "当您与某人开始\n对话时，他们就会\n出现在这里。";
-"Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "将文本框焦点放在连接了硬件键盘的 macOS 或 iOS 上，否则将打开软件键盘。";
+"Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "将文本框聚焦在连接了硬件键盘的 macOS 或 iOS 上，否则将打开软件键盘。";
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
 "Wrong menu" = "错误的菜单";
@@ -1408,9 +1408,9 @@
 "XMPP ID" = "XMPP 地址";
 "XMPP ID missing" = "缺少 XMPP 地址";
 "XMPP mam preferences error" = "XMPP 消息存档管理首选项错误";
-"XMPP protocol extension for communications blocking." = "XMPP 协议扩展，用于通信屏蔽。";
-"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP 协议扩展，用于发现 XMPP 网络的外部服务，例如音频/视频通话所需的 STUN 或 TURN 服务器。";
-"XMPP protocol extension for sending application-level pings over XML streams." = "XMPP 协议扩展，用于通过 XML 流发送应用程序级 ping。";
+"XMPP protocol extension for communications blocking." = "用于通信屏蔽的 XMPP 扩展协议。";
+"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "用于发现 XMPP 网络外部服务的 XMPP 扩展协议，例如音频/视频通话所需的 STUN 或 TURN 服务器。";
+"XMPP protocol extension for sending application-level pings over XML streams." = "用于通过 XML 流发送应用程序级 Ping 的 XMPP 扩展协议。";
 "XMPP Roster Error" = "XMPP 花名册错误";
 "XMPP server domain not valid!" = "XMPP 服务器域无效！";
 "XMPP stream error %@: %@" = "XMPP 流错误 %1$@：%2$@";
