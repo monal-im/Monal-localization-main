@@ -98,7 +98,7 @@
 "Allow contacts not in your contact list to contact you." = "允许不在您的联系人列表中的联系人与您联系。";
 "Allow MITM-prone PLAIN authentication" = "允许倾向于中间人攻击的 PLAIN 身份验证";
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "允许设备与远程方建立直接网络连接。这可能会将您的 IP 地址泄露给呼叫者/被呼叫者。";
-"Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "允许某人将您添加为联系人可以让他们看到您的个人资料图片以及您何时在线。";
+"Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "允许某人将您添加为联系人，可让他们看到您的个人资料照片以及您何时在线。";
 "Already present" = "已经存在";
 "Already uploading this content, ignoring" = "已上传过此内容，忽略";
 "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "还请注意：您将无法从服务器加载旧聊天记录，Monal 在获取后会立即删除！";
@@ -228,7 +228,7 @@
 /* quicksy country */
 "Cameroon" = "喀麦隆";
 "Can Show Notifications" = "可以显示通知";
-"Can't convert the image to jpeg format." = "无法将图片转换为 jpeg 格式。";
+"Can't convert the image to jpeg format." = "无法将图片转换为 JPEG 格式。";
 /* quicksy country */
 "Canada" = "加拿大";
 "Cancel" = "取消";
@@ -251,13 +251,13 @@
 "Change Chat Background" = "更改聊天背景";
 "Change Group Avatar" = "更改群聊头像";
 "Change Group Members" = "更改群聊成员";
-"Change it" = "更改它";
+"Change it" = "更改";
 "Change Password" = "更改密码";
 "Changing affiliation" = "正在更改从属关系";
 "Changing affiliation to %@: %@" = "正在更改从属关系 %@：%@";
 "Changing Password" = "更改密码";
 "Channel Avatar" = "频道头像";
-"Channel name" = "频道名称";
+"Channel name" = "频道名";
 "Channel Participants" = "频道参与者";
 "Channel subject:" = "频道话题：";
 "Chat Background" = "聊天背景";
@@ -395,7 +395,7 @@
 /* quicksy country */
 "Djibouti" = "吉布提";
 "Do you really want to block this contact? You won't receive any messages from this contact." = "是否确定要屏蔽此联系人？您将不会收到来自此联系人的任何消息。";
-"Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "是否确定要清除此对话中的所有消息？如果使用 OMEMO，您甚至无法再次从服务器加载它们。";
+"Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "是否确定要清除此对话中的所有消息？如果是 OMEMO 加密消息，您就无法再次从服务器加载。";
 "Do you really want to delete this key?" = "是否确定要删除此密钥？";
 "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "是否确定要解散此频道？将会踢出每位成员，之后解散频道。";
 "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "是否确定要解散此群聊？将会踢出每位成员，之后解散群聊。";
@@ -420,7 +420,7 @@
 "Download Settings" = "下载设置";
 "Draft:" = "草稿：";
 "Duplicate Account" = "重复账号";
-"Duplicate Account!" = "重复的账号！";
+"Duplicate Account!" = "账号重复！";
 "Duplicate jid!" = "XMPP 地址重复！";
 /* Crash report error dialog */
 "E-Mail not enabled on device" = "设备上未启用电子邮件";
@@ -436,7 +436,7 @@
 /* Crash report error dialog */
 "Email Error" = "电子邮件错误";
 "Email Support" = "电子邮件支持";
-"Empty Values!" = "值为空！";
+"Empty Values!" = "空值！";
 "Enable" = "启用";
 "Enable encryption by default for new chats" = "默认为新聊天启用加密";
 "Enabled" = "已启用";
@@ -448,7 +448,7 @@
 "Encryption Not Supported" = "不支持加密";
 "Enter the jid that you want to block" = "输入要屏蔽的 XMPP 地址";
 "Enter your new password. Passwords may not be empty. They may also be governed by server or company policies." = "输入您的新密码。密码不应为空。密码也须符合服务器或公司管理政策。";
-"Enter your password here" = "在这里输入您的密码";
+"Enter your password here" = "在此输入您的密码";
 "Enter your XMPP ID here" = "在此输入您的 XMPP 地址";
 "Entry 1" = "条目 1";
 "Entry 2" = "条目 2";
@@ -540,13 +540,13 @@
 /* quicksy country */
 "Faroe Islands" = "法罗群岛";
 "Features" = "特点";
-"Fetching registration form..." = "正在获取注册信息…";
+"Fetching registration form..." = "正在获取注册表…";
 /* quicksy country */
 "Fiji" = "斐济";
 "File" = "文件";
 "filename" = "文件名";
 "Files" = "文件";
-"Finished fetching messages" = "已完成获取消息";
+"Finished fetching messages" = "消息获取完成";
 /* quicksy country */
 "Finland" = "芬兰";
 /* quicksy country */
@@ -562,8 +562,8 @@
 "Gabon" = "加蓬";
 /* quicksy country */
 "Gambia" = "冈比亚";
-"General" = "通用";
-"General File Transfer Settings" = "一般文件传输设置";
+"General" = "常规";
+"General File Transfer Settings" = "文件传输常规设置";
 "General Settings" = "常规设置";
 /* quicksy country */
 "Georgia" = "格鲁吉亚";
@@ -620,8 +620,8 @@
 /* quicksy country */
 "Iceland" = "冰岛";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "如果 Monal 无法显示通知，您将不会在消息到达时看到提醒。如果您在 Monal 首次请求权限时点按了“拒绝”，就会出现这种情况。通过转到 iOS 设置 -> Monal -> 通知并选择“允许通知”来解决此问题。";
-"If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "如果关闭，您的设备将无法在 XMPP 服务器上激活推送，请确保已将其配置为支持 XEP-0357.";
-"If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "如果您开启此功能，您将不再安全，不会受到中间人攻击。这种攻击能让对手操纵您的收发消息、添加他们自己的 OMEMO 密钥、更改您的账号详请，甚至知道或更改您的密码！\n\n您应该切换到另一台服务器，而不是开启此功能。";
+"If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "如果关闭，则设备无法激活 XMPP 服务器上的推送，请确保已将其配置为支持 XEP-0357。";
+"If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "如果您开启此功能，您将不再安全，将会受到中间人攻击。此类攻击能让攻击者操纵您的收发消息、添加他们自己的 OMEMO 密钥、更改您的账号详请，甚至知道或更改您的密码！\n\n您应该切换到另一台服务器，而不是开启此功能。";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "如果要使用音频消息，则需要在设置 -> 隐私 -> 麦克风中允许访问。";
 "Image Upload JPEG-Quality: %@" = "图片上传 JPEG 质量：%@";
 "Import and trust OMEMO fingerprints from QR code" = "从二维码导入并信任 OMEMO 指纹";
