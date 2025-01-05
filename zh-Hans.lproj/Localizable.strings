@@ -288,12 +288,12 @@
 "Connecting..." = "正在连接…";
 /* server details */
 "Considerations for Server Administrators" = "服务器管理员的注意事项";
-"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "联系人和群聊/频道地址通常采用以下格式：name@domain.tld";
+"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "联系人和群聊/频道 XMPP 地址通常采用以下格式：name@domain.tld";
 "Contact is muted" = "联系人已静音";
 "Contact is not muted" = "联系人未静音";
 "Contact not found" = "找不到联系人";
 /* placeholder when adding jid */
-"Contact or Group/Channel Jid" = "联系人或群聊/频道地址";
+"Contact or Group/Channel Jid" = "联系人或群聊/频道 XMPP 地址";
 "Contact Selection" = "联系人选择";
 "Contacts" = "联系人";
 /* quicksy country */
@@ -336,8 +336,8 @@
 /* Crash reporting */
 "Crash Detected" = "检测到崩溃";
 "Crash Testing" = "崩溃测试";
-"Create new group" = "创建新群组";
-"Creating Group" = "正在创建群组";
+"Create new group" = "创建新群聊";
+"Creating Group" = "正在创建群聊";
 "Creating invitation..." = "正在创建邀请…";
 /* quicksy country */
 "Croatia" = "克罗地亚";
@@ -398,12 +398,12 @@
 "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "是否确定要清除此对话中的所有消息？如果使用 OMEMO，您甚至无法再次从服务器加载它们。";
 "Do you really want to delete this key?" = "是否确定要删除此密钥？";
 "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "是否确定要解散此频道？将会踢出每位成员，之后解散频道。";
-"Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "是否确定要解散此群组？将会踢出每位成员，之后解散群组。";
+"Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "是否确定要解散此群聊？将会踢出每位成员，之后解散群聊。";
 "Do you really want to disable encryption for this contact?" = "是否确定要禁用此联系人的加密？";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "是否确定要重置 OMEMO 会话？如果您不确定，您就应该只重置连接！";
 "Do you want to block this user from entering this group/channel?" = "是否要禁止此用户进入此群聊/频道？";
 "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "是否要从此频道中移除该用户？如果您不屏蔽该用户，该用户将能够再次进入。";
-"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "是否要从此群组中移除该用户？在添加回群组之前，该用户将无法再次进入。";
+"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "是否要从此群聊中移除该用户？在添加回群聊之前，该用户将无法再次进入。";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "是否要信任联系人 %@ 的扫描指纹，在您使用账号 %@ 时？";
 "Doing a lot of work..." = "大量工作中…";
 "Domain missing" = "缺少域名";
@@ -421,7 +421,7 @@
 "Draft:" = "草稿：";
 "Duplicate Account" = "重复账号";
 "Duplicate Account!" = "重复的账号！";
-"Duplicate jid!" = "重复的 JID！";
+"Duplicate jid!" = "XMPP 地址重复！";
 /* Crash report error dialog */
 "E-Mail not enabled on device" = "设备上未启用电子邮件";
 /* quicksy country */
@@ -446,7 +446,7 @@
 "Encryption Keys" = "加密密钥";
 "Encryption Keys (OMEMO)" = "加密密钥 (OMEMO)";
 "Encryption Not Supported" = "不支持加密";
-"Enter the jid that you want to block" = "输入您想屏蔽的 JID";
+"Enter the jid that you want to block" = "输入要屏蔽的 XMPP 地址";
 "Enter your new password. Passwords may not be empty. They may also be governed by server or company policies." = "输入您的新密码。密码不应为空。密码也须符合服务器或公司管理政策。";
 "Enter your password here" = "在这里输入您的密码";
 "Enter your XMPP ID here" = "在此输入您的 XMPP 地址";
@@ -464,9 +464,9 @@
 "Error blocking user!" = "屏蔽用户时出错！";
 "Error changing affiliation!" = "更改从属关系时出错！";
 "Error changing avatar!" = "更改头像时出错！";
-"Error creating group!" = "创建群组时出错！";
+"Error creating group!" = "创建群聊时出错！";
 "Error decrypting message" = "解密消息时出错";
-"Error destroying group!" = "解散群组时出错！";
+"Error destroying group!" = "解散群聊时出错！";
 "Error entering group/channel!" = "进入群聊/频道时出错！";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (iteration count too low), disconnecting!" = "处理服务器的 SASL 质询时出错（迭代计数太低），正在断开连接！";
@@ -527,7 +527,7 @@
 "Failed to query for new messages on account %@" = "查询账号 %@ 的新消息失败";
 "Failed to query new messages for Group/Channel (catchup) %@" = "无法查询群聊/频道（跟进） %@ 的新消息";
 "Failed to query new messages for Group/Channel (stanzaid) %@" = "无法查询群聊/频道（节 ID） %@ 的新消息";
-"Failed to query newest stanzaid for account %@" = "查询账号 %@ 的最新节 id 失败";
+"Failed to query newest stanzaid for account %@" = "无法查询账号 %@ 最新的节 ID";
 "Failed to remove bookmark for Group/Channel: %@" = "无法移除群聊/频道的书签：%@";
 "Failed to save bookmark for Group/Channel: %@" = "无法保存群聊/频道的书签：%@";
 "Failed to save groupchat bookmarks" = "保存群聊书签失败";
@@ -582,18 +582,18 @@
 "Greenland" = "格陵兰岛";
 /* quicksy country */
 "Grenada" = "格林纳达";
-"Group Avatar" = "群组头像";
+"Group Avatar" = "群聊头像";
 /* placeholder when editing a group description */
-"Group Description (optional)" = "群组描述（可选）";
-"Group Members" = "群组成员";
-"Group name" = "群组名称";
+"Group Description (optional)" = "群聊描述（可选）";
+"Group Members" = "群聊成员";
+"Group name" = "群聊名";
 /* placeholder when creating new group */
-"Group Name (optional)" = "群组名（可选）";
+"Group Name (optional)" = "群聊名（可选）";
 "Group subject:" = "群聊话题：";
 "Group/Channel description" = "群聊/频道描述";
 "Group/Channel got destroyed: %@" = "群聊/频道已解散：%@";
 "Group/Channel not available anymore: %@" = "群聊/频道不再可用：%@";
-"groupJoin Group" = "群组加入群组";
+"groupJoin Group" = "groupJoin Group";
 /* quicksy country */
 "Guadeloupe" = "瓜德罗普岛";
 /* quicksy country */
@@ -631,7 +631,7 @@
 /* quicksy country */
 "Indonesia" = "印度尼西亚";
 "Input" = "输入";
-"Input is not a valid jid" = "输入不是有效的 JID";
+"Input is not a valid jid" = "输入地址无效";
 "Interactions" = "交互";
 "Invalid Credentials!" = "无效的证书！";
 /* QR-Code-Scanner: invalid format */
@@ -666,7 +666,7 @@
 /* quicksy country */
 "Japan" = "日本";
 "Join Channel" = "加入频道";
-"Join Group" = "加入群组";
+"Join Group" = "加入群聊";
 /* quicksy country */
 "Jordan" = "约旦";
 "Just seen" = "刚刚上线";
@@ -697,7 +697,7 @@
 /* quicksy country */
 "Latvia" = "拉脱维亚";
 "Leave Channel" = "离开频道";
-"Leave Group" = "离开群组";
+"Leave Group" = "离开群聊";
 "Leave this conversation" = "离开此对话";
 "Leave this converstion?" = "是否离开此对话？";
 /* quicksy country */
@@ -729,7 +729,7 @@
 "Loading omemo bundles: %@ / %@" = "正在加载 OMEMO 包：%@ / %@";
 "Loading OMEMO keys" = "正在加载 OMEMO 密钥";
 "Location Access Needed" = "需要访问位置";
-"Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "登录您现有的账号或注册一个新账号。如果需要，您可以在 Monal 设置中找到更多高级选项。";
+"Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "登录现有账号或注册新账号。如有需要，您可在 Monal 设置中找到更多高级选项。";
 "Logfiles" = "日志文件";
 "Logging in" = "登录中";
 "Login" = "登录";
@@ -935,14 +935,14 @@
 "Please enter a password below before activating this account." = "请在下面输入密码，然后再激活此账号。";
 "Please enter the six-digit pin below" = "请在下面输入六位数的 PIN 码";
 "Please make sure at least one account has connected before trying to add a contact or channel." = "请确保至少有一个账号已连接，然后再尝试添加联系人或频道。";
-"Please make sure at least one account has connected before trying to create new group." = "请确保至少有一个账号已连接，然后再尝试创建新群组。";
+"Please make sure at least one account has connected before trying to create new group." = "请确保至少有一个账号已连接，然后再尝试创建新群聊。";
 "Please make sure you are connected before changing your password." = "请确保您已连接，然后再更改密码。";
 "Please make sure you have entered a username, password." = "请确保您已输入用户名和密码。";
-"Please make sure you have entered a valid jid." = "请确保您输入了有效的 JID。";
+"Please make sure you have entered a valid jid." = "请确保您输入了有效地址。";
 "Please make sure you have entered both a username and password." = "请确保输入了用户名和密码。";
 "Please make sure you have entered the same password in both password fields." = "请确保您在两个密码字段中输入了相同的密码。";
-"Please provide a valid XMPP server domain or select one." = "请提供有效的 XMPP 服务器域或选择一个。";
-"Please select a XMPP server or provide one." = "请选择一个 XMPP 服务器或提供一个。";
+"Please provide a valid XMPP server domain or select one." = "请提供或选择有效的 XMPP 服务器域。";
+"Please select a XMPP server or provide one." = "请选择或提供 XMPP 服务器。";
 "Please update!" = "请升级！";
 /* quicksy country */
 "Poland" = "波兰";
@@ -1004,14 +1004,14 @@
 "Remove Contact" = "移除联系人";
 "Remove Conversation" = "移除对话";
 "Remove from contacts" = "从联系人移除";
-"Remove Group Avatar" = "移除群组头像";
+"Remove Group Avatar" = "移除群聊头像";
 "Removing %@" = "正在移除 %@";
 "Removing %@..." = "正在移除 %@…";
 "Removing avatar..." = "正在移除头像…";
 "Rename Channel" = "重命名频道";
 /* placeholder text in contact details */
 "Rename Contact" = "重命名联系人";
-"Rename Group" = "重命名群组";
+"Rename Group" = "重命名群聊";
 "Reply" = "回复";
 "Requesting validation SMS..." = "正在请求验证短信…";
 "Required" = "需要";
@@ -1057,13 +1057,13 @@
 "Scroll down to load more messages" = "向下滚屏以加载更多消息";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "为 TLS1.3 和某些 TLS1.2 连接定义的安全通道绑定。";
 "Security" = "安全";
-"Select a background to display behind conversations with %@" = "选择一个背景，显示在与 %@ 对话的后面";
-"Select a default background to display behind conversations." = "选择一个默认背景以显示在对话后面。";
+"Select a background to display behind conversations with %@" = "选择要在 %@ 对话后面显示的背景";
+"Select a default background to display behind conversations." = "选择要显示在对话后面的默认背景。";
 "Select Action" = "选择操作";
 "Select background image" = "选择背景图片";
 "Select Message Archive Management (MAM) Preferences " = "选择消息存档管理首选项 ";
 "Select sounds that are played with new message notifications. Default is Xylophone." = "选择新消息通知时播放的声音。默认是木琴。";
-"Selected Group Members" = "选定的群组成员";
+"Selected Group Members" = "选定的群聊成员";
 "Send" = "发送";
 "Send last interaction time" = "发送上次交互时间";
 "Send Location" = "发送位置";
@@ -1182,7 +1182,7 @@
 "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "以下按钮允许您使用几种不同的方法强制崩溃此应用以测试崩溃处理。";
 /* quicksy country */
 "The Former Yugoslav Republic of Macedonia" = "北马其顿";
-"The jid you want to add should be in in the format user@domain.tld." = "您要添加的 JID 格式应为 user@domain.tld。";
+"The jid you want to add should be in in the format user@domain.tld." = "要添加的 XMPP 地址应采用 user@domain.tld 格式。";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "密钥处于当前未正确处理的状态。如果您看到此提示，请联系开发人员。";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "当您添加的人批准了您的请求后，新联系人将会添加到您的联系人列表中。";
 "The operator of the webserver providing that URL may see your IP address." = "提供该 URL 的网络服务器运营商可能会看到您的 IP 地址。";
@@ -1307,8 +1307,8 @@
 "Unexpected appex expiration" = "非预期的 appex 过期";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "使用 SASL2 对服务器进行身份验证时出现意外错误（服务器是否有错误？），正在断开连接！";
 "Unexpected error processing your request." = "处理您的请求时发生意外错误。";
-"Unexpected error while checking type of jid, please try again" = "检查 JID 类型时出现意外错误，请重试";
-"Unexpected error while checking type of jid:" = "检查 JID 类型时出现意外错误：";
+"Unexpected error while checking type of jid, please try again" = "检查 XMPP 地址类型时出现意外错误，请重试";
+"Unexpected error while checking type of jid:" = "检查 XMPP 地址类型时出现意外错误：";
 "Unexpected mam preferences result" = "非预期的消息存档管理首选项结果";
 "Unexpected server response: invalid PEP config form" = "意外的服务器响应：无效的 PEP 配置表单";
 "Unexpected server response: missing required fields in PEP config form" = "意外的服务器响应：PEP 配置表单中缺少必填字段";
