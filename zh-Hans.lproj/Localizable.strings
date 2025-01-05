@@ -215,11 +215,11 @@
 "Call ended: declined" = "通话结束：已拒绝";
 "Call ended: hung up" = "通话结束：已挂断";
 "Call ended: remote busy" = "通话结束：远程占线";
-"Call security help" = "呼叫安全帮助";
+"Call security help" = "通话安全帮助";
 "Call Type" = "通话类型";
 "Call was not answered" = "通话未接听";
-"Calls: Allow P2P sessions" = "呼叫：允许 P2P 会话";
-"Calls: Allow TURN fallback to Monal-Servers" = "呼叫：允许 TURN 回退到 Monal 服务器";
+"Calls: Allow P2P sessions" = "通话：允许 P2P 会话";
+"Calls: Allow TURN fallback to Monal-Servers" = "通话：允许 TURN 回退到 Monal 服务器";
 /* quicksy country */
 "Cambodia" = "柬埔寨";
 "Camera" = "摄像头";
@@ -438,7 +438,7 @@
 "Email Support" = "电子邮件支持";
 "Empty Values!" = "值为空！";
 "Enable" = "启用";
-"Enable encryption by default for new chats" = "默认情况下为新聊天启用加密";
+"Enable encryption by default for new chats" = "默认为新聊天启用加密";
 "Enabled" = "已启用";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "加密消息以较旧的格式发送，Monal 无法解密。请告诉对方更新客户端。 （GCM 错误）";
 "Encrypted session to this device broken beyond repair." = "此设备的加密会话已损坏且无法修复。";
@@ -500,13 +500,13 @@
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "无法将“%1$@”在“%2$@”中的从属关系更改为“%3$@”：超时";
 "Failed to copy downloaded file into cache directory: %@" = "无法将下载的文件复制到缓存目录：%@";
 "Failed to create invitation for %@" = "无法为 %@ 创建邀请";
-"Failed to create invitation, unknown error: %@" = "创建邀请失败，未知错误：%@";
-"Failed to decode download link" = "解码下载链接失败";
-"Failed to decode encrypted link" = "解码加密的链接失败";
-"Failed to decrypt download" = "解密下载失败";
-"Failed to decrypt filetransfer" = "解密文件传输失败";
-"Failed to delete own avatar" = "删除自己的头像失败";
-"Failed to delete own nickname" = "删除自己的昵称失败";
+"Failed to create invitation, unknown error: %@" = "无法创建邀请，未知错误：%@";
+"Failed to decode download link" = "无法解码下载链接";
+"Failed to decode encrypted link" = "无法解码加密链接";
+"Failed to decrypt download" = "无法解密下载";
+"Failed to decrypt filetransfer" = "无法解密文件传输";
+"Failed to delete own avatar" = "无法删除自己的头像";
+"Failed to delete own nickname" = "无法删除自己的昵称";
 "Failed to destroy group/channel '%@'" = "无法解散群聊/频道“%@”";
 "Failed to destroy group/channel '%@': timeout" = "无法解散群聊/频道“%@”：超时";
 "Failed to download file: %@" = "下载文件失败：%@";
@@ -522,17 +522,17 @@
 "Failed to move uploaded file to file cache directory" = "无法将上传的文件移动到文件缓存目录";
 "Failed to parse URL returned by HTTP upload server" = "无法解析由 HTTP 上传服务器返回的 URL";
 "Failed to publish avatar image for group/channel %@" = "无法发布群聊/频道 %@ 的头像图片";
-"Failed to publish own avatar" = "发布自己的头像失败";
-"Failed to publish own nickname" = "发布自己的昵称失败";
-"Failed to query for new messages on account %@" = "查询账号 %@ 的新消息失败";
+"Failed to publish own avatar" = "无法发布自己的头像";
+"Failed to publish own nickname" = "无法发布自己的昵称";
+"Failed to query for new messages on account %@" = "无法查询账号 %@ 的新消息";
 "Failed to query new messages for Group/Channel (catchup) %@" = "无法查询群聊/频道（跟进） %@ 的新消息";
 "Failed to query new messages for Group/Channel (stanzaid) %@" = "无法查询群聊/频道（节 ID） %@ 的新消息";
 "Failed to query newest stanzaid for account %@" = "无法查询账号 %@ 最新的节 ID";
 "Failed to remove bookmark for Group/Channel: %@" = "无法移除群聊/频道的书签：%@";
 "Failed to save bookmark for Group/Channel: %@" = "无法保存群聊/频道的书签：%@";
-"Failed to save groupchat bookmarks" = "保存群聊书签失败";
+"Failed to save groupchat bookmarks" = "无法保存群聊书签";
 "Failed to share file" = "分享文件失败";
-"Failed to synchronize phonebook" = "同步电话簿失败";
+"Failed to synchronize phonebook" = "无法同步电话簿";
 "Failed to upload file: account was removed" = "上传文件失败：账号已移除";
 "Failed to write decrypted download into cache directory" = "无法将解密的下载写入缓存目录";
 /* quicksy country */
@@ -627,12 +627,12 @@
 "Import and trust OMEMO fingerprints from QR code" = "从二维码导入并信任 OMEMO 指纹";
 /* quicksy country */
 "India" = "印度";
-"Indicate when a particular device is active or inactive. Saves battery." = "指示特定设备何时处于活动状态或非活动状态。节省电池。";
+"Indicate when a particular device is active or inactive. Saves battery." = "指示特定设备何时处于活动/非活动状态。省电。";
 /* quicksy country */
 "Indonesia" = "印度尼西亚";
 "Input" = "输入";
 "Input is not a valid jid" = "输入地址无效";
-"Interactions" = "交互";
+"Interactions" = "互动";
 "Invalid Credentials!" = "无效的证书！";
 /* QR-Code-Scanner: invalid format */
 "Invalid format" = "无效的格式";
@@ -773,7 +773,7 @@
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "未对此设备加密消息。请确保发送者信任设备 ID %u。";
 "Messages are encrypted" = "消息已加密";
 "Messages are NOT encrypted" = "消息未加密";
-"Messages never archived by default." = "默认情况下，消息从不存档。";
+"Messages never archived by default." = "消息默认从不存档。";
 "Method: %@" = "方式：%@";
 /* quicksy country */
 "Mexico" = "墨西哥";
@@ -781,7 +781,7 @@
 "Micronesia" = "密联邦";
 "Migration Assistant" = "迁移助手";
 "Misc" = "杂项";
-"Missing Call Support" = "缺少呼叫支持";
+"Missing Call Support" = "缺少通话支持";
 "Missing permission" = "缺少权限";
 "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.\n\nUsing Monal instead of a centralized chat app therefore increases your digital sovereignty." = "现代 iOS 和 macOS XMPP 聊天客户端。\n\nXMPP 是联邦网络：就像电子邮件一样，您可以在许多服务器上注册账号，并且仍然可以与任何人交谈，即使他们在不同的服务器上注册。\n\n因此，使用 Monal 而不是集中式聊天应用可以提高您的数字主权。";
 /* quicksy country */
@@ -968,7 +968,7 @@
 /* QR-Code-Scanner */
 "QR-Code video error" = "二维码视频错误";
 "Quicksy is now set up and connected." = "Quicksy 现已设置并连接。";
-"Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksy 会定期同步您的联系人列表，以推荐已在 Quicksy 上的潜在联系人。\n\nQuicksy 可以分享和存储图片、录音、视频和其他媒体，以将其发送给目标接收者。文件最多将存储 30 天。\n\n更多信息请参阅我们的[隐私政策](https://quicksy.im/privacy.htm)。";
+"Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksy 会定期同步您的联系人列表，以推荐已在 Quicksy 上的潜在联系人。\n\nQuicksy 分享和存储图片、录音、视频和其他媒体，以将其发送给目标接收者。文件最多将存储 30 天。\n\n更多信息请参阅我们的[隐私政策](https://quicksy.im/privacy.htm)。";
 "Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksy 将发送一条短信（可能需要支付运营商费用）来验证您的电话号码。请输入您的国家/地区代码和电话号码：";
 /* Chat msg action */
 "Quote" = "引用";
@@ -993,8 +993,8 @@
 "Red x-mark shield:" = "红色 x 标记盾牌：";
 "Refreshing..." = "正在刷新…";
 "Register a new account" = "注册新账号";
-"Register with %@" = "以 %@ 注册";
-"Registering account..." = "注册账号中…";
+"Register with %@" = "在 %@ 注册";
+"Registering account..." = "正在注册账号…";
 "Registration Error" = "注册错误";
 "Remove %@ from contacts?" = "从联系人中移除 %@？";
 "Remove %@?" = "移除 %@？";
@@ -1003,7 +1003,7 @@
 "Remove Channel Avatar" = "移除频道头像";
 "Remove Contact" = "移除联系人";
 "Remove Conversation" = "移除对话";
-"Remove from contacts" = "从联系人移除";
+"Remove from contacts" = "从联系人中移除";
 "Remove Group Avatar" = "移除群聊头像";
 "Removing %@" = "正在移除 %@";
 "Removing %@..." = "正在移除 %@…";
@@ -1065,7 +1065,7 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "选择新消息通知时播放的声音。默认是木琴。";
 "Selected Group Members" = "选定的群聊成员";
 "Send" = "发送";
-"Send last interaction time" = "发送上次交互时间";
+"Send last interaction time" = "发送最后互动时间";
 "Send Location" = "发送位置";
 "Send message receipts" = "发送消息回执";
 "Send read receipts" = "发送已读回执";
@@ -1183,7 +1183,7 @@
 /* quicksy country */
 "The Former Yugoslav Republic of Macedonia" = "北马其顿";
 "The jid you want to add should be in in the format user@domain.tld." = "要添加的 XMPP 地址应采用 user@domain.tld 格式。";
-"The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "密钥处于当前未正确处理的状态。如果您看到此提示，请联系开发人员。";
+"The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "密钥当前处于未正确处理的状态。如果您看到此提示，请联系开发人员。";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "当您添加的人批准了您的请求后，新联系人将会添加到您的联系人列表中。";
 "The operator of the webserver providing that URL may see your IP address." = "提供该 URL 的网络服务器运营商可能会看到您的 IP 地址。";
 "The password has been changed" = "密码已更改";
@@ -1209,7 +1209,7 @@
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "这些是 Monal 在您登录后在服务器上检测到的新式 XMPP 功能。";
 "These are the MUC servers detected by Monal (blue entry used by Monal)." = "这些是 Monal 检测到的群聊服务（Monal 使用的是蓝色条目）。";
 "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "这些是服务器支持的 SASL2 认证方式（Monal 使用的是蓝色条目，不支持橙色条目）。";
-"These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "这些是 Monal 支持的 TLS 版本，用于连接到服务器的 TLS 版本将是绿色的。";
+"These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "这些是 Monal 支持的 TLS 版本，用于连接服务器的版本将显示为绿色。";
 "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "这些是您的加密密钥。每台设备都是您登录的不同位置。验证密钥后，您应该信任它。 双击指纹即可复制到剪贴板。";
 "They will no longer see when you are online. They may not be able to access your encryption keys." = "他们将不再看到您什么时候在线。他们可能无法访问您的加密密钥。";
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "他们将不再看到您什么时候在线。他们可能无法向您发送加密消息。";
@@ -1236,7 +1236,7 @@
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "这意味着您的通话已加密，并且远程方已使用 OMEMO 加密进行验证。\n但由于您没有手动验证被呼叫者的 OMEMO 指纹，您或被呼叫者的 XMPP 服务器可能已由中间人插入了他们自己的 OMEMO 密钥。";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "这意味着您的通话已加密，并且远程方已使用 OMEMO 加密进行验证。\n您手动验证了使用的 OMEMO 密钥，并且不会发生中间人攻击。";
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "这意味着您的通话已加密，但无法使用 OMEMO 加密来验证远程方。\n您或被呼叫者的 XMPP 服务器可能会对您进行中间人攻击。";
-"This message failed to send (%@): %@" = "此消息未能发出（%@）：%@";
+"This message failed to send (%@): %@" = "此消息发送失败（%@）：%@";
 "This message got retracted" = "此消息已被撤回";
 "This phone number is currently logged in with another device." = "此电话号码当前已通过其他设备登录。";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "此服务器似乎不支持 HTTP 文件上传（XEP-0363）。请联系管理员启用。";
@@ -1247,7 +1247,7 @@
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "此服务器未使用可抵御中间人攻击的身份验证方法来对 TLS 加密层进行额外的强化！如果服务器应该支持 SASL2 和 SCRAM，则表示正在进行攻击，否则是无害的。如果您仍然想登录到此服务器，请使用高级账号创建菜单并打开那里的 PLAIN 开关。";
 "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "此服务器缺乏对 SASL2 和 SCRAM 的支持，另外还强化了针对 TLS 加密层的中间人攻击的身份验证。由于此服务器在 https://github.com/monal-im/SCRAM_PreloadList 上被列为支持两者（或者您在使用高级账号创建菜单时故意关闭了 PLAIN 开关），因此很可能正在发生中间人攻击！请您在干净的网络环境中重试。";
 "This should never happen, please contact the developers and provide a logfile!" = "这种情况不应该发生，请联系开发人员并提供日志文件！";
-"This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "此规范定义了使用 XMPP 发布-订阅协议来广播与即时通讯和在线状态的账号相关联的状态更改事件的语义。";
+"This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "此规范定义了使用 XMPP 发布–订阅协议来广播与即时通讯和在线状态的账号相关联的状态更改事件的语义。";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "此规范提供了一种方法来保护 SASL 和 SASL2 握手，不受方法和通道绑定降级影响。";
 "This will clear the whole chat history of this account from this device." = "从此设备清除此账号的全部聊天记录。";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "这将从服务器和设备中删除此账号以及相关数据。不过，数据可能仍保留在其他设备上。";
