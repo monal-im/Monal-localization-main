@@ -1,7 +1,7 @@
 " (offline)" = " (ஆஃப்லைன்)";
 /* server details */
 " running on %@" = " %@ இல் இயங்குகிறது";
-"%02d:%02d (long press to abort)" = "%02d:%02d (long press to abort)";
+"%02d:%02d (long press to abort)" = "%02 டி:%02 டி (கருக்கலைப்பு செய்ய நீண்ட அழுத்தவும்)";
 "%@" = "%@";
 "%@ (%@)" = "%@ (%@)";
 "%@ (affiliation: %@)" = "%@ (இணைப்பு: %@)";
@@ -45,8 +45,8 @@
 /* muc affiliation */
 "<unknown>" = "<அறியப்படாத>";
 "A contact was scanned through the QR code scanner" = "QR குறியீடு ச்கேனர் மூலம் ஒரு தொடர்பு ச்கேன் செய்யப்பட்டது";
-"Abort" = "Abort";
-"Aborted recording audio" = "Aborted recording audio";
+"Abort" = "கருக்கலைப்பு";
+"Aborted recording audio" = "பதிவுசெய்த பதிவு ஆடியோ";
 "About" = "இதனை பற்றி";
 "Accept incoming calls from strangers" = "அந்நியர்களிடமிருந்து உள்வரும் அழைப்புகளை ஏற்றுக்கொள்ளுங்கள்";
 "Accept incoming messages from strangers" = "அந்நியர்களிடமிருந்து உள்வரும் செய்திகளை ஏற்றுக்கொள்ளுங்கள்";
@@ -311,7 +311,7 @@
 "Could fetch room config form for '%@': timeout" = "'%@' க்கு அறை கட்டமைப்பு படிவத்தைப் பெறலாம்: நேரம் முடிந்தது";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "கேமராவை அணுக முடியவில்லை";
-"Could not access Finder item!" = "Could not access Finder item!";
+"Could not access Finder item!" = "கண்டுபிடிப்பாளர் உருப்படியை அணுக முடியவில்லை!";
 "Could not change password" = "கடவுச்சொல்லை மாற்ற முடியவில்லை";
 "Could not change password: your account is currently not connected" = "கடவுச்சொல்லை மாற்ற முடியவில்லை: உங்கள் கணக்கு தற்போது இணைக்கப்படவில்லை";
 "Could not change the password" = "கடவுச்சொல்லை மாற்ற முடியவில்லை";
@@ -329,7 +329,7 @@
 "Could not join group/channel '%@': timeout" = "குழு/சேனலில் '%@' இல் சேர முடியவில்லை: நேரம் முடிந்தது";
 "Could not read captcha!" = "கேப்ட்சாவைப் படிக்க முடியவில்லை!";
 "Could not register your username. Please check your code or change the username and try again." = "உங்கள் பயனர்பெயரை பதிவு செய்ய முடியவில்லை. உங்கள் குறியீட்டைச் சரிபார்த்து அல்லது பயனர்பெயரை மாற்றி மீண்டும் முயற்சிக்கவும்.";
-"Could not send" = "Could not send";
+"Could not send" = "அனுப்ப முடியவில்லை";
 "Could not synchronize" = "ஒத்திசைக்க முடியவில்லை";
 "Could not upload file" = "கோப்பைப் பதிவேற்ற முடியவில்லை";
 "Country:" = "நாடு:";
@@ -365,7 +365,7 @@
 /* Chat msg action */
 "Delete" = "அழி";
 "Delete Account" = "கணக்கை நீக்குக";
-"Delete Account on Server" = "Delete Account on Server";
+"Delete Account on Server" = "சேவையகத்தில் கணக்கை நீக்கு";
 "Delete Key" = "விசையை நீக்கு";
 /* quicksy country */
 "Dem. People's Rep. of Korea" = "டெம். கொரியாவின் மக்கள் சார்பாளர்";
@@ -478,7 +478,7 @@
 "Error inviting new participant!" = "புதிய பங்கேற்பாளரை அழைப்பதில் பிழை!";
 "Error inviting user!" = "பயனரை அழைப்பதில் பிழை!";
 "Error registering push" = "புச் பதிவு செய்யும் பிழை";
-"Error Removing Account" = "Error Removing Account";
+"Error Removing Account" = "கணக்கை அகற்றுவதில் பிழை";
 "Error removing avatar!" = "அவதாரத்தை அகற்றுவதில் பிழை!";
 "Error removing user!" = "பயனரை அகற்றுவதில் பிழை!";
 "Error requesting SMS!" = "எச்எம்எச் கோருவதில் பிழை!";
@@ -496,92 +496,92 @@
 "Even more to customize!" = "தனிப்பயனாக்க இன்னும் அதிகமாக!";
 "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "ஒவ்வொரு புதிய தொடர்பும் குறியாக்கத்தை இயக்கும், ஆனால் ஏற்கனவே அறியப்பட்ட தொடர்புகள் அவற்றின் குறியாக்க அமைப்புகளை பாதுகாக்கும்.";
 "Failed to block contact %@" = "தொடர்பு %@ ஐத் தடுக்கத் தவறிவிட்டது";
-"Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
-"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
-"Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
+"Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2 $@' இல் '%1 $@' இன் இணைப்பை '%3 $@' ஆக மாற்றத் தவறிவிட்டது";
+"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2 $@' இல் '%1 $@' இன் இணைப்பை '%3 $@' க்கு மாற்றுவதில் தோல்வி: நேரம் முடிந்தது";
+"Failed to copy downloaded file into cache directory: %@" = "பதிவிறக்கம் செய்யப்பட்ட கோப்பை கேச் கோப்பகத்தில் நகலெடுப்பதில் தோல்வி: %@";
 "Failed to create invitation for %@" = "%@ க்கு அழைப்பை உருவாக்குவதில் தோல்வி";
-"Failed to create invitation, unknown error: %@" = "Failed to create invitation, unknown error: %@";
-"Failed to decode download link" = "Failed to decode download link";
-"Failed to decode encrypted link" = "Failed to decode encrypted link";
-"Failed to decrypt download" = "Failed to decrypt download";
-"Failed to decrypt filetransfer" = "Failed to decrypt filetransfer";
-"Failed to delete own avatar" = "Failed to delete own avatar";
-"Failed to delete own nickname" = "Failed to delete own nickname";
-"Failed to destroy group/channel '%@'" = "Failed to destroy group/channel '%@'";
-"Failed to destroy group/channel '%@': timeout" = "Failed to destroy group/channel '%@': timeout";
-"Failed to download file: %@" = "Failed to download file: %@";
-"Failed to enable carbons for account %@" = "Failed to enable carbons for account %@";
-"Failed to encrypt file" = "Failed to encrypt file";
-"Failed to enter Group/Channel %@" = "Failed to enter Group/Channel %@";
-"Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Failed to enter Group/Channel %@: This is not a Group/Channel!";
+"Failed to create invitation, unknown error: %@" = "அழைப்பை உருவாக்குவதில் தோல்வி, அறியப்படாத பிழை: %@";
+"Failed to decode download link" = "பதிவிறக்க இணைப்பை டிகோட் செய்வதில் தோல்வி";
+"Failed to decode encrypted link" = "மறைகுறியாக்கப்பட்ட இணைப்பை டிகோட் செய்யத் தவறிவிட்டது";
+"Failed to decrypt download" = "பதிவிறக்கத்தை மறைகுறியாக்குவதில் தோல்வி";
+"Failed to decrypt filetransfer" = "ஃபைல்ட்ரான்ச்ஃபர் டிக்ரிப்ட் செய்யத் தவறிவிட்டது";
+"Failed to delete own avatar" = "சொந்த அவதாரத்தை நீக்குவதில் தோல்வி";
+"Failed to delete own nickname" = "சொந்த புனைப்பெயரை நீக்குவதில் தோல்வி";
+"Failed to destroy group/channel '%@'" = "குழு/சேனலை '%@' அழிக்கத் தவறிவிட்டது";
+"Failed to destroy group/channel '%@': timeout" = "குழு/சேனலை அழிக்கத் தவறிவிட்டது '%@': நேரம் முடிந்தது";
+"Failed to download file: %@" = "கோப்பைப் பதிவிறக்குவதில் தோல்வி: %@";
+"Failed to enable carbons for account %@" = "கணக்கில் கார்பன்களை இயக்குவதில் தோல்வி %@";
+"Failed to encrypt file" = "கோப்பை குறியாக்கத் தவறிவிட்டது";
+"Failed to enter Group/Channel %@" = "குழு/சேனல் %@ ஐ உள்ளிடத் தவறிவிட்டது";
+"Failed to enter Group/Channel %@: This is not a Group/Channel!" = "குழு/சேனல் %@: இது ஒரு குழு/சேனல் அல்ல!";
 "Failed to export the database, please check the logfile for errors and try again." = "தரவுத்தளத்தை ஏற்றுமதி செய்வதில் தோல்வி, தயவுசெய்து பிழைகளுக்கு பதிவைச் சரிபார்த்து மீண்டும் முயற்சிக்கவும்.";
-"Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
-"Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
-"Failed to load blocklist" = "Failed to load blocklist";
-"Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
-"Failed to move uploaded file to file cache directory" = "Failed to move uploaded file to file cache directory";
-"Failed to parse URL returned by HTTP upload server" = "Failed to parse URL returned by HTTP upload server";
-"Failed to publish avatar image for group/channel %@" = "Failed to publish avatar image for group/channel %@";
-"Failed to publish own avatar" = "Failed to publish own avatar";
-"Failed to publish own nickname" = "Failed to publish own nickname";
-"Failed to query for new messages on account %@" = "Failed to query for new messages on account %@";
-"Failed to query new messages for Group/Channel (catchup) %@" = "Failed to query new messages for Group/Channel (catchup) %@";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "Failed to query new messages for Group/Channel (stanzaid) %@";
-"Failed to query newest stanzaid for account %@" = "Failed to query newest stanzaid for account %@";
-"Failed to remove bookmark for Group/Channel: %@" = "Failed to remove bookmark for Group/Channel: %@";
-"Failed to save bookmark for Group/Channel: %@" = "Failed to save bookmark for Group/Channel: %@";
-"Failed to save groupchat bookmarks" = "Failed to save groupchat bookmarks";
+"Failed to fetch download metadata: %@" = "பதிவிறக்க மெட்டாடேட்டாவைப் பெறுவதில் தோல்வி: %@";
+"Failed to fetch room config form for '%@'" = "'%@' க்கு அறை கட்டமைப்பு படிவத்தைப் பெறுவதில் தோல்வி";
+"Failed to load blocklist" = "பிளாக்லிச்ட்டை ஏற்றுவதில் தோல்வி";
+"Failed to moderate message in group/channel '%@'" = "குழு/சேனலில் '%@' இல் மிதமான செய்தியை மிதப்படுத்துவதில் தோல்வி";
+"Failed to move uploaded file to file cache directory" = "பதிவேற்றிய கோப்பை தற்காலிக சேமிப்பிற்கு நகர்த்துவதில் தோல்வி";
+"Failed to parse URL returned by HTTP upload server" = "HTTP பதிவேற்ற சேவையகத்தால் திரும்பிய முகவரி ஐ அலசத் தவறிவிட்டது";
+"Failed to publish avatar image for group/channel %@" = "குழு/சேனல் %@ க்கான அவதார் படத்தை வெளியிடுவதில் தோல்வி";
+"Failed to publish own avatar" = "சொந்த அவதாரத்தை வெளியிடத் தவறிவிட்டது";
+"Failed to publish own nickname" = "சொந்த புனைப்பெயரை வெளியிடத் தவறிவிட்டது";
+"Failed to query for new messages on account %@" = "கணக்கில் புதிய செய்திகளை வினவுவதில் தோல்வி %@";
+"Failed to query new messages for Group/Channel (catchup) %@" = "குழு/சேனல் (கேட்ச்அப்) %@ க்கான புதிய செய்திகளை வினவுவதில் தோல்வி";
+"Failed to query new messages for Group/Channel (stanzaid) %@" = "குழு/சேனலுக்கான புதிய செய்திகளை வினவுவதில் தோல்வி (ச்டான்செய்ட்) %@";
+"Failed to query newest stanzaid for account %@" = "கணக்கில் புதிய ச்டான்செய்டை வினவுவதில் தோல்வி %@";
+"Failed to remove bookmark for Group/Channel: %@" = "குழு/சேனலுக்கான புத்தகக்குறியை அகற்றுவதில் தோல்வி: %@";
+"Failed to save bookmark for Group/Channel: %@" = "குழு/சேனலுக்கான புத்தகக்குறியை சேமிப்பதில் தோல்வி: %@";
+"Failed to save groupchat bookmarks" = "குரூப்சாட் புக்மார்க்குகளை சேமிப்பதில் தோல்வி";
 "Failed to share file" = "கோப்பைப் பகிரத் தவறிவிட்டது";
-"Failed to synchronize phonebook" = "Failed to synchronize phonebook";
-"Failed to upload file: account was removed" = "Failed to upload file: account was removed";
-"Failed to write decrypted download into cache directory" = "Failed to write decrypted download into cache directory";
+"Failed to synchronize phonebook" = "தொலைபேசி புத்தகத்தை ஒத்திசைக்கத் தவறிவிட்டது";
+"Failed to upload file: account was removed" = "கோப்பைப் பதிவேற்றத் தவறிவிட்டது: கணக்கு அகற்றப்பட்டது";
+"Failed to write decrypted download into cache directory" = "கேச் கோப்பகத்தில் மறைகுறியாக்கப்பட்ட பதிவிறக்கத்தை எழுதுவதில் தோல்வி";
 /* quicksy country */
-"Falkland Islands (Malvinas)" = "Falkland Islands (Malvinas)";
+"Falkland Islands (Malvinas)" = "பாக்லான்ட் தீவுகள் (மால்வினாச்)";
 /* quicksy country */
-"Faroe Islands" = "Faroe Islands";
+"Faroe Islands" = "பேரோ தீவுகள்";
 "Features" = "நற்பொருத்தங்கள்";
 "Fetching registration form..." = "பதிவு படிவத்தைப் பெறுதல் ...";
 /* quicksy country */
-"Fiji" = "Fiji";
+"Fiji" = "பிசி";
 "File" = "கோப்பு";
 "filename" = "கோப்புப்பெயர்";
 "Files" = "கோப்புகள்";
 "Finished fetching messages" = "செய்திகளைப் பெற முடிந்தது";
 /* quicksy country */
-"Finland" = "Finland";
+"Finland" = "பின்லாந்து";
 /* quicksy country */
-"France" = "France";
+"France" = "ஃப்ரான்ச்";
 /* quicksy country */
-"French Departments and Territories in the Indian Ocean" = "French Departments and Territories in the Indian Ocean";
+"French Departments and Territories in the Indian Ocean" = "இந்தியப் பெருங்கடலில் பிரெஞ்சு துறைகள் மற்றும் பிரதேசங்கள்";
 /* quicksy country */
-"French Guiana" = "French Guiana";
+"French Guiana" = "ஃப்ரெஞ்ச் கையானா";
 /* quicksy country */
-"French Polynesia" = "French Polynesia";
+"French Polynesia" = "ஃப்ரெஞ்ச் பாலினேசியா";
 "Frequently Asked Questions" = "அடிக்கடி கேட்கப்படும் கேள்விகள்";
 /* quicksy country */
-"Gabon" = "Gabon";
+"Gabon" = "கபோன்";
 /* quicksy country */
-"Gambia" = "Gambia";
+"Gambia" = "கம்பியா";
 "General" = "பொதுவானது";
 "General File Transfer Settings" = "பொது கோப்பு பரிமாற்ற அமைப்புகள்";
 "General Settings" = "பொது அமைப்புகள்";
 /* quicksy country */
-"Georgia" = "Georgia";
+"Georgia" = "சார்சியா";
 /* quicksy country */
-"Germany" = "Germany";
+"Germany" = "செர்மனி";
 /* quicksy country */
-"Ghana" = "Ghana";
+"Ghana" = "கானா";
 /* quicksy country */
-"Gibraltar" = "Gibraltar";
-"Got empty room config form for '%@'" = "Got empty room config form for '%@'";
-"GPS" = "GPS";
+"Gibraltar" = "கிப்ரால்டர்";
+"Got empty room config form for '%@'" = "'%@' க்கு வெற்று அறை கட்டமைப்பு படிவம் கிடைத்தது";
+"GPS" = "உலக இடம் காட்டும் அமைப்பு";
 /* quicksy country */
-"Greece" = "Greece";
+"Greece" = "கிரீச்";
 "Green checkmark shield:" = "பச்சை செக்மார்க் கவசம்:";
 /* quicksy country */
-"Greenland" = "Greenland";
+"Greenland" = "கிரீன்லாந்து";
 /* quicksy country */
-"Grenada" = "Grenada";
+"Grenada" = "கிரனாடா";
 "Group Avatar" = "குழு அவதார்";
 /* placeholder when editing a group description */
 "Group Description (optional)" = "குழு விளக்கம் (விரும்பினால்)";
@@ -591,34 +591,34 @@
 "Group Name (optional)" = "குழு பெயர் (விரும்பினால்)";
 "Group subject:" = "குழு பொருள்:";
 "Group/Channel description" = "குழு/சேனல் விளக்கம்";
-"Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
-"Group/Channel not available anymore: %@" = "Group/Channel not available anymore: %@";
+"Group/Channel got destroyed: %@" = "குழு/சேனல் அழிக்கப்பட்டது: %@";
+"Group/Channel not available anymore: %@" = "குழு/சேனல் இனி கிடைக்காது: %@";
 "groupJoin Group" = "குழு சாயின் குழு";
 /* quicksy country */
-"Guadeloupe" = "Guadeloupe";
+"Guadeloupe" = "காஉடிலொபி";
 /* quicksy country */
-"Guam" = "Guam";
+"Guam" = "குவாம்";
 /* quicksy country */
-"Guatemala" = "Guatemala";
+"Guatemala" = "குவாதமாலா";
 /* quicksy country */
-"Guinea" = "Guinea";
+"Guinea" = "கினி";
 /* quicksy country */
-"Guinea-Bissau" = "Guinea-Bissau";
+"Guinea-Bissau" = "கினி-பீசோ";
 /* quicksy country */
-"Guyana" = "Guyana";
+"Guyana" = "கயானா";
 /* quicksy country */
-"Haiti" = "Haiti";
+"Haiti" = "கையிட்டி";
 "Hint" = "குறிப்பு";
 /* quicksy country */
-"Honduras" = "Honduras";
+"Honduras" = "ஓன்டுராச்";
 /* quicksy country */
-"Hong Kong, China" = "Hong Kong, China";
+"Hong Kong, China" = "ஆங்காங், சீனா";
 /* quicksy country */
-"Hungary" = "Hungary";
+"Hungary" = "அங்கேரி";
 "I already have an account:" = "என்னிடம் ஏற்கனவே ஒரு கணக்கு உள்ளது:";
 "I need an account:" = "எனக்கு ஒரு கணக்கு தேவை:";
 /* quicksy country */
-"Iceland" = "Iceland";
+"Iceland" = "ஐச்லாந்து";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "மோனால் அறிவிப்புகளைக் காட்ட முடியாவிட்டால், ஒரு செய்தி வரும்போது நீங்கள் விழிப்பூட்டல்களைக் காண மாட்டீர்கள். மோனால் முதலில் இசைவு கேட்டபோது நீங்கள் 'சரிவை' தட்டினால் இது நடக்கும். ஐஇமு அமைப்புகள் -> மோனல் -> அறிவிப்புகளுக்குச் சென்று அதை சரிசெய்யவும், 'அறிவிப்புகளை அனுமதிக்கவும்' என்பதைத் தேர்ந்தெடுக்கவும்.";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "இது உங்கள் சாதனத்திலிருந்து விலகிவிட்டால், உங்கள் எக்ச்எம்பிபி சேவையகத்தில் புச் செயல்படுத்த முடியாவிட்டால், XEP-0357 ஐ ஆதரிக்க அதை உள்ளமைத்துள்ளதை உறுதிசெய்க.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "இதை நீங்கள் இயக்கினால், நீங்கள் இனி மேன்-இன்-நடுத்தர தாக்குதல்களிலிருந்து பாதுகாப்பாக இருக்க மாட்டீர்கள். இத்தகைய தாக்குதல்கள் உங்கள் உள்வரும் மற்றும் வெளிச்செல்லும் செய்திகளை கையாளவும், அவற்றின் சொந்த ஓம்மோ விசைகளைச் சேர்க்கவும், உங்கள் கணக்கு விவரங்களை மாற்றவும், உங்கள் கடவுச்சொல்லை அறிந்து கொள்ளவும் அல்லது மாற்றவும் எதிரிக்கு உதவுகின்றன!\n\n இதை இயக்குவதை விட நீங்கள் மற்றொரு சேவையகத்திற்கு மாற வேண்டும்.";
@@ -626,10 +626,10 @@
 "Image Upload JPEG-Quality: %@" = "பட பதிவேற்ற JPEG-VALUALITY: %@";
 "Import and trust OMEMO fingerprints from QR code" = "QR குறியீட்டிலிருந்து OMEMO கைரேகைகளை இறக்குமதி செய்து நம்புங்கள்";
 /* quicksy country */
-"India" = "India";
+"India" = "இந்தியா";
 "Indicate when a particular device is active or inactive. Saves battery." = "ஒரு குறிப்பிட்ட சாதனம் செயலில் அல்லது செயலற்ற நிலையில் இருப்பதைக் குறிக்கவும். பேட்டரியைச் சேமிக்கிறது.";
 /* quicksy country */
-"Indonesia" = "Indonesia";
+"Indonesia" = "இந்தோனேசியா";
 "Input" = "உள்ளீடு";
 "Input is not a valid jid" = "உள்ளீடு சரியான சிட் அல்ல";
 "Interactions" = "இடைவினைகள்";
@@ -650,43 +650,43 @@
 "Inviting user" = "அழைக்கும் பயனரை அழைக்கிறது";
 "Inviting user to this group/channel: %@" = "இந்த குழு/சேனலுக்கு பயனரை அழைக்கிறது: %@";
 /* quicksy country */
-"Iran (Islamic Republic of)" = "Iran (Islamic Republic of)";
+"Iran (Islamic Republic of)" = "ஈரான் (இச்லாமிய குடியரசு)";
 /* quicksy country */
-"Iraq" = "Iraq";
+"Iraq" = "ஈராக்";
 /* quicksy country */
-"Ireland" = "Ireland";
+"Ireland" = "அயர்லாந்து";
 /* quicksy country */
-"Israel" = "Israel";
+"Israel" = "இச்ரேல்";
 /* QR-Code-Scanner: Camera not found */
 "It does not seem as your device has a camera. Please use a device with a camera for scanning" = "உங்கள் சாதனத்தில் கேமரா இருப்பதால் இது தெரியவில்லை. ச்கேனிங்கிற்கு கேமரா கொண்ட சாதனத்தைப் பயன்படுத்தவும்";
 /* quicksy country */
-"Italy" = "Italy";
+"Italy" = "இத்தாலி";
 /* quicksy country */
-"Jamaica" = "Jamaica";
+"Jamaica" = "சமைக்கா";
 /* quicksy country */
-"Japan" = "Japan";
+"Japan" = "சப்பான்";
 "Join Channel" = "சேனலில் சேரவும்";
 "Join Group" = "குழுவில் சேரவும்";
 /* quicksy country */
-"Jordan" = "Jordan";
+"Jordan" = "சோர்டான்";
 "Just seen" = "சற்றுமுன் காணப்பட்டார்";
 /* quicksy country */
-"Kazakhstan" = "Kazakhstan";
+"Kazakhstan" = "கசகிச்தான்";
 /* quicksy country */
-"Kenya" = "Kenya";
+"Kenya" = "கென்யா";
 "Keys of %@" = "%@ இன் விசைகள்";
-"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
-"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
+"Kicked from group/channel, because of system shutdown: %@" = "கணினி பணிநிறுத்தம் காரணமாக குழு/சேனலில் இருந்து உதைக்கப்பட்டது: %@";
+"Kicked, because group/channel is now members-only: %@" = "உதைக்கப்பட்டது, ஏனெனில் குழு/சேனல் இப்போது உறுப்பினர்களாக உள்ளது: %@";
 /* quicksy country */
-"Kiribati" = "Kiribati";
+"Kiribati" = "கிரிபாடி";
 /* quicksy country */
-"Korea (Rep. of)" = "Korea (Rep. of)";
+"Korea (Rep. of)" = "கொரியா (பிரதிநிதி)";
 /* quicksy country */
-"Kuwait" = "Kuwait";
+"Kuwait" = "குவைத்";
 /* quicksy country */
-"Kyrgyzstan" = "Kyrgyzstan";
+"Kyrgyzstan" = "கிரைகிசுத்தான்";
 /* quicksy country */
-"Lao P.D.R." = "Lao P.D.R.";
+"Lao P.D.R." = "லாவோ பி.டி.ஆர்.";
 "Last seen: %@" = "கடைசியாக பார்த்தது: %@";
 "Last seen: %d days ago" = "கடைசியாக காணப்பட்டது: %d நாட்களுக்கு முன்பு";
 "Last seen: %d hours ago" = "கடைசியாக காணப்பட்டது: %d மணிநேரத்திற்கு முன்பு";
@@ -695,28 +695,28 @@
 "Last seen: 1 hour ago" = "கடைசியாக காணப்பட்டது : 1 மணிநேரத்திற்கு முன்பு";
 "Last seen: 1 minute ago" = "கடைசியாக காணப்பட்டது : 1 நிமிடத்திற்கு முன்பு";
 /* quicksy country */
-"Latvia" = "Latvia";
+"Latvia" = "லட்வியா";
 "Leave Channel" = "சேனலை விட்டு விடுங்கள்";
 "Leave Group" = "குழு விடுப்பு";
 "Leave this conversation" = "இந்த உரையாடலை விட்டு விடுங்கள்";
 "Leave this converstion?" = "உரையாடலை விட்டு வெளியேறவேண்டுமா?";
 /* quicksy country */
-"Lebanon" = "Lebanon";
+"Lebanon" = "லெபனான்";
 /* quicksy country */
-"Lesotho" = "Lesotho";
+"Lesotho" = "லெசோதோ";
 "Let your contacts know if you are typing a message." = "நீங்கள் ஒரு செய்தியைத் தட்டச்சு செய்கிறீர்கள் என்பதை உங்கள் தொடர்புகள் தெரியப்படுத்துங்கள்.";
 "Let your contacts know if you read a message." = "நீங்கள் ஒரு செய்தியைப் படித்தால் உங்கள் தொடர்புகள் தெரியப்படுத்துங்கள்.";
 "Let your contacts know if you received a message." = "உங்களுக்கு ஒரு செய்தி வந்தால் உங்கள் தொடர்புகளுக்கு தெரியப்படுத்துங்கள்.";
 "Let your contacts know when you last opened the app." = "நீங்கள் கடைசியாக பயன்பாட்டைத் திறந்தபோது உங்கள் தொடர்புகள் தெரியப்படுத்துங்கள்.";
 /* quicksy country */
-"Liberia" = "Liberia";
+"Liberia" = "லைபீரியா";
 /* quicksy country */
-"Libya" = "Libya";
+"Libya" = "லிப்யா";
 /* quicksy country */
-"Liechtenstein" = "Liechtenstein";
+"Liechtenstein" = "லீச்சென்சுதீன்";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "மின்னஞ்சலைப் போலவே, உங்கள் கணக்கை பல தளங்களில் பதிவுசெய்து யாருடனும் பேசலாம். தேர்ந்தெடுக்கப்பட்ட அல்லது வழங்கப்பட்ட XMPP சேவையகத்துடன் கணக்கைப் பதிவு செய்ய இந்தப் பக்கத்தைப் பயன்படுத்தலாம். நீங்கள் ஒரு பயனர்பெயர் மற்றும் கடவுச்சொல்லையும் தேர்வு செய்ய வேண்டும்.";
 /* quicksy country */
-"Lithuania" = "Lithuania";
+"Lithuania" = "லிதுவேனியா";
 "Load over Cellular" = "செல்லுலார் மீது ஏற்றவும்";
 "Load over cellular up to: %@ MiB" = "செல்லுலார் வரை ஏற்றவும்: %@ mib";
 "Load over wifi" = "வைஃபை மீது ஏற்றவும்";
@@ -733,61 +733,61 @@
 "Logfiles" = "பதிவு கோப்புகள்";
 "Logging in" = "உள்நுழைதல்";
 "Login" = "புகுபதிவு";
-"Login error, account disabled: %@" = "Login error, account disabled: %@";
+"Login error, account disabled: %@" = "உள்நுழைவு பிழை, கணக்கு முடக்கப்பட்டது: %@";
 "Logs" = "பதிவுகள்";
 /* quicksy country */
-"Luxembourg" = "Luxembourg";
+"Luxembourg" = "லக்சம்பர்க்";
 /* quicksy country */
-"Macao, China" = "Macao, China";
+"Macao, China" = "மக்காவோ, சீனா";
 /* quicksy country */
-"Madagascar" = "Madagascar";
+"Madagascar" = "மடகாச்கர்";
 "Make transfered Media and Files accessible in Files App" = "கோப்புகள் பயன்பாட்டில் மாற்றப்பட்ட மீடியா மற்றும் கோப்புகளை அணுகலாம்";
 /* quicksy country */
-"Malawi" = "Malawi";
+"Malawi" = "மலாவி";
 /* quicksy country */
-"Malaysia" = "Malaysia";
+"Malaysia" = "மலேசியா";
 /* quicksy country */
-"Maldives" = "Maldives";
+"Maldives" = "மாலதீவுகள்";
 /* quicksy country */
-"Mali" = "Mali";
+"Mali" = "மாலி";
 /* quicksy country */
-"Malta" = "Malta";
+"Malta" = "மால்டா";
 "Manual input" = "கையேடு உள்ளீடு";
 "Mark as read" = "படித்தபடி குறி";
 /* quicksy country */
-"Marshall Islands" = "Marshall Islands";
+"Marshall Islands" = "மார்சல் தீவுகள்";
 /* quicksy country */
-"Martinique" = "Martinique";
+"Martinique" = "மார்டினீக்கு";
 /* quicksy country */
-"Mauritania" = "Mauritania";
+"Mauritania" = "மொரிசியேனியா";
 /* quicksy country */
-"Mauritius" = "Mauritius";
+"Mauritius" = "மொரீசியச்";
 /* Prefix for own messages in chat overview */
 "Me:" = "நான்:";
 /* muc affiliation */
 "Member" = "உறுப்பினர்";
 "Message from %@" = "%@ இடமிருந்து செய்தி";
-"Message was encrypted with '%@' which isn't supported by Monal" = "Message was encrypted with '%@' which isn't supported by Monal";
-"Message was encrypted with OMEMO and can't be decrypted anymore" = "Message was encrypted with OMEMO and can't be decrypted anymore";
-"Message was encrypted with OMEMO but could not be decrypted" = "Message was encrypted with OMEMO but could not be decrypted";
-"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u.";
+"Message was encrypted with '%@' which isn't supported by Monal" = "செய்தி '%@' உடன் குறியாக்கம் செய்யப்பட்டது, இது மோனால் ஆதரிக்கப்படவில்லை";
+"Message was encrypted with OMEMO and can't be decrypted anymore" = "செய்தி ஓமமோவுடன் குறியாக்கம் செய்யப்பட்டது, இனி மறைகுறியாக்க முடியாது";
+"Message was encrypted with OMEMO but could not be decrypted" = "செய்தி ஓமமோவுடன் குறியாக்கம் செய்யப்பட்டது, ஆனால் மறைகுறியாக்க முடியவில்லை";
+"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "இந்த சாதனத்திற்கு செய்தி குறியாக்கம் செய்யப்படவில்லை. அனுப்புநர் சாதனத்தை நம்புகிறார் %u.";
 "Messages are encrypted" = "செய்திகள் குறியாக்கம் செய்யப்பட்டுள்ளன";
 "Messages are NOT encrypted" = "செய்திகள் குறியாக்கம் செய்யப்படவில்லை";
 "Messages never archived by default." = "செய்திகள் முன்னிருப்பாகக் காப்பகப்படுத்தப்படவில்லை.";
 "Method: %@" = "முறை: %@";
 /* quicksy country */
-"Mexico" = "Mexico";
+"Mexico" = "மெக்சிகோ";
 /* quicksy country */
-"Micronesia" = "Micronesia";
+"Micronesia" = "மைக்ரோனேசியா";
 "Migration Assistant" = "இடம்பெயர்வு உதவியாளர்";
 "Misc" = "இதர";
 "Missing Call Support" = "அழைப்பு உதவி இல்லை";
 "Missing permission" = "இசைவு இல்லை";
 "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.\n\nUsing Monal instead of a centralized chat app therefore increases your digital sovereignty." = "நவீன ஐஇமு மற்றும் MACOS XMPP அரட்டை கிளையண்ட்.\n\n எக்ச்எம்பிபி ஒரு கூட்டாட்சி நெட்வொர்க்: மின்னஞ்சலைப் போலவே, உங்கள் கணக்கை பல சேவையகங்களில் பதிவுசெய்து, வேறு சேவையகத்தில் பதிவுபெற்றிருந்தாலும் யாருடனும் பேசலாம்.\n\n மையப்படுத்தப்பட்ட அரட்டை பயன்பாட்டிற்கு பதிலாக மோனலைப் பயன்படுத்துவது உங்கள் டிசிட்டல் இறையாண்மையை அதிகரிக்கிறது.";
 /* quicksy country */
-"Moldova (Republic of)" = "Moldova (Republic of)";
+"Moldova (Republic of)" = "மால்டோவா (குடியரசு)";
 /* quicksy country */
-"Monaco" = "Monaco";
+"Monaco" = "மொனாக்கோ";
 "Monal" = "மோனால்";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "மோனால் தற்போது இந்த விசையை நம்புகிறார், ஆனால் கைரேகைகள் இன்னும் ஒப்பிடப்படவில்லை. பாதுகாப்பை அதிகரிக்க, காட்டப்படும் கைரேகைகள் இந்த விசையை நம்புவதற்கு முன்பு பொருந்துகின்றன என்பதை தொடர்புடன் உறுதிப்படுத்தவும்!";
 "Monal did not received a gps location. Please try again later." = "மோனால் GPS இருப்பிடத்தைப் பெறவில்லை. பிறகு முயற்சிக்கவும்.";
@@ -795,51 +795,51 @@
 "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "இந்த விசையை மோனால் நம்பவில்லை. ஒன்று கைமுறையாக முடக்கப்பட்டது அல்லது கைமுறையாக சரிபார்க்கப்படவில்லை, அதே நேரத்தில் அந்த தொடர்பின் மற்ற விசைகள் சரிபார்க்கப்படுகின்றன. மாற்று உறுப்பைப் பயன்படுத்தி இந்த விசையை நீங்கள் நம்பலாம். இந்த விசையை நம்புவதற்கு முன்பு கைரேகைகள் பொருந்துகின்றன என்பதை தொடர்புடன் உறுதிப்படுத்தவும்.";
 /* Camera permissions missing warning */
 "Monal is not allowed to access the camera" = "கேமராவை அணுக மோனால் அனுமதிக்கப்படவில்லை";
-"Monal was not able to send your attachment!" = "Monal was not able to send your attachment!";
-"Monal was not able to send your attachment: %@" = "Monal was not able to send your attachment: %@";
+"Monal was not able to send your attachment!" = "உங்கள் இணைப்பை மோனால் அனுப்ப முடியவில்லை!";
+"Monal was not able to send your attachment: %@" = "உங்கள் இணைப்பை மோனால் அனுப்ப முடியவில்லை: %@";
 /* quicksy country */
-"Mongolia" = "Mongolia";
+"Mongolia" = "மங்கோலியா";
 /* quicksy country */
-"Montenegro" = "Montenegro";
+"Montenegro" = "மோன்டே நெக்ரோ";
 /* quicksy country */
-"Montserrat" = "Montserrat";
+"Montserrat" = "மொன்சாராட்";
 "More info?" = "மேலும் தகவல்?";
 /* quicksy country */
-"Morocco" = "Morocco";
+"Morocco" = "மொரோக்கோ";
 /* quicksy country */
-"Mozambique" = "Mozambique";
+"Mozambique" = "மொசாம்பிக்";
 "My Encryption Keys" = "எனது குறியாக்க விசைகள்";
 /* quicksy country */
-"Myanmar" = "Myanmar";
+"Myanmar" = "மியான்மர்";
 /* quicksy country */
-"Namibia" = "Namibia";
+"Namibia" = "நமீபியா";
 /* quicksy country */
-"Nauru" = "Nauru";
+"Nauru" = "நவ்ரூ";
 /* quicksy country */
-"Nepal" = "Nepal";
+"Nepal" = "நேபாளம்";
 /* quicksy country */
-"Netherlands" = "Netherlands";
+"Netherlands" = "நெதர்லாந்து";
 "Never archive" = "ஒருபோதும் காப்பகம் செய்ய வேண்டாம்";
 "New Account" = "புதிய கணக்கு";
 /* quicksy country */
-"New Caledonia" = "New Caledonia";
-"New Message" = "New Message";
-"New omemo device" = "New omemo device";
+"New Caledonia" = "புதிய கலிடோனியா";
+"New Message" = "புதிய செய்தி";
+"New omemo device" = "புதிய ஓம்மோ சாதனம்";
 "New Password" = "புதிய கடவுச்சொல்";
 /* quicksy country */
-"New Zealand" = "New Zealand";
+"New Zealand" = "நியூசிலாந்து";
 "Newest TLS version which is faster than TLS 1.2" = "புதிய டி.எல்.எச் பதிப்பு டி.எல்.எச் 1.2 ஐ விட வேகமாக உள்ளது";
 /* onboarding */
 "Next" = "அடுத்தது";
 /* quicksy country */
-"Nicaragua" = "Nicaragua";
+"Nicaragua" = "நிகராகுவா";
 "Nickname" = "புனைப்பெயர்";
 /* quicksy country */
-"Niger" = "Niger";
+"Niger" = "நைகர்";
 /* quicksy country */
-"Nigeria" = "Nigeria";
+"Nigeria" = "நைசீரியா";
 /* quicksy country */
-"Niue" = "Niue";
+"Niue" = "நியூ";
 "No" = "இல்லை";
 "No account available to handel 'xmpp:' URI!" = "ஏண்டல் 'எக்ச்எம்பிபிக்கு கணக்கு எதுவும் கிடைக்கவில்லை:' யூரி!";
 "No accounts set up currently" = "தற்போது கணக்குகள் எதுவும் அமைக்கப்படவில்லை";
@@ -848,24 +848,24 @@
 "No contacts to show :(" = "காண்பிக்க தொடர்புகள் இல்லை :(";
 "No Empty Values!" = "வெற்று மதிப்புகள் இல்லை!";
 "No enabled account found" = "இயக்கப்பட்ட கணக்கு எதுவும் கிடைக்கவில்லை";
-"No further error description" = "No further error description";
+"No further error description" = "மேலும் பிழை விளக்கம் இல்லை";
 "No GPS location received" = "GPS இடம் பெறப்படவில்லை";
 "No OMEMO keys found" = "ஓமமோ விசைகள் எதுவும் கிடைக்கவில்லை";
 "No pending constact requests" = "நிலுவையில் உள்ள கோரிக்கைகள் எதுவும் இல்லை";
 "No search result." = "தேடல் முடிவு இல்லை.";
-"No supported auth mechanism found, disabling account!" = "No supported auth mechanism found, disabling account!";
+"No supported auth mechanism found, disabling account!" = "கணக்கை முடக்குவது, ஆதரிக்கப்பட்ட அங்கீகார பொறிமுறையானது இல்லை!";
 "No XMPP server!" = "எக்ச்எம்பிபி சேவையகம் இல்லை!";
 "No, keep encryption activated" = "இல்லை, குறியாக்கத்தை செயல்படுத்துங்கள்";
 /* Crash reporting */
 "No, thanks" = "இல்லை, நன்றி";
 "None" = "எதுவுமில்லை";
 /* quicksy country */
-"Northern Marianas" = "Northern Marianas";
+"Northern Marianas" = "வடக்கு மரியானாச்";
 /* quicksy country */
-"Norway" = "Norway";
-"Not Authorized. Please check your credentials." = "Not Authorized. Please check your credentials.";
-"Notes to self" = "Notes to self";
-"Notes to self: %@" = "Notes to self: %@";
+"Norway" = "நார்வே";
+"Not Authorized. Please check your credentials." = "ஏற்பு இல்லை. உங்கள் சான்றுகளை சரிபார்க்கவும்.";
+"Notes to self" = "தன்வய குறிப்புகள்";
+"Notes to self: %@" = "தன்வய குறிப்புகள்: %@";
 "Notifications" = "அறிவிப்புகள்";
 "Notifications disabled" = "அறிவிப்புகள் முடக்கப்பட்டன";
 "Notify on all messages" = "எல்லா செய்திகளிலும் அறிவிக்கவும்";
@@ -879,13 +879,13 @@
 "Okay" = "சரி";
 "Older, slower, but still secure TLS version" = "பழைய, மெதுவான, ஆனால் இன்னும் பாதுகாப்பான TLS பதிப்பு";
 /* quicksy country */
-"Oman" = "Oman";
+"Oman" = "ஓமான்";
 "On this device" = "இந்த சாதனத்தில்";
 "Online" = "ஒன்லைன்";
 "Only contacts" = "தொடர்புகள் மட்டுமே";
 "Open" = "திற";
 "Open account settings" = "கணக்கு அமைப்புகளைத் திறக்கவும்";
-"Open app to see more" = "Open app to see more";
+"Open app to see more" = "மேலும் காண பயன்பாட்டைத் திறக்கவும்";
 /* muc members list */
 "Open contact details" = "தொடர்பு விவரங்களைத் திறக்கவும்";
 "Open contact list" = "தொடர்பு பட்டியல் திறந்த";
@@ -902,15 +902,15 @@
 /* muc affiliation */
 "Owner" = "உரிமையாளர்";
 /* quicksy country */
-"Pakistan" = "Pakistan";
+"Pakistan" = "பாகிச்தான்";
 /* quicksy country */
-"Palau" = "Palau";
+"Palau" = "பலாவு";
 /* quicksy country */
-"Panama" = "Panama";
+"Panama" = "பனாமா";
 /* quicksy country */
-"Papua New Guinea" = "Papua New Guinea";
+"Papua New Guinea" = "பப்புவா நியூ கினி";
 /* quicksy country */
-"Paraguay" = "Paraguay";
+"Paraguay" = "பராகுவே";
 /* muc affiliation */
 "Participant" = "பங்கேற்பாளர்";
 /* placeholder when adding account
@@ -924,9 +924,9 @@
 "Passwords don't match!" = "கடவுச்சொற்கள் பொருந்தவில்லை!";
 "Permission Requested" = "அனுமதி கோரப்பட்டது";
 /* quicksy country */
-"Peru" = "Peru";
+"Peru" = "பெரு";
 /* quicksy country */
-"Philippines" = "Philippines";
+"Philippines" = "பிலிப்பைன்ச்";
 "Photos" = "புகைப்படங்கள்";
 "Pin Chat" = "முள் அரட்டை";
 "Play Sounds" = "ஒலிகளை இயக்கவும்";
@@ -943,13 +943,13 @@
 "Please make sure you have entered the same password in both password fields." = "இரண்டு கடவுச்சொல் புலங்களிலும் ஒரே கடவுச்சொல்லை உள்ளிட்டுள்ளீர்கள் என்பதை உறுதிப்படுத்தவும்.";
 "Please provide a valid XMPP server domain or select one." = "செல்லுபடியாகும் எக்ச்எம்பிபி சேவையக டொமைனை வழங்கவும் அல்லது ஒன்றைத் தேர்ந்தெடுக்கவும்.";
 "Please select a XMPP server or provide one." = "தயவுசெய்து ஒரு XMPP சேவையகத்தைத் தேர்ந்தெடுக்கவும் அல்லது ஒன்றை வழங்கவும்.";
-"Please update!" = "Please update!";
+"Please update!" = "புதுப்பிக்கவும்!";
 /* quicksy country */
-"Poland" = "Poland";
+"Poland" = "போலந்து";
 "Port" = "போர்ட்";
 "Port: %@, Direct TLS: %@, Priority: %@" = "போர்ட்: %@, நேரடி டி.எல்.எச்: %@, முன்னுரிமை: %@";
 /* quicksy country */
-"Portugal" = "Portugal";
+"Portugal" = "போர்ச்சுகல்";
 "Previews" = "முன்னோட்டங்கள்";
 "Previous" = "முந்தைய";
 "Privacy" = "தனியுரிமை";
@@ -958,11 +958,11 @@
 "Provide XMPP-Server" = "எக்ச்எம்பி-சேவையகத்தை வழங்கவும்";
 "Publish version" = "பதிப்பை வெளியிடுங்கள்";
 /* quicksy country */
-"Puerto Rico" = "Puerto Rico";
+"Puerto Rico" = "போர்ட்டோ ரீக்கோ";
 "Push Server" = "சேவையகத்தை தள்ளுங்கள்";
 "Pushserver Region" = "புச்சர்வர் பகுதி";
 /* quicksy country */
-"Qatar" = "Qatar";
+"Qatar" = "கதார்";
 "QR code: Fingerprints found" = "QR குறியீடு: கைரேகைகள் காணப்பட்டன";
 "QR-Code Scanner" = "QR-Code ச்கேனர்";
 /* QR-Code-Scanner */
@@ -976,14 +976,14 @@
 "Really remove avatar?" = "உண்மையில் அவதாரத்தை அகற்றவா?";
 "Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "துண்டிக்கப்படும்போது கூட ஆப்பிள் வழியாக புச் அறிவிப்புகளைப் பெறுங்கள். நம்பகத்தன்மையை பெரிதும் மேம்படுத்துகிறது.";
 /* directory for downloaded audios */
-"Received Audios" = "Received Audios";
+"Received Audios" = "ஆடியோக்களைப் பெற்றது";
 /* directory for downloaded files */
-"Received Files" = "Received Files";
+"Received Files" = "பெறப்பட்ட கோப்புகள்";
 "Received geo locations are shared with Apple's Maps App." = "பெறப்பட்ட உலகம் இருப்பிடங்கள் ஆப்பிளின் வரைபட பயன்பாட்டுடன் பகிரப்படுகின்றன.";
 /* directory for downloaded images */
-"Received Images" = "Received Images";
+"Received Images" = "பெறப்பட்ட படங்கள்";
 /* directory for downloaded videos */
-"Received Videos" = "Received Videos";
+"Received Videos" = "வீடியோக்களைப் பெற்றது";
 /* shareViewController: recipient */
 "Recipient" = "பெறுநர்";
 "Recode Fail:" = "ரெகோட் தோல்வி:";
@@ -998,7 +998,7 @@
 "Registration Error" = "பதிவு பிழை";
 "Remove %@ from contacts?" = "தொடர்புகளில் இருந்து %@ஐ அகற்றவா?";
 "Remove %@?" = "%@ஐ அகற்று?";
-"Remove Account from this Device" = "Remove Account from this Device";
+"Remove Account from this Device" = "இந்த சாதனத்திலிருந்து கணக்கை அகற்று";
 "Remove Background Image" = "பின்னணி படத்தை அகற்று";
 "Remove Channel Avatar" = "சேனல் அவதாரத்தை அகற்று";
 "Remove Contact" = "தொடர்பு நீக்க";
@@ -1026,33 +1026,33 @@
 "Rich Text" = "பணக்கார உரை";
 "Ringing..." = "ரிங்கிங் ...";
 /* quicksy country */
-"Romania" = "Romania";
+"Romania" = "ரோமானியா";
 /* quicksy country */
-"Russian Federation" = "Russian Federation";
+"Russian Federation" = "ரச்யன் கூட்டமைப்பு";
 /* quicksy country */
-"Rwanda" = "Rwanda";
+"Rwanda" = "ருவாண்டா";
 /* quicksy country */
-"Saint Helena, Ascension and Tristan da Cunha" = "Saint Helena, Ascension and Tristan da Cunha";
+"Saint Helena, Ascension and Tristan da Cunha" = "செயிண்ட் எலினா, அசென்சன் மற்றும் டிரிச்டன் டா குன்னா";
 /* quicksy country */
-"Saint Kitts and Nevis" = "Saint Kitts and Nevis";
+"Saint Kitts and Nevis" = "செயின்ட் கிட்ச் மற்றும் நிவிச்";
 /* quicksy country */
-"Saint Lucia" = "Saint Lucia";
+"Saint Lucia" = "செயின்ட் லூசியா";
 /* quicksy country */
-"Saint Pierre and Miquelon" = "Saint Pierre and Miquelon";
+"Saint Pierre and Miquelon" = "செயின்ட் பியார் மற்றும் மிக்யுலன்";
 /* quicksy country */
-"Saint Vincent and the Grenadines" = "Saint Vincent and the Grenadines";
+"Saint Vincent and the Grenadines" = "செயின்ட் வின்சென்ட் மற்றும் க்ரினடின்ச்";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "கொடுக்கப்பட்ட ஆச் முறையைப் பயன்படுத்தி உப்பு அறைகூவல் மறுமொழி அங்கீகார வழிமுறை";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "சேனல்-பிணைப்பால் கூடுதலாக பாதுகாக்கப்பட்ட கொடுக்கப்பட்ட ஆச் முறையைப் பயன்படுத்தி உப்பு அறைகூவல் மறுமொழி அங்கீகார வழிமுறை";
 /* quicksy country */
-"Samoa" = "Samoa";
+"Samoa" = "சமோவா";
 /* quicksy country */
-"San Marino" = "San Marino";
+"San Marino" = "சான் மரீனோ";
 /* quicksy country */
-"Sao Tome and Principe" = "Sao Tome and Principe";
+"Sao Tome and Principe" = "சோ டோமி மற்றும் பிரின்சிபி";
 /* quicksy country */
-"Saudi Arabia" = "Saudi Arabia";
+"Saudi Arabia" = "சவூதி அரேபியா";
 "Saving changes to server" = "சேவையகத்தில் மாற்றங்களைச் சேமிக்கிறது";
-"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "ச்க்ராம் சேவையக சான்று தவறு, தற்போதைய எம்ஐடிஎம் தாக்குதல் அதிக வாய்ப்புள்ளது, அங்கீகாரத்தை நிறுத்துகிறது மற்றும் சேதத்தை கட்டுப்படுத்த கணக்கை முடக்குகிறது. நீங்கள் மீண்டும் தூய்மையான நெட்வொர்க்கிங் சூழலில் இருந்தவுடன் உங்கள் கணக்கை மீண்டும் உருவாக்க முயற்சிக்க வேண்டும்.";
 /* mac only string */
 "Scroll down to load more messages" = "மேலும் செய்திகளை ஏற்ற கீழே உருட்டவும்";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "TLS1.3 மற்றும் சில TLS1.2 இணைப்புகளுக்கு வரையறுக்கப்பட்ட பாதுகாப்பான சேனல்-பிணைப்பு.";
@@ -1071,68 +1071,68 @@
 "Send read receipts" = "வாசிப்பு ரசீதுகளை அனுப்பவும்";
 "Send SMS again" = "எச்எம்எச் மீண்டும் அனுப்பவும்";
 "Send typing notifications" = "தட்டச்சு அறிவிப்புகளை அனுப்பவும்";
-"Sending..." = "Sending...";
+"Sending..." = "அனுப்புகிறது ...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "கடவுச்சொல்லை கிளியர்டெக்ச்டில் அனுப்புகிறது (TLS ஆல் மட்டுமே குறியாக்கம் செய்யப்பட்டது), மிகவும் பாதுகாப்பாக இல்லை";
 /* quicksy country */
-"Senegal" = "Senegal";
-"Sent a File 📁" = "Sent a File 📁";
+"Senegal" = "செனகல்";
+"Sent a File 📁" = "ஒரு கோப்பை அனுப்பினார்";
 "Sent a Link 🔗" = "இணைப்பு அனுப்பப்பட்டது 🔗";
-"Sent a Location 📍" = "Sent a Location 📍";
+"Sent a Location 📍" = "ஒரு இடம் அனுப்பப்பட்டது";
 "Sent an Image 📷" = "ஒரு படம் அனுப்பப்பட்டது 📷";
 /* directory for downloaded audios */
-"Sent Audios" = "Sent Audios";
+"Sent Audios" = "அனுப்பிய ஆடியோக்கள்";
 /* directory for downloaded files */
-"Sent Files" = "Sent Files";
+"Sent Files" = "கோப்புகளை அனுப்பியது";
 /* directory for downloaded images */
-"Sent Images" = "Sent Images";
+"Sent Images" = "அனுப்பப்பட்ட படங்கள்";
 /* directory for downloaded videos */
-"Sent Videos" = "Sent Videos";
+"Sent Videos" = "வீடியோக்களை அனுப்பியது";
 /* quicksy country */
-"Serbia" = "Serbia";
+"Serbia" = "செர்பியா";
 "Server" = "சர்வர்";
-"Server does not support account removal" = "Server does not support account removal";
-"Server for domain '%@' not responding!" = "Server for domain '%@' not responding!";
-"Server implementation error: SASL2 tasks empty, account disabled!" = "Server implementation error: SASL2 tasks empty, account disabled!";
-"Server returned invalid xml!" = "Server returned invalid xml!";
-"Server returned SASL2 error '%@'." = "Server returned SASL2 error '%@'.";
-"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"Server does not support account removal" = "கணக்கு அகற்றுவதை சேவையகம் ஆதரிக்காது";
+"Server for domain '%@' not responding!" = "டொமைனுக்கான சேவையகம் '%@' பதிலளிக்கவில்லை!";
+"Server implementation error: SASL2 tasks empty, account disabled!" = "சேவையக செயல்படுத்தல் பிழை: SASL2 பணிகள் காலியாக, கணக்கு முடக்கப்பட்டது!";
+"Server returned invalid xml!" = "சேவையகம் தவறான எக்ச்எம்எல் திரும்பியது!";
+"Server returned SASL2 error '%@'." = "சேவையகம் SASL2 பிழை '%@'.";
+"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "சேவையகத்திற்கு திடீரென SASL2-SCRAM க்கு உதவி இல்லை, தற்போதைய MITM தாக்குதல் அதிக வாய்ப்புள்ளது, அங்கீகாரத்தை நிறுத்துகிறது மற்றும் சேதத்தைக் கட்டுப்படுத்த கணக்கை முடக்குகிறது. நீங்கள் மீண்டும் தூய்மையான நெட்வொர்க்கிங் சூழலில் இருந்தவுடன் உங்கள் கணக்கை மீண்டும் உருவாக்க முயற்சிக்க வேண்டும்.";
 "Server: %@" = "சர்வர்: %@";
 "Set up account later" = "பின்னர் கணக்கை அமைக்கவும்";
 /* Camera permissions missing warning */
 "Settings" = "அமைப்புகள்";
 /* quicksy country */
-"Seychelles" = "Seychelles";
+"Seychelles" = "சீசெல்சு";
 "Sharing failed" = "பகிர்வு தோல்வியடைந்தது";
 "Show inline geo location" = "இன்லைன் சியோ இருப்பிடத்தைக் காட்டு";
 "Show shared Media and Files" = "பகிரப்பட்ட மீடியா மற்றும் கோப்புகளைக் காட்டு";
 "Show URL previews" = "முகவரி முன்னோட்டங்களைக் காட்டு";
 /* quicksy country */
-"Sierra Leone" = "Sierra Leone";
+"Sierra Leone" = "சியராலியோன்";
 /* quicksy country */
-"Singapore" = "Singapore";
+"Singapore" = "சிங்கப்பூர்";
 /* quicksy country */
-"Sint Maarten (Dutch part)" = "Sint Maarten (Dutch part)";
+"Sint Maarten (Dutch part)" = "செயின்ட் மார்ட்டின் (பிரெஞ்சு பகுதி)";
 /* quicksy country */
-"Slovakia" = "Slovakia";
+"Slovakia" = "சுலோவேக்கியா";
 /* quicksy country */
-"Slovenia" = "Slovenia";
+"Slovenia" = "ச்லோவேனியா";
 /* quicksy country */
-"Solomon Islands" = "Solomon Islands";
+"Solomon Islands" = "சாலமன் தீவுகள்";
 /* quicksy country */
-"Somalia" = "Somalia";
+"Somalia" = "சோமாலியா";
 "Some debug settings." = "சில பிழைத்திருத்த அமைப்புகள்.";
-"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
+"Some messages might wait to be retrieved or sent. Please open the app to retry." = "சில செய்திகள் மீட்டெடுக்க அல்லது அனுப்ப காத்திருக்கலாம். மீண்டும் முயற்சிக்க பயன்பாட்டைத் திறக்கவும்.";
 "Something went wrong processing your request." = "உங்கள் கோரிக்கையை செயலாக்க ஏதோ தவறு ஏற்பட்டது.";
 "Something went wrong while parsing your input..." = "உங்கள் உள்ளீட்டை பாகுபடுத்தும்போது ஏதோ தவறு ஏற்பட்டது ...";
 "Sounds" = "ஒலிகள்";
 "Sounds courtesy Emrah" = "மரியாதை எம்ரா";
 /* quicksy country */
-"South Africa" = "South Africa";
+"South Africa" = "தென் ஆப்ரிக்கா";
 /* quicksy country */
-"Spain" = "Spain";
+"Spain" = "ச்பெயின்";
 /* quicksy country */
-"Sri Lanka" = "Sri Lanka";
-"SRV entry prohibits XMPP connection for domain %@" = "SRV entry prohibits XMPP connection for domain %@";
+"Sri Lanka" = "இலங்கை";
+"SRV entry prohibits XMPP connection for domain %@" = "எச்.ஆர்.வி நுழைவு டொமைன் %@ க்கான எக்ச்எம்பிபி இணைப்பை தடை செய்கிறது@";
 "Status" = "நிலை";
 "Status Message" = "நிலை செய்தி";
 "Status message:" = "நிலை செய்தி:";
@@ -1143,36 +1143,36 @@
 "Successfully destroyed group." = "குழு வெற்றிகரமாக அழிக்கப்பட்டது.";
 "Successfully joined group/channel %@!" = "குழு/சேனல் %@@!";
 /* quicksy country */
-"Sudan" = "Sudan";
+"Sudan" = "சூடான்";
 "Support" = "உதவி";
 /* Crash reporting */
 "Sure, send it!" = "நிச்சயமாக, அனுப்புங்கள்!";
 /* quicksy country */
-"Suriname" = "Suriname";
+"Suriname" = "சூரினாம்";
 /* quicksy country */
-"Swaziland" = "Swaziland";
+"Swaziland" = "ச்வாசிலாண்ட்";
 /* quicksy country */
-"Sweden" = "Sweden";
+"Sweden" = "சுவீடன்";
 /* quicksy country */
-"Switzerland" = "Switzerland";
+"Switzerland" = "சுவிட்சர்லாந்து";
 "Synchronize your messages on all loggedin devices." = "அனைத்து loggedin சாதனங்களிலும் உங்கள் செய்திகளை ஒத்திசைக்கவும்.";
 /* quicksy country */
-"Syrian Arab Republic" = "Syrian Arab Republic";
+"Syrian Arab Republic" = "சிரியன் அரபு குடியரசு";
 /* quicksy country */
-"Taiwan, China" = "Taiwan, China";
+"Taiwan, China" = "தைவான், சீனா";
 /* quicksy country */
-"Tajikistan" = "Tajikistan";
+"Tajikistan" = "தசிக்கிசுதான்";
 "Take me to settings" = "அமைப்புகளுக்கு என்னை அழைத்துச் செல்லுங்கள்";
 /* quicksy country */
-"Tanzania" = "Tanzania";
+"Tanzania" = "தான்சானியா";
 "Temporarily unavailable. Try again later." = "தற்காலிகமாக கிடைக்கவில்லை. பின்னர் மீண்டும் முயற்சிக்கவும்.";
-"Temporary failure to enter Group/Channel: %@" = "Temporary failure to enter Group/Channel: %@";
+"Temporary failure to enter Group/Channel: %@" = "குழு/சேனலை உள்ளிட தற்காலிக தோல்வி: %@";
 "Terms of %@" = "%Of இன் விதிமுறைகள்";
 "Terms of use for %@" = "%@ க்கான பயன்பாட்டு விதிமுறைகள்";
 /* quicksy country */
-"Thailand" = "Thailand";
+"Thailand" = "தாய்லாந்து";
 "The account has been deleted" = "கணக்கு நீக்கப்பட்டது";
-"The account has been removed" = "The account has been removed";
+"The account has been removed" = "கணக்கு அகற்றப்பட்டுள்ளது";
 "The account has been saved" = "கணக்கு சேமிக்கப்பட்டுள்ளது";
 /* Crash reporting */
 "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "பயன்பாடு கடந்த முறை தொடங்கப்பட்டது. செயலிழப்பு அறிக்கையை அனுப்பவா? இந்த செயலிழப்பு அறிக்கையில் தனியுரிமை தொடர்பான தரவு இருக்கும். உங்கள் விபத்தை பிழைத்திருத்த மற்றும் பின்னர் நீக்க மட்டுமே நாங்கள் இதைப் பயன்படுத்துவோம்!";
@@ -1181,7 +1181,7 @@
 "The current password is not correct." = "தற்போதைய கடவுச்சொல் சரியாக இல்லை.";
 "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "செயலிழப்பு கையாளுதலை சோதிக்க பல்வேறு முறைகளைப் பயன்படுத்தி பயன்பாட்டை பலமாக செயலிழக்க பின்வரும் பொத்தான்கள் உங்களை அனுமதிக்கின்றன.";
 /* quicksy country */
-"The Former Yugoslav Republic of Macedonia" = "The Former Yugoslav Republic of Macedonia";
+"The Former Yugoslav Republic of Macedonia" = "மாசிடோனியாவின் முன்னாள் யூகோச்லாவ் குடியரசு";
 "The jid you want to add should be in in the format user@domain.tld." = "நீங்கள் சேர்க்க விரும்பும் சிட் User@domain.tld வடிவத்தில் இருக்க வேண்டும்.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "முக்கியமானது தற்போது சரியாக கையாளப்படாத நிலையில் உள்ளது. இந்த வரியில் நீங்கள் கண்டால் டெவலப்பர்களைத் தொடர்பு கொள்ளவும்.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "நீங்கள் சேர்த்த நபர் உங்கள் கோரிக்கைக்கு ஒப்புதல் அளித்தபோது புதிய தொடர்பு உங்கள் தொடர்புகள் பட்டியலில் சேர்க்கப்படும்.";
@@ -1196,12 +1196,12 @@
 "The server does not support blocking (XEP-0191)." = "சேவையகம் தடுப்பதை ஆதரிக்காது (XEP-0191).";
 "The UDP logger allows you to livestream the log to the configured IP." = "கட்டமைக்கப்பட்ட ஐபிக்கு பதிவை லைவ் ச்ட்ரீம் செய்ய யுடிபி லாகர் உங்களை அனுமதிக்கிறது.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "கட்டமைக்கப்பட்ட ஐபிக்கு பதிவை லைவ் ச்ட்ரீம் செய்ய யுடிபி லாகர் உங்களை அனுமதிக்கிறது. இணையத்தில் ச்ட்ரீமிங் செய்யும் போது பாதுகாப்பான விசையைப் பயன்படுத்தவும்!\n .";
-"The user %@ (%@) wants to add you to their contact list" = "The user %1$@ (%2$@) wants to add you to their contact list";
+"The user %@ (%@) wants to add you to their contact list" = "பயனர் %1 $@ ( %2 $@) உங்களை அவர்களின் தொடர்பு பட்டியலில் சேர்க்க விரும்புகிறது";
 "The username does not need to have an @ symbol. Please try again." = "பயனர்பெயருக்கு @ அடையாளம் இருக்க தேவையில்லை. மீண்டும் முயற்சிக்கவும்.";
 "There is no configured email account. Please email info@monal-im.org ." = "கட்டமைக்கப்பட்ட மின்னஞ்சல் கணக்கு எதுவும் இல்லை. Info@monal-im.org க்கு மின்னஞ்சல் செய்யவும்.";
-"There was a SASL error on the server." = "There was a SASL error on the server.";
-"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person.";
-"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)";
+"There was a SASL error on the server." = "சேவையகத்தில் ஒரு SASL பிழை இருந்தது.";
+"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "இந்த மறைகுறியாக்கப்பட்ட செய்தியை (சமிக்ஞை பிழை) மறைகுறியாக்குவதில் பிழை ஏற்பட்டது. இதைத் தீர்க்க, இந்த நபருக்கு மறைகுறியாக்கப்பட்ட செய்தியை அனுப்ப முயற்சிக்கவும்.";
+"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "இந்த மறைகுறியாக்கப்பட்ட செய்தியை (சமிக்ஞை பிழை) மறைகுறியாக்குவதில் பிழை ஏற்பட்டது. இதைத் தீர்க்க, இந்த நபருக்கு மறைகுறியாக்கப்பட்ட செய்தியை அனுப்ப முயற்சிக்கவும். (%@)";
 "These are important privacy settings you may want to review!" = "இவை நீங்கள் மதிப்பாய்வு செய்ய விரும்பும் முக்கியமான தனியுரிமை அமைப்புகள்!";
 "These are SRV resource records found for your domain." = "இவை உங்கள் டொமைனுக்காக காணப்படும் SRV வள பதிவுகள்.";
 "These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "இவை உங்கள் சேவையகத்தால் அறிவிக்கப்பட்ட ச்டன் மற்றும் டர்ன் சேவைகள் (நீல உள்ளீடுகள் மோனால் பயன்படுத்தப்படுகின்றன).";
@@ -1215,9 +1215,9 @@
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "நீங்கள் ஆன்லைனில் இருக்கும்போது அவர்கள் இனி பார்க்க மாட்டார்கள். மறைகுறியாக்கப்பட்ட செய்திகளை அவர்களால் உங்களுக்கு அனுப்ப முடியாமல் போகலாம்.";
 "They will see when you are online. They will be able to send you encrypted messages." = "நீங்கள் ஆன்லைனில் இருக்கும்போது அவர்கள் பார்ப்பார்கள். மறைகுறியாக்கப்பட்ட செய்திகளை அவர்கள் உங்களுக்கு அனுப்ப முடியும்.";
 "This account already exists in Monal." = "இந்த கணக்கு ஏற்கனவே மோனலில் உள்ளது.";
-"This account already exists on this instance" = "This account already exists on this instance";
+"This account already exists on this instance" = "இந்த கணக்கு ஏற்கனவே இந்த நிகழ்வில் உள்ளது";
 "This account already exists on this instance." = "இந்த கணக்கு ஏற்கனவே இந்த நிகழ்வில் உள்ளது.";
-"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!";
+"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "இந்த பயன்பாடு மிகவும் பழையது மற்றும் பாதுகாப்பு பிழைகள் மற்றும் திடீரென்று செயல்பாட்டை நிறுத்தலாம். தயவுசெய்து மேம்படுத்தவும்!";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "லாக்ஃபைல்களை ஏற்றுமதி செய்ய இதைப் பயன்படுத்தலாம்.\n .";
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "இந்த தொடர்புக்கு குறியாக்கத்தை ஆதரிக்கும் எந்த சாதனங்களும் இருப்பதாகத் தெரியவில்லை, இது தவறு என்று நீங்கள் நினைத்தால் தயவுசெய்து மீண்டும் முயற்சிக்கவும்.";
 "This contact is already in the contact list of the selected account" = "இந்த தொடர்பு ஏற்கனவே தேர்ந்தெடுக்கப்பட்ட கணக்கின் தொடர்பு பட்டியலில் உள்ளது";
@@ -1244,35 +1244,35 @@
 "This server does not provide any MUC servers." = "இந்த சேவையகம் எந்த MUC சேவையகங்களையும் வழங்காது.";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "டி.எல்.எச் லேயரில் எம்ஐடிஎம் தாக்குதல்களுக்கு எதிராக பாதுகாக்க எந்த நவீன சேனல்-பிணைப்பையும் இந்த சேவையகம் ஆதரிக்காது.";
 "This server does not support modern SASL2 authentication." = "இந்த சேவையகம் நவீன SASL2 அங்கீகாரத்தை ஆதரிக்காது.";
-"This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server.";
-"This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment.";
+"This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "இத்தகைய தாக்குதல்களுக்கு எதிராக பாதுகாப்பான அங்கீகார முறைகளைப் பயன்படுத்துவதன் மூலம் டி.எல்.எச் குறியாக்க அடுக்கில் மனிதனின் நடுத்தர தாக்குதல்களுக்கு எதிராக இந்த சேவையகம் கூடுதலாக கடினப்படுத்தப்படுவதில்லை! சேவையகம் SASL2 மற்றும் SCRAM ஐ ஆதரிக்க வேண்டுமானால் இது நடந்துகொண்டிருக்கும் தாக்குதலைக் குறிக்கிறது, இல்லையெனில் பாதிப்பில்லாதது. இந்த சேவையகத்தில் நீங்கள் இன்னும் உள்நுழைய விரும்பினால் மேம்பட்ட கணக்கு உருவாக்கும் மெனுவைப் பயன்படுத்தவும், அங்கு வெற்று சுவிட்சை இயக்கவும்.";
+"This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "இந்த சேவையகத்தில் SASL2 மற்றும் SCRAM க்கு உதவி இல்லை, கூடுதலாக TLS குறியாக்க அடுக்கில் மனித-நடுத்தர தாக்குதல்களுக்கு எதிராக அங்கீகாரத்தை கடினப்படுத்துகிறது. இந்த சேவையகம் https://github.com/monal-im/scram_preloadlist (அல்லது மேம்பட்ட கணக்கு உருவாக்கும் மெனுவைப் பயன்படுத்தும் போது நீங்கள் வேண்டுமென்றே எளிய சுவிட்சை விட்டுவிட்டீர்கள்) இரண்டையும் ஆதரிப்பதாக பட்டியலிடப்பட்டுள்ளதால், தொடர்ச்சியான எம்ஐடிஎம் தாக்குதல் மிகவும் வாய்ப்புள்ளது! நீங்கள் ஒரு தூய்மையான பிணையம் சூழலில் வந்தவுடன் மீண்டும் முயற்சிக்கவும்.";
 "This should never happen, please contact the developers and provide a logfile!" = "இது ஒருபோதும் நடக்கக்கூடாது, தயவுசெய்து டெவலப்பர்களைத் தொடர்புகொண்டு ஒரு உள்நுழைவு வழங்கவும்!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "இந்த விவரக்குறிப்பு ஒரு உடனடி செய்தி மற்றும் இருப்பு கணக்குடன் தொடர்புடைய நிலை மாற்ற நிகழ்வுகளை ஒளிபரப்ப எக்ச்எம்பிபி வெளியீட்டு-சந்தா நெறிமுறையைப் பயன்படுத்துவதற்கான சொற்பொருளை வரையறுக்கிறது.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "இந்த விவரக்குறிப்பு SASL மற்றும் SASL2 ஏண்ட்சேக்குகளை முறை மற்றும் சேனல்-பிணைப்பு தரமிறக்குதல்களுக்கு எதிராக பாதுகாக்க ஒரு வழியை வழங்குகிறது.";
 "This will clear the whole chat history of this account from this device." = "இந்த சாதனத்திலிருந்து இந்த கணக்கின் முழு அரட்டை வரலாற்றையும் இது அழிக்கும்.";
-"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though.";
+"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "இது சேவையகம் மற்றும் இந்த சாதனத்திலிருந்து இந்த கணக்கையும் தொடர்புடைய தரவையும் நீக்கிவிடும். மற்ற சாதனங்களில் தரவு இன்னும் தக்கவைக்கப்படலாம்.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "உங்கள் எக்ச்எம்பிபி சேவையகம் ஒரு டர்ன் சேவையகத்தை வழங்காவிட்டாலும் இது அழைப்புகளை சாத்தியமாக்கும்.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "இது தற்போதைய அவதார் படத்தை அகற்றி இந்த குழு/சேனலை இயல்புநிலை ஒன்றிற்கு மாற்றும்.";
 "This will remove this account and the associated data from this device." = "இது இந்த சாதனத்திலிருந்து இந்த கணக்கையும் தொடர்புடைய தரவையும் அகற்றும்.";
 "Timeout Error" = "காலக்கெடு பிழை";
 /* quicksy country */
-"Timor-Leste" = "Timor-Leste";
+"Timor-Leste" = "திமோர்-லெச்டி";
 "TLS 1.2" = "டி.எல்.எச் 1.2";
 "TLS 1.3" = "டி.எல்.எச் 1.3";
-"TLS Error: Bad certificate" = "TLS Error: Bad certificate";
-"TLS Error: Certificate chain is invalid" = "TLS Error: Certificate chain is invalid";
-"TLS Error: Certificate expired" = "TLS Error: Certificate expired";
-"TLS Error: Host name mismatch" = "TLS Error: Host name mismatch";
-"TLS Error: Unknown root certificate" = "TLS Error: Unknown root certificate";
+"TLS Error: Bad certificate" = "டி.எல்.எச் பிழை: மோசமான சான்றிதழ்";
+"TLS Error: Certificate chain is invalid" = "டி.எல்.எச் பிழை: சான்றிதழ் சங்கிலி தவறானது";
+"TLS Error: Certificate expired" = "டி.எல்.எச் பிழை: சான்றிதழ் காலாவதியானது";
+"TLS Error: Host name mismatch" = "டி.எல்.எச் பிழை: புரவலன் பெயர் பொருந்தாதது";
+"TLS Error: Unknown root certificate" = "டி.எல்.எச் பிழை: அறியப்படாத ரூட் சான்றிதழ்";
 /* quicksy country */
-"Togo" = "Togo";
+"Togo" = "டோகோ";
 /* quicksy country */
-"Tokelau" = "Tokelau";
+"Tokelau" = "டொகிலா";
 /* quicksy country */
-"Tonga" = "Tonga";
+"Tonga" = "டொங்கா";
 "Too many attempts, please try again in %@." = "பல முயற்சிகள், தயவுசெய்து மீண்டும் %@இல் முயற்சிக்கவும்.";
 /* quicksy country */
-"Trinidad and Tobago" = "Trinidad and Tobago";
+"Trinidad and Tobago" = "ட்ரைனிடேட் மற்றும் டோபேகோ";
 "Trust Key" = "நம்பிக்கை விசை";
 "Trusted and verified key" = "நம்பகமான மற்றும் சரிபார்க்கப்பட்ட விசை";
 "Trusted but removed key" = "நம்பகமான ஆனால் அகற்றப்பட்ட விசை";
@@ -1280,46 +1280,46 @@
 "Trusted but unverified key" = "நம்பகமான ஆனால் சரிபார்க்கப்படாத விசை";
 "Try nevertheless" = "இருப்பினும் முயற்சி செய்யுங்கள்";
 /* quicksy country */
-"Tunisia" = "Tunisia";
+"Tunisia" = "துனீசியா";
 /* quicksy country */
-"Turkey" = "Turkey";
+"Turkey" = "துருக்கி";
 /* quicksy country */
-"Turkmenistan" = "Turkmenistan";
+"Turkmenistan" = "துர்க்மெனிச்தான்";
 /* quicksy country */
-"Turks and Caicos Islands" = "Turks and Caicos Islands";
+"Turks and Caicos Islands" = "துருக்கச் மற்றும் கைசோச் தீவுகள்";
 /* quicksy country */
-"Tuvalu" = "Tuvalu";
+"Tuvalu" = "துவாலு";
 "Type: %@" = "வகை: %@";
 "Typing..." = "தட்டச்சு ...";
 "UDP Logger" = "யுடிபி லாகர்";
 "UDP Logger Configuration" = "யுடிபி லாகர் உள்ளமைவு";
 "UDP Logging UI not supported on iOS < 16" = "UDP பதிவு இடைமுகம் ஐஇமு <16 இல் ஆதரிக்கப்படவில்லை";
 /* quicksy country */
-"Uganda" = "Uganda";
+"Uganda" = "உகாண்டா";
 /* quicksy country */
-"Ukraine" = "Ukraine";
-"Unable to connect to server!" = "Unable to connect to server!";
+"Ukraine" = "உக்ரெயின்";
+"Unable to connect to server!" = "சேவையகத்துடன் இணைக்க முடியவில்லை!";
 "Unblock Contact" = "தொடர்பைத் தடைசெய்க";
 "Unblocking user" = "பயனரைத் தடுப்பது";
 "Unblocking user for this group/channel: %@" = "இந்த குழு/சேனலுக்கான பயனரைத் தடுப்பது: %@";
 "Unclean appex shutown" = "அசுத்தமான உச்ச பணிநிறுத்தம்";
 "Understood" = "புரிந்து கொள்ளப்பட்டது";
 "Unexpected appex expiration" = "எதிர்பாராத APPEX காலாவதி";
-"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
+"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "SASL2 ஐப் பயன்படுத்தி எதிர்பாராத பிழை அங்கீகார சேவையகத்தை அங்கீகரித்தல் (உங்கள் சேவையகத்திற்கு பிழை இருக்கிறதா?), துண்டிக்க!";
 "Unexpected error processing your request." = "எதிர்பாராத பிழை உங்கள் கோரிக்கையை செயலாக்குகிறது.";
-"Unexpected error while checking type of jid, please try again" = "Unexpected error while checking type of jid, please try again";
-"Unexpected error while checking type of jid:" = "Unexpected error while checking type of jid:";
-"Unexpected mam preferences result" = "Unexpected mam preferences result";
-"Unexpected server response: invalid PEP config form" = "Unexpected server response: invalid PEP config form";
-"Unexpected server response: missing required fields in PEP config form" = "Unexpected server response: missing required fields in PEP config form";
+"Unexpected error while checking type of jid, please try again" = "சிட் வகையைச் சரிபார்க்கும்போது எதிர்பாராத பிழை, தயவுசெய்து மீண்டும் முயற்சிக்கவும்";
+"Unexpected error while checking type of jid:" = "சிட் வகையைச் சரிபார்க்கும்போது எதிர்பாராத பிழை:";
+"Unexpected mam preferences result" = "எதிர்பாராத மாம் விருப்பத்தேர்வுகள் முடிவு";
+"Unexpected server response: invalid PEP config form" = "எதிர்பாராத சேவையக பதில்: தவறான PEP கட்டமைப்பு படிவம்";
+"Unexpected server response: missing required fields in PEP config form" = "எதிர்பாராத சேவையக பதில்: PEP கட்டமைப்பு வடிவத்தில் தேவையான புலங்களைக் காணவில்லை";
 /* quicksy country */
-"United Arab Emirates" = "United Arab Emirates";
+"United Arab Emirates" = "ஐக்கிய அராபிய எமிரேட்சு";
 /* quicksy country */
-"United Kingdom" = "United Kingdom";
+"United Kingdom" = "ஐக்கிய முடியரசு";
 /* quicksy country */
-"United States" = "United States";
+"United States" = "ஐக்கிய அமெரிக்கா";
 /* quicksy country */
-"United States Virgin Islands" = "United States Virgin Islands";
+"United States Virgin Islands" = "ஒன்றுபட்டது ச்டேட்ச் விர்சின் தீவுகள்";
 "unknown" = "தெரியவில்லை";
 "Unknown authentication method" = "அறியப்படாத அங்கீகார முறை";
 "Unknown channel-binding type" = "அறியப்படாத சேனல்-பிணைப்பு வகை";
@@ -1327,8 +1327,8 @@
 "Unread Messages Below" = "கீழே படிக்காத செய்திகள்";
 "unsupported" = "ஆதரிக்கப்படாதது";
 "Untrusted key" = "நம்பத்தகாத விசை";
-"Upload Error" = "Upload Error";
-"Upload Error: your account got disconnected while requesting upload slot" = "Upload Error: your account got disconnected while requesting upload slot";
+"Upload Error" = "பிழையைப் பதிவேற்றவும்";
+"Upload Error: your account got disconnected while requesting upload slot" = "பதிவேற்ற பிழை: பதிவேற்றும் இடத்தை கோரும்போது உங்கள் கணக்கு துண்டிக்கப்பட்டது";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "மற்றவர்களுடன் பகிர்ந்து கொள்ள கோப்புகளை சேவையகத்தில் பதிவேற்றவும். (சேவையகத்தால் புகாரளிக்கப்பட்ட கோப்புகளின் அதிகபட்ச அளவு: %@)";
 "Upload Original Images" = "அசல் படங்களை பதிவேற்றவும்";
 "Upload Settings" = "அமைப்புகளை பதிவேற்றவும்";
@@ -1336,7 +1336,7 @@
 "Uploading avatar..." = "அவதாரத்தை பதிவேற்றுதல் ...";
 "Uploading file to server" = "சேவையகத்தில் கோப்பைப் பதிவேற்றுகிறது";
 /* quicksy country */
-"Uruguay" = "Uruguay";
+"Uruguay" = "உருகுவே";
 "Use account" = "கணக்கைப் பயன்படுத்தவும்";
 "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "டிஎன்எச் பதிலில் நியமிக்கப்பட்ட ஐபி முகவரியுடன் இணைப்பதற்கு முன் அனைத்து டிஎன்எச் வினவல் பதில்களையும் சரிபார்க்க டிஎன்எச்எச்இசியைப் பயன்படுத்தவும்.\n மிகவும் பாதுகாப்பாக இருக்கும்போது, இது ஓட்டல் வைஃபை, அசிங்கமான மொபைல் கேரியர்கள் போன்ற சில நெட்வொர்க்குகளில் இணைப்பு சிக்கல்களுக்கு வழிவகுக்கும்.";
 "Use DNSSEC validation for all connections" = "அனைத்து இணைப்புகளுக்கும் DNSSEC சரிபார்ப்பைப் பயன்படுத்தவும்";
@@ -1350,28 +1350,28 @@
 "Username missing" = "பயனர்பெயர் காணவில்லை";
 "Uses TLS client certificates for authentication" = "அங்கீகாரத்திற்கு TLS கிளையன்ட் சான்றிதழ்களைப் பயன்படுத்துகிறது";
 /* quicksy country */
-"Uzbekistan" = "Uzbekistan";
+"Uzbekistan" = "உச்பெகிச்தான்";
 /* quicksy country */
-"Vanuatu" = "Vanuatu";
+"Vanuatu" = "வனாட்டு";
 /* quicksy country */
-"Vatican" = "Vatican";
+"Vatican" = "வத்திக்கான்";
 /* quicksy country */
-"Venezuela (Bolivarian Republic of)" = "Venezuela (Bolivarian Republic of)";
+"Venezuela (Bolivarian Republic of)" = "வெனிசுலா (பொலிவரியன் குடியரசு)";
 "Verify your phone number" = "உங்கள் தொலைபேசி எண்ணை சரிபார்க்கவும்";
 "Version" = "பதிப்பு";
 /* server details */
 "version %@%@" = "version %1$@%2$@";
-"Very old app version" = "Very old app version";
+"Very old app version" = "மிகவும் பழைய பயன்பாட்டு பதிப்பு";
 /* quicksy country */
-"Viet Nam" = "Viet Nam";
+"Viet Nam" = "வியட்னாம்";
 "Waiting for GPS signal" = "சி.பி.எச் சிக்னலுக்காக காத்திருக்கிறது";
 /* quicksy country */
-"Wallis and Futuna" = "Wallis and Futuna";
+"Wallis and Futuna" = "வாலிச் மற்றும் ப்யூடுனா";
 "Warning" = "எச்சரிக்கை";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "எக்ச்எம்பிபி தொடர்பான கியூஆர்-குறியீட்டை எங்களால் கண்டுபிடிக்க முடியவில்லை";
-"We don't support any task requested by the server, account disabled: %@" = "We don't support any task requested by the server, account disabled: %@";
-"We don't support the single task requested by the server, account disabled: %@" = "We don't support the single task requested by the server, account disabled: %@";
+"We don't support any task requested by the server, account disabled: %@" = "சேவையகம் கோரிய எந்தவொரு பணியையும் நாங்கள் ஆதரிக்கவில்லை, கணக்கு முடக்கப்பட்டது: %@";
+"We don't support the single task requested by the server, account disabled: %@" = "சேவையகம் கோரிய ஒற்றை பணியை நாங்கள் ஆதரிக்கவில்லை, கணக்கு முடக்கப்பட்டது: %@";
 "We sent you an SMS to %@" = "நாங்கள் உங்களுக்கு ஒரு எச்எம்எச்சை %@ க்கு அனுப்பினோம்";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "உங்கள் கணக்கை எங்களால் இணைக்க முடியவில்லை. தயவுசெய்து உங்கள் பயனர்பெயர் மற்றும் கடவுச்சொல்லைச் சரிபார்த்து, நீங்கள் இணையத்துடன் இணைக்கப்பட்டுள்ளீர்கள் என்பதை உறுதிப்படுத்திக் கொள்ளுங்கள்.";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "உங்கள் கணக்கை எங்களால் இணைக்க முடியவில்லை. தயவுசெய்து உங்கள் பயனர்பெயர் மற்றும் கடவுச்சொல்லைச் சரிபார்த்து, நீங்கள் இணையத்துடன் இணைக்கப்பட்டுள்ளீர்கள் என்பதை உறுதிப்படுத்திக் கொள்ளுங்கள்.\n\n தொழில்நுட்ப பிழை செய்தி: %@";
@@ -1400,25 +1400,25 @@
 "XEP-0363: HTTP File Upload" = "XEP-0363: HTTP கோப்பு பதிவேற்றம்";
 "XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379: முன் அங்கீகரிக்கப்பட்ட பட்டியல் சந்தா";
 "XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: SASL SCRAM தரமிறக்க பாதுகாப்பு";
-"XMPP Account Info Error" = "XMPP Account Info Error";
-"XMPP Bind Error" = "XMPP Bind Error";
+"XMPP Account Info Error" = "XMPP கணக்கு செய்தி பிழை";
+"XMPP Bind Error" = "XMPP பிணைப்பு பிழை";
 "XMPP Capabilities" = "எக்ச்எம்பிபி திறன்கள்";
-"XMPP Disco Info Error" = "XMPP Disco Info Error";
-"XMPP External Service Disco Error" = "XMPP External Service Disco Error";
+"XMPP Disco Info Error" = "XMPP டிச்கோ செய்தி பிழை";
+"XMPP External Service Disco Error" = "எக்ச்எம்பிபி வெளிப்புற பணி டிச்கோ பிழை";
 "XMPP ID" = "எக்ச்எம்பிபி ஐடி";
 "XMPP ID missing" = "எக்ச்எம்பிபி ஐடி இல்லை";
-"XMPP mam preferences error" = "XMPP mam preferences error";
+"XMPP mam preferences error" = "XMPP மாம் விருப்பத்தேர்வுகள் பிழை";
 "XMPP protocol extension for communications blocking." = "தகவல்தொடர்பு தடுப்புக்கான எக்ச்எம்பிஃபிக் நெறிமுறை நீட்டிப்பு.";
 "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "எக்ச்எம்பிபி நெறிமுறை நீட்டிப்பு எக்ச்எம்பி.பி நெட்வொர்க்கிற்கு வெளிப்புற சேவைகளைக் கண்டுபிடிப்பதற்கான, ஏ/வி அழைப்புகளுக்குத் தேவையான ச்டன் அல்லது டர்ன் சேவையகங்கள் போன்றவை.";
 "XMPP protocol extension for sending application-level pings over XML streams." = "எக்ச்எம்எல் ச்ட்ரீம்கள் மீது பயன்பாட்டு-நிலை பிங்சை அனுப்ப எக்ச்எம்பிபி நெறிமுறை நீட்டிப்பு.";
-"XMPP Roster Error" = "XMPP Roster Error";
+"XMPP Roster Error" = "எக்ச்எம்பிபி ரோச்டர் பிழை";
 "XMPP server domain not valid!" = "எக்ச்எம்பிபி சர்வர் டொமைன் செல்லுபடியாகாது!";
-"XMPP stream error %@: %@" = "XMPP stream error %1$@: %2$@";
-"XMPP stream error: %@" = "XMPP stream error: %@";
+"XMPP stream error %@: %@" = "XMPP ச்ட்ரீம் பிழை %1 $@: %2 $@";
+"XMPP stream error: %@" = "XMPP ச்ட்ரீம் பிழை: %@";
 "XMPPServer" = "XMPPServer";
 "Yellow checkmark shield:" = "மஞ்சள் செக்மார்க் கவசம்:";
 /* quicksy country */
-"Yemen" = "Yemen";
+"Yemen" = "யேமன்";
 "Yes" = "ஆம்";
 "Yes, deactivate encryption" = "ஆம், குறியாக்கத்தை செயலிழக்கச் செய்யுங்கள்";
 "You are set up and connected." = "நீங்கள் அமைக்கப்பட்டு இணைக்கப்பட்டுள்ளீர்கள்.";
@@ -1427,18 +1427,18 @@
 "You are using an out of date version of this app." = "இந்த பயன்பாட்டின் காலாவதியான பதிப்பைப் பயன்படுத்துகிறீர்கள்.";
 "You can customize even more, just use the button below to open the settings." = "நீங்கள் இன்னும் தனிப்பயனாக்கலாம், அமைப்புகளைத் திறக்க கீழே உள்ள பொத்தானைப் பயன்படுத்தவும்.";
 "You did not grant Monal to access your location." = "உங்கள் இருப்பிடத்தை அணுக நீங்கள் மோனலை வழங்கவில்லை.";
-"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
-"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
-"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
+"You got banned from group/channel: %@" = "நீங்கள் குழு/சேனலில் இருந்து தடைசெய்யப்பட்டீர்கள்: %@";
+"You got kicked from group/channel: %@" = "நீங்கள் குழு/சேனலில் இருந்து உதைக்கப்பட்டீர்கள்: %@";
+"You got removed from group/channel: %@" = "நீங்கள் குழு/சேனலில் இருந்து அகற்றப்பட்டீர்கள்: %@";
 "You have not entered your XMPP ID yet" = "உங்கள் XMPP ஐடியை நீங்கள் இன்னும் உள்ளிடவில்லை";
 "You need friends for this ride" = "இந்த சவாரிக்கு உங்களுக்கு நண்பர்கள் தேவை";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "ஐஇமு அமைப்புகளில் நீங்கள் மைக்ரோஃபோன் அணுகலை வழங்க வேண்டும்-> தனியுரிமை-> மைக்ரோஃபோன், நீங்கள் விரும்பினால் மற்றவர்கள் உங்களைக் கேட்க முடியும்.";
-"You restored an iCloud backup of Monal, please open the app to reenable this account." = "You restored an iCloud backup of Monal, please open the app to reenable this account.";
+"You restored an iCloud backup of Monal, please open the app to reenable this account." = "நீங்கள் மோனலின் ஐக்ளவுட் காப்புப்பிரதியை மீட்டெடுத்தீர்கள், தயவுசெய்து இந்த கணக்கை மீண்டும் உருவாக்க பயன்பாட்டைத் திறக்கவும்.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "ஒரு சாவியை நீங்கள் சரிபார்த்தபோது அதை நம்ப வேண்டும். கீழே உள்ள விசையை உங்கள் தொடர்பின் திரையில் உள்ளவற்றுடன் ஒப்பிடுவதன் மூலம் சரிபார்க்கவும். இடைநிலைப்பலகைக்கு நகலெடுக்க கைரேகைக்கு இருமுறை தட்டவும்.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "நீங்கள் தொடர்பு '%@' என்று அழைக்க முயற்சித்தீர்கள், ஆனால் இந்த தொடர்பை உங்கள் தொடர்பு பட்டியலில் காண முடியவில்லை.";
 "You will no longer receive messages from this conversation" = "இந்த உரையாடலில் இருந்து நீங்கள் இனி செய்திகளைப் பெற மாட்டீர்கள்";
 "You will receive subsequent messages from this conversation" = "இந்த உரையாடலில் இருந்து அடுத்தடுத்த செய்திகளைப் பெறுவீர்கள்";
-"Your account must be enabled and connected, to be removed from the server!" = "Your account must be enabled and connected, to be removed from the server!";
+"Your account must be enabled and connected, to be removed from the server!" = "சேவையகத்திலிருந்து அகற்றப்பட வேண்டும், உங்கள் கணக்கு இயக்கப்பட்டு இணைக்கப்பட வேண்டும்!";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "உங்கள் கணக்குகள் செயலிழக்கச் செய்யப்பட்டன, ஏனென்றால் நீங்கள் மோனலின் ஒரு ஐக்ளவுட் காப்புப்பிரதியை மீட்டெடுத்தீர்கள். அவற்றை மீண்டும் செயல்படுத்த உங்கள் கடவுச்சொல்லை மீண்டும் உள்ளிடவும்.";
 "Your answer" = "உங்கள் பதில்";
 "Your contact may not support calls. Your call might never reach its destination." = "உங்கள் தொடர்பு அழைப்புகளை ஆதரிக்காது. உங்கள் அழைப்பு ஒருபோதும் அதன் இலக்கை எட்டாது.";
@@ -1451,9 +1451,9 @@
 "Your status" = "உங்கள் நிலை";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "உங்கள் XMPP JID USER@domain.tld வடிவத்தில் இருக்க வேண்டும். சிறப்பு உள்ளமைவுகளுக்கு, கையேடு அமைப்பைப் பயன்படுத்தவும்.";
 /* quicksy country */
-"Zambia" = "Zambia";
+"Zambia" = "சாம்பியா";
 /* quicksy country */
-"Zimbabwe" = "Zimbabwe";
+"Zimbabwe" = "சிம்பாப்வே";
 "🎥 A Video" = "🎥 ஒரு வீடியோ";
 "🎥 Video" = "வீடியோ";
 "🎵 An Audiomessage" = "A ஆடியோமெசேச்";
