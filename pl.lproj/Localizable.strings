@@ -1,7 +1,7 @@
 " (offline)" = " (offline)";
 /* server details */
 " running on %@" = " działa na %@";
-"%02d:%02d (long press to abort)" = "%02d:%02d (długie naciśnięcie, aby przerwać)";
+"%02d:%02d (long press to abort)" = "%02d:%02d (naciśnij i przytrzymaj, aby przerwać)";
 "%@" = "%@";
 "%@ (%@)" = "%@ (%@)";
 "%@ (affiliation: %@)" = "%@ (przynależność: %@)";
@@ -20,71 +20,71 @@
 "100 MiB" = "100 MiB";
 "100%" = "100%";
 /* Message autdelete time */
-"12 hours" = "12 hours";
+"12 hours" = "12 godzin";
 /* Message autdelete time */
-"15 minutes" = "15 minutes";
+"15 minutes" = "15 minut";
 /* Message autdelete time */
-"2 month" = "2 miesiąc";
+"2 month" = "2 miesiące";
 /* Message autdelete time */
 "3 days" = "3 dni";
 /* Message autdelete time */
-"3 month" = "3 miesięcy";
+"3 month" = "3 miesiące";
 /* Message autdelete time */
-"30 minutes" = "30 minutes";
+"30 minutes" = "30 minut";
 /* Message autdelete time */
-"30 seconds" = "30 seconds";
+"30 seconds" = "30 sekund";
 "33%" = "33%";
 /* Message autdelete time */
-"4 weeks" = "4 weeks";
+"4 weeks" = "4 tygodnie";
 /* Message autdelete time */
-"5 minutes" = "5 minutes";
+"5 minutes" = "5 minut";
 /* server details */
 "<unknown server>" = "<nieznany serwer>";
 /* server details */
 "<unknown version>" = "<nieznana wersja>";
 /* muc affiliation */
-"<unknown>" = "<unknown>";
-"A contact was scanned through the QR code scanner" = "Kontakt został przeskanowany przez kod QR";
+"<unknown>" = "<nieznany>";
+"A contact was scanned through the QR code scanner" = "Kontakt dodany poprzez zeskanowanie kodu QR";
 "Abort" = "Anuluj";
 "Aborted recording audio" = "Przerwano nagrywanie dźwięku";
 "About" = "Informacje";
-"Accept incoming calls from strangers" = "Accept incoming calls from strangers";
-"Accept incoming messages from strangers" = "Accept incoming messages from strangers";
+"Accept incoming calls from strangers" = "Akceptuj przychodzące połączenia od nieznanych osób";
+"Accept incoming messages from strangers" = "Akceptuj przychodzące wiadomości od nieznanych osób";
 "Access message archives on the server." = "Uzyskaj dostęp do archiwum wiadomości na serwerze.";
 /* ShareViewController: Account */
 "Account" = "Konto";
 "Account %@" = "Konto %@";
 "Account (%@)" = "Konto (%@)";
 "Account (new)" = "Konto (nowe)";
-"Account already configured in Monal!" = "Konto już skonfigurowane w Monal!";
-"Account already configured!" = "Account already configured!";
+"Account already configured in Monal!" = "Konto już jest skonfigurowane w Monalu!";
+"Account already configured!" = "Konto już jest skonfigurowane!";
 "Account disabled" = "Konto Wyłączone";
 "Account Exists" = "Konto istnieje";
-"Account Picker" = "Wybór Konta";
+"Account Picker" = "Wybór konta";
 "Account: %@" = "Konto: %@";
-"Activity indications" = "Activity indications";
-"Add" = "Add";
+"Activity indications" = "Wskazówki aktywności";
+"Add" = "Dodaj";
 "Add %@ to your contacts?" = "Dodać %@ do twoich kontaktów?";
 "Add Account" = "Dodaj konto";
 "Add Account (advanced)" = "Dodaj konto (zaawansowane)";
-"Add contact" = "Add contact";
-"Add contact (contact requests pending)" = "Add contact (contact requests pending)";
-"Add Contact or Channel" = "Add Contact or Channel";
-"Add members to group" = "Add members to group";
-"Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Aby dodać nowe kontakty użyj \"+\" na górze. Twoi znajomi będą tu widoczni gdy będziecie mogli rozmawiać";
-"Add scanned contact" = "Add scanned contact";
+"Add contact" = "Dodaj kontakt";
+"Add contact (contact requests pending)" = "Dodaj kontakt (oczekujące żądania kontaktu)";
+"Add Contact or Channel" = "Dodaj kontakt lub kanał";
+"Add members to group" = "Dodaj do grupy...";
+"Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Aby dodać nowe kontakty, użyj ikony \"+\" na górze. Twoi znajomi będą tu widoczni, gdy będziecie mogli rozmawiać";
+"Add scanned contact" = "Dodaj zeskanowany kontakt";
 "Add to contacts" = "Dodaj do kontaktów";
-"Adding %@..." = "Adding %@...";
-"Adding Group/Channel..." = "Dodaj Grupę/Kanał...";
-"Adding new member" = "Adding new member";
+"Adding %@..." = "Dodawanie %@...";
+"Adding Group/Channel..." = "Dodawanie grupy/kanału...";
+"Adding new member" = "Dodawanie nowego członka";
 "Adding..." = "Dodawanie...";
-"Adjust the maximum file size for auto-downloads over cellular network" = "Adjust the maximum file size for auto-downloads over cellular network";
-"Adjust the maximum file size for auto-downloads over WiFi" = "Adjust the maximum file size for auto-downloads over WiFi";
-"Adjust the quality of images uploaded" = "Adjust the quality of images uploaded";
+"Adjust the maximum file size for auto-downloads over cellular network" = "Ustal maksymalny rozmiar automatycznego pobierania załączników przez sieć komórkową";
+"Adjust the maximum file size for auto-downloads over WiFi" = "Ustal maksymalny rozmiar automatycznego pobierania załączników przez sieć WiFi";
+"Adjust the quality of images uploaded" = "Ustal jakość przesyłanych zdjęć";
 /* muc affiliation */
-"Admin" = "Admin";
-"Advanced Settings" = "Zaawansowane";
-"Affiliation: %@%@" = "Affiliation: %@%@";
+"Admin" = "Administrator";
+"Advanced Settings" = "Zaawansowane ustawienia";
+"Affiliation: %@%@" = "Powiązanie: %@%@";
 /* quicksy country */
 "Afghanistan" = "Afghanistan";
 /* quicksy country */
@@ -92,21 +92,21 @@
 /* quicksy country */
 "Algeria" = "Algeria";
 "All messages are archived by default." = "Domyślnie wszystkie wiadomości są archiwizowane.";
-"All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
-"Allow contacts in your contact list to query your Monal and iOS versions." = "Allow contacts in your contact list to query your Monal and iOS versions.";
-"Allow contacts not in your contact list to call you." = "Allow contacts not in your contact list to call you.";
-"Allow contacts not in your contact list to contact you." = "Allow contacts not in your contact list to contact you.";
-"Allow MITM-prone PLAIN authentication" = "Allow MITM-prone PLAIN authentication";
-"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
-"Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Pozwolenie komuś aby dodał ciebie jako kontakt pozwala im widzieć twój obraz profilowy oraz kiedy jesteś online.";
+"All messages fetched successfully, there are no more left on the server!" = "Wszystkie wiadomości zostały pobrane, nie ma już kolejnych na serwerze!";
+"Allow contacts in your contact list to query your Monal and iOS versions." = "Pozwól swoim kontaktom z listy na pokazywanie wersji Monala oraz iOSa.";
+"Allow contacts not in your contact list to call you." = "Pozwól kontaktom spoza Twojej listy na dzwonienie do Ciebie.";
+"Allow contacts not in your contact list to contact you." = "Pozwól kontaktom spoza Twojej listy na napisanie do Ciebie wiadomości.";
+"Allow MITM-prone PLAIN authentication" = "Zezwól na autoryzację PLAIN podatną na ataki MITM";
+"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Zezwól swojemu urządzeniu na nawiązanie bezpośredniego połączenia do zewnętrznej usługi. To może ujawnić Twój adres IP Twojemu rozmówcy.";
+"Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Pozwolenie komuś na dodanie Ciebie do listy kontaktów pozwala widzieć kontaktującemu się Twój obraz profilowy oraz kiedy jesteś online.";
 "Already present" = "Już dodano";
 "Already uploading this content, ignoring" = "Już przesyłam tę treść, ignoruję";
-"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Pamiętaj też, że nie będziesz w stanie pobrać starszych wiadomości ze swojego serwera, bo Monal ją usunie zaraz po jej przechwyceniu!";
 "Always archive" = "Zawsze archiwizuj";
 "Always use direct TLS, not STARTTLS" = "Wymuś bezpośrednie TLS, a nie STARTTLS";
 /* quicksy country */
 "American Samoa" = "American Samoa";
-"An error happened when trying to request the SMS:" = "An error happened when trying to request the SMS:";
+"An error happened when trying to request the SMS:" = "Wystąpił błąd w trakcie żądania wiadomości SMS:";
 /* quicksy country */
 "Andorra" = "Andorra";
 /* quicksy country */
@@ -116,22 +116,22 @@
 /* quicksy country */
 "Antigua and Barbuda" = "Antigua and Barbuda";
 "App" = "Aplikacja";
-"Appearance" = "Appearance";
+"Appearance" = "Wygląd";
 "Apple Push Service" = "Usługa Apple Push";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Usługa Apple Push powinna być zawsze włączona. Jeśli jest wyłączona, twoje urządzenie nie będzie dostawać powiadomień.";
 "Apple Push Token" = "Token Apple Push";
 "Apple Push Token is not available!" = "Token Apple Push niedostępny!";
 "Approve new contact" = "Zatwierdź nowy kontakt";
 "Archive chat" = "Archiwum czatu";
-"Archive only if the contact is in contact list." = "Archive only if the contact is in contact list.";
-"Are you sure to cancel the registration process?" = "Are you sure to cancel the registration process?";
+"Archive only if the contact is in contact list." = "Archiwizuj tylko w przypadku, gdy kontakt jest na Twojej liście.";
+"Are you sure to cancel the registration process?" = "Czy na pewno chcesz się wycofać z procesu rejestracji?";
 /* quicksy country */
 "Argentina" = "Argentina";
 /* quicksy country */
 "Armenia" = "Armenia";
 /* quicksy country */
 "Aruba" = "Aruba";
-"Attachments" = "Attachments";
+"Attachments" = "Załączniki";
 "Audio recorder init fail." = "Audio recorder init fail.";
 "Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
 "Audio recorder record fail." = "Audio recorder record fail.";
@@ -144,10 +144,10 @@
 "Australian External Territories" = "Australian External Territories";
 /* quicksy country */
 "Austria" = "Austria";
-"Auto-Download Media and Files" = "Auto-Download Media and Files";
-"Autodelete all messages older than" = "Autodelete all messages older than";
-"Autofocus text input on chat open" = "Autofocus text input on chat open";
-"Avatar" = "Avatar";
+"Auto-Download Media and Files" = "Pobieraj media oraz pliki automatycznie";
+"Autodelete all messages older than" = "Automatycznie usuwaj wiadomości starsze niż";
+"Autofocus text input on chat open" = "Uruchom klawiaturę po otwarciu czatu";
+"Avatar" = "Awatar";
 /* quicksy country */
 "Azerbaijan" = "Azerbaijan";
 /* quicksy country */
@@ -158,8 +158,8 @@
 "Bangladesh" = "Bangladesh";
 /* quicksy country */
 "Barbados" = "Barbados";
-"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
-"Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Uwaga: wiadomości będą usuwane w przypadku otrzymania powiadomienia lub otwarcia aplikacji! To może być uciążliwe w szczególności dla krótszych interwałów!";
+"Become part of a worldwide decentralized chat network!" = "Stań się częścią ogólnoświatowej, zdecentralizowanej sieci do komunikacji!";
 /* quicksy country */
 "Belarus" = "Belarus";
 /* quicksy country */
@@ -172,18 +172,18 @@
 "Bermuda" = "Bermuda";
 /* quicksy country */
 "Bhutan" = "Bhutan";
-"Block" = "Blokować";
+"Block" = "Zablokuj";
 "Block Contact" = "Zablokuj kontakt";
-"Block new contact" = "Block new contact";
-"Block user?" = "Block user?";
+"Block new contact" = "Zablokuj nowy kontakt";
+"Block user?" = "Zablokować użytkownika?";
 /* muc affiliation */
-"Blocked" = "Blocked";
+"Blocked" = "Zablokowany/-a";
 "Blocked Users" = "Zablokowani użytkownicy";
-"Blocking %@" = "Blocking %@";
+"Blocking %@" = "Blokowanie %@";
 "Blocking is not supported by the server" = "Blokowanie nie jest obsługiwane przez serwer";
-"Blocking member" = "Blocking member";
-"Blocking/Unblocking Not Supported" = "Blokowanie/Odblokowywanie nie wspierane";
-"BODY" = "CIAŁO";
+"Blocking member" = "Blokowanie członka";
+"Blocking/Unblocking Not Supported" = "Blokowanie/odblokowywanie nie jest wspierane";
+"BODY" = "TREŚĆ";
 /* quicksy country */
 "Bolivia (Plurinational State of)" = "Bolivia (Plurinational State of)";
 /* quicksy country */
@@ -206,20 +206,20 @@
 "Burundi" = "Burundi";
 "Call ended" = "Rozmowa zakończona";
 "Call ended for an unknown reason" = "Rozmowa zakończona z nieznanego powodu";
-"Call ended, duration: %@" = "Rozmowa zakończona. Trwała: %@";
-"Call ended: answered with other device" = "Rozmowa zakończona: odebrana na innym urządzeniu";
+"Call ended, duration: %@" = "Rozmowa zakończona. Czas trwania: %@";
+"Call ended: answered with other device" = "Rozmowa zakończona: odebrano na innym urządzeniu";
 "Call ended: application error" = "Rozmowa zakończona: błąd aplikacji";
 "Call ended: connection failed" = "Rozmowa zakończona: połączenie się nie udało";
 "Call ended: connection failed\nDuration: %@" = "Rozmowa zakończona: błąd połączenia\nCzas trwania: %@";
 "Call ended: couldn't establish encryption" = "Rozmowa zakończona: nie można włączyć szyfrowania";
 "Call ended: declined" = "Rozmowa zakończona: odrzucono";
 "Call ended: hung up" = "Rozmowa zakończona: rozłączono";
-"Call ended: remote busy" = "Rozmowa zakończona: zajęty";
-"Call security help" = "Pomoc bezpieczeństwa rozmowy";
-"Call Type" = "Typ Rozmowy";
-"Call was not answered" = "Rozmowa nie została odebrana";
-"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
-"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
+"Call ended: remote busy" = "Rozmowa zakończona: linia zajęta";
+"Call security help" = "Bezpieczeństwo rozmowy";
+"Call Type" = "Rodzaj rozmowy";
+"Call was not answered" = "Nie odebrano połączenia";
+"Calls: Allow P2P sessions" = "Połączenia: zezwalaj na sesje peer-to-peer";
+"Calls: Allow TURN fallback to Monal-Servers" = "Połączenia: zezwalaj na awaryjne przełączenie się do trybu TURN do serwerów Monala";
 /* quicksy country */
 "Cambodia" = "Cambodia";
 "Camera" = "Aparat";
@@ -232,7 +232,7 @@
 /* quicksy country */
 "Canada" = "Canada";
 "Cancel" = "Anuluj";
-"Cancel?" = "Cancel?";
+"Cancel?" = "Anulować?";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Nie można udostępnić czegoś wyłączonemu/usuniętemu kontu, miejsce docelowe: %1$@, identyfikator konta wewnętrznego: %2$@";
 /* quicksy country */
 "Cape Verde" = "Cape Verde";
@@ -245,25 +245,25 @@
 "Central African Rep." = "Central African Rep.";
 /* quicksy country */
 "Chad" = "Chad";
-"Change affiliation" = "Change affiliation";
-"Change Background Image" = "Change Background Image";
-"Change Channel Avatar" = "Change Channel Avatar";
-"Change Chat Background" = "Zmień Tło Rozmowy";
-"Change Group Avatar" = "Change Group Avatar";
-"Change Group Members" = "Change Group Members";
-"Change it" = "Change it";
+"Change affiliation" = "Zmień powiązanie";
+"Change Background Image" = "Zmień zdjęcie tła";
+"Change Channel Avatar" = "Zmień awatar kanału";
+"Change Chat Background" = "Zmień tło rozmowy";
+"Change Group Avatar" = "Zmień awatar grupowy";
+"Change Group Members" = "Zmień członków grupy";
+"Change it" = "Zmień to";
 "Change Password" = "Zmień hasło";
-"Changing affiliation" = "Changing affiliation";
-"Changing affiliation to %@: %@" = "Changing affiliation to %@: %@";
-"Changing Password" = "Zmiana hasła";
-"Channel Avatar" = "Channel Avatar";
-"Channel name" = "Channel name";
-"Channel Participants" = "Channel Participants";
+"Changing affiliation" = "Zmienianie powiązania";
+"Changing affiliation to %@: %@" = "Zmienianie powiązania na %@: %@";
+"Changing Password" = "Zmienianie hasła";
+"Channel Avatar" = "Awatar kanału";
+"Channel name" = "Nazwa kanału";
+"Channel Participants" = "Członkowie kanału";
 "Channel subject:" = "Temat kanału:";
 "Chat Background" = "Tło Rozmowy";
-"Chat background image" = "Chat background image";
-"Check this number?" = "Check this number?";
-"Check type and size on " = "Sprawdź typ i rozmiar włączony ";
+"Chat background image" = "Zdjęcie tła czatu";
+"Check this number?" = "Sprawdzić ten numer?";
+"Check type and size on " = "Sprawdź typ i rozmiar na ";
 /* quicksy country */
 "Chile" = "Chile";
 /* quicksy country */
@@ -272,37 +272,37 @@
 "Clear chat history of this channel" = "Wyczyść historię rozmów w tym kanale";
 "Clear chat history of this contact" = "Wyczyść historię rozmowy dla tego kontaktu";
 "Clear chat history of this group" = "Wyczyść historię rozmowy dla tej grupy";
-"Clear History" = "Czysta historia";
+"Clear History" = "Wyczyść historię";
 "Clear scanned contact" = "Wyczyść zeskanowany kontakt";
-"Clear text" = "Clear text";
+"Clear text" = "Wyczyść tekst";
 /* onboarding */
 "Close" = "Zamknij";
 /* quicksy country */
 "Colombia" = "Colombia";
 /* quicksy country */
 "Comoros" = "Comoros";
-"Configure the background image displayed in open chats." = "Configure the background image displayed in open chats.";
+"Configure the background image displayed in open chats." = "Skonfiguruj zdjęcie tła wyświetlanego w otwartych czatach.";
 /* quicksy country */
 "Congo" = "Congo";
-"Connected: %@" = "Połączony: %@";
-"Connecting..." = "Połączanie...";
+"Connected: %@" = "Połączono: %@";
+"Connecting..." = "Łączenie...";
 /* server details */
-"Considerations for Server Administrators" = "Considerations for Server Administrators";
-"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "JIDy Kontaktów i Grup/Kanałów mają format: nazwa@domena.tld";
+"Considerations for Server Administrators" = "Do przemyślenia przez administratorów serwera";
+"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "JIDy kontaktów i grup/kanałów mają format pseudonim@domena.tld";
 "Contact is muted" = "Kontakt jest wyciszony";
 "Contact is not muted" = "Kontakt nie jest wyciszony";
 "Contact not found" = "Kontakt nie znaleziony";
 /* placeholder when adding jid */
-"Contact or Group/Channel Jid" = "Jid Kontaktu, Grupy lub Kanału";
-"Contact Selection" = "Contact Selection";
+"Contact or Group/Channel Jid" = "JID kontaktu, grupy lub kanału";
+"Contact Selection" = "Wybierz kontakt";
 "Contacts" = "Kontakty";
 /* quicksy country */
 "Cook Islands" = "Cook Islands";
-"Cool Title" = "Świetny Tytuł";
+"Cool Title" = "Świetny tytuł";
 "Copied to clipboard" = "Skopiowane do schowka";
 /* Chat msg action */
 "Copy" = "Kopiuj";
-"Copy invitation link to clipboard" = "Copy invitation link to clipboard";
+"Copy invitation link to clipboard" = "Skopiuj link zapraszający do schowka";
 "Copy to clipboard" = "Skopiuj do schowka";
 /* quicksy country */
 "Costa Rica" = "Costa Rica";
@@ -332,12 +332,12 @@
 "Could not send" = "Nie udało się wysłać";
 "Could not synchronize" = "Nie można zsynchronizować";
 "Could not upload file" = "Nie można przesłać pliku";
-"Country:" = "Country:";
+"Country:" = "Kraj:";
 /* Crash reporting */
-"Crash Detected" = "Wykryto Awarię";
+"Crash Detected" = "Wykryto awarię aplikacji";
 "Crash Testing" = "Crash Testing";
 "Create new group" = "Stwórz nową grupę";
-"Creating Group" = "Creating Group";
+"Creating Group" = "Tworzenie grupy";
 "Creating invitation..." = "Tworzenie zaproszenia...";
 /* quicksy country */
 "Croatia" = "Croatia";
@@ -348,16 +348,16 @@
 "Current Password" = "Aktualne hasło";
 "Currently Online" = "Obecnie Online";
 /* Message autdelete time */
-"Custom" = "Custom";
-"Custom Time: " = "Custom Time: ";
+"Custom" = "Własny okres...";
+"Custom Time: " = "Własny czas: ";
 /* quicksy country */
 "Cyprus" = "Cyprus";
 /* quicksy country */
 "Czech Rep." = "Czech Rep.";
-"Database Export Failed" = "Database Export Failed";
-"Database Files" = "Database Files";
+"Database Export Failed" = "Eksportowanie bazy danych nieudane";
+"Database Files" = "Pliki bazy danych";
 "Debug" = "Debugowanie";
-"Debug Notification Problems" = "Debug Notification Problems";
+"Debug Notification Problems" = "Debuguj problemy z powiadomieniami";
 "Debugging" = "Debugowanie";
 "Default Background" = "Tło Domyślne";
 "Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "Definiuje proponowaną modyfikację protokołu rosteru XMPP, która umożliwia wersjonowanie spisów w taki sposób, że serwer nie wyśle spisu do klienta, jeśli spis nie został zmodyfikowany.";
@@ -374,15 +374,15 @@
 /* quicksy country */
 "Denmark" = "Denmark";
 "Deny new contact" = "Odrzuć nowy kontakt";
-"Destroy Channel" = "Destroy Channel";
-"Destroy Group" = "Destroy Group";
-"Destroying channel..." = "Destroying channel...";
-"Destroying group..." = "Destroying group...";
+"Destroy Channel" = "Usuń kanał";
+"Destroy Group" = "Usuń grupę";
+"Destroying channel..." = "Usuwanie kanału...";
+"Destroying group..." = "Usuwanie grupy...";
 "Detected a new omemo device on your account: %@" = "Detected a new omemo device on your account: %@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "ID urządzenia: ";
 "DeviceID: " = "IDurządzenia: ";
-"Devices of %@" = "Devices of %@";
+"Devices of %@" = "Urządzenia kontaktu %@";
 /* quicksy country */
 "Diego Garcia" = "Diego Garcia";
 "Disable Encryption" = "Wyłącz szyfrowanie";
@@ -397,13 +397,13 @@
 "Do you really want to block this contact? You won't receive any messages from this contact." = "Czy na pewno chcesz zablokować ten kontakt? Nie będziesz mógł otrzymywać wiadomości od tego kontaktu.";
 "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "Czy na pewno chcesz wyczyścić wszystkie wiadomości wymieniane w tej rozmowie? Jeśli korzystasz z OMEMO, nie będziesz w stanie ich ponownie załadować z serwera.";
 "Do you really want to delete this key?" = "Na pewno usunąć ten klucz?";
-"Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards.";
-"Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards.";
-"Do you really want to disable encryption for this contact?" = "Czy na pewno chcesz wyłączyć szyfrowanie tego kontaktu?";
-"Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Czy na pewno chcesz zresetować sesję OMEMO? Powinieneś zresetować połączenie tylko wtedy, gdy wiesz, co robisz!";
-"Do you want to block this user from entering this group/channel?" = "Do you want to block this user from entering this group/channel?";
-"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them.";
-"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group.";
+"Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "Czy naprawdę chcesz usunąć ten kanał? Wszyscy zostaną z niego usunięci, a sam kanał zostanie potem usunięty.";
+"Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "Czy naprawdę chcesz usunąć tę grupę? Wszyscy zostaną z niej usunięci, a sama grupa zostanie potem usunięta.";
+"Do you really want to disable encryption for this contact?" = "Czy na pewno chcesz wyłączyć szyfrowanie dla tego kontaktu?";
+"Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Czy na pewno chcesz zresetować sesję OMEMO? Sesja powinna być zresetowana tylko wtedy, gdy wiesz, co robisz!";
+"Do you want to block this user from entering this group/channel?" = "Czy chcesz zablokować dostęp do tej grupy/tego kanału tej osobie?";
+"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Czy chcesz usunąć tego użytkownika z tego kanału? Będzie on mógł dołączyć ponownie, jeżeli go nie zablokujesz.";
+"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Czy chcesz usunąć tego użytkownika z tej grupy? Będzie on mógł dołączyć ponownie, jeżeli go nie zablokujesz.";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Czy chcesz zaufać zeskanowanym odciskom kontaktu %@ używając konta %@?";
 "Doing a lot of work..." = "Pracuję...";
 "Domain missing" = "Brak domeny";
@@ -411,13 +411,13 @@
 "Dominica" = "Dominica";
 /* quicksy country */
 "Dominican Rep." = "Dominican Rep.";
-"Don't show onboarding" = "Don't show onboarding";
-"Don't trust Key" = "Nie ufaj Kluczowi";
+"Don't show onboarding" = "Nie pokazuj poradnika";
+"Don't trust Key" = "Nie ufaj kluczowi";
 "Done" = "Gotowe";
 "Dont' trust Key" = "Nie ufaj kluczowi";
-"Download" = "Ściągnij";
+"Download" = "Pobierz";
 "Download error" = "Błąd pobierania";
-"Download Settings" = "Ustawienia Pobierania";
+"Download Settings" = "Ustawienia pobierania";
 "Draft:" = "Projekt:";
 "Duplicate Account" = "Zduplikowane konto";
 "Duplicate Account!" = "To konto już istnieje!";
@@ -427,7 +427,7 @@
 /* quicksy country */
 "Ecuador" = "Ecuador";
 /* Chat msg action */
-"Edit" = "Edytować";
+"Edit" = "Edytuj";
 /* quicksy country */
 "Egypt" = "Egypt";
 "Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now.";
@@ -436,17 +436,17 @@
 /* Crash report error dialog */
 "Email Error" = "Błąd Email";
 "Email Support" = "Wsparcie e-mail";
-"Empty Values!" = "Puste Wartości!";
-"Enable" = "Enable";
-"Enable encryption by default for new chats" = "Enable encryption by default for new chats";
+"Empty Values!" = "Puste wartości!";
+"Enable" = "Włącz";
+"Enable encryption by default for new chats" = "Włącz szyfrowanie domyślnie dla nowych konwersacji";
 "Enabled" = "Włączone";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "Zaszyfrowna wiadomość została wysłana w starszym formacie, którego Monal nie wspiera. Poproś kontakt o aktualizację używanego klienta. (GCM error)";
 "Encrypted session to this device broken beyond repair." = "Szyfrowana sesja z tym urządzeniem nie może zostać naprawiona.";
-"Encryption" = "Encryption";
+"Encryption" = "Szyfrowanie";
 "Encryption Keys" = "Klucze szyfrujące";
 "Encryption Keys (OMEMO)" = "Klucze szyfrujące OMEMO";
 "Encryption Not Supported" = "Szyfrowanie nie wspierane";
-"Enter the jid that you want to block" = "Wpisz jid, który chcesz zablokować";
+"Enter the jid that you want to block" = "Wpisz JID, który chcesz zablokować";
 "Enter your new password. Passwords may not be empty. They may also be governed by server or company policies." = "Podaj swoje hasło. Hasła nie mogą być puste. Mogą też musieć spełniać dodatkowe wymogi zdefiniowane przez serwer bądź firmowe polityki.";
 "Enter your password here" = "Wpisz tutaj swoje hasło";
 "Enter your XMPP ID here" = "Wpisz tutaj swój identyfikator XMPP";
@@ -460,13 +460,13 @@
 "Error" = "Błąd";
 "error" = "błąd";
 "Error adding contact or channel" = "Błąd dodawania kontaktu lub kanału";
-"Error adding new member!" = "Error adding new member!";
-"Error blocking user!" = "Error blocking user!";
-"Error changing affiliation!" = "Error changing affiliation!";
-"Error changing avatar!" = "Error changing avatar!";
-"Error creating group!" = "Error creating group!";
+"Error adding new member!" = "Błąd dodawania nowego członka!";
+"Error blocking user!" = "Błąd blokowania użytkownika!";
+"Error changing affiliation!" = "Błąd zmieniania powiązania!";
+"Error changing avatar!" = "Błąd zmieniania awataru!";
+"Error creating group!" = "Błąd tworzenia grupy!";
 "Error decrypting message" = "Bład w trakcie odszyfrowywania wiadomości";
-"Error destroying group!" = "Error destroying group!";
+"Error destroying group!" = "Błąd usuwania grupy!";
 "Error entering group/channel!" = "Błąd dołączania do grupy/kanału!";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error handling SASL challenge of server (iteration count too low), disconnecting!";
@@ -474,15 +474,15 @@
 "Error handling SASL challenge of server (m-attr error), disconnecting!" = "Error handling SASL challenge of server (m-attr error), disconnecting!";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (nonce error), disconnecting!" = "Error handling SASL challenge of server (nonce error), disconnecting!";
-"Error inviting new member!" = "Error inviting new member!";
-"Error inviting new participant!" = "Error inviting new participant!";
-"Error inviting user!" = "Error inviting user!";
+"Error inviting new member!" = "Błąd zapraszania nowego członka!";
+"Error inviting new participant!" = "Błąd zapraszania nowego uczestnika!";
+"Error inviting user!" = "Błąd zapraszania użytkownika!";
 "Error registering push" = "Błąd rejestracji push";
 "Error Removing Account" = "Błąd podczas usuwania konta";
-"Error removing avatar!" = "Error removing avatar!";
-"Error removing user!" = "Error removing user!";
-"Error requesting SMS!" = "Error requesting SMS!";
-"Error unblocking user!" = "Error unblocking user!";
+"Error removing avatar!" = "Błąd usuwania awataru!";
+"Error removing user!" = "Błąd usuwania użytkownika!";
+"Error requesting SMS!" = "Błąd żądania wiadomości SMS!";
+"Error unblocking user!" = "Błąd odblokowywania użytkownika!";
 "Error while decrypting: iv.length != 12" = "Błąd podczas odszyfrowywania: iv.length != 12";
 "Error: %@" = "Błąd: %@";
 "Error: Account disabled, can not display keys!" = "Błąd: Konto wyłączone, nie można wyświetlić kluczy!";
@@ -493,13 +493,13 @@
 "Estonia" = "Estonia";
 /* quicksy country */
 "Ethiopia" = "Ethiopia";
-"Even more to customize!" = "Even more to customize!";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.";
+"Even more to customize!" = "Jeszcze więcej do personalizacji!";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Każdy nowy kontakt będzie miał włączone szyfrowanie, ale kontakty, które już posiadasz na liście, nie ulegną tej zmianie.";
 "Failed to block contact %@" = "Nie udało się zablokować kontaktu %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
 "Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
-"Failed to create invitation for %@" = "Nie udało się się stworzyć zaproszenia dla %@";
+"Failed to create invitation for %@" = "Nie udało się stworzyć zaproszenia dla %@";
 "Failed to create invitation, unknown error: %@" = "Nie udało się stworzyć zaproszenia, nieznany błąd %@";
 "Failed to decode download link" = "Nie udało się odkodować linku do pobrania";
 "Failed to decode encrypted link" = "Nie udało się odszyfrować zaszyfrowanego łącza";
@@ -514,7 +514,7 @@
 "Failed to encrypt file" = "Nie udało się zaszyfrować pliku";
 "Failed to enter Group/Channel %@" = "Nie udało się wejść do grupy/kanału %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Nie udało się wprowadzić grupy/kanału %@: To nie jest grupa/kanał!";
-"Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
+"Failed to export the database, please check the logfile for errors and try again." = "Nie udało się eksportować bazy danych, sprawdź plik logów w poszukiwaniu błędów i spróbuj ponownie.";
 "Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
 "Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "Nie udało się wczytać listy blokad";
@@ -539,14 +539,14 @@
 "Falkland Islands (Malvinas)" = "Falkland Islands (Malvinas)";
 /* quicksy country */
 "Faroe Islands" = "Faroe Islands";
-"Features" = "Features";
+"Features" = "Funkcje";
 "Fetching registration form..." = "Pobieranie formularza rejestracyjnego...";
 /* quicksy country */
 "Fiji" = "Fiji";
 "File" = "Plik";
 "filename" = "filename";
 "Files" = "Pliki";
-"Finished fetching messages" = "Finished fetching messages";
+"Finished fetching messages" = "Ukończono pobieranie wiadomości";
 /* quicksy country */
 "Finland" = "Finland";
 /* quicksy country */
@@ -557,14 +557,14 @@
 "French Guiana" = "French Guiana";
 /* quicksy country */
 "French Polynesia" = "French Polynesia";
-"Frequently Asked Questions" = "Frequently Asked Questions";
+"Frequently Asked Questions" = "Najczęściej zadawane pytania";
 /* quicksy country */
 "Gabon" = "Gabon";
 /* quicksy country */
 "Gambia" = "Gambia";
 "General" = "Ogólne";
 "General File Transfer Settings" = "Ogólne ustawienia przesyłania plików";
-"General Settings" = "General Settings";
+"General Settings" = "Ogólne ustawienia";
 /* quicksy country */
 "Georgia" = "Georgia";
 /* quicksy country */
@@ -582,15 +582,15 @@
 "Greenland" = "Greenland";
 /* quicksy country */
 "Grenada" = "Grenada";
-"Group Avatar" = "Group Avatar";
+"Group Avatar" = "Awatar grupowy";
 /* placeholder when editing a group description */
-"Group Description (optional)" = "Group Description (optional)";
+"Group Description (optional)" = "Opis grupy (opcjonalnie)";
 "Group Members" = "Członkowie Grupy";
-"Group name" = "Group name";
+"Group name" = "Nazwa grupy";
 /* placeholder when creating new group */
-"Group Name (optional)" = "Nazwa Grupy (opcjonalnie)";
+"Group Name (optional)" = "Nazwa grupy (opcjonalnie)";
 "Group subject:" = "Temat grupy:";
-"Group/Channel description" = "Group/Channel description";
+"Group/Channel description" = "Opis grupy/kanału";
 "Group/Channel got destroyed: %@" = "Grupa/kanał został zniszczony: %@";
 "Group/Channel not available anymore: %@" = "Grupa/kanał nie jest już dostępny: %@";
 "groupJoin Group" = "Dołącz do Grupy";
@@ -619,12 +619,12 @@
 "I need an account:" = "Potrzebuję konta:";
 /* quicksy country */
 "Iceland" = "Iceland";
-"If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Jeśli Monal nie może wyświetlić powiadomień, nie zobaczysz alertów o nadejściu wiadomości. Dzieje się tak, jeśli klikniesz „Odrzuć”, gdy Monal po raz pierwszy poprosił o pozwolenie. Napraw to, przechodząc do Ustawienia iOS -> Monal -> Powiadomienia i wybierz „Zezwalaj na powiadomienia”.";
-"If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Jeśli to jest wyłączone, Twoje urządzenie nie może aktywować push na serwerze xmpp, upewnij się, że skonfigurowałeś je do obsługi XEP-0357.";
-"If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
-"If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Jeśli chcesz używać wiadomości audio, musisz zezwolić na dostęp w Ustawienia-> Prywatność-> Mikrofon.";
-"Image Upload JPEG-Quality: %@" = "Image Upload JPEG-Quality: %@";
-"Import and trust OMEMO fingerprints from QR code" = "Zaimportuj i zaufaj odciskom OMEMO z kodu QR";
+"If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Jeżeli Monal nie może wyświetlić powiadomień, nie zobaczysz alertów o nadejściu wiadomości. Dzieje się tak, jeżeli klikniesz „Odrzuć”, gdy Monal po raz pierwszy poprosi o pozwolenie. Napraw to, przechodząc do ustawień systemu iOS -> Monal -> Powiadomienia i wybierz „Zezwalaj na powiadomienia”.";
+"If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Jeżeli to jest wyłączone, Twoje urządzenie nie może aktywować push na serwerze XMPP. Upewnij się, że jest ono skonfigurowane tak, żeby obsługiwało XEP-0357.";
+"If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "Jeżeli to włączysz, nie będziesz już chroniony/-a przed atakami man-in-the-middle. Takie ataki pozwalają nieproszonym osobom na manipulowanie przychodzącymi i wychodzącymi wiadomościami, dodawanie swoich kluczy OMEMO, zmienić informacje o Twoim koncie lub nawet poznać czy zmienić Twoje hasło!\n\nZalecane jest przeniesienie się na inny serwer niż włączenie tej opcji.";
+"If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Jeżeli chcesz używać wiadomości audio, musisz zezwolić na dostęp w Ustawienia-> Prywatność-> Mikrofon.";
+"Image Upload JPEG-Quality: %@" = "Jakość przesyłanych zdjęć JPEG: %@";
+"Import and trust OMEMO fingerprints from QR code" = "Zaimportuj i zaufaj kluczom OMEMO z kodu QR";
 /* quicksy country */
 "India" = "India";
 "Indicate when a particular device is active or inactive. Saves battery." = "Pokazuj, gdy dane urządznie jest aktywne. Oszczędza baterię.";
@@ -632,23 +632,23 @@
 "Indonesia" = "Indonesia";
 "Input" = "Input";
 "Input is not a valid jid" = "Dane wejściowe nie są prawidłowym jid";
-"Interactions" = "Interactions";
+"Interactions" = "Interakcje";
 "Invalid Credentials!" = "Nieprawidłowe hasło!";
 /* QR-Code-Scanner: invalid format */
 "Invalid format" = "Niepoprawny format";
-"Invalid image file!" = "Invalid image file!";
+"Invalid image file!" = "Niepoprawne zdjęcie!";
 "Invalid Password!" = "Nieprawidłowe hasło!";
 "Invalid State" = "Niepoprawny Stan";
-"Invalid user input." = "Invalid user input.";
+"Invalid user input." = "Niepoprawne dane.";
 "Invalid Username!" = "Nieprawidłowa nazwa użytkownika!";
 "Invitation for %@ created" = "Zaproszenie dla %@ stworzone";
 /* muc invite */
-"Invite again" = "Invite again";
-"Invite participants to channel" = "Invite participants to channel";
-"Inviting new member" = "Inviting new member";
-"Inviting new participant" = "Inviting new participant";
-"Inviting user" = "Inviting user";
-"Inviting user to this group/channel: %@" = "Inviting user to this group/channel: %@";
+"Invite again" = "Zaproś ponownie";
+"Invite participants to channel" = "Zaproś członków do kanału";
+"Inviting new member" = "Zapraszanie nowego członka";
+"Inviting new participant" = "Zapraszanie nowego uczestnika";
+"Inviting user" = "Zapraszanie użytkownika";
+"Inviting user to this group/channel: %@" = "Zapraszasz użytkownika do tej grupy/tego kanału: %@";
 /* quicksy country */
 "Iran (Islamic Republic of)" = "Iran (Islamic Republic of)";
 /* quicksy country */
@@ -943,7 +943,7 @@
 "Please make sure you have entered the same password in both password fields." = "Proszę upewnić się, że wpisałeś to samo hasło w obydwu polach.";
 "Please provide a valid XMPP server domain or select one." = "Proszę wpisać poprawny serwer XMPP lub wybrać jakiś.";
 "Please select a XMPP server or provide one." = "Proszę wybrać serwer XMPP lub wpisać jakiś.";
-"Please update!" = "Proszę zaktualizować!";
+"Please update!" = "Zaktualizuj aplikację!";
 /* quicksy country */
 "Poland" = "Poland";
 "Port" = "Port";
@@ -1217,7 +1217,7 @@
 "This account already exists in Monal." = "To konto już istnieje w Monal.";
 "This account already exists on this instance" = "To konto już istnieje w tej instancji";
 "This account already exists on this instance." = "To konto już istnieje na tym serwerze.";
-"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Ta aplikacja jest za stara i może zawierać błędy bezpieczeństwa, a także nagle przestać działać. Uaktualnij!";
+"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Ta wersja aplikacji może zawierać błędy bezpieczeństwa, a także nagle przestać działać. Zaktualizuj już teraz!";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong.";
 "This contact is already in the contact list of the selected account" = "Kontakt już jest na liście kontaktów zaznaczonego konta";
@@ -1246,7 +1246,7 @@
 "This server does not support modern SASL2 authentication." = "Ten serwer nie obsługuje nowoczesnego uwierzytelniania SASL2.";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server.";
 "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment.";
-"This should never happen, please contact the developers and provide a logfile!" = "To nigdy nie powinno się zdarzyć, skontaktuj się z programistami i pokaż plik log!";
+"This should never happen, please contact the developers and provide a logfile!" = "To nigdy nie powinno się zdarzyć, skontaktuj się z programistami i pokaż plik logów!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Ta specyfikacja definiuje semantykę używania protokołu publikowania-subskrypcji XMPP do rozgłaszania zdarzeń zmiany stanu związanych z kontem wiadomości błyskawicznych i obecności.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Ta specyfikacja zapewnia sposób zabezpieczenia uzgadniania SASL i SASL2 przed obniżeniem wersji metody i powiązania kanału.";
 "This will clear the whole chat history of this account from this device." = "Spowoduje to wyczyszczenie całej historii czatów tego konta z tego urządzenia.";
