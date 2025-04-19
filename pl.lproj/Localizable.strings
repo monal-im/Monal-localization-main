@@ -496,9 +496,9 @@
 "Even more to customize!" = "Jeszcze więcej do personalizacji!";
 "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Każdy nowy kontakt będzie miał włączone szyfrowanie, ale kontakty, które już posiadasz na liście, nie ulegną tej zmianie.";
 "Failed to block contact %@" = "Nie udało się zablokować kontaktu %@";
-"Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
-"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
-"Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
+"Failed to change affiliation of '%@' in '%@' to '%@'" = "Nie udało się zmienić powiązania dla '%1$@' z '%2$@' do '%3$@'";
+"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Nie udało się zmienić powiązania dla '%1$@' z '%2$@' do '%3$@': dopuszczalny czas przekroczony";
+"Failed to copy downloaded file into cache directory: %@" = "Nie udało się skopiować pobranego pliku do katalogu cache: %@";
 "Failed to create invitation for %@" = "Nie udało się stworzyć zaproszenia dla %@";
 "Failed to create invitation, unknown error: %@" = "Nie udało się stworzyć zaproszenia, nieznany błąd %@";
 "Failed to decode download link" = "Nie udało się odkodować linku do pobrania";
@@ -507,26 +507,26 @@
 "Failed to decrypt filetransfer" = "Nie udało się odszyfrować transferu plików";
 "Failed to delete own avatar" = "Nie udało się usunąć własnego awatara";
 "Failed to delete own nickname" = "Nie udało się usunąć własnego pseudonimu";
-"Failed to destroy group/channel '%@'" = "Failed to destroy group/channel '%@'";
-"Failed to destroy group/channel '%@': timeout" = "Failed to destroy group/channel '%@': timeout";
-"Failed to download file: %@" = "Failed to download file: %@";
+"Failed to destroy group/channel '%@'" = "Nie udało się usunąć grupy/kanału '%@'";
+"Failed to destroy group/channel '%@': timeout" = "Nie udało się usunąć grupy/kanału '%@': dopuszczalny czas przekroczony";
+"Failed to download file: %@" = "Nie udało się pobrać pliku: %@";
 "Failed to enable carbons for account %@" = "Nie udało się włączyć carbon dla konta %@";
 "Failed to encrypt file" = "Nie udało się zaszyfrować pliku";
 "Failed to enter Group/Channel %@" = "Nie udało się wejść do grupy/kanału %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Nie udało się wprowadzić grupy/kanału %@: To nie jest grupa/kanał!";
 "Failed to export the database, please check the logfile for errors and try again." = "Nie udało się eksportować bazy danych, sprawdź plik logów w poszukiwaniu błędów i spróbuj ponownie.";
-"Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
-"Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
+"Failed to fetch download metadata: %@" = "Nie udało się przechwycić metadanych tego pobrania: %@";
+"Failed to fetch room config form for '%@'" = "Nie udało się przechwycić konfiguracji dla %@";
 "Failed to load blocklist" = "Nie udało się wczytać listy blokad";
-"Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
-"Failed to move uploaded file to file cache directory" = "Failed to move uploaded file to file cache directory";
+"Failed to moderate message in group/channel '%@'" = "Nie udało się wymoderować wiadomości na grupie/kanale %@";
+"Failed to move uploaded file to file cache directory" = "Nie udało się przenieść przesłanego pliku do katalogu cache";
 "Failed to parse URL returned by HTTP upload server" = "Nie udało się przeanalizować adresu URL zwróconego przez serwer przesyłania HTTP";
 "Failed to publish avatar image for group/channel %@" = "Nie udało się opublikować obrazu awatara dla grupy/kanału %@";
 "Failed to publish own avatar" = "Nie udało się opublikować własnego awatara";
 "Failed to publish own nickname" = "Nie udało się opublikować własnego pseudonimu";
 "Failed to query for new messages on account %@" = "Nie udało się wysłać zapytania o nowe wiadomości na koncie %@";
-"Failed to query new messages for Group/Channel (catchup) %@" = "Failed to query new messages for Group/Channel (catchup) %@";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "Failed to query new messages for Group/Channel (stanzaid) %@";
+"Failed to query new messages for Group/Channel (catchup) %@" = "Nie udało się przechwycić nowych wiadomości dla grupy/kanału (catchup) %@";
+"Failed to query new messages for Group/Channel (stanzaid) %@" = "Nie udało się przechwycić nowych wiadomości dla grupy/kanału (stanzaid) %@";
 "Failed to query newest stanzaid for account %@" = "Nie udało się wysłać zapytania o najnowszy stanzaid dla konta %@";
 "Failed to remove bookmark for Group/Channel: %@" = "Nie udało się usunąć zakładki dla Grupy/Kanału: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Błąd zapisywania zakładki dla Grupy/Kanału: %@";
@@ -843,7 +843,7 @@
 "No" = "Nie";
 "No account available to handel 'xmpp:' URI!" = "Żadne konto nie wspiera łączy 'xmpp:'!";
 "No accounts set up currently" = "Nie ustawiono żadnych kont";
-"No active conversations" = "No active conversations";
+"No active conversations" = "Brak aktywnych konwersacji";
 "No connected accounts" = "Brak połączonych kont";
 "No contacts to show :(" = "Nie masz kontaktów :(";
 "No Empty Values!" = "Bez Pustych Wartości!";
@@ -851,7 +851,7 @@
 "No further error description" = "Brak dalszych opisów błędów";
 "No GPS location received" = "Nie odebrano lokacji GPS";
 "No OMEMO keys found" = "Nie znaleziono kluczy OMEMO";
-"No pending constact requests" = "No pending constact requests";
+"No pending constact requests" = "Nie masz oczekujących zapytań o kontakt";
 "No search result." = "Brak wyników wyszukiwania.";
 "No supported auth mechanism found, disabling account!" = "Nie znaleziono obsługiwanego mechanizmu uwierzytelniania, wyłączam konto!";
 "No XMPP server!" = "Brak serwera XMPP!";
@@ -872,7 +872,7 @@
 "Notify only when mentioned" = "Powiadamiaj tylko przy wspomnieniach";
 "now" = "teraz";
 /* Message autdelete time */
-"Off" = "Off";
+"Off" = "Wyłącz";
 "Ok" = "Ok";
 /* Crash report error dialog */
 "OK" = "OK";
@@ -880,27 +880,27 @@
 "Older, slower, but still secure TLS version" = "Starsza, wolniejsza, ale nadal bezpieczna wersja TLS";
 /* quicksy country */
 "Oman" = "Oman";
-"On this device" = "On this device";
+"On this device" = "Na tym urządzeniu";
 "Online" = "Online";
 "Only contacts" = "Tylko kontakty";
 "Open" = "Otwórz";
-"Open account settings" = "Open account settings";
+"Open account settings" = "Otwórz ustawienia konta";
 "Open app to see more" = "Otwórz aplikację, aby zobaczyć więcej";
 /* muc members list */
-"Open contact details" = "Open contact details";
-"Open contact list" = "Open contact list";
-"Open contact list (contact requests pending)" = "Open contact list (contact requests pending)";
-"Open in default browser" = "Open in default browser";
-"Open iOS settings" = "Open iOS settings";
-"Open macOS settings" = "Open macOS settings";
-"Open Profile of %@" = "Open Profile of %@";
+"Open contact details" = "Otwórz szczegóły konta";
+"Open contact list" = "Otwórz listę kontaktów";
+"Open contact list (contact requests pending)" = "Otwórz listę kontaktów (oczekujące zapytania o kontakt)";
+"Open in default browser" = "Otwórz w domyślnej przeglądarce";
+"Open iOS settings" = "Otwórz ustawienia systemu iOS";
+"Open macOS settings" = "Otwórz ustawienia systemu macOS";
+"Open Profile of %@" = "Otwórz profil %@";
 "Open Source" = "Otwarty kod źródłowy";
-"Open URLs inline in Safari" = "Open URLs inline in Safari";
+"Open URLs inline in Safari" = "Otwórz hiperłącza bezpośrednio w Safari";
 "Optional Hardcoded Hostname" = "Opcjonalna hardkodowana nazwa hosta";
 "Optional Port" = "Opcjonalny port";
 "Own device key" = "Własny klucz";
 /* muc affiliation */
-"Owner" = "Owner";
+"Owner" = "Właściciel";
 /* quicksy country */
 "Pakistan" = "Pakistan";
 /* quicksy country */
@@ -912,7 +912,7 @@
 /* quicksy country */
 "Paraguay" = "Paraguay";
 /* muc affiliation */
-"Participant" = "Participant";
+"Participant" = "Uczestnik";
 /* placeholder when adding account
    placeholder when creating account
    placeholder when migrating account */
@@ -928,12 +928,12 @@
 /* quicksy country */
 "Philippines" = "Philippines";
 "Photos" = "Zdjecia";
-"Pin Chat" = "Pin Chat";
+"Pin Chat" = "Przypnij konwersację";
 "Play Sounds" = "Odgrywaj dźwięki";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Najpierw dodaj nowe konto w ustawieniach. Jeśli dodałeś już swoje konto, może być konieczne włączenie go w ustawieniach";
 "Please Allow Audio Access" = "Proszę udstępnić audio";
 "Please enter a password below before activating this account." = "Wprowadź poniżej hasło przed aktywacją tego konta.";
-"Please enter the six-digit pin below" = "Please enter the six-digit pin below";
+"Please enter the six-digit pin below" = "Wprowadź poniżej sześciocyfrowy kod PIN";
 "Please make sure at least one account has connected before trying to add a contact or channel." = "Upewnij się, że co najmniej jedno konto jest połączone, zanim spróbujesz dodać kontakt lub kanał.";
 "Please make sure at least one account has connected before trying to create new group." = "Proszę się upewnić, że chociaż jedno konto zostało połączone przed tworzeniem nowej grupy.";
 "Please make sure you are connected before changing your password." = "Upewnij się, że masz połączenie przed zmianą hasła.";
@@ -950,16 +950,16 @@
 "Port: %@, Direct TLS: %@, Priority: %@" = "Port: %1$@, Bezpośredni TLS: %2$@, Priorytet: %3$@";
 /* quicksy country */
 "Portugal" = "Portugal";
-"Previews" = "Previews";
-"Previous" = "Previous";
+"Previews" = "Podglądy";
+"Previous" = "Poprzednie";
 "Privacy" = "Prywatność";
 "Protocol support of your server (XEPs)" = "Informacje o serwerze";
 /* placeholder when creating account */
 "Provide XMPP-Server" = "Podaj Serwer XMPP";
-"Publish version" = "Publish version";
+"Publish version" = "Pokazuj wersję";
 /* quicksy country */
 "Puerto Rico" = "Puerto Rico";
-"Push Server" = "Push Server";
+"Push Server" = "Serwer push";
 "Pushserver Region" = "Lokalizacja serwera powiadomień";
 /* quicksy country */
 "Qatar" = "Qatar";
@@ -967,19 +967,19 @@
 "QR-Code Scanner" = "Skaner kodów QR";
 /* QR-Code-Scanner */
 "QR-Code video error" = "Błąd wideo z kodem QR";
-"Quicksy is now set up and connected." = "Quicksy is now set up and connected.";
-"Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm).";
-"Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:";
+"Quicksy is now set up and connected." = "Quicksy został skonfigurowany i podłączony.";
+"Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksy synchronizuje Twoją listę kontaktów w regularnych odstępach czasu, żeby zaproponować Tobie potencjalne nowe znajomości, które już korzystają z Quicksy.\n\nQuicksy udostępnia i przechowuje zdjęcia, nagrania audio, filmy i inne media, żeby dostarczyć je do odpowiednich adresatów. Pliki są przechowywane przez maksymalnie 30 dni.\n\nWięcej informacji znajdziesz w [polityce prywatności](https://quicksy.im/privacy.htm).";
+"Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksy wyśle Tobie wiadomość SMS (opłaty mogą zostać za to naliczone), żeby zweryfikować Twój numer telefonu. Wprowadź kod kraju i swój numer telefonu:";
 /* Chat msg action */
 "Quote" = "Cytat";
 "Rate Monal" = "Oceń Monal";
-"Really remove avatar?" = "Really remove avatar?";
+"Really remove avatar?" = "Na pewno usunąć awatar?";
 "Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "Otrzymuj powiadomienia push przez Apple nawet po rozłączeniu. Znacznie poprawia niezawodność.";
 /* directory for downloaded audios */
 "Received Audios" = "Odebrane pliki audio";
 /* directory for downloaded files */
 "Received Files" = "Otrzymane pliki";
-"Received geo locations are shared with Apple's Maps App." = "Received geo locations are shared with Apple's Maps App.";
+"Received geo locations are shared with Apple's Maps App." = "Odebrana lokalizacja jest udostępniana aplikacji Apple Maps.";
 /* directory for downloaded images */
 "Received Images" = "Otrzymane obrazy";
 /* directory for downloaded videos */
@@ -997,24 +997,24 @@
 "Registering account..." = "Rejestruję konto...";
 "Registration Error" = "Błąd rejestracji";
 "Remove %@ from contacts?" = "Usuń %@ z kontaktów?";
-"Remove %@?" = "Remove %@?";
+"Remove %@?" = "Usunąć %@?";
 "Remove Account from this Device" = "Usuń konto z tego urządzenia";
-"Remove Background Image" = "Remove Background Image";
-"Remove Channel Avatar" = "Remove Channel Avatar";
+"Remove Background Image" = "Usuń zdjęcie tła";
+"Remove Channel Avatar" = "Usuń awatar kanału";
 "Remove Contact" = "Usuń kontakt";
 "Remove Conversation" = "Usuń rozmowę";
 "Remove from contacts" = "Usuń z kontaktów";
-"Remove Group Avatar" = "Remove Group Avatar";
-"Removing %@" = "Removing %@";
-"Removing %@..." = "Removing %@...";
-"Removing avatar..." = "Removing avatar...";
-"Rename Channel" = "Rename Channel";
+"Remove Group Avatar" = "Usuń awatar grupowy";
+"Removing %@" = "Usuwanie %@";
+"Removing %@..." = "Usuwanie %@...";
+"Removing avatar..." = "Usuwanie awataru...";
+"Rename Channel" = "Zmień nazwę kanału";
 /* placeholder text in contact details */
 "Rename Contact" = "Zmień nazwę kontaktu";
-"Rename Group" = "Rename Group";
+"Rename Group" = "Zmień nazwę grupy";
 "Reply" = "Odpowiedź";
-"Requesting validation SMS..." = "Requesting validation SMS...";
-"Required" = "Required";
+"Requesting validation SMS..." = "Wysyłanie żądania SMSa weryfikacyjnego...";
+"Required" = "Wymagane";
 "Reset OMEMO session" = "Zresetuj sesję OMEMO";
 "Resource" = "Zasób";
 "Resources" = "Zasoby";
@@ -1056,7 +1056,7 @@
 /* mac only string */
 "Scroll down to load more messages" = "Przewiń w dół, aby załadować więcej wiadomości";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Bezpieczne wiązanie kanałów zdefiniowane dla połączeń TLS1.3 i niektórych połączeń TLS1.2.";
-"Security" = "Security";
+"Security" = "Bezpieczeństwo";
 "Select a background to display behind conversations with %@" = "Wybierz tło do pokazania w rozmowie z %@";
 "Select a default background to display behind conversations." = "Wybierz tło domyślne do pokazania w rozmowach.";
 "Select Action" = "Wybierz czynność";
@@ -1065,12 +1065,12 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Wybierz dźwięki odtwarzane z powiadomieniami o nowych wiadomościach. Domyślnie jest to Xylophone.";
 "Selected Group Members" = "Zaznaczeni Członkowie Grupy";
 "Send" = "Wysłać";
-"Send last interaction time" = "Send last interaction time";
+"Send last interaction time" = "Pokazuj ostatni czas interakcji z aplikacją";
 "Send Location" = "Wyślij lokalizację";
-"Send message receipts" = "Send message receipts";
-"Send read receipts" = "Send read receipts";
-"Send SMS again" = "Send SMS again";
-"Send typing notifications" = "Send typing notifications";
+"Send message receipts" = "Wysyłaj potwierdzenia doręczenia wiadomości";
+"Send read receipts" = "Wysyłaj potwierdzenia odczytania wiadomości";
+"Send SMS again" = "Wyślij ponownie SMSa";
+"Send typing notifications" = "Wysyłaj powiadomienia o tym, że piszesz";
 "Sending..." = "Wysyłanie...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Wysyła hasło w postaci zwykłego tekstu (tylko zaszyfrowane przez TLS), niezbyt bezpieczne";
 /* quicksy country */
@@ -1103,9 +1103,9 @@
 /* quicksy country */
 "Seychelles" = "Seychelles";
 "Sharing failed" = "Udostępnianie nie powiodło się";
-"Show inline geo location" = "Show inline geo location";
+"Show inline geo location" = "Pokazuj wewnętrznie lokalizację";
 "Show shared Media and Files" = "Pokaż współdzielone Media i Pliki";
-"Show URL previews" = "Show URL previews";
+"Show URL previews" = "Pokazuj podglądy hiperłączy";
 /* quicksy country */
 "Sierra Leone" = "Sierra Leone";
 /* quicksy country */
@@ -1120,10 +1120,10 @@
 "Solomon Islands" = "Solomon Islands";
 /* quicksy country */
 "Somalia" = "Somalia";
-"Some debug settings." = "Some debug settings.";
+"Some debug settings." = "Jakieś ustawienia debugowania.";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "Niektóre wiadomości mogą oczekiwać na przechwycenie lub wysłanie. Otwórz aplikację, żeby spróbować ponownie.";
-"Something went wrong processing your request." = "Something went wrong processing your request.";
-"Something went wrong while parsing your input..." = "Something went wrong while parsing your input...";
+"Something went wrong processing your request." = "Coś poszło nie tak, gdy Twoje zapytanie było przetwarzane.";
+"Something went wrong while parsing your input..." = "Coś poszło nie tak, gdy weryfikowano wprowadzone dane...";
 "Sounds" = "Dźwięki";
 "Sounds courtesy Emrah" = "Dzwięki dzięki uprzejmości Emrah";
 /* quicksy country */
@@ -1139,8 +1139,8 @@
 "Submit A Bug" = "Zgłoś błąd";
 "Success" = "Sukces";
 "Success!" = "Sukces!";
-"Successfully destroyed channel." = "Successfully destroyed channel.";
-"Successfully destroyed group." = "Successfully destroyed group.";
+"Successfully destroyed channel." = "Pomyślnie usunięto kanał.";
+"Successfully destroyed group." = "Pomyślnie usunięto grupę.";
 "Successfully joined group/channel %@!" = "Dołączono do grupy/kanału %@!";
 /* quicksy country */
 "Sudan" = "Sudan";
@@ -1162,12 +1162,12 @@
 "Taiwan, China" = "Taiwan, China";
 /* quicksy country */
 "Tajikistan" = "Tajikistan";
-"Take me to settings" = "Take me to settings";
+"Take me to settings" = "Zabierz mnie do ustawień";
 /* quicksy country */
 "Tanzania" = "Tanzania";
-"Temporarily unavailable. Try again later." = "Temporarily unavailable. Try again later.";
+"Temporarily unavailable. Try again later." = "Tymczasowo niedostępne. Spróbuj ponownie później.";
 "Temporary failure to enter Group/Channel: %@" = "Tymczasowe nieudane wejście do grupy/kanału: %@";
-"Terms of %@" = "Terms of %@";
+"Terms of %@" = "Regulamin %@";
 "Terms of use for %@" = "Warunki użycia %@";
 /* quicksy country */
 "Thailand" = "Thailand";
@@ -1175,7 +1175,7 @@
 "The account has been removed" = "Konto zostało usunięte";
 "The account has been saved" = "Konto zostało zapisane";
 /* Crash reporting */
-"The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!";
+"The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "Aplikacja ostatnim razem niepoprawnie zakończyła działanie. Czy chcesz wysłać raport błędu? Będzie on zawierał wrażliwe dane, jednak użyjemy ich tylko do zidentyfikowania błędu w aplikacji i natychmiast je potem usuniemy.";
 "The chat history has been cleared" = "Historia czatu została wyczyszczona";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "Połączenie z serwerem zostało przerwane i nie można było pobrać starych wiadomości z tego czatu. Spróbuj ponownie później.";
 "The current password is not correct." = "Aktualne hasło jest nieprawidłowe.";
@@ -1185,7 +1185,7 @@
 "The jid you want to add should be in in the format user@domain.tld." = "JID który chcesz dodać powinien mieć format użytkownik@domena.tld.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "Klucz jest w stanie który nie jest poprawnie obsługiwany. Proszę skontaktować się z programistami jeśli widzisz tą wiadomość.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "Nowy kontakt zostanie dodany do Twojej listy kontaktów, gdy dodana osoba zatwierdzi Twoją prośbę.";
-"The operator of the webserver providing that URL may see your IP address." = "The operator of the webserver providing that URL may see your IP address.";
+"The operator of the webserver providing that URL may see your IP address." = "Administrator strony, do której wysłałeś/-aś link URL, może zobaczyć Twój adres IP.";
 "The password has been changed" = "Hasło zostało zmienione";
 "The pin we have sent you has expired." = "The pin we have sent you has expired.";
 "The pin you have entered is incorrect." = "The pin you have entered is incorrect.";
