@@ -503,7 +503,7 @@
 "Failed to create invitation, unknown error: %@" = "Nie udało się stworzyć zaproszenia, nieznany błąd %@";
 "Failed to decode download link" = "Nie udało się odkodować linku do pobrania";
 "Failed to decode encrypted link" = "Nie udało się odszyfrować zaszyfrowanego łącza";
-"Failed to decrypt download" = "Failed to decrypt download";
+"Failed to decrypt download" = "Nie udało się odszyfrować pobranego pliku";
 "Failed to decrypt filetransfer" = "Nie udało się odszyfrować transferu plików";
 "Failed to delete own avatar" = "Nie udało się usunąć własnego awatara";
 "Failed to delete own nickname" = "Nie udało się usunąć własnego pseudonimu";
@@ -532,7 +532,7 @@
 "Failed to save bookmark for Group/Channel: %@" = "Błąd zapisywania zakładki dla Grupy/Kanału: %@";
 "Failed to save groupchat bookmarks" = "Nie udało się zapisać zakładek do czatu grupowego";
 "Failed to share file" = "Nie udało się udostępnić pliku";
-"Failed to synchronize phonebook" = "Failed to synchronize phonebook";
+"Failed to synchronize phonebook" = "Nie udało się zsynchronizować kontaktów w telefonie";
 "Failed to upload file: account was removed" = "Nie udało się przesłać pliku: konto zostało usunięte";
 "Failed to write decrypted download into cache directory" = "Nie udało się zapisać odszyfrowanego pobrania w katalogu pamięci podręcznej";
 /* quicksy country */
@@ -573,13 +573,13 @@
 "Ghana" = "Ghana";
 /* quicksy country */
 "Gibraltar" = "Gibraltar";
-"Got empty room config form for '%@'" = "Got empty room config form for '%@'";
+"Got empty room config form for '%@'" = "Otrzymano pustą konfigurację dla kanału %@";
 "GPS" = "GPS";
 /* quicksy country */
-"Greece" = "Greece";
+"Greece" = "Grecja";
 "Green checkmark shield:" = "Zielona tarcza:";
 /* quicksy country */
-"Greenland" = "Greenland";
+"Greenland" = "Grenlandia";
 /* quicksy country */
 "Grenada" = "Grenada";
 "Group Avatar" = "Awatar grupowy";
@@ -591,11 +591,11 @@
 "Group Name (optional)" = "Nazwa grupy (opcjonalnie)";
 "Group subject:" = "Temat grupy:";
 "Group/Channel description" = "Opis grupy/kanału";
-"Group/Channel got destroyed: %@" = "Grupa/kanał został zniszczony: %@";
-"Group/Channel not available anymore: %@" = "Grupa/kanał nie jest już dostępny: %@";
+"Group/Channel got destroyed: %@" = "Grupa/kanał został(a) usunięta: %@";
+"Group/Channel not available anymore: %@" = "Grupa/kanał nie jest już dostępny/-a: %@";
 "groupJoin Group" = "Dołącz do Grupy";
 /* quicksy country */
-"Guadeloupe" = "Guadeloupe";
+"Guadeloupe" = "Gwadelupa";
 /* quicksy country */
 "Guam" = "Guam";
 /* quicksy country */
@@ -675,12 +675,12 @@
 /* quicksy country */
 "Kenya" = "Kenya";
 "Keys of %@" = "Klucze %@";
-"Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
-"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
+"Kicked from group/channel, because of system shutdown: %@" = "Wyrzucono z grupy kanału ze względu na wyłączenie systemu: %@";
+"Kicked, because group/channel is now members-only: %@" = "Wyrzucono, ponieważ grupa/kanał pozwala na uczestnictwo tylko członkom: %@";
 /* quicksy country */
 "Kiribati" = "Kiribati";
 /* quicksy country */
-"Korea (Rep. of)" = "Korea (Rep. of)";
+"Korea (Rep. of)" = "Republika Korei";
 /* quicksy country */
 "Kuwait" = "Kuwait";
 /* quicksy country */
@@ -824,10 +824,10 @@
 /* quicksy country */
 "New Caledonia" = "New Caledonia";
 "New Message" = "Nowa wiadomość";
-"New omemo device" = "New omemo device";
+"New omemo device" = "Nowe urządzenie OMEMO";
 "New Password" = "Nowe hasło";
 /* quicksy country */
-"New Zealand" = "New Zealand";
+"New Zealand" = "Nowa Zelandia";
 "Newest TLS version which is faster than TLS 1.2" = "Najnowsza wersja TLS, która jest szybsza niż TLS 1.2";
 /* onboarding */
 "Next" = "Next";
@@ -1121,13 +1121,13 @@
 /* quicksy country */
 "Somalia" = "Somalia";
 "Some debug settings." = "Some debug settings.";
-"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
+"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Niektóre wiadomości mogą oczekiwać na przechwycenie lub wysłanie. Otwórz aplikację, żeby spróbować ponownie.";
 "Something went wrong processing your request." = "Something went wrong processing your request.";
 "Something went wrong while parsing your input..." = "Something went wrong while parsing your input...";
 "Sounds" = "Dźwięki";
 "Sounds courtesy Emrah" = "Dzwięki dzięki uprzejmości Emrah";
 /* quicksy country */
-"South Africa" = "South Africa";
+"South Africa" = "Afryka Południowa";
 /* quicksy country */
 "Spain" = "Spain";
 /* quicksy country */
@@ -1181,7 +1181,7 @@
 "The current password is not correct." = "Aktualne hasło jest nieprawidłowe.";
 "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling.";
 /* quicksy country */
-"The Former Yugoslav Republic of Macedonia" = "The Former Yugoslav Republic of Macedonia";
+"The Former Yugoslav Republic of Macedonia" = "Była Jugosłowiańska Republika Macedonii";
 "The jid you want to add should be in in the format user@domain.tld." = "JID który chcesz dodać powinien mieć format użytkownik@domena.tld.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "Klucz jest w stanie który nie jest poprawnie obsługiwany. Proszę skontaktować się z programistami jeśli widzisz tą wiadomość.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "Nowy kontakt zostanie dodany do Twojej listy kontaktów, gdy dodana osoba zatwierdzi Twoją prośbę.";
@@ -1196,7 +1196,7 @@
 "The server does not support blocking (XEP-0191)." = "Serwer nie wspiera funkcji XEP-0191: Blocking Command.";
 "The UDP logger allows you to livestream the log to the configured IP." = "The UDP logger allows you to livestream the log to the configured IP.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
-"The user %@ (%@) wants to add you to their contact list" = "Użytkownik %1$@ (%2$@) chce dodać ciebie do swojej listy kontaktów";
+"The user %@ (%@) wants to add you to their contact list" = "Użytkownik %1$@ (%2$@) chce dodać Ciebie do swojej listy kontaktów";
 "The username does not need to have an @ symbol. Please try again." = "Nazwa użytkownika nie musi zawierać symbolu @. Proszę spróbuj ponownie.";
 "There is no configured email account. Please email info@monal-im.org ." = "Nie ma skonfigurowanego konta e-mail. Wyślij e-mail na adres info@monal-im.org .";
 "There was a SASL error on the server." = "Na serwerze wystąpił błąd SASL.";
@@ -1244,7 +1244,7 @@
 "This server does not provide any MUC servers." = "This server does not provide any MUC servers.";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Ten serwer nie obsługuje żadnego nowoczesnego wiązania kanałów w celu zabezpieczenia przed atakami MITM na warstwę TLS.";
 "This server does not support modern SASL2 authentication." = "Ten serwer nie obsługuje nowoczesnego uwierzytelniania SASL2.";
-"This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server.";
+"This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "Ten serwer nie jest dodatkowo zabezpieczony przed atakami man-in-the-middle w warstwie szyfrowania TLS poprzez użycie metod autoryzacji, które są odporne na tego typu ataki! Może oznaczać to, że w przypadku wsparcia metod SASL2 i SCRAM przez serwer przechodzi właśnie ten atak. Wykorzystaj zaawansowane menu tworzenia konta i włącz przełącznik PLAIN, jeżeli chcesz dalej się zalogować do tego serwera.";
 "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment.";
 "This should never happen, please contact the developers and provide a logfile!" = "To nigdy nie powinno się zdarzyć, skontaktuj się z programistami i pokaż plik logów!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Ta specyfikacja definiuje semantykę używania protokołu publikowania-subskrypcji XMPP do rozgłaszania zdarzeń zmiany stanu związanych z kontem wiadomości błyskawicznych i obecności.";
@@ -1259,7 +1259,7 @@
 "Timor-Leste" = "Timor-Leste";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
-"TLS Error: Bad certificate" = "TLS Error: Bad certificate";
+"TLS Error: Bad certificate" = "Błąd TLS: zły certyfikat";
 "TLS Error: Certificate chain is invalid" = "Błąd TLS: łańcuch certyfikatów jest nieprawidłowy";
 "TLS Error: Certificate expired" = "Błąd TLS: Certyfikat wygasł";
 "TLS Error: Host name mismatch" = "Błąd TLS: niezgodność nazwy hosta";
@@ -1297,15 +1297,15 @@
 /* quicksy country */
 "Uganda" = "Uganda";
 /* quicksy country */
-"Ukraine" = "Ukraine";
-"Unable to connect to server!" = "Niemożna połączyć z serwerem!";
+"Ukraine" = "Ukraina";
+"Unable to connect to server!" = "Nie można połączyć z serwerem!";
 "Unblock Contact" = "Odblokuj Kontakt";
 "Unblocking user" = "Unblocking user";
 "Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
 "Unclean appex shutown" = "Nieczyste zamknięcie appex";
 "Understood" = "Understood";
 "Unexpected appex expiration" = "Niespodziane wygaśnięcie appex";
-"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
+"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Wystąpił nieoczekiwany błąd w trakcie autoryzacji metodą SASL2 (Twój serwer ma błąd?), rozłączanie!";
 "Unexpected error processing your request." = "Unexpected error processing your request.";
 "Unexpected error while checking type of jid, please try again" = "Nieoczekiwany błąd podczas sprawdzania typu jid, spróbuj ponownie";
 "Unexpected error while checking type of jid:" = "Nieoczekiwany błąd podczas sprawdzania typu jid:";
@@ -1317,9 +1317,9 @@
 /* quicksy country */
 "United Kingdom" = "United Kingdom";
 /* quicksy country */
-"United States" = "United States";
+"United States" = "Stany Zjednoczone";
 /* quicksy country */
-"United States Virgin Islands" = "United States Virgin Islands";
+"United States Virgin Islands" = "Wyspy Dziewicze Stanów Zjednoczonych";
 "unknown" = "nieznane";
 "Unknown authentication method" = "Nieznana metoda uwierzytelniania";
 "Unknown channel-binding type" = "Nieznany typ powiązania kanału";
@@ -1427,13 +1427,13 @@
 "You are using an out of date version of this app." = "You are using an out of date version of this app.";
 "You can customize even more, just use the button below to open the settings." = "You can customize even more, just use the button below to open the settings.";
 "You did not grant Monal to access your location." = "Nie przyznałeś Monalowi dostępu do swojej lokalizacji.";
-"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
-"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
-"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
+"You got banned from group/channel: %@" = "Zostałeś/-aś zablokowany/-a na grupie/kanale: %@";
+"You got kicked from group/channel: %@" = "Zostałeś/-aś wyrzucony/-a z grupy/kanału: %@";
+"You got removed from group/channel: %@" = "Zostałeś/-aś usunięty/-a z grupy/kanału: %@";
 "You have not entered your XMPP ID yet" = "Nie wprowadziłeś jeszcze swojego identyfikatora XMPP";
 "You need friends for this ride" = "Potrzebujesz przyjaciół do tej przejażdżki";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
-"You restored an iCloud backup of Monal, please open the app to reenable this account." = "Przywróciłeś kopię zapasową Monala z iCloud, otwórz aplikację, aby ponownie włączyć to konto.";
+"You restored an iCloud backup of Monal, please open the app to reenable this account." = "Przywróciłeś/-aś kopię zapasową Monala z iCloud. Otwórz aplikację, aby ponownie włączyć to konto.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "Próbowałeś połączyć się z kontaktem '%@' ale tego kontaktu nie ma na twojej liście kontaktów.";
 "You will no longer receive messages from this conversation" = "Nie będziesz już otrzymywać wiadomości z tej rozmowy";
