@@ -1175,22 +1175,22 @@
 "The account has been removed" = "Konto zostało usunięte";
 "The account has been saved" = "Konto zostało zapisane";
 /* Crash reporting */
-"The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "Aplikacja ostatnim razem niepoprawnie zakończyła działanie. Czy chcesz wysłać raport błędu? Będzie on zawierał wrażliwe dane, jednak użyjemy ich tylko do zidentyfikowania błędu w aplikacji i natychmiast je potem usuniemy.";
+"The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "Aplikacja ostatnim razem niepoprawnie zakończyła działanie. Czy chcesz wysłać raport błędu? Będzie on zawierał wrażliwe dane, jednak użyjemy ich tylko do zidentyfikowania błędu w aplikacji i natychmiast je potem usuniemy!";
 "The chat history has been cleared" = "Historia czatu została wyczyszczona";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "Połączenie z serwerem zostało przerwane i nie można było pobrać starych wiadomości z tego czatu. Spróbuj ponownie później.";
 "The current password is not correct." = "Aktualne hasło jest nieprawidłowe.";
-"The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling.";
+"The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "Niniejsze przyciski pozwalają Tobie na wymuszenie wywołania awarii aplikacji za pomocą różnych metod, dzięki czemu możesz przetestować poprawność obsługi awarii.";
 /* quicksy country */
 "The Former Yugoslav Republic of Macedonia" = "Była Jugosłowiańska Republika Macedonii";
-"The jid you want to add should be in in the format user@domain.tld." = "JID który chcesz dodać powinien mieć format użytkownik@domena.tld.";
-"The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "Klucz jest w stanie który nie jest poprawnie obsługiwany. Proszę skontaktować się z programistami jeśli widzisz tą wiadomość.";
+"The jid you want to add should be in in the format user@domain.tld." = "JID, który chcesz dodać, powinien mieć format użytkownik@domena.tld.";
+"The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "Klucz jest w stanie, który nie jest poprawnie obsługiwany. Skontaktuj się z programistami, jeżeli widzisz tę wiadomość.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "Nowy kontakt zostanie dodany do Twojej listy kontaktów, gdy dodana osoba zatwierdzi Twoją prośbę.";
 "The operator of the webserver providing that URL may see your IP address." = "Administrator strony, do której wysłałeś/-aś link URL, może zobaczyć Twój adres IP.";
 "The password has been changed" = "Hasło zostało zmienione";
-"The pin we have sent you has expired." = "The pin we have sent you has expired.";
-"The pin you have entered is incorrect." = "The pin you have entered is incorrect.";
+"The pin we have sent you has expired." = "PIN, który Tobie wysłaliśmy, wygasł.";
+"The pin you have entered is incorrect." = "PIN, który został wprowadzony, jest nieprawidłowy.";
 /* QR-Code-Scanner: account scan wrong menu */
-"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode";
+"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "Ten kod QR posiada dane autoryzacyjne dla tego konta. Przejdź do ustawień, wybierz opcję dodania konta i zeskanuj ponownie kod QR.";
 "The resource '%@' has the following capabilities:" = "Możliwości zasobu '%@':";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "Serwery XMPP do wyboru są publicznymi serwerami które nie są stowarzyszone z Monalem. Ta strona jest oferowana jednie dla twojej wygody.";
 "The server does not support blocking (XEP-0191)." = "Serwer nie wspiera funkcji XEP-0191: Blocking Command.";
@@ -1202,12 +1202,12 @@
 "There was a SASL error on the server." = "Na serwerze wystąpił błąd SASL.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "Wystąpił błąd podczas odszyfrowywania tej zaszyfrowanej wiadomości (błąd sygnału). Aby rozwiązać ten problem, spróbuj wysłać zaszyfrowaną wiadomość do tej osoby.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "Wystąpił błąd podczas odszyfrowywania tej zaszyfrowanej wiadomości (błąd sygnału). Aby rozwiązać ten problem, spróbuj wysłać zaszyfrowaną wiadomość do tej osoby. (%@)";
-"These are important privacy settings you may want to review!" = "These are important privacy settings you may want to review!";
+"These are important privacy settings you may want to review!" = "To są ważne ustawienia prywatności, które warto przejrzeć!";
 "These are SRV resource records found for your domain." = "To są rekordy zasobów SRV znalezione dla Twojej domeny.";
-"These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "These are STUN and TURN services announced by your server (blue entries are used by Monal).";
+"These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "To są usługi typu STUN i TURN, które Twój serwer rozgłasza (na niebiesko zaznaczone są użyte przez Monala).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal).";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "Są to nowoczesne możliwości XMPP, które Monal wykrył na twoim serwerze po zalogowaniu.";
-"These are the MUC servers detected by Monal (blue entry used by Monal)." = "These are the MUC servers detected by Monal (blue entry used by Monal).";
+"These are the MUC servers detected by Monal (blue entry used by Monal)." = "To są serwery typu MUC wykryte przez Monala (na niebiesko zaznaczone są użyte przez Monala).";
 "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal).";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "Są to wersje TLS obsługiwane przez Monal, ta używana do łączenia się z serwerem będzie zielona.";
 "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard.";
