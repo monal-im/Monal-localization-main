@@ -5,8 +5,8 @@
 "%@" = "%@";
 "%@ (%@)" = "%@ (%@)";
 "%@ (affiliation: %@)" = "%@ (статус: %@)";
-"%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
-"%@ hours" = "%@ hours";
+"%@ (type '%@', category '%@')" = "%1$@ (тип '%2$@', категория '%3$@')";
+"%@ hours" = "%@ часов";
 "%@ says:" = "%@ говорит:";
 /* Message autdelete time */
 "1 day" = "1 день";
@@ -57,22 +57,22 @@
 "Account (%@)" = "Учётная запись (%@)";
 "Account (new)" = "Учётная запись (новая)";
 "Account already configured in Monal!" = "Учётная запись уже настроена в Monal.";
-"Account already configured!" = "Account already configured!";
+"Account already configured!" = "Учётная запись уже настроена.";
 "Account disabled" = "Учётная запись отключена";
 "Account Exists" = "Учётная запись существует";
 "Account Picker" = "Выбор учётной записи";
 "Account: %@" = "Учётная запись: %@";
 "Activity indications" = "Отображение событий";
-"Add" = "Add";
+"Add" = "Добавить";
 "Add %@ to your contacts?" = "Добавить %@ в ваши контакты?";
 "Add Account" = "Добавить учётную запись";
 "Add Account (advanced)" = "Добавить учётную запись (подробно)";
-"Add contact" = "Add contact";
-"Add contact (contact requests pending)" = "Add contact (contact requests pending)";
+"Add contact" = "Добавить контакт";
+"Add contact (contact requests pending)" = "Добавить контакт (ожидаются подтерждения от адресатов)";
 "Add Contact or Channel" = "Добавить Контакт или Канал";
 "Add members to group" = "Добавить участников в группу";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Добавьте новые контакты с помощью кнопки + выше. Ваши друзья появятся здесь, когда они смогут разговаривать";
-"Add scanned contact" = "Add scanned contact";
+"Add scanned contact" = "Добавить отсканированный контакт";
 "Add to contacts" = "Добавить в контакты";
 "Adding %@..." = "Добавление %@...";
 "Adding Group/Channel..." = "Добавление Группы/Канала...";
@@ -106,7 +106,7 @@
 "Always use direct TLS, not STARTTLS" = "Только прямой TLS (без STARTTLS)";
 /* quicksy country */
 "American Samoa" = "American Samoa";
-"An error happened when trying to request the SMS:" = "An error happened when trying to request the SMS:";
+"An error happened when trying to request the SMS:" = "Ошибка при запросе SMS:";
 /* quicksy country */
 "Andorra" = "Andorra";
 /* quicksy country */
@@ -124,7 +124,7 @@
 "Approve new contact" = "Принять новый контакт";
 "Archive chat" = "Архивировать переписку";
 "Archive only if the contact is in contact list." = "Архивировать только для пользователей из списка контактов.";
-"Are you sure to cancel the registration process?" = "Are you sure to cancel the registration process?";
+"Are you sure to cancel the registration process?" = "Хотите прервать процесс регистрации?";
 /* quicksy country */
 "Argentina" = "Argentina";
 /* quicksy country */
@@ -144,8 +144,8 @@
 "Australian External Territories" = "Australian External Territories";
 /* quicksy country */
 "Austria" = "Austria";
-"Auto-Download Media and Files" = "Auto-Download Media and Files";
-"Autodelete all messages older than" = "Autodelete all messages older than";
+"Auto-Download Media and Files" = "Автоскачивание медиафайлов";
+"Autodelete all messages older than" = "Удалять сообщения старше";
 "Autofocus text input on chat open" = "Автофокус на поле ввода при открытии переписки";
 "Avatar" = "Аватар";
 /* quicksy country */
@@ -159,7 +159,7 @@
 /* quicksy country */
 "Barbados" = "Barbados";
 "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Предупреждение: Сообщение будет удалено только по получении push-уведомлений либо при открытии приложения. Это имеет значение на коротких временных интервалах.";
-"Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
+"Become part of a worldwide decentralized chat network!" = "Присоединитесь к международной децентарлизованной сети обмена сообщениями!";
 /* quicksy country */
 "Belarus" = "Belarus";
 /* quicksy country */
@@ -174,7 +174,7 @@
 "Bhutan" = "Bhutan";
 "Block" = "Заблокировать";
 "Block Contact" = "Заблокировать Контакт";
-"Block new contact" = "Block new contact";
+"Block new contact" = "Заблокировать новый контакт";
 "Block user?" = "Заблокировать пользователя?";
 /* muc affiliation */
 "Blocked" = "Заблокирован";
@@ -232,7 +232,7 @@
 /* quicksy country */
 "Canada" = "Canada";
 "Cancel" = "Отмена";
-"Cancel?" = "Cancel?";
+"Cancel?" = "Отменить?";
 "Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Нет возможности поделиться с пользователем с отключенной/удалённой учётной записью, адресат: %1$@, внутренний идентификатор учётной записи: %2$@";
 /* quicksy country */
 "Cape Verde" = "Cape Verde";
@@ -251,7 +251,7 @@
 "Change Chat Background" = "Изменить фон переписки";
 "Change Group Avatar" = "Изменить аватар группы";
 "Change Group Members" = "Редактировать участников группы";
-"Change it" = "Change it";
+"Change it" = "Отредактируйте";
 "Change Password" = "Сменить пароль";
 "Changing affiliation" = "Изменение статуса";
 "Changing affiliation to %@: %@" = "Изменение статуса на %@: %@";
@@ -262,7 +262,7 @@
 "Channel subject:" = "Тема канала:";
 "Chat Background" = "Фон канала";
 "Chat background image" = "Фоновое изображение переписки";
-"Check this number?" = "Check this number?";
+"Check this number?" = "Проверить этот номер?";
 "Check type and size on " = "Проверьте тип и размер ";
 /* quicksy country */
 "Chile" = "Chile";
@@ -287,7 +287,7 @@
 "Connected: %@" = "В сети: %@";
 "Connecting..." = "Подключение...";
 /* server details */
-"Considerations for Server Administrators" = "Considerations for Server Administrators";
+"Considerations for Server Administrators" = "Памятка администраторам серверов";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "XMPP адрес для контакта или группы/канала обычно имеет формат: name@domain.tld";
 "Contact is muted" = "Уведомления отключены (для контакта)";
 "Contact is not muted" = "Уведомления включены (для контакта)";
@@ -332,7 +332,7 @@
 "Could not send" = "Не удалось отправить";
 "Could not synchronize" = "Не удалось синхронизировать";
 "Could not upload file" = "Не удалось загрузить файл";
-"Country:" = "Country:";
+"Country:" = "Страна:";
 /* Crash reporting */
 "Crash Detected" = "Диагностирован сбой";
 "Crash Testing" = "Отладка";
@@ -411,7 +411,7 @@
 "Dominica" = "Dominica";
 /* quicksy country */
 "Dominican Rep." = "Dominican Rep.";
-"Don't show onboarding" = "Don't show onboarding";
+"Don't show onboarding" = "Пропустить обучение";
 "Don't trust Key" = "Не доверять ключу";
 "Done" = "Готово";
 "Dont' trust Key" = "Не доверять ключу";
