@@ -378,7 +378,7 @@
 "Destroy Group" = "Usuń grupę";
 "Destroying channel..." = "Usuwanie kanału...";
 "Destroying group..." = "Usuwanie grupy...";
-"Detected a new omemo device on your account: %@" = "Detected a new omemo device on your account: %@";
+"Detected a new omemo device on your account: %@" = "Wykryto nowe urządzenie OMEMO na Twoim koncie: %@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "ID urządzenia: ";
 "DeviceID: " = "IDurządzenia: ";
@@ -430,7 +430,7 @@
 "Edit" = "Edytuj";
 /* quicksy country */
 "Egypt" = "Egypt";
-"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now.";
+"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "Możliwe, że jest to albo atak typu man-in-the-middle, lub Twój serwer nie wspiera XEP-0474 albo nie ma pełnego wsparcia dla XEP-0440, który wymusza wsparcie dla powiązania kanału TLS z serwerem. W jakiejkolwiek sytuacji jesteś, poinformuj administrację swojego serwera! Konto zostało wyłączone.";
 /* quicksy country */
 "El Salvador" = "El Salvador";
 /* Crash report error dialog */
@@ -469,11 +469,11 @@
 "Error destroying group!" = "Błąd usuwania grupy!";
 "Error entering group/channel!" = "Błąd dołączania do grupy/kanału!";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error handling SASL challenge of server (iteration count too low), disconnecting!";
+"Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Błąd obsługiwania zadania SASL (liczba iteracji zbyt niska), rozłączam!";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (m-attr error), disconnecting!" = "Error handling SASL challenge of server (m-attr error), disconnecting!";
+"Error handling SASL challenge of server (m-attr error), disconnecting!" = "Błąd obsługiwania zadania SASL (błąd m-attr), rozłączam!";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (nonce error), disconnecting!" = "Error handling SASL challenge of server (nonce error), disconnecting!";
+"Error handling SASL challenge of server (nonce error), disconnecting!" = "Błąd obsługiwania zadania SASL (błąd nonce), rozłączam!";
 "Error inviting new member!" = "Błąd zapraszania nowego członka!";
 "Error inviting new participant!" = "Błąd zapraszania nowego uczestnika!";
 "Error inviting user!" = "Błąd zapraszania użytkownika!";
@@ -692,16 +692,16 @@
 "Last seen: %d hours ago" = "Ostatnio widziany: %d godzin temu";
 "Last seen: %d minutes ago" = "Ostatnio widziany: %d minut temu";
 "Last seen: 1 day ago" = "Ostatnio widziany: 1 dzień temu";
-"Last seen: 1 hour ago" = "Ostatnio widziany: 1 godzinę temu";
-"Last seen: 1 minute ago" = "Ostantio widziany: 1 minutę temu";
+"Last seen: 1 hour ago" = "Ostatnio widziano: 1 godzinę temu";
+"Last seen: 1 minute ago" = "Ostatnio widziano: 1 minutę temu";
 /* quicksy country */
-"Latvia" = "Latvia";
+"Latvia" = "Łotwa";
 "Leave Channel" = "Opuść kanał";
 "Leave Group" = "Opuścić grupę";
 "Leave this conversation" = "Opuść tę rozmowę";
 "Leave this converstion?" = "Opuścić tą rozmowę?";
 /* quicksy country */
-"Lebanon" = "Lebanon";
+"Lebanon" = "Liban";
 /* quicksy country */
 "Lesotho" = "Lesotho";
 "Let your contacts know if you are typing a message." = "Informuj swoje kontakty, że piszesz nową wiadomość.";
@@ -1076,7 +1076,7 @@
 /* quicksy country */
 "Senegal" = "Senegal";
 "Sent a File 📁" = "Wysłałem plik 📁";
-"Sent a Link 🔗" = "Wysłałem link 🔗";
+"Sent a Link 🔗" = "Wysłano link 🔗";
 "Sent a Location 📍" = "Wysłano lokalizację 📍";
 "Sent an Image 📷" = "Wysłał obraz 📷";
 /* directory for downloaded audios */
@@ -1095,13 +1095,13 @@
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Błąd implementacji serwera: zadania SASL2 puste, konto wyłączone!";
 "Server returned invalid xml!" = "Serwer zwrócił nieprawidłowy plik xml!";
 "Server returned SASL2 error '%@'." = "Serwer zwrócił błąd SASL2 '%@'.";
-"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Serwer nagle przestał wspierać metodę SASL2-SCRAM, trwający atak typu MITM jest bardzo możliwy, anuluję autoryzację i wyłączam konto, żeby ograniczyć tego negatywne skutki. Spróbuj ponownie włączyć swoje konto, gdy powrócisz do czystego środowiska sieciowego.";
 "Server: %@" = "Serwer: %@";
 "Set up account later" = "Ustaw konto później";
 /* Camera permissions missing warning */
 "Settings" = "Ustawienia";
 /* quicksy country */
-"Seychelles" = "Seychelles";
+"Seychelles" = "Seszele";
 "Sharing failed" = "Udostępnianie nie powiodło się";
 "Show inline geo location" = "Pokazuj wewnętrznie lokalizację";
 "Show shared Media and Files" = "Pokaż współdzielone Media i Pliki";
@@ -1205,12 +1205,12 @@
 "These are important privacy settings you may want to review!" = "To są ważne ustawienia prywatności, które warto przejrzeć!";
 "These are SRV resource records found for your domain." = "To są rekordy zasobów SRV znalezione dla Twojej domeny.";
 "These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "To są usługi typu STUN i TURN, które Twój serwer rozgłasza (na niebiesko zaznaczone są użyte przez Monala).";
-"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal).";
+"These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "To są rodzaje powiązań kanałów, które Twój serwer wspiera, żeby wykrywać ataki na warstwie TLS (na niebiesko zaznaczony jest ten w użyciu, na pomarańczowo niewspierane przez Monal).";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "Są to nowoczesne możliwości XMPP, które Monal wykrył na twoim serwerze po zalogowaniu.";
 "These are the MUC servers detected by Monal (blue entry used by Monal)." = "To są serwery typu MUC wykryte przez Monala (na niebiesko zaznaczone są użyte przez Monala).";
-"These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal).";
-"These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "Są to wersje TLS obsługiwane przez Monal, ta używana do łączenia się z serwerem będzie zielona.";
-"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard.";
+"These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "To są metody SASL2 wspierane przez Twój serwer (na niebiesko zaznaczona jest ta w użyciu, na pomarańczowo niewspierane przez Monal).";
+"These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "To są wersje TLS obsługiwane przez Monal, ta używana do łączenia się z serwerem będzie zaznaczona na zielono.";
+"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "To są Twoje klucze szyfrujące. Każde urządzenie jest odrębnym miejscem, na którym Twoje konto jest zalogowane. Klucz powinien zostać uznany za zaufany tylko wtedy, gdy został on zweryfikowany. Kliknij podwójnie na odcisk palca, żeby go skopiować do schowka.";
 "They will no longer see when you are online. They may not be able to access your encryption keys." = "Nie będą już widzieć, kiedy jesteś online. Mogą nie mieć dostępu do kluczy szyfrowania.";
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "Nie będą już widzieć, kiedy jesteś online. Mogą nie być w stanie wysyłać Ci zaszyfrowanych wiadomości.";
 "They will see when you are online. They will be able to send you encrypted messages." = "Zobaczą, kiedy będziesz online. Będą mogli wysyłać Ci zaszyfrowane wiadomości.";
@@ -1219,16 +1219,16 @@
 "This account already exists on this instance." = "To konto już istnieje na tym serwerze.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Ta wersja aplikacji może zawierać błędy bezpieczeństwa, a także nagle przestać działać. Zaktualizuj już teraz!";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
-"This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong.";
+"This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "Ten kontakt nie posiada żadnych urządzeń, które wspierają szyfrowanie. Spróbuj ponownie później.";
 "This contact is already in the contact list of the selected account" = "Kontakt już jest na liście kontaktów zaznaczonego konta";
 "This contact is already in your contact list" = "Kontakt już jest na twojej liście kontaktów";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Ten kontakt może nie obsługiwać zaszyfrowanych wiadomości OMEMO. Spróbuj ponownie za kilka sekund.";
-"This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong.";
+"This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "Ten kontakt może nie wspierać wiadomości szyfrowanych przez OMEMO. Spróbuj ponownie włączyć tę metodę szyfrowania za kilka sekund.";
 /* Crash report error dialog */
-"This device is not configured to send email." = "This device is not configured to send email.";
+"This device is not configured to send email." = "To urządzenie nie jest skonfigurowane do wysyłania e-maili.";
 "This invitation will expire on %@" = "Zaproszenie wygaśnie o %@";
-"This is an embedded file that can not be opened externally." = "This is an embedded file that can not be opened externally.";
-"This is the software running on your server." = "This is the software running on your server.";
+"This is an embedded file that can not be opened externally." = "To jest załącznik, którego nie można otworzyć poza tą aplikacją.";
+"This is the software running on your server." = "To jest oprogramowanie uruchomione na Twoim serwerze.";
 "This key belongs to this device and cannot be removed or disabled!" = "Ten klucz należy do tego urządzenia i nie może być usunięty ani wyłączony!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Ten klucz jest zaufany i zweryfikowany przez ręczne porównanie odcisków palców. Aby przestać mu ufać użyj elementu.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "Ten klucz jest zaufany ale kontakt już go nie używa. Pomyśl o wyłączeniu tego klucza.";
@@ -1238,10 +1238,10 @@
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you.";
 "This message failed to send (%@): %@" = "Nie udało się wysłać tej wiadomości (%1$@): %2$@";
 "This message got retracted" = "Wiadomość została wycofana";
-"This phone number is currently logged in with another device." = "This phone number is currently logged in with another device.";
+"This phone number is currently logged in with another device." = "Ten numer telefonu jest już powiązany z innym urządzeniem.";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Ten serwer nie wspiera przesyłania plików metodą XEP-0363: HTTP File Upload. Poproś administratora o jej włączenie.";
 "This server does not have any SRV records in DNS." = "Ten serwer nie ma żadnych rekordów SRV w DNS.";
-"This server does not provide any MUC servers." = "This server does not provide any MUC servers.";
+"This server does not provide any MUC servers." = "Ten serwer nie posiada żadnych serwerów MUC.";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Ten serwer nie obsługuje żadnego nowoczesnego wiązania kanałów w celu zabezpieczenia przed atakami MITM na warstwę TLS.";
 "This server does not support modern SASL2 authentication." = "Ten serwer nie obsługuje nowoczesnego uwierzytelniania SASL2.";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "Ten serwer nie jest dodatkowo zabezpieczony przed atakami man-in-the-middle w warstwie szyfrowania TLS poprzez użycie metod autoryzacji, które są odporne na tego typu ataki! Może oznaczać to, że w przypadku wsparcia metod SASL2 i SCRAM przez serwer przechodzi właśnie ten atak. Wykorzystaj zaawansowane menu tworzenia konta i włącz przełącznik PLAIN, jeżeli chcesz dalej się zalogować do tego serwera.";
@@ -1270,19 +1270,19 @@
 "Tokelau" = "Tokelau";
 /* quicksy country */
 "Tonga" = "Tonga";
-"Too many attempts, please try again in %@." = "Too many attempts, please try again in %@.";
+"Too many attempts, please try again in %@." = "Za dużo prób, spróbuj ponownie za %@.";
 /* quicksy country */
-"Trinidad and Tobago" = "Trinidad and Tobago";
-"Trust Key" = "Zaufaj Kluczowi";
+"Trinidad and Tobago" = "Trynidad i Tobago";
+"Trust Key" = "Zaufaj kluczowi";
 "Trusted and verified key" = "Zaufany i zweryfikowany klucz";
 "Trusted but removed key" = "Zaufany ale usunięty klucz";
 "Trusted but unused key" = "Zaufany ale nieużywany klucz";
 "Trusted but unverified key" = "Zaufany ale niezweryfikowany klucz";
 "Try nevertheless" = "Spróbuj jeszcze raz";
 /* quicksy country */
-"Tunisia" = "Tunisia";
+"Tunisia" = "Tunezja";
 /* quicksy country */
-"Turkey" = "Turkey";
+"Turkey" = "Turcja";
 /* quicksy country */
 "Turkmenistan" = "Turkmenistan";
 /* quicksy country */
@@ -1300,13 +1300,13 @@
 "Ukraine" = "Ukraina";
 "Unable to connect to server!" = "Nie można połączyć z serwerem!";
 "Unblock Contact" = "Odblokuj Kontakt";
-"Unblocking user" = "Unblocking user";
-"Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
+"Unblocking user" = "Odblokowywanie użytkownika";
+"Unblocking user for this group/channel: %@" = "Odblokowywanie użytkownika na tej grupie/tym kanale: %@";
 "Unclean appex shutown" = "Nieczyste zamknięcie appex";
-"Understood" = "Understood";
+"Understood" = "Zrozumiano";
 "Unexpected appex expiration" = "Niespodziane wygaśnięcie appex";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Wystąpił nieoczekiwany błąd w trakcie autoryzacji metodą SASL2 (Twój serwer ma błąd?), rozłączanie!";
-"Unexpected error processing your request." = "Unexpected error processing your request.";
+"Unexpected error processing your request." = "Wystąpił nieoczekiwany błąd w trakcie przetwarzania Twojego zapytania.";
 "Unexpected error while checking type of jid, please try again" = "Nieoczekiwany błąd podczas sprawdzania typu jid, spróbuj ponownie";
 "Unexpected error while checking type of jid:" = "Nieoczekiwany błąd podczas sprawdzania typu jid:";
 "Unexpected mam preferences result" = "Nieoczekiwany wynik preferencji mam";
@@ -1323,30 +1323,30 @@
 "unknown" = "nieznane";
 "Unknown authentication method" = "Nieznana metoda uwierzytelniania";
 "Unknown channel-binding type" = "Nieznany typ powiązania kanału";
-"Unknown error!" = "Unknown error!";
+"Unknown error!" = "Nieznany błąd!";
 "Unread Messages Below" = "Nieprzeczytane wiadomości poniżej";
 "unsupported" = "niewspierane";
 "Untrusted key" = "Niezaufany klucz";
 "Upload Error" = "Błąd przesyłania";
 "Upload Error: your account got disconnected while requesting upload slot" = "Błąd przesyłania: Twoje konto zostało odłączone podczas prośby o przesłanie miejsca";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Prześlij pliki na serwer, aby udostępnić je innym. (Maksymalny dozwolony rozmiar plików zgłoszonych przez serwer: %@)";
-"Upload Original Images" = "Upload Original Images";
-"Upload Settings" = "Upload Settings";
+"Upload Original Images" = "Prześlij oryginalne zdjęcia";
+"Upload Settings" = "Ustawienia przesyłania";
 "Uploading" = "Przesyłanie";
-"Uploading avatar..." = "Uploading avatar...";
+"Uploading avatar..." = "Przesyłanie awataru...";
 "Uploading file to server" = "Przesyłanie pliku na serwer";
 /* quicksy country */
 "Uruguay" = "Uruguay";
-"Use account" = "Use account";
-"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc.";
-"Use DNSSEC validation for all connections" = "Use DNSSEC validation for all connections";
-"User Interface" = "User Interface";
+"Use account" = "Użyj konta";
+"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Użyj DNSSEC, żeby weryfikować każde zapytanie DNS przed połączeniem się z adresem IP wyznaczonym w odpowiedzi DNS.\nO ile jest to bezpieczniejsze, tak może to prowadzić do problemów z połączeniem się w pewnych sytuacjach jak hotelowa sieć WiFi, niska jakość połączenia z dostawcą sieci komórkowej, itd.";
+"Use DNSSEC validation for all connections" = "Użyj walidacji DNSSEC dla wszystkich połączeń";
+"User Interface" = "Interfejs użytkownika";
 /* placeholder when adding account */
 "user@domain.tld" = "user@domain.tld";
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "użytkownik@domena.org/zasób";
 /* placeholder when creating account */
-"Username" = "Username";
+"Username" = "Nazwa użytkownika";
 "Username missing" = "Brak nazwy użytkownika";
 "Uses TLS client certificates for authentication" = "Używa certyfikatów klienta TLS do uwierzytelniania";
 /* quicksy country */
@@ -1357,7 +1357,7 @@
 "Vatican" = "Vatican";
 /* quicksy country */
 "Venezuela (Bolivarian Republic of)" = "Venezuela (Bolivarian Republic of)";
-"Verify your phone number" = "Verify your phone number";
+"Verify your phone number" = "Zweryfikuj swój numer telefonu";
 "Version" = "Wersja";
 /* server details */
 "version %@%@" = "version %1$@%2$@";
@@ -1367,15 +1367,15 @@
 "Waiting for GPS signal" = "Oczekiwanie na sygnał GPS";
 /* quicksy country */
 "Wallis and Futuna" = "Wallis and Futuna";
-"Warning" = "Warning";
+"Warning" = "Ostrzeżenie";
 /* QR-Code-Scanner: invalid format */
-"We could not find a xmpp related QR-Code" = "Nie mogliśmy znaleźć kodu QR związanego z xmpp";
+"We could not find a xmpp related QR-Code" = "Nie mogliśmy znaleźć kodu QR związanego z XMPP";
 "We don't support any task requested by the server, account disabled: %@" = "Nie obsługujemy żadnego zadania żądanego przez serwer, konto wyłączone: %@";
 "We don't support the single task requested by the server, account disabled: %@" = "Nie obsługujemy pojedynczego zadania żądanego przez serwer, konto wyłączone: %@";
-"We sent you an SMS to %@" = "We sent you an SMS to %@";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@";
-"We will check the number **%@**. Is this okay or do you want to change the number?" = "We will check the number **%@**. Is this okay or do you want to change the number?";
+"We sent you an SMS to %@" = "Wysłaliśmy Tobie SMSa na %@";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "Nie byliśmy w stanie połączyć Twojego konta. Sprawdź swoją nazwę użytkownika i hasło oraz upewnij się, że Twoje urządzenie jest podłączone do internetu.";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Nie byliśmy w stanie połączyć Twojego konta. Sprawdź swoją nazwę użytkownika i hasło oraz upewnij się, że Twoje urządzenie jest podłączone do internetu.\n\nWiadomość błędu technicznego: %@";
+"We will check the number **%@**. Is this okay or do you want to change the number?" = "Ten numer zostanie zweryfikowany: **%@**. Czy jest on poprawny, czy chcesz go zmienić?";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Najsłabszy typ powiązania kanału, nie zabezpieczający przed skradzionymi certyfikatami/kluczami, ale wykrywa błędnie wystawione certyfikaty.";
 "Welcome" = "Witamy";
 "Welcome to Monal !" = "Welcome to Monal !";
