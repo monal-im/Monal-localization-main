@@ -106,7 +106,7 @@
 "Always use direct TLS, not STARTTLS" = "Только прямой TLS (без STARTTLS)";
 /* quicksy country */
 "American Samoa" = "American Samoa";
-"An error happened when trying to request the SMS:" = "Ошибка при запросе SMS:";
+"An error happened when trying to request the SMS:" = "Ошибка при попытке отправки запроса СМС:";
 /* quicksy country */
 "Andorra" = "Andorra";
 /* quicksy country */
@@ -481,7 +481,7 @@
 "Error Removing Account" = "Ошибка удаления учётной записи";
 "Error removing avatar!" = "Ошибка удаления аватара.";
 "Error removing user!" = "Ошибка удаления пользователя.";
-"Error requesting SMS!" = "Ошибка запроса SMS.";
+"Error requesting SMS!" = "Ошибка запроса СМС.";
 "Error unblocking user!" = "Ошибка разблокировки пользователя.";
 "Error while decrypting: iv.length != 12" = "Ошибка расшифровки: длина iv != 12";
 "Error: %@" = "Ошибка: %@";
@@ -532,7 +532,7 @@
 "Failed to save bookmark for Group/Channel: %@" = "Не удалось сохранить закладку для группы/канала: %@";
 "Failed to save groupchat bookmarks" = "Не удалось сохранить закладки для групповых переписок";
 "Failed to share file" = "Не удалось поделиться файлом";
-"Failed to synchronize phonebook" = "Failed to synchronize phonebook";
+"Failed to synchronize phonebook" = "Не удалось отправить телефонную книгу контактов";
 "Failed to upload file: account was removed" = "Не удалось отправить файл: учётная запись удалена";
 "Failed to write decrypted download into cache directory" = "Не удалось записать расшифрованную версию загруженного файла в папку кэша";
 /* quicksy country */
@@ -968,8 +968,8 @@
 /* QR-Code-Scanner */
 "QR-Code video error" = "Ошибка видео при считывании QR-кода";
 "Quicksy is now set up and connected." = "Quicksy настроен и подключен.";
-"Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksy регулярно синхронизирует ваши конакты для определения пользователей Quicksy.\n\nQuicksy хранит изображения, аудиозаписи, видеозаписи и другие медиаданные для доставки их требуемым адресатам. Срок хранения файлов до 30 дней.\n\nПодробнее в нашей [Политике работы с персональными данными](https://quicksy.im/privacy.htm).";
-"Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksy пришлёт СМС сообщение для подтверждения вашего телефонного номера (оператор сотовой сети может списать плату за СМС). Введите телефонный код страны и номер телефона:";
+"Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksy регулярно получает всю вашу телефонную книгу контактов для определения пользователей Quicksy.\n\nQuicksy хранит изображения, аудиозаписи, видеозаписи и другие медиаданные для доставки их требуемым адресатам. Срок хранения файлов до 30 дней.\n\nПодробнее в нашей [Политике работы с персональными данными](https://quicksy.im/privacy.htm).";
+"Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksy пришлёт СМС сообщение для верификации вашего телефонного номера (оператор сотовой сети может списать плату за СМС). Введите телефонный код страны и номер телефона:";
 /* Chat msg action */
 "Quote" = "Цитата";
 "Rate Monal" = "Оцените Monal";
