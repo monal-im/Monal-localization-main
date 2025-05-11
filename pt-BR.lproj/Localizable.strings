@@ -46,7 +46,7 @@
 "<unknown>" = "<desconhecido>";
 "A contact was scanned through the QR code scanner" = "Um contato foi digitalizado através do leitor de QR Code";
 "Abort" = "Abortar";
-"Aborted recording audio" = "Aborted recording audio";
+"Aborted recording audio" = "Gravação de áudio abortada";
 "About" = "Sobre";
 "Accept incoming calls from strangers" = "Aceitar chamadas recebidas de desconhecidos";
 "Accept incoming messages from strangers" = "Aceitar recebimento de mensagens de desconhecidos";
@@ -119,8 +119,8 @@
 "Appearance" = "Aparência";
 "Apple Push Service" = "Serviço de Notificação da Apple";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Serviço de notificação da Apple deve estar sempre ligado. Caso desligado, seu aparelho não se comunicará com os servidores da Apple.";
-"Apple Push Token" = "Apple Push Token";
-"Apple Push Token is not available!" = "Apple Push Token não está disponível";
+"Apple Push Token" = "Token de notificação Push da Apple";
+"Apple Push Token is not available!" = "Apple Push Token não está disponível!";
 "Approve new contact" = "Aprovar novo contato";
 "Archive chat" = "Arquivar conversa";
 "Archive only if the contact is in contact list." = "Arquivar apenas se o contato está na lista de contatos.";
@@ -308,8 +308,8 @@
 "Could fetch room config form for '%@': timeout" = "Não foi possível buscar o formulário de configuração da sala para '%@': tempo limite atingido";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Não foi possível acessar a câmera";
-"Could not access Finder item!" = "Could not access Finder item!";
-"Could not change password" = "Não foi possível alterar a senha";
+"Could not access Finder item!" = "Não foi possível acessar o item do Finder!";
+"Could not change password" = "Não foi possível alterar senha";
 "Could not change password: your account is currently not connected" = "Não foi possível alterar a senha: sua conta não está conectada no momento";
 "Could not change the password" = "Não foi possível alterar a senha";
 "Could not configure (new) group '%@': config option '%@' not available!" = "Não foi possível configurar o (novo) grupo '%@': opção de configuração '%@' não disponível!";
@@ -326,7 +326,7 @@
 "Could not join group/channel '%@': timeout" = "Não foi possível entrar no grupo/canal '%@': tempo limite atingido";
 "Could not read captcha!" = "Não foi possível ler o captcha!";
 "Could not register your username. Please check your code or change the username and try again." = "Não foi possível registrar seu nome de usuário. Por favor verifique seu código ou altere o nome de usuário e tente novamente.";
-"Could not send" = "Could not send";
+"Could not send" = "Não foi possível enviar";
 "Could not synchronize" = "Não foi possível sincronizar";
 "Could not upload file" = "Não foi possível enviar o arquivo";
 "Country:" = "País:";
@@ -469,7 +469,7 @@
 "Error inviting new participant!" = "Erro ao convidar novo participante!";
 "Error inviting user!" = "Erro ao convidar usuário!";
 "Error registering push" = "Erro ao registrar push";
-"Error Removing Account" = "Error Removing Account";
+"Error Removing Account" = "Erro ao Remover Conta";
 "Error removing avatar!" = "Erro ao remover o avatar!";
 "Error removing user!" = "Erro ao remover o usuário!";
 "Error requesting SMS!" = "Erro ao solicitar SMS!";
@@ -782,8 +782,8 @@
 "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "O Monal não confia nesta chave. Ela pode ter sido desativada manualmente ou não ter sido verificada manualmente enquanto outras chaves desse contato foram verificadas. Você pode confiar nesta chave usando o seletor. Certifique-se com o contato de que as impressões digitais correspondem antes de confiar nesta chave.";
 /* Camera permissions missing warning */
 "Monal is not allowed to access the camera" = "O Monal não tem permissão para acessar a câmera";
-"Monal was not able to send your attachment!" = "Monal was not able to send your attachment!";
-"Monal was not able to send your attachment: %@" = "Monal was not able to send your attachment: %@";
+"Monal was not able to send your attachment!" = "Monal não conseguiu enviar seu anexo!";
+"Monal was not able to send your attachment: %@" = "Monal não conseguiu enviar seu anexo: %@";
 /* quicksy country */
 "Mongolia" = "Mongólia";
 /* quicksy country */
@@ -862,7 +862,7 @@
 /* Crash report error dialog */
 "OK" = "OK";
 "Ok" = "Ok";
-"Okay" = "Okay";
+"Okay" = "Ok";
 "Older, slower, but still secure TLS version" = "Versão mais antiga, mais lenta, mas ainda segura do TLS";
 /* quicksy country */
 "Oman" = "Omã";
@@ -880,7 +880,7 @@
 "Open macOS settings" = "Abrir configurações do macOS";
 "Open Profile of %@" = "Abrir Perfil de %@";
 "Open Source" = "Código Aberto";
-"Open URLs inline in Safari" = "Open URLs inline in Safari";
+"Open URLs inline in Safari" = "Abrir URLs no Safari";
 "Optional Hardcoded Hostname" = "Nome do host codificado opcional";
 "Optional Port" = "Porta Opcional";
 "Own device key" = "Chave do dispositivo próprio";
@@ -916,7 +916,7 @@
 "Pin Chat" = "Pin Chat";
 "Play Sounds" = "Reproduzir sons";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Por favor, adicione uma nova conta em configurações primeiro. Se você já adicionou sua conta, pode ser necessário habilitá-la nas configurações";
-"Please Allow Audio Access" = "Please Allow Audio Access";
+"Please Allow Audio Access" = "Por Favor, Permita Acesso ao Áudio";
 "Please enter a password below before activating this account." = "Por favor, digite uma senha abaixo antes de ativar esta conta.";
 "Please enter the six-digit pin below" = "Digite o pin de seis dígitos abaixo";
 "Please make sure at least one account has connected before trying to add a contact or channel." = "Certifique-se de que pelo menos uma conta esteja conectada antes de tentar adicionar um contato ou canal.";
@@ -983,7 +983,7 @@
 "Registration Error" = "Erro de Registro";
 "Remove %@ from contacts?" = "Remover %@ dos contatos?";
 "Remove %@?" = "Remover %@?";
-"Remove Account from this Device" = "Remove Account from this Device";
+"Remove Account from this Device" = "Remover Conta deste Dispositivo";
 "Remove Background Image" = "Remover imagem de fundo";
 "Remove Channel Avatar" = "Remover Avatar do Canal";
 "Remove Contact" = "Remover contato";
@@ -1025,8 +1025,8 @@
 "Saint Pierre and Miquelon" = "São Pedro e Miquelon";
 /* quicksy country */
 "Saint Vincent and the Grenadines" = "São Vicente e Granadinas";
-"Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Mecanismo de Autenticação de Resposta a Desafio Salgado usando o Método de Hash fornecido";
-"Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Mecanismo de Autenticação de Resposta a Desafio Salgado usando o Método de Hash fornecido adicionalmente protegido por Channel-Binding";
+"Salted Challenge Response Authentication Mechanism using the given Hash Method" = "SCRAM utilizando o Método de Hash fornecido";
+"Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "SCRAM usando o Método de Hash fornecido adicionalmente protegido por Channel-Binding";
 /* quicksy country */
 "Samoa" = "Samoa";
 /* quicksy country */
@@ -1056,7 +1056,7 @@
 "Send SMS again" = "Enviar SMS novamente";
 "Send typing notifications" = "Enviar notificações de digitação";
 "Sending..." = "Enviando...";
-"Sends password in cleartext (only encrypted by TLS), not very secure" = "Sends password in cleartext (only encrypted by TLS), not much secure";
+"Sends password in cleartext (only encrypted by TLS), not very secure" = "Envia a senha em texto puro (apenas criptografada por TLS), não muito seguro";
 /* quicksy country */
 "Senegal" = "Senegal";
 "Sent a File 📁" = "Enviou um arquivo 📁";
@@ -1074,7 +1074,7 @@
 /* quicksy country */
 "Serbia" = "Sérvia";
 "Server" = "Servidor";
-"Server does not support account removal" = "Server does not support account removal";
+"Server does not support account removal" = "O servidor não suporta a remoção de contas";
 "Server for domain '%@' not responding!" = "Servidor do domínio '%@' não está respondendo!";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Erro de implementação do servidor: tarefas SASL2 vazias, conta desativada!";
 "Server returned invalid xml!" = "Servidor retornou xml inválido!";
@@ -1156,7 +1156,7 @@
 /* quicksy country */
 "Thailand" = "Tailândia";
 "The account has been deleted" = "A conta foi excluída";
-"The account has been removed" = "The account has been removed";
+"The account has been removed" = "Essa conta foi removida";
 "The account has been saved" = "A conta foi salva";
 /* Crash reporting */
 "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "O aplicativo travou na última vez que foi iniciado. Enviar um relatório de falha? Este relatório de falha conterá dados relacionados à privacidade. Vamos usá-lo apenas para depurar sua falha e excluí-la depois!";
@@ -1234,7 +1234,7 @@
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Esta especificação define semântica para usar o protocolo XMPP de publicação-assinatura para transmitir eventos de alteração de estado associados a uma conta de mensagens instantâneas e presença.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Esta especificação fornece uma maneira de proteger os handshakes SASL e SASL2 contra downgrades de método e ligação de canal.";
 "This will clear the whole chat history of this account from this device." = "Isto limpará todo o histórico de chat desta conta deste dispositivo.";
-"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though.";
+"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Isso excluirá esta conta e os dados associados do servidor e deste dispositivo. No entanto, os dados ainda podem ser mantidos em outros dispositivos.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "Isso possibilitará chamadas mesmo que seu servidor XMPP não forneça um servidor TURN.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "Isso removerá a imagem do avatar atual e reverterá este grupo/canal para o padrão.";
 "This will remove this account and the associated data from this device." = "Isto removerá esta conta e os dados associados deste dispositivo.";
@@ -1316,7 +1316,7 @@
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Carregar arquivos no servidor para compartilhar com outras pessoas. (Tamanho máximo permitido dos arquivos relatados pelo servidor: %@)";
 "Upload Original Images" = "Carregar imagens originais";
 "Upload Settings" = "Configurações de upload";
-"Uploading" = "Uploading";
+"Uploading" = "Enviando";
 "Uploading avatar..." = "Carregando avatar...";
 "Uploading file to server" = "Upload de arquivo para o servidor";
 /* quicksy country */
@@ -1421,7 +1421,7 @@
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "Você tentou ligar para o contato '%@', mas este contato não pôde ser encontrado em sua lista de contatos.";
 "You will no longer receive messages from this conversation" = "Você não receberá mais mensagens desta conversa";
 "You will receive subsequent messages from this conversation" = "Você receberá mensagens subsequentes desta conversa";
-"Your account must be enabled and connected, to be removed from the server!" = "Your account must be enabled and connected, to be removed from the server!";
+"Your account must be enabled and connected, to be removed from the server!" = "Sua conta deve estar ativada e conectada para ser removida do servidor!";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Suas contas foram desativadas, porque você restaurou um backup do iCloud do Monal. Por favor, digite novamente suas senhas para ativá-las novamente.";
 "Your answer" = "Sua resposta";
 "Your contact may not support calls. Your call might never reach its destination." = "Seu contato pode não oferecer suporte a chamadas. Sua chamada pode nunca chegar ao seu destino.";
