@@ -243,17 +243,17 @@
 "Central African Rep." = "中非共和國";
 /* quicksy country */
 "Chad" = "乍得";
-"Change affiliation" = "更改隸屬關係";
-"Change Background Image" = "更改背景圖像";
-"Change Channel Avatar" = "更改頻道大頭貼";
-"Change Chat Background" = "更改聊天背景圖";
-"Change Group Avatar" = "更改群組大頭貼";
-"Change Group Members" = "更改群組成員";
-"Change it" = "更改";
+"Change affiliation" = "變更隸屬關係";
+"Change Background Image" = "變更背景圖像";
+"Change Channel Avatar" = "變更頻道大頭貼";
+"Change Chat Background" = "變更聊天背景圖";
+"Change Group Avatar" = "變更群組大頭貼";
+"Change Group Members" = "變更群組成員";
+"Change it" = "變更";
 "Change Password" = "修改密碼";
-"Changing affiliation" = "正在更改隸屬關係";
+"Changing affiliation" = "正在變更隸屬關係";
 "Changing affiliation to %@: %@" = "正在將隸屬關係變更為 %@: %@";
-"Changing Password" = "正在更改密碼";
+"Changing Password" = "正在變更密碼";
 "Channel Avatar" = "頻道大頭貼";
 "Channel name" = "頻道名稱";
 "Channel Participants" = "頻道參與者";
@@ -453,8 +453,8 @@
 "Error adding contact or channel" = "添加聯繫人或頻道時出錯";
 "Error adding new member!" = "添加新成員時出錯！";
 "Error blocking user!" = "封鎖使用者時出錯！";
-"Error changing affiliation!" = "更改隸屬關係時出錯！";
-"Error changing avatar!" = "更改大頭貼時出錯！";
+"Error changing affiliation!" = "變更隸屬關係時出錯！";
+"Error changing avatar!" = "變更大頭貼時出錯！";
 "Error creating group!" = "創建群組時出錯！";
 "Error decrypting message" = "解密訊息發生錯誤";
 "Error destroying group!" = "解散群組時出錯！";
@@ -486,8 +486,8 @@
 "Even more to customize!" = "更多客製化！";
 "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "每個新聯絡人都將啟用加密，但已知聯絡人將保留其加密設定。";
 "Failed to block contact %@" = "無法封鎖聯絡人 %@";
-"Failed to change affiliation of '%@' in '%@' to '%@'" = "無法將「%2$@」中「%1$@」的隸屬關係更改為「%3$@」";
-"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "無法將「%2$@」中「%1$@」的隸屬關係更改「%3$@」：超時";
+"Failed to change affiliation of '%@' in '%@' to '%@'" = "無法將「%2$@」中「%1$@」的隸屬關係變更為「%3$@」";
+"Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "無法將「%2$@」中「%1$@」的隸屬關係變更「%3$@」：超時";
 "Failed to copy downloaded file into cache directory: %@" = "無法下載檔案複製到快取目錄 %@";
 "Failed to create invitation for %@" = "無法為 %@ 建立邀請";
 "Failed to create invitation, unknown error: %@" = "建立邀請失敗，未知錯誤 %@";
@@ -609,7 +609,7 @@
 "Iceland" = "冰島";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "如果 Monal 無法顯示通知，則當訊息到達時，您將不會看到提醒。如果您在 Monal 首次請求許可時點擊了 『拒絕』，就會發生這種情況。通過轉到 iOS 設定 -> Monal -> 通知，並選取「允許通知」來修復它。";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "如果此功能處於關閉狀態，則您的設備無法在 XMPP 伺服器上啟動推送，請確保已將其配置為支援 XEP-0357。";
-"If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "如果打開此功能，您將遭受中間人攻擊的威脅。此類攻擊使攻擊者能夠操縱您的傳入和傳出訊息、添加他們自己的 OMEMO 金鑰、更改您的帳戶詳細資訊，甚至知道或更改您的密碼！\n\n相對於打開這個功能，更建議切換到另一伺服器。";
+"If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "如果打開此功能，您將遭受中間人攻擊的威脅。此類攻擊使攻擊者能夠操縱您的傳入和傳出訊息、添加他們自己的 OMEMO 金鑰、變更您的帳戶詳細資訊，甚至知道或變更您的密碼！\n\n相對於打開這個功能，更建議切換到另一伺服器。";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "如果您想要使用語音訊息，您將需要在「設定->隱私權->麥克風」中允許存取。";
 "Image Upload JPEG-Quality: %@" = "影像上傳 JPEG 品質：%@";
 "Import and trust OMEMO fingerprints from QR code" = "從QR碼導入和信任 OMEMO 指紋";
@@ -921,7 +921,7 @@
 "Please enter the six-digit pin below" = "請輸入下面的六位數密碼";
 "Please make sure at least one account has connected before trying to add a contact or channel." = "在嘗試添加聯絡人或頻道之前，請確保至少有一個帳戶已連接。";
 "Please make sure at least one account has connected before trying to create new group." = "在嘗試創建新群組之前，請確保至少有一個帳戶已連接。";
-"Please make sure you are connected before changing your password." = "在更改密碼之前，請確認已連線。";
+"Please make sure you are connected before changing your password." = "在變更密碼之前，請確認已連線。";
 "Please make sure you have entered a username, password." = "請確認您輸入了使用者名稱、密碼。";
 "Please make sure you have entered a valid jid." = "請確保您輸入了有效的 Jid。";
 "Please make sure you have entered both a username and password." = "請確保您已輸入使用者名和密碼。";
@@ -1035,7 +1035,7 @@
 "Sao Tome and Principe" = "聖多美和普林西比";
 /* quicksy country */
 "Saudi Arabia" = "沙烏地阿拉伯";
-"Saving changes to server" = "將更改保存到伺服器";
+"Saving changes to server" = "將變更保存到伺服器";
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SCRAM 伺服器證明錯誤，極有可能進行MITM攻擊，中止身份驗證並禁用帳戶以限制損害。當您再次處於乾淨的網路環境中時，您應該嘗試重新啟用您的帳戶。";
 /* mac only string */
 "Scroll down to load more messages" = "向下滑以載入更多訊息";
@@ -1170,7 +1170,7 @@
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "金鑰處於目前未正確處理的狀態。如果您看到此提示，請聯繫開發人員。";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "當您添加的人允許您的請求後，新聯絡人將被添加到您的聯絡人列表中。";
 "The operator of the webserver providing that URL may see your IP address." = "提供該 URL 的 Web 伺服器的營運商可能會看到您的 IP 位址。";
-"The password has been changed" = "密碼已更改";
+"The password has been changed" = "密碼已變更";
 "The pin we have sent you has expired." = "我們傳送給您的PIN碼已過期。";
 "The pin you have entered is incorrect." = "您輸入的 PIN 碼不正確。";
 /* QR-Code-Scanner: account scan wrong menu */
@@ -1231,7 +1231,7 @@
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "此伺服器沒有通過使用可抵禦此類攻擊的身份驗證方法，在 TLS 加密層上額外強化中間人攻擊！如果伺服器應該支援 SASL2 和 SCRAM，否則是無害的，則表明攻擊正在進行中。如果您仍想登入此伺服器，請使用高級帳戶創建功能表並打開那裡的 PLAIN 開關。";
 "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "該伺服器缺乏對SL2和SCRAM的支援，此外還加強了對TLS加密層上的中間人攻擊的身份驗證。由於此伺服器在 https://github.com/monal-im/SCRAM_PreloadList 時被列為同時支援兩者（或者您在使用高級帳戶創建功能表時故意關閉了 PLAIN），因此很有可能正在進行 MITM 攻擊！在乾淨的網路環境中重試。";
 "This should never happen, please contact the developers and provide a logfile!" = "這不應該發生，請聯繫開發人員並提供日誌檔！";
-"This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "此規範定義了使用 XMPP 發佈訂閱協定廣播與即時訊息和存在帳戶關聯的狀態更改事件的語義。";
+"This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "此規範定義了使用 XMPP 發佈訂閱協定廣播與即時訊息和存在帳戶關聯的狀態變更事件的語義。";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "此規範提供了一種保護 SASL 和 SASL2 握手以防止方法和通道綁定降級的方法。";
 "This will clear the whole chat history of this account from this device." = "這將從此裝置清除此帳戶的全部聊天記錄。";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "這將從伺服器和此設備中刪除此帳戶和關聯數據。不過，數據可能仍會保留在其他裝置上。";
@@ -1359,7 +1359,7 @@
 "We sent you an SMS to %@" = "我們向您的%@傳送了一則簡訊";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "我們無法關聯您的帳戶。請檢查您的使用者名和密碼，並確保您已連接到互聯網。";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "我們無法關聯您的帳戶。請檢查您的使用者名和密碼，並確保您已連接到互聯網。\n\n技術錯誤訊息：%@";
-"We will check the number **%@**. Is this okay or do you want to change the number?" = "我們將檢查數位 **%@**。這沒問題還是您想更改號碼？";
+"We will check the number **%@**. Is this okay or do you want to change the number?" = "我們將檢查數位 **%@**。這沒問題還是您想變更號碼？";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "最弱的通道綁定類型，不防止被盜的證書/金鑰，但檢測錯誤頒發的證書。";
 "Welcome" = "歡迎使用";
 "Welcome to Monal !" = "歡迎來到 Monal ！";
