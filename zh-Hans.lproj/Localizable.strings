@@ -50,7 +50,7 @@
 "About" = "关于";
 "Accept incoming calls from strangers" = "接受陌生人来电";
 "Accept incoming messages from strangers" = "接受陌生人发来的消息";
-"Access message archives on the server." = "访问服务器上的消息存档。";
+"Access message archives on the server." = "访问服务器上的消息归档。";
 /* ShareViewController: Account */
 "Account" = "账号";
 "Account %@" = "账号 %@";
@@ -91,7 +91,7 @@
 "Albania" = "阿尔巴尼亚";
 /* quicksy country */
 "Algeria" = "阿尔及利亚";
-"All messages are archived by default." = "所有消息默认都会存档。";
+"All messages are archived by default." = "默认归档所有消息。";
 "All messages fetched successfully, there are no more left on the server!" = "成功获取所有消息，服务器上没有更多消息！";
 "Allow contacts in your contact list to query your Monal and iOS versions." = "允许联系人列表中的联系人查询您的 Monal 和 iOS 版本。";
 "Allow contacts not in your contact list to call you." = "允许不在您的联系人列表中的联系人给您打电话。";
@@ -102,7 +102,7 @@
 "Already present" = "已经存在";
 "Already uploading this content, ignoring" = "已上传过此内容，忽略";
 "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "还请注意：您将无法从服务器加载较旧的历史记录，Monal 在获取后会立即删除！";
-"Always archive" = "始终存档";
+"Always archive" = "始终归档";
 "Always use direct TLS, not STARTTLS" = "始终使用直接 TLS，而不是 STARTTLS";
 /* quicksy country */
 "American Samoa" = "美属萨摩亚";
@@ -122,9 +122,9 @@
 "Apple Push Token" = "Apple 推送令牌";
 "Apple Push Token is not available!" = "Apple 推送令牌不可用！";
 "Approve new contact" = "批准新联系人";
-"Archive chat" = "存档聊天";
-"Archive Conversation" = "Archive Conversation";
-"Archive only if the contact is in contact list." = "仅当联系人在联系人列表中时存档。";
+"Archive chat" = "归档聊天";
+"Archive Conversation" = "归档对话";
+"Archive only if the contact is in contact list." = "仅当联系人在联系人列表中时归档。";
 "Are you sure to cancel the registration process?" = "是否确定要取消注册过程？";
 /* quicksy country */
 "Argentina" = "阿根廷";
@@ -318,7 +318,7 @@
 "Could not configure group '%@': timeout" = "无法配置群聊“%@”：超时";
 "Could not create group '%@': timeout" = "无法创建群聊“%@”：超时";
 "Could not decrypt message" = "无法解密消息";
-"Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "无法从服务器存档获取此聊天的（所有）旧消息。请稍后重试。%@";
+"Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "无法从服务器归档获取此聊天的（所有）旧消息。请稍后重试。%@";
 "Could not fetch messages" = "无法获取消息";
 /* QR-Code-Scanner */
 "Could not get default capture device" = "无法获取默认视频捕获设备";
@@ -358,8 +358,8 @@
 "Debug Notification Problems" = "调试通知问题";
 "Debugging" = "调试中";
 "Default Background" = "默认背景";
-"Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "定义对 XMPP 花名册协议的提议修改，以启用花名册版本控制，如果花名册未修改，服务器将不会向客户端发送花名册。";
-"Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription." = "为预先身份验证的花名册链接定义协议和 URI 方案，允许第三方自动获取用户的在线状态订阅。";
+"Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "定义对 XMPP 名册协议的提议修改，以启用名册版本控制，如果名册未修改，服务器不会向客户端发送名册。";
+"Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription." = "为预先身份验证的名册链接定义协议和 URI 方案，允许第三方自动获取用户的在线状态订阅。";
 /* Chat msg action */
 "Delete" = "删除";
 "Delete Account" = "删除账号";
@@ -376,7 +376,7 @@
 "Destroy Group" = "解散群聊";
 "Destroying channel..." = "正在解散频道…";
 "Destroying group..." = "正在解散群聊…";
-"Details..." = "Details...";
+"Details..." = "详情…";
 "Detected a new omemo device on your account: %@" = "在您的账号上检测到新的 OMEMO 设备：%@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "已检测到通过 SSDP 正在进行的中间人攻击，中止身份验证并禁用账号以限制损害。一旦您再次处于干净的网络环境中，您应该尝试重新启用您的账号。";
 "Device ID: " = "设备 ID： ";
@@ -762,7 +762,7 @@
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "未对此设备加密消息。请确保发送者信任设备 ID %u。";
 "Messages are encrypted" = "消息已加密";
 "Messages are NOT encrypted" = "消息未加密";
-"Messages never archived by default." = "消息默认从不存档。";
+"Messages never archived by default." = "默认永不归档消息。";
 "Method: %@" = "方式：%@";
 /* quicksy country */
 "Mexico" = "墨西哥";
@@ -807,7 +807,7 @@
 "Nepal" = "尼泊尔";
 /* quicksy country */
 "Netherlands" = "荷兰";
-"Never archive" = "从不存档";
+"Never archive" = "永不归档";
 "New Account" = "新账号";
 /* quicksy country */
 "New Caledonia" = "新喀里多尼亚岛";
@@ -937,7 +937,7 @@
 "Port: %@, Direct TLS: %@, Priority: %@" = "端口：%@、直接 TLS：%@、优先级：%@";
 /* quicksy country */
 "Portugal" = "葡萄牙";
-"Preferences..." = "Preferences...";
+"Preferences..." = "首选项…";
 "Previews" = "预览";
 "Previous" = "上一页";
 "Privacy" = "隐私";
@@ -1048,7 +1048,7 @@
 "Select a default background to display behind conversations." = "选择要显示在对话后面的默认背景。";
 "Select Action" = "选择操作";
 "Select background image" = "选择背景图片";
-"Select Message Archive Management (MAM) Preferences " = "选择消息存档管理首选项 ";
+"Select Message Archive Management (MAM) Preferences " = "选择消息归档管理首选项 ";
 "Select sounds that are played with new message notifications. Default is Xylophone." = "选择新消息通知时播放的声音。默认是木琴。";
 "Selected Group Members" = "选定的群聊成员";
 "Send" = "发送";
@@ -1170,7 +1170,7 @@
 /* quicksy country */
 "The Former Yugoslav Republic of Macedonia" = "北马其顿";
 "The jid you want to add should be in in the format user@domain.tld." = "要添加的 XMPP 地址应采用 user@domain.tld 格式。";
-"The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "密钥当前处于未正确处理的状态。如果您看到此提示，请联系开发人员。";
+"The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "密钥当前处于未正确处理的状态。如果您看到此提示，请联系开发者。";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "当您添加的联系人批准了您的请求后，新联系人将会添加到您的联系人列表。";
 "The operator of the webserver providing that URL may see your IP address." = "提供该 URL 的网络服务器运营商可能会看到您的 IP 地址。";
 "The password has been changed" = "密码已更改";
@@ -1233,7 +1233,7 @@
 "This server does not support modern SASL2 authentication." = "此服务器不支持新式的 SASL2 身份验证。";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "此服务器未使用可抵御中间人攻击的身份验证方法来对 TLS 加密层进行额外的强化！如果服务器应该支持 SASL2 和 SCRAM，则表示正在进行攻击，否则是无害的。如果您仍然想登录到此服务器，请使用高级账号创建菜单并打开那里的 PLAIN 开关。";
 "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "此服务器缺乏对 SASL2 和 SCRAM 的支持，另外还强化了针对 TLS 加密层的中间人攻击的身份验证。由于此服务器在 https://github.com/monal-im/SCRAM_PreloadList 上被列为支持两者（或者您在使用高级账号创建菜单时故意关闭了 PLAIN 开关），因此很可能正在发生中间人攻击！请您在干净的网络环境中重试。";
-"This should never happen, please contact the developers and provide a logfile!" = "这种情况不应该发生，请联系开发人员并提供日志文件！";
+"This should never happen, please contact the developers and provide a logfile!" = "这不应该发生，请联系开发者并提供日志文件！";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "此规范定义了使用 XMPP 发布–订阅协议来广播与即时通讯和在线状态的账号相关联的状态更改事件的语义。";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "此规范提供了一种保护 SASL 和 SASL2 握手免受方法和通道绑定降级影响的途径。";
 "This will clear the whole chat history of this account from this device." = "将会从此设备清除此账号的全部聊天记录。";
@@ -1296,7 +1296,7 @@
 "Unexpected error processing your request." = "处理您的请求时发生意外错误。";
 "Unexpected error while checking type of jid, please try again" = "检查 XMPP 地址类型时出现意外错误，请重试";
 "Unexpected error while checking type of jid:" = "检查 XMPP 地址类型时出现意外错误：";
-"Unexpected mam preferences result" = "非预期的消息存档管理首选项结果";
+"Unexpected mam preferences result" = "非预期的消息归档管理首选项结果";
 "Unexpected server response: invalid PEP config form" = "意外的服务器响应：无效的 PEP 配置表单";
 "Unexpected server response: missing required fields in PEP config form" = "意外的服务器响应：PEP 配置表单中缺少必填字段";
 /* quicksy country */
@@ -1379,13 +1379,13 @@
 "XEP-0198: Stream Management" = "XEP-0198：流管理";
 "XEP-0199: XMPP Ping" = "XEP-0199：XMPP Ping 命令";
 "XEP-0215: External Service Discovery" = "XEP-0215：外部服务发现";
-"XEP-0237: Roster Versioning" = "XEP-0237：花名册版本控制";
+"XEP-0237: Roster Versioning" = "XEP-0237：名册版本控制";
 "XEP-0280: Message Carbons" = "XEP-0280：消息抄送";
-"XEP-0313: Message Archive Management" = "XEP-0313：消息存档管理";
+"XEP-0313: Message Archive Management" = "XEP-0313：消息归档管理";
 "XEP-0352: Client State Indication" = "XEP-0352：客户端状态指示";
 "XEP-0357: Push Notifications" = "XEP-0357：推送通知";
 "XEP-0363: HTTP File Upload" = "XEP-0363：HTTP 文件上传";
-"XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379：预先身份验证的花名册订阅";
+"XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379：预先身份验证的名册订阅";
 "XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474：SASL SCRAM 降级保护";
 "XMPP Account Info Error" = "XMPP 账号信息错误";
 "XMPP Bind Error" = "XMPP 绑定错误";
@@ -1394,11 +1394,11 @@
 "XMPP External Service Disco Error" = "XMPP 外部服务发现错误";
 "XMPP ID" = "XMPP 地址";
 "XMPP ID missing" = "缺少 XMPP 地址";
-"XMPP mam preferences error" = "XMPP 消息存档管理首选项错误";
+"XMPP mam preferences error" = "XMPP 消息归档管理首选项错误";
 "XMPP protocol extension for communications blocking." = "用于通信屏蔽的 XMPP 扩展协议。";
 "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "用于发现 XMPP 网络外部服务的 XMPP 扩展协议，例如音频/视频通话所需的 STUN 或 TURN 服务器。";
 "XMPP protocol extension for sending application-level pings over XML streams." = "用于通过 XML 流发送应用程序级 Ping 的 XMPP 扩展协议。";
-"XMPP Roster Error" = "XMPP 花名册错误";
+"XMPP Roster Error" = "XMPP 名册错误";
 "XMPP server domain not valid!" = "XMPP 服务器域无效！";
 "XMPP stream error %@: %@" = "XMPP 流错误 %1$@：%2$@";
 "XMPP stream error: %@" = "XMPP 流错误：%@";
@@ -1431,7 +1431,7 @@
 "Your entered XMPP ID is missing the domain" = "您输入的 XMPP 地址缺少域名";
 "Your entered XMPP ID is missing the username" = "您输入的 XMPP 地址缺少用户名";
 "Your server does not provide a MUC component." = "服务器不提供群聊组件。";
-"Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "服务器不支持消息存档管理（XEP-0313）。这意味着您可能会经常错过收到的消息！您应该切换服务器或与服务器管理员联系以启用此功能！";
+"Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "服务器不支持消息归档管理（XEP-0313）。这意味着您可能会经常错过收到的消息！您应该切换服务器或与服务器管理员联系以启用此功能！";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "服务器不支持推送（XEP-0357）。这意味着您必须手动打开本应用才能检索新收到的消息！您应该切换服务器或与服务器管理员联系以启用此功能！";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "服务器不支持流管理（XEP-0198）。这意味着您发出的消息可能会经常丢失！您应该切换服务器或与服务器管理员联系以启用此功能！";
 "Your status" = "您的状态";
