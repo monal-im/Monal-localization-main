@@ -123,7 +123,7 @@
 "Apple Push Token is not available!" = "Le token de notifications push Apple n'est pas disponible !";
 "Approve new contact" = "Approuver le nouveau contact";
 "Archive chat" = "Archiver la conversation";
-"Archive Conversation" = "Archive Conversation";
+"Archive Conversation" = "Archiver la conversation";
 "Archive only if the contact is in contact list." = "Archiver uniquement si le contact est dans la liste de contacts.";
 "Are you sure to cancel the registration process?" = "Êtes-vous sûr·e de vouloir annuler le processus d’inscription ?";
 /* quicksy country */
@@ -134,7 +134,7 @@
 "Aruba" = "Aruba";
 "Attachments" = "Pièces jointes";
 "Audio recorder init fail." = "Échec de l'initialisation de l'enregistreur audio.";
-"Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
+"Audio recorder prepareToRecord fail." = "L'enregistreur audio prepareToRecord a échoué.";
 "Audio recorder record fail." = "L'enregistrement de l'enregistreur audio échoue.";
 "Audio Recorder set active error: %@" = "Audio Recorder set active error: %@";
 "Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
@@ -376,7 +376,7 @@
 "Destroy Group" = "Détruire le groupe";
 "Destroying channel..." = "Destruction du salon…";
 "Destroying group..." = "Destruction du groupe…";
-"Details..." = "Details...";
+"Details..." = "Détails...";
 "Detected a new omemo device on your account: %@" = "Nouveau client OMEMO détecté sur votre compte : %@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Détection d'une attaque MITM en cours via SSDP, abandon de l'authentification et désactivation du compte pour limiter les dégâts. Vous devriez essayer de réactiver votre compte une fois que vous êtes à nouveau dans un environnement réseau propre.";
 "Device ID: " = "ID d'appareil : ";
@@ -524,42 +524,42 @@
 "Failed to save bookmark for Group/Channel: %@" = "Échec de mise en favoris pour le Groupe/Canal : %@";
 "Failed to save groupchat bookmarks" = "Échec de l'enregistrement des favoris du groupe";
 "Failed to share file" = "Échec de partage du fichier";
-"Failed to synchronize phonebook" = "Failed to synchronize phonebook";
+"Failed to synchronize phonebook" = "Impossible de synchroniser l'annuaire";
 "Failed to upload file: account was removed" = "Échec d'envoi du fichier : le compte a été supprimé";
 "Failed to write decrypted download into cache directory" = "Échec de l'écriture du téléchargement déchiffré dans le dossier de cache";
 /* quicksy country */
-"Falkland Islands (Malvinas)" = "Falkland Islands (Malvinas)";
+"Falkland Islands (Malvinas)" = "Îles Malouines";
 /* quicksy country */
-"Faroe Islands" = "Faroe Islands";
+"Faroe Islands" = "Îles Féroé";
 "Features" = "Fonctionalités";
 "Fetching registration form..." = "Récupérer du formulaire d'enregistrement...";
 /* quicksy country */
-"Fiji" = "Fiji";
+"Fiji" = "Fidji";
 "File" = "Fichier";
 "Files" = "Fichiers";
 "Finished fetching messages" = "Fin de la récupération des messages";
 /* quicksy country */
-"Finland" = "Finland";
+"Finland" = "Finlande";
 /* quicksy country */
 "France" = "France";
 /* quicksy country */
-"French Departments and Territories in the Indian Ocean" = "French Departments and Territories in the Indian Ocean";
+"French Departments and Territories in the Indian Ocean" = "Département Français et territoires de l'océan Indien";
 /* quicksy country */
-"French Guiana" = "French Guiana";
+"French Guiana" = "Guinée française";
 /* quicksy country */
-"French Polynesia" = "French Polynesia";
+"French Polynesia" = "Polynésie Française";
 "Frequently Asked Questions" = "Foire aux questions";
 /* quicksy country */
 "Gabon" = "Gabon";
 /* quicksy country */
-"Gambia" = "Gambia";
+"Gambia" = "Gambie";
 "General" = "Général";
 "General File Transfer Settings" = "Préférences générales de transfert de fichier";
 "General Settings" = "Préférences générales";
 /* quicksy country */
-"Georgia" = "Georgia";
+"Georgia" = "Géorgie";
 /* quicksy country */
-"Germany" = "Germany";
+"Germany" = "Allemagne";
 /* quicksy country */
 "Ghana" = "Ghana";
 /* quicksy country */
@@ -567,12 +567,12 @@
 "Got empty room config form for '%@'" = "Formulaire de configuration vide reçu pour le salon « %@ »";
 "GPS" = "GPS";
 /* quicksy country */
-"Greece" = "Greece";
+"Greece" = "Grèce";
 "Green checkmark shield:" = "Bouclier vert coché :";
 /* quicksy country */
-"Greenland" = "Greenland";
+"Greenland" = "Groenland";
 /* quicksy country */
-"Grenada" = "Grenada";
+"Grenada" = "Grenade";
 "Group Avatar" = "Avatar du groupe";
 /* placeholder when editing a group description */
 "Group Description (optional)" = "Description du groupe (optionnelle)";
@@ -591,24 +591,24 @@
 /* quicksy country */
 "Guatemala" = "Guatemala";
 /* quicksy country */
-"Guinea" = "Guinea";
+"Guinea" = "Guinée";
 /* quicksy country */
-"Guinea-Bissau" = "Guinea-Bissau";
+"Guinea-Bissau" = "Guinée-Bissau";
 /* quicksy country */
-"Guyana" = "Guyana";
+"Guyana" = "Guyane";
 /* quicksy country */
-"Haiti" = "Haiti";
+"Haiti" = "Haïti";
 "Hint" = "Indice";
 /* quicksy country */
 "Honduras" = "Honduras";
 /* quicksy country */
-"Hong Kong, China" = "Hong Kong, China";
+"Hong Kong, China" = "Hong Kong, Chine";
 /* quicksy country */
-"Hungary" = "Hungary";
+"Hungary" = "Hongrie";
 "I already have an account:" = "J’ai déjà un compte :";
 "I need an account:" = "Je veux créer un compte :";
 /* quicksy country */
-"Iceland" = "Iceland";
+"Iceland" = "Islande";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Si Monal ne peut utiliser les notifications, aucun alerte ne sera affichée quand les messages arriverons. Il est possible que vous ayez sélectionné \"Refuser\" lors de la demande de permission de Monal. Vous pouvez activer les notifications depuis Préférences d'iOS -> Monal -> Notifications puis « Autoriser les notifications ».";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Si ceci est inactif, votre appareil ne peut pas activer le push sur votre serveur XMPP. Veuillez vérifier que vous l'avez bien configuré pour supporter XEP-0357.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "Si vous l'activez, vous ne serez plus à l'abri des attaques MITM. De telles attaques permettent à l'adversaire de manipuler vos messages entrants et sortants, d'ajouter ses propres clés OMEMO, de modifier les détails de votre compte et même de connaître ou de changer votre mot de passe !\n\nVous devriez plutôt passer à un autre serveur plutôt que de l'activer.";
@@ -616,10 +616,10 @@
 "Image Upload JPEG-Quality: %@" = "Qualité des images JPEG à envoyer : %@";
 "Import and trust OMEMO fingerprints from QR code" = "Utiliser un code QR pour importer et faire confiance à une empreinte OMEMO";
 /* quicksy country */
-"India" = "India";
+"India" = "Inde";
 "Indicate when a particular device is active or inactive. Saves battery." = "Indique lorsque qu'un appareil en particulier est actif ou inactif. Économise de la batterie.";
 /* quicksy country */
-"Indonesia" = "Indonesia";
+"Indonesia" = "Indonésie";
 "Input" = "Saisie";
 "Input is not a valid jid" = "La saisie n'est pas un jid valide";
 "Interactions" = "Interactions";
@@ -640,25 +640,25 @@
 "Inviting user" = "Invitation d’un utilisateur";
 "Inviting user to this group/channel: %@" = "Invitation d’un utilisateur à ce groupe/salon : %@";
 /* quicksy country */
-"Iran (Islamic Republic of)" = "Iran (Islamic Republic of)";
+"Iran (Islamic Republic of)" = "Iran (République Islamique)";
 /* quicksy country */
-"Iraq" = "Iraq";
+"Iraq" = "Irak";
 /* quicksy country */
-"Ireland" = "Ireland";
+"Ireland" = "Irland";
 /* quicksy country */
-"Israel" = "Israel";
+"Israel" = "Israël";
 /* QR-Code-Scanner: Camera not found */
 "It does not seem as your device has a camera. Please use a device with a camera for scanning" = "Il semble que votre appareil n'ait pas de caméra. Veuillez utiliser un appareil avec une caméra pour pouvoir scanner";
 /* quicksy country */
-"Italy" = "Italy";
+"Italy" = "Italie";
 /* quicksy country */
-"Jamaica" = "Jamaica";
+"Jamaica" = "Jamaïque";
 /* quicksy country */
-"Japan" = "Japan";
+"Japan" = "Japon";
 "Join Channel" = "Rejoindre le canal";
 "Join Group" = "Rejoindre le groupe";
 /* quicksy country */
-"Jordan" = "Jordan";
+"Jordan" = "Jordanie";
 "Just seen" = "Vu à l'instant";
 /* quicksy country */
 "Kazakhstan" = "Kazakhstan";
@@ -670,13 +670,13 @@
 /* quicksy country */
 "Kiribati" = "Kiribati";
 /* quicksy country */
-"Korea (Rep. of)" = "Korea (Rep. of)";
+"Korea (Rep. of)" = "Corée du Sud";
 /* quicksy country */
-"Kuwait" = "Kuwait";
+"Kuwait" = "Koweït";
 /* quicksy country */
-"Kyrgyzstan" = "Kyrgyzstan";
+"Kyrgyzstan" = "Kirghizistan";
 /* quicksy country */
-"Lao P.D.R." = "Lao P.D.R.";
+"Lao P.D.R." = "Laos";
 "Last seen: %@" = "Vu pour la dernière fois : %@";
 "Last seen: %d days ago" = "Vu pour la dernière fois : Il y a %d jours";
 "Last seen: %d hours ago" = "Vu pour la dernière fois : Il y a %d heures";
@@ -685,13 +685,13 @@
 "Last seen: 1 hour ago" = "Vu pour la dernière fois : Il y a 1 heure";
 "Last seen: 1 minute ago" = "Vu pour la dernière fois : Il y a 1 minute";
 /* quicksy country */
-"Latvia" = "Latvia";
+"Latvia" = "Lettonie";
 "Leave Channel" = "Quitter le canal";
 "Leave Group" = "Quitter le groupe";
 "Leave this conversation" = "Quitter cette conversation";
 "Leave this converstion?" = "Quitter cette conversation ?";
 /* quicksy country */
-"Lebanon" = "Lebanon";
+"Lebanon" = "Liban";
 /* quicksy country */
 "Lesotho" = "Lesotho";
 "Let your contacts know if you are typing a message." = "Notifier vos contacts que vous êtes en train d’écrire un message.";
@@ -701,12 +701,12 @@
 /* quicksy country */
 "Liberia" = "Liberia";
 /* quicksy country */
-"Libya" = "Libya";
+"Libya" = "Libye";
 /* quicksy country */
 "Liechtenstein" = "Liechtenstein";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "Comme le courriel, vous pouvez enregistrer votre compte à de nombreux endroits et parler à n'importe qui. Vous pouvez utiliser cette page pour enregistrer un compte avec un serveur XMPP sélectionné ou fourni. Vous devez également choisir un nom d'utilisateur et un mot de passe.";
 /* quicksy country */
-"Lithuania" = "Lithuania";
+"Lithuania" = "Lituanie";
 "Load over Cellular" = "Charger via réseau cellulaire";
 "Load over cellular up to: %@ MiB" = "Télécharger via réseau cellulaire jusqu'à : %@ MiB";
 "Load over wifi" = "Télécharger via Wi-Fi";
@@ -727,30 +727,30 @@
 /* quicksy country */
 "Luxembourg" = "Luxembourg";
 /* quicksy country */
-"Macao, China" = "Macao, China";
+"Macao, China" = "Macao, Chine";
 /* quicksy country */
 "Madagascar" = "Madagascar";
 "Make transfered Media and Files accessible in Files App" = "Rendre les média et fichiers accessibles dans l’application Fichiers";
 /* quicksy country */
 "Malawi" = "Malawi";
 /* quicksy country */
-"Malaysia" = "Malaysia";
+"Malaysia" = "Malaisie";
 /* quicksy country */
 "Maldives" = "Maldives";
 /* quicksy country */
 "Mali" = "Mali";
 /* quicksy country */
-"Malta" = "Malta";
+"Malta" = "Malte";
 "Manual input" = "Entrée manuelle";
 "Mark as read" = "Marquer comme lu";
 /* quicksy country */
-"Marshall Islands" = "Marshall Islands";
+"Marshall Islands" = "Îles Marshall";
 /* quicksy country */
 "Martinique" = "Martinique";
 /* quicksy country */
-"Mauritania" = "Mauritania";
+"Mauritania" = "Mauritanie";
 /* quicksy country */
-"Mauritius" = "Mauritius";
+"Mauritius" = "Maurice";
 /* Prefix for own messages in chat overview */
 "Me:" = "Moi :";
 /* muc affiliation */
@@ -765,16 +765,16 @@
 "Messages never archived by default." = "Les messages ne sont jamais archivés par défaut.";
 "Method: %@" = "Méthode : %@";
 /* quicksy country */
-"Mexico" = "Mexico";
+"Mexico" = "Mexique";
 /* quicksy country */
-"Micronesia" = "Micronesia";
+"Micronesia" = "Micronésie";
 "Migration Assistant" = "Assistant de migration";
 "Misc" = "Divers";
 "Missing Call Support" = "Fonction d’appel manquante";
 "Missing permission" = "Permission manquante";
 "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.\n\nUsing Monal instead of a centralized chat app therefore increases your digital sovereignty." = "Client de chat XMPP moderne pour iOS et macOS.\n\nXMPP est un réseau fédéré : tout comme les e-mails, vous pouvez vous inscrire sur un grand nombre de serveur et discuter avec n’importe qui, même s’ils se sont inscrits sur un autre serveur.\n\nUtiliser Monal plutôt qu’une application de chat centralisée améliore du coup votre souveraineté numérique.";
 /* quicksy country */
-"Moldova (Republic of)" = "Moldova (Republic of)";
+"Moldova (Republic of)" = "Moldavie";
 /* quicksy country */
 "Monaco" = "Monaco";
 "Monal" = "Monal";
@@ -787,35 +787,35 @@
 "Monal was not able to send your attachment!" = "Monal n'a pas pu envoyer la pièce jointe !";
 "Monal was not able to send your attachment: %@" = "Monal n'a pas pu envoyer la pièce jointe : %@";
 /* quicksy country */
-"Mongolia" = "Mongolia";
+"Mongolia" = "Mongolie";
 /* quicksy country */
-"Montenegro" = "Montenegro";
+"Montenegro" = "Monténégro";
 /* quicksy country */
 "Montserrat" = "Montserrat";
 /* quicksy country */
-"Morocco" = "Morocco";
+"Morocco" = "Maroc";
 /* quicksy country */
 "Mozambique" = "Mozambique";
 "My Encryption Keys" = "Mes clés de chiffrement";
 /* quicksy country */
-"Myanmar" = "Myanmar";
+"Myanmar" = "Birmanie (Myanmar)";
 /* quicksy country */
-"Namibia" = "Namibia";
+"Namibia" = "Namibie";
 /* quicksy country */
 "Nauru" = "Nauru";
 /* quicksy country */
-"Nepal" = "Nepal";
+"Nepal" = "Népal";
 /* quicksy country */
-"Netherlands" = "Netherlands";
+"Netherlands" = "Pays-Bas";
 "Never archive" = "Ne jamais archiver";
 "New Account" = "Nouveau compte";
 /* quicksy country */
-"New Caledonia" = "New Caledonia";
+"New Caledonia" = "Nouvelle-Calédonie";
 "New Message" = "Nouveau message";
 "New omemo device" = "Nouveau client OMEMO";
 "New Password" = "Nouveau mot de passe";
 /* quicksy country */
-"New Zealand" = "New Zealand";
+"New Zealand" = "Nouvelle-Zélande";
 "Newest TLS version which is faster than TLS 1.2" = "Version de TLS la plus récente et plus rapide que TLS 1.2";
 /* onboarding */
 "Next" = "Suivant";
@@ -848,9 +848,9 @@
 "No, thanks" = "Non merci";
 "None" = "Néant";
 /* quicksy country */
-"Northern Marianas" = "Northern Marianas";
+"Northern Marianas" = "Îles Mariannes du Nord";
 /* quicksy country */
-"Norway" = "Norway";
+"Norway" = "Norvège";
 "Not Authorized. Please check your credentials." = "Non autorisé. Veuillez vérifier vos identifiants.";
 "Notes to self" = "Notes pour moi-même";
 "Notes to self: %@" = "Notes à moi-même : %@";
@@ -891,11 +891,11 @@
 /* quicksy country */
 "Pakistan" = "Pakistan";
 /* quicksy country */
-"Palau" = "Palau";
+"Palau" = "Palaos";
 /* quicksy country */
 "Panama" = "Panama";
 /* quicksy country */
-"Papua New Guinea" = "Papua New Guinea";
+"Papua New Guinea" = "Papouasie-Nouvelle-Guinée";
 /* quicksy country */
 "Paraguay" = "Paraguay";
 /* muc affiliation */
@@ -911,7 +911,7 @@
 "Passwords don't match!" = "Les mots de passe ne correspondent pas !";
 "Permission Requested" = "Autorisation requise";
 /* quicksy country */
-"Peru" = "Peru";
+"Peru" = "Pérou";
 /* quicksy country */
 "Philippines" = "Philippines";
 "Photos" = "Photos";
@@ -930,14 +930,14 @@
 "Please make sure you have entered the same password in both password fields." = "Assurez-vous que vous avez entré le même mot de passe dans les deux champs de mots de passe.";
 "Please provide a valid XMPP server domain or select one." = "Veuillez fournir un domaine de serveur XMPP correct ou en sélectionner un.";
 "Please select a XMPP server or provide one." = "Veuillez sélectionner un serveur XMPP ou en fournir un.";
-"Please update!" = "Merci de mettre à jour !";
+"Please update!" = "Merci de mettre à jour !";
 /* quicksy country */
-"Poland" = "Poland";
+"Poland" = "Pologne";
 "Port" = "Port";
 "Port: %@, Direct TLS: %@, Priority: %@" = "Port : %@, Direct TLS : %@, Priorité : %@";
 /* quicksy country */
 "Portugal" = "Portugal";
-"Preferences..." = "Preferences...";
+"Preferences..." = "Préférences...";
 "Previews" = "Aperçus";
 "Previous" = "Précédent";
 "Privacy" = "Confidentialité";
@@ -946,7 +946,7 @@
 "Provide XMPP-Server" = "Fournisseur serveur XMPP";
 "Publish version" = "Publier la version";
 /* quicksy country */
-"Puerto Rico" = "Puerto Rico";
+"Puerto Rico" = "Porto Rico";
 "Push Server" = "Serveur de push";
 "Pushserver Region" = "Région du serveur de notifications push";
 /* quicksy country */
@@ -1013,31 +1013,31 @@
 "Retry sending message?" = "Réessayer l'envoi du message ?";
 "Ringing..." = "Sonnerie en cours...";
 /* quicksy country */
-"Romania" = "Romania";
+"Romania" = "Roumanie";
 /* quicksy country */
-"Russian Federation" = "Russian Federation";
+"Russian Federation" = "Russie";
 /* quicksy country */
 "Rwanda" = "Rwanda";
 /* quicksy country */
-"Saint Helena, Ascension and Tristan da Cunha" = "Saint Helena, Ascension and Tristan da Cunha";
+"Saint Helena, Ascension and Tristan da Cunha" = "Sainte-Hélène, Ascension et Tristan da Cunha";
 /* quicksy country */
-"Saint Kitts and Nevis" = "Saint Kitts and Nevis";
+"Saint Kitts and Nevis" = "Saint-Christophe-et-Niévès";
 /* quicksy country */
-"Saint Lucia" = "Saint Lucia";
+"Saint Lucia" = "Sainte Lucie";
 /* quicksy country */
-"Saint Pierre and Miquelon" = "Saint Pierre and Miquelon";
+"Saint Pierre and Miquelon" = "Saint Pierre et Miquelon";
 /* quicksy country */
-"Saint Vincent and the Grenadines" = "Saint Vincent and the Grenadines";
+"Saint Vincent and the Grenadines" = "Saint-Vincent-et-les-Grenadines";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "SCRAM en utilisant la méthode du hash";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "SCRAM en utilisant la méthode du hash additionnellement sécurisée par un Channel-Binding";
 /* quicksy country */
 "Samoa" = "Samoa";
 /* quicksy country */
-"San Marino" = "San Marino";
+"San Marino" = "Saint-Marin";
 /* quicksy country */
-"Sao Tome and Principe" = "Sao Tome and Principe";
+"Sao Tome and Principe" = "Sao Tomé-et-Principe";
 /* quicksy country */
-"Saudi Arabia" = "Saudi Arabia";
+"Saudi Arabia" = "Arabie Saoudite";
 "Saving changes to server" = "Enregistrer les changements sur le serveur";
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Preuve du serveur SCRAM erronée, attaque MITM en cours très probable, abandon de l'authentification et désactivation du compte pour limiter les dégâts. Vous devriez essayer de réactiver votre compte une fois que vous êtes à nouveau dans un environnement réseau propre.";
 /* mac only string */
@@ -1061,7 +1061,7 @@
 "Sending..." = "Envoi…";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Envoie les mots de passes en texte clair (seulement chiffré par TLS), peu sécurisé";
 /* quicksy country */
-"Senegal" = "Senegal";
+"Senegal" = "Sénégal";
 "Sent a File 📁" = "Envoyer un fichier 📁";
 "Sent a Link 🔗" = "Lien envoyé 🔗";
 "Sent a Location 📍" = "Envoyer un emplacement 📍";
@@ -1075,7 +1075,7 @@
 /* directory for downloaded videos */
 "Sent Videos" = "Vidéos envoyées";
 /* quicksy country */
-"Serbia" = "Serbia";
+"Serbia" = "Serbie";
 "Server" = "Serveur";
 "Server does not support account removal" = "Le serveur ne supporte pas la suppression de compte";
 "Server for domain '%@' not responding!" = "Le serveur pour le domaine '%@' ne répond pas !";
@@ -1096,17 +1096,17 @@
 /* quicksy country */
 "Sierra Leone" = "Sierra Leone";
 /* quicksy country */
-"Singapore" = "Singapore";
+"Singapore" = "Singapour";
 /* quicksy country */
-"Sint Maarten (Dutch part)" = "Sint Maarten (Dutch part)";
+"Sint Maarten (Dutch part)" = "Saint Martin (Pays-Bas)";
 /* quicksy country */
-"Slovakia" = "Slovakia";
+"Slovakia" = "Slovaquie";
 /* quicksy country */
-"Slovenia" = "Slovenia";
+"Slovenia" = "Slovénie";
 /* quicksy country */
-"Solomon Islands" = "Solomon Islands";
+"Solomon Islands" = "Îles Salomon";
 /* quicksy country */
-"Somalia" = "Somalia";
+"Somalia" = "Somalie";
 "Some debug settings." = "Quelques paramètres de débogage.";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "Certains messages peuvent être en attente d'être récupérés ou envoyés. Veuillez ouvrir l'application pour réessayer.";
 "Something went wrong processing your request." = "Quelque chose s’est mal passé en traitant votre requête.";
@@ -1114,9 +1114,9 @@
 "Sounds" = "Sons";
 "Sounds courtesy Emrah" = "Avec la permission d'Emrah";
 /* quicksy country */
-"South Africa" = "South Africa";
+"South Africa" = "Afrique du Sud";
 /* quicksy country */
-"Spain" = "Spain";
+"Spain" = "Espagne";
 /* quicksy country */
 "Sri Lanka" = "Sri Lanka";
 "SRV entry prohibits XMPP connection for domain %@" = "SRV empêche la connexion de XMPP au domaine %@";
@@ -1130,34 +1130,34 @@
 "Successfully destroyed group." = "Groupe détruit avec succès.";
 "Successfully joined group/channel %@!" = "Groupe/salon %@ rejoint avec succès !";
 /* quicksy country */
-"Sudan" = "Sudan";
+"Sudan" = "Soudan";
 "Support" = "Assistance";
 /* Crash reporting */
 "Sure, send it!" = "Bien sûr, envoyez-le !";
 /* quicksy country */
 "Suriname" = "Suriname";
 /* quicksy country */
-"Swaziland" = "Swaziland";
+"Swaziland" = "Eswatini";
 /* quicksy country */
-"Sweden" = "Sweden";
+"Sweden" = "Suède";
 /* quicksy country */
-"Switzerland" = "Switzerland";
+"Switzerland" = "Suisse";
 "Synchronize your messages on all loggedin devices." = "Synchronisez vos messages sur tous les appareils connectés.";
 /* quicksy country */
-"Syrian Arab Republic" = "Syrian Arab Republic";
+"Syrian Arab Republic" = "Syrie";
 /* quicksy country */
-"Taiwan, China" = "Taiwan, China";
+"Taiwan, China" = "Taïwan";
 /* quicksy country */
-"Tajikistan" = "Tajikistan";
+"Tajikistan" = "Tadjikistan";
 "Take me to settings" = "Emmenez-moi aux préférences";
 /* quicksy country */
-"Tanzania" = "Tanzania";
+"Tanzania" = "Tanzanie";
 "Temporarily unavailable. Try again later." = "Temporairement indisponible. Veuillez réessayer plus tard.";
 "Temporary failure to enter Group/Channel: %@" = "Erreur temporaire pour entrer dans le Groupe/Canal : %@";
 "Terms of %@" = "Conditions de %@";
 "Terms of use for %@" = "Conditions d'utilisation pour %@";
 /* quicksy country */
-"Thailand" = "Thailand";
+"Thailand" = "Thaïlande";
 "The account has been deleted" = "Le compte a été supprimé";
 "The account has been removed" = "Le compte a été supprimé";
 "The account has been saved" = "Le compte a été sauvegardé";
@@ -1168,7 +1168,7 @@
 "The current password is not correct." = "Le mot de passe actuel n'est pas valide.";
 "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "Les boutons suivants vous permettent de forcer l’application à crasher de différentes façons, afin de tester le système de gestion des crashes.";
 /* quicksy country */
-"The Former Yugoslav Republic of Macedonia" = "The Former Yugoslav Republic of Macedonia";
+"The Former Yugoslav Republic of Macedonia" = "Macédoine du Nord";
 "The jid you want to add should be in in the format user@domain.tld." = "L'identifiant que vous souhaitez ajouter doit être au format utilisateur@domain.suffixe";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "La clé est dans un état qui n'est actuellement pas correctement géré. Merci de contacter les développeurs si vous voyez cette invite.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "Le nouveau contact sera ajouté à votre liste de contacts lorsque la personne que vous avez ajoutée aura approuvée votre demande.";
@@ -1231,8 +1231,8 @@
 "This server does not provide any MUC servers." = "Ce serveur ne fournit aucun service MUC.";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Ce serveur ne supporte aucun channel-binding moderne pour sécuriser la couche TLS contre les attaque MITM.";
 "This server does not support modern SASL2 authentication." = "Ce serveur ne supporte pas l'authentification SASL2.";
-"This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server.";
-"This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment.";
+"This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "Ce serveur n'est pas renforcé contre les attaques de l'homme du milieu sur la couche de chiffrement TLS grâce à des méthodes d'authentification sécurisées ! Cela indique une attaque en cours si le serveur est censé prendre en charge SASL2 et SCRAM et est inoffensif par ailleurs. Utilisez le menu de création de compte avancé et activez l'option PLAIN si vous souhaitez toujours vous connecter à ce serveur.";
+"This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "Ce serveur ne prend pas en charge SASL2 et SCRAM, ce qui renforce l'authentification contre les attaques de l'homme du milieu sur la couche de chiffrement TLS. Étant donné que ce serveur est répertorié comme prenant en charge les deux protocoles sur https://github.com/monal-im/SCRAM_PreloadList (ou que vous avez volontairement désactivé l'option PLAIN lors de la création de compte avancée), une attaque MITM est très probable ! Réessayez une fois que vous serez dans un environnement réseau propre.";
 "This should never happen, please contact the developers and provide a logfile!" = "Cela ne devrait jamais se produire, veuillez contacter les développeurs et fournir un fichier journal !";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Cela spécifie la sémantique pour le protocole XMPP pour la publication-souscription, afin de publier les événements des changements d'état associés à la messagerie instantanée et à la présence des comptes.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Cette spécification permet de sécuriser les négociations SASL et SASL2 contre la dégradation des méthode et du channel-binding.";
@@ -1243,7 +1243,7 @@
 "This will remove this account and the associated data from this device." = "Cela va supprimer ce compte et les données associées de cet appareil.";
 "Timeout Error" = "Erreur de délai d'attente";
 /* quicksy country */
-"Timor-Leste" = "Timor-Leste";
+"Timor-Leste" = "Timor oriental";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
 "TLS Error: Bad certificate" = "Erreur TLS : mauvais certificat";
@@ -1259,7 +1259,7 @@
 "Tonga" = "Tonga";
 "Too many attempts, please try again in %@." = "Vous avez essayé trop de fois, veuillez réessayer dans %@.";
 /* quicksy country */
-"Trinidad and Tobago" = "Trinidad and Tobago";
+"Trinidad and Tobago" = "Trinité-et-Tobago";
 "Trust Key" = "Faire confiance à la clé";
 "Trusted and verified key" = "Clé fiable et vérifiée";
 "Trusted but removed key" = "Clé fiable mais supprimée";
@@ -1267,13 +1267,13 @@
 "Trusted but unverified key" = "Clé fiable mais invalidée";
 "Try nevertheless" = "Essayer quand même";
 /* quicksy country */
-"Tunisia" = "Tunisia";
+"Tunisia" = "Tunisie";
 /* quicksy country */
-"Turkey" = "Turkey";
+"Turkey" = "Turquie";
 /* quicksy country */
-"Turkmenistan" = "Turkmenistan";
+"Turkmenistan" = "Turkménistan";
 /* quicksy country */
-"Turks and Caicos Islands" = "Turks and Caicos Islands";
+"Turks and Caicos Islands" = "Îles Turques-et-Caïques";
 /* quicksy country */
 "Tuvalu" = "Tuvalu";
 "Type: %@" = "Type : %@";
@@ -1282,7 +1282,7 @@
 "UDP Logger Configuration" = "Configuration du logger UDP";
 "UDP Logging UI not supported on iOS < 16" = "L'interface utilisateur de journalisation UDP n'est pas prise en charge sur iOS < 16";
 /* quicksy country */
-"Uganda" = "Uganda";
+"Uganda" = "Ouganda";
 /* quicksy country */
 "Ukraine" = "Ukraine";
 "Unable to connect to server!" = "Échec de connexion au serveur !";
@@ -1300,13 +1300,13 @@
 "Unexpected server response: invalid PEP config form" = "Réponse du serveur inattendu : configuration PEP invalide";
 "Unexpected server response: missing required fields in PEP config form" = "Réponse du serveur inattendu : champs requis manquants dans la configuration PEP";
 /* quicksy country */
-"United Arab Emirates" = "United Arab Emirates";
+"United Arab Emirates" = "Émirats arabes unis";
 /* quicksy country */
-"United Kingdom" = "United Kingdom";
+"United Kingdom" = "Royaume Uni";
 /* quicksy country */
-"United States" = "United States";
+"United States" = "États-Unis";
 /* quicksy country */
-"United States Virgin Islands" = "United States Virgin Islands";
+"United States Virgin Islands" = "Îles Vierges des États-Unis";
 "unknown" = "inconnu";
 "Unknown authentication method" = "Méthode d'authentification inconnue";
 "Unknown channel-binding type" = "Type de channel-binding inconnu";
@@ -1337,23 +1337,23 @@
 "Username missing" = "Nom d'utilisateur manquant";
 "Uses TLS client certificates for authentication" = "Utilise les certificats TLS clients pour l'authentification";
 /* quicksy country */
-"Uzbekistan" = "Uzbekistan";
+"Uzbekistan" = "Ouzbékistan";
 /* quicksy country */
 "Vanuatu" = "Vanuatu";
 /* quicksy country */
 "Vatican" = "Vatican";
 /* quicksy country */
-"Venezuela (Bolivarian Republic of)" = "Venezuela (Bolivarian Republic of)";
+"Venezuela (Bolivarian Republic of)" = "Venezuela";
 "Verify your phone number" = "Vérifier votre numéro de téléphone";
 "Version" = "Version";
 /* server details */
 "version %@%@" = "version %1$@%2$@";
 "Very old app version" = "Version très ancienne de l'application";
 /* quicksy country */
-"Viet Nam" = "Viet Nam";
+"Viet Nam" = "Vietnam";
 "Waiting for GPS signal" = "En attente du signal GPS";
 /* quicksy country */
-"Wallis and Futuna" = "Wallis and Futuna";
+"Wallis and Futuna" = "Wallis-et-Futuna";
 "Warning" = "Attention";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "Nous n'avons pas pu trouver de QR-Code associé au XMPP";
@@ -1404,7 +1404,7 @@
 "XMPP stream error: %@" = "Erreur de flux XMPP : %@";
 "Yellow checkmark shield:" = "Bouclier jaune coché :";
 /* quicksy country */
-"Yemen" = "Yemen";
+"Yemen" = "Yémen";
 "Yes" = "Oui";
 "Yes, deactivate encryption" = "Oui, désactiver le chiffrement";
 "You are set up and connected." = "Vous êtes connecté.";
@@ -1437,7 +1437,7 @@
 "Your status" = "Votre status";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Votre JID XMPP devrait être dans le format utilisateur@domaine.ext. Pour les configurations spéciales, utilisez la configuration manuelle.";
 /* quicksy country */
-"Zambia" = "Zambia";
+"Zambia" = "Zambie";
 /* quicksy country */
 "Zimbabwe" = "Zimbabwe";
 "🎥 A Video" = "🎥 Une vidéo";
