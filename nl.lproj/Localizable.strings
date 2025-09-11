@@ -1,17 +1,17 @@
 " (offline)" = " (offline)";
 /* server details */
-" running on %@" = " running on %@";
-"%02d:%02d (long press to abort)" = "%02d:%02d (long press to abort)";
+" running on %@" = " Actief op %@";
+"%02d:%02d (long press to abort)" = "%02d:%02d (Lang indrukken om af te breken)";
 "%@" = "%@";
 "%@ (%@)" = "%@ (%@)";
-"%@ (affiliation: %@)" = "%@ (affiliation: %@)";
-"%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
-"%@ hours" = "%@ hours";
+"%@ (affiliation: %@)" = "%@ (Rol: %@)";
+"%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', categorie '%3$@')";
+"%@ hours" = "%@ uur";
 "%@ says:" = "%@ zegt:";
 /* Message autdelete time */
-"1 day" = "1 day";
+"1 day" = "1 dag";
 /* Message autdelete time */
-"1 hour" = "1 hour";
+"1 hour" = "1 uur";
 "1 MiB" = "1 MiB";
 /* Message autdelete time */
 "1 minute" = "1 minute";
@@ -20,24 +20,24 @@
 "100 MiB" = "100 MiB";
 "100%" = "100%";
 /* Message autdelete time */
-"12 hours" = "12 hours";
+"12 hours" = "12 uur";
 /* Message autdelete time */
-"15 minutes" = "15 minutes";
+"15 minutes" = "15 minuten";
 /* Message autdelete time */
-"2 month" = "2 month";
+"2 month" = "2 maand";
 /* Message autdelete time */
-"3 days" = "3 days";
+"3 days" = "3 dagen";
 /* Message autdelete time */
-"3 month" = "3 month";
+"3 month" = "3 maanden";
 /* Message autdelete time */
-"30 minutes" = "30 minutes";
+"30 minutes" = "30 minuten";
 /* Message autdelete time */
-"30 seconds" = "30 seconds";
+"30 seconds" = "30 seconden";
 "33%" = "33%";
 /* Message autdelete time */
-"4 weeks" = "4 weeks";
+"4 weeks" = "4 weken";
 /* Message autdelete time */
-"5 minutes" = "5 minutes";
+"5 minutes" = "5 minuten";
 /* server details */
 "<unknown server>" = "<onbekende server>";
 /* server details */
@@ -45,11 +45,11 @@
 /* muc affiliation */
 "<unknown>" = "<onbekend>";
 "A contact was scanned through the QR code scanner" = "Een contact werd gescand door de QR-code scanner";
-"Abort" = "Abort";
+"Abort" = "Afbreken";
 "Aborted recording audio" = "Aborted recording audio";
 "About" = "Over";
-"Accept incoming calls from strangers" = "Accept incoming calls from strangers";
-"Accept incoming messages from strangers" = "Accept incoming messages from strangers";
+"Accept incoming calls from strangers" = "Accepteer inkomende oproepen van onbekenden";
+"Accept incoming messages from strangers" = "Accepteer inkomende berichten van onbekenden";
 "Access message archives on the server." = "Door berichtarchieven op server bladeren.";
 /* ShareViewController: Account */
 "Account" = "Account";
@@ -57,34 +57,34 @@
 "Account (%@)" = "Account (%@)";
 "Account (new)" = "Account (nieuw)";
 "Account already configured in Monal!" = "Account al geconfigureerd in Monal!";
-"Account already configured!" = "Account already configured!";
+"Account already configured!" = "Account al geconfigureerd!";
 "Account disabled" = "Account uitgeschakeld";
-"Account Exists" = "Deze account bestaat reeds";
+"Account Exists" = "Dit account bestaat al";
 "Account Picker" = "Account Kiezer";
 "Account: %@" = "Account: %@";
 "Activity indications" = "Activity indications";
-"Add" = "Add";
+"Add" = "Toevoegen";
 "Add %@ to your contacts?" = "%@ toevoegen aan contactpersonen?";
 "Add Account" = "Account toevoegen";
 "Add Account (advanced)" = "Account toevoegen (geavanceerd)";
-"Add contact" = "Add contact";
-"Add contact (contact requests pending)" = "Add contact (contact requests pending)";
-"Add Contact or Channel" = "Add Contact or Channel";
-"Add members to group" = "Add members to group";
+"Add contact" = "Contact toevoegen";
+"Add contact (contact requests pending)" = "Contact toevoegen (contact aanvraag in behandeling)";
+"Add Contact or Channel" = "Contact of kanaal toevoegen";
+"Add members to group" = "Voeg deelnemers toe aan groep";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Voeg nieuwe contactpersonen toe middels bovenstaande plusknop. Gesprekken worden hier getoond";
-"Add scanned contact" = "Add scanned contact";
+"Add scanned contact" = "Voeg gescanned contact toe";
 "Add to contacts" = "Voeg toe aan contacten";
-"Adding %@..." = "Adding %@...";
+"Adding %@..." = "%@ aan het toevoegen...";
 "Adding Group/Channel..." = "Groep/Kanaal toevoegen...";
-"Adding new member" = "Adding new member";
+"Adding new member" = "Nieuwe deelnemer aan het toevoegen";
 "Adding..." = "Toevoegen...";
 "Adjust the maximum file size for auto-downloads over cellular network" = "Wijzig de maximale bestandsgrootte voor automatische downloads via het telefoonnetwerk";
 "Adjust the maximum file size for auto-downloads over WiFi" = "Wijzig de maximale bestandsgrootte voor automatische downloads via WiFi";
-"Adjust the quality of images uploaded" = "Wijzig de kwaliteit van geuploade beelden";
+"Adjust the quality of images uploaded" = "Wijzig de kwaliteit van geüploade beelden";
 /* muc affiliation */
 "Admin" = "Beheerder";
 "Advanced Settings" = "Geavanceerde instellingen";
-"Affiliation: %@%@" = "Affiliation: %@%@";
+"Affiliation: %@%@" = "Rol: %@%@";
 /* quicksy country */
 "Afghanistan" = "Afghanistan";
 /* quicksy country */
@@ -93,8 +93,8 @@
 "Algeria" = "Algeria";
 "All messages are archived by default." = "Alle berichten worden standaard gearchiveerd.";
 "All messages fetched successfully, there are no more left on the server!" = "Alle berichten zijn opgehaald, geen berichten meer op de server!";
-"Allow contacts in your contact list to query your Monal and iOS versions." = "Allow contacts in your contact list to query your Monal and iOS versions.";
-"Allow contacts not in your contact list to call you." = "Allow contacts not in your contact list to call you.";
+"Allow contacts in your contact list to query your Monal and iOS versions." = "Sta contacten toe om uw Monal en IOS versie op te halen.";
+"Allow contacts not in your contact list to call you." = "Sta contacten die niet in uw contactenlijst staan toe u te bellen.";
 "Allow contacts not in your contact list to contact you." = "Allow contacts not in your contact list to contact you.";
 "Allow MITM-prone PLAIN authentication" = "Sta MITM gevoelige PLAIN authenticatie toe";
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
@@ -1349,7 +1349,7 @@
 "Version" = "Versie";
 /* server details */
 "version %@%@" = "version %1$@%2$@";
-"Very old app version" = "Very old app version";
+"Very old app version" = "Hele oude app versie";
 /* quicksy country */
 "Viet Nam" = "Viet Nam";
 "Waiting for GPS signal" = "Wachten op GPS-signaal";
