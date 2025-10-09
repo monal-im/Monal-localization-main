@@ -985,11 +985,11 @@
 /* quicksy country */
 "Eritrea" = "Eritrea";
 "Error decrypting message" = "Error decrypting message";
-/* parenthesis should be verbatim */
+/* parenthesis should remain in english */
 "Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error handling SASL challenge of server (iteration count too low), disconnecting!";
-/* parenthesis should be verbatim */
+/* parenthesis should remain in english */
 "Error handling SASL challenge of server (m-attr error), disconnecting!" = "Error handling SASL challenge of server (m-attr error), disconnecting!";
-/* parenthesis should be verbatim */
+/* parenthesis should remain in english */
 "Error handling SASL challenge of server (nonce error), disconnecting!" = "Error handling SASL challenge of server (nonce error), disconnecting!";
 "Error registering push" = "Error registering push";
 "Error while decrypting: iv.length != 12" = "Error while decrypting: iv.length != 12";
@@ -1443,6 +1443,8 @@
 "You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
 "You got removed from group/channel: %@" = "You got removed from group/channel: %@";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "You restored an iCloud backup of Monal, please open the app to reenable this account.";
+"Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!";
+"Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!";
 /* quicksy country */
 "Zambia" = "Zambia";
 /* quicksy country */

@@ -1431,10 +1431,12 @@
 "Your contact may not support calls. Your call might never reach its destination." = "您的聯絡人可能不支援呼叫。您的電話可能永遠無法到達目標。";
 "Your entered XMPP ID is missing the domain" = "您輸入的 XMPP ID 缺少域名";
 "Your entered XMPP ID is missing the username" = "您輸入的 XMPP ID 缺少使用者名稱";
+"Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!";
 "Your server does not provide a MUC component." = "您的伺服器不提供 MUC 元件。";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "您的伺服器不支持MAM（XEP-0313）。這意味著您可能會經常錯過收到的訊息！！您應該切換伺服器或與伺服器管理員聯絡以啟用此功能！";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "您的伺服器不支援 PUSH （XEP-0357）。這意味著您必須手動打開應用程式才能檢索新的傳入訊息！！您應該切換伺服器或與伺服器管理員聯繫以啟用此功能！";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "您的伺服器不支持串流管理（XEP-0198）。這意味著您傳出的訊息可能會經常丟失！您應該切換伺服器或與伺服器管理員聯絡以啟用此功能！";
+"Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!";
 "Your status" = "您的狀態";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "您的 XMPP Jid 應採用 user@domain.tld 格式。對於特殊配置，請使用手動設定。";
 /* quicksy country */

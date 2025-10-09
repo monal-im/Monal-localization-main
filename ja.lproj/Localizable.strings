@@ -1431,10 +1431,12 @@
 "Your contact may not support calls. Your call might never reach its destination." = "相手先が通話に対応していない可能性があります。電話が宛先に届かないかもしれません。";
 "Your entered XMPP ID is missing the domain" = "入力された XMPP ID にドメインがありません";
 "Your entered XMPP ID is missing the username" = "入力された XMPP ID にユーザー名がありません";
+"Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!";
 "Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "サーバーは MAM (XEP-0313) に対応していません。つまり、受信メッセージを頻繁に見逃す可能性があります。これを有効にするには、サーバーを切り替えるか、サーバー管理者に相談する必要があります。";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "サーバーは PUSH (XEP-0357) に対応していません。つまり、新しい受信メッセージを取得するには、アプリを手動で開く必要があります。これを有効にするには、サーバーを切り替えるか、サーバー管理者に相談する必要があります。";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "サーバーはストリーム管理 (XEP-0198) に対応していません。つまり、送信メッセージが頻繁に失われる可能性があります。これを有効にするには、サーバーを切り替えるか、サーバー管理者に相談する必要があります。";
+"Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!";
 "Your status" = "状況";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "XMPP JID は user@domain.tld の形式である必要があります。特殊な場合は、手動セットアップを使用してください。";
 /* quicksy country */
