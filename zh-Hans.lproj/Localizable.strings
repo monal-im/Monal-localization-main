@@ -575,11 +575,11 @@
 "Grenada" = "格林纳达";
 "Group Avatar" = "群聊头像";
 /* placeholder when editing a group description */
-"Group Description (optional)" = "群聊描述（可选）";
+"Group Description (optional)" = "群聊描述（选填）";
 "Group Members" = "群聊成员";
 "Group name" = "群聊名";
 /* placeholder when creating new group */
-"Group Name (optional)" = "群聊名（可选）";
+"Group Name (optional)" = "群聊名（选填）";
 "Group subject:" = "群聊主题：";
 "Group/Channel description" = "群聊/频道描述";
 "Group/Channel got destroyed: %@" = "群聊/频道已解散：%@";
@@ -763,7 +763,7 @@
 "Messages are encrypted" = "消息已加密";
 "Messages are NOT encrypted" = "消息未加密";
 "Messages never archived by default." = "默认永不归档消息。";
-"Method: %@" = "方式：%@";
+"Method: %@" = "方法：%@";
 /* quicksy country */
 "Mexico" = "墨西哥";
 /* quicksy country */
@@ -778,10 +778,10 @@
 /* quicksy country */
 "Monaco" = "摩纳哥";
 "Monal" = "Monal";
-"Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal 目前信任此密钥，但尚未比较指纹。为了提高安全性，请在信任此密钥之前与联系人确认显示的指纹确实匹配！";
+"Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal 目前信任此密钥，但尚未进行指纹比对。为了提高安全性，请在信任此密钥之前与联系人确认显示的指纹是否匹配！";
 "Monal did not received a gps location. Please try again later." = "Monal 未收到 GPS 定位。请稍后重试。";
 "Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal 无法访问您的位置。请在设备的隐私设置中更新位置访问权限。";
-"Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal 不信任此密钥。该密钥要么是被手动禁用，要么是在联系人其他密钥已验证的情况下未手动验证。您可以通过切换元素来信任此密钥。在信任此密钥之前，请务必与联系人确认指纹是否匹配。";
+"Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal 不信任此密钥。该密钥要么是被手动禁用，要么是在联系人其他密钥已验证的情况下未手动验证。您可以通过切换控件来信任此密钥。在信任此密钥之前，请务必与联系人确认指纹是否匹配。";
 /* Camera permissions missing warning */
 "Monal is not allowed to access the camera" = "不允许 Monal 访问相机";
 "Monal was not able to send your attachment!" = "Monal 无法发送您的附件！";
@@ -830,7 +830,7 @@
 "Niue" = "纽埃";
 "No" = "否";
 "No account available to handel 'xmpp:' URI!" = "没有账号可用于处理 'xmpp:' URL！";
-"No accounts set up currently" = "账号目前没有设置";
+"No accounts set up currently" = "目前未设置账号";
 "No active conversations" = "没有活动对话";
 "No connected accounts" = "没有已连接的账号";
 "No contacts to show :(" = "没有要显示的联系人 :(";
@@ -846,7 +846,7 @@
 "No, keep encryption activated" = "否，保持加密已激活";
 /* Crash reporting */
 "No, thanks" = "不，谢谢";
-"None" = "没有";
+"None" = "无";
 /* quicksy country */
 "Northern Marianas" = "北马里亚纳群岛";
 /* quicksy country */
@@ -1010,7 +1010,7 @@
 /* Chat msg action */
 "Retract" = "撤回";
 "Retry" = "重试";
-"Retry sending message?" = "重发消息？";
+"Retry sending message?" = "重试发送消息？";
 "Ringing..." = "正在响铃…";
 /* quicksy country */
 "Romania" = "罗马尼亚";
@@ -1121,8 +1121,8 @@
 "Sri Lanka" = "斯里兰卡";
 "SRV entry prohibits XMPP connection for domain %@" = "SRV 条目禁止域 %@ 的 XMPP 连接";
 "Status" = "状态";
-"Status Message" = "状态信息";
-"Status message:" = "状态信息：";
+"Status Message" = "状态消息‌";
+"Status message:" = "状态消息‌：";
 "Submit A Bug" = "报告错误";
 "Success" = "成功";
 "Success!" = "成功！";
@@ -1218,7 +1218,7 @@
 "This is an embedded file that can not be opened externally." = "这是无法从外部打开的嵌入式文件。";
 "This is the software running on your server." = "这是服务器上运行的软件。";
 "This key belongs to this device and cannot be removed or disabled!" = "此密钥属于此设备，无法移除或禁用！";
-"This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "此密钥是受信任的，并通过手动比较指纹进行验证。要停止信任此密钥，请切换选项。";
+"This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "此密钥是受信任的，并通过手动比对指纹进行验证。要停止信任此密钥，请使用切换控件。";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "此密钥是受信任的，但联系人不再使用它。请考虑禁用对此密钥的信任。";
 "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "此密钥是受信任的，但联系人已很久未使用它。请考虑禁用对此密钥的信任";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "这意味着您的通话已加密，并且远程方已使用 OMEMO 加密进行验证。\n但由于您没有手动验证被呼叫者的 OMEMO 指纹，您或被呼叫者的 XMPP 服务器可能已由中间人插入了他们自己的 OMEMO 密钥。";
@@ -1421,7 +1421,7 @@
 "You need friends for this ride" = "您需要朋友来参加这次旅行";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "如果您希望其他人可以听到您的声音，您需要在 iOS 设置 -> 隐私 -> 麦克风中授予麦克风访问权限。";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "您已恢复了 Monal 的 iCloud 备份，请打开应用并重新启用此账号。";
-"You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "验证密钥后，您应该信任它。通过将下面的密钥与您联系人屏幕上的密钥比较来进行验证。双击指纹即可复制到剪贴板。";
+"You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "密钥经验证后方可信任。请将下方密钥与您联系人屏幕上的密钥进行比对验证。双击指纹即可复制到剪贴板。";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "您尝试呼叫联系人“%@”，但在您的联系人列表中找不到此联系人。";
 "You will no longer receive messages from this conversation" = "您将不再接收来自此对话的消息";
 "You will receive subsequent messages from this conversation" = "您将收到来自此对话的后续消息";
