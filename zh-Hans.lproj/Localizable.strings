@@ -138,7 +138,7 @@
 "Audio recorder record fail." = "录音机录制失败。";
 "Audio Recorder set active error: %@" = "录音机设置激活错误：%@";
 "Audio Recorder set category error: %@" = "录音机设置类别错误：%@";
-"Audio Recorder: failed to record" = "录音机：录制失败";
+"Audio Recorder: failed to record" = "录音机：无法录制";
 /* quicksy country */
 "Australia" = "澳大利亚";
 /* quicksy country */
@@ -437,7 +437,7 @@
 "Enable" = "启用";
 "Enable encryption by default for new chats" = "默认为新聊天启用加密";
 "Enabled" = "已启用";
-"Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "加密消息以较旧的格式发送，Monal 无法解密。请告诉对方更新客户端。 （GCM 错误）";
+"Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "加密消息以较旧的格式发送，Monal 无法解密。请告诉对方更新客户端。（GCM 错误）";
 "Encrypted session to this device broken beyond repair." = "此设备的加密会话已损坏且无法修复。";
 "Encryption" = "加密";
 "Encryption Keys" = "加密密钥";
@@ -501,7 +501,7 @@
 "Failed to delete own nickname" = "无法删除自己的昵称";
 "Failed to destroy group/channel '%@'" = "无法解散群聊/频道“%@”";
 "Failed to destroy group/channel '%@': timeout" = "无法解散群聊/频道“%@”：超时";
-"Failed to download file: %@" = "下载文件失败：%@";
+"Failed to download file: %@" = "无法下载文件：%@";
 "Failed to enable carbons for account %@" = "无法为账号 %@ 启用抄送";
 "Failed to encrypt file" = "无法加密文件";
 "Failed to enter Group/Channel %@" = "无法进入群聊/频道 %@";
@@ -523,9 +523,9 @@
 "Failed to remove bookmark for Group/Channel: %@" = "无法移除群聊/频道的书签：%@";
 "Failed to save bookmark for Group/Channel: %@" = "无法保存群聊/频道的书签：%@";
 "Failed to save groupchat bookmarks" = "无法保存群聊书签";
-"Failed to share file" = "分享文件失败";
-"Failed to synchronize phonebook" = "无法同步电话簿";
-"Failed to upload file: account was removed" = "上传文件失败：账号已移除";
+"Failed to share file" = "无法分享文件";
+"Failed to synchronize phonebook" = "无法同步通讯录";
+"Failed to upload file: account was removed" = "无法上传文件：账号已移除";
 "Failed to write decrypted download into cache directory" = "无法将解密的下载写入缓存目录";
 /* quicksy country */
 "Falkland Islands (Malvinas)" = "福克兰群岛（马尔维纳斯群岛）";
@@ -1224,7 +1224,7 @@
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "这意味着您的通话已加密，并且远程方已使用 OMEMO 加密进行验证。\n但由于您没有手动验证被呼叫者的 OMEMO 指纹，您或被呼叫者的 XMPP 服务器可能已由中间人插入了他们自己的 OMEMO 密钥。";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "这意味着您的通话已加密，并且远程方已使用 OMEMO 加密进行验证。\n您手动验证了使用的 OMEMO 密钥，并且不会发生中间人攻击。";
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "这意味着您的通话已加密，但无法使用 OMEMO 加密来验证远程方。\n您或被呼叫者的 XMPP 服务器可能会对您进行中间人攻击。";
-"This message failed to send (%@): %@" = "此消息发送失败（%@）：%@";
+"This message failed to send (%@): %@" = "此消息无法发送（%@）：%@";
 "This message got retracted" = "已撤回此消息";
 "This phone number is currently logged in with another device." = "此电话号码当前已通过其他设备登录。";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "此服务器似乎不支持 HTTP 文件上传（XEP-0363）。请联系管理员启用。";
@@ -1361,14 +1361,14 @@
 "We don't support any task requested by the server, account disabled: %@" = "我们不支持服务器请求的任何任务，账号已禁用：%@";
 "We don't support the single task requested by the server, account disabled: %@" = "我们不支持服务器请求的单个任务，账号已禁用：%@";
 "We sent you an SMS to %@" = "我们向您发送了一条短信到 %@";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "我们无法连接到您的账号。请检查您的用户名和密码，并确保您已连接网络。";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "我们无法连接到您的账号。请检查您的用户名和密码，并确保您已连接网络。\n\n技术错误消息：%@";
-"We will check the number **%@**. Is this okay or do you want to change the number?" = "我们将检查号码 **%@**。这样可以吗？还是要更改号码？";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "我们无法连接您的账号。请检查您的用户名和密码，并确保您已连接到互联网。";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "我们无法连接您的账号。请检查您的用户名和密码，并确保您已连接到互联网。\n\n技术错误消息：%@";
+"We will check the number **%@**. Is this okay or do you want to change the number?" = "我们将检查号码 **%@**。是否正确或者要更改号码？";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "最弱的通道绑定类型，不能防止证书/密钥被盗，但可以检测错误颁发的证书。";
 "Welcome" = "欢迎";
 "Welcome to Monal !" = "欢迎使用 Monal！";
 "Welcome to Quicksy !" = "欢迎使用 Quicksy！";
-"What call do you want to place?" = "您想拨打什么电话？";
+"What call do you want to place?" = "您要发起哪种类型的通话？";
 "When disabled, URLs will opened in your default browser (that might not be Safari)." = "禁用后，URL 将在默认浏览器（可能不是 Safari）中打开。";
 "When you start a conversation\nwith someone, they will\nshow up here." = "当您与某人开始\n对话时，他们就会\n出现在这里。";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "将文本框聚焦在连接了硬件键盘的 macOS 或 iOS 上，否则将打开软件键盘。";
@@ -1410,7 +1410,7 @@
 "Yes, deactivate encryption" = "是，停用加密";
 "You are set up and connected." = "您已设置并连接。";
 "You are set up and connected. People can message you at: %@@%@" = "您已设置并连接。别人可以通过以下方式向您发送消息：%@@%@";
-"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "您正在尝试呼叫“%@”（%@），但可使用不同账号联系此联系人。请选择要进行通话的账号。";
+"You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "您正在尝试呼叫“%@”（%@），但可使用不同账号联系此联系人。请选择用于发起通话的账号。";
 "You are using an out of date version of this app." = "您正在使用此应用的过时版本。";
 "You can customize even more, just use the button below to open the settings." = "您可以自定义更多，只需使用下面的按钮打开设置。";
 "You did not grant Monal to access your location." = "您未授权 Monal 访问您的位置。";
