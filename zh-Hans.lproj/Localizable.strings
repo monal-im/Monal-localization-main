@@ -94,8 +94,8 @@
 "All messages are archived by default." = "默认归档所有消息。";
 "All messages fetched successfully, there are no more left on the server!" = "成功获取所有消息，服务器上没有更多消息！";
 "Allow contacts in your contact list to query your Monal and iOS versions." = "允许联系人列表中的联系人查询您的 Monal 和 iOS 版本。";
-"Allow contacts not in your contact list to call you." = "允许不在您的联系人列表中的联系人给您打电话。";
-"Allow contacts not in your contact list to contact you." = "允许不在您的联系人列表中的联系人与您联系。";
+"Allow contacts not in your contact list to call you." = "允许不在您联系人列表中的联系人呼叫您。";
+"Allow contacts not in your contact list to contact you." = "允许不在您联系人列表中的联系人联系您。";
 "Allow MITM-prone PLAIN authentication" = "允许易受中间人攻击的 PLAIN 身份验证";
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "允许设备与远程方建立直接网络连接。这可能会将您的 IP 地址泄露给呼叫者/被呼叫者。";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "允许某人将您添加为联系人，可让他们看到您的个人资料照片以及您何时在线。";
@@ -254,7 +254,7 @@
 "Change Password" = "更改密码";
 "Changing affiliation" = "正在更改从属关系";
 "Changing affiliation to %@: %@" = "正在更改从属关系 %@：%@";
-"Changing Password" = "更改密码";
+"Changing Password" = "正在更改密码";
 "Channel Avatar" = "频道头像";
 "Channel name" = "频道名";
 "Channel Participants" = "频道参与者";
@@ -290,7 +290,7 @@
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "联系人和群聊/频道 XMPP 地址通常采用以下格式：name@domain.tld";
 "Contact is muted" = "联系人已静音";
 "Contact is not muted" = "联系人未静音";
-"Contact not found" = "找不到联系人";
+"Contact not found" = "未找到联系人";
 /* placeholder when adding jid */
 "Contact or Group/Channel Jid" = "联系人或群聊/频道 XMPP 地址";
 "Contact Selection" = "联系人选择";
@@ -427,7 +427,7 @@
 "Edit" = "编辑";
 /* quicksy country */
 "Egypt" = "埃及";
-"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "这可能是中间人攻击，也可能是服务器未实现 XEP-0474，也未完全实现强制执行支持 TLS 服务器端点通道绑定的 XEP-0440。无论是哪种情况，您都应该立即通知服务器管理员！账号现已禁用。";
+"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "这要么是中间人攻击，要么是服务器既未实现 XEP-0474，也未完全实现 XEP-0440（该协议强制要求支持 tls-server-end-point 通道绑定）。无论是哪种情况，您都应该立即通知服务器管理员！账号现已禁用。";
 /* quicksy country */
 "El Salvador" = "萨尔瓦多";
 /* Crash report error dialog */
@@ -781,7 +781,7 @@
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal 目前信任此密钥，但尚未比较指纹。为了提高安全性，请在信任此密钥之前与联系人确认显示的指纹确实匹配！";
 "Monal did not received a gps location. Please try again later." = "Monal 未收到 GPS 定位。请稍后重试。";
 "Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal 无法访问您的位置。请在设备的隐私设置中更新位置访问权限。";
-"Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal 不信任此密钥。此密钥可能已手动禁用或在验证该联系人的其他密钥未手动验证。您可以通过切换选项来信任此密钥。在信任此密钥之前，请与联系人确认指纹是否匹配。";
+"Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal 不信任此密钥。该密钥要么是被手动禁用，要么是在联系人其他密钥已验证的情况下未手动验证。您可以通过切换元素来信任此密钥。在信任此密钥之前，请务必与联系人确认指纹是否匹配。";
 /* Camera permissions missing warning */
 "Monal is not allowed to access the camera" = "不允许 Monal 访问相机";
 "Monal was not able to send your attachment!" = "Monal 无法发送您的附件！";
@@ -841,7 +841,7 @@
 "No OMEMO keys found" = "未找到 OMEMO 密钥";
 "No pending constact requests" = "没有待处理的联系人请求";
 "No search result." = "无搜索结果。";
-"No supported auth mechanism found, disabling account!" = "找不到支持的身份验证机制，正在禁用账号！";
+"No supported auth mechanism found, disabling account!" = "未找到支持的身份验证机制，正在禁用账号！";
 "No XMPP server!" = "没有 XMPP 服务器！";
 "No, keep encryption activated" = "否，保持加密已激活";
 /* Crash reporting */
@@ -1436,7 +1436,7 @@
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "服务器不支持消息归档管理（XEP-0313）。这意味着您可能会经常错过收到的消息！您应该切换服务器或与服务器管理员联系以启用此功能！";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "服务器不支持推送（XEP-0357）。这意味着您必须手动打开本应用才能检索新收到的消息！您应该切换服务器或与服务器管理员联系以启用此功能！";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "服务器不支持流管理（XEP-0198）。这意味着您发出的消息可能会经常丢失！您应该切换服务器或与服务器管理员联系以启用此功能！";
-"Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!";
+"Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "服务器提供了 SCRAM-PLUS 方法，但未按照 XEP-0388 强制要求使用 XEP-0440 声明任何通道绑定类型。这要么是正在进行的中间人攻击，要么是服务器配置错误，正在禁用账号！";
 "Your status" = "您的状态";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "您的 XMPP 地址的格式应为 user@domain.tld。对于特殊配置，请使用手动设置。";
 /* quicksy country */
