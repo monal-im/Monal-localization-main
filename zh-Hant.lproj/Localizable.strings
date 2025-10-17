@@ -123,7 +123,7 @@
 "Apple Push Token is not available!" = "Apple 推送令牌不可用！";
 "Approve new contact" = "批准新聯絡人";
 "Archive chat" = "封存聊天";
-"Archive Conversation" = "Archive Conversation";
+"Archive Conversation" = "存檔對話";
 "Archive only if the contact is in contact list." = "僅當聯絡人在聯絡人清單中時，才存檔。";
 "Are you sure to cancel the registration process?" = "您確定要取消註冊嗎？";
 /* quicksy country */
@@ -376,7 +376,7 @@
 "Destroy Group" = "解散群組";
 "Destroying channel..." = "正在解散頻道…";
 "Destroying group..." = "正在解散群組…";
-"Details..." = "Details...";
+"Details..." = "詳細資料...";
 "Detected a new omemo device on your account: %@" = "在您的帳號中偵測到新的 omemo 裝置：%@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "檢測到通過 SSDP 進行的持續 MITM 攻擊，中止身份驗證並禁用帳戶以限制損害。當您再次處於乾淨的網路環境中時，您應該嘗試重新啟用您的帳戶。";
 "Device ID: " = "裝置 ID: ";
@@ -937,7 +937,7 @@
 "Port: %@, Direct TLS: %@, Priority: %@" = "連接埠：％@，直接TLS：％@，優先等級：％@";
 /* quicksy country */
 "Portugal" = "葡萄牙";
-"Preferences..." = "Preferences...";
+"Preferences..." = "偏好...";
 "Previews" = "預覽";
 "Previous" = "以前";
 "Privacy" = "隱私";
@@ -1181,7 +1181,7 @@
 "The resource '%@' has the following capabilities:" = "資源 「%@」具有以下功能：";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "可選取的 XMPP 伺服器是不隸屬於 Monal 的公共伺服器。此註冊頁面僅為方便起見而提供。";
 "The server does not support blocking (XEP-0191)." = "伺服器不支援封鎖 （XEP-0191）。";
-"The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "The server tried to bind you to jid '%1$@', but you configured '%2$@', disabling account!";
+"The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "伺服器嘗試將您綁定到 jid '%1$@'，但您配置了 '%2$@'，已停用 账户！";
 "The UDP logger allows you to livestream the log to the configured IP." = "UDP 記錄器允許您將紀錄即時流式傳輸到配置的IP。";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP 記錄器允許您將紀錄即時流式傳輸到配置的IP。通過 Internet 流式傳輸時，請使用安全金鑰！\n[瞭解如何接收日誌流]（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log）。";
 "The user %@ (%@) wants to add you to their contact list" = "使用者 %1$@ （%2$@） 想把你添加到他們的聯絡人名單";
@@ -1431,12 +1431,12 @@
 "Your contact may not support calls. Your call might never reach its destination." = "您的聯絡人可能不支援呼叫。您的電話可能永遠無法到達目標。";
 "Your entered XMPP ID is missing the domain" = "您輸入的 XMPP ID 缺少域名";
 "Your entered XMPP ID is missing the username" = "您輸入的 XMPP ID 缺少使用者名稱";
-"Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!";
+"Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "您的伺服器宣告了通道綁定類型，但未提供任何 SCRAM-PLUS 方法。這很可能是持續的中間人攻擊（但也可能是伺服器配置錯誤），已停用帳戶！";
 "Your server does not provide a MUC component." = "您的伺服器不提供 MUC 元件。";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "您的伺服器不支持MAM（XEP-0313）。這意味著您可能會經常錯過收到的訊息！！您應該切換伺服器或與伺服器管理員聯絡以啟用此功能！";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "您的伺服器不支援 PUSH （XEP-0357）。這意味著您必須手動打開應用程式才能檢索新的傳入訊息！！您應該切換伺服器或與伺服器管理員聯繫以啟用此功能！";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "您的伺服器不支持串流管理（XEP-0198）。這意味著您傳出的訊息可能會經常丟失！您應該切換伺服器或與伺服器管理員聯絡以啟用此功能！";
-"Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!";
+"Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "您的伺服器提供了 SCRAM-PLUS 方法，但未使用 XEP-0440 宣告任何通道綁定類型，而這是 XEP-0388 所規定的必須項目。這可能是持續進行的中間人攻擊，或是伺服器配置錯誤，將導致帳戶被停用！";
 "Your status" = "您的狀態";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "您的 XMPP Jid 應採用 user@domain.tld 格式。對於特殊配置，請使用手動設定。";
 /* quicksy country */
