@@ -136,9 +136,9 @@
 "Audio recorder init fail." = "Échec de l'initialisation de l'enregistreur audio.";
 "Audio recorder prepareToRecord fail." = "L'enregistreur audio prepareToRecord a échoué.";
 "Audio recorder record fail." = "L'enregistrement de l'enregistreur audio échoue.";
-"Audio Recorder set active error: %@" = "Audio Recorder set active error: %@";
-"Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
-"Audio Recorder: failed to record" = "Audio Recorder: failed to record";
+"Audio Recorder set active error: %@" = "Audio Recorder set active error : %@";
+"Audio Recorder set category error: %@" = "Audio Recorder set category error : %@";
+"Audio Recorder: failed to record" = "Audio Recorder : failed to record";
 /* quicksy country */
 "Australia" = "Australie";
 /* quicksy country */
@@ -313,7 +313,7 @@
 "Could not change password" = "Le mot de passe ne peut être changé";
 "Could not change password: your account is currently not connected" = "Échec du changement de mot de passe : votre compte n'est pas connecté";
 "Could not change the password" = "Impossible de modifier le mot de passe";
-"Could not configure (new) group '%@': config option '%@' not available!" = "Could not configure (new) group '%1$@': config option '%2$@' not available!";
+"Could not configure (new) group '%@': config option '%@' not available!" = "Impossible de configurer le (nouveau) groupe '%1$@' : option de configuration '%2$@' non disponible !";
 "Could not configure group '%@'" = "Impossible de configurer le groupe '%@'";
 "Could not configure group '%@': timeout" = "Impossible de configurer le groupe '%@' : timeout";
 "Could not create group '%@': timeout" = "Impossible de créer le groupe '%@' : timeout";
@@ -1181,7 +1181,7 @@
 "The resource '%@' has the following capabilities:" = "La ressource « %@ » a les capacités suivantes :";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "Les serveurs XMPP sélectionnables sont des serveurs publics qui ne sont pas affiliés à Monal. Cette page d'inscription est fournie à titre indicatif seulement.";
 "The server does not support blocking (XEP-0191)." = "Le serveur ne supporte pas le blocage (XEP-0191).";
-"The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "The server tried to bind you to jid '%1$@', but you configured '%2$@', disabling account!";
+"The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "Le serveur a essayé de vous lier au jid '%1$@', mais vous avez configuré '%2$@', désactivant le compte !";
 "The UDP logger allows you to livestream the log to the configured IP." = "Le logger UDP vous permet de diffuser en direct le journal sur l'adresse IP configurée.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "Le logger UDP vous permet de diffuser en direct le journal sur l'adresse IP configurée. Veuillez utiliser une clé sécurisée lors de la diffusion sur Internet !\n[Découvrez comment recevoir le flux de logs](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
 "The user %@ (%@) wants to add you to their contact list" = "Le compte %1$@ (%2$@) souhaite vous ajouter à sa liste de contact";
@@ -1431,12 +1431,12 @@
 "Your contact may not support calls. Your call might never reach its destination." = "Il se peut que votre contact ne prenne pas en charge les appels. Il se peut que votre appel n'arrive jamais à destination.";
 "Your entered XMPP ID is missing the domain" = "Il manque le domaine à votre identifiant XMPP";
 "Your entered XMPP ID is missing the username" = "Il manque le nom d'utilisateur dans votre identifiant XMPP";
-"Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!";
+"Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "Votre serveur a annoncé des types de liaison de canal, mais n'a proposé aucune méthode SCRAM-PLUS. Il s'agit probablement d'une attaque de l'homme du milieu (mais il pourrait aussi s'agir d'une mauvaise configuration du serveur), désactivant le compte !";
 "Your server does not provide a MUC component." = "Votre serveur ne fournit pas de composant MUC.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Votre serveur ne supporte pas le MAM (XEP-0313). Cela signifie que vous pourrez manquer souvent des messages entrants ! Vous (ou l'administrateur du serveur) devriez revoir la configuration de votre serveur pour l'activer !";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Votre serveur ne supporte pas PUSH (XEP-0357). Cela signifie que vous devez ouvrir manuellement l'application pour récupérer les nouveaux messages entrants ! Vous devriez changer votre serveur ou parler à l'administrateur du serveur pour activer cette fonction !";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Votre serveur ne supporte pas la fonction « Stream Management » (XEP-0198). Cela signifie que vous pourrez manquer souvent des messages sortants ! Vous (ou l'administrateur du serveur) devriez revoir la configuration de votre serveur pour l'activer !";
-"Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!";
+"Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "Votre serveur proposait des méthodes SCRAM-PLUS, mais n'annonçait aucun type de liaison de canal utilisant XEP-0440, obligatoire selon XEP-0388. Il s'agit soit d'une attaque de l'homme du milieu en cours, soit d'une mauvaise configuration du serveur, désactivant le compte !";
 "Your status" = "Votre status";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Votre JID XMPP devrait être dans le format utilisateur@domaine.ext. Pour les configurations spéciales, utilisez la configuration manuelle.";
 /* quicksy country */
