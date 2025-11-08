@@ -384,6 +384,7 @@
 /* quicksy country */
 "Diego Garcia" = "迪戈岛";
 "Disable Encryption" = "禁用加密";
+"Disable encryption. This is dangerous!" = "Disable encryption. This is dangerous!";
 "Disable encryption?" = "禁用加密？";
 "Discovering devices..." = "正在发现设备…";
 "Display Name" = "显示名称";
@@ -581,6 +582,7 @@
 /* placeholder when creating new group */
 "Group Name (optional)" = "群聊名（选填）";
 "Group subject:" = "群聊主题：";
+"Group suddenly changed to public channel!" = "Group suddenly changed to public channel!";
 "Group/Channel description" = "群聊/频道描述";
 "Group/Channel got destroyed: %@" = "群聊/频道已解散：%@";
 "Group/Channel not available anymore: %@" = "群聊/频道不再可用：%@";
@@ -662,6 +664,7 @@
 "Just seen" = "刚刚上线";
 /* quicksy country */
 "Kazakhstan" = "哈萨克斯坦";
+"Keep encryption enabled" = "Keep encryption enabled";
 /* quicksy country */
 "Kenya" = "肯尼亚";
 "Keys of %@" = "%@ 的密钥";
@@ -1212,6 +1215,7 @@
 "This contact is already in your contact list" = "此联系人已在您的联系人列表中";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "此联系人可能不支持 OMEMO 加密消息。请稍后重试。";
 "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "此联系人可能不支持 OMEMO 加密消息。如果您认为有误，请稍后再次尝试启用加密。";
+"This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong." = "This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong.";
 /* Crash report error dialog */
 "This device is not configured to send email." = "此设备未配置为发送电子邮件。";
 "This invitation will expire on %@" = "此邀请将于 %@ 到期";
@@ -1316,7 +1320,6 @@
 "unsupported" = "不支持";
 "Untrusted key" = "不受信任的密钥";
 "Upload Error" = "上传错误";
-"Upload Error: your account got disconnected while requesting upload slot" = "上传错误：您的账号在请求上传插槽时断开连接";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "将文件上传到服务器与他人分享。（服务器报告的最大允许文件大小：%@）";
 "Upload Original Images" = "上传原始图片";
 "Upload Settings" = "上传设置";

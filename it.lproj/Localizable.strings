@@ -384,6 +384,7 @@
 /* quicksy country */
 "Diego Garcia" = "Diego Garcia";
 "Disable Encryption" = "Disattiva la crittografia";
+"Disable encryption. This is dangerous!" = "Disable encryption. This is dangerous!";
 "Disable encryption?" = "Disattivare la crittografia?";
 "Discovering devices..." = "Cerco dispositivi...";
 "Display Name" = "Nome";
@@ -581,6 +582,7 @@
 /* placeholder when creating new group */
 "Group Name (optional)" = "Nome gruppo (facoltativa)";
 "Group subject:" = "Argomento del gruppo:";
+"Group suddenly changed to public channel!" = "Group suddenly changed to public channel!";
 "Group/Channel description" = "Descrizione gruppo/canale";
 "Group/Channel got destroyed: %@" = "Gruppo o canale eliminato: %@";
 "Group/Channel not available anymore: %@" = "Gruppo o canale non più disponibile: %@";
@@ -662,6 +664,7 @@
 "Just seen" = "Un istante fa";
 /* quicksy country */
 "Kazakhstan" = "Kazakistan";
+"Keep encryption enabled" = "Keep encryption enabled";
 /* quicksy country */
 "Kenya" = "Kenya";
 "Keys of %@" = "Chiavi di %@";
@@ -1212,6 +1215,7 @@
 "This contact is already in your contact list" = "Questo contatto è già presente nella lista dei contatti";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Questo contatto potrebbe non supportare i messaggi cifrati con OMEMO. Riprova tra qualche istante.";
 "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "Questo contatto potrebbe non supportare i messaggi cifrati OMEMO. Prova a riattivare la crittografia fra qualche secondo, se pensi che sia un errore.";
+"This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong." = "This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong.";
 /* Crash report error dialog */
 "This device is not configured to send email." = "Questo dispositivo non è configurato per inviare E-mail.";
 "This invitation will expire on %@" = "Questo invito scadrà il %@";
@@ -1316,7 +1320,6 @@
 "unsupported" = "non supportato";
 "Untrusted key" = "Chiave non fidata";
 "Upload Error" = "Errore durante il caricamento";
-"Upload Error: your account got disconnected while requesting upload slot" = "Errore di invio: il tuo profilo è stato disconnesso durante la richiesta di uno slot di invio";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Carica i file sul server per condividerli con altri. (Dimensione massima consentita dei file indicata dal server: %@)";
 "Upload Original Images" = "Carica le immagini originali";
 "Upload Settings" = "Impostazioni di invio";

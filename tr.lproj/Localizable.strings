@@ -384,6 +384,7 @@
 /* quicksy country */
 "Diego Garcia" = "Diego Garsia";
 "Disable Encryption" = "Şifrelemeyi Devre Dışı Bırak";
+"Disable encryption. This is dangerous!" = "Disable encryption. This is dangerous!";
 "Disable encryption?" = "Şifreleme devre dışı bırakılsın mı?";
 "Discovering devices..." = "Cihazlar keşfediliyor...";
 "Display Name" = "Görünen Ad";
@@ -581,6 +582,7 @@
 /* placeholder when creating new group */
 "Group Name (optional)" = "Grup Adı (opsiyonel)";
 "Group subject:" = "Grup konusu:";
+"Group suddenly changed to public channel!" = "Group suddenly changed to public channel!";
 "Group/Channel description" = "Grup/Kanal açıklaması";
 "Group/Channel got destroyed: %@" = "Grup/Kanal yok edildi: %@";
 "Group/Channel not available anymore: %@" = "Grup/Kanal artık mevcut değil: %@";
@@ -662,6 +664,7 @@
 "Just seen" = "Az önce görüldü";
 /* quicksy country */
 "Kazakhstan" = "Kazakistan";
+"Keep encryption enabled" = "Keep encryption enabled";
 /* quicksy country */
 "Kenya" = "Kenya";
 "Keys of %@" = "Anahtarları %@";
@@ -1212,6 +1215,7 @@
 "This contact is already in your contact list" = "Bu kişi zaten kişi listenizde var";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Bu kişi OMEMO şifreli mesajları desteklemiyor olabilir. Lütfen birkaç saniye sonra tekrar deneyin.";
 "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "Bu kişi OMEMO şifreli mesajları desteklemiyor olabilir. Bunun yanlış olduğunu düşünüyorsanız, lütfen birkaç saniye içinde şifrelemeyi tekrar etkinleştirmeyi deneyin.";
+"This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong." = "This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong.";
 /* Crash report error dialog */
 "This device is not configured to send email." = "Bu cihaz e-posta göndermek için yapılandırılmamıştır.";
 "This invitation will expire on %@" = "Bu davet %@ de sona erecektir";
@@ -1316,7 +1320,6 @@
 "unsupported" = "Desteklenmiyor";
 "Untrusted key" = "Güvenilmeyen anahtar";
 "Upload Error" = "Yükleme Hatası";
-"Upload Error: your account got disconnected while requesting upload slot" = "Yükleme Hatası: Yükleme yuvası istenirken hesabınızın bağlantısı kesildi";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Dosyaları başkalarıyla paylaşmak için sunucuya yükleyin. (Sunucu tarafından bildirilen izin verilen maksimum dosya boyutu: %@)";
 "Upload Original Images" = "Orijinal Görüntüleri Yükleyin";
 "Upload Settings" = "Yükleme Ayarları";
