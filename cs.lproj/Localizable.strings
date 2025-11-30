@@ -78,9 +78,9 @@
 "Adding Group/Channel..." = "Adding Group/Channel...";
 "Adding new member" = "Adding new member";
 "Adding..." = "Adding...";
-"Adjust the maximum file size for auto-downloads over cellular network" = "Adjust the maximum file size for auto-downloads over cellular network";
-"Adjust the maximum file size for auto-downloads over WiFi" = "Adjust the maximum file size for auto-downloads over WiFi";
-"Adjust the quality of images uploaded" = "Adjust the quality of images uploaded";
+"Adjust the maximum file size for auto-downloads over cellular network" = "Upravit maximální velikost souboru, která se automaticky stáhne přes mobilní data";
+"Adjust the maximum file size for auto-downloads over WiFi" = "Upravit maximální velikost souboru, která se automaticky stáhne přes WiFi";
+"Adjust the quality of images uploaded" = "Upravit kvalitu nahrávaných obrázků";
 /* muc affiliation */
 "Admin" = "Admin";
 "Advanced Settings" = "Rozšířené nastavení";
@@ -101,7 +101,7 @@
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
 "Already present" = "Already present";
 "Already uploading this content, ignoring" = "Tento obsah je již nahráván, ignoruji";
-"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Také pozor: Smazanou historii nebudete moci načíst ani z Vašeho serveru, Monal zprávy okamžitě po stažení smaže!";
 "Always archive" = "Vždy archivovat";
 "Always use direct TLS, not STARTTLS" = "Vždy použít přímé TLS namísto STARTTLS";
 /* quicksy country */
@@ -116,7 +116,7 @@
 /* quicksy country */
 "Antigua and Barbuda" = "Antigua and Barbuda";
 "App" = "Aplikace";
-"Appearance" = "Appearance";
+"Appearance" = "Vzhled";
 "Apple Push Service" = "Služba Apple Push";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Služba Apple push by měla být vždy zapnuta. Pokud není, Vaše zařízení nemůže komunikovat se servery Applu.";
 "Apple Push Token" = "Apple Push Token";
@@ -132,7 +132,7 @@
 "Armenia" = "Armenia";
 /* quicksy country */
 "Aruba" = "Aruba";
-"Attachments" = "Attachments";
+"Attachments" = "Přílohy";
 "Audio recorder init fail." = "Audio recorder init fail.";
 "Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
 "Audio recorder record fail." = "Audio recorder record fail.";
@@ -145,8 +145,8 @@
 "Australian External Territories" = "Australian External Territories";
 /* quicksy country */
 "Austria" = "Austria";
-"Auto-Download Media and Files" = "Auto-Download Media and Files";
-"Autodelete all messages older than" = "Autodelete all messages older than";
+"Auto-Download Media and Files" = "Automaticky stahovat média a soubory";
+"Autodelete all messages older than" = "Automaticky mazat zprávy starší než";
 "Autofocus text input on chat open" = "Autofocus text input on chat open";
 "Avatar" = "Avatar";
 /* quicksy country */
@@ -159,7 +159,7 @@
 "Bangladesh" = "Bangladesh";
 /* quicksy country */
 "Barbados" = "Barbados";
-"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Varování: Zprávy budou mazány pouze při zpracování příchozích push notifikací nebo když aplikaci otevřete! Toto je obzvlášť relevantní při nastavení kratších intervalů!";
 "Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
 /* quicksy country */
 "Belarus" = "Belarus";
@@ -174,7 +174,7 @@
 /* quicksy country */
 "Bhutan" = "Bhutan";
 "Block" = "Blokovat";
-"Block Contact" = "Block Contact";
+"Block Contact" = "Zablokovat kontakt";
 "Block new contact" = "Block new contact";
 "Block user?" = "Block user?";
 /* muc affiliation */
@@ -215,10 +215,10 @@
 "Call ended: declined" = "Call ended: declined";
 "Call ended: remote busy" = "Call ended: remote busy";
 "Call security help" = "Call security help";
-"Call Type" = "Call Type";
+"Call Type" = "Typ hovoru";
 "Call was not answered" = "Call was not answered";
-"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
-"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
+"Calls: Allow P2P sessions" = "Hovory: Povolit P2P spojení";
+"Calls: Allow TURN fallback to Monal-Servers" = "Hovory: Povolit použití záložních TURN serverů Monalu";
 /* quicksy country */
 "Cambodia" = "Cambodia";
 "Camera" = "Kamera";
@@ -247,9 +247,9 @@
 "Change affiliation" = "Change affiliation";
 "Change Background Image" = "Change Background Image";
 "Change Channel Avatar" = "Change Channel Avatar";
-"Change Chat Background" = "Change Chat Background";
+"Change Chat Background" = "Změnit pozadí konverzace";
 "Change Group Avatar" = "Change Group Avatar";
-"Change Group Members" = "Change Group Members";
+"Change Group Members" = "Změnit členy skupiny";
 "Change it" = "Change it";
 "Change Password" = "Změnit heslo";
 "Changing affiliation" = "Changing affiliation";
@@ -260,7 +260,7 @@
 "Channel Participants" = "Channel Participants";
 "Channel subject:" = "Channel subject:";
 "Chat Background" = "Chat Background";
-"Chat background image" = "Chat background image";
+"Chat background image" = "Obrázek na pozadí chatu";
 "Check this number?" = "Check this number?";
 "Check type and size on " = "Check type and size on ";
 /* quicksy country */
@@ -268,9 +268,9 @@
 /* quicksy country */
 "China" = "China";
 "Clear Chat History" = "Vymazat historii chatu";
-"Clear chat history of this channel" = "Clear chat history of this channel";
-"Clear chat history of this contact" = "Clear chat history of this contact";
-"Clear chat history of this group" = "Clear chat history of this group";
+"Clear chat history of this channel" = "Smazat historii tohoto kanálu";
+"Clear chat history of this contact" = "Smazat historii této konverzace";
+"Clear chat history of this group" = "Smazat historii této skupiny";
 "Clear History" = "Smazat historii";
 "Clear scanned contact" = "Clear scanned contact";
 "Clear text" = "Clear text";
@@ -280,7 +280,7 @@
 "Colombia" = "Colombia";
 /* quicksy country */
 "Comoros" = "Comoros";
-"Configure the background image displayed in open chats." = "Configure the background image displayed in open chats.";
+"Configure the background image displayed in open chats." = "Nastavit obrázek zobrazovaný na pozadí otevřených konverzací.";
 /* quicksy country */
 "Congo" = "Congo";
 "Connected: %@" = "Connected: %@";
@@ -288,12 +288,12 @@
 /* server details */
 "Considerations for Server Administrators" = "Considerations for Server Administrators";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Contact and Group/Channel Jids are usually in the format: name@domain.tld";
-"Contact is muted" = "Contact is muted";
-"Contact is not muted" = "Contact is not muted";
+"Contact is muted" = "Kontakt je ztlumený";
+"Contact is not muted" = "Kontakt není ztlumený";
 "Contact not found" = "Contact not found";
 /* placeholder when adding jid */
 "Contact or Group/Channel Jid" = "Contact or Group/Channel Jid";
-"Contact Selection" = "Contact Selection";
+"Contact Selection" = "Výběr kontaktů";
 "Contacts" = "Kontakty";
 /* quicksy country */
 "Cook Islands" = "Cook Islands";
@@ -334,7 +334,7 @@
 /* Crash reporting */
 "Crash Detected" = "Crash Detected";
 "Crash Testing" = "Crash Testing";
-"Create new group" = "Create new group";
+"Create new group" = "Vytvořit novou skupinu";
 "Creating Group" = "Creating Group";
 "Creating invitation..." = "Creating invitation...";
 /* quicksy country */
@@ -357,13 +357,13 @@
 "Debug" = "Debug";
 "Debug Notification Problems" = "Debug Notification Problems";
 "Debugging" = "Debugging";
-"Default Background" = "Default Background";
+"Default Background" = "Výchozí pozadí";
 "Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "Definuje navrhovanou úpravu protokolu XMPP roster, která umožňuje verzování seznamů (rosterů) tak, aby server neodesílal rostery klientům, pokud nebyly změněny.";
 "Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription." = "Definuje protokol a schéma URI pro předem ověřené odkazy na rostery (seznamy), které automaticky umožňují třetí straně přijímat informace o přítomnosti uživatele.";
 /* Chat msg action */
 "Delete" = "Smazat";
 "Delete Account" = "Smazat účet";
-"Delete Account on Server" = "Delete Account on Server";
+"Delete Account on Server" = "Smazat účet ze serveru";
 "Delete Key" = "Delete Key";
 /* quicksy country */
 "Dem. People's Rep. of Korea" = "Dem. People's Rep. of Korea";
@@ -385,7 +385,7 @@
 "Diego Garcia" = "Diego Garcia";
 "Disable Encryption" = "Vypnout šifrování";
 "Disable encryption. This is dangerous!" = "Disable encryption. This is dangerous!";
-"Disable encryption?" = "Disable encryption?";
+"Disable encryption?" = "Vypnout šifrování?";
 "Discovering devices..." = "Discovering devices...";
 "Display Name" = "Zobrazované jméno";
 "Display Name And Message" = "Zobrazit jméno a zprávu";
@@ -398,7 +398,7 @@
 "Do you really want to delete this key?" = "Do you really want to delete this key?";
 "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards.";
 "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards.";
-"Do you really want to disable encryption for this contact?" = "Do you really want to disable encryption for this contact?";
+"Do you really want to disable encryption for this contact?" = "Skutečně chcete vypnout šifrování pro tento kontakt?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Skutečně chcete resetovat relaci OMEMO? Učiňte tak pouze v případě, že přesně víte, co děláte!";
 "Do you want to block this user from entering this group/channel?" = "Do you want to block this user from entering this group/channel?";
 "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them.";
@@ -415,7 +415,7 @@
 "Dont' trust Key" = "Dont' trust Key";
 "Download" = "Stáhnout";
 "Download error" = "Chyba stahování";
-"Download Settings" = "Download Settings";
+"Download Settings" = "Nastavení stahování";
 "Draft:" = "Koncept:";
 "Duplicate Account" = "Duplikovat účet";
 "Duplicate Account!" = "Duplicate Account!";
@@ -435,12 +435,12 @@
 "Email Error" = "Email Error";
 "Email Support" = "E-mailová podpora";
 "Empty Values!" = "Empty Values!";
-"Enable" = "Enable";
-"Enable encryption by default for new chats" = "Enable encryption by default for new chats";
+"Enable" = "Povolit";
+"Enable encryption by default for new chats" = "Povolit automatické šifrování pro nové konverzace";
 "Enabled" = "Povoleno";
 "Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "Šifrovaná zpráva byla odeslána ve starším formátu, který Monal nemůže dešifrovat. Prosíme, požádejte odesílatele, aby si aktualizoval svého klienta. (GCM error)";
 "Encrypted session to this device broken beyond repair." = "Encrypted session to this device broken beyond repair.";
-"Encryption" = "Encryption";
+"Encryption" = "Šifrování";
 "Encryption Keys" = "Šifrovací klíče";
 "Encryption Keys (OMEMO)" = "Šifrovací klíče (OMEMO)";
 "Encryption Not Supported" = "Šifrování není podporováno";
@@ -487,7 +487,7 @@
 /* quicksy country */
 "Ethiopia" = "Ethiopia";
 "Even more to customize!" = "Even more to customize!";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "U každého nově přidaného kontaktu bude šifrování zapnuto, u existujících kontaktů však nastavení nebude změněno.";
 "Failed to block contact %@" = "Chyba při blokování kontaktu %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
@@ -549,14 +549,14 @@
 "French Guiana" = "French Guiana";
 /* quicksy country */
 "French Polynesia" = "French Polynesia";
-"Frequently Asked Questions" = "Frequently Asked Questions";
+"Frequently Asked Questions" = "Často kladené dotazy";
 /* quicksy country */
 "Gabon" = "Gabon";
 /* quicksy country */
 "Gambia" = "Gambia";
 "General" = "Obecné";
 "General File Transfer Settings" = "Obecná nastavení přenosu souborů";
-"General Settings" = "General Settings";
+"General Settings" = "Obecná nastavení";
 /* quicksy country */
 "Georgia" = "Georgia";
 /* quicksy country */
@@ -580,7 +580,7 @@
 "Group Members" = "Group Members";
 "Group name" = "Group name";
 /* placeholder when creating new group */
-"Group Name (optional)" = "Group Name (optional)";
+"Group Name (optional)" = "Název skupiny (volitelné)";
 "Group subject:" = "Group subject:";
 "Group suddenly changed to public channel!" = "Group suddenly changed to public channel!";
 "Group/Channel description" = "Group/Channel description";
@@ -615,7 +615,7 @@
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Pokud je toto vypnuté, zařízení nemohlo aktivovat službu push na Vašem XMPP serveru. Ujistěte se, že server podporuje XEP-0357 nebo kontaktujte správce serveru.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Pokud chcete používat zvukové zprávy, musíte Monalu povolit přístup v Nastavení (iOS) -> Soukromí -> Mikrofon.";
-"Image Upload JPEG-Quality: %@" = "Image Upload JPEG-Quality: %@";
+"Image Upload JPEG-Quality: %@" = "Kvalita nahrávaných JPEG obrázků: %@";
 "Import and trust OMEMO fingerprints from QR code" = "Import and trust OMEMO fingerprints from QR code";
 /* quicksy country */
 "India" = "India";
@@ -711,9 +711,9 @@
 /* quicksy country */
 "Lithuania" = "Lithuania";
 "Load over Cellular" = "Load over Cellular";
-"Load over cellular up to: %@ MiB" = "Load over cellular up to: %@ MiB";
+"Load over cellular up to: %@ MiB" = "Načíst přes mobilní data až: %@ MiB";
 "Load over wifi" = "Load over wifi";
-"Load over WiFi up to: %@ MiB" = "Load over WiFi up to: %@ MiB";
+"Load over WiFi up to: %@ MiB" = "Načíst přes WiFi až: %@ MiB";
 "Loading contact list" = "Načítám místní seznam kontaktů";
 "Loading Data" = "Nahrávám data";
 "Loading more Messages from Server" = "Načítání dalších zpráv ze serveru";
@@ -733,7 +733,7 @@
 "Macao, China" = "Macao, China";
 /* quicksy country */
 "Madagascar" = "Madagascar";
-"Make transfered Media and Files accessible in Files App" = "Make transfered Media and Files accessible in Files App";
+"Make transfered Media and Files accessible in Files App" = "Umožnit přístup k přeneseným médiím a souborům z aplikace Soubory";
 /* quicksy country */
 "Malawi" = "Malawi";
 /* quicksy country */
@@ -763,8 +763,8 @@
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "Zpráva byla šifrována pomocí OMEMO a již není možné ji dešifrovat";
 "Message was encrypted with OMEMO but could not be decrypted" = "Zpráva byla šifrována pomocí OMEMO, ale nebylo možné ji dešifrovat";
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u.";
-"Messages are encrypted" = "Messages are encrypted";
-"Messages are NOT encrypted" = "Messages are NOT encrypted";
+"Messages are encrypted" = "Zprávy jsou šifrovány";
+"Messages are NOT encrypted" = "Zprávy NEJSOU šifrovány";
 "Messages never archived by default." = "Zprávy nejsou nikdy archivovány jako výchozí nastavení.";
 "Method: %@" = "Method: %@";
 /* quicksy country */
@@ -773,7 +773,7 @@
 "Micronesia" = "Micronesia";
 "Migration Assistant" = "Migration Assistant";
 "Misc" = "Misc";
-"Missing Call Support" = "Missing Call Support";
+"Missing Call Support" = "Chybějící podpora hovorů";
 "Missing permission" = "Chybějící oprávnění";
 "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.\n\nUsing Monal instead of a centralized chat app therefore increases your digital sovereignty." = "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.\n\nUsing Monal instead of a centralized chat app therefore increases your digital sovereignty.";
 /* quicksy country */
@@ -846,7 +846,7 @@
 "No search result." = "Žádný výsledek vyhledávání.";
 "No supported auth mechanism found, disabling account!" = "No supported auth mechanism found, disabling account!";
 "No XMPP server!" = "No XMPP server!";
-"No, keep encryption activated" = "No, keep encryption activated";
+"No, keep encryption activated" = "Ne, ponechat šifrování zapnuté";
 /* Crash reporting */
 "No, thanks" = "No, thanks";
 "None" = "None";
@@ -855,7 +855,7 @@
 /* quicksy country */
 "Norway" = "Norway";
 "Not Authorized. Please check your credentials." = "Neautorizováno. Zkontrolujte, prosím, své přihlašovací údaje.";
-"Notes to self" = "Notes to self";
+"Notes to self" = "Poznámky";
 "Notes to self: %@" = "Notes to self: %@";
 "Notifications" = "Oznámení";
 "Notifications disabled" = "Notifications disabled";
@@ -871,7 +871,7 @@
 "Older, slower, but still secure TLS version" = "Older, slower, but still secure TLS version";
 /* quicksy country */
 "Oman" = "Oman";
-"On this device" = "On this device";
+"On this device" = "Na tomto zařízení";
 "Online" = "Online";
 "Only contacts" = "Pouze kontakty";
 "Open" = "Otevřít";
@@ -918,7 +918,7 @@
 /* quicksy country */
 "Philippines" = "Philippines";
 "Photos" = "Fotky";
-"Pin Chat" = "Pin Chat";
+"Pin Chat" = "Připnout chat";
 "Play Sounds" = "Přehrávat zvuky";
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Nejprve, prosím, přidejte účet v nastavení. Pokud jste tak již učinili, bude ho možná potřeba v nastavení povolit";
 "Please Allow Audio Access" = "Povolte, prosím, přístup ke zvuku";
@@ -941,7 +941,7 @@
 /* quicksy country */
 "Portugal" = "Portugal";
 "Preferences..." = "Preferences...";
-"Previews" = "Previews";
+"Previews" = "Náhledy";
 "Previous" = "Previous";
 "Privacy" = "Soukromí";
 "Protocol support of your server (XEPs)" = "Podpora protokolů na Vašem serveru (XEP)";
@@ -989,12 +989,12 @@
 "Registration Error" = "Registration Error";
 "Remove %@ from contacts?" = "Odstranit %@ z kontaktů?";
 "Remove %@?" = "Remove %@?";
-"Remove Account from this Device" = "Remove Account from this Device";
+"Remove Account from this Device" = "Odebrat účet z tohoto zařízení";
 "Remove Background Image" = "Remove Background Image";
 "Remove Channel Avatar" = "Remove Channel Avatar";
 "Remove Contact" = "Odstranit kontakt";
 "Remove Conversation" = "Odstranit konverzaci";
-"Remove from contacts" = "Remove from contacts";
+"Remove from contacts" = "Odstranit z kontaktů";
 "Remove Group Avatar" = "Remove Group Avatar";
 "Removing %@" = "Removing %@";
 "Removing %@..." = "Removing %@...";
@@ -1046,14 +1046,14 @@
 /* mac only string */
 "Scroll down to load more messages" = "Posunutím dolů načtete další zprávy";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections.";
-"Security" = "Security";
+"Security" = "Zabezpečení";
 "Select a background to display behind conversations with %@" = "Select a background to display behind conversations with %@";
-"Select a default background to display behind conversations." = "Select a default background to display behind conversations.";
+"Select a default background to display behind conversations." = "Vyberte výchozí pozadí, které se bude zobrazovat jako podklad konverzací.";
 "Select Action" = "Vybrat akci";
-"Select background image" = "Select background image";
+"Select background image" = "Vybrat obrázek na pozadí";
 "Select Message Archive Management (MAM) Preferences " = "Výběr nastavení pro archivaci zpráv (MAM) ";
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Vyberte zvuk při upozornění na novou zprávu. Výchozí je Xylophone.";
-"Selected Group Members" = "Selected Group Members";
+"Selected Group Members" = "Vybraní členové skupiny";
 "Send" = "Odeslat";
 "Send last interaction time" = "Send last interaction time";
 "Send Location" = "Odeslat polohu";
@@ -1094,8 +1094,8 @@
 "Seychelles" = "Seychelles";
 "Sharing failed" = "Sdílení selhalo";
 "Show inline geo location" = "Show inline geo location";
-"Show shared Media and Files" = "Show shared Media and Files";
-"Show URL previews" = "Show URL previews";
+"Show shared Media and Files" = "Zobrazit sdílená média a soubory";
+"Show URL previews" = "Zobrazovat náhledy URL";
 /* quicksy country */
 "Sierra Leone" = "Sierra Leone";
 /* quicksy country */
@@ -1162,7 +1162,7 @@
 /* quicksy country */
 "Thailand" = "Thailand";
 "The account has been deleted" = "Účet byl smazán";
-"The account has been removed" = "The account has been removed";
+"The account has been removed" = "Účet byl odebrán";
 "The account has been saved" = "Účet byl uložen";
 /* Crash reporting */
 "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!";
@@ -1175,7 +1175,7 @@
 "The jid you want to add should be in in the format user@domain.tld." = "The jid you want to add should be in in the format user@domain.tld.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "Nový kontakt bude přidán do Vašeho seznamu, jakmile potvrdí Vaši žádost.";
-"The operator of the webserver providing that URL may see your IP address." = "The operator of the webserver providing that URL may see your IP address.";
+"The operator of the webserver providing that URL may see your IP address." = "Provozovatel webového serveru na daném URL může vidět Vaši IP adresu.";
 "The password has been changed" = "Heslo bylo změněno";
 "The pin we have sent you has expired." = "The pin we have sent you has expired.";
 "The pin you have entered is incorrect." = "The pin you have entered is incorrect.";
@@ -1262,7 +1262,7 @@
 "Tokelau" = "Tokelau";
 /* quicksy country */
 "Tonga" = "Tonga";
-"Too many attempts, please try again in %@." = "Too many attempts, please try again in %@.";
+"Too many attempts, please try again in %@." = "Příliš mnoho pokusů, zkuste to prosím znovu za %@.";
 /* quicksy country */
 "Trinidad and Tobago" = "Trinidad and Tobago";
 "Trust Key" = "Trust Key";
@@ -1270,7 +1270,7 @@
 "Trusted but removed key" = "Trusted but removed key";
 "Trusted but unused key" = "Trusted but unused key";
 "Trusted but unverified key" = "Trusted but unverified key";
-"Try nevertheless" = "Try nevertheless";
+"Try nevertheless" = "Přesto zkusit";
 /* quicksy country */
 "Tunisia" = "Tunisia";
 /* quicksy country */
@@ -1291,7 +1291,7 @@
 /* quicksy country */
 "Ukraine" = "Ukraine";
 "Unable to connect to server!" = "Nelze se připojit k serveru!";
-"Unblock Contact" = "Unblock Contact";
+"Unblock Contact" = "Odblokovat kontakt";
 "Unblocking user" = "Unblocking user";
 "Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
 "Unclean appex shutown" = "Unclean appex shutown";
@@ -1312,34 +1312,34 @@
 "United States" = "United States";
 /* quicksy country */
 "United States Virgin Islands" = "United States Virgin Islands";
-"unknown" = "unknown";
+"unknown" = "není známo";
 "Unknown authentication method" = "Unknown authentication method";
 "Unknown channel-binding type" = "Unknown channel-binding type";
-"Unknown error!" = "Unknown error!";
+"Unknown error!" = "Neznámá chyba!";
 "Unread Messages Below" = "Nepřečtené zprávy níže";
-"unsupported" = "unsupported";
-"Untrusted key" = "Untrusted key";
+"unsupported" = "nepodporováno";
+"Untrusted key" = "Nedůvěryhodný klíč";
 "Upload Error" = "Chyba při nahrávání";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Nahrajte soubory na server, abyste je mohli sdílet s ostatními. (Maximální velikost souboru hlášená serverem: %@)";
-"Upload Original Images" = "Upload Original Images";
-"Upload Settings" = "Upload Settings";
+"Upload Original Images" = "Nahrávat původní obrázky";
+"Upload Settings" = "Nastavení nahrávání";
 "Uploading" = "Nahrávám";
-"Uploading avatar..." = "Uploading avatar...";
+"Uploading avatar..." = "Nahrávám avatar...";
 "Uploading file to server" = "Nahrávám soubor na server";
 /* quicksy country */
 "Uruguay" = "Uruguay";
-"Use account" = "Use account";
+"Use account" = "Použít účet";
 "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc.";
-"Use DNSSEC validation for all connections" = "Use DNSSEC validation for all connections";
-"User Interface" = "User Interface";
+"Use DNSSEC validation for all connections" = "Používat DNSSEC validaci pro všechna připojení";
+"User Interface" = "Uživatelské rozhraní";
 /* placeholder when adding account */
-"user@domain.tld" = "user@domain.tld";
+"user@domain.tld" = "uzivatel@domena.tld";
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "uživatel@domé.na/zdroj";
 /* placeholder when creating account */
-"Username" = "Username";
+"Username" = "Uživatelské jméno";
 "Username missing" = "Chybí uživatelské jméno";
-"Uses TLS client certificates for authentication" = "Uses TLS client certificates for authentication";
+"Uses TLS client certificates for authentication" = "Používá klientské TLS certifikáty pro autentikaci";
 /* quicksy country */
 "Uzbekistan" = "Uzbekistan";
 /* quicksy country */
@@ -1351,8 +1351,8 @@
 "Verify your phone number" = "Verify your phone number";
 "Version" = "Verze";
 /* server details */
-"version %@%@" = "version %1$@%2$@";
-"Very old app version" = "Very old app version";
+"version %@%@" = "verze %1$@%2$@";
+"Very old app version" = "Velmi stará verze aplikace";
 /* quicksy country */
 "Viet Nam" = "Viet Nam";
 "Waiting for GPS signal" = "Čekání na signál GPS";
@@ -1368,10 +1368,10 @@
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@";
 "We will check the number **%@**. Is this okay or do you want to change the number?" = "We will check the number **%@**. Is this okay or do you want to change the number?";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs.";
-"Welcome" = "Welcome";
-"Welcome to Monal !" = "Welcome to Monal !";
-"Welcome to Quicksy !" = "Welcome to Quicksy !";
-"What call do you want to place?" = "What call do you want to place?";
+"Welcome" = "Vítejte";
+"Welcome to Monal !" = "Vítejte v Monalu!";
+"Welcome to Quicksy !" = "Vítejte v Quicksy!";
+"What call do you want to place?" = "Jaký hovor chcete zahájit?";
 "When disabled, URLs will opened in your default browser (that might not be Safari)." = "When disabled, URLs will opened in your default browser (that might not be Safari).";
 "When you start a conversation\nwith someone, they will\nshow up here." = "When you start a conversation\nwith someone, they will\nshow up here.";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise.";
@@ -1410,38 +1410,38 @@
 /* quicksy country */
 "Yemen" = "Yemen";
 "Yes" = "Ano";
-"Yes, deactivate encryption" = "Yes, deactivate encryption";
+"Yes, deactivate encryption" = "Ano, deaktivovat šifrování";
 "You are set up and connected." = "Monal je nastaven a připojen.";
-"You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
+"You are set up and connected. People can message you at: %@@%@" = "Vše máte nastaveno a jste připojení. Lidé vám mohou posílat zprávy na: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
-"You are using an out of date version of this app." = "You are using an out of date version of this app.";
+"You are using an out of date version of this app." = "Používáte zastaralou verzi této aplikace.";
 "You can customize even more, just use the button below to open the settings." = "You can customize even more, just use the button below to open the settings.";
 "You did not grant Monal to access your location." = "Neposkytli jste Monalu přístup k Vaší poloze.";
-"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
-"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
-"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
+"You got banned from group/channel: %@" = "Byl vám zakázán přístup do skupiny/kanálu: %@";
+"You got kicked from group/channel: %@" = "Byli jste vyhozeni ze skupiny/kanálu: %@";
+"You got removed from group/channel: %@" = "Byli jste odstraněni ze skupiny/kanálu: %@";
 "You have not entered your XMPP ID yet" = "Ještě jste nezadali své XMPP ID";
 "You need friends for this ride" = "Na tuhle jízdu potřebujete přátele";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Obnovili jste Monal pomocí zálohy na iCloudu, otevřete, prosím, aplikaci a znovu povolte tento účet.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard.";
-"You tried to call contact '%@' but this contact could not be found in your contact list." = "You tried to call contact '%@' but this contact could not be found in your contact list.";
+"You tried to call contact '%@' but this contact could not be found in your contact list." = "Pokusili jste se zavolat kontaktu '%@', ten však nebyl nalezen v seznamu Vašich kontaktů.";
 "You will no longer receive messages from this conversation" = "Z této konverzace již nebudete dostávat zprávy";
 "You will receive subsequent messages from this conversation" = "Z této konverzace obdržíte další zprávy";
-"Your account must be enabled and connected, to be removed from the server!" = "Your account must be enabled and connected, to be removed from the server!";
-"Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again.";
+"Your account must be enabled and connected, to be removed from the server!" = "Váš účet musí být aktivovaný a připojený, aby mohl být smazán ze serveru!";
+"Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Vaše účty byly deaktivovány, neboť jste obnovili Monal ze zálohy iCloud. Pro reaktivaci prosím opětovně zadejte hesla k nim.";
 "Your answer" = "Vaše odpověď";
 "Your contact may not support calls. Your call might never reach its destination." = "Your contact may not support calls. Your call might never reach its destination.";
 "Your entered XMPP ID is missing the domain" = "Ve Vámi zadaném XMPP ID chybí doména";
 "Your entered XMPP ID is missing the username" = "Ve Vámi zadaném XMPP ID chybí uživateské jméno";
 "Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!";
-"Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
+"Your server does not provide a MUC component." = "Váš server neposkytuje komponentu pro vytváření skupinových konverzací (MUC).";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Váš server nepodporuje archivaci zpráv MAM (XEP-0313). To znamená, že můžete často zmeškat příchozí zprávy!! Změňte poskytovatele nebo kontaktujte správce serveru, aby tuto funkci povolil!";
-"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!";
+"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Váš server nepodporuje push notifikace (XEP-0357). To znamená, že musíte aplikaci ručně otevřít, abyste viděli nové příchozí zprávy!! Změňte poskytovatele nebo kontaktujte správce serveru, aby tuto funkci povolil!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Váš server nepodporuje Stream Management (XEP-0198). To znamená, že odchozí zprávy se mohou často ztrácet!! Změňte poskytovatele nebo kontaktujte správce serveru, aby tuto funkci povolil!";
 "Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!";
 "Your status" = "Váš status";
-"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup.";
+"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Vaše XMPP JID by mělo být ve formátu uzivatel@domena.tld. Pro pokročilou konfiguraci použijte ruční nastavení.";
 /* quicksy country */
 "Zambia" = "Zambia";
 /* quicksy country */
