@@ -285,6 +285,7 @@
 "Congo" = "Kongo";
 "Connected: %@" = "Konektatuta: %@";
 "Connecting..." = "Konektatzen…";
+"Connectivity issues" = "Connectivity issues";
 /* server details */
 "Considerations for Server Administrators" = "Zerbitzarien administratzaileek kontuan izatekoak";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Kontaktu eta taldeen / kanalen JIDek ondorengo formatua izan ohi dute: izena@domeinua.eus";
@@ -328,7 +329,6 @@
 "Could not read captcha!" = "Ezin izan da captcha irakurri!";
 "Could not register your username. Please check your code or change the username and try again." = "Ezin izan da zure erabiltzailearen izena eman. Egiaztatu zure kodea edo aldatu erabiltzaile izena eta saiatu berriro.";
 "Could not send" = "Ezin izan da bidali";
-"Could not synchronize" = "Ezin izan da sinkronizatu";
 "Could not upload file" = "Ezin izan da fitxategia igo";
 "Country:" = "Herrialdea:";
 /* Crash reporting */
@@ -517,10 +517,10 @@
 "Failed to publish avatar image for group/channel %@" = "%@ taldeko / kanaleko abatarra argitaratzeak kale egin du";
 "Failed to publish own avatar" = "Abatarra argitaratzeak kale egin du";
 "Failed to publish own nickname" = "Ezizena argitaratzeak kale egin du";
+"Failed to query for new messages for Group/Channel (catchup) %@" = "Failed to query for new messages for Group/Channel (catchup) %@";
 "Failed to query for new messages on account %@" = "%@ kontuko mezu berriak kontsultatzeak kale egin du";
-"Failed to query new messages for Group/Channel (catchup) %@" = "%@ taldearen / kanalaren mezu berriak lortzeak kale egin du (catchup)";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "%@ taldearen / kanalaren mezu berriak lortzeak kale egin du (stanzaid)";
 "Failed to query newest stanzaid for account %@" = "%@ kontuko stanzaid berrienak kontsultatzeak kale egin du";
+"Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
 "Failed to remove bookmark for Group/Channel: %@" = "Taldearen / kanalaren laster-marka kentzeak kale egin du: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Taldearen / kanalaren laster-marka gordetzeak kale egin du: %@";
 "Failed to save groupchat bookmarks" = "Talde-txateko laster-markak gordetzeak kale egin du";
@@ -1055,6 +1055,7 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Hautatu zein soinu joko den mezu berrien jakinarazpenetarako. Lehenetsitakoa Xylophone da.";
 "Selected Group Members" = "Hautatutako taldeko kideak";
 "Send" = "Bidali";
+"Send current location?" = "Send current location?";
 "Send last interaction time" = "Bidali azken interakzioaren data";
 "Send Location" = "Bidali kokapena";
 "Send message receipts" = "Bidali jaso izanaren agiria";
@@ -1244,6 +1245,7 @@
 "This will clear the whole chat history of this account from this device." = "Gailu honetako kontu honetako txat historia guztia garbituko du.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Zerbitzaritik eta gailutik ezabatuko du kontua, baina litekeena da datuak oraindik beste gailuren batean egotea.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "Deiak gaituko ditu zure XMPP zerbitzariak TURN zerbitzaririk eskaintzen ez badu ere.";
+"This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "Uneko abatarra kendu eta defektuzkoa ezarriko du berriro talde / kanal honetarako.";
 "This will remove this account and the associated data from this device." = "Kontu hau eta lotutako datuak kenduko ditu gailu honetatik.";
 "Timeout Error" = "Denbora agortu da";

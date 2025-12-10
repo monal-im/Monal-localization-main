@@ -285,6 +285,7 @@
 "Congo" = "Congo";
 "Connected: %@" = "Connected: %@";
 "Connecting..." = "Připojuji...";
+"Connectivity issues" = "Connectivity issues";
 /* server details */
 "Considerations for Server Administrators" = "Considerations for Server Administrators";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Contact and Group/Channel Jids are usually in the format: name@domain.tld";
@@ -328,7 +329,6 @@
 "Could not read captcha!" = "Nebylo možné přečíst captcha!";
 "Could not register your username. Please check your code or change the username and try again." = "Nebylo možné registrovat Vaše uživatelské jméno. Zkontrolujte, prosím, Váš kód nebo změňte uživatelské jméno a zkuste to znovu.";
 "Could not send" = "Could not send";
-"Could not synchronize" = "Nelze synchronizovat";
 "Could not upload file" = "Soubor nelze odeslat";
 "Country:" = "Country:";
 /* Crash reporting */
@@ -517,10 +517,10 @@
 "Failed to publish avatar image for group/channel %@" = "Failed to publish avatar image for group/channel %@";
 "Failed to publish own avatar" = "Chyba při zveřejňování vlastního avataru";
 "Failed to publish own nickname" = "Chyba při zveřejňování vlastní přezdívky";
+"Failed to query for new messages for Group/Channel (catchup) %@" = "Failed to query for new messages for Group/Channel (catchup) %@";
 "Failed to query for new messages on account %@" = "Chyba při dotazování na nové zprávy v účtu %@";
-"Failed to query new messages for Group/Channel (catchup) %@" = "Failed to query new messages for Group/Channel (catchup) %@";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "Failed to query new messages for Group/Channel (stanzaid) %@";
 "Failed to query newest stanzaid for account %@" = "Chyba při získávání nejnovějšího StanzaID pro účet %@";
+"Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
 "Failed to remove bookmark for Group/Channel: %@" = "Failed to remove bookmark for Group/Channel: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Failed to save bookmark for Group/Channel: %@";
 "Failed to save groupchat bookmarks" = "Chyba při ukládání záložek skupinových chatů";
@@ -1055,6 +1055,7 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Vyberte zvuk při upozornění na novou zprávu. Výchozí je Xylophone.";
 "Selected Group Members" = "Vybraní členové skupiny";
 "Send" = "Odeslat";
+"Send current location?" = "Send current location?";
 "Send last interaction time" = "Send last interaction time";
 "Send Location" = "Odeslat polohu";
 "Send message receipts" = "Send message receipts";
@@ -1244,6 +1245,7 @@
 "This will clear the whole chat history of this account from this device." = "Tím se z tohoto zařízení odstraní veškerá historie chatu tohoto účtu.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
+"This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
 "This will remove this account and the associated data from this device." = "Tím odeberete tento účet a přidružená data z tohoto zařízení.";
 "Timeout Error" = "Čas vypršel";

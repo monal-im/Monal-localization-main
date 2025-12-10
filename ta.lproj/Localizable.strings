@@ -285,6 +285,7 @@
 "Congo" = "காங்கோ";
 "Connected: %@" = "இணைக்கப்பட்டுள்ளது: %@";
 "Connecting..." = "இணைத்தல் ...";
+"Connectivity issues" = "Connectivity issues";
 /* server details */
 "Considerations for Server Administrators" = "சேவையக நிர்வாகிகளுக்கான பரிசீலனைகள்";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "தொடர்பு மற்றும் குழு/சேனல் சிட்ச் வழக்கமாக வடிவத்தில் உள்ளன: name@domain.tld";
@@ -328,7 +329,6 @@
 "Could not read captcha!" = "கேப்ட்சாவைப் படிக்க முடியவில்லை!";
 "Could not register your username. Please check your code or change the username and try again." = "உங்கள் பயனர்பெயரை பதிவு செய்ய முடியவில்லை. உங்கள் குறியீட்டைச் சரிபார்த்து அல்லது பயனர்பெயரை மாற்றி மீண்டும் முயற்சிக்கவும்.";
 "Could not send" = "அனுப்ப முடியவில்லை";
-"Could not synchronize" = "ஒத்திசைக்க முடியவில்லை";
 "Could not upload file" = "கோப்பைப் பதிவேற்ற முடியவில்லை";
 "Country:" = "நாடு:";
 /* Crash reporting */
@@ -517,10 +517,10 @@
 "Failed to publish avatar image for group/channel %@" = "குழு/சேனல் %@ க்கான அவதார் படத்தை வெளியிடுவதில் தோல்வி";
 "Failed to publish own avatar" = "சொந்த அவதாரத்தை வெளியிடத் தவறிவிட்டது";
 "Failed to publish own nickname" = "சொந்த புனைப்பெயரை வெளியிடத் தவறிவிட்டது";
+"Failed to query for new messages for Group/Channel (catchup) %@" = "Failed to query for new messages for Group/Channel (catchup) %@";
 "Failed to query for new messages on account %@" = "கணக்கில் புதிய செய்திகளை வினவுவதில் தோல்வி %@";
-"Failed to query new messages for Group/Channel (catchup) %@" = "குழு/சேனல் (கேட்ச்அப்) %@ க்கான புதிய செய்திகளை வினவுவதில் தோல்வி";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "குழு/சேனலுக்கான புதிய செய்திகளை வினவுவதில் தோல்வி (ச்டான்செய்ட்) %@";
 "Failed to query newest stanzaid for account %@" = "கணக்கில் புதிய ச்டான்செய்டை வினவுவதில் தோல்வி %@";
+"Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
 "Failed to remove bookmark for Group/Channel: %@" = "குழு/சேனலுக்கான புத்தகக்குறியை அகற்றுவதில் தோல்வி: %@";
 "Failed to save bookmark for Group/Channel: %@" = "குழு/சேனலுக்கான புத்தகக்குறியை சேமிப்பதில் தோல்வி: %@";
 "Failed to save groupchat bookmarks" = "குரூப்சாட் புக்மார்க்குகளை சேமிப்பதில் தோல்வி";
@@ -1055,6 +1055,7 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "புதிய செய்தி அறிவிப்புகளுடன் இயக்கப்படும் ஒலிகளைத் தேர்ந்தெடுக்கவும். சைலோஃபோன் இயல்புநிலை.";
 "Selected Group Members" = "தேர்ந்தெடுக்கப்பட்ட குழு உறுப்பினர்கள்";
 "Send" = "அனுப்பு";
+"Send current location?" = "Send current location?";
 "Send last interaction time" = "கடைசி தொடர்பு நேரத்தை அனுப்பவும்";
 "Send Location" = "இருப்பிடத்தை அனுப்பு";
 "Send message receipts" = "செய்தி ரசீதுகளை அனுப்பவும்";
@@ -1244,6 +1245,7 @@
 "This will clear the whole chat history of this account from this device." = "இந்த சாதனத்திலிருந்து இந்த கணக்கின் முழு அரட்டை வரலாற்றையும் இது அழிக்கும்.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "இது சேவையகம் மற்றும் இந்த சாதனத்திலிருந்து இந்த கணக்கையும் தொடர்புடைய தரவையும் நீக்கிவிடும். மற்ற சாதனங்களில் தரவு இன்னும் தக்கவைக்கப்படலாம்.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "உங்கள் எக்ச்எம்பிபி சேவையகம் ஒரு டர்ன் சேவையகத்தை வழங்காவிட்டாலும் இது அழைப்புகளை சாத்தியமாக்கும்.";
+"This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "இது தற்போதைய அவதார் படத்தை அகற்றி இந்த குழு/சேனலை இயல்புநிலை ஒன்றிற்கு மாற்றும்.";
 "This will remove this account and the associated data from this device." = "இது இந்த சாதனத்திலிருந்து இந்த கணக்கையும் தொடர்புடைய தரவையும் அகற்றும்.";
 "Timeout Error" = "காலக்கெடு பிழை";

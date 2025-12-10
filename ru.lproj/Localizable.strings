@@ -285,6 +285,7 @@
 "Congo" = "Конго";
 "Connected: %@" = "В сети: %@";
 "Connecting..." = "Подключение...";
+"Connectivity issues" = "Connectivity issues";
 /* server details */
 "Considerations for Server Administrators" = "Памятка администраторам серверов";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "XMPP адрес для контакта или группы/канала обычно имеет формат: name@domain.tld";
@@ -328,7 +329,6 @@
 "Could not read captcha!" = "Невозможно прочитать капчу!";
 "Could not register your username. Please check your code or change the username and try again." = "Не удалось зарегистрировать ваше имя пользователя. Пожалуйста, проверьте ваш код или попробуйте снова с другим именем пользователя.";
 "Could not send" = "Не удалось отправить";
-"Could not synchronize" = "Не удалось синхронизировать";
 "Could not upload file" = "Не удалось загрузить файл";
 "Country:" = "Страна:";
 /* Crash reporting */
@@ -517,10 +517,10 @@
 "Failed to publish avatar image for group/channel %@" = "Не удалось опубликовать аватар для группы/канала %@";
 "Failed to publish own avatar" = "Не удалось опубликовать свой аватар";
 "Failed to publish own nickname" = "Не удалось опубликовать своё имя пользователя";
+"Failed to query for new messages for Group/Channel (catchup) %@" = "Failed to query for new messages for Group/Channel (catchup) %@";
 "Failed to query for new messages on account %@" = "Не удалось проверить новые сообщения для учётной записи %@";
-"Failed to query new messages for Group/Channel (catchup) %@" = "Не удалось проверить новые сообщения для группы/канала (навёрстывание) %@";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "Не удалось проверить новые сообщения для группы/канала (идентификатор Stranza) %@";
 "Failed to query newest stanzaid for account %@" = "Не удалось запросить последний идентификатор Stranza для учётной записи %@";
+"Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
 "Failed to remove bookmark for Group/Channel: %@" = "Не удалось удалить закладку для группы/канала: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Не удалось сохранить закладку для группы/канала: %@";
 "Failed to save groupchat bookmarks" = "Не удалось сохранить закладки для групповых переписок";
@@ -1055,6 +1055,7 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Выберите звук уведомления о новом сообщении. По умолчанию используется Xylophone.";
 "Selected Group Members" = "Выберите участников группы";
 "Send" = "Отправить";
+"Send current location?" = "Send current location?";
 "Send last interaction time" = "Делиться статусом активности";
 "Send Location" = "Отправить геопозицию";
 "Send message receipts" = "Отравлять подтверждения о получении сообщений";
@@ -1244,6 +1245,7 @@
 "This will clear the whole chat history of this account from this device." = "Это приведёт у удалению с этого устройства всей истории переписок с использованием этой учётной записи.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Это приведёт к удалению этой учётной записи и всех ассоциированных с ней данных как с сервера, так и с этого устройства. Тем не менее, данные могут сохраниться на других устройствах.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "Это позволит осуществлять звонки даже в тех случаях, когда ваш XMPP сервер не предоставляет службу TURN.";
+"This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "Это приведёт к удалению аватара и вернёт этой группе/каналу стандартный внешний вид.";
 "This will remove this account and the associated data from this device." = "Это приведёт к удалению этой учётной записи и ассоциированных с ней данных с этого устройства.";
 "Timeout Error" = "Нарушены временные параметры";

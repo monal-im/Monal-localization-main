@@ -325,7 +325,6 @@
 "Could not read captcha!" = "Could not read captcha!";
 "Could not register your username. Please check your code or change the username and try again." = "Não foi possível registar o seu nome de utilizador. Por favor verifique o seu código ou altere o nome de utilizador e tente novamente.";
 "Could not send" = "Could not send";
-"Could not synchronize" = "Não foi possível sincronizar";
 "Could not upload file" = "Não foi possível enviar o ficheiro";
 "Country:" = "País:";
 /* Crash reporting */
@@ -381,6 +380,7 @@
 /* quicksy country */
 "Diego Garcia" = "Diego Garcia";
 "Disable Encryption" = "Desativar Criptografia";
+"Disable encryption. This is dangerous!" = "Disable encryption. This is dangerous!";
 "Disable encryption?" = "Disable encryption?";
 "Discovering devices..." = "A descobrir dispositivos...";
 "Display Name" = "Nome de Exibição";
@@ -514,8 +514,6 @@
 "Failed to publish own avatar" = "Falha ao publicar o próprio avatar";
 "Failed to publish own nickname" = "Falha ao publicar o próprio apelido";
 "Failed to query for new messages on account %@" = "Falha ao consultar novas mensagens na conta %@";
-"Failed to query new messages for Group/Channel (catchup) %@" = "Falha ao consultar novas mensagens para Grupo/Canal (recuperando) %@";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "Falha ao consultar novas mensagens para Grupo/Canal (stanzaid) %@";
 "Failed to query newest stanzaid for account %@" = "Falha ao consultar o Stanza ID mais recente para a conta %@";
 "Failed to remove bookmark for Group/Channel: %@" = "Falha ao remover o marcador para Grupo/Canal: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Falha ao gravar o favorito para Grupo/Canal: %@";
@@ -578,6 +576,7 @@
 /* placeholder when creating new group */
 "Group Name (optional)" = "Nome do Grupo (opcional)";
 "Group subject:" = "Assunto do grupo:";
+"Group suddenly changed to public channel!" = "Group suddenly changed to public channel!";
 "Group/Channel description" = "Descrição do Grupo/Canal";
 "Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
 "Group/Channel not available anymore: %@" = "Group/Channel not available anymore: %@";
@@ -659,6 +658,7 @@
 "Just seen" = "Visto agora";
 /* quicksy country */
 "Kazakhstan" = "Cazaquistão";
+"Keep encryption enabled" = "Keep encryption enabled";
 /* quicksy country */
 "Kenya" = "Quênia";
 "Keys of %@" = "Chaves de %@";
@@ -1204,6 +1204,7 @@
 "This contact is already in your contact list" = "Este contato já está na sua lista de contatos";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "This contact may not support OMEMO encrypted messages. Please try again in a few seconds.";
 "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "Este contato pode não suportar mensagens criptografadas OMEMO. Por favor, tente ativar a criptografia novamente em alguns segundos, se acha que isto está errado.";
+"This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong." = "This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong.";
 /* Crash report error dialog */
 "This device is not configured to send email." = "Este dispositivo não está configurado para enviar e-mails.";
 "This invitation will expire on %@" = "Este convite expirará em %@";
@@ -1444,7 +1445,8 @@
 "📷 An Image" = "📷 Uma imagem";
 "🔗 A Link" = "🔗 Uma ligação";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Rede Descentralizada :\nAproveita a natureza descentralizada do XMPP, evitando servidores centrais e aumentando a sua soberania digital.\n\n🌐 Privacidade de dados :\nNão vendemos ou rastreamos informações para terceiros (nem para mais ninguém).\n\n🔐 Criptografia de ponta a ponta :\nMensagens multi-end seguras usando o protocolo OMEMO.\n\n👨 💻 Código aberto :\nO código-fonte da app está disponível publicamente para auditoria e contribuição.";
-"Disable encryption. This is dangerous!" = "Disable encryption. This is dangerous!";
-"Group suddenly changed to public channel!" = "Group suddenly changed to public channel!";
-"Keep encryption enabled" = "Keep encryption enabled";
-"This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong." = "This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong.";
+"Connectivity issues" = "Connectivity issues";
+"Failed to query for new messages for Group/Channel (catchup) %@" = "Failed to query for new messages for Group/Channel (catchup) %@";
+"Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
+"Send current location?" = "Send current location?";
+"This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";

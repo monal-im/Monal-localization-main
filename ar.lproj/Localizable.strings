@@ -285,6 +285,7 @@
 "Congo" = "Congo";
 "Connected: %@" = "متصل: %@";
 "Connecting..." = "يتصل...";
+"Connectivity issues" = "Connectivity issues";
 /* server details */
 "Considerations for Server Administrators" = "Considerations for Server Administrators";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Contact and Group/Channel Jids are usually in the format: name@domain.tld";
@@ -328,7 +329,6 @@
 "Could not read captcha!" = "لا يمكن قراءة رمز التحقق!";
 "Could not register your username. Please check your code or change the username and try again." = "لا يمكن تسجيل اسم المستخدم. يرجى التحقق من رمزك او غير اسم المستخدم وحاول مرة اخرى.";
 "Could not send" = "لا يمكن الارسال";
-"Could not synchronize" = "Could not synchronize";
 "Could not upload file" = "لا يمكن رفع الملف";
 "Country:" = "الدولة:";
 /* Crash reporting */
@@ -517,10 +517,10 @@
 "Failed to publish avatar image for group/channel %@" = "Failed to publish avatar image for group/channel %@";
 "Failed to publish own avatar" = "Failed to publish own avatar";
 "Failed to publish own nickname" = "Failed to publish own nickname";
+"Failed to query for new messages for Group/Channel (catchup) %@" = "Failed to query for new messages for Group/Channel (catchup) %@";
 "Failed to query for new messages on account %@" = "Failed to query for new messages on account %@";
-"Failed to query new messages for Group/Channel (catchup) %@" = "Failed to query new messages for Group/Channel (catchup) %@";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "Failed to query new messages for Group/Channel (stanzaid) %@";
 "Failed to query newest stanzaid for account %@" = "Failed to query newest stanzaid for account %@";
+"Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
 "Failed to remove bookmark for Group/Channel: %@" = "Failed to remove bookmark for Group/Channel: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Failed to save bookmark for Group/Channel: %@";
 "Failed to save groupchat bookmarks" = "Failed to save groupchat bookmarks";
@@ -1055,6 +1055,7 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Select sounds that are played with new message notifications. Default is Xylophone.";
 "Selected Group Members" = "اختيار اعضاء المجموعة";
 "Send" = "ارسل";
+"Send current location?" = "Send current location?";
 "Send last interaction time" = "إرسال وقت التفاعل الأخير";
 "Send Location" = "Send Location";
 "Send message receipts" = "ارسل اشعار استلام الرسالة";
@@ -1244,6 +1245,7 @@
 "This will clear the whole chat history of this account from this device." = "This will clear the whole chat history of this account from this device.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "سيؤدي هذا إلى جعل المكالمات ممكنة حتى لو لم يوفر خادم XMPP الخاص بك خادم TURN.";
+"This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
 "This will remove this account and the associated data from this device." = "This will remove this account and the associated data from this device.";
 "Timeout Error" = "Timeout Error";

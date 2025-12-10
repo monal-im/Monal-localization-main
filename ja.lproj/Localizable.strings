@@ -285,6 +285,7 @@
 "Congo" = "Congo";
 "Connected: %@" = "接続済: %@";
 "Connecting..." = "接続中...";
+"Connectivity issues" = "Connectivity issues";
 /* server details */
 "Considerations for Server Administrators" = "サーバー管理者向けの考慮事項";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "相手先とグループ/チャンネルの JID の形式は通常の場合 name@domain.tld です";
@@ -328,7 +329,6 @@
 "Could not read captcha!" = "CAPTCHA を読めませんでした";
 "Could not register your username. Please check your code or change the username and try again." = "ユーザー名を登録できませんでした。コードを確認するかユーザー名を変更して、もう一度お試しください。";
 "Could not send" = "送信できませんでした";
-"Could not synchronize" = "同期できませんでした";
 "Could not upload file" = "ファイルをアップロードできませんでした";
 "Country:" = "国:";
 /* Crash reporting */
@@ -517,10 +517,10 @@
 "Failed to publish avatar image for group/channel %@" = "グループ/チャンネル %@ のアバター画像の公開に失敗しました";
 "Failed to publish own avatar" = "自身のアバターの公開に失敗しました";
 "Failed to publish own nickname" = "自身のニックネームの公開に失敗しました";
+"Failed to query for new messages for Group/Channel (catchup) %@" = "Failed to query for new messages for Group/Channel (catchup) %@";
 "Failed to query for new messages on account %@" = "account %@ の新しいメッセージへのクエリに失敗しました";
-"Failed to query new messages for Group/Channel (catchup) %@" = "Failed to query new messages for Group/Channel (catchup) %@";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "Failed to query new messages for Group/Channel (stanzaid) %@";
 "Failed to query newest stanzaid for account %@" = "Failed to query newest stanzaid for account %@";
+"Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
 "Failed to remove bookmark for Group/Channel: %@" = "グループ/チャンネル %@ のブックマークの除去に失敗しました";
 "Failed to save bookmark for Group/Channel: %@" = "グループ/チャンネル %@ のブックマークの保存に失敗しました";
 "Failed to save groupchat bookmarks" = "グループチャットのブックマークの保存に失敗しました";
@@ -1055,6 +1055,7 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "新しいメッセージの通知で再生されるサウンドを選択してください。デフォルトは Xylophone です。";
 "Selected Group Members" = "選択されたグループメンバー";
 "Send" = "送信";
+"Send current location?" = "Send current location?";
 "Send last interaction time" = "最後の活動時刻を送信";
 "Send Location" = "位置情報を送信";
 "Send message receipts" = "メッセージ受領を送信";
@@ -1244,6 +1245,7 @@
 "This will clear the whole chat history of this account from this device." = "これにより、このアカウントのチャット履歴すべてがこのデバイスから消去されます。";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "これにより、このアカウントと関連データがサーバーとこのデバイスから削除されます。ただし、データは他のデバイスにまだ保持されている可能性があります。";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "これにより、XMPP サーバーが TURN サーバーを提供していない場合でも通話が可能になります。";
+"This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
 "This will remove this account and the associated data from this device." = "これにより、このアカウントと関連データがこのデバイスから除去されます。";
 "Timeout Error" = "時間切れエラー";

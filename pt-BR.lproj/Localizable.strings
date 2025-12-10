@@ -285,6 +285,7 @@
 "Congo" = "Congo";
 "Connected: %@" = "Conectado: %@";
 "Connecting..." = "Conectando...";
+"Connectivity issues" = "Connectivity issues";
 /* server details */
 "Considerations for Server Administrators" = "Considerações para Administradores de Servidores";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Os IDs de Contatos e Grupos/Canais são normalmente no formato: nome@dominio.tld";
@@ -328,7 +329,6 @@
 "Could not read captcha!" = "Não foi possível ler o captcha!";
 "Could not register your username. Please check your code or change the username and try again." = "Não foi possível registrar seu nome de usuário. Por favor verifique seu código ou altere o nome de usuário e tente novamente.";
 "Could not send" = "Não foi possível enviar";
-"Could not synchronize" = "Não foi possível sincronizar";
 "Could not upload file" = "Não foi possível enviar o arquivo";
 "Country:" = "País:";
 /* Crash reporting */
@@ -517,10 +517,10 @@
 "Failed to publish avatar image for group/channel %@" = "Falha ao publicar a imagem do avatar para o grupo/canal %@";
 "Failed to publish own avatar" = "Falha ao publicar o próprio avatar";
 "Failed to publish own nickname" = "Falha ao publicar o próprio apelido";
+"Failed to query for new messages for Group/Channel (catchup) %@" = "Failed to query for new messages for Group/Channel (catchup) %@";
 "Failed to query for new messages on account %@" = "Falha ao consultar novas mensagens na conta %@";
-"Failed to query new messages for Group/Channel (catchup) %@" = "Falha ao consultar novas mensagens para Grupo/Canal (recuperando) %@";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "Falha ao consultar novas mensagens para Grupo/Canal (stanzaid) %@";
 "Failed to query newest stanzaid for account %@" = "Falha ao consultar o Stanza ID mais recente para a conta %@";
+"Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
 "Failed to remove bookmark for Group/Channel: %@" = "Falha ao remover o marcador para Grupo/Canal: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Falha ao salvar o favorito para Grupo/Canal: %@";
 "Failed to save groupchat bookmarks" = "Falha ao salvar os favoritos do groupchat";
@@ -1055,6 +1055,7 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Selecione os sons que são reproduzidos com notificações de novas mensagens. O padrão é xilofone.";
 "Selected Group Members" = "Membros do Grupo Selecionados";
 "Send" = "Enviar";
+"Send current location?" = "Send current location?";
 "Send last interaction time" = "Hora de enviar última interação";
 "Send Location" = "Local de envio";
 "Send message receipts" = "Enviar recibos de mensagens";
@@ -1244,6 +1245,7 @@
 "This will clear the whole chat history of this account from this device." = "Isto limpará todo o histórico de chat desta conta deste dispositivo.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Isso excluirá esta conta e os dados associados do servidor e deste dispositivo. No entanto, os dados ainda podem ser mantidos em outros dispositivos.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "Isso possibilitará chamadas mesmo que seu servidor XMPP não forneça um servidor TURN.";
+"This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "Isso removerá a imagem do avatar atual e reverterá este grupo/canal para o padrão.";
 "This will remove this account and the associated data from this device." = "Isto removerá esta conta e os dados associados deste dispositivo.";
 "Timeout Error" = "Erro de Tempo Limite Atingido";

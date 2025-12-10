@@ -285,6 +285,7 @@
 "Congo" = "Congo";
 "Connected: %@" = "Verbonden: %@";
 "Connecting..." = "Verbinden...";
+"Connectivity issues" = "Connectivity issues";
 /* server details */
 "Considerations for Server Administrators" = "Considerations for Server Administrators";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Contact en Groep/Kanaal Jids zijn meestal in het formaat: naam@domein.tld";
@@ -328,7 +329,6 @@
 "Could not read captcha!" = "Kan captcha niet lezen!";
 "Could not register your username. Please check your code or change the username and try again." = "Deze gebruikersnaam kon niet worden geregistreerd. Controleer je code of wijzig je gebruikersnaam en probeer opnieuw.";
 "Could not send" = "Could not send";
-"Could not synchronize" = "Kon niet synchroniseren";
 "Could not upload file" = "Kon bestand niet uploaden";
 "Country:" = "Country:";
 /* Crash reporting */
@@ -517,10 +517,10 @@
 "Failed to publish avatar image for group/channel %@" = "Mislukt om avatar afbeelding te publiceren voor groep/kanaal %@";
 "Failed to publish own avatar" = "Kon eigen profielfoto niet publiceren";
 "Failed to publish own nickname" = "Kon eigen roepnaam niet publiceren";
+"Failed to query for new messages for Group/Channel (catchup) %@" = "Failed to query for new messages for Group/Channel (catchup) %@";
 "Failed to query for new messages on account %@" = "Kon nieuwe berichten niet opvragen uit account %@";
-"Failed to query new messages for Group/Channel (catchup) %@" = "Failed to query new messages for Group/Channel (catchup) %@";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "Failed to query new messages for Group/Channel (stanzaid) %@";
 "Failed to query newest stanzaid for account %@" = "Kon nieuwste stanza-ID niet opvragen voor account %@";
+"Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
 "Failed to remove bookmark for Group/Channel: %@" = "Failed to remove bookmark for Group/Channel: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Failed to save bookmark for Group/Channel: %@";
 "Failed to save groupchat bookmarks" = "Kon bladwijzers voor groepsgesprek niet opslaan";
@@ -1055,6 +1055,7 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Kies geluiden die afgespeeld worden wanneer je nieuwe meldingen ontvangt. Het standaardgeluid is Xylofoon.";
 "Selected Group Members" = "Selected Group Members";
 "Send" = "Verzenden";
+"Send current location?" = "Send current location?";
 "Send last interaction time" = "Send last interaction time";
 "Send Location" = "Verzendlocatie";
 "Send message receipts" = "Send message receipts";
@@ -1244,6 +1245,7 @@
 "This will clear the whole chat history of this account from this device." = "Dit zal de volledige gespreksgeschiedenis van deze account op dit apparaat wissen.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
+"This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
 "This will remove this account and the associated data from this device." = "Hierdoor zal deze account en de bijhorende data verwijderd worden van dit apparaat.";
 "Timeout Error" = "Fout wegens verlopen";

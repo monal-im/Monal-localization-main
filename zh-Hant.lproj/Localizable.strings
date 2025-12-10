@@ -285,6 +285,7 @@
 "Congo" = "剛果";
 "Connected: %@" = "已接通: %@";
 "Connecting..." = "連接中...";
+"Connectivity issues" = "Connectivity issues";
 /* server details */
 "Considerations for Server Administrators" = "伺服器管理員的注意事項";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "聯絡人、群組或頻道的 Jid 通常採用以下格式：name@domain.tld";
@@ -328,7 +329,6 @@
 "Could not read captcha!" = "無法讀取 驗證碼！";
 "Could not register your username. Please check your code or change the username and try again." = "無法註冊您的使用者名稱。請檢查您的代碼或是修改使用者名稱然後再試一次。";
 "Could not send" = "無法傳送";
-"Could not synchronize" = "無法同步";
 "Could not upload file" = "無法上傳檔案";
 "Country:" = "國家：";
 /* Crash reporting */
@@ -517,10 +517,10 @@
 "Failed to publish avatar image for group/channel %@" = "無法發佈組/頻道 % 的大頭貼影像@";
 "Failed to publish own avatar" = "無法發佈自己的大頭貼";
 "Failed to publish own nickname" = "無法發佈自己的昵稱";
+"Failed to query for new messages for Group/Channel (catchup) %@" = "Failed to query for new messages for Group/Channel (catchup) %@";
 "Failed to query for new messages on account %@" = "無法查詢帳戶 %@ 上的新郵件";
-"Failed to query new messages for Group/Channel (catchup) %@" = "無法查詢群組/頻道（跟進） %@ 的新訊息";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "無法查詢群組/頻道（節 ID） %@ 的新訊息";
 "Failed to query newest stanzaid for account %@" = "查詢帳號 %@ 的最新節 id 失敗";
+"Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
 "Failed to remove bookmark for Group/Channel: %@" = "無法刪除群組/ 頻道的書籤： %@";
 "Failed to save bookmark for Group/Channel: %@" = "無法儲存群組/頻道的書籤： %@";
 "Failed to save groupchat bookmarks" = "無法保存群聊書籤";
@@ -1055,6 +1055,7 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "選取使用新訊息通知播放的音效。預設為Xylophone。";
 "Selected Group Members" = "選定的群組成員";
 "Send" = "傳送";
+"Send current location?" = "Send current location?";
 "Send last interaction time" = "傳送上次交互時間";
 "Send Location" = "傳送位置";
 "Send message receipts" = "傳送訊息回執";
@@ -1244,6 +1245,7 @@
 "This will clear the whole chat history of this account from this device." = "這將從此裝置清除此帳戶的全部聊天記錄。";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "這將從伺服器和此設備中刪除此帳戶和關聯數據。不過，數據可能仍會保留在其他裝置上。";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "即使您的 XMPP 伺服器不提供 TURN 伺服器，這也將使調用成為可能。";
+"This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "這將刪除當前頭像大頭貼，並將此群組/頻道恢復為預設群組/頻道。";
 "This will remove this account and the associated data from this device." = "這將從此裝置中刪除此帳號和相關資料。";
 "Timeout Error" = "超時錯誤";

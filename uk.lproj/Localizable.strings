@@ -285,6 +285,7 @@
 "Congo" = "Congo";
 "Connected: %@" = "Підключено: %@";
 "Connecting..." = "Підключення...";
+"Connectivity issues" = "Connectivity issues";
 /* server details */
 "Considerations for Server Administrators" = "Considerations for Server Administrators";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Jid контакту чи групи/каналу зазвичай мають формат: name@domain.tld";
@@ -328,7 +329,6 @@
 "Could not read captcha!" = "Не вдалося прочитати капчу!";
 "Could not register your username. Please check your code or change the username and try again." = "Не вдалося зареєструвати ваше ім'я користувача. Будь ласка, перевірте свій код або змініть ім'я користувача та спробуйте ще раз.";
 "Could not send" = "Не вдалося відправити";
-"Could not synchronize" = "Не вдалося синхронізувати";
 "Could not upload file" = "Не вдається завантажити файл";
 "Country:" = "Country:";
 /* Crash reporting */
@@ -517,10 +517,10 @@
 "Failed to publish avatar image for group/channel %@" = "Не вдалося опублікувати зображення аватара для групи/каналу %@";
 "Failed to publish own avatar" = "Не вдалося опублікувати власний аватар";
 "Failed to publish own nickname" = "Не вдалося опублікувати власний нікнейм";
+"Failed to query for new messages for Group/Channel (catchup) %@" = "Failed to query for new messages for Group/Channel (catchup) %@";
 "Failed to query for new messages on account %@" = "Не вдалося зробити запит на нові повідомлення для акаунта %@";
-"Failed to query new messages for Group/Channel (catchup) %@" = "Не вдалося запитати нові повідомлення для групи/каналу (catchup) %@";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "Не вдалося запитати нові повідомлення для групи/каналу (stanzaid) %@";
 "Failed to query newest stanzaid for account %@" = "Не вдалося запросити найновіший stanzaid для облікового запису %@";
+"Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
 "Failed to remove bookmark for Group/Channel: %@" = "Не вдалося видалити закладку для групи/каналу: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Не вдалося зберегти закладку для групи/каналу: %@";
 "Failed to save groupchat bookmarks" = "Не вдалося зберегти закладки групового чату";
@@ -1055,6 +1055,7 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Виберіть звуки, які відтворюються за допомогою сповіщень про нові повідомлення. За замовчуванням Xylophone.";
 "Selected Group Members" = "Selected Group Members";
 "Send" = "Відправити";
+"Send current location?" = "Send current location?";
 "Send last interaction time" = "Send last interaction time";
 "Send Location" = "Надіслати місцезнаходження";
 "Send message receipts" = "Send message receipts";
@@ -1244,6 +1245,7 @@
 "This will clear the whole chat history of this account from this device." = "Це очистить всю історію чату цього облікового запису з цього пристрою.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Цей обліковий запис і пов'язані з ним дані буде видалено з сервера і цього пристрою. Однак дані можуть залишитися на інших пристроях.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
+"This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
 "This will remove this account and the associated data from this device." = "Це видалить цей обліковий запис та пов'язані з ним дані з цього пристрою.";
 "Timeout Error" = "Помилка очікування";

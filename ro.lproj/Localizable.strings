@@ -285,6 +285,7 @@
 "Congo" = "Congo";
 "Connected: %@" = "Connected: %@";
 "Connecting..." = "Se conectează...";
+"Connectivity issues" = "Connectivity issues";
 /* server details */
 "Considerations for Server Administrators" = "Considerations for Server Administrators";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Contact and Group/Channel Jids are usually in the format: name@domain.tld";
@@ -328,7 +329,6 @@
 "Could not read captcha!" = "Could not read captcha!";
 "Could not register your username. Please check your code or change the username and try again." = "Nu s-a putut înregistra contul cu numele dumneavoastră de utilizator. Verificați codul sau schimbați numele de utilizator și încercați din nou.";
 "Could not send" = "Could not send";
-"Could not synchronize" = "Nu s-a putut sincroniza";
 "Could not upload file" = "Nu s-a putut încărca fișierul";
 "Country:" = "Country:";
 /* Crash reporting */
@@ -517,10 +517,10 @@
 "Failed to publish avatar image for group/channel %@" = "Failed to publish avatar image for group/channel %@";
 "Failed to publish own avatar" = "Nu s-a reușit publicarea propriului avatar";
 "Failed to publish own nickname" = "Nu s-a reușit publicarea propriului nume";
+"Failed to query for new messages for Group/Channel (catchup) %@" = "Failed to query for new messages for Group/Channel (catchup) %@";
 "Failed to query for new messages on account %@" = "Failed to query for new messages on account %@";
-"Failed to query new messages for Group/Channel (catchup) %@" = "Failed to query new messages for Group/Channel (catchup) %@";
-"Failed to query new messages for Group/Channel (stanzaid) %@" = "Failed to query new messages for Group/Channel (stanzaid) %@";
 "Failed to query newest stanzaid for account %@" = "Nu s-a reușit interogarea celui mai nou ID stanza pentru contul %@";
+"Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
 "Failed to remove bookmark for Group/Channel: %@" = "Failed to remove bookmark for Group/Channel: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Failed to save bookmark for Group/Channel: %@";
 "Failed to save groupchat bookmarks" = "Nu s-a reușit salvarea discuției de grup în semne de carte";
@@ -1055,6 +1055,7 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Selectați sunetele care sunt redate cu noi notificări de mesaje. Implicit este Xilofon.";
 "Selected Group Members" = "Selected Group Members";
 "Send" = "Trimite";
+"Send current location?" = "Send current location?";
 "Send last interaction time" = "Send last interaction time";
 "Send Location" = "Trimitere locație";
 "Send message receipts" = "Send message receipts";
@@ -1244,6 +1245,7 @@
 "This will clear the whole chat history of this account from this device." = "Aceasta va șterge întregul istoric al discuțiilor acestui cont de pe acest dispozitiv.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
+"This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
 "This will remove this account and the associated data from this device." = "Acesta va elimina acest cont și datele asociate de pe acest dispozitiv.";
 "Timeout Error" = "Timp de așteptare expirat";
