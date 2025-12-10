@@ -285,7 +285,7 @@
 "Congo" = "Конго";
 "Connected: %@" = "В сети: %@";
 "Connecting..." = "Подключение...";
-"Connectivity issues" = "Connectivity issues";
+"Connectivity issues" = "Проблемы с подключением";
 /* server details */
 "Considerations for Server Administrators" = "Памятка администраторам серверов";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "XMPP адрес для контакта или группы/канала обычно имеет формат: name@domain.tld";
@@ -384,7 +384,7 @@
 /* quicksy country */
 "Diego Garcia" = "Диего Гарсия";
 "Disable Encryption" = "Отключить защиту данных";
-"Disable encryption. This is dangerous!" = "Disable encryption. This is dangerous!";
+"Disable encryption. This is dangerous!" = "Отключить шифрование. Это опасно!";
 "Disable encryption?" = "Отключить шифрование?";
 "Discovering devices..." = "Поиск устройств...";
 "Display Name" = "Ваше имя";
@@ -517,7 +517,7 @@
 "Failed to publish avatar image for group/channel %@" = "Не удалось опубликовать аватар для группы/канала %@";
 "Failed to publish own avatar" = "Не удалось опубликовать свой аватар";
 "Failed to publish own nickname" = "Не удалось опубликовать своё имя пользователя";
-"Failed to query for new messages for Group/Channel (catchup) %@" = "Failed to query for new messages for Group/Channel (catchup) %@";
+"Failed to query for new messages for Group/Channel (catchup) %@" = "Не удалось запросить новые сообщения для группы/канала (catchup) %@";
 "Failed to query for new messages on account %@" = "Не удалось проверить новые сообщения для учётной записи %@";
 "Failed to query newest stanzaid for account %@" = "Не удалось запросить последний идентификатор Stranza для учётной записи %@";
 "Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
@@ -582,7 +582,7 @@
 /* placeholder when creating new group */
 "Group Name (optional)" = "Название группы (опционально)";
 "Group subject:" = "Тема группы:";
-"Group suddenly changed to public channel!" = "Group suddenly changed to public channel!";
+"Group suddenly changed to public channel!" = "Группа внезапно перешла в публичный канал!";
 "Group/Channel description" = "Описание группы/канала";
 "Group/Channel got destroyed: %@" = "Группа/канал удалена: %@";
 "Group/Channel not available anymore: %@" = "Больше нет доступа к группе/каналу: %@";
@@ -664,7 +664,7 @@
 "Just seen" = "Был только что";
 /* quicksy country */
 "Kazakhstan" = "Казахстан";
-"Keep encryption enabled" = "Keep encryption enabled";
+"Keep encryption enabled" = "Оставить шифрование включенным";
 /* quicksy country */
 "Kenya" = "Кения";
 "Keys of %@" = "Ключи для %@";
@@ -1055,7 +1055,7 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Выберите звук уведомления о новом сообщении. По умолчанию используется Xylophone.";
 "Selected Group Members" = "Выберите участников группы";
 "Send" = "Отправить";
-"Send current location?" = "Send current location?";
+"Send current location?" = "Отправить текущее местоположение?";
 "Send last interaction time" = "Делиться статусом активности";
 "Send Location" = "Отправить геопозицию";
 "Send message receipts" = "Отравлять подтверждения о получении сообщений";
@@ -1216,7 +1216,7 @@
 "This contact is already in your contact list" = "Этот контакт уже находится в вашем списке контактов";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Этот контакт может не поддерживать OMEMO шифрование сообщений. Пожалуйста, повторите попытку через несколько секунд.";
 "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "Этот контакт может не поддерживать OMEMO шифрование сообщений. Если считаете, что такого быть не должно, попробуйте активировать шифрование снова через несколько секунд.";
-"This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong." = "This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong.";
+"This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong." = "Этот контакт внезапно изменился с зашифрованной частной группы на незашифрованный общедоступный канал! Пожалуйста, свяжитесь с администратором этой группы/канала, если вы считаете, что это неправильно.";
 /* Crash report error dialog */
 "This device is not configured to send email." = "На этом устройстве не настроена возможность отправки электронной почты.";
 "This invitation will expire on %@" = "Срок этого приглашения истекает %@";
@@ -1245,7 +1245,7 @@
 "This will clear the whole chat history of this account from this device." = "Это приведёт у удалению с этого устройства всей истории переписок с использованием этой учётной записи.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Это приведёт к удалению этой учётной записи и всех ассоциированных с ней данных как с сервера, так и с этого устройства. Тем не менее, данные могут сохраниться на других устройствах.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "Это позволит осуществлять звонки даже в тех случаях, когда ваш XMPP сервер не предоставляет службу TURN.";
-"This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";
+"This will now send your current location to all participants in this chat." = "Теперь ваше текущее местоположение будет отправлено всем участникам этого чата.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "Это приведёт к удалению аватара и вернёт этой группе/каналу стандартный внешний вид.";
 "This will remove this account and the associated data from this device." = "Это приведёт к удалению этой учётной записи и ассоциированных с ней данных с этого устройства.";
 "Timeout Error" = "Нарушены временные параметры";
