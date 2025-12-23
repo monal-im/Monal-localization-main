@@ -6,7 +6,7 @@
 "%@ (%@)" = "%@ (%@)";
 "%@ (affiliation: %@)" = "%@ (affiliation: %@)";
 "%@ (type '%@', category '%@')" = "%@ (type '%@', category '%@')";
-"%@ hours" = "%@ hours";
+"%@ hours" = "%@ tundi";
 "%@ says:" = "%@ ütleb:";
 /* Message autdelete time */
 "1 day" = "1 päev";
@@ -62,20 +62,20 @@
 "Account Exists" = "Kasutajakonto on olemas";
 "Account Picker" = "Kasutajakontode valija";
 "Account: %@" = "Kasutajakonto: %@";
-"Activity indications" = "Activity indications";
+"Activity indications" = "Tegevuste näidikud";
 "Add" = "Lisa";
 "Add %@ to your contacts?" = "Add %@ to your contacts?";
-"Add Account" = "Add Account";
+"Add Account" = "Lisa kasutajakonto";
 "Add Account (advanced)" = "Add Account (advanced)";
-"Add contact" = "Add contact";
+"Add contact" = "Lisa kontakt";
 "Add contact (contact requests pending)" = "Add contact (contact requests pending)";
 "Add Contact or Channel" = "Add Contact or Channel";
 "Add members to group" = "Add members to group";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Add new contacts with the + button above. Your friends will pop up here when they can talk";
 "Add scanned contact" = "Add scanned contact";
 "Add to contacts" = "Add to contacts";
-"Adding %@..." = "Adding %@...";
-"Adding Group/Channel..." = "Adding Group/Channel...";
+"Adding %@..." = "Lisan: %@...";
+"Adding Group/Channel..." = "Lisan gruppi või kanalit...";
 "Adding new member" = "Adding new member";
 "Adding..." = "Lisan...";
 "Adjust the maximum file size for auto-downloads over cellular network" = "Adjust the maximum file size for auto-downloads over cellular network";
@@ -83,8 +83,8 @@
 "Adjust the quality of images uploaded" = "Adjust the quality of images uploaded";
 /* muc affiliation */
 "Admin" = "Peakasutaja";
-"Advanced Settings" = "Advanced Settings";
-"Affiliation: %@%@" = "Affiliation: %@%@";
+"Advanced Settings" = "Täiendavad seadistused";
+"Affiliation: %@%@" = "Kuuluvus: %@%@";
 /* quicksy country */
 "Afghanistan" = "Afganistan";
 /* quicksy country */
@@ -99,10 +99,10 @@
 "Allow MITM-prone PLAIN authentication" = "Allow MITM-prone PLAIN authentication";
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
-"Already present" = "Already present";
+"Already present" = "Juba olemas";
 "Already uploading this content, ignoring" = "See sisu on juba üleslaadimisel, eiran";
 "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!";
-"Always archive" = "Always archive";
+"Always archive" = "Arhiveeri alati";
 "Always use direct TLS, not STARTTLS" = "Always use direct TLS, not STARTTLS";
 /* quicksy country */
 "American Samoa" = "Ameerika Samoa";
@@ -122,8 +122,8 @@
 "Apple Push Token" = "Apple Push Token";
 "Apple Push Token is not available!" = "Apple Push Token is not available!";
 "Approve new contact" = "Approve new contact";
-"Archive chat" = "Archive chat";
-"Archive Conversation" = "Archive Conversation";
+"Archive chat" = "Arhiveeri vestlus";
+"Archive Conversation" = "Arhiveeri vestlus";
 "Archive only if the contact is in contact list." = "Archive only if the contact is in contact list.";
 "Are you sure to cancel the registration process?" = "Are you sure to cancel the registration process?";
 /* quicksy country */
@@ -174,13 +174,13 @@
 /* quicksy country */
 "Bhutan" = "Bhutan";
 "Block" = "Blokeeri";
-"Block Contact" = "Block Contact";
-"Block new contact" = "Block new contact";
-"Block user?" = "Block user?";
+"Block Contact" = "Blokeeri kontakt";
+"Block new contact" = "Blokeeri uus kontakt";
+"Block user?" = "Kas blokeerid kasutaja?";
 /* muc affiliation */
 "Blocked" = "Blokeeritud";
-"Blocked Users" = "Blocked Users";
-"Blocking %@" = "Blocking %@";
+"Blocked Users" = "Blokeeritud kasutajad";
+"Blocking %@" = "Blokeerin kasutajat %@";
 "Blocking is not supported by the server" = "Blocking is not supported by the server";
 "Blocking member" = "Blocking member";
 "Blocking/Unblocking Not Supported" = "Blocking/Unblocking Not Supported";
@@ -338,9 +338,9 @@
 "Creating Group" = "Creating Group";
 "Creating invitation..." = "Creating invitation...";
 /* quicksy country */
-"Croatia" = "Croatia";
+"Croatia" = "Horvaatia";
 /* quicksy country */
-"Cuba" = "Cuba";
+"Cuba" = "Kuuba";
 /* quicksy country */
 "Curaçao" = "Curaçao";
 "Current Password" = "Current Password";
@@ -349,7 +349,7 @@
 "Custom" = "Sinu valitud aeg";
 "Custom Time: " = "Custom Time: ";
 /* quicksy country */
-"Cyprus" = "Cyprus";
+"Cyprus" = "Küpros";
 /* quicksy country */
 "Czech Rep." = "Czech Rep.";
 "Database Export Failed" = "Database Export Failed";
@@ -370,7 +370,7 @@
 /* quicksy country */
 "Dem. Rep. of the Congo" = "Dem. Rep. of the Congo";
 /* quicksy country */
-"Denmark" = "Denmark";
+"Denmark" = "Taani";
 "Deny new contact" = "Deny new contact";
 "Destroy Channel" = "Destroy Channel";
 "Destroy Group" = "Destroy Group";
@@ -427,7 +427,7 @@
 /* Chat msg action */
 "Edit" = "Muuda";
 /* quicksy country */
-"Egypt" = "Egypt";
+"Egypt" = "Egiptus";
 "Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now.";
 /* quicksy country */
 "El Salvador" = "El Salvador";
@@ -483,9 +483,9 @@
 "Error: No contacts to display keys for!" = "Error: No contacts to display keys for!";
 "Error: Received OMEMO message is empty" = "Error: Received OMEMO message is empty";
 /* quicksy country */
-"Estonia" = "Estonia";
+"Estonia" = "Eesti";
 /* quicksy country */
-"Ethiopia" = "Ethiopia";
+"Ethiopia" = "Etioopia";
 "Even more to customize!" = "Even more to customize!";
 "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.";
 "Failed to block contact %@" = "Failed to block contact %@";
@@ -535,14 +535,14 @@
 "Features" = "Funktsionaalsused";
 "Fetching registration form..." = "Fetching registration form...";
 /* quicksy country */
-"Fiji" = "Fiji";
+"Fiji" = "Fidži";
 "File" = "Fail";
 "Files" = "Failid";
 "Finished fetching messages" = "Finished fetching messages";
 /* quicksy country */
-"Finland" = "Finland";
+"Finland" = "Soome";
 /* quicksy country */
-"France" = "France";
+"France" = "Prantsusmaa";
 /* quicksy country */
 "French Departments and Territories in the Indian Ocean" = "French Departments and Territories in the Indian Ocean";
 /* quicksy country */
@@ -558,9 +558,9 @@
 "General File Transfer Settings" = "General File Transfer Settings";
 "General Settings" = "General Settings";
 /* quicksy country */
-"Georgia" = "Georgia";
+"Georgia" = "Gruusia";
 /* quicksy country */
-"Germany" = "Germany";
+"Germany" = "Saksamaa";
 /* quicksy country */
 "Ghana" = "Ghana";
 /* quicksy country */
@@ -568,10 +568,10 @@
 "Got empty room config form for '%@'" = "Got empty room config form for '%@'";
 "GPS" = "GPS";
 /* quicksy country */
-"Greece" = "Greece";
+"Greece" = "Kreeka";
 "Green checkmark shield:" = "Green checkmark shield:";
 /* quicksy country */
-"Greenland" = "Greenland";
+"Greenland" = "Gröönimaa";
 /* quicksy country */
 "Grenada" = "Grenada";
 "Group Avatar" = "Group Avatar";
@@ -605,11 +605,11 @@
 /* quicksy country */
 "Hong Kong, China" = "Hong Kong, China";
 /* quicksy country */
-"Hungary" = "Hungary";
+"Hungary" = "Ungari";
 "I already have an account:" = "I already have an account:";
 "I need an account:" = "I need an account:";
 /* quicksy country */
-"Iceland" = "Iceland";
+"Iceland" = "Island";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'.";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
@@ -620,7 +620,7 @@
 "India" = "India";
 "Indicate when a particular device is active or inactive. Saves battery." = "Indicate when a particular device is active or inactive. Saves battery.";
 /* quicksy country */
-"Indonesia" = "Indonesia";
+"Indonesia" = "Indoneesia";
 "Input" = "Sisend";
 "Input is not a valid jid" = "Input is not a valid jid";
 "Interactions" = "Suhestumised";
@@ -643,29 +643,29 @@
 /* quicksy country */
 "Iran (Islamic Republic of)" = "Iran (Islamic Republic of)";
 /* quicksy country */
-"Iraq" = "Iraq";
+"Iraq" = "Iraak";
 /* quicksy country */
-"Ireland" = "Ireland";
+"Ireland" = "Iirimaa";
 /* quicksy country */
-"Israel" = "Israel";
+"Israel" = "Iisrael";
 /* QR-Code-Scanner: Camera not found */
 "It does not seem as your device has a camera. Please use a device with a camera for scanning" = "It does not seem as your device has a camera. Please use a device with a camera for scanning";
 /* quicksy country */
-"Italy" = "Italy";
+"Italy" = "Itaalia";
 /* quicksy country */
 "Jamaica" = "Jamaica";
 /* quicksy country */
-"Japan" = "Japan";
+"Japan" = "Jaapan";
 "Join Channel" = "Join Channel";
 "Join Group" = "Join Group";
 /* quicksy country */
-"Jordan" = "Jordan";
+"Jordan" = "Jordaania";
 "Just seen" = "Just seen";
 /* quicksy country */
-"Kazakhstan" = "Kazakhstan";
+"Kazakhstan" = "Kasahstan";
 "Keep encryption enabled" = "Keep encryption enabled";
 /* quicksy country */
-"Kenya" = "Kenya";
+"Kenya" = "Keenia";
 "Keys of %@" = "Keys of %@";
 "Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
 "Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
@@ -674,9 +674,9 @@
 /* quicksy country */
 "Korea (Rep. of)" = "Korea (Rep. of)";
 /* quicksy country */
-"Kuwait" = "Kuwait";
+"Kuwait" = "Kuveit";
 /* quicksy country */
-"Kyrgyzstan" = "Kyrgyzstan";
+"Kyrgyzstan" = "Kõrgõzstan";
 /* quicksy country */
 "Lao P.D.R." = "Lao P.D.R.";
 "Last seen: %@" = "Last seen: %@";
@@ -687,13 +687,13 @@
 "Last seen: 1 hour ago" = "Last seen: 1 hour ago";
 "Last seen: 1 minute ago" = "Last seen: 1 minute ago";
 /* quicksy country */
-"Latvia" = "Latvia";
+"Latvia" = "Läti";
 "Leave Channel" = "Leave Channel";
 "Leave Group" = "Leave Group";
 "Leave this conversation" = "Leave this conversation";
 "Leave this converstion?" = "Leave this converstion?";
 /* quicksy country */
-"Lebanon" = "Lebanon";
+"Lebanon" = "Liibanon";
 /* quicksy country */
 "Lesotho" = "Lesotho";
 "Let your contacts know if you are typing a message." = "Let your contacts know if you are typing a message.";
@@ -701,14 +701,14 @@
 "Let your contacts know if you received a message." = "Let your contacts know if you received a message.";
 "Let your contacts know when you last opened the app." = "Let your contacts know when you last opened the app.";
 /* quicksy country */
-"Liberia" = "Liberia";
+"Liberia" = "Libeeria";
 /* quicksy country */
-"Libya" = "Libya";
+"Libya" = "Liibüa";
 /* quicksy country */
 "Liechtenstein" = "Liechtenstein";
 "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password.";
 /* quicksy country */
-"Lithuania" = "Lithuania";
+"Lithuania" = "Leedu";
 "Load over Cellular" = "Load over Cellular";
 "Load over cellular up to: %@ MiB" = "Load over cellular up to: %@ MiB";
 "Load over wifi" = "Load over wifi";
@@ -727,18 +727,18 @@
 "Login error, account disabled: %@" = "Login error, account disabled: %@";
 "Logs" = "Logid";
 /* quicksy country */
-"Luxembourg" = "Luxembourg";
+"Luxembourg" = "Luksemburg";
 /* quicksy country */
 "Macao, China" = "Macao, China";
 /* quicksy country */
-"Madagascar" = "Madagascar";
+"Madagascar" = "Madagaskar";
 "Make transfered Media and Files accessible in Files App" = "Make transfered Media and Files accessible in Files App";
 /* quicksy country */
 "Malawi" = "Malawi";
 /* quicksy country */
-"Malaysia" = "Malaysia";
+"Malaysia" = "Malaisia";
 /* quicksy country */
-"Maldives" = "Maldives";
+"Maldives" = "Maldiivid";
 /* quicksy country */
 "Mali" = "Mali";
 /* quicksy country */
@@ -750,7 +750,7 @@
 /* quicksy country */
 "Martinique" = "Martinique";
 /* quicksy country */
-"Mauritania" = "Mauritania";
+"Mauritania" = "Mauritaania";
 /* quicksy country */
 "Mauritius" = "Mauritius";
 /* Prefix for own messages in chat overview */
@@ -767,9 +767,9 @@
 "Messages never archived by default." = "Messages never archived by default.";
 "Method: %@" = "Method: %@";
 /* quicksy country */
-"Mexico" = "Mexico";
+"Mexico" = "Mehhiko";
 /* quicksy country */
-"Micronesia" = "Micronesia";
+"Micronesia" = "Mikroneesia";
 "Migration Assistant" = "Migration Assistant";
 "Misc" = "Varia";
 "Missing Call Support" = "Missing Call Support";
@@ -789,26 +789,26 @@
 "Monal was not able to send your attachment!" = "Monal was not able to send your attachment!";
 "Monal was not able to send your attachment: %@" = "Monal was not able to send your attachment: %@";
 /* quicksy country */
-"Mongolia" = "Mongolia";
+"Mongolia" = "Mongoolia";
 /* quicksy country */
 "Montenegro" = "Montenegro";
 /* quicksy country */
 "Montserrat" = "Montserrat";
 /* quicksy country */
-"Morocco" = "Morocco";
+"Morocco" = "Maroko";
 /* quicksy country */
-"Mozambique" = "Mozambique";
+"Mozambique" = "Mosambiik";
 "My Encryption Keys" = "My Encryption Keys";
 /* quicksy country */
 "Myanmar" = "Myanmar";
 /* quicksy country */
-"Namibia" = "Namibia";
+"Namibia" = "Namiibia";
 /* quicksy country */
 "Nauru" = "Nauru";
 /* quicksy country */
 "Nepal" = "Nepal";
 /* quicksy country */
-"Netherlands" = "Netherlands";
+"Netherlands" = "Holland";
 "Never archive" = "Never archive";
 "New Account" = "New Account";
 /* quicksy country */
@@ -827,7 +827,7 @@
 /* quicksy country */
 "Niger" = "Niger";
 /* quicksy country */
-"Nigeria" = "Nigeria";
+"Nigeria" = "Nigeeria";
 /* quicksy country */
 "Niue" = "Niue";
 "No" = "Ei";
@@ -852,7 +852,7 @@
 /* quicksy country */
 "Northern Marianas" = "Northern Marianas";
 /* quicksy country */
-"Norway" = "Norway";
+"Norway" = "Norra";
 "Not Authorized. Please check your credentials." = "Not Authorized. Please check your credentials.";
 "Notes to self" = "Notes to self";
 "Notes to self: %@" = "Notes to self: %@";
@@ -869,9 +869,9 @@
 "Okay" = "Sobib";
 "Older, slower, but still secure TLS version" = "Older, slower, but still secure TLS version";
 /* quicksy country */
-"Oman" = "Oman";
+"Oman" = "Omaan";
 "On this device" = "On this device";
-"Online" = "Online";
+"Online" = "Võrgus";
 "Only contacts" = "Only contacts";
 "Open" = "Ava";
 "Open app to see more" = "Open app to see more";
@@ -893,7 +893,7 @@
 /* quicksy country */
 "Pakistan" = "Pakistan";
 /* quicksy country */
-"Palau" = "Palau";
+"Palau" = "Belau";
 /* quicksy country */
 "Panama" = "Panama";
 /* quicksy country */
@@ -911,9 +911,9 @@
 "Passwords don't match!" = "Passwords don't match!";
 "Permission Requested" = "Permission Requested";
 /* quicksy country */
-"Peru" = "Peru";
+"Peru" = "Peruu";
 /* quicksy country */
-"Philippines" = "Philippines";
+"Philippines" = "Filipiinid";
 "Photos" = "Fotod";
 "Pin Chat" = "Pin Chat";
 "Play Sounds" = "Play Sounds";
@@ -932,7 +932,7 @@
 "Please select a XMPP server or provide one." = "Please select a XMPP server or provide one.";
 "Please update!" = "Palun uuenda rakendus!";
 /* quicksy country */
-"Poland" = "Poland";
+"Poland" = "Poola";
 "Port" = "Port";
 "Port: %@, Direct TLS: %@, Priority: %@" = "Port: %@, Direct TLS: %@, Priority: %@";
 /* quicksy country */
@@ -950,7 +950,7 @@
 "Push Server" = "Push Server";
 "Pushserver Region" = "Pushserver Region";
 /* quicksy country */
-"Qatar" = "Qatar";
+"Qatar" = "Katar";
 "QR code: Fingerprints found" = "QR code: Fingerprints found";
 "QR-Code Scanner" = "QR-Code Scanner";
 /* QR-Code-Scanner */
@@ -1013,7 +1013,7 @@
 "Retry sending message?" = "Retry sending message?";
 "Ringing..." = "Heliseb…";
 /* quicksy country */
-"Romania" = "Romania";
+"Romania" = "Rumeenia";
 /* quicksy country */
 "Russian Federation" = "Russian Federation";
 /* quicksy country */
@@ -1059,7 +1059,7 @@
 "Send read receipts" = "Send read receipts";
 "Send SMS again" = "Send SMS again";
 "Send typing notifications" = "Send typing notifications";
-"Sending..." = "Sending...";
+"Sending..." = "Saadan...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Sends password in cleartext (only encrypted by TLS), not very secure";
 /* quicksy country */
 "Senegal" = "Senegal";
@@ -1089,7 +1089,7 @@
 /* Camera permissions missing warning */
 "Settings" = "Seadistused";
 /* quicksy country */
-"Seychelles" = "Seychelles";
+"Seychelles" = "Seišellid";
 "Sharing failed" = "Sharing failed";
 "Show inline geo location" = "Show inline geo location";
 "Show shared Media and Files" = "Show shared Media and Files";
@@ -1097,17 +1097,17 @@
 /* quicksy country */
 "Sierra Leone" = "Sierra Leone";
 /* quicksy country */
-"Singapore" = "Singapore";
+"Singapore" = "Singapur";
 /* quicksy country */
 "Sint Maarten (Dutch part)" = "Sint Maarten (Dutch part)";
 /* quicksy country */
-"Slovakia" = "Slovakia";
+"Slovakia" = "Slovakkia";
 /* quicksy country */
-"Slovenia" = "Slovenia";
+"Slovenia" = "Sloveenia";
 /* quicksy country */
 "Solomon Islands" = "Solomon Islands";
 /* quicksy country */
-"Somalia" = "Somalia";
+"Somalia" = "Somaalia";
 "Some debug settings." = "Some debug settings.";
 "Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
 "Something went wrong processing your request." = "Something went wrong processing your request.";
@@ -1117,7 +1117,7 @@
 /* quicksy country */
 "South Africa" = "South Africa";
 /* quicksy country */
-"Spain" = "Spain";
+"Spain" = "Hispaania";
 /* quicksy country */
 "Sri Lanka" = "Sri Lanka";
 "SRV entry prohibits XMPP connection for domain %@" = "SRV entry prohibits XMPP connection for domain %@";
@@ -1131,34 +1131,34 @@
 "Successfully destroyed group." = "Successfully destroyed group.";
 "Successfully joined group/channel %@!" = "Successfully joined group/channel %@!";
 /* quicksy country */
-"Sudan" = "Sudan";
+"Sudan" = "Sudaan";
 "Support" = "Kasutajatugi";
 /* Crash reporting */
 "Sure, send it!" = "Sure, send it!";
 /* quicksy country */
 "Suriname" = "Suriname";
 /* quicksy country */
-"Swaziland" = "Swaziland";
+"Swaziland" = "Svaasimaa";
 /* quicksy country */
-"Sweden" = "Sweden";
+"Sweden" = "Rootsi";
 /* quicksy country */
-"Switzerland" = "Switzerland";
+"Switzerland" = "Šveits";
 "Synchronize your messages on all loggedin devices." = "Synchronize your messages on all loggedin devices.";
 /* quicksy country */
 "Syrian Arab Republic" = "Syrian Arab Republic";
 /* quicksy country */
 "Taiwan, China" = "Taiwan, China";
 /* quicksy country */
-"Tajikistan" = "Tajikistan";
+"Tajikistan" = "Tadžikistan";
 "Take me to settings" = "Take me to settings";
 /* quicksy country */
-"Tanzania" = "Tanzania";
+"Tanzania" = "Tansaania";
 "Temporarily unavailable. Try again later." = "Temporarily unavailable. Try again later.";
 "Temporary failure to enter Group/Channel: %@" = "Temporary failure to enter Group/Channel: %@";
 "Terms of %@" = "Terms of %@";
 "Terms of use for %@" = "Terms of use for %@";
 /* quicksy country */
-"Thailand" = "Thailand";
+"Thailand" = "Tai";
 "The account has been deleted" = "The account has been deleted";
 "The account has been removed" = "The account has been removed";
 "The account has been saved" = "The account has been saved";
@@ -1247,7 +1247,7 @@
 "This will remove this account and the associated data from this device." = "This will remove this account and the associated data from this device.";
 "Timeout Error" = "Timeout Error";
 /* quicksy country */
-"Timor-Leste" = "Timor-Leste";
+"Timor-Leste" = "Ida-Timor";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
 "TLS Error: Bad certificate" = "TLS Error: Bad certificate";
@@ -1271,11 +1271,11 @@
 "Trusted but unverified key" = "Trusted but unverified key";
 "Try nevertheless" = "Try nevertheless";
 /* quicksy country */
-"Tunisia" = "Tunisia";
+"Tunisia" = "Tuneesia";
 /* quicksy country */
-"Turkey" = "Turkey";
+"Turkey" = "Türgi";
 /* quicksy country */
-"Turkmenistan" = "Turkmenistan";
+"Turkmenistan" = "Türkmenistan";
 /* quicksy country */
 "Turks and Caicos Islands" = "Turks and Caicos Islands";
 /* quicksy country */
@@ -1288,7 +1288,7 @@
 /* quicksy country */
 "Uganda" = "Uganda";
 /* quicksy country */
-"Ukraine" = "Ukraine";
+"Ukraine" = "Ukraina";
 "Unable to connect to server!" = "Unable to connect to server!";
 "Unblock Contact" = "Unblock Contact";
 "Unblocking user" = "Unblocking user";
@@ -1340,11 +1340,11 @@
 "Username missing" = "Username missing";
 "Uses TLS client certificates for authentication" = "Uses TLS client certificates for authentication";
 /* quicksy country */
-"Uzbekistan" = "Uzbekistan";
+"Uzbekistan" = "Usbekistan";
 /* quicksy country */
 "Vanuatu" = "Vanuatu";
 /* quicksy country */
-"Vatican" = "Vatican";
+"Vatican" = "Vatikan";
 /* quicksy country */
 "Venezuela (Bolivarian Republic of)" = "Venezuela (Bolivarian Republic of)";
 "Verify your phone number" = "Verify your phone number";
@@ -1406,7 +1406,7 @@
 "XMPP stream error: %@" = "XMPP stream error: %@";
 "Yellow checkmark shield:" = "Yellow checkmark shield:";
 /* quicksy country */
-"Yemen" = "Yemen";
+"Yemen" = "Jeemen";
 "Yes" = "Jah";
 "Yes, deactivate encryption" = "Yes, deactivate encryption";
 "You are set up and connected." = "You are set up and connected.";
@@ -1441,7 +1441,7 @@
 "Your status" = "Your status";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup.";
 /* quicksy country */
-"Zambia" = "Zambia";
+"Zambia" = "Sambia";
 /* quicksy country */
 "Zimbabwe" = "Zimbabwe";
 "🎥 A Video" = "🎥 A Video";
