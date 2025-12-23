@@ -4,7 +4,7 @@
 "%02d:%02d (long press to abort)" = "%02d:%02d (long press to abort)";
 "%@" = "%@";
 "%@ (%@)" = "%@ (%@)";
-"%@ (affiliation: %@)" = "%@ (affiliation: %@)";
+"%@ (affiliation: %@)" = "%@ (kuuluvus: %@)";
 "%@ (type '%@', category '%@')" = "%@ (type '%@', category '%@')";
 "%@ hours" = "%@ tundi";
 "%@ says:" = "%@ ütleb:";
@@ -182,7 +182,7 @@
 "Blocked Users" = "Blokeeritud kasutajad";
 "Blocking %@" = "Blokeerin kasutajat %@";
 "Blocking is not supported by the server" = "Blocking is not supported by the server";
-"Blocking member" = "Blocking member";
+"Blocking member" = "Blokeerin kasutajat";
 "Blocking/Unblocking Not Supported" = "Blocking/Unblocking Not Supported";
 /* quicksy country */
 "Bolivia (Plurinational State of)" = "Boliivia";
@@ -204,7 +204,7 @@
 "Burkina Faso" = "Burkina Faso";
 /* quicksy country */
 "Burundi" = "Burundi";
-"Call ended" = "Call ended";
+"Call ended" = "Kõne lõppes";
 "Call ended for an unknown reason" = "Call ended for an unknown reason";
 "Call ended, duration: %@" = "Call ended, duration: %@";
 "Call ended: answered with other device" = "Call ended: answered with other device";
@@ -215,7 +215,7 @@
 "Call ended: declined" = "Call ended: declined";
 "Call ended: remote busy" = "Call ended: remote busy";
 "Call security help" = "Call security help";
-"Call Type" = "Call Type";
+"Call Type" = "Kõne tüüp";
 "Call was not answered" = "Call was not answered";
 "Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
 "Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
@@ -244,22 +244,22 @@
 "Central African Rep." = "Kesk-Aafrika Vabariik";
 /* quicksy country */
 "Chad" = "Tšaad";
-"Change affiliation" = "Change affiliation";
+"Change affiliation" = "Muuda kuuluvust";
 "Change Background Image" = "Change Background Image";
 "Change Channel Avatar" = "Change Channel Avatar";
 "Change Chat Background" = "Change Chat Background";
 "Change Group Avatar" = "Change Group Avatar";
 "Change Group Members" = "Change Group Members";
-"Change it" = "Change it";
-"Change Password" = "Change Password";
-"Changing affiliation" = "Changing affiliation";
-"Changing affiliation to %@: %@" = "Changing affiliation to %@: %@";
-"Changing Password" = "Changing Password";
-"Channel Avatar" = "Channel Avatar";
-"Channel name" = "Channel name";
-"Channel Participants" = "Channel Participants";
-"Channel subject:" = "Channel subject:";
-"Chat Background" = "Chat Background";
+"Change it" = "Muuda seda";
+"Change Password" = "Muuda salasõna";
+"Changing affiliation" = "Muudan kuuluvust";
+"Changing affiliation to %@: %@" = "Muudan kuuluvuseks %@: %@";
+"Changing Password" = "Muudan salasõna";
+"Channel Avatar" = "Muudan tunnuspilti";
+"Channel name" = "Kanali nimi";
+"Channel Participants" = "Kanalil osalejad";
+"Channel subject:" = "Kanali teema:";
+"Chat Background" = "Vestluse taust";
 "Chat background image" = "Chat background image";
 "Check this number?" = "Check this number?";
 "Check type and size on " = "Check type and size on ";
@@ -271,9 +271,9 @@
 "Clear chat history of this channel" = "Clear chat history of this channel";
 "Clear chat history of this contact" = "Clear chat history of this contact";
 "Clear chat history of this group" = "Clear chat history of this group";
-"Clear History" = "Clear History";
+"Clear History" = "Kustuta ajalugu";
 "Clear scanned contact" = "Clear scanned contact";
-"Clear text" = "Clear text";
+"Clear text" = "Kustuta tekst";
 /* onboarding */
 "Close" = "Sulge";
 /* quicksy country */
@@ -283,7 +283,7 @@
 "Configure the background image displayed in open chats." = "Configure the background image displayed in open chats.";
 /* quicksy country */
 "Congo" = "Kongo Vabariik";
-"Connected: %@" = "Connected: %@";
+"Connected: %@" = "Ühendatud: %@";
 "Connecting..." = "Ühendan…";
 "Connectivity issues" = "Ühenduse vead";
 /* server details */
@@ -294,7 +294,7 @@
 "Contact not found" = "Contact not found";
 /* placeholder when adding jid */
 "Contact or Group/Channel Jid" = "Contact or Group/Channel Jid";
-"Contact Selection" = "Contact Selection";
+"Contact Selection" = "Kontakti valik";
 "Contacts" = "Kontaktid";
 /* quicksy country */
 "Cook Islands" = "Cooki saared";
@@ -332,39 +332,39 @@
 "Could not upload file" = "Could not upload file";
 "Country:" = "Riik:";
 /* Crash reporting */
-"Crash Detected" = "Crash Detected";
+"Crash Detected" = "Tuvastasin kokkujooksmise";
 "Crash Testing" = "Crash Testing";
 "Create new group" = "Create new group";
-"Creating Group" = "Creating Group";
-"Creating invitation..." = "Creating invitation...";
+"Creating Group" = "Loon gruppi...";
+"Creating invitation..." = "Koostan kutset...";
 /* quicksy country */
 "Croatia" = "Horvaatia";
 /* quicksy country */
 "Cuba" = "Kuuba";
 /* quicksy country */
 "Curaçao" = "Curaçao";
-"Current Password" = "Current Password";
-"Currently Online" = "Currently Online";
+"Current Password" = "Senine salasõna";
+"Currently Online" = "Hetkel võrgus";
 /* Message autdelete time */
 "Custom" = "Sinu valitud aeg";
-"Custom Time: " = "Custom Time: ";
+"Custom Time: " = "Sinu määratud aeg: ";
 /* quicksy country */
 "Cyprus" = "Küpros";
 /* quicksy country */
 "Czech Rep." = "Czech Rep.";
 "Database Export Failed" = "Database Export Failed";
-"Database Files" = "Database Files";
+"Database Files" = "Andmebaasifailid";
 "Debug" = "Veaotsing";
 "Debug Notification Problems" = "Debug Notification Problems";
 "Debugging" = "Veaotsing ja silumine";
-"Default Background" = "Default Background";
+"Default Background" = "Vaikimisi taust";
 "Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified.";
 "Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription." = "Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription.";
 /* Chat msg action */
 "Delete" = "Kustuta";
-"Delete Account" = "Delete Account";
+"Delete Account" = "Kustuta kasutajakonto";
 "Delete Account on Server" = "Delete Account on Server";
-"Delete Key" = "Delete Key";
+"Delete Key" = "Kustuta võti";
 /* quicksy country */
 "Dem. People's Rep. of Korea" = "Dem. People's Rep. of Korea";
 /* quicksy country */
@@ -372,22 +372,22 @@
 /* quicksy country */
 "Denmark" = "Taani";
 "Deny new contact" = "Deny new contact";
-"Destroy Channel" = "Destroy Channel";
-"Destroy Group" = "Destroy Group";
-"Destroying channel..." = "Destroying channel...";
-"Destroying group..." = "Destroying group...";
+"Destroy Channel" = "Hävita kanal";
+"Destroy Group" = "Hävita grupp";
+"Destroying channel..." = "Hävitan kanalit...";
+"Destroying group..." = "Hävitan gruppi...";
 "Details..." = "Üksikasjad...";
 "Detected a new omemo device on your account: %@" = "Detected a new omemo device on your account: %@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
-"Device ID: " = "Device ID: ";
+"Device ID: " = "Seadme tunnus: ";
 "Devices of %@" = "Devices of %@";
 /* quicksy country */
 "Diego Garcia" = "Diego Garcia";
-"Disable Encryption" = "Disable Encryption";
+"Disable Encryption" = "Lülita krüptimine välja";
 "Disable encryption. This is dangerous!" = "Disable encryption. This is dangerous!";
-"Disable encryption?" = "Disable encryption?";
-"Discovering devices..." = "Discovering devices...";
-"Display Name" = "Display Name";
+"Disable encryption?" = "Kas lülitame krüptimise välja?";
+"Discovering devices..." = "Tuvastan seadmeid...";
+"Display Name" = "Kuvatav nimi";
 "Display Name And Message" = "Display Name And Message";
 "Display Only Name" = "Display Only Name";
 "Display Only Placeholder" = "Display Only Placeholder";
@@ -404,7 +404,7 @@
 "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them.";
 "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group.";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?";
-"Domain missing" = "Domain missing";
+"Domain missing" = "Domeen on puudu";
 /* quicksy country */
 "Dominica" = "Dominica";
 /* quicksy country */
@@ -415,13 +415,13 @@
 "Dont' trust Key" = "Dont' trust Key";
 "Download" = "Laadi alla";
 "Download error" = "Viga allalaadimisel";
-"Download Settings" = "Download Settings";
+"Download Settings" = "Allalaadimise seadistused";
 "Draft:" = "Kavand:";
 "Duplicate Account" = "Duplicate Account";
-"Duplicate Account!" = "Duplicate Account!";
-"Duplicate jid!" = "Duplicate jid!";
+"Duplicate Account!" = "Topeltkonto!";
+"Duplicate jid!" = "Topelt JID!";
 /* Crash report error dialog */
-"E-Mail not enabled on device" = "E-Mail not enabled on device";
+"E-Mail not enabled on device" = "E-post pole selles seadmes seadistatud";
 /* quicksy country */
 "Ecuador" = "Ecuador";
 /* Chat msg action */
@@ -432,7 +432,7 @@
 /* quicksy country */
 "El Salvador" = "El Salvador";
 /* Crash report error dialog */
-"Email Error" = "Email Error";
+"Email Error" = "Saada veateade e-postiga";
 "Email Support" = "Email Support";
 "Empty Values!" = "Empty Values!";
 "Enable" = "Võta kasutusele";
@@ -456,7 +456,7 @@
 "Error adding contact or channel" = "Error adding contact or channel";
 "Error adding new member!" = "Error adding new member!";
 "Error blocking user!" = "Error blocking user!";
-"Error changing affiliation!" = "Error changing affiliation!";
+"Error changing affiliation!" = "Viga kuuluvuse muutmisel!";
 "Error changing avatar!" = "Error changing avatar!";
 "Error creating group!" = "Error creating group!";
 "Error decrypting message" = "Error decrypting message";
