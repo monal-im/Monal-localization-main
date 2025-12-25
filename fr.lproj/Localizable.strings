@@ -148,7 +148,7 @@
 "Auto-Download Media and Files" = "Télécharger automatiquement les média et fichiers";
 "Autodelete all messages older than" = "Supprimer automatiquement les messages plus vieux que";
 "Autofocus text input on chat open" = "Saisie de texte avec focus automatique lors de l'ouverture du chat";
-"Avatar" = "Avatar";
+"Avatar" = "Image de profil";
 /* quicksy country */
 "Azerbaijan" = "Azerbaïdjan";
 /* quicksy country */
@@ -176,10 +176,10 @@
 "Block" = "Bloquer";
 "Block Contact" = "Bloquer le contact";
 "Block new contact" = "Bloquer cette demande de contact";
-"Block user?" = "Bloquer cet utilisateur ?";
+"Block user?" = "Bloquer cet utilisateur.ice ?";
 /* muc affiliation */
 "Blocked" = "Bloqué·e";
-"Blocked Users" = "Utilisateurs bloqués";
+"Blocked Users" = "Utilisateur·ices bloqués";
 "Blocking %@" = "Bloquant %@";
 "Blocking is not supported by the server" = "Le blocage n'est pas pris en charge par le serveur";
 "Blocking member" = "Membre bloquant";
@@ -246,19 +246,19 @@
 "Chad" = "Tchad";
 "Change affiliation" = "Changer l’affiliation";
 "Change Background Image" = "Changer l’image de fond";
-"Change Channel Avatar" = "Changer l’avatar du salon";
+"Change Channel Avatar" = "Changer l’image de profil du salon";
 "Change Chat Background" = "Modifier le fond d'écran de la conversation";
-"Change Group Avatar" = "Changer l’avatar du groupe";
+"Change Group Avatar" = "Changer l’image de profil du groupe";
 "Change Group Members" = "Changer les membres du groupe";
 "Change it" = "Changez-le";
 "Change Password" = "Modifier le mot de passe";
 "Changing affiliation" = "Changement d’affiliation";
 "Changing affiliation to %@: %@" = "Changement d’affiliation à %@ : %@";
 "Changing Password" = "Changement du mot de passe";
-"Channel Avatar" = "Avatar du salon";
+"Channel Avatar" = "Image de profil du salon";
 "Channel name" = "Nom du salon";
-"Channel Participants" = "Participants du salon";
-"Channel subject:" = "Sujet du canal :";
+"Channel Participants" = "Participant·es du salon";
+"Channel subject:" = "Sujet du salon :";
 "Chat Background" = "Fond d’écran de la conversation";
 "Chat background image" = "Fond d'écran de la conversation";
 "Check this number?" = "Vérifier ce numéro ?";
@@ -268,7 +268,7 @@
 /* quicksy country */
 "China" = "Chine";
 "Clear Chat History" = "Effacer l'historique de conversation";
-"Clear chat history of this channel" = "Vider l'historique des messages de ce canal";
+"Clear chat history of this channel" = "Vider l'historique des messages de ce salon";
 "Clear chat history of this contact" = "Vider l'historique des messages de ce contact";
 "Clear chat history of this group" = "Vider l'historique des messages de ce groupe";
 "Clear History" = "Effacer l'historique";
@@ -287,7 +287,7 @@
 "Connecting..." = "Connexion...";
 "Connectivity issues" = "Problèmes de connectivité";
 /* server details */
-"Considerations for Server Administrators" = "Considérations pour les administrateurs de serveur";
+"Considerations for Server Administrators" = "Considérations pour les administrateur·ices de serveur";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Le JID d’un contact ou d’un groupe/salon a en général la forme : nom@domaine.tld";
 "Contact is muted" = "Contact silencié";
 "Contact is not muted" = "Contact non silencié";
@@ -327,7 +327,7 @@
 "Could not init video session" = "Impossible d'initialiser la session vidéo";
 "Could not join group/channel '%@': timeout" = "Vous avez échoué à rejoindre le groupe %@ : temps d'attente maximum écoulé.";
 "Could not read captcha!" = "Le captcha n'a pu être lu !";
-"Could not register your username. Please check your code or change the username and try again." = "Impossible d'enregistrer votre nom d'utilisateur. Veuillez vérifier votre code ou modifier le nom d'utilisateur et réessayer.";
+"Could not register your username. Please check your code or change the username and try again." = "Impossible d'enregistrer votre nom d'utilisateur·ice. Veuillez vérifier votre code ou modifier le nom d'utilisateur·ice et réessayer.";
 "Could not send" = "Envoi impossible";
 "Could not upload file" = "Impossible d'envoyer le fichier";
 "Country:" = "Pays :";
@@ -359,7 +359,7 @@
 "Debugging" = "Déboguage";
 "Default Background" = "Arrière-plan par défaut";
 "Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "Défini une proposition de modification du protocole des listes de diffusion XMPP qui active les gestions des versions de ces listes pour qu'elles ne soient pas envoyées si aucun modification n'a été faite.";
-"Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription." = "Défini un protocole et un schéma d'URI pour la pré-authentification dans les liens des listes de diffusions, pour autoriser un tiers à obtenir automatiquement les données sur la présence des utilisateurs.";
+"Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription." = "Défini un protocole et un schéma d'URI pour la pré-authentification dans les liens des listes de diffusions, pour autoriser un tiers à obtenir automatiquement les données sur la présence des utilisateur·ices.";
 /* Chat msg action */
 "Delete" = "Supprimer";
 "Delete Account" = "Supprimer le compte";
@@ -400,9 +400,9 @@
 "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "Voulez-vous vraiment détruire ce groupe ? Tous les membres seront expulsés et le groupe sera détruit par la suite.";
 "Do you really want to disable encryption for this contact?" = "Voulez-vous vraiment désactiver le chiffrement pour ce contact ?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Voulez-vous vraiment réinitialiser la session OMEMO ? Soyez sûr que vous savez exactement ce que vous faites !";
-"Do you want to block this user from entering this group/channel?" = "Voulez-vous empêcher cet utilisateur d’entrer dans ce groupe/salon ?";
-"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Voulez-vous supprimer cet utilisateur de ce salon public ? Cet utilisateur pourra à nouveau accéder à ce salon public si vous ne le bloquez pas.";
-"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Voulez-vous supprimer cet utilisateur de ce groupe ? Cet utilisateur ne pourra plus y accéder tant qu'il n'aura pas été réintégré au groupe.";
+"Do you want to block this user from entering this group/channel?" = "Voulez-vous empêcher cet·te utilisateur·ice d’entrer dans ce groupe/salon ?";
+"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Voulez-vous supprimer cet utilisateur·ice de ce salon public ? Iel pourra à nouveau accéder à ce salon public si vous ne le bloquez pas.";
+"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Voulez-vous supprimer cet utilisateur·ice de ce groupe ? Iel ne pourra plus y accéder tant qu'iel n'aura pas été réintégré au groupe.";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Voulez-vous faire confiance aux empreintes digitales numérisées du contact %@ lorsque vous utilisez votre compte %@ ?";
 "Domain missing" = "Domaine manquant";
 /* quicksy country */
@@ -428,7 +428,7 @@
 "Edit" = "Modifier";
 /* quicksy country */
 "Egypt" = "Égypte";
-"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "Soit il s'agit d'une attaque de type MITM, soit votre serveur n'implémente pas XEP-0474 et n'implémente pas non plus entièrement XEP-0440 qui impose la prise en charge de la liaison de canal de point de terminaison du serveur TLS. Dans les deux cas, vous devez en informer l’administrateur de votre serveur ! Compte désactivé maintenant.";
+"Either this is a man-in-the-middle attack OR your server neither implements XEP-0474 nor does it fully implement XEP-0440 which mandates support for tls-server-end-point channel-binding. In either case you should inform your server admin! Account disabled now." = "Soit il s'agit d'une attaque de type MITM, soit votre serveur n'implémente pas XEP-0474 et n'implémente pas non plus entièrement XEP-0440 qui impose la prise en charge de la liaison de salon de point de terminaison du serveur TLS. Dans les deux cas, vous devez en informer l’administrateur·ice de votre serveur ! Compte désactivé maintenant.";
 /* quicksy country */
 "El Salvador" = "Salvador";
 /* Crash report error dialog */
@@ -455,9 +455,9 @@
 "Error" = "Erreur";
 "Error adding contact or channel" = "L'ajout du contact ou du groupe a échoué";
 "Error adding new member!" = "Erreur lors de l’ajout d’un nouveau membre !";
-"Error blocking user!" = "Erreur lors du blocage de l'utilisateur !";
+"Error blocking user!" = "Erreur lors du blocage de l'utilisateur·ice !";
 "Error changing affiliation!" = "Échec du changement d’affiliation !";
-"Error changing avatar!" = "Erreur lors du changement de l’avatar !";
+"Error changing avatar!" = "Erreur lors du changement de l’image de profil !";
 "Error creating group!" = "Erreur lors de la création du groupe !";
 "Error decrypting message" = "Erreur lors du déchiffrement du message";
 "Error destroying group!" = "Erreur lors de la destruction du groupe !";
@@ -470,13 +470,13 @@
 "Error handling SASL challenge of server (nonce error), disconnecting!" = "Erreur lors de la gestion du challenge SASL du serveur (erreur de nonce), déconnexion !";
 "Error inviting new member!" = "Échec de l’invitation d’un nouveau membre !";
 "Error inviting new participant!" = "Échec de l’invitation d’un nouveau participant !";
-"Error inviting user!" = "Échec de l’invitation d’un utilisateur !";
+"Error inviting user!" = "Échec de l’invitation d’un utilisateur·ice !";
 "Error registering push" = "Erreur lors de l'enregistrement du push";
 "Error Removing Account" = "Erreur de suppression de compte";
-"Error removing avatar!" = "Erreur lors de la suppression de l’avatar !";
-"Error removing user!" = "Erreur lors de la suppression de l'utilisateur !";
+"Error removing avatar!" = "Erreur lors de la suppression de l’image de profil !";
+"Error removing user!" = "Erreur lors de la suppression de l'utilisateur·ice !";
 "Error requesting SMS!" = "Erreur lors de la réception du SMS !";
-"Error unblocking user!" = "Erreur lors du déblocage de l'utilisateur !";
+"Error unblocking user!" = "Erreur lors du déblocage de l'utilisateur·ice !";
 "Error while decrypting: iv.length != 12" = "Erreur lors du déchiffrement : iv.length != 12";
 "Error: %@" = "Erreur : %@";
 "Error: Account disabled, can not display keys!" = "Erreur : compte désactivé, impossible d'afficher les clés !";
@@ -498,15 +498,15 @@
 "Failed to decode encrypted link" = "Échec du déchiffrement du lien chiffré";
 "Failed to decrypt download" = "Échec du déchiffrement du téléchargement";
 "Failed to decrypt filetransfer" = "Échec du déchiffrement du fichier transféré";
-"Failed to delete own avatar" = "Échec de suppression de votre avatar";
+"Failed to delete own avatar" = "Échec de suppression de votre image de profil";
 "Failed to delete own nickname" = "Échec de la suppression de votre pseudonyme";
 "Failed to destroy group/channel '%@'" = "Échec de la destruction du groupe/salon '%@'";
 "Failed to destroy group/channel '%@': timeout" = "Échec de la destruction du groupe/salon '%@' : timeout";
 "Failed to download file: %@" = "Échec du téléchargement du fichier : %@";
 "Failed to enable carbons for account %@" = "Échec d'activation des carbones pour le compte %@";
 "Failed to encrypt file" = "Échec du chiffrement du fichier";
-"Failed to enter Group/Channel %@" = "Échec pour entrer dans le Groupe/Canal %@";
-"Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Échec pour entrer dans le Groupe/Canal %@ : ce n'est pas un Groupe/Canal !";
+"Failed to enter Group/Channel %@" = "Échec pour entrer dans le Groupe/Salon %@";
+"Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Échec pour entrer dans le Groupe/Salon %@ : ce n'est pas un Groupe/Salon !";
 "Failed to export the database, please check the logfile for errors and try again." = "Échec de l’export de la base de données, veuillez vérifier les erreurs dans le fichier de log et réessayer.";
 "Failed to fetch download metadata: %@" = "Échec du téléchargement des métadonnées : %@";
 "Failed to fetch room config form for '%@'" = "Échec de la récupération de la configuration du salon « %@ »";
@@ -514,15 +514,15 @@
 "Failed to moderate message in group/channel '%@'" = "Échec de la modération d’un message dans le groupe/salon '%@'";
 "Failed to move uploaded file to file cache directory" = "Échec du déplacement du fichier envoyé dans le dossier de cache des fichiers";
 "Failed to parse URL returned by HTTP upload server" = "Échec de l'analyse de l'URL renvoyée par le serveur d'envoi HTTP";
-"Failed to publish avatar image for group/channel %@" = "Échec de publication de l'avatar pour le groupe/canal %@";
-"Failed to publish own avatar" = "Échec de publication de votre avatar";
+"Failed to publish avatar image for group/channel %@" = "Échec de publication de l'image de profil pour le groupe/salon %@";
+"Failed to publish own avatar" = "Échec de publication de votre image de profil";
 "Failed to publish own nickname" = "Échec de publication de votre pseudonyme";
 "Failed to query for new messages for Group/Channel (catchup) %@" = "La requête de nouveaux messages pour ce groupe/salon a échouée %@";
 "Failed to query for new messages on account %@" = "Échec de la requête pour les nouveaux messages du compte %@";
 "Failed to query newest stanzaid for account %@" = "Échec de la requête du dernier Stanza ID pour le compte %@";
 "Failed to query newest stanzaid for Group/Channel %@" = "La requête du plus récent stanza-id pour ce groupe/salon a échouée %@";
-"Failed to remove bookmark for Group/Channel: %@" = "Échec de suppression du favoris pour le Groupe/Canal : %@";
-"Failed to save bookmark for Group/Channel: %@" = "Échec de mise en favoris pour le Groupe/Canal : %@";
+"Failed to remove bookmark for Group/Channel: %@" = "Échec de suppression du favoris pour le Groupe/Salon : %@";
+"Failed to save bookmark for Group/Channel: %@" = "Échec de mise en favoris pour le Groupe/Salon : %@";
 "Failed to save groupchat bookmarks" = "Échec de l'enregistrement des favoris du groupe";
 "Failed to share file" = "Échec de partage du fichier";
 "Failed to synchronize phonebook" = "Impossible de synchroniser l'annuaire";
@@ -574,7 +574,7 @@
 "Greenland" = "Groenland";
 /* quicksy country */
 "Grenada" = "Grenade";
-"Group Avatar" = "Avatar du groupe";
+"Group Avatar" = "Image de profil du groupe";
 /* placeholder when editing a group description */
 "Group Description (optional)" = "Description du groupe (optionnelle)";
 "Group Members" = "Membres du groupe";
@@ -584,8 +584,8 @@
 "Group subject:" = "Sujet du groupe :";
 "Group suddenly changed to public channel!" = "Ce groupe a soudainement été transformé en salon public !";
 "Group/Channel description" = "Description du groupe/salon";
-"Group/Channel got destroyed: %@" = "Le Groupe/Canal a été détruit : %@";
-"Group/Channel not available anymore: %@" = "Le Groupe/Canal n'est plus disponible : %@";
+"Group/Channel got destroyed: %@" = "Le Groupe/Salon a été détruit : %@";
+"Group/Channel not available anymore: %@" = "Le Groupe/Salon n'est plus disponible : %@";
 /* quicksy country */
 "Guadeloupe" = "Guadeloupe";
 /* quicksy country */
@@ -631,16 +631,16 @@
 "Invalid image file!" = "Fichier d’image invalide !";
 "Invalid Password!" = "Mot de passe invalide !";
 "Invalid State" = "État incorrect";
-"Invalid user input." = "Entrée utilisateur invalide.";
-"Invalid Username!" = "Nom d'utilisateur incorrect !";
+"Invalid user input." = "Entrée utilisateur·ice invalide.";
+"Invalid Username!" = "Nom d'utilisateur·ice incorrect !";
 "Invitation for %@ created" = "Invitation créée pour %@ created";
 /* muc invite */
 "Invite again" = "Inviter de nouveau";
-"Invite participants to channel" = "Inviter des participants dans ce salon";
+"Invite participants to channel" = "Inviter des participant·es dans ce salon";
 "Inviting new member" = "Invitation d’un nouveau membre";
 "Inviting new participant" = "Invitation d’un nouveau participant";
-"Inviting user" = "Invitation d’un utilisateur";
-"Inviting user to this group/channel: %@" = "Invitation d’un utilisateur à ce groupe/salon : %@";
+"Inviting user" = "Invitation d’un·e utilisateur·ice";
+"Inviting user to this group/channel: %@" = "Invitation d’un·e utilisateur·ice à ce groupe/salon : %@";
 /* quicksy country */
 "Iran (Islamic Republic of)" = "Iran (République Islamique)";
 /* quicksy country */
@@ -657,7 +657,7 @@
 "Jamaica" = "Jamaïque";
 /* quicksy country */
 "Japan" = "Japon";
-"Join Channel" = "Rejoindre le canal";
+"Join Channel" = "Rejoindre le salon";
 "Join Group" = "Rejoindre le groupe";
 /* quicksy country */
 "Jordan" = "Jordanie";
@@ -689,7 +689,7 @@
 "Last seen: 1 minute ago" = "Vu pour la dernière fois : Il y a 1 minute";
 /* quicksy country */
 "Latvia" = "Lettonie";
-"Leave Channel" = "Quitter le canal";
+"Leave Channel" = "Quitter le salon";
 "Leave Group" = "Quitter le groupe";
 "Leave this conversation" = "Quitter cette conversation";
 "Leave this converstion?" = "Quitter cette conversation ?";
@@ -707,7 +707,7 @@
 "Libya" = "Libye";
 /* quicksy country */
 "Liechtenstein" = "Liechtenstein";
-"Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "Comme le courriel, vous pouvez enregistrer votre compte à de nombreux endroits et parler à n'importe qui. Vous pouvez utiliser cette page pour enregistrer un compte avec un serveur XMPP sélectionné ou fourni. Vous devez également choisir un nom d'utilisateur et un mot de passe.";
+"Like email, you can register your account on many sites and talk to anyone. You can use this page to register an account with a selected or provided XMPP server. You also have to choose a username and a password." = "Comme le courriel, vous pouvez enregistrer votre compte à de nombreux endroits et parler à n'importe qui. Vous pouvez utiliser cette page pour enregistrer un compte avec un serveur XMPP sélectionné ou fourni. Vous devez également choisir un nom d'utilisateur·ice et un mot de passe.";
 /* quicksy country */
 "Lithuania" = "Lituanie";
 "Load over Cellular" = "Charger via réseau cellulaire";
@@ -902,7 +902,7 @@
 /* quicksy country */
 "Paraguay" = "Paraguay";
 /* muc affiliation */
-"Participant" = "Participant";
+"Participant" = "Participant·e";
 /* placeholder when adding account
    placeholder when creating account
    placeholder when migrating account */
@@ -924,12 +924,12 @@
 "Please Allow Audio Access" = "Veuillez autoriser l'accès à l'audio";
 "Please enter a password below before activating this account." = "Veuillez entrer un mot de passe ci-dessous avant d'activer ce compte.";
 "Please enter the six-digit pin below" = "Veuillez entrer les six chiffres ci-dessous";
-"Please make sure at least one account has connected before trying to add a contact or channel." = "Veuillez vérifier qu'au moins un compte est connecté avant d'ajouter un contact ou un canal.";
+"Please make sure at least one account has connected before trying to add a contact or channel." = "Veuillez vérifier qu'au moins un compte est connecté avant d'ajouter un contact ou un salon.";
 "Please make sure at least one account has connected before trying to create new group." = "Au moins un compte doit être connecté avant de créer un nouveau groupe.";
 "Please make sure you are connected before changing your password." = "Veuillez vous assurer que vous êtes connecté avant de modifier votre mot de passe.";
-"Please make sure you have entered a username, password." = "Veuillez vous assurer que vous avez saisi un nom d'utilisateur et un mot de passe.";
+"Please make sure you have entered a username, password." = "Veuillez vous assurer que vous avez saisi un nom d'utilisateur·ice et un mot de passe.";
 "Please make sure you have entered a valid jid." = "Vérifiez que vous avez entré un identifiant correct.";
-"Please make sure you have entered both a username and password." = "Vous devez entrer et un nom d’utilisateur et un mot de passe.";
+"Please make sure you have entered both a username and password." = "Vous devez entrer et un nom d’utilisateur·ice et un mot de passe.";
 "Please make sure you have entered the same password in both password fields." = "Assurez-vous que vous avez entré le même mot de passe dans les deux champs de mots de passe.";
 "Please provide a valid XMPP server domain or select one." = "Veuillez fournir un domaine de serveur XMPP correct ou en sélectionner un.";
 "Please select a XMPP server or provide one." = "Veuillez sélectionner un serveur XMPP ou en fournir un.";
@@ -964,7 +964,7 @@
 /* Chat msg action */
 "Quote" = "Citer";
 "Rate Monal" = "Évaluer Monal";
-"Really remove avatar?" = "Voulez-vous vraiment supprimer l’avatar ?";
+"Really remove avatar?" = "Voulez-vous vraiment supprimer l’image de profil ?";
 "Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "Recevoir des notifications push via Apple même lorsqu'elles sont déconnectées. Améliore largement la fiabilité.";
 /* directory for downloaded audios */
 "Received Audios" = "Audio reçu";
@@ -991,14 +991,14 @@
 "Remove %@?" = "Supprimer %@ ?";
 "Remove Account from this Device" = "Supprimer le compte de cet appareil";
 "Remove Background Image" = "Supprimer l’image de fond";
-"Remove Channel Avatar" = "Supprimer l’avatar du salon";
+"Remove Channel Avatar" = "Supprimer l’image de profil du salon";
 "Remove Contact" = "Supprimer le contact";
 "Remove Conversation" = "Retirer la conversation";
 "Remove from contacts" = "Supprimer des contacts";
-"Remove Group Avatar" = "Supprimer l’avatar du groupe";
+"Remove Group Avatar" = "Supprimer l’image de profil du groupe";
 "Removing %@" = "Suppression de %@";
 "Removing %@..." = "Suppression de %@…";
-"Removing avatar..." = "Suppression de l’avatar…";
+"Removing avatar..." = "Suppression de l’image de profil…";
 "Rename Channel" = "Renommer ce salon";
 /* placeholder text in contact details */
 "Rename Contact" = "Renommer ce contact";
@@ -1157,7 +1157,7 @@
 /* quicksy country */
 "Tanzania" = "Tanzanie";
 "Temporarily unavailable. Try again later." = "Temporairement indisponible. Veuillez réessayer plus tard.";
-"Temporary failure to enter Group/Channel: %@" = "Erreur temporaire pour entrer dans le Groupe/Canal : %@";
+"Temporary failure to enter Group/Channel: %@" = "Erreur temporaire pour entrer dans le Groupe/Salon : %@";
 "Terms of %@" = "Conditions de %@";
 "Terms of use for %@" = "Conditions d'utilisation pour %@";
 /* quicksy country */
@@ -1168,7 +1168,7 @@
 /* Crash reporting */
 "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "L'application a planté la dernière fois qu'elle a été lancée. Envoyer un rapport de panne ? Ce rapport de panne contiendra des données relatives à la vie privée. Nous ne l'utiliserons que pour déboguer votre problème et le supprimerons par la suite !";
 "The chat history has been cleared" = "L'historique de conversation a été effacé";
-"The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "La connexion avec le serveur a été interrompu et aucun ancien message n'a pu être récupéré pour ce canal. Veuillez réessayer plus tard.";
+"The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "La connexion avec le serveur a été interrompu et aucun ancien message n'a pu être récupéré pour ce salon. Veuillez réessayer plus tard.";
 "The current password is not correct." = "Le mot de passe actuel n'est pas valide.";
 "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "Les boutons suivants vous permettent de forcer l’application à crasher de différentes façons, afin de tester le système de gestion des crashes.";
 /* quicksy country */
@@ -1176,7 +1176,7 @@
 "The jid you want to add should be in in the format user@domain.tld." = "L'identifiant que vous souhaitez ajouter doit être au format utilisateur@domain.suffixe";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "La clé est dans un état qui n'est actuellement pas correctement géré. Merci de contacter les développeurs si vous voyez cette invite.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "Le nouveau contact sera ajouté à votre liste de contacts lorsque la personne que vous avez ajoutée aura approuvée votre demande.";
-"The operator of the webserver providing that URL may see your IP address." = "L’administrateur du serveur web derrière cette adresse peut voir votre adresse IP.";
+"The operator of the webserver providing that URL may see your IP address." = "L’administrateur·ice du serveur web derrière cette adresse peut voir votre adresse IP.";
 "The password has been changed" = "Le mot de passe a été modifié";
 "The pin we have sent you has expired." = "Le code pin que vous avez envoyé a expiré.";
 "The pin you have entered is incorrect." = "Le code pin que vous avez entré est incorrect.";
@@ -1189,7 +1189,7 @@
 "The UDP logger allows you to livestream the log to the configured IP." = "Le logger UDP vous permet de diffuser en direct le journal sur l'adresse IP configurée.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "Le logger UDP vous permet de diffuser en direct le journal sur l'adresse IP configurée. Veuillez utiliser une clé sécurisée lors de la diffusion sur Internet !\n[Découvrez comment recevoir le flux de logs](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
 "The user %@ (%@) wants to add you to their contact list" = "Le compte %1$@ (%2$@) souhaite vous ajouter à sa liste de contact";
-"The username does not need to have an @ symbol. Please try again." = "Le nom d'utilisateur ne doit pas contenir le symbole @. Veuillez réessayer.";
+"The username does not need to have an @ symbol. Please try again." = "Le nom d'utilisateur·ice ne doit pas contenir le symbole @. Veuillez réessayer.";
 "There is no configured email account. Please email info@monal-im.org ." = "Il n'y a pas de compte de messagerie configuré. Veuillez envoyer un courriel à info@monal-im.org .";
 "There was a SASL error on the server." = "Une erreur SASL s'est produite sur le serveur.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "Une erreur s'est produite lors du déchiffrement de ce message chiffré (erreur de Signal). Pour résoudre ceci, essayez d'envoyer un message chiffré à cette personne.";
@@ -1232,7 +1232,7 @@
 "This message failed to send (%@): %@" = "Échec de l’envoi pour ce message (%@) : %@";
 "This message got retracted" = "Ce message a été annulé";
 "This phone number is currently logged in with another device." = "Ce numéro de téléphone est déjà connecté depuis un autre appareil.";
-"This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Il semble que le serveur ne prenne pas en charge la mise en ligne de fichiers via HTTP (XEP-0363). Veuillez demander à l'administrateur de l'activer.";
+"This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Il semble que le serveur ne prenne pas en charge la mise en ligne de fichiers via HTTP (XEP-0363). Veuillez demander à l'administrateur·ice de l'activer.";
 "This server does not have any SRV records in DNS." = "Ce serveur n'a aucun enregistrement SRV en DNS.";
 "This server does not provide any MUC servers." = "Ce serveur ne fournit aucun service MUC.";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Ce serveur ne supporte aucun channel-binding moderne pour sécuriser la couche TLS contre les attaque MITM.";
@@ -1245,7 +1245,7 @@
 "This will clear the whole chat history of this account from this device." = "Cela effacera tout l'historique de conversation de ce compte sur cet appareil.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Cela supprimera ce compte et les données associées du serveur et de cet appareil. Les données peuvent cependant être conservées sur d'autres appareils.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "Cela rendra les appels possibles même si votre serveur XMPP ne fournit pas de serveur TURN.";
-"This will now send your current location to all participants in this chat." = "Votre localisation actuelle va être envoyée à tous les participants de ce chat.";
+"This will now send your current location to all participants in this chat." = "Votre localisation actuelle va être envoyée à tous les participant·es de ce chat.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "Cela supprimera l'image de profil actuelle et remettra l'image par défaut pour ce groupe/salon public.";
 "This will remove this account and the associated data from this device." = "Cela va supprimer ce compte et les données associées de cet appareil.";
 "Timeout Error" = "Erreur de délai d'attente";
@@ -1287,15 +1287,15 @@
 "Typing..." = "En train d'écrire…";
 "UDP Logger" = "Logger UDP";
 "UDP Logger Configuration" = "Configuration du logger UDP";
-"UDP Logging UI not supported on iOS < 16" = "L'interface utilisateur de journalisation UDP n'est pas prise en charge sur iOS < 16";
+"UDP Logging UI not supported on iOS < 16" = "L'interface utilisateur·ice de journalisation UDP n'est pas prise en charge sur iOS < 16";
 /* quicksy country */
 "Uganda" = "Ouganda";
 /* quicksy country */
 "Ukraine" = "Ukraine";
 "Unable to connect to server!" = "Échec de connexion au serveur !";
 "Unblock Contact" = "Débloquer le contact";
-"Unblocking user" = "Débloquer l'utilisateur";
-"Unblocking user for this group/channel: %@" = "Débloquer l'utilisateur pour ce groupe/salon : %@";
+"Unblocking user" = "Débloquer l'utilisateur·ice";
+"Unblocking user for this group/channel: %@" = "Débloquer l'utilisateur·ice pour ce groupe/salon : %@";
 "Unclean appex shutown" = "Extinction inopinée de l'appex";
 "Understood" = "Compris";
 "Unexpected appex expiration" = "Expiration inopinée de l'appex";
@@ -1326,21 +1326,21 @@
 "Upload Original Images" = "Envoyer les images originales";
 "Upload Settings" = "Paramètres d’envoi de fichier";
 "Uploading" = "Téléversement";
-"Uploading avatar..." = "Envoi de l’avatar…";
+"Uploading avatar..." = "Envoi de l’image de profil…";
 "Uploading file to server" = "Téléversement du fichier vers le serveur";
 /* quicksy country */
 "Uruguay" = "Uruguay";
 "Use account" = "Utiliser ce compte";
 "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Utilisez DNSSEC pour valider toutes les réponses aux requêtes DNS avant de vous connecter à l'adresse IP désignée dans la réponse DNS.\nTout en étant plus sécurisé, cela peut entraîner des problèmes de connexion dans certains réseaux comme le Wi-Fi des hôtels, les opérateurs mobiles douteux, etc.";
 "Use DNSSEC validation for all connections" = "Utiliser la validation DNSSEC pour toutes les connexions";
-"User Interface" = "Interface utilisateur";
+"User Interface" = "Interface utilisateur·ice";
 /* placeholder when adding account */
 "user@domain.tld" = "utilisateur@domaine.tld";
 /* BlockUserTable - blockJidForm */
 "user@example.org/resource" = "utilisateur@exemple.org/ressource";
 /* placeholder when creating account */
-"Username" = "Nom d’utilisateur";
-"Username missing" = "Nom d'utilisateur manquant";
+"Username" = "Nom d’utilisateur·ice";
+"Username missing" = "Nom d'utilisateur·ice manquant";
 "Uses TLS client certificates for authentication" = "Utilise les certificats TLS clients pour l'authentification";
 /* quicksy country */
 "Uzbekistan" = "Ouzbékistan";
@@ -1366,8 +1366,8 @@
 "We don't support any task requested by the server, account disabled: %@" = "Nous ne supportons aucune tâche demandée par le serveur, compte désactivé : %@";
 "We don't support the single task requested by the server, account disabled: %@" = "Nous ne supportons pas la seule tâche demandée par le serveur, compte désactivé : %@";
 "We sent you an SMS to %@" = "Nous vous avons envoyé un SMS au %@";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "Nous n'avons pas pu connecter votre compte. Veuillez vérifier votre nom d'utilisateur et votre mot de passe et assurez-vous que vous êtes connecté à Internet.";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Nous n'avons pas pu connecter votre compte. Veuillez vérifier votre nom d'utilisateur et votre mot de passe et assurez-vous que vous êtes connecté à Internet.\n\nMessage d'erreur technique : %@";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "Nous n'avons pas pu connecter votre compte. Veuillez vérifier votre nom d'utilisateur·ice et votre mot de passe et assurez-vous que vous êtes connecté à Internet.";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Nous n'avons pas pu connecter votre compte. Veuillez vérifier votre nom d'utilisateur·ice et votre mot de passe et assurez-vous que vous êtes connecté à Internet.\n\nMessage d'erreur technique : %@";
 "We will check the number **%@**. Is this okay or do you want to change the number?" = "Nous allons tester le numéro **%@**. Est-ce ok ou voulez-vous changer ce numéro ?";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Type de channel-binding le plus faible, ne sécurisant pas contre les certificats ou clés volés, mais détecte les certificats émis à tort.";
 "Welcome" = "Bienvenue";
@@ -1435,15 +1435,15 @@
 "Your answer" = "Votre réponse";
 "Your contact may not support calls. Your call might never reach its destination." = "Il se peut que votre contact ne prenne pas en charge les appels. Il se peut que votre appel n'arrive jamais à destination.";
 "Your entered XMPP ID is missing the domain" = "Il manque le domaine à votre identifiant XMPP";
-"Your entered XMPP ID is missing the username" = "Il manque le nom d'utilisateur dans votre identifiant XMPP";
-"Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "Votre serveur a annoncé des types de liaison de canal, mais n'a proposé aucune méthode SCRAM-PLUS. Il s'agit probablement d'une attaque de l'homme du milieu (mais il pourrait aussi s'agir d'une mauvaise configuration du serveur), désactivant le compte !";
+"Your entered XMPP ID is missing the username" = "Il manque le nom d'utilisateur·ice dans votre identifiant XMPP";
+"Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "Votre serveur a annoncé des types de liaison de salon, mais n'a proposé aucune méthode SCRAM-PLUS. Il s'agit probablement d'une attaque de l'homme du milieu (mais il pourrait aussi s'agir d'une mauvaise configuration du serveur), désactivant le compte !";
 "Your server does not provide a MUC component." = "Votre serveur ne fournit pas de composant MUC.";
-"Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Votre serveur ne supporte pas le MAM (XEP-0313). Cela signifie que vous pourrez manquer souvent des messages entrants ! Vous (ou l'administrateur du serveur) devriez revoir la configuration de votre serveur pour l'activer !";
-"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Votre serveur ne supporte pas PUSH (XEP-0357). Cela signifie que vous devez ouvrir manuellement l'application pour récupérer les nouveaux messages entrants ! Vous devriez changer votre serveur ou parler à l'administrateur du serveur pour activer cette fonction !";
-"Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Votre serveur ne supporte pas la fonction « Stream Management » (XEP-0198). Cela signifie que vous pourrez manquer souvent des messages sortants ! Vous (ou l'administrateur du serveur) devriez revoir la configuration de votre serveur pour l'activer !";
-"Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "Votre serveur proposait des méthodes SCRAM-PLUS, mais n'annonçait aucun type de liaison de canal utilisant XEP-0440, obligatoire selon XEP-0388. Il s'agit soit d'une attaque de l'homme du milieu en cours, soit d'une mauvaise configuration du serveur, désactivant le compte !";
+"Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Votre serveur ne supporte pas le MAM (XEP-0313). Cela signifie que vous pourrez manquer souvent des messages entrants ! Vous (ou l'administrateur·ice du serveur) devriez revoir la configuration de votre serveur pour l'activer !";
+"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Votre serveur ne supporte pas PUSH (XEP-0357). Cela signifie que vous devez ouvrir manuellement l'application pour récupérer les nouveaux messages entrants ! Vous devriez changer votre serveur ou parler à l'administrateur·ice du serveur pour activer cette fonction !";
+"Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Votre serveur ne supporte pas la fonction « Stream Management » (XEP-0198). Cela signifie que vous pourrez manquer souvent des messages sortants ! Vous (ou l'administrateur·ice du serveur) devriez revoir la configuration de votre serveur pour l'activer !";
+"Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "Votre serveur proposait des méthodes SCRAM-PLUS, mais n'annonçait aucun type de liaison de salon utilisant XEP-0440, obligatoire selon XEP-0388. Il s'agit soit d'une attaque de l'homme du milieu en cours, soit d'une mauvaise configuration du serveur, désactivant le compte !";
 "Your status" = "Votre status";
-"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Votre JID XMPP devrait être dans le format utilisateur@domaine.ext. Pour les configurations spéciales, utilisez la configuration manuelle.";
+"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Votre adresse XMPP devrait être dans le format utilisateur@domaine.ext. Pour les configurations spéciales, utilisez la configuration manuelle.";
 /* quicksy country */
 "Zambia" = "Zambie";
 /* quicksy country */
