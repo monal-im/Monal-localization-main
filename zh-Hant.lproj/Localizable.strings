@@ -849,6 +849,7 @@
 "No, keep encryption activated" = "否，請保持加密處於激活狀態";
 /* Crash reporting */
 "No, thanks" = "不，謝謝";
+/* muc affiliation */
 "None" = "無";
 /* quicksy country */
 "Northern Marianas" = "北馬里亞納群島";
@@ -1004,7 +1005,9 @@
 "Rename Contact" = "重新命名聯絡人";
 "Rename Group" = "重新命名群組";
 "Reply" = "回覆";
+"Request Voice" = "Request Voice";
 "Requesting validation SMS..." = "要求驗證簡訊...";
+"Requesting Voice" = "Requesting Voice";
 "Required" = "必填";
 "Reset OMEMO session" = "重置 OMEMO 會話";
 "Resource" = "資源";
@@ -1188,6 +1191,8 @@
 "The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "伺服器嘗試將您綁定到 jid '%1$@'，但您配置了 '%2$@'，已停用 账户！";
 "The UDP logger allows you to livestream the log to the configured IP." = "UDP 記錄器允許您將紀錄即時流式傳輸到配置的IP。";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP 記錄器允許您將紀錄即時流式傳輸到配置的IP。通過 Internet 流式傳輸時，請使用安全金鑰！\n[瞭解如何接收日誌流]（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log）。";
+"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "The user %1$@ (%2$@) denied your contact request. You can try again, if you think this was a mistake.";
+"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "The user %1$@ (%2$@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake.";
 "The user %@ (%@) wants to add you to their contact list" = "使用者 %1$@ （%2$@） 想把你添加到他們的聯絡人名單";
 "The username does not need to have an @ symbol. Please try again." = "使用者名稱不需要有 @ 符號。請重試。";
 "There is no configured email account. Please email info@monal-im.org ." = "無設定的電子郵件帳戶。請傳送電子郵件至info@monal-im.org。";
@@ -1357,6 +1362,8 @@
 "Very old app version" = "非常舊的應用程式版本";
 /* quicksy country */
 "Viet Nam" = "越南";
+/* muc affiliation */
+"Visitor" = "Visitor";
 "Waiting for GPS signal" = "等待GPS訊號";
 /* quicksy country */
 "Wallis and Futuna" = "瓦利斯和富圖納";
@@ -1419,6 +1426,7 @@
 "You are using an out of date version of this app." = "您使用的是此應用程式的過時版本。";
 "You can customize even more, just use the button below to open the settings." = "您可以自定義更多，只需使用下面的按鈕打開設定即可。";
 "You did not grant Monal to access your location." = "您沒有授予 Monal 訪問您的位置。";
+"You don't have voice in this chat" = "You don't have voice in this chat";
 "You got banned from group/channel: %@" = "您被群組/頻道封鎖：%@";
 "You got kicked from group/channel: %@" = "您被群組/頻道踢出：%@";
 "You got removed from group/channel: %@" = "您已從群組/頻道中移除：%@";
@@ -1428,6 +1436,7 @@
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "您恢復了 Monal 的 iCloud 備份，請打開應用程式以重新啟用此帳戶。";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "驗證金鑰后，您應該信任金鑰。通過將下面的鍵與聯絡人螢幕上的鍵進行比較來驗證。按兩下指紋以複製到剪貼簿。";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "您嘗試呼叫聯絡人 『%@』，但在您的聯絡人清單中找不到此聯絡人。";
+"You were granted voice in this channel." = "You were granted voice in this channel.";
 "You will no longer receive messages from this conversation" = "您將不再收到來自此對話的訊息";
 "You will receive subsequent messages from this conversation" = "您將收到來自此對話的後續訊息";
 "Your account must be enabled and connected, to be removed from the server!" = "您的帳戶必須啟用並連接，才能從伺服器中刪除！";
@@ -1458,3 +1467,4 @@
 "📷 An Image" = "📷 一個圖像";
 "🔗 A Link" = "🔗 一個連結";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 去中心化網路 ：\n利用 XMPP 的去中心化特性，避免使用中央伺服器並增加您的數字主權。\n\n🌐 資料隱私 ：\n我們不會為外部各方（或其他任何人）出售或跟蹤資訊。\n\n🔐 端到端加密 ：\n使用 OMEMO 協議進行安全的多端訊息傳遞。\n\n👨 💻 開源：\n應用程式的原始碼是公開的，以供審計和貢獻。";
+"You currently aren't allowed to write messages in this Channel." = "You currently aren't allowed to write messages in this Channel.";

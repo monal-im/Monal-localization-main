@@ -849,6 +849,7 @@
 "No, keep encryption activated" = "Нет, сохранить шифрование";
 /* Crash reporting */
 "No, thanks" = "Нет, спасибо";
+/* muc affiliation */
 "None" = "Ничего";
 /* quicksy country */
 "Northern Marianas" = "Северные Марианские острова";
@@ -1004,7 +1005,9 @@
 "Rename Contact" = "Переименовать контакт";
 "Rename Group" = "Переименовать группу";
 "Reply" = "Ответить";
+"Request Voice" = "Request Voice";
 "Requesting validation SMS..." = "Запрос подтверждающего СМС...";
+"Requesting Voice" = "Requesting Voice";
 "Required" = "Обязательно";
 "Reset OMEMO session" = "Сбросить сессию OMEMO";
 "Resource" = "Клиент (ресурс)";
@@ -1188,6 +1191,8 @@
 "The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "Сервер пытался привязать вас к jid '%1$@', но вы указали '%2$@', отключив учётную запись!";
 "The UDP logger allows you to livestream the log to the configured IP." = "UDP регистратор позволяет организовать потоковую трансляцию логов на заданный IP адрес.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP регистратор позволяет организовать потоковую трансляцию логов на заданный IP адрес. Пожалуйста используйте защищённые ключи безопасности при трансляции через Интернет!\n[Узнайте, как принимать потоковую трансляцию логов](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
+"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "The user %1$@ (%2$@) denied your contact request. You can try again, if you think this was a mistake.";
+"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "The user %1$@ (%2$@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake.";
 "The user %@ (%@) wants to add you to their contact list" = "Пользователь %1$@ (%2$@) хочет добавить вас в свой список контактов";
 "The username does not need to have an @ symbol. Please try again." = "Имя пользователя не должно содержать символ '@'. Попробуйте снова.";
 "There is no configured email account. Please email info@monal-im.org ." = "Настроенный почтовый ящик не найден. Пожалуйста, отправьте письмо на адрес: info@monal-im.org .";
@@ -1357,6 +1362,8 @@
 "Very old app version" = "Устаревшая версия приложения";
 /* quicksy country */
 "Viet Nam" = "Вьетнам";
+/* muc affiliation */
+"Visitor" = "Visitor";
 "Waiting for GPS signal" = "Ожидание сигнала GPS";
 /* quicksy country */
 "Wallis and Futuna" = "Уоллис и Футуна";
@@ -1419,6 +1426,7 @@
 "You are using an out of date version of this app." = "Вы используете устаревшую версию этого приложения.";
 "You can customize even more, just use the button below to open the settings." = "Расширенные настройки доступны по кнопке ниже.";
 "You did not grant Monal to access your location." = "У Monal нет доступа к вашей геопозиции.";
+"You don't have voice in this chat" = "You don't have voice in this chat";
 "You got banned from group/channel: %@" = "Вас заблокировали в группе/канале: %@";
 "You got kicked from group/channel: %@" = "Вас выгнали из группы/канала: %@";
 "You got removed from group/channel: %@" = "Вас удалили из группы/канала: %@";
@@ -1428,6 +1436,7 @@
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Вы восстановили конфигурацию Monal из резервной копии iCloud,- пожалуйста, откройте приложение чтобы снова активировать эту учётную запись.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "После сверки рекомендуется перевести ключ в разряд доверенных. Сверьте отображённый ниже ключ с тем, что отображается на экране устройства вашего контакта. Для копирования ключа в буфер обмена используйте двойное касание.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "Вы пытались позвонить '%@', но его не удаётся найти в вашем списке контактов.";
+"You were granted voice in this channel." = "You were granted voice in this channel.";
 "You will no longer receive messages from this conversation" = "Вы больше не будете получать сообщения из этой переписки";
 "You will receive subsequent messages from this conversation" = "Вы будете получать последующие сообщения из этой переписки";
 "Your account must be enabled and connected, to be removed from the server!" = "Для удаления с сервера, ваша учётная запись должна быть активирована и подключена.";
@@ -1458,3 +1467,4 @@
 "📷 An Image" = "📷 Изображение";
 "🔗 A Link" = "🔗 Ссылка";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Децентрализованная сеть:\nОпирается на федеративную природу XMPP, избегая централизованных серверов и повышая вашу цифровую независимость.\n\n🌐 Защита персональных данных:\nМы не собираем и не продаём информацию о вас посторонним (да и вообще никому).\n\n🔐 Сквозное шифрование:\nЗащищённые групповые сообщения по протоколу OMEMO.\n\n👨‍💻 Свободный проект:\nИсходный код приложения находится в открытом доступе для аудита и доработок.";
+"You currently aren't allowed to write messages in this Channel." = "You currently aren't allowed to write messages in this Channel.";

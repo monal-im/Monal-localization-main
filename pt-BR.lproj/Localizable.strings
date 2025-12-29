@@ -849,6 +849,7 @@
 "No, keep encryption activated" = "Não, mantenha a criptografia ativada";
 /* Crash reporting */
 "No, thanks" = "Não, obrigado";
+/* muc affiliation */
 "None" = "Nenhum";
 /* quicksy country */
 "Northern Marianas" = "Marianas do Norte";
@@ -1004,7 +1005,9 @@
 "Rename Contact" = "Renomear contato";
 "Rename Group" = "Renomear grupo";
 "Reply" = "Responder";
+"Request Voice" = "Request Voice";
 "Requesting validation SMS..." = "Solicitando SMS de validação...";
+"Requesting Voice" = "Requesting Voice";
 "Required" = "Obrigatório";
 "Reset OMEMO session" = "Redefinir sessão OMEMO";
 "Resource" = "Recurso";
@@ -1188,6 +1191,8 @@
 "The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "O servidor tentou vincular você ao jid '%1$@', porém você configurou '%2$@', desativando a conta!";
 "The UDP logger allows you to livestream the log to the configured IP." = "O registrador UDP permite que você transmita o log ao vivo para o IP configurado.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "O registrador UDP permite que você transmita o log ao vivo para o IP configurado. Use uma chave segura ao transmitir pela Internet!\n[Saiba como receber o fluxo de log](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
+"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "The user %1$@ (%2$@) denied your contact request. You can try again, if you think this was a mistake.";
+"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "The user %1$@ (%2$@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake.";
 "The user %@ (%@) wants to add you to their contact list" = "O usuário %@ (%@) deseja adicioná-lo à lista de contatos";
 "The username does not need to have an @ symbol. Please try again." = "O nome de usuário não precisa ter um símbolo @. Por favor, tente novamente.";
 "There is no configured email account. Please email info@monal-im.org ." = "Não há conta de e-mail configurada. Por favor, envie um e-mail para info@monal-im.org .";
@@ -1357,6 +1362,8 @@
 "Very old app version" = "Versão desatualizada do aplicativo";
 /* quicksy country */
 "Viet Nam" = "Vietnã";
+/* muc affiliation */
+"Visitor" = "Visitor";
 "Waiting for GPS signal" = "Aguardando sinal de GPS";
 /* quicksy country */
 "Wallis and Futuna" = "Wallis e Futuna";
@@ -1419,6 +1426,7 @@
 "You are using an out of date version of this app." = "Você está usando uma versão desatualizada deste aplicativo.";
 "You can customize even more, just use the button below to open the settings." = "Você pode personalizar ainda mais, basta usar o botão abaixo para abrir as configurações.";
 "You did not grant Monal to access your location." = "Você não concedeu ao Monal o acesso à sua localização.";
+"You don't have voice in this chat" = "You don't have voice in this chat";
 "You got banned from group/channel: %@" = "Você foi banido do grupo/canal: %@";
 "You got kicked from group/channel: %@" = "Você foi expulso do grupo/canal: %@";
 "You got removed from group/channel: %@" = "Você foi removido do grupo/canal: %@";
@@ -1428,6 +1436,7 @@
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Você restaurou um backup do iCloud do Monal, por favor, abra o aplicativo para reativar esta conta.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "Você deve confiar em uma chave depois de verificá-la. Verifique comparando a chave abaixo com a da tela do seu contato. Toque duas vezes em uma impressão digital para copiar para a área de transferência.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "Você tentou ligar para o contato '%@', mas este contato não pôde ser encontrado em sua lista de contatos.";
+"You were granted voice in this channel." = "You were granted voice in this channel.";
 "You will no longer receive messages from this conversation" = "Você não receberá mais mensagens desta conversa";
 "You will receive subsequent messages from this conversation" = "Você receberá mensagens subsequentes desta conversa";
 "Your account must be enabled and connected, to be removed from the server!" = "Sua conta deve estar ativada e conectada para ser removida do servidor!";
@@ -1458,3 +1467,4 @@
 "📷 An Image" = "📷 Uma imagem";
 "🔗 A Link" = "🔗 Um link";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Rede Descentralizada :\nAproveita a natureza descentralizada do XMPP, evitando servidores centrais e aumentando sua soberania digital.\n\n🌐 Privacidade de dados :\nNão vendemos ou rastreamos informações para terceiros (nem para mais ninguém).\n\n🔐 Criptografia de ponta a ponta :\nMensagens multi-end seguras usando o protocolo OMEMO.\n\n👨 💻 Código aberto :\nO código-fonte do aplicativo está disponível publicamente para auditoria e contribuição.";
+"You currently aren't allowed to write messages in this Channel." = "You currently aren't allowed to write messages in this Channel.";

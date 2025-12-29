@@ -454,6 +454,7 @@
 "No, keep encryption activated" = "No, keep encryption activated";
 /* Crash reporting */
 "No, thanks" = "No, thanks";
+/* muc affiliation */
 "None" = "None";
 "Notifications" = "Notifications";
 "Notifications disabled" = "Notifications disabled";
@@ -564,6 +565,8 @@
 "Rename Contact" = "Rename Contact";
 "Rename Group" = "Rename Group";
 "Reply" = "Reply";
+"Request Voice" = "Request Voice";
+"Requesting Voice" = "Requesting Voice";
 "Requesting validation SMS..." = "Requesting validation SMS...";
 "Required" = "Required";
 "Reset OMEMO session" = "Reset OMEMO session";
@@ -744,6 +747,8 @@
 "Uses TLS client certificates for authentication" = "Uses TLS client certificates for authentication";
 "Verify your phone number" = "Verify your phone number";
 "Version" = "Version";
+/* muc affiliation */
+"Visitor" = "Visitor";
 "Waiting for GPS signal" = "Waiting for GPS signal";
 "Warning" = "Warning";
 /* QR-Code-Scanner: invalid format */
@@ -790,7 +795,9 @@
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with.";
 "You are using an out of date version of this app." = "You are using an out of date version of this app.";
 "You can customize even more, just use the button below to open the settings." = "You can customize even more, just use the button below to open the settings.";
+"You currently aren't allowed to write messages in this Channel." = "You currently aren't allowed to write messages in this Channel.";
 "You did not grant Monal to access your location." = "You did not grant Monal to access your location.";
+"You don't have voice in this chat" = "You don't have voice in this chat";
 "You have not entered your XMPP ID yet" = "You have not entered your XMPP ID yet";
 "You need friends for this ride" = "You need friends for this ride";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
@@ -1366,6 +1373,8 @@
 /* quicksy country */
 "The Former Yugoslav Republic of Macedonia" = "The Former Yugoslav Republic of Macedonia";
 "The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "The server tried to bind you to jid '%1$@', but you configured '%2$@', disabling account!";
+"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "The user %1$@ (%2$@) denied your contact request. You can try again, if you think this was a mistake.";
+"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "The user %1$@ (%2$@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake.";
 "The user %@ (%@) wants to add you to their contact list" = "The user %1$@ (%2$@) wants to add you to their contact list";
 "There was a SASL error on the server." = "There was a SASL error on the server.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person.";
@@ -1448,6 +1457,7 @@
 "You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
 "You got removed from group/channel: %@" = "You got removed from group/channel: %@";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "You restored an iCloud backup of Monal, please open the app to reenable this account.";
+"You were granted voice in this channel." = "You were granted voice in this channel.";
 "Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!";
 "Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!";
 /* quicksy country */

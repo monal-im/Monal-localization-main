@@ -849,6 +849,7 @@
 "No, keep encryption activated" = "Ne, ponechat šifrování zapnuté";
 /* Crash reporting */
 "No, thanks" = "No, thanks";
+/* muc affiliation */
 "None" = "None";
 /* quicksy country */
 "Northern Marianas" = "Northern Marianas";
@@ -1004,7 +1005,9 @@
 "Rename Contact" = "Rename Contact";
 "Rename Group" = "Rename Group";
 "Reply" = "Odpovědět";
+"Request Voice" = "Request Voice";
 "Requesting validation SMS..." = "Requesting validation SMS...";
+"Requesting Voice" = "Requesting Voice";
 "Required" = "Required";
 "Reset OMEMO session" = "Resetovat relaci OMEMO";
 "Resource" = "Zdroj";
@@ -1188,6 +1191,8 @@
 "The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "The server tried to bind you to jid '%1$@', but you configured '%2$@', disabling account!";
 "The UDP logger allows you to livestream the log to the configured IP." = "The UDP logger allows you to livestream the log to the configured IP.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
+"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "The user %1$@ (%2$@) denied your contact request. You can try again, if you think this was a mistake.";
+"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "The user %1$@ (%2$@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake.";
 "The user %@ (%@) wants to add you to their contact list" = "The user %1$@ (%2$@) wants to add you to their contact list";
 "The username does not need to have an @ symbol. Please try again." = "Uživatelské jméno nemusí obsahovat symbol @. Zkuste to, prosím, znovu.";
 "There is no configured email account. Please email info@monal-im.org ." = "Neexistuje žádný nastavený e-mailový účet. Odešlete, prosím, e-mail na info@monal-im.org .";
@@ -1357,6 +1362,8 @@
 "Very old app version" = "Velmi stará verze aplikace";
 /* quicksy country */
 "Viet Nam" = "Viet Nam";
+/* muc affiliation */
+"Visitor" = "Visitor";
 "Waiting for GPS signal" = "Čekání na signál GPS";
 /* quicksy country */
 "Wallis and Futuna" = "Wallis and Futuna";
@@ -1419,6 +1426,7 @@
 "You are using an out of date version of this app." = "Používáte zastaralou verzi této aplikace.";
 "You can customize even more, just use the button below to open the settings." = "You can customize even more, just use the button below to open the settings.";
 "You did not grant Monal to access your location." = "Neposkytli jste Monalu přístup k Vaší poloze.";
+"You don't have voice in this chat" = "You don't have voice in this chat";
 "You got banned from group/channel: %@" = "Byl vám zakázán přístup do skupiny/kanálu: %@";
 "You got kicked from group/channel: %@" = "Byli jste vyhozeni ze skupiny/kanálu: %@";
 "You got removed from group/channel: %@" = "Byli jste odstraněni ze skupiny/kanálu: %@";
@@ -1428,6 +1436,7 @@
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Obnovili jste Monal pomocí zálohy na iCloudu, otevřete, prosím, aplikaci a znovu povolte tento účet.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "Pokusili jste se zavolat kontaktu '%@', ten však nebyl nalezen v seznamu Vašich kontaktů.";
+"You were granted voice in this channel." = "You were granted voice in this channel.";
 "You will no longer receive messages from this conversation" = "Z této konverzace již nebudete dostávat zprávy";
 "You will receive subsequent messages from this conversation" = "Z této konverzace obdržíte další zprávy";
 "Your account must be enabled and connected, to be removed from the server!" = "Váš účet musí být aktivovaný a připojený, aby mohl být smazán ze serveru!";
@@ -1458,3 +1467,4 @@
 "📷 An Image" = "📷 Obrázek";
 "🔗 A Link" = "🔗 Odkaz";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution.";
+"You currently aren't allowed to write messages in this Channel." = "You currently aren't allowed to write messages in this Channel.";
