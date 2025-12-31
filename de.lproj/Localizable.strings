@@ -1005,9 +1005,9 @@
 "Rename Contact" = "Kontakt umbenennen";
 "Rename Group" = "Gruppe umbenennen";
 "Reply" = "Antworten";
-"Request Voice" = "Request Voice";
+"Request Voice" = "Schreibrecht anfragen";
 "Requesting validation SMS..." = "Validierungs-SMS wird angefordert...";
-"Requesting Voice" = "Requesting Voice";
+"Requesting Voice" = "Schreibrecht wird angefragt";
 "Required" = "Erforderlich";
 "Reset OMEMO session" = "OMEMO-Sitzung zurücksetzen";
 "Resource" = "Ressource";
@@ -1191,8 +1191,8 @@
 "The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "Der Server hat versucht, dich an die XMPP-Adresse %1$@ zu binden, aber du hast %2$@ konfiguriert, wodurch das Konto deaktiviert wurde!";
 "The UDP logger allows you to livestream the log to the configured IP." = "Der UDP-Logger ermöglicht das Livestreaming des Logs an die konfigurierte IP.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "Der UDP-Logger ermöglicht dir das Livestreaming des Logs an die konfigurierte IP. Bitte verwende einen sicheren Schlüssel, wenn du über das Internet streamst!\n[Erfahre, wie du den Log-Stream empfangen kannst](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
-"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "Der Nutzer %1$@ ( %2$@) hat Ihre Kontaktanfrage abgelehnt. Wenn Sie der Meinung sind, dass dies ein Versehen war, können Sie es erneut versuchen.";
-"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "Der Nutzer %1$@ ( %2$@) hat Sie von seiner Kontaktliste entfernt. Wenn Sie der Meinung sind, dass dies ein Versehen war, können Sie eine neue Kontaktanfrage stellen.";
+"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "Der Nutzer %1$@ ( %2$@) hat deine Kontaktanfrage abgelehnt. Wenn du der Meinung bist, dass dies ein Versehen war, kannst du es erneut versuchen.";
+"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "Der Nutzer %1$@ (%2$@) hat dich aus seiner Kontaktliste entfernt. Wenn du der Meinung bist, dass dies ein Versehen war, kannst du eine neue Kontaktanfrage stellen.";
 "The user %@ (%@) wants to add you to their contact list" = "Der Benutzer %1$@ (%2$@) möchte dich zu seiner Kontaktliste hinzufügen";
 "The username does not need to have an @ symbol. Please try again." = "Der Benutzername muss kein @-Symbol haben. Bitte versuche es erneut.";
 "There is no configured email account. Please email info@monal-im.org ." = "Es gibt kein konfiguriertes E-Mail-Konto. Bitte sende eine E-Mail an info@monal-im.org.";
@@ -1426,7 +1426,7 @@
 "You are using an out of date version of this app." = "Du verwendest eine veraltete Version dieser App.";
 "You can customize even more, just use the button below to open the settings." = "Du kannst noch mehr individuell anpassen, benutze einfach den Button unten, um die Einstellungen zu öffnen.";
 "You did not grant Monal to access your location." = "Du hast Monal nicht erlaubt, auf deinen Standort zuzugreifen.";
-"You don't have voice in this chat" = "You don't have voice in this chat";
+"You don't have voice in this chat" = "Du hast in diesem Chat keine Schreibberechtigung";
 "You got banned from group/channel: %@" = "Du wurdest aus der Gruppe/Channel ausgeschlossen: %@";
 "You got kicked from group/channel: %@" = "Du wurdest aus der Gruppe/Channel geworfen: %@";
 "You got removed from group/channel: %@" = "Du wurdest aus der Gruppe/Channel entfernt: %@";
@@ -1436,7 +1436,7 @@
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Du hast ein iCloud-Backup von Monal wiederhergestellt. Bitte öffne die App, um dieses Konto wieder zu aktivieren.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "Du solltest einem Schlüssel vertrauen, wenn du ihn überprüft hast. Vergleiche dazu den unten stehenden Schlüssel mit dem Schlüssel auf dem Bildschirm deines Kontakts. Doppeltippen auf einen Fingerabdruck, um ihn in die Zwischenablage zu kopieren.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "Du hast versucht, den Kontakt '%@' anzurufen, aber dieser Kontakt konnte nicht in deiner Kontaktliste gefunden werden.";
-"You were granted voice in this channel." = "You were granted voice in this channel.";
+"You were granted voice in this channel." = "Du hast in diesem Channel Schreibrecht erhalten.";
 "You will no longer receive messages from this conversation" = "Du wirst keine Nachrichten aus dieser Unterhaltung mehr bekommen";
 "You will receive subsequent messages from this conversation" = "Du wirst weitere Nachrichten aus dieser Unterhaltung erhalten";
 "Your account must be enabled and connected, to be removed from the server!" = "Dein Konto muss aktiviert und verbunden sein, um vom Server gelöscht zu werden!";
@@ -1467,4 +1467,4 @@
 "📷 An Image" = "📷 Ein Bild";
 "🔗 A Link" = "🔗 Ein Link";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Dezentrales Netzwerk :\nNutzt den dezentralen Aufbau von XMPP, vermeidet zentrale Server und erhöht somit deine digitale Souveränität.\n\n🌐 Datenschutz :\nWir verkaufen oder verfolgen keine Informationen für externe Dritte (und auch für niemanden sonst).\n\n🔐 Ende-zu-Ende-Verschlüsselung :\nSicheres Multi-End-Messaging mit dem OMEMO-Protokoll.\n\n👨‍💻 Open Source :\nDer Quellcode der App ist zur Prüfung und Weitergabe öffentlich zugänglich.";
-"You currently aren't allowed to write messages in this Channel." = "Sie sind momentan nicht berechtigt, in diesem Kanal Nachrichten zu schreiben.";
+"You currently aren't allowed to write messages in this Channel." = "Du bist derzeit nicht berechtigt, Nachrichten in diesem Channel zu schreiben.";
