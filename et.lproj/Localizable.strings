@@ -120,8 +120,8 @@
 "Apple Push Service" = "Apple'i tõuketeenus (Apple Push Service)";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Apple push service should always be on. If it is off, your device can not talk to Apple's server.";
 "Apple Push Token" = "Apple'i tõuketeenus (Apple Push Service)";
-"Apple Push Token is not available!" = "Apple Push Token is not available!";
-"Approve new contact" = "Approve new contact";
+"Apple Push Token is not available!" = "Apple'i tõuketeenuse tunnusluba pole saadaval!";
+"Approve new contact" = "Kinnita uus kontakt";
 "Archive chat" = "Arhiveeri vestlus";
 "Archive Conversation" = "Arhiveeri vestlus";
 "Archive only if the contact is in contact list." = "Archive only if the contact is in contact list.";
@@ -145,9 +145,9 @@
 "Australian External Territories" = "Austraalia Välisterritoorumid";
 /* quicksy country */
 "Austria" = "Austria";
-"Auto-Download Media and Files" = "Auto-Download Media and Files";
-"Autodelete all messages older than" = "Autodelete all messages older than";
-"Autofocus text input on chat open" = "Autofocus text input on chat open";
+"Auto-Download Media and Files" = "Laadi automaatselt alla meediumid ja failid";
+"Autodelete all messages older than" = "Kustuta automaatselt sõnumid, mis on vanemad kui";
+"Autofocus text input on chat open" = "Vestluse avamisel aseta fookus tekstisisestuskasti";
 "Avatar" = "Tunnuspilt";
 /* quicksy country */
 "Azerbaijan" = "Aserbaidžaan";
@@ -181,7 +181,7 @@
 "Blocked" = "Blokeeritud";
 "Blocked Users" = "Blokeeritud kasutajad";
 "Blocking %@" = "Blokeerin kasutajat %@";
-"Blocking is not supported by the server" = "Blocking is not supported by the server";
+"Blocking is not supported by the server" = "Blokeerimine pole selle serveri poolt toetatud";
 "Blocking member" = "Blokeerin kasutajat";
 "Blocking/Unblocking Not Supported" = "Blocking/Unblocking Not Supported";
 /* quicksy country */
@@ -205,29 +205,29 @@
 /* quicksy country */
 "Burundi" = "Burundi";
 "Call ended" = "Kõne lõppes";
-"Call ended for an unknown reason" = "Call ended for an unknown reason";
-"Call ended, duration: %@" = "Call ended, duration: %@";
-"Call ended: answered with other device" = "Call ended: answered with other device";
-"Call ended: application error" = "Call ended: application error";
-"Call ended: connection failed" = "Call ended: connection failed";
-"Call ended: connection failed\nDuration: %@" = "Call ended: connection failed\nDuration: %@";
-"Call ended: couldn't establish encryption" = "Call ended: couldn't establish encryption";
+"Call ended for an unknown reason" = "Kõne lõppes tundmatul põhjusel";
+"Call ended, duration: %@" = "Kõne lõppes, kestus: %@";
+"Call ended: answered with other device" = "Kõne lõppes: vastamine teises seadmes";
+"Call ended: application error" = "Kõne lõppes: rakenduse viga";
+"Call ended: connection failed" = "Kõne lõppes: ühenduse viga";
+"Call ended: connection failed\nDuration: %@" = "Kõne lõppes: ühenduse viga\nKestus: %@";
+"Call ended: couldn't establish encryption" = "Kõne lõppes: krüptimist ei õnnestunud kasutusele võtta";
 "Call ended: declined" = "Call ended: declined";
-"Call ended: remote busy" = "Call ended: remote busy";
+"Call ended: remote busy" = "Kõne lõppes: teine seade on hõivatud";
 "Call security help" = "Call security help";
 "Call Type" = "Kõne tüüp";
-"Call was not answered" = "Call was not answered";
-"Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
-"Calls: Allow TURN fallback to Monal-Servers" = "Calls: Allow TURN fallback to Monal-Servers";
+"Call was not answered" = "Kõne jäi vastamata";
+"Calls: Allow P2P sessions" = "Kõned: luba võrdõigusvõrgu (P2P) kasutamist";
+"Calls: Allow TURN fallback to Monal-Servers" = "Kõned: Luba TURN-teenuse varuvariandina Monali serverite kasutamist";
 /* quicksy country */
 "Cambodia" = "Kambodža";
 "Camera" = "Kaamera";
 /* Camera permissions missing warning */
-"Camera permissions missing" = "Camera permissions missing";
+"Camera permissions missing" = "Puuduvad õigused kaamera kasutamiseks";
 /* quicksy country */
 "Cameroon" = "Kamerun";
-"Can Show Notifications" = "Can Show Notifications";
-"Can't convert the image to jpeg format." = "Can't convert the image to jpeg format.";
+"Can Show Notifications" = "Võib kuvada teavitusi";
+"Can't convert the image to jpeg format." = "Pildi teisendamine JPEG-vormingusse ei õnnestunud.";
 /* quicksy country */
 "Canada" = "Kanada";
 "Cancel" = "Katkesta";
@@ -245,11 +245,11 @@
 /* quicksy country */
 "Chad" = "Tšaad";
 "Change affiliation" = "Muuda kuuluvust";
-"Change Background Image" = "Change Background Image";
-"Change Channel Avatar" = "Change Channel Avatar";
-"Change Chat Background" = "Change Chat Background";
-"Change Group Avatar" = "Change Group Avatar";
-"Change Group Members" = "Change Group Members";
+"Change Background Image" = "Muuda taustapilti";
+"Change Channel Avatar" = "Muuda kanali tunnuspilti";
+"Change Chat Background" = "Muuda vestluse tausta";
+"Change Group Avatar" = "Muuda grupi tunnuspilti";
+"Change Group Members" = "Muuda grupi liikmeid";
 "Change it" = "Muuda seda";
 "Change Password" = "Muuda salasõna";
 "Changing affiliation" = "Muudan kuuluvust";
@@ -260,14 +260,14 @@
 "Channel Participants" = "Kanalil osalejad";
 "Channel subject:" = "Kanali teema:";
 "Chat Background" = "Vestluse taust";
-"Chat background image" = "Chat background image";
-"Check this number?" = "Check this number?";
+"Chat background image" = "Vestluse taustapilt";
+"Check this number?" = "Kas kontrollid seda numbrit?";
 "Check type and size on " = "Check type and size on ";
 /* quicksy country */
 "Chile" = "Tšiili";
 /* quicksy country */
 "China" = "Hiina";
-"Clear Chat History" = "Clear Chat History";
+"Clear Chat History" = "Kustuta vestluse ajalugu";
 "Clear chat history of this channel" = "Clear chat history of this channel";
 "Clear chat history of this contact" = "Clear chat history of this contact";
 "Clear chat history of this group" = "Clear chat history of this group";
