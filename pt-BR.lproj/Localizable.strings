@@ -285,7 +285,7 @@
 "Congo" = "Congo";
 "Connected: %@" = "Conectado: %@";
 "Connecting..." = "Conectando...";
-"Connectivity issues" = "Connectivity issues";
+"Connectivity issues" = "Problemas de conexão";
 /* server details */
 "Considerations for Server Administrators" = "Considerações para Administradores de Servidores";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Os IDs de Contatos e Grupos/Canais são normalmente no formato: nome@dominio.tld";
@@ -384,7 +384,7 @@
 /* quicksy country */
 "Diego Garcia" = "Diego Garcia";
 "Disable Encryption" = "Desativar Criptografia";
-"Disable encryption. This is dangerous!" = "Disable encryption. This is dangerous!";
+"Disable encryption. This is dangerous!" = "Desativar criptografia. Isto não é recomendado!";
 "Disable encryption?" = "Desativar criptografia?";
 "Discovering devices..." = "Descobrindo dispositivos...";
 "Display Name" = "Nome de Exibição";
@@ -517,10 +517,10 @@
 "Failed to publish avatar image for group/channel %@" = "Falha ao publicar a imagem do avatar para o grupo/canal %@";
 "Failed to publish own avatar" = "Falha ao publicar o próprio avatar";
 "Failed to publish own nickname" = "Falha ao publicar o próprio apelido";
-"Failed to query for new messages for Group/Channel (catchup) %@" = "Failed to query for new messages for Group/Channel (catchup) %@";
+"Failed to query for new messages for Group/Channel (catchup) %@" = "Falha ao consultar novas mensagens para o Grupo/Canal (buscar) %@";
 "Failed to query for new messages on account %@" = "Falha ao consultar novas mensagens na conta %@";
 "Failed to query newest stanzaid for account %@" = "Falha ao consultar o Stanza ID mais recente para a conta %@";
-"Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
+"Failed to query newest stanzaid for Group/Channel %@" = "Falha ao consultar o identificador de mensagem mais recente para o Group/Channel %@";
 "Failed to remove bookmark for Group/Channel: %@" = "Falha ao remover o marcador para Grupo/Canal: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Falha ao salvar o favorito para Grupo/Canal: %@";
 "Failed to save groupchat bookmarks" = "Falha ao salvar os favoritos do groupchat";
@@ -582,7 +582,7 @@
 /* placeholder when creating new group */
 "Group Name (optional)" = "Nome do Grupo (opcional)";
 "Group subject:" = "Assunto do grupo:";
-"Group suddenly changed to public channel!" = "Group suddenly changed to public channel!";
+"Group suddenly changed to public channel!" = "Grupo repentinamente alterado para Canal público!";
 "Group/Channel description" = "Descrição do Grupo/Canal";
 "Group/Channel got destroyed: %@" = "Grupo/Canal foi destruído: %@";
 "Group/Channel not available anymore: %@" = "Grupo/Canal não está mais disponível: %@";
@@ -664,7 +664,7 @@
 "Just seen" = "Visto agora";
 /* quicksy country */
 "Kazakhstan" = "Cazaquistão";
-"Keep encryption enabled" = "Keep encryption enabled";
+"Keep encryption enabled" = "Manter criptografia ativada";
 /* quicksy country */
 "Kenya" = "Quênia";
 "Keys of %@" = "Chaves de %@";
@@ -1005,9 +1005,9 @@
 "Rename Contact" = "Renomear contato";
 "Rename Group" = "Renomear grupo";
 "Reply" = "Responder";
-"Request Voice" = "Request Voice";
+"Request Voice" = "Solicitar Participação";
 "Requesting validation SMS..." = "Solicitando SMS de validação...";
-"Requesting Voice" = "Requesting Voice";
+"Requesting Voice" = "Solicitando Participação";
 "Required" = "Obrigatório";
 "Reset OMEMO session" = "Redefinir sessão OMEMO";
 "Resource" = "Recurso";
@@ -1058,7 +1058,7 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "Selecione os sons que são reproduzidos com notificações de novas mensagens. O padrão é xilofone.";
 "Selected Group Members" = "Membros do Grupo Selecionados";
 "Send" = "Enviar";
-"Send current location?" = "Send current location?";
+"Send current location?" = "Enviar localização atual?";
 "Send last interaction time" = "Hora de enviar última interação";
 "Send Location" = "Local de envio";
 "Send message receipts" = "Enviar recibos de mensagens";
@@ -1191,8 +1191,8 @@
 "The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "O servidor tentou vincular você ao jid '%1$@', porém você configurou '%2$@', desativando a conta!";
 "The UDP logger allows you to livestream the log to the configured IP." = "O registrador UDP permite que você transmita o log ao vivo para o IP configurado.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "O registrador UDP permite que você transmita o log ao vivo para o IP configurado. Use uma chave segura ao transmitir pela Internet!\n[Saiba como receber o fluxo de log](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
-"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "The user %1$@ (%2$@) denied your contact request. You can try again, if you think this was a mistake.";
-"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "The user %1$@ (%2$@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake.";
+"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "O usuário %1$@ (%2$@) negou sua solicitação de contato. Você pode tentar novamente se entender que foi um engano.";
+"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "O usuário %1$@ (%2$@) removeu você da lista de contatos. Você pode enviar uma nova solicitação se entender que isso foi um engano.";
 "The user %@ (%@) wants to add you to their contact list" = "O usuário %@ (%@) deseja adicioná-lo à lista de contatos";
 "The username does not need to have an @ symbol. Please try again." = "O nome de usuário não precisa ter um símbolo @. Por favor, tente novamente.";
 "There is no configured email account. Please email info@monal-im.org ." = "Não há conta de e-mail configurada. Por favor, envie um e-mail para info@monal-im.org .";
@@ -1221,7 +1221,7 @@
 "This contact is already in your contact list" = "Este contato já está na sua lista de contatos";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Este contato pode não suportar mensagens criptografadas OMEMO. Por favor, tente novamente em alguns segundos.";
 "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "Este contato pode não suportar mensagens criptografadas OMEMO. Por favor, tente habilitar a criptografia novamente em alguns segundos, se você acha que isso está errado.";
-"This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong." = "This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong.";
+"This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong." = "Este contato repentinamente alterou de um grupo privado criptografado para um canal público não criptografado! Por favor, contate o administrador do Grupo/Canal se você acredita que isto é incorreto.";
 /* Crash report error dialog */
 "This device is not configured to send email." = "Este dispositivo não está configurado para enviar e-mails.";
 "This invitation will expire on %@" = "Este convite expirará em %@";
@@ -1250,7 +1250,7 @@
 "This will clear the whole chat history of this account from this device." = "Isto limpará todo o histórico de chat desta conta deste dispositivo.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Isso excluirá esta conta e os dados associados do servidor e deste dispositivo. No entanto, os dados ainda podem ser mantidos em outros dispositivos.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "Isso possibilitará chamadas mesmo que seu servidor XMPP não forneça um servidor TURN.";
-"This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";
+"This will now send your current location to all participants in this chat." = "Isto irá enviar sua localização atual para todos os participantes desta conversa.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "Isso removerá a imagem do avatar atual e reverterá este grupo/canal para o padrão.";
 "This will remove this account and the associated data from this device." = "Isto removerá esta conta e os dados associados deste dispositivo.";
 "Timeout Error" = "Erro de Tempo Limite Atingido";
@@ -1363,7 +1363,7 @@
 /* quicksy country */
 "Viet Nam" = "Vietnã";
 /* muc affiliation */
-"Visitor" = "Visitor";
+"Visitor" = "Visitante";
 "Waiting for GPS signal" = "Aguardando sinal de GPS";
 /* quicksy country */
 "Wallis and Futuna" = "Wallis e Futuna";
@@ -1426,7 +1426,7 @@
 "You are using an out of date version of this app." = "Você está usando uma versão desatualizada deste aplicativo.";
 "You can customize even more, just use the button below to open the settings." = "Você pode personalizar ainda mais, basta usar o botão abaixo para abrir as configurações.";
 "You did not grant Monal to access your location." = "Você não concedeu ao Monal o acesso à sua localização.";
-"You don't have voice in this chat" = "You don't have voice in this chat";
+"You don't have voice in this chat" = "Você não está participando desta conversa";
 "You got banned from group/channel: %@" = "Você foi banido do grupo/canal: %@";
 "You got kicked from group/channel: %@" = "Você foi expulso do grupo/canal: %@";
 "You got removed from group/channel: %@" = "Você foi removido do grupo/canal: %@";
@@ -1436,7 +1436,7 @@
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Você restaurou um backup do iCloud do Monal, por favor, abra o aplicativo para reativar esta conta.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "Você deve confiar em uma chave depois de verificá-la. Verifique comparando a chave abaixo com a da tela do seu contato. Toque duas vezes em uma impressão digital para copiar para a área de transferência.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "Você tentou ligar para o contato '%@', mas este contato não pôde ser encontrado em sua lista de contatos.";
-"You were granted voice in this channel." = "You were granted voice in this channel.";
+"You were granted voice in this channel." = "Sua participação neste canal foi aprovada.";
 "You will no longer receive messages from this conversation" = "Você não receberá mais mensagens desta conversa";
 "You will receive subsequent messages from this conversation" = "Você receberá mensagens subsequentes desta conversa";
 "Your account must be enabled and connected, to be removed from the server!" = "Sua conta deve estar ativada e conectada para ser removida do servidor!";
@@ -1445,12 +1445,12 @@
 "Your contact may not support calls. Your call might never reach its destination." = "Seu contato pode não oferecer suporte a chamadas. Sua chamada pode nunca chegar ao seu destino.";
 "Your entered XMPP ID is missing the domain" = "Seu ID XMPP inserido não tem o domínio";
 "Your entered XMPP ID is missing the username" = "Seu ID XMPP inserido não tem o nome de usuário";
-"Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!";
+"Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "Seu servidor anunciou tipos de vínculo de canal mas não oferece nenhum método SCRAM-PLUS. Isto se parece com um ataque de man-in-the-middle (mas pode ser também uma configuração errada do servidor) - desativando a conta!";
 "Your server does not provide a MUC component." = "Seu servidor não fornece um componente MUC.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Seu servidor não suporta MAM (XEP-0313). Isso significa que você pode perder mensagens recebidas com frequência!! Você deve mudar seu servidor ou falar com o administrador do servidor para habilitar isso!";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Seu servidor não suporta PUSH (XEP-0357). Isso significa que você precisa abrir manualmente o aplicativo para recuperar novas mensagens recebidas!! Você deve mudar seu servidor ou falar com o administrador do servidor para habilitar isso!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Seu servidor não suporta Stream Management (XEP-0198). Isso significa que suas mensagens enviadas podem se perder com frequência!! Você deve mudar seu servidor ou falar com o administrador do servidor para habilitar isso!";
-"Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!";
+"Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "Seu servidor ofereceu métodos SCRAM-PLUS, mas não anunciou nenhum tipo de vínculo de canal usando a XEP-0440 que é requerida pela XEP-0388. Isto é um ataque de man-in-the-middle em andamento ou uma configuração errada do servidor - desativando a conta!";
 "Your status" = "Seu status";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Seu jid XMPP deve estar no formato user@domain.tld. Para configurações especiais, use a configuração manual.";
 /* quicksy country */
@@ -1467,4 +1467,4 @@
 "📷 An Image" = "📷 Uma imagem";
 "🔗 A Link" = "🔗 Um link";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Rede Descentralizada :\nAproveita a natureza descentralizada do XMPP, evitando servidores centrais e aumentando sua soberania digital.\n\n🌐 Privacidade de dados :\nNão vendemos ou rastreamos informações para terceiros (nem para mais ninguém).\n\n🔐 Criptografia de ponta a ponta :\nMensagens multi-end seguras usando o protocolo OMEMO.\n\n👨 💻 Código aberto :\nO código-fonte do aplicativo está disponível publicamente para auditoria e contribuição.";
-"You currently aren't allowed to write messages in this Channel." = "You currently aren't allowed to write messages in this Channel.";
+"You currently aren't allowed to write messages in this Channel." = "Você não tem permissão para escrever mensagens neste Canal.";
