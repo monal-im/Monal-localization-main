@@ -719,7 +719,7 @@
 "Loading more Messages from Server" = "Carico più messaggi dal server";
 "Loading omemo bundles" = "Carico i bundle OMEMO";
 "Loading omemo bundles: %@ / %@" = "Caricamento bundle OMEMO: %@ / %@";
-"Loading OMEMO keys" = "Caricamento delle chiavi OMEMO";
+"Loading OMEMO keys" = "Caricamento chiavi OMEMO";
 "Location Access Needed" = "Accesso alla posizione necessario";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Accedi con il tuo profilo o creane uno nuovo. Se necessario, troverai altre opzioni nelle impostazioni di Monal.";
 "Logfiles" = "Registro";
@@ -1005,9 +1005,9 @@
 "Rename Contact" = "Rinomina contatto";
 "Rename Group" = "Rinomina gruppo";
 "Reply" = "Rispondi";
-"Request Voice" = "Request Voice";
+"Request Voice" = "Richiedi voce";
 "Requesting validation SMS..." = "Richiesta SMS di convalida...";
-"Requesting Voice" = "Requesting Voice";
+"Requesting Voice" = "Richiesta voce in corso";
 "Required" = "Richiesto";
 "Reset OMEMO session" = "Inizializza la sessione di OMEMO";
 "Resource" = "Risorsa";
@@ -1191,8 +1191,8 @@
 "The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "Il server ha cercato di legarti al jid '%1$@', ma hai configurato '%2$@', disattivando l'account!";
 "The UDP logger allows you to livestream the log to the configured IP." = "Il logger UDP ti consente il livestream del registro sull'IP configurato.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "Il logger UDP ti consente il livestream del registro sull'IP configurato. Usa una chiave sicura quando invii su internet!\n[Scopri come ricevere lo stream del registro](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
-"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "The user %1$@ (%2$@) denied your contact request. You can try again, if you think this was a mistake.";
-"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "The user %1$@ (%2$@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake.";
+"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "L'utente %1$@ (%2$@) ha rifiutato la tua richiesta di contatto. Puoi riprovare, se pensi che sia stato un errore.";
+"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "L'utente %1$@ (%2$@) ti ha rimosso dal suo elenco di contatti. Puoi inviare una nuova richiesta di contatto, se pensi che sia stato un errore.";
 "The user %@ (%@) wants to add you to their contact list" = "L'utente %1$@ (%2$@) vuole aggiungerti alla lista dei contatti";
 "The username does not need to have an @ symbol. Please try again." = "Il nome utente non deve avere il simbolo @. Prova di nuovo.";
 "There is no configured email account. Please email info@monal-im.org ." = "Non c'è alcun account email configurato. Invia un'email a info@monal-im.org .";
@@ -1363,7 +1363,7 @@
 /* quicksy country */
 "Viet Nam" = "Viet Nam";
 /* muc affiliation */
-"Visitor" = "Visitor";
+"Visitor" = "Visitatore";
 "Waiting for GPS signal" = "In attesa del segnale GPS";
 /* quicksy country */
 "Wallis and Futuna" = "Wallis e Futuna";
@@ -1425,9 +1425,9 @@
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "Stai provando a chiamare '%@' (%@), ma questo contatto può essere raggiunto usando diversi profili. Seleziona il profilo con cui vuoi fare una chiamata.";
 "You are using an out of date version of this app." = "Stai utilizzando una vecchia versione di quest'app.";
 "You can customize even more, just use the button below to open the settings." = "Puoi personalizzare ulteriormente, basta premere il bottone sotto per aprire le impostazioni.";
-"You currently aren't allowed to write messages in this Channel." = "You currently aren't allowed to write messages in this Channel.";
+"You currently aren't allowed to write messages in this Channel." = "Attualmente non hai il permesso di scrivere messaggi in questo canale.";
 "You did not grant Monal to access your location." = "Non hai consentito a Monal l'accesso alla tua posizione.";
-"You don't have voice in this chat" = "You don't have voice in this chat";
+"You don't have voice in this chat" = "Non hai voce in questa chat";
 "You got banned from group/channel: %@" = "Sei stato bandito dal gruppo/canale: %@";
 "You got kicked from group/channel: %@" = "Sei stato espulso dal gruppo/canale: %@";
 "You got removed from group/channel: %@" = "Sei stato rimosso dal gruppo/canale: %@";
@@ -1437,7 +1437,7 @@
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Hai ripristinato Monal da un backup di iCloud, apri l'app per riattivare questo profilo.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "Dovresti fidarti di una chiave solo dopo averla verificata. Verificala comparando la chiave sottostante con quella che appare sullo schermo del tuo contatto. Tocca due volte un'impronta per copiarla negli appunti.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "Hai tentato di chiamare '%@' ma non è stato possibile trovarlo nella lista dei contatti.";
-"You were granted voice in this channel." = "You were granted voice in this channel.";
+"You were granted voice in this channel." = "Ti è stata concessa la voce in questo canale.";
 "You will no longer receive messages from this conversation" = "Non riceverai più messaggi da questa conversazione";
 "You will receive subsequent messages from this conversation" = "Riceverai successivamente messaggi da questa conversazione";
 "Your account must be enabled and connected, to be removed from the server!" = "Il tuo profilo deve essere attivo e connesso per essere rimosso dal server!";
