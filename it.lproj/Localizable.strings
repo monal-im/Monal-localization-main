@@ -149,7 +149,7 @@
 "Autodelete all messages older than" = "Auto-elimina tutti i messaggi più vecchi di";
 "Autofocus text input on chat open" = "Autofocus su input di testo aprendo la chat";
 /* OMEMO warning shown inside chat view */
-"automatically trusted" = "automatically trusted";
+"automatically trusted" = "automaticamente attendibile";
 "Avatar" = "Avatar";
 /* quicksy country */
 "Azerbaijan" = "Azerbaigian";
@@ -320,7 +320,7 @@
 "Could not configure group '%@'" = "Impossibile configurare il gruppo '%@'";
 "Could not configure group '%@': timeout" = "Impossibile configurare il gruppo '%@': scaduto";
 "Could not create group '%@': timeout" = "Impossibile creare il gruppo '%@': scaduto";
-"Could not decrypt because you didn't trust the sender's device %u." = "Could not decrypt because you didn't trust the sender's device %u.";
+"Could not decrypt because you didn't trust the sender's device %u." = "Impossibile decifrare perché non hai reso attendibile il dispositivo del mittente %u.";
 "Could not decrypt message" = "Impossibile decifrare il messaggio";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "Impossibile recuperare (tutti) i vecchi messaggi di questa chat dall'archivio del server. Riprova più tardi. %@";
 "Could not fetch messages" = "Impossibile recuperare i messaggi";
@@ -381,7 +381,7 @@
 "Destroying group..." = "Distruzione del gruppo...";
 "Details..." = "Dettagli...";
 /* OMEMO warning shown as notification */
-"Detected a new %@ omemo device on your account: %@" = "Detected a new %1$@ omemo device on your account: %2$@";
+"Detected a new %@ omemo device on your account: %@" = "Rilevato un nuovo dispositivo omemo %1$@ sul tuo account: %2$@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Rilevato attacco MITM via SSDP, autenticazione annullata e disattivazione del profilo per limitare i danni. Dovresti provare a riattivare il profilo quando ti troverai di nuovo in un ambiente di rete sicuro.";
 "Device ID: " = "ID dispositivo: ";
 "Devices of %@" = "Dispositivi di %@";
@@ -875,9 +875,9 @@
 /* quicksy country */
 "Oman" = "Oman";
 /* OMEMO warning shown inside chat view */
-"OMEMO: Detected new %@ device with id: %@" = "OMEMO: Detected new %1$@ device with id: %2$@";
+"OMEMO: Detected new %@ device with id: %@" = "OMEMO: rilevato nuovo dispositivo %1$@ con id: %2$@";
 /* OMEMO warning shown inside chat view */
-"OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact" = "OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact";
+"OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact" = "OMEMO: Il dispositivo %@ ora è inattivo, perché non è più annunciato dal tuo contatto";
 "On this device" = "Su questo dispositivo";
 "Online" = "In linea";
 "Only contacts" = "Solo contatti";
@@ -1279,7 +1279,7 @@
 "Trinidad and Tobago" = "Trinidad e Tobago";
 "Trust Key" = "Fidati";
 /* OMEMO warning shown inside chat view */
-"trusted" = "trusted";
+"trusted" = "attendibile";
 "Trusted and verified key" = "Chiave fidata e verificata";
 "Trusted but removed key" = "Chiave fidata ma rimossa";
 "Trusted but unused key" = "Chiave fidata ma inutilizzata";
@@ -1333,7 +1333,7 @@
 "Unread Messages Below" = "Messaggi non letti in basso";
 "unsupported" = "non supportato";
 /* OMEMO warning shown inside chat view */
-"untrusted" = "untrusted";
+"untrusted" = "non attendibile";
 "Untrusted key" = "Chiave non fidata";
 "Upload Error" = "Errore durante il caricamento";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Carica i file sul server per condividerli con altri. (Dimensione massima consentita dei file indicata dal server: %@)";
@@ -1477,12 +1477,12 @@
 "📷 An Image" = "📷 Un'immagine";
 "🔗 A Link" = "🔗 Un link";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Rete decentralizzata:\nSfrutta la natura decentralizzata di XMPP, evitando server centrali e aumentando la tua sovranità digitale.\n\n🌐 Privacy dei dati:\nNon vendiamo o tracciamo informazioni per entità esterne (né per chiunque altro).\n\n🔐 Crittografia end-to-end:\nSicurezza della messaggistica multi-end mediante il protocollo OMEMO.\n\n👨‍💻 Codice sorgente aperto:\nIl codice dell'app è disponibile al pubblico per audit e contributi.";
-"Allow BTBV-only participants in verified encrypted groups" = "Allow BTBV-only participants in verified encrypted groups";
-"Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc.";
-"Allow unverified calls in encrypted chats" = "Allow unverified calls in encrypted chats";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc.";
-"If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc.";
-"Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key." = "Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key.";
-"Networking" = "Networking";
-"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key.";
-"Trusted but unverified and unused key" = "Trusted but unverified and unused key";
+"Allow BTBV-only participants in verified encrypted groups" = "Consenti partecipanti solo BTBV in gruppi crittografati verificati";
+"Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Consenti chiamate non OMEMO-verificate in chat crittografate OMEMO.\nSe lo disattivi, non potrai effettuare o ricevere chiamate da/a contatti che non usano un client che implementa [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nDovrebbe essere disattivato da membri di gruppi ad alto rischio come giornalisti, attivisti ecc.";
+"Allow unverified calls in encrypted chats" = "Consenti chiamate non verificate in chat crittografate";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Ogni nuovo contatto avrà la crittografia attivata, ma i contatti già noti conserveranno le loro impostazioni di crittografia.\nGeneralmente non dovrebbe mai essere disattivato da membri di gruppi ad alto rischio come giornalisti, attivisti ecc.";
+"If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "Se è disattivato, non invierai messaggi crittografati ai membri di un gruppo che non dispongono di alcun dispositivo esplicitamente considerato attendibile dopo aver esplicitamente considerato attendibile/non attendibile almeno un singolo dispositivo di un altro membro di questo gruppo.\nDa usare con cautela, perché ciò significa che dovrai fidarti esplicitamente di almeno un dispositivo di *tutti* i membri di un gruppo una volta che avrai iniziato a modificare manualmente l'affidabilità di un dispositivo di un membro di questo gruppo (anche se lo hai fatto in una chat 1:1 con uno dei membri)!\nGeneralmente dovrebbe essere disattivato solo da membri di gruppi ad alto rischio come giornalisti, attivisti ecc.";
+"Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key." = "Monal attualmente si fida di questa chiave, ma le impronte non sono state ancora confrontate e il contatto non l'ha usata per molto tempo. Considera di disattivare la fiducia di questa chiave.";
+"Networking" = "Rete";
+"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "Questa chiave è attendibile, ma il contatto non l'ha usata per molto tempo. Considera di disattivare la fiducia di questa chiave.";
+"Trusted but unverified and unused key" = "Chiave attendibile ma non verificata e non usata";
