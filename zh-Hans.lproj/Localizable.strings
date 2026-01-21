@@ -149,7 +149,7 @@
 "Autodelete all messages older than" = "自动删除所有早于此时间的消息";
 "Autofocus text input on chat open" = "打开聊天时自动对焦文本输入";
 /* OMEMO warning shown inside chat view */
-"automatically trusted" = "automatically trusted";
+"automatically trusted" = "已自动信任";
 "Avatar" = "头像";
 /* quicksy country */
 "Azerbaijan" = "阿塞拜疆";
@@ -320,7 +320,7 @@
 "Could not configure group '%@'" = "无法配置群聊“%@”";
 "Could not configure group '%@': timeout" = "无法配置群聊“%@”：超时";
 "Could not create group '%@': timeout" = "无法创建群聊“%@”：超时";
-"Could not decrypt because you didn't trust the sender's device %u." = "Could not decrypt because you didn't trust the sender's device %u.";
+"Could not decrypt because you didn't trust the sender's device %u." = "无法解密，因为您未信任发送者的设备 %u。";
 "Could not decrypt message" = "无法解密消息";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "无法从服务器归档获取此聊天的（所有）旧消息。请稍后重试。%@";
 "Could not fetch messages" = "无法获取消息";
@@ -381,7 +381,7 @@
 "Destroying group..." = "正在解散群聊…";
 "Details..." = "详情…";
 /* OMEMO warning shown as notification */
-"Detected a new %@ omemo device on your account: %@" = "Detected a new %1$@ omemo device on your account: %2$@";
+"Detected a new %@ omemo device on your account: %@" = "在您的账号中检测到新的 %1$@ OMEMO 设备：%2$@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "已检测到通过 SSDP 发起的正在进行的中间人攻击，正在中止身份验证并禁用账号以限制损害。一旦您再次处于纯净的网络环境中，您应该尝试重新启用您的账号。";
 "Device ID: " = "设备 ID： ";
 "Devices of %@" = "%@ 的设备";
@@ -1279,7 +1279,7 @@
 "Trinidad and Tobago" = "特立尼达和多巴哥";
 "Trust Key" = "信任密钥";
 /* OMEMO warning shown inside chat view */
-"trusted" = "trusted";
+"trusted" = "已信任";
 "Trusted and verified key" = "受信任且已验证的密钥";
 "Trusted but removed key" = "受信任但已移除的密钥";
 "Trusted but unused key" = "受信任但未使用的密钥";
@@ -1333,7 +1333,7 @@
 "Unread Messages Below" = "以下为未读消息";
 "unsupported" = "不支持";
 /* OMEMO warning shown inside chat view */
-"untrusted" = "untrusted";
+"untrusted" = "未信任";
 "Untrusted key" = "不受信任的密钥";
 "Upload Error" = "上传错误";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "将文件上传到服务器与他人分享。（服务器报告的最大允许文件大小：%@）";
@@ -1482,7 +1482,7 @@
 "Allow unverified calls in encrypted chats" = "Allow unverified calls in encrypted chats";
 "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc.";
 "If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc.";
-"Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key." = "Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key.";
+"Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key." = "Monal 当前信任此密钥，但尚未进行指纹比对且联系人很久未使用它。请考虑禁用对此密钥的信任。";
 "Networking" = "Networking";
-"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key.";
-"Trusted but unverified and unused key" = "Trusted but unverified and unused key";
+"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "此密钥是受信任的，但联系人已很久未使用它。请考虑禁用对此密钥的信任。";
+"Trusted but unverified and unused key" = "受信任但未验证且未使用的密钥";
