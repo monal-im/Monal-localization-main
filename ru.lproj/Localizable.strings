@@ -148,6 +148,8 @@
 "Auto-Download Media and Files" = "Автоскачивание медиафайлов";
 "Autodelete all messages older than" = "Удалять сообщения старше";
 "Autofocus text input on chat open" = "Автофокус на поле ввода при открытии переписки";
+/* OMEMO warning shown inside chat view */
+"automatically trusted" = "automatically trusted";
 "Avatar" = "Аватар";
 /* quicksy country */
 "Azerbaijan" = "Азербайджан";
@@ -318,6 +320,7 @@
 "Could not configure group '%@'" = "Не удалось настроить группу '%@'";
 "Could not configure group '%@': timeout" = "Не удалось настроить группу '%@': время ожидания истекло";
 "Could not create group '%@': timeout" = "Не удалось создать группу '%@': время ожидания истекло";
+"Could not decrypt because you didn't trust the sender's device %u." = "Could not decrypt because you didn't trust the sender's device %u.";
 "Could not decrypt message" = "Не удалось расшифровать сообщение";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "Не удалось получить (все) старые сообщения этой переписки с сервера. Пожалуйста, повторите попытку позже. %@";
 "Could not fetch messages" = "Не удалось получить сообщения";
@@ -377,7 +380,8 @@
 "Destroying channel..." = "Удаление канала...";
 "Destroying group..." = "Удаление группы...";
 "Details..." = "Подробности...";
-"Detected a new omemo device on your account: %@" = "Обнаружено новое OMEMO устройство, использующее вашу учётную запись: %@";
+/* OMEMO warning shown as notification */
+"Detected a new %@ omemo device on your account: %@" = "Detected a new %1$@ omemo device on your account: %2$@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Обнаружена кибератака по типу MITM через SSDP,- сбрасываем аутентификацию и деактивируем учётную запись чтобы уменьшить негативные последствия. Попробуйте активировать учётную запись когда снова подключитесь с использованием безопасной сетевой инфраструктуры.";
 "Device ID: " = "ID устройства: ";
 "Devices of %@" = "Устройства %@";
@@ -487,7 +491,6 @@
 /* quicksy country */
 "Ethiopia" = "Эфиопия";
 "Even more to customize!" = "Ещё больше настроек!";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Для каждого нового контакта будет активироваться шифрование; при этом, для уже известных контактов сохранятся выбранные настройки шифрования.";
 "Failed to block contact %@" = "Не удалось заблокировать контакт %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Не удалось изменить статус '%1$@' в '%2$@' на '%3$@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Не удалось изменить статус '%1$@' в '%2$@' на '%3$@': время ожидания истекло";
@@ -868,10 +871,13 @@
 "Ok" = "Ок";
 /* Crash report error dialog */
 "OK" = "ОК";
-"Okay" = "Хорошо";
 "Older, slower, but still secure TLS version" = "Старая, медленная, но по-прежнему безопасная версия TLS";
 /* quicksy country */
 "Oman" = "Оман";
+/* OMEMO warning shown inside chat view */
+"OMEMO: Detected new %@ device with id: %@" = "OMEMO: Detected new %1$@ device with id: %2$@";
+/* OMEMO warning shown inside chat view */
+"OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact" = "OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact";
 "On this device" = "На этом устройстве";
 "Online" = "В сети";
 "Only contacts" = "Только контакты";
@@ -1230,7 +1236,6 @@
 "This key belongs to this device and cannot be removed or disabled!" = "Этот ключ соответствует данному устройству, его нельзя удалить или отключить.";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Этот ключ проверен и переведён в разряд доверенных путем визуального сравнения отпечатков. Чтобы вывести его из разряда доверенных, используйте переключатель.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "Этот ключ из разряда доверенных, но контакт прекратил его использование. Рассмотрите вариант исключения этого ключа из разряда доверенных.";
-"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "Этот ключ из разряда доверенных, но контакт не пользовался им в течении продолжительного периода времени. Рассмотрите вариант исключения этого ключа из разряда доверенных";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "Означает, что голосовые данные шифруются и собеседник верифицирован с использованием OMEMO.\nНо, поскольку вы не сверяли отпечатки OMEMO ключей с собеседником, ваш XMPP сервер или сервер собеседника имеет возможность подменить OMEMO ключи и реализовать кибератаку по типу Man-In-The-Middle (MITM).";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "Означает, что голосовые данные шифруются и собеседник верифицирован с использованием OMEMO.\nВы визуально сверяли отпечатки OMEMO ключей с собеседником, поэтому кибератака по типу Man-In-The-Middle (MITM) не реализуема.";
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "Означает, что голосовые данные шифруются, но возможность верифицировать собеседника через OMEMO отсутствует.\nВаш XMPP сервер или сервер собеседника имеет возможность реализовать кибератаку по типу Man-In-The-Middle (MITM).";
@@ -1273,6 +1278,8 @@
 /* quicksy country */
 "Trinidad and Tobago" = "Тринидад и Тобаго";
 "Trust Key" = "Доверять ключу";
+/* OMEMO warning shown inside chat view */
+"trusted" = "trusted";
 "Trusted and verified key" = "Доверенный и верифицированный ключ";
 "Trusted but removed key" = "Доверенный, но удалённый ключ";
 "Trusted but unused key" = "Доверенный, но неиспользуемый ключ";
@@ -1325,6 +1332,8 @@
 "Unknown error!" = "Неизвестная ошибка!";
 "Unread Messages Below" = "Непрочитанные сообщения ниже";
 "unsupported" = "не поддерживается";
+/* OMEMO warning shown inside chat view */
+"untrusted" = "untrusted";
 "Untrusted key" = "Не доверенный ключ";
 "Upload Error" = "Ошибка отправки";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Отправка файлов на сервер, чтобы поделиться с другими. (Лимит размера файлов со стороны сервера: %@)";
@@ -1468,3 +1477,12 @@
 "📷 An Image" = "📷 Изображение";
 "🔗 A Link" = "🔗 Ссылка";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Децентрализованная сеть:\nОпирается на федеративную природу XMPP, избегая централизованных серверов и повышая вашу цифровую независимость.\n\n🌐 Защита персональных данных:\nМы не собираем и не продаём информацию о вас посторонним (да и вообще никому).\n\n🔐 Сквозное шифрование:\nЗащищённые групповые сообщения по протоколу OMEMO.\n\n👨‍💻 Свободный проект:\nИсходный код приложения находится в открытом доступе для аудита и доработок.";
+"Allow BTBV-only participants in verified encrypted groups" = "Allow BTBV-only participants in verified encrypted groups";
+"Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc.";
+"Allow unverified calls in encrypted chats" = "Allow unverified calls in encrypted chats";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc.";
+"If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc.";
+"Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key." = "Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key.";
+"Networking" = "Networking";
+"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key.";
+"Trusted but unverified and unused key" = "Trusted but unverified and unused key";

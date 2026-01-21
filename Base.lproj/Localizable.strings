@@ -90,10 +90,13 @@
 "Affiliation: %@%@" = "Affiliation: %@%@";
 "All messages are archived by default." = "All messages are archived by default.";
 "All messages fetched successfully, there are no more left on the server!" = "All messages fetched successfully, there are no more left on the server!";
+"Allow BTBV-only participants in verified encrypted groups" = "Allow BTBV-only participants in verified encrypted groups";
 "Allow MITM-prone PLAIN authentication" = "Allow MITM-prone PLAIN authentication";
+"Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc.";
 "Allow contacts in your contact list to query your Monal and iOS versions." = "Allow contacts in your contact list to query your Monal and iOS versions.";
 "Allow contacts not in your contact list to call you." = "Allow contacts not in your contact list to call you.";
 "Allow contacts not in your contact list to contact you." = "Allow contacts not in your contact list to contact you.";
+"Allow unverified calls in encrypted chats" = "Allow unverified calls in encrypted chats";
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
 "Already present" = "Already present";
@@ -318,7 +321,7 @@
 "Error: Account disabled, can not display keys!" = "Error: Account disabled, can not display keys!";
 "Error: No contacts to display keys for!" = "Error: No contacts to display keys for!";
 "Even more to customize!" = "Even more to customize!";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc.";
 "Failed to create invitation for %@" = "Failed to create invitation for %@";
 "Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
 "Failed to share file" = "Failed to share file";
@@ -347,6 +350,7 @@
 "I need an account:" = "I need an account:";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'.";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357.";
+"If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone.";
 "Image Upload JPEG-Quality: %@" = "Image Upload JPEG-Quality: %@";
@@ -421,6 +425,7 @@
 "Missing permission" = "Missing permission";
 "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.\n\nUsing Monal instead of a centralized chat app therefore increases your digital sovereignty." = "Modern iOS and macOS XMPP chat client.\n\nXMPP is a federated network: Just like email, you can register your account on many servers and still talk to anyone, even if they signed up on a different server.\n\nUsing Monal instead of a centralized chat app therefore increases your digital sovereignty.";
 "Monal" = "Monal";
+"Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key." = "Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key.";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!";
 "Monal did not received a gps location. Please try again later." = "Monal did not received a gps location. Please try again later.";
 "Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal does not have access to your location. Please update the location access in your device's Privacy Settings.";
@@ -430,6 +435,7 @@
 "Monal was not able to send your attachment!" = "Monal was not able to send your attachment!";
 "Monal was not able to send your attachment: %@" = "Monal was not able to send your attachment: %@";
 "My Encryption Keys" = "My Encryption Keys";
+"Networking" = "Networking";
 "Never archive" = "Never archive";
 "New Account" = "New Account";
 "New Message" = "New Message";
@@ -465,7 +471,6 @@
 /* Message autdelete time */
 "Off" = "Off";
 "Ok" = "Ok";
-"Okay" = "Okay";
 "Older, slower, but still secure TLS version" = "Older, slower, but still secure TLS version";
 "On this device" = "On this device";
 "Only contacts" = "Only contacts";
@@ -688,7 +693,7 @@
 "This key belongs to this device and cannot be removed or disabled!" = "This key belongs to this device and cannot be removed or disabled!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key.";
-"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key" = "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key";
+"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key.";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you.";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place.";
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you.";
@@ -714,6 +719,7 @@
 "Trusted and verified key" = "Trusted and verified key";
 "Trusted but removed key" = "Trusted but removed key";
 "Trusted but unused key" = "Trusted but unused key";
+"Trusted but unverified and unused key" = "Trusted but unverified and unused key";
 "Trusted but unverified key" = "Trusted but unverified key";
 "Try nevertheless" = "Try nevertheless";
 "Type: %@" = "Type: %@";
@@ -874,6 +880,8 @@
 "Australian External Territories" = "Australian External Territories";
 /* quicksy country */
 "Austria" = "Austria";
+/* OMEMO warning shown inside chat view */
+"automatically trusted" = "automatically trusted";
 /* quicksy country */
 "Azerbaijan" = "Azerbaijan";
 /* quicksy country */
@@ -953,6 +961,7 @@
 "Could not configure group '%@'" = "Could not configure group '%@'";
 "Could not configure group '%@': timeout" = "Could not configure group '%@': timeout";
 "Could not create group '%@': timeout" = "Could not create group '%@': timeout";
+"Could not decrypt because you didn't trust the sender's device %u." = "Could not decrypt because you didn't trust the sender's device %u.";
 "Could not decrypt message" = "Could not decrypt message";
 "Could not join group/channel '%@': timeout" = "Could not join group/channel '%@': timeout";
 /* quicksy country */
@@ -973,7 +982,8 @@
 "Dem. Rep. of the Congo" = "Dem. Rep. of the Congo";
 /* quicksy country */
 "Denmark" = "Denmark";
-"Detected a new omemo device on your account: %@" = "Detected a new omemo device on your account: %@";
+/* OMEMO warning shown as notification */
+"Detected a new %@ omemo device on your account: %@" = "Detected a new %1$@ omemo device on your account: %2$@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 /* quicksy country */
 "Diego Garcia" = "Diego Garcia";
@@ -1245,6 +1255,10 @@
 "Notes to self: %@" = "Notes to self: %@";
 /* quicksy country */
 "Oman" = "Oman";
+/* OMEMO warning shown inside chat view */
+"OMEMO: Detected new %@ device with id: %@" = "OMEMO: Detected new %1$@ device with id: %2$@";
+/* OMEMO warning shown inside chat view */
+"OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact" = "OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact";
 "Online" = "Online";
 "Open app to see more" = "Open app to see more";
 /* quicksy country */
@@ -1397,6 +1411,8 @@
 "Tonga" = "Tonga";
 /* quicksy country */
 "Trinidad and Tobago" = "Trinidad and Tobago";
+/* OMEMO warning shown inside chat view */
+"trusted" = "trusted";
 /* quicksy country */
 "Tunisia" = "Tunisia";
 /* quicksy country */
@@ -1426,6 +1442,8 @@
 "United States" = "United States";
 /* quicksy country */
 "United States Virgin Islands" = "United States Virgin Islands";
+/* OMEMO warning shown inside chat view */
+"untrusted" = "untrusted";
 "Upload Error" = "Upload Error";
 /* quicksy country */
 "Uruguay" = "Uruguay";
