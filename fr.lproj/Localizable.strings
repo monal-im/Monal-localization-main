@@ -1011,9 +1011,9 @@
 "Rename Contact" = "Renommer ce contact";
 "Rename Group" = "Renommer ce groupe";
 "Reply" = "Répondre";
-"Request Voice" = "Request Voice";
+"Request Voice" = "Demander l’autorisation d’écrire";
 "Requesting validation SMS..." = "Requête du SMS de validation…";
-"Requesting Voice" = "Requesting Voice";
+"Requesting Voice" = "Demande d’autorisation d’écrire en cours";
 "Required" = "Requis";
 "Reset OMEMO session" = "Réinitialiser la session OMEMO";
 "Resource" = "Ressource";
@@ -1372,7 +1372,7 @@
 /* quicksy country */
 "Viet Nam" = "Vietnam";
 /* muc affiliation */
-"Visitor" = "Visitor";
+"Visitor" = "Visiteur·euse";
 "Waiting for GPS signal" = "En attente du signal GPS";
 /* quicksy country */
 "Wallis and Futuna" = "Wallis-et-Futuna";
@@ -1434,9 +1434,9 @@
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "Vous essayez d'appeler '%@' (%@), mais ce contact peut être joint à l'aide de différents comptes. Veuillez sélectionner le compte avec lequel vous souhaitez passer l'appel sortant.";
 "You are using an out of date version of this app." = "Vous utilisez une version obsolète de cette application.";
 "You can customize even more, just use the button below to open the settings." = "Vous pouvez personnaliser encore plus, juste en utilisant le bouton ci-dessous pour ouvrir les préférences.";
-"You currently aren't allowed to write messages in this Channel." = "You currently aren't allowed to write messages in this Channel.";
+"You currently aren't allowed to write messages in this Channel." = "Vous n’avez pas encore la permission d’écrire dans ce salon.";
 "You did not grant Monal to access your location." = "Vous n'avez pas autorisé Monal à accéder à votre position.";
-"You don't have voice in this chat" = "You don't have voice in this chat";
+"You don't have voice in this chat" = "Vous n’avez pas la permission d’écrire dans ce salon";
 "You got banned from group/channel: %@" = "Vous avez été banni·e du groupe/salon : %@";
 "You got kicked from group/channel: %@" = "Vous avez été kick du groupe/salon : %@";
 "You got removed from group/channel: %@" = "Vous avez été retiré·e du groupe/salon : %@";
@@ -1446,7 +1446,7 @@
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Vous avez restauré une sauvegarde iCloud de Monal, veuillez ouvrir l'application pour réactiver ce compte.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "Vous devriez faire confiance à une clé lorsque vous l'avez vérifiée. Vérifiez en comparant la clé ci-dessous à celle sur l'écran de votre contact. Appuyez deux fois sur une empreinte pour la copier dans le presse-papiers.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "%@ que vous avez souhaité appeler n'est pas dans votre liste de contacts.";
-"You were granted voice in this channel." = "You were granted voice in this channel.";
+"You were granted voice in this channel." = "Vous venez d’obtenir la permission d’écrire dans ce salon.";
 "You will no longer receive messages from this conversation" = "Vous ne recevrez plus les messages de cette conversation";
 "You will receive subsequent messages from this conversation" = "Vous allez recevoir les messages ultérieurs de cette conversation";
 "Your account must be enabled and connected, to be removed from the server!" = "Votre compte doit être activé et connecté pour le supprimer du serveur !";
@@ -1479,10 +1479,10 @@
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Réseau décentralisé :\nTirez partie de la nature décentralisée d’XMPP, en évitant les serveurs centralisés pour améliorer votre souveraineté numérique.\n\n🌐 Confidentialité des données :\nNous ne collectons pas vos informations personnelles, et nous ne les vendons à personne non plus.\n\n🔐 Chiffrement bout-à-bout:\nLes messages sont chiffrés de manière sécurisée en utilisant le protocole OMEMO.\n\n👨‍💻 Open Source :\nLe code source de l’application est disponible publiquement pour l’auditer et pour y contribuer.";
 "Allow BTBV-only participants in verified encrypted groups" = "Allow BTBV-only participants in verified encrypted groups";
 "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc.";
-"Allow unverified calls in encrypted chats" = "Allow unverified calls in encrypted chats";
+"Allow unverified calls in encrypted chats" = "Autoriser les appels non-vérifiés dans les discussions chiffrées";
 "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc.";
 "If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc.";
 "Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key." = "Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key.";
-"Networking" = "Networking";
+"Networking" = "Réseau";
 "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key.";
 "Trusted but unverified and unused key" = "Trusted but unverified and unused key";
