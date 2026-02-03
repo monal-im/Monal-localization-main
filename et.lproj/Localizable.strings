@@ -118,14 +118,14 @@
 "App" = "Rakendus";
 "Appearance" = "Välimus";
 "Apple Push Service" = "Apple'i tõuketeenus (Apple Push Service)";
-"Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Apple push service should always be on. If it is off, your device can not talk to Apple's server.";
+"Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Apple'i tõuketeenus peaks alati olema sisselülitatud. Väljalülitamisel ei suuda sinu seade Apple'i serveri(te)ga suhelda.";
 "Apple Push Token" = "Apple'i tõuketeenuse tunnusluba (Apple Push Token)";
 "Apple Push Token is not available!" = "Apple'i tõuketeenuse tunnusluba pole saadaval!";
 "Approve new contact" = "Kinnita uus kontakt";
 "Archive chat" = "Arhiveeri vestlus";
 "Archive Conversation" = "Arhiveeri vestlus";
-"Archive only if the contact is in contact list." = "Archive only if the contact is in contact list.";
-"Are you sure to cancel the registration process?" = "Are you sure to cancel the registration process?";
+"Archive only if the contact is in contact list." = "Arhiveeri vaid siis, kui kontakt on sinu kontaktide loendis.";
+"Are you sure to cancel the registration process?" = "Kas oled kindel, et soovid selle registreerumise katkestada?";
 /* quicksy country */
 "Argentina" = "Argentina";
 /* quicksy country */
@@ -162,7 +162,7 @@
 /* quicksy country */
 "Barbados" = "Barbados";
 "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!";
-"Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
+"Become part of a worldwide decentralized chat network!" = "Osale maailma suurimas hajutatud suhtlusvõrgus!";
 /* quicksy country */
 "Belarus" = "Valgevene";
 /* quicksy country */
@@ -185,7 +185,7 @@
 "Blocking %@" = "Blokeerin kasutajat %@";
 "Blocking is not supported by the server" = "Blokeerimine pole selle serveri poolt toetatud";
 "Blocking member" = "Blokeerin kasutajat";
-"Blocking/Unblocking Not Supported" = "Blocking/Unblocking Not Supported";
+"Blocking/Unblocking Not Supported" = "Blokeerimine ja blokeerimise lõpetamine pole toetatud";
 /* quicksy country */
 "Bolivia (Plurinational State of)" = "Boliivia";
 /* quicksy country */
@@ -323,20 +323,20 @@
 "Could not decrypt because you didn't trust the sender's device %u." = "Could not decrypt because you didn't trust the sender's device %u.";
 "Could not decrypt message" = "Sõnumi dekrüptimine ei õnnestunud";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@";
-"Could not fetch messages" = "Could not fetch messages";
+"Could not fetch messages" = "Sõnumite laadimine ei õnnestu";
 /* QR-Code-Scanner */
-"Could not get default capture device" = "Could not get default capture device";
+"Could not get default capture device" = "Vaikimisi hõiveseadme tuvastamine ei õnnestunud";
 /* QR-Code-Scanner */
-"Could not init video session" = "Could not init video session";
+"Could not init video session" = "Videosessiooni valmendamine ei õnnestunud";
 "Could not join group/channel '%@': timeout" = "„%@“ kanaliga/grupiga liitumine ei õnnestunud aegumise tõttu";
-"Could not read captcha!" = "Could not read captcha!";
+"Could not read captcha!" = "Robotilõksu lugemine ei õnnestunud!";
 "Could not register your username. Please check your code or change the username and try again." = "Could not register your username. Please check your code or change the username and try again.";
 "Could not send" = "Saatmine ei õnnestunud";
 "Could not upload file" = "Faili üleslaadimine ei õnnestunud";
 "Country:" = "Riik:";
 /* Crash reporting */
 "Crash Detected" = "Tuvastasin kokkujooksmise";
-"Crash Testing" = "Crash Testing";
+"Crash Testing" = "Krahhitestid";
 "Create new group" = "Loo uus grupp";
 "Creating Group" = "Loon gruppi";
 "Creating invitation..." = "Koostan kutset...";
@@ -404,7 +404,7 @@
 "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards.";
 "Do you really want to disable encryption for this contact?" = "Do you really want to disable encryption for this contact?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!";
-"Do you want to block this user from entering this group/channel?" = "Do you want to block this user from entering this group/channel?";
+"Do you want to block this user from entering this group/channel?" = "Kas sa soovid blokeerida antud kasutaja ligipääsu sellesse gruppi/sellele kanalile?";
 "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them.";
 "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group.";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?";
@@ -421,7 +421,7 @@
 "Download error" = "Viga allalaadimisel";
 "Download Settings" = "Allalaadimise seadistused";
 "Draft:" = "Kavand:";
-"Duplicate Account" = "Duplicate Account";
+"Duplicate Account" = "Topeltkonto";
 "Duplicate Account!" = "Topeltkonto!";
 "Duplicate jid!" = "Topelt JID!";
 /* Crash report error dialog */
@@ -457,33 +457,33 @@
 /* quicksy country */
 "Eritrea" = "Eritrea";
 "Error" = "Viga";
-"Error adding contact or channel" = "Error adding contact or channel";
-"Error adding new member!" = "Error adding new member!";
-"Error blocking user!" = "Error blocking user!";
+"Error adding contact or channel" = "Viga kontakti või kanali lisamisel";
+"Error adding new member!" = "Viga uue liikme lisamisel!";
+"Error blocking user!" = "Viga liikme blokeerimisel!";
 "Error changing affiliation!" = "Viga kuuluvuse muutmisel!";
-"Error changing avatar!" = "Error changing avatar!";
-"Error creating group!" = "Error creating group!";
-"Error decrypting message" = "Error decrypting message";
-"Error destroying group!" = "Error destroying group!";
-"Error entering group/channel!" = "Error entering group/channel!";
+"Error changing avatar!" = "Viga tunnuspildi muutmisel!";
+"Error creating group!" = "Viga grupi loomisel!";
+"Error decrypting message" = "Viga sõnumi dekrüptimisel";
+"Error destroying group!" = "Viga grupi kustutamisel!";
+"Error entering group/channel!" = "Viga grupi või kanali avamisel!";
 /* parenthesis should remain in english */
 "Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error handling SASL challenge of server (iteration count too low), disconnecting!";
 /* parenthesis should remain in english */
 "Error handling SASL challenge of server (m-attr error), disconnecting!" = "Error handling SASL challenge of server (m-attr error), disconnecting!";
 /* parenthesis should remain in english */
 "Error handling SASL challenge of server (nonce error), disconnecting!" = "Error handling SASL challenge of server (nonce error), disconnecting!";
-"Error inviting new member!" = "Error inviting new member!";
-"Error inviting new participant!" = "Error inviting new participant!";
-"Error inviting user!" = "Error inviting user!";
+"Error inviting new member!" = "Viga kutse saatmisel uuele liikmele!";
+"Error inviting new participant!" = "Viga uue osaleja kutsumisel!";
+"Error inviting user!" = "Viga kasutaja kutsumisel!";
 "Error registering push" = "Viga tõuketeenuse registreerimisel";
-"Error Removing Account" = "Error Removing Account";
-"Error removing avatar!" = "Error removing avatar!";
-"Error removing user!" = "Error removing user!";
-"Error requesting SMS!" = "Error requesting SMS!";
-"Error unblocking user!" = "Error unblocking user!";
+"Error Removing Account" = "Viga kasutajakonto eemaldamisel";
+"Error removing avatar!" = "Viga tunnuspildi eemaldamisel!";
+"Error removing user!" = "Viga kasutaja eemaldamisel!";
+"Error requesting SMS!" = "Viga SMS-i teenuse küsimisel!";
+"Error unblocking user!" = "Viga kasutaja blokeerimisel lõpetamisel!";
 "Error while decrypting: iv.length != 12" = "Viga dekrüptimisel: iv.length != 12";
 "Error: %@" = "Viga: %@";
-"Error: Account disabled, can not display keys!" = "Error: Account disabled, can not display keys!";
+"Error: Account disabled, can not display keys!" = "Viga: konto pole kasutusel ja võtmeid pole võimalik kuvada!";
 "Error: No contacts to display keys for!" = "Error: No contacts to display keys for!";
 "Error: Received OMEMO message is empty" = "Viga: vastuvõetud OMEMO-sõnum on tühi";
 /* quicksy country */
@@ -491,18 +491,18 @@
 /* quicksy country */
 "Ethiopia" = "Etioopia";
 "Even more to customize!" = "Even more to customize!";
-"Failed to block contact %@" = "Failed to block contact %@";
+"Failed to block contact %@" = "Viga kontakti blokeerimise lõpetamisel: %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
 "Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
 "Failed to create invitation for %@" = "Failed to create invitation for %@";
-"Failed to create invitation, unknown error: %@" = "Failed to create invitation, unknown error: %@";
-"Failed to decode download link" = "Failed to decode download link";
-"Failed to decode encrypted link" = "Failed to decode encrypted link";
-"Failed to decrypt download" = "Failed to decrypt download";
-"Failed to decrypt filetransfer" = "Failed to decrypt filetransfer";
-"Failed to delete own avatar" = "Failed to delete own avatar";
-"Failed to delete own nickname" = "Failed to delete own nickname";
+"Failed to create invitation, unknown error: %@" = "Kutse loomine ei õnnestunud, tekkis tundmatu viga: %@";
+"Failed to decode download link" = "Allalaadimislingi dekodeerimine ei õnnestunud";
+"Failed to decode encrypted link" = "Krüptitud lingi dekodeerimine ei õnnestunud";
+"Failed to decrypt download" = "Allalaaditu dekrüptimine ei õnnestunud";
+"Failed to decrypt filetransfer" = "Edastatavate failide dekrüptimine ei õnnestunud";
+"Failed to delete own avatar" = "Sinu oma tunnuspildi kustutamine ei õnnestunud";
+"Failed to delete own nickname" = "Sinu oma hüüdnime kustutamine ei õnnestunud";
 "Failed to destroy group/channel '%@'" = "Failed to destroy group/channel '%@'";
 "Failed to destroy group/channel '%@': timeout" = "Failed to destroy group/channel '%@': timeout";
 "Failed to download file: %@" = "Failed to download file: %@";
@@ -527,7 +527,7 @@
 "Failed to remove bookmark for Group/Channel: %@" = "Failed to remove bookmark for Group/Channel: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Failed to save bookmark for Group/Channel: %@";
 "Failed to save groupchat bookmarks" = "Failed to save groupchat bookmarks";
-"Failed to share file" = "Failed to share file";
+"Failed to share file" = "Faili jagamine ei õnnestu";
 "Failed to synchronize phonebook" = "Failed to synchronize phonebook";
 "Failed to upload file: account was removed" = "Failed to upload file: account was removed";
 "Failed to write decrypted download into cache directory" = "Failed to write decrypted download into cache directory";
@@ -536,7 +536,7 @@
 /* quicksy country */
 "Faroe Islands" = "Fääri saared";
 "Features" = "Funktsionaalsused";
-"Fetching registration form..." = "Fetching registration form...";
+"Fetching registration form..." = "Laadin registreerimisvormi...";
 /* quicksy country */
 "Fiji" = "Fidži";
 "File" = "Fail";
@@ -955,20 +955,20 @@
 /* quicksy country */
 "Puerto Rico" = "Puerto Rico";
 "Push Server" = "Tõuketeenuste server";
-"Pushserver Region" = "Pushserver Region";
+"Pushserver Region" = "Tõuketeenuste serveri asukoht";
 /* quicksy country */
 "Qatar" = "Katar";
-"QR code: Fingerprints found" = "QR code: Fingerprints found";
-"QR-Code Scanner" = "QR-Code Scanner";
+"QR code: Fingerprints found" = "QR-kood: leidusid sõrmejäljed";
+"QR-Code Scanner" = "QR-koodi skanner";
 /* QR-Code-Scanner */
-"QR-Code video error" = "QR-Code video error";
-"Quicksy is now set up and connected." = "Quicksy is now set up and connected.";
+"QR-Code video error" = "QR-koodi video viga";
+"Quicksy is now set up and connected." = "Quicksy on nüüd seadistatud ja ühendatud.";
 "Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm)." = "Quicksy syncs your contact list in regular intervals to make suggestions about possible contacts who are already on Quicksy.\n\nQuicksy shares and stores images, audio recordings, videos and other media to deliver them to the intended recipients. Files will be stored for up to 30 days.\n\nFind more Information in our [Privacy Policy](https://quicksy.im/privacy.htm).";
 "Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:" = "Quicksy will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:";
 /* Chat msg action */
 "Quote" = "Tsiteeri";
-"Rate Monal" = "Rate Monal";
-"Really remove avatar?" = "Really remove avatar?";
+"Rate Monal" = "Arvusta Monalit";
+"Really remove avatar?" = "Kas tõesti tahad tunnuspildi eemaldada?";
 "Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "Receive push notifications via Apple even when disconnected. Vastly improves reliability.";
 /* directory for downloaded audios */
 "Received Audios" = "Vastuvõetud helifailid";
@@ -981,38 +981,38 @@
 "Received Videos" = "Vastuvõetud videod";
 /* shareViewController: recipient */
 "Recipient" = "Saaja";
-"Recode Fail:" = "Recode Fail:";
-"Recode Success" = "Recode Success";
+"Recode Fail:" = "Uuesti kodeerimine ei õnnestunud:";
+"Recode Success" = "Uuesti kodeerimine õnnestus";
 "Reconnecting..." = "Uuesti ühendamisel...";
-"Recording audio" = "Recording audio";
+"Recording audio" = "Heli on salvestamisel";
 "Red x-mark shield:" = "Punane x-märkega turvatunnus:";
 "Refreshing..." = "Andmed on uuendamisel…";
-"Register a new account" = "Register a new account";
-"Register with %@" = "Register with %@";
-"Registering account..." = "Registering account...";
-"Registration Error" = "Registration Error";
-"Remove %@ from contacts?" = "Remove %@ from contacts?";
-"Remove %@?" = "Remove %@?";
-"Remove Account from this Device" = "Remove Account from this Device";
-"Remove Background Image" = "Remove Background Image";
-"Remove Channel Avatar" = "Remove Channel Avatar";
-"Remove Contact" = "Remove Contact";
-"Remove Conversation" = "Remove Conversation";
-"Remove from contacts" = "Remove from contacts";
-"Remove Group Avatar" = "Remove Group Avatar";
-"Removing %@" = "Removing %@";
-"Removing %@..." = "Removing %@...";
-"Removing avatar..." = "Removing avatar...";
-"Rename Channel" = "Rename Channel";
+"Register a new account" = "Registreeri uus kasutajakonto";
+"Register with %@" = "Registreeri teenuses %@";
+"Registering account..." = "Registreerin kasutajakontot...";
+"Registration Error" = "Viga registreerimisel";
+"Remove %@ from contacts?" = "Kas eemaldad kontaktidest: %@?";
+"Remove %@?" = "Kas eemaldad: %@?";
+"Remove Account from this Device" = "Eemalda kasutajakonto sellest seadmest";
+"Remove Background Image" = "Eemalda taustapilt";
+"Remove Channel Avatar" = "Eemalda kanali tunnuspilt";
+"Remove Contact" = "Eemalda kontakt";
+"Remove Conversation" = "Eemalda vestlus";
+"Remove from contacts" = "Eemalda kontaktidest";
+"Remove Group Avatar" = "Eemalda grupi tunnuspilt";
+"Removing %@" = "Eemaldan: %@";
+"Removing %@..." = "Eemaldan: %@...";
+"Removing avatar..." = "Eemaldan tunnuspilti...";
+"Rename Channel" = "Muuda kanali nime";
 /* placeholder text in contact details */
-"Rename Contact" = "Rename Contact";
-"Rename Group" = "Rename Group";
+"Rename Contact" = "Muuda kontakti nime";
+"Rename Group" = "Muuda grupi nime";
 "Reply" = "Vasta";
 "Request Voice" = "Request Voice";
 "Requesting validation SMS..." = "Requesting validation SMS...";
 "Requesting Voice" = "Requesting Voice";
 "Required" = "Nõutav";
-"Reset OMEMO session" = "Reset OMEMO session";
+"Reset OMEMO session" = "Lähtesta OMEMO sessioon";
 "Resource" = "Ressurss";
 "Resources" = "Ressursid";
 "Resume a stream when disconnected. Results in faster reconnect and saves battery life." = "Resume a stream when disconnected. Results in faster reconnect and saves battery life.";
@@ -1072,26 +1072,26 @@
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Sellega edastatakse salasõna tavatekstina (krüptitud vaid TLS-iga) ja see pole eriti turvaline";
 /* quicksy country */
 "Senegal" = "Senegal";
-"Sent a File 📁" = "Sent a File 📁";
-"Sent a Link 🔗" = "Sent a Link 🔗";
-"Sent a Location 📍" = "Sent a Location 📍";
-"Sent an Image 📷" = "Sent an Image 📷";
+"Sent a File 📁" = "Saatis faili 📁";
+"Sent a Link 🔗" = "Saatis lingi 🔗";
+"Sent a Location 📍" = "Saatis asukoha 📍";
+"Sent an Image 📷" = "Saatis pildi 📷";
 /* directory for downloaded audios */
-"Sent Audios" = "Sent Audios";
+"Sent Audios" = "Saatis helifaili";
 /* directory for downloaded files */
-"Sent Files" = "Sent Files";
+"Sent Files" = "Saatis faile";
 /* directory for downloaded images */
-"Sent Images" = "Sent Images";
+"Sent Images" = "Saatis pilte";
 /* directory for downloaded videos */
-"Sent Videos" = "Sent Videos";
+"Sent Videos" = "Saatis videoid";
 /* quicksy country */
 "Serbia" = "Serbia";
 "Server" = "Server";
-"Server does not support account removal" = "Server does not support account removal";
+"Server does not support account removal" = "Server ei toeta kasutajakontode eemaldamise võimalust";
 "Server for domain '%@' not responding!" = "Server for domain '%@' not responding!";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Server implementation error: SASL2 tasks empty, account disabled!";
-"Server returned invalid xml!" = "Server returned invalid xml!";
-"Server returned SASL2 error '%@'." = "Server returned SASL2 error '%@'.";
+"Server returned invalid xml!" = "Serveri päringuvastuse XML oli vigane!";
+"Server returned SASL2 error '%@'." = "Serveri SASL2 päringuvastuses oli viga: „%@“.";
 "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 "Server: %@" = "Server: %@";
 "Set up account later" = "Seadista konto hiljem";
@@ -1129,7 +1129,7 @@
 "Spain" = "Hispaania";
 /* quicksy country */
 "Sri Lanka" = "Sri Lanka";
-"SRV entry prohibits XMPP connection for domain %@" = "SRV entry prohibits XMPP connection for domain %@";
+"SRV entry prohibits XMPP connection for domain %@" = "Nimeserveri SRV-kirje keelab XMPP-ühendused domeeniga %@";
 "Status" = "Olek";
 "Status Message" = "Olekuteade";
 "Status message:" = "Olekuteade:";
@@ -1214,13 +1214,13 @@
 "They will no longer see when you are online. They may not be able to access your encryption keys." = "They will no longer see when you are online. They may not be able to access your encryption keys.";
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "They will no longer see when you are online. They may not be able to send you encrypted messages.";
 "They will see when you are online. They will be able to send you encrypted messages." = "They will see when you are online. They will be able to send you encrypted messages.";
-"This account already exists in Monal." = "This account already exists in Monal.";
+"This account already exists in Monal." = "Selline kasutajakonto juba on Monalis olemas.";
 "This account already exists on this instance" = "This account already exists on this instance";
-"This account already exists on this instance." = "This account already exists on this instance.";
+"This account already exists on this instance." = "Selline kasutajakonto juba on antud serveris olemas.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "See rakendus on liiga vana ning siin võib olla nii turvavigu kui mitte eesmärgipärast toimimist. Palun uuenda rakendus!";
-"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
+"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Seda võid kasutada logifailide eksportimiseks.\n[Vaata lisateavet siit](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong.";
-"This contact is already in the contact list of the selected account" = "This contact is already in the contact list of the selected account";
+"This contact is already in the contact list of the selected account" = "See kontakt on juba valitud kasutajakonto kontaktiloendis";
 "This contact is already in your contact list" = "See kontakt juba leidub sinu kontaktiloendis";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Võib-olla see kontakt ei toeta OMEMO-ga krüptitud sõnumeid. Palun proovi mõne sekundi pärast uuesti.";
 "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "Võib-olla see kontakt ei toeta OMEMO-ga krüptitud sõnumeid. Kui arvad, et see pole õige, siis palun proovi krüptimist uuesti sisse lülitada mõne sekundi pärast.";
@@ -1230,7 +1230,7 @@
 "This invitation will expire on %@" = "See kutse aegub %@";
 "This is an embedded file that can not be opened externally." = "See on lõimitud fail, mida ei saa välise rakendusega avada.";
 "This is the software running on your server." = "See tarkvara on kasutusel sinu serveris.";
-"This key belongs to this device and cannot be removed or disabled!" = "This key belongs to this device and cannot be removed or disabled!";
+"This key belongs to this device and cannot be removed or disabled!" = "See krüptovõti kuulub antud seadmele ja seda ei saa eemaldada ega välja lülitada!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key.";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "See tähendab, et sinu kõne on krüptitud ja teine osapool on OMEMO-krüptimise abil tuvastatud.\nSa pole teisest kanalist (nt käsitsi) tuvastanud teise osapoole OMEMO-võtmed ja vahepealsetel XMPP serveritel võib olla lisada oma võtmeid ja seega ka vahendusrünnet (MITM) korraldada.";
@@ -1274,13 +1274,13 @@
 "Too many attempts, please try again in %@." = "Liiga palju katseid, palun proovi uuesti %@.";
 /* quicksy country */
 "Trinidad and Tobago" = "Trinidad ja Tobago";
-"Trust Key" = "Trust Key";
+"Trust Key" = "Usalda võtit";
 /* OMEMO warning shown inside chat view */
-"trusted" = "trusted";
-"Trusted and verified key" = "Trusted and verified key";
-"Trusted but removed key" = "Trusted but removed key";
-"Trusted but unused key" = "Trusted but unused key";
-"Trusted but unverified key" = "Trusted but unverified key";
+"trusted" = "usaldatud";
+"Trusted and verified key" = "Usaldatud ja verifitseeritud võti";
+"Trusted but removed key" = "Usaldatud, aga eemaldatud võti";
+"Trusted but unused key" = "Usaldatud, aga kasutamata võti";
+"Trusted but unverified key" = "Usaldatud, aga verifitseerimata võti";
 "Try nevertheless" = "Proovi ikkagi";
 /* quicksy country */
 "Tunisia" = "Tuneesia";
@@ -1294,17 +1294,17 @@
 "Tuvalu" = "Tuvalu";
 "Type: %@" = "Tüüp: %@";
 "Typing..." = "Kirjutamisel...";
-"UDP Logger" = "UDP Logger";
-"UDP Logger Configuration" = "UDP Logger Configuration";
-"UDP Logging UI not supported on iOS < 16" = "UDP Logging UI not supported on iOS < 16";
+"UDP Logger" = "UDP logija";
+"UDP Logger Configuration" = "UDP logija seadistused";
+"UDP Logging UI not supported on iOS < 16" = "UDP logija kasutajaliides on toetatud iOS-i versioonis 16 ja uuemas";
 /* quicksy country */
 "Uganda" = "Uganda";
 /* quicksy country */
 "Ukraine" = "Ukraina";
 "Unable to connect to server!" = "Unable to connect to server!";
-"Unblock Contact" = "Unblock Contact";
-"Unblocking user" = "Unblocking user";
-"Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
+"Unblock Contact" = "Lõpeta kontakti blokeerimine";
+"Unblocking user" = "Lõpetan kasutaja blokeerimist";
+"Unblocking user for this group/channel: %@" = "Lõpetan kasutaja blokeerimise selles grupis/kanalis: %@";
 "Unclean appex shutown" = "Unclean appex shutown";
 "Understood" = "Selge";
 "Unexpected appex expiration" = "Unexpected appex expiration";
@@ -1326,22 +1326,22 @@
 "unknown" = "teadmata";
 "Unknown authentication method" = "Tundmatu autentimismeetod";
 "Unknown channel-binding type" = "Unknown channel-binding type";
-"Unknown error!" = "Unknown error!";
-"Unread Messages Below" = "Unread Messages Below";
+"Unknown error!" = "Tundmatu viga!";
+"Unread Messages Below" = "Lugemata sõnumid on allpool";
 "unsupported" = "pole toetatud";
 /* OMEMO warning shown inside chat view */
-"untrusted" = "untrusted";
-"Untrusted key" = "Untrusted key";
+"untrusted" = "usaldusetu";
+"Untrusted key" = "Võti pole usaldusväärne";
 "Upload Error" = "Viga üleslaadimisel";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)";
-"Upload Original Images" = "Upload Original Images";
-"Upload Settings" = "Upload Settings";
+"Upload Original Images" = "Laadi üles pildid algses vormis";
+"Upload Settings" = "Üleslaadimise seadistused";
 "Uploading" = "Laadin üles";
 "Uploading avatar..." = "Laadin tunnuspilti üles...";
 "Uploading file to server" = "Laadin faili serverisse";
 /* quicksy country */
 "Uruguay" = "Uruguay";
-"Use account" = "Use account";
+"Use account" = "Kasuta kontot";
 "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc.";
 "Use DNSSEC validation for all connections" = "Use DNSSEC validation for all connections";
 "User Interface" = "Kasutajaliides";
@@ -1364,7 +1364,7 @@
 "Verify your phone number" = "Kinnita oma telefoninumber";
 "Version" = "Versioon";
 /* server details */
-"version %@%@" = "version %@%@";
+"version %@%@" = "versioon %@%@";
 "Very old app version" = "Rakenduse versioon on väga vana";
 /* quicksy country */
 "Viet Nam" = "Vietnam";
@@ -1378,7 +1378,7 @@
 "We could not find a xmpp related QR-Code" = "Me ei suutnud tuvastada XMPP-ga seotud QR-koodi";
 "We don't support any task requested by the server, account disabled: %@" = "We don't support any task requested by the server, account disabled: %@";
 "We don't support the single task requested by the server, account disabled: %@" = "We don't support the single task requested by the server, account disabled: %@";
-"We sent you an SMS to %@" = "We sent you an SMS to %@";
+"We sent you an SMS to %@" = "Me saatsime sulle SMS-i numbrile %@";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@";
 "We will check the number **%@**. Is this okay or do you want to change the number?" = "We will check the number **%@**. Is this okay or do you want to change the number?";
@@ -1386,16 +1386,16 @@
 "Welcome" = "Tere tulemast";
 "Welcome to Monal !" = "Tere tulemast, see on Monal!";
 "Welcome to Quicksy !" = "Tere tulemast, see on Quicksy!";
-"What call do you want to place?" = "What call do you want to place?";
+"What call do you want to place?" = "Mis moodi tahaksid helistada?";
 "When disabled, URLs will opened in your default browser (that might not be Safari)." = "When disabled, URLs will opened in your default browser (that might not be Safari).";
 "When you start a conversation\nwith someone, they will\nshow up here." = "When you start a conversation\nwith someone, they will\nshow up here.";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise.";
 /* QR-Code-Scanner: account scan wrong menu */
 "Wrong menu" = "Vale menüü";
-"XEP-0163 Personal Eventing Protocol" = "XEP-0163 Personal Eventing Protocol";
-"XEP-0191: Blocking Command" = "XEP-0191: Blocking Command";
-"XEP-0198: Stream Management" = "XEP-0198: Stream Management";
-"XEP-0199: XMPP Ping" = "XEP-0199: XMPP Ping";
+"XEP-0163 Personal Eventing Protocol" = "XEP-0163 Personal Eventing Protocol (Olekuteadete edastamine)";
+"XEP-0191: Blocking Command" = "XEP-0191: Blocking Command (Suhtluse blokeerimine)";
+"XEP-0198: Stream Management" = "XEP-0198: Stream Management (Voogedastuse haldus)";
+"XEP-0199: XMPP Ping" = "XEP-0199: XMPP Ping (Ühenduse toimimise kontroll)";
 "XEP-0215: External Service Discovery" = "XEP-0215: External Service Discovery";
 "XEP-0237: Roster Versioning" = "XEP-0237: Roster Versioning";
 "XEP-0280: Message Carbons" = "XEP-0280: Message Carbons";
@@ -1410,28 +1410,28 @@
 "XMPP Capabilities" = "XMPP Capabilities";
 "XMPP Disco Info Error" = "XMPP Disco Info Error";
 "XMPP External Service Disco Error" = "XMPP External Service Disco Error";
-"XMPP ID" = "XMPP ID";
-"XMPP ID missing" = "XMPP ID missing";
+"XMPP ID" = "XMPP kasutajatunnus (XMPP ID)";
+"XMPP ID missing" = "XMPP kasutajatunnus (XMPP ID) on puudu";
 "XMPP mam preferences error" = "XMPP mam preferences error";
 "XMPP protocol extension for communications blocking." = "XMPP protocol extension for communications blocking.";
 "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls.";
 "XMPP protocol extension for sending application-level pings over XML streams." = "XMPP protocol extension for sending application-level pings over XML streams.";
 "XMPP Roster Error" = "XMPP Roster Error";
-"XMPP server domain not valid!" = "XMPP server domain not valid!";
+"XMPP server domain not valid!" = "XMPP serveri domeen pole korrektne!";
 "XMPP stream error %@: %@" = "XMPP stream error %1$@: %2$@";
 "XMPP stream error: %@" = "XMPP stream error: %@";
 "Yellow checkmark shield:" = "Kollane turvatunnus:";
 /* quicksy country */
 "Yemen" = "Jeemen";
 "Yes" = "Jah";
-"Yes, deactivate encryption" = "Yes, deactivate encryption";
-"You are set up and connected." = "You are set up and connected.";
+"Yes, deactivate encryption" = "Jah, lülita krüptimine välja";
+"You are set up and connected." = "Sa oled kõik seadistanud ja ühendus toimib.";
 "You are set up and connected. People can message you at: %@@%@" = "Kõik on seadistatud ja sinu seadme ühendus toimib. Huvilised saavad sinuga suhelda aadressil: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "Sa proovid helistada kasutajale „%@“ (%@), aga ta on leitav eri kasutajakontode alt. Palun vali kontakt, mida soovid antud juhul helistamiseks kasutada.";
 "You are using an out of date version of this app." = "Sa kasutad selle rakenduse aegunud versiooni.";
 "You can customize even more, just use the button below to open the settings." = "Saad kohendada veel paljugi muud - lihtsalt ava seadistused alljärgnevast nupust.";
 "You currently aren't allowed to write messages in this Channel." = "Sul hetkel pole õigust siia kanalisse sõnumeid saata.";
-"You did not grant Monal to access your location." = "You did not grant Monal to access your location.";
+"You did not grant Monal to access your location." = "Sa pole lubanud Monalil tuvastada sinu asukohta.";
 "You don't have voice in this chat" = "You don't have voice in this chat";
 "You got banned from group/channel: %@" = "You got banned from group/channel: %@";
 "You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
@@ -1445,25 +1445,25 @@
 "You were granted voice in this channel." = "You were granted voice in this channel.";
 "You will no longer receive messages from this conversation" = "You will no longer receive messages from this conversation";
 "You will receive subsequent messages from this conversation" = "You will receive subsequent messages from this conversation";
-"Your account must be enabled and connected, to be removed from the server!" = "Your account must be enabled and connected, to be removed from the server!";
+"Your account must be enabled and connected, to be removed from the server!" = "Serverist eemaldamiseks peab sinu konto olema kasutusel ja ühendatud!";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Kuna taastasid iCloudist oma Monali varukoopia, siis sinu kasutajakontod lülitati välja. Nende aktiveerimiseks palun sisesta oma salasõnad uusti.";
 "Your answer" = "Sinu vastus";
-"Your contact may not support calls. Your call might never reach its destination." = "Your contact may not support calls. Your call might never reach its destination.";
-"Your entered XMPP ID is missing the domain" = "Your entered XMPP ID is missing the domain";
-"Your entered XMPP ID is missing the username" = "Your entered XMPP ID is missing the username";
+"Your contact may not support calls. Your call might never reach its destination." = "Sinu kontakti rakendus ei tundu oskama häälkõnesid korraldada. Kõne ilmselt ei jõua iialgi kohale.";
+"Your entered XMPP ID is missing the domain" = "Sinu sisestatud XMPP kasutajatunnusel (XMPP ID) on domeen puudu";
+"Your entered XMPP ID is missing the username" = "Sinu sisestatud XMPP kasutajatunnusel (XMPP ID) on kasutanamime osa puudu";
 "Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!";
 "Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Sinu server ei toeta XMPP-protokolli MAM-lisafunktsionaalsust (XEP-0313). See tähendab, et osad sulle saadatavad sõnumid võivad jääda saabumata!! Sa peaksid vahetama serverit või paluma serveri haldajal see funktsionaalsus sisse lülitada!";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "Sinu server ei toeta XMPP-protokolli PUSH-lisafunktsionaalsust (XEP-0357). See tähendab, et pead saabuvate sõnumite kontrollimiseks aeg-ajalt rakenduse avama!! Sa peaksid vahetama serverit või paluma serveri haldajal see funktsionaalsus sisse lülitada!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "Sinu server ei toeta XMPP-protokolli „Stream management“ lisafunktsionaalsust (XEP-0198). See tähendab, et sinu saadetud sõnumid võivad aeg-ajalt kaotsi minna!! Sa peaksid vahetama serverit või paluma serveri haldajal see funktsionaalsus sisse lülitada!";
 "Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!";
-"Your status" = "Your status";
+"Your status" = "Sinu olek";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup.";
 /* quicksy country */
 "Zambia" = "Sambia";
 /* quicksy country */
 "Zimbabwe" = "Zimbabwe";
-"🎥 A Video" = "🎥 A Video";
+"🎥 A Video" = "🎥 Video";
 "🎥 Video" = "🎥 Video";
 "🎵 An Audiomessage" = "🎵 Häälsõnum";
 "🎵 Audio" = "🎵 Heli";
