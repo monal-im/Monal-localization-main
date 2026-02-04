@@ -93,10 +93,13 @@
 "Algeria" = "Algeria";
 "All messages are archived by default." = "Domyślnie wszystkie wiadomości są archiwizowane.";
 "All messages fetched successfully, there are no more left on the server!" = "Wszystkie wiadomości zostały pobrane, nie ma już kolejnych na serwerze!";
+"Allow BTBV-only participants in verified encrypted groups" = "Allow BTBV-only participants in verified encrypted groups";
+"Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc.";
 "Allow contacts in your contact list to query your Monal and iOS versions." = "Pozwól swoim kontaktom z listy na pokazywanie wersji Monala oraz iOSa.";
 "Allow contacts not in your contact list to call you." = "Pozwól kontaktom spoza Twojej listy na dzwonienie do Ciebie.";
 "Allow contacts not in your contact list to contact you." = "Pozwól kontaktom spoza Twojej listy na napisanie do Ciebie wiadomości.";
 "Allow MITM-prone PLAIN authentication" = "Zezwól na autoryzację PLAIN podatną na ataki MITM";
+"Allow unverified calls in encrypted chats" = "Allow unverified calls in encrypted chats";
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Zezwól swojemu urządzeniu na nawiązanie bezpośredniego połączenia do zewnętrznej usługi. To może ujawnić Twój adres IP Twojemu rozmówcy.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Pozwolenie komuś na dodanie Ciebie do listy kontaktów pozwala widzieć kontaktującemu się Twój obraz profilowy oraz kiedy jesteś online.";
 "Already present" = "Już dodano";
@@ -491,6 +494,7 @@
 /* quicksy country */
 "Ethiopia" = "Ethiopia";
 "Even more to customize!" = "Jeszcze więcej do personalizacji!";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc.";
 "Failed to block contact %@" = "Nie udało się zablokować kontaktu %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Nie udało się zmienić powiązania dla '%1$@' z '%2$@' do '%3$@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Nie udało się zmienić powiązania dla '%1$@' z '%2$@' do '%3$@': dopuszczalny czas przekroczony";
@@ -616,6 +620,7 @@
 "Iceland" = "Iceland";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Jeżeli Monal nie może wyświetlić powiadomień, nie zobaczysz alertów o nadejściu wiadomości. Dzieje się tak, jeżeli klikniesz „Odrzuć”, gdy Monal po raz pierwszy poprosi o pozwolenie. Napraw to, przechodząc do ustawień systemu iOS -> Monal -> Powiadomienia i wybierz „Zezwalaj na powiadomienia”.";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Jeżeli to jest wyłączone, Twoje urządzenie nie może aktywować push na serwerze XMPP. Upewnij się, że jest ono skonfigurowane tak, żeby obsługiwało XEP-0357.";
+"If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "Jeżeli to włączysz, nie będziesz już chroniony/-a przed atakami man-in-the-middle. Takie ataki pozwalają nieproszonym osobom na manipulowanie przychodzącymi i wychodzącymi wiadomościami, dodawanie swoich kluczy OMEMO, zmienić informacje o Twoim koncie lub nawet poznać czy zmienić Twoje hasło!\n\nZalecane jest przeniesienie się na inny serwer niż włączenie tej opcji.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Jeżeli chcesz używać wiadomości audio, musisz zezwolić na dostęp w Ustawienia-> Prywatność-> Mikrofon.";
 "Image Upload JPEG-Quality: %@" = "Jakość przesyłanych zdjęć JPEG: %@";
@@ -784,6 +789,7 @@
 /* quicksy country */
 "Monaco" = "Monaco";
 "Monal" = "Monal";
+"Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key." = "Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key.";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal obecnie ufa temu kluczowi, ale nie porównano jeszcze odcisków palców. Aby zwiększyć bezpieczeństwo potwierdź, że wyświetlany odcisk klucza pasuje zanim zaufasz temu kluczowi!";
 "Monal did not received a gps location. Please try again later." = "Monal nie otrzymał lokacji GPS. Spróbuj ponownie później.";
 "Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal nie ma dostępu do Twojej lokalizacji. Zaktualizuj dostęp do lokalizacji w ustawieniach prywatności urządzenia.";
@@ -813,6 +819,7 @@
 "Nepal" = "Nepal";
 /* quicksy country */
 "Netherlands" = "Netherlands";
+"Networking" = "Networking";
 "Never archive" = "Nigdy nie archiwizuj";
 "New Account" = "Nowe konto";
 /* quicksy country */
@@ -1236,6 +1243,7 @@
 "This key belongs to this device and cannot be removed or disabled!" = "Ten klucz należy do tego urządzenia i nie może być usunięty ani wyłączony!";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Ten klucz jest zaufany i zweryfikowany przez ręczne porównanie odcisków palców. Aby przestać mu ufać użyj elementu.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "Ten klucz jest zaufany ale kontakt już go nie używa. Pomyśl o wyłączeniu tego klucza.";
+"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key.";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you.";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place.";
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you.";
@@ -1283,6 +1291,7 @@
 "Trusted and verified key" = "Zaufany i zweryfikowany klucz";
 "Trusted but removed key" = "Zaufany ale usunięty klucz";
 "Trusted but unused key" = "Zaufany ale nieużywany klucz";
+"Trusted but unverified and unused key" = "Trusted but unverified and unused key";
 "Trusted but unverified key" = "Zaufany ale niezweryfikowany klucz";
 "Try nevertheless" = "Spróbuj jeszcze raz";
 /* quicksy country */
@@ -1477,12 +1486,3 @@
 "📷 An Image" = "📷 Obraz";
 "🔗 A Link" = "🔗 Link";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution.";
-"Allow BTBV-only participants in verified encrypted groups" = "Allow BTBV-only participants in verified encrypted groups";
-"Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc.";
-"Allow unverified calls in encrypted chats" = "Allow unverified calls in encrypted chats";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc.";
-"If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc.";
-"Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key." = "Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key.";
-"Networking" = "Networking";
-"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key.";
-"Trusted but unverified and unused key" = "Trusted but unverified and unused key";
