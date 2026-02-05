@@ -93,13 +93,13 @@
 "Algeria" = "Argélia";
 "All messages are archived by default." = "Todas as mensagens são arquivadas por padrão.";
 "All messages fetched successfully, there are no more left on the server!" = "Todas mensagens carregadas com sucesso, não há mensagens pendentes no servidor!";
-"Allow BTBV-only participants in verified encrypted groups" = "Allow BTBV-only participants in verified encrypted groups";
-"Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc.";
+"Allow BTBV-only participants in verified encrypted groups" = "Permitir apenas participantes com \"confiança cega antes da verificação\" (BTBV) em grupos com criptografia verificada";
+"Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Permitir chamadas sem verificação OMEMO em conversas criptografadas com OMEMO\nSe você desativar esta opção, você não será capaz de realizar ou receber chamadas para/de contatos que não estiverem utilizando um cliente que implemente [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nIsto deve ser desativado por membros de grupos de risco como jornalistas, ativistas, etc.";
 "Allow contacts in your contact list to query your Monal and iOS versions." = "Permitir seus contatos na sua lista consultar sua versão do Monal e iOS.";
 "Allow contacts not in your contact list to call you." = "Permitir contatos não adicionados ligarem para você.";
 "Allow contacts not in your contact list to contact you." = "Permitir contatos não adicionados contatarem você.";
 "Allow MITM-prone PLAIN authentication" = "Permitir autenticação PLAIN suscetível a MITM (Man In The Middle)";
-"Allow unverified calls in encrypted chats" = "Allow unverified calls in encrypted chats";
+"Allow unverified calls in encrypted chats" = "Permitir chamadas não verificadas em conversas criptografadas";
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Permitir seu dispositivo estabelecer uma conexão de rede direta com a parte remota. Isto poderá revelar seu endereço IP para o chamador/recebedor.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Permitir alguém adicionar você como contato permite que sua foto de perfil e sua presença online sejam vistas.";
 "Already present" = "Já presente";
@@ -494,7 +494,7 @@
 /* quicksy country */
 "Ethiopia" = "Etiópia";
 "Even more to customize!" = "Ainda mais para personalizar!";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc.";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Cada novo contato terá criptografia habilitada, mas contatos já conhecidos irão preservar suas configurações de criptografia.\nGeralmente isto nunca deve ser desativado por membros de grupos de risco como jornalistas, ativistas, etc.";
 "Failed to block contact %@" = "Falha ao bloquear o contato %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Falha ao alterar a afiliação de '%@' em '%@' para '%@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Falha ao alterar a afiliação de '%@' em '%@' para '%@': tempo limite atingido";
