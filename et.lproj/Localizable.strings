@@ -99,8 +99,8 @@
 "Allow contacts not in your contact list to call you." = "Luba endale helistada ka neil XMPP-kasutajatel, kes pole sinu kontaktide loendis.";
 "Allow contacts not in your contact list to contact you." = "Luba endale sõnumeid saata ka neil XMPP-kasutajatel, kes pole sinu kontaktide loendis.";
 "Allow MITM-prone PLAIN authentication" = "Luba kasutada vahendusründele aldist PLAIN-vormis autentimist";
-"Allow unverified calls in encrypted chats" = "Allow unverified calls in encrypted chats";
-"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
+"Allow unverified calls in encrypted chats" = "Luba krüptitud vestlustes verifitseerimata klientide kasutamist";
+"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Luba oma nutiseadmel luua otseühendust kaugseadmega. Sel puhul võib teine osapool saada teada sinu seadme IP-aadressi.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Kui lisad kellegi oma kontaktiks, siis tal on võimalik näha sinu tunnuspilti ja tuvastada aja, mil oled võrgus.";
 "Already present" = "Juba olemas";
 "Already uploading this content, ignoring" = "See sisu on juba üleslaadimisel, eiran";
@@ -152,7 +152,7 @@
 "Autodelete all messages older than" = "Kustuta automaatselt sõnumid, mis on vanemad kui";
 "Autofocus text input on chat open" = "Vestluse avamisel aseta fookus tekstisisestuskasti";
 /* OMEMO warning shown inside chat view */
-"automatically trusted" = "automatically trusted";
+"automatically trusted" = "usaldatud automaatselt";
 "Avatar" = "Tunnuspilt";
 /* quicksy country */
 "Azerbaijan" = "Aserbaidžaan";
@@ -219,7 +219,7 @@
 "Call ended: couldn't establish encryption" = "Kõne lõppes: krüptimist ei õnnestunud kasutusele võtta";
 "Call ended: declined" = "Kõne lõppes: teine osapool keeldus";
 "Call ended: remote busy" = "Kõne lõppes: teine seade on hõivatud";
-"Call security help" = "Call security help";
+"Call security help" = "Kõne turvalisuse abiteave";
 "Call Type" = "Kõne tüüp";
 "Call was not answered" = "Kõne jäi vastamata";
 "Calls: Allow P2P sessions" = "Kõned: luba võrdõigusvõrgu (P2P) kasutamist";
@@ -361,7 +361,7 @@
 "Database Export Failed" = "Andmebaasi eksportimine ei õnnestunud";
 "Database Files" = "Andmebaasifailid";
 "Debug" = "Veaotsing";
-"Debug Notification Problems" = "Debug Notification Problems";
+"Debug Notification Problems" = "Tuvasta teavituste vigu";
 "Debugging" = "Veaotsing ja silumine";
 "Default Background" = "Vaikimisi taust";
 "Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified.";
@@ -499,7 +499,7 @@
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
 "Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
-"Failed to create invitation for %@" = "Failed to create invitation for %@";
+"Failed to create invitation for %@" = "Kutse loomine kasutajale %@ ei õnnestunud";
 "Failed to create invitation, unknown error: %@" = "Kutse loomine ei õnnestunud, tekkis tundmatu viga: %@";
 "Failed to decode download link" = "Allalaadimislingi dekodeerimine ei õnnestunud";
 "Failed to decode encrypted link" = "Krüptitud lingi dekodeerimine ei õnnestunud";
@@ -514,7 +514,7 @@
 "Failed to encrypt file" = "Faili krüptimine ei õnnestunud";
 "Failed to enter Group/Channel %@" = "Failed to enter Group/Channel %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Failed to enter Group/Channel %@: This is not a Group/Channel!";
-"Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
+"Failed to export the database, please check the logfile for errors and try again." = "Andmebaasi eksportimine ei õnnestunud, palun vaata veateateid logifailist ja proovi uuesti.";
 "Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
 "Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "Failed to load blocklist";
@@ -790,7 +790,7 @@
 "Monal" = "Monal";
 "Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key." = "Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key.";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!";
-"Monal did not received a gps location. Please try again later." = "Monal did not received a gps location. Please try again later.";
+"Monal did not received a gps location. Please try again later." = "Monal ei suutnud GPS-asukohta tuvastada. Palun proovi hiljem uuesti.";
 "Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal does not have access to your location. Please update the location access in your device's Privacy Settings.";
 "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key.";
 /* Camera permissions missing warning */
@@ -1015,9 +1015,9 @@
 "Rename Contact" = "Muuda kontakti nime";
 "Rename Group" = "Muuda grupi nime";
 "Reply" = "Vasta";
-"Request Voice" = "Request Voice";
+"Request Voice" = "Kasuta häälkõnet";
 "Requesting validation SMS..." = "Requesting validation SMS...";
-"Requesting Voice" = "Requesting Voice";
+"Requesting Voice" = "Proovin häälkõnet kasutusele võtta";
 "Required" = "Nõutav";
 "Reset OMEMO session" = "Lähtesta OMEMO sessioon";
 "Resource" = "Ressurss";
@@ -1288,7 +1288,7 @@
 "Trusted and verified key" = "Usaldatud ja verifitseeritud võti";
 "Trusted but removed key" = "Usaldatud, aga eemaldatud võti";
 "Trusted but unused key" = "Usaldatud, aga kasutamata võti";
-"Trusted but unverified and unused key" = "Trusted but unverified and unused key";
+"Trusted but unverified and unused key" = "Usaldusväärne, aga verifitseerimata ja mittekasutatud võti";
 "Trusted but unverified key" = "Usaldatud, aga verifitseerimata võti";
 "Try nevertheless" = "Proovi ikkagi";
 /* quicksy country */
@@ -1445,7 +1445,7 @@
 "You got banned from group/channel: %@" = "You got banned from group/channel: %@";
 "You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
 "You got removed from group/channel: %@" = "You got removed from group/channel: %@";
-"You have not entered your XMPP ID yet" = "You have not entered your XMPP ID yet";
+"You have not entered your XMPP ID yet" = "Sa pole veel XMPP kasutajatunnust (XMPP ID) sisestanud";
 "You need friends for this ride" = "You need friends for this ride";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "You restored an iCloud backup of Monal, please open the app to reenable this account.";
