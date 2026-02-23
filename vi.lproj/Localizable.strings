@@ -1,43 +1,43 @@
-" (offline)" = " (offline)";
+" (offline)" = " (ngoại tuyến)";
 /* server details */
-" running on %@" = " running on %@";
-"%02d:%02d (long press to abort)" = "%02d:%02d (long press to abort)";
+" running on %@" = " chạy trên %@";
+"%02d:%02d (long press to abort)" = "%02d:%02d (Nhấn giữ để hủy bỏ)";
 "%@" = "%@";
 "%@ (%@)" = "%@ (%@)";
 "%@ (affiliation: %@)" = "%@ (affiliation: %@)";
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
-"%@ hours" = "%@ hours";
+"%@ hours" = "%@ giờ";
 "%@ says:" = "%@ says:";
 /* Message autdelete time */
-"1 day" = "1 day";
+"1 day" = "1 ngày";
 /* Message autdelete time */
-"1 hour" = "1 hour";
+"1 hour" = "1 giờ";
 "1 MiB" = "1 MiB";
 /* Message autdelete time */
-"1 minute" = "1 minute";
+"1 minute" = "1 phút";
 /* Message autdelete time */
-"1 week" = "1 week";
+"1 week" = "1 tuần";
 "100 MiB" = "100 MiB";
 "100%" = "100%";
 /* Message autdelete time */
-"12 hours" = "12 hours";
+"12 hours" = "12 giờ";
 /* Message autdelete time */
-"15 minutes" = "15 minutes";
+"15 minutes" = "15 phút";
 /* Message autdelete time */
-"2 month" = "2 month";
+"2 month" = "2 tháng";
 /* Message autdelete time */
-"3 days" = "3 days";
+"3 days" = "3 ngày";
 /* Message autdelete time */
-"3 month" = "3 month";
+"3 month" = "3 tháng";
 /* Message autdelete time */
-"30 minutes" = "30 minutes";
+"30 minutes" = "30 phút";
 /* Message autdelete time */
-"30 seconds" = "30 seconds";
+"30 seconds" = "30 giây";
 "33%" = "33%";
 /* Message autdelete time */
-"4 weeks" = "4 weeks";
+"4 weeks" = "4 tuần";
 /* Message autdelete time */
-"5 minutes" = "5 minutes";
+"5 minutes" = "5 phút";
 /* server details */
 "<unknown server>" = "<unknown server>";
 /* server details */
@@ -947,7 +947,7 @@
 "Please make sure you have entered the same password in both password fields." = "Please make sure you have entered the same password in both password fields.";
 "Please provide a valid XMPP server domain or select one." = "Please provide a valid XMPP server domain or select one.";
 "Please select a XMPP server or provide one." = "Please select a XMPP server or provide one.";
-"Please update!" = "Please update!";
+"Please update!" = "Vui lòng cập nhật!";
 /* quicksy country */
 "Poland" = "Poland";
 "Port" = "Port";
@@ -1227,7 +1227,7 @@
 "This account already exists in Monal." = "This account already exists in Monal.";
 "This account already exists on this instance" = "This account already exists on this instance";
 "This account already exists on this instance." = "This account already exists on this instance.";
-"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!";
+"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Ứng dụng này quá cũ và có thể chứa lỗi bảo mật cũng như đột ngột ngừng hoạt động. Vui lòng cập nhật!";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong.";
 "This contact is already in the contact list of the selected account" = "This contact is already in the contact list of the selected account";
@@ -1257,7 +1257,7 @@
 "This server does not support modern SASL2 authentication." = "This server does not support modern SASL2 authentication.";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server.";
 "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment.";
-"This should never happen, please contact the developers and provide a logfile!" = "This should never happen, please contact the developers and provide a logfile!";
+"This should never happen, please contact the developers and provide a logfile!" = "Điều này không nên xảy ra, vui lòng liên hệ với nhà phát triển và cung cấp file log!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";
 "This will clear the whole chat history of this account from this device." = "This will clear the whole chat history of this account from this device.";
@@ -1377,7 +1377,7 @@
 "Version" = "Version";
 /* server details */
 "version %@%@" = "version %1$@%2$@";
-"Very old app version" = "Very old app version";
+"Very old app version" = "Phiên bản ứng dụng quá cũ";
 /* quicksy country */
 "Viet Nam" = "Viet Nam";
 /* muc affiliation */
