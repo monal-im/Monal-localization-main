@@ -886,7 +886,7 @@
 /* OMEMO warning shown inside chat view */
 "OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact" = "OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact";
 "On this device" = "On this device";
-"Online" = "Online";
+"Online" = "Trực tuyến";
 "Only contacts" = "Only contacts";
 "Open" = "Open";
 "Open app to see more" = "Open app to see more";
@@ -1078,30 +1078,30 @@
 "Send read receipts" = "Send read receipts";
 "Send SMS again" = "Send SMS again";
 "Send typing notifications" = "Send typing notifications";
-"Sending..." = "Sending...";
+"Sending..." = "Đang gửi...";
 "Sends password in cleartext (only encrypted by TLS), not very secure" = "Sends password in cleartext (only encrypted by TLS), not very secure";
 /* quicksy country */
 "Senegal" = "Senegal";
-"Sent a File 📁" = "Sent a File 📁";
-"Sent a Link 🔗" = "Sent a Link 🔗";
-"Sent a Location 📍" = "Sent a Location 📍";
-"Sent an Image 📷" = "Sent an Image 📷";
+"Sent a File 📁" = "Gửi tệp 📁";
+"Sent a Link 🔗" = "Gửi Link 🔗";
+"Sent a Location 📍" = "Gửi vị trí 📍";
+"Sent an Image 📷" = "Gửi ảnh 📷";
 /* directory for downloaded audios */
-"Sent Audios" = "Sent Audios";
+"Sent Audios" = "Gửi âm thanh";
 /* directory for downloaded files */
-"Sent Files" = "Sent Files";
+"Sent Files" = "Gửi tệp";
 /* directory for downloaded images */
-"Sent Images" = "Sent Images";
+"Sent Images" = "Gửi ảnh";
 /* directory for downloaded videos */
-"Sent Videos" = "Sent Videos";
+"Sent Videos" = "Gửi Video";
 /* quicksy country */
 "Serbia" = "Serbia";
 "Server" = "Server";
 "Server does not support account removal" = "Server does not support account removal";
 "Server for domain '%@' not responding!" = "Server for domain '%@' not responding!";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Server implementation error: SASL2 tasks empty, account disabled!";
-"Server returned invalid xml!" = "Server returned invalid xml!";
-"Server returned SASL2 error '%@'." = "Server returned SASL2 error '%@'.";
+"Server returned invalid xml!" = "Máy chủ trả về xml không hợp lệ!";
+"Server returned SASL2 error '%@'." = "Máy chủ trả về lỗi SASL2 '%@'.";
 "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 "Server: %@" = "Server: %@";
 "Set up account later" = "Set up account later";
@@ -1166,7 +1166,7 @@
 /* quicksy country */
 "Syrian Arab Republic" = "Syrian Arab Republic";
 /* quicksy country */
-"Taiwan, China" = "Taiwan, China";
+"Taiwan, China" = "Đài Loan, Trung Quốc";
 /* quicksy country */
 "Tajikistan" = "Tajikistan";
 "Take me to settings" = "Take me to settings";
@@ -1209,7 +1209,7 @@
 "The user %@ (%@) wants to add you to their contact list" = "The user %1$@ (%2$@) wants to add you to their contact list";
 "The username does not need to have an @ symbol. Please try again." = "The username does not need to have an @ symbol. Please try again.";
 "There is no configured email account. Please email info@monal-im.org ." = "There is no configured email account. Please email info@monal-im.org .";
-"There was a SASL error on the server." = "There was a SASL error on the server.";
+"There was a SASL error on the server." = "Đã có lỗi SASL ở máy chủ.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)";
 "These are important privacy settings you may want to review!" = "These are important privacy settings you may want to review!";
@@ -1328,11 +1328,11 @@
 "Unexpected server response: invalid PEP config form" = "Unexpected server response: invalid PEP config form";
 "Unexpected server response: missing required fields in PEP config form" = "Unexpected server response: missing required fields in PEP config form";
 /* quicksy country */
-"United Arab Emirates" = "United Arab Emirates";
+"United Arab Emirates" = "UAE";
 /* quicksy country */
-"United Kingdom" = "United Kingdom";
+"United Kingdom" = "Anh";
 /* quicksy country */
-"United States" = "United States";
+"United States" = "Mỹ";
 /* quicksy country */
 "United States Virgin Islands" = "United States Virgin Islands";
 "unknown" = "unknown";
@@ -1342,9 +1342,9 @@
 "Unread Messages Below" = "Unread Messages Below";
 "unsupported" = "unsupported";
 /* OMEMO warning shown inside chat view */
-"untrusted" = "untrusted";
+"untrusted" = "không tin tưởng";
 "Untrusted key" = "Untrusted key";
-"Upload Error" = "Upload Error";
+"Upload Error" = "Lỗi tải lên";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)";
 "Upload Original Images" = "Upload Original Images";
 "Upload Settings" = "Upload Settings";
@@ -1379,7 +1379,7 @@
 "version %@%@" = "version %1$@%2$@";
 "Very old app version" = "Phiên bản ứng dụng quá cũ";
 /* quicksy country */
-"Viet Nam" = "Viet Nam";
+"Viet Nam" = "Việt Nam";
 /* muc affiliation */
 "Visitor" = "Visitor";
 "Waiting for GPS signal" = "Waiting for GPS signal";
@@ -1446,9 +1446,9 @@
 "You currently aren't allowed to write messages in this Channel." = "You currently aren't allowed to write messages in this Channel.";
 "You did not grant Monal to access your location." = "You did not grant Monal to access your location.";
 "You don't have voice in this chat" = "You don't have voice in this chat";
-"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
-"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
-"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
+"You got banned from group/channel: %@" = "Bạn đã bị ban khỏi nhóm/kênh: %@";
+"You got kicked from group/channel: %@" = "Bạn đã bị kick khỏi nhóm/kênh: %@";
+"You got removed from group/channel: %@" = "Bạn đã bị xóa khỏi nhóm/kênh: %@";
 "You have not entered your XMPP ID yet" = "You have not entered your XMPP ID yet";
 "You need friends for this ride" = "You need friends for this ride";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
