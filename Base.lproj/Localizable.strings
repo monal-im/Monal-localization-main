@@ -13,6 +13,7 @@
 "%@ (affiliation: %@)" = "%@ (affiliation: %@)";
 "%@ (type '%@', category '%@')" = "%@ (type '%@', category '%@')";
 "%@ hours" = "%@ hours";
+"%@: " = "%@: ";
 "1 MiB" = "1 MiB";
 /* Message autdelete time */
 "1 day" = "1 day";
@@ -381,6 +382,8 @@
 "Join Group" = "Join Group";
 "Keep encryption enabled" = "Keep encryption enabled";
 "Keys of %@" = "Keys of %@";
+"Last incoming push: %@" = "Last incoming push: %@";
+"Last incoming push: unknown" = "Last incoming push: unknown";
 "Last seen: %@" = "Last seen: %@";
 "Leave Channel" = "Leave Channel";
 "Leave Group" = "Leave Group";
@@ -543,10 +546,10 @@
 "Received geo locations are shared with Apple's Maps App." = "Received geo locations are shared with Apple's Maps App.";
 /* shareViewController: recipient */
 "Recipient" = "Recipient";
-"Recode Fail:" = "Recode Fail:";
-"Recode Success" = "Recode Success";
 "Reconnecting..." = "Reconnecting...";
 "Recording audio" = "Recording audio";
+"Recording failed: " = "Recording failed: ";
+"Recording succeeded" = "Recording succeeded";
 "Red x-mark shield:" = "Red x-mark shield:";
 "Refreshing..." = "Refreshing...";
 "Register a new account" = "Register a new account";
@@ -583,6 +586,7 @@
 "Retry" = "Retry";
 "Retry sending message?" = "Retry sending message?";
 "Ringing..." = "Ringing...";
+"Running..." = "Running...";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Salted Challenge Response Authentication Mechanism using the given Hash Method";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding";
 "Saving changes to server" = "Saving changes to server";
@@ -626,6 +630,7 @@
 "Submit A Bug" = "Submit A Bug";
 "Success" = "Success";
 "Success!" = "Success!";
+"Successful" = "Successful";
 "Successfully destroyed channel." = "Successfully destroyed channel.";
 "Successfully destroyed group." = "Successfully destroyed group.";
 "Successfully joined group/channel %@!" = "Successfully joined group/channel %@!";
@@ -751,6 +756,7 @@
 "Username" = "Username";
 "Username missing" = "Username missing";
 "Uses TLS client certificates for authentication" = "Uses TLS client certificates for authentication";
+"Using the ping button will reveal your JID(s) to our push servers!" = "Using the ping button will reveal your JID(s) to our push servers!";
 "Verify your phone number" = "Verify your phone number";
 "Version" = "Version";
 /* muc affiliation */
