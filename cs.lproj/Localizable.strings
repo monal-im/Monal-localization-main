@@ -1,55 +1,55 @@
 " (offline)" = " (offline)";
 /* server details */
-" running on %@" = " running on %@";
+" running on %@" = " běží na %@";
 "%02d:%02d (long press to abort)" = "%02d:%02d (long press to abort)";
 "%@" = "%@";
 "%@ (%@)" = "%@ (%@)";
-"%@ (affiliation: %@)" = "%@ (affiliation: %@)";
+"%@ (affiliation: %@)" = "%@ (příslušnost: %@)";
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
-"%@ hours" = "%@ hours";
+"%@ hours" = "%@ hodin";
 "%@ says:" = "%@ říká:";
 /* Message autdelete time */
-"1 day" = "1 day";
+"1 day" = "1 den";
 /* Message autdelete time */
-"1 hour" = "1 hour";
+"1 hour" = "1 hodina";
 "1 MiB" = "1 MiB";
 /* Message autdelete time */
-"1 minute" = "1 minute";
+"1 minute" = "1 minuta";
 /* Message autdelete time */
-"1 week" = "1 week";
+"1 week" = "1 týden";
 "100 MiB" = "100 MiB";
 "100%" = "100%";
 /* Message autdelete time */
-"12 hours" = "12 hours";
+"12 hours" = "12 hodin";
 /* Message autdelete time */
-"15 minutes" = "15 minutes";
+"15 minutes" = "15 minut";
 /* Message autdelete time */
-"2 month" = "2 month";
+"2 month" = "2 měsíce";
 /* Message autdelete time */
-"3 days" = "3 days";
+"3 days" = "3 dny";
 /* Message autdelete time */
-"3 month" = "3 month";
+"3 month" = "3 měsíce";
 /* Message autdelete time */
-"30 minutes" = "30 minutes";
+"30 minutes" = "30 minut";
 /* Message autdelete time */
-"30 seconds" = "30 seconds";
+"30 seconds" = "30 sekund";
 "33%" = "33%";
 /* Message autdelete time */
-"4 weeks" = "4 weeks";
+"4 weeks" = "4 týdny";
 /* Message autdelete time */
-"5 minutes" = "5 minutes";
+"5 minutes" = "5 minut";
 /* server details */
-"<unknown server>" = "<unknown server>";
+"<unknown server>" = "<neznámý server>";
 /* server details */
-"<unknown version>" = "<unknown version>";
+"<unknown version>" = "<neznámá verze>";
 /* muc affiliation */
-"<unknown>" = "<unknown>";
-"A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
+"<unknown>" = "<neznámý>";
+"A contact was scanned through the QR code scanner" = "Kontakt byl naskenován pomocí skeneru QR kódů";
 "Abort" = "Abort";
 "Aborted recording audio" = "Aborted recording audio";
 "About" = "O...";
-"Accept incoming calls from strangers" = "Accept incoming calls from strangers";
-"Accept incoming messages from strangers" = "Accept incoming messages from strangers";
+"Accept incoming calls from strangers" = "Přijímat příchozí hovory od neznámých";
+"Accept incoming messages from strangers" = "Přijímat příchozí zprávy od neznámých";
 "Access message archives on the server." = "Přístup k archivům zpráv na serveru.";
 /* ShareViewController: Account */
 "Account" = "Účet";
@@ -57,27 +57,27 @@
 "Account (%@)" = "Účet (%@)";
 "Account (new)" = "Účet (nový)";
 "Account already configured in Monal!" = "Tento účet je v Monalu již nakonfigurován!";
-"Account already configured!" = "Account already configured!";
+"Account already configured!" = "Účet je již nakonfigurován!";
 "Account disabled" = "Účet zakázán";
 "Account Exists" = "Účet existuje";
-"Account Picker" = "Account Picker";
+"Account Picker" = "Výběr účtu";
 "Account: %@" = "Účet: %@";
-"Activity indications" = "Activity indications";
-"Add" = "Add";
+"Activity indications" = "Indikace aktivity";
+"Add" = "Přidat";
 "Add %@ to your contacts?" = "Chcete přidat %@ do kontaktů?";
 "Add Account" = "Přidat účet";
 "Add Account (advanced)" = "Přidat účet (rozšířené)";
-"Add contact" = "Add contact";
-"Add contact (contact requests pending)" = "Add contact (contact requests pending)";
-"Add Contact or Channel" = "Add Contact or Channel";
-"Add members to group" = "Add members to group";
+"Add contact" = "Přidat kontakt";
+"Add contact (contact requests pending)" = "Přidat kontakt (nevyřízené žádosti o kontakt)";
+"Add Contact or Channel" = "Přidat kontakt nebo kanál";
+"Add members to group" = "Přidat členy do skupiny";
 "Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Přidejte nové kontakty pomocí tlačítka \"+\" nahoře. Vaši přátelé se zde objeví ve chvíli, kdy je možné s nimi chatovat.";
-"Add scanned contact" = "Add scanned contact";
-"Add to contacts" = "Add to contacts";
-"Adding %@..." = "Adding %@...";
-"Adding Group/Channel..." = "Adding Group/Channel...";
-"Adding new member" = "Adding new member";
-"Adding..." = "Adding...";
+"Add scanned contact" = "Přidat naskenovaný kontakt";
+"Add to contacts" = "Přidat do kontaktů";
+"Adding %@..." = "Přidávám %@...";
+"Adding Group/Channel..." = "Přidávám skupinu/kanál...";
+"Adding new member" = "Přidávám nového člena";
+"Adding..." = "Přidávám...";
 "Adjust the maximum file size for auto-downloads over cellular network" = "Upravit maximální velikost souboru, která se automaticky stáhne přes mobilní data";
 "Adjust the maximum file size for auto-downloads over WiFi" = "Upravit maximální velikost souboru, která se automaticky stáhne přes WiFi";
 "Adjust the quality of images uploaded" = "Upravit kvalitu nahrávaných obrázků";
@@ -1257,7 +1257,7 @@
 "This server does not support modern SASL2 authentication." = "This server does not support modern SASL2 authentication.";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server.";
 "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment.";
-"This should never happen, please contact the developers and provide a logfile!" = "This should never happen, please contact the developers and provide a logfile!";
+"This should never happen, please contact the developers and provide a logfile!" = "Tohle by se stát nemělo, prosíme, kontaktujte vývojáře a připojte log!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";
 "This will clear the whole chat history of this account from this device." = "Tím se z tohoto zařízení odstraní veškerá historie chatu tohoto účtu.";
