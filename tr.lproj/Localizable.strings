@@ -8,6 +8,7 @@
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
 "%@ hours" = "%@ Saat";
 "%@ says:" = "%@ diyor ki:";
+"%@: " = "%@: ";
 /* Message autdelete time */
 "1 day" = "1 gün";
 /* Message autdelete time */
@@ -688,6 +689,8 @@
 "Kyrgyzstan" = "Kırgızistan";
 /* quicksy country */
 "Lao P.D.R." = "Lao D.H.C.";
+"Last incoming push: %@" = "Son gelen Push: %@";
+"Last incoming push: unknown" = "Son gelen Push: bilinmiyor";
 "Last seen: %@" = "Son Görülme: %@";
 "Last seen: %d days ago" = "Son görülme: %d gün önce";
 "Last seen: %d hours ago" = "Son görülme: %d saat önce";
@@ -1033,6 +1036,7 @@
 "Ringing..." = "Çalıyor...";
 /* quicksy country */
 "Romania" = "Romanya";
+"Running..." = "Devam ediyor...";
 /* quicksy country */
 "Russian Federation" = "Rusya";
 /* quicksy country */
@@ -1146,6 +1150,7 @@
 "Submit A Bug" = "Hata Bildir";
 "Success" = "Başarı";
 "Success!" = "Başarılı!";
+"Successful" = "Başarılı";
 "Successfully destroyed channel." = "Kanal başarıyla yok edildi.";
 "Successfully destroyed group." = "Grup başarıyla yok edildi.";
 "Successfully joined group/channel %@!" = "Başarılı bir şekilde grup/kanal %@ katılındı!";
@@ -1365,6 +1370,7 @@
 "Username" = "Kullanıcı Adı";
 "Username missing" = "Kullanıcı adı eksik";
 "Uses TLS client certificates for authentication" = "Kimlik doğrulaması için TLS istemci sertifikalarını kullanır";
+"Using the ping button will reveal your JID(s) to our push servers!" = "Ping düğmesine tıklayarak XMPP adreslerinizi push sunucularımıza iletebilirsiniz!";
 /* quicksy country */
 "Uzbekistan" = "Özbekistan";
 /* quicksy country */
@@ -1486,9 +1492,3 @@
 "📷 An Image" = "📷 Bir Resim";
 "🔗 A Link" = "🔗 Bir Bağlantı";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Merkezi Olmayan Ağ :\nXMPP'nin merkezi olmayan doğasından yararlanarak merkezi sunuculardan kaçınır ve dijital egemenliğinizi artırır.\n\n🌐 Veri gizliliği :\nHarici taraflar için (veya başkası için) bilgi satmıyor veya takip etmiyoruz.\n\n🔐 Uçtan uca şifreleme :\nOMEMO protokolünü kullanarak güvenli çok uçlu mesajlaşma.\n\n👨‍💻 Açık Kaynak :\nUygulamanın kaynak kodu denetim ve katkı için herkese açıktır.";
-"%@: " = "%@: ";
-"Last incoming push: %@" = "Son gelen Push: %@";
-"Last incoming push: unknown" = "Son gelen Push: bilinmiyor";
-"Running..." = "Devam ediyor...";
-"Successful" = "Başarılı";
-"Using the ping button will reveal your JID(s) to our push servers!" = "Ping düğmesine tıklayarak XMPP adreslerinizi push sunucularımıza iletebilirsiniz!";

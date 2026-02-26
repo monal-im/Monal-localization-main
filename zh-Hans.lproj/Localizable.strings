@@ -8,6 +8,7 @@
 "%@ (type '%@', category '%@')" = "%@（类型“%@”，类别“%@”）";
 "%@ hours" = "%@ 小时";
 "%@ says:" = "%@ 说：";
+"%@: " = "%@: ";
 /* Message autdelete time */
 "1 day" = "1 天";
 /* Message autdelete time */
@@ -688,6 +689,8 @@
 "Kyrgyzstan" = "吉尔吉斯斯坦";
 /* quicksy country */
 "Lao P.D.R." = "老挝";
+"Last incoming push: %@" = "上次收到推送：%@";
+"Last incoming push: unknown" = "上次收到推送：未知";
 "Last seen: %@" = "最后上线：%@";
 "Last seen: %d days ago" = "最后上线：%d 天前";
 "Last seen: %d hours ago" = "最后上线：%d 小时前";
@@ -1033,6 +1036,7 @@
 "Ringing..." = "正在响铃…";
 /* quicksy country */
 "Romania" = "罗马尼亚";
+"Running..." = "正在运行…";
 /* quicksy country */
 "Russian Federation" = "俄罗斯";
 /* quicksy country */
@@ -1146,6 +1150,7 @@
 "Submit A Bug" = "报告错误";
 "Success" = "成功";
 "Success!" = "成功！";
+"Successful" = "成功";
 "Successfully destroyed channel." = "已成功解散频道。";
 "Successfully destroyed group." = "已成功解散群聊。";
 "Successfully joined group/channel %@!" = "已成功加入群聊/频道 %@！";
@@ -1365,6 +1370,7 @@
 "Username" = "用户名";
 "Username missing" = "缺少用户名";
 "Uses TLS client certificates for authentication" = "使用 TLS 客户端证书进行身份验证";
+"Using the ping button will reveal your JID(s) to our push servers!" = "使用 ping 按钮会将您的 JID 暴露给我们的推送服务器！";
 /* quicksy country */
 "Uzbekistan" = "乌兹别克斯坦";
 /* quicksy country */
@@ -1486,9 +1492,3 @@
 "📷 An Image" = "📷 图片";
 "🔗 A Link" = "🔗 链接";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 去中心化网络：\n利用 XMPP 的去中心化特性，避免使用中央服务器，提高您的数字主权。\n\n🌐 数据隐私：\n我们不为外部各方（也不为任何其他人）出售或跟踪信息。\n\n🔐 端到端加密：\n使用 OMEMO 协议进行安全的多端消息传递。\n\n👨‍💻 开源：\n本应用的源代码已公开，可供审核和贡献。";
-"%@: " = "%@: ";
-"Last incoming push: %@" = "上次收到推送：%@";
-"Last incoming push: unknown" = "上次收到推送：未知";
-"Running..." = "正在运行…";
-"Successful" = "成功";
-"Using the ping button will reveal your JID(s) to our push servers!" = "使用 ping 按钮会将您的 JID 暴露给我们的推送服务器！";
