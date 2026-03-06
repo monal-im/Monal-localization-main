@@ -153,7 +153,7 @@
 "Autodelete all messages older than" = "Supprimer automatiquement les messages plus vieux que";
 "Autofocus text input on chat open" = "Saisie de texte avec focus automatique lors de l'ouverture du chat";
 /* OMEMO warning shown inside chat view */
-"automatically trusted" = "automatically trusted";
+"automatically trusted" = "confiance automatique";
 "Avatar" = "Image de profil";
 /* quicksy country */
 "Azerbaijan" = "Azerbaïdjan";
@@ -324,7 +324,7 @@
 "Could not configure group '%@'" = "Impossible de configurer le groupe '%@'";
 "Could not configure group '%@': timeout" = "Impossible de configurer le groupe '%@' : timeout";
 "Could not create group '%@': timeout" = "Impossible de créer le groupe '%@' : timeout";
-"Could not decrypt because you didn't trust the sender's device %u." = "Could not decrypt because you didn't trust the sender's device %u.";
+"Could not decrypt because you didn't trust the sender's device %u." = "Impossible de décrypter car vous n'avez pas confiance en l'appareil de l'expéditeur %u.";
 "Could not decrypt message" = "Impossible de déchiffrer le message";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "Les anciens messages pour ce chat n'ont pu être récupérés depuis l'archive du serveur. Veuillez réessayer plus tard. %@";
 "Could not fetch messages" = "Échec de la récupération des messages";
@@ -621,7 +621,7 @@
 "Iceland" = "Islande";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Si Monal ne peut utiliser les notifications, aucun alerte ne sera affichée quand les messages arriverons. Il est possible que vous ayez sélectionné \"Refuser\" lors de la demande de permission de Monal. Vous pouvez activer les notifications depuis Préférences d'iOS -> Monal -> Notifications puis « Autoriser les notifications ».";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Si ceci est inactif, votre appareil ne peut pas activer le push sur votre serveur XMPP. Veuillez vérifier que vous l'avez bien configuré pour supporter XEP-0357.";
-"If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc.";
+"If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "Si désactivé, vous n'enverrez pas de messages chiffrés aux membres d'un groupe qui n'ont pas d'appareil explicitement fiable une fois que vous avez explicitement fait confiance/retiré cette confiance à au moins un appareil d'un autre membre de ce groupe.\nUtilisez avec précaution, parce que cela signifie que vous devrez explicitement faire confiance à au moins un appareil de *tous* les membres d'un groupe une fois que vous avez commencé manuellement à changer la confiance d'un appareil d'un membre de ce groupe (même si vous l'avez fait dans un chat 1:1 avec l'un des membres)!\nEn général, cela ne devrait être désactivé seulement pour les membres de groupes à risque élevé comme des journalistes, des militants, etc.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "Si vous l'activez, vous ne serez plus à l'abri des attaques MITM. De telles attaques permettent à l'adversaire de manipuler vos messages entrants et sortants, d'ajouter ses propres clés OMEMO, de modifier les détails de votre compte et même de connaître ou de changer votre mot de passe !\n\nVous devriez plutôt passer à un autre serveur plutôt que de l'activer.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Vous devez autoriser l'accès au microphone dans Préférences -> Confidentialité -> Microphone pour activer les messages audio.";
 "Image Upload JPEG-Quality: %@" = "Qualité des images JPEG à envoyer : %@";
@@ -792,7 +792,7 @@
 /* quicksy country */
 "Monaco" = "Monaco";
 "Monal" = "Monal";
-"Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key." = "Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key.";
+"Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key." = "Monal fait actuellement confiance à cette clé, mais les empreintes n'ont pas encore été comparées et le contact ne l'a pas utilisé depuis longtemps. Pensez à désactiver la confiance pour cette clé.";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal fait actuellement confiance à cette clé, mais les empreintes n'ont pas encore été comparées. Pour augmenter la sécurité, veuillez confirmer avec le contact que les empreintes affichées correspondent avant de faire confiance à cette clé !";
 "Monal did not received a gps location. Please try again later." = "Monal n'a pas reçu de localisation GPS. Veuillez réessayer plus tard.";
 "Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal n'a pas accès à votre localisation. Veuillez mettre à jour les autorisations d'accès dans les paramètres de confidentialité de l'appareil.";
@@ -997,7 +997,7 @@
 "Reconnecting..." = "Reconnexion en cours...";
 "Recording audio" = "Enregistrement audio";
 "Recording failed: " = "Enregistrement échoué : ";
-"Recording succeeded" = "Recording succeeded";
+"Recording succeeded" = "Enregistrement réussi";
 "Red x-mark shield:" = "Bouclier rouge avec une croix :";
 "Refreshing..." = "Rafraichissement...";
 "Register a new account" = "Enregistrer un nouveau compte";
@@ -1036,7 +1036,7 @@
 "Ringing..." = "Sonnerie en cours...";
 /* quicksy country */
 "Romania" = "Roumanie";
-"Running..." = "Running...";
+"Running..." = "Exécution en cours...";
 /* quicksy country */
 "Russian Federation" = "Russie";
 /* quicksy country */
@@ -1150,7 +1150,7 @@
 "Submit A Bug" = "Signaler un problème";
 "Success" = "Succès";
 "Success!" = "Succès !";
-"Successful" = "Successful";
+"Successful" = "Succès";
 "Successfully destroyed channel." = "Salon détruit avec succès.";
 "Successfully destroyed group." = "Groupe détruit avec succès.";
 "Successfully joined group/channel %@!" = "Groupe/salon %@ rejoint avec succès !";
@@ -1209,8 +1209,8 @@
 "The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "Le serveur a essayé de vous lier au jid '%1$@', mais vous avez configuré '%2$@', désactivant le compte !";
 "The UDP logger allows you to livestream the log to the configured IP." = "Le logger UDP vous permet de diffuser en direct le journal sur l'adresse IP configurée.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "Le logger UDP vous permet de diffuser en direct le journal sur l'adresse IP configurée. Veuillez utiliser une clé sécurisée lors de la diffusion sur Internet !\n[Découvrez comment recevoir le flux de logs](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
-"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "The user %1$@ (%2$@) denied your contact request. You can try again, if you think this was a mistake.";
-"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "The user %1$@ (%2$@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake.";
+"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "L'utilisateur %1$@ (%2$@) a refusé votre demande de contact. Vous pouvez réessayer, si vous pensez que c'était une erreur.";
+"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "L'utilisateur %1$@ (%2$@) vous a retiré de sa liste de contact. Vous pouvez envoyer une nouvelle demande de contact, si vous pensez que c'était une erreur.";
 "The user %@ (%@) wants to add you to their contact list" = "Le compte %1$@ (%2$@) souhaite vous ajouter à sa liste de contact";
 "The username does not need to have an @ symbol. Please try again." = "Le nom d'utilisateur·ice ne doit pas contenir le symbole @. Veuillez réessayer.";
 "There is no configured email account. Please email info@monal-im.org ." = "Il n'y a pas de compte de messagerie configuré. Veuillez envoyer un courriel à info@monal-im.org .";
@@ -1248,7 +1248,7 @@
 "This key belongs to this device and cannot be removed or disabled!" = "Cette clé appartient à cet appareil et ne peut être supprimée ou désactivée !";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Cette clé est fiable et vérifiée par comparaison manuelle des empreintes. Pour cesser de faire confiance à cette clé, utilisez le bouton poussoir.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "Cette clé est fiable, mais le contact ne l'utilise plus. Pensez à désactiver la confiance pour cette clé.";
-"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key.";
+"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "Cette clé est fiable, mais le contact ne l'a pas utilisé depuis longtemps. Pensez à désactiver la confiance pour cette clé.";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "Cela signifie que votre appel est chiffré et que le correspondant distant a été vérifié à l'aide du chiffrement OMEMO.\nMais comme vous n'avez pas vérifié manuellement les signatures OMEMO de l'appelé, votre serveur XMPP ou celui de l'appelé pourrait éventuellement avoir inséré ses propres clés OMEMO dans le cadre d'attaques MITM.";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "Cela signifie que votre appel est chiffré et que le correspondant distant a été vérifié à l'aide du chiffrement OMEMO.\nVous avez vérifié manuellement les clés OMEMO utilisées et aucune attaque de type MITM ne peut avoir lieu.";
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "Cela signifie que votre appel est chiffré, mais que le correspondant distant n'a pas pu être vérifié à l'aide du chiffrement OMEMO.\nVotre serveur XMPP ou celui de l'appelé pourrait éventuellement vous attaquer avec une attaque de type MITM.";
@@ -1292,11 +1292,11 @@
 "Trinidad and Tobago" = "Trinité-et-Tobago";
 "Trust Key" = "Faire confiance à la clé";
 /* OMEMO warning shown inside chat view */
-"trusted" = "trusted";
+"trusted" = "Confiance";
 "Trusted and verified key" = "Clé fiable et vérifiée";
 "Trusted but removed key" = "Clé fiable mais supprimée";
 "Trusted but unused key" = "Clé fiable mais inutilisée";
-"Trusted but unverified and unused key" = "Trusted but unverified and unused key";
+"Trusted but unverified and unused key" = "Clé fiable mais non vérifiée et inutilisée";
 "Trusted but unverified key" = "Clé fiable mais invalidée";
 "Try nevertheless" = "Essayer quand même";
 /* quicksy country */
@@ -1347,7 +1347,7 @@
 "Unread Messages Below" = "Messages non lus ci-dessous";
 "unsupported" = "non géré";
 /* OMEMO warning shown inside chat view */
-"untrusted" = "untrusted";
+"untrusted" = "Non confiant";
 "Untrusted key" = "Clé non fiable";
 "Upload Error" = "Échec de l'envoi";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Envoyer des fichier sur le serveur pour les partager avec les autres. (La taille maximale autorisée des fichiers selon le serveur est de : %@)";
