@@ -326,7 +326,7 @@
 "Could not create group '%@': timeout" = "Could not create group '%@': timeout";
 "Could not decrypt because you didn't trust the sender's device %u." = "Could not decrypt because you didn't trust the sender's device %u.";
 "Could not decrypt message" = "Could not decrypt message";
-"Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@";
+"Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "서버 보관소 에서이 채팅에 대한 모든 이전 메시지를 가져올 수 없습니다. 나중에 다시 시도하십시오. % s @ 희망하십시오.";
 "Could not fetch messages" = "Could not fetch messages";
 /* QR-Code-Scanner */
 "Could not get default capture device" = "Could not get default capture device";
@@ -334,7 +334,7 @@
 "Could not init video session" = "Could not init video session";
 "Could not join group/channel '%@': timeout" = "Could not join group/channel '%@': timeout";
 "Could not read captcha!" = "Could not read captcha!";
-"Could not register your username. Please check your code or change the username and try again." = "Could not register your username. Please check your code or change the username and try again.";
+"Could not register your username. Please check your code or change the username and try again." = "사용자 이름을 인쇄 할 수 없습니다. 코드를 확인하거나 사용자 이름을 변경하고 다시 시도하십시오.";
 "Could not send" = "보낼 수 없음";
 "Could not upload file" = "Could not upload file";
 "Country:" = "Country:";
@@ -401,17 +401,17 @@
 "Display Only Placeholder" = "Display Only Placeholder";
 /* quicksy country */
 "Djibouti" = "Djibouti";
-"Do you really want to block this contact? You won't receive any messages from this contact." = "Do you really want to block this contact? You won't receive any messages from this contact.";
+"Do you really want to block this contact? You won't receive any messages from this contact." = "이 연락처를 깜박이기 위해 정말로 완료합니까?이 연락처에서 메시지를받지 않습니다.";
 "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "이 대화에서 교환 된 모든 메시지를 지우려면 정말로? omemo를 사용하면 서버에서 다시로드 할 수는 없습니다.";
 "Do you really want to delete this key?" = "Do you really want to delete this key?";
-"Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards.";
-"Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards.";
+"Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "이 채널을 파괴하고 싶습니까? 모든 회원은 밖으로 걷고 나중에 파괴 될 것입니다.";
+"Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "이 그룹을 파괴하고 싶습니까? 모든 회원은 밖으로 걷고 나중에 파괴 될 것입니다.";
 "Do you really want to disable encryption for this contact?" = "Do you really want to disable encryption for this contact?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "오메세시 세션을 재설정 하시겠습니까? 당신이하는 일을 알고있는 경우에만 연결을 재설정해야합니다!";
 "Do you want to block this user from entering this group/channel?" = "Do you want to block this user from entering this group/channel?";
 "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "이 채널에서 사용자를 제거 하시겠습니까? 사용자를 차단하지 않으면 사용자를 다시 입력하십시오.";
 "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "이 그룹에서 사용자를 제거 하시겠습니까? 사용자가 그룹에 다시 추가 될 때까지 다시 입력 할 수 없습니다.";
-"Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?";
+"Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "귀하의 객실 계정 @? 즉 \\ The Stransed Finzers의 스캔 된 지문을 신뢰 하시겠습니까?";
 "Domain missing" = "Domain missing";
 /* quicksy country */
 "Dominica" = "Dominica";
@@ -453,7 +453,7 @@
 "Encryption Keys (OMEMO)" = "Encryption Keys (OMEMO)";
 "Encryption Not Supported" = "Encryption Not Supported";
 "Enter the jid that you want to block" = "Enter the jid that you want to block";
-"Enter your new password. Passwords may not be empty. They may also be governed by server or company policies." = "Enter your new password. Passwords may not be empty. They may also be governed by server or company policies.";
+"Enter your new password. Passwords may not be empty. They may also be governed by server or company policies." = "새 암호를 입력하십시오. 비밀번호가 비어 있지 않을 수 있습니다. 또한 회사 소비자 정책에 따라 걸릴 수도 있습니다.";
 "Enter your password here" = "Enter your password here";
 "Enter your XMPP ID here" = "Enter your XMPP ID here";
 /* quicksy country */
@@ -515,7 +515,7 @@
 "Failed to encrypt file" = "Failed to encrypt file";
 "Failed to enter Group/Channel %@" = "Failed to enter Group/Channel %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Failed to enter Group/Channel %@: This is not a Group/Channel!";
-"Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
+"Failed to export the database, please check the logfile for errors and try again." = "데이터베이스를 내보내지 못했습니다. LogGfile을 오류로 확인하고 다시 시도하십시오.";
 "Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
 "Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "Failed to load blocklist";
@@ -623,7 +623,7 @@
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "꺼짐 꺼짐 꺼운 XMPP 서버에서 푸시를 활성화 할 수없는 경우 XEP-0357을 지원하도록 구성해야합니다.";
 "If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "이 기능이 없으면 장치가 사용자를 신뢰하지 않거나 신뢰하지 않으면 적어도 한 명의 사용자가 암호화된 메시지를 보낼 수 없습니다.\n조심히 사용해주세요. 즉, 구성원 그룹의 신뢰도가 수동으로 변경되고 *모든 구성원의 장비가 1:1 비율로 그룹 구성원과 통신할 때 하나 이상의 신뢰를 얻어야 합니다.\n일반적으로 고위험군은 언론인이나 운동가만 폐쇄를 권고하고 있습니다.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "이를 켜면 더 이상 인체에서 안전하지 않습니다. 이러한 공격은 모험을 활성화하여 들어오고 나가는 메시지를 조작하고 자신의 OMEMO 키를 추가하고 계정 세부 정보를 변경하거나 암호를 변경하십시오!\n\n이 켜기보다 다른 서버로 전환해야합니다.";
-"If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone.";
+"If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "오디오를 엉망으로 사용하면 설정 -> 개인 정보 보호>> 마이크에서 너무 많은 사람이 액세스 할 수 있습니다.";
 "Image Upload JPEG-Quality: %@" = "Image Upload JPEG-Quality: %@";
 "Import and trust OMEMO fingerprints from QR code" = "Import and trust OMEMO fingerprints from QR code";
 /* quicksy country */
@@ -659,7 +659,7 @@
 /* quicksy country */
 "Israel" = "Israel";
 /* QR-Code-Scanner: Camera not found */
-"It does not seem as your device has a camera. Please use a device with a camera for scanning" = "It does not seem as your device has a camera. Please use a device with a camera for scanning";
+"It does not seem as your device has a camera. Please use a device with a camera for scanning" = "그것은 당신에게 보이지 않습니다, 나에게 카메라에게 연락하십시오";
 /* quicksy country */
 "Italy" = "Italy";
 /* quicksy country */
@@ -773,7 +773,7 @@
 "Message was encrypted with '%@' which isn't supported by Monal" = "Message was encrypted with '%@' which isn't supported by Monal";
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "Message was encrypted with OMEMO and can't be decrypted anymore";
 "Message was encrypted with OMEMO but could not be decrypted" = "Message was encrypted with OMEMO but could not be decrypted";
-"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u.";
+"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "이 장치에 대한 메시지가 암호화되지 않았습니다. SDNDER가 기기 % u를 uS인지 확인하십시오.";
 "Messages are encrypted" = "Messages are encrypted";
 "Messages are NOT encrypted" = "Messages are NOT encrypted";
 "Messages never archived by default." = "Messages never archived by default.";
@@ -795,7 +795,7 @@
 "Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key." = "Monal은 현재이 키를 신뢰하지만 지문은 비교되지 않았고 연락처는 오랫동안 사용하지 않았습니다.이 키에 대한 신뢰를 비활성화하려면 고려하십시오.";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal은 현재이 키를 신뢰하지만 지문은 아직 비교되지 않았습니다. 보안을 높이기 위해이 키를 신뢰하기 전에 표시된 지문이 일치하는 접점을 확인하십시오!";
 "Monal did not received a gps location. Please try again later." = "Monal did not received a gps location. Please try again later.";
-"Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal does not have access to your location. Please update the location access in your device's Privacy Settings.";
+"Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Manal은 귀하의 위치에 액세스 할 수 없습니다. 장치의 개인 정보 설정에서 위치 액세스를 드러내십시오.";
 "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal은이 키를 신뢰하지 않습니다. 그 접촉의 다른 열쇠가 확인된 동안 수동으로 비활성화되거나 수동으로 확인되지 않았습니다. toggle 요소를 사용하여이 키를 신뢰 할 수 있습니다. 이 열쇠를 신뢰하기 전에 지문이 일치하는 접촉으로 하십시오.";
 /* Camera permissions missing warning */
 "Monal is not allowed to access the camera" = "Monal is not allowed to access the camera";
@@ -887,7 +887,7 @@
 /* OMEMO warning shown inside chat view */
 "OMEMO: Detected new %@ device with id: %@" = "OMEMO: Detected new %1$@ device with id: %2$@";
 /* OMEMO warning shown inside chat view */
-"OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact" = "OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact";
+"OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact" = "Omemo : Device % @ initive, 바쁜 당신은 귀하의 연락처에 의해 광고가없는 콘서트가 없습니다";
 "On this device" = "On this device";
 "Online" = "Online";
 "Only contacts" = "Only contacts";
@@ -941,13 +941,13 @@
 "Please Allow Audio Access" = "Please Allow Audio Access";
 "Please enter a password below before activating this account." = "Please enter a password below before activating this account.";
 "Please enter the six-digit pin below" = "Please enter the six-digit pin below";
-"Please make sure at least one account has connected before trying to add a contact or channel." = "Please make sure at least one account has connected before trying to add a contact or channel.";
-"Please make sure at least one account has connected before trying to create new group." = "Please make sure at least one account has connected before trying to create new group.";
+"Please make sure at least one account has connected before trying to add a contact or channel." = "저에게 연락을 드리십시오.";
+"Please make sure at least one account has connected before trying to create new group." = "Pease Meuke는 하나 이상의 계정이 reerooring trainging을 삭제 한 맥주를 연결했습니다.";
 "Please make sure you are connected before changing your password." = "Please make sure you are connected before changing your password.";
 "Please make sure you have entered a username, password." = "Please make sure you have entered a username, password.";
 "Please make sure you have entered a valid jid." = "Please make sure you have entered a valid jid.";
 "Please make sure you have entered both a username and password." = "Please make sure you have entered both a username and password.";
-"Please make sure you have entered the same password in both password fields." = "Please make sure you have entered the same password in both password fields.";
+"Please make sure you have entered the same password in both password fields." = "미래의 배경을 비밀번호로 만들어주세요.";
 "Please provide a valid XMPP server domain or select one." = "Please provide a valid XMPP server domain or select one.";
 "Please select a XMPP server or provide one." = "Please select a XMPP server or provide one.";
 "Please update!" = "제발 갱신하십시오!";
@@ -1028,7 +1028,7 @@
 "Reset OMEMO session" = "Reset OMEMO session";
 "Resource" = "Resource";
 "Resources" = "Resources";
-"Resume a stream when disconnected. Results in faster reconnect and saves battery life." = "Resume a stream when disconnected. Results in faster reconnect and saves battery life.";
+"Resume a stream when disconnected. Results in faster reconnect and saves battery life." = "연결될 때 스트림을 재량합니다. 빠른 연결에 있는 결과 및 건전지 생활을 저장합니다.";
 /* Chat msg action */
 "Retract" = "Retract";
 "Retry" = "Retry";
@@ -1052,7 +1052,7 @@
 /* quicksy country */
 "Saint Vincent and the Grenadines" = "Saint Vincent and the Grenadines";
 "Salted Challenge Response Authentication Mechanism using the given Hash Method" = "Salted Challenge Response Authentication Mechanism using the given Hash Method";
-"Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding";
+"Salted Challenge Response Authentication Mechanism using the given Hash Method additionally secured by Channel-Binding" = "소금 챌린지 대응 인증 메커니즘 채널 바인딩에 의해 고정 된 주어진 해시 메소드를 사용하여";
 /* quicksy country */
 "Samoa" = "Samoa";
 /* quicksy country */
@@ -1132,7 +1132,7 @@
 /* quicksy country */
 "Somalia" = "Somalia";
 "Some debug settings." = "Some debug settings.";
-"Some messages might wait to be retrieved or sent. Please open the app to retry." = "Some messages might wait to be retrieved or sent. Please open the app to retry.";
+"Some messages might wait to be retrieved or sent. Please open the app to retry." = "일부 메시지는 려거나 주문할 때까지 기다릴 수 있습니다.";
 "Something went wrong processing your request." = "Something went wrong processing your request.";
 "Something went wrong while parsing your input..." = "Something went wrong while parsing your input...";
 "Sounds" = "Sounds";
@@ -1191,44 +1191,44 @@
 "The chat history has been cleared" = "The chat history has been cleared";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "서버에 대한 연결이 중단되고 이전 채팅 메시지 가이 채팅에 게시 할 수 없습니다. 나중에 다시 시도하십시오.";
 "The current password is not correct." = "The current password is not correct.";
-"The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling.";
+"The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "다음의 여행자의 충돌이 함께 충돌을 처리하여 충돌 처리를 둘러냅니다.";
 /* quicksy country */
 "The Former Yugoslav Republic of Macedonia" = "The Former Yugoslav Republic of Macedonia";
-"The jid you want to add should be in in the format user@domain.tld." = "The jid you want to add should be in in the format user@domain.tld.";
+"The jid you want to add should be in in the format user@domain.tld." = "USER_DOMAIN.TLD 형식으로 재생할 JID를 재생할 JID.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "키가 올바르게 처리됩니다. 메시지가 나타나면 개발자에게 문의하십시오.";
-"The new contact will be added to your contacts list when the person you've added has approved your request." = "The new contact will be added to your contacts list when the person you've added has approved your request.";
+"The new contact will be added to your contacts list when the person you've added has approved your request." = "새로운 연락처는 첫 번째 사람에게 첫 번째 사람에게 연락을 취득합니다.";
 "The operator of the webserver providing that URL may see your IP address." = "The operator of the webserver providing that URL may see your IP address.";
 "The password has been changed" = "The password has been changed";
 "The pin we have sent you has expired." = "The pin we have sent you has expired.";
 "The pin you have entered is incorrect." = "The pin you have entered is incorrect.";
 /* QR-Code-Scanner: account scan wrong menu */
-"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode";
+"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "Qrcode는 acount를 위한 로그인 자격 증명을 포함합니다. 설정으로 이동 -> 새로운 계정 및 rescan qrcode";
 "The resource '%@' has the following capabilities:" = "The resource '%@' has the following capabilities:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "선택한 XMPP 서버는 MANAL에 제휴하지 않는 공용 서버입니다.이 등록 페이지는 편의상에서만 사용할 수 있습니다.";
 "The server does not support blocking (XEP-0191)." = "The server does not support blocking (XEP-0191).";
-"The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "The server tried to bind you to jid '%1$@', but you configured '%2$@', disabling account!";
-"The UDP logger allows you to livestream the log to the configured IP." = "The UDP logger allows you to livestream the log to the configured IP.";
+"The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "y를 jid '% 1 $ @'로 바인드 할 서버 버전은 % 2 $ \\ ''이어서, 귀하의 계정을 비활성화합니다!";
+"The UDP logger allows you to livestream the log to the configured IP." = "UDP 로거는 구성된 IP에 로그인을 살아갈 수 있습니다.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP 로거는 구성 된 IP로 로그를 스트리밍 할 수 있습니다. 인터넷을 통해 스트리밍 할 때 안전한 키를 사용하십시오!\n[로그 스트림 수신 방법](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
-"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "The user %1$@ (%2$@) denied your contact request. You can try again, if you think this was a mistake.";
+"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "% 1 $ @ (% 2 $ @)의 사용자는 귀하의 연락처 요청을 거부했습니다.이가 미사로 생각한다면 다시 꽉 낄 수 있습니다.";
 "The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "사용자 % 1 $ (% 2 $)를 삭제했습니다. 이것이 실수라고 생각하면 새로운 연락처 요청을 보낼 수 있습니다.";
 "The user %@ (%@) wants to add you to their contact list" = "The user %1$@ (%2$@) wants to add you to their contact list";
-"The username does not need to have an @ symbol. Please try again." = "The username does not need to have an @ symbol. Please try again.";
+"The username does not need to have an @ symbol. Please try again." = "사용자 이름은 @ 기호를 가질 필요가 없습니다. 외계인을 시도하십시오.";
 "There is no configured email account. Please email info@monal-im.org ." = "There is no configured email account. Please email info@monal-im.org .";
 "There was a SASL error on the server." = "There was a SASL error on the server.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "이 암호화 된 메시지 (신호 오류)를 해독하는 동안 오류가 발생했습니다.이를 해결하려면이 암호를 암호화하는 메시지를 보냅니다.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "이 암호화 된 메시지 (신호 오류)를 해독하는 동안 오류가 발생했습니다.이 암호를 해결하려면이 메시지를 해결하십시오 (% @)";
 "These are important privacy settings you may want to review!" = "These are important privacy settings you may want to review!";
 "These are SRV resource records found for your domain." = "These are SRV resource records found for your domain.";
-"These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "These are STUN and TURN services announced by your server (blue entries are used by Monal).";
+"These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "달리 별, 비즈니스, Pernew, 무료, 실행, 열기, 당사, \",.";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "이것들은 서버가 TLS 계층의 공격을 감지하기 위해 지원하는 채널 바인딩 유형입니다 (단일 파란색, 오렌지 관리자가 달리 밀어 넣어 됨).";
-"These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "These are the modern XMPP capabilities Monal detected on your server after you have logged in.";
-"These are the MUC servers detected by Monal (blue entry used by Monal)." = "These are the MUC servers detected by Monal (blue entry used by Monal).";
-"These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal).";
-"These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "These are the TLS versions supported by Monal, the one used to connect to your server will be green.";
+"These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "이들은 나중에 서버에 대해 한 번에 발견 된 현대적인 XMPP 기능 71입니다.";
+"These are the MUC servers detected by Monal (blue entry used by Monal)." = "Monal (Monal에서 사용하는 파란색)에 의해 가장 많이 발생한 것과 같습니다.";
+"These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "서버가 지원하는 SASL2 메소드가 있습니다 (파란색, 오렌지의 Manal에 지원되지 않는 주파수).";
+"These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "논문은 Monal에서 지원하는 TLS 버전입니다. 서버에 연결하는 데 사용되는 서버는 녹색으로 연결됩니다.";
 "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "다음은 암호화 키입니다. 각 장치는 로그인 한 다른 곳입니다. 확인해야 할 때 키를 신뢰해야합니다. 지문을 눌러 클립 보드로 복사하십시오.";
-"They will no longer see when you are online. They may not be able to access your encryption keys." = "They will no longer see when you are online. They may not be able to access your encryption keys.";
-"They will no longer see when you are online. They may not be able to send you encrypted messages." = "They will no longer see when you are online. They may not be able to send you encrypted messages.";
-"They will see when you are online. They will be able to send you encrypted messages." = "They will see when you are online. They will be able to send you encrypted messages.";
+"They will no longer see when you are online. They may not be able to access your encryption keys." = "그들은 더 이상 살아있는 것을 볼 수 없습니다. 암호화 키에 액세스하기를 비둘기가 아닐 수 있습니다.";
+"They will no longer see when you are online. They may not be able to send you encrypted messages." = "그들은 더 이상 살아있는 것을 볼 수 없습니다. 암호화 된 메시지를 보내주기 위해 비둘기가 아닐 수도 있습니다.";
+"They will see when you are online. They will be able to send you encrypted messages." = "이게 온라인으로 온라인으로 볼 수 있습니다. 아기는 당신의 가운데까지 가야합니다.";
 "This account already exists in Monal." = "This account already exists in Monal.";
 "This account already exists on this instance" = "This account already exists on this instance";
 "This account already exists on this instance." = "This account already exists on this instance.";
@@ -1237,7 +1237,7 @@
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "이 연락처에는 암호화를 지원하는 장치가 있지만 올바르지 않으면 나중에 다시 시도하십시오.";
 "This contact is already in the contact list of the selected account" = "This contact is already in the contact list of the selected account";
 "This contact is already in your contact list" = "This contact is already in your contact list";
-"This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "This contact may not support OMEMO encrypted messages. Please try again in a few seconds.";
+"This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "이 연락처는 오메마 암호화 된 메시지를 지원하지 않을 수 있습니다. 항상 몇 초 동안 다시 보내주십시오.";
 "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "이 연락처는 Omemo 암호화 된 메시지를 지원하지 않을 수 있습니다. 이것이 잘못되었다고 생각하면 암호화를 초 단위로 사용해보십시오.";
 "This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong." = "이 연락처는 갑자기 암호화 된 비공개 그룹의 비 큐어스 공개 그룹에서 변경되었습니다!이 문제가 잘못된 경우 다른 그룹 / 채널 관리자에게 문의하십시오.";
 /* Crash report error dialog */
@@ -1246,8 +1246,8 @@
 "This is an embedded file that can not be opened externally." = "This is an embedded file that can not be opened externally.";
 "This is the software running on your server." = "This is the software running on your server.";
 "This key belongs to this device and cannot be removed or disabled!" = "This key belongs to this device and cannot be removed or disabled!";
-"This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element.";
-"This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key.";
+"This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "이 키는 손가락 인쇄를 수동으로 구성하여 신뢰할 수 있고 확인됩니다.이 키를 신뢰하려면 토글 요소를 사용하십시오.";
+"This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "이 키는 신뢰할 수 있지만 연락처는 더 이상 사용하지 않습니다.이 키에 대한 신뢰를 비활성화하려면 고려하십시오.";
 "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "이 키는 신뢰할 수 있지만 연락처는 오랜 시간 동안 사용되지 않았습니다.이 키에 대한 신뢰를 비활성화하십시오.";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "이것은 통화가 암호화되고 원격 축제는 OMEMO 암호화를 사용하여 확인되었습니다.\n하지만 당신은 수동으로 Callee의 OMEMO 지문을 확인하지 않았기 때문에, 또는 Callee의 XMPP 서버는 아마도 자신의 OMEMO 키를 가운데안의사람에 삽입 할 수 있습니다.";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "즉, 호출이 암호화되고 원격 파티가 Omemo 암호화를 사용하여 확인되었습니다. 사용 된 Omemo 키를 수동으로 확인했으며, 중간에없는 중간을 수행 할 수 있습니다.";
@@ -1255,21 +1255,21 @@
 "This message failed to send (%@): %@" = "This message failed to send (%1$@): %2$@";
 "This message got retracted" = "This message got retracted";
 "This phone number is currently logged in with another device." = "This phone number is currently logged in with another device.";
-"This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it.";
+"This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "이 서버는 HTTP 파일 업로드 (XEP-0363)를 지원하는 것처럼 보이지 않습니다. 관리자 에 게이 관리를 요청하십시오.";
 "This server does not have any SRV records in DNS." = "This server does not have any SRV records in DNS.";
 "This server does not provide any MUC servers." = "This server does not provide any MUC servers.";
-"This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer.";
+"This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "이 서버는 가장입니다.";
 "This server does not support modern SASL2 authentication." = "This server does not support modern SASL2 authentication.";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "이 서버들은 이러한 공격을 막기 위해 보안 인증을 사용한다. 그리고 타임즈 암호화 계층은 더 이상 개선되지 않는다! 즉, 서버는 캐스케이드 2와 램을 지원해야 하며 그렇지 않으면 무해한 공격이 계속된다. 고급 계정 만들기 메뉴를 사용하여 서버에 접근하려면 병렬 버튼을 누르십시오.";
 "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "이 하인은 SASL2와 SCRAM을 위한 부양이 결핍되어 있으며 추가로 TLS 암호화 층 위에서 가운데 안의 인간 습격들에 대하여 인증을 단단하게 굳힙니다. 이 하인이 양쪽을 부양한다고 목록에 기재되었기 때문에 또는 당신이 진보된 계정 창조 식단을 사용할 때 의도적으로 무늬 없는 개폐기를 낙오시켰기 때문에 진행 중인 MITM 습격이 매우 같습니다! 일단 당신이 깨끗한 그물망 환경에 있을 때 다시 재판하십시오.";
 "This should never happen, please contact the developers and provide a logfile!" = "이것은 꼭 절대 일어납니다, 제발 개발자들에게 연락하고 통나무서류 하나를 제공하십시오!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "즉, MSPP 게시 프로토콜을 사용하는 의미는 의미합니다. 인스턴트 메시징 및 프리젠 테이션 계정과 연결된 상태 이벤트 이벤트를 지정합니다.";
-"This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";
-"This will clear the whole chat history of this account from this device." = "This will clear the whole chat history of this account from this device.";
+"This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "이 사양 섭리 방법은 AS 및 SASL2 핸드 셰이크를 메서드 및 채널 바인딩 다운 그레이드에 고정하는 방법입니다.";
+"This will clear the whole chat history of this account from this device." = "이렇게하면이 계정의 전체 채팅 기록이 지루합니다.";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "이렇게 하면 서버와 이 장치에서 이 계정과 관련 데이터가 삭제됩니다. 그러나 데이터는 여전히 다른 장치에 유지될 수 있습니다.";
-"This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
+"This will make calls possible even if your XMPP server does not provide a TURN server." = "이렇게하면 XMPP 서버가 턴 서버를 제공하지 않음을 불러 일으킬 수 있습니다.";
 "This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";
-"This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
+"This will remove the current avatar image and revert this group/channel to the default one." = "이렇게하면 현재 아바타 이미지를 제거 하고이 그룹 / 채널을 기본값으로 되돌릴 것입니다.";
 "This will remove this account and the associated data from this device." = "This will remove this account and the associated data from this device.";
 "Timeout Error" = "Timeout Error";
 /* quicksy country */
@@ -1325,7 +1325,7 @@
 "Unclean appex shutown" = "안닦인 앱이엑스 닫아가져";
 "Understood" = "Understood";
 "Unexpected appex expiration" = "기대안한 앱이엑스 만료";
-"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
+"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "예기치 않은 오류 서버 SASL2 인증 (서버가 버그가 있습니까?), 단회!";
 "Unexpected error processing your request." = "Unexpected error processing your request.";
 "Unexpected error while checking type of jid, please try again" = "Unexpected error while checking type of jid, please try again";
 "Unexpected error while checking type of jid:" = "Unexpected error while checking type of jid:";
@@ -1350,7 +1350,7 @@
 "untrusted" = "untrusted";
 "Untrusted key" = "Untrusted key";
 "Upload Error" = "Upload Error";
-"Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)";
+"Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "다른 파일로 공유하려면 서버에 파일을 업로드하십시오. (서버에서보고 한 파일의 최대 허용 크기 : % @)";
 "Upload Original Images" = "Upload Original Images";
 "Upload Settings" = "Upload Settings";
 "Uploading" = "Uploading";
@@ -1395,19 +1395,19 @@
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "We could not find a xmpp related QR-Code";
 "We don't support any task requested by the server, account disabled: %@" = "We don't support any task requested by the server, account disabled: %@";
-"We don't support the single task requested by the server, account disabled: %@" = "We don't support the single task requested by the server, account disabled: %@";
+"We don't support the single task requested by the server, account disabled: %@" = "서버 별 요청이있는 수면 작업, 지원 계정 사용 안함 : % @";
 "We sent you an SMS to %@" = "We sent you an SMS to %@";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "계정을 연결할 수 없습니다. 사용자 이름과 암호를 확인하고 인터넷에 연결되어 있는지 확인하십시오.";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "계정을 연결할 수 없습니다. 사용자 이름과 암호를 확인하고 인터넷에 연결되어 있는지 확인하십시오. 기술 오류 메시지 : %% @";
-"We will check the number **%@**. Is this okay or do you want to change the number?" = "We will check the number **%@**. Is this okay or do you want to change the number?";
-"Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs.";
+"We will check the number **%@**. Is this okay or do you want to change the number?" = "우리는 번호 ** % @ **를 확인할 것입니다.이 괜찮습니까? 번호를 보거나 싶니?";
+"Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "가장 저작물 채널 형 바인딩 유형, 고정 장애가있는 도구가없고 cert/keys 는 잘못 발급 된 cert를 벗어났습니다.";
 "Welcome" = "Welcome";
 "Welcome to Monal !" = "Welcome to Monal !";
 "Welcome to Quicksy !" = "Welcome to Quicksy !";
 "What call do you want to place?" = "What call do you want to place?";
-"When disabled, URLs will opened in your default browser (that might not be Safari)." = "When disabled, URLs will opened in your default browser (that might not be Safari).";
+"When disabled, URLs will opened in your default browser (that might not be Safari)." = "비활성화 된 경우 URL은 기본 브라우저에서 (페이지 사자리가 아닐 수도 있습니다).";
 "When you start a conversation\nwith someone, they will\nshow up here." = "When you start a conversation\nwith someone, they will\nshow up here.";
-"Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise.";
+"Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "MacOS 또는 iOS에 TextField에 삽입 하드웨어 키보드가 첨부 된 파일을 붙일 것이며 다른 Windows 영원 키보드를 엽니 다.";
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
 "Wrong menu" = "Wrong menu";
@@ -1433,7 +1433,7 @@
 "XMPP ID missing" = "XMPP ID missing";
 "XMPP mam preferences error" = "XMPP mam preferences error";
 "XMPP protocol extension for communications blocking." = "XMPP protocol extension for communications blocking.";
-"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls.";
+"XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "XMPP 프로토콜 확장 A / V Vall에 필요한 Stun 또는 Turn 서버와 같은 XMPP 네트워크 외부의 서비스를 검색하는 데 사용할 수 있습니다.";
 "XMPP protocol extension for sending application-level pings over XML streams." = "XMPP protocol extension for sending application-level pings over XML streams.";
 "XMPP Roster Error" = "XMPP Roster Error";
 "XMPP server domain not valid!" = "XMPP server domain not valid!";
@@ -1448,7 +1448,7 @@
 "You are set up and connected. People can message you at: %@@%@" = "You are set up and connected. People can message you at: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "'% @'(% @ of)를 호출하려고하지만 이전에 다른 계정을 사용하여 도달 할 수 있습니다. 나가는 통화를 배치 할 계정을 선택하십시오.";
 "You are using an out of date version of this app." = "You are using an out of date version of this app.";
-"You can customize even more, just use the button below to open the settings." = "You can customize even more, just use the button below to open the settings.";
+"You can customize even more, just use the button below to open the settings." = "당신은 더 많은 것입니다. 단순히 우리는 단추를 부서리는 열기 버튼을 시작합니다.";
 "You currently aren't allowed to write messages in this Channel." = "You currently aren't allowed to write messages in this Channel.";
 "You did not grant Monal to access your location." = "You did not grant Monal to access your location.";
 "You don't have voice in this chat" = "You don't have voice in this chat";
@@ -1457,17 +1457,17 @@
 "You got removed from group/channel: %@" = "You got removed from group/channel: %@";
 "You have not entered your XMPP ID yet" = "You have not entered your XMPP ID yet";
 "You need friends for this ride" = "You need friends for this ride";
-"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
-"You restored an iCloud backup of Monal, please open the app to reenable this account." = "You restored an iCloud backup of Monal, please open the app to reenable this account.";
+"You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "당신이 원하는 상태에서 당신은 당신이 원하는 상태로 당신의 ISOS 설정> 개인 정보 보호> 내 마이크에서 마이크로폰 접속을 부여해야합니다. 너는있다.";
+"You restored an iCloud backup of Monal, please open the app to reenable this account." = "너는 보였다.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "확인했을 때 열쇠를 신뢰해야 합니다. 연락처의 화면에 아래 키를 비교하여 확인합니다. 클립보드에 복사하는 지문에 두 배 탭.";
-"You tried to call contact '%@' but this contact could not be found in your contact list." = "You tried to call contact '%@' but this contact could not be found in your contact list.";
+"You tried to call contact '%@' but this contact could not be found in your contact list." = "연락처 목록에서 \\ n uns * 연락처 목록에 전화를 걸었을려고했습니다.";
 "You were granted voice in this channel." = "You were granted voice in this channel.";
 "You will no longer receive messages from this conversation" = "You will no longer receive messages from this conversation";
 "You will receive subsequent messages from this conversation" = "You will receive subsequent messages from this conversation";
 "Your account must be enabled and connected, to be removed from the server!" = "서버에서 계정을 제거하려면 계정을 활성화하고 연결해야 합니다!";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Manal의 iCloud 백업을 복원했기 때문에 계정이 사용 중지되었습니다. 암호를 다시 시작하고 암호를 다시 활성화하십시오.";
 "Your answer" = "Your answer";
-"Your contact may not support calls. Your call might never reach its destination." = "Your contact may not support calls. Your call might never reach its destination.";
+"Your contact may not support calls. Your call might never reach its destination." = "너의 쇼핑몰은 아닙니다.";
 "Your entered XMPP ID is missing the domain" = "Your entered XMPP ID is missing the domain";
 "Your entered XMPP ID is missing the username" = "Your entered XMPP ID is missing the username";
 "Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "서버는 채널 바인딩 유형을 발표했지만 스크랩 플러스 메소드를 제공하지 않았습니다. 이것은 진행중인 인간의 공격 (그러나 잘못된 구성이어야 할 것입니다), 계정을 비활성화 할 수 있습니다.";
@@ -1477,7 +1477,7 @@
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "서버는 스트림 관리 (XEP-0198)를 지원하지 않습니다. 그것은 당신의 나가는 메시지가 자주 잃을 수 있다는 것을 의미합니다! 서버로 전환하거나 서버 관리자로 대화해야 합니다!";
 "Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "서버는 SCRAM-PLUS 메소드를 제공했지만 XEP-0440을 사용하여 채널 바인딩 유형을 발표하지 않았습니다. XEP-0388. 이것은 지속적인 남자-in-the-middle 공격 또는 서버 misconfiguration 중 하나입니다, 계정을 비활성화!";
 "Your status" = "Your status";
-"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup.";
+"Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "당신의 XMPP JID Shuld는 Formater에서 사용할 수 있습니다 :) 특별 포럼, 과자 수동 설정.";
 /* quicksy country */
 "Zambia" = "Zambia";
 /* quicksy country */
