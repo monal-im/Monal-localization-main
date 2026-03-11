@@ -8,7 +8,7 @@
 "%@ (type '%@', category '%@')" = "%@ (type '%@', category '%@')";
 "%@ hours" = "%@ 小時";
 "%@ says:" = "%@ 說：";
-"%@: " = "%@: ";
+"%@: " = "%@: · ";
 /* Message autdelete time */
 "1 day" = "1 天";
 /* Message autdelete time */
@@ -94,13 +94,13 @@
 "Algeria" = "阿爾及利亞";
 "All messages are archived by default." = "所有訊息預設會被封存。";
 "All messages fetched successfully, there are no more left on the server!" = "所有訊息都已成功獲取，伺服器上沒有更多訊息了！";
-"Allow BTBV-only participants in verified encrypted groups" = "Allow BTBV-only participants in verified encrypted groups";
-"Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc.";
+"Allow BTBV-only participants in verified encrypted groups" = "允許僅限 BTBV 的參與者加入已驗證的加密群組";
+"Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "允許在 OMEMO 加密聊天中，未經過 OMEMO 驗證的通話。\n如果你關閉這個功能，你將無法撥打或接聽沒有使用已驗證客戶端的聯絡人 [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification]（https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd）。\n記者、活動家等高風險群體應關閉此選項。";
 "Allow contacts in your contact list to query your Monal and iOS versions." = "允許聯絡人清單中的聯絡人查詢您的 Monal 和 iOS 版本。";
 "Allow contacts not in your contact list to call you." = "允許不在您的聯絡人清單中的聯絡人呼叫您。";
 "Allow contacts not in your contact list to contact you." = "允許不在聯絡人清單中的聯絡人與您聯繫。";
 "Allow MITM-prone PLAIN authentication" = "允許容易被中間人攻擊的 PLAIN 身份驗證";
-"Allow unverified calls in encrypted chats" = "Allow unverified calls in encrypted chats";
+"Allow unverified calls in encrypted chats" = "允許在加密聊天中進行未驗證的通話";
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "允許裝置與遠端方建立直接網路連接。這可能會將您的IP位址洩露給呼叫者/被調用者。";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "允許某個人將您添加為聯絡人，這樣他們就可以查看您的個人大頭貼以及您何時在線。";
 "Already present" = "已經存在";
@@ -392,7 +392,7 @@
 /* quicksy country */
 "Diego Garcia" = "迪戈加西亞島";
 "Disable Encryption" = "停用加密";
-"Disable encryption. This is dangerous!" = "Disable encryption. This is dangerous!";
+"Disable encryption. This is dangerous!" = "禁用加密。這很危險！";
 "Disable encryption?" = "禁用加密？";
 "Discovering devices..." = "正在發現裝置...";
 "Display Name" = "顯示名稱";
@@ -495,7 +495,7 @@
 /* quicksy country */
 "Ethiopia" = "衣索比亞";
 "Even more to customize!" = "更多客製化！";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc.";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "每個新的聯絡人將啟用加密，但之前的聯絡人將保留他們的加密設定。强烈不建議記者、活動家等高風險群體關閉該功能。";
 "Failed to block contact %@" = "無法封鎖聯絡人 %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "無法將「%2$@」中「%1$@」的隸屬關係變更為「%3$@」";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "無法將「%2$@」中「%1$@」的隸屬關係變更「%3$@」：超時";
@@ -590,7 +590,7 @@
 /* placeholder when creating new group */
 "Group Name (optional)" = "群組名稱（可選）";
 "Group subject:" = "群組主題：";
-"Group suddenly changed to public channel!" = "Group suddenly changed to public channel!";
+"Group suddenly changed to public channel!" = "群組從現在開始被改為公開頻道！";
 "Group/Channel description" = "群組/頻道描述";
 "Group/Channel got destroyed: %@" = "群組/頻道被銷毀：%@";
 "Group/Channel not available anymore: %@" = "群組/頻道不再可用：%@";
@@ -620,7 +620,7 @@
 /* quicksy country */
 "Iceland" = "冰島";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "如果 Monal 無法顯示通知，則當訊息到達時，您將不會看到提醒。如果您在 Monal 首次請求許可時點擊了 『拒絕』，就會發生這種情況。通過轉到 iOS 設定 -> Monal -> 通知，並選取「允許通知」來修復它。";
-"If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "如果此功能處於關閉狀態，則您的設備無法在 XMPP 伺服器上啟動推送，請確保已將其配置為支援 XEP-0357。";
+"If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "如果此功能處於關閉狀態，則您的裝置無法在 XMPP 伺服器上啟動推送，請確保已將其配置為支援 XEP-0357。";
 "If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "如果打開此功能，您將遭受中間人攻擊的威脅。此類攻擊使攻擊者能夠操縱您的傳入和傳出訊息、添加他們自己的 OMEMO 金鑰、變更您的帳戶詳細資訊，甚至知道或變更您的密碼！\n\n相對於打開這個功能，更建議切換到另一伺服器。";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "如果您想要使用語音訊息，您將需要在「設定->隱私權->麥克風」中允許存取。";
@@ -773,7 +773,7 @@
 "Message was encrypted with '%@' which isn't supported by Monal" = "訊息使用 『%@』 加密，Monal 不支援";
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "郵件已使用 OMEMO 加密，並無法再解密";
 "Message was encrypted with OMEMO but could not be decrypted" = "郵件已使用 OMEMO 加密，但無法解密";
-"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "未為此設備加密訊息。請確保傳送者信任裝置id %u。";
+"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "未為此裝置加密訊息。請確保傳送者信任裝置id %u。";
 "Messages are encrypted" = "訊息已加密";
 "Messages are NOT encrypted" = "訊息未加密！";
 "Messages never archived by default." = "預設情況下，訊息從不存檔。";
@@ -1225,7 +1225,7 @@
 "These are the MUC servers detected by Monal (blue entry used by Monal)." = "這些是 Monal 檢測到的 MUC 伺服器（Monal 使用的藍色條目）。";
 "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "這些是你的伺服器支援的SASL2方法（使用藍色、橙色的 Monal 不支援的方法）。";
 "These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "這些是 Monal 支援的 TLS 版本，用於連接到您的伺服器的版本將是綠色的。";
-"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "這些是您的加密金鑰。每台設備都是您登入的不同位置。驗證金鑰后，您應該信任金鑰。按兩下指紋以複製到剪貼簿。";
+"These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "這些是您的加密金鑰。每台裝置都是您登入的不同位置。驗證金鑰后，您應該信任金鑰。按兩下指紋以複製到剪貼簿。";
 "They will no longer see when you are online. They may not be able to access your encryption keys." = "當你在線時他們將不再看的到。他們可能無法存取您的加密金鑰。";
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "當你在線時他們將不再看的到。他們可能無法向您傳送加密訊息。";
 "They will see when you are online. They will be able to send you encrypted messages." = "當你在線時他們可以看的到。他們可以向您傳送加密訊息。";
@@ -1234,7 +1234,7 @@
 "This account already exists on this instance." = "此實例上已存在此帳戶。";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "這個應用程式太舊了，可能包含安全錯誤以及突然停止運行。請升級！";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "這可用於匯出日誌檔。\n[瞭解如何閱讀它們]（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log）。";
-"This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "此聯絡人似乎沒有任何支援加密的設備，如果您認為這是錯誤的，請稍後重試。";
+"This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "此聯絡人似乎沒有任何支援加密的裝置，如果您認為這是錯誤的，請稍後重試。";
 "This contact is already in the contact list of the selected account" = "此聯絡人已在所選客戶的聯絡人清單中";
 "This contact is already in your contact list" = "此聯絡人已在您的聯絡人清單中";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "此聯絡人可能不支援 OMEMO 加密郵件。請稍後重試。";
@@ -1266,7 +1266,7 @@
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "此規範定義了使用 XMPP 發佈訂閱協定廣播與即時訊息和存在帳戶關聯的狀態變更事件的語義。";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "此規範提供了一種保護 SASL 和 SASL2 握手以防止方法和通道綁定降級的方法。";
 "This will clear the whole chat history of this account from this device." = "這將從此裝置清除此帳戶的全部聊天記錄。";
-"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "這將從伺服器和此設備中刪除此帳戶和關聯數據。不過，數據可能仍會保留在其他裝置上。";
+"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "這將從伺服器和此裝置中刪除此帳戶和關聯數據。不過，數據可能仍會保留在其他裝置上。";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "即使您的 XMPP 伺服器不提供 TURN 伺服器，這也將使調用成為可能。";
 "This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "這將刪除當前頭像大頭貼，並將此群組/頻道恢復為預設群組/頻道。";
