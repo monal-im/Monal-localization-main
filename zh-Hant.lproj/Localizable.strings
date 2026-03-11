@@ -153,7 +153,7 @@
 "Autodelete all messages older than" = "自動刪除早於以下時間的所有訊息";
 "Autofocus text input on chat open" = "聊天打開時自動聚焦文字輸入";
 /* OMEMO warning shown inside chat view */
-"automatically trusted" = "automatically trusted";
+"automatically trusted" = "已自動受信任";
 "Avatar" = "大頭貼";
 /* quicksy country */
 "Azerbaijan" = "亞塞拜然";
@@ -291,7 +291,7 @@
 "Congo" = "剛果";
 "Connected: %@" = "已接通: %@";
 "Connecting..." = "連接中...";
-"Connectivity issues" = "Connectivity issues";
+"Connectivity issues" = "連線問題";
 /* server details */
 "Considerations for Server Administrators" = "伺服器管理員的注意事項";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "聯絡人、群組或頻道的 Jid 通常採用以下格式：name@domain.tld";
@@ -324,7 +324,7 @@
 "Could not configure group '%@'" = "無法配置群組「%@」";
 "Could not configure group '%@': timeout" = "無法設定群組 %@：超時";
 "Could not create group '%@': timeout" = "無法建立群組 『%@』： 超時";
-"Could not decrypt because you didn't trust the sender's device %u." = "Could not decrypt because you didn't trust the sender's device %u.";
+"Could not decrypt because you didn't trust the sender's device %u." = "無法解密，因為您不信任發件人的裝置 %u。";
 "Could not decrypt message" = "無法解密訊息";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "無法從您的伺服器存檔中獲取此聊天的（所有）舊訊息。請稍後重試。%@";
 "Could not fetch messages" = "無法提取訊息";
@@ -385,7 +385,7 @@
 "Destroying group..." = "正在解散群組…";
 "Details..." = "詳細資料...";
 /* OMEMO warning shown as notification */
-"Detected a new %@ omemo device on your account: %@" = "Detected a new %1$@ omemo device on your account: %2$@";
+"Detected a new %@ omemo device on your account: %@" = "在您的帳戶上檢測到新的 %1$@ omemo 裝置：%2$@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "檢測到通過 SSDP 進行的持續 MITM 攻擊，中止身份驗證並禁用帳戶以限制損害。當您再次處於乾淨的網路環境中時，您應該嘗試重新啟用您的帳戶。";
 "Device ID: " = "裝置 ID: ";
 "Devices of %@" = "%@ 的裝置";
@@ -525,10 +525,10 @@
 "Failed to publish avatar image for group/channel %@" = "無法發佈組/頻道 % 的大頭貼影像@";
 "Failed to publish own avatar" = "無法發佈自己的大頭貼";
 "Failed to publish own nickname" = "無法發佈自己的昵稱";
-"Failed to query for new messages for Group/Channel (catchup) %@" = "Failed to query for new messages for Group/Channel (catchup) %@";
+"Failed to query for new messages for Group/Channel (catchup) %@" = "無法查詢群組/頻道的新訊息 (追趕) %@";
 "Failed to query for new messages on account %@" = "無法查詢帳戶 %@ 上的新郵件";
 "Failed to query newest stanzaid for account %@" = "查詢帳號 %@ 的最新節 id 失敗";
-"Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
+"Failed to query newest stanzaid for Group/Channel %@" = "無法查詢群組/頻道%@的最新ID";
 "Failed to remove bookmark for Group/Channel: %@" = "無法刪除群組/ 頻道的書籤： %@";
 "Failed to save bookmark for Group/Channel: %@" = "無法儲存群組/頻道的書籤： %@";
 "Failed to save groupchat bookmarks" = "無法保存群聊書籤";
@@ -621,7 +621,7 @@
 "Iceland" = "冰島";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "如果 Monal 無法顯示通知，則當訊息到達時，您將不會看到提醒。如果您在 Monal 首次請求許可時點擊了 『拒絕』，就會發生這種情況。通過轉到 iOS 設定 -> Monal -> 通知，並選取「允許通知」來修復它。";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "如果此功能處於關閉狀態，則您的裝置無法在 XMPP 伺服器上啟動推送，請確保已將其配置為支援 XEP-0357。";
-"If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc.";
+"If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "如果此選項關閉，當你對此群組的其他成員至少一個裝置明確設定了信任或不信任後，你將不會向沒有任何明確信任裝置的群組成員發送加密訊息。請謹慎使用，因為這表示一旦你開始手動更改該群組成員的某個裝置的信任，你將必須對該群組中*每一個*成員的至少一個裝置明確設定信任（即使你是在與其中一位成員的單獨聊天中進行此操作）！一般而言，只有記者、活動家等高風險群體，才應關閉此選項。";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "如果打開此功能，您將遭受中間人攻擊的威脅。此類攻擊使攻擊者能夠操縱您的傳入和傳出訊息、添加他們自己的 OMEMO 金鑰、變更您的帳戶詳細資訊，甚至知道或變更您的密碼！\n\n相對於打開這個功能，更建議切換到另一伺服器。";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "如果您想要使用語音訊息，您將需要在「設定->隱私權->麥克風」中允許存取。";
 "Image Upload JPEG-Quality: %@" = "影像上傳 JPEG 品質：%@";
@@ -673,7 +673,7 @@
 "Just seen" = "剛看到";
 /* quicksy country */
 "Kazakhstan" = "哈薩克";
-"Keep encryption enabled" = "Keep encryption enabled";
+"Keep encryption enabled" = "保持啟用加密";
 /* quicksy country */
 "Kenya" = "肯亞";
 "Keys of %@" = "%@ 的金鑰";
@@ -689,8 +689,8 @@
 "Kyrgyzstan" = "吉爾吉斯斯坦";
 /* quicksy country */
 "Lao P.D.R." = "老撾";
-"Last incoming push: %@" = "Last incoming push: %@";
-"Last incoming push: unknown" = "Last incoming push: unknown";
+"Last incoming push: %@" = "最後一次接收推送：%@";
+"Last incoming push: unknown" = "最後一次傳入推送：未知";
 "Last seen: %@" = "最後上線： %@";
 "Last seen: %d days ago" = "最後上線：%d天前";
 "Last seen: %d hours ago" = "最後上線：%d小時前";
@@ -792,7 +792,7 @@
 /* quicksy country */
 "Monaco" = "摩納哥";
 "Monal" = "貓撓";
-"Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key." = "Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key.";
+"Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key." = "Monal 目前信任此金鑰，但尚未比對指紋，且聯絡人已久未使用此金鑰。建議考慮停用對此金鑰的信任。";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal 目前信任此金鑰，但尚未比較指紋。為了提高安全性，請在信任此密鑰之前與聯絡人確認顯示的指紋是否匹配！";
 "Monal did not received a gps location. Please try again later." = "Monal 沒有收到GPS定位。請稍後再試。";
 "Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal 無法取用您的位置。請在您裝置的隱私設定中更新位置存取權限。";
@@ -822,7 +822,7 @@
 "Nepal" = "尼泊爾";
 /* quicksy country */
 "Netherlands" = "荷蘭";
-"Networking" = "Networking";
+"Networking" = "網絡";
 "Never archive" = "永不封存";
 "New Account" = "新帳號";
 /* quicksy country */
@@ -885,9 +885,9 @@
 /* quicksy country */
 "Oman" = "阿曼";
 /* OMEMO warning shown inside chat view */
-"OMEMO: Detected new %@ device with id: %@" = "OMEMO: Detected new %1$@ device with id: %2$@";
+"OMEMO: Detected new %@ device with id: %@" = "OMEMO：偵測到新 %1$@ 裝置，ID 為：%2$@";
 /* OMEMO warning shown inside chat view */
-"OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact" = "OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact";
+"OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact" = "OMEMO：設備 %@ 現未啓用，因為您的聯絡人不再廣播它";
 "On this device" = "在此裝置上";
 "Online" = "我在線上";
 "Only contacts" = "僅聯絡人";
@@ -996,8 +996,8 @@
 "Recipient" = "接收者";
 "Reconnecting..." = "重新連線中...";
 "Recording audio" = "正在錄音";
-"Recording failed: " = "Recording failed: ";
-"Recording succeeded" = "Recording succeeded";
+"Recording failed: " = "錄音失敗： · ";
+"Recording succeeded" = "錄音成功";
 "Red x-mark shield:" = "紅色錯誤標記盾牌：";
 "Refreshing..." = "更新中…";
 "Register a new account" = "註冊新帳戶";
@@ -1021,9 +1021,9 @@
 "Rename Contact" = "重新命名聯絡人";
 "Rename Group" = "重新命名群組";
 "Reply" = "回覆";
-"Request Voice" = "Request Voice";
+"Request Voice" = "請求音訊";
 "Requesting validation SMS..." = "要求驗證簡訊...";
-"Requesting Voice" = "Requesting Voice";
+"Requesting Voice" = "正在請求音訊";
 "Required" = "必填";
 "Reset OMEMO session" = "重置 OMEMO 會話";
 "Resource" = "資源";
@@ -1036,7 +1036,7 @@
 "Ringing..." = "響鈴中…";
 /* quicksy country */
 "Romania" = "羅馬尼亞";
-"Running..." = "Running...";
+"Running..." = "正在運行...";
 /* quicksy country */
 "Russian Federation" = "俄羅斯聯邦";
 /* quicksy country */
@@ -1075,7 +1075,7 @@
 "Select sounds that are played with new message notifications. Default is Xylophone." = "選取使用新訊息通知播放的音效。預設為Xylophone。";
 "Selected Group Members" = "選定的群組成員";
 "Send" = "傳送";
-"Send current location?" = "Send current location?";
+"Send current location?" = "要傳送目前位置嗎？";
 "Send last interaction time" = "傳送上次交互時間";
 "Send Location" = "傳送位置";
 "Send message receipts" = "傳送訊息回執";
@@ -1150,7 +1150,7 @@
 "Submit A Bug" = "提交 Bug";
 "Success" = "成功";
 "Success!" = "成功！";
-"Successful" = "Successful";
+"Successful" = "成功";
 "Successfully destroyed channel." = "已成功解散頻道。";
 "Successfully destroyed group." = "已成功解散群組。";
 "Successfully joined group/channel %@!" = "已成功加入群組/頻道 %@！";
@@ -1209,8 +1209,8 @@
 "The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "伺服器嘗試將您綁定到 jid '%1$@'，但您配置了 '%2$@'，已停用 账户！";
 "The UDP logger allows you to livestream the log to the configured IP." = "UDP 記錄器允許您將紀錄即時流式傳輸到配置的IP。";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP 記錄器允許您將紀錄即時流式傳輸到配置的IP。通過 Internet 流式傳輸時，請使用安全金鑰！\n[瞭解如何接收日誌流]（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log）。";
-"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "The user %1$@ (%2$@) denied your contact request. You can try again, if you think this was a mistake.";
-"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "The user %1$@ (%2$@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake.";
+"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "用戶 %1$@ (%2$@) 拒絕了您的聯絡請求。如有異議，您可以再次嘗試。";
+"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "用戶 %1$@ (%2$@) 已將你從聯絡人列表中移除。如有異議，你可以重新傳送聯絡請求。";
 "The user %@ (%@) wants to add you to their contact list" = "使用者 %1$@ （%2$@） 想把你添加到他們的聯絡人名單";
 "The username does not need to have an @ symbol. Please try again." = "使用者名稱不需要有 @ 符號。請重試。";
 "There is no configured email account. Please email info@monal-im.org ." = "無設定的電子郵件帳戶。請傳送電子郵件至info@monal-im.org。";
@@ -1239,7 +1239,7 @@
 "This contact is already in your contact list" = "此聯絡人已在您的聯絡人清單中";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "此聯絡人可能不支援 OMEMO 加密郵件。請稍後重試。";
 "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "此聯絡人可能不支援 OMEMO 加密郵件。如果您認為這是錯誤的，請在幾秒鐘內嘗試再次啟用加密。";
-"This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong." = "This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong.";
+"This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong." = "這個聯絡人剛剛從加密的私人群組變成了未加密的公共頻道！如有疑問，請聯絡該群組/頻道的管理員。";
 /* Crash report error dialog */
 "This device is not configured to send email." = "此裝置未配置為傳送電子郵件。";
 "This invitation will expire on %@" = "此邀請將於%@過期";
@@ -1248,7 +1248,7 @@
 "This key belongs to this device and cannot be removed or disabled!" = "此金鑰屬於此裝置，無法刪除或禁用！";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "此金鑰受信任，並通過手動比較指紋進行驗證。要停止信任此金鑰，請使用 toggle 元素。";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "此金鑰是受信任的，但聯絡人不再使用它。考慮禁用此金鑰的信任。";
-"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key.";
+"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "此金鑰是被信任的，但該聯絡人已經很久沒有使用它了。請考慮停用對此金鑰的信任。";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "這意味著您的呼叫已加密，並且遠端方已使用 OMEMO 加密進行驗證。\n但是，由於您沒有手動驗證被叫方的 OMEMO 指紋，您或被叫方的 XMPP 伺服器可能已經將自己的 OMEMO 金鑰插入到中間人 U 中。";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "這意味著您的呼叫已加密，並且遠端方已使用 OMEMO 加密進行驗證。\n您手動驗證了使用的 OMEMO 金鑰，並且不會遭受中間人攻擊。";
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "這意味著您的呼叫已加密，但無法使用 OMEMO 加密驗證遠端方。\n您或被叫方的 XMPP 伺服器可能是中間人攻擊方。";
@@ -1268,7 +1268,7 @@
 "This will clear the whole chat history of this account from this device." = "這將從此裝置清除此帳戶的全部聊天記錄。";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "這將從伺服器和此裝置中刪除此帳戶和關聯數據。不過，數據可能仍會保留在其他裝置上。";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "即使您的 XMPP 伺服器不提供 TURN 伺服器，這也將使調用成為可能。";
-"This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";
+"This will now send your current location to all participants in this chat." = "這將會把您目前的位置傳送給此聊天中的所有參與者。";
 "This will remove the current avatar image and revert this group/channel to the default one." = "這將刪除當前頭像大頭貼，並將此群組/頻道恢復為預設群組/頻道。";
 "This will remove this account and the associated data from this device." = "這將從此裝置中刪除此帳號和相關資料。";
 "Timeout Error" = "超時錯誤";
@@ -1292,11 +1292,11 @@
 "Trinidad and Tobago" = "特立尼達和多巴哥";
 "Trust Key" = "信任金鑰";
 /* OMEMO warning shown inside chat view */
-"trusted" = "trusted";
+"trusted" = "信任";
 "Trusted and verified key" = "已信任和已驗證的金鑰";
 "Trusted but removed key" = "受信任但已刪除的金鑰";
 "Trusted but unused key" = "受信任但未使用的金鑰";
-"Trusted but unverified and unused key" = "Trusted but unverified and unused key";
+"Trusted but unverified and unused key" = "受信任但未驗證且未使用的金鑰";
 "Trusted but unverified key" = "受信任但未經驗證的金鑰";
 "Try nevertheless" = "儘管如此，請嘗試";
 /* quicksy country */
@@ -1347,7 +1347,7 @@
 "Unread Messages Below" = "以下為未讀訊息";
 "unsupported" = "不支援";
 /* OMEMO warning shown inside chat view */
-"untrusted" = "untrusted";
+"untrusted" = "未信任";
 "Untrusted key" = "不受信任的金鑰";
 "Upload Error" = "上傳錯誤";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "將檔上傳到伺服器以與他人共用。（伺服器報告的最大允許檔案大小：%@）";
@@ -1370,7 +1370,7 @@
 "Username" = "使用者名稱";
 "Username missing" = "缺少使用者名稱";
 "Uses TLS client certificates for authentication" = "使用 TLS 用戶端證書進行身份驗證";
-"Using the ping button will reveal your JID(s) to our push servers!" = "Using the ping button will reveal your JID(s) to our push servers!";
+"Using the ping button will reveal your JID(s) to our push servers!" = "使用 ping 按鈕將會向我們的推送伺服器透露你的 JID！";
 /* quicksy country */
 "Uzbekistan" = "烏茲別克";
 /* quicksy country */
@@ -1387,7 +1387,7 @@
 /* quicksy country */
 "Viet Nam" = "越南";
 /* muc affiliation */
-"Visitor" = "Visitor";
+"Visitor" = "訪客";
 "Waiting for GPS signal" = "等待GPS訊號";
 /* quicksy country */
 "Wallis and Futuna" = "瓦利斯和富圖納";
@@ -1449,9 +1449,9 @@
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "您正在嘗試呼叫 「%@」 （%@），但可以使用不同的帳戶聯繫到此聯絡人。請選取您要撥打電話的帳戶。";
 "You are using an out of date version of this app." = "您使用的是此應用程式的過時版本。";
 "You can customize even more, just use the button below to open the settings." = "您可以自定義更多，只需使用下面的按鈕打開設定即可。";
-"You currently aren't allowed to write messages in this Channel." = "You currently aren't allowed to write messages in this Channel.";
+"You currently aren't allowed to write messages in this Channel." = "你目前不被允許在此頻道發送訊息。";
 "You did not grant Monal to access your location." = "您沒有授予 Monal 訪問您的位置。";
-"You don't have voice in this chat" = "You don't have voice in this chat";
+"You don't have voice in this chat" = "你在這個聊天中沒有發言權";
 "You got banned from group/channel: %@" = "您被群組/頻道封鎖：%@";
 "You got kicked from group/channel: %@" = "您被群組/頻道踢出：%@";
 "You got removed from group/channel: %@" = "您已從群組/頻道中移除：%@";
@@ -1461,7 +1461,7 @@
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "您恢復了 Monal 的 iCloud 備份，請打開應用程式以重新啟用此帳戶。";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "驗證金鑰后，您應該信任金鑰。通過將下面的鍵與聯絡人螢幕上的鍵進行比較來驗證。按兩下指紋以複製到剪貼簿。";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "您嘗試呼叫聯絡人 『%@』，但在您的聯絡人清單中找不到此聯絡人。";
-"You were granted voice in this channel." = "You were granted voice in this channel.";
+"You were granted voice in this channel." = "你在此頻道被授予了發言權。";
 "You will no longer receive messages from this conversation" = "您將不再收到來自此對話的訊息";
 "You will receive subsequent messages from this conversation" = "您將收到來自此對話的後續訊息";
 "Your account must be enabled and connected, to be removed from the server!" = "您的帳戶必須啟用並連接，才能從伺服器中刪除！";
