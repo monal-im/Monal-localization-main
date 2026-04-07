@@ -138,11 +138,11 @@
 "Aruba" = "Aruba";
 "Attachments" = "Manused";
 "Audio recorder init fail." = "Helisalvestaja käivitusvalmendamine ei õnnestunud.";
-"Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
-"Audio recorder record fail." = "Audio recorder record fail.";
-"Audio Recorder set active error: %@" = "Audio Recorder set active error: %@";
-"Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
-"Audio Recorder: failed to record" = "Audio Recorder: failed to record";
+"Audio recorder prepareToRecord fail." = "Helisalvestaja ei suutnud käivitada „prepareToRecord“ meetodit.";
+"Audio recorder record fail." = "Helisalvestajal ei õnnestunud midagi salvestada.";
+"Audio Recorder set active error: %@" = "Helisalvestajas tekkis aktiivne viga: %@";
+"Audio Recorder set category error: %@" = "Helisalvestajas tekkis kategooria viga: %@";
+"Audio Recorder: failed to record" = "Helisalvestaja: salvestamine ei õnnestunud";
 /* quicksy country */
 "Australia" = "Austraalia";
 /* quicksy country */
@@ -385,7 +385,7 @@
 "Destroying group..." = "Hävitan gruppi...";
 "Details..." = "Üksikasjad...";
 /* OMEMO warning shown as notification */
-"Detected a new %@ omemo device on your account: %@" = "Detected a new %1$@ omemo device on your account: %2$@";
+"Detected a new %@ omemo device on your account: %@" = "Tuvastasin sinu kasutajakontolt uue OMEMO-seadme tunnusega %1$@: %2$@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "Seadme tunnus: ";
 "Devices of %@" = "Kasutaja %@ seadmed";
@@ -499,7 +499,7 @@
 "Failed to block contact %@" = "Viga kontakti blokeerimise lõpetamisel: %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%1$@' in '%2$@' to '%3$@': timeout";
-"Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
+"Failed to copy downloaded file into cache directory: %@" = "Allalaaditud faili kopeerimine puhverdatud andmete kausta ei õnnestunud: %@";
 "Failed to create invitation for %@" = "Kutse loomine kasutajale %@ ei õnnestunud";
 "Failed to create invitation, unknown error: %@" = "Kutse loomine ei õnnestunud, tekkis tundmatu viga: %@";
 "Failed to decode download link" = "Allalaadimislingi dekodeerimine ei õnnestunud";
@@ -518,24 +518,24 @@
 "Failed to export the database, please check the logfile for errors and try again." = "Andmebaasi eksportimine ei õnnestunud, palun vaata veateateid logifailist ja proovi uuesti.";
 "Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
 "Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
-"Failed to load blocklist" = "Failed to load blocklist";
+"Failed to load blocklist" = "Keeluloendi laadimine ei õnnestunud";
 "Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
 "Failed to move uploaded file to file cache directory" = "Failed to move uploaded file to file cache directory";
 "Failed to parse URL returned by HTTP upload server" = "Failed to parse URL returned by HTTP upload server";
-"Failed to publish avatar image for group/channel %@" = "Failed to publish avatar image for group/channel %@";
-"Failed to publish own avatar" = "Failed to publish own avatar";
-"Failed to publish own nickname" = "Failed to publish own nickname";
+"Failed to publish avatar image for group/channel %@" = "„%@“ grupi või kanali tunnuspildi avaldamine ei õnnestunud";
+"Failed to publish own avatar" = "Oma tunnuspildi avaldamine ei õnnestunud";
+"Failed to publish own nickname" = "Oma hüüdnime avaldamine ei õnnestunud";
 "Failed to query for new messages for Group/Channel (catchup) %@" = "Failed to query for new messages for Group/Channel (catchup) %@";
-"Failed to query for new messages on account %@" = "Failed to query for new messages on account %@";
+"Failed to query for new messages on account %@" = "„%@“ kasutajakonto uute sõnumite pärimine ei õnnestunud";
 "Failed to query newest stanzaid for account %@" = "Failed to query newest stanzaid for account %@";
 "Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
 "Failed to remove bookmark for Group/Channel: %@" = "Failed to remove bookmark for Group/Channel: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Failed to save bookmark for Group/Channel: %@";
 "Failed to save groupchat bookmarks" = "Failed to save groupchat bookmarks";
 "Failed to share file" = "Faili jagamine ei õnnestu";
-"Failed to synchronize phonebook" = "Failed to synchronize phonebook";
-"Failed to upload file: account was removed" = "Failed to upload file: account was removed";
-"Failed to write decrypted download into cache directory" = "Failed to write decrypted download into cache directory";
+"Failed to synchronize phonebook" = "Telefoniraamatu sünkroonimine ei õnnestunud";
+"Failed to upload file: account was removed" = "Faili üleslaadimine ei õnnestunud: kasutajakonto eemaldati";
+"Failed to write decrypted download into cache directory" = "Allalaaditud ja dekrüptitud sisu kirjutamine puhverdatud failide kausta ei õnnestunud";
 /* quicksy country */
 "Falkland Islands (Malvinas)" = "Falklandi (Malviini) saared";
 /* quicksy country */
@@ -688,8 +688,8 @@
 "Kyrgyzstan" = "Kõrgõzstan";
 /* quicksy country */
 "Lao P.D.R." = "Laos";
-"Last incoming push: %@" = "Last incoming push: %@";
-"Last incoming push: unknown" = "Last incoming push: unknown";
+"Last incoming push: %@" = "Viimane saabunud tõuketeavitus: %@";
+"Last incoming push: unknown" = "Viimane saabunud tõuketeavitus: pole teada";
 "Last seen: %@" = "Viimati nähtud: %@";
 "Last seen: %d days ago" = "Viimati nähtud: %d päeva tagasi";
 "Last seen: %d hours ago" = "Viimati nähtud: %d tundi tagasi";
@@ -856,7 +856,7 @@
 "No OMEMO keys found" = "OMEMO võtmeid ei leidu";
 "No pending constact requests" = "Ootel kontaktitaotlusi ei leidu";
 "No search result." = "Otsingul pole tulemusi.";
-"No supported auth mechanism found, disabling account!" = "No supported auth mechanism found, disabling account!";
+"No supported auth mechanism found, disabling account!" = "Ühtegi toetatud autentimismehhanismi ei leidunud - muudan konto mitteaktiivseks!";
 "No XMPP server!" = "XMPP serverit pole!";
 "No, keep encryption activated" = "Ei, jäta krüptimine sisselülitatuks";
 /* Crash reporting */
@@ -867,7 +867,7 @@
 "Northern Marianas" = "Põhja-Mariaanid";
 /* quicksy country */
 "Norway" = "Norra";
-"Not Authorized. Please check your credentials." = "Not Authorized. Please check your credentials.";
+"Not Authorized. Please check your credentials." = "Pole lubatud. Palun kontrolli, kas kasutajanimi/salasõna on õiged.";
 "Notes to self" = "Märkmed iseendale";
 "Notes to self: %@" = "Märkmed iseendale: %@";
 "Notifications" = "Teavitused";
@@ -993,8 +993,8 @@
 "Recipient" = "Saaja";
 "Reconnecting..." = "Uuesti ühendamisel...";
 "Recording audio" = "Heli on salvestamisel";
-"Recording failed: " = "Recording failed: ";
-"Recording succeeded" = "Recording succeeded";
+"Recording failed: " = "Salvestamine ei õnnestunud: ";
+"Recording succeeded" = "Salvestamine õnnestus";
 "Red x-mark shield:" = "Punane x-märkega turvatunnus:";
 "Refreshing..." = "Andmed on uuendamisel…";
 "Register a new account" = "Registreeri uus kasutajakonto";
@@ -1019,7 +1019,7 @@
 "Rename Group" = "Muuda grupi nime";
 "Reply" = "Vasta";
 "Request Voice" = "Kasuta häälkõnet";
-"Requesting validation SMS..." = "Requesting validation SMS...";
+"Requesting validation SMS..." = "Küsin kontroll-SMS-i...";
 "Requesting Voice" = "Proovin häälkõnet kasutusele võtta";
 "Required" = "Nõutav";
 "Reset OMEMO session" = "Lähtesta OMEMO sessioon";
@@ -1033,7 +1033,7 @@
 "Ringing..." = "Heliseb…";
 /* quicksy country */
 "Romania" = "Rumeenia";
-"Running..." = "Running...";
+"Running..." = "Töötan...";
 /* quicksy country */
 "Russian Federation" = "Venemaa";
 /* quicksy country */
@@ -1099,7 +1099,7 @@
 "Serbia" = "Serbia";
 "Server" = "Server";
 "Server does not support account removal" = "Server ei toeta kasutajakontode eemaldamise võimalust";
-"Server for domain '%@' not responding!" = "Server for domain '%@' not responding!";
+"Server for domain '%@' not responding!" = "„%@“ domeeni server ei vasta päringutele!";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Server implementation error: SASL2 tasks empty, account disabled!";
 "Server returned invalid xml!" = "Serveri päringuvastuse XML oli vigane!";
 "Server returned SASL2 error '%@'." = "Serveri SASL2 päringuvastuses oli viga: „%@“.";
@@ -1147,7 +1147,7 @@
 "Submit A Bug" = "Koosta veateade";
 "Success" = "Õnnestus";
 "Success!" = "Õnnestus!";
-"Successful" = "Successful";
+"Successful" = "Õnnestus";
 "Successfully destroyed channel." = "Kanali kustutamine/hävitamine õnnestus.";
 "Successfully destroyed group." = "Grupi kustutamine/hävitamine õnnestus.";
 "Successfully joined group/channel %@!" = "Liitumine „%@“ grupi või kanaliga õnnestus kenasti!";
@@ -1190,7 +1190,7 @@
 "The current password is not correct." = "Praegune salasõna pole õige.";
 "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling.";
 /* quicksy country */
-"The Former Yugoslav Republic of Macedonia" = "The Former Yugoslav Republic of Macedonia";
+"The Former Yugoslav Republic of Macedonia" = "North Macedonia";
 "The jid you want to add should be in in the format user@domain.tld." = "The jid you want to add should be in in the format user@domain.tld.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "The new contact will be added to your contacts list when the person you've added has approved your request.";
@@ -1339,7 +1339,7 @@
 "United States Virgin Islands" = "USA Neitsisaared";
 "unknown" = "teadmata";
 "Unknown authentication method" = "Tundmatu autentimismeetod";
-"Unknown channel-binding type" = "Unknown channel-binding type";
+"Unknown channel-binding type" = "Tundmatu kanali sidumise tüüp";
 "Unknown error!" = "Tundmatu viga!";
 "Unread Messages Below" = "Lugemata sõnumid on allpool";
 "unsupported" = "pole toetatud";
@@ -1421,8 +1421,8 @@
 "XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379: Pre-Authenticated Roster Subscription (Eelhallatud kontaktide lingid)";
 "XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: SASL SCRAM Downgrade Protection (SASL-i lisaturvalisus)";
 "XMPP Account Info Error" = "XMPP Account Info Error";
-"XMPP Bind Error" = "XMPP Bind Error";
-"XMPP Capabilities" = "XMPP Capabilities";
+"XMPP Bind Error" = "XMPP sidumisviga";
+"XMPP Capabilities" = "XMPP-võimekused";
 "XMPP Disco Info Error" = "XMPP Disco Info Error";
 "XMPP External Service Disco Error" = "XMPP External Service Disco Error";
 "XMPP ID" = "XMPP kasutajatunnus (XMPP ID)";
