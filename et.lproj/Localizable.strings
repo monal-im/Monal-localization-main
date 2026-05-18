@@ -268,7 +268,7 @@
 "Chat Background" = "Vestluse taust";
 "Chat background image" = "Vestluse taustapilt";
 "Check this number?" = "Kas kontrollid seda numbrit?";
-"Check type and size on " = "Check type and size on ";
+"Check type and size on " = "Kontrolli suurust ja tüüpi: ";
 /* quicksy country */
 "Chile" = "Tšiili";
 /* quicksy country */
@@ -316,7 +316,7 @@
 "Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Puudub ligipääs kaamerale";
-"Could not access Finder item!" = "Could not access Finder item!";
+"Could not access Finder item!" = "Puudub ligipääs failihalduri objektile!";
 "Could not change password" = "Salasõna muutmine ei õnnestunud";
 "Could not change password: your account is currently not connected" = "Salasõna muutmine ei õnnestunud: sinu kasutajakonto pole hetkel ühendatud";
 "Could not change the password" = "Salasõna muutmine ei õnnestunud";
@@ -388,7 +388,7 @@
 "Detected a new %@ omemo device on your account: %@" = "Tuvastasin sinu kasutajakontolt uue OMEMO-seadme tunnusega %1$@: %2$@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "Seadme tunnus: ";
-"Device Locked" = "Device Locked";
+"Device Locked" = "Seade on lukustatud";
 "Devices of %@" = "Kasutaja %@ seadmed";
 /* quicksy country */
 "Diego Garcia" = "Diego Garcia";
@@ -407,7 +407,7 @@
 "Do you really want to delete this key?" = "Kas sa kindlasti soovid selle võtme kustutada?";
 "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards.";
 "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards.";
-"Do you really want to disable encryption for this contact?" = "Do you really want to disable encryption for this contact?";
+"Do you really want to disable encryption for this contact?" = "Kas sa kindlasti tahad selle kontakti puhul krüptimise välja lülitada?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!";
 "Do you want to block this user from entering this group/channel?" = "Kas sa soovid blokeerida antud kasutaja ligipääsu sellesse gruppi/sellele kanalile?";
 "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them.";
@@ -489,7 +489,7 @@
 "Error while decrypting: iv.length != 12" = "Viga dekrüptimisel: iv.length != 12";
 "Error: %@" = "Viga: %@";
 "Error: Account disabled, can not display keys!" = "Viga: konto pole kasutusel ja võtmeid pole võimalik kuvada!";
-"Error: No contacts to display keys for!" = "Error: No contacts to display keys for!";
+"Error: No contacts to display keys for!" = "Viga: pole kontakte, mille kohta võtmeid kuvada!";
 "Error: Received OMEMO message is empty" = "Viga: vastuvõetud OMEMO-sõnum on tühi";
 /* quicksy country */
 "Estonia" = "Eesti";
@@ -509,20 +509,20 @@
 "Failed to decrypt filetransfer" = "Edastatavate failide dekrüptimine ei õnnestunud";
 "Failed to delete own avatar" = "Sinu oma tunnuspildi kustutamine ei õnnestunud";
 "Failed to delete own nickname" = "Sinu oma hüüdnime kustutamine ei õnnestunud";
-"Failed to destroy group/channel '%@'" = "Failed to destroy group/channel '%@'";
-"Failed to destroy group/channel '%@': timeout" = "Failed to destroy group/channel '%@': timeout";
-"Failed to download file: %@" = "Failed to download file: %@";
+"Failed to destroy group/channel '%@'" = "Grupi/kanali hävitamine ei õnnestunud: %@";
+"Failed to destroy group/channel '%@': timeout" = "Grupi/kanali hävitamine ei õnnestunud aegumise tõttu: %@";
+"Failed to download file: %@" = "Faili allalaadimine ei õnnestunud: %@";
 "Failed to enable carbons for account %@" = "Failed to enable carbons for account %@";
 "Failed to encrypt file" = "Faili krüptimine ei õnnestunud";
-"Failed to enter Group/Channel %@" = "Failed to enter Group/Channel %@";
+"Failed to enter Group/Channel %@" = "Grupi/kanali avamine ei õnnestunud: %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Failed to enter Group/Channel %@: This is not a Group/Channel!";
 "Failed to export the database, please check the logfile for errors and try again." = "Andmebaasi eksportimine ei õnnestunud, palun vaata veateateid logifailist ja proovi uuesti.";
-"Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
+"Failed to fetch download metadata: %@" = "Allalaadimise metateabe tuvastamine ei õnnestunud: %@";
 "Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "Keeluloendi laadimine ei õnnestunud";
-"Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
-"Failed to move uploaded file to file cache directory" = "Failed to move uploaded file to file cache directory";
-"Failed to parse URL returned by HTTP upload server" = "Failed to parse URL returned by HTTP upload server";
+"Failed to moderate message in group/channel '%@'" = "Grupis/kanalil ei õnnestunud sõnumi modereerimine: %@";
+"Failed to move uploaded file to file cache directory" = "Üleslaaditud faili teisaldamisel puhverdatud failide kausta ei õnnestunud";
+"Failed to parse URL returned by HTTP upload server" = "HTTP-põhise üleslaadimise serveri vastusest saadud võrguaadressi töötlemine ei õnnestunud";
 "Failed to publish avatar image for group/channel %@" = "„%@“ grupi või kanali tunnuspildi avaldamine ei õnnestunud";
 "Failed to publish own avatar" = "Oma tunnuspildi avaldamine ei õnnestunud";
 "Failed to publish own nickname" = "Oma hüüdnime avaldamine ei õnnestunud";
@@ -530,9 +530,9 @@
 "Failed to query for new messages on account %@" = "„%@“ kasutajakonto uute sõnumite pärimine ei õnnestunud";
 "Failed to query newest stanzaid for account %@" = "Failed to query newest stanzaid for account %@";
 "Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
-"Failed to remove bookmark for Group/Channel: %@" = "Failed to remove bookmark for Group/Channel: %@";
-"Failed to save bookmark for Group/Channel: %@" = "Failed to save bookmark for Group/Channel: %@";
-"Failed to save groupchat bookmarks" = "Failed to save groupchat bookmarks";
+"Failed to remove bookmark for Group/Channel: %@" = "Grupi/kanali järjehoidja eemaldamine ei õnnestunudi: %@";
+"Failed to save bookmark for Group/Channel: %@" = "Grupi/kanal järjehoidja salvestamine ei õnnestunudi: %@";
+"Failed to save groupchat bookmarks" = "Rühmavestluse järjehoidjate salvestamine ei õnnestunud";
 "Failed to share file" = "Faili jagamine ei õnnestu";
 "Failed to synchronize phonebook" = "Telefoniraamatu sünkroonimine ei õnnestunud";
 "Failed to upload file: account was removed" = "Faili üleslaadimine ei õnnestunud: kasutajakonto eemaldati";
@@ -574,7 +574,7 @@
 "Ghana" = "Ghana";
 /* quicksy country */
 "Gibraltar" = "Gibraltar";
-"Got empty room config form for '%@'" = "Got empty room config form for '%@'";
+"Got empty room config form for '%@'" = "Õnnestus tuvastada jututoa tühi seadistus: %@";
 "GPS" = "GPS";
 /* quicksy country */
 "Greece" = "Kreeka";
@@ -592,8 +592,8 @@
 "Group subject:" = "Grupi teema:";
 "Group suddenly changed to public channel!" = "Grupp on ootamatult muutunud avalikuks kanaliks!";
 "Group/Channel description" = "Grupi või kanali kirjeldus";
-"Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
-"Group/Channel not available anymore: %@" = "Group/Channel not available anymore: %@";
+"Group/Channel got destroyed: %@" = "Grupp/kanal on hävitatud: %@";
+"Group/Channel not available anymore: %@" = "Grupp/kanal pole enam saadaval: %@";
 /* quicksy country */
 "Guadeloupe" = "Guadeloupe";
 /* quicksy country */
@@ -678,7 +678,7 @@
 "Kenya" = "Keenia";
 "Keys of %@" = "Võtmed: %@";
 "Kicked from group/channel, because of system shutdown: %@" = "Kicked from group/channel, because of system shutdown: %@";
-"Kicked, because group/channel is now members-only: %@" = "Kicked, because group/channel is now members-only: %@";
+"Kicked, because group/channel is now members-only: %@" = "Sind müksati grupist/kanalilt välja, kuna ta see on nüüd vaid liikmetele: %@";
 /* quicksy country */
 "Kiribati" = "Kiribati";
 /* quicksy country */
@@ -885,7 +885,7 @@
 /* quicksy country */
 "Oman" = "Omaan";
 /* OMEMO warning shown inside chat view */
-"OMEMO: Detected new %@ device with id: %@" = "OMEMO: Detected new %1$@ device with id: %2$@";
+"OMEMO: Detected new %@ device with id: %@" = "OMEMO: Tuvastasin uues %1$@ seadme tunnusega: %2$@";
 /* OMEMO warning shown inside chat view */
 "OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact" = "OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact";
 "On this device" = "Selles seadmes";
@@ -1176,7 +1176,7 @@
 /* quicksy country */
 "Tanzania" = "Tansaania";
 "Temporarily unavailable. Try again later." = "Pole ajutiselt saadaval. Palun proovi hiljem uuesti.";
-"Temporary failure to enter Group/Channel: %@" = "Temporary failure to enter Group/Channel: %@";
+"Temporary failure to enter Group/Channel: %@" = "Ajutiselt polnud võimalik gruppi/kanalit avada: %@";
 "Terms of %@" = "Teenuse tingimused: %@";
 "Terms of use for %@" = "Teenuse kasutustingimused: %@";
 /* quicksy country */
@@ -1209,7 +1209,7 @@
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP-logija abil saad reaalajas edastada logiandmed seadistatud IP-aadressile. Palun kasuta voogedastusel üle interneti krüptimist!\n[Lisateave voogedastatud logi salvestamiseks](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
 "The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "The user %1$@ (%2$@) denied your contact request. You can try again, if you think this was a mistake.";
 "The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "The user %1$@ (%2$@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake.";
-"The user %@ (%@) wants to add you to their contact list" = "The user %1$@ (%2$@) wants to add you to their contact list";
+"The user %@ (%@) wants to add you to their contact list" = "%1$@ (%2$@) kasutaja soovib sind lisada oma kontaktiloendisse";
 "The username does not need to have an @ symbol. Please try again." = "Kasutajanimes ei pea leiduma @ märki. Palun proovi uuesti.";
 "There is no configured email account. Please email info@monal-im.org ." = "Seadistatud e-posti kontot ei leidu. Palun saada e-kiri aadressile info@monal-im.org .";
 "There was a SASL error on the server." = "There was a SASL error on the server.";
@@ -1228,7 +1228,7 @@
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "They will no longer see when you are online. They may not be able to send you encrypted messages.";
 "They will see when you are online. They will be able to send you encrypted messages." = "They will see when you are online. They will be able to send you encrypted messages.";
 "This account already exists in Monal." = "Selline kasutajakonto juba on Monalis olemas.";
-"This account already exists on this instance" = "This account already exists on this instance";
+"This account already exists on this instance" = "Selline kasutajakonto on antud serveris juba olemas";
 "This account already exists on this instance." = "Selline kasutajakonto juba on antud serveris olemas.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "See rakendus on liiga vana ning siin võib olla nii turvavigu kui mitte eesmärgipärast toimimist. Palun uuenda rakendus!";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Seda võid kasutada logifailide eksportimiseks.\n[Vaata lisateavet siit](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
@@ -1274,11 +1274,11 @@
 "Timor-Leste" = "Ida-Timor";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
-"TLS Error: Bad certificate" = "TLS Error: Bad certificate";
-"TLS Error: Certificate chain is invalid" = "TLS Error: Certificate chain is invalid";
-"TLS Error: Certificate expired" = "TLS Error: Certificate expired";
-"TLS Error: Host name mismatch" = "TLS Error: Host name mismatch";
-"TLS Error: Unknown root certificate" = "TLS Error: Unknown root certificate";
+"TLS Error: Bad certificate" = "TLS-i viga: vigane sertifikaat";
+"TLS Error: Certificate chain is invalid" = "TLS-i viga: sertifikaadialhel on vigane";
+"TLS Error: Certificate expired" = "TLS-i viga: sertifikaat on aegunud";
+"TLS Error: Host name mismatch" = "TLS-i viga: hosti nimed ei klapi";
+"TLS Error: Unknown root certificate" = "TLS-i viga: tundmatu juursertifikaat";
 /* quicksy country */
 "Togo" = "Togo";
 /* quicksy country */
@@ -1316,7 +1316,7 @@
 "Uganda" = "Uganda";
 /* quicksy country */
 "Ukraine" = "Ukraina";
-"Unable to connect to server!" = "Unable to connect to server!";
+"Unable to connect to server!" = "Serveriga ühendamine ei õnnestu!";
 "Unblock Contact" = "Lõpeta kontakti blokeerimine";
 "Unblocking user" = "Lõpetan kasutaja blokeerimist";
 "Unblocking user for this group/channel: %@" = "Lõpetan kasutaja blokeerimise selles grupis/kanalis: %@";
@@ -1326,7 +1326,7 @@
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
 "Unexpected error processing your request." = "Ootamatu viga sinu päringu töötlemisel.";
 "Unexpected error while checking type of jid, please try again" = "Unexpected error while checking type of jid, please try again";
-"Unexpected error while checking type of jid:" = "Unexpected error while checking type of jid:";
+"Unexpected error while checking type of jid:" = "Kasutajatunnuse (jid) kontrollimisel tekkis ootamatu viga:";
 "Unexpected mam preferences result" = "Unexpected mam preferences result";
 "Unexpected server response: invalid PEP config form" = "Unexpected server response: invalid PEP config form";
 "Unexpected server response: missing required fields in PEP config form" = "Unexpected server response: missing required fields in PEP config form";
@@ -1358,7 +1358,7 @@
 "Uruguay" = "Uruguay";
 "Use account" = "Kasuta kontot";
 "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc.";
-"Use DNSSEC validation for all connections" = "Use DNSSEC validation for all connections";
+"Use DNSSEC validation for all connections" = "Kasuta kõikide ühenduse puhul DNSSEC-i";
 "User Interface" = "Kasutajaliides";
 /* placeholder when adding account */
 "user@domain.tld" = "kasutaja@toredomeen.tld";
@@ -1404,7 +1404,7 @@
 "Welcome to Quicksy !" = "Tere tulemast, see on Quicksy!";
 "What call do you want to place?" = "Mis moodi tahaksid helistada?";
 "When disabled, URLs will opened in your default browser (that might not be Safari)." = "When disabled, URLs will opened in your default browser (that might not be Safari).";
-"When you start a conversation\nwith someone, they will\nshow up here." = "When you start a conversation\nwith someone, they will\nshow up here.";
+"When you start a conversation\nwith someone, they will\nshow up here." = "Kui alustad mõne osapoolega\nvestlust, siis nad saavad\nolema nähtavad siin.";
 "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise." = "Will focus the textfield on macOS or iOS with hardware keyboard attached, will open the software keyboard otherwise.";
 /* QR-Code-Scanner: account scan wrong menu */
 "Wrong menu" = "Vale menüü";
@@ -1448,19 +1448,19 @@
 "You can customize even more, just use the button below to open the settings." = "Saad kohendada veel paljugi muud - lihtsalt ava seadistused alljärgnevast nupust.";
 "You currently aren't allowed to write messages in this Channel." = "Sul hetkel pole õigust siia kanalisse sõnumeid saata.";
 "You did not grant Monal to access your location." = "Sa pole lubanud Monalil tuvastada sinu asukohta.";
-"You don't have voice in this chat" = "You don't have voice in this chat";
-"You got banned from group/channel: %@" = "You got banned from group/channel: %@";
-"You got kicked from group/channel: %@" = "You got kicked from group/channel: %@";
-"You got removed from group/channel: %@" = "You got removed from group/channel: %@";
+"You don't have voice in this chat" = "Sul pole õigust selles vestluses oma häälega osaleda";
+"You got banned from group/channel: %@" = "Sulle määrati grupis/kanalis suhtluskeeld: %@";
+"You got kicked from group/channel: %@" = "Sind müksati grupist/kanalist välja: %@";
+"You got removed from group/channel: %@" = "Sind eemaldati grupist/kanalilt: %@";
 "You have not entered your XMPP ID yet" = "Sa pole veel XMPP kasutajatunnust (XMPP ID) sisestanud";
-"You need friends for this ride" = "You need friends for this ride";
+"You need friends for this ride" = "Selleks sõiduks on sul sõpru vaja";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
-"You need to unlock your device once after boot to receive messages!" = "You need to unlock your device once after boot to receive messages!";
+"You need to unlock your device once after boot to receive messages!" = "Peala alglaadimist pead avama seadme lukustuse ja sõnumid hakkavad saabuma!";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "You restored an iCloud backup of Monal, please open the app to reenable this account.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "You tried to call contact '%@' but this contact could not be found in your contact list.";
-"You were granted voice in this channel." = "You were granted voice in this channel.";
-"You will no longer receive messages from this conversation" = "You will no longer receive messages from this conversation";
+"You were granted voice in this channel." = "Sa said õiguse selles vestluses oma häälega osaleda.";
+"You will no longer receive messages from this conversation" = "Sa enam ei saa sellest vestlusest sõnumeid";
 "You will receive subsequent messages from this conversation" = "You will receive subsequent messages from this conversation";
 "Your account must be enabled and connected, to be removed from the server!" = "Serverist eemaldamiseks peab sinu konto olema kasutusel ja ühendatud!";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Kuna taastasid iCloudist oma Monali varukoopia, siis sinu kasutajakontod lülitati välja. Nende aktiveerimiseks palun sisesta oma salasõnad uusti.";
