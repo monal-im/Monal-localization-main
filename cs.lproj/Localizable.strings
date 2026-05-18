@@ -72,15 +72,15 @@
 "Add contact (contact requests pending)" = "Přidat kontakt (nevyřízené žádosti o kontakt)";
 "Add Contact or Channel" = "Přidat kontakt nebo kanál";
 "Add members to group" = "Přidat členy do skupiny";
-"Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Přidejte nové kontakty pomocí tlačítka \"+\" nahoře. Vaši přátelé se zde objeví ve chvíli, kdy je možné s nimi chatovat.";
+"Add new contacts with the + button above. Your friends will pop up here when they can talk" = "Přidejte nové kontakty pomocí tlačítka \"+\" nahoře. Vaši přátelé se zde objeví ve chvíli, kdy je možné s nimi chatovat";
 "Add scanned contact" = "Přidat naskenovaný kontakt";
 "Add to contacts" = "Přidat do kontaktů";
 "Adding %@..." = "Přidávám %@...";
 "Adding Group/Channel..." = "Přidávám skupinu/kanál...";
 "Adding new member" = "Přidávám nového člena";
 "Adding..." = "Přidávám...";
-"Adjust the maximum file size for auto-downloads over cellular network" = "Upravit maximální velikost souboru, která se automaticky stáhne přes mobilní data";
-"Adjust the maximum file size for auto-downloads over WiFi" = "Upravit maximální velikost souboru, která se automaticky stáhne přes WiFi";
+"Adjust the maximum file size for auto-downloads over cellular network" = "Upravit maximální velikost automaticky stahovaných souborů přes mobilní data";
+"Adjust the maximum file size for auto-downloads over WiFi" = "Upravit maximální velikost automaticky stahovaných souborů přes WiFi";
 "Adjust the quality of images uploaded" = "Upravit kvalitu nahrávaných obrázků";
 /* muc affiliation */
 "Admin" = "Administrátor";
@@ -96,21 +96,21 @@
 "All messages fetched successfully, there are no more left on the server!" = "Všechny zprávy úspěšně načteny, na serveru už žádné další nejsou!";
 "Allow BTBV-only participants in verified encrypted groups" = "V ověřených šifrovaných skupinách povolit pouze BTBV účastníky";
 "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Povolit hovory neověřené pomocí OMEMO v chatech se zapnutým OMEMO šifrováním.\nPokud toto vypnete, nebudete moci volat nebo přijímat hovory od kontaktů, kteří nepoužívají klient s implementací [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nTato volba by měla být vypnutá, pokud patříte ke skupině uživatelů s vysokým rizikem, jako např. novináři, aktivisté atp.";
-"Allow contacts in your contact list to query your Monal and iOS versions." = "Allow contacts in your contact list to query your Monal and iOS versions.";
-"Allow contacts not in your contact list to call you." = "Allow contacts not in your contact list to call you.";
-"Allow contacts not in your contact list to contact you." = "Allow contacts not in your contact list to contact you.";
+"Allow contacts in your contact list to query your Monal and iOS versions." = "Umožnit kontaktům ve vašem seznamu kontaktů dotazovat se na verze Monal a iOS.";
+"Allow contacts not in your contact list to call you." = "Umožnit hovory od kontaktů, kteří nejsou ve vašem seznamu kontaktů.";
+"Allow contacts not in your contact list to contact you." = "Umožnit kontaktům, kteří nejsou ve vašem seznamu kontaktů, aby vás kontaktovali.";
 "Allow MITM-prone PLAIN authentication" = "Povolit PLAIN autentizaci náchylnou k MITM";
-"Allow unverified calls in encrypted chats" = "Allow unverified calls in encrypted chats";
-"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee.";
-"Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Allowing someone to add you as a contact lets them see your profile picture and when you are online.";
-"Already present" = "Already present";
+"Allow unverified calls in encrypted chats" = "Povolit neověřené hovory v šifrovaných chatech.";
+"Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Povolit vašemu zařízení navázat přímé síťové spojení se vzdálenou stranou. To může vést k prozrazení vaší IP adresy volajícímu/volanému.";
+"Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Pokud někomu povolíte, aby si vás přidal jako kontakt, uvidí váš profilový obrázek a kdy jste online.";
+"Already present" = "Již přítomný";
 "Already uploading this content, ignoring" = "Tento obsah je již nahráván, ignoruji";
 "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "Také pozor: Smazanou historii nebudete moci načíst ani z Vašeho serveru, Monal zprávy okamžitě po stažení smaže!";
 "Always archive" = "Vždy archivovat";
 "Always use direct TLS, not STARTTLS" = "Vždy použít přímé TLS namísto STARTTLS";
 /* quicksy country */
 "American Samoa" = "American Samoa";
-"An error happened when trying to request the SMS:" = "An error happened when trying to request the SMS:";
+"An error happened when trying to request the SMS:" = "Při pokusu o odeslání SMS došlo k chybě:";
 /* quicksy country */
 "Andorra" = "Andorra";
 /* quicksy country */
@@ -124,12 +124,12 @@
 "Apple Push Service" = "Služba Apple Push";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Služba Apple push by měla být vždy zapnuta. Pokud není, Vaše zařízení nemůže komunikovat se servery Applu.";
 "Apple Push Token" = "Apple Push Token";
-"Apple Push Token is not available!" = "Apple Push Token is not available!";
-"Approve new contact" = "Approve new contact";
+"Apple Push Token is not available!" = "Apple Push Token není k dispozici!";
+"Approve new contact" = "Schválit nový kontakt";
 "Archive chat" = "Archivovat chat";
-"Archive Conversation" = "Archive Conversation";
-"Archive only if the contact is in contact list." = "Archive only if the contact is in contact list.";
-"Are you sure to cancel the registration process?" = "Are you sure to cancel the registration process?";
+"Archive Conversation" = "Archivovat konverzaci";
+"Archive only if the contact is in contact list." = "Archivovat pouze pokud je kontakt ve vašem seznamu kontaktů.";
+"Are you sure to cancel the registration process?" = "Jste si jisti, že chcete zrušit proces registrace?";
 /* quicksy country */
 "Argentina" = "Argentina";
 /* quicksy country */
@@ -151,7 +151,7 @@
 "Austria" = "Austria";
 "Auto-Download Media and Files" = "Automaticky stahovat média a soubory";
 "Autodelete all messages older than" = "Automaticky mazat zprávy starší než";
-"Autofocus text input on chat open" = "Autofocus text input on chat open";
+"Autofocus text input on chat open" = "Automaticky zaměřit na textové pole při otevření chatu";
 /* OMEMO warning shown inside chat view */
 "automatically trusted" = "automatically trusted";
 "Avatar" = "Avatar";
@@ -166,7 +166,7 @@
 /* quicksy country */
 "Barbados" = "Barbados";
 "Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Varování: Zprávy budou mazány pouze při zpracování příchozích push notifikací nebo když aplikaci otevřete! Toto je obzvlášť relevantní při nastavení kratších intervalů!";
-"Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
+"Become part of a worldwide decentralized chat network!" = "Staňte se součástí celosvětové decentralizované sítě pro zasílání zpráv!";
 /* quicksy country */
 "Belarus" = "Belarus";
 /* quicksy country */
@@ -181,15 +181,15 @@
 "Bhutan" = "Bhutan";
 "Block" = "Blokovat";
 "Block Contact" = "Zablokovat kontakt";
-"Block new contact" = "Block new contact";
-"Block user?" = "Block user?";
+"Block new contact" = "Blokovat nový kontakt";
+"Block user?" = "Zablokovat uživatele?";
 /* muc affiliation */
-"Blocked" = "Blocked";
+"Blocked" = "Zablokován";
 "Blocked Users" = "Blokovaní uživatelé";
-"Blocking %@" = "Blocking %@";
+"Blocking %@" = "Blokuji %@";
 "Blocking is not supported by the server" = "Blokování není podporováno serverem";
 "Blocking member" = "Blocking member";
-"Blocking/Unblocking Not Supported" = "Blocking/Unblocking Not Supported";
+"Blocking/Unblocking Not Supported" = "Zablokování/odblokování nejsou podporovány";
 /* quicksy country */
 "Bolivia (Plurinational State of)" = "Bolivia (Plurinational State of)";
 /* quicksy country */
@@ -210,19 +210,19 @@
 "Burkina Faso" = "Burkina Faso";
 /* quicksy country */
 "Burundi" = "Burundi";
-"Call ended" = "Call ended";
-"Call ended for an unknown reason" = "Call ended for an unknown reason";
-"Call ended, duration: %@" = "Call ended, duration: %@";
-"Call ended: answered with other device" = "Call ended: answered with other device";
-"Call ended: application error" = "Call ended: application error";
-"Call ended: connection failed" = "Call ended: connection failed";
-"Call ended: connection failed\nDuration: %@" = "Call ended: connection failed\nDuration: %@";
-"Call ended: couldn't establish encryption" = "Call ended: couldn't establish encryption";
-"Call ended: declined" = "Call ended: declined";
-"Call ended: remote busy" = "Call ended: remote busy";
-"Call security help" = "Call security help";
+"Call ended" = "Hovor ukončen";
+"Call ended for an unknown reason" = "Hovor ukončen z neznámého důvodu";
+"Call ended, duration: %@" = "Hovor ukončen, délka: %@";
+"Call ended: answered with other device" = "Hovor ukončen: přijat na jiném zařízení";
+"Call ended: application error" = "Hovor ukončen: chyba aplikace";
+"Call ended: connection failed" = "Hovor ukončen: chyba spojení";
+"Call ended: connection failed\nDuration: %@" = "Hovor ukončen: chyba spojení\nDélka hovoru: %@";
+"Call ended: couldn't establish encryption" = "Hovor ukončen: Nebylo možné navázat šifrování";
+"Call ended: declined" = "Hovor ukončen: Odmítnuto";
+"Call ended: remote busy" = "Hovor ukončen: Obsazeno";
+"Call security help" = "Nápověda k zabezpečení hovorů";
 "Call Type" = "Typ hovoru";
-"Call was not answered" = "Call was not answered";
+"Call was not answered" = "Hovor nebyl přijat";
 "Calls: Allow P2P sessions" = "Hovory: Povolit P2P spojení";
 "Calls: Allow TURN fallback to Monal-Servers" = "Hovory: Povolit použití záložních TURN serverů Monalu";
 /* quicksy country */
@@ -232,13 +232,13 @@
 "Camera permissions missing" = "Chybí oprávnění přístupu ke kameře";
 /* quicksy country */
 "Cameroon" = "Cameroon";
-"Can Show Notifications" = "Může zobazovat oznámení";
+"Can Show Notifications" = "Může zobrazovat oznámení";
 "Can't convert the image to jpeg format." = "Nebylo možné zkonvertovat obrázek do formátu jpeg.";
 /* quicksy country */
 "Canada" = "Canada";
 "Cancel" = "Zrušit";
-"Cancel?" = "Cancel?";
-"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Cannot share something with disabled/deleted account, destination: %1$@, internal account id: %2$@";
+"Cancel?" = "Zrušit?";
+"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Nelze sdílet obsah se zakázaným/smazaným účtem, příjemce: %@, interní ID účtu: %@";
 /* quicksy country */
 "Cape Verde" = "Cape Verde";
 "Caps hash: %@" = "Caps hash: %@";
@@ -250,11 +250,11 @@
 "Central African Rep." = "Central African Rep.";
 /* quicksy country */
 "Chad" = "Chad";
-"Change affiliation" = "Change affiliation";
-"Change Background Image" = "Change Background Image";
-"Change Channel Avatar" = "Change Channel Avatar";
+"Change affiliation" = "Změnit přidružení";
+"Change Background Image" = "Změnit obrázek na pozadí";
+"Change Channel Avatar" = "Změnit avatar kanálu";
 "Change Chat Background" = "Změnit pozadí konverzace";
-"Change Group Avatar" = "Change Group Avatar";
+"Change Group Avatar" = "Změnit avatar skupiny";
 "Change Group Members" = "Změnit členy skupiny";
 "Change it" = "Change it";
 "Change Password" = "Změnit heslo";
@@ -388,7 +388,7 @@
 "Detected a new %@ omemo device on your account: %@" = "Detected a new %1$@ omemo device on your account: %2$@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 "Device ID: " = "Device ID: ";
-"Device Locked" = "Device Locked";
+"Device Locked" = "Zařízení uzamčeno";
 "Devices of %@" = "Devices of %@";
 /* quicksy country */
 "Diego Garcia" = "Diego Garcia";
@@ -1459,7 +1459,7 @@
 "You have not entered your XMPP ID yet" = "Ještě jste nezadali své XMPP ID";
 "You need friends for this ride" = "Na tuhle jízdu potřebujete přátele";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
-"You need to unlock your device once after boot to receive messages!" = "You need to unlock your device once after boot to receive messages!";
+"You need to unlock your device once after boot to receive messages!" = "Je třeba odemknout zařízení po spuštění, abyste mohli dostávat zprávy!";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Obnovili jste Monal pomocí zálohy na iCloudu, otevřete, prosím, aplikaci a znovu povolte tento účet.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "Pokusili jste se zavolat kontaktu '%@', ten však nebyl nalezen v seznamu Vašich kontaktů.";
