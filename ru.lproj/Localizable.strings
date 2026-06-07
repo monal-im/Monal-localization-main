@@ -94,13 +94,13 @@
 "Algeria" = "Algeria";
 "All messages are archived by default." = "Все сообщения архивируются по умолчанию.";
 "All messages fetched successfully, there are no more left on the server!" = "Все сообщения с сервера успешно загружены!";
-"Allow BTBV-only participants in verified encrypted groups" = "Allow BTBV-only participants in verified encrypted groups";
+"Allow BTBV-only participants in verified encrypted groups" = "Разрешить BTBV-only участников в подтверждённых зашифрованных группах";
 "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc.";
 "Allow contacts in your contact list to query your Monal and iOS versions." = "Разрешить пользователям из списка контактов получать номера версий Monal и iOS вашего устройства.";
 "Allow contacts not in your contact list to call you." = "Разрешить пользователям, отсутствующим в вашем списке контактов, звонить вам.";
 "Allow contacts not in your contact list to contact you." = "Разрешить пользователям, отсутствующим в вашем списке контактов, присылать вам сообщения.";
 "Allow MITM-prone PLAIN authentication" = "PLAIN аутентификация (риск MITM)";
-"Allow unverified calls in encrypted chats" = "Allow unverified calls in encrypted chats";
+"Allow unverified calls in encrypted chats" = "Разрешить неподтвержденные звонки в зашифрованных чатах";
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Разрешить прямые сетевые соединения с устройствами других пользователей. Активация этой опции может привести к получению вашего IP-адреса звонящим/вызываемым пользователем.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Разрешение добавить вас в список контактов позволяет видеть ваш аватар и статус подключения к сети.";
 "Already present" = "Уже присутствует";
@@ -388,7 +388,7 @@
 "Detected a new %@ omemo device on your account: %@" = "Detected a new %1$@ omemo device on your account: %2$@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Обнаружена кибератака по типу MITM через SSDP,- сбрасываем аутентификацию и деактивируем учётную запись чтобы уменьшить негативные последствия. Попробуйте активировать учётную запись когда снова подключитесь с использованием безопасной сетевой инфраструктуры.";
 "Device ID: " = "ID устройства: ";
-"Device Locked" = "Device Locked";
+"Device Locked" = "Устройство заблокировано";
 "Devices of %@" = "Устройства %@";
 /* quicksy country */
 "Diego Garcia" = "Диего Гарсия";
@@ -1459,7 +1459,7 @@
 "You have not entered your XMPP ID yet" = "Вы ещё не вводили адрес XMPP";
 "You need friends for this ride" = "Для этого дела вам нужны друзья";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Если хотите, чтобы собеседники вас слышали, предоставьте доступ к микрофону: Настройки iOS-> Конфиденциальность-> Микрофон.";
-"You need to unlock your device once after boot to receive messages!" = "You need to unlock your device once after boot to receive messages!";
+"You need to unlock your device once after boot to receive messages!" = "Вам необходимо разблокировать ваше устройство один раз после загрузки, чтобы получать сообщения!";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Вы восстановили конфигурацию Monal из резервной копии iCloud,- пожалуйста, откройте приложение чтобы снова активировать эту учётную запись.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "После сверки рекомендуется перевести ключ в разряд доверенных. Сверьте отображённый ниже ключ с тем, что отображается на экране устройства вашего контакта. Для копирования ключа в буфер обмена используйте двойное касание.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "Вы пытались позвонить '%@', но его не удаётся найти в вашем списке контактов.";
