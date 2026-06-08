@@ -153,7 +153,7 @@
 "Autodelete all messages older than" = "Удалять сообщения старше";
 "Autofocus text input on chat open" = "Автофокус на поле ввода при открытии переписки";
 /* OMEMO warning shown inside chat view */
-"automatically trusted" = "automatically trusted";
+"automatically trusted" = "автоматически доверенный";
 "Avatar" = "Аватар";
 /* quicksy country */
 "Azerbaijan" = "Азербайджан";
@@ -324,7 +324,7 @@
 "Could not configure group '%@'" = "Не удалось настроить группу '%@'";
 "Could not configure group '%@': timeout" = "Не удалось настроить группу '%@': время ожидания истекло";
 "Could not create group '%@': timeout" = "Не удалось создать группу '%@': время ожидания истекло";
-"Could not decrypt because you didn't trust the sender's device %u." = "Could not decrypt because you didn't trust the sender's device %u.";
+"Could not decrypt because you didn't trust the sender's device %u." = "Не удалось расшифровать, поскольку вы не доверяете устройству отправителя %u.";
 "Could not decrypt message" = "Не удалось расшифровать сообщение";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "Не удалось получить (все) старые сообщения этой переписки с сервера. Пожалуйста, повторите попытку позже. %@";
 "Could not fetch messages" = "Не удалось получить сообщения";
@@ -385,7 +385,7 @@
 "Destroying group..." = "Удаление группы...";
 "Details..." = "Подробности...";
 /* OMEMO warning shown as notification */
-"Detected a new %@ omemo device on your account: %@" = "Detected a new %1$@ omemo device on your account: %2$@";
+"Detected a new %@ omemo device on your account: %@" = "обнаружено новое %1$@ omemo устройство на вашем аккаунте: %2$@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Обнаружена кибератака по типу MITM через SSDP,- сбрасываем аутентификацию и деактивируем учётную запись чтобы уменьшить негативные последствия. Попробуйте активировать учётную запись когда снова подключитесь с использованием безопасной сетевой инфраструктуры.";
 "Device ID: " = "ID устройства: ";
 "Device Locked" = "Устройство заблокировано";
@@ -886,7 +886,7 @@
 /* quicksy country */
 "Oman" = "Оман";
 /* OMEMO warning shown inside chat view */
-"OMEMO: Detected new %@ device with id: %@" = "OMEMO: Detected new %1$@ device with id: %2$@";
+"OMEMO: Detected new %@ device with id: %@" = "OMEMO: Обнаружено новое %1$@ устройство, имеющее id: %2$@";
 /* OMEMO warning shown inside chat view */
 "OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact" = "OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact";
 "On this device" = "На этом устройстве";
@@ -1371,7 +1371,7 @@
 "Username" = "Имя пользователя";
 "Username missing" = "Пропущено имя пользователя";
 "Uses TLS client certificates for authentication" = "Аутентификация с использованием клиентских сертификатов TLS";
-"Using the ping button will reveal your JID(s) to our push servers!" = "Using the ping button will reveal your JID(s) to our push servers!";
+"Using the ping button will reveal your JID(s) to our push servers!" = "Использование кнопки ping раскроет ваш JID для наших пуш-серверов!";
 /* quicksy country */
 "Uzbekistan" = "Узбекистан";
 /* quicksy country */
@@ -1388,7 +1388,7 @@
 /* quicksy country */
 "Viet Nam" = "Вьетнам";
 /* muc affiliation */
-"Visitor" = "Visitor";
+"Visitor" = "Гость";
 "Waiting for GPS signal" = "Ожидание сигнала GPS";
 /* quicksy country */
 "Wallis and Futuna" = "Уоллис и Футуна";
@@ -1450,9 +1450,9 @@
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "Вы пытаетесь позвонить '%@' (%@), но этот контакт доступен с разных учётных записей. Пожалуйста, выберите ту учётную запись с которой нужно произвести исходящий вызов.";
 "You are using an out of date version of this app." = "Вы используете устаревшую версию этого приложения.";
 "You can customize even more, just use the button below to open the settings." = "Расширенные настройки доступны по кнопке ниже.";
-"You currently aren't allowed to write messages in this Channel." = "You currently aren't allowed to write messages in this Channel.";
+"You currently aren't allowed to write messages in this Channel." = "Сейчас вам не разрешено писать сообщения в этом Канале.";
 "You did not grant Monal to access your location." = "У Monal нет доступа к вашей геопозиции.";
-"You don't have voice in this chat" = "You don't have voice in this chat";
+"You don't have voice in this chat" = "В этом чате вы не можете говорить";
 "You got banned from group/channel: %@" = "Вас заблокировали в группе/канале: %@";
 "You got kicked from group/channel: %@" = "Вас выгнали из группы/канала: %@";
 "You got removed from group/channel: %@" = "Вас удалили из группы/канала: %@";
