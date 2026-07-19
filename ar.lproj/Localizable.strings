@@ -51,7 +51,7 @@
 "About" = "حول التطبيق";
 "Accept incoming calls from strangers" = "قبول الاتصالات الواردة من الغرباء";
 "Accept incoming messages from strangers" = "قبول الرسائل الواردة من الغرباء";
-"Access message archives on the server." = "الوصول إلى أرشيف الرسائل على الخادم";
+"Access message archives on the server." = "الوصول إلى أرشيف رسائل الخادم.";
 /* ShareViewController: Account */
 "Account" = "الحساب";
 "Account %@" = "الحساب %@";
@@ -72,7 +72,7 @@
 "Add contact (contact requests pending)" = "اضف جهة الاتصال (طلب جهة الاتصال معلق/ينتظر)";
 "Add Contact or Channel" = "اضف جهة اتصال قناة";
 "Add members to group" = "اضف اعضاء الى المجموعة";
-"Add new contacts with the + button above. Your friends will pop up here when they can talk" = "اضف جهة اتصال جديدة مع زر + في الاعلى. اصدقاءك سيظهرون هنا عندما يمكنهم التحدث.";
+"Add new contacts with the + button above. Your friends will pop up here when they can talk" = "أضف جهات اتصال جديدة باستخدام زر + في الأعلى. سيظهر أصدقاؤك هنا عندما يكونون متاحين للتحدث";
 "Add scanned contact" = "اضف جهة اتصال عبر مسحها";
 "Add to contacts" = "اضف الى جهات الاتصال";
 "Adding %@..." = "اضافة %@...";
@@ -93,7 +93,7 @@
 /* quicksy country */
 "Algeria" = "الجزائر";
 "All messages are archived by default." = "كل الرسائل مؤرشفة تلقائي.";
-"All messages fetched successfully, there are no more left on the server!" = "كل الرسائل جلبت بنجاح، لا يوجد رسائل متبقية في الخادم.";
+"All messages fetched successfully, there are no more left on the server!" = "تم استرداد جميع الرسائل بنجاح، ولا توجد رسائل أخرى على الخادم!";
 "Allow BTBV-only participants in verified encrypted groups" = "Allow BTBV-only participants in verified encrypted groups";
 "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc.";
 "Allow contacts in your contact list to query your Monal and iOS versions." = "السماح لجهات اتصالك بالاستعلام عن إصدار Monal و iOS.";
@@ -127,7 +127,7 @@
 "Apple Push Token is not available!" = "رمز Apple Push غير متوفر!";
 "Approve new contact" = "Approve new contact";
 "Archive chat" = "أرشفة الدردشة";
-"Archive Conversation" = "يجب إبقاء خدمة Apple Push قيد التشغيل دائما. في حال إيقافها، لن يستطيع جهازك التواصل مع خادم Apple.";
+"Archive Conversation" = "أرشفة المحادثة";
 "Archive only if the contact is in contact list." = "أرشفة الدردشة فقط إذا كانت جهة الاتصال موجودة في قائمة جهات الاتصال.";
 "Are you sure to cancel the registration process?" = "هل أنت متأكد من إلغاء عملية التسجيل؟";
 /* quicksy country */
@@ -407,7 +407,7 @@
 "Do you really want to delete this key?" = "هل ترغب حقا بحذب هذا المفتاح؟";
 "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "هل تريد حقا تدمير هذه القناة؟ كل عضو سيتم طرده ثم تدمير القناة بعد ذلك.";
 "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "هل تريد حقا تدمير هذه المجموعة؟ كل عضو سيتم طرده وسيتم تدمير المجموعة بعد ذلك.";
-"Do you really want to disable encryption for this contact?" = "هل تريد حقاً أن تزيل التشفير  مع هذا الشخص؟";
+"Do you really want to disable encryption for this contact?" = "هل تريد حقاً أن تزيل التشفير مع هذا الشخص؟";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "هل تريد حقاً ضبط جلسة OMEMO من جديد؟ يجب عليك أن تعيد الضبط فقط إذا كنت تعرف ما تفعله!";
 "Do you want to block this user from entering this group/channel?" = "هل تريد منع هذا المستخدم من دخول هذه المجموعة/الغرفة؟";
 "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "هل تريد إزالة ذلك المستخدم من هذه القناة؟ ذلك المستعمل سيكون قادراً على الدخول مرة أخرى إذا لم تحظره.";
@@ -678,8 +678,8 @@
 /* quicksy country */
 "Kenya" = "Kenya";
 "Keys of %@" = "Keys of %@";
-"Kicked from group/channel, because of system shutdown: %@" = "%@ طرد: لأن المجموعة/القناة للأعضاء لأن النظام انغلق.";
-"Kicked, because group/channel is now members-only: %@" = "%@ طرد: لأن المجموعة/القناة للأعضاء فقط.";
+"Kicked from group/channel, because of system shutdown: %@" = "تم طرد %@ من المجموعة/القناة بسبب إيقاف تشغيل النظام";
+"Kicked, because group/channel is now members-only: %@" = "تم طرد %@ لأن المجموعة/القناة أصبحت للأعضاء فقط";
 /* quicksy country */
 "Kiribati" = "Kiribati";
 /* quicksy country */
@@ -772,7 +772,7 @@
 "Member" = "عضو";
 "Message from %@" = "Message from %@";
 "Message was encrypted with '%@' which isn't supported by Monal" = "الرسالة مشفرة بـ '%@' ولكنها غير مدعومة في Monal";
-"Message was encrypted with OMEMO and can't be decrypted anymore" = "الرسالة مشفرة بـOMEMO ولكن لا يمكن فك تشفيرها بعد الأن.";
+"Message was encrypted with OMEMO and can't be decrypted anymore" = "الرسالة مشفرة باستخدام OMEMO، ولكن لا يمكن فك تشفيرها بعد الآن";
 "Message was encrypted with OMEMO but could not be decrypted" = "الرسالة مشفرة بـ OMEMO ولكن لا يمكن فك تشفيرها";
 "Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "لم يتم تشفير الرسالة لهذا الجهاز. يرجى التأكد من أن المرسل يثق في جهازك %u.";
 "Messages are encrypted" = "Messages are encrypted";
@@ -1216,7 +1216,7 @@
 "The username does not need to have an @ symbol. Please try again." = "The username does not need to have an @ symbol. Please try again.";
 "There is no configured email account. Please email info@monal-im.org ." = "There is no configured email account. Please email info@monal-im.org .";
 "There was a SASL error on the server." = "There was a SASL error on the server.";
-"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "حدث خطأ أثناء فك تشفير الرسالة (خطأ في الإشارة). لحل هذه المشكلة، حاول إرسال رسالة مشفرة إلى هذا الشخص";
+"There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "حدث خطأ أثناء فك تشفير هذه الرسالة المشفرة (خطأ في Signal). لحل هذه المشكلة، حاول إرسال رسالة مشفرة إلى هذا الشخص.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)";
 "These are important privacy settings you may want to review!" = "These are important privacy settings you may want to review!";
 "These are SRV resource records found for your domain." = "These are SRV resource records found for your domain.";
