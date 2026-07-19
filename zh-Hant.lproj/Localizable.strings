@@ -388,7 +388,7 @@
 "Detected a new %@ omemo device on your account: %@" = "在您的帳戶上檢測到新的 %1$@ omemo 裝置：%2$@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "檢測到通過 SSDP 進行的持續 MITM 攻擊，中止身份驗證並禁用帳戶以限制損害。當您再次處於乾淨的網路環境中時，您應該嘗試重新啟用您的帳戶。";
 "Device ID: " = "裝置 ID: ";
-"Device Locked" = "Device Locked";
+"Device Locked" = "设备已锁定";
 "Devices of %@" = "%@ 的裝置";
 /* quicksy country */
 "Diego Garcia" = "迪戈加西亞島";
@@ -496,7 +496,7 @@
 /* quicksy country */
 "Ethiopia" = "衣索比亞";
 "Even more to customize!" = "更多客製化！";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "每個新的聯絡人將啟用加密，但之前的聯絡人將保留他們的加密設定。强烈不建議記者、活動家等高風險群體關閉該功能。";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "每個新的聯絡人都會啟用加密功能，但已知的聯絡人將保留其加密設定。\n一般而言，高風險群體（例如記者、活動人士等）的成員不應關閉此功能。";
 "Failed to block contact %@" = "無法封鎖聯絡人 %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "無法將「%2$@」中「%1$@」的隸屬關係變更為「%3$@」";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "無法將「%2$@」中「%1$@」的隸屬關係變更「%3$@」：超時";
@@ -529,7 +529,7 @@
 "Failed to query for new messages for Group/Channel (catchup) %@" = "無法查詢群組/頻道的新訊息 (追趕) %@";
 "Failed to query for new messages on account %@" = "無法查詢帳戶 %@ 上的新郵件";
 "Failed to query newest stanzaid for account %@" = "查詢帳號 %@ 的最新節 id 失敗";
-"Failed to query newest stanzaid for Group/Channel %@" = "無法查詢群組/頻道%@的最新ID";
+"Failed to query newest stanzaid for Group/Channel %@" = "無法查詢群組/頻道%@的最新id";
 "Failed to remove bookmark for Group/Channel: %@" = "無法刪除群組/ 頻道的書籤： %@";
 "Failed to save bookmark for Group/Channel: %@" = "無法儲存群組/頻道的書籤： %@";
 "Failed to save groupchat bookmarks" = "無法保存群聊書籤";
@@ -622,7 +622,7 @@
 "Iceland" = "冰島";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "如果 Monal 無法顯示通知，則當訊息到達時，您將不會看到提醒。如果您在 Monal 首次請求許可時點擊了 『拒絕』，就會發生這種情況。通過轉到 iOS 設定 -> Monal -> 通知，並選取「允許通知」來修復它。";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "如果此功能處於關閉狀態，則您的裝置無法在 XMPP 伺服器上啟動推送，請確保已將其配置為支援 XEP-0357。";
-"If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "如果此選項關閉，當你對此群組的其他成員至少一個裝置明確設定了信任或不信任後，你將不會向沒有任何明確信任裝置的群組成員發送加密訊息。請謹慎使用，因為這表示一旦你開始手動更改該群組成員的某個裝置的信任，你將必須對該群組中*每一個*成員的至少一個裝置明確設定信任（即使你是在與其中一位成員的單獨聊天中進行此操作）！一般而言，只有記者、活動家等高風險群體，才應關閉此選項。";
+"If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "如果關閉此功能，在您明確信任或不信任此群組中另一位成員的至少一台裝置後，您將不會向群組中任何沒有明確受信任裝置的成員發送加密訊息。\n請謹慎使用，因為這表示一旦您開始手動更改此群組中某位成員某台裝置的信任狀態（即使您是在與其中一位成員的一對一聊天中進行此操作），之後您將必須明確信任群組中所有成員至少一台裝置！\n一般而言，只有記者、活動人士等高風險群體的成員才應關閉此功能。";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "如果打開此功能，您將遭受中間人攻擊的威脅。此類攻擊使攻擊者能夠操縱您的傳入和傳出訊息、添加他們自己的 OMEMO 金鑰、變更您的帳戶詳細資訊，甚至知道或變更您的密碼！\n\n相對於打開這個功能，更建議切換到另一伺服器。";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "如果您想要使用語音訊息，您將需要在「設定->隱私權->麥克風」中允許存取。";
 "Image Upload JPEG-Quality: %@" = "影像上傳 JPEG 品質：%@";
@@ -1459,7 +1459,7 @@
 "You have not entered your XMPP ID yet" = "您尚未輸入XMPP ID";
 "You need friends for this ride" = "你需要朋友來這趟旅程";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "如果您希望其他人可以聽到您，您需要在 iOS 設定 - > 隱私權 - > 麥克風 中授予麥克風訪問許可權。";
-"You need to unlock your device once after boot to receive messages!" = "You need to unlock your device once after boot to receive messages!";
+"You need to unlock your device once after boot to receive messages!" = "您需要在裝置啟動後解鎖一次，才能接收訊息！";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "您恢復了 Monal 的 iCloud 備份，請打開應用程式以重新啟用此帳戶。";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "驗證金鑰后，您應該信任金鑰。通過將下面的鍵與聯絡人螢幕上的鍵進行比較來驗證。按兩下指紋以複製到剪貼簿。";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "您嘗試呼叫聯絡人 『%@』，但在您的聯絡人清單中找不到此聯絡人。";
