@@ -48,7 +48,7 @@
 "A contact was scanned through the QR code scanner" = "Kontakt byl naskenován pomocí skeneru QR kódů";
 "Abort" = "Přerušit";
 "Aborted recording audio" = "Nahrávání zvuku bylo přerušeno";
-"About" = "O...";
+"About" = "O aplikaci";
 "Accept incoming calls from strangers" = "Přijímat příchozí hovory od neznámých";
 "Accept incoming messages from strangers" = "Přijímat příchozí zprávy od neznámých";
 "Access message archives on the server." = "Přístup k archivům zpráv na serveru.";
@@ -92,7 +92,7 @@
 "Albania" = "Albánie";
 /* quicksy country */
 "Algeria" = "Alžírsko";
-"All messages are archived by default." = "Všechny zprávy jsou archivovány jako výchozí nastavení";
+"All messages are archived by default." = "Ve výchozím nastavení se archivují všechny zprávy.";
 "All messages fetched successfully, there are no more left on the server!" = "Všechny zprávy úspěšně načteny, na serveru už žádné další nejsou!";
 "Allow BTBV-only participants in verified encrypted groups" = "V ověřených šifrovaných skupinách povolit účastníky používající pouze BTBV";
 "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Povolit hovory neověřené pomocí OMEMO v chatech se zapnutým šifrováním OMEMO.\nPokud tuto možnost vypnete, nebudete moci volat kontaktům ani přijímat hovory od kontaktů, kteří nepoužívají klienta s implementací [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nTuto možnost by měli vypnout členové vysoce rizikových skupin, například novináři, aktivisté apod.";
@@ -100,7 +100,7 @@
 "Allow contacts not in your contact list to call you." = "Umožnit hovory od kontaktů, kteří nejsou ve vašem seznamu kontaktů.";
 "Allow contacts not in your contact list to contact you." = "Umožnit kontaktům, kteří nejsou ve vašem seznamu kontaktů, aby vás kontaktovali.";
 "Allow MITM-prone PLAIN authentication" = "Povolit PLAIN autentizaci náchylnou k MITM";
-"Allow unverified calls in encrypted chats" = "Povolit neověřené hovory v šifrovaných chatech.";
+"Allow unverified calls in encrypted chats" = "Povolit neověřené hovory v šifrovaných chatech";
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Povolit vašemu zařízení navázat přímé síťové spojení se vzdálenou stranou. To může vést k prozrazení vaší IP adresy volajícímu/volanému.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Pokud někomu povolíte, aby si vás přidal jako kontakt, uvidí váš profilový obrázek a kdy jste online.";
 "Already present" = "Již přítomný";
@@ -620,7 +620,7 @@
 "I need an account:" = "Potřebuji účet:";
 /* quicksy country */
 "Iceland" = "Island";
-"If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Pokud Monal nemůže zobrazovat oznámení, neuvidíte upozornění, když přijde nová zpráva. K tomu dochází, pokud jste klepli na \"Odmítnout\" při první žádosti Monalu o udělení oprávnění. Oznámení můžete povolit v Nastavení (iOS) -> Monal -> Oznámení  a aktivujete 'Povolit oznámení'.";
+"If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Pokud Monal nemůže zobrazovat oznámení, neuvidíte upozornění, když přijde nová zpráva. K tomu dochází, pokud jste klepli na \"Odmítnout\" při první žádosti Monalu o udělení oprávnění. Oznámení můžete povolit v Nastavení (iOS) -> Monal -> Oznámení a aktivujete 'Povolit oznámení'.";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Pokud je toto vypnuté, zařízení nemohlo aktivovat službu push na Vašem XMPP serveru. Ujistěte se, že server podporuje XEP-0357 nebo kontaktujte správce serveru.";
 "If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "Pokud je tato možnost vypnutá, nebudete odesílat šifrované zprávy členům skupiny, kteří nemají žádné výslovně důvěryhodné zařízení, jakmile výslovně označíte alespoň jedno zařízení jiného člena této skupiny za důvěryhodné nebo nedůvěryhodné.\nPoužívejte opatrně, protože to znamená, že jakmile začnete ručně měnit důvěryhodnost zařízení některého člena skupiny, budete muset výslovně označit za důvěryhodné alespoň jedno zařízení *všech* členů skupiny (i když jste to udělali v chatu 1:1 s některým z členů)!\nToto nastavení by obecně měli vypínat pouze členové vysoce rizikových skupin, jako jsou novináři, aktivisté apod.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "Pokud tuto možnost zapnete, nebudete již chráněni před útoky MITM. Takové útoky umožňují útočníkovi manipulovat s vašimi příchozími a odchozími zprávami, přidat vlastní klíče OMEMO, změnit údaje vašeho účtu a dokonce zjistit nebo změnit vaše heslo!\n\nMísto zapnutí této možnosti byste měli raději přejít k jinému serveru.";
@@ -660,7 +660,7 @@
 /* quicksy country */
 "Israel" = "Izrael";
 /* QR-Code-Scanner: Camera not found */
-"It does not seem as your device has a camera. Please use a device with a camera for scanning" = "Zdá se, že Vaše zařízení nemá kameru. Použijte, prosím, zařízení s kamerou, pokud chcete skenovat.";
+"It does not seem as your device has a camera. Please use a device with a camera for scanning" = "Zdá se, že Vaše zařízení nemá kameru. Použijte, prosím, zařízení s kamerou, pokud chcete skenovat";
 /* quicksy country */
 "Italy" = "Itálie";
 /* quicksy country */
@@ -730,7 +730,7 @@
 "Loading Data" = "Nahrávám data";
 "Loading more Messages from Server" = "Načítání dalších zpráv ze serveru";
 "Loading omemo bundles" = "Načítání informací OMEMO";
-"Loading omemo bundles: %@ / %@" = "Načítání balíčků OMEMO: %1$@ / %2$@";
+"Loading omemo bundles: %@ / %@" = "Načítání balíčků OMEMO: %@ / %@";
 "Loading OMEMO keys" = "Načítání klíčů OMEMO";
 "Location Access Needed" = "Vyžadován přístup k poloze";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Přihlašte se svým účtem nebo si vytvořte nový. Pokročilé možnosti v případě potřeby najdete v nastavení aplikace Monal.";
