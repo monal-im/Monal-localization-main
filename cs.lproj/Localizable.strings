@@ -1,7 +1,7 @@
 " (offline)" = " (nepřipojený)";
 /* server details */
 " running on %@" = " běží na %@";
-"%02d:%02d (long press to abort)" = "%02d:%02d (long press to abort)";
+"%02d:%02d (long press to abort)" = "%02d:%02d (dlouhým stisknutím přerušíte)";
 "%@" = "%@";
 "%@ (%@)" = "%@ (%@)";
 "%@ (affiliation: %@)" = "%@ (příslušnost: %@)";
@@ -46,8 +46,8 @@
 /* muc affiliation */
 "<unknown>" = "<neznámý>";
 "A contact was scanned through the QR code scanner" = "Kontakt byl naskenován pomocí skeneru QR kódů";
-"Abort" = "Abort";
-"Aborted recording audio" = "Aborted recording audio";
+"Abort" = "Přerušit";
+"Aborted recording audio" = "Nahrávání zvuku bylo přerušeno";
 "About" = "O...";
 "Accept incoming calls from strangers" = "Přijímat příchozí hovory od neznámých";
 "Accept incoming messages from strangers" = "Přijímat příchozí zprávy od neznámých";
@@ -316,7 +316,7 @@
 "Could fetch room config form for '%@': timeout" = "Podařilo se načíst konfigurační formulář místnosti „%@“: vypršel časový limit";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Nelze získat přístup ke kameře";
-"Could not access Finder item!" = "Could not access Finder item!";
+"Could not access Finder item!" = "K položce Finderu se nepodařilo získat přístup!";
 "Could not change password" = "Heslo nebylo možné změnit";
 "Could not change password: your account is currently not connected" = "Nebylo možné změnit heslo: Váš účet není aktuálně připojen";
 "Could not change the password" = "Nebylo možné změnit heslo";
@@ -335,7 +335,7 @@
 "Could not join group/channel '%@': timeout" = "Ke skupině/kanálu „%@“ se nepodařilo připojit: vypršel časový limit";
 "Could not read captcha!" = "Nebylo možné přečíst captcha!";
 "Could not register your username. Please check your code or change the username and try again." = "Nebylo možné registrovat Vaše uživatelské jméno. Zkontrolujte, prosím, Váš kód nebo změňte uživatelské jméno a zkuste to znovu.";
-"Could not send" = "Could not send";
+"Could not send" = "Odeslání se nezdařilo";
 "Could not upload file" = "Soubor nelze odeslat";
 "Country:" = "Země:";
 /* Crash reporting */
@@ -481,7 +481,7 @@
 "Error inviting new participant!" = "Chyba při zvaní nového účastníka!";
 "Error inviting user!" = "Chyba při zvaní uživatele!";
 "Error registering push" = "Chyba při registraci push";
-"Error Removing Account" = "Error Removing Account";
+"Error Removing Account" = "Chyba při odebírání účtu";
 "Error removing avatar!" = "Chyba při odebírání avataru!";
 "Error removing user!" = "Chyba při odebírání uživatele!";
 "Error requesting SMS!" = "Chyba při žádosti o SMS!";
@@ -800,8 +800,8 @@
 "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal tomuto klíči nedůvěřuje. Buď byl ručně zakázán, nebo nebyl ručně ověřen, zatímco jiné klíče tohoto kontaktu ověřeny jsou. Klíč můžete označit za důvěryhodný pomocí přepínače. Než tak učiníte, ověřte si prosím s kontaktem, že se otisky shodují.";
 /* Camera permissions missing warning */
 "Monal is not allowed to access the camera" = "Monal nemá oprávnění pro přístup ke kameře";
-"Monal was not able to send your attachment!" = "Monal was not able to send your attachment!";
-"Monal was not able to send your attachment: %@" = "Monal was not able to send your attachment: %@";
+"Monal was not able to send your attachment!" = "Monalu se nepodařilo odeslat přílohu!";
+"Monal was not able to send your attachment: %@" = "Monalu se nepodařilo odeslat přílohu: %@";
 /* quicksy country */
 "Mongolia" = "Mongolsko";
 /* quicksy country */
@@ -951,7 +951,7 @@
 "Please make sure you have entered the same password in both password fields." = "Ujistěte se, že jste do obou polí zadali stejné heslo.";
 "Please provide a valid XMPP server domain or select one." = "Zadejte platnou doménu serveru XMPP nebo ji vyberte.";
 "Please select a XMPP server or provide one." = "Vyberte server XMPP nebo jej zadejte.";
-"Please update!" = "Please update!";
+"Please update!" = "Aktualizujte aplikaci!";
 /* quicksy country */
 "Poland" = "Polsko";
 "Port" = "Port";
@@ -1102,7 +1102,7 @@
 /* quicksy country */
 "Serbia" = "Srbsko";
 "Server" = "Server";
-"Server does not support account removal" = "Server does not support account removal";
+"Server does not support account removal" = "Server nepodporuje odebrání účtu";
 "Server for domain '%@' not responding!" = "Server pro doménu '%@' neodpovídá!";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Chyba implementace serveru: úlohy SASL2 jsou prázdné, účet bude zakázán!";
 "Server returned invalid xml!" = "Server vrátil neplatné xml!";
@@ -1233,7 +1233,7 @@
 "This account already exists in Monal." = "Tento účet již v Monalu existuje.";
 "This account already exists on this instance" = "Tento účet již v této instanci existuje";
 "This account already exists on this instance." = "Tento účet již v této instanci existuje.";
-"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!";
+"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Tato aplikace je příliš stará, může obsahovat bezpečnostní chyby a může náhle přestat fungovat. Aktualizujte ji!";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Toto lze použít k exportu souborů protokolu.\n[Jak je číst](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "Zdá se, že tento kontakt nemá žádná zařízení podporující šifrování. Pokud se domníváte, že tomu tak není, zkuste to znovu později.";
 "This contact is already in the contact list of the selected account" = "Tento kontakt již je v seznamu kontaktů vybraného účtu";
@@ -1267,7 +1267,7 @@
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Tato specifikace definuje sémantiku použití protokolu XMPP Publish-Subscribe k oznamování událostí změny stavu souvisejících s účtem pro rychlé zprávy a prezenci.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Tato specifikace umožňuje zabezpečit navazování spojení SASL a SASL2 proti snížení úrovně metody a vazby na kanál.";
 "This will clear the whole chat history of this account from this device." = "Tím se z tohoto zařízení odstraní veškerá historie chatu tohoto účtu.";
-"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though.";
+"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Tímto odstraníte tento účet a související data ze serveru i z tohoto zařízení. Data však mohou zůstat zachována na jiných zařízeních.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "Umožní hovory, i když váš server XMPP neposkytuje server TURN.";
 "This will now send your current location to all participants in this chat." = "Vaše aktuální poloha se nyní odešle všem účastníkům tohoto chatu.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "Odebere aktuální obrázek avataru a obnoví výchozí avatar této skupiny/kanálu.";
@@ -1414,15 +1414,15 @@
 "Wrong menu" = "Nesprávné menu";
 "XEP-0163 Personal Eventing Protocol" = "XEP-0163: Protokol osobních událostí";
 "XEP-0191: Blocking Command" = "XEP-0191: Příkaz blokování";
-"XEP-0198: Stream Management" = "XEP-0198: Stream Management";
+"XEP-0198: Stream Management" = "XEP-0198: Správa datového proudu";
 "XEP-0199: XMPP Ping" = "XEP-0199: Ping XMPP";
 "XEP-0215: External Service Discovery" = "XEP-0215: Zjišťování externích služeb";
 "XEP-0237: Roster Versioning" = "XEP-0237: Správa verzí seznamu kontaktů";
-"XEP-0280: Message Carbons" = "XEP-0280: Message Carbons";
-"XEP-0313: Message Archive Management" = "XEP-0313: Message Archive Management";
-"XEP-0352: Client State Indication" = "XEP-0352: Client State Indication";
-"XEP-0357: Push Notifications" = "XEP-0357: Push Notifications";
-"XEP-0363: HTTP File Upload" = "XEP-0363: HTTP File Upload";
+"XEP-0280: Message Carbons" = "XEP-0280: Kopie zpráv";
+"XEP-0313: Message Archive Management" = "XEP-0313: Správa archivu zpráv";
+"XEP-0352: Client State Indication" = "XEP-0352: Indikace stavu klienta";
+"XEP-0357: Push Notifications" = "XEP-0357: Oznámení push";
+"XEP-0363: HTTP File Upload" = "XEP-0363: Nahrávání souborů přes HTTP";
 "XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379: Předem ověřený odběr seznamu kontaktů";
 "XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: Ochrana před snížením zabezpečení SASL SCRAM";
 "XMPP Account Info Error" = "Chyba informací o účtu XMPP";
