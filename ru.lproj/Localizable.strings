@@ -888,7 +888,7 @@
 /* OMEMO warning shown inside chat view */
 "OMEMO: Detected new %@ device with id: %@" = "OMEMO: Обнаружено новое %1$@ устройство, имеющее id: %2$@";
 /* OMEMO warning shown inside chat view */
-"OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact" = "OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact";
+"OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact" = "OMEMO: Устройство %@ в настоящее время неактивно, так как ваш контакт больше не передает информацию о его статусе";
 "On this device" = "На этом устройстве";
 "Online" = "В сети";
 "Only contacts" = "Только контакты";
@@ -1210,8 +1210,8 @@
 "The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "Сервер пытался привязать вас к jid '%1$@', но вы указали '%2$@', отключив учётную запись!";
 "The UDP logger allows you to livestream the log to the configured IP." = "UDP регистратор позволяет организовать потоковую трансляцию логов на заданный IP адрес.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP регистратор позволяет организовать потоковую трансляцию логов на заданный IP адрес. Пожалуйста используйте защищённые ключи безопасности при трансляции через Интернет!\n[Узнайте, как принимать потоковую трансляцию логов](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
-"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "The user %1$@ (%2$@) denied your contact request. You can try again, if you think this was a mistake.";
-"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "The user %1$@ (%2$@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake.";
+"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "Пользователь %1$@ (%2$@) отклонил ваш запрос на добавление в контакты. Вы можете повторить попытку, если считаете, что это произошло по ошибке.";
+"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "Пользователь %1$@ (%2$@) удалил вас из своего списка контактов. Вы можете отправить новый запрос на добавление в контакты, если считаете, что это произошло по ошибке.";
 "The user %@ (%@) wants to add you to their contact list" = "Пользователь %1$@ (%2$@) хочет добавить вас в свой список контактов";
 "The username does not need to have an @ symbol. Please try again." = "Имя пользователя не должно содержать символ '@'. Попробуйте снова.";
 "There is no configured email account. Please email info@monal-im.org ." = "Настроенный почтовый ящик не найден. Пожалуйста, отправьте письмо на адрес: info@monal-im.org .";
@@ -1249,7 +1249,7 @@
 "This key belongs to this device and cannot be removed or disabled!" = "Этот ключ соответствует данному устройству, его нельзя удалить или отключить.";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "Этот ключ проверен и переведён в разряд доверенных путем визуального сравнения отпечатков. Чтобы вывести его из разряда доверенных, используйте переключатель.";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "Этот ключ из разряда доверенных, но контакт прекратил его использование. Рассмотрите вариант исключения этого ключа из разряда доверенных.";
-"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key.";
+"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "Этот ключ является доверенным, но контакт давно им не пользовался. Рекомендуется отменить доверие к этому ключу.";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "Означает, что голосовые данные шифруются и собеседник верифицирован с использованием OMEMO.\nНо, поскольку вы не сверяли отпечатки OMEMO ключей с собеседником, ваш XMPP сервер или сервер собеседника имеет возможность подменить OMEMO ключи и реализовать кибератаку по типу Man-In-The-Middle (MITM).";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "Означает, что голосовые данные шифруются и собеседник верифицирован с использованием OMEMO.\nВы визуально сверяли отпечатки OMEMO ключей с собеседником, поэтому кибератака по типу Man-In-The-Middle (MITM) не реализуема.";
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "Означает, что голосовые данные шифруются, но возможность верифицировать собеседника через OMEMO отсутствует.\nВаш XMPP сервер или сервер собеседника имеет возможность реализовать кибератаку по типу Man-In-The-Middle (MITM).";
@@ -1293,11 +1293,11 @@
 "Trinidad and Tobago" = "Тринидад и Тобаго";
 "Trust Key" = "Доверять ключу";
 /* OMEMO warning shown inside chat view */
-"trusted" = "trusted";
+"trusted" = "надежный";
 "Trusted and verified key" = "Доверенный и верифицированный ключ";
 "Trusted but removed key" = "Доверенный, но удалённый ключ";
 "Trusted but unused key" = "Доверенный, но неиспользуемый ключ";
-"Trusted but unverified and unused key" = "Trusted but unverified and unused key";
+"Trusted but unverified and unused key" = "Доверенный, но непроверенный и неиспользованный ключ";
 "Trusted but unverified key" = "Доверенный, но не верифицированный ключ";
 "Try nevertheless" = "Попробовать в любом случае";
 /* quicksy country */
@@ -1348,7 +1348,7 @@
 "Unread Messages Below" = "Непрочитанные сообщения ниже";
 "unsupported" = "не поддерживается";
 /* OMEMO warning shown inside chat view */
-"untrusted" = "untrusted";
+"untrusted" = "непроверенный";
 "Untrusted key" = "Не доверенный ключ";
 "Upload Error" = "Ошибка отправки";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "Отправка файлов на сервер, чтобы поделиться с другими. (Лимит размера файлов со стороны сервера: %@)";
@@ -1463,7 +1463,7 @@
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Вы восстановили конфигурацию Monal из резервной копии iCloud,- пожалуйста, откройте приложение чтобы снова активировать эту учётную запись.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "После сверки рекомендуется перевести ключ в разряд доверенных. Сверьте отображённый ниже ключ с тем, что отображается на экране устройства вашего контакта. Для копирования ключа в буфер обмена используйте двойное касание.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "Вы пытались позвонить '%@', но его не удаётся найти в вашем списке контактов.";
-"You were granted voice in this channel." = "You were granted voice in this channel.";
+"You were granted voice in this channel." = "Вам предоставлено право голоса в этом канале.";
 "You will no longer receive messages from this conversation" = "Вы больше не будете получать сообщения из этой переписки";
 "You will receive subsequent messages from this conversation" = "Вы будете получать последующие сообщения из этой переписки";
 "Your account must be enabled and connected, to be removed from the server!" = "Для удаления с сервера, ваша учётная запись должна быть активирована и подключена.";
