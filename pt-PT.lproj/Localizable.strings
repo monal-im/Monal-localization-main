@@ -92,13 +92,13 @@
 "Algeria" = "Argélia";
 "All messages are archived by default." = "Todas as mensagens são arquivadas por padrão.";
 "All messages fetched successfully, there are no more left on the server!" = "Todas mensagens carregadas com sucesso, não há mensagens pendentes no servidor!";
-"Allow BTBV-only participants in verified encrypted groups" = "Allow BTBV-only participants in verified encrypted groups";
-"Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc.";
+"Allow BTBV-only participants in verified encrypted groups" = "Permitir participantes apenas BTBV em grupos encriptados verificados";
+"Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Permitir chamadas que não sejam verificadas por OMEMO em conversas encriptadas por OMEMO.\nSe desativar esta opção, não poderá efetuar nem receber chamadas de/para contactos que não utilizem um cliente que implemente http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification.\nEsta opção deve ser desativada por membros de grupos de alto risco, como jornalistas, ativistas, etc.";
 "Allow contacts in your contact list to query your Monal and iOS versions." = "Permitir os seus contactos na sua lista consultar a sua versão do Monal e iOS.";
 "Allow contacts not in your contact list to call you." = "Permitir contatos não adicionados ligarem para si.";
 "Allow contacts not in your contact list to contact you." = "Permitir contatos não adicionados contatarem si.";
 "Allow MITM-prone PLAIN authentication" = "Permitir autenticação PLAIN suscetível a MITM (Man In The Middle)";
-"Allow unverified calls in encrypted chats" = "Allow unverified calls in encrypted chats";
+"Allow unverified calls in encrypted chats" = "Permitir chamadas não verificadas em conversas encriptadas";
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Permitir o seu dispositivo estabelecer uma conexão de rede direta com a parte remota. Isto poderá revelar o seu endereço IP para o chamador/recebedor.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Permitir alguém adicionar você como contato permite que a sua foto de perfil e a sua presença online sejam vistas.";
 "Already present" = "Já presente";
@@ -117,7 +117,7 @@
 "Anguilla" = "Anguilla";
 /* quicksy country */
 "Antigua and Barbuda" = "Antígua e Barbuda";
-"App" = "App";
+"App" = "Aplicação";
 "Appearance" = "Aparência";
 "Apple Push Service" = "Serviço de Notificação da Apple";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Serviço de notificação da Apple deve estar sempre ligado. Caso desligado, o seu aparelho não comunicará com os servidores da Apple.";
@@ -245,7 +245,7 @@
 /* quicksy country */
 "Cayman Islands" = "Ilhas Caimão";
 /* quicksy country */
-"Central African Rep." = "Rep. Centro-Africana";
+"Central African Rep." = "Rep. Centro-Africana.";
 /* quicksy country */
 "Chad" = "Chade";
 "Change affiliation" = "Trocar afiliação";
@@ -330,9 +330,9 @@
 /* QR-Code-Scanner */
 "Could not init video session" = "Não foi possível iniciar a sessão de vídeo";
 "Could not join group/channel '%@': timeout" = "Não foi possível entrar no grupo/canal '%@': tempo limite atingido";
-"Could not read captcha!" = "Could not read captcha!";
+"Could not read captcha!" = "Não foi possível ler o captcha!";
 "Could not register your username. Please check your code or change the username and try again." = "Não foi possível registar o seu nome de utilizador. Por favor verifique o seu código ou altere o nome de utilizador e tente novamente.";
-"Could not send" = "Could not send";
+"Could not send" = "Não foi possível enviar";
 "Could not upload file" = "Não foi possível enviar o ficheiro";
 "Country:" = "País:";
 /* Crash reporting */
@@ -355,7 +355,7 @@
 /* quicksy country */
 "Cyprus" = "Chipre";
 /* quicksy country */
-"Czech Rep." = "Rep. Tcheca";
+"Czech Rep." = "Rep. Tcheca.";
 "Database Export Failed" = "Exportação do Banco de Dados Falhou";
 "Database Files" = "Ficheiros do Banco de Dados";
 "Debug" = "Debug";
@@ -375,7 +375,7 @@
 "Dem. Rep. of the Congo" = "Rep. Dem. do Congo";
 /* quicksy country */
 "Denmark" = "Dinamarca";
-"Deny new contact" = "Deny new contact";
+"Deny new contact" = "Recusar novo contacto";
 "Destroy Channel" = "Destruir Canal";
 "Destroy Group" = "Destruir Grupo";
 "Destroying channel..." = "A destruir canal...";
@@ -390,8 +390,8 @@
 /* quicksy country */
 "Diego Garcia" = "Diego Garcia";
 "Disable Encryption" = "Desativar Criptografia";
-"Disable encryption. This is dangerous!" = "Disable encryption. This is dangerous!";
-"Disable encryption?" = "Disable encryption?";
+"Disable encryption. This is dangerous!" = "Desativar a encriptação. Isto é perigoso!";
+"Disable encryption?" = "Desativar a encriptação?";
 "Discovering devices..." = "A descobrir dispositivos...";
 "Display Name" = "Nome de Exibição";
 "Display Name And Message" = "Nome de Exibição e Mensagem";
@@ -414,7 +414,7 @@
 /* quicksy country */
 "Dominica" = "Dominica";
 /* quicksy country */
-"Dominican Rep." = "Rep. Dominicana";
+"Dominican Rep." = "Rep. Dominicana.";
 "Don't show onboarding" = "Não exibir o tour de apresentação";
 "Don't trust Key" = "Não confiar na chave";
 "Done" = "Finalizado";
@@ -493,7 +493,7 @@
 /* quicksy country */
 "Ethiopia" = "Etiópia";
 "Even more to customize!" = "Ainda mais para personalizar!";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc.";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Todos os novos contactos terão a encriptação ativada, mas os contactos já conhecidos irão manter as suas definições de encriptação.\nDe um modo geral, isto nunca deve ser desativado por membros de grupos de alto risco, como jornalistas, ativistas, etc.";
 "Failed to block contact %@" = "Falha ao bloquear o contacto %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%@' in '%@' to '%@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%@' in '%@' to '%@': timeout";
@@ -686,7 +686,7 @@
 /* quicksy country */
 "Kyrgyzstan" = "Quirguistão";
 /* quicksy country */
-"Lao P.D.R." = "República Democrática Popular do Laos";
+"Lao P.D.R." = "Laos P.D.R.";
 "Last incoming push: %@" = "Last incoming push: %@";
 "Last incoming push: unknown" = "Last incoming push: unknown";
 "Last seen: %@" = "Visto por último: %@";
@@ -731,11 +731,11 @@
 "Loading OMEMO keys" = "A carregar chaves OMEMO";
 "Location Access Needed" = "Acesso à localização requerido";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Entre na sua conta existente ou registe uma nova conta. Se for necessário, encontrará opções avançadas nas configurações do Monal.";
-"Logfiles" = "Ficheiros de log";
+"Logfiles" = "Ficheiros de registo";
 "Logging in" = "A entrar";
 "Login" = "Entrar";
 "Login error, account disabled: %@" = "Login error, account disabled: %@";
-"Logs" = "Ficheiros de log";
+"Logs" = "Registos";
 /* quicksy country */
 "Luxembourg" = "Luxemburgo";
 /* quicksy country */
@@ -1450,7 +1450,7 @@
 "You have not entered your XMPP ID yet" = "Ainda não inseriu o seu ID XMPP";
 "You need friends for this ride" = "Precisa de amigos para este passeio";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "Precisa conceder acesso ao microfone nas configurações do iOS > no microfone > privacidade, se quiser que outras pessoas possam ouvi-lo.";
-"You need to unlock your device once after boot to receive messages!" = "You need to unlock your device once after boot to receive messages!";
+"You need to unlock your device once after boot to receive messages!" = "É necessário desbloquear o dispositivo uma vez após o arranque para receber mensagens!";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "You restored an iCloud backup of Monal, please open the app to reenable this account.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "Deve confiar numa chave depois de verificá-la. Verifique comparando a chave abaixo com a do ecrã do seu contacto. Toque duas vezes numa impressão digital para copiar para a área de transferência.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "Tentou ligar para o contacto '%@', mas este contacto não pôde ser encontrado na sua lista de contactos.";
