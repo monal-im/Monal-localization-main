@@ -95,7 +95,7 @@
 "All messages are archived by default." = "Все сообщения архивируются по умолчанию.";
 "All messages fetched successfully, there are no more left on the server!" = "Все сообщения с сервера успешно загружены!";
 "Allow BTBV-only participants in verified encrypted groups" = "Разрешить BTBV-only участников в подтверждённых зашифрованных группах";
-"Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc.";
+"Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Разрешить звонки, не прошедшие проверку OMEMO, в зашифрованных чатах OMEMO.\nЕсли вы отключите эту функцию, вы не сможете совершать или принимать звонки от контактов, не использующих клиент с поддержкой [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist. github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nЭту функцию следует отключить представителям групп повышенного риска, таким как журналисты, активисты и т. д.";
 "Allow contacts in your contact list to query your Monal and iOS versions." = "Разрешить пользователям из списка контактов получать номера версий Monal и iOS вашего устройства.";
 "Allow contacts not in your contact list to call you." = "Разрешить пользователям, отсутствующим в вашем списке контактов, звонить вам.";
 "Allow contacts not in your contact list to contact you." = "Разрешить пользователям, отсутствующим в вашем списке контактов, присылать вам сообщения.";
@@ -496,7 +496,7 @@
 /* quicksy country */
 "Ethiopia" = "Эфиопия";
 "Even more to customize!" = "Ещё больше настроек!";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc.";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Для каждого нового контакта будет включено шифрование, однако для уже добавленных контактов настройки шифрования останутся прежними.\nКак правило, представителям групп повышенного риска, таких как журналисты, активисты и т. д., ни в коем случае не следует отключать эту функцию.";
 "Failed to block contact %@" = "Не удалось заблокировать контакт %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Не удалось изменить статус '%1$@' в '%2$@' на '%3$@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Не удалось изменить статус '%1$@' в '%2$@' на '%3$@': время ожидания истекло";
@@ -622,7 +622,7 @@
 "Iceland" = "Исландия";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Если у Monal нет разрешения показывать уведомления, он не сможет оповестить о входящих сообщениях. Такое случается если вы выбрали 'Отклонить' когда Monal изначально запрашивал соответствующее разрешение. Это можно исправить в Настройках iOS -> Monal -> Уведомления выбрав вариант 'Разрешить уведомления'.";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Если эта функция отключена, ваше устройство не сможет отправлять данные методом Push на ваш сервер XMPP; убедитесь, что на нём активирована поддержка XEP-0357.";
-"If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc.";
+"If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "Если этот параметр отключен, вы не сможете отправлять зашифрованные сообщения участникам группы, у которых нет ни одного явно доверенного устройства, после того как вы явно доверили или лишили доверия хотя бы одно устройство другого участника этой группы.\nИспользуйте эту функцию с осторожностью, поскольку это означает, что вам придётся явно добавить в список доверенных как минимум одно устройство *всех* участников группы, как только вы начнёте вручную изменять статус доверия к одному устройству участника этой группы (даже если вы сделали это в личном чате с одним из участников)!\nКак правило, эту функцию следует отключать только участникам групп повышенного риска, таких как журналисты, активисты и т. д.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "Если вы включите эту функцию, вы больше не будете защищены от Man-In-The-Middle атак. Такие атаки позволяют злоумышленнику манипулировать вашими входящими и исходящими сообщениями, добавлять свои собственные ключи OMEMO, изменять данные вашей учетной записи и даже узнавать или менять ваш пароль!\n\nЛучше сменить сервер, нежели включать эту функцию.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Для использования аудио сообщений требуется разрешение на доступ к микрофону: Настройки-> Конфиденциальность-> Микрофон.";
 "Image Upload JPEG-Quality: %@" = "Качество отправляемых JPEG-изображений: %@";
@@ -690,8 +690,8 @@
 "Kyrgyzstan" = "Киргизия";
 /* quicksy country */
 "Lao P.D.R." = "Лаос";
-"Last incoming push: %@" = "Last incoming push: %@";
-"Last incoming push: unknown" = "Last incoming push: unknown";
+"Last incoming push: %@" = "Последний входящий пуш: %@";
+"Last incoming push: unknown" = "Последнее входящее обновление: неизвестно";
 "Last seen: %@" = "Был в сети: %@";
 "Last seen: %d days ago" = "Был в сети: %d дня назад";
 "Last seen: %d hours ago" = "Был в сети: %d часов назад";
@@ -793,7 +793,7 @@
 /* quicksy country */
 "Monaco" = "Монако";
 "Monal" = "Moнал";
-"Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key." = "Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key.";
+"Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key." = "В настоящее время Monal доверяет этому ключу, однако отпечатки пальцев ещё не были сопоставлены, и этот контакт давно не использовал его. Рекомендуется отменить доверие к этому ключу.";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Сейчас Monal доверяет этому ключу, но сравнение отпечатков не производилось. Для повышения уровня безопасности сверьте отображаемые отпечатки с собеседником перед тем как переводить данный ключ в разряд доверенных!";
 "Monal did not received a gps location. Please try again later." = "Monal не смог получить информацию о вашем местоположении. Повторите попытку позже.";
 "Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "У Monal нет доступа к информации о вашем местоположении. Пожалуйста, проверьте соответствующее разрешение в настройках конфиденциальности вашего устройства.";
@@ -823,7 +823,7 @@
 "Nepal" = "Непал";
 /* quicksy country */
 "Netherlands" = "Нидерланды";
-"Networking" = "Networking";
+"Networking" = "Работа в сети";
 "Never archive" = "Никогда не архивировать";
 "New Account" = "Новая учётная запись";
 /* quicksy country */
@@ -997,8 +997,8 @@
 "Recipient" = "Получатель";
 "Reconnecting..." = "Восстановление соединения...";
 "Recording audio" = "Запись аудио";
-"Recording failed: " = "Recording failed: ";
-"Recording succeeded" = "Recording succeeded";
+"Recording failed: " = "Ошибка записи: ";
+"Recording succeeded" = "Запись выполнена успешно";
 "Red x-mark shield:" = "Красный значок с крестом:";
 "Refreshing..." = "Обновление...";
 "Register a new account" = "Регистрация новой учётной записи";
@@ -1022,9 +1022,9 @@
 "Rename Contact" = "Переименовать контакт";
 "Rename Group" = "Переименовать группу";
 "Reply" = "Ответить";
-"Request Voice" = "Request Voice";
+"Request Voice" = "Запрос голосовой связи";
 "Requesting validation SMS..." = "Запрос подтверждающего СМС...";
-"Requesting Voice" = "Requesting Voice";
+"Requesting Voice" = "Запрос голосовой связи";
 "Required" = "Обязательно";
 "Reset OMEMO session" = "Сбросить сессию OMEMO";
 "Resource" = "Клиент (ресурс)";
@@ -1037,7 +1037,7 @@
 "Ringing..." = "Идёт вызов...";
 /* quicksy country */
 "Romania" = "Румыния";
-"Running..." = "Running...";
+"Running..." = "Запуск...";
 /* quicksy country */
 "Russian Federation" = "Российская Федерация";
 /* quicksy country */
@@ -1151,7 +1151,7 @@
 "Submit A Bug" = "Сообщить о недостатке";
 "Success" = "Успешно";
 "Success!" = "Успешно!";
-"Successful" = "Successful";
+"Successful" = "Успешно";
 "Successfully destroyed channel." = "Канал успешно удалён.";
 "Successfully destroyed group." = "Группа успешно удалена.";
 "Successfully joined group/channel %@!" = "Успешно присоединились к группе/каналу %@!";
