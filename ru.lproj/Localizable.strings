@@ -57,7 +57,7 @@
 "Account %@" = "Аккаунт %@";
 "Account (%@)" = "Учётная запись (%@)";
 "Account (new)" = "Учётная запись (новая)";
-"Account already configured in Monal!" = "Учётная запись уже настроена в Monal.";
+"Account already configured in Monal!" = "Учётная запись уже настроена в Monal!";
 "Account already configured!" = "Учётная запись уже настроена!";
 "Account disabled" = "Учётная запись отключена";
 "Account Exists" = "Учётная запись существует";
@@ -124,7 +124,7 @@
 "Apple Push Service" = "Служба push-уведомлений Apple";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Служба push-уведомлений Apple всегда должна быть включена. Если она выключена, ваше устройство не может взаимодействовать с сервером Apple.";
 "Apple Push Token" = "Apple Push для токенов";
-"Apple Push Token is not available!" = "Apple Push для токенов недоступны.";
+"Apple Push Token is not available!" = "Токен Apple Push недоступен!";
 "Approve new contact" = "Принять новый контакт";
 "Archive chat" = "Архивировать переписку";
 "Archive Conversation" = "Архивировать беседу";
@@ -165,7 +165,7 @@
 "Bangladesh" = "Бангладеш";
 /* quicksy country */
 "Barbados" = "Барбадос";
-"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Предупреждение: Сообщение будет удалено только по получении push-уведомлений либо при открытии приложения. Это имеет значение на коротких временных интервалах.";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "Внимание: сообщение будет удалено только при получении push-уведомлений или при открытии приложения! Это особенно актуально для коротких интервалов времени!";
 "Become part of a worldwide decentralized chat network!" = "Присоединитесь к международной децентарлизованной сети обмена сообщениями!";
 /* quicksy country */
 "Belarus" = "Беларусь";
@@ -951,7 +951,7 @@
 "Please make sure you have entered the same password in both password fields." = "Пожалуйста, убедитесь что вы ввели один и тот же пароль в обоих полях.";
 "Please provide a valid XMPP server domain or select one." = "Пожалуйста, введите корректное доменное имя XMPP сервера или выберите из предложенных.";
 "Please select a XMPP server or provide one." = "Пожалуйста, выберите XMPP сервер или введите свой.";
-"Please update!" = "Пожалуйста, обновите.";
+"Please update!" = "Пожалуйста, обновите!";
 /* quicksy country */
 "Poland" = "Польша";
 "Port" = "Порт";
@@ -1149,9 +1149,9 @@
 "Status Message" = "Статус";
 "Status message:" = "Статус:";
 "Submit A Bug" = "Сообщить о недостатке";
-"Success" = "Успешно";
+"Success" = "Успех";
 "Success!" = "Успешно!";
-"Successful" = "Успешно";
+"Successful" = "Успешный";
 "Successfully destroyed channel." = "Канал успешно удалён.";
 "Successfully destroyed group." = "Группа успешно удалена.";
 "Successfully joined group/channel %@!" = "Успешно присоединились к группе/каналу %@!";
@@ -1263,7 +1263,7 @@
 "This server does not support modern SASL2 authentication." = "Этот сервер не поддерживает современный механизм аутентификации SASL2.";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "Этот сервер не имеет дополнительной защиты от атак типа «человек посередине» на уровне шифрования TLS, поскольку не использует методы аутентификации, защищённые от подобных атак! Это указывает на продолжающуюся атаку, если сервер должен поддерживать SASL2 и SCRAM, и в остальном безвреден. Используйте расширенное меню создания учётной записи и включите там переключатель PLAIN, если вы всё ещё хотите войти на этот сервер.";
 "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "Этот сервер не поддерживает SASL2 и SCRAM, что дополнительно усиливает аутентификацию от атак типа «человек посередине» на уровне шифрования TLS. Поскольку этот сервер указан как поддерживающий оба протокола на сайте https://github.com/monal-im/SCRAM_PreloadList (или вы намеренно не включили переключатель PLAIN при использовании расширенного меню создания учётной записи), весьма вероятно наличие текущей атаки MITM! Повторите попытку, когда окажетесь в чистой сетевой среде.";
-"This should never happen, please contact the developers and provide a logfile!" = "Такого не должно происходить,- пожалуйста, обратитесь к разработчикам, предоставив лог-файл.";
+"This should never happen, please contact the developers and provide a logfile!" = "Такого никогда не должно происходить. Пожалуйста, свяжитесь с разработчиками и предоставьте файл журнала!л.";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Эта спецификация определяет семантику использования механизма Издатель-Подписчик протокола XMPP для трансляции изменений состояния, связанных с обменом мгновенными сообщениями и изменением статуса присутствия учётной записи в сети.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Эта спецификация обеспечивает способ защиты подтверждений SASL и SASL2 от снижения требований к способу подтверждения и к привязке канала.";
 "This will clear the whole chat history of this account from this device." = "Это приведёт у удалению с этого устройства всей истории переписок с использованием этой учётной записи.";
