@@ -322,11 +322,11 @@
 "Could not change the password" = "암호를 변경할 수 없습니다";
 "Could not configure (new) group '%@': config option '%@' not available!" = "(새) 그룹 '%1$@'을(를) 설정할 수 없습니다: 설정 옵션 '%2$@'을(를) 사용할 수 없습니다!";
 "Could not configure group '%@'" = "Could not configure group '%@'";
-"Could not configure group '%@': timeout" = "그룹 그룹 %@ ': timeout을 구성 할 수 없습니다.";
+"Could not configure group '%@': timeout" = "그룹 '%@'을(를) 설정할 수 없습니다: 시간 초과";
 "Could not create group '%@': timeout" = "그룹을 만들 수 없습니다 '%@': timeout";
 "Could not decrypt because you didn't trust the sender's device %u." = "소파를 해독하지 않음 veckuse 보낸 사람의 기기 %를 신뢰하지 않았습니다.";
 "Could not decrypt message" = "Could not decrypt message";
-"Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "서버 보관소 에서이 채팅에 대한 모든 이전 메시지를 가져올 수 없습니다. 나중에 다시 시도하십시오. % s @ 희망하십시오.";
+"Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "서버 아카이브에서 이 채팅의 이전 메시지(전체)를 가져올 수 없습니다. 나중에 다시 시도해 주세요. %@";
 "Could not fetch messages" = "Could not fetch messages";
 /* QR-Code-Scanner */
 "Could not get default capture device" = "기본 캡처 장치를 삭제할";
@@ -447,7 +447,7 @@
 "Enable" = "Enable";
 "Enable encryption by default for new chats" = "새 고양이에 대해 기본적으로 암호화 사용";
 "Enabled" = "Enabled";
-"Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "암호화 된 메시지는 이전 형식으로 전송할 수 있습니다. Manal은 해독을 할 수 없습니다. 고객에게 고객에게 요청하십시오 (GCM 오류)";
+"Encrypted message was sent in an older format Monal can't decrypt. Please ask them to update their client. (GCM error)" = "암호화된 메시지가 Monal에서 복호화할 수 없는 이전 형식으로 전송되었습니다. 상대방에게 클라이언트를 업데이트해 달라고 요청하세요. (GCM 오류)";
 "Encrypted session to this device broken beyond repair." = "이 장치에 암호화 된 세션은 수리를 중단했습니다.";
 "Encryption" = "Encryption";
 "Encryption Keys" = "Encryption Keys";
@@ -520,7 +520,7 @@
 "Failed to fetch download metadata: %@" = "다운로드 메타데이터에 실패: %@";
 "Failed to fetch room config form for '%@'" = "'%@의 방 설정 양식을 fetch로 실패 이름 *";
 "Failed to load blocklist" = "Failed to load blocklist";
-"Failed to moderate message in group/channel '%@'" = "그룹 / 채널 '%@'로 메시지를 보통에 실패했습니다.";
+"Failed to moderate message in group/channel '%@'" = "그룹/채널 '%@'에서 메시지를 관리하지 못했습니다";
 "Failed to move uploaded file to file cache directory" = "업로드 된 파일을 파일 캐시 디렉토리로 이동하지 못했습니다";
 "Failed to parse URL returned by HTTP upload server" = "HTTP 업로드 서버로 URL을 급지하지 못했습니다";
 "Failed to publish avatar image for group/channel %@" = "그룹/채널 %@에 대한 아바타 이미지를 게시하는 실패";
@@ -621,7 +621,7 @@
 /* quicksy country */
 "Iceland" = "Iceland";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Monal이 알림을 표시 할 수없는 경우, 메시지가 도착하면 볼 수 없습니다. Monal이 먼저 요청되면 'Decline'을 탭합니다. \"모든\" -> 월 -> iOS 설정을 선택하십시오. 뉴스.";
-"If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "꺼짐 꺼짐 꺼운 XMPP 서버에서 푸시를 활성화 할 수없는 경우 XEP-0357을 지원하도록 구성해야합니다.";
+"If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "이 기능이 꺼져 있으면 기기에서 XMPP 서버의 푸시를 활성화할 수 없습니다. XEP-0357을 지원하도록 설정했는지 확인하세요.";
 "If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "이 기능이 없으면 장치가 사용자를 신뢰하지 않거나 신뢰하지 않으면 적어도 한 명의 사용자가 암호화된 메시지를 보낼 수 없습니다.\n조심히 사용해주세요. 즉, 구성원 그룹의 신뢰도가 수동으로 변경되고 *모든 구성원의 장비가 1:1 비율로 그룹 구성원과 통신할 때 하나 이상의 신뢰를 얻어야 합니다.\n일반적으로 고위험군은 언론인이나 운동가만 폐쇄를 권고하고 있습니다.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "이를 켜면 더 이상 인체에서 안전하지 않습니다. 이러한 공격은 모험을 활성화하여 들어오고 나가는 메시지를 조작하고 자신의 OMEMO 키를 추가하고 계정 세부 정보를 변경하거나 암호를 변경하십시오!\n\n이 켜기보다 다른 서버로 전환해야합니다.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "오디오를 엉망으로 사용하면 설정 -> 개인 정보 보호>> 마이크에서 너무 많은 사람이 액세스 할 수 있습니다.";
@@ -679,7 +679,7 @@
 "Kenya" = "Kenya";
 "Keys of %@" = "Keys of %@";
 "Kicked from group/channel, because of system shutdown: %@" = "그룹 / 채널에서 킥, 시스템 종료 때문에 : % @";
-"Kicked, because group/channel is now members-only: %@" = "kicked, 그룹 / 채널이 이제 회원 전용 : 희망 이었기 때문입니다.";
+"Kicked, because group/channel is now members-only: %@" = "그룹/채널이 이제 회원 전용으로 변경되어 강제 퇴장되었습니다: %@";
 /* quicksy country */
 "Kiribati" = "Kiribati";
 /* quicksy country */
@@ -938,7 +938,7 @@
 "Photos" = "Photos";
 "Pin Chat" = "Pin Chat";
 "Play Sounds" = "Play Sounds";
-"Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "먼저 새로 설정하고 새 계정을 추가하십시오. 또한 사용할 수도 있습니다.";
+"Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "먼저 설정에서 새 계정을 추가해 주세요. 이미 계정을 추가한 경우 설정에서 계정을 활성화해야 할 수 있습니다";
 "Please Allow Audio Access" = "Please Allow Audio Access";
 "Please enter a password below before activating this account." = "이 계정을 활성화하는 최상의 비트의 암호를 입력하십시오.";
 "Please enter the six-digit pin below" = "아래의 6 자리 핀의 크기를 기쁘게하십시오";
@@ -983,7 +983,7 @@
 "Quote" = "Quote";
 "Rate Monal" = "Rate Monal";
 "Really remove avatar?" = "Really remove avatar?";
-"Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "끊임없이 끊임없이 깨지기를 눌러 급여 알림을받을 수 있습니다.";
+"Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "연결이 끊긴 상태에서도 Apple을 통해 푸시 알림을 받습니다. 안정성이 크게 향상됩니다.";
 /* directory for downloaded audios */
 "Received Audios" = "Received Audios";
 /* directory for downloaded files */
@@ -1229,14 +1229,14 @@
 "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "다음은 암호화 키입니다. 각 장치는 로그인 한 다른 곳입니다. 확인해야 할 때 키를 신뢰해야합니다. 지문을 눌러 클립 보드로 복사하십시오.";
 "They will no longer see when you are online. They may not be able to access your encryption keys." = "그들은 더 이상 살아있는 것을 볼 수 없습니다. 암호화 키에 액세스하기를 비둘기가 아닐 수 있습니다.";
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "그들은 더 이상 살아있는 것을 볼 수 없습니다. 암호화 된 메시지를 보내주기 위해 비둘기가 아닐 수도 있습니다.";
-"They will see when you are online. They will be able to send you encrypted messages." = "이게 온라인으로 온라인으로 볼 수 있습니다. 아기는 당신의 가운데까지 가야합니다.";
+"They will see when you are online. They will be able to send you encrypted messages." = "상대방은 사용자가 온라인 상태인지 볼 수 있습니다. 상대방은 사용자에게 암호화된 메시지를 보낼 수 있습니다.";
 "This account already exists in Monal." = "이 계정 계정은 이미 Monal에서 이미 능동적입니다.";
 "This account already exists on this instance" = "이 계정은 이미이 방식으로 꺼졌다";
 "This account already exists on this instance." = "이 계정 조건은 콘텐츠에서 정해진다.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "이 신청서는 너무 오래되어 보안 벌레가 포함되어 있을 수 있으며 갑자기 작동이 중단될 수 있습니다. 판올림하십시오!";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "이 기능은 로그 파일을 내보내는 데 사용할 수 있습니다.\n[로그 파일을 읽는 방법 알아보기](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "이 연락처에는 암호화를 지원하는 장치가 있지만 올바르지 않으면 나중에 다시 시도하십시오.";
-"This contact is already in the contact list of the selected account" = "이 연락처는 이미 최고의 계정에 있습니다.";
+"This contact is already in the contact list of the selected account" = "이 연락처는 선택한 계정의 연락처 목록에 이미 있습니다";
 "This contact is already in your contact list" = "이 연락처는 연락처 목록에서 해제됩니다";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "이 연락처는 오메마 암호화 된 메시지를 지원하지 않을 수 있습니다. 항상 몇 초 동안 다시 보내주십시오.";
 "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "이 연락처는 Omemo 암호화 된 메시지를 지원하지 않을 수 있습니다. 이것이 잘못되었다고 생각하면 암호화를 초 단위로 사용해보십시오.";
@@ -1251,8 +1251,8 @@
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "이 키는 신뢰할 수 있지만 연락처는 더 이상 사용하지 않습니다.이 키에 대한 신뢰를 비활성화하려면 고려하십시오.";
 "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "이 키는 신뢰할 수 있지만 연락처는 오랜 시간 동안 사용되지 않았습니다.이 키에 대한 신뢰를 비활성화하십시오.";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "이것은 통화가 암호화되고 원격 축제는 OMEMO 암호화를 사용하여 확인되었습니다.\n하지만 당신은 수동으로 Callee의 OMEMO 지문을 확인하지 않았기 때문에, 또는 Callee의 XMPP 서버는 아마도 자신의 OMEMO 키를 가운데안의사람에 삽입 할 수 있습니다.";
-"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "즉, 호출이 암호화되고 원격 파티가 Omemo 암호화를 사용하여 확인되었습니다. 사용 된 Omemo 키를 수동으로 확인했으며, 중간에없는 중간을 수행 할 수 있습니다.";
-"This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "즉, 귀하의 호출은 암호화되지만 원격 파티는 Omemo 암호화를 사용하여 사용할 수 없습니다. 또는 Callee의 XMPP 서버를 사용하면 자신을 자신을 무게로 사용할 수 있습니다.";
+"This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "이는 통화가 암호화되었으며 상대방이 OMEMO 암호화를 사용하여 인증되었음을 의미합니다.\n사용 중인 OMEMO 키를 수동으로 확인했으므로 중간자 공격(Man-In-The-Middle)이 발생할 수 없습니다.";
+"This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "이는 통화가 암호화되었지만 상대방이 OMEMO 암호화를 사용하여 인증되지 않았음을 의미합니다.\n귀하 또는 통화 상대방의 XMPP 서버가 중간자 공격(Man-In-The-Middle)을 수행할 가능성이 있습니다.";
 "This message failed to send (%@): %@" = "이 메시지는 전송 실패 (%@): %@";
 "This message got retracted" = "This message got retracted";
 "This phone number is currently logged in with another device." = "이 전화기는 아프리카의 깨끗한 것입니다.";
@@ -1360,7 +1360,7 @@
 /* quicksy country */
 "Uruguay" = "Uruguay";
 "Use account" = "Use account";
-"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "DNSSEC를 사용하여 DNS 응답에 지정된 IP 주소에 연결하기 전에 모든 DNS 쿼리 응답을 유효성을 검사하십시오. WiFi, 추악한 모바일 카이어와 같은 특정 네트워크에서 연결 문제가 발생할 수 있습니다.";
+"Use DNSSEC to validate all DNS query responses before connecting to the IP address designated in the DNS response.\nWhile being more secure, this can lead to connection problems in certain networks like hotel wifi, ugly mobile carriers etc." = "DNSSEC를 사용하여 모든 DNS 쿼리 응답을 확인한 후, DNS 응답에서 지정된 IP 주소로 연결합니다.\n더 안전하지만, 호텔 Wi-Fi나 불안정한 이동통신사 네트워크 등 일부 네트워크에서는 연결 문제가 발생할 수 있습니다.";
 "Use DNSSEC validation for all connections" = "UN DNSSEC 유효한 정보 통행 연결";
 "User Interface" = "User Interface";
 /* placeholder when adding account */
@@ -1394,12 +1394,12 @@
 "Wallis and Futuna" = "Wallis and Futuna";
 "Warning" = "Warning";
 /* QR-Code-Scanner: invalid format */
-"We could not find a xmpp related QR-Code" = "우리는 CENT A ASMPP REALED QR 코드를 센다.";
+"We could not find a xmpp related QR-Code" = "XMPP 관련 QR 코드를 찾을 수 없습니다";
 "We don't support any task requested by the server, account disabled: %@" = "서버로 요청한 Anyy 작업을 지원하지 않습니다. 디스크 사용 안 함 : % @";
 "We don't support the single task requested by the server, account disabled: %@" = "서버 별 요청이있는 수면 작업, 지원 계정 사용 안함 : % @";
 "We sent you an SMS to %@" = "우리는 당신에게 SMS를 보내 %@";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "계정을 연결할 수 없습니다. 사용자 이름과 암호를 확인하고 인터넷에 연결되어 있는지 확인하십시오.";
-"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "계정을 연결할 수 없습니다. 사용자 이름과 암호를 확인하고 인터넷에 연결되어 있는지 확인하십시오. 기술 오류 메시지 : %% @";
+"We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "계정에 연결할 수 없습니다. 사용자 이름과 비밀번호를 확인하고 인터넷에 연결되어 있는지 확인하세요.\n\n기술 오류 메시지: %@";
 "We will check the number **%@**. Is this okay or do you want to change the number?" = "우리는 번호 ** % @ **를 확인할 것입니다.이 괜찮습니까? 번호를 보거나 싶니?";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "가장 저작물 채널 형 바인딩 유형, 고정 장애가있는 도구가없고 cert/keys 는 잘못 발급 된 cert를 벗어났습니다.";
 "Welcome" = "Welcome";
@@ -1463,18 +1463,18 @@
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "너는 보였다.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "확인했을 때 열쇠를 신뢰해야 합니다. 연락처의 화면에 아래 키를 비교하여 확인합니다. 클립보드에 복사하는 지문에 두 배 탭.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "연락처 목록에서 \\ n uns * 연락처 목록에 전화를 걸었을려고했습니다.";
-"You were granted voice in this channel." = "당신은 이것을 이것을 괴롭히는 균열을 받았습니다.";
+"You were granted voice in this channel." = "이 채널에서 발언 권한을 부여받았습니다";
 "You will no longer receive messages from this conversation" = "다음 대화의 수신자로 테보어를 보냅니다";
 "You will receive subsequent messages from this conversation" = "이 대화에서 후속 메시지를 받기를 원해요";
 "Your account must be enabled and connected, to be removed from the server!" = "서버에서 계정을 제거하려면 계정을 활성화하고 연결해야 합니다!";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Manal의 iCloud 백업을 복원했기 때문에 계정이 사용 중지되었습니다. 암호를 다시 시작하고 암호를 다시 활성화하십시오.";
 "Your answer" = "Your answer";
 "Your contact may not support calls. Your call might never reach its destination." = "너의 쇼핑몰은 아닙니다.";
-"Your entered XMPP ID is missing the domain" = "입력 된 XMPP ID가 Domin이 누락되었습니다.";
+"Your entered XMPP ID is missing the domain" = "입력한 XMPP ID에 도메인이 없습니다";
 "Your entered XMPP ID is missing the username" = "입력된 XMPP ID는 사용자 이름을 누락";
-"Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "서버는 채널 바인딩 유형을 발표했지만 스크랩 플러스 메소드를 제공하지 않았습니다. 이것은 진행중인 인간의 공격 (그러나 잘못된 구성이어야 할 것입니다), 계정을 비활성화 할 수 있습니다.";
+"Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "서버가 채널 바인딩 유형을 알렸지만 어떠한 SCRAM-PLUS 방식도 제공하지 않았습니다. 이는 지속적인 중간자 공격일 가능성이 높습니다(하지만 서버 설정 오류일 수도 있음). 계정을 비활성화합니다!";
 "Your server does not provide a MUC component." = "서버는 MUC 구성 요소를 제공하지 않습니다.";
-"Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "서버는 MAM을 지원하지 않습니다 (XEP-0313). 즉, 수신 메시지를 자주 놓칠 수 있습니다 !! 서버를 전환하거나 서버 관리를이를 사용 하여이 작업을 사용하도록하십시오.";
+"Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "사용 중인 서버는 MAM(XEP-0313)을 지원하지 않습니다. 이는 수신 메시지를 자주 놓칠 수 있다는 의미입니다!! 서버를 변경하거나 서버 관리자에게 이 기능을 활성화해 달라고 요청해야 합니다!";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "서버는 푸시 (XEP-0357)를 지원하지 않습니다. 즉, 새 수신 메시지를 검색하기 위해 앱을 수동으로 열어야합니다 !! 서버를 전환하거나 서버 관리자 에게이 작업을 사용하여 TOLK 에이어를 넣어야합니다!";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "서버는 스트림 관리 (XEP-0198)를 지원하지 않습니다. 그것은 당신의 나가는 메시지가 자주 잃을 수 있다는 것을 의미합니다! 서버로 전환하거나 서버 관리자로 대화해야 합니다!";
 "Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "서버는 SCRAM-PLUS 메소드를 제공했지만 XEP-0440을 사용하여 채널 바인딩 유형을 발표하지 않았습니다. XEP-0388. 이것은 지속적인 남자-in-the-middle 공격 또는 서버 misconfiguration 중 하나입니다, 계정을 비활성화!";
@@ -1493,4 +1493,4 @@
 "📍 A Location" = "📍 A Location";
 "📷 An Image" = "📷 An Image";
 "🔗 A Link" = "🔗 A Link";
-"🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "【분산화 된 네트워크 : XMPP의 분산화 된 특성을 활용하고 중앙 서버를 피하고 디지털 주권을 증가시키는 데 사용합니다. ❖ 데이터 개인 정보 : 외부 파티에 대한 정보를 판매하거나 추적하지 않습니다. to End-To-End 암호화 : Omemo 프로토콜을 사용하여 다중 엔드 메시징을 보안. open 오픈 소스 : 앱 소스 코드는 감사 및 기여에 대해 공개적으로 제공됩니다.";
+"🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 탈중앙화 네트워크:\nXMPP의 탈중앙화 특성을 활용하여 중앙 서버를 피하고 디지털 주권을 강화합니다.\n\n🌐 데이터 개인정보 보호:\n외부 업체(또는 그 누구에게도)를 위해 정보를 판매하거나 추적하지 않습니다.\n\n🔐 종단 간 암호화:\nOMEMO 프로토콜을 사용한 안전한 다중 단말 메시징.\n\n👨‍💻 오픈 소스:\n앱의 소스 코드는 공개되어 있으며, 누구나 검토하고 기여할 수 있습니다.";
