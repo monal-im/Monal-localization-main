@@ -107,7 +107,7 @@
 "Already uploading this content, ignoring" = "이미이 콘텐츠를 업로드하고 무시하십시오";
 "Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "참고: 서버에서 파일을 로드할 수 없습니다. 그를 찾아서 당장 몰도반을 없애라!";
 "Always archive" = "항상 보관";
-"Always use direct TLS, not STARTTLS" = "STARTS가 아닌 TLS는 꾸준히 사용되어 왔다.";
+"Always use direct TLS, not STARTTLS" = "항상 STARTTLS가 아닌 직접 TLS를 사용합니다";
 /* quicksy country */
 "American Samoa" = "American Samoa";
 "An error happened when trying to request the SMS:" = "잘못된 SMS 요청:";
@@ -224,7 +224,7 @@
 "Call Type" = "Call Type";
 "Call was not answered" = "Call was not answered";
 "Calls: Allow P2P sessions" = "Calls: Allow P2P sessions";
-"Calls: Allow TURN fallback to Monal-Servers" = "통화 : 멀리 벨 오브 로널링을 수행 할 수 있습니다.";
+"Calls: Allow TURN fallback to Monal-Servers" = "통화: Monal 서버로 TURN 폴백 허용";
 /* quicksy country */
 "Cambodia" = "Cambodia";
 "Camera" = "Camera";
@@ -238,7 +238,7 @@
 "Canada" = "Canada";
 "Cancel" = "Cancel";
 "Cancel?" = "Cancel?";
-"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Disabled / Delauted 계정으로 뭔가를 멀리 할 수 없음, 목적지 : % @, 내부 Compant ID : % @";
+"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "비활성화되었거나 삭제된 계정에는 공유할 수 없습니다. 대상: %@, 내부 계정 id: %@";
 /* quicksy country */
 "Cape Verde" = "Cape Verde";
 "Caps hash: %@" = "Caps hash: %@";
@@ -320,7 +320,7 @@
 "Could not change password" = "Could not change password";
 "Could not change password: your account is currently not connected" = "암호가 수 없습니다 : 계정이 현재 연결되어 있지 않습니다";
 "Could not change the password" = "암호를 변경할 수 없습니다";
-"Could not configure (new) group '%@': config option '%@' not available!" = "구성 (NEW) 그룹 '% 1 $ @': Config Option '% 2 $ @'를 사용할 수 없음!";
+"Could not configure (new) group '%@': config option '%@' not available!" = "(새) 그룹 '%1$@'을(를) 설정할 수 없습니다: 설정 옵션 '%2$@'을(를) 사용할 수 없습니다!";
 "Could not configure group '%@'" = "Could not configure group '%@'";
 "Could not configure group '%@': timeout" = "그룹 그룹 %@ ': timeout을 구성 할 수 없습니다.";
 "Could not create group '%@': timeout" = "그룹을 만들 수 없습니다 '%@': timeout";
@@ -391,7 +391,7 @@
 "Device Locked" = "장치가 잠겼습니다";
 "Devices of %@" = "Devices of %@";
 /* quicksy country */
-"Diego Garcia" = "Diego Garcia";
+"Diego Garcia" = "Diego García";
 "Disable Encryption" = "Disable Encryption";
 "Disable encryption. This is dangerous!" = "Disable encryption. This is dangerous!";
 "Disable encryption?" = "Disable encryption?";
@@ -496,7 +496,7 @@
 /* quicksy country */
 "Ethiopia" = "Ethiopia";
 "Even more to customize!" = "Even more to customize!";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "모든 새 연락처가 암호화를 가능하게하지만 이미 알려진 연락처는 암호화 설정을 보존합니다. 일반적으로 이것은 언론인, 활동가 등의 위험 그룹의 구성원에 의해 꺼지지 않아야합니다.";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "새로운 모든 연락처에는 암호화가 활성화되지만, 이미 알고 있는 연락처는 기존 암호화 설정이 유지됩니다.\n일반적으로 언론인, 활동가 등 고위험군에 속한 사용자는 이 기능을 절대 끄지 않는 것이 좋습니다.";
 "Failed to block contact %@" = "Failed to block contact %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "'%1$@' 의 '%2$@' 를 '%3$@' 로 변경할 수 실패 이름 *";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%1$@' 의 '%2$@' 를 '%3$@' 로 변경할 수 있습니다";
@@ -526,7 +526,7 @@
 "Failed to publish avatar image for group/channel %@" = "그룹/채널 %@에 대한 아바타 이미지를 게시하는 실패";
 "Failed to publish own avatar" = "Failed to publish own avatar";
 "Failed to publish own nickname" = "Failed to publish own nickname";
-"Failed to query for new messages for Group/Channel (catchup) %@" = "그룹 / 채널 (새겨진)에 대한 새 메시지를 쿼리하지 못했습니다 (CATH)";
+"Failed to query for new messages for Group/Channel (catchup) %@" = "그룹/채널의 새 메시지를 불러오지 못했습니다(동기화) %@";
 "Failed to query for new messages on account %@" = "Account %@의 새로운 메시지에 대한 쿼리에 실패";
 "Failed to query newest stanzaid for account %@" = "계정 %@에 대한 최신 stanzaid 쿼리에 실패";
 "Failed to query newest stanzaid for Group/Channel %@" = "Group/Channel %@에 대한 최신 stanzaid 쿼리에 실패";
@@ -774,7 +774,7 @@
 "Message was encrypted with '%@' which isn't supported by Monal" = "메시지는 Monal에 의해 지원되지 않는 '%@'로 암호화되었습니다";
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "OMEM과 암호화 된 메시지 WAN은 며칠 데님을 벌어 놓을 수 있습니다";
 "Message was encrypted with OMEMO but could not be decrypted" = "메세는 Omemo와 암호화되었지만 복음이 해독되지 않습니다";
-"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "이 장치에 대한 메시지가 암호화되지 않았습니다. SDNDER가 기기 % u를 uS인지 확인하십시오.";
+"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "메시지가 이 기기에 대해 암호화되지 않았습니다. 보낸 사람이 기기 id %u를 신뢰하도록 설정했는지 확인하세요.";
 "Messages are encrypted" = "Messages are encrypted";
 "Messages are NOT encrypted" = "Messages are NOT encrypted";
 "Messages never archived by default." = "메시지는 기본적으로 보관되지 않은 메시지입니다.";
@@ -1195,7 +1195,7 @@
 "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "다음의 여행자의 충돌이 함께 충돌을 처리하여 충돌 처리를 둘러냅니다.";
 /* quicksy country */
 "The Former Yugoslav Republic of Macedonia" = "유가 슬라비아 마케도니아 공화국";
-"The jid you want to add should be in in the format user@domain.tld." = "USER_DOMAIN.TLD 형식으로 재생할 JID를 재생할 JID.";
+"The jid you want to add should be in in the format user@domain.tld." = "추가하려는 jid는 user@domain.tld 형식(사용자@도메인.최상위도메인)으로 입력해야 합니다.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "키가 올바르게 처리됩니다. 메시지가 나타나면 개발자에게 문의하십시오.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "새로운 연락처는 첫 번째 사람에게 첫 번째 사람에게 연락을 취득합니다.";
 "The operator of the webserver providing that URL may see your IP address." = "URL을 제공하는 ASServer의 연산자는 IP 주소를 볼 수 있습니다.";
@@ -1204,7 +1204,7 @@
 "The pin you have entered is incorrect." = "당신이 가진 사람은 죄송합니다.";
 /* QR-Code-Scanner: account scan wrong menu */
 "The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "Qrcode는 acount를 위한 로그인 자격 증명을 포함합니다. 설정으로 이동 -> 새로운 계정 및 rescan qrcode";
-"The resource '%@' has the following capabilities:" = "리소스 '%@'에는 다음과 같은 기능이 있습니다";
+"The resource '%@' has the following capabilities:" = "리소스 '%@'이(가) 다음 기능을 지원합니다:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "선택한 XMPP 서버는 MANAL에 제휴하지 않는 공용 서버입니다.이 등록 페이지는 편의상에서만 사용할 수 있습니다.";
 "The server does not support blocking (XEP-0191)." = "서버는 차단을 지원하지 않습니다 (XEP-0191).";
 "The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "y를 jid '% 1 $ @'로 바인드 할 서버 버전은 % 2 $ \\ ''이어서, 귀하의 계정을 비활성화합니다!";
@@ -1234,7 +1234,7 @@
 "This account already exists on this instance" = "이 계정은 이미이 방식으로 꺼졌다";
 "This account already exists on this instance." = "이 계정 조건은 콘텐츠에서 정해진다.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "이 신청서는 너무 오래되어 보안 벌레가 포함되어 있을 수 있으며 갑자기 작동이 중단될 수 있습니다. 판올림하십시오!";
-"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "이것은 내보내기 로그 파일을 사용하여 사용할 수 있습니다. [맨 위로 읽는 방법 학습](https://github.com/monal-im/monal/wiki/introduction-tomonal-logging#view-the-log).";
+"This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "이 기능은 로그 파일을 내보내는 데 사용할 수 있습니다.\n[로그 파일을 읽는 방법 알아보기](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "이 연락처에는 암호화를 지원하는 장치가 있지만 올바르지 않으면 나중에 다시 시도하십시오.";
 "This contact is already in the contact list of the selected account" = "이 연락처는 이미 최고의 계정에 있습니다.";
 "This contact is already in your contact list" = "이 연락처는 연락처 목록에서 해제됩니다";
@@ -1329,7 +1329,7 @@
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "예기치 않은 오류 서버 SASL2 인증 (서버가 버그가 있습니까?), 단회!";
 "Unexpected error processing your request." = "Unexpected error processing your request.";
 "Unexpected error while checking type of jid, please try again" = "예약 된 오류가 발생하는 유형을 켜고 있습니다";
-"Unexpected error while checking type of jid:" = "Jid를 검사하는 동안 오류가 발생했습니다";
+"Unexpected error while checking type of jid:" = "Jid 유형 확인 중 예상치 못한 오류가 발생했습니다:";
 "Unexpected mam preferences result" = "Unexpected mam preferences result";
 "Unexpected server response: invalid PEP config form" = "예기치 않은 서버 응답 : 잘못된 PEP 구성 양식";
 "Unexpected server response: missing required fields in PEP config form" = "예기치 않은 서버 응답 : PEP 구성 형식에 누락 된 내용이 필요하지 않습니다";
