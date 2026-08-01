@@ -46,7 +46,7 @@
 "<unknown>" = "<desconhecido>";
 "A contact was scanned through the QR code scanner" = "Um contato foi digitalizado através do leitor de QR Code";
 "Abort" = "Abortar";
-"Aborted recording audio" = "Aborted recording audio";
+"Aborted recording audio" = "Gravação de áudio abortada";
 "About" = "Sobre";
 "Accept incoming calls from strangers" = "Aceitar chamadas recebidas de desconhecidos";
 "Accept incoming messages from strangers" = "Aceitar recebimento de mensagens de desconhecidos";
@@ -313,7 +313,7 @@
 "Could fetch room config form for '%@': timeout" = "Não foi possível buscar o formulário de configuração da sala para '%@': tempo limite atingido";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Não foi possível aceder a câmara";
-"Could not access Finder item!" = "Could not access Finder item!";
+"Could not access Finder item!" = "Não foi possível aceder ao item do Finder!";
 "Could not change password" = "Não foi possível alterar palavra-passe";
 "Could not change password: your account is currently not connected" = "Não foi possível alterar a palavra-passe: a sua conta não está conectada no momento";
 "Could not change the password" = "Não foi possível alterar a palavra-passe";
@@ -511,16 +511,16 @@
 "Failed to download file: %@" = "Falha ao descarregar o ficheiro: %@";
 "Failed to enable carbons for account %@" = "Falha ao ativar carbonos para a conta %@";
 "Failed to encrypt file" = "Falha ao criptografar o ficheiro";
-"Failed to enter Group/Channel %@" = "Failed to enter Group/Channel %@";
-"Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Failed to enter Group/Channel %@: This is not a Group/Channel!";
+"Failed to enter Group/Channel %@" = "Falha ao entrar no grupo/canal %@";
+"Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Falha ao entrar no grupo/canal %@: este não é um grupo/canal!";
 "Failed to export the database, please check the logfile for errors and try again." = "Falha ao exportar o banco de dados, por favor verifique os erros no ficheiros de log e tente novamente.";
 "Failed to fetch download metadata: %@" = "Falha ao buscar metadados de descarga: %@";
 "Failed to fetch room config form for '%@'" = "Falha ao buscar o formulário de configuração da sala para '%@'";
-"Failed to load blocklist" = "Failed to load blocklist";
+"Failed to load blocklist" = "Falha ao carregar a lista de bloqueios";
 "Failed to moderate message in group/channel '%@'" = "Falha ao moderar mensagem no grupo/canal '%@'";
 "Failed to move uploaded file to file cache directory" = "Falha ao mover o ficheiro carregado para o diretório de cache de ficheiros";
 "Failed to parse URL returned by HTTP upload server" = "Falha ao analisar a URL retornada pelo servidor de upload HTTP";
-"Failed to publish avatar image for group/channel %@" = "Failed to publish avatar image for group/channel %@";
+"Failed to publish avatar image for group/channel %@" = "Falha ao publicar a imagem do avatar para o grupo/canal %@";
 "Failed to publish own avatar" = "Falha ao publicar o próprio avatar";
 "Failed to publish own nickname" = "Falha ao publicar o próprio apelido";
 "Failed to query for new messages for Group/Channel (catchup) %@" = "Não foi possível obter novas mensagens para o grupo/canal (sincronizar) %@";
@@ -532,7 +532,7 @@
 "Failed to save groupchat bookmarks" = "Falha ao gravar os favoritos do groupchat";
 "Failed to share file" = "Falha ao partilhar o ficheiro";
 "Failed to synchronize phonebook" = "Falha ao sincronizar a agenda";
-"Failed to upload file: account was removed" = "Failed to upload file: account was removed";
+"Failed to upload file: account was removed" = "Falha ao carregar o ficheiro: a conta foi removida";
 "Failed to write decrypted download into cache directory" = "Falha ao gravar a descarga descriptografada no diretório de cache";
 /* quicksy country */
 "Falkland Islands (Malvinas)" = "Ilhas Malvinas (Malvinas)";
@@ -590,8 +590,8 @@
 "Group subject:" = "Assunto do grupo:";
 "Group suddenly changed to public channel!" = "O grupo mudou subitamente para o canal público!";
 "Group/Channel description" = "Descrição do Grupo/Canal";
-"Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
-"Group/Channel not available anymore: %@" = "Group/Channel not available anymore: %@";
+"Group/Channel got destroyed: %@" = "Grupo/canal foi destruído: %@";
+"Group/Channel not available anymore: %@" = "O grupo/canal já não está disponível: %@";
 /* quicksy country */
 "Guadeloupe" = "Guadalupe";
 /* quicksy country */
@@ -734,7 +734,7 @@
 "Logfiles" = "Ficheiros de registo";
 "Logging in" = "A entrar";
 "Login" = "Entrar";
-"Login error, account disabled: %@" = "Login error, account disabled: %@";
+"Login error, account disabled: %@" = "Erro de início de sessão, conta desativada: %@";
 "Logs" = "Registos";
 /* quicksy country */
 "Luxembourg" = "Luxemburgo";
@@ -854,7 +854,7 @@
 "No OMEMO keys found" = "Não foram encontradas chaves OMEMO";
 "No pending constact requests" = "Nenhuma solicitação de contato pendente";
 "No search result." = "Nenhum resultado de pesquisa.";
-"No supported auth mechanism found, disabling account!" = "No supported auth mechanism found, disabling account!";
+"No supported auth mechanism found, disabling account!" = "Não foi encontrado nenhum mecanismo de autenticação suportado, a desativar a conta!";
 "No XMPP server!" = "Nenhum servidor XMPP!";
 "No, keep encryption activated" = "Não, manter a encriptação ativa";
 /* Crash reporting */
@@ -1057,7 +1057,7 @@
 "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Prova de erro do servidor SCRAM, ataque MITM em andamento altamente provável, abortando a autenticação e desativando a conta para limitar os danos. Deve tentar reativar a sua conta quando estiver num ambiente de rede limpo novamente.";
 /* mac only string */
 "Scroll down to load more messages" = "Role para baixo para carregar mais mensagens";
-"Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections.";
+"Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "Ligação segura de canal definida para TLS 1.3 e algumas ligações TLS 1.2.";
 "Security" = "Segurança";
 "Select a background to display behind conversations with %@" = "Selecione um background para exibir behind conversations with %@";
 "Select a default background to display behind conversations." = "Selecione um plano de fundo padrão para exibir behind conversations.";
@@ -1093,11 +1093,11 @@
 /* quicksy country */
 "Serbia" = "Sérvia";
 "Server" = "Servidor";
-"Server does not support account removal" = "Server does not support account removal";
-"Server for domain '%@' not responding!" = "Server for domain '%@' not responding!";
-"Server implementation error: SASL2 tasks empty, account disabled!" = "Server implementation error: SASL2 tasks empty, account disabled!";
+"Server does not support account removal" = "O servidor não suporta a remoção de contas";
+"Server for domain '%@' not responding!" = "O servidor do domínio '%@' não está a responder!";
+"Server implementation error: SASL2 tasks empty, account disabled!" = "Erro de implementação do servidor: tarefas SASL2 vazias, conta desativada!";
 "Server returned invalid xml!" = "Servidor retornou xml inválido!";
-"Server returned SASL2 error '%@'." = "Server returned SASL2 error '%@'.";
+"Server returned SASL2 error '%@'." = "O servidor devolveu o erro SASL2 '%@'.";
 "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "O servidor de repente não tem apoio para SASL2-SCRAM, ataque MITM em andamento é altamente provável, abortando a autenticação e desativando a conta para limitar os danos. Deve tentar reativar a sua conta quando estiver num ambiente de rede limpo novamente.";
 "Server: %@" = "Servidor: %@";
 "Set up account later" = "Configurar conta mais tarde";
@@ -1170,7 +1170,7 @@
 /* quicksy country */
 "Tanzania" = "Tanzânia";
 "Temporarily unavailable. Try again later." = "Temporariamente indisponível. Tente novamente mais tarde.";
-"Temporary failure to enter Group/Channel: %@" = "Temporary failure to enter Group/Channel: %@";
+"Temporary failure to enter Group/Channel: %@" = "Falha temporária ao entrar no grupo/canal: %@";
 "Terms of %@" = "Termos de %@";
 "Terms of use for %@" = "Termos de uso para %@";
 /* quicksy country */
@@ -1210,13 +1210,13 @@
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "Ocorreu um erro ao descriptografar esta mensagem criptografada (erro do Signal). Para resolver isto, tente enviar uma mensagem criptografada para esta pessoa.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "Ocorreu um erro ao descriptografar esta mensagem criptografada (erro do Signal). Para resolver isto, tente enviar uma mensagem criptografada para esta pessoa. (%@)";
 "These are important privacy settings you may want to review!" = "Estas são configurações de privacidade importantes que pode revisar!";
-"These are SRV resource records found for your domain." = "These are SRV resource records found for your domain.";
+"These are SRV resource records found for your domain." = "Estes são os registos de recursos SRV encontrados para o seu domínio.";
 "These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "Estes são serviços STUN e TURN anunciados pelo seu servidor (entradas azuis são usadas pelo Monal).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "Estes são os tipos de ligação de canal que o seu servidor suporta para detetar ataques na camada TLS (usado em azul, laranja não suportado por Monal).";
 "These are the modern XMPP capabilities Monal detected on your server after you have logged in." = "Estes são os recursos XMPP modernos que o Monal detetou no seu servidor depois que fez login.";
 "These are the MUC servers detected by Monal (blue entry used by Monal)." = "Estes são os servidores MUC detetados pelo Monal (entrada azul usada pelo Monal).";
 "These are the SASL2 methods your server supports (used one in blue, orange ones unsupported by Monal)." = "Estes são os métodos SASL2 que o seu servidor suporta (usado um em azul, laranja não suportado pelo Monal).";
-"These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "These are the TLS versions supported by Monal, the one used to connect to your server will be green.";
+"These are the TLS versions supported by Monal, the one used to connect to your server will be green." = "Estas são as versões do TLS suportadas pelo Monal. A versão utilizada para se ligar ao seu servidor será apresentada a verde.";
 "These are your encryption keys. Each device is a different place you have logged in. You should trust a key when you have verified it. Double tap onto a fingerprint to copy to clipboard." = "Estas são as suas chaves de criptografia. Cada dispositivo é um lugar diferente em que fez login. Deve confiar numa chave depois de verificá-la. Toque duas vezes numa impressão digital para copiar para a área de transferência.";
 "They will no longer see when you are online. They may not be able to access your encryption keys." = "Eles não verão mais quando estiver online. Eles podem não conseguir aceder as suas chaves de criptografia.";
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "Eles não verão mais quando estiver online. Eles podem não ser capazes de enviar mensagens criptografadas.";
@@ -1229,7 +1229,7 @@
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "Este contato não parece ter nenhum dispositivo que apoio criptografia, tente novamente mais tarde se achar que isto está errado.";
 "This contact is already in the contact list of the selected account" = "Este contato já está na lista de contatos da conta selecionada";
 "This contact is already in your contact list" = "Este contato já está na sua lista de contatos";
-"This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "This contact may not support OMEMO encrypted messages. Please try again in a few seconds.";
+"This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Este contacto pode não suportar mensagens encriptadas por OMEMO. Por favor, tente novamente dentro de alguns segundos.";
 "This contact may not support OMEMO encrypted messages. Please try to enable encryption again in a few seconds, if you think this is wrong." = "Este contato pode não suportar mensagens criptografadas OMEMO. Por favor, tente ativar a criptografia novamente em alguns segundos, se acha que isto está errado.";
 "This contact suddenly changed from an encrypted private group to an unencrypted public channel! Please contact the administrator of that group/channel if you think this is wrong." = "Este contacto mudou subitamente de um grupo privado encriptado para um canal público não encriptado! Contacte o administrador desse grupo/canal se considerar que isto está errado.";
 /* Crash report error dialog */
@@ -1248,17 +1248,17 @@
 "This message got retracted" = "Esta mensagem foi retirada";
 "This phone number is currently logged in with another device." = "Este número de telefone está atualmente conectado com outro dispositivo.";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Este servidor não parece suportar uploads de ficheiros HTTP (XEP-0363). Peça ao administrador para habilitá-lo.";
-"This server does not have any SRV records in DNS." = "This server does not have any SRV records in DNS.";
+"This server does not have any SRV records in DNS." = "Este servidor não possui nenhum registro SRV no DNS.";
 "This server does not provide any MUC servers." = "Este servidor não fornece nenhum servidor MUC.";
-"This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer.";
-"This server does not support modern SASL2 authentication." = "This server does not support modern SASL2 authentication.";
+"This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "Este servidor não suporta nenhuma ligação de canal moderna para proteção contra ataques MITM na camada TLS.";
+"This server does not support modern SASL2 authentication." = "Este servidor não suporta autenticação SASL2 moderna.";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "Este servidor não é adicionalmente protegido contra ataques man-in-the-middle na camada de criptografia TLS usando métodos de autenticação que são seguros contra tais ataques! Isto indica um ataque em andamento se o servidor deve suportar SASL2 e SCRAM e é inofensivo de outra forma. Use o menu avançado de criação de conta e ative a chave PLAIN se ainda quiser fazer login neste servidor.";
 "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "Este servidor não tem apoio para SASL2 e SCRAM, além de fortalecer a autenticação contra ataques man-in-the-middle na camada de criptografia TLS. Como este servidor está listado como compatível com https://github.com/monal-im/SCRAM_PreloadList (ou intencionalmente deixou o interruptor PLAIN desligado ao usar o menu avançado de criação de conta), um ataque MITM em andamento é muito provável! Tente novamente quando estiver num ambiente de rede limpo.";
 "This should never happen, please contact the developers and provide a logfile!" = "Isto não deveria ter acontecido, por favor contate os programadores e forneça um ficheiro de log!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "Esta especificação define semântica para usar o protocolo XMPP de publicação-assinatura para transmitir eventos de alteração de estado associados a uma conta de mensagens instantâneas e presença.";
-"This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";
+"This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "Esta especificação fornece uma forma de proteger os handshakes SASL e SASL2 contra downgrades de método e de ligação de canal.";
 "This will clear the whole chat history of this account from this device." = "Isto limpará todo o histórico de chat desta conta deste dispositivo.";
-"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though.";
+"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Isto irá eliminar esta conta e os dados associados do servidor e deste dispositivo. No entanto, os dados ainda poderão ser mantidos noutros dispositivos.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "Isto possibilitará chamadas mesmo que o seu servidor XMPP não forneça um servidor TURN.";
 "This will now send your current location to all participants in this chat." = "Isto irá agora enviar a sua localização atual para todos os participantes nesta conversa.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "Isto removerá a imagem do avatar atual e reverterá este grupo/canal para o padrão.";
@@ -1333,8 +1333,8 @@
 /* quicksy country */
 "United States Virgin Islands" = "Ilhas Virgens dos Estados Unidos";
 "unknown" = "desconhecido";
-"Unknown authentication method" = "Unknown authentication method";
-"Unknown channel-binding type" = "Unknown channel-binding type";
+"Unknown authentication method" = "Método de autenticação desconhecido";
+"Unknown channel-binding type" = "Tipo de ligação de canal desconhecido";
 "Unknown error!" = "Erro desconhecido!";
 "Unread Messages Below" = "Mensagens não lidas abaixo";
 "unsupported" = "sem apoio";
@@ -1361,7 +1361,7 @@
 /* placeholder when creating account */
 "Username" = "Nome de utilizador";
 "Username missing" = "Nome de utilizador ausente";
-"Uses TLS client certificates for authentication" = "Uses TLS client certificates for authentication";
+"Uses TLS client certificates for authentication" = "Usa certificados de cliente TLS para autenticação";
 "Using the ping button will reveal your JID(s) to our push servers!" = "A utilização do botão de ping irá revelar o(s) seu(s) JID(s) aos nossos servidores push!";
 /* quicksy country */
 "Uzbekistan" = "Uzbequistão";
@@ -1386,13 +1386,13 @@
 "Warning" = "Aviso";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "Não foi possível encontrar um QR-Code relacionado ao xmpp";
-"We don't support any task requested by the server, account disabled: %@" = "We don't support any task requested by the server, account disabled: %@";
-"We don't support the single task requested by the server, account disabled: %@" = "We don't support the single task requested by the server, account disabled: %@";
+"We don't support any task requested by the server, account disabled: %@" = "Não suportamos nenhuma funcionalidade solicitada pelo servidor, conta desativada: %@";
+"We don't support the single task requested by the server, account disabled: %@" = "Não suportamos a funcionalidade única solicitada pelo servidor, conta desativada: %@";
 "We sent you an SMS to %@" = "Enviamos um SMS para %@";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "Não foi possível conectar a sua conta. Verifique o seu nome de utilizador e palavra-passe e certifique-se de estar conectado à Internet.";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Não foi possível conectar a sua conta. Verifique o seu nome de utilizador e palavra-passe e certifique-se de estar conectado à internet.\n\nMensagem de erro técnico: %@";
 "We will check the number **%@**. Is this okay or do you want to change the number?" = "Vamos verificar o número **%@**. Está tudo bem ou quer mudar o número?";
-"Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs.";
+"Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "Tipo de associação de canal mais fraco, que não protege contra certificados/chaves roubados, mas deteta certificados emitidos incorretamente.";
 "Welcome" = "Bem-vindo";
 "Welcome to Monal !" = "Bem-vindo ao Monal !";
 "Welcome to Quicksy !" = "Bem-vindo ao Quicksy !";
@@ -1420,7 +1420,7 @@
 "XMPP Bind Error" = "Erro de ligação XMPP";
 "XMPP Capabilities" = "Capacidades XMPP";
 "XMPP Disco Info Error" = "Erro de informações da discoteca XMPP";
-"XMPP External Service Disco Error" = "XMPP External Service Disco Error";
+"XMPP External Service Disco Error" = "Erro de disco do serviço externo XMPP";
 "XMPP ID" = "ID XMPP";
 "XMPP ID missing" = "ID XMPP ausente";
 "XMPP mam preferences error" = "Erro de preferências de mam XMPP";
@@ -1435,7 +1435,7 @@
 /* quicksy country */
 "Yemen" = "Iêmen";
 "Yes" = "Sim";
-"Yes, deactivate encryption" = "Yes, deactivate encryption";
+"Yes, deactivate encryption" = "Sim, desativar a encriptação";
 "You are set up and connected." = "Está configurado e conectado.";
 "You are set up and connected. People can message you at: %@@%@" = "Está configurado e conectado. As pessoas podem enviar mensagens para: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "Está a tentar ligar para '%@' (%@), mas este contato pode ser contatado usando contas diferentes. Selecione a conta com a qual deseja fazer a chamada.";
@@ -1457,7 +1457,7 @@
 "You were granted voice in this channel." = "Foi-lhe concedida voz neste canal.";
 "You will no longer receive messages from this conversation" = "Não receberá mais mensagens desta conversa";
 "You will receive subsequent messages from this conversation" = "Receberá mensagens subsequentes desta conversa";
-"Your account must be enabled and connected, to be removed from the server!" = "Your account must be enabled and connected, to be removed from the server!";
+"Your account must be enabled and connected, to be removed from the server!" = "A sua conta tem de estar ativada e ligada para ser removida do servidor!";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "As suas contas foram desativadas, porque restaurou um backup do iCloud do Monal. Por favor, digite novamente as suas palavras-passe para ativá-las novamente.";
 "Your answer" = "A sua resposta";
 "Your contact may not support calls. Your call might never reach its destination." = "O seu contacto pode não oferecer apoio a chamadas. A sua chamada pode nunca chegar ao seu destino.";
