@@ -93,12 +93,12 @@
 "All messages are archived by default." = "Todas as mensagens são arquivadas por padrão.";
 "All messages fetched successfully, there are no more left on the server!" = "Todas mensagens carregadas com sucesso, não há mensagens pendentes no servidor!";
 "Allow BTBV-only participants in verified encrypted groups" = "Permitir participantes apenas com BTBV em grupos encriptados verificados";
-"Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc.";
+"Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Permitir chamadas que não sejam verificadas por OMEMO em conversas encriptadas por OMEMO.\nSe desativar esta opção, não poderá efetuar nem receber chamadas de/para contactos que não utilizem um cliente que implemente http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification.\nEsta opção deve ser desativada por membros de grupos de alto risco, como jornalistas, ativistas, etc.";
 "Allow contacts in your contact list to query your Monal and iOS versions." = "Permitir os seus contactos na sua lista consultar a sua versão do Monal e iOS.";
 "Allow contacts not in your contact list to call you." = "Permitir contatos não adicionados ligarem para si.";
 "Allow contacts not in your contact list to contact you." = "Permitir contatos não adicionados contatarem si.";
 "Allow MITM-prone PLAIN authentication" = "Permitir autenticação PLAIN suscetível a MITM (Man In The Middle)";
-"Allow unverified calls in encrypted chats" = "Allow unverified calls in encrypted chats";
+"Allow unverified calls in encrypted chats" = "Permitir chamadas não verificadas em conversas encriptadas";
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Permitir o seu dispositivo estabelecer uma conexão de rede direta com a parte remota. Isto poderá revelar o seu endereço IP para o chamador/recebedor.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Permitir alguém adicionar você como contato permite que a sua foto de perfil e a sua presença online sejam vistas.";
 "Already present" = "Já presente";
@@ -117,7 +117,7 @@
 "Anguilla" = "Anguilla";
 /* quicksy country */
 "Antigua and Barbuda" = "Antígua e Barbuda";
-"App" = "App";
+"App" = "Aplicação";
 "Appearance" = "Aparência";
 "Apple Push Service" = "Serviço de Notificação da Apple";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Serviço de notificação da Apple deve estar sempre ligado. Caso desligado, o seu aparelho não comunicará com os servidores da Apple.";
@@ -245,7 +245,7 @@
 /* quicksy country */
 "Cayman Islands" = "Ilhas Caimão";
 /* quicksy country */
-"Central African Rep." = "Rep. Centro-Africana";
+"Central African Rep." = "Rep. Centro-Africana.";
 /* quicksy country */
 "Chad" = "Chade";
 "Change affiliation" = "Trocar afiliação";
@@ -330,9 +330,9 @@
 /* QR-Code-Scanner */
 "Could not init video session" = "Não foi possível iniciar a sessão de vídeo";
 "Could not join group/channel '%@': timeout" = "Não foi possível entrar no grupo/canal '%@': tempo limite atingido";
-"Could not read captcha!" = "Could not read captcha!";
+"Could not read captcha!" = "Não foi possível ler o captcha!";
 "Could not register your username. Please check your code or change the username and try again." = "Não foi possível registar o seu nome de utilizador. Por favor verifique o seu código ou altere o nome de utilizador e tente novamente.";
-"Could not send" = "Could not send";
+"Could not send" = "Não foi possível enviar";
 "Could not upload file" = "Não foi possível enviar o ficheiro";
 "Country:" = "País:";
 /* Crash reporting */
@@ -355,7 +355,7 @@
 /* quicksy country */
 "Cyprus" = "Chipre";
 /* quicksy country */
-"Czech Rep." = "Rep. Tcheca";
+"Czech Rep." = "Rep. Checa.";
 "Database Export Failed" = "Exportação do Banco de Dados Falhou";
 "Database Files" = "Ficheiros do Banco de Dados";
 "Debug" = "Debug";
@@ -375,7 +375,7 @@
 "Dem. Rep. of the Congo" = "Rep. Dem. do Congo";
 /* quicksy country */
 "Denmark" = "Dinamarca";
-"Deny new contact" = "Deny new contact";
+"Deny new contact" = "Recusar novo contacto";
 "Destroy Channel" = "Destruir Canal";
 "Destroy Group" = "Destruir Grupo";
 "Destroying channel..." = "A destruir canal...";
@@ -390,8 +390,8 @@
 /* quicksy country */
 "Diego Garcia" = "Diego Garcia";
 "Disable Encryption" = "Desativar Criptografia";
-"Disable encryption. This is dangerous!" = "Disable encryption. This is dangerous!";
-"Disable encryption?" = "Disable encryption?";
+"Disable encryption. This is dangerous!" = "Desativar a encriptação. Isto é perigoso!";
+"Disable encryption?" = "Desativar a encriptação?";
 "Discovering devices..." = "A descobrir dispositivos...";
 "Display Name" = "Nome de Exibição";
 "Display Name And Message" = "Nome de Exibição e Mensagem";
@@ -404,7 +404,7 @@
 "Do you really want to delete this key?" = "Deseja realmente apagar esta chave?";
 "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "Deseja realmente destuir este canal? Cada membro será removido e o canal será destruído na sequência.";
 "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "Deseja realmente destruir este grupo? Cada membro será removido e o grupo será destruído na sequência.";
-"Do you really want to disable encryption for this contact?" = "Do you really want to disable encryption for this contact?";
+"Do you really want to disable encryption for this contact?" = "Tem a certeza de que pretende desativar a encriptação para este contacto?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "Deseja realmente reiniciar a sessão OMEMO? Deve fazer isto apenas se souber o que faz!";
 "Do you want to block this user from entering this group/channel?" = "Deseja bloquear a participação deste utilizador neste grupo/canal?";
 "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Deseja remover o utilizador deste canal? O utilizador será capaz de ingressar novamente se você não bloqueá-lo.";
@@ -414,7 +414,7 @@
 /* quicksy country */
 "Dominica" = "Dominica";
 /* quicksy country */
-"Dominican Rep." = "Rep. Dominicana";
+"Dominican Rep." = "Rep. Dominicana.";
 "Don't show onboarding" = "Não exibir o tour de apresentação";
 "Don't trust Key" = "Não confiar na chave";
 "Done" = "Finalizado";
@@ -478,7 +478,7 @@
 "Error inviting new participant!" = "Erro ao convidar novo participante!";
 "Error inviting user!" = "Erro ao convidar utilizador!";
 "Error registering push" = "Erro ao registar push";
-"Error Removing Account" = "Error Removing Account";
+"Error Removing Account" = "Erro ao remover a conta";
 "Error removing avatar!" = "Erro ao remover o avatar!";
 "Error removing user!" = "Erro ao remover o utilizador!";
 "Error requesting SMS!" = "Erro ao solicitar SMS!";
@@ -493,7 +493,7 @@
 /* quicksy country */
 "Ethiopia" = "Etiópia";
 "Even more to customize!" = "Ainda mais para personalizar!";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc.";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Todos os novos contactos terão a encriptação ativada, mas os contactos já conhecidos manterão as suas definições de encriptação.\nEm geral, isto nunca deve ser desativado por membros de grupos de alto risco, como jornalistas, ativistas, etc.";
 "Failed to block contact %@" = "Falha ao bloquear o contacto %@";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "Failed to change affiliation of '%@' in '%@' to '%@'";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "Failed to change affiliation of '%@' in '%@' to '%@': timeout";
@@ -530,7 +530,7 @@
 "Failed to remove bookmark for Group/Channel: %@" = "Falha ao remover o marcador para Grupo/Canal: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Falha ao gravar o favorito para Grupo/Canal: %@";
 "Failed to save groupchat bookmarks" = "Falha ao gravar os favoritos do groupchat";
-"Failed to share file" = "Failed to share file";
+"Failed to share file" = "Falha ao partilhar o ficheiro";
 "Failed to synchronize phonebook" = "Falha ao sincronizar a agenda";
 "Failed to upload file: account was removed" = "Failed to upload file: account was removed";
 "Failed to write decrypted download into cache directory" = "Falha ao gravar a descarga descriptografada no diretório de cache";
@@ -588,7 +588,7 @@
 /* placeholder when creating new group */
 "Group Name (optional)" = "Nome do Grupo (opcional)";
 "Group subject:" = "Assunto do grupo:";
-"Group suddenly changed to public channel!" = "Group suddenly changed to public channel!";
+"Group suddenly changed to public channel!" = "O grupo mudou subitamente para canal público!";
 "Group/Channel description" = "Descrição do Grupo/Canal";
 "Group/Channel got destroyed: %@" = "Group/Channel got destroyed: %@";
 "Group/Channel not available anymore: %@" = "Group/Channel not available anymore: %@";
@@ -619,7 +619,7 @@
 "Iceland" = "Islândia";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Se o Monal não puder exibir notificações, não verá alertas quando mensagens chegarem. Isto ocorre se clicou em 'Não Permitir' quando o Monal solicitou por permissão para notificações na sua primeira execução. Vá nas configurações do iOS -> Monal -> Notificações e selecione 'Permitir Notificações'.";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "Se esta opção estiver desligada o seu dispositivo não conseguiu ativar o push no seu servidor xmpp, certifique-se de ter configurado o suporte a XEP-0357 no seu servidor.";
-"If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc.";
+"If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "Se isto estiver desativado, não enviará mensagens encriptadas aos membros de um grupo que não tenham nenhum dispositivo explicitamente confiável, depois de ter confiado/desconfiado explicitamente de pelo menos um dispositivo de outro membro desse grupo.\nUtilize com cuidado, pois isto significa que terá de confiar explicitamente em pelo menos um dispositivo de todos os membros de um grupo depois de ter alterado manualmente o nível de confiança de um dispositivo de um membro desse grupo (mesmo que o tenha feito numa conversa 1:1 com um dos membros)!\nEm geral, isto só deve ser desativado por membros de grupos de alto risco, como jornalistas, ativistas, etc.";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "Se ativar esta opção, parou de estar seguro de ataques man-in-the-middle. Estes ataques permitem ao adversário manipular as suas mensagens recebidas e enviadas, adicionar a sua própria chave OMEMO, alterar pormenores da sua conta e até mesmo descobrir ou alterar a sua palavra-passe!\n\nDeveria migrar para outro servidor que ative esta opção.";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "Se deseja utilizar mensagens de áudio precisará permitir acesso em Configurações -> Privacidade -> Microfone.";
 "Image Upload JPEG-Quality: %@" = "Qualidade do JPEG para Imagens Enviadas: %@";
@@ -671,7 +671,7 @@
 "Just seen" = "Visto agora";
 /* quicksy country */
 "Kazakhstan" = "Cazaquistão";
-"Keep encryption enabled" = "Keep encryption enabled";
+"Keep encryption enabled" = "Manter a encriptação ativada";
 /* quicksy country */
 "Kenya" = "Quênia";
 "Keys of %@" = "Chaves de %@";
@@ -686,7 +686,7 @@
 /* quicksy country */
 "Kyrgyzstan" = "Quirguistão";
 /* quicksy country */
-"Lao P.D.R." = "República Democrática Popular do Laos";
+"Lao P.D.R." = "República Democrática Popular do Laos.";
 "Last incoming push: %@" = "Last incoming push: %@";
 "Last incoming push: unknown" = "Last incoming push: unknown";
 "Last seen: %@" = "Visto por último: %@";
@@ -731,11 +731,11 @@
 "Loading OMEMO keys" = "A carregar chaves OMEMO";
 "Location Access Needed" = "Acesso à localização requerido";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Entre na sua conta existente ou registe uma nova conta. Se for necessário, encontrará opções avançadas nas configurações do Monal.";
-"Logfiles" = "Ficheiros de log";
+"Logfiles" = "Ficheiros de registo";
 "Logging in" = "A entrar";
 "Login" = "Entrar";
 "Login error, account disabled: %@" = "Login error, account disabled: %@";
-"Logs" = "Ficheiros de log";
+"Logs" = "Registos";
 /* quicksy country */
 "Luxembourg" = "Luxemburgo";
 /* quicksy country */
