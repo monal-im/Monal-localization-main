@@ -1,10 +1,10 @@
 " (offline)" = " (offline)";
 /* server details */
-" running on %@" = " running on %@";
-"%02d:%02d (long press to abort)" = "%02d:%02d (long press to abort)";
+" running on %@" = " rulează pe %@";
+"%02d:%02d (long press to abort)" = "%02d:%02d (apăsați lung pentru a anula)";
 "%@" = "%@";
 "%@ (%@)" = "%@ (%@)";
-"%@ (affiliation: %@)" = "%@ (affiliation: %@)";
+"%@ (affiliation: %@)" = "%@ (afiliere: %@)";
 "%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
 "%@ hours" = "%@ hours";
 "%@ says:" = "%@ spune:";
@@ -46,8 +46,8 @@
 /* muc affiliation */
 "<unknown>" = "<unknown>";
 "A contact was scanned through the QR code scanner" = "A contact was scanned through the QR code scanner";
-"Abort" = "Abort";
-"Aborted recording audio" = "Aborted recording audio";
+"Abort" = "Anulare";
+"Aborted recording audio" = "Înregistrarea audio a fost anulată";
 "About" = "Despre";
 "Accept incoming calls from strangers" = "Accept incoming calls from strangers";
 "Accept incoming messages from strangers" = "Accept incoming messages from strangers";
@@ -316,7 +316,7 @@
 "Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Nu s-a putut accesa camera";
-"Could not access Finder item!" = "Could not access Finder item!";
+"Could not access Finder item!" = "Nu s-a putut accesa elementul din Finder!";
 "Could not change password" = "Nu s-a putut schimba parola";
 "Could not change password: your account is currently not connected" = "Could not change password: your account is currently not connected";
 "Could not change the password" = "Nu s-a putut schimba parola";
@@ -335,7 +335,7 @@
 "Could not join group/channel '%@': timeout" = "Could not join group/channel '%@': timeout";
 "Could not read captcha!" = "Could not read captcha!";
 "Could not register your username. Please check your code or change the username and try again." = "Nu s-a putut înregistra contul cu numele dumneavoastră de utilizator. Verificați codul sau schimbați numele de utilizator și încercați din nou.";
-"Could not send" = "Could not send";
+"Could not send" = "Nu s-a putut trimite";
 "Could not upload file" = "Nu s-a putut încărca fișierul";
 "Country:" = "Country:";
 /* Crash reporting */
@@ -481,7 +481,7 @@
 "Error inviting new participant!" = "Error inviting new participant!";
 "Error inviting user!" = "Error inviting user!";
 "Error registering push" = "Eroare la înregistrarea push";
-"Error Removing Account" = "Error Removing Account";
+"Error Removing Account" = "Eroare la eliminarea contului";
 "Error removing avatar!" = "Error removing avatar!";
 "Error removing user!" = "Error removing user!";
 "Error requesting SMS!" = "Error requesting SMS!";
@@ -800,8 +800,8 @@
 "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key.";
 /* Camera permissions missing warning */
 "Monal is not allowed to access the camera" = "Monal nu are voie să acceseze camera";
-"Monal was not able to send your attachment!" = "Monal was not able to send your attachment!";
-"Monal was not able to send your attachment: %@" = "Monal was not able to send your attachment: %@";
+"Monal was not able to send your attachment!" = "Monal nu a putut trimite atașamentul dvs.!";
+"Monal was not able to send your attachment: %@" = "Monal nu a putut trimite atașamentul dvs.: %@";
 /* quicksy country */
 "Mongolia" = "Mongolia";
 /* quicksy country */
@@ -1007,7 +1007,7 @@
 "Registration Error" = "Registration Error";
 "Remove %@ from contacts?" = "Eliminați pe %@ din persoane de contact?";
 "Remove %@?" = "Remove %@?";
-"Remove Account from this Device" = "Remove Account from this Device";
+"Remove Account from this Device" = "Eliminați contul de pe acest dispozitiv";
 "Remove Background Image" = "Remove Background Image";
 "Remove Channel Avatar" = "Remove Channel Avatar";
 "Remove Contact" = "Eliminare persoană de contact";
@@ -1102,7 +1102,7 @@
 /* quicksy country */
 "Serbia" = "Serbia";
 "Server" = "Server";
-"Server does not support account removal" = "Server does not support account removal";
+"Server does not support account removal" = "Serverul nu acceptă eliminarea contului";
 "Server for domain '%@' not responding!" = "Server for domain '%@' not responding!";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Server implementation error: SASL2 tasks empty, account disabled!";
 "Server returned invalid xml!" = "Serverul a returnat XML nevalid!";
@@ -1187,7 +1187,7 @@
 /* quicksy country */
 "Thailand" = "Thailand";
 "The account has been deleted" = "Contul a fost șters";
-"The account has been removed" = "The account has been removed";
+"The account has been removed" = "Contul a fost eliminat";
 "The account has been saved" = "Contul a fost salvat";
 /* Crash reporting */
 "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!";
@@ -1235,7 +1235,7 @@
 "This account already exists in Monal." = "Acest cont există deja în Monal.";
 "This account already exists on this instance" = "Acest cont există deja în această instanță";
 "This account already exists on this instance." = "This account already exists on this instance.";
-"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!";
+"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Această aplicație este prea veche și poate conține vulnerabilități de securitate, precum și să înceteze brusc să funcționeze. Vă rugăm să o actualizați!";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong.";
 "This contact is already in the contact list of the selected account" = "This contact is already in the contact list of the selected account";
@@ -1265,11 +1265,11 @@
 "This server does not support modern SASL2 authentication." = "This server does not support modern SASL2 authentication.";
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server.";
 "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment.";
-"This should never happen, please contact the developers and provide a logfile!" = "This should never happen, please contact the developers and provide a logfile!";
+"This should never happen, please contact the developers and provide a logfile!" = "Acest lucru nu ar trebui să se întâmple niciodată, vă rugăm să contactați dezvoltatorii și să furnizați un fișier jurnal!";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";
 "This will clear the whole chat history of this account from this device." = "Aceasta va șterge întregul istoric al discuțiilor acestui cont de pe acest dispozitiv.";
-"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though.";
+"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Aceasta va șterge acest cont și datele asociate de pe server și de pe acest dispozitiv. Este posibil ca datele să fie păstrate în continuare pe alte dispozitive.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
 "This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
@@ -1325,9 +1325,9 @@
 "Unblock Contact" = "Unblock Contact";
 "Unblocking user" = "Unblocking user";
 "Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
-"Unclean appex shutown" = "Unclean appex shutown";
+"Unclean appex shutown" = "Oprire necorespunzătoare a appex";
 "Understood" = "Understood";
-"Unexpected appex expiration" = "Unexpected appex expiration";
+"Unexpected appex expiration" = "Expirare neașteptată a appex";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
 "Unexpected error processing your request." = "Unexpected error processing your request.";
 "Unexpected error while checking type of jid, please try again" = "Unexpected error while checking type of jid, please try again";
@@ -1386,7 +1386,7 @@
 "Version" = "Versiune";
 /* server details */
 "version %@%@" = "version %1$@%2$@";
-"Very old app version" = "Very old app version";
+"Very old app version" = "Versiune foarte veche a aplicației";
 /* quicksy country */
 "Viet Nam" = "Viet Nam";
 /* muc affiliation */
@@ -1417,7 +1417,7 @@
 "XEP-0163 Personal Eventing Protocol" = "XEP-0163 Protocol personal de evenimente";
 "XEP-0191: Blocking Command" = "XEP-0191: Comandă de blocare";
 "XEP-0198: Stream Management" = "XEP-0198: Management flux";
-"XEP-0199: XMPP Ping" = "XEP-0199: XMPP Ping";
+"XEP-0199: XMPP Ping" = "XEP-0199: Ping XMPP";
 "XEP-0215: External Service Discovery" = "XEP-0215: External Service Discovery";
 "XEP-0237: Roster Versioning" = "XEP-0237: Versiunea listei de contacte";
 "XEP-0280: Message Carbons" = "XEP-0280: Copii indigo mesaje";
@@ -1461,14 +1461,14 @@
 "You have not entered your XMPP ID yet" = "Nu ați introdus încă adresa XMPP";
 "You need friends for this ride" = "Aveți nevoie de prieteni pentru această plimbare";
 "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you." = "You need to grant microphone access in iOS Settings-> Privacy-> Microphone, if you want that others can hear you.";
-"You need to unlock your device once after boot to receive messages!" = "You need to unlock your device once after boot to receive messages!";
+"You need to unlock your device once after boot to receive messages!" = "Trebuie să deblocați dispozitivul o dată după pornire pentru a primi mesaje!";
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "You restored an iCloud backup of Monal, please open the app to reenable this account.";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard.";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "You tried to call contact '%@' but this contact could not be found in your contact list.";
 "You were granted voice in this channel." = "You were granted voice in this channel.";
 "You will no longer receive messages from this conversation" = "You will no longer receive messages from this conversation";
 "You will receive subsequent messages from this conversation" = "Veți primi mesaje ulterioare din această conversație";
-"Your account must be enabled and connected, to be removed from the server!" = "Your account must be enabled and connected, to be removed from the server!";
+"Your account must be enabled and connected, to be removed from the server!" = "Contul dvs. trebuie să fie activat și conectat pentru a putea fi eliminat de pe server!";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again.";
 "Your answer" = "Răspunsul dumneavoastră";
 "Your contact may not support calls. Your call might never reach its destination." = "Your contact may not support calls. Your call might never reach its destination.";
