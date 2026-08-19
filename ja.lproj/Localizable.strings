@@ -57,11 +57,11 @@
 "Account %@" = "アカウント %@";
 "Account (%@)" = "アカウント (%@)";
 "Account (new)" = "アカウント (新規)";
-"Account already configured in Monal!" = "アカウントはすでに Monal に設定されています。";
-"Account already configured!" = "アカウントは既に設定されています。";
+"Account already configured in Monal!" = "アカウントはすでにMonalに設定されています！";
+"Account already configured!" = "アカウントはすでに設定されています！";
 "Account disabled" = "アカウントは無効になりました";
 "Account Exists" = "アカウントは存在しています";
-"Account Picker" = "Account Picker";
+"Account Picker" = "アカウント選択";
 "Account: %@" = "アカウント: %@";
 "Activity indications" = "Activity indications";
 "Add" = "追加";
@@ -93,7 +93,7 @@
 /* quicksy country */
 "Algeria" = "Algeria";
 "All messages are archived by default." = "デフォルトですべてのメッセージは保管されます。";
-"All messages fetched successfully, there are no more left on the server!" = "すべてのメッセージを正常に取得しました。サーバーにはもう残っていません。";
+"All messages fetched successfully, there are no more left on the server!" = "すべてのメッセージを正常に取得しました。サーバーにはもう残っているメッセージはありません！";
 "Allow BTBV-only participants in verified encrypted groups" = "Allow BTBV-only participants in verified encrypted groups";
 "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc.";
 "Allow contacts in your contact list to query your Monal and iOS versions." = "相手先一覧内の相手先に Monal および iOS のバージョンの照会を許可します。";
@@ -105,7 +105,7 @@
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "あなたを相手先として追加することを誰かに許可すると、その人はあなたのプロフィール画像や在席状況を見ることができます。";
 "Already present" = "すでに存在します";
 "Already uploading this content, ignoring" = "この内容はすでにアップロードされています。無視します";
-"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "さらに注意: サーバーから古い履歴を取ってくることはできません。Monal はそれを取得した後すぐに削除します。";
+"Also beware: You won't be able to load older history from your server, Monal will immediately delete it after fetching it!" = "また、次の点にもご注意ください：サーバーから過去の履歴を読み込むことはできなくなります。Monalは取得後、直ちにサーバーから削除します！";
 "Always archive" = "常に保管";
 "Always use direct TLS, not STARTTLS" = "STARTTLS ではなく常に direct TLS を使う";
 /* quicksy country */
@@ -124,7 +124,7 @@
 "Apple Push Service" = "Apple プッシュ通知サービス";
 "Apple push service should always be on. If it is off, your device can not talk to Apple's server." = "Apple プッシュ通知サービスは常にオンになっている必要があります。オフの場合、デバイスは Apple のサーバーと通信できません。";
 "Apple Push Token" = "Apple プッシュのトークン";
-"Apple Push Token is not available!" = "Apple プッシュのトークンは有効ではありません。";
+"Apple Push Token is not available!" = "Apple Push Tokenを利用できません！";
 "Approve new contact" = "新しい相手先を承認";
 "Archive chat" = "会話を保管";
 "Archive Conversation" = "Archive Conversation";
@@ -165,7 +165,7 @@
 "Bangladesh" = "Bangladesh";
 /* quicksy country */
 "Barbados" = "Barbados";
-"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "注意: メッセージは受信プッシュ時またはアプリを開いた場合にのみ削除されます。これは特に、時間間隔が短い場合に当てはまります。";
+"Be warned: Message will only be deleted on incoming pushes or if you open the app! This is especially true for shorter time intervals!" = "ご注意ください：メッセージが削除されるのは、受信プッシュ通知が届いたとき、またはアプリを開いたときだけです！特に短い時間間隔を設定している場合は、この点にご注意ください！";
 "Become part of a worldwide decentralized chat network!" = "Become part of a worldwide decentralized chat network!";
 /* quicksy country */
 "Belarus" = "Belarus";
@@ -193,7 +193,7 @@
 /* quicksy country */
 "Bolivia (Plurinational State of)" = "ボリビア多民族国";
 /* quicksy country */
-"Bonaire, Sint Eustatius and Saba" = "Bonaire, Sint Eustatius and Saba";
+"Bonaire, Sint Eustatius and Saba" = "ボネール、シント・ユースタティウスおよびサバ";
 /* quicksy country */
 "Bosnia and Herzegovina" = "Bosnia and Herzegovina";
 /* quicksy country */
@@ -333,7 +333,7 @@
 /* QR-Code-Scanner */
 "Could not init video session" = "Could not init video session";
 "Could not join group/channel '%@': timeout" = "グループ/チャンネル '%@' に参加できませんでした: 時間切れ";
-"Could not read captcha!" = "CAPTCHA を読めませんでした";
+"Could not read captcha!" = "captchaを読み取れませんでした！";
 "Could not register your username. Please check your code or change the username and try again." = "ユーザー名を登録できませんでした。コードを確認するかユーザー名を変更して、もう一度お試しください。";
 "Could not send" = "送信できませんでした";
 "Could not upload file" = "ファイルをアップロードできませんでした";
@@ -408,7 +408,7 @@
 "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "本当にこのチャンネルを閉鎖しますか? すべてのメンバーは蹴り出されその後に閉鎖されます。";
 "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "本当にこのグループを閉鎖しますか? すべてのメンバーは蹴り出されその後に閉鎖されます。";
 "Do you really want to disable encryption for this contact?" = "本当にこの相手先に対して暗号化を無効化してもいいですか ?";
-"Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "本当に OMEMO セッションをリセットしますか ? 接続をリセットするのは、自分が何をしているのかわかっている場合にのみにしてください。";
+"Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "本当にomemoセッションをリセットしますか？何をしているのか理解している場合にのみ、接続をリセットしてください！";
 "Do you want to block this user from entering this group/channel?" = "Do you want to block this user from entering this group/channel?";
 "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them.";
 "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group.";
@@ -427,8 +427,8 @@
 "Download Settings" = "ダウンロード設定";
 "Draft:" = "下書き:";
 "Duplicate Account" = "重複アカウント";
-"Duplicate Account!" = "アカウントが重複しています。";
-"Duplicate jid!" = "JID が重複しています。";
+"Duplicate Account!" = "アカウントが重複しています！";
+"Duplicate jid!" = "jidが重複しています！";
 /* Crash report error dialog */
 "E-Mail not enabled on device" = "デバイスで E-Mail が有効ではありません";
 /* quicksy country */
@@ -443,7 +443,7 @@
 /* Crash report error dialog */
 "Email Error" = "電子メールのエラー";
 "Email Support" = "電子メールでのサポート";
-"Empty Values!" = "値が空です。";
+"Empty Values!" = "値が空です！";
 "Enable" = "有効化";
 "Enable encryption by default for new chats" = "新しい会話はデフォルトで暗号化";
 "Enabled" = "有効";
@@ -469,8 +469,8 @@
 "Error changing avatar!" = "Error changing avatar!";
 "Error creating group!" = "Error creating group!";
 "Error decrypting message" = "メッセージ復号のエラー";
-"Error destroying group!" = "グループ閉鎖中のエラー";
-"Error entering group/channel!" = "グループ/チャンネルに入る際のエラー";
+"Error destroying group!" = "グループの削除中にエラーが発生しました！";
+"Error entering group/channel!" = "グループ／チャンネルへの参加中にエラーが発生しました！";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error handling SASL challenge of server (iteration count too low), disconnecting!";
 /* parenthesis should be verbatim */
@@ -488,8 +488,8 @@
 "Error unblocking user!" = "Error unblocking user!";
 "Error while decrypting: iv.length != 12" = "Error while decrypting: iv.length != 12";
 "Error: %@" = "エラー: %@";
-"Error: Account disabled, can not display keys!" = "エラー: アカウントが無効です。鍵を表示できません。";
-"Error: No contacts to display keys for!" = "エラー: 鍵を表示する相手先がありません。";
+"Error: Account disabled, can not display keys!" = "エラー：アカウントが無効になっているため、鍵を表示できません！";
+"Error: No contacts to display keys for!" = "エラー：鍵を表示する連絡先がありません！";
 "Error: Received OMEMO message is empty" = "エラー: 受信した OMEMO メッセージは空です";
 /* quicksy country */
 "Estonia" = "Estonia";
@@ -515,7 +515,7 @@
 "Failed to enable carbons for account %@" = "Failed to enable carbons for account %@";
 "Failed to encrypt file" = "ファイルの暗号化に失敗しました";
 "Failed to enter Group/Channel %@" = "グループ/チャンネル %@ への参加に失敗しました";
-"Failed to enter Group/Channel %@: This is not a Group/Channel!" = "グループ/チャンネル %@ への参加に失敗しました: これはグループ/チャンネルではありません。";
+"Failed to enter Group/Channel %@: This is not a Group/Channel!" = "グループ／チャンネル%@への参加に失敗しました：これはグループ／チャンネルではありません！";
 "Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
 "Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
 "Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
@@ -635,14 +635,14 @@
 "Input" = "入力";
 "Input is not a valid jid" = "正しい JID ではありません";
 "Interactions" = "受付";
-"Invalid Credentials!" = "認証情報が正しくありません。";
+"Invalid Credentials!" = "認証情報が無効です！";
 /* QR-Code-Scanner: invalid format */
 "Invalid format" = "形式が正しくありません";
 "Invalid image file!" = "Invalid image file!";
-"Invalid Password!" = "パスワードが正しくありません。";
+"Invalid Password!" = "パスワードが無効です！";
 "Invalid State" = "状況が正しくありません";
 "Invalid user input." = "Invalid user input.";
-"Invalid Username!" = "ユーザー名が正しくありません。";
+"Invalid Username!" = "ユーザー名が無効です！";
 "Invitation for %@ created" = "%@ の招待を作成しました";
 /* muc invite */
 "Invite again" = "Invite again";
@@ -794,13 +794,13 @@
 "Monaco" = "Monaco";
 "Monal" = "Monal";
 "Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key." = "Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key.";
-"Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal は現在この鍵を信頼していますが、指紋はまだ比較されていません。セキュリティを強化するため、この鍵を信頼する前に、表示された指紋が一致することを相手先に確認してください。";
+"Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monalは現在この鍵を信頼していますが、フィンガープリントはまだ照合されていません。セキュリティを高めるため、この鍵を信頼する前に、表示されたフィンガープリントが一致していることを相手に確認してください！";
 "Monal did not received a gps location. Please try again later." = "Monal は GPS 位置情報を受け取ることができませんでした。後でもう一度試してください。";
 "Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal は位置情報にアクセスできません。デバイスのプライバシー設定で、位置情報へのアクセスを更新してください。";
 "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monalはこの鍵を信頼していません。手動で無効にされたか、(その相手先の他の鍵は検証されているのにこの鍵は)手動で検証されなかったかのどちらかです。トグルスイッチでこの鍵を信頼とすることができます。その前に、相手先と指紋が一致していることを確認してください。";
 /* Camera permissions missing warning */
 "Monal is not allowed to access the camera" = "Monal はカメラにアクセスする権限がありません";
-"Monal was not able to send your attachment!" = "Monal は添付ファイルを送信できませんでした。";
+"Monal was not able to send your attachment!" = "Monalは添付ファイルを送信できませんでした！";
 "Monal was not able to send your attachment: %@" = "Monal は添付ファイルを送信できませんでした: %@";
 /* quicksy country */
 "Mongolia" = "Mongolia";
@@ -846,20 +846,20 @@
 /* quicksy country */
 "Niue" = "Niue";
 "No" = "いいえ";
-"No account available to handel 'xmpp:' URI!" = "「xmpp:」 URI を扱えるアカウントがありません。";
+"No account available to handel 'xmpp:' URI!" = "「xmpp:」URIを処理できるアカウントがありません！";
 "No accounts set up currently" = "現在、設定されているアカウントはありません";
 "No active conversations" = "No active conversations";
 "No connected accounts" = "接続済のアカウントはありません";
-"No contacts to show :(" = "表示するアカウントはありません。";
-"No Empty Values!" = "値が足りません。";
+"No contacts to show :(" = "表示する連絡先がありません :(";
+"No Empty Values!" = "空の値は使用できません！";
 "No enabled account found" = "有効なアカウントは見つかりませんでした";
 "No further error description" = "これ以上のエラーの説明はありません";
 "No GPS location received" = "GPS 位置情報を受け取れませんでした";
 "No OMEMO keys found" = "OMEMO 鍵が見つかりません";
 "No pending constact requests" = "No pending constact requests";
 "No search result." = "検索結果がありません。";
-"No supported auth mechanism found, disabling account!" = "対応している認証メカニズムが見つかりません。アカウントを無効にします。";
-"No XMPP server!" = "XMPP サーバーがありません。";
+"No supported auth mechanism found, disabling account!" = "サポートされている認証方式が見つからないため、アカウントを無効にします！";
+"No XMPP server!" = "XMPPサーバーがありません！";
 "No, keep encryption activated" = "いいえ、暗号化を有効のままにします";
 /* Crash reporting */
 "No, thanks" = "いいえ、遠慮します";
@@ -929,7 +929,7 @@
 "Password (repeated)" = "パスワード (繰り返し)";
 "Password cannot be empty" = "パスワードは空にできません";
 "Password missing" = "パスワードがありません";
-"Passwords don't match!" = "パスワードが一致しません。";
+"Passwords don't match!" = "パスワードが一致しません！";
 "Permission Requested" = "権限が要求されました";
 /* quicksy country */
 "Peru" = "Peru";
@@ -1103,9 +1103,9 @@
 "Serbia" = "Serbia";
 "Server" = "サーバー";
 "Server does not support account removal" = "サーバーはアカウント除去に対応していません";
-"Server for domain '%@' not responding!" = "ドメイン '%@' のサーバーが応答しません。";
+"Server for domain '%@' not responding!" = "ドメイン「%@」のサーバーが応答していません！";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Server implementation error: SASL2 tasks empty, account disabled!";
-"Server returned invalid xml!" = "サーバーは正しくない XML を返しました。";
+"Server returned invalid xml!" = "サーバーから無効なxmlが返されました！";
 "Server returned SASL2 error '%@'." = "サーバーは SASL2 エラー '%@' を返しました。";
 "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
 "Server: %@" = "サーバー: %@";
@@ -1150,16 +1150,16 @@
 "Status message:" = "状況メッセージ:";
 "Submit A Bug" = "バグを報告";
 "Success" = "成功";
-"Success!" = "成功しました";
+"Success!" = "成功しました！";
 "Successful" = "Successful";
 "Successfully destroyed channel." = "チャンネルを正常に閉鎖しました。";
 "Successfully destroyed group." = "グループを正常に閉鎖しました。";
-"Successfully joined group/channel %@!" = "グループ/チャンネル %@ に正常に参加しました。";
+"Successfully joined group/channel %@!" = "グループ／チャンネル%@への参加に成功しました！";
 /* quicksy country */
 "Sudan" = "Sudan";
 "Support" = "サポート";
 /* Crash reporting */
-"Sure, send it!" = "はい、送ってください。";
+"Sure, send it!" = "はい、送信します！";
 /* quicksy country */
 "Suriname" = "Suriname";
 /* quicksy country */
@@ -1190,7 +1190,7 @@
 "The account has been removed" = "アカウントは除去されました";
 "The account has been saved" = "アカウントは保存されました";
 /* Crash reporting */
-"The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "前回の起動中にアプリがクラッシュしました。クラッシュ報告を送信しますか ? このクラッシュ報告にはプライバシーに関するのデータが含まれます。これはクラッシュのデバッグにのみ使用され、その後は削除されます。";
+"The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "アプリは前回の起動時にクラッシュしました。クラッシュレポートを送信しますか？このクラッシュレポートにはプライバシーに関わるデータが含まれます。クラッシュの原因を特定するためにのみ使用し、その後削除します！";
 "The chat history has been cleared" = "会話履歴は消去されました";
 "The connection to the server was interrupted and no old messages could be fetched for this chat. Please try again later." = "サーバーへの接続が中断されたため、この会話の古いメッセージを取得できませんでした。後でもう一度試してください。";
 "The current password is not correct." = "現在のパスワードは正しくありません。";
@@ -1220,7 +1220,7 @@
 "There was a SASL error on the server." = "サーバーに SASL エラーがありました。";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "この暗号化されたメッセージの復号中にエラーが発生しました (シグナル エラー)。これを解決するには、この人に暗号化されたメッセージを送信してみてください。";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "この暗号化されたメッセージの復号中にエラーが発生しました (シグナル エラー)。これを解決するには、この人に暗号化されたメッセージを送信してみてください。 (%@)";
-"These are important privacy settings you may want to review!" = "これらは重要なプライバシー設定なので、再確認してください。";
+"These are important privacy settings you may want to review!" = "これらは、確認しておくことをおすすめする重要なプライバシー設定です！";
 "These are SRV resource records found for your domain." = "これらは、ドメインに見つかった SRV リソースレコードです。";
 "These are STUN and TURN services announced by your server (blue entries are used by Monal)." = "これらは、サーバーで広告されている STUN と TURN のサービスです(青色の欄は Monal で使用されます).";
 "These are the channel-binding types your server supports to detect attacks on the TLS layer (used one in blue, orange ones unsupported by Monal)." = "これらは、TLS 層に対する攻撃を検出するためにサーバーが対応しているチャネルバインディングのタイプです (青色の欄は使用されるもの、オレンジ色の欄は Monal では非対応です)。";
@@ -1248,7 +1248,7 @@
 "This invitation will expire on %@" = "この招待は %@ に期限切れになります";
 "This is an embedded file that can not be opened externally." = "This is an embedded file that can not be opened externally.";
 "This is the software running on your server." = "これはサーバーで実行されているソフトウェアです。";
-"This key belongs to this device and cannot be removed or disabled!" = "この鍵はこのデバイスに属しており、除去したり無効にしたりすることはできません。";
+"This key belongs to this device and cannot be removed or disabled!" = "この鍵はこのデバイスに属しているため、削除または無効化することはできません！";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "この鍵は信頼されており、手動で指紋を比較することにより検証されています。この鍵の信頼を止めるには、トグルスイッチを使用します。";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "この鍵は信頼されていますが、相手先はすでにこれを使用していません。この鍵の信頼を無効にすることを検討してください。";
 "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key.";
@@ -1321,7 +1321,7 @@
 "Uganda" = "Uganda";
 /* quicksy country */
 "Ukraine" = "Ukraine";
-"Unable to connect to server!" = "サーバーに接続できません。";
+"Unable to connect to server!" = "サーバーに接続できません！";
 "Unblock Contact" = "相手先をブロック解除";
 "Unblocking user" = "Unblocking user";
 "Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
@@ -1346,7 +1346,7 @@
 "unknown" = "不明";
 "Unknown authentication method" = "不明な認証方法";
 "Unknown channel-binding type" = "不明なチャネルバインディングのタイプ";
-"Unknown error!" = "不明なエラー";
+"Unknown error!" = "不明なエラーです！";
 "Unread Messages Below" = "以下の未読メッセージ";
 "unsupported" = "非対応";
 /* OMEMO warning shown inside chat view */
@@ -1405,8 +1405,8 @@
 "We will check the number **%@**. Is this okay or do you want to change the number?" = "We will check the number **%@**. Is this okay or do you want to change the number?";
 "Weakest channel-binding type, not securing against stolen certs/keys, but detects wrongly issued certs." = "最も弱いチャネルバインディングのタイプ。盗難された証明書/鍵に対しては安全ではありませんが、誤って発行された証明書は検出されます。";
 "Welcome" = "ようこそ";
-"Welcome to Monal !" = "Monal へようこそ";
-"Welcome to Quicksy !" = "Quicksy へようこそ";
+"Welcome to Monal !" = "Monalへようこそ！";
+"Welcome to Quicksy !" = "Quicksyへようこそ！";
 "What call do you want to place?" = "どのような通話をしたいですか ?";
 "When disabled, URLs will opened in your default browser (that might not be Safari)." = "無効にすると、URL はデフォルトのブラウザ (Safari ではない可能性があります) で開かれます。";
 "When you start a conversation\nwith someone, they will\nshow up here." = "When you start a conversation\nwith someone, they will\nshow up here.";
@@ -1414,19 +1414,19 @@
 /* QR-Code-Scanner: account scan wrong menu
    QR-Code-Scanner: jid scan wrong menu */
 "Wrong menu" = "Wrong menu";
-"XEP-0163 Personal Eventing Protocol" = "XEP-0163 Personal Eventing Protocol";
-"XEP-0191: Blocking Command" = "XEP-0191: Blocking Command";
-"XEP-0198: Stream Management" = "XEP-0198: Stream Management";
-"XEP-0199: XMPP Ping" = "XEP-0199: XMPP Ping";
-"XEP-0215: External Service Discovery" = "XEP-0215: External Service Discovery";
-"XEP-0237: Roster Versioning" = "XEP-0237: Roster Versioning";
-"XEP-0280: Message Carbons" = "XEP-0280: Message Carbons";
-"XEP-0313: Message Archive Management" = "XEP-0313: Message Archive Management";
-"XEP-0352: Client State Indication" = "XEP-0352: Client State Indication";
-"XEP-0357: Push Notifications" = "XEP-0357: Push Notifications";
-"XEP-0363: HTTP File Upload" = "XEP-0363: HTTP File Upload";
-"XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379: Pre-Authenticated Roster Subscription";
-"XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474: SASL SCRAM Downgrade Protection";
+"XEP-0163 Personal Eventing Protocol" = "XEP-0163 パーソナルイベントプロトコル";
+"XEP-0191: Blocking Command" = "XEP-0191：ブロッキングコマンド";
+"XEP-0198: Stream Management" = "XEP-0198：ストリーム管理";
+"XEP-0199: XMPP Ping" = "XEP-0199：XMPP Ping";
+"XEP-0215: External Service Discovery" = "XEP-0215：外部サービスディスカバリー";
+"XEP-0237: Roster Versioning" = "XEP-0237：ロスターのバージョン管理";
+"XEP-0280: Message Carbons" = "XEP-0280：メッセージカーボン";
+"XEP-0313: Message Archive Management" = "XEP-0313：メッセージアーカイブ管理";
+"XEP-0352: Client State Indication" = "XEP-0352：クライアント状態通知";
+"XEP-0357: Push Notifications" = "XEP-0357：プッシュ通知";
+"XEP-0363: HTTP File Upload" = "XEP-0363：HTTPファイルアップロード";
+"XEP-0379: Pre-Authenticated Roster Subscription" = "XEP-0379：事前認証済みロスター購読";
+"XEP-0474: SASL SCRAM Downgrade Protection" = "XEP-0474：SASL SCRAMダウングレード保護";
 "XMPP Account Info Error" = "XMPP Account Info エラー";
 "XMPP Bind Error" = "XMPP Bind エラー";
 "XMPP Capabilities" = "XMPP の機能";
@@ -1439,7 +1439,7 @@
 "XMPP protocol extension for discovering services external to the XMPP network, like STUN or TURN servers needed for A/V calls." = "音声/ビデオ通話に必要な STUN サーバーや TURN サーバーなど、XMPP ネットワークの外部にあるサービスを検出するための XMPP プロトコル拡張。";
 "XMPP protocol extension for sending application-level pings over XML streams." = "XML ストリームでアプリケーションレベルの ping を送信するための XMPP プロトコル拡張。";
 "XMPP Roster Error" = "XMPP Rosterエラー";
-"XMPP server domain not valid!" = "XMPP サーバーのドメインは正しくありません。";
+"XMPP server domain not valid!" = "XMPPサーバードメインが無効です！";
 "XMPP stream error %@: %@" = "XMPP stream エラー %1$@: %2$@";
 "XMPP stream error: %@" = "XMPP stream エラー: %@";
 "Yellow checkmark shield:" = "黄のチェック印の盾:";
@@ -1468,7 +1468,7 @@
 "You were granted voice in this channel." = "You were granted voice in this channel.";
 "You will no longer receive messages from this conversation" = "今後この会話からのメッセージは受け取りません";
 "You will receive subsequent messages from this conversation" = "この会話から後続のメッセージを受け取ります";
-"Your account must be enabled and connected, to be removed from the server!" = "サーバーから除去するには、アカウントを有効にして接続しておく必要があります。";
+"Your account must be enabled and connected, to be removed from the server!" = "サーバーから削除するには、アカウントを有効にして接続する必要があります！";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Monal の iCloud バックアップを復元したため、アカウントが無効になりました。再び有効にするには、パスワードを再入力してください。";
 "Your answer" = "あなたの回答";
 "Your contact may not support calls. Your call might never reach its destination." = "相手先が通話に対応していない可能性があります。電話が宛先に届かないかもしれません。";
@@ -1476,9 +1476,9 @@
 "Your entered XMPP ID is missing the username" = "入力された XMPP ID にユーザー名がありません";
 "Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!";
 "Your server does not provide a MUC component." = "Your server does not provide a MUC component.";
-"Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "サーバーは MAM (XEP-0313) に対応していません。つまり、受信メッセージを頻繁に見逃す可能性があります。これを有効にするには、サーバーを切り替えるか、サーバー管理者に相談する必要があります。";
-"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "サーバーは PUSH (XEP-0357) に対応していません。つまり、新しい受信メッセージを取得するには、アプリを手動で開く必要があります。これを有効にするには、サーバーを切り替えるか、サーバー管理者に相談する必要があります。";
-"Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "サーバーはストリーム管理 (XEP-0198) に対応していません。つまり、送信メッセージが頻繁に失われる可能性があります。これを有効にするには、サーバーを切り替えるか、サーバー管理者に相談する必要があります。";
+"Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "お使いのサーバーはMAM（XEP-0313）に対応していません。そのため、受信メッセージを頻繁に見逃す可能性があります！サーバーを変更するか、サーバー管理者に連絡してMAMを有効にしてもらうことをおすすめします！";
+"Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "お使いのサーバーはPUSH（XEP-0357）に対応していません。そのため、新しい受信メッセージを取得するには、手動でアプリを開く必要があります！サーバーを変更するか、サーバー管理者に連絡してPUSHを有効にしてもらうことをおすすめします！";
+"Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "お使いのサーバーはストリーム管理（XEP-0198）に対応していません。そのため、送信メッセージが頻繁に失われる可能性があります！サーバーを変更するか、サーバー管理者に連絡してストリーム管理を有効にしてもらうことをおすすめします！";
 "Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!";
 "Your status" = "状況";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "XMPP JID は user@domain.tld の形式である必要があります。特殊な場合は、手動セットアップを使用してください。";
