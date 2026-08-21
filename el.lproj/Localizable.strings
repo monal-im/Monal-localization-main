@@ -47,7 +47,7 @@
 "<unknown>" = "<άγνωστο>";
 "A contact was scanned through the QR code scanner" = "Μια επαφή σαρώθηκε μέσω του σαρωτή κωδικών QR";
 "Abort" = "Ακύρωση";
-"Aborted recording audio" = "Aborted recording audio";
+"Aborted recording audio" = "Ματαίωση εγγραφής ήχου";
 "About" = "Σχετικά";
 "Accept incoming calls from strangers" = "Αποδοχή εισερχόμενων κλήσεων από αγνώστους";
 "Accept incoming messages from strangers" = "Αποδοχή εισερχόμενων μηνυμάτων από αγνώστους";
@@ -217,7 +217,7 @@
 "Call ended: application error" = "Η κλήση τερματίστηκε: σφάλμα εφαρμογής";
 "Call ended: connection failed" = "Η κλήση τερματίστηκε: η σύνδεση απέτυχε";
 "Call ended: connection failed\nDuration: %@" = "Η κλήση τερματίστηκε: η σύνδεση απέτυχε\nΔιάρκεια: %@";
-"Call ended: couldn't establish encryption" = "Call ended: couldn't establish encryption";
+"Call ended: couldn't establish encryption" = "Η κλήση τερματίστηκε: δεν ήταν δυνατή η εγκαθίδρυση κρυπτογράφησης";
 "Call ended: declined" = "Call ended: declined";
 "Call ended: remote busy" = "Call ended: remote busy";
 "Call security help" = "Call security help";
@@ -316,7 +316,7 @@
 "Could fetch room config form for '%@': timeout" = "Could fetch room config form for '%@': timeout";
 /* QR-Code-Scanner: camera not found */
 "Could not access camera" = "Could not access camera";
-"Could not access Finder item!" = "Could not access Finder item!";
+"Could not access Finder item!" = "Δεν ήταν δυνατή η πρόσβαση στο στοιχείο του Finder!";
 "Could not change password" = "Could not change password";
 "Could not change password: your account is currently not connected" = "Could not change password: your account is currently not connected";
 "Could not change the password" = "Could not change the password";
@@ -800,8 +800,8 @@
 "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key.";
 /* Camera permissions missing warning */
 "Monal is not allowed to access the camera" = "Monal is not allowed to access the camera";
-"Monal was not able to send your attachment!" = "Monal was not able to send your attachment!";
-"Monal was not able to send your attachment: %@" = "Monal was not able to send your attachment: %@";
+"Monal was not able to send your attachment!" = "Το Monal δεν μπόρεσε να στείλει το συνημμένο σας!";
+"Monal was not able to send your attachment: %@" = "Το Monal δεν μπόρεσε να στείλει το συνημμένο σας: %@";
 /* quicksy country */
 "Mongolia" = "Mongolia";
 /* quicksy country */
@@ -1007,7 +1007,7 @@
 "Registration Error" = "Registration Error";
 "Remove %@ from contacts?" = "Remove %@ from contacts?";
 "Remove %@?" = "Remove %@?";
-"Remove Account from this Device" = "Remove Account from this Device";
+"Remove Account from this Device" = "Αφαίρεση λογαριασμού από αυτή τη συσκευή";
 "Remove Background Image" = "Remove Background Image";
 "Remove Channel Avatar" = "Remove Channel Avatar";
 "Remove Contact" = "Remove Contact";
@@ -1102,7 +1102,7 @@
 /* quicksy country */
 "Serbia" = "Serbia";
 "Server" = "Server";
-"Server does not support account removal" = "Server does not support account removal";
+"Server does not support account removal" = "Ο διακομιστής δεν υποστηρίζει την αφαίρεση λογαριασμού";
 "Server for domain '%@' not responding!" = "Server for domain '%@' not responding!";
 "Server implementation error: SASL2 tasks empty, account disabled!" = "Server implementation error: SASL2 tasks empty, account disabled!";
 "Server returned invalid xml!" = "Server returned invalid xml!";
@@ -1187,7 +1187,7 @@
 /* quicksy country */
 "Thailand" = "Thailand";
 "The account has been deleted" = "Ο λογαριασμός έχει διαγραφεί";
-"The account has been removed" = "The account has been removed";
+"The account has been removed" = "Ο λογαριασμός αφαιρέθηκε";
 "The account has been saved" = "Ο λογαριασμός έχει αποθηκευτεί";
 /* Crash reporting */
 "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!" = "The app crashed last time it was launched. Send a crash report? This crash report will contain privacy related data. We will only use it to debug your crash and delete it afterwards!";
@@ -1269,7 +1269,7 @@
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account.";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades.";
 "This will clear the whole chat history of this account from this device." = "This will clear the whole chat history of this account from this device.";
-"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though.";
+"This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "Αυτό θα διαγράψει αυτόν τον λογαριασμό και τα σχετικά δεδομένα από τον διακομιστή και αυτή τη συσκευή. Ωστόσο, τα δεδομένα ενδέχεται να διατηρούνται ακόμη σε άλλες συσκευές.";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "This will make calls possible even if your XMPP server does not provide a TURN server.";
 "This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";
 "This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
@@ -1468,7 +1468,7 @@
 "You were granted voice in this channel." = "You were granted voice in this channel.";
 "You will no longer receive messages from this conversation" = "You will no longer receive messages from this conversation";
 "You will receive subsequent messages from this conversation" = "You will receive subsequent messages from this conversation";
-"Your account must be enabled and connected, to be removed from the server!" = "Your account must be enabled and connected, to be removed from the server!";
+"Your account must be enabled and connected, to be removed from the server!" = "Ο λογαριασμός σας πρέπει να είναι ενεργοποιημένος και συνδεδεμένος για να αφαιρεθεί από τον διακομιστή!";
 "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again." = "Your accounts got deactivated, because you restored an iCloud backup of Monal. Please reenter your passwords to activate them again.";
 "Your answer" = "Your answer";
 "Your contact may not support calls. Your call might never reach its destination." = "Your contact may not support calls. Your call might never reach its destination.";
