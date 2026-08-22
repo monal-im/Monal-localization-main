@@ -383,7 +383,7 @@
 "Destroy Group" = "グループを閉鎖";
 "Destroying channel..." = "チャンネルを閉鎖中...";
 "Destroying group..." = "グループを閉鎖中...";
-"Details..." = "Details...";
+"Details..." = "詳細…";
 /* OMEMO warning shown as notification */
 "Detected a new %@ omemo device on your account: %@" = "Detected a new %1$@ omemo device on your account: %2$@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
@@ -393,7 +393,7 @@
 /* quicksy country */
 "Diego Garcia" = "Diego Garcia";
 "Disable Encryption" = "暗号化を無効";
-"Disable encryption. This is dangerous!" = "Disable encryption. This is dangerous!";
+"Disable encryption. This is dangerous!" = "暗号化を無効にする。これは危険です！";
 "Disable encryption?" = "暗号化を無効化しますか ?";
 "Discovering devices..." = "デバイス探索中...";
 "Display Name" = "表示名";
@@ -409,16 +409,16 @@
 "Do you really want to destroy this group? Every member will be kicked out and it will be destroyed afterwards." = "本当にこのグループを閉鎖しますか? すべてのメンバーは蹴り出されその後に閉鎖されます。";
 "Do you really want to disable encryption for this contact?" = "本当にこの相手先に対して暗号化を無効化してもいいですか ?";
 "Do you really want to reset the OMEMO session? You should only reset the connection if you know what you are doing!" = "本当にomemoセッションをリセットしますか？何をしているのか理解している場合にのみ、接続をリセットしてください！";
-"Do you want to block this user from entering this group/channel?" = "Do you want to block this user from entering this group/channel?";
-"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them.";
-"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group.";
+"Do you want to block this user from entering this group/channel?" = "このユーザーがこのグループ／チャンネルに参加するのをブロックしますか？";
+"Do you want to remove that user from this channel? That user will be able to enter it again if you don't block them." = "そのユーザーをこのチャンネルから削除しますか？ブロックしない場合、そのユーザーは再び参加できます。";
+"Do you want to remove that user from this group? That user won't be able to enter it again until added back to the group." = "そのユーザーをこのグループから削除しますか？そのユーザーはグループに再度追加されるまで、もう一度参加することはできません。";
 "Do you want to trust the scanned fingerprints of contact %@ when using your account %@?" = "アカウント %@ を使用するときに、相手先 %@ のスキャンされた指紋を信頼しますか ?";
 "Domain missing" = "ドメインがありません";
 /* quicksy country */
 "Dominica" = "Dominica";
 /* quicksy country */
 "Dominican Rep." = "ドミニカ共和国。";
-"Don't show onboarding" = "Don't show onboarding";
+"Don't show onboarding" = "オンボーディングを表示しない";
 "Don't trust Key" = "鍵を信頼しない";
 "Done" = "完了";
 "Dont' trust Key" = "鍵を信頼しない";
@@ -463,11 +463,11 @@
 "Eritrea" = "Eritrea";
 "Error" = "エラー";
 "Error adding contact or channel" = "相手先またはチャンネルの追加時のエラー";
-"Error adding new member!" = "Error adding new member!";
-"Error blocking user!" = "Error blocking user!";
-"Error changing affiliation!" = "Error changing affiliation!";
-"Error changing avatar!" = "Error changing avatar!";
-"Error creating group!" = "Error creating group!";
+"Error adding new member!" = "新しいメンバーの追加中にエラーが発生しました！";
+"Error blocking user!" = "ユーザーのブロック中にエラーが発生しました！";
+"Error changing affiliation!" = "所属変更中にエラーが発生しました！";
+"Error changing avatar!" = "アバターの変更中にエラーが発生しました！";
+"Error creating group!" = "グループの作成中にエラーが発生しました！";
 "Error decrypting message" = "メッセージ復号のエラー";
 "Error destroying group!" = "グループの削除中にエラーが発生しました！";
 "Error entering group/channel!" = "グループ／チャンネルへの参加中にエラーが発生しました！";
@@ -477,15 +477,15 @@
 "Error handling SASL challenge of server (m-attr error), disconnecting!" = "Error handling SASL challenge of server (m-attr error), disconnecting!";
 /* parenthesis should be verbatim */
 "Error handling SASL challenge of server (nonce error), disconnecting!" = "Error handling SASL challenge of server (nonce error), disconnecting!";
-"Error inviting new member!" = "Error inviting new member!";
-"Error inviting new participant!" = "Error inviting new participant!";
-"Error inviting user!" = "Error inviting user!";
+"Error inviting new member!" = "新しいメンバーの招待中にエラーが発生しました！";
+"Error inviting new participant!" = "新しい参加者の招待中にエラーが発生しました！";
+"Error inviting user!" = "ユーザーの招待中にエラーが発生しました！";
 "Error registering push" = "Error registering push";
 "Error Removing Account" = "アカウント除去時のエラー";
-"Error removing avatar!" = "Error removing avatar!";
-"Error removing user!" = "Error removing user!";
-"Error requesting SMS!" = "Error requesting SMS!";
-"Error unblocking user!" = "Error unblocking user!";
+"Error removing avatar!" = "アバターの削除中にエラーが発生しました！";
+"Error removing user!" = "ユーザーの削除中にエラーが発生しました！";
+"Error requesting SMS!" = "SMSのリクエスト中にエラーが発生しました！";
+"Error unblocking user!" = "ユーザーのブロック解除中にエラーが発生しました！";
 "Error while decrypting: iv.length != 12" = "Error while decrypting: iv.length != 12";
 "Error: %@" = "エラー: %@";
 "Error: Account disabled, can not display keys!" = "エラー：アカウントが無効になっているため、鍵を表示できません！";
@@ -495,8 +495,8 @@
 "Estonia" = "Estonia";
 /* quicksy country */
 "Ethiopia" = "Ethiopia";
-"Even more to customize!" = "Even more to customize!";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc.";
+"Even more to customize!" = "さらに細かくカスタマイズ！";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "新しい連絡先では暗号化が有効になりますが、すでに登録されている連絡先では現在の暗号化設定が維持されます。\n一般的に、ジャーナリストや活動家など、高リスクグループのメンバーはこの設定をオフにしないでください。";
 "Failed to block contact %@" = "contact %@ のブロックに失敗しました";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@' での '%1$@' の分掌を '%3$@' に変更できませんでした";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@' での '%1$@' の分掌を '%3$@' に変更できませんでした: 時間切れ";
@@ -516,7 +516,7 @@
 "Failed to encrypt file" = "ファイルの暗号化に失敗しました";
 "Failed to enter Group/Channel %@" = "グループ/チャンネル %@ への参加に失敗しました";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "グループ／チャンネル%@への参加に失敗しました：これはグループ／チャンネルではありません！";
-"Failed to export the database, please check the logfile for errors and try again." = "Failed to export the database, please check the logfile for errors and try again.";
+"Failed to export the database, please check the logfile for errors and try again." = "データベースのエクスポートに失敗しました。エラーについてはログファイルを確認して、もう一度お試しください。";
 "Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
 "Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
 "Failed to load blocklist" = "ブロック一覧の読み込みに失敗しました";
