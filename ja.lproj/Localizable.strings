@@ -558,7 +558,7 @@
 "French Guiana" = "French Guiana";
 /* quicksy country */
 "French Polynesia" = "French Polynesia";
-"Frequently Asked Questions" = "Frequently Asked Questions";
+"Frequently Asked Questions" = "よくある質問";
 /* quicksy country */
 "Gabon" = "Gabon";
 /* quicksy country */
@@ -578,21 +578,21 @@
 "GPS" = "GPS";
 /* quicksy country */
 "Greece" = "Greece";
-"Green checkmark shield:" = "Green checkmark shield:";
+"Green checkmark shield:" = "緑色のチェックマーク付きシールド：";
 /* quicksy country */
 "Greenland" = "Greenland";
 /* quicksy country */
 "Grenada" = "Grenada";
-"Group Avatar" = "Group Avatar";
+"Group Avatar" = "グループアバター";
 /* placeholder when editing a group description */
-"Group Description (optional)" = "Group Description (optional)";
+"Group Description (optional)" = "グループの説明（任意）";
 "Group Members" = "グループのメンバー";
-"Group name" = "Group name";
+"Group name" = "グループ名";
 /* placeholder when creating new group */
 "Group Name (optional)" = "グループ名 (任意)";
 "Group subject:" = "グループの題:";
-"Group suddenly changed to public channel!" = "Group suddenly changed to public channel!";
-"Group/Channel description" = "Group/Channel description";
+"Group suddenly changed to public channel!" = "グループが突然パブリックチャンネルに変更されました！";
+"Group/Channel description" = "グループ／チャンネルの説明";
 "Group/Channel got destroyed: %@" = "グループ/チャンネル %@ が閉鎖されました";
 "Group/Channel not available anymore: %@" = "グループ/チャンネル %@ はもう利用できません";
 /* quicksy country */
@@ -622,10 +622,10 @@
 "Iceland" = "Iceland";
 "If Monal can't show notifications, you will not see alerts when a message arrives. This happens if you tapped 'Decline' when Monal first asked permission. Fix it by going to iOS Settings -> Monal -> Notifications and select 'Allow Notifications'." = "Monal が通知を表示できない場合、メッセージが到着してもアラートは表示されません。これは、Monal が最初に許可を求めたときに「拒否」をタップした場合に発生します。この問題を修正するには、iOS の 設定 -> Monal -> 通知 に移動し、「通知を許可」を選択します。";
 "If this is off your device could not activate push on your xmpp server, make sure to have configured it to support XEP-0357." = "これがオフの場合、デバイスが XMPP サーバーのプッシュ通知を有効化できていません。XEP-0357に対応をするよう設定されていることを確認してください。";
-"If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc.";
+"If this is off, you won't send encrypted messages to members of a group not having any explicitly trusted device once you explicitly trusted/distrusted at least one single device of another member of this group.\nUse with care, because this means you'll have to explicitly trust at least one device of *all* members of a group once you started manually changing the trust of one device of a member of this group (even if you did this in an 1:1 chat with one of the members)!\nGenerally this should only be turned off by members of high risk groups like journalists, activists etc." = "これをオフにすると、グループの他のメンバーのデバイスを1台でも明示的に信頼または不信に設定した後、そのグループ内に明示的に信頼されたデバイスが1台もないメンバーには、暗号化メッセージを送信しなくなります。\nこの設定は注意して使用してください。グループ内のあるメンバーのデバイスの信頼設定を手動で変更すると（そのメンバーとの1対1チャットで変更した場合でも）、その後はグループのすべてのメンバーについて、少なくとも1台のデバイスを明示的に信頼する必要があるためです！\n一般的に、ジャーナリストや活動家など、高リスクグループのメンバーのみがこれをオフにする必要があります。";
 "If you turn this on, you will no longer be safe from man-in-the-middle attacks. Such attacks enable the adversary to manipulate your incoming and outgoing messages, add their own OMEMO keys, change your account details and even know or change your password!\n\nYou should rather switch to another server than turning this on." = "これをオンにすると、中間者攻撃に対して安全ではなくなります。このような攻撃により、攻撃者は送受信メッセージを操作したり、独自の OMEMO キーを追加したり、アカウントの詳細を変更したり、さらにはパスワードを知ったり変更したりすることができます。\n\nこれをオンにするよりも、別のサーバーに切り替えることをお勧めします。";
 "If you want to use audio message you will need to allow access in Settings-> Privacy-> Microphone." = "音声メッセージを使用したい場合は、[設定] -> [プライバシー] -> [マイク] でアクセスを許可する必要があります。";
-"Image Upload JPEG-Quality: %@" = "Image Upload JPEG-Quality: %@";
+"Image Upload JPEG-Quality: %@" = "画像アップロード JPEG 品質：%@";
 "Import and trust OMEMO fingerprints from QR code" = "QR コードから OMEMO 指紋を取り込み信頼する";
 /* quicksy country */
 "India" = "India";
@@ -638,14 +638,14 @@
 "Invalid Credentials!" = "認証情報が無効です！";
 /* QR-Code-Scanner: invalid format */
 "Invalid format" = "形式が正しくありません";
-"Invalid image file!" = "Invalid image file!";
+"Invalid image file!" = "無効な画像ファイルです！";
 "Invalid Password!" = "パスワードが無効です！";
 "Invalid State" = "状況が正しくありません";
-"Invalid user input." = "Invalid user input.";
+"Invalid user input." = "無効なユーザー入力です。";
 "Invalid Username!" = "ユーザー名が無効です！";
 "Invitation for %@ created" = "%@ の招待を作成しました";
 /* muc invite */
-"Invite again" = "Invite again";
+"Invite again" = "もう一度招待する";
 "Invite participants to channel" = "Invite participants to channel";
 "Inviting new member" = "Inviting new member";
 "Inviting new participant" = "Inviting new participant";
