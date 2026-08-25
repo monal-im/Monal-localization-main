@@ -95,12 +95,12 @@
 "All messages are archived by default." = "Mezu guztiak artxibatzen dira defektuz.";
 "All messages fetched successfully, there are no more left on the server!" = "Mezu guztiak ondo eskuratu dira, ez dago gehiagorik zerbitzarian!";
 "Allow BTBV-only participants in verified encrypted groups" = "Baimendu BTBV bidezko parte-hartzaileak soilik egiaztatutako talde enkriptatuetan";
-"Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc.";
+"Allow calls not being OMEMO-verified in OMEMO encrypted chats.\nIf you turn this off, you won't be able to place or receive calls to/from contacts not using a client implementing [http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nThis should be turned off by members of high risk groups like journalists, activists etc." = "Baimendu OMEMO bidez egiaztatu gabeko deiak OMEMO bidez zifratutako txatetan.\nHau desaktibatzen baduzu, ezin izango duzu deirik egin edo jaso DLTS-SRTP egiaztapena inplementatzen duen bezerorik erabiltzen ez duten kontaktuekin.\n[http://gultsch.de/xmpp/drafts/omemo/dlts-srtp-verification](https://gist.github.com/iNPUTmice/aa4fc0aeea6ce5fb0e0fe04baca842cd).\nArrisku handiko taldeetako kideek, hala nola kazetariek, aktibistek eta abarrek, hau desaktibatu beharko lukete.";
 "Allow contacts in your contact list to query your Monal and iOS versions." = "Baimendu kontaktuen zerrendan dituzunei zure Monal eta iOS bertsioa ezagutzea.";
 "Allow contacts not in your contact list to call you." = "Baimendu kontaktuen zerrendan ez dituzunei zuri deitzea.";
 "Allow contacts not in your contact list to contact you." = "Baimendu kontaktuen zerrendan ez dituzunei zurekin harremanetan jartzea.";
 "Allow MITM-prone PLAIN authentication" = "Baimendu PLAIN autentifikazioa (MITM arriskua)";
-"Allow unverified calls in encrypted chats" = "Allow unverified calls in encrypted chats";
+"Allow unverified calls in encrypted chats" = "Baimendu egiaztatu gabeko deiak zifratutako txatetan";
 "Allow your device to establish a direct network connection to the remote party. This might leak your IP address to the caller/callee." = "Baimendu zure gailuak urrunekoekin zuzeneko sare-konexioa ezartzea. Honek zure IP helbidea jakinarazi diezaioke deitzen duenari/dutenei.";
 "Allowing someone to add you as a contact lets them see your profile picture and when you are online." = "Kontaktu bezala gehi zaitzatela baimentzen baduzu, zure profileko irudia eta linean noiz zauden ikus dezakete.";
 "Already present" = "Badago lehendik ere";
@@ -393,7 +393,7 @@
 /* quicksy country */
 "Diego Garcia" = "Diego Garcia";
 "Disable Encryption" = "Ezgaitu zifratzea";
-"Disable encryption. This is dangerous!" = "Disable encryption. This is dangerous!";
+"Disable encryption. This is dangerous!" = "Desaktibatu zifratzea. Arriskutsua da!";
 "Disable encryption?" = "Zifratzea ezgaitu?";
 "Discovering devices..." = "Gailuak aurkitzen…";
 "Display Name" = "Pantaila-izena";
@@ -496,7 +496,7 @@
 /* quicksy country */
 "Ethiopia" = "Etiopia";
 "Even more to customize!" = "Pertsonalizatu gehiago!";
-"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc.";
+"Every new contact will have encryption enabled, but already known contacts will preserve their encryption settings.\nGenerally this should never be turned off by members of high risk groups like journalists, activists etc." = "Kontaktu berri guztiek zifratzea aktibatuta izango dute, baina lehendik ezagutzen diren kontaktuek beren zifratze-ezarpenak mantenduko dituzte.\nOro har, arrisku handiko taldeetako kideek, hala nola kazetariek, aktibistek eta abarrek, ez lukete hau inoiz desaktibatu behar.";
 "Failed to block contact %@" = "%@ blokeatzeak kale egin du";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak kale egin du";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@'(e)n '%1$@'(r)en kidetza '%3$@'(e)ra aldatzeak kale egin du: denbora agortu da";
