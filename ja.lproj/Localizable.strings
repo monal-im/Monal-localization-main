@@ -1251,7 +1251,7 @@
 "This key belongs to this device and cannot be removed or disabled!" = "この鍵はこのデバイスに属しているため、削除または無効化することはできません！";
 "This key is trusted and verified by manually comparing fingerprints. To stop trusting this key, use the toggle element." = "この鍵は信頼されており、手動で指紋を比較することにより検証されています。この鍵の信頼を止めるには、トグルスイッチを使用します。";
 "This key is trusted, but the contact does not use it anymore. Consider to disable trust for this key." = "この鍵は信頼されていますが、相手先はすでにこれを使用していません。この鍵の信頼を無効にすることを検討してください。";
-"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key.";
+"This key is trusted, but the contact has not used it for a long time. Consider to disable trust for this key." = "この鍵は信頼されていますが、連絡先は長期間この鍵を使用していません。この鍵の信頼を無効にすることを検討してください。";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "これは、OMEMO 暗号化を使って、通話が暗号化され相手が検証されたことを意味します。\nしかし着信側の OMEMO 指紋を手動で検証していないため、自分または着信側の XMPP サーバーは中間者攻撃の OMEMO 鍵を挿入された可能性があります。";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "これは、OMEMO 暗号化を使って、通話が暗号化され相手が検証されたことを意味します。\n使用された OMEMO 鍵を手動で検証したため、中間者攻撃が行われることはありません。";
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "これは、通話は暗号化されていますが、OMEMO 暗号化を使用して相手を検証できなかったことを意味します。\n自分または着信側の XMPP サーバーは中間者攻撃の可能性があります。";
@@ -1266,13 +1266,13 @@
 "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server.";
 "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment.";
 "This should never happen, please contact the developers and provide a logfile!" = "これは本来起こるべきではありません。開発者に連絡し、ログファイルを提供してください！";
-"This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account.";
+"This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "この仕様では、インスタントメッセージングおよびプレゼンスアカウントに関連する状態変更イベントを配信するために、XMPPパブリッシュ・サブスクライブプロトコルを使用する際のセマンティクスを定義します。";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "この仕様は、メソッドとチャネルバインディングのダウングレードに抗して、SASL と SASL2 のハンドシェイクを保護する方法を提供します。";
 "This will clear the whole chat history of this account from this device." = "これにより、このアカウントのチャット履歴すべてがこのデバイスから消去されます。";
 "This will delete this account and the associated data from the server and this device. Data might still be retained on other devices, though." = "これにより、このアカウントと関連データがサーバーとこのデバイスから削除されます。ただし、データは他のデバイスにまだ保持されている可能性があります。";
 "This will make calls possible even if your XMPP server does not provide a TURN server." = "これにより、XMPP サーバーが TURN サーバーを提供していない場合でも通話が可能になります。";
-"This will now send your current location to all participants in this chat." = "This will now send your current location to all participants in this chat.";
-"This will remove the current avatar image and revert this group/channel to the default one." = "This will remove the current avatar image and revert this group/channel to the default one.";
+"This will now send your current location to all participants in this chat." = "これにより、このチャットのすべての参加者に現在地が送信されます。";
+"This will remove the current avatar image and revert this group/channel to the default one." = "これにより、現在のアバター画像が削除され、このグループ／チャンネルのアバターがデフォルトのものに戻ります。";
 "This will remove this account and the associated data from this device." = "これにより、このアカウントと関連データがこのデバイスから除去されます。";
 "Timeout Error" = "時間切れエラー";
 /* quicksy country */
@@ -1290,7 +1290,7 @@
 "Tokelau" = "Tokelau";
 /* quicksy country */
 "Tonga" = "Tonga";
-"Too many attempts, please try again in %@." = "Too many attempts, please try again in %@.";
+"Too many attempts, please try again in %@." = "試行回数が多すぎます。%@後にもう一度お試しください。";
 /* quicksy country */
 "Trinidad and Tobago" = "トリニダード・トバゴ";
 "Trust Key" = "鍵を信頼";
@@ -1299,7 +1299,7 @@
 "Trusted and verified key" = "信頼され検証された鍵";
 "Trusted but removed key" = "信頼されているが除去された鍵";
 "Trusted but unused key" = "信頼されているが未使用の鍵";
-"Trusted but unverified and unused key" = "Trusted but unverified and unused key";
+"Trusted but unverified and unused key" = "信頼済みだが未検証で未使用の鍵";
 "Trusted but unverified key" = "信頼されているが未検証の鍵";
 "Try nevertheless" = "あえて試みる";
 /* quicksy country */
@@ -1316,20 +1316,20 @@
 "Typing..." = "タイプ中...";
 "UDP Logger" = "UDP ロガー";
 "UDP Logger Configuration" = "UDP ロガーの設定";
-"UDP Logging UI not supported on iOS < 16" = "UDP Logging UI not supported on iOS < 16";
+"UDP Logging UI not supported on iOS < 16" = "iOS 16未満ではUDPロギングUIはサポートされていません";
 /* quicksy country */
 "Uganda" = "Uganda";
 /* quicksy country */
 "Ukraine" = "Ukraine";
 "Unable to connect to server!" = "サーバーに接続できません！";
 "Unblock Contact" = "相手先をブロック解除";
-"Unblocking user" = "Unblocking user";
-"Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
+"Unblocking user" = "ユーザーのブロックを解除中";
+"Unblocking user for this group/channel: %@" = "このグループ／チャンネルでユーザーのブロックを解除中：%@";
 "Unclean appex shutown" = "異常なApp Extensionの終了";
 "Understood" = "了解しました";
 "Unexpected appex expiration" = "予期しないApp Extensionの有効期限切れ";
 "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
-"Unexpected error processing your request." = "Unexpected error processing your request.";
+"Unexpected error processing your request." = "リクエストの処理中に予期しないエラーが発生しました。";
 "Unexpected error while checking type of jid, please try again" = "JID の型をチェックする際に予期しないエラーが発生しました。もう一度お試しください";
 "Unexpected error while checking type of jid:" = "ID の型をチェックする際の予期しないエラー:";
 "Unexpected mam preferences result" = "Unexpected mam preferences result";
@@ -1373,7 +1373,7 @@
 "Username" = "ユーザー名";
 "Username missing" = "ユーザー名がありません";
 "Uses TLS client certificates for authentication" = "認証にTLSクライアント証明書を使用します";
-"Using the ping button will reveal your JID(s) to our push servers!" = "Using the ping button will reveal your JID(s) to our push servers!";
+"Using the ping button will reveal your JID(s) to our push servers!" = "pingボタンを使用すると、JIDがプッシュサーバーに公開されます！";
 /* quicksy country */
 "Uzbekistan" = "Uzbekistan";
 /* quicksy country */
