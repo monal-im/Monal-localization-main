@@ -138,11 +138,11 @@
 "Aruba" = "Aruba";
 "Attachments" = "添付ファイル";
 "Audio recorder init fail." = "オーディオレコーダーの初期化に失敗しました。";
-"Audio recorder prepareToRecord fail." = "Audio recorder prepareToRecord fail.";
-"Audio recorder record fail." = "Audio recorder record fail.";
-"Audio Recorder set active error: %@" = "Audio Recorder set active error: %@";
-"Audio Recorder set category error: %@" = "Audio Recorder set category error: %@";
-"Audio Recorder: failed to record" = "Audio Recorder: failed to record";
+"Audio recorder prepareToRecord fail." = "オーディオレコーダーのprepareToRecordに失敗しました";
+"Audio recorder record fail." = "オーディオレコーダーのrecordに失敗しました";
+"Audio Recorder set active error: %@" = "オーディオレコーダーのアクティブ化エラー: %@";
+"Audio Recorder set category error: %@" = "オーディオレコーダーのカテゴリ設定エラー: %@";
+"Audio Recorder: failed to record" = "オーディオレコーダー: 録音に失敗しました";
 /* quicksy country */
 "Australia" = "Australia";
 /* quicksy country */
@@ -153,7 +153,7 @@
 "Autodelete all messages older than" = "古いメッセージを自動削除";
 "Autofocus text input on chat open" = "チャットを開くとき入力欄に自動移動";
 /* OMEMO warning shown inside chat view */
-"automatically trusted" = "automatically trusted";
+"automatically trusted" = "自動的に信頼済み";
 "Avatar" = "アバター";
 /* quicksy country */
 "Azerbaijan" = "Azerbaijan";
@@ -291,7 +291,7 @@
 "Congo" = "Congo";
 "Connected: %@" = "接続済: %@";
 "Connecting..." = "接続中...";
-"Connectivity issues" = "Connectivity issues";
+"Connectivity issues" = "接続の問題";
 /* server details */
 "Considerations for Server Administrators" = "サーバー管理者向けの考慮事項";
 "Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "相手先とグループ/チャンネルの JID の形式は通常の場合 name@domain.tld です";
@@ -320,11 +320,11 @@
 "Could not change password" = "パスワードを変更できませんでした";
 "Could not change password: your account is currently not connected" = "パスワードを変更できませんでした: 現在アカウントは接続されていません";
 "Could not change the password" = "パスワードを変更できませんでした";
-"Could not configure (new) group '%@': config option '%@' not available!" = "Could not configure (new) group '%1$@': config option '%2$@' not available!";
+"Could not configure (new) group '%@': config option '%@' not available!" = "（新規）グループ「%1$@」を設定できませんでした: 設定オプション「%2$@」は利用できません！";
 "Could not configure group '%@'" = "グループ '%@' を調整できませんでした";
 "Could not configure group '%@': timeout" = "グループ '%@' を調整できませんでした: 時間切れ";
 "Could not create group '%@': timeout" = "グループ '%@' を作成できませんでした: 時間切れ";
-"Could not decrypt because you didn't trust the sender's device %u." = "Could not decrypt because you didn't trust the sender's device %u.";
+"Could not decrypt because you didn't trust the sender's device %u." = "送信者のデバイス %u を信頼していないため、復号できませんでした";
 "Could not decrypt message" = "メッセージを復号できませんでした";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "このチャットの (すべての) 古いメッセージをサーバー保管から取得できませんでした。後でもう一度試してください。 %@";
 "Could not fetch messages" = "メッセージを取得できませんでした";
@@ -385,8 +385,8 @@
 "Destroying group..." = "グループを閉鎖中...";
 "Details..." = "詳細…";
 /* OMEMO warning shown as notification */
-"Detected a new %@ omemo device on your account: %@" = "Detected a new %1$@ omemo device on your account: %2$@";
-"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"Detected a new %@ omemo device on your account: %@" = "アカウントで新しい%1$@ OMEMOデバイスを検出しました: %2$@";
+"Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SSDP経由で進行中のMITM攻撃を検出したため、認証を中止し、被害を抑えるためアカウントを無効にしました。ネットワーク環境が安全な状態に戻ったら、アカウントを再度有効にしてみてください。";
 "Device ID: " = "デバイス ID: ";
 "Device Locked" = "デバイスがロックされています";
 "Devices of %@" = "%@ のデバイス";
@@ -472,21 +472,21 @@
 "Error destroying group!" = "グループの削除中にエラーが発生しました！";
 "Error entering group/channel!" = "グループ／チャンネルへの参加中にエラーが発生しました！";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (iteration count too low), disconnecting!" = "Error handling SASL challenge of server (iteration count too low), disconnecting!";
+"Error handling SASL challenge of server (iteration count too low), disconnecting!" = "サーバーのSASLチャレンジの処理中にエラーが発生しました（反復回数が少なすぎます）。切断します！";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (m-attr error), disconnecting!" = "Error handling SASL challenge of server (m-attr error), disconnecting!";
+"Error handling SASL challenge of server (m-attr error), disconnecting!" = "サーバーのSASLチャレンジの処理中にエラーが発生しました（反復回数が少なすぎます）。切断します！";
 /* parenthesis should be verbatim */
-"Error handling SASL challenge of server (nonce error), disconnecting!" = "Error handling SASL challenge of server (nonce error), disconnecting!";
+"Error handling SASL challenge of server (nonce error), disconnecting!" = "サーバーのSASLチャレンジの処理中にエラーが発生しました（nonceエラー）。切断します！";
 "Error inviting new member!" = "新しいメンバーの招待中にエラーが発生しました！";
 "Error inviting new participant!" = "新しい参加者の招待中にエラーが発生しました！";
 "Error inviting user!" = "ユーザーの招待中にエラーが発生しました！";
-"Error registering push" = "Error registering push";
+"Error registering push" = "プッシュの登録中にエラーが発生しました";
 "Error Removing Account" = "アカウント除去時のエラー";
 "Error removing avatar!" = "アバターの削除中にエラーが発生しました！";
 "Error removing user!" = "ユーザーの削除中にエラーが発生しました！";
 "Error requesting SMS!" = "SMSのリクエスト中にエラーが発生しました！";
 "Error unblocking user!" = "ユーザーのブロック解除中にエラーが発生しました！";
-"Error while decrypting: iv.length != 12" = "Error while decrypting: iv.length != 12";
+"Error while decrypting: iv.length != 12" = "復号中にエラーが発生しました: iv.length != 12";
 "Error: %@" = "エラー: %@";
 "Error: Account disabled, can not display keys!" = "エラー：アカウントが無効になっているため、鍵を表示できません！";
 "Error: No contacts to display keys for!" = "エラー：鍵を表示する連絡先がありません！";
@@ -500,7 +500,7 @@
 "Failed to block contact %@" = "contact %@ のブロックに失敗しました";
 "Failed to change affiliation of '%@' in '%@' to '%@'" = "'%2$@' での '%1$@' の分掌を '%3$@' に変更できませんでした";
 "Failed to change affiliation of '%@' in '%@' to '%@': timeout" = "'%2$@' での '%1$@' の分掌を '%3$@' に変更できませんでした: 時間切れ";
-"Failed to copy downloaded file into cache directory: %@" = "Failed to copy downloaded file into cache directory: %@";
+"Failed to copy downloaded file into cache directory: %@" = "ダウンロードしたファイルをキャッシュディレクトリにコピーできませんでした: %@";
 "Failed to create invitation for %@" = "%@ の招待の作成に失敗しました";
 "Failed to create invitation, unknown error: %@" = "招待の作成に失敗しました。未知のエラー: %@";
 "Failed to decode download link" = "ダウンロードリンクのデコードに失敗しました";
@@ -511,24 +511,24 @@
 "Failed to delete own nickname" = "自身のニックネームの削除に失敗しました";
 "Failed to destroy group/channel '%@'" = "グループ/チャンネル '%@' の閉鎖に失敗しました";
 "Failed to destroy group/channel '%@': timeout" = "グループ/チャンネルの閉鎖に失敗しました '%@': 時間切れ";
-"Failed to download file: %@" = "Failed to download file: %@";
-"Failed to enable carbons for account %@" = "Failed to enable carbons for account %@";
+"Failed to download file: %@" = "ファイルのダウンロードに失敗しました: %@";
+"Failed to enable carbons for account %@" = "ファイルのダウンロードに失敗しました: %@";
 "Failed to encrypt file" = "ファイルの暗号化に失敗しました";
 "Failed to enter Group/Channel %@" = "グループ/チャンネル %@ への参加に失敗しました";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "グループ／チャンネル%@への参加に失敗しました：これはグループ／チャンネルではありません！";
 "Failed to export the database, please check the logfile for errors and try again." = "データベースのエクスポートに失敗しました。エラーについてはログファイルを確認して、もう一度お試しください。";
-"Failed to fetch download metadata: %@" = "Failed to fetch download metadata: %@";
-"Failed to fetch room config form for '%@'" = "Failed to fetch room config form for '%@'";
+"Failed to fetch download metadata: %@" = "ダウンロードメタデータの取得に失敗しました: %@";
+"Failed to fetch room config form for '%@'" = "「%@」のルーム設定フォームの取得に失敗しました";
 "Failed to load blocklist" = "ブロック一覧の読み込みに失敗しました";
-"Failed to moderate message in group/channel '%@'" = "Failed to moderate message in group/channel '%@'";
-"Failed to move uploaded file to file cache directory" = "Failed to move uploaded file to file cache directory";
+"Failed to moderate message in group/channel '%@'" = "グループ/チャンネル「%@」のメッセージのモデレートに失敗しました";
+"Failed to move uploaded file to file cache directory" = "アップロードしたファイルをファイルキャッシュディレクトリに移動できませんでした";
 "Failed to parse URL returned by HTTP upload server" = "HTTP アップロードサーバーから返された URL の解析に失敗しました";
 "Failed to publish avatar image for group/channel %@" = "グループ/チャンネル %@ のアバター画像の公開に失敗しました";
 "Failed to publish own avatar" = "自身のアバターの公開に失敗しました";
 "Failed to publish own nickname" = "自身のニックネームの公開に失敗しました";
-"Failed to query for new messages for Group/Channel (catchup) %@" = "Failed to query for new messages for Group/Channel (catchup) %@";
+"Failed to query for new messages for Group/Channel (catchup) %@" = "グループ/チャンネルの新しいメッセージの取得（キャッチアップ）に失敗しました %@";
 "Failed to query for new messages on account %@" = "account %@ の新しいメッセージへのクエリに失敗しました";
-"Failed to query newest stanzaid for account %@" = "Failed to query newest stanzaid for account %@";
+"Failed to query newest stanzaid for account %@" = "アカウント %@ の最新のstanzaidの取得に失敗しました";
 "Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
 "Failed to remove bookmark for Group/Channel: %@" = "グループ/チャンネル %@ のブックマークの除去に失敗しました";
 "Failed to save bookmark for Group/Channel: %@" = "グループ/チャンネル %@ のブックマークの保存に失敗しました";
