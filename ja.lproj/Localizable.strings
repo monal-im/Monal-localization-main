@@ -138,8 +138,8 @@
 "Aruba" = "Aruba";
 "Attachments" = "添付ファイル";
 "Audio recorder init fail." = "オーディオレコーダーの初期化に失敗しました。";
-"Audio recorder prepareToRecord fail." = "オーディオレコーダーのprepareToRecordに失敗しました";
-"Audio recorder record fail." = "オーディオレコーダーのrecordに失敗しました";
+"Audio recorder prepareToRecord fail." = "オーディオレコーダーのprepareToRecordに失敗しました。";
+"Audio recorder record fail." = "オーディオレコーダーのrecordに失敗しました。";
 "Audio Recorder set active error: %@" = "オーディオレコーダーのアクティブ化エラー: %@";
 "Audio Recorder set category error: %@" = "オーディオレコーダーのカテゴリ設定エラー: %@";
 "Audio Recorder: failed to record" = "オーディオレコーダー: 録音に失敗しました";
@@ -324,7 +324,7 @@
 "Could not configure group '%@'" = "グループ '%@' を調整できませんでした";
 "Could not configure group '%@': timeout" = "グループ '%@' を調整できませんでした: 時間切れ";
 "Could not create group '%@': timeout" = "グループ '%@' を作成できませんでした: 時間切れ";
-"Could not decrypt because you didn't trust the sender's device %u." = "送信者のデバイス %u を信頼していないため、復号できませんでした";
+"Could not decrypt because you didn't trust the sender's device %u." = "送信者のデバイス %u を信頼していないため、復号できませんでした。";
 "Could not decrypt message" = "メッセージを復号できませんでした";
 "Could not fetch (all) old messages for this chat from your server archive. Please try again later. %@" = "このチャットの (すべての) 古いメッセージをサーバー保管から取得できませんでした。後でもう一度試してください。 %@";
 "Could not fetch messages" = "メッセージを取得できませんでした";
@@ -385,7 +385,7 @@
 "Destroying group..." = "グループを閉鎖中...";
 "Details..." = "詳細…";
 /* OMEMO warning shown as notification */
-"Detected a new %@ omemo device on your account: %@" = "アカウントで新しい%1$@ OMEMOデバイスを検出しました: %2$@";
+"Detected a new %@ omemo device on your account: %@" = "アカウントで新しい%1$@ omemoデバイスを検出しました: %2$@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SSDP経由で進行中のMITM攻撃を検出したため、認証を中止し、被害を抑えるためアカウントを無効にしました。ネットワーク環境が安全な状態に戻ったら、アカウントを再度有効にしてみてください。";
 "Device ID: " = "デバイス ID: ";
 "Device Locked" = "デバイスがロックされています";
@@ -529,12 +529,12 @@
 "Failed to query for new messages for Group/Channel (catchup) %@" = "グループ/チャンネルの新しいメッセージの取得（キャッチアップ）に失敗しました %@";
 "Failed to query for new messages on account %@" = "account %@ の新しいメッセージへのクエリに失敗しました";
 "Failed to query newest stanzaid for account %@" = "アカウント %@ の最新のstanzaidの取得に失敗しました";
-"Failed to query newest stanzaid for Group/Channel %@" = "Failed to query newest stanzaid for Group/Channel %@";
+"Failed to query newest stanzaid for Group/Channel %@" = "グループ/チャンネル %@ の最新のstanzaidの取得に失敗しました";
 "Failed to remove bookmark for Group/Channel: %@" = "グループ/チャンネル %@ のブックマークの除去に失敗しました";
 "Failed to save bookmark for Group/Channel: %@" = "グループ/チャンネル %@ のブックマークの保存に失敗しました";
 "Failed to save groupchat bookmarks" = "グループチャットのブックマークの保存に失敗しました";
 "Failed to share file" = "ファイル共有に失敗しました";
-"Failed to synchronize phonebook" = "Failed to synchronize phonebook";
+"Failed to synchronize phonebook" = "電話帳の同期に失敗しました";
 "Failed to upload file: account was removed" = "ファイルのアップロードに失敗しました: アカウントは除去されました";
 "Failed to write decrypted download into cache directory" = "復号されたダウンロードのキャッシュ ディレクトリへのに書き込みに失敗しました";
 /* quicksy country */
@@ -574,7 +574,7 @@
 "Ghana" = "Ghana";
 /* quicksy country */
 "Gibraltar" = "Gibraltar";
-"Got empty room config form for '%@'" = "Got empty room config form for '%@'";
+"Got empty room config form for '%@'" = "「%@」のルーム設定フォームが空です";
 "GPS" = "GPS";
 /* quicksy country */
 "Greece" = "Greece";
@@ -737,7 +737,7 @@
 "Logfiles" = "ログファイル";
 "Logging in" = "ログイン中";
 "Login" = "ログイン";
-"Login error, account disabled: %@" = "Login error, account disabled: %@";
+"Login error, account disabled: %@" = "ログインエラー、アカウントが無効です: %@";
 "Logs" = "ログ";
 /* quicksy country */
 "Luxembourg" = "Luxembourg";
@@ -886,9 +886,9 @@
 /* quicksy country */
 "Oman" = "Oman";
 /* OMEMO warning shown inside chat view */
-"OMEMO: Detected new %@ device with id: %@" = "OMEMO: Detected new %1$@ device with id: %2$@";
+"OMEMO: Detected new %@ device with id: %@" = "OMEMO: 新しい%1$@デバイスを検出しました（ID: %2$@）";
 /* OMEMO warning shown inside chat view */
-"OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact" = "OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact";
+"OMEMO: Device %@ is now inactive, because it is no longer advertised by your contact" = "OMEMO: デバイス %@ は、連絡先から通知されなくなったため、非アクティブになりました";
 "On this device" = "このデバイス";
 "Online" = "オンライン";
 "Only contacts" = "相手先のみ";
@@ -1063,7 +1063,7 @@
 /* quicksy country */
 "Saudi Arabia" = "Saudi Arabia";
 "Saving changes to server" = "変更をサーバーに保存";
-"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"SCRAM server proof wrong, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "SCRAMサーバー証明が正しくありません。MITM攻撃が進行中である可能性が非常に高いため、認証を中止し、被害を抑えるためアカウントを無効にしました。ネットワーク環境が安全な状態に戻ったら、アカウントを再度有効にしてみてください。";
 /* mac only string */
 "Scroll down to load more messages" = "スクロールダウンして追加のメッセージを読み込む";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "TLS1.3 と一部の TLS1.2 接続に対して定義された安全なチャネルバインディング。";
@@ -1104,10 +1104,10 @@
 "Server" = "サーバー";
 "Server does not support account removal" = "サーバーはアカウント除去に対応していません";
 "Server for domain '%@' not responding!" = "ドメイン「%@」のサーバーが応答していません！";
-"Server implementation error: SASL2 tasks empty, account disabled!" = "Server implementation error: SASL2 tasks empty, account disabled!";
+"Server implementation error: SASL2 tasks empty, account disabled!" = "サーバー実装エラー: SASL2タスクが空です。アカウントを無効にしました！";
 "Server returned invalid xml!" = "サーバーから無効なxmlが返されました！";
 "Server returned SASL2 error '%@'." = "サーバーは SASL2 エラー '%@' を返しました。";
-"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again.";
+"Server suddenly lacks support for SASL2-SCRAM, ongoing MITM attack highly likely, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "サーバーが突然SASL2-SCRAMをサポートしなくなりました。MITM攻撃が進行中である可能性が非常に高いため、認証を中止し、被害を抑えるためアカウントを無効にしました。ネットワーク環境が安全な状態に戻ったら、アカウントを再度有効にしてみてください。";
 "Server: %@" = "サーバー: %@";
 "Set up account later" = "後でアカウントを設定";
 /* Camera permissions missing warning */
@@ -1209,11 +1209,11 @@
 "The resource '%@' has the following capabilities:" = "リソース '%@' には次の機能があります:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "選択可能な XMPP サーバーは公開サーバーであり、Monal と提携しているものではありません。この登録ページは便宜のためにのみ提供されています。";
 "The server does not support blocking (XEP-0191)." = "サーバーはブロック (XEP-0191) に対応していません。";
-"The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "The server tried to bind you to jid '%1$@', but you configured '%2$@', disabling account!";
+"The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "サーバーはjid「%1$@」へのバインドを試みましたが、「%2$@」を設定しているため、アカウントを無効にしました！";
 "The UDP logger allows you to livestream the log to the configured IP." = "UDPロガーを使用すると、設定したIPアドレスにログをリアルタイムでストリーミングできます。";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDPロガーを使用すると、設定したIPアドレスにログをリアルタイムでストリーミングできます。インターネット経由でストリーミングする場合は、安全なキーを使用してください！\nログストリームの受信方法を見る。";
-"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "The user %1$@ (%2$@) denied your contact request. You can try again, if you think this was a mistake.";
-"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "The user %1$@ (%2$@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake.";
+"The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "ユーザー %1$@（%2$@）があなたの連絡先リクエストを拒否しました。間違いだと思われる場合は、もう一度試すことができます。";
+"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "ユーザー %1$@（%2$@）があなたを連絡先リストから削除しました。間違いだと思われる場合は、新しい連絡先リクエストを送信できます。";
 "The user %@ (%@) wants to add you to their contact list" = "ユーザー %1$@ (%2$@) は、あなたを相手先一覧に追加したいと思っています";
 "The username does not need to have an @ symbol. Please try again." = "ユーザー名に記号 @ を使うことはできません。もう一度やり直してください。";
 "There is no configured email account. Please email info@monal-im.org ." = "設定された電子メール アカウントがありません。 info@monal-im.org に電子メールを送信してください。";
@@ -1233,7 +1233,7 @@
 "They will no longer see when you are online. They may not be able to send you encrypted messages." = "あなたがオンラインでも、他人には見えません。他人は暗号化されたメッセージを送信できない場合があります。";
 "They will see when you are online. They will be able to send you encrypted messages." = "They will see when you are online. They will be able to send you encrypted messages.あなたがオンラインのとき、他人に見えます。他人は暗号化されたメッセージを送信できます。";
 "This account already exists in Monal." = "このアカウントはすでに Monal に存在しています。";
-"This account already exists on this instance" = "This account already exists on this instance";
+"This account already exists on this instance" = "このアカウントはこのインスタンスにすでに存在します";
 "This account already exists on this instance." = "このアカウントはこのインスタンスにすでに存在します。";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "このアプリは古く、セキュリティ上の問題が含まれていたり、突然動作しなくなったりする可能性があります。アップグレードしてください！";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "これを使用すると、ログファイルをエクスポートできます。\nログファイルの読み方。(https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
@@ -1263,8 +1263,8 @@
 "This server does not provide any MUC servers." = "このサーバーは MUC サーバーを提供していません。";
 "This server does not support any modern channel-binding to secure against MITM attacks on the TLS layer." = "このサーバーは、TLS 層での MITM 攻撃から保護するための最近のチャネルバインディングに対応していません。";
 "This server does not support modern SASL2 authentication." = "このサーバーは現代的な SASL2 認証に対応していません。";
-"This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server.";
-"This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment.";
+"This server isn't additionally hardened against man-in-the-middle attacks on the TLS encryption layer by using authentication methods that are secure against such attacks! This indicates an ongoing attack if the server is supposed to support SASL2 and SCRAM and is harmless otherwise. Use the advanced account creation menu and turn on the PLAIN switch there if you still want to log in to this server." = "このサーバーは、MITM攻撃に対して安全な認証方式を使用することで、TLS暗号化層における中間者攻撃（MITM攻撃）への追加の防御対策が施されていません！サーバーがSASL2およびSCRAMをサポートしているはずの場合、これは攻撃が進行中であることを示します。それ以外の場合は問題ありません。このサーバーに引き続きログインする場合は、アカウントの詳細作成メニューを使用して、そこでPLAINスイッチをオンにしてください。";
+"This server lacks support for SASL2 and SCRAM, additionally hardening authentication against man-in-the-middle attacks on the TLS encryption layer. Since this server is listed as supporting both at https://github.com/monal-im/SCRAM_PreloadList (or you intentionally left the PLAIN switch off when using the advanced account creation menu), an ongoing MITM attack is very likely! Try again once you are in a clean network environment." = "このサーバーはSASL2およびSCRAMをサポートしておらず、TLS暗号化層での中間者攻撃に対する認証の追加の防御対策が施されていません。このサーバーがhttps://github.com/monal-im/SCRAM_PreloadList に両方をサポートするものとして掲載されている場合（または、アカウントの詳細作成メニューを使用していて、意図的にPLAINスイッチをオフにしている場合）、MITM攻撃が進行中である可能性が非常に高いです。安全なネットワーク環境に戻ってから、もう一度お試しください。";
 "This should never happen, please contact the developers and provide a logfile!" = "これは本来起こるべきではありません。開発者に連絡し、ログファイルを提供してください！";
 "This specification defines semantics for using the XMPP publish-subscribe protocol to broadcast state change events associated with an instant messaging and presence account." = "この仕様では、インスタントメッセージングおよびプレゼンスアカウントに関連する状態変更イベントを配信するために、XMPPパブリッシュ・サブスクライブプロトコルを使用する際のセマンティクスを定義します。";
 "This specification provides a way to secure the SASL and SASL2 handshakes against method and channel-binding downgrades." = "この仕様は、メソッドとチャネルバインディングのダウングレードに抗して、SASL と SASL2 のハンドシェイクを保護する方法を提供します。";
@@ -1279,7 +1279,7 @@
 "Timor-Leste" = "Timor-Leste";
 "TLS 1.2" = "TLS 1.2";
 "TLS 1.3" = "TLS 1.3";
-"TLS Error: Bad certificate" = "TLS Error: Bad certificate";
+"TLS Error: Bad certificate" = "TLSエラー: 不正な証明書";
 "TLS Error: Certificate chain is invalid" = "TLS エラー: 証明書のチェーンが正しくありません";
 "TLS Error: Certificate expired" = "TLS エラー: 証明書の有効期限切れ";
 "TLS Error: Host name mismatch" = "TLS エラー: ホスト名の不一致";
@@ -1295,7 +1295,7 @@
 "Trinidad and Tobago" = "トリニダード・トバゴ";
 "Trust Key" = "鍵を信頼";
 /* OMEMO warning shown inside chat view */
-"trusted" = "trusted";
+"trusted" = "信頼済み";
 "Trusted and verified key" = "信頼され検証された鍵";
 "Trusted but removed key" = "信頼されているが除去された鍵";
 "Trusted but unused key" = "信頼されているが未使用の鍵";
@@ -1328,13 +1328,13 @@
 "Unclean appex shutown" = "異常なApp Extensionの終了";
 "Understood" = "了解しました";
 "Unexpected appex expiration" = "予期しないApp Extensionの有効期限切れ";
-"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!";
+"Unexpected error authenticating server using SASL2 (does your server have a bug?), disconnecting!" = "SASL2を使用したサーバー認証中に予期しないエラーが発生しました（サーバーにバグがある可能性があります）。切断します！";
 "Unexpected error processing your request." = "リクエストの処理中に予期しないエラーが発生しました。";
 "Unexpected error while checking type of jid, please try again" = "JID の型をチェックする際に予期しないエラーが発生しました。もう一度お試しください";
 "Unexpected error while checking type of jid:" = "ID の型をチェックする際の予期しないエラー:";
-"Unexpected mam preferences result" = "Unexpected mam preferences result";
-"Unexpected server response: invalid PEP config form" = "Unexpected server response: invalid PEP config form";
-"Unexpected server response: missing required fields in PEP config form" = "Unexpected server response: missing required fields in PEP config form";
+"Unexpected mam preferences result" = "予期しないMAM設定結果";
+"Unexpected server response: invalid PEP config form" = "予期しないサーバー応答: 無効なPEP設定フォーム";
+"Unexpected server response: missing required fields in PEP config form" = "予期しないサーバー応答: PEP設定フォームに必須フィールドがありません";
 /* quicksy country */
 "United Arab Emirates" = "United Arab Emirates";
 /* quicksy country */
@@ -1350,7 +1350,7 @@
 "Unread Messages Below" = "以下の未読メッセージ";
 "unsupported" = "非対応";
 /* OMEMO warning shown inside chat view */
-"untrusted" = "untrusted";
+"untrusted" = "信頼されていない";
 "Untrusted key" = "信頼されていない鍵";
 "Upload Error" = "アップロードエラー";
 "Upload files to the server to share with others. (Maximum allowed size of files reported by the server: %@)" = "ファイルをサーバーにアップロードして他の人と共有します。 (サーバーによるファイルの最大許容サイズ: %@)";
@@ -1397,8 +1397,8 @@
 "Warning" = "警告";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "XMPP に関する QR コードが見つかりませんでした";
-"We don't support any task requested by the server, account disabled: %@" = "We don't support any task requested by the server, account disabled: %@";
-"We don't support the single task requested by the server, account disabled: %@" = "We don't support the single task requested by the server, account disabled: %@";
+"We don't support any task requested by the server, account disabled: %@" = "サーバーから要求されたタスクはサポートされていません。アカウントを無効にしました: %@";
+"We don't support the single task requested by the server, account disabled: %@" = "サーバーから要求された単一のタスクはサポートされていません。アカウントを無効にしました: %@";
 "We sent you an SMS to %@" = "%@にSMSを送信しました";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "アカウントに接続できませんでした。ユーザー名とパスワードを確認し、インターネットに接続していることを確認してください。";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "アカウントに接続できませんでした。ユーザー名とパスワードを確認し、インターネットに接続していることを確認してください。\n\n技術的エラーメッセージ: %@";
@@ -1465,7 +1465,7 @@
 "You restored an iCloud backup of Monal, please open the app to reenable this account." = "Monal の iCloud バックアップを復元しました。アプリを開いてこのアカウントをもう一度有効にしてください。";
 "You should trust a key when you have verified it. Verify by comparing the key below to the one on your contact's screen. Double tap onto a fingerprint to copy to clipboard." = "鍵を検証して、その鍵を信頼する必要があります。以下の鍵と相手先の画面上の鍵を比較して検証してください。指紋をダブルタップしてクリップボードにコピーします。";
 "You tried to call contact '%@' but this contact could not be found in your contact list." = "相手先 '%@' に電話をかけようとしましたが、この相手先が相手先一覧に見つかりませんでした。";
-"You were granted voice in this channel." = "You were granted voice in this channel.";
+"You were granted voice in this channel." = "このチャンネルで発言権が付与されました。";
 "You will no longer receive messages from this conversation" = "今後この会話からのメッセージは受け取りません";
 "You will receive subsequent messages from this conversation" = "この会話から後続のメッセージを受け取ります";
 "Your account must be enabled and connected, to be removed from the server!" = "サーバーから削除するには、アカウントを有効にして接続する必要があります！";
@@ -1474,7 +1474,7 @@
 "Your contact may not support calls. Your call might never reach its destination." = "相手先が通話に対応していない可能性があります。電話が宛先に届かないかもしれません。";
 "Your entered XMPP ID is missing the domain" = "入力された XMPP ID にドメインがありません";
 "Your entered XMPP ID is missing the username" = "入力された XMPP ID にユーザー名がありません";
-"Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!";
+"Your server announced channel-binding types but did not offer any SCRAM-PLUS methods. This is likely an ongoing man-in-the-middle attack (but could also be a server misconfiguration), disabling account!" = "サーバーはチャネルバインディングタイプを通知しましたが、SCRAM-PLUS方式を提供していません。これは中間者攻撃（MITM攻撃）が進行中である可能性が高いですが、サーバーの設定ミスの可能性もあります。アカウントを無効にしました！";
 "Your server does not provide a MUC component." = "お使いのサーバーにはMUCコンポーネントがありません。";
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "お使いのサーバーはMAM（XEP-0313）に対応していません。そのため、受信メッセージを頻繁に見逃す可能性があります！サーバーを変更するか、サーバー管理者に連絡してMAMを有効にしてもらうことをおすすめします！";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "お使いのサーバーはPUSH（XEP-0357）に対応していません。そのため、新しい受信メッセージを取得するには、手動でアプリを開く必要があります！サーバーを変更するか、サーバー管理者に連絡してPUSHを有効にしてもらうことをおすすめします！";
