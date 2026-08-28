@@ -1332,7 +1332,7 @@
 "Unexpected error processing your request." = "リクエストの処理中に予期しないエラーが発生しました。";
 "Unexpected error while checking type of jid, please try again" = "JID の型をチェックする際に予期しないエラーが発生しました。もう一度お試しください";
 "Unexpected error while checking type of jid:" = "ID の型をチェックする際の予期しないエラー:";
-"Unexpected mam preferences result" = "予期しないMAM設定結果";
+"Unexpected mam preferences result" = "予期しないmam設定結果";
 "Unexpected server response: invalid PEP config form" = "予期しないサーバー応答: 無効なPEP設定フォーム";
 "Unexpected server response: missing required fields in PEP config form" = "予期しないサーバー応答: PEP設定フォームに必須フィールドがありません";
 /* quicksy country */
@@ -1479,7 +1479,7 @@
 "Your server does not support MAM (XEP-0313). That means you could frequently miss incoming messages!! You should switch your server or talk to the server admin to enable this!" = "お使いのサーバーはMAM（XEP-0313）に対応していません。そのため、受信メッセージを頻繁に見逃す可能性があります！サーバーを変更するか、サーバー管理者に連絡してMAMを有効にしてもらうことをおすすめします！";
 "Your server does not support PUSH (XEP-0357). That means you have to manually open the app to retrieve new incoming messages!! You should switch your server or talk to the server admin to enable this!" = "お使いのサーバーはPUSH（XEP-0357）に対応していません。そのため、新しい受信メッセージを取得するには、手動でアプリを開く必要があります！サーバーを変更するか、サーバー管理者に連絡してPUSHを有効にしてもらうことをおすすめします！";
 "Your server does not support Stream Management (XEP-0198). That means your outgoing messages can get lost frequently!! You should switch your server or talk to the server admin to enable this!" = "お使いのサーバーはストリーム管理（XEP-0198）に対応していません。そのため、送信メッセージが頻繁に失われる可能性があります！サーバーを変更するか、サーバー管理者に連絡してストリーム管理を有効にしてもらうことをおすすめします！";
-"Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!";
+"Your server offered SCRAM-PLUS methods, but did not announce any channel-binding types using XEP-0440 which is mandatory by XEP-0388. This is either an ongoing man-in-the-middle attack or a server misconfiguration, disabling account!" = "サーバーはSCRAM-PLUS方式を提供しましたが、XEP-0388で必須とされているXEP-0440を使用したチャネルバインディングタイプを通知しませんでした。これは中間者攻撃（MITM攻撃）が進行中であるか、サーバーの設定ミスのいずれかであるため、アカウントを無効にしました！";
 "Your status" = "状況";
 "Your XMPP jid should be in in the format user@domain.tld. For special configurations, use manual setup." = "XMPP JID は user@domain.tld の形式である必要があります。特殊な場合は、手動セットアップを使用してください。";
 /* quicksy country */
