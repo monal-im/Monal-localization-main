@@ -238,16 +238,16 @@
 "Canada" = "Kanada";
 "Cancel" = "Zrušit";
 "Cancel?" = "Zrušit?";
-"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Nelze sdílet obsah se zakázaným/smazaným účtem, příjemce: %@, interní id účtu: %@";
+"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Nelze sdílet obsah se zakázaným/smazaným účtem, příjemce: %@, interní ID účtu: %@";
 /* quicksy country */
 "Cape Verde" = "Kapverdy";
 "Caps hash: %@" = "Hash schopností: %@";
 /* placeholder when creating account */
-"Captcha" = "Captcha";
+"Captcha" = "CAPTCHA";
 /* quicksy country */
 "Cayman Islands" = "Kajmanské ostrovy";
 /* quicksy country */
-"Central African Rep." = "Středoafrická republika.";
+"Central African Rep." = "Středoafrická republika";
 /* quicksy country */
 "Chad" = "Čad";
 "Change affiliation" = "Změnit přidružení";
@@ -294,12 +294,12 @@
 "Connectivity issues" = "Potíže s připojením";
 /* server details */
 "Considerations for Server Administrators" = "Doporučení pro správce serverů";
-"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Kontaktní a skupinové/kanálové jid jsou obvykle ve formátu: name@domain.tld";
+"Contact and Group/Channel Jids are usually in the format: name@domain.tld" = "Identifikátory JID kontaktů a skupin/kanálů mají obvykle formát: name@domain.tld";
 "Contact is muted" = "Kontakt je ztlumený";
 "Contact is not muted" = "Kontakt není ztlumený";
 "Contact not found" = "Kontakt nenalezen";
 /* placeholder when adding jid */
-"Contact or Group/Channel Jid" = "Jid kontaktu nebo skupiny/kanálu";
+"Contact or Group/Channel Jid" = "JID kontaktu nebo skupiny/kanálu";
 "Contact Selection" = "Výběr kontaktů";
 "Contacts" = "Kontakty";
 /* quicksy country */
@@ -358,7 +358,7 @@
 /* quicksy country */
 "Cyprus" = "Kypr";
 /* quicksy country */
-"Czech Rep." = "Česká republika.";
+"Czech Rep." = "Česko";
 "Database Export Failed" = "Export databáze se nezdařil";
 "Database Files" = "Soubory databáze";
 "Debug" = "Ladění";
@@ -385,13 +385,13 @@
 "Destroying group..." = "Rušení skupiny…";
 "Details..." = "Podrobnosti…";
 /* OMEMO warning shown as notification */
-"Detected a new %@ omemo device on your account: %@" = "Na vašem účtu bylo zjištěno nové zařízení %1$@ omemo: %2$@";
+"Detected a new %@ omemo device on your account: %@" = "Na vašem účtu bylo zjištěno nové zařízení OMEMO typu %1$@: %2$@";
 "Detected ongoing MITM attack via SSDP, aborting authentication and disabling account to limit damage. You should try to reenable your account once you are in a clean networking environment again." = "Byl zjištěn probíhající útok MITM přes SSDP. Ověřování bylo přerušeno a účet deaktivován, aby se omezily škody. Až se znovu ocitnete v bezpečném síťovém prostředí, zkuste účet znovu aktivovat.";
 "Device ID: " = "ID zařízení: ";
 "Device Locked" = "Zařízení uzamčeno";
 "Devices of %@" = "Zařízení uživatele %@";
 /* quicksy country */
-"Diego Garcia" = "Diego García";
+"Diego Garcia" = "Diego Garcia";
 "Disable Encryption" = "Vypnout šifrování";
 "Disable encryption. This is dangerous!" = "Vypnout šifrování. Je to nebezpečné!";
 "Disable encryption?" = "Vypnout šifrování?";
@@ -417,7 +417,7 @@
 /* quicksy country */
 "Dominica" = "Dominika";
 /* quicksy country */
-"Dominican Rep." = "Dominikánská republika.";
+"Dominican Rep." = "Dominikánská republika";
 "Don't show onboarding" = "Nezobrazovat úvodní nastavení";
 "Don't trust Key" = "Nedůvěřovat klíči";
 "Done" = "Hotovo";
@@ -428,7 +428,7 @@
 "Draft:" = "Koncept:";
 "Duplicate Account" = "Duplikovat účet";
 "Duplicate Account!" = "Duplicitní účet!";
-"Duplicate jid!" = "Duplicitní jid!";
+"Duplicate jid!" = "Duplicitní JID!";
 /* Crash report error dialog */
 "E-Mail not enabled on device" = "E-mail není v zařízení povolen";
 /* quicksy country */
@@ -529,7 +529,7 @@
 "Failed to query for new messages for Group/Channel (catchup) %@" = "Nepodařilo se vyhledat nové zprávy pro skupinu/kanál (dohánění) %@";
 "Failed to query for new messages on account %@" = "Chyba při dotazování na nové zprávy v účtu %@";
 "Failed to query newest stanzaid for account %@" = "Chyba při získávání nejnovějšího StanzaID pro účet %@";
-"Failed to query newest stanzaid for Group/Channel %@" = "Nepodařilo se zjistit nejnovější stanzaid pro skupinu/kanál %@";
+"Failed to query newest stanzaid for Group/Channel %@" = "Nepodařilo se zjistit nejnovější ID stanza pro skupinu/kanál %@";
 "Failed to remove bookmark for Group/Channel: %@" = "Nepodařilo se odebrat záložku skupiny/kanálu: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Nepodařilo se uložit záložku skupiny/kanálu: %@";
 "Failed to save groupchat bookmarks" = "Chyba při ukládání záložek skupinových chatů";
@@ -689,7 +689,7 @@
 /* quicksy country */
 "Kyrgyzstan" = "Kyrgyzstán";
 /* quicksy country */
-"Lao P.D.R." = "Laoská lidově demokratická republika.";
+"Lao P.D.R." = "Laoská lidově demokratická republika";
 "Last incoming push: %@" = "Poslední příchozí oznámení push: %@";
 "Last incoming push: unknown" = "Poslední příchozí oznámení push: neznámé";
 "Last seen: %@" = "Naposledy spatřen: %@";
@@ -730,7 +730,7 @@
 "Loading Data" = "Nahrávám data";
 "Loading more Messages from Server" = "Načítání dalších zpráv ze serveru";
 "Loading omemo bundles" = "Načítání informací OMEMO";
-"Loading omemo bundles: %@ / %@" = "Načítání balíčků omemo: %@ / %@";
+"Loading omemo bundles: %@ / %@" = "Načítání balíčků OMEMO: %@ / %@";
 "Loading OMEMO keys" = "Načítání klíčů OMEMO";
 "Location Access Needed" = "Vyžadován přístup k poloze";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Přihlašte se svým účtem nebo si vytvořte nový. Pokročilé možnosti v případě potřeby najdete v nastavení aplikace Monal.";
@@ -774,7 +774,7 @@
 "Message was encrypted with '%@' which isn't supported by Monal" = "Zpráva byla šifrována pomocí '%@' , který není podporován Monalem";
 "Message was encrypted with OMEMO and can't be decrypted anymore" = "Zpráva byla šifrována pomocí OMEMO a již není možné ji dešifrovat";
 "Message was encrypted with OMEMO but could not be decrypted" = "Zpráva byla šifrována pomocí OMEMO, ale nebylo možné ji dešifrovat";
-"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "Zpráva nebyla pro toto zařízení zašifrována. Ujistěte se prosím, že odesílatel důvěřuje zařízení s id %u.";
+"Message was not encrypted for this device. Please make sure the sender trusts deviceid %u." = "Zpráva nebyla zašifrována pro toto zařízení. Ujistěte se, že odesílatel důvěřuje zařízení s ID %u.";
 "Messages are encrypted" = "Zprávy jsou šifrovány";
 "Messages are NOT encrypted" = "Zprávy NEJSOU šifrovány";
 "Messages never archived by default." = "Zprávy nejsou nikdy archivovány jako výchozí nastavení.";
@@ -829,7 +829,7 @@
 /* quicksy country */
 "New Caledonia" = "Nová Kaledonie";
 "New Message" = "Nová zpráva";
-"New omemo device" = "Nové omemo zařízení";
+"New omemo device" = "Nové zařízení OMEMO";
 "New Password" = "Nové heslo";
 /* quicksy country */
 "New Zealand" = "Nový Zéland";
@@ -941,12 +941,12 @@
 "Please add a new account under settings first. If you already added your account you may need to enable it under settings" = "Nejprve, prosím, přidejte účet v nastavení. Pokud jste tak již učinili, bude ho možná potřeba v nastavení povolit";
 "Please Allow Audio Access" = "Povolte, prosím, přístup ke zvuku";
 "Please enter a password below before activating this account." = "Zadejte, prosím, heslo před aktivováním tohoto účtu.";
-"Please enter the six-digit pin below" = "Zadejte prosím níže šestimístný pin";
+"Please enter the six-digit pin below" = "Níže zadejte šestimístný kód PIN";
 "Please make sure at least one account has connected before trying to add a contact or channel." = "Ujistěte se, prosím, že alespoň jeden účet je připojen, než se pokusíte přidat kontakt nebo kanál.";
 "Please make sure at least one account has connected before trying to create new group." = "Před vytvořením nové skupiny se ujistěte, že byl připojen alespoň jeden účet.";
 "Please make sure you are connected before changing your password." = "Před tím, než se pokusíte změnit Vaše heslo, ujistěte se, prosím, že jste připojeni.";
 "Please make sure you have entered a username, password." = "Ujistěte se, prosím, že jste zadali uživatelské jméno a heslo.";
-"Please make sure you have entered a valid jid." = "Ujistěte se prosím, že jste zadali platné jid.";
+"Please make sure you have entered a valid jid." = "Ujistěte se, že jste zadali platný identifikátor JID.";
 "Please make sure you have entered both a username and password." = "Ujistěte se, že jste zadali uživatelské jméno i heslo.";
 "Please make sure you have entered the same password in both password fields." = "Ujistěte se, že jste do obou polí zadali stejné heslo.";
 "Please provide a valid XMPP server domain or select one." = "Zadejte platnou doménu serveru XMPP nebo ji vyberte.";
@@ -1170,7 +1170,7 @@
 "Switzerland" = "Švýcarsko";
 "Synchronize your messages on all loggedin devices." = "Synchronizujte své zprávy na všech připojených zařízeních.";
 /* Accessibility label for the network/sync activity indicator shown in the chats toolbar when XMPP accounts or file transfers are active */
-"Syncing" = "Synchronizace";
+"Syncing" = "Syncing";
 /* quicksy country */
 "Syrian Arab Republic" = "Syrská arabská republika";
 /* quicksy country */
@@ -1197,19 +1197,19 @@
 "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "Následující tlačítka umožňují vynutit pád aplikace několika různými způsoby a otestovat tak zpracování pádu.";
 /* quicksy country */
 "The Former Yugoslav Republic of Macedonia" = "Bývalá jugoslávská republika Makedonie";
-"The jid you want to add should be in in the format user@domain.tld." = "Jid, který chcete přidat, by měl být ve formátu user@domain.tld.";
+"The jid you want to add should be in in the format user@domain.tld." = "Identifikátor JID, který chcete přidat, musí mít formát user@domain.tld.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "Klíč je ve stavu, který nyní není správně zpracován. Pokud se vám tato výzva zobrazí, kontaktujte prosím vývojáře.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "Nový kontakt bude přidán do Vašeho seznamu, jakmile potvrdí Vaši žádost.";
 "The operator of the webserver providing that URL may see your IP address." = "Provozovatel webového serveru na daném URL může vidět Vaši IP adresu.";
 "The password has been changed" = "Heslo bylo změněno";
-"The pin we have sent you has expired." = "Pin, který jsme vám zaslali, vypršel.";
-"The pin you have entered is incorrect." = "Zadaný pin je nesprávný.";
+"The pin we have sent you has expired." = "Kód PIN, který jsme vám poslali, vypršel.";
+"The pin you have entered is incorrect." = "Zadaný kód PIN je nesprávný.";
 /* QR-Code-Scanner: account scan wrong menu */
-"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "qr kód obsahuje přihlašovací údaje k účtu. Přejděte do Nastavení -> Nový účet a qr kód znovu";
+"The qrcode contains login credentials for an acount. Go to settings -> new account and rescan the qrcode" = "QR kód obsahuje přihlašovací údaje k účtu. Přejděte do Nastavení → Nový účet a QR kód znovu naskenujte";
 "The resource '%@' has the following capabilities:" = "Prostředek „%@“ má následující schopnosti:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "Nabízené XMPP servery jsou veřejné a nemají žádné vazby na Monal. Tato stránka existuje pouze pro usnadnění registrace.";
 "The server does not support blocking (XEP-0191)." = "Server nepodporuje blokování (XEP-0191).";
-"The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "Server se vás pokusil připojit k jid „%1$@“, ale máte nastaveno „%2$@“, účet se deaktivuje!";
+"The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "Server se vás pokusil svázat s JID „%1$@“, ale nakonfigurovali jste „%2$@“. Účet byl deaktivován!";
 "The UDP logger allows you to livestream the log to the configured IP." = "Protokolování přes UDP umožňuje živě přenášet protokol na nastavenou IP adresu.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "Protokolování přes UDP umožňuje živě přenášet protokol na nastavenou IP adresu. Při přenosu přes internet používejte bezpečný klíč!\n[Jak přijímat datový proud protokolu](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
 "The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "Uživatel %1$@ (%2$@) zamítl vaši žádost o kontakt. Pokud se domníváte, že šlo o omyl, můžete to zkusit znovu.";
