@@ -334,7 +334,7 @@
 "Could not init video session" = "Videosessiooni valmendamine ei õnnestunud";
 "Could not join group/channel '%@': timeout" = "„%@“ kanaliga/grupiga liitumine ei õnnestunud aegumise tõttu";
 "Could not read captcha!" = "Robotilõksu lugemine ei õnnestunud!";
-"Could not register your username. Please check your code or change the username and try again." = "Could not register your username. Please check your code or change the username and try again.";
+"Could not register your username. Please check your code or change the username and try again." = "Sinu kasutajanime registreerimine ei õnnestunud. Palun kontrolli oma koodi või muuda kasutajanime ja proovi uuesti.";
 "Could not send" = "Saatmine ei õnnestunud";
 "Could not upload file" = "Faili üleslaadimine ei õnnestunud";
 "Country:" = "Riik:";
@@ -365,8 +365,8 @@
 "Debug Notification Problems" = "Tuvasta teavituste vigu";
 "Debugging" = "Veaotsing ja silumine";
 "Default Background" = "Vaikimisi taust";
-"Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified.";
-"Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription." = "Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription.";
+"Defines a proposed modification to the XMPP roster protocol that enables versioning of rosters such that the server will not send the roster to the client if the roster has not been modified." = "Määratleb XMPP-kontaktiloendi protokollile esitatud muudatusettepaneku, mis võimaldab kontaktiloendite versioonide haldamist nii, et server ei saada kontaktiloendit kliendile, kui seda ei ole muudetud.";
+"Defines a protocol and URI scheme for pre-authenticated roster links that allow a third party to automatically obtain the user's presence subscription." = "Määratleb eelautentimise läbinud kontaktiloendi linkide protokolli ja URI-skeemi, mis võimaldavad kolmandatel isikutel automaatselt saada kasutaja kohalolekuandmeid.";
 /* Chat msg action */
 "Delete" = "Kustuta";
 "Delete Account" = "Kustuta kasutajakonto";
@@ -396,14 +396,14 @@
 "Disable encryption. This is dangerous!" = "Lülita krüptimine välja. See on ebaturvaline ja ohtlik!";
 "Disable encryption?" = "Kas lülitame krüptimise välja?";
 "Discovering devices..." = "Tuvastan seadmeid...";
-"Dismiss" = "Dismiss";
+"Dismiss" = "Loobu";
 "Display Name" = "Kuvatav nimi";
 "Display Name And Message" = "Näita nime ja sõnumit";
 "Display Only Name" = "Näita vaid nime";
 "Display Only Placeholder" = "Näita vaid kohatäidet";
 /* quicksy country */
 "Djibouti" = "Djibouti";
-"Do you really want to block this contact? You won't receive any messages from this contact." = "Do you really want to block this contact? You won't receive any messages from this contact.";
+"Do you really want to block this contact? You won't receive any messages from this contact." = "Kas kindlasti soovid selle kontakti blokeerida? Sel puhul sa ei saa antud kontaktilt enam ühtegi sõnumit.";
 "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again.";
 "Do you really want to delete this key?" = "Kas sa kindlasti soovid selle võtme kustutada?";
 "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards." = "Do you really want to destroy this channel? Every member will be kicked out and it will be destroyed afterwards.";
@@ -454,7 +454,7 @@
 "Encryption Keys" = "Krüptovõtmed";
 "Encryption Keys (OMEMO)" = "Krüptovõtmed (OMEMO)";
 "Encryption Not Supported" = "Krüptimine pole toetatud";
-"Enter the jid that you want to block" = "Sisesta JID, mida tahad blokeerida";
+"Enter the jid that you want to block" = "Sisesta kasutajatunnus (JID), mida tahad blokeerida";
 "Enter your new password. Passwords may not be empty. They may also be governed by server or company policies." = "Sisesta oma uus salasõna, mille väärtus ei saa olla tühi olla. Lisaks võivad kehtida organisatsiooni- või serverikohased reeglid.";
 "Enter your password here" = "Sisesta oma salasõna siia";
 "Enter your XMPP ID here" = "Sisesta oma XMPP ID siia";
@@ -800,8 +800,8 @@
 "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key.";
 /* Camera permissions missing warning */
 "Monal is not allowed to access the camera" = "Monalil puudub ligipääs kaamerale";
-"Monal was not able to send any of your attachments: %@" = "Monal was not able to send any of your attachments: %@";
-"Monal was not able to send some of your attachments: %@" = "Monal was not able to send some of your attachments: %@";
+"Monal was not able to send any of your attachments: %@" = "Monal ei suutnud ühtegi sinu lisatud manust edastada: %@";
+"Monal was not able to send some of your attachments: %@" = "Monal ei suutnud mõnda sinu lisatud manust edastada: %@";
 "Monal was not able to send your attachment!" = "Monal ei suutnud sinu manust edastada!";
 "Monal was not able to send your attachment: %@" = "Monal ei suutnud seda manust edastada: %@";
 /* quicksy country */
@@ -983,7 +983,7 @@
 "Quote" = "Tsiteeri";
 "Rate Monal" = "Arvusta Monalit";
 "Really remove avatar?" = "Kas tõesti tahad tunnuspildi eemaldada?";
-"Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "Receive push notifications via Apple even when disconnected. Vastly improves reliability.";
+"Receive push notifications via Apple even when disconnected. Vastly improves reliability." = "Saad Apple'i kaudu tõuketeavitusi isegi siis, kui ühendus on katkenud. See parandab oluliselt töökindlust.";
 /* directory for downloaded audios */
 "Received Audios" = "Vastuvõetud helifailid";
 /* directory for downloaded files */
@@ -1073,7 +1073,7 @@
 "Select Action" = "Vali tegevus";
 "Select background image" = "Vali taustapilt";
 "Select Message Archive Management (MAM) Preferences " = "Vali sõnumite serveris säilitamise (Message Archive Management - MAM) eelistused ";
-"Select sounds that are played with new message notifications. Default is Xylophone." = "Select sounds that are played with new message notifications. Default is Xylophone.";
+"Select sounds that are played with new message notifications. Default is Xylophone." = "Vali helid, mida esitatakse uute sõnumite saabumisel. Vaikimisi valik on Xylophone.";
 "Selected Group Members" = "Valitud grupiliikmed";
 "Send" = "Saada";
 "Send current location?" = "Kas saada oma praeguse asukoha?";
@@ -1170,7 +1170,7 @@
 "Switzerland" = "Šveits";
 "Synchronize your messages on all loggedin devices." = "Sünkrooni kõik oma sõnumid seadmetesse, kuhu oled sisse loginud.";
 /* Accessibility label for the network/sync activity indicator shown in the chats toolbar when XMPP accounts or file transfers are active */
-"Syncing" = "Syncing";
+"Syncing" = "Sünkroonin";
 /* quicksy country */
 "Syrian Arab Republic" = "Süüria";
 /* quicksy country */
@@ -1197,7 +1197,7 @@
 "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling." = "The following buttons allow you to forcefully crash the app using several different methods to test the crash handling.";
 /* quicksy country */
 "The Former Yugoslav Republic of Macedonia" = "North Macedonia";
-"The jid you want to add should be in in the format user@domain.tld." = "The jid you want to add should be in in the format user@domain.tld.";
+"The jid you want to add should be in in the format user@domain.tld." = "Sinu lisatav XMPP kasutajatunnus ehk JID peaks olema vormingus kasutaja@domeen.tld.";
 "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt." = "The key is in a state that is currently not correctly handled. Please contact the developers if you see this prompt.";
 "The new contact will be added to your contacts list when the person you've added has approved your request." = "The new contact will be added to your contacts list when the person you've added has approved your request.";
 "The operator of the webserver providing that URL may see your IP address." = "The operator of the webserver providing that URL may see your IP address.";
@@ -1213,11 +1213,11 @@
 "The UDP logger allows you to livestream the log to the configured IP." = "UDP-logija abil saad reaalajas edastada logiandmed seadistatud IP-aadressile.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP-logija abil saad reaalajas edastada logiandmed seadistatud IP-aadressile. Palun kasuta voogedastusel üle interneti krüptimist!\n[Lisateave voogedastatud logi salvestamiseks](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
 "The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "The user %1$@ (%2$@) denied your contact request. You can try again, if you think this was a mistake.";
-"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "The user %1$@ (%2$@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake.";
+"The user %@ (%@) removed you from their contact list. You can send out a new contact request, if you think this was a mistake." = "Kasutaja %1$@ (%2$@) eemaldas sind oma kontaktiloendist. Kui arvad, et see oli viga, siis võid saata uue kontaktipäringu.";
 "The user %@ (%@) wants to add you to their contact list" = "%1$@ (%2$@) kasutaja soovib sind lisada oma kontaktiloendisse";
 "The username does not need to have an @ symbol. Please try again." = "Kasutajanimes ei pea leiduma @ märki. Palun proovi uuesti.";
 "There is no configured email account. Please email info@monal-im.org ." = "Seadistatud e-posti kontot ei leidu. Palun saada e-kiri aadressile info@monal-im.org .";
-"There was a SASL error on the server." = "There was a SASL error on the server.";
+"There was a SASL error on the server." = "Serveri poolel tekkis SASL-liidestuse viga.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person." = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person.";
 "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)" = "There was an error decrypting this encrypted message (Signal error). To resolve this, try sending an encrypted message to this person. (%@)";
 "These are important privacy settings you may want to review!" = "Need on olulised privaatsusseadistused, mida ilmselt soovid üle vaadata!";
@@ -1237,7 +1237,7 @@
 "This account already exists on this instance." = "Selline kasutajakonto juba on antud serveris olemas.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "See rakendus on liiga vana ning siin võib olla nii turvavigu kui mitte eesmärgipärast toimimist. Palun uuenda rakendus!";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Seda võid kasutada logifailide eksportimiseks.\n[Vaata lisateavet siit](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
-"This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong.";
+"This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "Sellel kontaktil ei tundu olema ühtegi seadet, mis toetaks krüptimist. Kui arvad, et see pole nii, siis proovi uuesti.";
 "This contact is already in the contact list of the selected account" = "See kontakt on juba valitud kasutajakonto kontaktiloendis";
 "This contact is already in your contact list" = "See kontakt juba leidub sinu kontaktiloendis";
 "This contact may not support OMEMO encrypted messages. Please try again in a few seconds." = "Võib-olla see kontakt ei toeta OMEMO-ga krüptitud sõnumeid. Palun proovi mõne sekundi pärast uuesti.";
@@ -1496,4 +1496,4 @@
 "🔗 A Link" = "🔗 Link";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution.";
 "Patch level: %@" = "Patch level: %@";
-"This can be used to export logfiles." = "This can be used to export logfiles.";
+"This can be used to export logfiles." = "Seda võid kasutada logifailide eksportimiseks.";
