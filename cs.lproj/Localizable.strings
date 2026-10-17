@@ -5,7 +5,7 @@
 "%@" = "%@";
 "%@ (%@)" = "%@ (%@)";
 "%@ (affiliation: %@)" = "%@ (příslušnost: %@)";
-"%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
+"%@ (type '%@', category '%@')" = "%@ (typ '%@', kategorie '%@')";
 "%@ hours" = "%@ hodin";
 "%@ says:" = "%@ říká:";
 "%@: " = "%@: ";
@@ -513,7 +513,7 @@
 "Failed to destroy group/channel '%@'" = "Skupinu/kanál „%@“ se nepodařilo zrušit";
 "Failed to destroy group/channel '%@': timeout" = "Skupinu/kanál „%@“ se nepodařilo zrušit: vypršel časový limit";
 "Failed to download file: %@" = "Soubor se nepodařilo stáhnout: %@";
-"Failed to enable carbons for account %@" = "Nebylo možné povolit XEP-0280 (Message Carbons) v účtu %@";
+"Failed to enable carbons for account %@" = "Nepodařilo se povolit kopie zpráv pro účet %@";
 "Failed to encrypt file" = "Chyba při dešifrování souboru";
 "Failed to enter Group/Channel %@" = "Nepodařilo se vstoupit do skupiny/kanálu %@";
 "Failed to enter Group/Channel %@: This is not a Group/Channel!" = "Nepodařilo se vstoupit do skupiny/kanálu %@: Toto není skupina/kanál!";
@@ -1388,7 +1388,7 @@
 "Verify your phone number" = "Ověřte své telefonní číslo";
 "Version" = "Verze";
 /* server details */
-"version %@%@" = "verze %1$@%2$@";
+"version %@%@" = "verze %@%@";
 "Very old app version" = "Velmi stará verze aplikace";
 /* quicksy country */
 "Viet Nam" = "Vietnam";
@@ -1499,5 +1499,5 @@
 "📷 An Image" = "📷 Obrázek";
 "🔗 A Link" = "🔗 Odkaz";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Decentralizovaná síť:\nVyužívá decentralizovanou povahu XMPP, vyhýbá se centrálním serverům a posiluje vaši digitální suverenitu.\n\n🌐 Soukromí dat:\nInformace neprodáváme ani nesledujeme pro externí subjekty (ani pro nikoho jiného).\n\n🔐 Koncové šifrování:\nBezpečné zasílání zpráv mezi více koncovými zařízeními pomocí protokolu OMEMO.\n\n👨‍💻 Otevřený zdrojový kód:\nZdrojový kód aplikace je veřejně dostupný k auditu a přispívání.";
-"Patch level: %@" = "Patch level: %@";
-"This can be used to export logfiles." = "This can be used to export logfiles.";
+"Patch level: %@" = "Úroveň opravy: %@";
+"This can be used to export logfiles." = "Toto lze použít k exportu souborů protokolu.";
