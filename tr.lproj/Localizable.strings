@@ -5,7 +5,7 @@
 "%@" = "%@";
 "%@ (%@)" = "%@ (%@)";
 "%@ (affiliation: %@)" = "%@ (bağlılık: %@)";
-"%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
+"%@ (type '%@', category '%@')" = "%@ (tip ‘%@’, kategori ‘%@’)";
 "%@ hours" = "%@ Saat";
 "%@ says:" = "%@ diyor ki:";
 "%@: " = "%@: ";
@@ -13,12 +13,12 @@
 "1 day" = "1 gün";
 /* Message autdelete time */
 "1 hour" = "1 saat";
-"1 MiB" = "1 MB";
+"1 MiB" = "1 MiB";
 /* Message autdelete time */
 "1 minute" = "1 dakika";
 /* Message autdelete time */
 "1 week" = "1 hafta";
-"100 MiB" = "100 MB";
+"100 MiB" = "100 MiB";
 "100%" = "%100";
 /* Message autdelete time */
 "12 hours" = "12 saat";
@@ -724,9 +724,9 @@
 /* quicksy country */
 "Lithuania" = "Litvanya";
 "Load over Cellular" = "Hücresel Üzerinden Yükle";
-"Load over cellular up to: %@ MiB" = "Hücresel üzerinden en fazla yükle: @ MB";
+"Load over cellular up to: %@ MiB" = "Hücresel ağ üzerinden yüklenebilecek maksimum veri miktarı: %@ MiB";
 "Load over wifi" = "Wifi üzerinden yükle";
-"Load over WiFi up to: %@ MiB" = "WiFi üzerinden en fazla yükle: @ MB";
+"Load over WiFi up to: %@ MiB" = "WiFi üzerinden en fazla %@ MiB yükle";
 "Loading contact list" = "Kişi listesi yükleniyor";
 "Loading Data" = "Veri yükleniyor";
 "Loading more Messages from Server" = "Sunucudan Daha Fazla İleti Yükleniyor";
@@ -738,7 +738,7 @@
 "Logfiles" = "Log dosyaları";
 "Logging in" = "Oturum açma";
 "Login" = "Giriş";
-"Login error, account disabled: %@" = "Oturum açma hatası, hesap devre dışı: % @";
+"Login error, account disabled: %@" = "Giriş hatası, hesap devre dışı bırakıldı: %@";
 "Logs" = "Loglar";
 /* quicksy country */
 "Luxembourg" = "Lüksemburg";
@@ -796,7 +796,7 @@
 "Monal" = "Monal";
 "Monal currently trusts this key, but fingerprints were not compared yet and the contact has not used it for a long time. Consider to disable trust for this key." = "Monal şu anda bu anahtara güveniyor, ancak parmak izleri henüz eşleştirilmedi ve kişi uzun süredir bu anahtarı kullanmıyor. Bu anahtara olan güvenini kaldırmak isteyip istemediğini kontrol et.";
 "Monal currently trusts this key, but fingerprints were not compared yet. To increase security, please confirm with the contact that the displayed fingerprints do match before trusting this key!" = "Monal şu anda bu anahtara güveniyor, ancak parmak izleri henüz karşılaştırılmadı. Güvenliği artırmak için, lütfen bu anahtara güvenmeden önce görüntülenen parmak izlerinin eşleştiğini ilgili kişiyle onaylayın!";
-"Monal did not received a gps location. Please try again later." = "Monal GPS konumunu alamadı. Lütfen daha sonra yeniden deneyin.";
+"Monal did not received a gps location. Please try again later." = "Monal gps konumunu alamadı. Lütfen daha sonra yeniden deneyin.";
 "Monal does not have access to your location. Please update the location access in your device's Privacy Settings." = "Monal'ın konumunuza erişimi yok. Lütfen cihazınızın Gizlilik Ayarlarında konum erişimine izin verin.";
 "Monal does not trust this key. Either it was manually disabled or not manually verified while other keys of that contact are verified. You can trust this key by using the toggle element. Please ensure with the contact that fingerprints are matching before trusting this key." = "Monal bu anahtara güvenmiyor. Ya manuel olarak devre dışı bırakılmıştır ya da bu kişinin diğer anahtarları doğrulanırken manuel olarak doğrulanmamıştır. Geçiş yardımcısını kullanarak bu anahtara güvenebilirsiniz. Lütfen bu anahtara güvenmeden önce kişiyle parmak izlerinin eşleştiğinden emin olun.";
 /* Camera permissions missing warning */
@@ -1005,7 +1005,7 @@
 "Red x-mark shield:" = "Kırmızı x işareti kalkanı:";
 "Refreshing..." = "Yenileniyor...";
 "Register a new account" = "Yeni bir hesap açın";
-"Register with %@" = "@ ile kayıt olun";
+"Register with %@" = "%@ ile kaydolun";
 "Registering account..." = "Hesap kaydediliyor...";
 "Registration Error" = "Kayıt Hatası";
 "Remove %@ from contacts?" = "Kişilerden %@ kaldırılsın mı?";
@@ -1071,7 +1071,7 @@
 "Scroll down to load more messages" = "Daha fazla ileti yüklemek için aşağı kaydırın";
 "Secure channel-binding defined for TLS1.3 and some TLS1.2 connections." = "TLS1.3 ve bazı TLS1.2 bağlantıları için tanımlanmış güvenli channel-binding.";
 "Security" = "Güvenlik";
-"Select a background to display behind conversations with %@" = "@ ile konuşmaların arkasında görüntülenecek bir arka plan seçin";
+"Select a background to display behind conversations with %@" = "%@ ile yapılan sohbetlerin arkasında görüntülenecek bir arka plan seçin";
 "Select a default background to display behind conversations." = "Konuşmaların arkasında görüntülemek için varsayılan bir arka plan seçin.";
 "Select Action" = "Eylem Seç";
 "Select background image" = "Arka plan resmi seçin";
@@ -1212,7 +1212,7 @@
 "The resource '%@' has the following capabilities:" = "'%@' kaynağı aşağıdaki yeteneklere sahiptir:";
 "The selectable XMPP servers are public servers which are not affiliated to Monal. This registration page is provided for convenience only." = "Seçilebilir XMPP sunucuları Monal'a bağlı olmayan genel sunuculardır. Bu kayıt sayfası sadece kolaylık sağlamak için verilmiştir.";
 "The server does not support blocking (XEP-0191)." = "Sunucu engellemeyi desteklemiyor (XEP-0191).";
-"The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "Sunucu, seni %1$@ XMPP adresine bağlamaya çalıştı, ancak sen %2$@ yapılandırdın, bu da hesabın devre dışı kalmasına neden oldu!";
+"The server tried to bind you to jid '%@', but you configured '%@', disabling account!" = "Sunucu sizi '%1$@' jid'sine bağlamaya çalıştı, ancak siz '%2$@' ayarını yaptığınız için hesap devre dışı bırakıldı!";
 "The UDP logger allows you to livestream the log to the configured IP." = "UDP kaydedici, günlüğü yapılandırılmış IP'ye canlı yayınlamanıza olanak tanır.";
 "The UDP logger allows you to livestream the log to the configured IP. Please use a secure key when streaming over the internet!\n[Learn how to receive the log stream](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log)." = "UDP kaydedici, günlüğü yapılandırılmış IP'ye canlı yayınlamanıza olanak tanır. İnternet üzerinden yayın yaparken lütfen güvenli bir anahtar kullanın!\n[Günlük akışını nasıl alacağınızı öğrenin](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#stream-the-log).";
 "The user %@ (%@) denied your contact request. You can try again, if you think this was a mistake." = "Kullanıcı %1$@ (%2$@) iletişim kurma isteğinizi reddetti. Bunun bir hata olduğunu düşünüyorsanız tekrar deneyebilirsiniz.";
@@ -1388,7 +1388,7 @@
 "Verify your phone number" = "Telefon numaranızı doğrulayın";
 "Version" = "Sürüm";
 /* server details */
-"version %@%@" = "version %1$@%2$@";
+"version %@%@" = "Versiyon %@%@";
 "Very old app version" = "Uygulamanın çok eski bir sürümü";
 /* quicksy country */
 "Viet Nam" = "Vietnam";
@@ -1401,7 +1401,7 @@
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "Xmpp ile ilgili bir QR Kodu bulamadık";
 "We don't support any task requested by the server, account disabled: %@" = "Sunucu tarafından talep edilen hiçbir görevi desteklemiyoruz, hesap devre dışı: %@";
-"We don't support the single task requested by the server, account disabled: %@" = "Sunucu tarafından istenen tek bir görevi desteklemiyoruz, hesap devre dışı: % @";
+"We don't support the single task requested by the server, account disabled: %@" = "Sunucu tarafından talep edilen tek görevi desteklemiyoruz, hesap devre dışı bırakıldı: %@";
 "We sent you an SMS to %@" = "Size %@ adresine bir SMS gönderdik";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "Hesabınıza bağlanamadık. Lütfen kullanıcı adınızı ve şifrenizi kontrol edin ve internete bağlı olduğunuzdan emin olun.";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet.\n\nTechnical error message: %@" = "Hesabınıza bağlanamadık. Lütfen kullanıcı adınızı ve şifrenizi kontrol edin ve internete bağlı olduğunuzdan emin olun.\n\nTeknik hata mesajı: %@";
@@ -1451,7 +1451,7 @@
 "Yes" = "Evet";
 "Yes, deactivate encryption" = "Evet, şifrelemeyi devre dışı bırak";
 "You are set up and connected." = "Kuruldu ve bağlandınız.";
-"You are set up and connected. People can message you at: %@@%@" = "Kuruldunuz ve bağlandınız. İnsanlar size şu adresten mesaj gönderebilir: %@@% @";
+"You are set up and connected. People can message you at: %@@%@" = "Kurulumunuz tamamlandı ve bağlantı kuruldu. Kullanıcılar size şu adresten mesaj gönderebilir: %@@%@";
 "You are trying to call '%@' (%@), but this contact can be reached using different accounts. Please select the account you want to place the outgoing call with." = "'%@' (%@) numarasını aramaya çalışıyorsunuz, ancak bu kişiye farklı hesaplar kullanılarak ulaşılabilir. Lütfen giden aramayı yapmak istediğiniz hesabı seçin.";
 "You are using an out of date version of this app." = "Bu uygulamanın güncel olmayan bir sürümünü kullanıyorsunuz.";
 "You can customize even more, just use the button below to open the settings." = "Daha da fazlasını özelleştirebilirsiniz, ayarları açmak için aşağıdaki düğmeyi kullanmanız yeterlidir.";
