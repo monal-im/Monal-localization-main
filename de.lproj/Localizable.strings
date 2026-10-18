@@ -5,7 +5,7 @@
 "%@" = "%@";
 "%@ (%@)" = "%@ (%@)";
 "%@ (affiliation: %@)" = "%@ (Zugehörigkeit: %@)";
-"%@ (type '%@', category '%@')" = "%1$@ (type '%2$@', category '%3$@')";
+"%@ (type '%@', category '%@')" = "%@ (Typ '%@', Kategorie '%@')";
 "%@ hours" = "%@ Stunden";
 "%@ says:" = "%@ sagt:";
 "%@: " = "%@: ";
@@ -530,7 +530,7 @@
 "Failed to query for new messages for Group/Channel (catchup) %@" = "Abfrage nach neuen Nachrichten für Gruppe/Channel (aktualisieren) fehlgeschlagen %@";
 "Failed to query for new messages on account %@" = "Abfrage neuer Nachrichten auf dem Konto %@ fehlgeschlagen";
 "Failed to query newest stanzaid for account %@" = "Abfrage der neuesten Stanza-ID für das Konto %@ fehlgeschlagen";
-"Failed to query newest stanzaid for Group/Channel %@" = "Abfrage der neuesten Stanza-ID für Gruppe/Channel%@ ist fehlgeschlagen";
+"Failed to query newest stanzaid for Group/Channel %@" = "Abfrage der neuesten Stanza-ID für Gruppe/Channel %@ ist fehlgeschlagen";
 "Failed to remove bookmark for Group/Channel: %@" = "Lesezeichen für Gruppe/Channel konnte nicht entfernt werden: %@";
 "Failed to save bookmark for Group/Channel: %@" = "Lesezeichen für Gruppe/Channel konnte nicht gespeichert werden: %@";
 "Failed to save groupchat bookmarks" = "Gruppenchatlesezeichen konnten nicht gespeichert werden";
@@ -1388,7 +1388,7 @@
 "Verify your phone number" = "Überprüfung deiner Telefonnummer";
 "Version" = "Version";
 /* server details */
-"version %@%@" = "version %1$@%2$@";
+"version %@%@" = "Version %@%@";
 "Very old app version" = "Sehr alte App-Version";
 /* quicksy country */
 "Viet Nam" = "Vietnam";
@@ -1400,7 +1400,7 @@
 "Warning" = "Warnung";
 /* QR-Code-Scanner: invalid format */
 "We could not find a xmpp related QR-Code" = "Wir konnten keinen XMPP-bezogenen QR-Code finden";
-"We don't support any task requested by the server, account disabled: %@" = "Wir unterstützen keine vom Server angeforderten Aufgaben, Konto deaktiviert: % @";
+"We don't support any task requested by the server, account disabled: %@" = "Wir unterstützen keine vom Server angeforderten Aufgaben, Konto deaktiviert: %@";
 "We don't support the single task requested by the server, account disabled: %@" = "Wir unterstützen die vom Server angeforderte Einzelaufgabe nicht, Konto deaktiviert: %@";
 "We sent you an SMS to %@" = "Wir haben dir eine SMS an %@ geschickt";
 "We were not able to connect your account. Please check your username and password and make sure you are connected to the internet." = "Wir können keine Verbindung zu deinem Konto herstellen. Bitte überprüfe deinen Benutzernamen und dein Passwort und stelle sicher, dass du mit dem Internet verbunden bist.";
@@ -1499,5 +1499,5 @@
 "📷 An Image" = "📷 Ein Bild";
 "🔗 A Link" = "🔗 Ein Link";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Dezentrales Netzwerk :\nNutzt den dezentralen Aufbau von XMPP, vermeidet zentrale Server und erhöht somit deine digitale Souveränität.\n\n🌐 Datenschutz :\nWir verkaufen oder verfolgen keine Informationen für externe Dritte (und auch für niemanden sonst).\n\n🔐 Ende-zu-Ende-Verschlüsselung :\nSicheres Multi-End-Messaging mit dem OMEMO-Protokoll.\n\n👨‍💻 Open Source :\nDer Quellcode der App ist zur Prüfung und Weitergabe öffentlich zugänglich.";
-"Patch level: %@" = "Patch level: %@";
-"This can be used to export logfiles." = "This can be used to export logfiles.";
+"Patch level: %@" = "Patch-Level: %@";
+"This can be used to export logfiles." = "Dies kann zum Exportieren von Logdateien verwendet werden.";
