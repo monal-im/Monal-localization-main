@@ -403,6 +403,7 @@
 "Display Only Placeholder" = "Zobrazit pouze zástupce";
 /* quicksy country */
 "Djibouti" = "Džibutsko";
+"DNSSEC bug in iOS/macOS" = "DNSSEC bug in iOS/macOS";
 "Do you really want to block this contact? You won't receive any messages from this contact." = "Chcete skutečně zablokovat tento kontakt? Od tohoto kontaktu nebudete dostávat zprávy.";
 "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "Skutečně chcete smazat všechny zprávy v této konverzaci? Pokud používáte OMEMO, nebude ani možné je znovu stáhnout ze serveru.";
 "Do you really want to delete this key?" = "Opravdu chcete tento klíč smazat?";
@@ -933,6 +934,7 @@
 "Password cannot be empty" = "Heslo nesmí být prázdné";
 "Password missing" = "Chybějící heslo";
 "Passwords don't match!" = "Hesla se neshodují!";
+"Patch level: %@" = "Úroveň opravy: %@";
 "Permission Requested" = "Požadováno oprávnění";
 /* quicksy country */
 "Peru" = "Peru";
@@ -1239,6 +1241,7 @@
 "This account already exists on this instance" = "Tento účet již v této instanci existuje";
 "This account already exists on this instance." = "Tento účet již v této instanci existuje.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Tato aplikace je příliš stará, může obsahovat bezpečnostní chyby a může náhle přestat fungovat. Aktualizujte ji!";
+"This can be used to export logfiles." = "Toto lze použít k exportu souborů protokolu.";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Toto lze použít k exportu souborů protokolu.\n[Jak je číst](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "Zdá se, že tento kontakt nemá žádná zařízení podporující šifrování. Pokud se domníváte, že tomu tak není, zkuste to znovu později.";
 "This contact is already in the contact list of the selected account" = "Tento kontakt již je v seznamu kontaktů vybraného účtu";
@@ -1338,6 +1341,7 @@
 "Unexpected mam preferences result" = "Neočekávaný výsledek preferencí MAM";
 "Unexpected server response: invalid PEP config form" = "Neočekávaná odpověď serveru: Neplatný konfigurační formulář PEP";
 "Unexpected server response: missing required fields in PEP config form" = "Neočekávaná odpověď serveru: Chybí vyžadovaná pole v konfiguračním formuláři PEP";
+"Unfortunately iOS (and probably also macOS) has a bug that stops DNSSEC from working at all. You can read more about this at https://monal-im.org/dnssec. You'll have to turn of DNSSEC in the settings to make sure you can connect to your XMPP server until Apple fixes this bug." = "Unfortunately iOS (and probably also macOS) has a bug that stops DNSSEC from working at all. You can read more about this at https://monal-im.org/dnssec. You'll have to turn of DNSSEC in the settings to make sure you can connect to your XMPP server until Apple fixes this bug.";
 /* quicksy country */
 "United Arab Emirates" = "Spojené arabské emiráty";
 /* quicksy country */
@@ -1499,5 +1503,3 @@
 "📷 An Image" = "📷 Obrázek";
 "🔗 A Link" = "🔗 Odkaz";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Decentralizovaná síť:\nVyužívá decentralizovanou povahu XMPP, vyhýbá se centrálním serverům a posiluje vaši digitální suverenitu.\n\n🌐 Soukromí dat:\nInformace neprodáváme ani nesledujeme pro externí subjekty (ani pro nikoho jiného).\n\n🔐 Koncové šifrování:\nBezpečné zasílání zpráv mezi více koncovými zařízeními pomocí protokolu OMEMO.\n\n👨‍💻 Otevřený zdrojový kód:\nZdrojový kód aplikace je veřejně dostupný k auditu a přispívání.";
-"Patch level: %@" = "Úroveň opravy: %@";
-"This can be used to export logfiles." = "Toto lze použít k exportu souborů protokolu.";

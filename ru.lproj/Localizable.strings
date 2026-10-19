@@ -403,6 +403,7 @@
 "Display Only Placeholder" = "Отображать только факт наличия уведомления";
 /* quicksy country */
 "Djibouti" = "Джибути";
+"DNSSEC bug in iOS/macOS" = "DNSSEC bug in iOS/macOS";
 "Do you really want to block this contact? You won't receive any messages from this contact." = "Вы действительно хотите заблокировать этот контакт? Вам не будут доставляться его сообщения.";
 "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "Вы действительно хотите удалить все сообщения этой переписки? При использовании OMEMO вы не сможете снова загрузить их с вашего сервера.";
 "Do you really want to delete this key?" = "Вы действительно хотите удалить этот ключ?";
@@ -933,6 +934,7 @@
 "Password cannot be empty" = "Пароль не может быть пустым";
 "Password missing" = "Отсутствует пароль";
 "Passwords don't match!" = "Пароли не совпадают.";
+"Patch level: %@" = "Patch level: %@";
 "Permission Requested" = "Требуется разрешение";
 /* quicksy country */
 "Peru" = "Перу";
@@ -1239,6 +1241,7 @@
 "This account already exists on this instance" = "Эта учётная запись уже присутствует в этом клиенте";
 "This account already exists on this instance." = "Данная учётная запись уже есть в этом клиенте.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Эта версия приложения устарела, она может как иметь проблемы с безопасностью, так и нестабильно работать. Пожалуйста, обновите приложение.";
+"This can be used to export logfiles." = "This can be used to export logfiles.";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Информация по выгрузке лог-файлов.\n[Узнайте как просматривать лог-файлы](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "У этого контакта нет устройств, поддерживающих шифрование. Попробуйте позже, если считаете, что это не так.";
 "This contact is already in the contact list of the selected account" = "Этот контакт уже присутствует в списке контактов выбранной учётной записи";
@@ -1338,6 +1341,7 @@
 "Unexpected mam preferences result" = "Получены непредусмотренные настройки управления архивом сообщений (MAM)";
 "Unexpected server response: invalid PEP config form" = "Неожиданный ответ сервера: некорректная форма конфигурации Протокола персональных событий (PEP)";
 "Unexpected server response: missing required fields in PEP config form" = "Неожиданный ответ сервера: в форме конфигурации Протокола персональных событий (PEP) пропущены обязательные поля";
+"Unfortunately iOS (and probably also macOS) has a bug that stops DNSSEC from working at all. You can read more about this at https://monal-im.org/dnssec. You'll have to turn of DNSSEC in the settings to make sure you can connect to your XMPP server until Apple fixes this bug." = "Unfortunately iOS (and probably also macOS) has a bug that stops DNSSEC from working at all. You can read more about this at https://monal-im.org/dnssec. You'll have to turn of DNSSEC in the settings to make sure you can connect to your XMPP server until Apple fixes this bug.";
 /* quicksy country */
 "United Arab Emirates" = "Объединенные Арабские Эмираты";
 /* quicksy country */
@@ -1499,5 +1503,3 @@
 "📷 An Image" = "📷 Изображение";
 "🔗 A Link" = "🔗 Ссылка";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Децентрализованная сеть:\nОпирается на федеративную природу XMPP, избегая централизованных серверов и повышая вашу цифровую независимость.\n\n🌐 Защита персональных данных:\nМы не собираем и не продаём информацию о вас посторонним (да и вообще никому).\n\n🔐 Сквозное шифрование:\nЗащищённые групповые сообщения по протоколу OMEMO.\n\n👨‍💻 Свободный проект:\nИсходный код приложения находится в открытом доступе для аудита и доработок.";
-"Patch level: %@" = "Patch level: %@";
-"This can be used to export logfiles." = "This can be used to export logfiles.";

@@ -403,6 +403,7 @@
 "Display Only Placeholder" = "ஒதுக்கிடத்தை மட்டுமே காண்பி";
 /* quicksy country */
 "Djibouti" = "சிபூட்டி";
+"DNSSEC bug in iOS/macOS" = "DNSSEC bug in iOS/macOS";
 "Do you really want to block this contact? You won't receive any messages from this contact." = "இந்த தொடர்பைத் தடுக்க நீங்கள் உண்மையில் விரும்புகிறீர்களா? இந்த தொடர்பிலிருந்து நீங்கள் எந்த செய்திகளையும் பெற மாட்டீர்கள்.";
 "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "இந்த உரையாடலில் பரிமாறிக்கொள்ளப்பட்ட அனைத்து செய்திகளையும் அழிக்க விரும்புகிறீர்களா? ஓமமோவைப் பயன்படுத்தினால், அவற்றை மீண்டும் உங்கள் சேவையகத்திலிருந்து ஏற்ற முடியாது.";
 "Do you really want to delete this key?" = "இந்த விசையை நீக்க விரும்புகிறீர்களா?";
@@ -933,6 +934,7 @@
 "Password cannot be empty" = "கடவுச்சொல் காலியாக இருக்கக்கூடாது";
 "Password missing" = "கடவுச்சொல் இல்லை";
 "Passwords don't match!" = "கடவுச்சொற்கள் பொருந்தவில்லை!";
+"Patch level: %@" = "Patch level: %@";
 "Permission Requested" = "அனுமதி கோரப்பட்டது";
 /* quicksy country */
 "Peru" = "பெரு";
@@ -1239,6 +1241,7 @@
 "This account already exists on this instance" = "இந்த கணக்கு ஏற்கனவே இந்த நிகழ்வில் உள்ளது";
 "This account already exists on this instance." = "இந்த கணக்கு ஏற்கனவே இந்த நிகழ்வில் உள்ளது.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "இந்த பயன்பாடு மிகவும் பழையது மற்றும் பாதுகாப்பு பிழைகள் மற்றும் திடீரென்று செயல்பாட்டை நிறுத்தலாம். தயவுசெய்து மேம்படுத்தவும்!";
+"This can be used to export logfiles." = "This can be used to export logfiles.";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "லாக்ஃபைல்களை ஏற்றுமதி செய்ய இதைப் பயன்படுத்தலாம்.\n .";
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "இந்த தொடர்புக்கு குறியாக்கத்தை ஆதரிக்கும் எந்த சாதனங்களும் இருப்பதாகத் தெரியவில்லை, இது தவறு என்று நீங்கள் நினைத்தால் தயவுசெய்து மீண்டும் முயற்சிக்கவும்.";
 "This contact is already in the contact list of the selected account" = "இந்த தொடர்பு ஏற்கனவே தேர்ந்தெடுக்கப்பட்ட கணக்கின் தொடர்பு பட்டியலில் உள்ளது";
@@ -1338,6 +1341,7 @@
 "Unexpected mam preferences result" = "எதிர்பாராத மாம் விருப்பத்தேர்வுகள் முடிவு";
 "Unexpected server response: invalid PEP config form" = "எதிர்பாராத சேவையக பதில்: தவறான PEP கட்டமைப்பு படிவம்";
 "Unexpected server response: missing required fields in PEP config form" = "எதிர்பாராத சேவையக பதில்: PEP கட்டமைப்பு வடிவத்தில் தேவையான புலங்களைக் காணவில்லை";
+"Unfortunately iOS (and probably also macOS) has a bug that stops DNSSEC from working at all. You can read more about this at https://monal-im.org/dnssec. You'll have to turn of DNSSEC in the settings to make sure you can connect to your XMPP server until Apple fixes this bug." = "Unfortunately iOS (and probably also macOS) has a bug that stops DNSSEC from working at all. You can read more about this at https://monal-im.org/dnssec. You'll have to turn of DNSSEC in the settings to make sure you can connect to your XMPP server until Apple fixes this bug.";
 /* quicksy country */
 "United Arab Emirates" = "ஐக்கிய அராபிய எமிரேட்சு";
 /* quicksy country */
@@ -1499,5 +1503,3 @@
 "📷 An Image" = "ஒரு படம்";
 "🔗 A Link" = "ஒரு இணைப்பு";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 பரவலாக்கப்பட்ட நெட்வொர்க்:\n எக்ச்எம்பிபியின் பரவலாக்கப்பட்ட தன்மையை மேம்படுத்துகிறது, நடு சேவையகங்களைத் தவிர்த்து, உங்கள் டிசிட்டல் இறையாண்மையை அதிகரிக்கிறது.\n\n தனியுரிமை:\n வெளிப்புறக் கட்சிகளுக்கான தகவல்களை நாங்கள் விற்கவோ கண்காணிக்கவோ இல்லை (அல்லது வேறு யாருக்கும்).\n\n End இறுதி முதல் இறுதி குறியாக்கம்:\n OMEMO நெறிமுறையைப் பயன்படுத்தி பாதுகாப்பான மல்டி-எண்ட் செய்தியிடல்.\n\n மூலம் திறந்த மூல:\n பயன்பாட்டின் மூலக் குறியீடு தணிக்கை மற்றும் பங்களிப்புக்கு பொதுவில் கிடைக்கிறது.";
-"Patch level: %@" = "Patch level: %@";
-"This can be used to export logfiles." = "This can be used to export logfiles.";

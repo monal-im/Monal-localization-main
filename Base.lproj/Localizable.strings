@@ -233,6 +233,7 @@
 /* Message autdelete time */
 "Custom" = "Custom";
 "Custom Time: " = "Custom Time: ";
+"DNSSEC bug in iOS/macOS" = "DNSSEC bug in iOS/macOS";
 "Database Export Failed" = "Database Export Failed";
 "Database Files" = "Database Files";
 "Debug" = "Debug";
@@ -746,6 +747,7 @@
 "Unblocking user for this group/channel: %@" = "Unblocking user for this group/channel: %@";
 "Understood" = "Understood";
 "Unexpected error processing your request." = "Unexpected error processing your request.";
+"Unfortunately iOS (and probably also macOS) has a bug that stops DNSSEC from working at all. You can read more about this at https://monal-im.org/dnssec. You'll have to turn of DNSSEC in the settings to make sure you can connect to your XMPP server until Apple fixes this bug." = "Unfortunately iOS (and probably also macOS) has a bug that stops DNSSEC from working at all. You can read more about this at https://monal-im.org/dnssec. You'll have to turn of DNSSEC in the settings to make sure you can connect to your XMPP server until Apple fixes this bug.";
 "Unknown authentication method" = "Unknown authentication method";
 "Unknown channel-binding type" = "Unknown channel-binding type";
 "Unknown error!" = "Unknown error!";

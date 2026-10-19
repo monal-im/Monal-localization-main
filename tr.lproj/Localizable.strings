@@ -403,6 +403,7 @@
 "Display Only Placeholder" = "Yalnızca Yer Tutucuyu Görüntüle";
 /* quicksy country */
 "Djibouti" = "Cibuti";
+"DNSSEC bug in iOS/macOS" = "DNSSEC bug in iOS/macOS";
 "Do you really want to block this contact? You won't receive any messages from this contact." = "Bu kişiyi gerçekten engellemek istiyor musunuz? Bu kişiden herhangi bir ileti almazsınız.";
 "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "Bu görüşmede gönderilen tüm mesajları gerçekten silmek istiyor musunuz? OMEMO kullanıyorsanız, onları tekrar sunucunuzdan yükleyemezsiniz.";
 "Do you really want to delete this key?" = "Bu anahtarı gerçekten silmek istiyor musunuz?";
@@ -933,6 +934,7 @@
 "Password cannot be empty" = "Şifre boş bırakılamaz";
 "Password missing" = "Parola eksik";
 "Passwords don't match!" = "Şifreler eşleşmiyor!";
+"Patch level: %@" = "Yama düzeyi: %@";
 "Permission Requested" = "İzin İstendi";
 /* quicksy country */
 "Peru" = "Peru";
@@ -1239,6 +1241,7 @@
 "This account already exists on this instance" = "Bu hesap zaten bu örnekte var";
 "This account already exists on this instance." = "Bu hesap, bu örnekte zaten var.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Bu uygulama çok eski ve güvenlik açıkları içerebilir veya aniden çalışmayı durdurabilir. Lütfen güncelleyin!";
+"This can be used to export logfiles." = "Bu, günlük dosyalarını dışa aktarmak için kullanılabilir.";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Bu, günlük dosyalarını dışa aktarmak için kullanılabilir.\n[Nasıl okunacağını öğrenin](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "Bu kişide şifrelemeyi destekleyen herhangi bir cihaz görünmüyor, bunun yanlış olduğunu düşünüyorsanız lütfen daha sonra tekrar deneyin.";
 "This contact is already in the contact list of the selected account" = "Bu kişi zaten seçilen hesabın kişi listesinde yer alıyor";
@@ -1338,6 +1341,7 @@
 "Unexpected mam preferences result" = "Beklenmeyen mesaj arşiv tercihleri sonucu";
 "Unexpected server response: invalid PEP config form" = "Beklenmeyen sunucu yanıtı: geçersiz PEP yapılandırması";
 "Unexpected server response: missing required fields in PEP config form" = "Beklenmeyen sunucu yanıtı: PEP yapılandırmasında gerekli alanlar eksik";
+"Unfortunately iOS (and probably also macOS) has a bug that stops DNSSEC from working at all. You can read more about this at https://monal-im.org/dnssec. You'll have to turn of DNSSEC in the settings to make sure you can connect to your XMPP server until Apple fixes this bug." = "Unfortunately iOS (and probably also macOS) has a bug that stops DNSSEC from working at all. You can read more about this at https://monal-im.org/dnssec. You'll have to turn of DNSSEC in the settings to make sure you can connect to your XMPP server until Apple fixes this bug.";
 /* quicksy country */
 "United Arab Emirates" = "Birleşik Arap Emirlikleri";
 /* quicksy country */
@@ -1499,5 +1503,3 @@
 "📷 An Image" = "📷 Bir Resim";
 "🔗 A Link" = "🔗 Bir Bağlantı";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Merkezi Olmayan Ağ :\nXMPP'nin merkezi olmayan doğasından yararlanarak merkezi sunuculardan kaçınır ve dijital egemenliğinizi artırır.\n\n🌐 Veri gizliliği :\nHarici taraflar için (veya başkası için) bilgi satmıyor veya takip etmiyoruz.\n\n🔐 Uçtan uca şifreleme :\nOMEMO protokolünü kullanarak güvenli çok uçlu mesajlaşma.\n\n👨‍💻 Açık Kaynak :\nUygulamanın kaynak kodu denetim ve katkı için herkese açıktır.";
-"Patch level: %@" = "Yama düzeyi: %@";
-"This can be used to export logfiles." = "Bu, günlük dosyalarını dışa aktarmak için kullanılabilir.";

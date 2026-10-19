@@ -403,6 +403,7 @@
 "Display Only Placeholder" = "No mostrar información";
 /* quicksy country */
 "Djibouti" = "Yibuti";
+"DNSSEC bug in iOS/macOS" = "DNSSEC bug in iOS/macOS";
 "Do you really want to block this contact? You won't receive any messages from this contact." = "¿Realmente quiere bloquear este contacto? No volverá a recibir un mensaje más de él.";
 "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "¿Realmente deseas eliminar todos los mensajes intercambiados en esta conversación? Si usa OMEMO, ni siquiera podrá recuperarlos desde su servidor.";
 "Do you really want to delete this key?" = "¿Realmente quiere eliminar esta clave?";
@@ -933,6 +934,7 @@
 "Password cannot be empty" = "La contraseña no puede estar vacía";
 "Password missing" = "Falta la contraseña";
 "Passwords don't match!" = "¡Las contraseñas no coinciden!";
+"Patch level: %@" = "Patch level: %@";
 "Permission Requested" = "Permiso requerido";
 /* quicksy country */
 "Peru" = "Perú";
@@ -1239,6 +1241,7 @@
 "This account already exists on this instance" = "Esta cuenta ya existe en esta instancia";
 "This account already exists on this instance." = "Esta cuenta ya existe en esta instancia.";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "La aplicación es demasiado antigua y puede contener fallos de seguridad o de dejar de operar de forma repentina. ¡Por favor actualizar!";
+"This can be used to export logfiles." = "This can be used to export logfiles.";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Puede utilizar esto para exportar los archivos de registro.\n[Aprenda a leerlos](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "Este contacto parece no tener ningún dispositivo que soporte encriptación, por favor intente nuevamente en unos momentos si cree que existe un error.";
 "This contact is already in the contact list of the selected account" = "Este contacto ya está en la lista de contactos de la cuenta seleccionada";
@@ -1338,6 +1341,7 @@
 "Unexpected mam preferences result" = "Resultado inesperado de las preferencias mam";
 "Unexpected server response: invalid PEP config form" = "Respuesta inesperada del servidor: formulario de configuración de PEP no válido";
 "Unexpected server response: missing required fields in PEP config form" = "Respuesta inesperada del servidor: faltan campos obligatorios en el formulario de configuración de PEP";
+"Unfortunately iOS (and probably also macOS) has a bug that stops DNSSEC from working at all. You can read more about this at https://monal-im.org/dnssec. You'll have to turn of DNSSEC in the settings to make sure you can connect to your XMPP server until Apple fixes this bug." = "Unfortunately iOS (and probably also macOS) has a bug that stops DNSSEC from working at all. You can read more about this at https://monal-im.org/dnssec. You'll have to turn of DNSSEC in the settings to make sure you can connect to your XMPP server until Apple fixes this bug.";
 /* quicksy country */
 "United Arab Emirates" = "Emiratos Árabes Unidos";
 /* quicksy country */
@@ -1499,5 +1503,3 @@
 "📷 An Image" = "📷 Una imagen";
 "🔗 A Link" = "🔗 Un enlace";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 Red descentralizada :\nSaca el mejor provecho de la naturaleza descentralizada de XMPP, evitando los servidores centralizados e incrementando su soberanía digital.\n\n🌐 Privacidad de datos :\nNo vendemos ni rastreamos información para terceros (ni para nadie más).\n\n🔐 Encriptación extremo-a-extremo :\nMensajería segura para destinatarios múltiples usando el protocolo OMEMO.\n\n👨‍💻 Código abierto :\nEl código fuente de la aplicación se encuentra disponible al público para auditoría y contribuciones.";
-"Patch level: %@" = "Patch level: %@";
-"This can be used to export logfiles." = "This can be used to export logfiles.";

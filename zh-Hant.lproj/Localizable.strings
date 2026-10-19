@@ -403,6 +403,7 @@
 "Display Only Placeholder" = "僅顯示提示訊息";
 /* quicksy country */
 "Djibouti" = "吉布地";
+"DNSSEC bug in iOS/macOS" = "DNSSEC bug in iOS/macOS";
 "Do you really want to block this contact? You won't receive any messages from this contact." = "您真的要封鎖此聯絡人嗎？您不會收到來自此聯絡人的任何訊息。";
 "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "您真的要清空此對話中交換的所有訊息嗎？如果使用 OMEMO，您甚至無法再次從伺服器載入它們。";
 "Do you really want to delete this key?" = "是否確實要刪除此金鑰？";
@@ -933,6 +934,7 @@
 "Password cannot be empty" = "密碼無法為空";
 "Password missing" = "密碼缺失";
 "Passwords don't match!" = "密碼不匹配！";
+"Patch level: %@" = "Patch level: %@";
 "Permission Requested" = "許可需求";
 /* quicksy country */
 "Peru" = "秘魯";
@@ -1239,6 +1241,7 @@
 "This account already exists on this instance" = "此帳戶已存在於此實例中";
 "This account already exists on this instance." = "此實例上已存在此帳戶。";
 "This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "這個應用程式太舊了，可能包含安全錯誤以及突然停止運行。請升級！";
+"This can be used to export logfiles." = "This can be used to export logfiles.";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "這可用於匯出日誌檔。\n[瞭解如何閱讀它們]（https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log）。";
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "此聯絡人似乎沒有任何支援加密的裝置，如果您認為這是錯誤的，請稍後重試。";
 "This contact is already in the contact list of the selected account" = "此聯絡人已在所選客戶的聯絡人清單中";
@@ -1338,6 +1341,7 @@
 "Unexpected mam preferences result" = "無預期的 mam 偏好結果";
 "Unexpected server response: invalid PEP config form" = "意外的伺服器回應：無效的 PEP 配置表單";
 "Unexpected server response: missing required fields in PEP config form" = "意外的伺服器回應：PEP 配置表單中缺少必填欄位";
+"Unfortunately iOS (and probably also macOS) has a bug that stops DNSSEC from working at all. You can read more about this at https://monal-im.org/dnssec. You'll have to turn of DNSSEC in the settings to make sure you can connect to your XMPP server until Apple fixes this bug." = "Unfortunately iOS (and probably also macOS) has a bug that stops DNSSEC from working at all. You can read more about this at https://monal-im.org/dnssec. You'll have to turn of DNSSEC in the settings to make sure you can connect to your XMPP server until Apple fixes this bug.";
 /* quicksy country */
 "United Arab Emirates" = "阿拉伯聯合大陸";
 /* quicksy country */
@@ -1499,5 +1503,3 @@
 "📷 An Image" = "📷 一個圖像";
 "🔗 A Link" = "🔗 一個連結";
 "🛜 Decentralized Network :\nLeverages the decentralized nature of XMPP, avoiding central servers and increasing your digital sovereignty.\n\n🌐 Data privacy :\nWe do not sell or track information for external parties (nor for anyone else).\n\n🔐 End-to-end encryption :\nSecure multi-end messaging using the OMEMO protocol.\n\n👨‍💻 Open Source :\nThe app's source code is publicly available for audit and contribution." = "🛜 去中心化網路 ：\n利用 XMPP 的去中心化特性，避免使用中央伺服器並增加您的數字主權。\n\n🌐 資料隱私 ：\n我們不會為外部各方（或其他任何人）出售或跟蹤資訊。\n\n🔐 端到端加密 ：\n使用 OMEMO 協議進行安全的多端訊息傳遞。\n\n👨 💻 開源：\n應用程式的原始碼是公開的，以供審計和貢獻。";
-"Patch level: %@" = "Patch level: %@";
-"This can be used to export logfiles." = "This can be used to export logfiles.";
