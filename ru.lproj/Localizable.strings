@@ -5,7 +5,7 @@
 "%@" = "%@";
 "%@ (%@)" = "%@ (%@)";
 "%@ (affiliation: %@)" = "%@ (статус: %@)";
-"%@ (type '%@', category '%@')" = "%1$@ (тип '%2$@', категория '%3$@')";
+"%@ (type '%@', category '%@')" = "%@ (тип «%@», категория «%@»)";
 "%@ hours" = "%@ часов";
 "%@ says:" = "%@ говорит:";
 "%@: " = "%@: ";
@@ -238,7 +238,7 @@
 "Canada" = "Канада";
 "Cancel" = "Отмена";
 "Cancel?" = "Отменить?";
-"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Нет возможности поделиться с пользователем с отключенной/удалённой учётной записью, адресат: %1$@, внутренний идентификатор учётной записи: %2$@";
+"Cannot share something with disabled/deleted account, destination: %@, internal account id: %@" = "Нет возможности поделиться с пользователем с отключённой/удалённой учётной записью, адресат: %@, внутренний идентификатор учётной записи: %@";
 /* quicksy country */
 "Cape Verde" = "Кабо-Верде";
 "Caps hash: %@" = "Контрольная сумма: %@";
@@ -403,7 +403,7 @@
 "Display Only Placeholder" = "Отображать только факт наличия уведомления";
 /* quicksy country */
 "Djibouti" = "Джибути";
-"DNSSEC bug in iOS/macOS" = "DNSSEC bug in iOS/macOS";
+"DNSSEC bug in iOS/macOS" = "Ошибка DNSSEC в iOS/macOS";
 "Do you really want to block this contact? You won't receive any messages from this contact." = "Вы действительно хотите заблокировать этот контакт? Вам не будут доставляться его сообщения.";
 "Do you really want to clear all messages exchanged in this conversation? If using OMEMO you won't even be able to load them from your server again." = "Вы действительно хотите удалить все сообщения этой переписки? При использовании OMEMO вы не сможете снова загрузить их с вашего сервера.";
 "Do you really want to delete this key?" = "Вы действительно хотите удалить этот ключ?";
@@ -732,7 +732,7 @@
 "Loading Data" = "Загрузка данных";
 "Loading more Messages from Server" = "Загрузка дополнительных сообщений с сервера";
 "Loading omemo bundles" = "Загрузка OMEMO блоков";
-"Loading omemo bundles: %@ / %@" = "Загрузка OMEMO блоков: %1$@ / %2$@";
+"Loading omemo bundles: %@ / %@" = "Загрузка OMEMO блоков: %@ / %@";
 "Loading OMEMO keys" = "Загрузка OMEMO ключей";
 "Location Access Needed" = "Требуется доступ к местоположению";
 "Log in to your existing account or register a new account. If required you will find more advanced options in Monal settings." = "Войдите в существующую учётную запись или создайте новую. В случае необходимости, можно обратиться к расширенному набору опций в настройках Monal.";
@@ -934,7 +934,7 @@
 "Password cannot be empty" = "Пароль не может быть пустым";
 "Password missing" = "Отсутствует пароль";
 "Passwords don't match!" = "Пароли не совпадают.";
-"Patch level: %@" = "Patch level: %@";
+"Patch level: %@" = "Уровень патча: %@";
 "Permission Requested" = "Требуется разрешение";
 /* quicksy country */
 "Peru" = "Перу";
@@ -956,11 +956,11 @@
 "Please make sure you have entered the same password in both password fields." = "Пожалуйста, убедитесь что вы ввели один и тот же пароль в обоих полях.";
 "Please provide a valid XMPP server domain or select one." = "Пожалуйста, введите корректное доменное имя XMPP сервера или выберите из предложенных.";
 "Please select a XMPP server or provide one." = "Пожалуйста, выберите XMPP сервер или введите свой.";
-"Please update!" = "Пожалуйста, обновите.";
+"Please update!" = "Пожалуйста, обновите!";
 /* quicksy country */
 "Poland" = "Польша";
 "Port" = "Порт";
-"Port: %@, Direct TLS: %@, Priority: %@" = "Порт: %1$@, Прямой TLS: %2$@, Приоритет: %3$@";
+"Port: %@, Direct TLS: %@, Priority: %@" = "Порт: %@, Прямой TLS: %@, Приоритет: %@";
 /* quicksy country */
 "Portugal" = "Португалия";
 "Preferences..." = "Предпочтения...";
@@ -1240,8 +1240,8 @@
 "This account already exists in Monal." = "Эта учётная запись уже есть в Monal.";
 "This account already exists on this instance" = "Эта учётная запись уже присутствует в этом клиенте";
 "This account already exists on this instance." = "Данная учётная запись уже есть в этом клиенте.";
-"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Эта версия приложения устарела, она может как иметь проблемы с безопасностью, так и нестабильно работать. Пожалуйста, обновите приложение.";
-"This can be used to export logfiles." = "This can be used to export logfiles.";
+"This app is too old and can contain security bugs as well as suddenly cease operation. Please Upgrade!" = "Эта версия приложения устарела, она может как иметь проблемы с безопасностью, так и нестабильно работать. Пожалуйста, обновите приложение!";
+"This can be used to export logfiles." = "Это можно использовать для экспорта файлов журналов.";
 "This can be used to export logfiles.\n[Learn how to read them](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log)." = "Информация по выгрузке лог-файлов.\n[Узнайте как просматривать лог-файлы](https://github.com/monal-im/Monal/wiki/Introduction-to-Monal-Logging#view-the-log).";
 "This contact does not appear to have any devices that support encryption, please try again later if you think this is wrong." = "У этого контакта нет устройств, поддерживающих шифрование. Попробуйте позже, если считаете, что это не так.";
 "This contact is already in the contact list of the selected account" = "Этот контакт уже присутствует в списке контактов выбранной учётной записи";
@@ -1261,7 +1261,7 @@
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nBut since you did not manually verify the callee's OMEMO fingerprints, your or the callee's XMPP server could possibly have inserted their own OMEMO keys to Man-In-The-Middle you." = "Означает, что голосовые данные шифруются и собеседник верифицирован с использованием OMEMO.\nНо, поскольку вы не сверяли отпечатки OMEMO ключей с собеседником, ваш XMPP сервер или сервер собеседника имеет возможность подменить OMEMO ключи и реализовать кибератаку по типу Man-In-The-Middle (MITM).";
 "This means your call is encrypted and the remote party was verified using OMEMO encryption.\nYou manually verified the used OMEMO keys and no Man-In-The-Middle can take place." = "Означает, что голосовые данные шифруются и собеседник верифицирован с использованием OMEMO.\nВы визуально сверяли отпечатки OMEMO ключей с собеседником, поэтому кибератака по типу Man-In-The-Middle (MITM) не реализуема.";
 "This means your call is encrypted, but the remote party could not be verified using OMEMO encryption.\nYour or the callee's XMPP server could possibly Man-In-The-Middle you." = "Означает, что голосовые данные шифруются, но возможность верифицировать собеседника через OMEMO отсутствует.\nВаш XMPP сервер или сервер собеседника имеет возможность реализовать кибератаку по типу Man-In-The-Middle (MITM).";
-"This message failed to send (%@): %@" = "Не удалось отправить это сообщение (%1$@): %2$@";
+"This message failed to send (%@): %@" = "Не удалось отправить это сообщение (%@): %@";
 "This message got retracted" = "Это сообщение удалено";
 "This phone number is currently logged in with another device." = "Этот номер телефона сейчас используется с другого устройства.";
 "This server does not appear to support HTTP file uploads (XEP-0363). Please ask the administrator to enable it." = "Похоже, что этот сервер не поддерживает приём файлов по HTTP (XEP-0363). Пожалуйста, попросите системного администратора активировать эту возможность.";
@@ -1341,7 +1341,7 @@
 "Unexpected mam preferences result" = "Получены непредусмотренные настройки управления архивом сообщений (MAM)";
 "Unexpected server response: invalid PEP config form" = "Неожиданный ответ сервера: некорректная форма конфигурации Протокола персональных событий (PEP)";
 "Unexpected server response: missing required fields in PEP config form" = "Неожиданный ответ сервера: в форме конфигурации Протокола персональных событий (PEP) пропущены обязательные поля";
-"Unfortunately iOS (and probably also macOS) has a bug that stops DNSSEC from working at all. You can read more about this at https://monal-im.org/dnssec. You'll have to turn of DNSSEC in the settings to make sure you can connect to your XMPP server until Apple fixes this bug." = "Unfortunately iOS (and probably also macOS) has a bug that stops DNSSEC from working at all. You can read more about this at https://monal-im.org/dnssec. You'll have to turn of DNSSEC in the settings to make sure you can connect to your XMPP server until Apple fixes this bug.";
+"Unfortunately iOS (and probably also macOS) has a bug that stops DNSSEC from working at all. You can read more about this at https://monal-im.org/dnssec. You'll have to turn of DNSSEC in the settings to make sure you can connect to your XMPP server until Apple fixes this bug." = "К сожалению, в iOS (а вероятно, и в macOS) есть ошибка, из-за которой DNSSEC вообще не работает. Подробнее об этом можно прочитать на https://monal-im.org/dnssec. Вам придётся отключить DNSSEC в настройках, чтобы обеспечить подключение к вашему серверу XMPP, пока Apple не исправит эту ошибку.";
 /* quicksy country */
 "United Arab Emirates" = "Объединенные Арабские Эмираты";
 /* quicksy country */
@@ -1392,7 +1392,7 @@
 "Verify your phone number" = "Подтвердите ваш номер телефона";
 "Version" = "Версия";
 /* server details */
-"version %@%@" = "версия %1$@%2$@";
+"version %@%@" = "версия %@%@";
 "Very old app version" = "Устаревшая версия приложения";
 /* quicksy country */
 "Viet Nam" = "Вьетнам";
